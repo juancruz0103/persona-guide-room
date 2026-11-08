@@ -1,0 +1,19 @@
+.footer {
+  border-top: 2px solid var(--c-primary);
+  background: #070707;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  padding-block: 32px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--c-text-dim);
+}
+
+.inner p {
+  margin: 0;
+}

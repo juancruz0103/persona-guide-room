@@ -1,0 +1,29 @@
+.band {
+  background: var(--c-primary);
+  clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-block: 44px 72px;
+}
+
+.title {
+  font-size: clamp(44px, 7vw, 72px);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tab {
+  min-height: 46px;
+  font-size: 19px;
+  clip-path: var(--slant-tab);
+}

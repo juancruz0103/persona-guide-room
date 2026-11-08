@@ -1,0 +1,83 @@
+.panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 50;
+  width: min(380px, 100vw);
+  background: var(--c-surface);
+  border-right: 4px solid var(--c-primary);
+  border-bottom: 4px solid var(--c-primary);
+  box-shadow: 12px 12px 0 rgba(0, 0, 0, 0.6);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  animation: drop 0.22s var(--ease);
+}
+
+@keyframes drop {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 56px;
+  padding: 0 18px;
+  background: #1e1e1e;
+  color: #8a8a84;
+  text-decoration: none;
+  clip-path: polygon(3% 0, 100% 0, 97% 100%, 0 100%);
+}
+
+.current {
+  background: var(--c-primary);
+  color: var(--c-text);
+}
+.current:hover {
+  color: var(--c-text);
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--f-display);
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.swatch {
+  width: 12px;
+  height: 12px;
+  flex: none;
+}
+
+.tagCurrent {
+  background: var(--c-ink);
+  color: var(--c-text);
+}
+
+.note {
+  margin: 0;
+  font-size: 14px;
+  color: var(--c-text-dim);
+}

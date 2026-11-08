@@ -1,0 +1,144 @@
+.fuse {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding-block: 16px 64px;
+}
+
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.check input {
+  accent-color: var(--c-primary);
+  width: 20px;
+  height: 20px;
+}
+
+.equation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.slot {
+  flex: 1 1 260px;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.select {
+  min-height: 50px;
+  padding: 0 14px;
+  background: var(--c-surface);
+  border: 2px solid var(--c-line);
+  font-size: 17px;
+  width: 100%;
+}
+.select:focus {
+  border-color: var(--c-accent);
+}
+
+.slotImage {
+  height: 220px;
+  border: 2px solid var(--c-text);
+}
+
+.op {
+  font-family: var(--f-display);
+  font-size: 72px;
+  color: var(--c-primary);
+}
+.eq {
+  color: var(--c-accent);
+}
+
+.result {
+  min-height: 272px;
+  background: var(--c-surface);
+  border: 3px dashed var(--c-accent);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: center;
+  color: var(--c-text-muted);
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 88% 100%, 0 100%);
+}
+.result small {
+  color: #8a8a84;
+  font-size: 13px;
+}
+.q {
+  font-family: var(--f-display);
+  font-size: 40px;
+  color: var(--c-accent);
+}
+
+.reverse {
+  background: var(--c-surface);
+  border-top: 4px solid var(--c-primary);
+  padding-block: 48px 72px;
+  scroll-margin-top: 90px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 480px;
+  margin-bottom: 22px;
+}
+.search .select {
+  background: var(--c-bg);
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+.table th {
+  text-align: left;
+  padding: 14px 16px;
+  background: var(--c-bg);
+  font-family: var(--f-label);
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.table td {
+  padding: 22px 16px;
+  color: var(--c-text-dim);
+  border-bottom: 1px solid #2a2a2a;
+}
+
+@media (max-width: 640px) {
+  .op {
+    font-size: 48px;
+  }
+  .slot {
+    max-width: none;
+  }
+}

@@ -1,0 +1,110 @@
+/**
+ * Modelo de datos de Persona 5 Royal.
+ * Esquema definido en docs/ETAPA-1-informe.md (sección 3.3).
+ */
+
+export type ArcanaId =
+  | 'fool' | 'magician' | 'priestess' | 'empress' | 'emperor' | 'hierophant'
+  | 'lovers' | 'chariot' | 'justice' | 'hermit' | 'fortune' | 'strength'
+  | 'hanged' | 'death' | 'temperance' | 'devil' | 'tower' | 'star' | 'moon'
+  | 'sun' | 'judgement' | 'faith' | 'councillor' | 'world';
+
+/** Los 10 elementos que tienen afinidad (resistencias/debilidades). */
+export type ResistElement =
+  | 'phy' | 'gun' | 'fir' | 'ice' | 'ele' | 'win' | 'psy' | 'nuk' | 'ble' | 'cur';
+
+/** Todos los tipos de skill: los 10 de arriba + los que no tienen afinidad. */
+export type SkillElement = ResistElement | 'alm' | 'ail' | 'rec' | 'sup' | 'pas';
+
+export type Affinity = 'weak' | 'neutral' | 'resist' | 'null' | 'repel' | 'drain';
+
+export interface PersonaSkill {
+  skill: string;
+  /** null = skill inicial */
+  level: number | null;
+}
+
+export type UnlockCondition =
+  | { type: 'confidant'; arcana: ArcanaId; rank: number }
+  | { type: 'story'; detail: string }
+  | { type: 'dlc'; pack: string }
+  | { type: 'treasure'; detail: string };
+
+export interface Persona {
+  id: string;
+  name: string;
+  arcana: ArcanaId;
+  level: number;
+  flags: { dlc: boolean; treasure: boolean; special: boolean; picaro: boolean };
+  /** Ingredientes fijos si es una fusión especial */
+  specialRecipe: string[] | null;
+  unlock: UnlockCondition | null;
+  resistances: Record<ResistElement, Affinity>;
+  /** null = todavía no cargado (se completa en la Etapa 3) */
+  stats: { st: number; ma: number; en: number; ag: number; lu: number } | null;
+  skills: PersonaSkill[] | null;
+  inheritance: SkillElement | null;
+  trait: string | null;
+  itemization: string | null;
+  image: string | null;
+}
+
+export interface SkillInfo {
+  name: string;
+  element: SkillElement;
+  target: 'one' | 'all' | 'self' | 'party' | null;
+  /** Estado alterado que puede causar (clave de AILMENTS) */
+  ailment: AilmentId | null;
+}
+
+export type AilmentId =
+  | 'burn' | 'freeze' | 'shock' | 'dizzy' | 'sleep' | 'forget'
+  | 'confuse' | 'fear' | 'despair' | 'rage' | 'brainwash';
+
+export interface TechnicalRule {
+  ailment: AilmentId;
+  /** 'any' = cualquier elemento */
+  base: (ResistElement | 'any')[];
+  /** Combinaciones extra al leer "Knowing the Heart" (solo Royal) */
+  knowingTheHeart: ResistElement[];
+}
+
+/* ---------- Confidentes ---------- */
+
+export interface DialogueOption {
+  /** Texto en español (España). `provisional: true` si no es el texto oficial. */
+  es: string;
+  en: string;
+  points: number;
+}
+
+export interface Conversation {
+  kind: 'conversation' | 'phone';
+  royalOnly: boolean;
+  romance: boolean;
+  speaker: string;
+  prompt: { es: string; en: string };
+  options: DialogueOption[];
+}
+
+export interface ConfidantRank {
+  rank: number;
+  /** true cuando las respuestas no cambian los puntos */
+  choicesDontMatter?: boolean;
+  conversations: Conversation[];
+  unlocks: { name: string; description: string }[];
+}
+
+export interface Confidant {
+  id: string;
+  name: string;
+  arcana: ArcanaId;
+  phantomThief: boolean;
+  romance: boolean;
+  maxRank: number;
+  tips: string[];
+  /** Rangos cargados. Los que faltan se muestran como "pendiente". */
+  ranks: ConfidantRank[];
+  textsProvisional: boolean;
+  sources: string[];
+}

@@ -1,0 +1,11 @@
+[
+  { "id": "ryuji", "name": "Ryuji Sakamoto", "arcana": "chariot", "phantomThief": true, "romance": false, "hasGuide": true },
+  { "id": "morgana", "name": "Morgana", "arcana": "magician", "phantomThief": true, "romance": false, "hasGuide": false },
+  { "id": "ann", "name": "Ann Takamaki", "arcana": "lovers", "phantomThief": true, "romance": true, "hasGuide": false },
+  { "id": "yusuke", "name": "Yusuke Kitagawa", "arcana": "emperor", "phantomThief": true, "romance": false, "hasGuide": false },
+  { "id": "makoto", "name": "Makoto Niijima", "arcana": "priestess", "phantomThief": true, "romance": true, "hasGuide": false },
+  { "id": "futaba", "name": "Futaba Sakura", "arcana": "hermit", "phantomThief": true, "romance": true, "hasGuide": false },
+  { "id": "haru", "name": "Haru Okumura", "arcana": "empress", "phantomThief": true, "romance": true, "hasGuide": false },
+  { "id": "akechi", "name": "Goro Akechi", "arcana": "justice", "phantomThief": true, "romance": false, "hasGuide": false },
+  { "id": "kasumi", "name": "Kasumi Yoshizawa", "arcana": "faith", "phantomThief": true, "romance": true, "hasGuide": false }
+]

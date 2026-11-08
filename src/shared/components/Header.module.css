@@ -1,0 +1,131 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--c-bg);
+  border-bottom: 2px solid var(--c-primary);
+}
+
+.bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px 24px;
+  padding-block: 14px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.burger {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0;
+  background: var(--c-ink);
+  border: 2px solid var(--c-accent);
+  cursor: pointer;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+  transition: transform 0.2s var(--ease), background 0.2s;
+}
+.burger span {
+  display: block;
+  width: 24px;
+  height: 3px;
+  background: var(--c-text);
+  transform: skewX(-20deg);
+}
+.burger span:nth-child(2) {
+  width: 18px;
+}
+.burger:hover {
+  transform: scale(1.06) rotate(-3deg);
+}
+.burgerOpen {
+  background: var(--c-primary);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+.logoMark {
+  background: var(--c-primary);
+  color: var(--c-text);
+  font-family: var(--f-display);
+  font-size: 24px;
+  padding: 2px 12px;
+  transform: skewX(-12deg);
+}
+.logoText {
+  font-family: var(--f-display);
+  font-size: 22px;
+  letter-spacing: 0.04em;
+  color: var(--c-text);
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  gap: 26px;
+}
+
+.link {
+  color: var(--c-text);
+  text-decoration: none;
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 8px 2px;
+  border-bottom: 3px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+.link:hover,
+.active {
+  color: var(--c-accent);
+  border-color: var(--c-accent);
+}
+
+.gameBadge {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  border: 2px solid var(--c-accent);
+  color: var(--c-accent);
+  padding: 4px 12px;
+  transform: skewX(-12deg);
+}
+
+@media (max-width: 900px) {
+  .gameBadge {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .logoText {
+    font-size: 18px;
+  }
+  .nav {
+    order: 3;
+    width: 100%;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .link {
+    font-size: 16px;
+  }
+}

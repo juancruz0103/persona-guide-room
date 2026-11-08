@@ -1,0 +1,58 @@
+{
+  "id": "ryuji",
+  "name": "Ryuji Sakamoto",
+  "arcana": "chariot",
+  "phantomThief": true,
+  "romance": false,
+  "maxRank": 10,
+  "tips": ["Llevá una Persona de Arcana Chariot para ganar puntos extra."],
+  "textsProvisional": true,
+  "sources": ["https://www.rpgsite.net/feature/5471-persona-5-royal-ryuji-confidant-guide-chariot-choices-unlocks"],
+  "ranks": [
+    { "rank": 1, "choicesDontMatter": true, "conversations": [], "unlocks": [] },
+    {
+      "rank": 2,
+      "conversations": [
+        {
+          "kind": "conversation",
+          "royalOnly": false,
+          "romance": false,
+          "speaker": "Ryuji",
+          "prompt": { "es": "Quizá así pueda echar una mano un poco más.", "en": "Maybe then I'll be able to help out a little more." },
+          "options": [
+            { "es": "Cuento contigo.", "en": "I'm counting on you.", "points": 3 },
+            { "es": "Se te ve muy motivado.", "en": "You seem pretty excited.", "points": 3 },
+            { "es": "...¿Echar una mano con qué?", "en": "...help with what?", "points": 2 }
+          ]
+        },
+        {
+          "kind": "conversation",
+          "royalOnly": false,
+          "romance": false,
+          "speaker": "Ryuji",
+          "prompt": { "es": "......", "en": "......" },
+          "options": [
+            { "es": "¿Quieres volver?", "en": "Do you want to go back?", "points": 2 },
+            { "es": "¿Te arrepientes?", "en": "Do you regret it?", "points": 2 }
+          ]
+        },
+        {
+          "kind": "phone",
+          "royalOnly": true,
+          "romance": false,
+          "speaker": "Ryuji",
+          "prompt": { "es": "Debería haber seguido corriendo.", "en": "I should've kept up my running." },
+          "options": [
+            { "es": "Ya eres bastante rápido.", "en": "You're already fast enough.", "points": 2 },
+            { "es": "¿Tus piernas están bien?", "en": "Are your legs okay?", "points": 2 },
+            { "es": "Nunca es tarde, tío.", "en": "It's never too late, man.", "points": 2 }
+          ]
+        }
+      ],
+      "unlocks": [
+        { "name": "Baton Pass", "description": "Después de un 1 More, Ryuji puede pasarle el turno a otro compañero que también tenga Baton Pass." }
+      ]
+    },
+    { "rank": 10, "choicesDontMatter": true, "conversations": [], "unlocks": [] }
+  ]
+}

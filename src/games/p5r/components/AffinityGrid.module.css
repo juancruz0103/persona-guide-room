@@ -1,0 +1,79 @@
+.grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: 8px;
+}
+
+.cell {
+  background: var(--c-surface);
+  padding: 18px 8px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
+  transition: transform 0.18s var(--ease);
+}
+.cell:hover {
+  transform: translateY(-4px) scale(1.04);
+}
+
+.value {
+  font-family: var(--f-display);
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  min-width: 72px;
+  text-align: center;
+}
+
+.weak {
+  background: var(--c-primary);
+  color: var(--c-text);
+}
+.resist {
+  background: var(--c-paper);
+  color: var(--c-ink);
+}
+.null {
+  background: #6a6a64;
+  color: var(--c-text);
+}
+.repel {
+  background: var(--c-royal);
+  color: var(--c-ink);
+}
+.drain {
+  background: var(--c-accent);
+  color: var(--c-ink);
+}
+.neutral {
+  background: #262626;
+  color: var(--c-text-dim);
+}
+
+.legend {
+  margin-top: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  font-size: 14px;
+  color: var(--c-text-muted);
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.swatch {
+  width: 14px;
+  height: 14px;
+  padding: 0;
+  min-width: 0;
+}

@@ -1,0 +1,9 @@
+{
+  "Mabufudyne": { "name": "Mabufudyne", "element": "ice", "target": "all", "ailment": "freeze" },
+  "Megaton Raid": { "name": "Megaton Raid", "element": "phy", "target": "one", "ailment": null },
+  "Enduring Soul": { "name": "Enduring Soul", "element": "pas", "target": null, "ailment": null },
+  "Flash Bomb": { "name": "Flash Bomb", "element": "phy", "target": "all", "ailment": "dizzy" },
+  "Ailment Boost": { "name": "Ailment Boost", "element": "pas", "target": null, "ailment": null },
+  "Drain Phys": { "name": "Drain Phys", "element": "pas", "target": null, "ailment": null },
+  "Gigantomachia": { "name": "Gigantomachia", "element": "phy", "target": "all", "ailment": null }
+}
