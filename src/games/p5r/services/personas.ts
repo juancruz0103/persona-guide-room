@@ -1,17 +1,14 @@
 import type { ArcanaId, Persona, SkillInfo } from '../types';
-import personasJson from '../data/personas.sample.json';
-import skillsJson from '../data/skills.sample.json';
+import personasJson from '../data/generated/personas.json';
+import skillsJson from '../data/generated/skills.json';
 import { ARCANAS } from '../data/arcana';
 
 /**
- * Acceso a los datos de Personas.
- * Hoy lee una muestra; en la Etapa 3 este archivo pasa a leer el compendio
- * completo sin que las pantallas tengan que cambiar.
+ * Acceso a los datos de Personas (compendio completo de P5R).
+ * Los JSON se generan con scripts/import-aqiu384/import.mjs.
  */
-const PERSONAS = personasJson as Persona[];
-const SKILLS = skillsJson as Record<string, SkillInfo>;
-
-export const IS_SAMPLE_DATA = true;
+const PERSONAS = personasJson as unknown as Persona[];
+const SKILLS = skillsJson as unknown as Record<string, SkillInfo>;
 
 export function getAllPersonas(): Persona[] {
   return PERSONAS;

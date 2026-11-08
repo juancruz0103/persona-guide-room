@@ -46,20 +46,25 @@ export interface Persona {
   inheritance: SkillElement | null;
   trait: string | null;
   itemization: string | null;
+  /** Segunda itemización de la fuente ("itemr"). ⚠️ Significado sin confirmar: no se muestra. */
+  itemizationAlt?: string | null;
   image: string | null;
 }
 
 export interface SkillInfo {
   name: string;
-  element: SkillElement;
-  target: 'one' | 'all' | 'self' | 'party' | null;
+  /** 'tra' = rasgo (trait) */
+  element: SkillElement | 'tra';
+  target: 'one' | 'all' | 'ally' | 'party' | 'self' | 'everyone' | null;
   /** Estado alterado que puede causar (clave de AILMENTS) */
   ailment: AilmentId | null;
+  cost?: { type: 'sp' | 'hp'; value: number } | null;
+  power?: number | null;
 }
 
 export type AilmentId =
   | 'burn' | 'freeze' | 'shock' | 'dizzy' | 'sleep' | 'forget'
-  | 'confuse' | 'fear' | 'despair' | 'rage' | 'brainwash';
+  | 'confuse' | 'fear' | 'despair' | 'rage' | 'brainwash' | 'hunger';
 
 export interface TechnicalRule {
   ailment: AilmentId;

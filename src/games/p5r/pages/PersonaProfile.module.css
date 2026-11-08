@@ -173,9 +173,31 @@
   border: 2px dashed var(--c-accent);
 }
 
-.recipe {
+.recipeList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.recipeList li {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 19px;
+}
+.recipeList small {
+  display: block;
+  font-family: var(--f-body);
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--c-text-dim);
+}
+.countNum {
   font-family: var(--f-display);
-  font-size: 26px;
+  font-weight: 400;
+  font-size: 22px;
+  color: var(--c-accent);
 }
 .value {
   font-family: var(--f-label);

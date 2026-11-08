@@ -5,7 +5,6 @@ import { ARCANAS } from '../data/arcana';
 import type { ArcanaId } from '../types';
 import {
   DEFAULT_FILTERS,
-  IS_SAMPLE_DATA,
   filterPersonas,
   getAllPersonas,
   type CatalogFilters,
@@ -95,12 +94,6 @@ export default function Catalog() {
         </aside>
 
         <section className={styles.results} aria-live="polite">
-          {IS_SAMPLE_DATA && (
-            <p className={styles.sample}>
-              <span className="tag tag--dlc">Muestra</span> Por ahora se ven 14 Personas reales de ejemplo. El
-              compendio completo se carga en la Etapa 3.
-            </p>
-          )}
           <div className={styles.toolbar}>
             <span>
               Mostrando <strong>{list.length}</strong> Personas

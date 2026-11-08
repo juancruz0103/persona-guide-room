@@ -1,0 +1,3723 @@
+{
+ "Abysmal Surge": {
+  "name": "Abysmal Surge",
+  "element": "ail",
+  "target": "all",
+  "ailment": "despair",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Abyssal Eye": {
+  "name": "Abyssal Eye",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 50
+  },
+  "power": 220
+ },
+ "Abyssal Wings": {
+  "name": "Abyssal Wings",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": 210
+ },
+ "Adverse Resolve": {
+  "name": "Adverse Resolve",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Agi": {
+  "name": "Agi",
+  "element": "fir",
+  "target": "one",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40
+ },
+ "Agidyne": {
+  "name": "Agidyne",
+  "element": "fir",
+  "target": "one",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160
+ },
+ "Agilao": {
+  "name": "Agilao",
+  "element": "fir",
+  "target": "one",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100
+ },
+ "Agneyastra": {
+  "name": "Agneyastra",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 24
+  },
+  "power": 110
+ },
+ "Ailment Boost": {
+  "name": "Ailment Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Ailment Hunter": {
+  "name": "Ailment Hunter",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Akashic Arts": {
+  "name": "Akashic Arts",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 300
+ },
+ "Ali Dance": {
+  "name": "Ali Dance",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Almighty Boost": {
+  "name": "Almighty Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Ambient Aid": {
+  "name": "Ambient Aid",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Amrita Drop": {
+  "name": "Amrita Drop",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Amrita Shower": {
+  "name": "Amrita Shower",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null
+ },
+ "Angelic Grace": {
+  "name": "Angelic Grace",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Apt Pupil": {
+  "name": "Apt Pupil",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Arms Master": {
+  "name": "Arms Master",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Assault Dive": {
+  "name": "Assault Dive",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 13
+  },
+  "power": 130
+ },
+ "Atomic Bloodline": {
+  "name": "Atomic Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Atomic Flare": {
+  "name": "Atomic Flare",
+  "element": "nuk",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200
+ },
+ "Attack Master": {
+  "name": "Attack Master",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Auto-Maraku": {
+  "name": "Auto-Maraku",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Auto-Masuku": {
+  "name": "Auto-Masuku",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Auto-Mataru": {
+  "name": "Auto-Mataru",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Ayamur": {
+  "name": "Ayamur",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 100
+ },
+ "Bad Beat": {
+  "name": "Bad Beat",
+  "element": "phy",
+  "target": "all",
+  "ailment": "despair",
+  "cost": {
+   "type": "hp",
+   "value": 21
+  },
+  "power": 110
+ },
+ "Baisudi": {
+  "name": "Baisudi",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null
+ },
+ "Beast Weaver": {
+  "name": "Beast Weaver",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 1200
+ },
+ "Black Viper": {
+  "name": "Black Viper",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 230
+ },
+ "Blazing Hell": {
+  "name": "Blazing Hell",
+  "element": "fir",
+  "target": "all",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": 180
+ },
+ "Bless Amp": {
+  "name": "Bless Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Bless Boost": {
+  "name": "Bless Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Blessed Bloodline": {
+  "name": "Blessed Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Bloodbath": {
+  "name": "Bloodbath",
+  "element": "phy",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 120
+ },
+ "Bloodstained Eyes": {
+  "name": "Bloodstained Eyes",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Brain Buster": {
+  "name": "Brain Buster",
+  "element": "phy",
+  "target": "all",
+  "ailment": "brainwash",
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 120
+ },
+ "Brain Jack": {
+  "name": "Brain Jack",
+  "element": "ail",
+  "target": "all",
+  "ailment": "brainwash",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Brain Shake": {
+  "name": "Brain Shake",
+  "element": "phy",
+  "target": "one",
+  "ailment": "brainwash",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 80
+ },
+ "Brainwash Boost": {
+  "name": "Brainwash Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Brave Blade": {
+  "name": "Brave Blade",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 24
+  },
+  "power": 600
+ },
+ "Bufu": {
+  "name": "Bufu",
+  "element": "ice",
+  "target": "one",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40
+ },
+ "Bufudyne": {
+  "name": "Bufudyne",
+  "element": "ice",
+  "target": "one",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160
+ },
+ "Bufula": {
+  "name": "Bufula",
+  "element": "ice",
+  "target": "one",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100
+ },
+ "Burn Boost": {
+  "name": "Burn Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Cadenza": {
+  "name": "Cadenza",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Charge": {
+  "name": "Charge",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null
+ },
+ "Cleave": {
+  "name": "Cleave",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 6
+  },
+  "power": 65
+ },
+ "Climate Decorum": {
+  "name": "Climate Decorum",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Concentrate": {
+  "name": "Concentrate",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null
+ },
+ "Confuse Boost": {
+  "name": "Confuse Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Cornered Fang": {
+  "name": "Cornered Fang",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 225
+ },
+ "Cosmic Flare": {
+  "name": "Cosmic Flare",
+  "element": "nuk",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": 180
+ },
+ "Counter": {
+  "name": "Counter",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Counterstrike": {
+  "name": "Counterstrike",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Crisis Control": {
+  "name": "Crisis Control",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Cross Slash": {
+  "name": "Cross Slash",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 160
+ },
+ "Curse Amp": {
+  "name": "Curse Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Curse Boost": {
+  "name": "Curse Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Cursed Bloodline": {
+  "name": "Cursed Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dazzler": {
+  "name": "Dazzler",
+  "element": "ail",
+  "target": "one",
+  "ailment": "dizzy",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Deadly Fury": {
+  "name": "Deadly Fury",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 220
+ },
+ "Death Scythe": {
+  "name": "Death Scythe",
+  "element": "phy",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 300
+ },
+ "Deathbound": {
+  "name": "Deathbound",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 100
+ },
+ "Debilitate": {
+  "name": "Debilitate",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null
+ },
+ "Defense Master": {
+  "name": "Defense Master",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dekaja": {
+  "name": "Dekaja",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null
+ },
+ "Dekunda": {
+  "name": "Dekunda",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null
+ },
+ "Demonic Decree": {
+  "name": "Demonic Decree",
+  "element": "cur",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": null
+ },
+ "Despair Boost": {
+  "name": "Despair Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dia": {
+  "name": "Dia",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": 50
+ },
+ "Diamond Dust": {
+  "name": "Diamond Dust",
+  "element": "ice",
+  "target": "one",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200
+ },
+ "Diarahan": {
+  "name": "Diarahan",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Diarama": {
+  "name": "Diarama",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": 160
+ },
+ "Die For Me!": {
+  "name": "Die For Me!",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": null
+ },
+ "Divine Grace": {
+  "name": "Divine Grace",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Divine Judgement": {
+  "name": "Divine Judgement",
+  "element": "ble",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": null
+ },
+ "Dizzy Boost": {
+  "name": "Dizzy Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Bless": {
+  "name": "Dodge Bless",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Curse": {
+  "name": "Dodge Curse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Elec": {
+  "name": "Dodge Elec",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Fire": {
+  "name": "Dodge Fire",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Ice": {
+  "name": "Dodge Ice",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Nuke": {
+  "name": "Dodge Nuke",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Phys": {
+  "name": "Dodge Phys",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Psy": {
+  "name": "Dodge Psy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dodge Wind": {
+  "name": "Dodge Wind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Door of Hades": {
+  "name": "Door of Hades",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 32
+  },
+  "power": 160
+ },
+ "Dormin Rush": {
+  "name": "Dormin Rush",
+  "element": "phy",
+  "target": "all",
+  "ailment": "sleep",
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 80
+ },
+ "Dormina": {
+  "name": "Dormina",
+  "element": "ail",
+  "target": "one",
+  "ailment": "sleep",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Double Fangs": {
+  "name": "Double Fangs",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 40
+ },
+ "Double Shot": {
+  "name": "Double Shot",
+  "element": "gun",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 12
+  },
+  "power": 50
+ },
+ "Drain Bless": {
+  "name": "Drain Bless",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Curse": {
+  "name": "Drain Curse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Fire": {
+  "name": "Drain Fire",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Ice": {
+  "name": "Drain Ice",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Nuke": {
+  "name": "Drain Nuke",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Phys": {
+  "name": "Drain Phys",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Psy": {
+  "name": "Drain Psy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Drain Wind": {
+  "name": "Drain Wind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Dream Needle": {
+  "name": "Dream Needle",
+  "element": "gun",
+  "target": "one",
+  "ailment": "sleep",
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 70
+ },
+ "Eiga": {
+  "name": "Eiga",
+  "element": "cur",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 120
+ },
+ "Eigaon": {
+  "name": "Eigaon",
+  "element": "cur",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 190
+ },
+ "Eiha": {
+  "name": "Eiha",
+  "element": "cur",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 50
+ },
+ "Elec Amp": {
+  "name": "Elec Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Elec Boost": {
+  "name": "Elec Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Elec Break": {
+  "name": "Elec Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Elec Wall": {
+  "name": "Elec Wall",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Electric Bloodline": {
+  "name": "Electric Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Endure": {
+  "name": "Endure",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Enduring Soul": {
+  "name": "Enduring Soul",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Energy Drop": {
+  "name": "Energy Drop",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null
+ },
+ "Energy Shower": {
+  "name": "Energy Shower",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Evade Bless": {
+  "name": "Evade Bless",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Curse": {
+  "name": "Evade Curse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Elec": {
+  "name": "Evade Elec",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Fire": {
+  "name": "Evade Fire",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Ice": {
+  "name": "Evade Ice",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Nuke": {
+  "name": "Evade Nuke",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Phys": {
+  "name": "Evade Phys",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Psy": {
+  "name": "Evade Psy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evade Wind": {
+  "name": "Evade Wind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Evil Smile": {
+  "name": "Evil Smile",
+  "element": "ail",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Evil Touch": {
+  "name": "Evil Touch",
+  "element": "ail",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Fast Heal": {
+  "name": "Fast Heal",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Fear Boost": {
+  "name": "Fear Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Fire Amp": {
+  "name": "Fire Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Fire Boost": {
+  "name": "Fire Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Fire Break": {
+  "name": "Fire Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Fire Wall": {
+  "name": "Fire Wall",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Firm Stance": {
+  "name": "Firm Stance",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Flash Bomb": {
+  "name": "Flash Bomb",
+  "element": "phy",
+  "target": "all",
+  "ailment": "dizzy",
+  "cost": {
+   "type": "hp",
+   "value": 19
+  },
+  "power": 100
+ },
+ "Forget Boost": {
+  "name": "Forget Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Fortified Moxy": {
+  "name": "Fortified Moxy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Fortify Spirit": {
+  "name": "Fortify Spirit",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Foul Breath": {
+  "name": "Foul Breath",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Foul Stench": {
+  "name": "Foul Stench",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Freeze Boost": {
+  "name": "Freeze Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Frei": {
+  "name": "Frei",
+  "element": "nuk",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40
+ },
+ "Freidyne": {
+  "name": "Freidyne",
+  "element": "nuk",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160
+ },
+ "Freila": {
+  "name": "Freila",
+  "element": "nuk",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100
+ },
+ "Frigid Bloodline": {
+  "name": "Frigid Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Garu": {
+  "name": "Garu",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": 40
+ },
+ "Garudyne": {
+  "name": "Garudyne",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 160
+ },
+ "Garula": {
+  "name": "Garula",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": 100
+ },
+ "Gattling Blows": {
+  "name": "Gattling Blows",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 30
+ },
+ "Ghastly Wail": {
+  "name": "Ghastly Wail",
+  "element": "alm",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 28
+  },
+  "power": null
+ },
+ "Giant Slice": {
+  "name": "Giant Slice",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 90
+ },
+ "Gigantomachia": {
+  "name": "Gigantomachia",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 350
+ },
+ "Gluttonmouth": {
+  "name": "Gluttonmouth",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "God's Hand": {
+  "name": "God's Hand",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 800
+ },
+ "Growth 1": {
+  "name": "Growth 1",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Growth 2": {
+  "name": "Growth 2",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Growth 3": {
+  "name": "Growth 3",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Gun Amp": {
+  "name": "Gun Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Gun Boost": {
+  "name": "Gun Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Hama": {
+  "name": "Hama",
+  "element": "ble",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Hama Boost": {
+  "name": "Hama Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Hamaon": {
+  "name": "Hamaon",
+  "element": "ble",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null
+ },
+ "Hassou Tobi": {
+  "name": "Hassou Tobi",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 40
+ },
+ "Headbutt": {
+  "name": "Headbutt",
+  "element": "phy",
+  "target": "one",
+  "ailment": "forget",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 80
+ },
+ "Heat Riser": {
+  "name": "Heat Riser",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null
+ },
+ "Heat Up": {
+  "name": "Heat Up",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Heat Wave": {
+  "name": "Heat Wave",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 150
+ },
+ "Heated Bloodline": {
+  "name": "Heated Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "High Counter": {
+  "name": "High Counter",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Holy Benevolence": {
+  "name": "Holy Benevolence",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 27
+  },
+  "power": null
+ },
+ "Holy Embrace": {
+  "name": "Holy Embrace",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Holy Whisper": {
+  "name": "Holy Whisper",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Hysterical Slap": {
+  "name": "Hysterical Slap",
+  "element": "phy",
+  "target": "one",
+  "ailment": "rage",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 80
+ },
+ "Ice Age": {
+  "name": "Ice Age",
+  "element": "ice",
+  "target": "all",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": 180
+ },
+ "Ice Amp": {
+  "name": "Ice Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Ice Boost": {
+  "name": "Ice Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Ice Break": {
+  "name": "Ice Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Ice Wall": {
+  "name": "Ice Wall",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Immunity": {
+  "name": "Immunity",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Inferno": {
+  "name": "Inferno",
+  "element": "fir",
+  "target": "one",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200
+ },
+ "Insta-Heal": {
+  "name": "Insta-Heal",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Intense Focus": {
+  "name": "Intense Focus",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Internal Hypnosis": {
+  "name": "Internal Hypnosis",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Invigorate 1": {
+  "name": "Invigorate 1",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Invigorate 2": {
+  "name": "Invigorate 2",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Invigorate 3": {
+  "name": "Invigorate 3",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Kill Rush": {
+  "name": "Kill Rush",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 40
+ },
+ "Kouga": {
+  "name": "Kouga",
+  "element": "ble",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 120
+ },
+ "Kougaon": {
+  "name": "Kougaon",
+  "element": "ble",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 190
+ },
+ "Kouha": {
+  "name": "Kouha",
+  "element": "ble",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 50
+ },
+ "Last Stand": {
+  "name": "Last Stand",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Life Aid": {
+  "name": "Life Aid",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Life Drain": {
+  "name": "Life Drain",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Lucky Punch": {
+  "name": "Lucky Punch",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 3
+  },
+  "power": 25
+ },
+ "Lullaby": {
+  "name": "Lullaby",
+  "element": "ail",
+  "target": "all",
+  "ailment": "sleep",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Lunge": {
+  "name": "Lunge",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 5
+  },
+  "power": 60
+ },
+ "Mabaisudi": {
+  "name": "Mabaisudi",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Mabufu": {
+  "name": "Mabufu",
+  "element": "ice",
+  "target": "all",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40
+ },
+ "Mabufudyne": {
+  "name": "Mabufudyne",
+  "element": "ice",
+  "target": "all",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160
+ },
+ "Mabufula": {
+  "name": "Mabufula",
+  "element": "ice",
+  "target": "all",
+  "ailment": "freeze",
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100
+ },
+ "Maeiga": {
+  "name": "Maeiga",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 120
+ },
+ "Maeigaon": {
+  "name": "Maeigaon",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 190
+ },
+ "Maeiha": {
+  "name": "Maeiha",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 50
+ },
+ "Mafrei": {
+  "name": "Mafrei",
+  "element": "nuk",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40
+ },
+ "Mafreidyne": {
+  "name": "Mafreidyne",
+  "element": "nuk",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160
+ },
+ "Mafreila": {
+  "name": "Mafreila",
+  "element": "nuk",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100
+ },
+ "Magaru": {
+  "name": "Magaru",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 40
+ },
+ "Magarudyne": {
+  "name": "Magarudyne",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 20
+  },
+  "power": 160
+ },
+ "Magarula": {
+  "name": "Magarula",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": 100
+ },
+ "Magatsu Mandala": {
+  "name": "Magatsu Mandala",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": 160
+ },
+ "Mahama": {
+  "name": "Mahama",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": null
+ },
+ "Mahamaon": {
+  "name": "Mahamaon",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 26
+  },
+  "power": null
+ },
+ "Makajam": {
+  "name": "Makajam",
+  "element": "ail",
+  "target": "one",
+  "ailment": "forget",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Makajamaon": {
+  "name": "Makajamaon",
+  "element": "ail",
+  "target": "all",
+  "ailment": "forget",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Makara Break": {
+  "name": "Makara Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 9
+  },
+  "power": null
+ },
+ "Makarakarn": {
+  "name": "Makarakarn",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Makouga": {
+  "name": "Makouga",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 120
+ },
+ "Makougaon": {
+  "name": "Makougaon",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 190
+ },
+ "Makouha": {
+  "name": "Makouha",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 50
+ },
+ "Mamudo": {
+  "name": "Mamudo",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": null
+ },
+ "Mamudoon": {
+  "name": "Mamudoon",
+  "element": "cur",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 26
+  },
+  "power": null
+ },
+ "Mapsi": {
+  "name": "Mapsi",
+  "element": "psy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40
+ },
+ "Mapsio": {
+  "name": "Mapsio",
+  "element": "psy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100
+ },
+ "Mapsiodyne": {
+  "name": "Mapsiodyne",
+  "element": "psy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160
+ },
+ "Maragi": {
+  "name": "Maragi",
+  "element": "fir",
+  "target": "all",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40
+ },
+ "Maragidyne": {
+  "name": "Maragidyne",
+  "element": "fir",
+  "target": "all",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160
+ },
+ "Maragion": {
+  "name": "Maragion",
+  "element": "fir",
+  "target": "all",
+  "ailment": "burn",
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100
+ },
+ "Marakukaja": {
+  "name": "Marakukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Marakunda": {
+  "name": "Marakunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Marin Karin": {
+  "name": "Marin Karin",
+  "element": "ail",
+  "target": "one",
+  "ailment": "brainwash",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Masukukaja": {
+  "name": "Masukukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Masukunda": {
+  "name": "Masukunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Matarukaja": {
+  "name": "Matarukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Matarunda": {
+  "name": "Matarunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Mazio": {
+  "name": "Mazio",
+  "element": "ele",
+  "target": "all",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40
+ },
+ "Maziodyne": {
+  "name": "Maziodyne",
+  "element": "ele",
+  "target": "all",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160
+ },
+ "Mazionga": {
+  "name": "Mazionga",
+  "element": "ele",
+  "target": "all",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100
+ },
+ "Me Patra": {
+  "name": "Me Patra",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Media": {
+  "name": "Media",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 7
+  },
+  "power": 40
+ },
+ "Mediarahan": {
+  "name": "Mediarahan",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null
+ },
+ "Mediarama": {
+  "name": "Mediarama",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 140
+ },
+ "Megaton Raid": {
+  "name": "Megaton Raid",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 300
+ },
+ "Megido": {
+  "name": "Megido",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": 120
+ },
+ "Megidola": {
+  "name": "Megidola",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 180
+ },
+ "Megidolaon": {
+  "name": "Megidolaon",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": 210
+ },
+ "Memory Blow": {
+  "name": "Memory Blow",
+  "element": "phy",
+  "target": "all",
+  "ailment": "forget",
+  "cost": {
+   "type": "hp",
+   "value": 15
+  },
+  "power": 70
+ },
+ "Mighty Gaze": {
+  "name": "Mighty Gaze",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Mind Slice": {
+  "name": "Mind Slice",
+  "element": "phy",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "hp",
+   "value": 19
+  },
+  "power": 110
+ },
+ "Miracle Punch": {
+  "name": "Miracle Punch",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 80
+ },
+ "Morning Star": {
+  "name": "Morning Star",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 55
+  },
+  "power": 230
+ },
+ "Mouth of Savoring": {
+  "name": "Mouth of Savoring",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Mudo": {
+  "name": "Mudo",
+  "element": "cur",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Mudo Boost": {
+  "name": "Mudo Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Mudoon": {
+  "name": "Mudoon",
+  "element": "cur",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null
+ },
+ "Myriad Slashes": {
+  "name": "Myriad Slashes",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 90
+ },
+ "Myriad Truths": {
+  "name": "Myriad Truths",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": 120
+ },
+ "Negative Pile": {
+  "name": "Negative Pile",
+  "element": "phy",
+  "target": "one",
+  "ailment": "despair",
+  "cost": {
+   "type": "hp",
+   "value": 12
+  },
+  "power": 120
+ },
+ "Neo Cadenza": {
+  "name": "Neo Cadenza",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Nocturnal Flash": {
+  "name": "Nocturnal Flash",
+  "element": "ail",
+  "target": "all",
+  "ailment": "dizzy",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Nuke Amp": {
+  "name": "Nuke Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Nuke Boost": {
+  "name": "Nuke Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Nuke Break": {
+  "name": "Nuke Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Null Bless": {
+  "name": "Null Bless",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Brainwash": {
+  "name": "Null Brainwash",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Confuse": {
+  "name": "Null Confuse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Curse": {
+  "name": "Null Curse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Dizzy": {
+  "name": "Null Dizzy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Elec": {
+  "name": "Null Elec",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Fire": {
+  "name": "Null Fire",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Forget": {
+  "name": "Null Forget",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Ice": {
+  "name": "Null Ice",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Phys": {
+  "name": "Null Phys",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Rage": {
+  "name": "Null Rage",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Sleep": {
+  "name": "Null Sleep",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Null Wind": {
+  "name": "Null Wind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Ominous Words": {
+  "name": "Ominous Words",
+  "element": "ail",
+  "target": "one",
+  "ailment": "despair",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "One-shot Kill": {
+  "name": "One-shot Kill",
+  "element": "gun",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 17
+  },
+  "power": 210
+ },
+ "Oni Kagura": {
+  "name": "Oni Kagura",
+  "element": "phy",
+  "target": "all",
+  "ailment": "rage",
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 80
+ },
+ "Oratorio": {
+  "name": "Oratorio",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": null
+ },
+ "Panta Rhei": {
+  "name": "Panta Rhei",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 42
+  },
+  "power": 200
+ },
+ "Patra": {
+  "name": "Patra",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null
+ },
+ "Phantom Show": {
+  "name": "Phantom Show",
+  "element": "ail",
+  "target": "all",
+  "ailment": "sleep",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null
+ },
+ "Potent Hypnosis": {
+  "name": "Potent Hypnosis",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Power Slash": {
+  "name": "Power Slash",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 100
+ },
+ "Psi": {
+  "name": "Psi",
+  "element": "psy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40
+ },
+ "Psio": {
+  "name": "Psio",
+  "element": "psy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100
+ },
+ "Psiodyne": {
+  "name": "Psiodyne",
+  "element": "psy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160
+ },
+ "Psy Amp": {
+  "name": "Psy Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Psy Boost": {
+  "name": "Psy Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Psy Break": {
+  "name": "Psy Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Psy Wall": {
+  "name": "Psy Wall",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Psychic Bloodline": {
+  "name": "Psychic Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Psycho Blast": {
+  "name": "Psycho Blast",
+  "element": "psy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": 180
+ },
+ "Psycho Force": {
+  "name": "Psycho Force",
+  "element": "psy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200
+ },
+ "Pulinpa": {
+  "name": "Pulinpa",
+  "element": "ail",
+  "target": "one",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Rage Boost": {
+  "name": "Rage Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Rakukaja": {
+  "name": "Rakukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Rakunda": {
+  "name": "Rakunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Rampage": {
+  "name": "Rampage",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 13
+  },
+  "power": 30
+ },
+ "Rare Antibody": {
+  "name": "Rare Antibody",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Rebellion": {
+  "name": "Rebellion",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null
+ },
+ "Recarm": {
+  "name": "Recarm",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Regenerate 1": {
+  "name": "Regenerate 1",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Regenerate 2": {
+  "name": "Regenerate 2",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Regenerate 3": {
+  "name": "Regenerate 3",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Relentless": {
+  "name": "Relentless",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Relief Bloodline": {
+  "name": "Relief Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Bless": {
+  "name": "Repel Bless",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Curse": {
+  "name": "Repel Curse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Elec": {
+  "name": "Repel Elec",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Fire": {
+  "name": "Repel Fire",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Ice": {
+  "name": "Repel Ice",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Nuke": {
+  "name": "Repel Nuke",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Phys": {
+  "name": "Repel Phys",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Psy": {
+  "name": "Repel Psy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Repel Wind": {
+  "name": "Repel Wind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Bless": {
+  "name": "Resist Bless",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Brainwash": {
+  "name": "Resist Brainwash",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Confuse": {
+  "name": "Resist Confuse",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Despair": {
+  "name": "Resist Despair",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Dizzy": {
+  "name": "Resist Dizzy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Fear": {
+  "name": "Resist Fear",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Forget": {
+  "name": "Resist Forget",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Psy": {
+  "name": "Resist Psy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Sleep": {
+  "name": "Resist Sleep",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Resist Wind": {
+  "name": "Resist Wind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Retaliating Body": {
+  "name": "Retaliating Body",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Revolution": {
+  "name": "Revolution",
+  "element": "sup",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null
+ },
+ "Riot Gun": {
+  "name": "Riot Gun",
+  "element": "gun",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 24
+  },
+  "power": 300
+ },
+ "Rising Slash": {
+  "name": "Rising Slash",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 140
+ },
+ "Salvation": {
+  "name": "Salvation",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": null
+ },
+ "Samarecarm": {
+  "name": "Samarecarm",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Samsara": {
+  "name": "Samsara",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": null
+ },
+ "Savior Bloodline": {
+  "name": "Savior Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Sharp Student": {
+  "name": "Sharp Student",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Shining Arrows": {
+  "name": "Shining Arrows",
+  "element": "ble",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 15
+ },
+ "Shock Boost": {
+  "name": "Shock Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Skillful Combo": {
+  "name": "Skillful Combo",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Skillful Technique": {
+  "name": "Skillful Technique",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Skull Cracker": {
+  "name": "Skull Cracker",
+  "element": "phy",
+  "target": "one",
+  "ailment": "confuse",
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 100
+ },
+ "Sledgehammer": {
+  "name": "Sledgehammer",
+  "element": "phy",
+  "target": "one",
+  "ailment": "dizzy",
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 100
+ },
+ "Sleep Boost": {
+  "name": "Sleep Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Snap": {
+  "name": "Snap",
+  "element": "gun",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 80
+ },
+ "Speed Master": {
+  "name": "Speed Master",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Spell Master": {
+  "name": "Spell Master",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Spirit Drain": {
+  "name": "Spirit Drain",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Stagnant Air": {
+  "name": "Stagnant Air",
+  "element": "alm",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null
+ },
+ "Striking Weight": {
+  "name": "Striking Weight",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Sukukaja": {
+  "name": "Sukukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Sukunda": {
+  "name": "Sukunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Survival Trick": {
+  "name": "Survival Trick",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Swift Strike": {
+  "name": "Swift Strike",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 17
+  },
+  "power": 20
+ },
+ "Sword Dance": {
+  "name": "Sword Dance",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 21
+  },
+  "power": 360
+ },
+ "Tarukaja": {
+  "name": "Tarukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Tarunda": {
+  "name": "Tarunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Taunt": {
+  "name": "Taunt",
+  "element": "ail",
+  "target": "one",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null
+ },
+ "Tempest Slash": {
+  "name": "Tempest Slash",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 17
+  },
+  "power": 20
+ },
+ "Tentarafoo": {
+  "name": "Tentarafoo",
+  "element": "ail",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Terror Claw": {
+  "name": "Terror Claw",
+  "element": "phy",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 70
+ },
+ "Tetra Break": {
+  "name": "Tetra Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 9
+  },
+  "power": null
+ },
+ "Tetraja": {
+  "name": "Tetraja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Tetrakarn": {
+  "name": "Tetrakarn",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null
+ },
+ "Thermopylae": {
+  "name": "Thermopylae",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null
+ },
+ "Thunder Reign": {
+  "name": "Thunder Reign",
+  "element": "ele",
+  "target": "one",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200
+ },
+ "Titanomachia": {
+  "name": "Titanomachia",
+  "element": "fir",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 34
+  },
+  "power": 210
+ },
+ "Touch n' Go": {
+  "name": "Touch n' Go",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Trigger Happy": {
+  "name": "Trigger Happy",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Triple Down": {
+  "name": "Triple Down",
+  "element": "gun",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 30
+ },
+ "Tyrant's Mind": {
+  "name": "Tyrant's Mind",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Unshaken Will": {
+  "name": "Unshaken Will",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Vacuum Wave": {
+  "name": "Vacuum Wave",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200
+ },
+ "Vajra Blast": {
+  "name": "Vajra Blast",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 13
+  },
+  "power": 80
+ },
+ "Vicious Strike": {
+  "name": "Vicious Strike",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 110
+ },
+ "Victory Cry": {
+  "name": "Victory Cry",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Vorpal Blade": {
+  "name": "Vorpal Blade",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 23
+  },
+  "power": 210
+ },
+ "Wage War": {
+  "name": "Wage War",
+  "element": "ail",
+  "target": "all",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null
+ },
+ "Wild Thunder": {
+  "name": "Wild Thunder",
+  "element": "ele",
+  "target": "all",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": 180
+ },
+ "Wind Amp": {
+  "name": "Wind Amp",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Wind Bloodline": {
+  "name": "Wind Bloodline",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Wind Boost": {
+  "name": "Wind Boost",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null
+ },
+ "Wind Break": {
+  "name": "Wind Break",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null
+ },
+ "Wind Wall": {
+  "name": "Wind Wall",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null
+ },
+ "Zio": {
+  "name": "Zio",
+  "element": "ele",
+  "target": "one",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40
+ },
+ "Ziodyne": {
+  "name": "Ziodyne",
+  "element": "ele",
+  "target": "one",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160
+ },
+ "Zionga": {
+  "name": "Zionga",
+  "element": "ele",
+  "target": "one",
+  "ailment": "shock",
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100
+ }
+}

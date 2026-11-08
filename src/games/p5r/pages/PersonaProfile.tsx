@@ -1,4 +1,6 @@
+import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { getFusionEngine } from '../services/fusion';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { AffinityGrid } from '../components/AffinityGrid';
@@ -25,6 +27,75 @@ function unlockText(p: Persona): string {
     case 'treasure':
       return u.detail;
   }
+}
+
+/** Recetas para obtener la Persona (calculadas con DLC y tesoros activados). */
+function FusionBox({ persona: p }: { persona: Persona }) {
+  const engine = getFusionEngine({ includeDlc: true, includeTreasure: true });
+  const special = engine.specialRecipe(p);
+  const recipes = useMemo(
+    () => (special || p.flags.treasure ? [] : engine.recipesFor(p)),
+    [engine, p, special],
+  );
+  const reverseLink = `/p5r/calculadora/fusionar?modo=inversa&persona=${p.id}`;
+
+  if (p.flags.treasure) {
+    return (
+      <div className={styles.card}>
+        <span className="label label-accent">Treasure Demon</span>
+        <span className={styles.muted}>
+          No se obtiene por fusión: se recluta en el Metaverso. Sirve como ingrediente para subir o bajar de
+          escalón a otras Personas.
+        </span>
+      </div>
+    );
+  }
+
+  if (special) {
+    return (
+      <div className={styles.card}>
+        <span className="label label-accent">Fusión especial</span>
+        <ul className={styles.recipeList}>
+          {special.map((s) => (
+            <li key={s.id}>
+              <Link to={`/p5r/calculadora/persona/${s.id}`}>{s.name}</Link>
+              <small>{getArcana(s.arcana).name} · Nv {s.level}</small>
+            </li>
+          ))}
+        </ul>
+        <span className={styles.muted}>
+          Ingredientes fijos{special.length > 2 ? ', todos a la vez (fusión avanzada)' : ''}: no sale por fusión
+          normal.
+        </span>
+      </div>
+    );
+  }
+
+  return (
+    <div className={styles.card}>
+      <span className="label label-accent">Recetas para obtenerla</span>
+      {recipes.length ? (
+        <>
+          <span className={styles.muted}>
+            <strong className={styles.countNum}>{recipes.length}</strong> combinaciones. Las de menor nivel:
+          </span>
+          <ul className={styles.recipeList}>
+            {recipes.slice(0, 5).map((r) => (
+              <li key={`${r.a.id}-${r.b.id}`}>
+                <Link to={`/p5r/calculadora/persona/${r.a.id}`}>{r.a.name}</Link>
+                {' + '}
+                <Link to={`/p5r/calculadora/persona/${r.b.id}`}>{r.b.name}</Link>
+                <small>Nv {r.a.level} + {r.b.level}</small>
+              </li>
+            ))}
+          </ul>
+          <Link to={reverseLink} className="label">Ver todas en la calculadora →</Link>
+        </>
+      ) : (
+        <span className={styles.muted}>Ninguna combinación de 2 Personas la produce.</span>
+      )}
+    </div>
+  );
 }
 
 export default function PersonaProfile() {
@@ -123,25 +194,10 @@ export default function PersonaProfile() {
 
         <aside className={styles.side}>
           <SectionTitle size="md">Fusión</SectionTitle>
-          {p.specialRecipe ? (
-            <div className={styles.card}>
-              <span className="label label-accent">Fusión especial</span>
-              <span className={styles.recipe}>{p.specialRecipe.join(' + ')}</span>
-              <span className={styles.muted}>Ingredientes fijos: no sale por fusión normal.</span>
-            </div>
-          ) : (
-            <div className={`${styles.card} ${styles.dashed}`}>
-              <span className="label label-accent">Recetas para obtenerla</span>
-              <span className={styles.muted}>
-                Acá se van a listar los pares de Personas que dan {p.name}. Los calcula el motor de fusiones
-                en la Etapa 3.
-              </span>
-              <Link to="/p5r/calculadora/fusionar?modo=inversa" className="label">Ver en la calculadora →</Link>
-            </div>
-          )}
+          <FusionBox persona={p} />
           <div className={styles.card}>
             <span className="label label-accent">Itemización</span>
-            <span className={styles.value}>{p.itemization ?? 'Pendiente (Etapa 3)'}</span>
+            <span className={styles.value}>{p.itemization ?? '—'}</span>
           </div>
           <div className={styles.card}>
             <span className="label label-accent">Condición de desbloqueo</span>

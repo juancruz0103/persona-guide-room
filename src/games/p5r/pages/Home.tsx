@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { p5rGame } from '../config';
 import { CONFIDANTS } from '../services/confidants';
+import { getAllPersonas } from '../services/personas';
 import styles from './Home.module.css';
 
 export default function Home() {
@@ -30,7 +31,7 @@ export default function Home() {
 
           <ul className={styles.stats} aria-label="El proyecto en números">
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-accent)', ['--n' as string]: 'var(--c-accent)' }}>
-              <strong>232</strong><span>Personas en el compendio</span>
+              <strong>{getAllPersonas().length}</strong><span>Personas en el compendio</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-text)', ['--n' as string]: 'var(--c-text)' }}>
               <strong>24</strong><span>Arcanas</span>

@@ -28,7 +28,6 @@ export const es = {
     level: 'Nv',
     enter: 'Entrar →',
     back: '← Volver',
-    sampleData: 'Datos de muestra',
     imageHere: 'Imagen de Persona',
   },
 } as const;

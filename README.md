@@ -13,12 +13,12 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones de Personas 
 | Etapa | Estado |
 |-------|--------|
 | 1 · Investigación y planificación | ✅ [Informe](docs/ETAPA-1-informe.md) |
-| 2 · Diseño visual navegable | ✅ Versión navegable con datos de muestra |
-| 3 · Calculadora (compendio completo + motor de fusiones) | ⏳ Próxima |
-| 4 · Guía de confidentes (9 Ladrones Fantasma) | ⏳ |
+| 2 · Diseño visual navegable | ✅ [Decisiones de diseño](docs/ETAPA-2-diseno.md) |
+| 3 · Calculadora (compendio completo + motor de fusiones) | ✅ [Reglas y verificación](docs/ETAPA-3-fusiones.md) |
+| 4 · Guía de confidentes (9 Ladrones Fantasma) | ⏳ Próxima |
 | 5 · Pruebas y publicación | ⏳ |
 
-**Importante:** hoy el catálogo muestra **14 Personas reales de ejemplo** y la fusión todavía **no calcula resultados** (el motor llega en la Etapa 3). En los confidentes, solo el **rango 2 de Ryuji** tiene datos, y sus textos en español son una traducción provisoria. Todo lo pendiente está marcado así en la web.
+**Hoy:** la calculadora tiene las **232 Personas** de Royal, fusión de 2 Personas, búsqueda inversa y recetas especiales, con opciones para excluir DLC y Treasure Demons. En los confidentes, solo el **rango 2 de Ryuji** tiene datos (traducción provisoria). Todo lo pendiente está marcado así en la web.
 
 ## Tecnologías
 
@@ -43,6 +43,14 @@ npm run build     # genera la versión final en /dist
 npm run preview   # sirve la versión final localmente
 ```
 
+**Actualizar los datos de Personas:**
+
+```bash
+git clone --depth 1 https://github.com/aqiu384/megaten-fusion-tool /tmp/aqiu
+node scripts/import-aqiu384/import.mjs /tmp/aqiu/src/app/p5/data $(git -C /tmp/aqiu rev-parse HEAD)
+npm test
+```
+
 ## Organización de carpetas
 
 ```
@@ -55,10 +63,12 @@ src/
 │  └─ styles/           tokens.css (paleta por juego) y estilos globales
 └─ games/
    └─ p5r/              Todo lo de Persona 5 Royal
-      ├─ data/          JSON y tablas: Personas, skills, Arcanas, elementos, confidentes
+      ├─ data/          Tablas propias + generated/ (datos importados) + confidentes
+      ├─ fusion/        Motor de fusiones (TypeScript puro + tests)
       ├─ services/      Lógica separada de la interfaz (+ tests)
       ├─ components/    Componentes propios de P5R
       └─ pages/         Pantallas
+scripts/                Importador de datos
 docs/                   Informe y decisiones del proyecto
 ```
 
@@ -76,7 +86,7 @@ Los íconos de elementos son **diseño propio**. No se usa arte oficial: los rec
 
 ## Roadmap
 
-- **v1:** compendio completo, motor de fusiones con tests, búsqueda inversa, guía de los 9 Ladrones Fantasma.
+- **v1:** ~~compendio completo, motor de fusiones, búsqueda inversa~~ ✅ · guía de los 9 Ladrones Fantasma.
 - **v2:** cuenta de usuario, seguimiento de progreso de confidentes (activable), Personas favoritas.
 - **Futuro:** resto de confidentes, imágenes, descripciones de skills, otros idiomas, Persona 3 Reload y Persona 4 Golden con su propia paleta.
 

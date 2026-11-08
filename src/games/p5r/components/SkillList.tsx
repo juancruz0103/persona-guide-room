@@ -5,7 +5,9 @@ import { AILMENTS, ELEMENTS, technicalFor } from '../data/elements';
 import { getSkill } from '../services/personas';
 import styles from './SkillList.module.css';
 
-const TARGET_LABEL = { one: '1 enemigo', all: 'Todos', self: 'Uno mismo', party: 'Grupo' } as const;
+const TARGET_LABEL = {
+  one: '1 enemigo', all: 'Todos', ally: '1 aliado', party: 'Grupo', self: 'Uno mismo', everyone: 'Todos',
+} as const;
 
 function techText(ailment: keyof typeof AILMENTS): string {
   const rule = technicalFor(ailment);
@@ -19,7 +21,7 @@ function SkillRow({ entry }: { entry: PersonaSkill }) {
   const tipId = useId();
   const info = getSkill(entry.skill);
   const initial = entry.level === null;
-  const el = info ? ELEMENTS[info.element] : null;
+  const el = info && info.element !== 'tra' ? ELEMENTS[info.element] : null;
 
   return (
     <li className={`${styles.row} ${initial ? styles.initial : styles.learned}`}>
@@ -33,7 +35,7 @@ function SkillRow({ entry }: { entry: PersonaSkill }) {
             aria-label={`Elemento: ${el.name}`}
             aria-describedby={tipId}
           >
-            <ElementIcon element={info.element} size={28} />
+            <ElementIcon element={el.id} size={28} />
           </button>
           <span role="tooltip" id={tipId} className={styles.tip} style={{ borderLeftColor: el.color }}>
             <span className={styles.tipTitle}>{el.name}</span>
@@ -41,7 +43,7 @@ function SkillRow({ entry }: { entry: PersonaSkill }) {
             {info.ailment && (
               <span className={styles.tipAilment}>
                 <span><strong>Puede causar:</strong> {AILMENTS[info.ailment].es} ({AILMENTS[info.ailment].en})</span>
-                <span><strong className={styles.tech}>Técnico con:</strong> {techText(info.ailment)}</span>
+                <span><strong className={styles.tech}>Técnico con:</strong> {techText(info.ailment) || 'sin datos en la tabla'}</span>
               </span>
             )}
           </span>

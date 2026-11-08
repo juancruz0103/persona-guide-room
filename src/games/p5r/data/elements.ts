@@ -46,6 +46,7 @@ export const AILMENTS: Record<AilmentId, { es: string; en: string }> = {
   despair: { es: 'Desesperación', en: 'Despair' },
   rage: { es: 'Furia', en: 'Rage' },
   brainwash: { es: 'Lavado de cerebro', en: 'Brainwash' },
+  hunger: { es: 'Hambre', en: 'Hunger' },
 };
 
 /** Tabla de Técnicos de P5R. Fuente: Megami Tensei Wiki, página "Technical". */
