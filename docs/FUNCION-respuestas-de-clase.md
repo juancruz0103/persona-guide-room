@@ -13,6 +13,6 @@ Colores: blanco = protagonista · rosa = Ann · dorado = examen.
 - **Temas de las preguntas:** redacción propia, a partir de RPG Site.
 - **Ann:** días confirmados por Juan jugando: **25/4, 20/6, 7/7 y 11/1** (7 preguntas). Ninguna guía lo marcaba de forma completa.
 
-## A revisar jugando
-- 14/9: otras guías la ubican el 13/9.
-- 14/11 ("Por su altitud"): falta confirmar el tema de la pregunta.
+## Verificado jugando
+- 14/9 es la fecha correcta (otras guías dicen 13/9).
+- 14/11: la pregunta es por qué desde la cima del monte Fuji se ve el amanecer antes que nadie.

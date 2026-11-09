@@ -545,8 +545,7 @@
    "askedTo": "protagonist",
    "part": null,
    "topic": "Qué ofrece una casa de empeños que no ofrece una tienda de segunda mano",
-   "answer": "Préstamos como garantías",
-   "note": "Otras guías ubican esta pregunta el 13 de septiembre."
+   "answer": "Préstamos como garantías"
   },
   {
    "month": 9,
@@ -777,9 +776,8 @@
    "kind": "class",
    "askedTo": "protagonist",
    "part": null,
-   "topic": "Pregunta de seguimiento de la clase (tema a confirmar)",
-   "answer": "Por su altitud",
-   "note": "El tema de esta pregunta no está claro en las guías: se confirma jugando."
+   "topic": "Por qué desde la cima del monte Fuji se ve el amanecer antes que nadie",
+   "answer": "Por su altitud"
   },
   {
    "month": 11,
