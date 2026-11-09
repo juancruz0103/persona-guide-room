@@ -20,7 +20,7 @@
      "description": "Muestra las skills y los objetos de las Sombras en la pantalla de análisis."
     }
    ],
-   "choicesDontMatter": true
+   "noData": true
   },
   {
    "rank": 2,

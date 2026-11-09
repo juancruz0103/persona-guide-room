@@ -33,7 +33,17 @@ Diseño aprobado en el lienzo (tableros 05, 09 y 10).
 - **Conversaciones de los 19 confidentes normales.** El texto oficial (español e inglés) está
   en `EVENT_DATA/MESSAGE/E700/E7AA_RR0.BMD` (ver `TEXTOS-DEL-JUEGO.md`); los puntos se toman
   de las guías, emparejados por el texto en inglés de cada opción. Se cargan por tandas.
-- Hecho: los 8 Ladrones Fantasma con conversaciones del juego y puntos de la guía. La conversación de "running" de Ryuji es una llamada de Royal (no sobraba).
-- Pendiente: llamadas de Haru (la guía no trae la frase de Haru) y la de Akechi en el rango 7.
+- Hecho: los 19 confidentes normales y Ladrones Fantasma con conversaciones del juego y puntos de la guía (RPG Site).
+  La conversación de "running" de Ryuji es una llamada de Royal (no sobraba).
+- Formato de las guías (`scripts/import-confidants/guias/<id>.txt`):
+  - `R | opción | puntos [| ROMANCE]`; puntos `?` = recomendada por la guía sin puntos conocidos.
+  - `R | TEL | frase EN | frase ES | opción EN | opción ES | puntos [| ROMANCE]` (llamadas, traducción provisoria).
+  - `R | DESBLOQUEO | nombre | descripción`, `R | NOIMPORTA`, `CONSEJO | texto`.
+- Rango 9 con romance: `ROUTES` en import.mjs marca las elecciones que solo aparecen en la ruta romántica
+  o en la de amistad (revisado en los BMD). Kawakami decide el romance en tres preguntas seguidas.
+- Rangos «sin datos»: el juego tiene elecciones pero la guía no da puntos. Hoy: rango 1 de Makoto,
+  Futaba, Haru, Sojiro, Chihaya, Iwai, Takemi, Kawakami, Ohya, Hifumi y Yoshida; rangos 1 y 5 de Oda.
+- Pendiente: llamadas sin frase en la guía (Haru, Akechi 7, Futaba 9, Ohya 9, Oda, Iwai 5, Takemi 9,
+  Kawakami 9, Chihaya 9, Hifumi 9, Makoto 9); los rangos sin datos; nombres oficiales de las habilidades.
 - Nombres oficiales en español de las habilidades de confidente.
 - Requisitos de atributo con número (hoy las guías no coinciden).

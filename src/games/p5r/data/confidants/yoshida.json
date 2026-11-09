@@ -1,0 +1,564 @@
+{
+ "id": "yoshida",
+ "name": "Toranosuke Yoshida",
+ "arcana": "sun",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Es fácil de perder: se conoce trabajando dos veces en la tienda de gyudon de Shibuya (el anuncio está en la estación). Después, Yoshida da sus discursos en la plaza de la estación de Shibuya.",
+  "Después del 13 de noviembre ya no está disponible."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/5476-persona-5-royal-yoshida-confidant-guide-sun-link-choices-unlock"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Por cierto, la última vez que hablamos se me olvidó preguntarte por qué querías ser político.",
+      "en": "By the way, I forgot to ask you last time we spoke. Why do you want to become a politician?"
+     },
+     "options": [
+      {
+       "es": "Quiero cambiar el mundo.",
+       "en": "I want to change the world.",
+       "points": 0
+      },
+      {
+       "es": "Quiero mejorar mi discurso.",
+       "en": "I want to improve my speech.",
+       "points": 2
+      },
+      {
+       "es": "No estoy seguro...",
+       "en": "I'm not sure...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "¿Qué tipo de político te gustaría ser?",
+      "en": "What kind of politician do you want to be?"
+     },
+     "options": [
+      {
+       "es": "Alguien con convicción.",
+       "en": "One with conviction.",
+       "points": 2
+      },
+      {
+       "es": "Alguien popular.",
+       "en": "A popular one.",
+       "points": 0
+      },
+      {
+       "es": "Aún no lo sé.",
+       "en": "I don't know yet.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Esa es la base de un gran discurso. Es muy importante que lo recuerdes.",
+      "en": "That is the foundation of a great speech. You'd do well to remember that."
+     },
+     "options": [
+      {
+       "es": "Gracias por la ayuda.",
+       "en": "That was helpful.",
+       "points": 2
+      },
+      {
+       "es": "Eso ya lo sabía.",
+       "en": "I knew that already.",
+       "points": 0
+      },
+      {
+       "es": "¿Que qué pretendo conseguir?",
+       "en": "What I want to accomplish?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "¿Qué te ha parecido? ¿Has sacado algo útil?",
+      "en": "What do you think? Did you take anything useful from it?"
+     },
+     "options": [
+      {
+       "en": "It was helpful.",
+       "es": "Me ha servido.",
+       "points": 2
+      },
+      {
+       "en": "Somewhat.",
+       "es": "Algo.",
+       "points": 2
+      },
+      {
+       "en": "It changed my whole outlook.",
+       "es": "Me ha cambiado la forma de ver las cosas.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Diplomacy",
+     "description": "Consigues más dinero u objetos al negociar con las Sombras."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": ", ¿no? Dime, ¿qué te llamó la atención de Yoshida?",
+      "en": "-kun, was it? Tell me, what about Yoshida here drew you in?"
+     },
+     "options": [
+      {
+       "es": "Su mensaje.",
+       "en": "His message.",
+       "points": 2
+      },
+      {
+       "es": "Su facilidad de palabra.",
+       "en": "His speaking skills.",
+       "points": 2
+      },
+      {
+       "es": "No estoy seguro.",
+       "en": "It's hard to say.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Quiero que uses tus experiencias para forjar tus propias convicciones.",
+      "en": "I want you to use your experiences to forge your own conviction."
+     },
+     "options": [
+      {
+       "en": "You think I'll ever find it?",
+       "es": "¿Crees que algún día las encontraré?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Fundraising",
+     "description": "Puedes pedir mucho más dinero en las negociaciones."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Y tus gritos han sido el colofón.",
+      "en": "The highlight, though, was your yelling."
+     },
+     "options": [
+      {
+       "es": "No he podido evitarlo.",
+       "en": "I couldn't help myself.",
+       "points": 2
+      },
+      {
+       "es": "Solo he dicho la verdad.",
+       "en": "I just spoke the truth.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Quizá parezca obvio o trillado, pero... espero que también recuerdes valorar eso.",
+      "en": "Perhaps it seems too obvious, or too trite, but... I hope you remember to cherish that, too."
+     },
+     "options": [
+      {
+       "en": "I will.",
+       "es": "Lo haré.",
+       "points": 2
+      },
+      {
+       "en": "Can't forget your roots.",
+       "es": "No hay que olvidar de dónde vienes.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "He intentado distanciarme de aquello. ¿Crees que he recuperado la confianza?",
+      "en": "However, I've been distancing myself from that. Do you think I've regained my confidence?"
+     },
+     "options": [
+      {
+       "es": "Eso creo.",
+       "en": "I think so.",
+       "points": 2
+      },
+      {
+       "es": "No bajes la guardia.",
+       "en": "Don't let your guard down.",
+       "points": 0
+      },
+      {
+       "es": "Pasa de los medios.",
+       "en": "The media doesn't matter.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Manipulation",
+     "description": "Los enemigos sueltan objetos raros más a menudo."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Quiero tu opinión más sincera. Como joven, ¿estás a favor o en contra de ellos?",
+      "en": "I'd like to hear your honest opinion. As a young man, are you for or against them?"
+     },
+     "options": [
+      {
+       "es": "Estoy a favor.",
+       "en": "I'm for them.",
+       "points": 2
+      },
+      {
+       "es": "Estoy en contra.",
+       "en": "I'm against them.",
+       "points": 0
+      },
+      {
+       "es": "Me dan lo mismo.",
+       "en": "I don't really care.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "¿Qué harías en esta situación, ?",
+      "en": "What would you do at a time like this, -kun?"
+     },
+     "options": [
+      {
+       "es": "Me negaría.",
+       "en": "I'd decline.",
+       "points": 3
+      },
+      {
+       "es": "Aceptaría la oferta.",
+       "en": "I'd take the offer.",
+       "points": 0
+      },
+      {
+       "es": "Lo dejaría al azar.",
+       "en": "I'd leave it to chance.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Lo más importante es que no pierdas de vista quién eres.",
+      "en": "The most crucial thing is that you don't lose sight of who you are."
+     },
+     "options": [
+      {
+       "en": "I'll keep that in mind.",
+       "es": "Lo tendré en cuenta.",
+       "points": 2
+      },
+      {
+       "en": "You make quite a case.",
+       "es": "Es un buen argumento.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": ", ¿podrías hacerle entrar en razón? A ti también te beneficiaría.",
+      "en": "...-kun, could you talk some sense into him? You'll benefit as well."
+     },
+     "options": [
+      {
+       "es": "Deberías negarte.",
+       "en": "You should decline.",
+       "points": 2
+      },
+      {
+       "es": "Es un buen trato.",
+       "en": "That's a sweet deal.",
+       "points": 0
+      },
+      {
+       "es": "No estaba atento.",
+       "en": "I wasn't paying attention.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Me uno a Matsushita y llevo a cabo mi venganza, pero dejo la campaña electoral...",
+      "en": "Join with Matsushita and take my revenge against Mr. Kuramoto, but drop out of the election..."
+     },
+     "options": [
+      {
+       "es": "¿Lo vas a hacer?",
+       "en": "Are you going to do it?",
+       "points": 0
+      },
+      {
+       "es": "No lo hagas.",
+       "en": "Don't do it.",
+       "points": 0
+      },
+      {
+       "es": "Es una decisión difícil.",
+       "en": "That's a difficult decision.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Debo dejar de lado mis convicciones si quiero cumplir mi sueño. ¿Qué hago?",
+      "en": "To achieve my dream, I have to set aside my beliefs. What should I do?"
+     },
+     "options": [
+      {
+       "es": "No renuncies a tus ideales.",
+       "en": "Stick to your beliefs.",
+       "points": 3
+      },
+      {
+       "es": "Limpia tu reputación.",
+       "en": "Clear your name.",
+       "points": 0
+      },
+      {
+       "es": "Haz que te voten.",
+       "en": "Get elected.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Por eso nunca debes olvidar lo que de verdad te importa... ¿Lo entiendes?",
+      "en": "That is why you must never forget what's truly important to you... You understand?"
+     },
+     "options": [
+      {
+       "en": "I'll never forget that.",
+       "es": "Nunca lo olvidaré.",
+       "points": 2
+      },
+      {
+       "en": "It's tougher than it seems.",
+       "es": "Es más difícil de lo que parece.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Mind Control",
+     "description": "A veces te ahorras la negociación y la Sombra se une directamente."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Muy bien, allá voy.",
+      "en": "Okay, I'm going to get started."
+     },
+     "options": [
+      {
+       "es": "Hazlo lo mejor que puedas.",
+       "en": "Do your best.",
+       "points": 3
+      },
+      {
+       "es": "Mucha mierda.",
+       "en": "Break a leg.",
+       "points": 0
+      },
+      {
+       "es": "Me estoy poniendo nervioso.",
+       "en": "I'm getting nervous.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Será porque me has llegado al corazón.",
+      "en": "Perhaps, it's the effect of you moving my heart."
+     },
+     "options": [
+      {
+       "es": "¿De qué hablas?",
+       "en": "What are you talking about?",
+       "points": 0
+      },
+      {
+       "es": "Te han despertado el corazón.",
+       "en": "You had a change of heart.",
+       "points": 2
+      },
+      {
+       "es": "...",
+       "en": "......",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Charismatic Speech",
+     "description": "Es más fácil hacer pactos con Personas de nivel más alto. Se desbloquea la fusión de Asura."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

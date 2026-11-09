@@ -1,0 +1,454 @@
+{
+ "id": "oda",
+ "name": "Shinya Oda",
+ "arcana": "tower",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves después de clase, sábados de día y los días de lluvia.",
+  "En el rango 8 aparece el pedido de Mementos «A Mother's Aggression»: hay que completarlo para empezar el rango 9."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/5475-persona-5-royal-oda-confidant-guide-tower-choices-unlock-list"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Down Shot",
+     "description": "Gastas todo el cargador para derribar seguro a un enemigo. Cada rango da además puntos extra de Gentileza."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Todo gracias a que te ha costado un huevo.",
+      "en": "Thanks to you taking so long to figure it out..."
+     },
+     "options": [
+      {
+       "es": "Lo siento...",
+       "en": "Sorry...",
+       "points": 2
+      },
+      {
+       "es": "No me compares contigo.",
+       "en": "Don't compare me to you.",
+       "points": 3
+      },
+      {
+       "es": "Me animaría que me elogiaras.",
+       "en": "Praise would be encouraging.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "*suspiro*",
+      "en": "*sigh*"
+     },
+     "options": [
+      {
+       "es": "Vámonos.",
+       "en": "Let's go.",
+       "points": 0
+      },
+      {
+       "es": "Qué empleado tan desagradable.",
+       "en": "What a rude employee.",
+       "points": 2
+      },
+      {
+       "es": "¿Te preocupa algo?",
+       "en": "Something bothering you?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Necesito volverme superfuerte, como los Ladrones Fantasma.",
+      "en": "...I need to get really strong, like the Phantom Thieves."
+     },
+     "options": [
+      {
+       "es": "¿Son fuertes?",
+       "en": "Are they strong?",
+       "points": 0
+      },
+      {
+       "es": "¿Los admiras?",
+       "en": "Do you admire them?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Creo en los Ladrones Fantasma y en su fortaleza.",
+      "en": "I believe in the Phantom Thieves and their strength."
+     },
+     "options": [
+      {
+       "es": "Yo también.",
+       "en": "So do I.",
+       "points": 3
+      },
+      {
+       "es": "Son más que fuertes.",
+       "en": "They're more than strong.",
+       "points": 0
+      },
+      {
+       "es": "Se lo haré saber.",
+       "en": "I'll let them know.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Bullet Hail",
+     "description": "Después de una emboscada, a veces lanzas un ataque con armas de todo el grupo."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "¡Por eso tengo que volverme fuerte!",
+      "en": "That's why I gotta get stronger!"
+     },
+     "options": [
+      {
+       "es": "Esa es la actitud.",
+       "en": "That's the spirit.",
+       "points": 2
+      },
+      {
+       "es": "¿Quieres aprender artes marciales?",
+       "en": "Want to learn martial arts?",
+       "points": 0
+      },
+      {
+       "es": "Sí que quieres a tu madre.",
+       "en": "You really love your mom.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Warning Shot",
+     "description": "En una negociación puedes intimidar a la Sombra para que se una a ti."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Has hecho trampas, ¡¿verdad?!",
+      "en": "You cheated, didn't you!?"
+     },
+     "options": [
+      {
+       "es": "Tranquilízate.",
+       "en": "Calm down.",
+       "points": 0
+      },
+      {
+       "es": "Tienes muy mal perder.",
+       "en": "You're being a sore loser.",
+       "points": 0
+      },
+      {
+       "es": "¡Eso, que le quede claro!",
+       "en": "Yeah, you tell him!",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "No puede ser verdad...",
+      "en": "You've gotta be kidding me..."
+     },
+     "options": [
+      {
+       "es": "Te veo un poco tenso.",
+       "en": "Don't get so worked up.",
+       "points": 0
+      },
+      {
+       "es": "Tienes que vengarte.",
+       "en": "Get your revenge.",
+       "points": 2
+      },
+      {
+       "es": "Cómo molan los profesionales.",
+       "en": "Pros are amazing, huh?",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Ammo Pouch",
+     "description": "Más balas por arma."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "No lo volveré a hacer... No quiero ser uno de los malos.",
+      "en": "I won't do it again... I don't wanna be a bad guy."
+     },
+     "options": [
+      {
+       "es": "Haces bien.",
+       "en": "That's good.",
+       "points": 2
+      },
+      {
+       "es": "Confío en ti.",
+       "en": "I believe in you.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Esto... ¿me odias?",
+      "en": "Um... do you... hate me now?"
+     },
+     "options": [
+      {
+       "es": "Un poco, la verdad.",
+       "en": "A little bit.",
+       "points": 0
+      },
+      {
+       "es": "Claro que no.",
+       "en": "Not at all.",
+       "points": 3
+      },
+      {
+       "es": "Me preocupa tu actitud.",
+       "en": "I'm worried about you.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Cheap Shot",
+     "description": "Down Shot gasta menos balas."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [],
+   "unlocks": [],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Conque sí que es mala...",
+      "en": "So she IS bad after all..."
+     },
+     "options": [
+      {
+       "es": "Alguien tiene que detenerla.",
+       "en": "She's out of control.",
+       "points": 0
+      },
+      {
+       "es": "Para nada.",
+       "en": "No, she's not.",
+       "points": 2
+      },
+      {
+       "es": "¿Eso opinas?",
+       "en": "Is that what you think?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "¿Crees que podrán despertar su corazón?",
+      "en": "Do you think they'll actually be able to change her heart?"
+     },
+     "options": [
+      {
+       "es": "Todo saldrá bien.",
+       "en": "It'll all work out.",
+       "points": 2
+      },
+      {
+       "es": "No te lo puedo asegurar.",
+       "en": "I can't guarantee it.",
+       "points": 0
+      },
+      {
+       "es": "Confía en ellos.",
+       "en": "Believe in them.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Electric Slug",
+     "description": "Bullet Hail hace más daño."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Se puso a llorar y dijo que, a partir de ahora, intentará ser mejor madre.",
+      "en": "She broke down crying and told me that she'll be a better mother from now on..."
+     },
+     "options": [
+      {
+       "es": "Me alegra oír eso.",
+       "en": "I'm glad to hear that.",
+       "points": 3
+      },
+      {
+       "es": "Cuesta creérselo.",
+       "en": "That's hard to believe.",
+       "points": 0
+      },
+      {
+       "es": "Agradéceselo a los Ladrones Fantasma.",
+       "en": "Thank the Phantom Thieves.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "¿Soy un bicho raro por alegrarme de una derrota? Hasta ahora, mi único objetivo era ganar.",
+      "en": "Am I weird... for feeling happy about losing? I mean, all I cared about before was winning."
+     },
+     "options": [
+      {
+       "es": "Sí, un poco.",
+       "en": "A little bit, yeah.",
+       "points": 2
+      },
+      {
+       "es": "No, tiene sentido.",
+       "en": "No, that makes sense.",
+       "points": 3
+      },
+      {
+       "es": "Significa que has madurado.",
+       "en": "It means you've matured.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Oda Special",
+     "description": "Los ataques de Joker ignoran las resistencias. Se desbloquea la fusión de Mada."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

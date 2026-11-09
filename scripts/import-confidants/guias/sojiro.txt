@@ -1,0 +1,47 @@
+# fuente: https://www.rpgsite.net/feature/5478-persona-5-royal-sojiro-confidant-guide-hierophant-choices-unlock-list
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+# Rango 1: lo da la historia; la guía no trae opciones de Royal.
+CONSEJO | Para empezar el rango 3 tienes que haber preparado café una vez. El rango 5 está disponible desde el 22 de agosto y el 7 pide Gentileza 5.
+CONSEJO | En el rango 8 aparece el pedido de Mementos «The Money-Grubbing Uncle»: hasta completarlo, Sojiro y Futaba quedan bloqueados.
+2 | Making coffee. | 2
+2 | That guy seemed suspicious. | 2
+2 | I want the ladies to love me. | 2
+2 | TEL | Seems like you're a quick study, so I hope you've got the hang of it. | Parece que aprendes rápido, así que espero que le hayas pillado el truco. | Got it. | Entendido. | 2
+2 | DESBLOQUEO | Coffee Basics | Puedes preparar café en Leblanc: recupera SP en combate. Además, +3 de Gentileza.
+3 | Medium-fine. | 2
+3 | Is it trouble? | 2
+3 | TEL | But don't worry, I'll put you to work. We've got lots of time on our hands. | Pero tranquilo, te pondré a trabajar. Tenemos tiempo de sobra. | I'm ready to work. | Estoy listo para trabajar. | 2
+3 | TEL | But don't worry, I'll put you to work. We've got lots of time on our hands. | Pero tranquilo, te pondré a trabajar. Tenemos tiempo de sobra. | Thank you in advance. | Gracias de antemano. | 2
+4 | Tell me more. | 3
+4 | Call Sojiro's phone | 3
+4 | TEL | Just let him do his thing, and get on with the job. Got it? | Déjalo a lo suyo y sigue con el trabajo. ¿Entendido? | Understood. | Entendido. | 2
+4 | DESBLOQUEO | Leblanc Curry | Puedes preparar curry: recupera SP. Además, +3 de Gentileza.
+5 | I think I'm addicted! | 3
+5 | It wasn't bad. | 2
+5 | She wasn't normal, huh? | 3
+5 | Was she like Futaba? | 2
+5 | It really paid off in the end. | 2
+5 | TEL | It's only a problem when she asks for it three times a day. | Solo es un problema cuando lo pide tres veces al día. | She needs a balanced diet. | Necesita una dieta equilibrada. | 2
+5 | DESBLOQUEO | Gentileza +3 | Ganas 3 puntos extra de Gentileza.
+6 | To each his own. | 2
+6 | Shut your mouth. | 3
+6 | You're wrong. | 2
+6 | Saving Futaba was no mistake. | 2
+6 | TEL | Futaba's fast asleep... Didn't mean to get you tangled up in all this mess. | Futaba está dormida... No quería meterte en todo este lío. | If I can help somehow... | Si puedo ayudar en algo... | 2
+6 | DESBLOQUEO | Coffee Mastery | El café que preparas es de mejor calidad. Además, +3 de Gentileza.
+7 | You might be right. | 2
+7 | TEL | And that's only because you helped us connect, so... thanks for that. | Y eso es solo porque nos ayudaste a acercarnos, así que... gracias. | Feel like a real dad now? | ¿Ya te sientes un padre de verdad? | 2
+7 | DESBLOQUEO | Gentileza +3 | Ganas 3 puntos extra de Gentileza.
+8 | Something with curry. | 3
+8 | You want my suggestion? | 2
+8 | I was just protecting Futaba. | 3
+8 | DESBLOQUEO | Pedido de Mementos | Aparece «The Money-Grubbing Uncle»: complétalo para seguir con Sojiro y Futaba.
+9 | It's great. | 3
+9 | He's a bit of a nag. | 2
+9 | You have a great daughter. | 3
+9 | Congrats. | 3
+9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | You did great. | Lo hiciste genial. | 3
+9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | Futaba did great. | Futaba lo hizo genial. | 3
+9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | You two were already family. | Vosotros ya erais familia. | 3
+9 | DESBLOQUEO | Curry Tips | El curry que preparas es de mejor calidad.
+10 | DESBLOQUEO | Curry Mastery | El curry recupera SP a todo el grupo. Se desbloquea la fusión de Kouryuu y, si aún no la tenías, la iglesia de Kanda.

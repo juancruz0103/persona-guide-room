@@ -1,0 +1,674 @@
+{
+ "id": "hifumi",
+ "name": "Hifumi Togo",
+ "arcana": "star",
+ "phantomThief": false,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [
+  "Después del Palacio de Kaneshiro, desde el 25 de junio: habla con la chica de la iglesia de Kanda. Necesitas Encanto 3.",
+  "Para el rango 8 necesitas Conocimiento 5. En ese rango aparece el pedido de Mementos «Upstaging the Stage Mother»: complétalo y vuelve con Hifumi."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9388-persona-5-royal-hifumi-confidant-guide-star-choices-romance-unlock-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Koma Sabaki",
+     "description": "En el turno de Joker puedes cambiar compañeros del grupo. Varios rangos dan además puntos extra de Conocimiento."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Me pongo muy agresiva. Como si me convirtiera en una reina conquistadora...",
+      "en": "I tend to get very aggressive. It's as if I assume the role of a queen of a kingdom..."
+     },
+     "options": [
+      {
+       "es": "Qué curioso.",
+       "en": "That's interesting.",
+       "points": 2
+      },
+      {
+       "es": "Te sienta bien el cambio.",
+       "en": "I like the attitude change.",
+       "points": 0
+      },
+      {
+       "es": "Das un poco de miedo.",
+       "en": "It's a bit scary.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Es que... Tengo una sesión de fotos con una revista.",
+      "en": "Um, well, I'm doing a photoshoot for one..."
+     },
+     "options": [
+      {
+       "es": "¿Cuándo saldrá a la venta?",
+       "en": "When is it coming out?",
+       "points": 0
+      },
+      {
+       "es": "Eres toda una estrella.",
+       "en": "You're, like, an idol.",
+       "points": 0
+      },
+      {
+       "es": "Pero no tienes ganas, ¿verdad?",
+       "en": "But you don't want to, right?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "¿La has visto? La han titulado «La Venus del shogi».",
+      "en": "Did you see it...? It was called \"The Venus of Shogi\"..."
+     },
+     "options": [
+      {
+       "es": "Te describe perfectamente.",
+       "en": "Describes you perfectly.",
+       "points": 2
+      },
+      {
+       "es": "La verdad es que no.",
+       "en": "No, I didn't.",
+       "points": 0
+      },
+      {
+       "es": "Pedazo de titular.",
+       "en": "That's quite the headline.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Es como si quisiera ser la representante de una celebridad.",
+      "en": "It's as if she wants to be the manager of a celebrity."
+     },
+     "options": [
+      {
+       "es": "¿Es que no te gusta?",
+       "en": "You don't enjoy it?",
+       "points": 0
+      },
+      {
+       "es": "¿Lo estás pasando mal?",
+       "en": "Having a difficult time?",
+       "points": 2
+      },
+      {
+       "es": "Deberías rechazar.",
+       "en": "You should just decline.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "¿Cómo voy a enseñarte bien estando tan agobiada...?",
+      "en": "How can I teach you properly when I'm this distressed...?"
+     },
+     "options": [
+      {
+       "en": "Bring it on.",
+       "es": "Adelante.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Uchikomi",
+     "description": "Cuando derribas a un enemigo, un compañero que no está en el grupo puede atacar."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Lleva en esto más años que yo, pero la derroté hace poco en una partida por el título.",
+      "en": "She's my senior... I defeated her in a recent title match."
+     },
+     "options": [
+      {
+       "es": "Me da lo mismo.",
+       "en": "I didn't mind.",
+       "points": 2
+      },
+      {
+       "es": "Tiene malas intenciones.",
+       "en": "She has a bad vibe.",
+       "points": 0
+      },
+      {
+       "es": "Debió ser por el curry.",
+       "en": "Must've been the katsu curry.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "¿Tú qué opinas de ellos?",
+      "en": "What do you think about them?"
+     },
+     "options": [
+      {
+       "es": "Son ridículos.",
+       "en": "They're ridiculous.",
+       "points": 0
+      },
+      {
+       "es": "Me molan.",
+       "en": "They're cool.",
+       "points": 2
+      },
+      {
+       "es": "No me suenan de nada.",
+       "en": "Never heard of them.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "De verdad, me encantaría repetirlo.",
+      "en": "Really, I would be delighted to do this again."
+     },
+     "options": [
+      {
+       "en": "I'd love to.",
+       "es": "Me encantaría.",
+       "points": 2
+      },
+      {
+       "en": "Where shall we go next?",
+       "es": "¿Adónde vamos la próxima vez?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Jinbocho",
+     "description": "Se desbloquea el barrio de las librerías."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Te pido perdón. Apuesto que no te ha dejado indiferente.",
+      "en": "...I apologize. That must have been quite a shock."
+     },
+     "options": [
+      {
+       "es": "¿No te deja tener citas?",
+       "en": "You're not allowed to date?",
+       "points": 0
+      },
+      {
+       "es": "Da miedo.",
+       "en": "She's scary.",
+       "points": 2
+      },
+      {
+       "es": "¿Alcanzar metas?",
+       "en": "Accomplish things?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Pero confieso que me está costando horrores.",
+      "en": "But it's honestly quite difficult for me."
+     },
+     "options": [
+      {
+       "es": "¿No te gusta llamar la atención?",
+       "en": "You don't like the attention?",
+       "points": 0
+      },
+      {
+       "es": "Pues deberías dejarlo.",
+       "en": "You should stop then.",
+       "points": 2
+      },
+      {
+       "es": "¿Se lo has dicho a tu madre?",
+       "en": "Have you told your mother?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "No pretendía ofenderte en absoluto. Espero que aceptes mis disculpas en su nombre.",
+      "en": "She didn't mean to offend you at all. I hope you'll accept my apology in her place."
+     },
+     "options": [
+      {
+       "en": "You've got a lot to deal with.",
+       "es": "Tienes mucho con lo que lidiar.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Kakoi Kuzushi",
+     "description": "Puedes intentar huir aunque los enemigos te rodeen."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Así que no para repetirme que dé más entrevistas para la televisión y la prensa.",
+      "en": "So now she's even more insistent on having me do more TV and magazine interviews than before..."
+     },
+     "options": [
+      {
+       "es": "Te harás famosa.",
+       "en": "You'll be famous.",
+       "points": 0
+      },
+      {
+       "es": "¿Tan frustrante resulta?",
+       "en": "Is that frustrating?",
+       "points": 2
+      },
+      {
+       "es": "La prensa da miedo.",
+       "en": "The media is scary.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Quizá debería dejar el shogi y buscar un trabajo... De este modo, ya nadie haría sufrir a mi familia.",
+      "en": "Maybe I should stop playing shogi and just get a job... That way, my family won't get hurt again..."
+     },
+     "options": [
+      {
+       "es": "¿Te sigue gustando el shogi?",
+       "en": "Do you still like shogi?",
+       "points": 2
+      },
+      {
+       "es": "¿Es eso lo que quieres?",
+       "en": "Is that what you want to do?",
+       "points": 0
+      },
+      {
+       "es": "Sigue tu pasión.",
+       "en": "Do what you love.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Teniendo en cuenta lo bien que escuchas, quiero decir.",
+      "en": "Considering how good a listener you are, I mean."
+     },
+     "options": [
+      {
+       "en": "You're imagining things.",
+       "es": "Son imaginaciones tuyas.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Tokyo Skytree",
+     "description": "Se desbloquea el lugar si aún no lo tenías."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Pero admito que estoy un poco nerviosa.",
+      "en": "...I confess I am a bit scared, though."
+     },
+     "options": [
+      {
+       "es": "Me tranquiliza saberlo.",
+       "en": "That's almost a relief.",
+       "points": 2
+      },
+      {
+       "es": "No bajes la guardia.",
+       "en": "Don't let your guard down.",
+       "points": 0
+      },
+      {
+       "es": "Quizás acabe siendo cosa de suerte.",
+       "en": "It may come down to luck.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Pero estoy cansada de que se me trate como a una cara bonita. ¡Les enseñaré lo que valgo!",
+      "en": "But I'm sick of being treated like an idol. I have to show them what I'm made of!"
+     },
+     "options": [
+      {
+       "es": "Enséñales lo que vales.",
+       "en": "Give it your all.",
+       "points": 2
+      },
+      {
+       "es": "Confío en ti.",
+       "en": "I believe in you.",
+       "points": 3
+      },
+      {
+       "es": "No tiene nada de malo.",
+       "en": "Idols are cool too.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Narikin",
+     "description": "Si ganas en un turno después de una emboscada, consigues el doble de dinero."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Podré usar la popularidad de la revista en su contra y hacerme famosa enseguida.",
+      "en": "That way, I can use the weekly magazine's popularity against them and instantly become famous."
+     },
+     "options": [
+      {
+       "es": "No es buena idea.",
+       "en": "That won't work.",
+       "points": 2
+      },
+      {
+       "es": "Una gran estrategia.",
+       "en": "That's a great strategy.",
+       "points": 0
+      },
+      {
+       "es": "¿Quieres perder a propósito?",
+       "en": "Do you intend to lose?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "¿Quizás hayan escuchado nuestra conversación?",
+      "en": "Perhaps they eavesdropped on our conversation?"
+     },
+     "options": [
+      {
+       "es": "Puede ser...",
+       "en": "Maybe...",
+       "points": 2
+      },
+      {
+       "es": "Le estás dando demasiadas vueltas.",
+       "en": "You're overthinking it.",
+       "points": 0
+      },
+      {
+       "es": "Me alegro de que haya despertado.",
+       "en": "I'm glad her heart changed.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Pero no pienso darles esa satisfacción. Voy a ganar... y lo conseguiré yo solita.",
+      "en": "However, I'm not going to give them the satisfaction. I'm going to win... with these very hands."
+     },
+     "options": [
+      {
+       "es": "Hazlo lo mejor que puedas.",
+       "en": "Give it all you got.",
+       "points": 2
+      },
+      {
+       "es": "¿Crees que ganarás?",
+       "en": "Do you feel confident?",
+       "points": 0
+      },
+      {
+       "es": "¡Tú puedes!",
+       "en": "You can do it.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Me he sentido tan avergonzada... No quería seguir mancillando las piezas ni un segundo más.",
+      "en": "I was so ashamed of myself. I didn't want to hurt the pieces any longer..."
+     },
+     "options": [
+      {
+       "es": "Te has esforzado mucho.",
+       "en": "It was a good effort.",
+       "points": 0
+      },
+      {
+       "es": "Ya ganarás la siguiente.",
+       "en": "You'll win next time.",
+       "points": 0
+      },
+      {
+       "es": "Una decisión digna de una reina.",
+       "en": "A very queenly decision.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Así que aquí nos despedimos.",
+      "en": "...So this is goodbye."
+     },
+     "options": [
+      {
+       "es": "Quiero ser más fuerte.",
+       "en": "I want to become stronger.",
+       "points": 0
+      },
+      {
+       "es": "Quiero quedarme a tu lado.",
+       "en": "I want to stay by your side.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "route": "romance",
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "¿A qué te refieres?",
+      "en": "What do you mean by that...?"
+     },
+     "options": [
+      {
+       "es": "Quiero tener una cita contigo.",
+       "en": "I want us to date.",
+       "points": 0,
+       "romance": true
+      },
+      {
+       "es": "Seremos amigos para siempre.",
+       "en": "We'll be friends forever.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Touryou",
+     "description": "Puedes huir del combate sin esperar."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Togo System",
+     "description": "Puedes cambiar compañeros en el turno de cualquiera. Se desbloquea la fusión de Lucifer."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

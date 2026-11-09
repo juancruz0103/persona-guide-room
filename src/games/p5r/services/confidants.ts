@@ -58,8 +58,9 @@ export async function loadConfidant(id: string): Promise<Confidant | null> {
 }
 
 /** Puntos máximos de una conversación y si todas las opciones empatan. */
-export function analyzeConversation(c: Conversation): { max: number; allSame: boolean } {
+export function analyzeConversation(c: Conversation): { max: number; allSame: boolean; hasRecommended: boolean } {
   const pts = c.options.map((o) => o.points);
   const max = Math.max(...pts);
-  return { max, allSame: pts.every((p) => p === max) };
+  const hasRecommended = c.options.some((o) => o.recommended);
+  return { max, allSame: !hasRecommended && pts.every((p) => p === max), hasRecommended };
 }

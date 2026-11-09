@@ -1,0 +1,658 @@
+{
+ "id": "iwai",
+ "name": "Munehisa Iwai",
+ "arcana": "hanged",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Disponible desde el 6 de mayo, después del evento del paquete en la tienda de airsoft. Para empezar necesitas Coraje 4; para el rango 8, Coraje 5.",
+  "En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.».",
+  "En el rango 8 aparece un pedido de Mementos: complétalo para seguir con Iwai."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9383-persona-5-royal-iwai-confidant-guide-hanged-man-choices-unlock-list"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Starter Customization",
+     "description": "Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Parece que está pasando algo raro.",
+      "en": "...Sounds like there's some weird stuff goin' down."
+     },
+     "options": [
+      {
+       "es": "¿Quién era ese tío?",
+       "en": "Who was that guy?",
+       "points": 0
+      },
+      {
+       "es": "¿Qué hago ahora?",
+       "en": "What should I do now?",
+       "points": 2
+      },
+      {
+       "es": "¿Cómo va tu resfriado?",
+       "en": "How's your cold?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "El clan al que yo pertenecía... cuando era un yakuza.",
+      "en": "The same clan I was in... back when I was part of the yakuza."
+     },
+     "options": [
+      {
+       "es": "Sabía que eras un mafioso.",
+       "en": "I always knew you were a thug.",
+       "points": 3
+      },
+      {
+       "es": "Bueno... yo me piro.",
+       "en": "Oh. I, uh... have to go.",
+       "points": 0
+      },
+      {
+       "es": "¡¿Un yakuza?!",
+       "en": "Y-Yakuza!?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Espero no estar asustándote con todo esto.",
+      "en": "...Hope I ain't scarin' you off with all this talk."
+     },
+     "options": [
+      {
+       "es": "En verdad no.",
+       "en": "Not really.",
+       "points": 0
+      },
+      {
+       "es": "No, me gusta.",
+       "en": "No, I like that stuff.",
+       "points": 0
+      },
+      {
+       "es": "¿No habíamos hecho un trato?",
+       "en": "We made a deal, didn't we?",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Medium Customization",
+     "description": "Mejoras de pistola de nivel medio."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Bien hecho. ¡Le voy a pegar un buen susto a Tsuda con esta información!",
+      "en": "Anyways, nice job. I'm gonna be able to give Tsuda a real scare thanks to the info you gave me!"
+     },
+     "options": [
+      {
+       "es": "Hazlo lo mejor que puedas.",
+       "en": "Give it your all.",
+       "points": 0
+      },
+      {
+       "es": "Deberíais jugar limpio.",
+       "en": "You two should play nice.",
+       "points": 2
+      },
+      {
+       "es": "¿Y mi recompensa?",
+       "en": "Where's my reward?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Ahora Tsuda conoce tu cara. Y eso puede ser un problema.",
+      "en": "Now Tsuda knows your face. And that could be a real problem."
+     },
+     "options": [
+      {
+       "en": "I agree.",
+       "es": "Estoy de acuerdo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Tiene muchísimo poder.",
+      "en": "He's just got too much power..."
+     },
+     "options": [
+      {
+       "es": "Eres muy amable, Iwai.",
+       "en": "You're so kind, Iwai.",
+       "points": 0
+      },
+      {
+       "es": "Eres patético.",
+       "en": "You're pathetic.",
+       "points": 3
+      },
+      {
+       "es": "Deberías llamar a la policía.",
+       "en": "You should call the cops.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Me imagino que ya no querrás saber nada más de mí.",
+      "en": "...You prolly don't want anythin' to do with me after that, huh?"
+     },
+     "options": [
+      {
+       "es": "Así es.",
+       "en": "That's right.",
+       "points": 2
+      },
+      {
+       "es": "No hables antes de tiempo.",
+       "en": "Don't make assumptions.",
+       "points": 0
+      },
+      {
+       "es": "Me quedo, pero por las armas.",
+       "en": "I'll stick around for the guns.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Discount",
+     "description": "Descuento en las mejoras de pistola."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Veo que tenéis buen rollo. ¿De qué habéis estado hablando?",
+      "en": "You two look like you're havin' fun. What've you been talkin' about?"
+     },
+     "options": [
+      {
+       "es": "De nuestro futuro.",
+       "en": "Our futures.",
+       "points": 2
+      },
+      {
+       "es": "De chicas.",
+       "en": "Girls.",
+       "points": 3
+      },
+      {
+       "es": "Es un secreto.",
+       "en": "That's a secret.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "¿A que sí?",
+      "en": "Ain't that right?"
+     },
+     "options": [
+      {
+       "es": "Sin duda.",
+       "en": "Right.",
+       "points": 2
+      },
+      {
+       "es": "Deberías decírselo, Iwai.",
+       "en": "You should tell him, Iwai.",
+       "points": 0
+      },
+      {
+       "es": "Invítate a algo.",
+       "en": "You should buy us something.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Me alegra ver que os lleváis bien.",
+      "en": "Glad to see you two get along."
+     },
+     "options": [
+      {
+       "en": "He's my age, so it comes easier.",
+       "es": "Tiene mi edad, así que es más fácil.",
+       "points": 2
+      },
+      {
+       "en": "All I did was listen to him.",
+       "es": "Solo lo escuché.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "¿A ti no te huele a chamusquina?",
+      "en": "I mean, don't somethin' about that seem off to you?"
+     },
+     "options": [
+      {
+       "es": "Para nada.",
+       "en": "Not at all.",
+       "points": 0
+      },
+      {
+       "es": "Totalmente.",
+       "en": "Absolutely.",
+       "points": 3
+      },
+      {
+       "es": "No sé, le irán las armas.",
+       "en": "I guess he likes guns?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Y ahora me está intentando usar a mí para ocultar su error.",
+      "en": "And now he's tryin' to use me to cover up his mistake."
+     },
+     "options": [
+      {
+       "es": "Es horrible.",
+       "en": "That's horrible.",
+       "points": 0
+      },
+      {
+       "es": "Es un tío listo.",
+       "en": "He's clever.",
+       "points": 3
+      },
+      {
+       "es": "Qué zorro, el cabrón.",
+       "en": "What a crafty bastard.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "No podemos arriesgarnos.",
+      "en": "We can't afford to take any chances."
+     },
+     "options": [
+      {
+       "en": "Bring it on.",
+       "es": "Que venga.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Expert Customization",
+     "description": "Mejoras de pistola de nivel experto."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Espero que todos estos líos de la yakuza no te hayan causado muchos problemas.",
+      "en": "I hope dealing with all this yakuza business hasn't been too much trouble."
+     },
+     "options": [
+      {
+       "es": "Pues un poco sí, la verdad.",
+       "en": "It most definitely was.",
+       "points": 2
+      },
+      {
+       "es": "Lo he hecho por Iwai.",
+       "en": "I did it all for Iwai.",
+       "points": 3
+      },
+      {
+       "es": "No, si me lo he pasado bien.",
+       "en": "Actually, it's been fun.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Olvida todo esto.",
+      "en": "Just forget all of this..."
+     },
+     "options": [
+      {
+       "es": "Lo haré.",
+       "en": "I will.",
+       "points": 2
+      },
+      {
+       "es": "Quiero ayudarte.",
+       "en": "I want to help you.",
+       "points": 2
+      },
+      {
+       "es": "No puedo.",
+       "en": "I can't.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Oye, ¿crees que alguien puede dar un cambio drástico así de rápido?",
+      "en": "Hey, you think a guy can really go through a drastic change that quick?"
+     },
+     "options": [
+      {
+       "es": "Imposible no es.",
+       "en": "It's not impossible.",
+       "points": 0
+      },
+      {
+       "es": "No lo sé.",
+       "en": "I dunno.",
+       "points": 2
+      },
+      {
+       "es": "Ha madurado.",
+       "en": "He's matured.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Sé que hoy en día los chavales tenéis mucho que hacer, así que lo entiendo si me dices que no.",
+      "en": "I understand kids these days have all sortsa commitments, so I get it if the answer's gotta be no..."
+     },
+     "options": [
+      {
+       "es": "Voy a volver.",
+       "en": "I'm back, baby.",
+       "points": 2
+      },
+      {
+       "es": "Bueno, me lo pensaré.",
+       "en": "I guess I could consider it.",
+       "points": 3
+      },
+      {
+       "es": "Si me pagas bien, sí.",
+       "en": "If you pay me well.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Parecía de fiar, pero... toda precaución es poca.",
+      "en": "Seemed like he was on the level, but... can't be too careful."
+     },
+     "options": [
+      {
+       "en": "Understood.",
+       "es": "Entendido.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Se lo tiene merecido, ¿eh?",
+      "en": "Serves him right, huh?"
+     },
+     "options": [
+      {
+       "es": "Qué bien.",
+       "en": "That's great news.",
+       "points": 2
+      },
+      {
+       "es": "Me sabe mal por él.",
+       "en": "I feel bad for him.",
+       "points": 0
+      },
+      {
+       "es": "¿Seguro que sigue vivo?",
+       "en": "Are you sure he's still alive?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Kaoru...",
+      "en": "Kaoru..."
+     },
+     "options": [
+      {
+       "es": "Dile la verdad.",
+       "en": "Tell him the truth.",
+       "points": 3
+      },
+      {
+       "es": "Confía en tu hijo.",
+       "en": "You need to trust your son.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Supongo que estás madurando más rápido de lo que creía.",
+      "en": "Guess you're maturin' quicker than I even realized..."
+     },
+     "options": [
+      {
+       "es": "Kaoru tiene mucha voluntad.",
+       "en": "Kaoru is really strong-willed.",
+       "points": 3
+      },
+      {
+       "es": "En la madurez ha salido a ti.",
+       "en": "He gets that maturity from you.",
+       "points": 2
+      },
+      {
+       "es": "Es un chaval estupendo, ¿eh?",
+       "en": "He's a cool kid, huh?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "...El chaval se ha hecho un hombre sin que me diera cuenta.",
+      "en": "...The kid must've grown into a man while I wasn't looking."
+     },
+     "options": [
+      {
+       "en": "Like father, like son.",
+       "es": "De tal palo, tal astilla.",
+       "points": 2
+      },
+      {
+       "en": "Gecko bonds go beyond blood.",
+       "es": "Los lazos de geco van más allá de la sangre.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Special Customization",
+     "description": "Mejoras de pistola al máximo. Se desbloquea la fusión de Atis."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

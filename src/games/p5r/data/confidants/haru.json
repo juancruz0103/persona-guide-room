@@ -20,7 +20,7 @@
      "description": "Puedes cultivar verduras en la azotea de la escuela."
     }
    ],
-   "choicesDontMatter": true
+   "noData": true
   },
   {
    "rank": 2,

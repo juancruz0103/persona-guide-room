@@ -1,0 +1,73 @@
+# fuente: https://www.rpgsite.net/feature/9598-persona-5-royal-maruki-confidant-choices-guide-the-councillor
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+CONSEJO | Empieza solo con la historia el 13 de mayo. Está en la escuela de día los lunes, martes, miércoles y viernes.
+CONSEJO | No se puede pasar del rango 5 hasta después del 19 de septiembre.
+CONSEJO | Hay que llegar al rango 9 antes del 17 de noviembre: así el rango 10 llega con la historia y se desbloquea el tercer semestre.
+CONSEJO | Cada rango sube 5 SP el máximo de Joker y te da un objeto.
+1 | NOIMPORTA
+2 | We made a deal. | 2
+2 | I'm a little nervous. | 2
+2 | But it sounds right. | 3
+2 | Yep. | 2
+2 | Well, okay. | 2
+2 | DESBLOQUEO | Detox X | A veces cura al momento un estado alterado.
+3 | So they have, huh? | 2
+3 | Thanks to you, probably. | 2
+3 | Of course. | 2
+3 | Yeah, for our deal. | 2
+3 | That one seems necessary. | 2
+3 | Did that help? | 2
+3 | Don't worry about it. | 2
+3 | TEL | I thought I'd thank you once again for your help earlier. | Quería darte las gracias otra vez por tu ayuda de antes. | Good work over there. | Buen trabajo. | 2
+3 | DESBLOQUEO | Flow | A veces empiezas el combate con Cargar y Concentrar activos.
+4 | I know, right...? | 3
+4 | Talk about a reward. | 2
+4 | Is that what you're researching? | 3
+4 | That'd be great. | 2
+4 | That's a grand plan. | 2
+4 | You're so kind. | 2
+4 | That sounds fun. | 3
+4 | TEL | Is your schoolwork being affected? | ¿Te está afectando a los estudios? | I feel completely fine. | Estoy perfectamente. | 2
+4 | TEL | Is your schoolwork being affected? | ¿Te está afectando a los estudios? | It's part of our deal, so... | Es parte del trato, así que... | 2
+5 | This looks great! | 3
+5 | I could just take cash... | 2
+5 | You know, you're right. | 3
+5 | They're getting played. | 2
+5 | My senses lied to me! | 2
+5 | Hey, as long as it tastes good. | 2
+5 | I guess so. | 2
+5 | TEL | It ended up being another big academic discussion... | Al final acabó siendo otra charla académica... | I really don't mind. | No me importa, de verdad. | 2
+5 | TEL | It ended up being another big academic discussion... | Al final acabó siendo otra charla académica... | It was thought-provoking. | Me ha dado que pensar. | 2
+5 | DESBLOQUEO | Mindfulness | Cuando te queda poco SP, a veces recuperas algo.
+6 | Another cup? | 2
+6 | We've got curry too. | 2
+6 | I can do that. | 3
+6 | It's a deal. | 2
+6 | So give up. | 2
+6 | TEL | Sorry for... hah... rushing out... phew... so suddenly... hah... earlier... | Perdona por... uf... salir corriendo... así... de repente... antes... | Calm down. | Tranquilo. | 2
+6 | TEL | Sorry for... hah... rushing out... phew... so suddenly... hah... earlier... | Perdona por... uf... salir corriendo... así... de repente... antes... | What's going on? | ¿Qué pasa? | 2
+7 | You really are dedicated. | 3
+7 | Are you a fan? | 2
+7 | No idea. | 3
+7 | As in, removing them? | 3
+7 | Sounds pretty far-fetched. | 3
+7 | It's intriguing. | 3
+7 | DESBLOQUEO | Quick Flow | Flow se activa más a menudo.
+8 | What do you mean? | 3
+8 | I'm good on cookies, thanks. | 2
+8 | Ooh, really? | 3
+8 | Can you afford that? | 2
+8 | Sorry, I prefer sushi. | 2
+8 | Thanks for the food! | 3
+8 | This is quite the spread. | 2
+8 | We've made a deal. | 3
+8 | Congratulations. | 3
+8 | Way to go. | 3
+8 | I sure do. | 2
+8 | Let's celebrate. | 2
+8 | TEL | Maybe it's because he knows I'm a little careless, though. | Aunque quizá es porque sabe que soy un poco despistado. | He's a good friend. | Es un buen amigo. | 2
+9 | Kind of sad... | 3
+9 | Is our deal over? | 2
+9 | Well... take care of yourself. | 2
+9 | DESBLOQUEO | Detox DX | Detox X funciona mejor y más a menudo.
+10 | DESBLOQUEO | Wakefulness | Mindfulness recupera más SP.

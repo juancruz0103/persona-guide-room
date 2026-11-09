@@ -1,0 +1,43 @@
+# fuente: https://www.rpgsite.net/feature/9388-persona-5-royal-hifumi-confidant-guide-star-choices-romance-unlock-gifts
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+# Rango 1: la guía lista opciones que no están en Royal.
+CONSEJO | Después del Palacio de Kaneshiro, desde el 25 de junio: habla con la chica de la iglesia de Kanda. Necesitas Encanto 3.
+CONSEJO | Para el rango 8 necesitas Conocimiento 5. En ese rango aparece el pedido de Mementos «Upstaging the Stage Mother»: complétalo y vuelve con Hifumi.
+1 | DESBLOQUEO | Koma Sabaki | En el turno de Joker puedes cambiar compañeros del grupo. Varios rangos dan además puntos extra de Conocimiento.
+2 | That's interesting. | 2
+2 | But you don't want to, right? | 2
+3 | Describes you perfectly. | 2
+3 | Having a difficult time? | 2
+3 | TEL | How can I teach you properly when I'm this distressed...? | ¿Cómo voy a enseñarte bien estando tan agobiada...? | Bring it on. | Adelante. | 2
+3 | DESBLOQUEO | Uchikomi | Cuando derribas a un enemigo, un compañero que no está en el grupo puede atacar.
+4 | I didn't mind. | 2
+4 | Must've been the katsu curry. | 2
+4 | They're cool. | 2
+4 | TEL | Really, I would be delighted to do this again. | De verdad, me encantaría repetirlo. | I'd love to. | Me encantaría. | 2
+4 | TEL | Really, I would be delighted to do this again. | De verdad, me encantaría repetirlo. | Where shall we go next? | ¿Adónde vamos la próxima vez? | 2
+4 | DESBLOQUEO | Jinbocho | Se desbloquea el barrio de las librerías.
+5 | She's scary. | 2
+5 | You should stop then. | 2
+5 | TEL | She didn't mean to offend you at all. I hope you'll accept my apology in her place. | No pretendía ofenderte en absoluto. Espero que aceptes mis disculpas en su nombre. | You've got a lot to deal with. | Tienes mucho con lo que lidiar. | 2
+5 | DESBLOQUEO | Kakoi Kuzushi | Puedes intentar huir aunque los enemigos te rodeen.
+6 | Is that frustrating? | 2
+6 | Do what you love. | 2
+6 | Do you still like shogi? | 2
+6 | TEL | Considering how good a listener you are, I mean. | Teniendo en cuenta lo bien que escuchas, quiero decir. | You're imagining things. | Son imaginaciones tuyas. | 2
+6 | DESBLOQUEO | Tokyo Skytree | Se desbloquea el lugar si aún no lo tenías.
+7 | It may come down to luck. | 3
+7 | That's almost a relief. | 2
+7 | I believe in you. | 3
+7 | Give it your all. | 2
+7 | DESBLOQUEO | Narikin | Si ganas en un turno después de una emboscada, consigues el doble de dinero.
+8 | That won't work. | 2
+8 | I'm glad her heart changed. | 3
+8 | Maybe... | 2
+9 | Give it all you got. | 2
+9 | A very queenly decision. | 3
+9 | I want to become stronger. | 0
+9 | I want to stay by your side. | 0 | ROMANCE
+9 | I want us to date. | 0 | ROMANCE
+9 | We'll be friends forever. | 0
+9 | DESBLOQUEO | Touryou | Puedes huir del combate sin esperar.
+10 | DESBLOQUEO | Togo System | Puedes cambiar compañeros en el turno de cualquiera. Se desbloquea la fusión de Lucifer.

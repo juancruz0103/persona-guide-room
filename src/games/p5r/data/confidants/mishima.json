@@ -1,0 +1,768 @@
+{
+ "id": "mishima",
+ "name": "Yuuki Mishima",
+ "arcana": "moon",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Los rangos 1 y 2 llegan con la historia (6 y 8 de mayo). El rango 3 está disponible desde el 10 de mayo.",
+  "Para subir de rango con Mishima hay que completar pedidos de Mementos entre un encuentro y otro.",
+  "En el rango 7, después de la «purga», ve con el equipo a Mementos y habla con el objetivo; Mishima te escribe después para seguir."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9385-persona-5-royal-mishima-confidant-guide-moon-choices-answers"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Mishima's Support",
+     "description": "Los compañeros que no combaten ganan algo de experiencia."
+    }
+   ],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Los Ladrones Fantasma deben estar bien considerados si queremos que sean populares.",
+      "en": "We need the Phantom Thieves to be seen in the proper light if we want to make the name popular, right?"
+     },
+     "options": [
+      {
+       "es": "Lo has hecho bien, chaval.",
+       "en": "You've done good, kid.",
+       "points": 3
+      },
+      {
+       "es": "Parece difícil.",
+       "en": "That sounds pretty tough.",
+       "points": 0
+      },
+      {
+       "es": "¿Es esto realmente necesario?",
+       "en": "Is this really necessary?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Seré algo así como vuestro representante oficial de imagen pública.",
+      "en": "It's like I'll be your strategic image management representative, so to speak."
+     },
+     "options": [
+      {
+       "es": "Eh... ¿representante de qué?",
+       "en": "Uh, strategic... what?",
+       "points": 0
+      },
+      {
+       "es": "Suena guay.",
+       "en": "Sounds cool.",
+       "points": 3
+      },
+      {
+       "es": "Te veo con muchas ganas.",
+       "en": "You're really hyped for this.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "¡A estas alturas, mejor me paso la noche en vela contraatacando!",
+      "en": "At this point, I might as well pull an all-nighter fighting back!"
+     },
+     "options": [
+      {
+       "en": "Nice hustle, image manager.",
+       "es": "Buen trabajo, jefe de imagen.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Todo ladrón necesita una chica especial, ¿eh?",
+      "en": "All thieves are supposed to have some special ladies, right?"
+     },
+     "options": [
+      {
+       "es": "No sabía nada de eso.",
+       "en": "I've never heard that before.",
+       "points": 0
+      },
+      {
+       "es": "¡Buena idea!",
+       "en": "Great idea.",
+       "points": 3
+      },
+      {
+       "es": "Ya estoy con alguien...",
+       "en": "I'm already taken.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Ni una palabra, ¿vale?",
+      "en": "Don't spill the beans, okay?"
+     },
+     "options": [
+      {
+       "es": "Me preocupa un poco el asunto.",
+       "en": "I'm worried about this...",
+       "points": 0
+      },
+      {
+       "es": "¿Que somos parte de los... fans?",
+       "en": "We're part of... the Phandom?",
+       "points": 2
+      },
+      {
+       "es": "Preferiría decirles la verdad.",
+       "en": "Let's tell them the truth.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Todos los comentarios nuevos me tenían muy ocupado y nos les hice mucho caso.",
+      "en": "I was so busy with all the new forum posts, I didn't have time to really vet them too much."
+     },
+     "options": [
+      {
+       "es": "No es culpa tuya.",
+       "en": "It's not your fault.",
+       "points": 2
+      },
+      {
+       "es": "Trabajas demasiado.",
+       "en": "Don't overwork yourself.",
+       "points": 0
+      },
+      {
+       "es": "No me puedo fiar de nadie...",
+       "en": "I can't trust anyone anymore...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Esas cosas siempre es mejor oírlas en persona, ¿no?",
+      "en": "It's always better to hear that kinda stuff in person, right?"
+     },
+     "options": [
+      {
+       "en": "Of course.",
+       "es": "Claro.",
+       "points": 2
+      },
+      {
+       "en": "Really?",
+       "es": "¿En serio?",
+       "points": 2
+      },
+      {
+       "en": "You'll get it right next time.",
+       "es": "La próxima vez te saldrá bien.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Mishima's Enthusiasm",
+     "description": "Ganas más experiencia en los combates."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Solo estamos nosotros dos, así que no te cortes. ¿Qué te apetece comer?",
+      "en": "Oh, and it's just the two of us, so don't be afraid to go all out! What do you wanna eat?"
+     },
+     "options": [
+      {
+       "es": "¿Qué me dices de un buen filete?",
+       "en": "Steak sounds good.",
+       "points": 3
+      },
+      {
+       "es": "Unas verduritas frescas.",
+       "en": "Some nice organic veggies.",
+       "points": 0
+      },
+      {
+       "es": "Me encantan los postres.",
+       "en": "I love desserts.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Me imagino que nuestros fans solo quieren apoyarnos. ¿A que se me da bien lo de ser representante?",
+      "en": "But I guess our loving sponsors just wanted to show some support! Not bad for strategic management, huh?"
+     },
+     "options": [
+      {
+       "es": "Eres un genio.",
+       "en": "You're amazing.",
+       "points": 2
+      },
+      {
+       "es": "A mí me suena a timo.",
+       "en": "That sounds like a scam.",
+       "points": 0
+      },
+      {
+       "es": "Ni se te ocurra seguir con esto.",
+       "en": "Stop this at once.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Al final ha salido bastante bien para nuestra imagen, ¿no?",
+      "en": "I guess it ended up being pretty good for our PR in the end, right?"
+     },
+     "options": [
+      {
+       "en": "Yup.",
+       "es": "Sí.",
+       "points": 2
+      },
+      {
+       "en": "You'll get better ideas.",
+       "es": "Ya se te ocurrirán mejores ideas.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Me ha costado un pastón.",
+      "en": "It cost me a lot of money..."
+     },
+     "options": [
+      {
+       "es": "¿Por qué es tan cara?",
+       "en": "Why was it so expensive?",
+       "points": 2
+      },
+      {
+       "es": "Da el pego.",
+       "en": "It looks almost real.",
+       "points": 0
+      },
+      {
+       "es": "¿Es para mí?",
+       "en": "Is it for me?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Algunas de las cosas que ponen dan bastante miedo, así que pensé que debía protegerme.",
+      "en": "Some of the stuff up there is pretty scary... so it seemed like I might need a little protection."
+     },
+     "options": [
+      {
+       "es": "Buena idea.",
+       "en": "That's a good idea.",
+       "points": 2
+      },
+      {
+       "es": "¿Seguro que es necesario?",
+       "en": "Are you sure that's necessary?",
+       "points": 0
+      },
+      {
+       "es": "No hagas ninguna tontería.",
+       "en": "Don't do anything stupid.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "¡Voy a hacer todo lo que pueda, así que tú relájate!",
+      "en": "I'm gonna do everything in my power, so you can just kick back and relax!"
+     },
+     "options": [
+      {
+       "en": "All right.",
+       "es": "Vale.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Mishima's Desperation",
+     "description": "Los compañeros que no combaten ganan más experiencia."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "¡Un auténtico bombazo!",
+      "en": "This one's massive!"
+     },
+     "options": [
+      {
+       "es": "Dímelo ya.",
+       "en": "Just tell me already.",
+       "points": 2
+      },
+      {
+       "es": "No me interesa.",
+       "en": "I'm not interested.",
+       "points": 0
+      },
+      {
+       "es": "Estás que te sales.",
+       "en": "You sure are fired up...",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "He oído que una cantante famosa ha caído en sus garras. ¡Debéis actuar en nombre de sus fans!",
+      "en": "I heard a rumor that a famous idol fell into his clutches... You need to act, on behalf of her fans!"
+     },
+     "options": [
+      {
+       "es": "Tranquilízate.",
+       "en": "Calm yourself.",
+       "points": 0
+      },
+      {
+       "es": "Si no es más que un rumor.",
+       "en": "Rumors are wrong all the time...",
+       "points": 2
+      },
+      {
+       "es": "Mejor no te metas.",
+       "en": "It's none of our business.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Si habéis llegado hasta aquí, ha sido gracias a mi trabajo.",
+      "en": "After all, I'm the only reason you guys have gotten this far, right?"
+     },
+     "options": [
+      {
+       "es": "¿De verdad?",
+       "en": "Is that right...?",
+       "points": 0
+      },
+      {
+       "es": "Es cierto. Buen trabajo.",
+       "en": "Absolutely. Nice job.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Parque Inokashira",
+     "description": "Se desbloquea el lugar si aún no lo tenías."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Me aseguraré de que podemos ponerle la mano encima al próximo objetivo.",
+      "en": "...I need to make sure our next target is one we can win against."
+     },
+     "options": [
+      {
+       "es": "¿Y qué ganamos nosotros?",
+       "en": "And what exactly will we win?",
+       "points": 2
+      },
+      {
+       "es": "Se puede confiar en ti.",
+       "en": "You're so reliable.",
+       "points": 3
+      },
+      {
+       "es": "Cálmate, macho.",
+       "en": "Chill out, dude.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "No queda otra que exterminarlos.",
+      "en": "So... we're gonna purge them."
+     },
+     "options": [
+      {
+       "es": "Me parece excesivo.",
+       "en": "Sounds pretty twisted.",
+       "points": 2
+      },
+      {
+       "es": "¿Despertando sus corazones?",
+       "en": "By changing their hearts?",
+       "points": 0
+      },
+      {
+       "es": "Pisa el freno, anda.",
+       "en": "You really need to chill.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Me pregunto si alguien tan patético como yo puede seros de ayuda.",
+      "en": "I wonder if there's really any way a pathetic guy like me can help you..."
+     },
+     "options": [
+      {
+       "es": "Seguro que sí.",
+       "en": "I'm sure there is.",
+       "points": 2
+      },
+      {
+       "es": "Eso espero.",
+       "en": "I hope so.",
+       "points": 0
+      },
+      {
+       "es": "¿Y la Fansite?",
+       "en": "Maybe the Phan-Site?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Parece prueba suficiente para convertirlo en objetivo, pero voy a investigar un poco más, por si acaso.",
+      "en": "It seems like enough evidence to make him a target, but I'm gonna look into this a little further, just to be safe."
+     },
+     "options": [
+      {
+       "en": "Kind of worrying.",
+       "es": "Me preocupa un poco.",
+       "points": 2
+      },
+      {
+       "en": "It's your time to shine.",
+       "es": "Es tu momento de brillar.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Phanboy",
+     "description": "Ganas mucha más experiencia en los combates."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": ", corre.",
+      "en": "... Run."
+     },
+     "options": [
+      {
+       "es": "De aquí no me muevo.",
+       "en": "I'm not leaving.",
+       "points": 3
+      },
+      {
+       "es": "Tú también deberías huir.",
+       "en": "You should run too.",
+       "points": 2
+      },
+      {
+       "es": "¿Qué piensas hacer?",
+       "en": "What are you going to do?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Uf...",
+      "en": "Urgh..."
+     },
+     "options": [
+      {
+       "es": "¿Te vas a quedar callado?",
+       "en": "You're just gonna take that?",
+       "points": 2
+      },
+      {
+       "es": "Cree en ti.",
+       "en": "Believe in yourself.",
+       "points": 2
+      },
+      {
+       "es": "Los perdedores son ellos.",
+       "en": "They're the real losers.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Todo se habría ido al garete si no hubieran cedido. Ja, ja... Si es que soy un pringado.",
+      "en": "My whole act would've broken down if they didn't back off when they did. Hahaha... I really suck, huh?"
+     },
+     "options": [
+      {
+       "es": "Sin duda.",
+       "en": "Totally.",
+       "points": 2
+      },
+      {
+       "es": "Has estado muy guay.",
+       "en": "You were super cool.",
+       "points": 3
+      },
+      {
+       "es": "Espera, ¿estabas actuando?",
+       "en": "Wait, that was all an act?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "¡Ah! ¡P-pero tengo la pistola de juguete para defenderme! ¡Y mi sistema de seguridad es lo mejor de lo mejor! Así que estoy a salvo, ¿¡no!?",
+      "en": "Oh! B-But I have the model gun I got for self-defense! And my security system's top of the line! So I'm safe, right!?"
+     },
+     "options": [
+      {
+       "en": "You'll be fine.",
+       "es": "No te pasará nada.",
+       "points": 2
+      },
+      {
+       "en": "You've got this, man.",
+       "es": "Tú puedes, tío.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Ojalá lo hubiera sabido antes... Un paso en falso y soy hombre muerto.",
+      "en": "I wish I had known that going in... One slip of the tongue in that act I pulled, and I would've been dead."
+     },
+     "options": [
+      {
+       "es": "Sí, bien muerto.",
+       "en": "Yup, dead as a doornail.",
+       "points": 0
+      },
+      {
+       "es": "Has mostrado mucha valentía.",
+       "en": "You showed some real courage.",
+       "points": 3
+      },
+      {
+       "es": "Me alegro de que sigas vivo.",
+       "en": "I'm glad you're still alive.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yuuki",
+     "prompt": {
+      "es": "Ya oíste lo que dijo de mí... pero ¿de verdad crees que he cambiado en algo?",
+      "en": "You heard what he said about me... but do you really think some part of me's changed?"
+     },
+     "options": [
+      {
+       "en": "The sparkle in your eyes.",
+       "es": "El brillo de tus ojos.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Salvation Wish",
+     "description": "Los compañeros que no combaten ganan toda la experiencia. Se desbloquea la fusión de Sandalfón."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

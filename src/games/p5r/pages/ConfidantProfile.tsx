@@ -21,8 +21,19 @@ const ROUTE_TEXT = {
   friend: 'Solo aparece si seguís como amigos (rechazaste el romance).',
 };
 
-function ConversationCard({ c, index, friendHasMore }: { c: Conversation; index: number; friendHasMore?: boolean }) {
-  const { max, allSame } = analyzeConversation(c);
+function ConversationCard({
+  c,
+  index,
+  friendHasMore,
+  multiStep,
+}: {
+  c: Conversation;
+  index: number;
+  friendHasMore?: boolean;
+  /** El romance se decide en varias preguntas seguidas del mismo rango */
+  multiStep?: boolean;
+}) {
+  const { max, allSame, hasRecommended } = analyzeConversation(c);
   const isRouteChoice = c.romance && c.kind === 'conversation' && !c.route;
   const title = c.kind === 'phone' ? 'Llamada telefónica' : `Conversación ${index}`;
 
@@ -45,17 +56,26 @@ function ConversationCard({ c, index, friendHasMore }: { c: Conversation; index:
       {c.route && <p className={styles.routeNote}>{ROUTE_TEXT[c.route]}</p>}
       {isRouteChoice && (
         <p className={styles.routeNote}>
-          Esta respuesta decide la ruta: la opción en rosa inicia el romance y la otra mantiene la amistad. Lo que sigue
-          en este rango cambia según lo que elijas.
-          {friendHasMore === false && ' Si seguís como amigos, no hay más elecciones en este rango.'}
+          {multiStep ? (
+            'El romance se decide en varias preguntas: hay que elegir la opción en rosa en todas las de este rango. Con cualquier otra respuesta, seguís como amigos.'
+          ) : (
+            <>
+              Esta respuesta decide la ruta: la opción en rosa inicia el romance y la otra mantiene la amistad. Lo que
+              sigue en este rango cambia según lo que elijas.
+              {friendHasMore === false && ' Si seguís como amigos, no hay más elecciones en este rango.'}
+            </>
+          )}
         </p>
+      )}
+      {hasRecommended && (
+        <span className={styles.same}>La guía recomienda esta respuesta, pero no dice cuántos puntos da.</span>
       )}
       {allSame && !isRouteChoice && (
         <span className={styles.same}>Todas las opciones dan los mismos puntos: elegí la que quieras.</span>
       )}
       <ol className={styles.options}>
         {c.options.map((o, i) => {
-          const best = !allSame && o.points === max;
+          const best = hasRecommended ? !!o.recommended : !allSame && o.points === max;
           return (
             <li key={i} className={`${styles.option} ${best ? styles.best : ''} ${o.romance ? styles.optRomance : ''}`}>
               <span className={styles.optNum}>Opción {i + 1}</span>
@@ -63,9 +83,9 @@ function ConversationCard({ c, index, friendHasMore }: { c: Conversation; index:
                 <span>«{o.es}»</span>
                 <small>{o.en}</small>
               </span>
-              <span className={styles.points}>{o.points > 0 ? `+${o.points}` : '0'}</span>
+              <span className={styles.points}>{hasRecommended ? '' : o.points > 0 ? `+${o.points}` : '0'}</span>
               {o.romance && <span className={styles.romanceTag}>Inicia el romance</span>}
-              {best && <span className={styles.bestTag}>Mejor</span>}
+              {best && <span className={styles.bestTag}>{hasRecommended ? 'Recomendada' : 'Mejor'}</span>}
             </li>
           );
         })}
@@ -357,7 +377,12 @@ export default function ConfidantProfile() {
             )}
           </div>
 
-          {rank?.choicesDontMatter ? (
+          {rank?.noData ? (
+            <p className="pending">
+              Este rango tiene respuestas en el juego, pero la guía que usamos no dice cuántos puntos da cada una.
+              Las cargamos cuando las confirmemos con otra fuente.
+            </p>
+          ) : rank?.choicesDontMatter ? (
             <div className={styles.dontMatter}>En este rango las respuestas no cambian los puntos: elegí la que quieras.</div>
           ) : rank ? (
             (() => {
@@ -368,6 +393,7 @@ export default function ConfidantProfile() {
                   c={c}
                   index={c.kind === 'phone' ? 0 : ++n}
                   friendHasMore={rank.conversations.some((x) => x.route === 'friend')}
+                  multiStep={rank.conversations.filter((x) => x.romance && x.kind === 'conversation' && !x.route).length > 1}
                 />
               ));
             })()

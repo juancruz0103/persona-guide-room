@@ -1,0 +1,34 @@
+# fuente: https://www.rpgsite.net/feature/5475-persona-5-royal-oda-confidant-guide-tower-choices-unlock-list
+# La guía pone en el rango 5 las respuestas del 4 (comprobado con el juego) y no tiene las del 5.
+# Llamadas: la guía no da la frase de Shinya, así que no se cargan todavía.
+CONSEJO | Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves después de clase, sábados de día y los días de lluvia.
+CONSEJO | En el rango 8 aparece el pedido de Mementos «A Mother's Aggression»: hay que completarlo para empezar el rango 9.
+1 | DESBLOQUEO | Down Shot | Gastas todo el cargador para derribar seguro a un enemigo. Cada rango da además puntos extra de Gentileza.
+2 | Don't compare me to you. | 3
+2 | Sorry... | 2
+2 | What a rude employee. | 2
+2 | Do you admire them? | 2
+2 | So do I. | 3
+2 | I'll let them know. | 3
+2 | DESBLOQUEO | Bullet Hail | Después de una emboscada, a veces lanzas un ataque con armas de todo el grupo.
+3 | That's the spirit. | 2
+3 | DESBLOQUEO | Warning Shot | En una negociación puedes intimidar a la Sombra para que se una a ti.
+4 | Yeah, you tell him! | 2
+4 | Get your revenge. | 2
+5 | DESBLOQUEO | Ammo Pouch | Más balas por arma.
+6 | I believe in you. | 3
+6 | That's good. | 2
+6 | Not at all. | 3
+6 | DESBLOQUEO | Cheap Shot | Down Shot gasta menos balas.
+7 | NOIMPORTA
+8 | No, she's not. | 2
+8 | Is that what you think? | 2
+8 | Believe in them. | 3
+8 | It'll all work out. | 2
+8 | DESBLOQUEO | Electric Slug | Bullet Hail hace más daño.
+9 | I'm glad to hear that. | 3
+9 | Thank the Phantom Thieves. | 2
+9 | It means you've matured. | 3
+9 | No, that makes sense. | 3
+9 | A little bit, yeah. | 2
+10 | DESBLOQUEO | Oda Special | Los ataques de Joker ignoran las resistencias. Se desbloquea la fusión de Mada.

@@ -1,0 +1,749 @@
+{
+ "id": "kawakami",
+ "name": "Sadayo Kawakami",
+ "arcana": "temperance",
+ "phantomThief": false,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [
+  "Empieza después del evento del 24 de mayo. Se la llama desde el teléfono de Leblanc los viernes y sábados por la noche: necesitas Coraje 3 y cada visita cuesta 5000 ¥.",
+  "Hay que llegar al rango 10 antes del 18 de noviembre.",
+  "En el rango 9 aparece el pedido de Mementos «A Teacher Maid to Suffer»: complétalo para seguir."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/5473-persona-5-royal-kawakami-confidant-guide-temperance-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Slack Off",
+     "description": "En clase puedes hacer otras cosas, como fabricar herramientas de infiltración."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Pero ¿no te rompe el corazón ver a una sirvienta tan adorable como yo toda sucia?",
+      "en": "But then, doesn't it pain your heart to see such a cute maid all dirty?"
+     },
+     "options": [
+      {
+       "es": "Sí.",
+       "en": "It does.",
+       "points": 2
+      },
+      {
+       "es": "No siento nada.",
+       "en": "I feel nothing.",
+       "points": 0
+      },
+      {
+       "es": "Se lo diré a tu jefe.",
+       "en": "I'll tell your boss.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "No querrías que hiciese cosas raras contigo, ¿verdad?",
+      "en": "You weren't expecting to do anything weird with me, were you?"
+     },
+     "options": [
+      {
+       "es": "No lo negaré...",
+       "en": "I can't say I wasn't...",
+       "points": 0
+      },
+      {
+       "es": "¡De eso nada!",
+       "en": "Absolutely not!",
+       "points": 2
+      },
+      {
+       "es": "¿Qué cosas raras?",
+       "en": "What kind of weird things?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "¿Le parece bien, amo?",
+      "en": "Is that okay, Master?"
+     },
+     "options": [
+      {
+       "en": "You have the wrong number.",
+       "es": "Se ha equivocado de número.",
+       "points": 2
+      },
+      {
+       "en": "Uh, what the hell?",
+       "es": "Eh, ¿pero qué demonios?",
+       "points": 2
+      },
+      {
+       "en": "Is this the hard sell?",
+       "es": "¿Esto es venta agresiva?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "El ramen instantáneo sí que marca la diferencia, ¿eh?",
+      "en": "The high-end cup noodles really do make a difference, don't they?"
+     },
+     "options": [
+      {
+       "es": "Sí.",
+       "en": "Yeah, they do.",
+       "points": 2
+      },
+      {
+       "es": "¿Y si cocinas de verdad?",
+       "en": "Do some real cooking.",
+       "points": 2
+      },
+      {
+       "es": "¿Puedo pedir a otra sirvienta?",
+       "en": "Can I have a different maid?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "He oído que hasta podrían recortar los salarios de los profesores. Estoy hasta el moño ya.",
+      "en": "I heard they might even cut the teachers' salaries... I'm so sick of it..."
+     },
+     "options": [
+      {
+       "es": "Los gastos de tu hermana, ¿no?",
+       "en": "Your sister's bills, right?",
+       "points": 0
+      },
+      {
+       "es": "Solicitaré más tus servicios.",
+       "en": "I'll request you more often.",
+       "points": 3
+      },
+      {
+       "es": "Eres muy directa.",
+       "en": "You're really blunt.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Todavía eres joven, así que tienes que comer bien...",
+      "en": "You're still young, so you really need to eat properly..."
+     },
+     "options": [
+      {
+       "en": "Thanks.",
+       "es": "Gracias.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Housekeeping",
+     "description": "Kawakami puede preparar café o hacerte la colada."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Pero ¡me dijo que les daba prioridad a las más jóvenes!",
+      "en": "But he said that he prioritizes \"younger\" women!"
+     },
+     "options": [
+      {
+       "es": "Menuda grosería.",
+       "en": "How rude.",
+       "points": 2
+      },
+      {
+       "es": "No me sorprende.",
+       "en": "No surprise there.",
+       "points": 0
+      },
+      {
+       "es": "¿Cuántos años tienes?",
+       "en": "How old ARE you?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Soy una buena sirvienta, ¿verdad?",
+      "en": "I look pretty good as a maid, don't I?"
+     },
+     "options": [
+      {
+       "es": "Sí.",
+       "en": "Yes, you do.",
+       "points": 2
+      },
+      {
+       "es": "Lo estás forzando.",
+       "en": "You're pushing it.",
+       "points": 0
+      },
+      {
+       "es": "Tienes que quererte a ti misma.",
+       "en": "You need to love yourself.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Sabías que solo te estaba sacando dinero, ¿y aun así me llamabas?",
+      "en": "You know you're being used for money... and you still request me?"
+     },
+     "options": [
+      {
+       "es": "Es divertido.",
+       "en": "It's fun.",
+       "points": 2
+      },
+      {
+       "es": "Cuéntame más.",
+       "en": "I want to know more.",
+       "points": 0
+      },
+      {
+       "es": "¿Quién es el amo aquí?",
+       "en": "Who's the Master here?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Me amenazó... y me dijo que me despediría si seguía dándole clases.",
+      "en": "He threatened me... saying that I'd be dismissed if I continued to tutor Takase-kun."
+     },
+     "options": [
+      {
+       "es": "Es horrible...",
+       "en": "How terrible...",
+       "points": 2
+      },
+      {
+       "es": "Fue inevitable.",
+       "en": "It was inevitable.",
+       "points": 0
+      },
+      {
+       "es": "Entonces, ¿lo dejaste?",
+       "en": "So, did you stop?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "¿Comes el curry de ese sitio todos los días?",
+      "en": "Do you get to eat that place's curry every day?"
+     },
+     "options": [
+      {
+       "en": "You want some?",
+       "es": "¿Quieres un poco?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Free Time",
+     "description": "Puedes escaquearte en clase todavía más a menudo."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Lo siento, tengo que descansar un poco...",
+      "en": "Sorry... I need to take a break..."
+     },
+     "options": [
+      {
+       "es": "Acabas de llegar.",
+       "en": "You just got here.",
+       "points": 0
+      },
+      {
+       "es": "¿Quieres descansar un poco?",
+       "en": "Want to rest a bit?",
+       "points": 2
+      },
+      {
+       "es": "Devuélveme mi dinero.",
+       "en": "Give me back my money.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "No puedo dejar de toser.",
+      "en": "I can't stop coughing..."
+     },
+     "options": [
+      {
+       "es": "¿Estás bien?",
+       "en": "Are you all right?",
+       "points": 3
+      },
+      {
+       "es": "¿Has ido al médico?",
+       "en": "Have you seen a doctor?",
+       "points": 2
+      },
+      {
+       "es": "Deberías irte a casa.",
+       "en": "You should go home.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Si descuidas esas cosas, es más fácil que enfermes.",
+      "en": "If you neglect stuff like that, it makes you more likely to get sick."
+     },
+     "options": [
+      {
+       "en": "How are you feeling, though?",
+       "es": "¿Y tú cómo te encuentras?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Creo que podré hacerla mañana.",
+      "en": "I should be able to send it out tomorrow..."
+     },
+     "options": [
+      {
+       "es": "Tampoco te pases.",
+       "en": "Don't strain yourself.",
+       "points": 2
+      },
+      {
+       "es": "No mientas.",
+       "en": "Don't lie.",
+       "points": 0
+      },
+      {
+       "es": "No les pagues.",
+       "en": "Don't pay them.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "No me queda otra que ir a la compañía subsidiaria.",
+      "en": "I guess transferring to our sister company is the only way..."
+     },
+     "options": [
+      {
+       "es": "¿Compañía subsidiaria?",
+       "en": "Sister company?",
+       "points": 0
+      },
+      {
+       "es": "¿Tanto se gana?",
+       "en": "Can you make a lot there?",
+       "points": 0
+      },
+      {
+       "es": "Piénsatelo mejor.",
+       "en": "Think this through more.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Super Housekeeping",
+     "description": "Kawakami puede preparar curry o herramientas de infiltración."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "No me queda más remedio que hacerlo.",
+      "en": "...So this is just what I have to do."
+     },
+     "options": [
+      {
+       "es": "Que ese no es el camino.",
+       "en": "That's the wrong decision.",
+       "points": 0
+      },
+      {
+       "es": "Piénsatelo mejor.",
+       "en": "Please reconsider.",
+       "points": 0
+      },
+      {
+       "es": "¿Es eso lo que quieres?",
+       "en": "Is this really what you want?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Por eso voy a dejar mis trabajos de profesora y de sirvienta. ¿Qué opinas?",
+      "en": "That's why I'm going to quit both my teaching job and my maid job... What do you think?"
+     },
+     "options": [
+      {
+       "es": "No haces más que huir.",
+       "en": "You're running away.",
+       "points": 2
+      },
+      {
+       "es": "Si ya lo tienes claro...",
+       "en": "If that's what you decided.",
+       "points": 3
+      },
+      {
+       "es": "Necesito a mi profesora.",
+       "en": "I need my teacher.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "¡Está decidido! ¿Y bien? ¿Qué te parece?",
+      "en": "And that is my answer! ...Well, what do you think?"
+     },
+     "options": [
+      {
+       "es": "Responde con seguridad.",
+       "en": "Be confident in your answer.",
+       "points": 3
+      },
+      {
+       "es": "Es la decisión correcta.",
+       "en": "That's the right choice.",
+       "points": 3
+      },
+      {
+       "es": "¿Y se lo preguntas a un estudiante?",
+       "en": "You're asking a student?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Te protegeré a partir de ahora. Como profesora tuya que soy, no te traicionaré.",
+      "en": "But from now on, I'm going to protect you too. As your teacher, I will never betray you."
+     },
+     "options": [
+      {
+       "es": "Soy yo que el quiere protegerte.",
+       "en": "I want to protect you.",
+       "points": 3
+      },
+      {
+       "es": "Oír eso me da seguridad.",
+       "en": "That's reassuring.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Gracias a ti he descubierto lo que tengo que hacer.",
+      "en": "It's thanks to you that I actually figured out what I need to do."
+     },
+     "options": [
+      {
+       "en": "You're welcome.",
+       "es": "De nada.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Aunque seguro que ya seré vieja cuando haya cumplido mis sueños.",
+      "en": "I bet I'll be an old woman by the time I achieve my dreams."
+     },
+     "options": [
+      {
+       "es": "Es absurdo.",
+       "en": "Nonsense.",
+       "points": 3
+      },
+      {
+       "es": "Puede que tengas razón.",
+       "en": "You may be right.",
+       "points": 0
+      },
+      {
+       "es": "Pero si tú ya eres vieja...",
+       "en": "Aren't you old already...?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "A partir de hoy, dejo de ser tu sirvienta.",
+      "en": "Today marks the day I graduate from being your maid."
+     },
+     "options": [
+      {
+       "es": "Pues vaya mierda.",
+       "en": "What a bummer.",
+       "points": 3
+      },
+      {
+       "es": "Gracias por tus servicios.",
+       "en": "Thank you for your service.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Además, ¿no te sentirás solo? ¿Eh?",
+      "en": "Besides, won't you be lonely? Hm?"
+     },
+     "options": [
+      {
+       "es": "La verdad es que no.",
+       "en": "Not really.",
+       "points": 2
+      },
+      {
+       "es": "Quiero seguir viéndote.",
+       "en": "I want to keep seeing you.",
+       "points": 2,
+       "romance": true
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Darle falsas esperanzas a alguien... Es un poco inmoral, ¿sabes?",
+      "en": "You don't want to give anybody the wrong idea. That could really hurt someone."
+     },
+     "options": [
+      {
+       "es": "Lo entiendo.",
+       "en": "Got it.",
+       "points": 2
+      },
+      {
+       "es": "Hablo en serio.",
+       "en": "I mean what I say.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Esta situación no es normal. Soy profesora y tú eres mi alumno, ¿es que no lo ves?",
+      "en": "This situation isn't normal. I'm a teacher, and you're my student, you know?"
+     },
+     "options": [
+      {
+       "es": "Soy tu amo y tú, mi sirvienta.",
+       "en": "I'm a master; you're a maid.",
+       "points": 0
+      },
+      {
+       "es": "Soy un hombre y tú, una mujer.",
+       "en": "I'm a man; you're a woman.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Special Massage",
+     "description": "Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

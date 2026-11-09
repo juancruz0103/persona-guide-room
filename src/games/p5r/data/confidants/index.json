@@ -78,7 +78,7 @@
   "notice": "Su rango queda bloqueado hasta avanzar en la historia de Futaba.",
   "phantomThief": false,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "ann",
@@ -151,7 +151,7 @@
   "notice": "Empieza después de completar un pedido de Mementos.",
   "phantomThief": false,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "caroline-justine",
@@ -173,7 +173,7 @@
   ],
   "phantomThief": false,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "takemi",
@@ -186,7 +186,7 @@
   ],
   "phantomThief": false,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "kawakami",
@@ -201,7 +201,7 @@
   "notice": "Su rango queda bloqueado hasta el final de las vacaciones de verano.",
   "phantomThief": false,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "ohya",
@@ -213,7 +213,7 @@
   ],
   "phantomThief": false,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "oda",
@@ -226,7 +226,7 @@
   "notice": "Empieza después de completar un pedido de Mementos.",
   "phantomThief": false,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "hifumi",
@@ -239,7 +239,7 @@
   ],
   "phantomThief": false,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "mishima",
@@ -252,7 +252,7 @@
   "notice": "Avanza al completar los pedidos de Mementos que te manda.",
   "phantomThief": false,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "yoshida",
@@ -265,7 +265,7 @@
   "notice": "Solo se lo encuentra los domingos por la noche.",
   "phantomThief": false,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "sae",
@@ -307,6 +307,6 @@
   "notice": "Llegá al rango 9 antes del 17/11: lo necesitás para el final verdadero. El rango 10 sube solo.",
   "phantomThief": false,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  }
 ]

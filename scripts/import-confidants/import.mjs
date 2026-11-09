@@ -2,6 +2,8 @@
 /**
  * Conversaciones de confidentes: texto OFICIAL del juego + puntos de las guías.
  *
+ *   Puntos «?»: respuesta recomendada por la guía sin puntos conocidos.
+ *   «R | NOIMPORTA»: en ese rango las respuestas no suman puntos.
  *   Líneas «CONSEJO | texto» de la guía van a los consejos de la ficha.
  *   node scripts/import-confidants/import.mjs <convs.json> <id> [<id>...]
  *
@@ -34,6 +36,9 @@ const ROUTES = {
   'E706_090|SEL_039_0_0': 'romance', // Ann
   'E702_092|SEL_016_5_0': 'romance', // Makoto: «That's not what I meant.» vuelve a la amistad
   'E722_092|SEL_037_0_0': 'friend', 'E722_092|SEL_046_0_0': 'romance', 'E722_092|SEL_055_0_0': 'romance', // Kasumi
+  'E713_090|SEL_024_5_0': 'romance', 'E713_090|SEL_026_0_0': 'romance', // Takemi
+  'E715_090|SEL_044_0_0': 'romance', 'E715_090|SEL_052_0_0': 'friend', // Ohya (SEL_052 repite la pregunta sin romance)
+  'E717_091|SEL_021_5_0': 'romance', // Hifumi: «We'll be friends forever.» vuelve a la amistad
 };
 
 const convs = JSON.parse(readFileSync(convsPath, 'utf8'));
@@ -49,7 +54,9 @@ for (const id of ids) {
   const unlocks = new Map();
   const romanceOpts = new Set();
   const tips = [];
+  const dontMatter = new Set([10]); // en el rango máximo las respuestas ya no suman
   for (const line of guide) {
+    if (/^\d+ \| NOIMPORTA$/.test(line)) { dontMatter.add(Number(line.split('|')[0])); continue; }
     if (line.startsWith('CONSEJO |')) { tips.push(line.slice(9).trim()); continue; }
     const p = line.split('|').map((s) => s.trim());
     const rank = Number(p[0]);
@@ -63,7 +70,7 @@ for (const id of ids) {
       continue;
     }
     const m = points.get(rank) ?? new Map();
-    m.set(norm(p[1]), Number(p[2]));
+    m.set(norm(p[1]), p[2] === '?' ? '?' : Number(p[2])); // «?»: recomendada por la guía, sin puntos conocidos
     if (p[3] === 'ROMANCE') romanceOpts.add(`${rank}|${norm(p[1])}`);
     points.set(rank, m);
   }
@@ -78,18 +85,22 @@ for (const id of ids) {
       const matched = c.options.filter((o) => pts.has(norm(o.en)));
       if (!matched.length) continue;
       for (const o of matched) used.add(`${r}|${norm(o.en)}`);
+      const route = ROUTES[`${c.file}|${c.key}`];
+      // En la ruta de amistad ninguna respuesta inicia el romance (aunque el texto se repita)
+      const isRomance = (o) => route !== 'friend' && romanceOpts.has(`${r}|${norm(o.en)}`);
       conversations.push({
         kind: 'conversation',
         royalOnly: false,
-        romance: c.options.some((o) => romanceOpts.has(`${r}|${norm(o.en)}`)),
-        ...(ROUTES[`${c.file}|${c.key}`] ? { route: ROUTES[`${c.file}|${c.key}`] } : {}),
+        romance: c.options.some(isRomance),
+        ...(route ? { route } : {}),
         speaker: meta.name.split(' ')[0],
         prompt: c.prompt,
         options: c.options.map((o) => ({
           es: o.es,
           en: o.en,
-          points: pts.get(norm(o.en)) ?? 0,
-          ...(romanceOpts.has(`${r}|${norm(o.en)}`) ? { romance: true } : {}),
+          points: typeof pts.get(norm(o.en)) === 'number' ? pts.get(norm(o.en)) : 0,
+          ...(pts.get(norm(o.en)) === '?' ? { recommended: true } : {}),
+          ...(isRomance(o) ? { romance: true } : {}),
         })),
       });
     }
@@ -106,7 +117,13 @@ for (const id of ids) {
     }
     for (const [k] of pts) if (!used.has(`${r}|${k}`)) report.push(`rango ${r}: la opción de la guía «${k}» no aparece en el juego`);
     const rank = { rank: r, conversations, unlocks: unlocks.get(r) ?? [] };
-    if (!conversations.length) rank.choicesDontMatter = true;
+    if (!conversations.length) {
+      // Sin elecciones en el juego, o la guía dice que no importan → «elige la que quieras».
+      // Si el juego tiene elecciones pero la guía no da puntos → «sin datos» (no inventamos).
+      const gameHasChoices = (convs[id]?.[String(r)] ?? []).length > 0;
+      if (dontMatter.has(r) || !gameHasChoices) rank.choicesDontMatter = true;
+      else rank.noData = true;
+    }
     ranks.push(rank);
   }
 

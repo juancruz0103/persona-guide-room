@@ -123,6 +123,8 @@ export interface DialogueOption {
   points: number;
   /** Respuesta que abre (o elige) la ruta romántica */
   romance?: boolean;
+  /** Recomendada por la guía, pero sin puntos conocidos */
+  recommended?: boolean;
 }
 
 export interface Conversation {
@@ -142,6 +144,8 @@ export interface ConfidantRank {
   rank: number;
   /** true cuando las respuestas no cambian los puntos */
   choicesDontMatter?: boolean;
+  /** true cuando el juego tiene elecciones pero la guía no da sus puntos */
+  noData?: boolean;
   conversations: Conversation[];
   unlocks: { name: string; description: string }[];
 }

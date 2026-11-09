@@ -1,0 +1,653 @@
+{
+ "id": "ohya",
+ "name": "Ichiko Ohya",
+ "arcana": "devil",
+ "phantomThief": false,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [
+  "Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroads todas las noches (de día está cerrado).",
+  "En el rango 8 aparece el pedido de Mementos «Fighting for Truth in Journalism»: complétalo y vuelve para subir de rango."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9387-persona-5-royal-ohya-confidant-guide-devil-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Rumor-filled Scoop",
+     "description": "La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "¿Tienes fotos o vídeos de eso?",
+      "en": "...You have any photos or videos of it?"
+     },
+     "options": [
+      {
+       "es": "¿Por qué lo preguntas?",
+       "en": "Why do you ask?",
+       "points": 0
+      },
+      {
+       "es": "No.",
+       "en": "I don't.",
+       "points": 0
+      },
+      {
+       "es": "Puede que Mishima...",
+       "en": "Mishima might...",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Bueno, ¿por qué vienes a un bar si no puedes beber alcohol?",
+      "en": "Anyway, why are you coming to a bar if you can't even drink alcohol?"
+     },
+     "options": [
+      {
+       "es": "Me gusta el ambiente.",
+       "en": "I like the atmosphere.",
+       "points": 0
+      },
+      {
+       "es": "Es para el artículo.",
+       "en": "It's for the article.",
+       "points": 2
+      },
+      {
+       "es": "Háblame del incidente.",
+       "en": "Tell me about that incident.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Mi teoría es que son adolescentes y que su líder tiene mucho tiempo libre.",
+      "en": "I have a theory that they're all minors, and their leader is some simpleton dying from boredom..."
+     },
+     "options": [
+      {
+       "es": "Es imposible que sean adolescentes.",
+       "en": "Minors couldn't do that stuff.",
+       "points": 0
+      },
+      {
+       "es": "Puede que tengas razón.",
+       "en": "You might be right.",
+       "points": 0
+      },
+      {
+       "es": "No lo asumas tan rápido.",
+       "en": "You shouldn't make assumptions.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Por eso no puedo dejarlo... y por eso no me rendiré nunca.",
+      "en": "That's why I can't quit... and why I'll never give up."
+     },
+     "options": [
+      {
+       "es": "¿De qué la acusaron?",
+       "en": "What was she accused of?",
+       "points": 0
+      },
+      {
+       "es": "¿Qué ocurrió?",
+       "en": "What happened?",
+       "points": 0
+      },
+      {
+       "es": "¿Fue una acusación falsa?",
+       "en": "She was falsely accused?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "E-espere... Pero si estamos saliendo. ¿A que sí, cariño?",
+      "en": "W-Wait... We're totally dating, aren't we, sweetie?"
+     },
+     "options": [
+      {
+       "es": "Pues claro que sí.",
+       "en": "Of course we are.",
+       "points": 2
+      },
+      {
+       "es": "No se lo diga a nadie.",
+       "en": "Don't tell anybody.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Te escribiré un buen artículo sobre los Ladrones Fantasma.",
+      "en": "I'll write you a solid article on the Phantom Thieves."
+     },
+     "options": [
+      {
+       "en": "Leave it to me.",
+       "es": "Déjamelo a mí.",
+       "points": 2
+      },
+      {
+       "en": "That was our deal.",
+       "es": "Ese era el trato.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Shocking Scoop",
+     "description": "Mejora Rumor-filled Scoop."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Pero voy a demostrar que es inocente. Por eso sigo con la investigación por mi cuenta.",
+      "en": "I'm going to prove Kayo's innocence though. That's why I'm conducting my own private investigation now."
+     },
+     "options": [
+      {
+       "es": "Tiene toda la pinta de difamación.",
+       "en": "That sounds like defamation.",
+       "points": 2
+      },
+      {
+       "es": "Es imperdonable.",
+       "en": "That's unforgivable.",
+       "points": 3
+      },
+      {
+       "es": "¿Qué tal va tu búsqueda?",
+       "en": "How's your search going?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Por haber investigado tu historial sin preguntarte, me refiero...",
+      "en": "For me digging up your records and such without asking, I mean..."
+     },
+     "options": [
+      {
+       "en": "I don't mind it.",
+       "es": "No me importa.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Uf, mi jefe es imbécil...",
+      "en": "Ugh, my chief's such a shithead..."
+     },
+     "options": [
+      {
+       "es": "No debes caerle muy bien.",
+       "en": "He must not like you.",
+       "points": 2
+      },
+      {
+       "es": "¿Lo ha descubierto?",
+       "en": "Did he find out?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "*grito ahogado* A lo mejor Kayo era culpable de verdad.",
+      "en": "*gasp* Maybe Kayo really was the true culprit..."
+     },
+     "options": [
+      {
+       "es": "¿Tienes pruebas de eso?",
+       "en": "Do you have evidence of that?",
+       "points": 0
+      },
+      {
+       "es": "Deberías confiar en ella.",
+       "en": "You should trust in her.",
+       "points": 2
+      },
+      {
+       "es": "Puede que tengas razón.",
+       "en": "You might be right.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Maldita sea, ese incidente es culpa mía... ¡Por eso tenemos que llegar al fondo del asunto!",
+      "en": "Dammit, that incident is all my fault... That's why I've gotta get to the bottom of it!"
+     },
+     "options": [
+      {
+       "es": "Ese es el espíritu.",
+       "en": "That's the spirit.",
+       "points": 2
+      },
+      {
+       "es": "Eres una gran periodista.",
+       "en": "You're a great journalist.",
+       "points": 2
+      },
+      {
+       "es": "¿Y qué pasa con tus objetivos?",
+       "en": "What about your quota?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Solo llego a mi cuota absurda gracias a lo que me cuentas de los Ladrones Fantasma.",
+      "en": "I'm only able to meet my insane quota because of the info you give me on the Phantom Thieves."
+     },
+     "options": [
+      {
+       "en": "I'll dig up some more for you.",
+       "es": "Te conseguiré más.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "¿Qué hago? ¡¿Debería darle su merecido?!",
+      "en": "What should I do? Should I go knock him out!?"
+     },
+     "options": [
+      {
+       "es": "Tranquila.",
+       "en": "Calm down.",
+       "points": 2
+      },
+      {
+       "es": "No dejes que te provoque.",
+       "en": "Don't let him provoke you.",
+       "points": 3
+      },
+      {
+       "es": "Pensemos en otra solución.",
+       "en": "Let's think of another way.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Ojalá se me diera mejor controlar mis emociones, como a ti.",
+      "en": "I wish I was better at controlling my emotions. Like you are."
+     },
+     "options": [
+      {
+       "es": "Deberías trabajar en ello.",
+       "en": "You should work on that.",
+       "points": 2
+      },
+      {
+       "es": "¿Para qué? Eres encantadora.",
+       "en": "You're charming as you are.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "¡Haré lo que haga falta para encontrarla...!",
+      "en": "I'll do whatever it takes to find her...!"
+     },
+     "options": [
+      {
+       "en": "That's the spirit.",
+       "es": "Ese es el espíritu.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Outrageous Scoop",
+     "description": "Mejora todavía más Rumor-filled Scoop."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Bueno, di algo.",
+      "en": "...Well, say something."
+     },
+     "options": [
+      {
+       "es": "¿Como qué?",
+       "en": "Like what?",
+       "points": 0
+      },
+      {
+       "es": "Pareces cansada.",
+       "en": "You seem tired.",
+       "points": 2
+      },
+      {
+       "es": "Yo... tengo un gato...",
+       "en": "So... I have a pet cat...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "No solo sobre el estado actual de Kayo... sino sobre lo que le sucedió aquella noche.",
+      "en": "Not just about Kayo's current state... but about what happened to her that night too."
+     },
+     "options": [
+      {
+       "es": "No es propio de ti.",
+       "en": "That's not like you.",
+       "points": 3
+      },
+      {
+       "es": "Debes averiguar la verdad.",
+       "en": "You need to pursue the truth.",
+       "points": 3
+      },
+      {
+       "es": "Iré contigo.",
+       "en": "I'll go with you.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "A partir de ahora, siempre voy a perseguir la verdad.",
+      "en": "From now on, I'm always gonna chase the truth."
+     },
+     "options": [
+      {
+       "en": "Good luck.",
+       "es": "Buena suerte.",
+       "points": 2
+      },
+      {
+       "en": "Be careful.",
+       "es": "Ten cuidado.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Me aplastarían si intentase ir contra ellos sin tenerlo todo muy bien atado...",
+      "en": "I'd get crushed if I tried to take them on without being fully prepared..."
+     },
+     "options": [
+      {
+       "es": "¿Qué vas a hacer?",
+       "en": "What are you going to do?",
+       "points": 0
+      },
+      {
+       "es": "No irás a rendirte, ¿no?",
+       "en": "You're not giving up, are you?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Estoy segura de que irán a por mí... así que no deberías volver más por aquí, por si acaso.",
+      "en": "I'm sure I'll get targeted... so to be safe, you shouldn't come here again."
+     },
+     "options": [
+      {
+       "es": "No puedo dejarte.",
+       "en": "I can't leave you.",
+       "points": 3
+      },
+      {
+       "es": "Quiero ayudar.",
+       "en": "I want to help.",
+       "points": 3
+      },
+      {
+       "es": "Necesito los artículos.",
+       "en": "I need those articles.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "Ese paripé de ser pareja...",
+      "en": "That couple act..."
+     },
+     "options": [
+      {
+       "es": "Me lo he tomado en serio.",
+       "en": "I took it seriously.",
+       "points": 0,
+       "romance": true
+      },
+      {
+       "es": "No me lo he tomado en serio.",
+       "en": "I didn't take it seriously.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "route": "romance",
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "O-o sea, eh... ¿En serio?",
+      "en": "I-I mean, um... seriously?"
+     },
+     "options": [
+      {
+       "es": "Te quiero, Ichiko.",
+       "en": "I love you, Ichiko.",
+       "points": 0,
+       "romance": true
+      },
+      {
+       "es": "Es broma.",
+       "en": "I'm just kidding.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "route": "friend",
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "El calor me está dejando agotada...",
+      "en": "All this heat is making me tired..."
+     },
+     "options": [
+      {
+       "es": "Me lo he tomado en serio.",
+       "en": "I took it seriously.",
+       "points": 0
+      },
+      {
+       "es": "No me lo he tomado en serio.",
+       "en": "I didn't take it seriously.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Legendary Scoop",
+     "description": "La alerta de los Palacios deja de subir. Se desbloquea la fusión de Belcebú."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

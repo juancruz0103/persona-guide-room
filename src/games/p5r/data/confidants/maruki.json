@@ -1,0 +1,956 @@
+{
+ "id": "maruki",
+ "name": "Takuto Maruki",
+ "arcana": "councillor",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Empieza solo con la historia el 13 de mayo. Está en la escuela de día los lunes, martes, miércoles y viernes.",
+  "No se puede pasar del rango 5 hasta después del 19 de septiembre.",
+  "Hay que llegar al rango 9 antes del 17 de noviembre: así el rango 10 llega con la historia y se desbloquea el tercer semestre.",
+  "Cada rango sube 5 SP el máximo de Joker y te da un objeto."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9598-persona-5-royal-maruki-confidant-choices-guide-the-councillor"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¡Bienvenido! Gracias por venir.",
+      "en": "Welcome! Thank you for coming."
+     },
+     "options": [
+      {
+       "es": "No me quedaba elección.",
+       "en": "Didn't have much choice.",
+       "points": 0
+      },
+      {
+       "es": "Hicimos un trato.",
+       "en": "We made a deal.",
+       "points": 2
+      },
+      {
+       "es": "Estoy un poco nervioso.",
+       "en": "I'm a little nervous.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Aunque quizá suene la mar de raro viniendo de alguien a quien acabas de conocer, ¿no?",
+      "en": "...Then again, maybe that's a little weird for you to hear from a guy you just met, huh?"
+     },
+     "options": [
+      {
+       "es": "Pero me parece correcto.",
+       "en": "But it sounds right.",
+       "points": 3
+      },
+      {
+       "es": "Sí.",
+       "en": "Yep.",
+       "points": 2
+      },
+      {
+       "es": "Me estás asustando.",
+       "en": "Kinda creeping me out here.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Y... ¡tengo muchos aperitivos! ¡Son todo tuyos!",
+      "en": "And, uh... I've got a lot of snacks, too! You can have them! They're yours!"
+     },
+     "options": [
+      {
+       "es": "Bueno, vale.",
+       "en": "Well, okay.",
+       "points": 2
+      },
+      {
+       "es": "Ya puede merecer la pena...",
+       "en": "Better make it worth it.",
+       "points": 0
+      },
+      {
+       "es": "¿Por qué yo?",
+       "en": "Why me, though?",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Detox X",
+     "description": "A veces cura al momento un estado alterado."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Me alegro mucho de que los que han venido estén esforzándose por superarlo.",
+      "en": "But at the very least, I'm glad the ones who came to me have taken some steps towards recovery."
+     },
+     "options": [
+      {
+       "es": "No me digas.",
+       "en": "So they have, huh?",
+       "points": 2
+      },
+      {
+       "es": "Te preocupas demasiado.",
+       "en": "You worry too much.",
+       "points": 0
+      },
+      {
+       "es": "Gracias a ti, probablemente.",
+       "en": "Thanks to you, probably.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¿Recuerdas que te pedí que me ayudaras con la investigación?",
+      "en": "You remember how I asked you to help me with my research?"
+     },
+     "options": [
+      {
+       "es": "Claro que sí.",
+       "en": "Of course.",
+       "points": 2
+      },
+      {
+       "es": "Sí, un trato es un trato.",
+       "en": "Yeah, for our deal.",
+       "points": 2
+      },
+      {
+       "es": "Lo había olvidado.",
+       "en": "I forgot.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¿Qué opinas de este tipo de dolor, ?",
+      "en": "Do you have any thoughts on this kind of pain, -kun?"
+     },
+     "options": [
+      {
+       "es": "Ese parece necesario.",
+       "en": "That one seems necessary.",
+       "points": 2
+      },
+      {
+       "es": "Sería mejor no sentirlo.",
+       "en": "We'd be better off without it.",
+       "points": 0
+      },
+      {
+       "es": "Es la semilla de un nuevo amor.",
+       "en": "It's a seed for new loves.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Tú me has ayudado a darme cuenta de mi objetivo. Gracias.",
+      "en": "You helped me realize that purpose again. Thank you."
+     },
+     "options": [
+      {
+       "es": "¿Te ha servido?",
+       "en": "Did that help?",
+       "points": 2
+      },
+      {
+       "es": "No te preocupes.",
+       "en": "Don't worry about it.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Quería darte las gracias otra vez por tu ayuda de antes.",
+      "en": "I thought I'd thank you once again for your help earlier."
+     },
+     "options": [
+      {
+       "en": "Good work over there.",
+       "es": "Buen trabajo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Flow",
+     "description": "A veces empiezas el combate con Cargar y Concentrar activos."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "No sabía que un gato pudiera arañar de esta forma.",
+      "en": "I had no idea a cat's claws were so sharp..."
+     },
+     "options": [
+      {
+       "es": "¿Verdad?",
+       "en": "I know, right...?",
+       "points": 3
+      },
+      {
+       "es": "Eso no es nada.",
+       "en": "It's not the worst.",
+       "points": 0
+      },
+      {
+       "es": "Pues vaya recompensa.",
+       "en": "Talk about a reward.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Lo que daría por que aliviar el dolor emocional fuera tan fácil como poner antibióticos en una herida.",
+      "en": "If only we could somehow directly reduce emotional pain in a healthy way�like putting antibiotics on a scratch."
+     },
+     "options": [
+      {
+       "es": "Sería estupendo.",
+       "en": "That'd be great.",
+       "points": 2
+      },
+      {
+       "es": "¿Se puede?",
+       "en": "Is that possible?",
+       "points": 0
+      },
+      {
+       "es": "¿Eso investigas?",
+       "en": "Is that what you're researching?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Sino que podremos llevar a cabo tratamientos más eficaces para aquellos con el corazón herido.",
+      "en": "But we'll even be able to perform more effective treatment for those people with wounded hearts."
+     },
+     "options": [
+      {
+       "es": "Es un gran plan.",
+       "en": "That's a grand plan.",
+       "points": 2
+      },
+      {
+       "es": "Eres muy amable.",
+       "en": "You're so kind.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¿Quieres ser mi ayudante? No voy sobrado de fondos, así que no puedo pagarte, pero...",
+      "en": "Say, would you like to try being my assistant? Of course, I'm on a shoestring budget, so I wouldn't be able to pay you!"
+     },
+     "options": [
+      {
+       "es": "Me parece guay.",
+       "en": "That sounds fun.",
+       "points": 3
+      },
+      {
+       "es": "Yo es que gratis no trabajo.",
+       "en": "I'm not the \"free labor\" type.",
+       "points": 0
+      },
+      {
+       "es": "No.",
+       "en": "Nope.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¿Te está afectando a los estudios?",
+      "en": "Is your schoolwork being affected?"
+     },
+     "options": [
+      {
+       "en": "I feel completely fine.",
+       "es": "Estoy perfectamente.",
+       "points": 2
+      },
+      {
+       "en": "It's part of our deal, so...",
+       "es": "Es parte del trato, así que...",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Había pensado en darte una sorpresa por haber compartido tu tiempo conmigo. ¡Disfruta!",
+      "en": "I thought I'd get a surprise for you, since you've been kind enough to indulge me all this time. Go ahead, enjoy!"
+     },
+     "options": [
+      {
+       "es": "¡Tiene buena pinta!",
+       "en": "This looks great!",
+       "points": 3
+      },
+      {
+       "es": "¿Cuántos años crees que tengo?",
+       "en": "How old do you think I am?",
+       "points": 0
+      },
+      {
+       "es": "Me podrías dar dinero mejor...",
+       "en": "I could just take cash...",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Es algo que salta a la vista con la gente que se emociona con productos de edición limitada.",
+      "en": "You can see this law in action just by observing how excited people get over limited-edition merchandise."
+     },
+     "options": [
+      {
+       "es": "No lo había pensado.",
+       "en": "I never considered that.",
+       "points": 0
+      },
+      {
+       "es": "Les están timando.",
+       "en": "They're getting played.",
+       "points": 2
+      },
+      {
+       "es": "¿Sabes qué? Tienes razón.",
+       "en": "You know, you're right.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¿Qué opinas de la idea de que tus deseos inconscientes puedan alterar el sabor de la galleta?",
+      "en": "How do you feel about that idea? That your unconscious desires may have changed the taste of the cookie?"
+     },
+     "options": [
+      {
+       "es": "¡Mis sentidos me han engañado!",
+       "en": "My senses lied to me!",
+       "points": 2
+      },
+      {
+       "es": "Si están buenas, no me quejaré.",
+       "en": "Hey, as long as it tastes good.",
+       "points": 2
+      },
+      {
+       "es": "Da un poco de miedo.",
+       "en": "It's a little scary.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Seguiría siendo mejor de lo habitual. Habría sido una verdad subjetiva en tu realidad.",
+      "en": "That cookie would have remained more delicious than usual. It would have been a subjective truth of your reality."
+     },
+     "options": [
+      {
+       "es": "No es exactamente la «verdad»...",
+       "en": "Not \"truth\" exactly...",
+       "points": 0
+      },
+      {
+       "es": "Supongo.",
+       "en": "I guess so.",
+       "points": 2
+      },
+      {
+       "es": "No lo sé...",
+       "en": "I don't know...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Al final acabó siendo otra charla académica...",
+      "en": "It ended up being another big academic discussion..."
+     },
+     "options": [
+      {
+       "en": "I really don't mind.",
+       "es": "No me importa, de verdad.",
+       "points": 2
+      },
+      {
+       "en": "It was thought-provoking.",
+       "es": "Me ha dado que pensar.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Mindfulness",
+     "description": "Cuando te queda poco SP, a veces recuperas algo."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Te gusta el café, ¿eh, ? Fantástico.",
+      "en": "You must have a real knack for coffee, -kun. This is fantastic."
+     },
+     "options": [
+      {
+       "es": "¿Querías hablar?",
+       "en": "You wanted to talk?",
+       "points": 0
+      },
+      {
+       "es": "¿Otra taza?",
+       "en": "Another cup?",
+       "points": 2
+      },
+      {
+       "es": "También tenemos curry.",
+       "en": "We've got curry too.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Perdona que te moleste, pero te agradecería si pudiéramos hablar de esto otra vez.",
+      "en": "So I'm sorry to bother you, but I'd appreciate if you'd help me talk through this again."
+     },
+     "options": [
+      {
+       "es": "Claro que sí.",
+       "en": "I can do that.",
+       "points": 3
+      },
+      {
+       "es": "Trato hecho.",
+       "en": "It's a deal.",
+       "points": 2
+      },
+      {
+       "es": "No me apetece.",
+       "en": "I'm not up for this...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "No creo que fuera suficiente para acabar con un trauma, y me di cuenta hace poco.",
+      "en": "I don't think that would be enough to finally beat trauma. And I guess that's what I ultimately realized."
+     },
+     "options": [
+      {
+       "es": "Bueno, ¿qué podemos hacer?",
+       "en": "So what CAN we do?",
+       "points": 0
+      },
+      {
+       "es": "Es una cuestión complicada...",
+       "en": "It's a hard question...",
+       "points": 0
+      },
+      {
+       "es": "Pues ríndete.",
+       "en": "So give up.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Perdona por... uf... salir corriendo... así... de repente... antes...",
+      "en": "Sorry for... hah... rushing out... phew... so suddenly... hah... earlier..."
+     },
+     "options": [
+      {
+       "en": "Calm down.",
+       "es": "Tranquilo.",
+       "points": 2
+      },
+      {
+       "en": "What's going on?",
+       "es": "¿Qué pasa?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Sé que parece mentira, pero me resultan interesantes, académicamente hablando.",
+      "en": "Maybe it's a little hard to believe, but I guess I've taken an academic interest in them."
+     },
+     "options": [
+      {
+       "es": "Cuánto entusiasmo.",
+       "en": "You really are dedicated.",
+       "points": 3
+      },
+      {
+       "es": "¿Importan acaso?",
+       "en": "Are they even relevant?",
+       "points": 0
+      },
+      {
+       "es": "¿Eres un admirador suyo?",
+       "en": "Are you a fan?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¿Cómo es posible? ¿Se te ocurre algo, ?",
+      "en": "How is such a feat even possible? Any ideas, -kun?"
+     },
+     "options": [
+      {
+       "es": "Ni idea.",
+       "en": "No idea.",
+       "points": 3
+      },
+      {
+       "es": "¿Los eliminan?",
+       "en": "As in, removing them?",
+       "points": 3
+      },
+      {
+       "es": "¿Y a ti, Maruki?",
+       "en": "How about you, Maruki?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Oye, , ¿tú crees que voy dando palos de ciego?",
+      "en": "Hey, -kun. You think I'm getting anywhere here?"
+     },
+     "options": [
+      {
+       "es": "No tengo ni idea.",
+       "en": "I have no clue.",
+       "points": 0
+      },
+      {
+       "es": "Es probable.",
+       "en": "Sounds pretty far-fetched.",
+       "points": 3
+      },
+      {
+       "es": "A mí me parece interesante.",
+       "en": "It's intriguing.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Quick Flow",
+     "description": "Flow se activa más a menudo."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¡, hoy tengo algo para ti! ¡Sé que hace tiempo que no te dan una sorpresa!",
+      "en": "-kun, you're in for a real treat today! I know it's been a while since you've had one, too!"
+     },
+     "options": [
+      {
+       "es": "No me apetecen galletas, gracias.",
+       "en": "I'm good on cookies, thanks.",
+       "points": 2
+      },
+      {
+       "es": "¿Qué quieres decir?",
+       "en": "What do you mean?",
+       "points": 3
+      },
+      {
+       "es": "Gracias, pero debería irme.",
+       "en": "Thanks, but I should get going.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Así que me gustaría llevarte a ese bufet como agradecimiento. ¿Qué te parece?",
+      "en": "I'd like to take you to that buffet, as my way of thanking you. How does that sound?"
+     },
+     "options": [
+      {
+       "es": "¿De verdad?",
+       "en": "Ooh, really?",
+       "points": 3
+      },
+      {
+       "es": "¿Te lo puedes permitir?",
+       "en": "Can you afford that?",
+       "points": 2
+      },
+      {
+       "es": "Lo siento, prefiero el sushi.",
+       "en": "Sorry, I prefer sushi.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "¡No te cortes! ¡Come todo lo que quieras!",
+      "en": "No holding back�eat as much as you please!"
+     },
+     "options": [
+      {
+       "es": "¡Gracias por la comida!",
+       "en": "Thanks for the food!",
+       "points": 3
+      },
+      {
+       "es": "¿No has podido controlarte?",
+       "en": "Self-control much?",
+       "points": 0
+      },
+      {
+       "es": "Cuánta variedad.",
+       "en": "This is quite the spread.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Ah, él es, uhhhh... ¿Cómo lo explico?",
+      "en": "Oh, he's, uhhh... how do I put it?"
+     },
+     "options": [
+      {
+       "es": "Soy alumno.",
+       "en": "I'm his pupil.",
+       "points": 0
+      },
+      {
+       "es": "Es complicado...",
+       "en": "It's complicated...",
+       "points": 0
+      },
+      {
+       "es": "Tenemos un trato.",
+       "en": "We've made a deal.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Quise decirlo antes, pero... estoy a punto de finalizar el artículo.",
+      "en": "I had meant to mention this earlier, but... my paper is finally almost finished."
+     },
+     "options": [
+      {
+       "es": "Felicidades.",
+       "en": "Congratulations.",
+       "points": 3
+      },
+      {
+       "es": "Así se hace.",
+       "en": "Way to go.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "No te preocupes. ¿No quieres celebrarlo tú también, ?",
+      "en": "Oh, don't worry so much. Don't you wanna congratulate him too, -kun?"
+     },
+     "options": [
+      {
+       "es": "Claro que sí.",
+       "en": "I sure do.",
+       "points": 2
+      },
+      {
+       "es": "Vamos a celebrarlo.",
+       "en": "Let's celebrate.",
+       "points": 2
+      },
+      {
+       "es": "No me importa quién pague.",
+       "en": "I don't care who pays.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Aunque quizá es porque sabe que soy un poco despistado.",
+      "en": "Maybe it's because he knows I'm a little careless, though."
+     },
+     "options": [
+      {
+       "en": "He's a good friend.",
+       "es": "Es un buen amigo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Takuto",
+     "prompt": {
+      "es": "Esta será la última vez que vengo a verte para hablar del artículo.",
+      "en": "I think this'll probably be the last time I come to you about the paper."
+     },
+     "options": [
+      {
+       "es": "Es un poco triste...",
+       "en": "Kind of sad...",
+       "points": 3
+      },
+      {
+       "es": "¿Nuestro trato se ha acabado?",
+       "en": "Is our deal over?",
+       "points": 2
+      },
+      {
+       "es": "Vale... cuídate.",
+       "en": "Well... take care of yourself.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Detox DX",
+     "description": "Detox X funciona mejor y más a menudo."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Wakefulness",
+     "description": "Mindfulness recupera más SP."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

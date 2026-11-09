@@ -1,0 +1,52 @@
+# fuente: https://www.rpgsite.net/feature/9383-persona-5-royal-iwai-confidant-guide-hanged-man-choices-unlock-list
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+# Rango 1: la guía lista opciones que no están en Royal.
+CONSEJO | Disponible desde el 6 de mayo, después del evento del paquete en la tienda de airsoft. Para empezar necesitas Coraje 4; para el rango 8, Coraje 5.
+CONSEJO | En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.».
+CONSEJO | En el rango 8 aparece un pedido de Mementos: complétalo para seguir con Iwai.
+1 | DESBLOQUEO | Starter Customization | Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza.
+2 | How's your cold? | 2
+2 | What should I do now? | 2
+3 | I always knew you were a thug. | 3
+3 | Y-Yakuza!? | 2
+3 | We made a deal, didn't we? | 3
+3 | DESBLOQUEO | Medium Customization | Mejoras de pistola de nivel medio.
+4 | Where's my reward? | 3
+4 | You two should play nice. | 2
+4 | TEL | Now Tsuda knows your face. And that could be a real problem. | Ahora Tsuda conoce tu cara. Y eso puede ser un problema. | I agree. | Estoy de acuerdo. | 2
+5 | You're pathetic. | 3
+5 | I'll stick around for the guns. | 3
+5 | That's right. | 2
+5 | DESBLOQUEO | Discount | Descuento en las mejoras de pistola.
+6 | Girls. | 3
+6 | That's a secret. | 3
+6 | Our futures. | 2
+6 | You should buy us something. | 3
+6 | Right. | 2
+6 | TEL | Glad to see you two get along. | Me alegra ver que os lleváis bien. | He's my age, so it comes easier. | Tiene mi edad, así que es más fácil. | 2
+6 | TEL | Glad to see you two get along. | Me alegra ver que os lleváis bien. | All I did was listen to him. | Solo lo escuché. | 2
+7 | Absolutely. | 3
+7 | I guess he likes guns? | 2
+7 | He's clever. | 3
+7 | What a crafty bastard. | 2
+7 | TEL | We can't afford to take any chances. | No podemos arriesgarnos. | Bring it on. | Que venga. | 2
+7 | DESBLOQUEO | Expert Customization | Mejoras de pistola de nivel experto.
+8 | I did it all for Iwai. | 3
+8 | It most definitely was. | 2
+8 | I will. | 2
+8 | I want to help you. | 2
+8 | I dunno. | 2
+8 | I guess I could consider it. | 3
+8 | If you pay me well. | 3
+8 | I'm back, baby. | 2
+8 | TEL | Seemed like he was on the level, but... can't be too careful. | Parecía de fiar, pero... toda precaución es poca. | Understood. | Entendido. | 2
+9 | Are you sure he's still alive? | 3
+9 | That's great news. | 2
+9 | Tell him the truth. | 3
+9 | You need to trust your son. | 3
+9 | He's a cool kid, huh? | 3
+9 | Kaoru is really strong-willed. | 3
+9 | He gets that maturity from you. | 2
+9 | TEL | ...The kid must've grown into a man while I wasn't looking. | ...El chaval se ha hecho un hombre sin que me diera cuenta. | Like father, like son. | De tal palo, tal astilla. | 2
+9 | TEL | ...The kid must've grown into a man while I wasn't looking. | ...El chaval se ha hecho un hombre sin que me diera cuenta. | Gecko bonds go beyond blood. | Los lazos de geco van más allá de la sangre. | 2
+10 | DESBLOQUEO | Special Customization | Mejoras de pistola al máximo. Se desbloquea la fusión de Atis.

@@ -1,0 +1,39 @@
+# fuente: https://www.rpgsite.net/feature/5476-persona-5-royal-yoshida-confidant-guide-sun-link-choices-unlock
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+# Rango 1: la guía lista una opción que no está en Royal.
+CONSEJO | Es fácil de perder: se conoce trabajando dos veces en la tienda de gyudon de Shibuya (el anuncio está en la estación). Después, Yoshida da sus discursos en la plaza de la estación de Shibuya.
+CONSEJO | Después del 13 de noviembre ya no está disponible.
+2 | I want to improve my speech. | 2
+2 | One with conviction. | 2
+2 | I don't know yet. | 2
+2 | That was helpful. | 2
+2 | TEL | What do you think? Did you take anything useful from it? | ¿Qué te ha parecido? ¿Has sacado algo útil? | It was helpful. | Me ha servido. | 2
+2 | TEL | What do you think? Did you take anything useful from it? | ¿Qué te ha parecido? ¿Has sacado algo útil? | Somewhat. | Algo. | 2
+2 | TEL | What do you think? Did you take anything useful from it? | ¿Qué te ha parecido? ¿Has sacado algo útil? | It changed my whole outlook. | Me ha cambiado la forma de ver las cosas. | 2
+2 | DESBLOQUEO | Diplomacy | Consigues más dinero u objetos al negociar con las Sombras.
+3 | His message. | 2
+3 | His speaking skills. | 2
+3 | TEL | I want you to use your experiences to forge your own conviction. | Quiero que uses tus experiencias para forjar tus propias convicciones. | You think I'll ever find it? | ¿Crees que algún día las encontraré? | 2
+3 | DESBLOQUEO | Fundraising | Puedes pedir mucho más dinero en las negociaciones.
+4 | I couldn't help myself. | 2
+4 | TEL | Perhaps it seems too obvious, or too trite, but... I hope you remember to cherish that, too. | Quizá parezca obvio o trillado, pero... espero que también recuerdes valorar eso. | I will. | Lo haré. | 2
+4 | TEL | Perhaps it seems too obvious, or too trite, but... I hope you remember to cherish that, too. | Quizá parezca obvio o trillado, pero... espero que también recuerdes valorar eso. | Can't forget your roots. | No hay que olvidar de dónde vienes. | 2
+5 | The media doesn't matter. | 3
+5 | I think so. | 2
+5 | DESBLOQUEO | Manipulation | Los enemigos sueltan objetos raros más a menudo.
+6 | I don't really care. | 3
+6 | I'm for them. | 2
+6 | I'd decline. | 3
+6 | I'd leave it to chance. | 2
+6 | TEL | The most crucial thing is that you don't lose sight of who you are. | Lo más importante es que no pierdas de vista quién eres. | I'll keep that in mind. | Lo tendré en cuenta. | 2
+6 | TEL | The most crucial thing is that you don't lose sight of who you are. | Lo más importante es que no pierdas de vista quién eres. | You make quite a case. | Es un buen argumento. | 2
+7 | You should decline. | 2
+8 | That's a difficult decision. | 2
+8 | Stick to your beliefs. | 3
+8 | TEL | That is why you must never forget what's truly important to you... You understand? | Por eso nunca debes olvidar lo que de verdad te importa... ¿Lo entiendes? | I'll never forget that. | Nunca lo olvidaré. | 2
+8 | TEL | That is why you must never forget what's truly important to you... You understand? | Por eso nunca debes olvidar lo que de verdad te importa... ¿Lo entiendes? | It's tougher than it seems. | Es más difícil de lo que parece. | 2
+8 | DESBLOQUEO | Mind Control | A veces te ahorras la negociación y la Sombra se une directamente.
+9 | Do your best. | 3
+9 | I'm getting nervous. | 2
+9 | You had a change of heart. | 2
+10 | DESBLOQUEO | Charismatic Speech | Es más fácil hacer pactos con Personas de nivel más alto. Se desbloquea la fusión de Asura.

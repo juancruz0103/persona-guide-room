@@ -9,7 +9,7 @@ describe('analyzeConversation', () => {
   it('detecta la mejor opción del rango 2 de Ryuji', () => {
     const rank2 = data.ranks.find((r) => r.rank === 2)!;
     const r = analyzeConversation(rank2.conversations[0]);
-    expect(r).toEqual({ max: 3, allSame: false });
+    expect(r).toEqual({ max: 3, allSame: false, hasRecommended: false });
   });
 
   it('marca cuando todas las opciones dan lo mismo', () => {
@@ -38,5 +38,20 @@ describe('los 23 confidentes', () => {
       expect(c.persona, c.id).toBeDefined();
       expect(getP(c.persona!)?.party?.stage, c.id).toBe('initial');
     }
+  });
+
+  it('una opción recomendada sin puntos es la mejor y no cuenta como «todas iguales»', () => {
+    const r = analyzeConversation({
+      kind: 'conversation',
+      royalOnly: false,
+      romance: false,
+      speaker: 'Chihaya',
+      prompt: { es: '', en: '' },
+      options: [
+        { es: 'a', en: 'a', points: 0 },
+        { es: 'b', en: 'b', points: 0, recommended: true },
+      ],
+    });
+    expect(r).toEqual({ max: 0, allSame: false, hasRecommended: true });
   });
 });

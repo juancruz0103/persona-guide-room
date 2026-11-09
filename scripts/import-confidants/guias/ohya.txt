@@ -1,0 +1,44 @@
+# fuente: https://www.rpgsite.net/feature/9387-persona-5-royal-ohya-confidant-guide-devil-choices-romance-gifts
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+# Rango 1: lo da la historia. Las llamadas del rango 9 no se cargan: la guía no da la frase.
+CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroads todas las noches (de día está cerrado).
+CONSEJO | En el rango 8 aparece el pedido de Mementos «Fighting for Truth in Journalism»: complétalo y vuelve para subir de rango.
+1 | DESBLOQUEO | Rumor-filled Scoop | La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto.
+2 | Mishima might... | 2
+2 | It's for the article. | 2
+3 | You shouldn't make assumptions. | 2
+3 | She was falsely accused? | 2
+4 | Of course we are. | 2
+4 | Don't tell anybody. | 2
+4 | TEL | I'll write you a solid article on the Phantom Thieves. | Te escribiré un buen artículo sobre los Ladrones Fantasma. | Leave it to me. | Déjamelo a mí. | 2
+4 | TEL | I'll write you a solid article on the Phantom Thieves. | Te escribiré un buen artículo sobre los Ladrones Fantasma. | That was our deal. | Ese era el trato. | 2
+4 | DESBLOQUEO | Shocking Scoop | Mejora Rumor-filled Scoop.
+5 | That's unforgivable. | 3
+5 | That sounds like defamation. | 2
+5 | TEL | For me digging up your records and such without asking, I mean... | Por haber investigado tu historial sin preguntarte, me refiero... | I don't mind it. | No me importa. | 2
+6 | He must not like you. | 2
+6 | You should trust in her. | 2
+6 | That's the spirit. | 2
+6 | You're a great journalist. | 2
+6 | TEL | I'm only able to meet my insane quota because of the info you give me on the Phantom Thieves. | Solo llego a mi cuota absurda gracias a lo que me cuentas de los Ladrones Fantasma. | I'll dig up some more for you. | Te conseguiré más. | 2
+7 | Let's think of another way. | 3
+7 | Don't let him provoke you. | 3
+7 | Calm down. | 2
+7 | You're charming as you are. | 3
+7 | You should work on that. | 2
+7 | TEL | I'll do whatever it takes to find her...! | ¡Haré lo que haga falta para encontrarla...! | That's the spirit. | Ese es el espíritu. | 2
+7 | DESBLOQUEO | Outrageous Scoop | Mejora todavía más Rumor-filled Scoop.
+8 | You seem tired. | 2
+8 | That's not like you. | 3
+8 | You need to pursue the truth. | 3
+8 | I'll go with you. | 3
+8 | TEL | From now on, I'm always gonna chase the truth. | A partir de ahora, siempre voy a perseguir la verdad. | Good luck. | Buena suerte. | 2
+8 | TEL | From now on, I'm always gonna chase the truth. | A partir de ahora, siempre voy a perseguir la verdad. | Be careful. | Ten cuidado. | 2
+9 | You're not giving up, are you? | 2
+9 | I can't leave you. | 3
+9 | I want to help. | 3
+9 | I took it seriously. | 0 | ROMANCE
+9 | I didn't take it seriously. | 0
+9 | I love you, Ichiko. | 0 | ROMANCE
+9 | I'm just kidding. | 0
+10 | DESBLOQUEO | Legendary Scoop | La alerta de los Palacios deja de subir. Se desbloquea la fusión de Belcebú.

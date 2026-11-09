@@ -1,0 +1,58 @@
+# fuente: https://www.rpgsite.net/feature/9385-persona-5-royal-mishima-confidant-guide-moon-choices-answers
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+CONSEJO | Los rangos 1 y 2 llegan con la historia (6 y 8 de mayo). El rango 3 está disponible desde el 10 de mayo.
+CONSEJO | Para subir de rango con Mishima hay que completar pedidos de Mementos entre un encuentro y otro.
+CONSEJO | En el rango 7, después de la «purga», ve con el equipo a Mementos y habla con el objetivo; Mishima te escribe después para seguir.
+1 | DESBLOQUEO | Mishima's Support | Los compañeros que no combaten ganan algo de experiencia.
+2 | You've done good, kid. | 3
+2 | Sounds cool. | 3
+2 | You're really hyped for this. | 2
+2 | TEL | At this point, I might as well pull an all-nighter fighting back! | ¡A estas alturas, mejor me paso la noche en vela contraatacando! | Nice hustle, image manager. | Buen trabajo, jefe de imagen. | 2
+3 | Great idea. | 3
+3 | I'm already taken. | 2
+3 | We're part of... the Phandom? | 2
+3 | Let's tell them the truth. | 2
+3 | It's not your fault. | 2
+3 | TEL | It's always better to hear that kinda stuff in person, right? | Esas cosas siempre es mejor oírlas en persona, ¿no? | Of course. | Claro. | 2
+3 | TEL | It's always better to hear that kinda stuff in person, right? | Esas cosas siempre es mejor oírlas en persona, ¿no? | Really? | ¿En serio? | 2
+3 | TEL | It's always better to hear that kinda stuff in person, right? | Esas cosas siempre es mejor oírlas en persona, ¿no? | You'll get it right next time. | La próxima vez te saldrá bien. | 2
+3 | DESBLOQUEO | Mishima's Enthusiasm | Ganas más experiencia en los combates.
+4 | Steak sounds good. | 3
+4 | I love desserts. | 2
+4 | You're amazing. | 2
+4 | TEL | I guess it ended up being pretty good for our PR in the end, right? | Al final ha salido bastante bien para nuestra imagen, ¿no? | Yup. | Sí. | 2
+4 | TEL | I guess it ended up being pretty good for our PR in the end, right? | Al final ha salido bastante bien para nuestra imagen, ¿no? | You'll get better ideas. | Ya se te ocurrirán mejores ideas. | 2
+5 | Is it for me? | 3
+5 | Why was it so expensive? | 2
+5 | That's a good idea. | 2
+5 | TEL | I'm gonna do everything in my power, so you can just kick back and relax! | ¡Voy a hacer todo lo que pueda, así que tú relájate! | All right. | Vale. | 2
+5 | DESBLOQUEO | Mishima's Desperation | Los compañeros que no combaten ganan más experiencia.
+6 | Just tell me already. | 2
+6 | You sure are fired up... | 2
+6 | Rumors are wrong all the time... | 2
+6 | It's none of our business. | 2
+6 | Absolutely. Nice job. | 2
+6 | DESBLOQUEO | Parque Inokashira | Se desbloquea el lugar si aún no lo tenías.
+7 | You're so reliable. | 3
+7 | And what exactly will we win? | 2
+7 | Sounds pretty twisted. | 2
+7 | You really need to chill. | 2
+7 | Maybe the Phan-Site? | 3
+7 | I'm sure there is. | 2
+7 | TEL | It seems like enough evidence to make him a target, but I'm gonna look into this a little further, just to be safe. | Parece prueba suficiente para convertirlo en objetivo, pero voy a investigar un poco más, por si acaso. | Kind of worrying. | Me preocupa un poco. | 2
+7 | TEL | It seems like enough evidence to make him a target, but I'm gonna look into this a little further, just to be safe. | Parece prueba suficiente para convertirlo en objetivo, pero voy a investigar un poco más, por si acaso. | It's your time to shine. | Es tu momento de brillar. | 2
+7 | DESBLOQUEO | Phanboy | Ganas mucha más experiencia en los combates.
+8 | I'm not leaving. | 3
+8 | You should run too. | 2
+8 | You're just gonna take that? | 2
+8 | Believe in yourself. | 2
+8 | They're the real losers. | 2
+8 | Wait, that was all an act? | 3
+8 | You were super cool. | 3
+8 | Totally. | 2
+8 | TEL | Oh! B-But I have the model gun I got for self-defense! And my security system's top of the line! So I'm safe, right!? | ¡Ah! ¡P-pero tengo la pistola de juguete para defenderme! ¡Y mi sistema de seguridad es lo mejor de lo mejor! Así que estoy a salvo, ¿¡no!? | You'll be fine. | No te pasará nada. | 2
+8 | TEL | Oh! B-But I have the model gun I got for self-defense! And my security system's top of the line! So I'm safe, right!? | ¡Ah! ¡P-pero tengo la pistola de juguete para defenderme! ¡Y mi sistema de seguridad es lo mejor de lo mejor! Así que estoy a salvo, ¿¡no!? | You've got this, man. | Tú puedes, tío. | 2
+9 | You showed some real courage. | 3
+9 | I'm glad you're still alive. | 2
+9 | TEL | You heard what he said about me... but do you really think some part of me's changed? | Ya oíste lo que dijo de mí... pero ¿de verdad crees que he cambiado en algo? | The sparkle in your eyes. | El brillo de tus ojos. | 2
+10 | DESBLOQUEO | Salvation Wish | Los compañeros que no combaten ganan toda la experiencia. Se desbloquea la fusión de Sandalfón.

@@ -1,0 +1,562 @@
+{
+ "id": "chihaya",
+ "name": "Chihaya Mifune",
+ "arcana": "fortune",
+ "phantomThief": false,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [
+  "Chihaya está en Shinjuku por la noche los martes, jueves, sábados y domingos (no cuando llueve). Desde el 22 de junio.",
+  "Para empezar hay que comprarle la Piedra Sagrada (100.000 ¥) y completar el pedido de Mementos «Ending the Boyfriend's Abuse». En el rango 9 te devuelve el dinero.",
+  "En el rango 8 cualquier respuesta sirve al principio; aparece el pedido de Mementos «Debunking the Psychic». Después de completarlo, vuelve con Chihaya."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/5472-persona-5-royal-chihaya-confidant-guide-fortune-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Luck Reading",
+     "description": "Una lectura de Chihaya aumenta por un tiempo lo que ganas de un atributo social."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "¿Qué podemos hacer para ayudar a esta mujer oprimida por un entorno de trabajo patriarcal?",
+      "en": "What can we do to help this woman who is so oppressed by the savagery of a male-dominated work environment?"
+     },
+     "options": [
+      {
+       "es": "Sugerir que se rinda.",
+       "en": "Suggest she gives up.",
+       "points": 0
+      },
+      {
+       "es": "Despertar el corazón de su jefe.",
+       "en": "Change her boss's heart.",
+       "points": 0
+      },
+      {
+       "es": "Animarla.",
+       "en": "Encourage her.",
+       "points": 0,
+       "recommended": true
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "A ver, ¿qué le dirías si quisieras animarla?",
+      "en": "Incidentally, what would you say if you wanted to encourage her?"
+     },
+     "options": [
+      {
+       "es": "¡Aaaah!",
+       "en": "Hrahhh!",
+       "points": 0
+      },
+      {
+       "es": "¡Cambia el destino!",
+       "en": "Overturn your fate!",
+       "points": 0,
+       "recommended": true
+      },
+      {
+       "es": "¡Lucha contra el poder!",
+       "en": "Fight the power!",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "No se puede cambiar el destino. Es absoluto... Así debe ser.",
+      "en": "Fate cannot be changed. Fate is absolute... That is how it must be."
+     },
+     "options": [
+      {
+       "es": "Qué cabezota eres.",
+       "en": "You're so stubborn.",
+       "points": 0
+      },
+      {
+       "es": "Para cambiar, abre la mente.",
+       "en": "Open your mind to change.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Ahora mismo estás delante de tu casa, ¿¡verdad!?",
+      "en": "You're currently standing right in front of your house, correct!?"
+     },
+     "options": [
+      {
+       "en": "Of course I am.",
+       "es": "Claro que sí.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "¿Qué debería hacer?",
+      "en": "How should he move forward?"
+     },
+     "options": [
+      {
+       "es": "Que vaya a por el dinero.",
+       "en": "Go for the money.",
+       "points": 0
+      },
+      {
+       "es": "Que le haga caso a su corazón.",
+       "en": "Follow his heart.",
+       "points": 0,
+       "recommended": true
+      },
+      {
+       "es": "Que vaya a por el ascenso.",
+       "en": "Chase a promotion.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "¿Qué le dirías para que elija a su amiga de la infancia?",
+      "en": "Incidentally, what would you say to make him choose his childhood friend?"
+     },
+     "options": [
+      {
+       "es": "A lo mejor la secuestran.",
+       "en": "Thieves may steal her away.",
+       "points": 0,
+       "recommended": true
+      },
+      {
+       "es": "Casarse es el fin.",
+       "en": "Marriage kills individuality.",
+       "points": 0
+      },
+      {
+       "es": "Se pondrá triste si lo anulas.",
+       "en": "She'll be sad if you break it off.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Money Reading",
+     "description": "Después de una lectura, ganas más dinero en los combates por un tiempo."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": ", ¿cómo puedo llegar a ser como tu?",
+      "en": "How can I become one of those people, -san?"
+     },
+     "options": [
+      {
+       "es": "Fortalece tu voluntad.",
+       "en": "Strengthen your will.",
+       "points": 2
+      },
+      {
+       "es": "No lo sé.",
+       "en": "I don't know.",
+       "points": 0
+      },
+      {
+       "es": "Confía en ti.",
+       "en": "Trust in yourself.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Hablar contigo de todo me está ayudando a sentirme un poco mejor.",
+      "en": "Talking to you about everything is helping me feel a little better."
+     },
+     "options": [
+      {
+       "en": "I didn't do much.",
+       "es": "No he hecho gran cosa.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Así puedo darles alternativas para que no se resignen al destino que les espera.",
+      "en": "This way, I can suggest new alternatives instead of leaving them resigned to their fates."
+     },
+     "options": [
+      {
+       "es": "Eres una currante.",
+       "en": "You're such a hard worker.",
+       "points": 3
+      },
+      {
+       "es": "¿Y lo del poder divino?",
+       "en": "What about the divine power?",
+       "points": 0
+      },
+      {
+       "es": "Tienes mucho tiempo libre, ¿no?",
+       "en": "You must have lots of free time.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Fate Reading",
+     "description": "Te muestra qué habilidades vas a desbloquear con un confidente."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Pensarás que soy un bicho raro, ¿no? Que si soy un oráculo o un monstruo...",
+      "en": "You must think I'm weird, huh? All this talk about me being a maiden or a monster..."
+     },
+     "options": [
+      {
+       "es": "¿Qué es un Oráculo del Alivio?",
+       "en": "What's a Maiden of Relief?",
+       "points": 0
+      },
+      {
+       "es": "¿Quién dice que seas un monstruo?",
+       "en": "Who thinks you're a monster?",
+       "points": 0
+      },
+      {
+       "es": "Para mí eres solo Chihaya.",
+       "en": "You're just Chihaya to me.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "No encuentro el valor para decir lo que tengo que decir...",
+      "en": "I just can't find the courage to say what I need to..."
+     },
+     "options": [
+      {
+       "en": "Be honest with yourself.",
+       "es": "Sé sincera contigo misma.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Soy muy mala persona.",
+      "en": "...I'm a terrible person, huh?"
+     },
+     "options": [
+      {
+       "es": "No te equivocas.",
+       "en": "You're not wrong about that.",
+       "points": 0
+      },
+      {
+       "es": "No deberías haberlos engañado.",
+       "en": "You shouldn't have tricked them.",
+       "points": 2
+      },
+      {
+       "es": "No creo.",
+       "en": "I don't think so.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Se acabó mirar hacia otro lado.",
+      "en": "I'm done turning a blind eye."
+     },
+     "options": [
+      {
+       "en": "Are you gonna be okay?",
+       "es": "¿Vas a estar bien?",
+       "points": 2
+      },
+      {
+       "en": "Be careful.",
+       "es": "Ten cuidado.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Affinity Reading",
+     "description": "Después de una lectura, subes más rápido la relación con el confidente que elijas."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "¡El presidente se ha entregado! ¡Ha salido hasta en las noticias!",
+      "en": "The chairman turned himself in! It's even shown up on the news!"
+     },
+     "options": [
+      {
+       "es": "No tenía ni idea.",
+       "en": "I had no idea.",
+       "points": 2
+      },
+      {
+       "es": "Ya lo sé.",
+       "en": "I know.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "La maldición que me perseguía desde que aquellos campesinos me llamaron monstruo... ha cesado.",
+      "en": "It's almost like this curse that's followed me ever since the villagers called me a monster... has passed."
+     },
+     "options": [
+      {
+       "es": "Me alegro.",
+       "en": "I'm glad to hear that.",
+       "points": 3
+      },
+      {
+       "es": "Por fin un golpe de suerte.",
+       "en": "That's some good luck.",
+       "points": 3
+      },
+      {
+       "es": "Es porque eres fuerte.",
+       "en": "It's because you're strong.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Oye, , ¿te gustan las... maduritas?",
+      "en": "U-Um, -san... Are you... interested in older women...?"
+     },
+     "options": [
+      {
+       "es": "¿Por qué lo preguntas?",
+       "en": "Why do you ask?",
+       "points": 0
+      },
+      {
+       "es": "Pues resulta que sí.",
+       "en": "Hell yeah I am.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Creo que es gracias a tu influencia.",
+      "en": "I think that's thanks to your influence."
+     },
+     "options": [
+      {
+       "en": "It was all your own will.",
+       "es": "Fue todo cosa de tu voluntad.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Nosotros solo queríamos ser felices, evitar nuestros destinos...",
+      "en": "All any of us ever wanted was to be happy... to avoid our fates..."
+     },
+     "options": [
+      {
+       "es": "¿Te arrepientes?",
+       "en": "Do you regret what you did?",
+       "points": 0
+      },
+      {
+       "es": "El destino se puede cambiar.",
+       "en": "Well, fate can be changed.",
+       "points": 3
+      },
+      {
+       "es": "Eso es agua pasada.",
+       "en": "That's all in the past now.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": ", ¿por qué vienes?",
+      "en": "-san... Why do you come here?"
+     },
+     "options": [
+      {
+       "es": "Me gusta que me lean el futuro.",
+       "en": "I like having my fortune read.",
+       "points": 0
+      },
+      {
+       "es": "Para poder estar contigo.",
+       "en": "So I can be with you.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Special Fate Reading",
+     "description": "Te muestra todas las habilidades que te faltan de cualquier confidente. Se desbloquea la fusión de Laksmí."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

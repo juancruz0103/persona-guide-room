@@ -1,0 +1,54 @@
+# fuente: https://www.rpgsite.net/feature/5473-persona-5-royal-kawakami-confidant-guide-temperance-choices-romance-gifts
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+# Rango 1: la guía lista opciones que no están en Royal.
+CONSEJO | Empieza después del evento del 24 de mayo. Se la llama desde el teléfono de Leblanc los viernes y sábados por la noche: necesitas Coraje 3 y cada visita cuesta 5000 ¥.
+CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
+CONSEJO | En el rango 9 aparece el pedido de Mementos «A Teacher Maid to Suffer»: complétalo para seguir.
+1 | DESBLOQUEO | Slack Off | En clase puedes hacer otras cosas, como fabricar herramientas de infiltración.
+2 | It does. | 2
+2 | Absolutely not! | 2
+2 | TEL | Is that okay, Master? | ¿Le parece bien, amo? | You have the wrong number. | Se ha equivocado de número. | 2
+2 | TEL | Is that okay, Master? | ¿Le parece bien, amo? | Uh, what the hell? | Eh, ¿pero qué demonios? | 2
+2 | TEL | Is that okay, Master? | ¿Le parece bien, amo? | Is this the hard sell? | ¿Esto es venta agresiva? | 2
+3 | Yeah, they do. | 2
+3 | Do some real cooking. | 2
+3 | I'll request you more often. | 3
+3 | TEL | You're still young, so you really need to eat properly... | Todavía eres joven, así que tienes que comer bien... | Thanks. | Gracias. | 2
+3 | DESBLOQUEO | Housekeeping | Kawakami puede preparar café o hacerte la colada.
+4 | How rude. | 2
+4 | You need to love yourself. | 3
+4 | Yes, you do. | 2
+5 | It's fun. | 2
+5 | Who's the Master here? | 2
+5 | How terrible... | 2
+5 | So, did you stop? | 2
+5 | TEL | Do you get to eat that place's curry every day? | ¿Comes el curry de ese sitio todos los días? | You want some? | ¿Quieres un poco? | 2
+5 | DESBLOQUEO | Free Time | Puedes escaquearte en clase todavía más a menudo.
+6 | Want to rest a bit? | 2
+6 | Are you all right? | 3
+6 | You should go home. | 3
+6 | Have you seen a doctor? | 2
+6 | TEL | If you neglect stuff like that, it makes you more likely to get sick. | Si descuidas esas cosas, es más fácil que enfermes. | How are you feeling, though? | ¿Y tú cómo te encuentras? | 2
+7 | Don't pay them. | 3
+7 | Don't strain yourself. | 2
+7 | Think this through more. | 3
+7 | DESBLOQUEO | Super Housekeeping | Kawakami puede preparar curry o herramientas de infiltración.
+8 | Is this really what you want? | 3
+8 | If that's what you decided. | 3
+8 | You're running away. | 2
+8 | Be confident in your answer. | 3
+8 | That's the right choice. | 3
+8 | You're asking a student? | 3
+8 | I want to protect you. | 3
+8 | That's reassuring. | 3
+8 | TEL | It's thanks to you that I actually figured out what I need to do. | Gracias a ti he descubierto lo que tengo que hacer. | You're welcome. | De nada. | 2
+9 | Nonsense. | 3
+9 | What a bummer. | 3
+9 | Thank you for your service. | 3
+9 | Not really. | 2
+9 | I want to keep seeing you. | 2 | ROMANCE
+9 | Got it. | 2
+9 | I mean what I say. | 0 | ROMANCE
+9 | I'm a master; you're a maid. | 0
+9 | I'm a man; you're a woman. | 0 | ROMANCE
+10 | DESBLOQUEO | Special Massage | Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha.

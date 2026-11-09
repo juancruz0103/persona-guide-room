@@ -1,0 +1,730 @@
+{
+ "id": "sojiro",
+ "name": "Sojiro Sakura",
+ "arcana": "hierophant",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Para empezar el rango 3 tienes que haber preparado café una vez. El rango 5 está disponible desde el 22 de agosto y el 7 pide Gentileza 5.",
+  "En el rango 8 aparece el pedido de Mementos «The Money-Grubbing Uncle»: hasta completarlo, Sojiro y Futaba quedan bloqueados."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/5478-persona-5-royal-sojiro-confidant-guide-hierophant-choices-unlock-list"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Ya sabes a lo que me refiero, ¿verdad?",
+      "en": "You know what I'm talking about, right?"
+     },
+     "options": [
+      {
+       "es": "A hacer café.",
+       "en": "Making coffee.",
+       "points": 2
+      },
+      {
+       "es": "A ligar con chicas.",
+       "en": "Hitting on girls.",
+       "points": 0
+      },
+      {
+       "es": "Ni idea.",
+       "en": "No idea.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Uf... No sé cómo ha encontrado este sitio.",
+      "en": "Ugh... I don't know where he caught wind of this place."
+     },
+     "options": [
+      {
+       "es": "¿Quién era ese?",
+       "en": "Who was he?",
+       "points": 0
+      },
+      {
+       "es": "Ese tío parecía sospechoso.",
+       "en": "That guy seemed suspicious.",
+       "points": 2
+      },
+      {
+       "es": "¿Quién es esa «ella» que mencionó?",
+       "en": "Who's the \"her\" he mentioned?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Además, a las mujeres les encantan los hombres que entienden de café. Eso que te llevas.",
+      "en": "Besides, ladies love a guy who knows his coffee. This isn't such a bad deal for you."
+     },
+     "options": [
+      {
+       "es": "Quiero que las mujeres me adoren.",
+       "en": "I want the ladies to love me.",
+       "points": 2
+      },
+      {
+       "es": "Esas cosas no me interesan.",
+       "en": "I don't care about that stuff.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Parece que aprendes rápido, así que espero que le hayas pillado el truco.",
+      "en": "Seems like you're a quick study, so I hope you've got the hang of it."
+     },
+     "options": [
+      {
+       "en": "Got it.",
+       "es": "Entendido.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Coffee Basics",
+     "description": "Puedes preparar café en Leblanc: recupera SP en combate. Además, +3 de Gentileza."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "¿Me estás escuchando? ¿Qué molienda hay que conseguir?",
+      "en": "...Are you listening to me? What grind are you supposed to use?"
+     },
+     "options": [
+      {
+       "es": "Una entre media y fina.",
+       "en": "Medium-fine.",
+       "points": 2
+      },
+      {
+       "es": "Una gruesa.",
+       "en": "Coarse.",
+       "points": 0
+      },
+      {
+       "es": "Cualquiera vale.",
+       "en": "Anything goes.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Lo siento, me ha surgido algo. Seguiremos con las lecciones en otro momento.",
+      "en": "Sorry, something just came up. We can keep going with the lessons some other time."
+     },
+     "options": [
+      {
+       "es": "¿Es una cita?",
+       "en": "Is it a date?",
+       "points": 0
+      },
+      {
+       "es": "¿Va todo bien?",
+       "en": "Is it trouble?",
+       "points": 2
+      },
+      {
+       "es": "¿Ya no necesitas mi ayuda?",
+       "en": "You don't want my help anymore?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Pero tranquilo, te pondré a trabajar. Tenemos tiempo de sobra.",
+      "en": "But don't worry, I'll put you to work. We've got lots of time on our hands."
+     },
+     "options": [
+      {
+       "en": "I'm ready to work.",
+       "es": "Estoy listo para trabajar.",
+       "points": 2
+      },
+      {
+       "en": "Thank you in advance.",
+       "es": "Gracias de antemano.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "La acidez y el perfil del aroma dependen de la proporción de granos. Qué profundo, ¿no?",
+      "en": "That's because the acidity and the flavor profile all depend on the bean ratio. Pretty deep, huh?"
+     },
+     "options": [
+      {
+       "es": "Cuéntame más.",
+       "en": "Tell me more.",
+       "points": 3
+      },
+      {
+       "es": "Qué difícil...",
+       "en": "That sounds tough...",
+       "points": 0
+      },
+      {
+       "es": "Me sabe todo igual.",
+       "en": "It all tastes the same to me.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Parece que Sojiro está en apuros. ¿Qué debería hacer...?",
+      "en": "It looks like Sojiro's in trouble. What should I do...?"
+     },
+     "options": [
+      {
+       "es": "Correr a buscar ayuda",
+       "en": "Run for help",
+       "points": 0
+      },
+      {
+       "es": "Llamar al móvil de Sojiro",
+       "en": "Call Sojiro's phone",
+       "points": 3
+      },
+      {
+       "es": "Echar al hombre",
+       "en": "Kick the man out",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Déjalo a lo suyo y sigue con el trabajo. ¿Entendido?",
+      "en": "Just let him do his thing, and get on with the job. Got it?"
+     },
+     "options": [
+      {
+       "en": "Understood.",
+       "es": "Entendido.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Leblanc Curry",
+     "description": "Puedes preparar curry: recupera SP. Además, +3 de Gentileza."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "¿Qué opinas tú?",
+      "en": "And what about you?"
+     },
+     "options": [
+      {
+       "es": "No ha estado mal.",
+       "en": "It wasn't bad.",
+       "points": 2
+      },
+      {
+       "es": "No tenía nada de especial.",
+       "en": "Nothing special.",
+       "points": 0
+      },
+      {
+       "es": "¡Creo que me he vuelto adicto!",
+       "en": "I think I'm addicted!",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Pensaba que mis frases para ligar eran las mejores del lugar, pero ni una sola funcionó con ella. Je...",
+      "en": "I thought my pick-up lines were the best in town, but not a single one worked on her... Heh..."
+     },
+     "options": [
+      {
+       "es": "¿Era como Futaba?",
+       "en": "Was she like Futaba?",
+       "points": 2
+      },
+      {
+       "es": "Así que no era normal, ¿eh?",
+       "en": "She wasn't normal, huh?",
+       "points": 3
+      },
+      {
+       "es": "¿Por eso estás soltero?",
+       "en": "So that's why you're a bachelor?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Por eso cuando la acogí, me prometí mantener esta receta viva hasta que pudiera volver a probarla.",
+      "en": "That's why when I took her in, I vowed to keep this recipe alive until she could eat it again."
+     },
+     "options": [
+      {
+       "es": "Al final ha valido la pena.",
+       "en": "It really paid off in the end.",
+       "points": 2
+      },
+      {
+       "es": "Casi se me saltan las lágrimas.",
+       "en": "Almost brings a tear to my eye.",
+       "points": 0
+      },
+      {
+       "es": "Vaya historia...",
+       "en": "So much history...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Solo es un problema cuando lo pide tres veces al día.",
+      "en": "It's only a problem when she asks for it three times a day."
+     },
+     "options": [
+      {
+       "en": "She needs a balanced diet.",
+       "es": "Necesita una dieta equilibrada.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Gentileza +3",
+     "description": "Ganas 3 puntos extra de Gentileza."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Por cierto, ¿qué piensas tú de que Sojiro lleve un estilo de vida solitario?",
+      "en": "By the way, what are your thoughts on So-chan's life of solitude?"
+     },
+     "options": [
+      {
+       "es": "Lo admiro.",
+       "en": "I admire it.",
+       "points": 0
+      },
+      {
+       "es": "No me extraña.",
+       "en": "I'm not impressed.",
+       "points": 0
+      },
+      {
+       "es": "Sobre gustos no hay nada escrito.",
+       "en": "To each his own.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "No parece ser el mejor entorno para Futaba, ¿no?",
+      "en": "Doesn't quite seem to be the best environment for Futaba, now does it?"
+     },
+     "options": [
+      {
+       "es": "Te equivocas.",
+       "en": "You're wrong.",
+       "points": 2
+      },
+      {
+       "es": "Lo siento.",
+       "en": "I'm sorry.",
+       "points": 0
+      },
+      {
+       "es": "Cállate la boca.",
+       "en": "Shut your mouth.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Ni siquiera sé cómo ha conseguido encontrarme... Puede que pagarle fuera un error.",
+      "en": "I don't even know how he managed to find me here... Maybe paying him was a mistake."
+     },
+     "options": [
+      {
+       "es": "Salvar a Futaba no fue un error.",
+       "en": "Saving Futaba was no mistake.",
+       "points": 2
+      },
+      {
+       "es": "Corta tus lazos con él.",
+       "en": "Just cut your ties with him.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Futaba está dormida... No quería meterte en todo este lío.",
+      "en": "Futaba's fast asleep... Didn't mean to get you tangled up in all this mess."
+     },
+     "options": [
+      {
+       "en": "If I can help somehow...",
+       "es": "Si puedo ayudar en algo...",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Coffee Mastery",
+     "description": "El café que preparas es de mejor calidad. Además, +3 de Gentileza."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "La verdad es que el café y el curry que tanto gustan a la gente no son más que... excusas.",
+      "en": "At the end of the day, the coffee and the curry people love so much are both just... excuses."
+     },
+     "options": [
+      {
+       "es": "Puede que tengas razón.",
+       "en": "You might be right.",
+       "points": 2
+      },
+      {
+       "es": "Eso no es verdad.",
+       "en": "That's not true.",
+       "points": 0
+      },
+      {
+       "es": "Pues están buenísimos.",
+       "en": "They're still delicious.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Y eso es solo porque nos ayudaste a acercarnos, así que... gracias.",
+      "en": "And that's only because you helped us connect, so... thanks for that."
+     },
+     "options": [
+      {
+       "en": "Feel like a real dad now?",
+       "es": "¿Ya te sientes un padre de verdad?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Gentileza +3",
+     "description": "Ganas 3 puntos extra de Gentileza."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "¿Y tú? ¿Hay algo que quieras añadir al menú?",
+      "en": "How about you? Anything you'd wanna add to the menu?"
+     },
+     "options": [
+      {
+       "es": "¿Quieres mi opinión?",
+       "en": "You want my suggestion?",
+       "points": 2
+      },
+      {
+       "es": "Algo con curry.",
+       "en": "Something with curry.",
+       "points": 3
+      },
+      {
+       "es": "¡No me decido!",
+       "en": "I can't decide!",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Madre mía... menudo incordio. ¿Es que no tienes suficientes problemas ya?",
+      "en": "God damn... What a pain in the ass. Don't you have enough problems already?"
+     },
+     "options": [
+      {
+       "es": "No he hecho nada malo.",
+       "en": "I didn't do anything wrong.",
+       "points": 0
+      },
+      {
+       "es": "Solo estaba protegiendo a Futaba.",
+       "en": "I was just protecting Futaba.",
+       "points": 3
+      },
+      {
+       "es": "Lo siento.",
+       "en": "I'm sorry.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Pedido de Mementos",
+     "description": "Aparece «The Money-Grubbing Uncle»: complétalo para seguir con Sojiro y Futaba."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "¿Cómo es vivir con el señor Sakura? Por favor, sea sincero.",
+      "en": "How is it... living with Sakura-san? Please, you can speak honestly."
+     },
+     "options": [
+      {
+       "es": "Es genial.",
+       "en": "It's great.",
+       "points": 3
+      },
+      {
+       "es": "Es un poco gruñón.",
+       "en": "He's a bit of a nag.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "¿Sojiro?",
+      "en": "Sojiro?"
+     },
+     "options": [
+      {
+       "es": "¿Estás llorando?",
+       "en": "Are you crying?",
+       "points": 0
+      },
+      {
+       "es": "Tienes una hija fantástica.",
+       "en": "You have a great daughter.",
+       "points": 3
+      },
+      {
+       "es": "Enhorabuena.",
+       "en": "Congrats.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "¿Ponerme sentimental así? ¿A mi edad?",
+      "en": "Getting all sentimental like this? At my age?"
+     },
+     "options": [
+      {
+       "en": "You did great.",
+       "es": "Lo hiciste genial.",
+       "points": 3
+      },
+      {
+       "en": "Futaba did great.",
+       "es": "Futaba lo hizo genial.",
+       "points": 3
+      },
+      {
+       "en": "You two were already family.",
+       "es": "Vosotros ya erais familia.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Curry Tips",
+     "description": "El curry que preparas es de mejor calidad."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Curry Mastery",
+     "description": "El curry recupera SP a todo el grupo. Se desbloquea la fusión de Kouryuu y, si aún no la tenías, la iglesia de Kanda."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

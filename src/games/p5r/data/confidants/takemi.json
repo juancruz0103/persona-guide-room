@@ -1,0 +1,676 @@
+{
+ "id": "takemi",
+ "name": "Tae Takemi",
+ "arcana": "death",
+ "phantomThief": false,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [
+  "Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takemi te atiende de día; los días de lluvia, también de noche.",
+  "Para el rango 2 necesitas Coraje 2; para el rango 8, Encanto 4.",
+  "En el rango 8 aparece el pedido de Mementos «Bad Medicine»: complétalo y vuelve a la clínica."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9384-persona-5-royal-takemi-confidant-guide-death-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Rejuvenation",
+     "description": "La clínica vende más objetos de curación. Varios rangos dan además puntos extra de Coraje."
+    }
+   ],
+   "noData": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "No pareces enfermo... ¡¿No estarás metido en cosas turbias?!",
+      "en": "You don't seem to be sick... Are you up to something illegal!?"
+     },
+     "options": [
+      {
+       "es": "Tengo problemas de corazón.",
+       "en": "I have a bad heart.",
+       "points": 2
+      },
+      {
+       "es": "Estamos en una cita.",
+       "en": "We're on a date.",
+       "points": 0
+      },
+      {
+       "es": "Conozco mis derechos.",
+       "en": "I know my rights.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "*suspiro* Estoy harta de esto...",
+      "en": "*sigh* I'm so over this..."
+     },
+     "options": [
+      {
+       "es": "Estoy de acuerdo.",
+       "en": "I agree.",
+       "points": 2
+      },
+      {
+       "es": "¿Acoso?",
+       "en": "Harassment?",
+       "points": 0
+      },
+      {
+       "es": "¿La Peste?",
+       "en": "The Plague?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Ya sabes cómo va esto. Hay pacientes que se ponen malos de camino a casa.",
+      "en": "You know how it is. Some patients get sick on their way back home."
+     },
+     "options": [
+      {
+       "en": "I'm totally fine.",
+       "es": "Estoy perfectamente.",
+       "points": 2
+      },
+      {
+       "en": "I think I have superpowers.",
+       "es": "Creo que tengo superpoderes.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Ya sabes, participar en ensayos clínicos con alguien así.",
+      "en": "Participating in clinical trials run by a doctor like that?"
+     },
+     "options": [
+      {
+       "es": "No me importa.",
+       "en": "I don't mind.",
+       "points": 2
+      },
+      {
+       "es": "¿Es verdad?",
+       "en": "Is it true?",
+       "points": 0
+      },
+      {
+       "es": "Necesito el medicamento.",
+       "en": "I need the medicine.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "No le habrás contado a nadie lo de mis medicamentos, ¿verdad?",
+      "en": "You... haven't told anyone about my drugs, right?"
+     },
+     "options": [
+      {
+       "en": "Of course not.",
+       "es": "Claro que no.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Sterilization",
+     "description": "La clínica vende más objetos."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "...",
+      "en": "......"
+     },
+     "options": [
+      {
+       "es": "Te pondrás bien.",
+       "en": "You'll be okay.",
+       "points": 0
+      },
+      {
+       "es": "La doctora Takemi te ayudará.",
+       "en": "Dr. Takemi will help.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Je, je...",
+      "en": "...Hehe."
+     },
+     "options": [
+      {
+       "es": "Pareces feliz.",
+       "en": "You seem happy.",
+       "points": 3
+      },
+      {
+       "es": "Eres muy amable.",
+       "en": "You're so kind.",
+       "points": 2
+      },
+      {
+       "es": "¿Por qué gratis?",
+       "en": "Why free?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Sobre todo después de aceptar la consulta de esa niña sin mi permiso.",
+      "en": "Especially after approving that girl's consultation without my permission."
+     },
+     "options": [
+      {
+       "en": "I'll reflect on my mistakes.",
+       "es": "Reflexionaré sobre mis errores.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Por eso es inofensiva para la gente que no sufre la enfermedad... probablemente.",
+      "en": "That's why it's harmless for people who don't have the disease... probably."
+     },
+     "options": [
+      {
+       "es": "Eso es bueno.",
+       "en": "That's good.",
+       "points": 3
+      },
+      {
+       "es": "¿Cuándo estará listo?",
+       "en": "When will it be done?",
+       "points": 2
+      },
+      {
+       "es": "¿«Probablemente»?",
+       "en": "...\"Probably\"?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Y... perdona por la charla tan larga de hoy. No pensaba contarte todo eso.",
+      "en": "Also... sorry for the long talk today. I wasn't planning on telling you all that."
+     },
+     "options": [
+      {
+       "en": "About Miwa-chan?",
+       "es": "¿Lo de Miwa-chan?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Immunization",
+     "description": "La clínica vende objetos de apoyo."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Debo hacerlo, porque soy la Peste. Todas esas otras cosas no son lo mío.",
+      "en": "That's my role as the Plague. I'm not suited for all this other stuff."
+     },
+     "options": [
+      {
+       "es": "Eres masoquista.",
+       "en": "You're a masochist.",
+       "points": 0
+      },
+      {
+       "es": "Pues te vienen que ni pintado.",
+       "en": "It suits you.",
+       "points": 3
+      },
+      {
+       "es": "No estás siendo sincera.",
+       "en": "You're not honest.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Voy a necesitar que aguantes un poco más. Espero que puedas.",
+      "en": "I'll need you to stick around just a little bit longer. I hope you can handle it."
+     },
+     "options": [
+      {
+       "en": "You can count on me.",
+       "es": "Puedes contar conmigo.",
+       "points": 0
+      },
+      {
+       "en": "Anything for you.",
+       "es": "Lo que sea por ti.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "...",
+      "en": "......"
+     },
+     "options": [
+      {
+       "es": "Esto es acoso.",
+       "en": "This is harassment.",
+       "points": 2
+      },
+      {
+       "es": "Es una gran doctora.",
+       "en": "She's a great doctor.",
+       "points": 2
+      },
+      {
+       "es": "Haz el favor de callarte.",
+       "en": "Please be quiet.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "No puedo...",
+      "en": "I can't..."
+     },
+     "options": [
+      {
+       "es": "Tú descansa por hoy.",
+       "en": "Just rest for today.",
+       "points": 2
+      },
+      {
+       "es": "¿Hay algo que pueda hacer?",
+       "en": "Anything I can do?",
+       "points": 2
+      },
+      {
+       "es": "Contraataquemos.",
+       "en": "Let's retaliate.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Uf. Ojalá no te hubiera dejado ver ese lado de mí...",
+      "en": "Ugh. I wish I hadn't shown you that side of me..."
+     },
+     "options": [
+      {
+       "es": "Era inevitable.",
+       "en": "It was inevitable.",
+       "points": 0
+      },
+      {
+       "es": "Todos lo hacemos alguna vez.",
+       "en": "We all do sometimes.",
+       "points": 3
+      },
+      {
+       "es": "Me alegro de que lo hicieras.",
+       "en": "I'm glad you did.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Discount",
+     "description": "Los objetos de la clínica cuestan mucho menos."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Ya no me queda ningún aliado...",
+      "en": "I'm all out of allies..."
+     },
+     "options": [
+      {
+       "es": "No te rindas.",
+       "en": "Don't give up.",
+       "points": 0
+      },
+      {
+       "es": "¿No hay nada que puedas hacer?",
+       "en": "Anything you can do?",
+       "points": 0
+      },
+      {
+       "es": "Yo soy tu aliado.",
+       "en": "I'm your ally.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Entonces... está viva...",
+      "en": "So she's... she's alive..."
+     },
+     "options": [
+      {
+       "es": "Deberías darte prisa.",
+       "en": "You should hurry.",
+       "points": 2
+      },
+      {
+       "es": "Manos a la obra, doctora.",
+       "en": "Let's get to work, Doctor.",
+       "points": 3
+      },
+      {
+       "es": "Esto aún no ha terminado.",
+       "en": "It's not over yet.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Lo siento. Tú aguanta, ¿vale?",
+      "en": "...Sorry. Just hang in there, okay?"
+     },
+     "options": [
+      {
+       "es": "Lo haré por Miwa.",
+       "en": "It's for Miwa-chan.",
+       "points": 3
+      },
+      {
+       "es": "Lo haré por mis exámenes.",
+       "en": "It's for my exams.",
+       "points": 2
+      },
+      {
+       "es": "Lo haré por ti.",
+       "en": "It's for you.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Miwa-chan estuvo luchando todo ese tiempo. Yo también tengo que luchar por ella.",
+      "en": "Miwa-chan was fighting all that time. I have to fight for her, too."
+     },
+     "options": [
+      {
+       "en": "I'll be cheering you on.",
+       "es": "Te estaré animando.",
+       "points": 2
+      },
+      {
+       "en": "Anything else I can do?",
+       "es": "¿Puedo hacer algo más?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Gracias otra vez. Todo esto no habría sido posible si no me hubieras ayudado con el ensayo.",
+      "en": "I have to thank you again. All this is thanks to you helping me with the clinical trials."
+     },
+     "options": [
+      {
+       "es": "No te preocupes por eso.",
+       "en": "Don't worry about it.",
+       "points": 2
+      },
+      {
+       "es": "Era por mis exámenes",
+       "en": "It was for my exams.",
+       "points": 0
+      },
+      {
+       "es": "Fue duro.",
+       "en": "It was rough.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "¿Por qué no me cuentas la verdad sobre tus visitas?",
+      "en": "Why don't you tell me the truth about why you kept coming to me?"
+     },
+     "options": [
+      {
+       "es": "Porque quería verte.",
+       "en": "I wanted to see you.",
+       "points": 0,
+       "romance": true
+      },
+      {
+       "es": "Era por mis exámenes.",
+       "en": "It was for my exams.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "route": "romance",
+     "speaker": "Tae",
+     "prompt": {
+      "es": "No me digas que te has enamorado de mí o algo por el estilo.",
+      "en": "...Don't tell me you're in love with me or something."
+     },
+     "options": [
+      {
+       "es": "Te quiero.",
+       "en": "I love you.",
+       "points": 2,
+       "romance": true
+      },
+      {
+       "es": "¿Tú qué crees?",
+       "en": "What do you think?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "route": "romance",
+     "speaker": "Tae",
+     "prompt": {
+      "es": "O... si lo prefieres, puedo hacerte un «examen especial».",
+      "en": "Or... I can give you a \"special examination\" if you'd like."
+     },
+     "options": [
+      {
+       "es": "No es una broma.",
+       "en": "It isn't a joke.",
+       "points": 3,
+       "romance": true
+      },
+      {
+       "es": "Me parece bien.",
+       "en": "That sounds good.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Parque Inokashira",
+     "description": "Se desbloquea el lugar si aún no lo tenías."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Resuscitation",
+     "description": "La clínica vende objetos para revivir. Se desbloquea la fusión de Alice."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}
