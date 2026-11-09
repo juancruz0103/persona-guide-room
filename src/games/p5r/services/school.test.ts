@@ -33,6 +33,11 @@ describe('filterQuestions', () => {
     expect(r.map((q) => q.answer)).toEqual(['Juntos', 'Sentidos', 'La unión de los sentidos']);
   });
 
+  it('las preguntas de Ann son las de los 4 días confirmados', () => {
+    const ann = questions.filter((q) => q.askedTo === 'ann').map((q) => `${q.day}/${q.month}`);
+    expect([...new Set(ann)]).toEqual(['25/4', '20/6', '7/7', '11/1']);
+  });
+
   it('filtra por tipo', () => {
     const ann = filterQuestions(questions, { ...DEFAULT_SCHOOL_FILTERS, type: 'ann' });
     expect(ann.every((q) => q.askedTo === 'ann' && q.kind === 'class')).toBe(true);

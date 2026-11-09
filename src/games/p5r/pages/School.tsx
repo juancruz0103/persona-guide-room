@@ -150,7 +150,7 @@ export default function School() {
 
         <p className={styles.source}>
           Respuestas: Eurogamer España, verificadas jugando. Temas de cada pregunta redactados a partir de RPG Site.
-          Las preguntas de Ann se marcan según lo confirmado hasta ahora; el resto se revisa durante la partida.
+          Preguntas de Ann confirmadas jugando.
         </p>
       </section>
     </>
