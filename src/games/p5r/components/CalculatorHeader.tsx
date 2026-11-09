@@ -5,13 +5,15 @@ const TABS = [
   { id: 'catalog', label: 'Catálogo', to: '/p5r/calculadora' },
   { id: 'fuse', label: 'Fusionar', to: '/p5r/calculadora/fusionar' },
   { id: 'reverse', label: '¿Cómo la consigo?', to: '/p5r/calculadora/fusionar?modo=inversa' },
+  { id: 'cards', label: 'Skill cards', to: '/p5r/calculadora/skill-cards' },
 ] as const;
 
 /** Banda roja con el título de la calculadora y sus pestañas. */
 export function CalculatorHeader() {
   const { pathname, search } = useLocation();
-  const active =
-    pathname.endsWith('/fusionar')
+  const active = pathname.endsWith('/skill-cards')
+    ? 'cards'
+    : pathname.endsWith('/fusionar')
       ? new URLSearchParams(search).get('modo') === 'inversa' ? 'reverse' : 'fuse'
       : 'catalog';
 

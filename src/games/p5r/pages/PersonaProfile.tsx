@@ -4,6 +4,7 @@ import { getFusionEngine } from '../services/fusion';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { AffinityGrid } from '../components/AffinityGrid';
+import { ElectricChair } from '../components/ElectricChair';
 import { SkillList } from '../components/SkillList';
 import { getArcana } from '../data/arcana';
 import { ELEMENTS } from '../data/elements';
@@ -195,10 +196,8 @@ export default function PersonaProfile() {
         <aside className={styles.side}>
           <SectionTitle size="md">Fusión</SectionTitle>
           <FusionBox persona={p} />
-          <div className={styles.card}>
-            <span className="label label-accent">Itemización</span>
-            <span className={styles.value}>{p.itemization ?? '—'}</span>
-          </div>
+          <SectionTitle size="md">Silla eléctrica</SectionTitle>
+          <ElectricChair persona={p} />
           <div className={styles.card}>
             <span className="label label-accent">Condición de desbloqueo</span>
             <span className={styles.muted}>{unlockText(p)}</span>

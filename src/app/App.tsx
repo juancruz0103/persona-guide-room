@@ -9,6 +9,7 @@ const Home = lazy(() => import('../games/p5r/pages/Home'));
 const Catalog = lazy(() => import('../games/p5r/pages/Catalog'));
 const PersonaProfile = lazy(() => import('../games/p5r/pages/PersonaProfile'));
 const Fusion = lazy(() => import('../games/p5r/pages/Fusion'));
+const SkillCards = lazy(() => import('../games/p5r/pages/SkillCards'));
 const Technical = lazy(() => import('../games/p5r/pages/Technical'));
 const School = lazy(() => import('../games/p5r/pages/School'));
 const Confidants = lazy(() => import('../games/p5r/pages/Confidants'));
@@ -31,6 +32,7 @@ export function App() {
             <Route index element={<Home />} />
             <Route path="calculadora" element={<Catalog />} />
             <Route path="calculadora/fusionar" element={<Fusion />} />
+            <Route path="calculadora/skill-cards" element={<SkillCards />} />
             <Route path="calculadora/persona/:personaId" element={<PersonaProfile />} />
             <Route path="tecnicos" element={<Technical />} />
             <Route path="clases" element={<School />} />

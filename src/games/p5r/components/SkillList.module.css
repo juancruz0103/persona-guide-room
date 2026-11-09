@@ -41,78 +41,19 @@
   color: var(--bar);
 }
 
-.tipWrap {
-  position: relative;
-  display: inline-flex;
-}
-
-.icon {
-  width: 44px;
-  height: 44px;
-  flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-  background: var(--c-ink);
-  border: 2px solid #2e2e2e;
-  color: var(--c-text-dim);
-  cursor: help;
-  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
-}
-.icon:hover {
-  border-color: var(--c-accent);
-}
-
-.tip {
-  display: none;
-  position: absolute;
-  left: 54px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: min(300px, 70vw);
-  z-index: 20;
-  flex-direction: column;
-  gap: 6px;
-  padding: 14px 16px;
-  background: var(--c-paper);
-  color: var(--c-ink);
-  border-left: 6px solid;
-  box-shadow: 6px 6px 0 var(--c-primary);
-}
-.tipWrap:hover .tip,
-.tipWrap:focus-within .tip {
-  display: flex;
-}
-
-.tipTitle {
-  font-family: var(--f-display);
-  font-size: 20px;
-}
-.tipText {
-  font-size: 14px;
-  line-height: 1.45;
-  color: #2a2a2a;
-}
-.tipAilment {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-top: 4px;
-  padding-top: 8px;
-  border-top: 1px solid #cfcfc8;
-  font-size: 14px;
-}
-.tech {
-  color: var(--c-primary-strong);
-}
-
 .name {
   flex: 1;
   min-width: 0;
   font-family: var(--f-label);
   font-weight: 700;
   font-size: 22px;
+}
+
+.cost {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
 }
 
 .target {
@@ -131,11 +72,6 @@
 }
 
 @media (max-width: 640px) {
-  .tip {
-    left: 0;
-    top: calc(100% + 8px);
-    transform: none;
-  }
   .target {
     display: none;
   }

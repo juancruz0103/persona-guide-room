@@ -18,7 +18,7 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones de Personas 
 | 4 · Guía de confidentes (9 Ladrones Fantasma) | ⏳ Próxima |
 | 5 · Pruebas y publicación | ⏳ |
 
-**Hoy:** la calculadora tiene las **232 Personas** de Royal, fusión de 2 Personas, búsqueda inversa y recetas especiales, con opciones para excluir DLC y Treasure Demons. **Respuestas de clase:** las 100 preguntas de profesores y exámenes, filtrables por mes, día y tipo. En los confidentes, solo el **rango 2 de Ryuji** tiene datos (traducción provisoria). Todo lo pendiente está marcado así en la web.
+**Hoy:** la calculadora tiene las **232 Personas** de Royal, fusión de 2 Personas, búsqueda inversa y recetas especiales, con opciones para excluir DLC y Treasure Demons. **Skill cards y silla eléctrica:** qué Persona da cada skill card (normal o con Alarma de fusión), las skills exclusivas y el item de cada Persona en su ficha ([detalle](docs/FUNCION-skill-cards.md)). **Respuestas de clase:** las 100 preguntas de profesores y exámenes, filtrables por mes, día y tipo. En los confidentes, solo el **rango 2 de Ryuji** tiene datos (traducción provisoria). Todo lo pendiente está marcado así en la web.
 
 ## Tecnologías
 

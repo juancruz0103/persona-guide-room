@@ -133,6 +133,8 @@ function convertSkill(row) {
     ailment,
     cost,
     power: row.b[2] || null,
+    // rango > 89 = skill exclusiva: no existe como skill card ni se hereda
+    unique: row.b[0] > 89 || row.b[0] === 0,
   };
 }
 
@@ -175,6 +177,7 @@ for (const [name, d] of Object.entries(demons)) {
     skills,
     inheritance: d.inherits in INHERIT ? INHERIT[d.inherits] : (warnings.push(`${name}: herencia ${d.inherits}`), null),
     trait: d.trait ?? null,
+    // Silla eléctrica: item normal y con Alarma de fusión ("itemr" en la fuente)
     itemization: d.item ?? null,
     itemizationAlt: d.itemr ?? null,
     image: null,
@@ -182,6 +185,11 @@ for (const [name, d] of Object.entries(demons)) {
 }
 
 personas.sort((a, b) => a.name.localeCompare(b.name));
+
+// Las skill cards de la silla eléctrica también cuentan como skills a mostrar.
+for (const p of personas) {
+  for (const it of [p.itemization, p.itemizationAlt]) if (it && skillRows[it]) usedSkills.add(it);
+}
 
 const skills = {};
 for (const name of [...usedSkills].sort()) {
@@ -226,13 +234,15 @@ mkdirSync(outDir, { recursive: true });
 const write = (file, data) => writeFileSync(join(outDir, file), JSON.stringify(data, null, 1) + '\n');
 
 write('personas.json', personas);
+write('accessories.json', read('roy-accessories.json'));
 write('skills.json', skills);
 write('fusion.json', { arcanaOrder: races, chart, treasureChart, specialRecipes: specials });
 write('meta.json', {
   source: 'https://github.com/aqiu384/megaten-fusion-tool',
   license: 'Unlicense (dominio público)',
   files: ['roy-demon-data.json', 'roy-skill-data.json', 'skill-data.json', 'roy-fusion-chart.json',
-    'roy-element-chart.json', 'roy-special-recipes.json', 'roy-demon-unlocks.json', 'roy-fusion-prereqs.json'],
+    'roy-element-chart.json', 'roy-special-recipes.json', 'roy-demon-unlocks.json', 'roy-fusion-prereqs.json',
+    'roy-accessories.json'],
   sourceCommit: process.argv[3] ?? null,
   importedAt: new Date().toISOString().slice(0, 10),
   counts: {

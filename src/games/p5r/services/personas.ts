@@ -22,6 +22,10 @@ export function getSkill(name: string): SkillInfo | undefined {
   return SKILLS[name];
 }
 
+export function getAllSkills(): SkillInfo[] {
+  return Object.values(SKILLS);
+}
+
 /* ---------- Filtros y orden del catálogo ---------- */
 
 export type SortKey = 'level-asc' | 'level-desc' | 'name-asc';

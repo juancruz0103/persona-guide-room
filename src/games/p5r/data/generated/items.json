@@ -1,0 +1,2919 @@
+{
+ "Abysmal Surge": {
+  "name": "Abysmal Surge",
+  "type": "skillcard",
+  "skill": "Abysmal Surge",
+  "source": "aqiu384"
+ },
+ "Agi": {
+  "name": "Agi",
+  "type": "skillcard",
+  "skill": "Agi",
+  "source": "aqiu384"
+ },
+ "Agidyne": {
+  "name": "Agidyne",
+  "type": "skillcard",
+  "skill": "Agidyne",
+  "source": "aqiu384"
+ },
+ "Agilao": {
+  "name": "Agilao",
+  "type": "skillcard",
+  "skill": "Agilao",
+  "source": "aqiu384"
+ },
+ "Agneyastra": {
+  "name": "Agneyastra",
+  "type": "skillcard",
+  "skill": "Agneyastra",
+  "source": "aqiu384"
+ },
+ "Aid Charm": {
+  "name": "Aid Charm",
+  "type": "accessory",
+  "skill": "Dia",
+  "source": "aqiu384"
+ },
+ "Amrita Charm": {
+  "name": "Amrita Charm",
+  "type": "accessory",
+  "skill": "Amrita Drop",
+  "source": "aqiu384"
+ },
+ "Ancient Day": {
+  "name": "Ancient Day",
+  "type": "unknown",
+  "source": null
+ },
+ "Archangel Bra": {
+  "name": "Archangel Bra",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "female",
+  "stats": {
+   "defense": 200,
+   "evasion": 18
+  },
+  "effects": [
+   "Reduce el daño de Eléctrico (alta)"
+  ]
+ },
+ "Arms Master": {
+  "name": "Arms Master",
+  "type": "skillcard",
+  "skill": "Arms Master",
+  "source": "aqiu384"
+ },
+ "Arsene's Cane": {
+  "name": "Arsene's Cane",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "joker",
+  "stats": {
+   "attack": 130,
+   "accuracy": 92
+  },
+  "effects": [
+   "Puede causar estado alterado al azar (baja)"
+  ]
+ },
+ "Assault Dive": {
+  "name": "Assault Dive",
+  "type": "skillcard",
+  "skill": "Assault Dive",
+  "source": "aqiu384"
+ },
+ "Assault Dive Belt": {
+  "name": "Assault Dive Belt",
+  "type": "accessory",
+  "skill": "Assault Dive",
+  "source": "aqiu384"
+ },
+ "Atom Ring": {
+  "name": "Atom Ring",
+  "type": "accessory",
+  "skill": "Frei",
+  "source": "aqiu384"
+ },
+ "Atomic Flare": {
+  "name": "Atomic Flare",
+  "type": "skillcard",
+  "skill": "Atomic Flare",
+  "source": "aqiu384"
+ },
+ "Auto-Maraku": {
+  "name": "Auto-Maraku",
+  "type": "skillcard",
+  "skill": "Auto-Maraku",
+  "source": "aqiu384"
+ },
+ "Auto-Masuku": {
+  "name": "Auto-Masuku",
+  "type": "skillcard",
+  "skill": "Auto-Masuku",
+  "source": "aqiu384"
+ },
+ "Auto-Mataru": {
+  "name": "Auto-Mataru",
+  "type": "skillcard",
+  "skill": "Auto-Mataru",
+  "source": "aqiu384"
+ },
+ "Bear Gloves": {
+  "name": "Bear Gloves",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "queen",
+  "stats": {
+   "attack": 200,
+   "accuracy": 90
+  },
+  "effects": [
+   "Más probabilidad de crítico (media)"
+  ]
+ },
+ "Big Bear Gloves": {
+  "name": "Big Bear Gloves",
+  "type": "unknown",
+  "source": null
+ },
+ "Black Headband": {
+  "name": "Black Headband",
+  "type": "accessory",
+  "skill": "Mana Surge",
+  "source": "aqiu384"
+ },
+ "Black Headband R": {
+  "name": "Black Headband R",
+  "type": "accessory",
+  "skill": "Mana Surge",
+  "source": "aqiu384"
+ },
+ "Black Jacket": {
+  "name": "Black Jacket",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "male",
+  "stats": {
+   "defense": 120,
+   "evasion": 12
+  },
+  "effects": [
+   "Evita la muerte instantánea de Maldición"
+  ]
+ },
+ "Black Moon": {
+  "name": "Black Moon",
+  "type": "accessory",
+  "skill": "Apt Pupil",
+  "source": "aqiu384"
+ },
+ "Black Moon R": {
+  "name": "Black Moon R",
+  "type": "accessory",
+  "skill": "Apt Pupil",
+  "source": "aqiu384"
+ },
+ "Black Wing Robe": {
+  "name": "Black Wing Robe",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "unisex",
+  "stats": {
+   "defense": 220,
+   "evasion": 20
+  },
+  "effects": [
+   "Reduce el daño de Nuclear (media)"
+  ]
+ },
+ "Black Wing Robe R": {
+  "name": "Black Wing Robe R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Black Wing Robe",
+  "type": "armor",
+  "gender": "unisex",
+  "stats": {},
+  "effects": []
+ },
+ "Blazing Horns": {
+  "name": "Blazing Horns",
+  "type": "accessory",
+  "skill": "Fire Amp",
+  "source": "aqiu384"
+ },
+ "Bless Amp": {
+  "name": "Bless Amp",
+  "type": "skillcard",
+  "skill": "Bless Amp",
+  "source": "aqiu384"
+ },
+ "Bless Boost": {
+  "name": "Bless Boost",
+  "type": "skillcard",
+  "skill": "Bless Boost",
+  "source": "aqiu384"
+ },
+ "Blessing Ring": {
+  "name": "Blessing Ring",
+  "type": "accessory",
+  "skill": "Kouga",
+  "source": "aqiu384"
+ },
+ "Blizzard Ring": {
+  "name": "Blizzard Ring",
+  "type": "accessory",
+  "skill": "Bufudyne",
+  "source": "aqiu384"
+ },
+ "Blood Red Capote": {
+  "name": "Blood Red Capote",
+  "type": "unknown",
+  "source": null
+ },
+ "Bloodbath": {
+  "name": "Bloodbath",
+  "type": "skillcard",
+  "skill": "Bloodbath",
+  "source": "aqiu384"
+ },
+ "Bloodied Capote": {
+  "name": "Bloodied Capote",
+  "type": "unknown",
+  "source": null
+ },
+ "Brain Jack": {
+  "name": "Brain Jack",
+  "type": "skillcard",
+  "skill": "Brain Jack",
+  "source": "aqiu384"
+ },
+ "Brain Shot": {
+  "name": "Brain Shot",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "panther",
+  "stats": {
+   "attack": 140,
+   "accuracy": 84,
+   "rounds": 12
+  },
+  "effects": [
+   "Puede causar Lavado de cerebro (media)"
+  ]
+ },
+ "Brave Blade": {
+  "name": "Brave Blade",
+  "type": "skillcard",
+  "skill": "Brave Blade",
+  "source": "aqiu384"
+ },
+ "Brave Blade Belt": {
+  "name": "Brave Blade Belt",
+  "type": "accessory",
+  "skill": "Brave Blade",
+  "source": "aqiu384"
+ },
+ "Breeze Ring": {
+  "name": "Breeze Ring",
+  "type": "accessory",
+  "skill": "Garu",
+  "source": "aqiu384"
+ },
+ "Bufu": {
+  "name": "Bufu",
+  "type": "skillcard",
+  "skill": "Bufu",
+  "source": "aqiu384"
+ },
+ "Bufudyne": {
+  "name": "Bufudyne",
+  "type": "skillcard",
+  "skill": "Bufudyne",
+  "source": "aqiu384"
+ },
+ "Bufula": {
+  "name": "Bufula",
+  "type": "skillcard",
+  "skill": "Bufula",
+  "source": "aqiu384"
+ },
+ "Cat Buster": {
+  "name": "Cat Buster",
+  "type": "unknown",
+  "source": null
+ },
+ "Catnap": {
+  "name": "Catnap",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "mona",
+  "stats": {
+   "attack": 168,
+   "accuracy": 90,
+   "rounds": 5
+  },
+  "effects": [
+   "Puede causar Sueño (media)"
+  ]
+ },
+ "Charge": {
+  "name": "Charge",
+  "type": "skillcard",
+  "skill": "Charge",
+  "source": "aqiu384"
+ },
+ "Claiomh Solais": {
+  "name": "Claiomh Solais",
+  "type": "unknown",
+  "source": null
+ },
+ "Claiomh Solais R": {
+  "name": "Claiomh Solais R",
+  "type": "unknown",
+  "source": null
+ },
+ "Cleave": {
+  "name": "Cleave",
+  "type": "skillcard",
+  "skill": "Cleave",
+  "source": "aqiu384"
+ },
+ "Concentrate": {
+  "name": "Concentrate",
+  "type": "skillcard",
+  "skill": "Concentrate",
+  "source": "aqiu384"
+ },
+ "Cornered Fang": {
+  "name": "Cornered Fang",
+  "type": "skillcard",
+  "skill": "Cornered Fang",
+  "source": "aqiu384"
+ },
+ "Counter": {
+  "name": "Counter",
+  "type": "skillcard",
+  "skill": "Counter",
+  "source": "aqiu384"
+ },
+ "Counterstrike": {
+  "name": "Counterstrike",
+  "type": "skillcard",
+  "skill": "Counterstrike",
+  "source": "aqiu384"
+ },
+ "Crystal Skull": {
+  "name": "Crystal Skull",
+  "type": "accessory",
+  "skill": "Angelic Grace",
+  "source": "aqiu384"
+ },
+ "Crystal Skull R": {
+  "name": "Crystal Skull R",
+  "type": "accessory",
+  "skill": "Angelic Grace",
+  "source": "aqiu384"
+ },
+ "Cure Charm": {
+  "name": "Cure Charm",
+  "type": "accessory",
+  "skill": "Diarama",
+  "source": "aqiu384"
+ },
+ "Curse Ring": {
+  "name": "Curse Ring",
+  "type": "accessory",
+  "skill": "Eiga",
+  "source": "aqiu384"
+ },
+ "Cursed Ribbon": {
+  "name": "Cursed Ribbon",
+  "type": "accessory",
+  "skill": "Demonic Decree",
+  "source": "aqiu384"
+ },
+ "Dainaraka Whip": {
+  "name": "Dainaraka Whip",
+  "type": "unknown",
+  "source": null
+ },
+ "Dark Flame Band": {
+  "name": "Dark Flame Band",
+  "type": "accessory",
+  "skill": "Inferno",
+  "source": "aqiu384"
+ },
+ "Dark Jacket": {
+  "name": "Dark Jacket",
+  "type": "unknown",
+  "source": null
+ },
+ "Darkness Ring": {
+  "name": "Darkness Ring",
+  "type": "accessory",
+  "skill": "Evade Curse",
+  "source": "aqiu384"
+ },
+ "Darkness Ring R": {
+  "name": "Darkness Ring R",
+  "type": "accessory",
+  "skill": "Evade Curse",
+  "source": "aqiu384"
+ },
+ "Dazzler": {
+  "name": "Dazzler",
+  "type": "skillcard",
+  "skill": "Dazzler",
+  "source": "aqiu384"
+ },
+ "Deadly Fury": {
+  "name": "Deadly Fury",
+  "type": "skillcard",
+  "skill": "Deadly Fury",
+  "source": "aqiu384"
+ },
+ "Death Contract": {
+  "name": "Death Contract",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "noir",
+  "stats": {
+   "attack": 140,
+   "accuracy": 86
+  },
+  "effects": [
+   "Puede causar Desesperación (baja)"
+  ]
+ },
+ "Death Promise": {
+  "name": "Death Promise",
+  "type": "unknown",
+  "source": null
+ },
+ "Death Scythe": {
+  "name": "Death Scythe",
+  "type": "skillcard",
+  "skill": "Death Scythe",
+  "source": "aqiu384"
+ },
+ "Deathbound": {
+  "name": "Deathbound",
+  "type": "skillcard",
+  "skill": "Deathbound",
+  "source": "aqiu384"
+ },
+ "Debilitate": {
+  "name": "Debilitate",
+  "type": "skillcard",
+  "skill": "Debilitate",
+  "source": "aqiu384"
+ },
+ "Dekaja": {
+  "name": "Dekaja",
+  "type": "skillcard",
+  "skill": "Dekaja",
+  "source": "aqiu384"
+ },
+ "Dekunda": {
+  "name": "Dekunda",
+  "type": "skillcard",
+  "skill": "Dekunda",
+  "source": "aqiu384"
+ },
+ "Demonic Decree": {
+  "name": "Demonic Decree",
+  "type": "skillcard",
+  "skill": "Demonic Decree",
+  "source": "aqiu384"
+ },
+ "Diamond Dust": {
+  "name": "Diamond Dust",
+  "type": "skillcard",
+  "skill": "Diamond Dust",
+  "source": "aqiu384"
+ },
+ "Diamond Dust Lily": {
+  "name": "Diamond Dust Lily",
+  "type": "accessory",
+  "skill": "Diamond Dust",
+  "source": "aqiu384"
+ },
+ "Diarahan": {
+  "name": "Diarahan",
+  "type": "skillcard",
+  "skill": "Diarahan",
+  "source": "aqiu384"
+ },
+ "Diarama": {
+  "name": "Diarama",
+  "type": "skillcard",
+  "skill": "Diarama",
+  "source": "aqiu384"
+ },
+ "Divine Judgement": {
+  "name": "Divine Judgement",
+  "type": "skillcard",
+  "skill": "Divine Judgement",
+  "source": "aqiu384"
+ },
+ "Divine Ring": {
+  "name": "Divine Ring",
+  "type": "accessory",
+  "skill": "Kougaon",
+  "source": "aqiu384"
+ },
+ "Doomsday": {
+  "name": "Doomsday",
+  "type": "unknown",
+  "source": null
+ },
+ "Dormin Rush": {
+  "name": "Dormin Rush",
+  "type": "skillcard",
+  "skill": "Dormin Rush",
+  "source": "aqiu384"
+ },
+ "Dormina": {
+  "name": "Dormina",
+  "type": "skillcard",
+  "skill": "Dormina",
+  "source": "aqiu384"
+ },
+ "Double Fangs": {
+  "name": "Double Fangs",
+  "type": "skillcard",
+  "skill": "Double Fangs",
+  "source": "aqiu384"
+ },
+ "Double Shot": {
+  "name": "Double Shot",
+  "type": "skillcard",
+  "skill": "Double Shot",
+  "source": "aqiu384"
+ },
+ "Dragon's Heart": {
+  "name": "Dragon's Heart",
+  "type": "accessory",
+  "skill": "Psycho Force",
+  "source": "aqiu384"
+ },
+ "Drain Curse": {
+  "name": "Drain Curse",
+  "type": "skillcard",
+  "skill": "Drain Curse",
+  "source": "aqiu384"
+ },
+ "Drain Fire": {
+  "name": "Drain Fire",
+  "type": "skillcard",
+  "skill": "Drain Fire",
+  "source": "aqiu384"
+ },
+ "Drain Phys": {
+  "name": "Drain Phys",
+  "type": "skillcard",
+  "skill": "Drain Phys",
+  "source": "aqiu384"
+ },
+ "Dream Needle": {
+  "name": "Dream Needle",
+  "type": "skillcard",
+  "skill": "Dream Needle",
+  "source": "aqiu384"
+ },
+ "Eiga": {
+  "name": "Eiga",
+  "type": "skillcard",
+  "skill": "Eiga",
+  "source": "aqiu384"
+ },
+ "Eigaon": {
+  "name": "Eigaon",
+  "type": "skillcard",
+  "skill": "Eigaon",
+  "source": "aqiu384"
+ },
+ "Elec Amp": {
+  "name": "Elec Amp",
+  "type": "skillcard",
+  "skill": "Elec Amp",
+  "source": "aqiu384"
+ },
+ "Elec Boost": {
+  "name": "Elec Boost",
+  "type": "skillcard",
+  "skill": "Elec Boost",
+  "source": "aqiu384"
+ },
+ "Ember Ring": {
+  "name": "Ember Ring",
+  "type": "accessory",
+  "skill": "Agi",
+  "source": "aqiu384"
+ },
+ "Emperor's Amulet": {
+  "name": "Emperor's Amulet",
+  "type": "accessory",
+  "skill": "Auto-Mataru",
+  "source": "aqiu384"
+ },
+ "Emperor's Amulet R": {
+  "name": "Emperor's Amulet R",
+  "type": "accessory",
+  "skill": "Auto-Mataru",
+  "source": "aqiu384"
+ },
+ "Endure": {
+  "name": "Endure",
+  "type": "skillcard",
+  "skill": "Endure",
+  "source": "aqiu384"
+ },
+ "Enduring Soul": {
+  "name": "Enduring Soul",
+  "type": "skillcard",
+  "skill": "Enduring Soul",
+  "source": "aqiu384"
+ },
+ "Energy Charm": {
+  "name": "Energy Charm",
+  "type": "accessory",
+  "skill": "Energy Drop",
+  "source": "aqiu384"
+ },
+ "Energy Drop": {
+  "name": "Energy Drop",
+  "type": "skillcard",
+  "skill": "Energy Drop",
+  "source": "aqiu384"
+ },
+ "Energy Shower": {
+  "name": "Energy Shower",
+  "type": "skillcard",
+  "skill": "Energy Shower",
+  "source": "aqiu384"
+ },
+ "Evil Smile": {
+  "name": "Evil Smile",
+  "type": "skillcard",
+  "skill": "Evil Smile",
+  "source": "aqiu384"
+ },
+ "Evil Touch": {
+  "name": "Evil Touch",
+  "type": "skillcard",
+  "skill": "Evil Touch",
+  "source": "aqiu384"
+ },
+ "Fairy Hero Armor": {
+  "name": "Fairy Hero Armor",
+  "type": "unknown",
+  "source": null
+ },
+ "Fairy Knight Armor": {
+  "name": "Fairy Knight Armor",
+  "type": "unknown",
+  "source": null
+ },
+ "Fine Ruyi Jingu Bang": {
+  "name": "Fine Ruyi Jingu Bang",
+  "type": "unknown",
+  "source": null
+ },
+ "Fine Silk Dress": {
+  "name": "Fine Silk Dress",
+  "type": "unknown",
+  "source": null
+ },
+ "Fine Tapsuan": {
+  "name": "Fine Tapsuan",
+  "type": "unknown",
+  "source": null
+ },
+ "Fire Dragon Horn": {
+  "name": "Fire Dragon Horn",
+  "type": "accessory",
+  "skill": "Atomic Flare",
+  "source": "aqiu384"
+ },
+ "Firm Stance": {
+  "name": "Firm Stance",
+  "type": "skillcard",
+  "skill": "Firm Stance",
+  "source": "aqiu384"
+ },
+ "Flash Bomb": {
+  "name": "Flash Bomb",
+  "type": "skillcard",
+  "skill": "Flash Bomb",
+  "source": "aqiu384"
+ },
+ "Fleurs du Mal": {
+  "name": "Fleurs du Mal",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "noir",
+  "stats": {
+   "attack": 308,
+   "accuracy": 86
+  },
+  "effects": [
+   "Magia +5",
+   "Puede causar Mareo (alta)"
+  ]
+ },
+ "Fleurs du Mal R": {
+  "name": "Fleurs du Mal R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Fleurs du Mal",
+  "type": "melee",
+  "owner": "noir",
+  "stats": {},
+  "effects": []
+ },
+ "Foul Breath": {
+  "name": "Foul Breath",
+  "type": "skillcard",
+  "skill": "Foul Breath",
+  "source": "aqiu384"
+ },
+ "Frei": {
+  "name": "Frei",
+  "type": "skillcard",
+  "skill": "Frei",
+  "source": "aqiu384"
+ },
+ "Freidyne": {
+  "name": "Freidyne",
+  "type": "skillcard",
+  "skill": "Freidyne",
+  "source": "aqiu384"
+ },
+ "Frost Ace Hood": {
+  "name": "Frost Ace Hood",
+  "type": "unknown",
+  "source": null
+ },
+ "Frost Hood": {
+  "name": "Frost Hood",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "morgana",
+  "stats": {
+   "defense": 130,
+   "evasion": 20
+  },
+  "effects": [
+   "+20 SP máximo"
+  ]
+ },
+ "Frost Ring": {
+  "name": "Frost Ring",
+  "type": "accessory",
+  "skill": "Bufu",
+  "source": "aqiu384"
+ },
+ "Garu": {
+  "name": "Garu",
+  "type": "skillcard",
+  "skill": "Garu",
+  "source": "aqiu384"
+ },
+ "Garudyne": {
+  "name": "Garudyne",
+  "type": "skillcard",
+  "skill": "Garudyne",
+  "source": "aqiu384"
+ },
+ "Garula": {
+  "name": "Garula",
+  "type": "skillcard",
+  "skill": "Garula",
+  "source": "aqiu384"
+ },
+ "Gattling Blows Belt": {
+  "name": "Gattling Blows Belt",
+  "type": "accessory",
+  "skill": "Gattling Blows",
+  "source": "aqiu384"
+ },
+ "Giant Slice": {
+  "name": "Giant Slice",
+  "type": "skillcard",
+  "skill": "Giant Slice",
+  "source": "aqiu384"
+ },
+ "Giant Slice Belt": {
+  "name": "Giant Slice Belt",
+  "type": "accessory",
+  "skill": "Giant Slice",
+  "source": "aqiu384"
+ },
+ "Gigantomachia": {
+  "name": "Gigantomachia",
+  "type": "skillcard",
+  "skill": "Gigantomachia",
+  "source": "aqiu384"
+ },
+ "Gigantomachia Belt": {
+  "name": "Gigantomachia Belt",
+  "type": "accessory",
+  "skill": "Gigantomachia",
+  "source": "aqiu384"
+ },
+ "God's Hand": {
+  "name": "God's Hand",
+  "type": "skillcard",
+  "skill": "God's Hand",
+  "source": "aqiu384"
+ },
+ "God's Hand Belt": {
+  "name": "God's Hand Belt",
+  "type": "accessory",
+  "skill": "God's Hand",
+  "source": "aqiu384"
+ },
+ "Goddess Horn": {
+  "name": "Goddess Horn",
+  "type": "accessory",
+  "skill": "Thunder Reign",
+  "source": "aqiu384"
+ },
+ "Godsent Dress": {
+  "name": "Godsent Dress",
+  "type": "unknown",
+  "source": null
+ },
+ "Gordios": {
+  "name": "Gordios",
+  "type": "unknown",
+  "source": null
+ },
+ "Graceful Harp": {
+  "name": "Graceful Harp",
+  "type": "accessory",
+  "skill": "Null Brainwash",
+  "source": "aqiu384"
+ },
+ "Graceful Harp R": {
+  "name": "Graceful Harp R",
+  "type": "accessory",
+  "skill": "Null Brainwash",
+  "source": "aqiu384"
+ },
+ "Great Thief Stick": {
+  "name": "Great Thief Stick",
+  "type": "unknown",
+  "source": null
+ },
+ "Growth 2": {
+  "name": "Growth 2",
+  "type": "skillcard",
+  "skill": "Growth 2",
+  "source": "aqiu384"
+ },
+ "Growth 3": {
+  "name": "Growth 3",
+  "type": "skillcard",
+  "skill": "Growth 3",
+  "source": "aqiu384"
+ },
+ "Grudge Ring": {
+  "name": "Grudge Ring",
+  "type": "accessory",
+  "skill": "Eiha",
+  "source": "aqiu384"
+ },
+ "Gun Amp": {
+  "name": "Gun Amp",
+  "type": "skillcard",
+  "skill": "Gun Amp",
+  "source": "aqiu384"
+ },
+ "Gun Boost": {
+  "name": "Gun Boost",
+  "type": "skillcard",
+  "skill": "Gun Boost",
+  "source": "aqiu384"
+ },
+ "Gungnir": {
+  "name": "Gungnir",
+  "type": "unknown",
+  "source": null
+ },
+ "Hades Harp": {
+  "name": "Hades Harp",
+  "type": "accessory",
+  "skill": "Null Brainwash",
+  "source": "aqiu384"
+ },
+ "Hades Harp R": {
+  "name": "Hades Harp R",
+  "type": "accessory",
+  "skill": "Null Brainwash",
+  "source": "aqiu384"
+ },
+ "Hallowed Ring": {
+  "name": "Hallowed Ring",
+  "type": "accessory",
+  "skill": "Hamaon",
+  "source": "aqiu384"
+ },
+ "Hama": {
+  "name": "Hama",
+  "type": "skillcard",
+  "skill": "Hama",
+  "source": "aqiu384"
+ },
+ "Hamaon": {
+  "name": "Hamaon",
+  "type": "skillcard",
+  "skill": "Hamaon",
+  "source": "aqiu384"
+ },
+ "Headbutt": {
+  "name": "Headbutt",
+  "type": "skillcard",
+  "skill": "Headbutt",
+  "source": "aqiu384"
+ },
+ "Headhunter Ladle": {
+  "name": "Headhunter Ladle",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "mona",
+  "stats": {
+   "attack": 128,
+   "accuracy": 90
+  },
+  "effects": [
+   "Más probabilidad de crítico (baja)"
+  ]
+ },
+ "Headhunter Ladle EX": {
+  "name": "Headhunter Ladle EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Headhunter Ladle",
+  "type": "melee",
+  "owner": "mona",
+  "stats": {},
+  "effects": []
+ },
+ "Heat Riser": {
+  "name": "Heat Riser",
+  "type": "skillcard",
+  "skill": "Heat Riser",
+  "source": "aqiu384"
+ },
+ "Heat Wave": {
+  "name": "Heat Wave",
+  "type": "skillcard",
+  "skill": "Heat Wave",
+  "source": "aqiu384"
+ },
+ "Heaven's Gate": {
+  "name": "Heaven's Gate",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "fox",
+  "stats": {
+   "attack": 378,
+   "accuracy": 88,
+   "rounds": 12
+  },
+  "effects": [
+   "Agilidad +10"
+  ]
+ },
+ "Heavensent Dress": {
+  "name": "Heavensent Dress",
+  "type": "unknown",
+  "source": null
+ },
+ "Hex Ring": {
+  "name": "Hex Ring",
+  "type": "accessory",
+  "skill": "Eigaon",
+  "source": "aqiu384"
+ },
+ "High Archangel Bra": {
+  "name": "High Archangel Bra",
+  "type": "unknown",
+  "source": null
+ },
+ "High Counter": {
+  "name": "High Counter",
+  "type": "skillcard",
+  "skill": "High Counter",
+  "source": "aqiu384"
+ },
+ "Hinokagutsuchi": {
+  "name": "Hinokagutsuchi",
+  "type": "unknown",
+  "source": null
+ },
+ "Hinokagutsuchi II": {
+  "name": "Hinokagutsuchi II",
+  "type": "unknown",
+  "source": null
+ },
+ "Hope Diamond": {
+  "name": "Hope Diamond",
+  "type": "accessory",
+  "skill": "Regenerate 3",
+  "source": "aqiu384"
+ },
+ "Hope Diamond R": {
+  "name": "Hope Diamond R",
+  "type": "accessory",
+  "skill": "Regenerate 3",
+  "source": "aqiu384"
+ },
+ "Hysterical Slap": {
+  "name": "Hysterical Slap",
+  "type": "skillcard",
+  "skill": "Hysterical Slap",
+  "source": "aqiu384"
+ },
+ "Ice Amp": {
+  "name": "Ice Amp",
+  "type": "skillcard",
+  "skill": "Ice Amp",
+  "source": "aqiu384"
+ },
+ "Ice Boost": {
+  "name": "Ice Boost",
+  "type": "skillcard",
+  "skill": "Ice Boost",
+  "source": "aqiu384"
+ },
+ "Imprisoned Mjolnir": {
+  "name": "Imprisoned Mjolnir",
+  "type": "unknown",
+  "source": null
+ },
+ "Inferno": {
+  "name": "Inferno",
+  "type": "skillcard",
+  "skill": "Inferno",
+  "source": "aqiu384"
+ },
+ "Inferno Horns": {
+  "name": "Inferno Horns",
+  "type": "accessory",
+  "skill": "Fire Amp",
+  "source": "aqiu384"
+ },
+ "Inferno Ring": {
+  "name": "Inferno Ring",
+  "type": "accessory",
+  "skill": "Agidyne",
+  "source": "aqiu384"
+ },
+ "Insta-Heal": {
+  "name": "Insta-Heal",
+  "type": "skillcard",
+  "skill": "Insta-Heal",
+  "source": "aqiu384"
+ },
+ "Judge End": {
+  "name": "Judge End",
+  "type": "unknown",
+  "source": null
+ },
+ "Judge of Hell": {
+  "name": "Judge of Hell",
+  "type": "unknown",
+  "source": null
+ },
+ "Judgement Cross": {
+  "name": "Judgement Cross",
+  "type": "accessory",
+  "skill": "Divine Judgement",
+  "source": "aqiu384"
+ },
+ "Karma Ring": {
+  "name": "Karma Ring",
+  "type": "accessory",
+  "skill": "Psio",
+  "source": "aqiu384"
+ },
+ "Kill Rush": {
+  "name": "Kill Rush",
+  "type": "skillcard",
+  "skill": "Kill Rush",
+  "source": "aqiu384"
+ },
+ "Kill Rush Belt": {
+  "name": "Kill Rush Belt",
+  "type": "accessory",
+  "skill": "Kill Rush",
+  "source": "aqiu384"
+ },
+ "King Frost Cape": {
+  "name": "King Frost Cape",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "unisex",
+  "stats": {
+   "defense": 140,
+   "evasion": 16
+  },
+  "effects": [
+   "Reduce el daño de Hielo (alta)"
+  ]
+ },
+ "King Frost Cape EX": {
+  "name": "King Frost Cape EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "King Frost Cape",
+  "type": "armor",
+  "gender": "unisex",
+  "stats": {},
+  "effects": []
+ },
+ "Koh-i-Noor": {
+  "name": "Koh-i-Noor",
+  "type": "accessory",
+  "skill": "Bless Amp",
+  "source": "aqiu384"
+ },
+ "Koh-i-Noor R": {
+  "name": "Koh-i-Noor R",
+  "type": "accessory",
+  "skill": "Bless Amp",
+  "source": "aqiu384"
+ },
+ "Kouga": {
+  "name": "Kouga",
+  "type": "skillcard",
+  "skill": "Kouga",
+  "source": "aqiu384"
+ },
+ "Kougaon": {
+  "name": "Kougaon",
+  "type": "skillcard",
+  "skill": "Kougaon",
+  "source": "aqiu384"
+ },
+ "Kouha": {
+  "name": "Kouha",
+  "type": "skillcard",
+  "skill": "Kouha",
+  "source": "aqiu384"
+ },
+ "Kugelbein": {
+  "name": "Kugelbein",
+  "type": "accessory",
+  "skill": "Auto-Maraku",
+  "source": "aqiu384"
+ },
+ "Kugelbein R": {
+  "name": "Kugelbein R",
+  "type": "accessory",
+  "skill": "Auto-Maraku",
+  "source": "aqiu384"
+ },
+ "Kuzuryu Gouhou": {
+  "name": "Kuzuryu Gouhou",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "fox",
+  "stats": {
+   "attack": 300,
+   "accuracy": 88,
+   "rounds": 9
+  },
+  "effects": [
+   "Puede causar estado alterado al azar (baja)"
+  ]
+ },
+ "Kuzuryu Gouhou EX": {
+  "name": "Kuzuryu Gouhou EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Kuzuryu Gouhou",
+  "type": "gun",
+  "owner": "fox",
+  "stats": {},
+  "effects": []
+ },
+ "Lucky Punch": {
+  "name": "Lucky Punch",
+  "type": "skillcard",
+  "skill": "Lucky Punch",
+  "source": "aqiu384"
+ },
+ "Lucky Robe": {
+  "name": "Lucky Robe",
+  "type": "unknown",
+  "source": null
+ },
+ "Lullaby": {
+  "name": "Lullaby",
+  "type": "skillcard",
+  "skill": "Lullaby",
+  "source": "aqiu384"
+ },
+ "Lunge": {
+  "name": "Lunge",
+  "type": "skillcard",
+  "skill": "Lunge",
+  "source": "aqiu384"
+ },
+ "Mabufu": {
+  "name": "Mabufu",
+  "type": "skillcard",
+  "skill": "Mabufu",
+  "source": "aqiu384"
+ },
+ "Mabufudyne": {
+  "name": "Mabufudyne",
+  "type": "skillcard",
+  "skill": "Mabufudyne",
+  "source": "aqiu384"
+ },
+ "Mabufula": {
+  "name": "Mabufula",
+  "type": "skillcard",
+  "skill": "Mabufula",
+  "source": "aqiu384"
+ },
+ "Maeiga": {
+  "name": "Maeiga",
+  "type": "skillcard",
+  "skill": "Maeiga",
+  "source": "aqiu384"
+ },
+ "Maeigaon": {
+  "name": "Maeigaon",
+  "type": "skillcard",
+  "skill": "Maeigaon",
+  "source": "aqiu384"
+ },
+ "Maeiha": {
+  "name": "Maeiha",
+  "type": "skillcard",
+  "skill": "Maeiha",
+  "source": "aqiu384"
+ },
+ "Mafrei": {
+  "name": "Mafrei",
+  "type": "skillcard",
+  "skill": "Mafrei",
+  "source": "aqiu384"
+ },
+ "Mafreidyne": {
+  "name": "Mafreidyne",
+  "type": "skillcard",
+  "skill": "Mafreidyne",
+  "source": "aqiu384"
+ },
+ "Mafreila": {
+  "name": "Mafreila",
+  "type": "skillcard",
+  "skill": "Mafreila",
+  "source": "aqiu384"
+ },
+ "Magaru": {
+  "name": "Magaru",
+  "type": "skillcard",
+  "skill": "Magaru",
+  "source": "aqiu384"
+ },
+ "Magarudyne": {
+  "name": "Magarudyne",
+  "type": "skillcard",
+  "skill": "Magarudyne",
+  "source": "aqiu384"
+ },
+ "Magarula": {
+  "name": "Magarula",
+  "type": "skillcard",
+  "skill": "Magarula",
+  "source": "aqiu384"
+ },
+ "Mahama": {
+  "name": "Mahama",
+  "type": "skillcard",
+  "skill": "Mahama",
+  "source": "aqiu384"
+ },
+ "Mahamaon": {
+  "name": "Mahamaon",
+  "type": "skillcard",
+  "skill": "Mahamaon",
+  "source": "aqiu384"
+ },
+ "Makajam": {
+  "name": "Makajam",
+  "type": "skillcard",
+  "skill": "Makajam",
+  "source": "aqiu384"
+ },
+ "Makajamaon": {
+  "name": "Makajamaon",
+  "type": "skillcard",
+  "skill": "Makajamaon",
+  "source": "aqiu384"
+ },
+ "Makarakarn": {
+  "name": "Makarakarn",
+  "type": "skillcard",
+  "skill": "Makarakarn",
+  "source": "aqiu384"
+ },
+ "Makouga": {
+  "name": "Makouga",
+  "type": "skillcard",
+  "skill": "Makouga",
+  "source": "aqiu384"
+ },
+ "Makougaon": {
+  "name": "Makougaon",
+  "type": "skillcard",
+  "skill": "Makougaon",
+  "source": "aqiu384"
+ },
+ "Makouha": {
+  "name": "Makouha",
+  "type": "skillcard",
+  "skill": "Makouha",
+  "source": "aqiu384"
+ },
+ "Mamudo": {
+  "name": "Mamudo",
+  "type": "skillcard",
+  "skill": "Mamudo",
+  "source": "aqiu384"
+ },
+ "Mamudoon": {
+  "name": "Mamudoon",
+  "type": "skillcard",
+  "skill": "Mamudoon",
+  "source": "aqiu384"
+ },
+ "Mapsi": {
+  "name": "Mapsi",
+  "type": "skillcard",
+  "skill": "Mapsi",
+  "source": "aqiu384"
+ },
+ "Mapsiodyne": {
+  "name": "Mapsiodyne",
+  "type": "skillcard",
+  "skill": "Mapsiodyne",
+  "source": "aqiu384"
+ },
+ "Maragi": {
+  "name": "Maragi",
+  "type": "skillcard",
+  "skill": "Maragi",
+  "source": "aqiu384"
+ },
+ "Maragidyne": {
+  "name": "Maragidyne",
+  "type": "skillcard",
+  "skill": "Maragidyne",
+  "source": "aqiu384"
+ },
+ "Maragion": {
+  "name": "Maragion",
+  "type": "skillcard",
+  "skill": "Maragion",
+  "source": "aqiu384"
+ },
+ "Marakukaja": {
+  "name": "Marakukaja",
+  "type": "skillcard",
+  "skill": "Marakukaja",
+  "source": "aqiu384"
+ },
+ "Marakunda": {
+  "name": "Marakunda",
+  "type": "skillcard",
+  "skill": "Marakunda",
+  "source": "aqiu384"
+ },
+ "Marin Karin": {
+  "name": "Marin Karin",
+  "type": "skillcard",
+  "skill": "Marin Karin",
+  "source": "aqiu384"
+ },
+ "Masquerade Ribbon": {
+  "name": "Masquerade Ribbon",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "panther",
+  "stats": {
+   "attack": 172,
+   "accuracy": 88
+  },
+  "effects": [
+   "Puede causar Mareo (baja)"
+  ]
+ },
+ "Masquerade Ribbon R": {
+  "name": "Masquerade Ribbon R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Masquerade Ribbon",
+  "type": "melee",
+  "owner": "panther",
+  "stats": {},
+  "effects": []
+ },
+ "Masukunda": {
+  "name": "Masukunda",
+  "type": "skillcard",
+  "skill": "Masukunda",
+  "source": "aqiu384"
+ },
+ "Matarukaja": {
+  "name": "Matarukaja",
+  "type": "skillcard",
+  "skill": "Matarukaja",
+  "source": "aqiu384"
+ },
+ "Matarunda": {
+  "name": "Matarunda",
+  "type": "skillcard",
+  "skill": "Matarunda",
+  "source": "aqiu384"
+ },
+ "Mazio": {
+  "name": "Mazio",
+  "type": "skillcard",
+  "skill": "Mazio",
+  "source": "aqiu384"
+ },
+ "Maziodyne": {
+  "name": "Maziodyne",
+  "type": "skillcard",
+  "skill": "Maziodyne",
+  "source": "aqiu384"
+ },
+ "Mazionga": {
+  "name": "Mazionga",
+  "type": "skillcard",
+  "skill": "Mazionga",
+  "source": "aqiu384"
+ },
+ "Media": {
+  "name": "Media",
+  "type": "skillcard",
+  "skill": "Media",
+  "source": "aqiu384"
+ },
+ "Mediarahan": {
+  "name": "Mediarahan",
+  "type": "skillcard",
+  "skill": "Mediarahan",
+  "source": "aqiu384"
+ },
+ "Mediarama": {
+  "name": "Mediarama",
+  "type": "skillcard",
+  "skill": "Mediarama",
+  "source": "aqiu384"
+ },
+ "Megaton Raid": {
+  "name": "Megaton Raid",
+  "type": "skillcard",
+  "skill": "Megaton Raid",
+  "source": "aqiu384"
+ },
+ "Megaton Raid Belt": {
+  "name": "Megaton Raid Belt",
+  "type": "accessory",
+  "skill": "Megaton Raid",
+  "source": "aqiu384"
+ },
+ "Megido Blaster": {
+  "name": "Megido Blaster",
+  "type": "unknown",
+  "source": null
+ },
+ "Megido Fire": {
+  "name": "Megido Fire",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "skull",
+  "stats": {
+   "attack": 380,
+   "accuracy": 98,
+   "rounds": 3
+  },
+  "effects": [
+   "Más probabilidad de crítico (baja)"
+  ]
+ },
+ "Megidola": {
+  "name": "Megidola",
+  "type": "skillcard",
+  "skill": "Megidola",
+  "source": "aqiu384"
+ },
+ "Megidolaon": {
+  "name": "Megidolaon",
+  "type": "skillcard",
+  "skill": "Megidolaon",
+  "source": "aqiu384"
+ },
+ "Memory Blow": {
+  "name": "Memory Blow",
+  "type": "skillcard",
+  "skill": "Memory Blow",
+  "source": "aqiu384"
+ },
+ "Mind Slice": {
+  "name": "Mind Slice",
+  "type": "skillcard",
+  "skill": "Mind Slice",
+  "source": "aqiu384"
+ },
+ "Miracle Punch": {
+  "name": "Miracle Punch",
+  "type": "skillcard",
+  "skill": "Miracle Punch",
+  "source": "aqiu384"
+ },
+ "Mirrirmina": {
+  "name": "Mirrirmina",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "queen",
+  "stats": {
+   "attack": 200,
+   "accuracy": 92,
+   "rounds": 6
+  },
+  "effects": [
+   "Magia +5"
+  ]
+ },
+ "Mirrirmina EX": {
+  "name": "Mirrirmina EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Mirrirmina",
+  "type": "gun",
+  "owner": "queen",
+  "stats": {},
+  "effects": []
+ },
+ "Mjolnir": {
+  "name": "Mjolnir",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "skull",
+  "stats": {
+   "attack": 254,
+   "accuracy": 88
+  },
+  "effects": [
+   "Los ataques hacen daño de Eléctrico"
+  ]
+ },
+ "Moonlight Robe": {
+  "name": "Moonlight Robe",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "female",
+  "stats": {
+   "defense": 30,
+   "evasion": 30
+  },
+  "effects": [
+   "Puede reflejar ataques de Físico (alta)"
+  ]
+ },
+ "Moonlight Robe R": {
+  "name": "Moonlight Robe R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Moonlight Robe",
+  "type": "armor",
+  "gender": "female",
+  "stats": {},
+  "effects": []
+ },
+ "Mudo": {
+  "name": "Mudo",
+  "type": "skillcard",
+  "skill": "Mudo",
+  "source": "aqiu384"
+ },
+ "Mudoon": {
+  "name": "Mudoon",
+  "type": "skillcard",
+  "skill": "Mudoon",
+  "source": "aqiu384"
+ },
+ "Myriad Slashes": {
+  "name": "Myriad Slashes",
+  "type": "skillcard",
+  "skill": "Myriad Slashes",
+  "source": "aqiu384"
+ },
+ "Myriad Slashes Belt": {
+  "name": "Myriad Slashes Belt",
+  "type": "accessory",
+  "skill": "Myriad Slashes",
+  "source": "aqiu384"
+ },
+ "Mystic Ring": {
+  "name": "Mystic Ring",
+  "type": "accessory",
+  "skill": "Psiodyne",
+  "source": "aqiu384"
+ },
+ "Naraka Whip": {
+  "name": "Naraka Whip",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "panther",
+  "stats": {
+   "attack": 252,
+   "accuracy": 90
+  },
+  "effects": [
+   "Puede causar Congelación (alta)"
+  ]
+ },
+ "Nataraja": {
+  "name": "Nataraja",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "joker",
+  "stats": {
+   "attack": 360,
+   "accuracy": 94,
+   "rounds": 8
+  },
+  "effects": [
+   "Todas las estadísticas +5"
+  ]
+ },
+ "Nataraja EX": {
+  "name": "Nataraja EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Nataraja",
+  "type": "gun",
+  "owner": "joker",
+  "stats": {},
+  "effects": []
+ },
+ "Nocturnal Flash": {
+  "name": "Nocturnal Flash",
+  "type": "skillcard",
+  "skill": "Nocturnal Flash",
+  "source": "aqiu384"
+ },
+ "Nuclear Ring": {
+  "name": "Nuclear Ring",
+  "type": "accessory",
+  "skill": "Freila",
+  "source": "aqiu384"
+ },
+ "Nuke Amp": {
+  "name": "Nuke Amp",
+  "type": "skillcard",
+  "skill": "Nuke Amp",
+  "source": "aqiu384"
+ },
+ "Nuke Boost": {
+  "name": "Nuke Boost",
+  "type": "skillcard",
+  "skill": "Nuke Boost",
+  "source": "aqiu384"
+ },
+ "Null Bless": {
+  "name": "Null Bless",
+  "type": "skillcard",
+  "skill": "Null Bless",
+  "source": "aqiu384"
+ },
+ "Null Curse": {
+  "name": "Null Curse",
+  "type": "skillcard",
+  "skill": "Null Curse",
+  "source": "aqiu384"
+ },
+ "Null Elec": {
+  "name": "Null Elec",
+  "type": "skillcard",
+  "skill": "Null Elec",
+  "source": "aqiu384"
+ },
+ "Null Fire": {
+  "name": "Null Fire",
+  "type": "skillcard",
+  "skill": "Null Fire",
+  "source": "aqiu384"
+ },
+ "Null Ice": {
+  "name": "Null Ice",
+  "type": "skillcard",
+  "skill": "Null Ice",
+  "source": "aqiu384"
+ },
+ "Null Nuke": {
+  "name": "Null Nuke",
+  "type": "skillcard",
+  "skill": "Null Nuke",
+  "source": "aqiu384"
+ },
+ "Null Psy": {
+  "name": "Null Psy",
+  "type": "skillcard",
+  "skill": "Null Psy",
+  "source": "aqiu384"
+ },
+ "Null Wind": {
+  "name": "Null Wind",
+  "type": "skillcard",
+  "skill": "Null Wind",
+  "source": "aqiu384"
+ },
+ "Official's Robe": {
+  "name": "Official's Robe",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "male",
+  "stats": {
+   "defense": 178,
+   "evasion": 18
+  },
+  "effects": [
+   "Más evasión contra Maldición (alta)"
+  ]
+ },
+ "Official's Robe R": {
+  "name": "Official's Robe R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Official's Robe",
+  "type": "armor",
+  "gender": "male",
+  "stats": {},
+  "effects": []
+ },
+ "Ominous Words": {
+  "name": "Ominous Words",
+  "type": "skillcard",
+  "skill": "Ominous Words",
+  "source": "aqiu384"
+ },
+ "One-shot Kill": {
+  "name": "One-shot Kill",
+  "type": "skillcard",
+  "skill": "One-shot Kill",
+  "source": "aqiu384"
+ },
+ "Oni Kagura": {
+  "name": "Oni Kagura",
+  "type": "skillcard",
+  "skill": "Oni Kagura",
+  "source": "aqiu384"
+ },
+ "Orichalcum": {
+  "name": "Orichalcum",
+  "type": "accessory",
+  "skill": "Evade Phys",
+  "source": "aqiu384"
+ },
+ "Orichalcum R": {
+  "name": "Orichalcum R",
+  "type": "accessory",
+  "skill": "Evade Phys",
+  "source": "aqiu384"
+ },
+ "Orlov": {
+  "name": "Orlov",
+  "type": "accessory",
+  "skill": "High Counter",
+  "source": "aqiu384"
+ },
+ "Orlov R": {
+  "name": "Orlov R",
+  "type": "accessory",
+  "skill": "High Counter",
+  "source": "aqiu384"
+ },
+ "Panta Rhei": {
+  "name": "Panta Rhei",
+  "type": "skillcard",
+  "skill": "Panta Rhei",
+  "source": "aqiu384"
+ },
+ "Paradise Lost": {
+  "name": "Paradise Lost",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "joker",
+  "stats": {
+   "attack": 290,
+   "accuracy": 92
+  },
+  "effects": [
+   "Reduce el daño de Maldición (alta)"
+  ]
+ },
+ "Paradise Lost R": {
+  "name": "Paradise Lost R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Paradise Lost",
+  "type": "melee",
+  "owner": "joker",
+  "stats": {},
+  "effects": []
+ },
+ "Paw-omber": {
+  "name": "Paw-omber",
+  "type": "unknown",
+  "source": null
+ },
+ "Pawzooka": {
+  "name": "Pawzooka",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "noir",
+  "stats": {
+   "attack": 140,
+   "accuracy": 89,
+   "rounds": 1
+  },
+  "effects": [
+   "Puede causar Confusión (media)"
+  ]
+ },
+ "Picaresque Crown": {
+  "name": "Picaresque Crown",
+  "type": "accessory",
+  "skill": "Insta-Heal",
+  "source": "aqiu384"
+ },
+ "Picaresque Hat": {
+  "name": "Picaresque Hat",
+  "type": "accessory",
+  "skill": "Insta-Heal",
+  "source": "aqiu384"
+ },
+ "Pink Buster": {
+  "name": "Pink Buster",
+  "type": "unknown",
+  "source": null
+ },
+ "Power Slash": {
+  "name": "Power Slash",
+  "type": "skillcard",
+  "skill": "Power Slash",
+  "source": "aqiu384"
+ },
+ "Prayer Ring": {
+  "name": "Prayer Ring",
+  "type": "accessory",
+  "skill": "Kouha",
+  "source": "aqiu384"
+ },
+ "Providence": {
+  "name": "Providence",
+  "type": "unknown",
+  "source": null
+ },
+ "Psio": {
+  "name": "Psio",
+  "type": "skillcard",
+  "skill": "Psio",
+  "source": "aqiu384"
+ },
+ "Psiodyne": {
+  "name": "Psiodyne",
+  "type": "skillcard",
+  "skill": "Psiodyne",
+  "source": "aqiu384"
+ },
+ "Psy Ring": {
+  "name": "Psy Ring",
+  "type": "accessory",
+  "skill": "Psi",
+  "source": "aqiu384"
+ },
+ "Psycho Force": {
+  "name": "Psycho Force",
+  "type": "skillcard",
+  "skill": "Psycho Force",
+  "source": "aqiu384"
+ },
+ "Pumpkin Bomb": {
+  "name": "Pumpkin Bomb",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "skull",
+  "stats": {
+   "attack": 160,
+   "accuracy": 82,
+   "rounds": 4
+  },
+  "effects": [
+   "Puede causar Quemadura (media)"
+  ]
+ },
+ "Pumpkin Buster": {
+  "name": "Pumpkin Buster",
+  "type": "unknown",
+  "source": null
+ },
+ "Queen's Necklace": {
+  "name": "Queen's Necklace",
+  "type": "accessory",
+  "skill": "Mana Bonus",
+  "source": "aqiu384"
+ },
+ "Queen's Necklace R": {
+  "name": "Queen's Necklace R",
+  "type": "accessory",
+  "skill": "Mana Bonus",
+  "source": "aqiu384"
+ },
+ "Rakukaja": {
+  "name": "Rakukaja",
+  "type": "skillcard",
+  "skill": "Rakukaja",
+  "source": "aqiu384"
+ },
+ "Rakunda": {
+  "name": "Rakunda",
+  "type": "skillcard",
+  "skill": "Rakunda",
+  "source": "aqiu384"
+ },
+ "Rampage": {
+  "name": "Rampage",
+  "type": "skillcard",
+  "skill": "Rampage",
+  "source": "aqiu384"
+ },
+ "Reactor Ring": {
+  "name": "Reactor Ring",
+  "type": "accessory",
+  "skill": "Freidyne",
+  "source": "aqiu384"
+ },
+ "Rebellion": {
+  "name": "Rebellion",
+  "type": "skillcard",
+  "skill": "Rebellion",
+  "source": "aqiu384"
+ },
+ "Rebellion Anklet": {
+  "name": "Rebellion Anklet",
+  "type": "accessory",
+  "skill": "Rebellion",
+  "source": "aqiu384"
+ },
+ "Recarm": {
+  "name": "Recarm",
+  "type": "skillcard",
+  "skill": "Recarm",
+  "source": "aqiu384"
+ },
+ "Red String": {
+  "name": "Red String",
+  "type": "accessory",
+  "skill": "Attack Master",
+  "source": "aqiu384"
+ },
+ "Red String R": {
+  "name": "Red String R",
+  "type": "accessory",
+  "skill": "Attack Master",
+  "source": "aqiu384"
+ },
+ "Regenerate 1": {
+  "name": "Regenerate 1",
+  "type": "skillcard",
+  "skill": "Regenerate 1",
+  "source": "aqiu384"
+ },
+ "Regenerate 2": {
+  "name": "Regenerate 2",
+  "type": "skillcard",
+  "skill": "Regenerate 2",
+  "source": "aqiu384"
+ },
+ "Regenerate 3": {
+  "name": "Regenerate 3",
+  "type": "skillcard",
+  "skill": "Regenerate 3",
+  "source": "aqiu384"
+ },
+ "Regent": {
+  "name": "Regent",
+  "type": "accessory",
+  "skill": "Attack Master",
+  "source": "aqiu384"
+ },
+ "Regent R": {
+  "name": "Regent R",
+  "type": "accessory",
+  "skill": "Attack Master",
+  "source": "aqiu384"
+ },
+ "Rejuvenate Charm": {
+  "name": "Rejuvenate Charm",
+  "type": "accessory",
+  "skill": "Samarecarm",
+  "source": "aqiu384"
+ },
+ "Repel Bless": {
+  "name": "Repel Bless",
+  "type": "skillcard",
+  "skill": "Repel Bless",
+  "source": "aqiu384"
+ },
+ "Repel Elec": {
+  "name": "Repel Elec",
+  "type": "skillcard",
+  "skill": "Repel Elec",
+  "source": "aqiu384"
+ },
+ "Repel Ice": {
+  "name": "Repel Ice",
+  "type": "skillcard",
+  "skill": "Repel Ice",
+  "source": "aqiu384"
+ },
+ "Repel Nuke": {
+  "name": "Repel Nuke",
+  "type": "skillcard",
+  "skill": "Repel Nuke",
+  "source": "aqiu384"
+ },
+ "Repel Phys": {
+  "name": "Repel Phys",
+  "type": "skillcard",
+  "skill": "Repel Phys",
+  "source": "aqiu384"
+ },
+ "Repel Psy": {
+  "name": "Repel Psy",
+  "type": "skillcard",
+  "skill": "Repel Psy",
+  "source": "aqiu384"
+ },
+ "Repel Wind": {
+  "name": "Repel Wind",
+  "type": "skillcard",
+  "skill": "Repel Wind",
+  "source": "aqiu384"
+ },
+ "Revival Charm": {
+  "name": "Revival Charm",
+  "type": "accessory",
+  "skill": "Recarm",
+  "source": "aqiu384"
+ },
+ "Revolution": {
+  "name": "Revolution",
+  "type": "skillcard",
+  "skill": "Revolution",
+  "source": "aqiu384"
+ },
+ "Revolution Anklet": {
+  "name": "Revolution Anklet",
+  "type": "accessory",
+  "skill": "Revolution",
+  "source": "aqiu384"
+ },
+ "Riot Gun": {
+  "name": "Riot Gun",
+  "type": "skillcard",
+  "skill": "Riot Gun",
+  "source": "aqiu384"
+ },
+ "Rising Slash": {
+  "name": "Rising Slash",
+  "type": "skillcard",
+  "skill": "Rising Slash",
+  "source": "aqiu384"
+ },
+ "Rising Slash Belt": {
+  "name": "Rising Slash Belt",
+  "type": "accessory",
+  "skill": "Rising Slash",
+  "source": "aqiu384"
+ },
+ "Rosary of Purity": {
+  "name": "Rosary of Purity",
+  "type": "accessory",
+  "skill": "Holy Benevolence",
+  "source": "aqiu384"
+ },
+ "Ruyi Jingu Bang": {
+  "name": "Ruyi Jingu Bang",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "skull",
+  "stats": {
+   "attack": 256,
+   "accuracy": 88
+  },
+  "effects": [
+   "Tarukaja automático al empezar el combate"
+  ]
+ },
+ "Sabazios": {
+  "name": "Sabazios",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "queen",
+  "stats": {
+   "attack": 280,
+   "accuracy": 90
+  },
+  "effects": [
+   "Más probabilidad de crítico (alta)"
+  ]
+ },
+ "Sahasrara": {
+  "name": "Sahasrara",
+  "type": "unknown",
+  "source": null
+ },
+ "Sahasrara EX": {
+  "name": "Sahasrara EX",
+  "type": "unknown",
+  "source": null
+ },
+ "Salvation": {
+  "name": "Salvation",
+  "type": "skillcard",
+  "skill": "Salvation",
+  "source": "aqiu384"
+ },
+ "Samarecarm": {
+  "name": "Samarecarm",
+  "type": "skillcard",
+  "skill": "Samarecarm",
+  "source": "aqiu384"
+ },
+ "Senryou Yakusha": {
+  "name": "Senryou Yakusha",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "fox",
+  "stats": {
+   "attack": 160,
+   "accuracy": 90
+  },
+  "effects": [
+   "Fuerza +5"
+  ]
+ },
+ "Senryou Yakusha R": {
+  "name": "Senryou Yakusha R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Senryou Yakusha",
+  "type": "melee",
+  "owner": "fox",
+  "stats": {},
+  "effects": []
+ },
+ "Shiny Belt": {
+  "name": "Shiny Belt",
+  "type": "accessory",
+  "skill": "Invigorate 3",
+  "source": "aqiu384"
+ },
+ "Shiny Belt R": {
+  "name": "Shiny Belt R",
+  "type": "accessory",
+  "skill": "Invigorate 3",
+  "source": "aqiu384"
+ },
+ "Silk Dress": {
+  "name": "Silk Dress",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "female",
+  "stats": {
+   "defense": 60,
+   "evasion": 10
+  },
+  "effects": [
+   "Más evasión contra magia (baja)"
+  ]
+ },
+ "Sirius Armor": {
+  "name": "Sirius Armor",
+  "type": "unknown",
+  "source": null
+ },
+ "Sirius Armor EX": {
+  "name": "Sirius Armor EX",
+  "type": "unknown",
+  "source": null
+ },
+ "Skull Cracker": {
+  "name": "Skull Cracker",
+  "type": "skillcard",
+  "skill": "Skull Cracker",
+  "source": "aqiu384"
+ },
+ "Sledgehammer": {
+  "name": "Sledgehammer",
+  "type": "skillcard",
+  "skill": "Sledgehammer",
+  "source": "aqiu384"
+ },
+ "Snow Queen's Whip": {
+  "name": "Snow Queen's Whip",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "panther",
+  "stats": {
+   "attack": 210,
+   "accuracy": 90
+  },
+  "effects": [
+   "Sukukaja automático al empezar el combate"
+  ]
+ },
+ "Snow Queen's Whip II": {
+  "name": "Snow Queen's Whip II",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Snow Queen's Whip",
+  "type": "melee",
+  "owner": "panther",
+  "stats": {},
+  "effects": []
+ },
+ "Snow Ring": {
+  "name": "Snow Ring",
+  "type": "accessory",
+  "skill": "Bufula",
+  "source": "aqiu384"
+ },
+ "Spark Ring": {
+  "name": "Spark Ring",
+  "type": "accessory",
+  "skill": "Zionga",
+  "source": "aqiu384"
+ },
+ "Special Shot Belt": {
+  "name": "Special Shot Belt",
+  "type": "accessory",
+  "skill": "One-shot Kill",
+  "source": "aqiu384"
+ },
+ "Speed Master": {
+  "name": "Speed Master",
+  "type": "skillcard",
+  "skill": "Speed Master",
+  "source": "aqiu384"
+ },
+ "Spell Master": {
+  "name": "Spell Master",
+  "type": "skillcard",
+  "skill": "Spell Master",
+  "source": "aqiu384"
+ },
+ "Spiral Aid Charm": {
+  "name": "Spiral Aid Charm",
+  "type": "accessory",
+  "skill": "Media",
+  "source": "aqiu384"
+ },
+ "Spiral Amrita Charm": {
+  "name": "Spiral Amrita Charm",
+  "type": "accessory",
+  "skill": "Amrita Shower",
+  "source": "aqiu384"
+ },
+ "Spiral Atom Ring": {
+  "name": "Spiral Atom Ring",
+  "type": "accessory",
+  "skill": "Mafrei",
+  "source": "aqiu384"
+ },
+ "Spiral Blessing Ring": {
+  "name": "Spiral Blessing Ring",
+  "type": "accessory",
+  "skill": "Makouga",
+  "source": "aqiu384"
+ },
+ "Spiral Blizzard Ring": {
+  "name": "Spiral Blizzard Ring",
+  "type": "accessory",
+  "skill": "Mabufudyne",
+  "source": "aqiu384"
+ },
+ "Spiral Breeze Ring": {
+  "name": "Spiral Breeze Ring",
+  "type": "accessory",
+  "skill": "Magaru",
+  "source": "aqiu384"
+ },
+ "Spiral Cure Charm": {
+  "name": "Spiral Cure Charm",
+  "type": "accessory",
+  "skill": "Mediarama",
+  "source": "aqiu384"
+ },
+ "Spiral Curse Ring": {
+  "name": "Spiral Curse Ring",
+  "type": "accessory",
+  "skill": "Maeiga",
+  "source": "aqiu384"
+ },
+ "Spiral Divine Ring": {
+  "name": "Spiral Divine Ring",
+  "type": "accessory",
+  "skill": "Makougaon",
+  "source": "aqiu384"
+ },
+ "Spiral Ember Ring": {
+  "name": "Spiral Ember Ring",
+  "type": "accessory",
+  "skill": "Maragi",
+  "source": "aqiu384"
+ },
+ "Spiral Energy Charm": {
+  "name": "Spiral Energy Charm",
+  "type": "accessory",
+  "skill": "Energy Shower",
+  "source": "aqiu384"
+ },
+ "Spiral Frost Ring": {
+  "name": "Spiral Frost Ring",
+  "type": "accessory",
+  "skill": "Mabufu",
+  "source": "aqiu384"
+ },
+ "Spiral Gale Ring": {
+  "name": "Spiral Gale Ring",
+  "type": "accessory",
+  "skill": "Magarudyne",
+  "source": "aqiu384"
+ },
+ "Spiral Grudge Ring": {
+  "name": "Spiral Grudge Ring",
+  "type": "accessory",
+  "skill": "Maeiha",
+  "source": "aqiu384"
+ },
+ "Spiral Hallowed Ring": {
+  "name": "Spiral Hallowed Ring",
+  "type": "accessory",
+  "skill": "Mahamaon",
+  "source": "aqiu384"
+ },
+ "Spiral Heal Charm": {
+  "name": "Spiral Heal Charm",
+  "type": "accessory",
+  "skill": "Mediarahan",
+  "source": "aqiu384"
+ },
+ "Spiral Hell Ring": {
+  "name": "Spiral Hell Ring",
+  "type": "accessory",
+  "skill": "Mamudoon",
+  "source": "aqiu384"
+ },
+ "Spiral Hex Ring": {
+  "name": "Spiral Hex Ring",
+  "type": "accessory",
+  "skill": "Maeigaon",
+  "source": "aqiu384"
+ },
+ "Spiral Inferno Ring": {
+  "name": "Spiral Inferno Ring",
+  "type": "accessory",
+  "skill": "Maragidyne",
+  "source": "aqiu384"
+ },
+ "Spiral Karma Ring": {
+  "name": "Spiral Karma Ring",
+  "type": "accessory",
+  "skill": "Mapsio",
+  "source": "aqiu384"
+ },
+ "Spiral Mystic Ring": {
+  "name": "Spiral Mystic Ring",
+  "type": "accessory",
+  "skill": "Mapsiodyne",
+  "source": "aqiu384"
+ },
+ "Spiral Nuclear Ring": {
+  "name": "Spiral Nuclear Ring",
+  "type": "accessory",
+  "skill": "Mafreila",
+  "source": "aqiu384"
+ },
+ "Spiral Prayer Ring": {
+  "name": "Spiral Prayer Ring",
+  "type": "accessory",
+  "skill": "Makouha",
+  "source": "aqiu384"
+ },
+ "Spiral Psy Ring": {
+  "name": "Spiral Psy Ring",
+  "type": "accessory",
+  "skill": "Mapsi",
+  "source": "aqiu384"
+ },
+ "Spiral Reactor Ring": {
+  "name": "Spiral Reactor Ring",
+  "type": "accessory",
+  "skill": "Mafreidyne",
+  "source": "aqiu384"
+ },
+ "Spiral Snow Ring": {
+  "name": "Spiral Snow Ring",
+  "type": "accessory",
+  "skill": "Mabufula",
+  "source": "aqiu384"
+ },
+ "Spiral Spark Ring": {
+  "name": "Spiral Spark Ring",
+  "type": "accessory",
+  "skill": "Mazionga",
+  "source": "aqiu384"
+ },
+ "Spiral Static Ring": {
+  "name": "Spiral Static Ring",
+  "type": "accessory",
+  "skill": "Mazio",
+  "source": "aqiu384"
+ },
+ "Spiral Thunder Ring": {
+  "name": "Spiral Thunder Ring",
+  "type": "accessory",
+  "skill": "Maziodyne",
+  "source": "aqiu384"
+ },
+ "Spiral Wind Ring": {
+  "name": "Spiral Wind Ring",
+  "type": "accessory",
+  "skill": "Magarula",
+  "source": "aqiu384"
+ },
+ "Stagnant Air": {
+  "name": "Stagnant Air",
+  "type": "skillcard",
+  "skill": "Stagnant Air",
+  "source": "aqiu384"
+ },
+ "Static Ring": {
+  "name": "Static Ring",
+  "type": "accessory",
+  "skill": "Zio",
+  "source": "aqiu384"
+ },
+ "Stone of Scone": {
+  "name": "Stone of Scone",
+  "type": "accessory",
+  "skill": "Dodge Phys",
+  "source": "aqiu384"
+ },
+ "Stone of Scone R": {
+  "name": "Stone of Scone R",
+  "type": "accessory",
+  "skill": "Dodge Phys",
+  "source": "aqiu384"
+ },
+ "Storm Sculpture": {
+  "name": "Storm Sculpture",
+  "type": "accessory",
+  "skill": "Panta Rhei",
+  "source": "aqiu384"
+ },
+ "Sudarshana": {
+  "name": "Sudarshana",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "mona",
+  "stats": {
+   "attack": 308,
+   "accuracy": 98,
+   "rounds": 5
+  },
+  "effects": [
+   "Puede causar estado alterado al azar (baja)"
+  ]
+ },
+ "Sudarshana EX": {
+  "name": "Sudarshana EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Sudarshana",
+  "type": "gun",
+  "owner": "mona",
+  "stats": {},
+  "effects": []
+ },
+ "Sukunda": {
+  "name": "Sukunda",
+  "type": "skillcard",
+  "skill": "Sukunda",
+  "source": "aqiu384"
+ },
+ "Super Lucky Robe": {
+  "name": "Super Lucky Robe",
+  "type": "unknown",
+  "source": null
+ },
+ "Swift Strike": {
+  "name": "Swift Strike",
+  "type": "skillcard",
+  "skill": "Swift Strike",
+  "source": "aqiu384"
+ },
+ "Swift Strike Belt": {
+  "name": "Swift Strike Belt",
+  "type": "accessory",
+  "skill": "Swift Strike",
+  "source": "aqiu384"
+ },
+ "Sword Dance": {
+  "name": "Sword Dance",
+  "type": "skillcard",
+  "skill": "Sword Dance",
+  "source": "aqiu384"
+ },
+ "Sword Dance Belt": {
+  "name": "Sword Dance Belt",
+  "type": "accessory",
+  "skill": "Sword Dance",
+  "source": "aqiu384"
+ },
+ "Sword of Sinai": {
+  "name": "Sword of Sinai",
+  "type": "unknown",
+  "source": null
+ },
+ "Sword of Sinai II": {
+  "name": "Sword of Sinai II",
+  "type": "unknown",
+  "source": null
+ },
+ "Tantric Oath": {
+  "name": "Tantric Oath",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "male",
+  "stats": {
+   "defense": 272,
+   "evasion": 18
+  },
+  "effects": [
+   "Reduce el daño de magia (alta)"
+  ]
+ },
+ "Tantric Oath R": {
+  "name": "Tantric Oath R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Tantric Oath",
+  "type": "armor",
+  "gender": "male",
+  "stats": {},
+  "effects": []
+ },
+ "Tapsuan": {
+  "name": "Tapsuan",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "armor",
+  "gender": "female",
+  "stats": {
+   "defense": 160,
+   "evasion": 12
+  },
+  "effects": [
+   "Más evasión contra Viento (alta)"
+  ]
+ },
+ "Tarukaja": {
+  "name": "Tarukaja",
+  "type": "skillcard",
+  "skill": "Tarukaja",
+  "source": "aqiu384"
+ },
+ "Tarunda": {
+  "name": "Tarunda",
+  "type": "skillcard",
+  "skill": "Tarunda",
+  "source": "aqiu384"
+ },
+ "Tempest Slash": {
+  "name": "Tempest Slash",
+  "type": "skillcard",
+  "skill": "Tempest Slash",
+  "source": "aqiu384"
+ },
+ "Terror Claw": {
+  "name": "Terror Claw",
+  "type": "skillcard",
+  "skill": "Terror Claw",
+  "source": "aqiu384"
+ },
+ "Tetraja": {
+  "name": "Tetraja",
+  "type": "skillcard",
+  "skill": "Tetraja",
+  "source": "aqiu384"
+ },
+ "Tetrakarn": {
+  "name": "Tetrakarn",
+  "type": "skillcard",
+  "skill": "Tetrakarn",
+  "source": "aqiu384"
+ },
+ "Thunder Reign": {
+  "name": "Thunder Reign",
+  "type": "skillcard",
+  "skill": "Thunder Reign",
+  "source": "aqiu384"
+ },
+ "Thunder Ring": {
+  "name": "Thunder Ring",
+  "type": "accessory",
+  "skill": "Ziodyne",
+  "source": "aqiu384"
+ },
+ "Triple Down": {
+  "name": "Triple Down",
+  "type": "skillcard",
+  "skill": "Triple Down",
+  "source": "aqiu384"
+ },
+ "Triple Shot Belt": {
+  "name": "Triple Shot Belt",
+  "type": "accessory",
+  "skill": "Triple Down",
+  "source": "aqiu384"
+ },
+ "Tyrant Pistol": {
+  "name": "Tyrant Pistol",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "joker",
+  "stats": {
+   "attack": 390,
+   "accuracy": 98,
+   "rounds": 8
+  },
+  "effects": [
+   "Magia +10"
+  ]
+ },
+ "Tyrant Pistol EX": {
+  "name": "Tyrant Pistol EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Tyrant Pistol",
+  "type": "gun",
+  "owner": "joker",
+  "stats": {},
+  "effects": []
+ },
+ "Unparalleled Vajra": {
+  "name": "Unparalleled Vajra",
+  "type": "unknown",
+  "source": null
+ },
+ "Usumidori": {
+  "name": "Usumidori",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "fox",
+  "stats": {
+   "attack": 292,
+   "accuracy": 88
+  },
+  "effects": [
+   "Puede causar Miedo (alta)"
+  ]
+ },
+ "Usumidori R": {
+  "name": "Usumidori R",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Usumidori",
+  "type": "melee",
+  "owner": "fox",
+  "stats": {},
+  "effects": []
+ },
+ "Vajra": {
+  "name": "Vajra",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "melee",
+  "owner": "queen",
+  "stats": {
+   "attack": 272,
+   "accuracy": 90
+  },
+  "effects": [
+   "Puede causar estado alterado al azar (alta)"
+  ]
+ },
+ "Vajra Blast": {
+  "name": "Vajra Blast",
+  "type": "skillcard",
+  "skill": "Vajra Blast",
+  "source": "aqiu384"
+ },
+ "Vicious Strike": {
+  "name": "Vicious Strike",
+  "type": "skillcard",
+  "skill": "Vicious Strike",
+  "source": "aqiu384"
+ },
+ "Vorpal Blade": {
+  "name": "Vorpal Blade",
+  "type": "skillcard",
+  "skill": "Vorpal Blade",
+  "source": "aqiu384"
+ },
+ "Vorpal Blade Belt": {
+  "name": "Vorpal Blade Belt",
+  "type": "accessory",
+  "skill": "Vorpal Blade",
+  "source": "aqiu384"
+ },
+ "White Headband": {
+  "name": "White Headband",
+  "type": "accessory",
+  "skill": "Life Surge",
+  "source": "aqiu384"
+ },
+ "White Headband R": {
+  "name": "White Headband R",
+  "type": "accessory",
+  "skill": "Life Surge",
+  "source": "aqiu384"
+ },
+ "Wild Hunt": {
+  "name": "Wild Hunt",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "panther",
+  "stats": {
+   "attack": 386,
+   "accuracy": 84
+  },
+  "effects": [
+   "Puede causar Desesperación (media)"
+  ]
+ },
+ "Wind Amp": {
+  "name": "Wind Amp",
+  "type": "skillcard",
+  "skill": "Wind Amp",
+  "source": "aqiu384"
+ },
+ "Wind Boost": {
+  "name": "Wind Boost",
+  "type": "skillcard",
+  "skill": "Wind Boost",
+  "source": "aqiu384"
+ },
+ "Wind Ring": {
+  "name": "Wind Ring",
+  "type": "accessory",
+  "skill": "Garula",
+  "source": "aqiu384"
+ },
+ "Yagrush": {
+  "name": "Yagrush",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": null,
+  "type": "gun",
+  "owner": "noir",
+  "stats": {
+   "attack": 330,
+   "accuracy": 80,
+   "rounds": 1
+  },
+  "effects": [
+   "Puede causar Electrocución (media)"
+  ]
+ },
+ "Yagrush EX": {
+  "name": "Yagrush EX",
+  "source": "quan",
+  "p5Stats": true,
+  "variantOf": "Yagrush",
+  "type": "gun",
+  "owner": "noir",
+  "stats": {},
+  "effects": []
+ },
+ "Zio": {
+  "name": "Zio",
+  "type": "skillcard",
+  "skill": "Zio",
+  "source": "aqiu384"
+ },
+ "Ziodyne": {
+  "name": "Ziodyne",
+  "type": "skillcard",
+  "skill": "Ziodyne",
+  "source": "aqiu384"
+ },
+ "Zionga": {
+  "name": "Zionga",
+  "type": "skillcard",
+  "skill": "Zionga",
+  "source": "aqiu384"
+ }
+}

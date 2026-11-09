@@ -9,16 +9,17 @@
   "roy-element-chart.json",
   "roy-special-recipes.json",
   "roy-demon-unlocks.json",
-  "roy-fusion-prereqs.json"
+  "roy-fusion-prereqs.json",
+  "roy-accessories.json"
  ],
  "sourceCommit": "0b207612f6cdcff092e62af16f5c355271a1d892",
- "importedAt": "2026-11-08",
+ "importedAt": "2026-11-09",
  "counts": {
   "personas": 232,
   "treasure": 9,
   "dlc": 25,
   "special": 24,
-  "skills": 383
+  "skills": 385
  },
  "warnings": []
 }

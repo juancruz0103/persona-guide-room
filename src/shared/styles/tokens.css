@@ -25,6 +25,10 @@
   --c-ink: #0b0b0b;          /* texto sobre tarjetas claras */
   --c-royal: #5b8def;        /* marca "Solo Royal" */
   --c-romance: #f28cc1;      /* marca de romance */
+  --c-hp: #8be04e;           /* HP, como la barra verde del juego */
+  --c-sp: #d9a3f5;           /* SP, como la barra violeta del juego */
+  --c-hp-dark: #3e9b16;      /* HP sobre fondos claros */
+  --c-sp-dark: #9b4fc4;      /* SP sobre fondos claros */
 }
 
 /* Paletas futuras (esqueleto, todavía no se usan) */

@@ -1,59 +1,21 @@
-import { useId } from 'react';
-import { ElementIcon } from '../../../shared/components/ElementIcon';
 import type { PersonaSkill } from '../types';
-import { AILMENTS, ELEMENTS, technicalFor } from '../data/elements';
 import { getSkill } from '../services/personas';
+import { TARGET_LABEL, describeCost } from '../services/skillText';
+import { SkillTip } from './SkillTip';
 import styles from './SkillList.module.css';
 
-const TARGET_LABEL = {
-  one: '1 enemigo', all: 'Todos', ally: '1 aliado', party: 'Grupo', self: 'Uno mismo', everyone: 'Todos',
-} as const;
-
-function techText(ailment: keyof typeof AILMENTS): string {
-  const rule = technicalFor(ailment);
-  if (!rule) return '';
-  if (rule.base.includes('any')) return 'cualquier elemento';
-  const names = rule.base.map((e) => ELEMENTS[e as keyof typeof ELEMENTS].name);
-  return names.length > 1 ? `${names.slice(0, -1).join(', ')} o ${names[names.length - 1]}` : names[0];
-}
-
 function SkillRow({ entry }: { entry: PersonaSkill }) {
-  const tipId = useId();
   const info = getSkill(entry.skill);
   const initial = entry.level === null;
-  const el = info && info.element !== 'tra' ? ELEMENTS[info.element] : null;
+  const cost = info ? describeCost(info) : undefined;
 
   return (
     <li className={`${styles.row} ${initial ? styles.initial : styles.learned}`}>
       <span className={styles.when}>{initial ? 'Inicial' : `Nv ${entry.level}`}</span>
-
-      {el && info ? (
-        <span className={styles.tipWrap}>
-          <button
-            type="button"
-            className={styles.icon}
-            aria-label={`Elemento: ${el.name}`}
-            aria-describedby={tipId}
-          >
-            <ElementIcon element={el.id} size={28} />
-          </button>
-          <span role="tooltip" id={tipId} className={styles.tip} style={{ borderLeftColor: el.color }}>
-            <span className={styles.tipTitle}>{el.name}</span>
-            <span className={styles.tipText}>{el.description}</span>
-            {info.ailment && (
-              <span className={styles.tipAilment}>
-                <span><strong>Puede causar:</strong> {AILMENTS[info.ailment].es} ({AILMENTS[info.ailment].en})</span>
-                <span><strong className={styles.tech}>Técnico con:</strong> {techText(info.ailment) || 'sin datos en la tabla'}</span>
-              </span>
-            )}
-          </span>
-        </span>
-      ) : (
-        <span className={styles.icon} aria-hidden="true">?</span>
-      )}
-
+      <SkillTip skill={info} />
       <span className={styles.name}>{entry.skill}</span>
-      {info?.target && <span className={styles.target}>{TARGET_LABEL[info.target]}</span>}
+      {cost && <span className={`${styles.cost} ${cost.kind === 'hp' ? 'cost-hp' : 'cost-sp'}`}>{cost.text}</span>}
+      {info?.target && info.element !== 'pas' && <span className={styles.target}>{TARGET_LABEL[info.target]}</span>}
     </li>
   );
 }
@@ -67,8 +29,9 @@ export function SkillList({ skills }: { skills: PersonaSkill[] }) {
         ))}
       </ul>
       <p className={styles.help}>
-        Pasá el mouse (o tocá) el ícono para ver qué hace el elemento y, si provoca un estado, con qué
-        elementos hacés un Técnico.
+        Pasá el mouse (o tocá) el ícono para ver qué hace el elemento, cuánto cuesta y, si provoca un estado, con
+        qué elementos hacés un Técnico. Costo: <strong className="cost-hp">HP</strong> /{' '}
+        <strong className="cost-sp">SP</strong>.
       </p>
     </>
   );

@@ -192,3 +192,9 @@ h3 {
     animation: none !important;
   }
 }
+
+/* Costos de skills: HP en verde y SP en violeta, como en el juego */
+.cost-hp { color: var(--c-hp); }
+.cost-sp { color: var(--c-sp); }
+.cost-hp-dark { color: var(--c-hp-dark); }
+.cost-sp-dark { color: var(--c-sp-dark); }

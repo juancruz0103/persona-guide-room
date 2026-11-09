@@ -46,7 +46,7 @@ export interface Persona {
   inheritance: SkillElement | null;
   trait: string | null;
   itemization: string | null;
-  /** Segunda itemización de la fuente ("itemr"). ⚠️ Significado sin confirmar: no se muestra. */
+  /** Item de la silla eléctrica con la Alarma de fusión activa ("itemr" en la fuente). */
   itemizationAlt?: string | null;
   image: string | null;
 }
@@ -60,6 +60,31 @@ export interface SkillInfo {
   ailment: AilmentId | null;
   cost?: { type: 'sp' | 'hp'; value: number } | null;
   power?: number | null;
+  /** true = exclusiva: no existe como skill card */
+  unique?: boolean;
+}
+
+/* ---------- Silla eléctrica ---------- */
+
+export type ItemType = 'melee' | 'gun' | 'armor' | 'accessory' | 'skillcard' | 'unknown';
+export type ItemOwner = 'joker' | 'skull' | 'mona' | 'panther' | 'fox' | 'queen' | 'noir' | 'crow' | 'violet';
+
+export interface ItemInfo {
+  name: string;
+  type: ItemType;
+  /** Arma: de qué personaje es */
+  owner?: ItemOwner | null;
+  /** Armadura: para quién es */
+  gender?: 'male' | 'female' | 'unisex' | 'morgana' | null;
+  /** Accesorio o skill card: la skill que da */
+  skill?: string;
+  stats?: { attack?: number; accuracy?: number; defense?: number; evasion?: number; rounds?: number };
+  effects?: string[];
+  /** Estadísticas tomadas de P5 original */
+  p5Stats?: boolean;
+  /** Versión de Royal (R, EX, II) de este item base */
+  variantOf?: string | null;
+  source: string | null;
 }
 
 export type AilmentId =
