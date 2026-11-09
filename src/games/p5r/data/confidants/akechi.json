@@ -1,0 +1,705 @@
+{
+ "id": "akechi",
+ "name": "Goro Akechi",
+ "arcana": "justice",
+ "phantomThief": true,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.",
+  "Para empezar el rango 3 necesitas Conocimiento 3 y Encanto 3. Para el rango 7, Conocimiento 4.",
+  "El rango 6 está disponible desde el 3 de septiembre y el 7, desde el 2 de noviembre.",
+  "Hay que llegar al rango 8 antes del 17 de noviembre: si no, el confidente queda bloqueado para siempre.",
+  "En el rango 7 elige «You're my rival.» y en el 8 «I accept.»: no suman puntos, pero desbloquean diálogos posteriores.",
+  "Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero hay que elegir detener a Maruki; las otras respuestas llevan al final malo."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9601-persona-5-royal-akechi-confidant-guide-justice-choices-unlocks"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Tengo algo de tiempo libre, así que estaba buscando a alguien con quien jugar.",
+      "en": "I found myself with some free time, so I was hoping to find someone to play against."
+     },
+     "options": [
+      {
+       "es": "Siempre pareces ocupado.",
+       "en": "You always seem so busy.",
+       "points": 2
+      },
+      {
+       "es": "¿No tienes amigos?",
+       "en": "Do you have no friends?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Nada mal. Todo depende de tu siguiente golpe. ¿Cómo lo harás?",
+      "en": "Not bad. Everything's riding on your next shot, though. How will you handle this?"
+     },
+     "options": [
+      {
+       "es": "Golpear con cuidado.",
+       "en": "Shoot very carefully.",
+       "points": 2
+      },
+      {
+       "es": "Daré un golpe con fuerza.",
+       "en": "I'll go for a power shot.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Soy tan diestro con mi mano derecha que puedo usar palillos. No me esperaba que te dieses cuenta.",
+      "en": "I'm rather dextrous with my right hand. I can even use chopsticks with it. Frankly, I didn't expect you to see through it."
+     },
+     "options": [
+      {
+       "es": "Tal vez me haga detective.",
+       "en": "Maybe I'll be a detective.",
+       "points": 2
+      },
+      {
+       "es": "No te contengas la próxima vez.",
+       "en": "No holding back next time.",
+       "points": 0
+      },
+      {
+       "es": "Tengo buen ojo.",
+       "en": "I see a lot of things.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Si te apetece, podríamos volver a quedar algún día.",
+      "en": "If you're so inclined, we could go out again sometime."
+     },
+     "options": [
+      {
+       "en": "As rivals?",
+       "es": "¿Como rivales?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Sleuthing Instinct",
+     "description": "Al empezar un combate, a veces revela una afinidad de un enemigo."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Oh, no. Me han descubierto.",
+      "en": "Uh-oh. Looks like I've been spotted."
+     },
+     "options": [
+      {
+       "es": "Tendría que haberlo imaginado.",
+       "en": "Should've figured.",
+       "points": 3
+      },
+      {
+       "es": "Tu vida debe de ser muy dura.",
+       "en": "Your life must be so hard.",
+       "points": 2
+      },
+      {
+       "es": "Puedo espantarlas...",
+       "en": "I can shoo them away...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Ya he visto lo que pasa cuando hablo sin cuidado delante de ti.",
+      "en": "I saw first-hand what happens when I'm too careless with my words around you."
+     },
+     "options": [
+      {
+       "en": "Wasn't it fun?",
+       "es": "¿A que fue divertido?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Es un garito de jazz. Tocan músicos muy buenos.",
+      "en": "It's just a jazz club. You get to hear some great performers here."
+     },
+     "options": [
+      {
+       "es": "¿Tienen café?",
+       "en": "Do they have coffee?",
+       "points": 2
+      },
+      {
+       "es": "Pero si soy menor.",
+       "en": "But I'm underage.",
+       "points": 0
+      },
+      {
+       "es": "Es muy de mi rollo.",
+       "en": "Now this is my kind of club.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "¿Y bien? ¿Pedimos algo de beber?",
+      "en": "Well then, why don't we get some drinks?"
+     },
+     "options": [
+      {
+       "es": "¿Qué recomiendas?",
+       "en": "Any recommendations?",
+       "points": 3
+      },
+      {
+       "es": "Me gusta todo.",
+       "en": "Anything's fine by me.",
+       "points": 2
+      },
+      {
+       "es": "Pídeme una cerveza bien fría.",
+       "en": "An ice-cold beer for me.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Ahhh... Qué relajante. Me encanta venir aquí.",
+      "en": "Whew... How relaxing. I really do like coming here."
+     },
+     "options": [
+      {
+       "es": "Me encanta el lugar.",
+       "en": "It's a great place.",
+       "points": 2
+      },
+      {
+       "es": "Qué nervios.",
+       "en": "I feel a bit nervous.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Por cierto, ¿sabes cocinar?",
+      "en": "That reminds me, do you cook?"
+     },
+     "options": [
+      {
+       "es": "Siempre que puedo.",
+       "en": "Pretty frequently.",
+       "points": 3
+      },
+      {
+       "es": "El microondas se me da de muerte.",
+       "en": "I can use a microwave...",
+       "points": 3
+      },
+      {
+       "es": "Solo necesito curry.",
+       "en": "All I need is curry.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Es una euforia como la de resolver un caso.",
+      "en": "It's a euphoria like when I manage to solve a case."
+     },
+     "options": [
+      {
+       "en": "I kinda get it.",
+       "es": "Más o menos lo entiendo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Sleuthing Mastery",
+     "description": "Al empezar un combate, revela todas las afinidades de un enemigo."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "¡Uf! Mañana tendré agujetas en los dedos. Qué juego más realista.",
+      "en": "Phew! My fingers are going to be sore tomorrow. What a realistic game."
+     },
+     "options": [
+      {
+       "es": "¿Estás acostumbrado a disparar?",
+       "en": "Are you used to gunplay?",
+       "points": 2
+      },
+      {
+       "es": "Te lo has tomado en serio, eh.",
+       "en": "You took that seriously, huh.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Me recuerda a cuando corría con ella por la casa jugando a ser un héroe...",
+      "en": "All this reminded me of running around the house with it, playing hero..."
+     },
+     "options": [
+      {
+       "es": "¿Querías ser un héroe?",
+       "en": "You wanted to be a hero?",
+       "points": 3
+      },
+      {
+       "es": "Muy interesante.",
+       "en": "Very interesting.",
+       "points": 2
+      },
+      {
+       "es": "Cuesta de imaginar.",
+       "en": "Hard to imagine.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Ojalá hubiera jugado mejor.",
+      "en": "I wish I'd played better."
+     },
+     "options": [
+      {
+       "en": "You did fine.",
+       "es": "Lo has hecho bien.",
+       "points": 2
+      },
+      {
+       "en": "You've still got a long way to go.",
+       "es": "Aún te queda mucho por mejorar.",
+       "points": 2
+      },
+      {
+       "en": "You were getting cocky.",
+       "es": "Te estabas confiando demasiado.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Ah, qué bien sienta... Cuánto tiempo.",
+      "en": "Ahh, this feels wonderful... It's been a while."
+     },
+     "options": [
+      {
+       "es": "Qué relajante...",
+       "en": "So relaxing...",
+       "points": 2
+      },
+      {
+       "es": "Es raro verte aquí.",
+       "en": "Seeing you here is weird.",
+       "points": 0
+      },
+      {
+       "es": "¿Cuánto tiempo?",
+       "en": "A while, huh?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Ella trabajaba en un club nocturno. Me enviaba al baño público cuando se traía a un hombre a casa.",
+      "en": "My mother worked at a nightclub. Whenever she had to bring a man home, she'd send me off to the local bathhouse."
+     },
+     "options": [
+      {
+       "es": "Es espantoso.",
+       "en": "That was horrible of her.",
+       "points": 0
+      },
+      {
+       "es": "Has pasado por mucho...",
+       "en": "...You've been through a lot.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "¿Estás bien? Sé que el agua caliente puede provocar mareos...",
+      "en": "Actually, are you all right? I know the hot water can make people dizzy..."
+     },
+     "options": [
+      {
+       "es": "No es nada.",
+       "en": "This is nothing.",
+       "points": 3
+      },
+      {
+       "es": "Me quedaré hasta que hayas terminado.",
+       "en": "I'll stay until you're ready.",
+       "points": 3
+      },
+      {
+       "es": "¿Y tú estás bien?",
+       "en": "Are YOU okay?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Uy... Estoy algo mareado.",
+      "en": "Oof... I think I feel a little lightheaded."
+     },
+     "options": [
+      {
+       "es": "Lo mismo digo.",
+       "en": "Same.",
+       "points": 3
+      },
+      {
+       "es": "Pues yo estoy bien.",
+       "en": "I'm just fine.",
+       "points": 0
+      },
+      {
+       "es": "Parece que he ganado.",
+       "en": "Guess I win.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Jamás había hablado con nadie sobre mi familia. ¿Por qué te lo he contado? Qué curioso.",
+      "en": "I've never told anyone else about my family situation, either. I wonder why I told you? Curious indeed."
+     },
+     "options": [
+      {
+       "es": "Porque nos llevamos bien.",
+       "en": "Because we get along.",
+       "points": 2
+      },
+      {
+       "es": "Porque nos parecemos.",
+       "en": "Because we're similar.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Ambos somos víctimas de adultos injustos que nos han marcado de por vida.",
+      "en": "We're both victims of the adults who unfairly impacted our lives."
+     },
+     "options": [
+      {
+       "es": "Creo que tienes razón.",
+       "en": "I think you're right.",
+       "points": 3
+      },
+      {
+       "es": "No lo tengo claro.",
+       "en": "I don't know about that.",
+       "points": 0
+      },
+      {
+       "es": "¿Te importa si me visto?",
+       "en": "Can I put my clothes on?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Si me hubieran visto hoy, quizá dirían que no me comportaba como el Príncipe Detective.",
+      "en": "If they saw how I was acting today, perhaps they'd say I wasn't acting like the Detective Prince."
+     },
+     "options": [
+      {
+       "en": "My bad, I guess.",
+       "es": "Culpa mía, supongo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Baton Pass",
+     "description": "Después de un 1 More, Akechi puede pasarle el turno a otro compañero con Baton Pass."
+    },
+    {
+     "name": "Follow Up",
+     "description": "Akechi puede atacar después de Joker."
+    },
+    {
+     "name": "Detective Talk",
+     "description": "Akechi puede salvar una negociación con una Sombra que salió mal."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "No basta con apuntar a la bola. Para embocarla, tienes que ser preciso pero indirecto.",
+      "en": "You can't simply strike the ball you're aiming for. You have to be indirect, but precise, to land it in the pocket..."
+     },
+     "options": [
+      {
+       "es": "Sí, es muy enrevesado...",
+       "en": "Yeah, it's convoluted...",
+       "points": 2
+      },
+      {
+       "es": "Por eso es tan divertido.",
+       "en": "That's why it's so fun.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Aunque me haya puesto trabas, me sorprende que hayas ganado. Has mejorado mucho.",
+      "en": "Even if it was with my self-imposed handicap, I'm impressed that you beat me. You've become quite skilled."
+     },
+     "options": [
+      {
+       "es": "Es gracias a ti.",
+       "en": "It's thanks to you.",
+       "points": 0
+      },
+      {
+       "es": "Me niego a perder.",
+       "en": "I couldn't let myself lose.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Por cierto, una cosa... Si hubiéramos luchado hasta el final, ¿crees que habrías ganado?",
+      "en": "By the way, about that duel�if we had fought to the end, do you see yourself winning?"
+     },
+     "options": [
+      {
+       "es": "Seguro que no perdería.",
+       "en": "I definitely wouldn't lose.",
+       "points": 3
+      },
+      {
+       "es": "No lo sé.",
+       "en": "I don't know.",
+       "points": 0
+      },
+      {
+       "es": "Probablemente.",
+       "en": "Probably.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Goro",
+     "prompt": {
+      "es": "Eres la única persona ante la que me niego a perder.",
+      "en": "...You're the one person I refuse to lose to."
+     },
+     "options": [
+      {
+       "es": "Lo mismo digo.",
+       "en": "Same here.",
+       "points": 1
+      },
+      {
+       "es": "Detesto perder, ¿y tú?",
+       "en": "Really hate losing, don't you?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [],
+   "unlocks": [],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Endure y Protect",
+     "description": "Akechi puede aguantar con 1 HP un golpe que lo derrotaría y recibir en lugar de Joker un ataque mortal. Se desbloquea la fusión de Metatrón."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

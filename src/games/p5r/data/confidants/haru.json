@@ -1,0 +1,818 @@
+{
+ "id": "haru",
+ "name": "Haru Okumura",
+ "arcana": "empress",
+ "phantomThief": true,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9379-persona-5-royal-haru-confidant-guide-empress-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Cultivation",
+     "description": "Puedes cultivar verduras en la azotea de la escuela."
+    }
+   ],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Granos de café, por ejemplo.",
+      "en": "...Coffee beans."
+     },
+     "options": [
+      {
+       "es": "¿Te gusta el café?",
+       "en": "You like coffee?",
+       "points": 3
+      },
+      {
+       "es": "¿Vas a abrir una cafetería?",
+       "en": "Are you opening a café?",
+       "points": 3
+      },
+      {
+       "es": "¿Vas a montar una granja?",
+       "en": "Are you starting a farm?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Incluso se ofreció a asesorarme con la gestión de los activos. Me da miedo que vaya con segundas...",
+      "en": "He even offered to assist me with asset management. I fear he has an ulterior motive though..."
+     },
+     "options": [
+      {
+       "es": "¿Qué quieres decir?",
+       "en": "What do you mean?",
+       "points": 0
+      },
+      {
+       "es": "¿No vas a aceptar la oferta?",
+       "en": "So you won't accept his offer?",
+       "points": 0
+      },
+      {
+       "es": "Algo huele a chamusquina.",
+       "en": "He sounds suspicious.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Al menos cabe esa posibilidad.",
+      "en": "...At least, it's possible."
+     },
+     "options": [
+      {
+       "es": "Es complicado.",
+       "en": "This is a complex issue.",
+       "points": 3
+      },
+      {
+       "es": "Puede que estés equivocada.",
+       "en": "You might be wrong.",
+       "points": 2
+      },
+      {
+       "es": "Quizá deberías despedirlo.",
+       "en": "Maybe you should fire him.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Baton Pass",
+     "description": "Después de un 1 More, Haru puede pasarle el turno a otro compañero con Baton Pass."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Pero, , me preocupa que me expulsen del instituto si se enteran.",
+      "en": "But um, -kun... I'm worried what the school might do if they found out about this."
+     },
+     "options": [
+      {
+       "es": "Un Ladrón Fantasma no se preocupa.",
+       "en": "A phantom thief doesn't worry.",
+       "points": 2
+      },
+      {
+       "es": "No lo descubrirán.",
+       "en": "They won't find out.",
+       "points": 3
+      },
+      {
+       "es": "Todo irá bien, lo prometo.",
+       "en": "It'll be okay, I promise.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "¿Qué le digo para rechazar su propuesta?",
+      "en": "So, um... what can I say to decline his offer...?"
+     },
+     "options": [
+      {
+       "es": "«No quiero ir contigo».",
+       "en": "\"I don't want to go with you.\"",
+       "points": 2
+      },
+      {
+       "es": "«Me dan miedo las alturas».",
+       "en": "\"I'm afraid of flying.\"",
+       "points": 0
+      },
+      {
+       "es": "«Deberíamos romper».",
+       "en": "\"We should break up.\"",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "¿Alguna vez has... sentido algo así?",
+      "en": "Have, um... Have you ever experienced that?"
+     },
+     "options": [
+      {
+       "es": "Sí.",
+       "en": "I have.",
+       "points": 2
+      },
+      {
+       "es": "Aún no.",
+       "en": "Not yet.",
+       "points": 3
+      },
+      {
+       "es": "He perdido la cuenta.",
+       "en": "Too many times to count.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Follow Up",
+     "description": "Haru puede atacar después de Joker."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Aquí una sola taza de café marfil negro cuesta unos seis mil yenes.",
+      "en": "You see, just a single cup of the Dark Ivory coffee here costs roughly six thousand yen."
+     },
+     "options": [
+      {
+       "es": "Qué caro.",
+       "en": "That's pricey.",
+       "points": 2
+      },
+      {
+       "es": "Es un timo.",
+       "en": "What a rip-off.",
+       "points": 0
+      },
+      {
+       "es": "Debe de ser increíble.",
+       "en": "It must be amazing.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "¿Qué pedimos? Yo invito.",
+      "en": "Well, shall we order? I'll be paying for your cup as well."
+     },
+     "options": [
+      {
+       "es": "No puedo dejar que hagas eso.",
+       "en": "I can't let you do that.",
+       "points": 3
+      },
+      {
+       "es": "Deja que pague yo.",
+       "en": "Let me cover the bill.",
+       "points": 2
+      },
+      {
+       "es": "De lujo.",
+       "en": "Cheers.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Parece que se elabora con granos recolectados de excrementos de elefantes.",
+      "en": "Apparently it's brewed using beans gathered from elephant dung."
+     },
+     "options": [
+      {
+       "es": "¡¿Quieres decir... caca?!",
+       "en": "You mean... poop!?",
+       "points": 3
+      },
+      {
+       "es": "Sabe a elefante.",
+       "en": "I can taste the elephant.",
+       "points": 3
+      },
+      {
+       "es": "Perdona, tengo que vomitar.",
+       "en": "Excuse me while I vomit.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Hablando de gatos, ¿crees que Mona podría...?",
+      "en": "Speaking of cats, do you think Mona-chan would be able to...?"
+     },
+     "options": [
+      {
+       "es": "No toques a mi gato.",
+       "en": "Hands off my cat.",
+       "points": 0
+      },
+      {
+       "es": "Preferiría no pensar en eso.",
+       "en": "I'd rather not think about it.",
+       "points": 0
+      },
+      {
+       "es": "Preguntémosle.",
+       "en": "Let's ask him.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Oye... ¿a ti qué te ha parecido?",
+      "en": "Hey, um... what did you think of him?"
+     },
+     "options": [
+      {
+       "es": "Parecía amable.",
+       "en": "He seemed nice enough.",
+       "points": 0
+      },
+      {
+       "es": "Era un poco sospechoso.",
+       "en": "He was a little sketchy.",
+       "points": 0
+      },
+      {
+       "es": "No estoy seguro.",
+       "en": "I'm not really sure.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Celeb Talk",
+     "description": "Haru puede salvar una negociación con una Sombra que salió mal."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Uno de los bandos me tiene que estar mintiendo, ¿no? La verdad es que ya no me fío de nadie...",
+      "en": "One side has to be deceiving me, correct? I'm honestly suspicious of everyone at this point..."
+     },
+     "options": [
+      {
+       "es": "Confía en quien quieras.",
+       "en": "Trust who you want to trust.",
+       "points": 0
+      },
+      {
+       "es": "Alguien dice la verdad.",
+       "en": "Somebody's telling the truth.",
+       "points": 3
+      },
+      {
+       "es": "No confíes en nadie.",
+       "en": "Trust no one.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Ahora que lo pienso... puede ser la mejor forma de ayudar a los empleados de mi padre...",
+      "en": "Though now that I think about it... that may be my best chance to help the employees my father left behind..."
+     },
+     "options": [
+      {
+       "es": "¿Te lo estás pensando de verdad?",
+       "en": "Are you really considering it?",
+       "points": 0
+      },
+      {
+       "es": "No puedes rendirte.",
+       "en": "You can't just give in.",
+       "points": 0
+      },
+      {
+       "es": "Tiene que haber otro camino.",
+       "en": "There has to be another way.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "¿Habría aceptado el destino que tenía preparado para mí...?",
+      "en": "Would I have just resigned myself to the fate he had made for me...?"
+     },
+     "options": [
+      {
+       "es": "Eso ahora no importa.",
+       "en": "That doesn't matter now.",
+       "points": 2
+      },
+      {
+       "es": "No tenías elección.",
+       "en": "You didn't have a choice.",
+       "points": 0
+      },
+      {
+       "es": "No lo creo.",
+       "en": "I don't think so.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Selective Breeding",
+     "description": "Las verduras de la azotea dan más cosecha."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Aquí dice que el tipo de tostado que te interese dependerá de cómo te quieras beber el café.",
+      "en": "It says here that the type of roast you want should differ depending on how you want to drink your coffee."
+     },
+     "options": [
+      {
+       "es": "Es impresionante.",
+       "en": "That's fascinating.",
+       "points": 3
+      },
+      {
+       "es": "Eres muy estudiosa.",
+       "en": "You're so studious.",
+       "points": 2
+      },
+      {
+       "es": "¿Puedes hacerme uno?",
+       "en": "Can you make some for me?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Pero ese es el verdadero origen de nuestro negocio familiar.",
+      "en": "But that's where the real origin of our family business lies."
+     },
+     "options": [
+      {
+       "es": "No tenía ni idea.",
+       "en": "I had no idea.",
+       "points": 3
+      },
+      {
+       "es": "Menuda sorpresa.",
+       "en": "That's a surprise.",
+       "points": 0
+      },
+      {
+       "es": "Podría haberlo imaginado.",
+       "en": "I could've guessed that.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Takakura parece que solo se centra en las ganancias... El futuro de la empresa pinta muy negro.",
+      "en": "I mean, Takakura-san seems to only be focused on profits... At this rate, we'll never lose our black image."
+     },
+     "options": [
+      {
+       "es": "Puede que tengas razón.",
+       "en": "You might be right.",
+       "points": 0
+      },
+      {
+       "es": "Sí, la cosa puede ponerse fea.",
+       "en": "That would be bad.",
+       "points": 3
+      },
+      {
+       "es": "¿Negro como el café?",
+       "en": "Black like coffee?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Y además, se va a llevar Okumura Foods y toda mi herencia, y no puedo hacer nada...",
+      "en": "He's going to get Okumura Foods as well as my entire inheritance... and I'm totally powerless against him..."
+     },
+     "options": [
+      {
+       "es": "No estás indefensa.",
+       "en": "You're not powerless.",
+       "points": 0
+      },
+      {
+       "es": "Sé fuerte, Haru.",
+       "en": "Be strong, Haru.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Harisen Recovery",
+     "description": "Haru puede curar estados alterados de los compañeros en combate."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "No sé qué hacer...",
+      "en": "In the end, I'm just not sure what to do..."
+     },
+     "options": [
+      {
+       "es": "Parece muy duro...",
+       "en": "That sounds really tough...",
+       "points": 2
+      },
+      {
+       "es": "Pregunta a tus trabajadores.",
+       "en": "You should ask some employees.",
+       "points": 0
+      },
+      {
+       "es": "¿Qué quieres hacer?",
+       "en": "What do you want to do?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Pero... no creo que se pueda disfrutar igual en la cadena barata que sugiere Takakura.",
+      "en": "But... I don't think you can truly gain the same joy from the low-cost chain Takakura-san is suggesting."
+     },
+     "options": [
+      {
+       "es": "¿Qué piensa Takakura?",
+       "en": "What does Takakura-san think?",
+       "points": 3
+      },
+      {
+       "es": "Tiene que haber una forma.",
+       "en": "There has to be a way.",
+       "points": 3
+      },
+      {
+       "es": "Deberías decirle eso.",
+       "en": "You should tell him that.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Soil Improvement",
+     "description": "Las verduras tardan menos en crecer."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Lo que me ayudaría a mostrar a Takakura cómo me siento... está justo aquí.",
+      "en": "The thing that will help me show Takakura-san how I really feel... is right here."
+     },
+     "options": [
+      {
+       "es": "¿La tierra?",
+       "en": "The soil?",
+       "points": 3
+      },
+      {
+       "es": "¿Los maceteros?",
+       "en": "The planters?",
+       "points": 0
+      },
+      {
+       "es": "¿Ese escarabajo de ahí?",
+       "en": "This beetle?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Me pregunto qué pensará Takakura cuando lo pruebe...",
+      "en": "I wonder what Takakura-san will think when he tries it..."
+     },
+     "options": [
+      {
+       "es": "Le ayudará a entenderte.",
+       "en": "It'll help him understand you.",
+       "points": 3
+      },
+      {
+       "es": "Le va a encantar.",
+       "en": "He's going to love it.",
+       "points": 3
+      },
+      {
+       "es": "Puede que no le guste.",
+       "en": "He might not like it.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Pero me opongo a que engañen a los clientes con productos baratos en lugar de recuperar su confianza.",
+      "en": "But if they want to fool people with a low-quality product instead of regaining their trust... I will proudly oppose them."
+     },
+     "options": [
+      {
+       "es": "Yo te apoyo.",
+       "en": "I'll be cheering for you.",
+       "points": 3
+      },
+      {
+       "es": "Eres increíble, Haru.",
+       "en": "You're amazing, Haru.",
+       "points": 3
+      },
+      {
+       "es": "¿Seguro que podrás hacerlo?",
+       "en": "Are you sure you can do that?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Endure",
+     "description": "Haru puede aguantar con 1 HP un golpe que la derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "B-bueno... Mmm...",
+      "en": "W-Well... um..."
+     },
+     "options": [
+      {
+       "es": "Seguro que lo harás genial.",
+       "en": "I'm sure you'll do great.",
+       "points": 3
+      },
+      {
+       "es": "Todo irá bien.",
+       "en": "It'll be fine.",
+       "points": 2
+      },
+      {
+       "es": "Da lo mejor de ti, Haru.",
+       "en": "Give it all you've got, Haru.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Muchas gracias, .",
+      "en": "...Thank you, -kun."
+     },
+     "options": [
+      {
+       "es": "De nada.",
+       "en": "You're very welcome.",
+       "points": 3
+      },
+      {
+       "es": "Lo has hecho estupendamente.",
+       "en": "You did amazing.",
+       "points": 3
+      },
+      {
+       "es": "¿Me vas a dar algo a cambio?",
+       "en": "Do I get a reward?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "¿Por qué crees...?",
+      "en": "Why do you think...?"
+     },
+     "options": [
+      {
+       "es": "Nos ha visto como buenos amigos.",
+       "en": "He saw us as good friends.",
+       "points": 0
+      },
+      {
+       "es": "Tú también me gustas, Haru.",
+       "en": "I like you too, Haru.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Protect",
+     "description": "Haru puede recibir en lugar de Joker un ataque que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Second Awakening",
+     "description": "La Persona de Haru evoluciona a Astarté. Se desbloquea la fusión de Ramera babilónica."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

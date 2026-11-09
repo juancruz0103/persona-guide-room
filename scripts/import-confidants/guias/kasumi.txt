@@ -1,0 +1,77 @@
+# fuente: https://www.rpgsite.net/feature/9599-persona-5-royal-kasumi-confidant-guide-faith-choices-romance-gifts
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+CONSEJO | Cada rango sube 5 HP el máximo de Kasumi.
+CONSEJO | Hay que completar el rango 4 antes del 22 de diciembre. Después del rango 5 no se puede seguir hasta pasado el 22 de diciembre; si para entonces no llegaste al rango 5, el confidente queda bloqueado.
+CONSEJO | Los rangos 1 y 6 llegan solos con la historia.
+2 | We're just getting started. | 2
+2 | I'm so done with this. | 2
+2 | Next time, then. | 2
+2 | TEL | Then my stomach wouldn't stop growling in my meeting. | Y luego no paraban de rugirme las tripas en la reunión. | Impressive. | Impresionante. | 2
+2 | DESBLOQUEO | Tumbling | En un Palacio, a veces evita que una Sombra te sorprenda o lo convierte en ventaja.
+3 | Making bento? | 3
+3 | I'm touched! | 2
+3 | It looks delicious. | 2
+3 | Is that all for you? | 3
+3 | That seems a little much. | 2
+3 | It's definitely unique. | 2
+3 | You could try again sometime? | 3
+3 | Just keep at it. | 3
+3 | It happens. | 2
+4 | You're looking to buy? | 2
+4 | A pretty modern look. | 3
+4 | Of course. | 2
+4 | Good choice. | 2
+4 | Everyone deals with that. | 2
+4 | TEL | He was so happy with them! | ¡Le encantaron! | I'm glad to hear that. | Me alegra oír eso. | 2
+4 | DESBLOQUEO | Chaines Hook | Un gancho para lanzarse sobre las Sombras desde lejos y empezar el combate con ventaja.
+5 | It's a surprise, yeah. | 2
+5 | Go ahead. I'll watch. | 3
+5 | It is a good idea. | 2
+5 | I saw! | 3
+5 | Congratulations. | 3
+5 | How's that feel? | 2
+5 | That's important. | 3
+5 | Don't forget how that feels. | 2
+5 | TEL | Was there anything else you wanted to try, Senpai? | ¿Había algo más que quisieras probar, senpai? | Swimming. | Natación. | 3
+5 | TEL | Was there anything else you wanted to try, Senpai? | ¿Había algo más que quisieras probar, senpai? | Gymnastics. | Gimnasia. | 3
+5 | TEL | Was there anything else you wanted to try, Senpai? | ¿Había algo más que quisieras probar, senpai? | Running. | Correr. | 2
+6 | TEL | This is the real me, I guess. | Supongo que esta es la verdadera yo. | You have to face it. | Tienes que afrontarlo. | 2
+6 | TEL | This is the real me, I guess. | Supongo que esta es la verdadera yo. | So what if it is? | ¿Y qué si lo es? | 2
+6 | DESBLOQUEO | Follow Up | Sumire puede atacar después de Joker.
+6 | DESBLOQUEO | Fitness Talk | Sumire puede salvar una negociación con una Sombra que salió mal.
+7 | You okay? | 2
+7 | That isn't true. | 3
+7 | Of course. | 3
+7 | Another love confession? | 3
+7 | I could watch you forever. | 2
+7 | TEL | You might be just as tough as Kasumi... Amazing. | Puede que seas tan fuerte como Kasumi... Increíble. | I love a good challenge. | Me encantan los retos. | 2
+7 | DESBLOQUEO | Harisen Recovery | Sumire puede curar estados alterados de los compañeros en combate.
+8 | Walk up to Sumire | 3
+8 | I'm here for you. | 3
+8 | Try to stay positive. | 2
+8 | It'll work out. | 2
+8 | I'm in love. | 3
+8 | Sounds like progress. | 3
+8 | That's how it should be. | 2
+8 | TEL | B-By the way, where do you like to get your clothes from, Senpai? | P-por cierto, ¿dónde te gusta comprar la ropa, senpai? | The resale shop. | En la tienda de segunda mano. | 2
+8 | TEL | B-By the way, where do you like to get your clothes from, Senpai? | P-por cierto, ¿dónde te gusta comprar la ropa, senpai? | Online. | Por internet. | 2
+8 | DESBLOQUEO | Endure | Sumire puede aguantar con 1 HP un golpe que la derrotaría.
+9 | It's no problem. | 3
+9 | We'll call it holiday hours. | 3
+9 | Definitely. | 3
+9 | Of course. | 3
+9 | Of course I do. | 3
+9 | I know you did. | 3
+9 | You're not worthless. | 3
+9 | This is a new beginning. | 3
+9 | Go ahead. | 3
+9 | Let's stay friends, okay? | 0
+9 | I love you too. | 0 | ROMANCE
+9 | I can't wait to see it. | 3
+9 | You can always rely on me. | 3
+9 | Calm down. | 3
+9 | You're so cute. | 3
+9 | TEL | I really think I've matured. And I'm really glad for your part in that, Senpai. | Creo que he madurado de verdad. Y te agradezco mucho tu parte en ello, senpai. | I'm glad to hear that. | Me alegra oír eso. | 2
+9 | TEL | I don't know what to do! | ¡No sé qué hacer! | Get used to it. | Acostúmbrate. | 3
+9 | DESBLOQUEO | Protect | Sumire puede recibir en lugar de Joker un ataque que lo derrotaría.
+10 | DESBLOQUEO | Second Awakening | La Persona de Sumire evoluciona a Vanadis.

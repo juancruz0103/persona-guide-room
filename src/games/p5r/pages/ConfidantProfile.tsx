@@ -41,13 +41,14 @@ function ConversationCard({ c, index }: { c: Conversation; index: number }) {
         {c.options.map((o, i) => {
           const best = !allSame && o.points === max;
           return (
-            <li key={i} className={`${styles.option} ${best ? styles.best : ''}`}>
+            <li key={i} className={`${styles.option} ${best ? styles.best : ''} ${o.romance ? styles.optRomance : ''}`}>
               <span className={styles.optNum}>Opción {i + 1}</span>
               <span className={styles.optText}>
                 <span>«{o.es}»</span>
                 <small>{o.en}</small>
               </span>
               <span className={styles.points}>{o.points > 0 ? `+${o.points}` : '0'}</span>
+              {o.romance && <span className={styles.romanceTag}>Inicia el romance</span>}
               {best && <span className={styles.bestTag}>Mejor</span>}
             </li>
           );

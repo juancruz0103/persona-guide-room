@@ -33,6 +33,7 @@ Diseño aprobado en el lienzo (tableros 05, 09 y 10).
 - **Conversaciones de los 19 confidentes normales.** El texto oficial (español e inglés) está
   en `EVENT_DATA/MESSAGE/E700/E7AA_RR0.BMD` (ver `TEXTOS-DEL-JUEGO.md`); los puntos se toman
   de las guías, emparejados por el texto en inglés de cada opción. Se cargan por tandas.
-- Ryuji: corregir el rango 2 con el texto del juego (le sobra una conversación y le falta otra).
+- Hecho: los 8 Ladrones Fantasma con conversaciones del juego y puntos de la guía. La conversación de "running" de Ryuji es una llamada de Royal (no sobraba).
+- Pendiente: llamadas de Haru (la guía no trae la frase de Haru) y la de Akechi en el rango 7.
 - Nombres oficiales en español de las habilidades de confidente.
 - Requisitos de atributo con número (hoy las guías no coinciden).

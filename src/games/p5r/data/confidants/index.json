@@ -50,7 +50,7 @@
   "persona": "milady",
   "phantomThief": true,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "yusuke",
@@ -64,7 +64,7 @@
   "persona": "goemon",
   "phantomThief": true,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "sojiro",
@@ -122,7 +122,7 @@
   "notice": "Llegá al rango 8 antes del 17/11: después los rangos 9 y 10 suben solos. Si no llegás, se pierde el resto.",
   "phantomThief": true,
   "romance": false,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "futaba",
@@ -137,7 +137,7 @@
   "persona": "necronomicon",
   "phantomThief": true,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "chihaya",
@@ -293,7 +293,7 @@
   "notice": "Llegá al rango 5 antes del 18/12; su rango queda bloqueado hasta avanzar en la historia.",
   "phantomThief": true,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "maruki",

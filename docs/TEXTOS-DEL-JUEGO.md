@@ -55,6 +55,10 @@ Ryuji completo (rangos 2 a 10) verificado: cada archivo tiene las opciones esper
 texto ni en el script del evento (`EVENT_DATA/SCRIPT/E700/E7AA_RR0.BF` solo sube el rango).
 Siguen viniendo de guías (RPG Site), emparejados por el texto en inglés de la opción.
 
-**Corrección encontrada:** el rango 2 de Ryuji cargado a mano tenía una conversación que no
-pertenece a ese rango ("I should've kept up my running") y le faltaba otra ("What about
-them?"). Se corrige al cargar los confidentes desde el juego (Etapa 4).
+**Llamadas de Royal:** las llamadas y mensajes de los confidentes (por ejemplo, la de Ryuji en el
+rango 2, "I should've kept up my running") **no están** en los eventos E700. Vienen de la guía en
+inglés con una traducción provisoria, marcada así en la página.
+
+**Cómo se cargan:** `scripts/import-confidants/extract.py` saca las elecciones de E700 (ES y EN);
+`scripts/import-confidants/guias/<id>.txt` tiene los puntos de la guía; `import.mjs` los cruza y
+avisa si una opción de la guía no existe en el juego.

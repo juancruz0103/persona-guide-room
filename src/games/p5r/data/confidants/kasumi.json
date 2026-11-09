@@ -1,0 +1,1134 @@
+{
+ "id": "kasumi",
+ "name": "Kasumi Yoshizawa",
+ "arcana": "faith",
+ "phantomThief": true,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [
+  "Cada rango sube 5 HP el máximo de Kasumi.",
+  "Hay que completar el rango 4 antes del 22 de diciembre. Después del rango 5 no se puede seguir hasta pasado el 22 de diciembre; si para entonces no llegaste al rango 5, el confidente queda bloqueado.",
+  "Los rangos 1 y 6 llegan solos con la historia."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9599-persona-5-royal-kasumi-confidant-guide-faith-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Cut label",
+      "en": "Cut label"
+     },
+     "options": [
+      {
+       "es": "Acabamos de empezar.",
+       "en": "We're just getting started.",
+       "points": 2
+      },
+      {
+       "es": "No te pases conmigo.",
+       "en": "Go easy on me.",
+       "points": 0
+      },
+      {
+       "es": "Estoy harto de esto.",
+       "en": "I'm so done with this.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Ahora mismo no me va muy bien, así que no sé si voy a poder hacer algo complicado.",
+      "en": "I'm actually not doing so great at the moment, so I'm not sure I could manage anything too strenuous."
+     },
+     "options": [
+      {
+       "es": "La próxima vez será.",
+       "en": "Next time, then.",
+       "points": 2
+      },
+      {
+       "es": "¿Estás bien?",
+       "en": "You doing okay?",
+       "points": 0
+      },
+      {
+       "es": "Qué suerte la mía...",
+       "en": "Lucky for me...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Y luego no paraban de rugirme las tripas en la reunión.",
+      "en": "Then my stomach wouldn't stop growling in my meeting."
+     },
+     "options": [
+      {
+       "en": "Impressive.",
+       "es": "Impresionante.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Tumbling",
+     "description": "En un Palacio, a veces evita que una Sombra te sorprenda o lo convierte en ventaja."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Y ¡me he dado cuenta de una cosa! ¡Mira esto!",
+      "en": "And I figured something out! It's this!"
+     },
+     "options": [
+      {
+       "es": "¿Te interesa la cocina?",
+       "en": "Making bento?",
+       "points": 3
+      },
+      {
+       "es": "¿Te gustan los pícnics?",
+       "en": "Potluck parties?",
+       "points": 0
+      },
+      {
+       "es": "¿Y eso es...?",
+       "en": "\"This\" being...?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Lo he hecho teniendo en cuenta tu metabolismo y el ejercicio que haces. ¿Lo quieres?",
+      "en": "I made this specifically with your body type in mind, and knowing how much you exercise... Do you want it?"
+     },
+     "options": [
+      {
+       "es": "¡Qué emoción!",
+       "en": "I'm touched!",
+       "points": 2
+      },
+      {
+       "es": "Qué buena pinta.",
+       "en": "It looks delicious.",
+       "points": 2
+      },
+      {
+       "es": "A ver si está bueno...",
+       "en": "Let's see if it's good...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¡Al ataque!",
+      "en": "Let's dig in!"
+     },
+     "options": [
+      {
+       "es": "¿Todo eso es para ti?",
+       "en": "Is that all for you?",
+       "points": 3
+      },
+      {
+       "es": "Parece demasiado.",
+       "en": "That seems a little much.",
+       "points": 2
+      },
+      {
+       "es": "¿Qué es eso?",
+       "en": "What IS that?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¿? ¿Estás bien? Tienes los ojos llorosos.",
+      "en": "-senpai? You okay? Your eyes are glazing over..."
+     },
+     "options": [
+      {
+       "es": "Sabe a...",
+       "en": "This tastes like...",
+       "points": 0
+      },
+      {
+       "es": "Es especial, sin duda.",
+       "en": "It's definitely unique.",
+       "points": 2
+      },
+      {
+       "es": "Está... geniaaaaal...",
+       "en": "It's... greeeaaat...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Qué vergüenza. Pensaba que estaba perfecto cuando te lo he dado, pero ahora...",
+      "en": "I'm so embarrassed... I thought it was so great when I presented it to you, and now..."
+     },
+     "options": [
+      {
+       "es": "Puedes intentarlo otra vez.",
+       "en": "You could try again sometime?",
+       "points": 3
+      },
+      {
+       "es": "Cosas que pasan.",
+       "en": "It happens.",
+       "points": 2
+      },
+      {
+       "es": "No te rindas.",
+       "en": "Just keep at it.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Llevo tiempo queriendo venir, pero nunca he podido pasarme.",
+      "en": "I've been wanting to come here for a while, but I never had the chance to drop by."
+     },
+     "options": [
+      {
+       "es": "¿No ves bien?",
+       "en": "You have bad eyesight?",
+       "points": 0
+      },
+      {
+       "es": "¿Quieres comprar unas?",
+       "en": "You're looking to buy?",
+       "points": 2
+      },
+      {
+       "es": "Ya tengo muchas gafas.",
+       "en": "I have enough glasses.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¿Qué te parece?",
+      "en": "What do you think?"
+     },
+     "options": [
+      {
+       "es": "Qué modernas.",
+       "en": "A pretty modern look.",
+       "points": 3
+      },
+      {
+       "es": "No son mi estilo.",
+       "en": "Not my style.",
+       "points": 0
+      },
+      {
+       "es": "Qué mal me quedan.",
+       "en": "I look so aloof in these.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Pero ¡tu opinión me está ayudando mucho! ¿Te importa buscar conmigo un poco más?",
+      "en": "But your input's been really helpful so far! Would you mind poking around with me for a bit longer?"
+     },
+     "options": [
+      {
+       "es": "Claro.",
+       "en": "Of course.",
+       "points": 2
+      },
+      {
+       "es": "Sigamos.",
+       "en": "Let's keep going.",
+       "points": 0
+      },
+      {
+       "es": "Como quieras.",
+       "en": "Sure, whatever.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "No sé cómo explicarlo, pero parecen perfectas para mi padre.",
+      "en": "I don't know how to describe it. It just seems perfect for my dad somehow."
+     },
+     "options": [
+      {
+       "es": "Buena elección.",
+       "en": "Good choice.",
+       "points": 2
+      },
+      {
+       "es": "Seguro que le encantan.",
+       "en": "I'm sure he'll love it.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Cuantas más vueltas le doy, más vacía estoy. Me siento fuera de lugar.",
+      "en": "The more I thought about it, the more... empty I felt. Like I wasn't even me anymore."
+     },
+     "options": [
+      {
+       "es": "Todo el mundo pasa por eso.",
+       "en": "Everyone deals with that.",
+       "points": 2
+      },
+      {
+       "es": "Eso es que estás de bajón.",
+       "en": "That's your slump talking.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¡Le encantaron!",
+      "en": "He was so happy with them!"
+     },
+     "options": [
+      {
+       "en": "I'm glad to hear that.",
+       "es": "Me alegra oír eso.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Chaines Hook",
+     "description": "Un gancho para lanzarse sobre las Sombras desde lejos y empezar el combate con ventaja."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "No esperabas quedar conmigo en el centro de bateo, ¿eh?",
+      "en": "Probably didn't expect to be meeting me at the batting center, huh?"
+     },
+     "options": [
+      {
+       "es": "Es una sorpresa, sí.",
+       "en": "It's a surprise, yeah.",
+       "points": 2
+      },
+      {
+       "es": "Para nada.",
+       "en": "Not at all.",
+       "points": 0
+      },
+      {
+       "es": "¿Qué estás maquinando?",
+       "en": "What are you scheming?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¿Qué te parece? Podría estar bien, ¿verdad?",
+      "en": "What do you think? That could work, right?"
+     },
+     "options": [
+      {
+       "es": "Qué buena idea.",
+       "en": "It is a good idea.",
+       "points": 2
+      },
+      {
+       "es": "Venga, yo te miro.",
+       "en": "Go ahead. I'll watch.",
+       "points": 3
+      },
+      {
+       "es": "Dedícate a la gimnasia.",
+       "en": "Maybe stick to gymnastics.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¡Lo he conseguido! ¡He golpeado la bola!",
+      "en": "I did it, Senpai! I hit the ball!"
+     },
+     "options": [
+      {
+       "es": "Enhorabuena.",
+       "en": "Congratulations.",
+       "points": 3
+      },
+      {
+       "es": "¡Lo he visto!",
+       "en": "I saw!",
+       "points": 3
+      },
+      {
+       "es": "¿Cómo te sientes?",
+       "en": "How's that feel?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "No recordaba lo que era esforzarse por otra persona...",
+      "en": "I'd forgotten how it felt to work that hard on someone else's behalf..."
+     },
+     "options": [
+      {
+       "es": "Eso es importante.",
+       "en": "That's important.",
+       "points": 3
+      },
+      {
+       "es": "Acuérdate de cómo te sientes.",
+       "en": "Don't forget how that feels.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¿Había algo más que quisieras probar, senpai?",
+      "en": "Was there anything else you wanted to try, Senpai?"
+     },
+     "options": [
+      {
+       "en": "Swimming.",
+       "es": "Natación.",
+       "points": 3
+      },
+      {
+       "en": "Gymnastics.",
+       "es": "Gimnasia.",
+       "points": 3
+      },
+      {
+       "en": "Running.",
+       "es": "Correr.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Supongo que esta es la verdadera yo.",
+      "en": "This is the real me, I guess."
+     },
+     "options": [
+      {
+       "en": "You have to face it.",
+       "es": "Tienes que afrontarlo.",
+       "points": 2
+      },
+      {
+       "en": "So what if it is?",
+       "es": "¿Y qué si lo es?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Follow Up",
+     "description": "Sumire puede atacar después de Joker."
+    },
+    {
+     "name": "Fitness Talk",
+     "description": "Sumire puede salvar una negociación con una Sombra que salió mal."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "*suspiro*",
+      "en": "*Siiigh...*"
+     },
+     "options": [
+      {
+       "es": "¿Estás bien?",
+       "en": "You okay?",
+       "points": 2
+      },
+      {
+       "es": "Menudo suspiro...",
+       "en": "That was a big sigh.",
+       "points": 0
+      },
+      {
+       "es": "Es muy exigente.",
+       "en": "She's a real taskmaster.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Siempre sería peor que Kasumi. Soy una inútil.",
+      "en": "I'll always be someone less than Kasumi. I'm just worthless after all..."
+     },
+     "options": [
+      {
+       "es": "Mentira.",
+       "en": "That isn't true.",
+       "points": 3
+      },
+      {
+       "es": "Necesitas confiar más en ti.",
+       "en": "You need more confidence.",
+       "points": 0
+      },
+      {
+       "es": "Es solo un bloqueo mental.",
+       "en": "That's just a mental block.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¿Volverás a salir conmigo?",
+      "en": "Senpai, will you go out with me again?"
+     },
+     "options": [
+      {
+       "es": "Claro.",
+       "en": "Of course.",
+       "points": 3
+      },
+      {
+       "es": "Podría mirarte para siempre.",
+       "en": "I could watch you forever.",
+       "points": 2
+      },
+      {
+       "es": "¿Otra confesión de amor?",
+       "en": "Another love confession?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Puede que seas tan fuerte como Kasumi... Increíble.",
+      "en": "You might be just as tough as Kasumi... Amazing."
+     },
+     "options": [
+      {
+       "en": "I love a good challenge.",
+       "es": "Me encantan los retos.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Harisen Recovery",
+     "description": "Sumire puede curar estados alterados de los compañeros en combate."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Entiendo. Bueno, supongo que es importante llevar una dieta equilibrada...",
+      "en": "I see. Well, I guess it's important to have a balanced diet...?"
+     },
+     "options": [
+      {
+       "es": "Acercarse a Sumire.",
+       "en": "Walk up to Sumire",
+       "points": 3
+      },
+      {
+       "es": "Observarla desde la distancia.",
+       "en": "Watch her from a distance",
+       "points": 0
+      },
+      {
+       "es": "Irse sigilosamente.",
+       "en": "Slowly walk away",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Acercarse a Sumire.",
+       "en": "Walk up to Sumire",
+       "points": 3
+      },
+      {
+       "es": "Observarla desde la distancia.",
+       "en": "Watch her from a distance",
+       "points": 0
+      },
+      {
+       "es": "Irse sigilosamente.",
+       "en": "Slowly walk away",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Si ni siquiera sé si tengo algo de lo que alardear, mucho menos voy a saber cómo hacerlo.",
+      "en": "I don't even know if I'm worth showing off, let alone how to do it..."
+     },
+     "options": [
+      {
+       "es": "Busca el lado positivo.",
+       "en": "Try to stay positive.",
+       "points": 2
+      },
+      {
+       "es": "Aquí me tienes.",
+       "en": "I'm here for you.",
+       "points": 3
+      },
+      {
+       "es": "Saldrá bien.",
+       "en": "It'll work out.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Mmm. ¿Qué te parece?",
+      "en": "Um, what do you think?"
+     },
+     "options": [
+      {
+       "es": "Te queda genial.",
+       "en": "It looks great.",
+       "points": 0
+      },
+      {
+       "es": "Estás muy mona.",
+       "en": "You look really cute.",
+       "points": 0
+      },
+      {
+       "es": "Me he enamorado.",
+       "en": "I'm in love.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Creo que me seguiría gustando aunque a ti no.",
+      "en": "Even if you didn't like it... I don't think that'd change how I feel about it."
+     },
+     "options": [
+      {
+       "es": "Así debería ser.",
+       "en": "That's how it should be.",
+       "points": 2
+      },
+      {
+       "es": "Parece un avance.",
+       "en": "Sounds like progress.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "P-por cierto, ¿dónde te gusta comprar la ropa, senpai?",
+      "en": "B-By the way, where do you like to get your clothes from, Senpai?"
+     },
+     "options": [
+      {
+       "en": "The resale shop.",
+       "es": "En la tienda de segunda mano.",
+       "points": 2
+      },
+      {
+       "en": "Online.",
+       "es": "Por internet.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Endure",
+     "description": "Sumire puede aguantar con 1 HP un golpe que la derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Perdona por esta quedada tan improvisada. Espero no molestarte.",
+      "en": "Sorry for dropping in on you like this. I hope it's not too much trouble."
+     },
+     "options": [
+      {
+       "es": "Sin problema.",
+       "en": "It's no problem.",
+       "points": 3
+      },
+      {
+       "es": "Digamos que es horario de vacaciones.",
+       "en": "We'll call it holiday hours.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Y si no te importa, me gustaría que estuvieras presente, ¿vale?",
+      "en": "And if you wouldn't mind, I'd like you to be there when I do... Is that okay?"
+     },
+     "options": [
+      {
+       "es": "Claro.",
+       "en": "Definitely.",
+       "points": 3
+      },
+      {
+       "es": "Por supuesto.",
+       "en": "Of course.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Te conté que querer que me vieras me ayudó a dejar de preocuparme.",
+      "en": "I talked about wanting you to see me, and how that helped me stop worrying?"
+     },
+     "options": [
+      {
+       "es": "Claro que sí.",
+       "en": "Of course I do.",
+       "points": 3
+      },
+      {
+       "es": "Un poco.",
+       "en": "Vaguely...",
+       "points": 0
+      },
+      {
+       "es": "¿Y qué pasa?",
+       "en": "What about it?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Aunque soy inútil perdida, espero haberla ayudado...",
+      "en": "Even as worthless as I am, I hope I still helped Kasumi somehow..."
+     },
+     "options": [
+      {
+       "es": "Sé que lo hiciste.",
+       "en": "I know you did.",
+       "points": 3
+      },
+      {
+       "es": "Tú vales mucho.",
+       "en": "You're not worthless.",
+       "points": 3
+      },
+      {
+       "es": "Es un nuevo comienzo.",
+       "en": "This is a new beginning.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¡T-tengo que decirte algo!",
+      "en": "Th-There's something I need to tell you, Senpai!"
+     },
+     "options": [
+      {
+       "es": "¿Qué pasa?",
+       "en": "What's going on?",
+       "points": 0
+      },
+      {
+       "es": "¿Hay más?",
+       "en": "There's something else?",
+       "points": 0
+      },
+      {
+       "es": "Adelante.",
+       "en": "Go ahead.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Pero lo último que quiero es hacerte sentir incómodo...",
+      "en": "Um, but... The last thing I want to do is make you uncomfortable, so..."
+     },
+     "options": [
+      {
+       "es": "Mejor seamos amigos.",
+       "en": "Let's stay friends, okay?",
+       "points": 0
+      },
+      {
+       "es": "Yo también te quiero.",
+       "en": "I love you too.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¡Tú observa! ¡Te prometo que seguiré mejorando!",
+      "en": "Just watch me, and I promise I'll keep improving!"
+     },
+     "options": [
+      {
+       "es": "Dalo todo.",
+       "en": "Show me your best.",
+       "points": 0
+      },
+      {
+       "es": "Qué ganas de verlo.",
+       "en": "I can't wait to see it.",
+       "points": 3
+      },
+      {
+       "es": "Siempre puedes confiar en mí.",
+       "en": "You can always rely on me.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Ay... pero ¿qué digo?",
+      "en": "Oh... what am I saying...?"
+     },
+     "options": [
+      {
+       "es": "Tranquila.",
+       "en": "Calm down.",
+       "points": 3
+      },
+      {
+       "es": "Tómate tu tiempo.",
+       "en": "Take your time.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Yo... Mmm... Tú...",
+      "en": "I-I�um�you�"
+     },
+     "options": [
+      {
+       "es": "¿Notas alguna diferencia?",
+       "en": "So? Any different?",
+       "points": 0
+      },
+      {
+       "es": "Estás como un tomate.",
+       "en": "You are so red right now.",
+       "points": 0
+      },
+      {
+       "es": "Qué mona eres.",
+       "en": "You're so cute.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "Creo que he madurado de verdad. Y te agradezco mucho tu parte en ello, senpai.",
+      "en": "I really think I've matured. And I'm really glad for your part in that, Senpai."
+     },
+     "options": [
+      {
+       "en": "I'm glad to hear that.",
+       "es": "Me alegra oír eso.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Kasumi",
+     "prompt": {
+      "es": "¡No sé qué hacer!",
+      "en": "I don't know what to do!"
+     },
+     "options": [
+      {
+       "en": "Get used to it.",
+       "es": "Acostúmbrate.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Protect",
+     "description": "Sumire puede recibir en lugar de Joker un ataque que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Second Awakening",
+     "description": "La Persona de Sumire evoluciona a Vanadis."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+# fuente: https://www.rpgsite.net/feature/9601-persona-5-royal-akechi-confidant-guide-justice-choices-unlocks
+# Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+CONSEJO | El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.
+CONSEJO | Para empezar el rango 3 necesitas Conocimiento 3 y Encanto 3. Para el rango 7, Conocimiento 4.
+CONSEJO | El rango 6 está disponible desde el 3 de septiembre y el 7, desde el 2 de noviembre.
+CONSEJO | Hay que llegar al rango 8 antes del 17 de noviembre: si no, el confidente queda bloqueado para siempre.
+CONSEJO | En el rango 7 elige «You're my rival.» y en el 8 «I accept.»: no suman puntos, pero desbloquean diálogos posteriores.
+CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero hay que elegir detener a Maruki; las otras respuestas llevan al final malo.
+2 | You always seem so busy. | 2
+2 | Shoot very carefully. | 2
+2 | I'll go for a power shot. | 2
+2 | I see a lot of things. | 3
+2 | Maybe I'll be a detective. | 2
+2 | TEL | If you're so inclined, we could go out again sometime. | Si te apetece, podríamos volver a quedar algún día. | As rivals? | ¿Como rivales? | 2
+2 | DESBLOQUEO | Sleuthing Instinct | Al empezar un combate, a veces revela una afinidad de un enemigo.
+3 | Should've figured. | 3
+3 | Your life must be so hard. | 2
+3 | TEL | I saw first-hand what happens when I'm too careless with my words around you. | Ya he visto lo que pasa cuando hablo sin cuidado delante de ti. | Wasn't it fun? | ¿A que fue divertido? | 2
+4 | Now this is my kind of club. | 3
+4 | Do they have coffee? | 2
+4 | Any recommendations? | 3
+4 | Anything's fine by me. | 2
+4 | It's a great place. | 2
+4 | Pretty frequently. | 3
+4 | I can use a microwave... | 3
+4 | All I need is curry. | 2
+4 | TEL | It's a euphoria like when I manage to solve a case. | Es una euforia como la de resolver un caso. | I kinda get it. | Más o menos lo entiendo. | 2
+4 | DESBLOQUEO | Sleuthing Mastery | Al empezar un combate, revela todas las afinidades de un enemigo.
+5 | Are you used to gunplay? | 2
+5 | You wanted to be a hero? | 3
+5 | Very interesting. | 2
+5 | TEL | I wish I'd played better. | Ojalá hubiera jugado mejor. | You did fine. | Lo has hecho bien. | 2
+5 | TEL | I wish I'd played better. | Ojalá hubiera jugado mejor. | You've still got a long way to go. | Aún te queda mucho por mejorar. | 2
+5 | TEL | I wish I'd played better. | Ojalá hubiera jugado mejor. | You were getting cocky. | Te estabas confiando demasiado. | 2
+6 | A while, huh? | 3
+6 | So relaxing... | 2
+6 | ...You've been through a lot. | 2
+6 | This is nothing. | 3
+6 | I'll stay until you're ready. | 3
+6 | Are YOU okay? | 2
+6 | Same. | 3
+6 | Guess I win. | 2
+6 | Because we get along. | 2
+6 | Because we're similar. | 2
+6 | I think you're right. | 3
+6 | Can I put my clothes on? | 2
+6 | TEL | If they saw how I was acting today, perhaps they'd say I wasn't acting like the Detective Prince. | Si me hubieran visto hoy, quizá dirían que no me comportaba como el Príncipe Detective. | My bad, I guess. | Culpa mía, supongo. | 2
+6 | DESBLOQUEO | Baton Pass | Después de un 1 More, Akechi puede pasarle el turno a otro compañero con Baton Pass.
+6 | DESBLOQUEO | Follow Up | Akechi puede atacar después de Joker.
+6 | DESBLOQUEO | Detective Talk | Akechi puede salvar una negociación con una Sombra que salió mal.
+7 | That's why it's so fun. | 3
+7 | Yeah, it's convoluted... | 2
+7 | I couldn't let myself lose. | 3
+8 | I definitely wouldn't lose. | 3
+8 | Really hate losing, don't you? | 2
+8 | Same here. | 1
+10 | DESBLOQUEO | Endure y Protect | Akechi puede aguantar con 1 HP un golpe que lo derrotaría y recibir en lugar de Joker un ataque mortal. Se desbloquea la fusión de Metatrón.

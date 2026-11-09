@@ -2,6 +2,7 @@
 /**
  * Conversaciones de confidentes: texto OFICIAL del juego + puntos de las guías.
  *
+ *   Líneas «CONSEJO | texto» de la guía van a los consejos de la ficha.
  *   node scripts/import-confidants/import.mjs <convs.json> <id> [<id>...]
  *
  * - <convs.json>: conversaciones extraídas de EVENT_DATA/MESSAGE/E700 (español e
@@ -35,7 +36,9 @@ for (const id of ids) {
   const phones = new Map(); // rango → [{prompt, options:[{en, points}]}]
   const unlocks = new Map();
   const romanceOpts = new Set();
+  const tips = [];
   for (const line of guide) {
+    if (line.startsWith('CONSEJO |')) { tips.push(line.slice(9).trim()); continue; }
     const p = line.split('|').map((s) => s.trim());
     const rank = Number(p[0]);
     if (p[1] === 'DESBLOQUEO') { unlocks.set(rank, [...(unlocks.get(rank) ?? []), { name: p[2], description: p[3] }]); continue; }
@@ -107,7 +110,7 @@ for (const id of ids) {
     ranks,
   };
   const prev = existsSync(join(dataDir, `${id}.json`)) ? JSON.parse(readFileSync(join(dataDir, `${id}.json`), 'utf8')) : null;
-  if (prev?.tips) out.tips = prev.tips;
+  out.tips = tips.length ? tips : prev?.tips ?? [];
   writeFileSync(join(dataDir, `${id}.json`), JSON.stringify(out, null, 1) + '\n');
   const n = ranks.reduce((a, r) => a + r.conversations.length, 0);
   console.log(`${id}: ${n} conversaciones`);

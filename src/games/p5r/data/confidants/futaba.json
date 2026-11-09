@@ -1,0 +1,704 @@
+{
+ "id": "futaba",
+ "name": "Futaba Sakura",
+ "arcana": "hermit",
+ "phantomThief": true,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9382-persona-5-royal-futaba-confidant-guide-hermit-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Moral Support",
+     "description": "En combate, Futaba puede lanzar un -kaja o curar al grupo. También desbloquea Akihabara."
+    }
+   ],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Pero ¡las clases por internet son mejores! Ni siquiera tengo que salir de casa.",
+      "en": "But online classes are better for studying! I wouldn't even have to leave the house."
+     },
+     "options": [
+      {
+       "es": "Eso no solucionaría nada.",
+       "en": "That wouldn't solve anything.",
+       "points": 0
+      },
+      {
+       "es": "Anda, qué buena idea.",
+       "en": "That's a great idea.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¿Crees que seré capaz...?",
+      "en": "...Do you think I'll be able to?"
+     },
+     "options": [
+      {
+       "es": "Juntos lo conseguiremos.",
+       "en": "If we work together.",
+       "points": 3
+      },
+      {
+       "es": "¿Quieres que te ayude?",
+       "en": "Want me to help?",
+       "points": 2
+      },
+      {
+       "es": "No lo sé.",
+       "en": "I don't know.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¿Crees que eso haría feliz a Sojiro?",
+      "en": "Do you think it'd make Sojiro happy?"
+     },
+     "options": [
+      {
+       "en": "I bet it will.",
+       "es": "Seguro que sí.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Mementos Scan",
+     "description": "Al entrar en un piso de Mementos, Futaba puede revelar el mapa completo."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Yo... yo, yo, yo...",
+      "en": "I... I, I, I..."
+     },
+     "options": [
+      {
+       "es": "¿Yo qué?",
+       "en": "I what?",
+       "points": 0
+      },
+      {
+       "es": "¿Todo bien?",
+       "en": "So you're okay?",
+       "points": 0
+      },
+      {
+       "es": "Estaba a punto de ir a buscarte.",
+       "en": "I was about to come find you.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Pero entonces pensé en ti mientras daba vueltas por la tienda, y ¡pum! ¡Un salvaje apareció!",
+      "en": "But then I thought about you while I was wandering around the store, and bam, a wild appeared!"
+     },
+     "options": [
+      {
+       "es": "Me alegro de volver a verte.",
+       "en": "Good to see you again.",
+       "points": 3
+      },
+      {
+       "es": "Tú eres la que ha aparecido.",
+       "en": "You're the one who appeared.",
+       "points": 2
+      },
+      {
+       "es": "Tienes que andar con más cuidado.",
+       "en": "You need to be more careful.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¡Lo superaré en nada...! ¿Verdad?",
+      "en": "I'll clear it in no time...! Right?"
+     },
+     "options": [
+      {
+       "en": "We'll both do our best.",
+       "es": "Los dos lo daremos todo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¿Y si uso un Talue-Go...?",
+      "en": "Can I use a Goho-M instead?"
+     },
+     "options": [
+      {
+       "es": "No.",
+       "en": "Nope.",
+       "points": 2
+      },
+      {
+       "es": "Lo haremos juntos.",
+       "en": "Let's do this together.",
+       "points": 3
+      },
+      {
+       "es": "Si quieres...",
+       "en": "If you want.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Parece que pensar en el pasado es una mala costumbre mía, ¿eh...?",
+      "en": "I guess dwelling on the past is just a bad habit of mine, huh?"
+     },
+     "options": [
+      {
+       "es": "Para nada.",
+       "en": "Not at all.",
+       "points": 2
+      },
+      {
+       "es": "Todo el mundo lo hace.",
+       "en": "Everyone does it.",
+       "points": 2
+      },
+      {
+       "es": "A mí me parece adorable.",
+       "en": "I think it's cute.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "El mundo real da mucho miedo...",
+      "en": "The real world is a scary place..."
+     },
+     "options": [
+      {
+       "en": "I'll help you anytime.",
+       "es": "Te ayudaré siempre que lo necesites.",
+       "points": 3
+      },
+      {
+       "en": "We'll take it slow.",
+       "es": "Iremos poco a poco.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Position Hack",
+     "description": "A veces el combate empieza con un atraco a las Sombras."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Es posible que mi estadística de suerte sea muy alta.",
+      "en": "Maybe my luck stat's really high."
+     },
+     "options": [
+      {
+       "es": "Creo que tienes razón.",
+       "en": "I think you're right.",
+       "points": 3
+      },
+      {
+       "es": "No.",
+       "en": "No.",
+       "points": 0
+      },
+      {
+       "es": "¿Tu... qué?",
+       "en": "Your... what?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Nishima... ¡¿eres un PNJ?!",
+      "en": "Nishima... Are you an NPC!?"
+     },
+     "options": [
+      {
+       "es": "¿Qué es un PNJ?",
+       "en": "What's an NPC?",
+       "points": 2
+      },
+      {
+       "es": "Qué bestia.",
+       "en": "Savage.",
+       "points": 0
+      },
+      {
+       "es": "Él es el protagonista.",
+       "en": "He's the protagonist.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¡Se acabó tenerle miedo a la policía! ¡Venga, dime que soy guay!",
+      "en": "No more getting scared of the police! C'mon, tell me I'm cool!"
+     },
+     "options": [
+      {
+       "en": "You did great.",
+       "es": "Lo has hecho genial.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Pero un día me dijo «Buenos días». Empezó a decírmelo todos los días desde entonces.",
+      "en": "But one day, she said something to me: \"Good morning.\" She started saying it every day from then on."
+     },
+     "options": [
+      {
+       "es": "¿Te pusiste contenta?",
+       "en": "Were you happy?",
+       "points": 2
+      },
+      {
+       "es": "Debió sorprenderte mucho.",
+       "en": "That must have been a shock.",
+       "points": 3
+      },
+      {
+       "es": "¿Cómo reaccionaste?",
+       "en": "How did you react?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Me sentía fatal, pero ella seguía gritándome por haberlo leído...",
+      "en": "I felt terrible, but she just kept yelling at me for reading it..."
+     },
+     "options": [
+      {
+       "es": "No sabías lo que hacías.",
+       "en": "You didn't know any better.",
+       "points": 2
+      },
+      {
+       "es": "¿Te disculpaste con ella?",
+       "en": "Did you apologize to her?",
+       "points": 0
+      },
+      {
+       "es": "Parece que fue culpa suya.",
+       "en": "Sounds like it was her fault.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Me entra tanto miedo...",
+      "en": "I get so scared..."
+     },
+     "options": [
+      {
+       "en": "Are you running away again?",
+       "es": "¿Vas a huir otra vez?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Active Support",
+     "description": "Moral Support a veces también carga ataques o recupera SP."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Parece ser que todavía la hacen posar con ropa rara. Hasta venden fotos suyas ahora...",
+      "en": "...Apparently, they're still having her model in strange clothes. They're even selling the pictures now..."
+     },
+     "options": [
+      {
+       "es": "Qué padres tan horribles.",
+       "en": "What horrible parents.",
+       "points": 2
+      },
+      {
+       "es": "Tenemos que detenerlos.",
+       "en": "We have to put a stop to this.",
+       "points": 2
+      },
+      {
+       "es": "Rara... ¿cómo?",
+       "en": "Strange... how?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¡Ayúdame a salvarla, porfa!",
+      "en": "Please, help me save her!"
+     },
+     "options": [
+      {
+       "es": "Lo haré por ti.",
+       "en": "I'll do it, for you.",
+       "points": 3
+      },
+      {
+       "es": "Les mostraremos la verdad.",
+       "en": "We'll show them the truth.",
+       "points": 3
+      },
+      {
+       "es": "Dame tiempo.",
+       "en": "Give me some time.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Treasure Reboot",
+     "description": "Futaba puede hacer reaparecer las Sombras con tesoro. Aparece el pedido de Mementos «Daughter's Just a Meal Ticket»: hay que completarlo para llegar al rango 8."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Resumiendo... ¡hemos hecho las paces! Por fin me he disculpado.",
+      "en": "Long story short... we made up! I finally apologized to her."
+     },
+     "options": [
+      {
+       "es": "Es increíble.",
+       "en": "That's incredible.",
+       "points": 3
+      },
+      {
+       "es": "Me alegra escuchar eso.",
+       "en": "I'm glad to hear that.",
+       "points": 3
+      },
+      {
+       "es": "¿Y has tartamudeado?",
+       "en": "Did you stutter at all?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¡He podido hacerlo gracias a ti, !",
+      "en": "It's all because of you that I could do it, !"
+     },
+     "options": [
+      {
+       "es": "Has trabajado muy duro también.",
+       "en": "You worked really hard too.",
+       "points": 3
+      },
+      {
+       "es": "Me voy a poner colorado...",
+       "en": "You're making me blush...",
+       "points": 2
+      },
+      {
+       "es": "¿Me vas a dar algo a cambio?",
+       "en": "Do I get a reward?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Me alegro mucho de haber cumplido ese objetivo.",
+      "en": "I'm so glad I cleared that goal."
+     },
+     "options": [
+      {
+       "en": "Congrats.",
+       "es": "Enhorabuena.",
+       "points": 2
+      },
+      {
+       "en": "Want more pats?",
+       "es": "¿Quieres más palmaditas?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Voy a volver.",
+      "en": "I'm gonna go back."
+     },
+     "options": [
+      {
+       "es": "Has madurado mucho.",
+       "en": "You've really matured.",
+       "points": 3
+      },
+      {
+       "es": "¿Y si te vuelven a acosar?",
+       "en": "And if you're bullied again?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Y hasta cuando estamos lejos, no dejo de pensar en ti...",
+      "en": "Then even when we're apart, I can't stop thinking about you..."
+     },
+     "options": [
+      {
+       "es": "Eso no suena muy sano...",
+       "en": "That doesn't sound healthy...",
+       "points": 0
+      },
+      {
+       "es": "¿Todo bien, Futaba?",
+       "en": "Are you okay, Futaba?",
+       "points": 3
+      },
+      {
+       "es": "Te estás imaginando cosas.",
+       "en": "You're imagining things.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¿Podemos saltarnos la última promesa?",
+      "en": "...Can we skip that last promise?"
+     },
+     "options": [
+      {
+       "es": "Si quieres...",
+       "en": "If you want.",
+       "points": 2
+      },
+      {
+       "es": "Ni hablar.",
+       "en": "No way.",
+       "points": 2
+      },
+      {
+       "es": "¿Te estás rindiendo?",
+       "en": "You're giving up?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¿Por qué, ...?",
+      "en": "Why, ...?"
+     },
+     "options": [
+      {
+       "es": "Porque somos compañeros.",
+       "en": "Because we're teammates.",
+       "points": 0
+      },
+      {
+       "es": "Porque te quiero.",
+       "en": "Because I love you.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Emergency Shift",
+     "description": "Si caen dos o más compañeros, Futaba puede cambiarlos por otros del grupo."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Final Guard",
+     "description": "Futaba puede anular por completo un ataque que te derrotaría."
+    },
+    {
+     "name": "Second Awakening",
+     "description": "La Persona de Futaba evoluciona a Prometeo. Se desbloquea la fusión de Ongyo-ki."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

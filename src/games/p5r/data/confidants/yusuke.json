@@ -1,0 +1,714 @@
+{
+ "id": "yusuke",
+ "name": "Yusuke Kitagawa",
+ "arcana": "emperor",
+ "phantomThief": true,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9380-persona-5-yusuke-confidant-guide-emperor-choices-unlocks"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Van Gogh no alcanzó la fama en vida, pero tuvo un gran apoyo de su hermano y admirador.",
+      "en": "Van Gogh did not achieve fame in his lifetime, but found an admirer and supporter in his brother."
+     },
+     "options": [
+      {
+       "es": "¿Un admirador?",
+       "en": "An admirer?",
+       "points": 0
+      },
+      {
+       "es": "¿Un apoyo?",
+       "en": "A supporter?",
+       "points": 0
+      },
+      {
+       "es": "Gracias.",
+       "en": "Thanks.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Novice Duplication",
+     "description": "Yusuke copia skill cards de nivel bajo a partir de cartas en blanco. Al terminar el rango te da la skill card de Recarm."
+    }
+   ]
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Me gustaría que me dieras una opinión sincera... si puede ser.",
+      "en": "I would like your honest opinion... if you would."
+     },
+     "options": [
+      {
+       "es": "Es original.",
+       "en": "It's novel.",
+       "points": 2
+      },
+      {
+       "es": "Es enigmático.",
+       "en": "It's enigmatic.",
+       "points": 2
+      },
+      {
+       "es": "¿Qué es?",
+       "en": "...What is it?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Y lo más importante: ¡será la chispa que encienda mi apagada carrera artística!",
+      "en": "More importantly, it shall be the spark that revitalizes my slumbering art career!"
+     },
+     "options": [
+      {
+       "es": "Lo estoy deseando.",
+       "en": "I can't wait.",
+       "points": 3
+      },
+      {
+       "es": "Espero que tengas razón.",
+       "en": "I hope you're right.",
+       "points": 3
+      },
+      {
+       "es": "¿Le gustará a la gente?",
+       "en": "Will people like it?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Estoy en racha. ¡Mantendré este impulso y lo aplicaré también a los Ladrones Fantasma!",
+      "en": "I'm on a roll right now. I shall keep up this momentum and apply it to the Phantom Thieves as well!"
+     },
+     "options": [
+      {
+       "en": "You're already doing enough.",
+       "es": "Ya haces bastante.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Baton Pass",
+     "description": "Después de un 1 More, Yusuke puede pasarle el turno a otro compañero con Baton Pass."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¿Mi obra está... vacía?",
+      "en": "My work is... empty?"
+     },
+     "options": [
+      {
+       "es": "Ha sido duro.",
+       "en": "That was harsh.",
+       "points": 0
+      },
+      {
+       "es": "Vaya imbécil...",
+       "en": "What a dick...",
+       "points": 0
+      },
+      {
+       "es": "No dejes que te afecte.",
+       "en": "Don't let it bother you.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¿Qué voy a hacer ahora? ¡¿Qué va a ser de mí sin arte?!",
+      "en": "What is going to happen to me now? Without art, what will remain of my being!?"
+     },
+     "options": [
+      {
+       "es": "¿En serio abandonas?",
+       "en": "You're really giving up?",
+       "points": 2
+      },
+      {
+       "es": "No es propio de ti.",
+       "en": "This isn't like you.",
+       "points": 3
+      },
+      {
+       "es": "Levanta, Yusuke.",
+       "en": "Stand up, Yusuke.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Pero bueno, razón de más para superar el bloqueo. ¡Debo demostrarle mi habilidad...!",
+      "en": "But that is all the more reason I must break out of my slump. I must prove my ability to him...!"
+     },
+     "options": [
+      {
+       "es": "¿Y cómo lo vas a hacer?",
+       "en": "How exactly?",
+       "points": 2
+      },
+      {
+       "es": "Ese es el espíritu.",
+       "en": "That's the spirit.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¡Voy a terminar diez obras antes de que acabe el día!",
+      "en": "I'm going to have ten pieces finished up by end of today!"
+     },
+     "options": [
+      {
+       "en": "That's the spirit.",
+       "es": "Ese es el espíritu.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Follow Up",
+     "description": "Yusuke puede atacar después de Joker. También desbloquea el museo de Ueno."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Gracias por tu ayuda. Me hubiera sido imposible dibujar mientras remo.",
+      "en": "Thank you for your assistance today. After all, it would be impossible to sketch while rowing."
+     },
+     "options": [
+      {
+       "es": "¿Qué estamos haciendo aquí?",
+       "en": "What are we doing here?",
+       "points": 0
+      },
+      {
+       "es": "¿Por qué estamos en una barca?",
+       "en": "Why are we in a boat?",
+       "points": 2
+      },
+      {
+       "es": "Debería traer a alguna chica.",
+       "en": "I should bring a girl here.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Mi terquedad ha hecho que la mente me jugara una mala pasada...",
+      "en": "It seems my bias has caused me to overlook the truth of the matter..."
+     },
+     "options": [
+      {
+       "es": "El amor tiene muchas formas.",
+       "en": "Love comes in all forms.",
+       "points": 3
+      },
+      {
+       "es": "Puede que debas practicar más.",
+       "en": "Maybe you should train more.",
+       "points": 2
+      },
+      {
+       "es": "Tienes demasiada imaginación.",
+       "en": "You have a wild imagination.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Aunque llegue a entenderlo, ¿de verdad seré capaz de dibujarlo...?",
+      "en": "Even if I ever do understand it, will I truly be able to draw it...?"
+     },
+     "options": [
+      {
+       "en": "Don't get discouraged.",
+       "es": "No te desanimes.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Artist Talk",
+     "description": "Yusuke puede salvar una negociación con una Sombra que salió mal. También desbloquea el parque Inokashira."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Muy bien. , tú serás el modelo de hoy.",
+      "en": "Very well. , you will have to be my model today."
+     },
+     "options": [
+      {
+       "es": "Sácame guapo.",
+       "en": "Make me beautiful.",
+       "points": 0
+      },
+      {
+       "es": "No sé si puedo hacerlo...",
+       "en": "I dunno if I can do it...",
+       "points": 2
+      },
+      {
+       "es": "¿Quieres que me desnude?",
+       "en": "Do you want me to strip?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¿Crees que algún día lograré plasmar la verdad, ?",
+      "en": "... Do you think I will be able to capture the truth someday?"
+     },
+     "options": [
+      {
+       "es": "Estoy seguro de que lo harás.",
+       "en": "I'm sure you will.",
+       "points": 3
+      },
+      {
+       "es": "No lo parece.",
+       "en": "It doesn't look like it.",
+       "points": 3
+      },
+      {
+       "es": "¿Te vas a rendir?",
+       "en": "Do you want to give up?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Más lejos parezco estar de entender el abismo del corazón.",
+      "en": "The further I seem to be from understanding the abyss of the heart."
+     },
+     "options": [
+      {
+       "en": "There's still hope.",
+       "es": "Aún hay esperanza.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Adept Duplication",
+     "description": "Yusuke copia skill cards de nivel medio. También desbloquea la iglesia de Kanda."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Vaya, este lugar no ha cambiado ni un ápice.",
+      "en": "Hm, this place has not changed in the slightest..."
+     },
+     "options": [
+      {
+       "es": "Tiene un aire nostálgico.",
+       "en": "It feels nostalgic.",
+       "points": 2
+      },
+      {
+       "es": "¿Por qué hemos vuelto?",
+       "en": "Why are we here again?",
+       "points": 0
+      },
+      {
+       "es": "¿Vas a entrar?",
+       "en": "Are you going in?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": ", ¿tú que opinas? ¿Por qué decidió acogerme?",
+      "en": "..., why do you think Madarame decided to take me in?"
+     },
+     "options": [
+      {
+       "es": "A lo mejor estaba siendo compasivo.",
+       "en": "Maybe he was sympathetic.",
+       "points": 3
+      },
+      {
+       "es": "Sabía que eras hábil.",
+       "en": "He somehow knew you had skill.",
+       "points": 2
+      },
+      {
+       "es": "No sabría decirte.",
+       "en": "I couldn't possibly tell you.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¿Qué impresión te dio?",
+      "en": "What's your impression of him?"
+     },
+     "options": [
+      {
+       "en": "He had a certain dignity.",
+       "es": "Tenía cierta dignidad.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Harisen Recovery",
+     "description": "Yusuke puede curar estados alterados de los compañeros en combate."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Hay mercado para ti, sin duda. Serás el artista atractivo y torturado.",
+      "en": "There is definitely a market for you. We'll sell you as the \"tragic, handsome artist.\""
+     },
+     "options": [
+      {
+       "es": "Es muy buen nombre.",
+       "en": "That's a great name.",
+       "points": 0
+      },
+      {
+       "es": "¿Qué quieres decir?",
+       "en": "What do you mean?",
+       "points": 2
+      },
+      {
+       "es": "¿Atractivo...?",
+       "en": "Handsome...?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¡¿Por qué los artistas solo piensan en el dichoso dinero?! ¡¿Dónde queda la esencia del arte?!",
+      "en": "Why is it that all artists talk about is money, money, money!? Has the true meaning of art been lost!?"
+     },
+     "options": [
+      {
+       "es": "La verdad está dentro de ti.",
+       "en": "The truth is within you.",
+       "points": 3
+      },
+      {
+       "es": "El dinero es importante.",
+       "en": "Money is important.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¡Soy un vendido de poca monta, esclavo del poder del dinero!",
+      "en": "I'm a petty sellout, a slave to the power of money!"
+     },
+     "options": [
+      {
+       "en": "Calm down.",
+       "es": "Tranquilízate.",
+       "points": 2
+      },
+      {
+       "en": "It's not a crime to enjoy sushi.",
+       "es": "Disfrutar del sushi no es un crimen.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Master Duplication",
+     "description": "Yusuke copia skill cards de nivel alto."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": ", ¿qué sujeto crees que lo capturaría mejor?",
+      "en": ", what subject do you think would most capture beauty?"
+     },
+     "options": [
+      {
+       "es": "Los paisajes siempre están bien.",
+       "en": "Scenery is always nice.",
+       "points": 0
+      },
+      {
+       "es": "Diría que Morgana.",
+       "en": "I'd say Morgana.",
+       "points": 0
+      },
+      {
+       "es": "Tiene que ser Ann.",
+       "en": "It has to be Ann.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¡¿Es esto la pasión pura?! ¡Mi corazón está empañado por deseos mundanos!",
+      "en": "Is this what pure passion is supposed to look like!? My heart is clouded by worldly desires!"
+     },
+     "options": [
+      {
+       "es": "¿Eso qué tiene de malo?",
+       "en": "What's wrong with that?",
+       "points": 2
+      },
+      {
+       "es": "Es lo mismo para todos.",
+       "en": "The same applies to everyone.",
+       "points": 0
+      },
+      {
+       "es": "Sí que has madurado, Yusuke.",
+       "en": "You've really grown, Yusuke.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Endure",
+     "description": "Yusuke puede aguantar con 1 HP un golpe que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "¿En qué estaría pensando mi madre cuando pintaba el «Sayuri»?",
+      "en": "When my mother was painting the \"Sayuri\"... what do you think she was thinking about?"
+     },
+     "options": [
+      {
+       "es": "El amor por su hijo.",
+       "en": "Her love for her son.",
+       "points": 3
+      },
+      {
+       "es": "El dolor de la separación.",
+       "en": "The pain of separation.",
+       "points": 3
+      },
+      {
+       "es": "No lo sé.",
+       "en": "I don't know.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Yusuke",
+     "prompt": {
+      "es": "Y por eso mismo volveré a coger el pincel, para dar esperanza a todos los que vean mis cuadros.",
+      "en": "But that is why I am going to wield my brush again... To give hope to all those who see my paintings."
+     },
+     "options": [
+      {
+       "es": "Sí que has cambiado, Yusuke.",
+       "en": "You've really changed, Yusuke.",
+       "points": 3
+      },
+      {
+       "es": "Es una gran idea.",
+       "en": "That's a great idea.",
+       "points": 2
+      },
+      {
+       "es": "No será fácil.",
+       "en": "It won't be easy.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Protect",
+     "description": "Yusuke puede recibir en lugar de Joker un ataque que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Second Awakening",
+     "description": "La Persona de Yusuke evoluciona a Kamu Susano-o. Se desbloquea la fusión de Odín."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}
