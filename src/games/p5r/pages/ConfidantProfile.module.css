@@ -673,3 +673,12 @@
     justify-self: start;
   }
 }
+
+.provisional {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a8a84;
+}

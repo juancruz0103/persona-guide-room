@@ -121,11 +121,15 @@ export interface DialogueOption {
   es: string;
   en: string;
   points: number;
+  /** Respuesta que abre (o elige) la ruta romántica */
+  romance?: boolean;
 }
 
 export interface Conversation {
   kind: 'conversation' | 'phone';
   royalOnly: boolean;
+  /** true = traducción propia (las llamadas de Royal no están en los eventos del juego) */
+  provisional?: boolean;
   romance: boolean;
   speaker: string;
   prompt: { es: string; en: string };

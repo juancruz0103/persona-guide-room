@@ -35,7 +35,7 @@
   "persona": "johanna",
   "phantomThief": true,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "haru",
@@ -93,7 +93,7 @@
   "persona": "carmen",
   "phantomThief": true,
   "romance": true,
-  "hasGuide": false
+  "hasGuide": true
  },
  {
   "id": "ryuji",

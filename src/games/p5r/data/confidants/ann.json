@@ -1,0 +1,888 @@
+{
+ "id": "ann",
+ "name": "Ann Takamaki",
+ "arcana": "lovers",
+ "phantomThief": true,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9381-persona-5-royal-ann-confidant-guide-lovers-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Baton Pass",
+     "description": "Después de un 1 More, Ann puede pasarle el turno a otro compañero con Baton Pass."
+    }
+   ],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Así que yo también le pedí perdón.",
+      "en": "So, I apologized as well."
+     },
+     "options": [
+      {
+       "es": "¿Te encuentras mejor ahora?",
+       "en": "Are you feeling better now?",
+       "points": 3
+      },
+      {
+       "es": "Es muy fuerte.",
+       "en": "She's so strong.",
+       "points": 3
+      },
+      {
+       "es": "Entonces, ¿volvéis a ser amigas?",
+       "en": "So are you friends again?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Pero puede que yo no confiase lo suficiente en el talento de Shiho.",
+      "en": "...But in the end, maybe I just didn't believe in her ability."
+     },
+     "options": [
+      {
+       "es": "No te puedes culpar.",
+       "en": "You can't blame yourself.",
+       "points": 2
+      },
+      {
+       "es": "Puede que tengas razón.",
+       "en": "You might be right.",
+       "points": 3
+      },
+      {
+       "es": "Él tenía la sartén por el mango.",
+       "en": "Kamoshida had the upper hand.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Gracias.",
+      "en": "...Thanks."
+     },
+     "options": [
+      {
+       "es": "No fue para tanto.",
+       "en": "It was no big deal.",
+       "points": 2
+      },
+      {
+       "es": "No podía ignorarte.",
+       "en": "I couldn't just ignore you.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Pero encontraré la respuesta, lo prometo.",
+      "en": "But I'm going to find the answer, I promise."
+     },
+     "options": [
+      {
+       "es": "Te ayudaré.",
+       "en": "I'll help.",
+       "points": 3
+      },
+      {
+       "es": "Busquémosla juntos.",
+       "en": "Let's find it together.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¡Espero que la próxima vez vengas conmigo otra vez!",
+      "en": "I hope you'll join me again next time!"
+     },
+     "options": [
+      {
+       "en": "Of course. You're my teammate.",
+       "es": "Claro. Eres mi compañera.",
+       "points": 2
+      },
+      {
+       "en": "Leave it to me.",
+       "es": "Déjamelo a mí.",
+       "points": 2
+      },
+      {
+       "en": "The no-refills thing again?",
+       "es": "¿Otra vez lo de no repetir?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Girl Talk",
+     "description": "Ann puede salvar una negociación con una Sombra que salió mal."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¡Sí, sí, sí! ¿Qué más?",
+      "en": "Yeah, yeah, yeah! And?"
+     },
+     "options": [
+      {
+       "es": "Eres muy trabajadora.",
+       "en": "You're a hard worker.",
+       "points": 0
+      },
+      {
+       "es": "Qué respuesta tan molesta.",
+       "en": "That response was annoying.",
+       "points": 0
+      },
+      {
+       "es": "¿Podemos parar?",
+       "en": "Can we stop yet?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Ajá, ajá. ¿Alguna otra cosa?",
+      "en": "Uh-huh, uh-huh. What else?"
+     },
+     "options": [
+      {
+       "es": "Me gustas.",
+       "en": "I like you.",
+       "points": 2
+      },
+      {
+       "es": "Te amo con locura.",
+       "en": "I love you.",
+       "points": 2
+      },
+      {
+       "es": "¿Podemos parar?",
+       "en": "Can we stop yet?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Las sesiones deben de haber sido un lío con la búsqueda de sustitutas.",
+      "en": "It sounds like shoots have been real hectic with all the scrambling they've had to do for substitutes."
+     },
+     "options": [
+      {
+       "es": "Qué raro.",
+       "en": "That's odd.",
+       "points": 2
+      },
+      {
+       "es": "¿Te ha pasado alguna vez?",
+       "en": "Has that happened to you?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Y últimamente, todavía menos...",
+      "en": "...Maybe less these days."
+     },
+     "options": [
+      {
+       "es": "¿Te sientes sola?",
+       "en": "Are you lonely?",
+       "points": 0
+      },
+      {
+       "es": "Esa libertad pinta bien.",
+       "en": "That freedom sounds nice.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¿Crees que le parecí guay...?",
+      "en": "Do you think she thought I was cool...?"
+     },
+     "options": [
+      {
+       "en": "Could be.",
+       "es": "Puede ser.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Follow Up",
+     "description": "Ann puede atacar después de Joker."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Tiene de todo, pero siento que no entiendo nada. Da un poco de miedo, la verdad.",
+      "en": "It has everything... but it feels like I can't understand any of it. It's honestly kinda scary."
+     },
+     "options": [
+      {
+       "es": "Te entiendo.",
+       "en": "I know what you mean.",
+       "points": 3
+      },
+      {
+       "es": "No sé si te sigo.",
+       "en": "I'm not sure I follow.",
+       "points": 0
+      },
+      {
+       "es": "Pero eso depende de ti.",
+       "en": "That comes down to you.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Y un día, Shiho vino a hablarme. Lo primero que me dijo fue «Takamaki, dibujas de pena».",
+      "en": "But that was when Shiho talked to me. The first thing she said was, \"Takamaki-san, your paintings suck.\""
+     },
+     "options": [
+      {
+       "es": "Qué mala.",
+       "en": "That was mean of her.",
+       "points": 2
+      },
+      {
+       "es": "Me parto.",
+       "en": "That's hilarious.",
+       "points": 3
+      },
+      {
+       "es": "¿Tenía razón?",
+       "en": "Was she right?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¿Lo de la ladrona de la serie que solía ver? ¡Pues bien, se me ha ocurrido algo!",
+      "en": "About that female thief in the anime I used to watch? Well, I thought of something!"
+     },
+     "options": [
+      {
+       "es": "Cuéntame.",
+       "en": "Tell me.",
+       "points": 3
+      },
+      {
+       "es": "Miedo me das.",
+       "en": "I'm afraid to know.",
+       "points": 2
+      },
+      {
+       "es": "¿Quién?",
+       "en": "...Who?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Bueno, ¡pues eso es lo que quiero intentar aprender de ellos!",
+      "en": "And that's why I'm going to try and learn from them!"
+     },
+     "options": [
+      {
+       "es": "Buena idea.",
+       "en": "Good idea.",
+       "points": 3
+      },
+      {
+       "es": "¿Cómo exactamente?",
+       "en": "How exactly?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¡Voy a protagonizar películas de acción!",
+      "en": "I'm gonna star in action movies!"
+     },
+     "options": [
+      {
+       "es": "No va a funcionar.",
+       "en": "That's not going to work.",
+       "points": 0
+      },
+      {
+       "es": "No has aprendido nada.",
+       "en": "You haven't learned anything.",
+       "points": 0
+      },
+      {
+       "es": "Pues suerte.",
+       "en": "Good luck with that.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¿Haces algo para entrenar el cuerpo?",
+      "en": "Do you do anything to train your body?"
+     },
+     "options": [
+      {
+       "en": "I carry Morgana in my bag.",
+       "es": "Llevo a Morgana en la mochila.",
+       "points": 2
+      },
+      {
+       "en": "I train everyday.",
+       "es": "Entreno todos los días.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¿Crees que Shiho también querrá uno?",
+      "en": "Do you think maybe Shiho would want one too?"
+     },
+     "options": [
+      {
+       "es": "Puede.",
+       "en": "Maybe.",
+       "points": 0
+      },
+      {
+       "es": "Déjalo.",
+       "en": "Give it up.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "La he cagado...",
+      "en": "I really screwed that up..."
+     },
+     "options": [
+      {
+       "es": "Ha jugado bien sus cartas.",
+       "en": "You're outmatched.",
+       "points": 0
+      },
+      {
+       "es": "La verdad es que es increíble...",
+       "en": "She's amazing, huh...",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "De todos modos, es increíble cómo ha fingido que lloraba, ¿no?",
+      "en": "But still, wasn't Mika's fake crying pretty incredible?"
+     },
+     "options": [
+      {
+       "es": "Ha tenido su aquel.",
+       "en": "It had grace.",
+       "points": 2
+      },
+      {
+       "es": "Sería un Ladrón Fantasma brutal.",
+       "en": "She'd be a great phantom thief.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Crocodile Tears",
+     "description": "Ann puede bajar lo que pide una Sombra al negociar."
+    }
+   ]
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Supongo que solo hace falta alguien que se ría de ti para hacerte sentir mejor.",
+      "en": "I guess you really just need someone to laugh at you if you want to feel better."
+     },
+     "options": [
+      {
+       "es": "Eso parece.",
+       "en": "It seems that way.",
+       "points": 3
+      },
+      {
+       "es": "Qué solución tan simple.",
+       "en": "That's such a simple solution.",
+       "points": 0
+      },
+      {
+       "es": "Si sois amigos, claro.",
+       "en": "If it's a friend, yeah.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Así que he estado pensando y... ¿qué puedo hacer para ayudarla?",
+      "en": "So I was thinking, and um... what can I do to help Shiho?"
+     },
+     "options": [
+      {
+       "es": "Consolarla.",
+       "en": "Comfort her.",
+       "points": 3
+      },
+      {
+       "es": "Escucharla.",
+       "en": "Listen to what she has to say.",
+       "points": 2
+      },
+      {
+       "es": "Mostrarle lo fuerte que eres tú.",
+       "en": "Show her your own strength.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¡Seguro que encuentro algo que pueda hacer por ella...!",
+      "en": "I know I'll find something I can do for her...!"
+     },
+     "options": [
+      {
+       "en": "Someone's motivated.",
+       "es": "Alguien está motivada.",
+       "points": 2
+      },
+      {
+       "en": "I'll cheer you on.",
+       "es": "Te daré ánimos.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Harisen Recovery",
+     "description": "Cura estados alterados del grupo cuando Ann está en el equipo."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "A saber por qué...",
+      "en": "I wonder why..."
+     },
+     "options": [
+      {
+       "es": "¡Es una trampa!",
+       "en": "It's a trap!",
+       "points": 0
+      },
+      {
+       "es": "Te admira.",
+       "en": "She admires you.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¡Quiero ser una modelo de verdad!",
+      "en": "I want to be a real model...!"
+     },
+     "options": [
+      {
+       "es": "Ya lo eres.",
+       "en": "You already are one.",
+       "points": 0
+      },
+      {
+       "es": "¡A por todas, leona!",
+       "en": "Go get 'em, tiger.",
+       "points": 2
+      },
+      {
+       "es": "¿Y las películas de acción...?",
+       "en": "What about your action movies...?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "¡Haré cualquier ejercicio!",
+      "en": "I'll do any workout!"
+     },
+     "options": [
+      {
+       "en": "You got this.",
+       "es": "Tú puedes.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Sexy Technique",
+     "description": "Ann puede seducir a las Sombras al negociar."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Evidentemente, también quiero reducir cintura y endurecer el culete y las piernas.",
+      "en": "Obviously I want to cut down on my waist size too... and firm up my butt and calves!"
+     },
+     "options": [
+      {
+       "es": "Eso es muchísimo trabajo...",
+       "en": "That's a lot of work...",
+       "points": 0
+      },
+      {
+       "es": "Los tienes bien puestos.",
+       "en": "You have some real guts.",
+       "points": 3
+      },
+      {
+       "es": "Tú estás guapa siempre.",
+       "en": "You're beautiful as is.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Mmm... Tiene que haber algún sitio donde mi encanto resalte, ¿no?",
+      "en": "Huh... There has to be somewhere my vibrant charm will shine, right!?"
+     },
+     "options": [
+      {
+       "es": "No me cabe ninguna duda.",
+       "en": "There's no doubt in my mind.",
+       "points": 3
+      },
+      {
+       "es": "Eso espero.",
+       "en": "I hope so.",
+       "points": 3
+      },
+      {
+       "es": "Suerte con la búsqueda.",
+       "en": "Good luck finding it.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Tengo que demostrarle que me estoy esforzando... y que no tiene que preocuparse por mí.",
+      "en": "I need to show her that I'm working hard... and that she doesn't need to worry so much about me."
+     },
+     "options": [
+      {
+       "es": "Se va a alegrar muchísimo.",
+       "en": "She'll be happy to hear that.",
+       "points": 3
+      },
+      {
+       "es": "Seguro que ya lo sabe.",
+       "en": "I'm sure she already knows.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Poder esforzarse porque alguien estaba con ella...",
+      "en": "Being able to push herself because someone was there with her..."
+     },
+     "options": [
+      {
+       "en": "You can ask her yourself.",
+       "es": "Puedes preguntárselo tú.",
+       "points": 2
+      },
+      {
+       "en": "That's probably it.",
+       "es": "Seguramente sea eso.",
+       "points": 0
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Endure",
+     "description": "Ann puede aguantar un golpe que la derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Porque, bueno... solo podré ayudar a Shiho mostrándole cuánto me esfuerzo.",
+      "en": "Because, well... the only way I can help Shiho is to show her how hard I'm working."
+     },
+     "options": [
+      {
+       "es": "Tú puedes.",
+       "en": "Hang in there.",
+       "points": 3
+      },
+      {
+       "es": "Confío en ti, Ann.",
+       "en": "I believe in you, Ann.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Pues parece... que vuelvo a estar sola, ¿no?",
+      "en": "I guess... I'm alone again, huh...?"
+     },
+     "options": [
+      {
+       "es": "Me tienes a mí.",
+       "en": "You have me.",
+       "points": 0,
+       "romance": true
+      },
+      {
+       "es": "Tienes a los demás.",
+       "en": "You have the others.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": true,
+     "provisional": true,
+     "speaker": "Ann",
+     "prompt": {
+      "es": "Supongo que... vuelvo a estar sola, ¿eh...?",
+      "en": "I guess... I'm alone again, huh...?"
+     },
+     "options": [
+      {
+       "en": "I'm yours forever.",
+       "es": "Soy tuyo para siempre.",
+       "points": 3,
+       "romance": true
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Protect",
+     "description": "Ann puede proteger a Joker de un ataque que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Second Awakening",
+     "description": "Su Persona evoluciona a Hécate."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}

@@ -1,58 +1,752 @@
 {
-  "id": "ryuji",
-  "name": "Ryuji Sakamoto",
-  "arcana": "chariot",
-  "phantomThief": true,
-  "romance": false,
-  "maxRank": 10,
-  "tips": ["Llevá una Persona de Arcana Chariot para ganar puntos extra."],
-  "textsProvisional": true,
-  "sources": ["https://www.rpgsite.net/feature/5471-persona-5-royal-ryuji-confidant-guide-chariot-choices-unlocks"],
-  "ranks": [
-    { "rank": 1, "choicesDontMatter": true, "conversations": [], "unlocks": [] },
+ "id": "ryuji",
+ "name": "Ryuji Sakamoto",
+ "arcana": "chariot",
+ "phantomThief": true,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [
+  "Llevá una Persona de Arcana Chariot para ganar puntos extra."
+ ],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/5471-persona-5-royal-ryuji-confidant-guide-chariot-choices-unlocks"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
     {
-      "rank": 2,
-      "conversations": [
-        {
-          "kind": "conversation",
-          "royalOnly": false,
-          "romance": false,
-          "speaker": "Ryuji",
-          "prompt": { "es": "Quizá así pueda echar una mano un poco más.", "en": "Maybe then I'll be able to help out a little more." },
-          "options": [
-            { "es": "Cuento contigo.", "en": "I'm counting on you.", "points": 3 },
-            { "es": "Se te ve muy motivado.", "en": "You seem pretty excited.", "points": 3 },
-            { "es": "...¿Echar una mano con qué?", "en": "...help with what?", "points": 2 }
-          ]
-        },
-        {
-          "kind": "conversation",
-          "royalOnly": false,
-          "romance": false,
-          "speaker": "Ryuji",
-          "prompt": { "es": "......", "en": "......" },
-          "options": [
-            { "es": "¿Quieres volver?", "en": "Do you want to go back?", "points": 2 },
-            { "es": "¿Te arrepientes?", "en": "Do you regret it?", "points": 2 }
-          ]
-        },
-        {
-          "kind": "phone",
-          "royalOnly": true,
-          "romance": false,
-          "speaker": "Ryuji",
-          "prompt": { "es": "Debería haber seguido corriendo.", "en": "I should've kept up my running." },
-          "options": [
-            { "es": "Ya eres bastante rápido.", "en": "You're already fast enough.", "points": 2 },
-            { "es": "¿Tus piernas están bien?", "en": "Are your legs okay?", "points": 2 },
-            { "es": "Nunca es tarde, tío.", "en": "It's never too late, man.", "points": 2 }
-          ]
-        }
-      ],
-      "unlocks": [
-        { "name": "Baton Pass", "description": "Después de un 1 More, Ryuji puede pasarle el turno a otro compañero que también tenga Baton Pass." }
-      ]
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Además, así sería de más ayuda.",
+      "en": "Plus, maybe then I'll be able to help out a little more."
+     },
+     "options": [
+      {
+       "es": "Cuento contigo.",
+       "en": "I'm counting on you.",
+       "points": 3
+      },
+      {
+       "es": "Pareces emocionado.",
+       "en": "You seem pretty excited.",
+       "points": 3
+      },
+      {
+       "es": "¿Ayuda con qué?",
+       "en": "...Help with what?",
+       "points": 2
+      }
+     ]
     },
-    { "rank": 10, "choicesDontMatter": true, "conversations": [], "unlocks": [] }
-  ]
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "...",
+      "en": "......"
+     },
+     "options": [
+      {
+       "es": "¿Quieres volver?",
+       "en": "Do you want to go back?",
+       "points": 2
+      },
+      {
+       "es": "¿Te arrepientes?",
+       "en": "Do you regret it?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Debería haber seguido corriendo.",
+      "en": "I should've kept up my running."
+     },
+     "options": [
+      {
+       "en": "You're already fast enough.",
+       "es": "Ya eres bastante rápido.",
+       "points": 2
+      },
+      {
+       "en": "Are your legs okay?",
+       "es": "¿Tus piernas están bien?",
+       "points": 2
+      },
+      {
+       "en": "It's never too late, man.",
+       "es": "Nunca es tarde, tío.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Baton Pass",
+     "description": "Después de un 1 More, Ryuji puede pasarle el turno a otro compañero con Baton Pass."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "...",
+      "en": "......"
+     },
+     "options": [
+      {
+       "es": "Nada de pelearse.",
+       "en": "Let's not fight.",
+       "points": 2
+      },
+      {
+       "es": "¿Queréis entrenar con nosotros?",
+       "en": "Want to train with us?",
+       "points": 0
+      },
+      {
+       "es": "Encantado.",
+       "en": "It's nice to meet you.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Eso no tiene nada que ver...",
+      "en": "That don't got anything to do with this..."
+     },
+     "options": [
+      {
+       "es": "Relaja, Ryuji.",
+       "en": "Calm down, Ryuji.",
+       "points": 3
+      },
+      {
+       "es": "Aguanta.",
+       "en": "Just endure it.",
+       "points": 2
+      },
+      {
+       "es": "Se van a cagar.",
+       "en": "I'll shut them up.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Me cabreo muy fácilmente. Tengo que trabajar en eso.",
+      "en": "I get pissed off so damn easily. I really gotta work on that."
+     },
+     "options": [
+      {
+       "en": "I can't exactly blame you.",
+       "es": "No puedo culparte.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Follow Up",
+     "description": "Ryuji puede atacar después de Joker."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "No parecía que se llevase bien con los demás.",
+      "en": "But for some reason it don't look like he's gettin' along with the others."
+     },
+     "options": [
+      {
+       "es": "¿Nakaoka?",
+       "en": "Nakaoka?",
+       "points": 0
+      },
+      {
+       "es": "¿Te preocupa?",
+       "en": "Are you worried about him?",
+       "points": 3
+      },
+      {
+       "es": "Déjalo en paz.",
+       "en": "Just leave him be.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Es bueno que agachen la cabeza porque no quiero que acaben como yo.",
+      "en": "It's good they're keepin' their heads low now though. I don't want 'em endin' up like me."
+     },
+     "options": [
+      {
+       "es": "Lo estás haciendo genial.",
+       "en": "But you're doing great.",
+       "points": 3
+      },
+      {
+       "es": "No está tan mal.",
+       "en": "It's not so bad.",
+       "points": 2
+      },
+      {
+       "es": "Sé cómo te sientes.",
+       "en": "I know how you feel.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Punk Talk",
+     "description": "Ryuji puede salvar una negociación con una Sombra que salió mal. También desbloquea el ramen de Ogikubo."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Me alegro por ellos.",
+      "en": "...Good for them."
+     },
+     "options": [
+      {
+       "es": "No sabes qué hacer, ¿verdad?",
+       "en": "You seem conflicted.",
+       "points": 2
+      },
+      {
+       "es": "¿Quieres volver?",
+       "en": "Do you want to rejoin?",
+       "points": 2
+      },
+      {
+       "es": "No quieres saber nada, ¿no?",
+       "en": "You're done with them, right?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Pero me sigue preocupando el asesor, Yamauchi, porque es un miniKamoshida.",
+      "en": "But I'm still worried 'bout their advisor, Yamauchi. He's basically like a mini-Kamoshida."
+     },
+     "options": [
+      {
+       "es": "¿Es bajito?",
+       "en": "So he's short?",
+       "points": 2
+      },
+      {
+       "es": "¿Es un capullo?",
+       "en": "So he's an asshole?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "¡Ah, sí! Tienes que traer una cosa.",
+      "en": "Oh yeah! You bring your stuff?"
+     },
+     "options": [
+      {
+       "es": "¿Una toalla?",
+       "en": "A towel?",
+       "points": 2
+      },
+      {
+       "es": "¿Proteína en polvo?",
+       "en": "Protein powder?",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "¡No estoy muy preocupado!",
+      "en": "I ain't too worried!"
+     },
+     "options": [
+      {
+       "en": "Don't worry. I gotcha.",
+       "es": "Tranquilo, yo me encargo.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "¿Tienes alguna idea?",
+      "en": "You got any ideas?"
+     },
+     "options": [
+      {
+       "es": "Quedémonos aquí.",
+       "en": "Let's stay here.",
+       "points": 2
+      },
+      {
+       "es": "¿Y si vamos al Protein Lovers?",
+       "en": "How about Protein Lovers?",
+       "points": 2
+      },
+      {
+       "es": "Podemos entrenar en mi casa.",
+       "en": "We can train at my place.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "¿Qué? ¡Mentira!",
+      "en": "Huh? That's a load of bull!"
+     },
+     "options": [
+      {
+       "es": "Tenéis que confiar en Nakaoka.",
+       "en": "You guys should trust Nakaoka.",
+       "points": 3
+      },
+      {
+       "es": "No discutáis.",
+       "en": "This is no time for arguing.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": ", entiendes lo que trato de decir, ¿no?",
+      "en": "... You get what I'm tryin' to say, yeah?"
+     },
+     "options": [
+      {
+       "es": "Sin duda.",
+       "en": "Absolutely.",
+       "points": 3
+      },
+      {
+       "es": "Más o menos.",
+       "en": "More or less.",
+       "points": 3
+      },
+      {
+       "es": "Ni lo más mínimo.",
+       "en": "Not in the slightest.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Se va a callar aunque le peguen.",
+      "en": "He'll keep his mouth shut whether or not someone's punchin' him."
+     },
+     "options": [
+      {
+       "en": "So he should've punched back?",
+       "es": "¿Entonces debería haber devuelto el golpe?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Harisen Recovery",
+     "description": "Cura estados alterados del grupo cuando Ryuji está en el equipo."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Si no hacemos algo pronto, Yamauchi también se deshará de Takeishi... ¡Joder!",
+      "en": "If we don't do something quick, Yamauchi's gonna get rid of Takeishi too... Goddammit!"
+     },
+     "options": [
+      {
+       "es": "¿Deberíamos despertar su corazón?",
+       "en": "Should we change his heart?",
+       "points": 0
+      },
+      {
+       "es": "Hablemos con Takeishi.",
+       "en": "Let's talk to Takeishi.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Puede que no suene muy guay, pero es lo que siento.",
+      "en": "I know that ain't the coolest thing to say, but it's how I feel."
+     },
+     "options": [
+      {
+       "es": "Yo creo que es guay, Ryuji.",
+       "en": "I think it's cool, Ryuji.",
+       "points": 3
+      },
+      {
+       "es": "Espera, ¿qué has dicho?",
+       "en": "Wait, what?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Insta-kill",
+     "description": "Después de una emboscada puede ganar el combate al instante (más probable con enemigos débiles)."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Has visto eso, ¿no? ¡Qué violencia!",
+      "en": "You saw that, right? That was some serious violence!"
+     },
+     "options": [
+      {
+       "es": "Todo ha salido a pedir de boca.",
+       "en": "Things turned out for the best.",
+       "points": 3
+      },
+      {
+       "es": "Te lo merecías.",
+       "en": "You deserved it.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Gracias.",
+      "en": "...Thanks."
+     },
+     "options": [
+      {
+       "es": "Yo me he limitado a mirar.",
+       "en": "All I did was watch.",
+       "points": 3
+      },
+      {
+       "es": "¿Cómo me lo vas a pagar?",
+       "en": "Are you gonna pay me back?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Ha sido como si estuviera esprintando... y tú corrieras a mi lado.",
+      "en": "It's kinda like I was doin' a sprint... and you were runnin' next to me."
+     },
+     "options": [
+      {
+       "es": "Pero si estaba aquí parado...",
+       "en": "But I was just standing here...",
+       "points": 2
+      },
+      {
+       "es": "Bueno, muy tranquilo no has estado.",
+       "en": "You weren't cool though.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Verlos hablar de corazón... Tienen un buen equipo.",
+      "en": "Seein' them havin' a real heart-to-heart talk... They got a good team."
+     },
+     "options": [
+      {
+       "en": "So. Case closed?",
+       "es": "Entonces, ¿caso cerrado?",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Endure",
+     "description": "Puede aguantar un golpe que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Parece que ya han empezado a andar su propio camino.",
+      "en": "Looks like they're finally walkin' their own path."
+     },
+     "options": [
+      {
+       "es": "¿Ya estás satisfecho?",
+       "en": "Are you satisfied now?",
+       "points": 3
+      },
+      {
+       "es": "¿No se supone que deben correr?",
+       "en": "Not running?",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Ah, y... me han pedido que vuelva al equipo.",
+      "en": "Oh, and uh... they asked me to come back to the team."
+     },
+     "options": [
+      {
+       "es": "¿Qué has dicho?",
+       "en": "What did you say?",
+       "points": 2
+      },
+      {
+       "es": "¿Tienes tiempo para eso?",
+       "en": "Do you have any time for that?",
+       "points": 2
+      },
+      {
+       "es": "No lo hagas.",
+       "en": "Don't do it.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Donde tú decides que quieres estar es el lugar al que perteneces.",
+      "en": "Wherever you decide to be, that's where you belong."
+     },
+     "options": [
+      {
+       "es": "Tienes razón.",
+       "en": "You're right.",
+       "points": 3
+      },
+      {
+       "es": "No me había dado cuenta.",
+       "en": "I never realized that.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Me alegro de haberlo encontrado.",
+      "en": "...I'm just glad I found it."
+     },
+     "options": [
+      {
+       "es": "Estoy de acuerdo.",
+       "en": "I agree.",
+       "points": 2
+      },
+      {
+       "es": "Sé más específico.",
+       "en": "Be more specific.",
+       "points": 0
+      },
+      {
+       "es": "¿Y cuál es ese sitio?",
+       "en": "And where is this place?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Parece que lo tienen bajo control.",
+      "en": "Sounds like they got him under control."
+     },
+     "options": [
+      {
+       "en": "Congratulations.",
+       "es": "Felicidades.",
+       "points": 2
+      },
+      {
+       "en": "Better watch out for them.",
+       "es": "Más vale que tengas cuidado con ellos.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Protect",
+     "description": "Ryuji puede proteger a Joker de un ataque que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Second Awakening",
+     "description": "Su Persona evoluciona a Seiten Taisei. Además se desbloquea la fusión de Chi You."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
 }

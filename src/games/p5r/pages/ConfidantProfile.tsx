@@ -28,6 +28,7 @@ function ConversationCard({ c, index }: { c: Conversation; index: number }) {
           {c.royalOnly && <span className="tag tag--royal">Solo Royal</span>}
           {c.romance && <span className="tag tag--romance">Romance</span>}
         </span>
+        {c.provisional && <span className={styles.provisional}>Traducción provisoria</span>}
       </div>
       <p className={styles.prompt}>
         <strong>{c.speaker}:</strong> «{c.prompt.es}»
@@ -334,7 +335,7 @@ export default function ConfidantProfile() {
             <span className={styles.rankNum}>Rango {sel}</span>
             {rank && rank.conversations.length > 0 && (
               <span className="label" style={{ color: 'var(--c-text-dim)' }}>
-                {data?.textsProvisional ? 'Traducción provisoria · falta texto oficial (España)' : 'Español (España)'}
+                {data?.textsProvisional ? 'Traducción provisoria · falta texto oficial (España)' : 'Texto oficial del juego'}
               </span>
             )}
           </div>

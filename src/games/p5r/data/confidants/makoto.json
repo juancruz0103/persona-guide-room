@@ -1,0 +1,815 @@
+{
+ "id": "makoto",
+ "name": "Makoto Niijima",
+ "arcana": "priestess",
+ "phantomThief": true,
+ "romance": true,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "sources": [
+  "https://www.rpgsite.net/feature/9378-persona-5-royal-makoto-confidant-guide-priestess-choices-romance-gifts"
+ ],
+ "ranks": [
+  {
+   "rank": 1,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Shadow Calculus",
+     "description": "Muestra las skills y los objetos de las Sombras en la pantalla de análisis."
+    }
+   ],
+   "choicesDontMatter": true
+  },
+  {
+   "rank": 2,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Escuché que también había unos cuantos burdeles.",
+      "en": "I heard there were quite a few brothels as well."
+     },
+     "options": [
+      {
+       "es": "Estás muy bien informada.",
+       "en": "You're very well informed.",
+       "points": 2
+      },
+      {
+       "es": "¿Has estado aquí alguna vez?",
+       "en": "Have you ever been here?",
+       "points": 0
+      },
+      {
+       "es": "No te alejes de mí.",
+       "en": "Stay close to me.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Si no me hubieras rescatado, yo...",
+      "en": "If you hadn't been there to rescue me, I..."
+     },
+     "options": [
+      {
+       "es": "Deberías haberlo pensado dos veces.",
+       "en": "You should have known better.",
+       "points": 2
+      },
+      {
+       "es": "Ha sido peligroso.",
+       "en": "That was dangerous.",
+       "points": 3
+      },
+      {
+       "es": "Te pones nerviosa con nada, ¿eh?",
+       "en": "You get flustered easily, huh?",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Supongo que no hay nada como la experiencia práctica.",
+      "en": "I guess nothing beats practical experience."
+     },
+     "options": [
+      {
+       "en": "Couldn't agree more.",
+       "es": "No podría estar más de acuerdo.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Baton Pass",
+     "description": "Después de un 1 More, Makoto puede pasarle el turno a otro compañero con Baton Pass."
+    }
+   ]
+  },
+  {
+   "rank": 3,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¿Y eso, señorita presi?",
+      "en": "What's up with that, Miss Prez?"
+     },
+     "options": [
+      {
+       "es": "Te estás equivocando.",
+       "en": "You have the wrong idea.",
+       "points": 2
+      },
+      {
+       "es": "Y si estábamos juntos, ¿qué pasa?",
+       "en": "So what if we were together?",
+       "points": 0
+      },
+      {
+       "es": "No es asunto tuyo.",
+       "en": "It's none of your business.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Pensaba que yo era un robot...",
+      "en": "She thought I was a robot..."
+     },
+     "options": [
+      {
+       "es": "No dejes que te afecte.",
+       "en": "Don't let it get to you.",
+       "points": 2
+      },
+      {
+       "es": "Puedes cambiar.",
+       "en": "You can change.",
+       "points": 3
+      },
+      {
+       "es": "Bip, bup.",
+       "en": "Beep boop.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¡Hasta tiene un montón de emoticonos de Buchimaru-kun!",
+      "en": "She even has a bunch of Buchimaru-kun emoticons!"
+     },
+     "options": [
+      {
+       "en": "Sounds like you two get along.",
+       "es": "Parece que os lleváis bien.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Brainiac Talk",
+     "description": "Makoto puede salvar una negociación con una Sombra que salió mal."
+    }
+   ]
+  },
+  {
+   "rank": 4,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Hicimos un examen de prueba y saqué mucha menos nota que la última vez. Estoy preocupada...",
+      "en": "So, my class had a practice entrance exam... and my score was significantly lower than last time. I'm concerned..."
+     },
+     "options": [
+      {
+       "es": "No es propio de ti.",
+       "en": "That's unlike you.",
+       "points": 2
+      },
+      {
+       "es": "¿Ser Ladrón Fantasma te distrae?",
+       "en": "Is Thieves work distracting you?",
+       "points": 0
+      },
+      {
+       "es": "Te habrá ido mejor que a mí.",
+       "en": "I'm sure you did better than me.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Le envié una foto... y al parecer es la misma marca que hay en la enfermería del instituto.",
+      "en": "I sent her a picture... and it's apparently the same brand they use in the nurse's office at school."
+     },
+     "options": [
+      {
+       "es": "¿Por qué la usas?",
+       "en": "Why do you use it?",
+       "points": 3
+      },
+      {
+       "es": "Qué mona.",
+       "en": "That's adorable.",
+       "points": 2
+      },
+      {
+       "es": "No eres muy femenina...",
+       "en": "You're not very ladylike...",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Debo admitir que había olvidado ese sueño...",
+      "en": "I had completely forgotten about that dream, to be honest..."
+     },
+     "options": [
+      {
+       "es": "¿Aún quieres ir a por ello?",
+       "en": "Do you still want to pursue it?",
+       "points": 0
+      },
+      {
+       "es": "Me gustan las mujeres de uniforme.",
+       "en": "I like a woman in uniform.",
+       "points": 2
+      },
+      {
+       "es": "Es un objetivo increíble.",
+       "en": "It's an amazing goal.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Follow Up",
+     "description": "Makoto puede atacar después de Joker."
+    }
+   ]
+  },
+  {
+   "rank": 5,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Desde entonces no hace más que hablar de él. Hasta me envío una foto de su cita en Destinyland.",
+      "en": "Since then, he's the only thing she'll talk about. She even sent me a picture of their date at Destinyland."
+     },
+     "options": [
+      {
+       "es": "¿Los envidias?",
+       "en": "Are you jealous of them?",
+       "points": 0
+      },
+      {
+       "es": "Te deben poner de los nervios.",
+       "en": "That's annoying.",
+       "points": 2
+      },
+      {
+       "es": "Me da mal rollo.",
+       "en": "He sounds suspicious.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Esta vez... te tocará hacer el papel de mi novio.",
+      "en": "This time, um... you'll have to play the role of my boyfriend."
+     },
+     "options": [
+      {
+       "es": "Yo me encargo.",
+       "en": "I got this.",
+       "points": 3
+      },
+      {
+       "es": "¿Por qué tengo que hacerlo yo?",
+       "en": "Why do I have to do it?",
+       "points": 0
+      },
+      {
+       "es": "Solo si me lo puedo tomar en serio.",
+       "en": "Only if I can take it seriously.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¿Qué deberíamos hacer...?",
+      "en": "What should we do...?"
+     },
+     "options": [
+      {
+       "en": "Try to reach out to her.",
+       "es": "Intenta hablar con ella.",
+       "points": 3
+      }
+     ]
+    }
+   ],
+   "unlocks": []
+  },
+  {
+   "rank": 6,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¿En serio estáis saliendo?",
+      "en": "Are you seriously datin'?"
+     },
+     "options": [
+      {
+       "es": "Acabamos de empezar.",
+       "en": "We just started.",
+       "points": 2
+      },
+      {
+       "es": "Ahora estamos peleados.",
+       "en": "We're fighting right now.",
+       "points": 0
+      },
+      {
+       "es": "El amor adopta muchas formas.",
+       "en": "Love comes in many forms.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Quiero ignorarlo, pero no debería, por Eiko...",
+      "en": "I want to ignore him, but I shouldn't for Eiko's sake..."
+     },
+     "options": [
+      {
+       "en": "Tell him you're on a date.",
+       "es": "Dile que estás en una cita.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Harisen Recovery",
+     "description": "Cura estados alterados del grupo cuando Makoto está en el equipo."
+    }
+   ]
+  },
+  {
+   "rank": 7,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "No sé si esto habría ocurrido de no ser por lo que le pasó a mi padre.",
+      "en": "I'm not sure any of that would have happened if not for the incident with my father..."
+     },
+     "options": [
+      {
+       "es": "Qué horror...",
+       "en": "That's a horrible story.",
+       "points": 3
+      },
+      {
+       "es": "¿Ha sido difícil crecer sin él?",
+       "en": "Was it tough without him?",
+       "points": 2
+      },
+      {
+       "es": "Era un hombre honrado.",
+       "en": "He was a noble man.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Esa es la vida que decidió vivir. Intentó llevar justicia y orden al mundo.",
+      "en": "That was how my father chose to live his life... Trying to bring justice and order to the world around him."
+     },
+     "options": [
+      {
+       "es": "Es admirable.",
+       "en": "That's admirable.",
+       "points": 3
+      },
+      {
+       "es": "Seguro que fue feliz.",
+       "en": "I'm sure he was happy.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Y, lo más importante, ¿cómo quiero vivir?",
+      "en": "And more importantly, how do I want to live...?"
+     },
+     "options": [
+      {
+       "es": "¿Tienes alguna respuesta?",
+       "en": "Do you have an answer?",
+       "points": 2
+      },
+      {
+       "es": "Puedes averiguarlo ahora.",
+       "en": "You can figure that out now.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "«¿Vas n serio cn ?». «¿Kieres 1 boda doble?».",
+      "en": "\"U serious abt -kun?\" \"Wanna hav a double wedding?\""
+     },
+     "options": [
+      {
+       "es": "Yo voy si tú vas.",
+       "en": "I'm game if you are.",
+       "points": 2
+      },
+      {
+       "es": "¿Qué vas a decir?",
+       "en": "What are you going to say?",
+       "points": 0
+      },
+      {
+       "es": "Dile que no, por favor.",
+       "en": "Refuse her, please.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "provisional": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¿Podemos seguir así hasta que me decida?",
+      "en": "Can we keep this up until I can make a call one way or the other?"
+     },
+     "options": [
+      {
+       "en": "It's the role I always hoped for.",
+       "es": "Es el papel que siempre quise.",
+       "points": 3
+      },
+      {
+       "en": "Of course.",
+       "es": "Claro.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Shadow Factorization",
+     "description": "Al apuntar, muestra si el ataque va a ser eficaz."
+    }
+   ]
+  },
+  {
+   "rank": 8,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Conque su princesa especial... ¿Tú qué opinas, ?",
+      "en": "So he calls you his special princess... What do you think, -kun?"
+     },
+     "options": [
+      {
+       "es": "Les dice eso a todas.",
+       "en": "He says that to all his girls.",
+       "points": 2
+      },
+      {
+       "es": "Así es como te engatusa.",
+       "en": "That's how he ropes you in.",
+       "points": 2
+      },
+      {
+       "es": "No estoy seguro.",
+       "en": "I'm not sure.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Tiene que darse cuenta. Vas a ayudarme, ¿verdad?",
+      "en": "She needs to realize that. You're going to help, right?"
+     },
+     "options": [
+      {
+       "es": "Sin duda.",
+       "en": "Absolutely.",
+       "points": 3
+      },
+      {
+       "es": "¿Qué vamos a hacer?",
+       "en": "What are we going to do?",
+       "points": 2
+      },
+      {
+       "es": "Eh, ella se lo ha buscado.",
+       "en": "Eh, she deserves him.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Endure",
+     "description": "Makoto puede aguantar un golpe que la derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 9,
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¡Venga, valiente!",
+      "en": "I dare you!"
+     },
+     "options": [
+      {
+       "es": "¡Apártate de ella!",
+       "en": "Get away from her!",
+       "points": 3
+      },
+      {
+       "es": "Estás peleando conmigo.",
+       "en": "Your fight's with me.",
+       "points": 3
+      },
+      {
+       "es": "Voy a llamar a la policía.",
+       "en": "I'm calling the cops.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "La gente lo ha visto todo.",
+      "en": "People noticed what happened..."
+     },
+     "options": [
+      {
+       "es": "Deberíamos irnos.",
+       "en": "We should get out of here.",
+       "points": 2
+      },
+      {
+       "es": "Sígueme.",
+       "en": "Follow me.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "No puedo creer que le haya pegado a una amiga mía.",
+      "en": "I can't believe I actually hit one of my friends..."
+     },
+     "options": [
+      {
+       "es": "Seguro que le dolió.",
+       "en": "It looked like it hurt.",
+       "points": 0
+      },
+      {
+       "es": "Hiciste lo que debías.",
+       "en": "That was the right move.",
+       "points": 2
+      },
+      {
+       "es": "Vaya bofetón.",
+       "en": "You really smacked her.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¿Cómo lo encontraste? Cuántas cosas sabes...",
+      "en": "How did you ever find somewhere like this? You know so much."
+     },
+     "options": [
+      {
+       "es": "Suelo venir mucho.",
+       "en": "I'm a regular here.",
+       "points": 3
+      },
+      {
+       "es": "La gente queda aquí.",
+       "en": "It's a popular meeting spot.",
+       "points": 3
+      },
+      {
+       "es": "No tanto como tú.",
+       "en": "Not as much as you.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "No puedo aprender cosas del amor yo sola.",
+      "en": "I can't learn about romance by myself..."
+     },
+     "options": [
+      {
+       "es": "Ya encontrarás a alguien.",
+       "en": "You'll find someone someday.",
+       "points": 3
+      },
+      {
+       "es": "Estudiaré contigo.",
+       "en": "I'll be your study partner.",
+       "points": 0,
+       "romance": true
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "¿Te... gusto?",
+      "en": "Do you... like me?"
+     },
+     "options": [
+      {
+       "es": "Sí.",
+       "en": "I do.",
+       "points": 3,
+       "romance": true
+      },
+      {
+       "es": "Eso no es lo que quería decir.",
+       "en": "That's not what I meant.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": true,
+     "provisional": true,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "(la guía no da la frase)",
+      "en": "(la guía no da la frase)"
+     },
+     "options": [
+      {
+       "en": "I'd do anything for you.",
+       "es": "Haría cualquier cosa por ti.",
+       "points": 2,
+       "romance": true
+      },
+      {
+       "en": "No problem at all.",
+       "es": "No es ningún problema.",
+       "points": 2
+      },
+      {
+       "en": "No big deal.",
+       "es": "No es para tanto.",
+       "points": 2
+      }
+     ]
+    }
+   ],
+   "unlocks": [
+    {
+     "name": "Protect",
+     "description": "Makoto puede proteger a Joker de un ataque que lo derrotaría."
+    }
+   ]
+  },
+  {
+   "rank": 10,
+   "conversations": [],
+   "unlocks": [
+    {
+     "name": "Second Awakening",
+     "description": "Su Persona evoluciona a Anat."
+    }
+   ],
+   "choicesDontMatter": true
+  }
+ ]
+}
