@@ -8,6 +8,7 @@ export const es = {
     home: 'Inicio',
     calculator: 'Calculadora',
     confidants: 'Confidentes',
+    school: 'Clases',
     soon: 'Próximamente',
     about: 'El proyecto',
     openGameMenu: 'Cambiar de juego',

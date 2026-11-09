@@ -18,7 +18,7 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones de Personas 
 | 4 · Guía de confidentes (9 Ladrones Fantasma) | ⏳ Próxima |
 | 5 · Pruebas y publicación | ⏳ |
 
-**Hoy:** la calculadora tiene las **232 Personas** de Royal, fusión de 2 Personas, búsqueda inversa y recetas especiales, con opciones para excluir DLC y Treasure Demons. En los confidentes, solo el **rango 2 de Ryuji** tiene datos (traducción provisoria). Todo lo pendiente está marcado así en la web.
+**Hoy:** la calculadora tiene las **232 Personas** de Royal, fusión de 2 Personas, búsqueda inversa y recetas especiales, con opciones para excluir DLC y Treasure Demons. **Respuestas de clase:** las 100 preguntas de profesores y exámenes, filtrables por mes, día y tipo. En los confidentes, solo el **rango 2 de Ryuji** tiene datos (traducción provisoria). Todo lo pendiente está marcado así en la web.
 
 ## Tecnologías
 
@@ -81,6 +81,7 @@ docs/                   Informe y decisiones del proyecto
 | Personas, skills, reglas de fusión | [aqiu384/megaten-fusion-tool](https://github.com/aqiu384/megaten-fusion-tool) (solo archivos de Royal) | Unlicense (dominio público). Se atribuye igual. |
 | Respuestas y puntos de confidentes | [RPG Site](https://www.rpgsite.net/feature/5479-persona-5-royal-confidant-guide-conversation-choices-answers-romance-options-gifts-skill-unlocks) | Se usan los datos, redactados con palabras propias. |
 | Tabla de Técnicos | [Megami Tensei Wiki](https://megatenwiki.com/wiki/Technical) | Referencia. |
+| Respuestas de clase y exámenes | [Eurogamer España](https://www.eurogamer.es/persona-5-royal-todas-respuestas-examenes-preguntas-clase) (verificadas jugando) · temas redactados a partir de [RPG Site](https://www.rpgsite.net/feature/9602-persona-5-royal-school-answers-all-class-test-questions-solutions) | Se usan las respuestas; los temas están redactados con palabras propias. |
 
 Los íconos de elementos son **diseño propio**. No se usa arte oficial: los recuadros rayados marcan dónde irán las imágenes.
 

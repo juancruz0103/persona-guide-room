@@ -21,5 +21,11 @@ export const p5rGame: GameInfo = {
       description:
         'Respuestas rango por rango, la opción que más puntos da y las habilidades que desbloqueás.',
     },
+    {
+      id: 'school',
+      path: 'clases',
+      title: 'Respuestas de clase',
+      description: 'Las respuestas a todas las preguntas de los profesores y de los exámenes, día por día.',
+    },
   ],
 };

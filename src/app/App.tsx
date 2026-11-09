@@ -10,6 +10,7 @@ const Catalog = lazy(() => import('../games/p5r/pages/Catalog'));
 const PersonaProfile = lazy(() => import('../games/p5r/pages/PersonaProfile'));
 const Fusion = lazy(() => import('../games/p5r/pages/Fusion'));
 const Technical = lazy(() => import('../games/p5r/pages/Technical'));
+const School = lazy(() => import('../games/p5r/pages/School'));
 const Confidants = lazy(() => import('../games/p5r/pages/Confidants'));
 const ConfidantProfile = lazy(() => import('../games/p5r/pages/ConfidantProfile'));
 const NotFound = lazy(() => import('./NotFound'));
@@ -32,6 +33,7 @@ export function App() {
             <Route path="calculadora/fusionar" element={<Fusion />} />
             <Route path="calculadora/persona/:personaId" element={<PersonaProfile />} />
             <Route path="tecnicos" element={<Technical />} />
+            <Route path="clases" element={<School />} />
             <Route path="confidentes" element={<Confidants />} />
             <Route path="confidentes/:confidantId" element={<ConfidantProfile />} />
             <Route path="*" element={<NotFound />} />

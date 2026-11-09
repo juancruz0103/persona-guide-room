@@ -123,9 +123,13 @@
     order: 3;
     width: 100%;
     justify-content: space-between;
-    gap: 12px;
+    gap: 10px;
+    overflow-x: auto;
+    scrollbar-width: none;
   }
   .link {
-    font-size: 16px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
   }
 }

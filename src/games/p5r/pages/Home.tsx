@@ -6,7 +6,7 @@ import { getAllPersonas } from '../services/personas';
 import styles from './Home.module.css';
 
 export default function Home() {
-  const [calc, conf] = p5rGame.tools;
+  const [calc, conf, school] = p5rGame.tools;
   const thieves = CONFIDANTS.filter((c) => c.phantomThief).length;
 
   return (
@@ -58,8 +58,14 @@ export default function Home() {
             <span className={styles.toolDesc}>{conf.description}</span>
             <span className={styles.toolCta}>Entrar →</span>
           </Link>
-          <div className={`${styles.tool} ${styles.toolSoon}`}>
+          <Link to={school.path} className={`${styles.tool} ${styles.toolGold}`}>
             <span className={styles.toolNum}>03</span>
+            <span className={styles.toolTitle}>{school.title}</span>
+            <span className={styles.toolDesc}>{school.description}</span>
+            <span className={styles.toolCta}>Entrar →</span>
+          </Link>
+          <div className={`${styles.tool} ${styles.toolSoon}`}>
+            <span className={styles.toolNum}>04</span>
             <span className={styles.toolTitle}>Próximamente</span>
             <span className={styles.toolDesc}>Seguimiento de progreso con tu cuenta, Personas favoritas y más herramientas.</span>
             <span className={styles.toolCta}>En desarrollo</span>

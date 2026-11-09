@@ -1,0 +1,964 @@
+{
+ "sources": {
+  "answers": "Eurogamer España (verificadas jugando por Juan)",
+  "topics": "Redacción propia a partir de RPG Site",
+  "ann": "GamerTweak marca la del 25 de abril; el resto se confirma jugando"
+ },
+ "exams": [
+  {
+   "id": "may",
+   "title": "Exámenes parciales",
+   "range": "11 – 13 de mayo"
+  },
+  {
+   "id": "jul",
+   "title": "Exámenes finales",
+   "range": "13 – 15 de julio"
+  },
+  {
+   "id": "oct",
+   "title": "Exámenes parciales",
+   "range": "17 – 19 de octubre"
+  },
+  {
+   "id": "dec",
+   "title": "Exámenes finales",
+   "range": "20 – 22 de diciembre"
+  }
+ ],
+ "questions": [
+  {
+   "month": 4,
+   "day": 12,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Según el Diccionario del Diablo, el principal factor del progreso humano",
+   "answer": "Villanos"
+  },
+  {
+   "month": 4,
+   "day": 19,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "¿Cuál de las dos líneas parece más larga?",
+   "answer": "Son iguales"
+  },
+  {
+   "month": 4,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "¿En qué pruebas ganó Nerón en los Juegos Olímpicos?",
+   "answer": "Todas"
+  },
+  {
+   "month": 4,
+   "day": 25,
+   "kind": "class",
+   "askedTo": "ann",
+   "part": 1,
+   "topic": "Qué quiere transmitir la frase «my country, right or wrong»",
+   "answer": "Lo apoyas sin dudarlo"
+  },
+  {
+   "month": 4,
+   "day": 25,
+   "kind": "class",
+   "askedTo": "ann",
+   "part": 2,
+   "topic": "Cuál era el sentido original de esa frase",
+   "answer": "Es tu deber corregirlo"
+  },
+  {
+   "month": 4,
+   "day": 27,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Teorema que lleva el nombre de este número",
+   "answer": "El teorema de los cuatro colores"
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Significado de «wunder»",
+   "answer": "Maravilla"
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Significado de «kind»",
+   "answer": "Niño"
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Significado de «wunderkind»",
+   "answer": "Un prodigio"
+  },
+  {
+   "month": 5,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Traducción literal de «femme fatale»",
+   "answer": "Mujer fatal"
+  },
+  {
+   "month": 5,
+   "day": 10,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Época en la que vivió Minamoto no Yoshitsune",
+   "answer": "La era Heian"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Figura histórica que inspiró la expresión «a favor del magistrado»",
+   "answer": "Minamoto no Yoshitsune",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Nombre del hermano de Yoshitsune",
+   "answer": "Minamoto no Yoritomo",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Quién ganó cuando los hermanos se enfrentaron",
+   "answer": "Ganó Yoritomo",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 4,
+   "topic": "Con quién simpatiza más la gente frente al poderoso",
+   "answer": "El débil",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 12,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Función del cerebro que hace ver una ilusión en la figura",
+   "answer": "Cognición",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 12,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Qué mapas se pueden pintar sin que dos zonas vecinas compartan color",
+   "answer": "Ambos",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Libro que define a los villanos como motor del progreso humano",
+   "answer": "Diccionario del Diablo",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Arquetipo de mujer misteriosa y seductora con segundas intenciones",
+   "answer": "Femme Fatale",
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 16,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Fenómeno en el que creer en un tratamiento mejora su efecto",
+   "answer": "El efecto placebo"
+  },
+  {
+   "month": 5,
+   "day": 19,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Artista de ukiyo-e que se mudó más de cien veces",
+   "answer": "Katsushika Hokusai"
+  },
+  {
+   "month": 5,
+   "day": 21,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Proporción conocida como razón de plata",
+   "answer": "1:1.414"
+  },
+  {
+   "month": 5,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Significado de «syn»",
+   "answer": "Juntos"
+  },
+  {
+   "month": 5,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Significado de «aisthesis»",
+   "answer": "Sentidos"
+  },
+  {
+   "month": 5,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Significado de la palabra completa (sinestesia)",
+   "answer": "La unión de los sentidos"
+  },
+  {
+   "month": 5,
+   "day": 26,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Autor del que Leblanc tomó prestado un personaje",
+   "answer": "Arthur Conan Doyle"
+  },
+  {
+   "month": 5,
+   "day": 31,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Personaje que fijó la imagen del pirata con pata de palo y loro",
+   "answer": "John Silver"
+  },
+  {
+   "month": 6,
+   "day": 4,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Nombre de este fenómeno",
+   "answer": "El efecto halo"
+  },
+  {
+   "month": 6,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "En qué se diferencia el cangrejo rey de un cangrejo",
+   "answer": "El número de patas"
+  },
+  {
+   "month": 6,
+   "day": 8,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué agrega el totalitarismo respecto del autoritarismo",
+   "answer": "Controlas el pensamiento del pueblo"
+  },
+  {
+   "month": 6,
+   "day": 13,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "De qué color se vuelve",
+   "answer": "Verde"
+  },
+  {
+   "month": 6,
+   "day": 15,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué forma de dinero emite el gobierno",
+   "answer": "Monedas"
+  },
+  {
+   "month": 6,
+   "day": 20,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué objeto contiene metales raros",
+   "answer": "Móvil"
+  },
+  {
+   "month": 6,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué cargo ocupaba esta mujer",
+   "answer": "Un papa"
+  },
+  {
+   "month": 6,
+   "day": 27,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Animal de un dicho inglés sobre la lluvia",
+   "answer": "Perros"
+  },
+  {
+   "month": 6,
+   "day": 29,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué dice el reverso de la pieza",
+   "answer": "Dorado"
+  },
+  {
+   "month": 7,
+   "day": 1,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Significado original del nombre de los dumplings",
+   "answer": "Cabeza de bárbaro"
+  },
+  {
+   "month": 7,
+   "day": 4,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Quiénes hicieron que julio y agosto tengan 31 días",
+   "answer": "Julio y Augusto"
+  },
+  {
+   "month": 7,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Con qué se relaciona el encuentro de estrellas de Tanabata",
+   "answer": "La Vía Láctea"
+  },
+  {
+   "month": 7,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Comida tradicional de Tanabata",
+   "answer": "Soumen"
+  },
+  {
+   "month": 7,
+   "day": 9,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Figura en cuestión",
+   "answer": "Triángulo"
+  },
+  {
+   "month": 7,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Qué es la memoria a largo plazo",
+   "answer": "Recuerdos que duran mucho"
+  },
+  {
+   "month": 7,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Cuántos recuerdos se pueden guardar",
+   "answer": "Infinito"
+  },
+  {
+   "month": 7,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Cuánto tiempo pueden durar",
+   "answer": "Para siempre"
+  },
+  {
+   "month": 7,
+   "day": 12,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué hizo el hombre",
+   "answer": "Robo"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Ángulos B y E de la figura",
+   "answer": "64 grados",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Estratega que inventó este alimento según el Romance de los Tres Reinos",
+   "answer": "Zhuge Liang",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Ofrenda que se hacía para calmar el río",
+   "answer": "Cabezas de bárbaros",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 4,
+   "topic": "Por qué el estratega creó los baozi",
+   "answer": "Para ofrecerlos en lugar de las cabezas",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 14,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Nombre y clasificación de la criatura",
+   "answer": "Cangrejo rey rojo (Paralithodes)",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 14,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Efecto de la primera emisión de papel moneda y monedas en Japón",
+   "answer": "Provocó confusión en la economía",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 15,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Equivalente en inglés del dicho noruego «llueven brujas»",
+   "answer": "Perros y gatos",
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 15,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Otro nombre de los soumen de Tanabata",
+   "answer": "Tripas de demonio",
+   "exam": "jul"
+  },
+  {
+   "month": 9,
+   "day": 3,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué representa la mano derecha de una estatua famosa",
+   "answer": "Prosperidad"
+  },
+  {
+   "month": 9,
+   "day": 6,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Fenómeno en el que el segundero parece detenerse",
+   "answer": "La cronostasis"
+  },
+  {
+   "month": 9,
+   "day": 14,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué ofrece una casa de empeños que no ofrece una tienda de segunda mano",
+   "answer": "Préstamos como garantías",
+   "note": "Otras guías ubican esta pregunta el 13 de septiembre."
+  },
+  {
+   "month": 9,
+   "day": 17,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Origen de la expresión inglesa «cat got your tongue»",
+   "answer": "Gatos que comen lenguas humanas"
+  },
+  {
+   "month": 9,
+   "day": 21,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Dónde está la República Checa",
+   "answer": "Centro de Europa"
+  },
+  {
+   "month": 9,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Cuántas piezas blancas y negras tiene una pelota de fútbol",
+   "answer": "20 blancos y 12 negros"
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Primera palabra de la sigla «PVS»",
+   "answer": "Phantom"
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Segunda palabra de la sigla",
+   "answer": "Vibration"
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Última palabra de la sigla",
+   "answer": "Syndrome"
+  },
+  {
+   "month": 9,
+   "day": 29,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Organismo al que pertenecen los pescadores con cormoranes del río Nagara",
+   "answer": "Agencia de la Casa Imperial"
+  },
+  {
+   "month": 10,
+   "day": 3,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué objetos sirven para comparar el tamaño de la materia con el universo",
+   "answer": "Estrellas"
+  },
+  {
+   "month": 10,
+   "day": 6,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Inventor de este instrumento",
+   "answer": "Joseph-Ignace Guillotin"
+  },
+  {
+   "month": 10,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Nombre que se le suele dar a la figura B",
+   "answer": "Bouba"
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Total de caras de una pelota de fútbol",
+   "answer": "32",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Cómo eran antes las pelotas de fútbol",
+   "answer": "Eran de un color",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Cómo se transmitían los partidos antiguos",
+   "answer": "Foto en blanco y negro",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 18,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Quién ejecutaba con este instrumento",
+   "answer": "Charles-Henri Sanson",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 18,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Por qué casi nadie puede ser pescador con cormoranes del Nagara",
+   "answer": "Es una profesión hereditaria",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 19,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Significado de «robota», raíz de «robot»",
+   "answer": "Trabajo forzado",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 19,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Cómo se describe la densidad de estrellas en el espacio",
+   "answer": "3 abejas en toda Europa",
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 22,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Suma de cada columna del cuadrado mágico",
+   "answer": "15"
+  },
+  {
+   "month": 10,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Por qué los recuerdos no coinciden con la realidad",
+   "answer": "Sesgo de memoria"
+  },
+  {
+   "month": 11,
+   "day": 2,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Significado de «wack» en la jerga de los ladrones",
+   "answer": "Objetos robados"
+  },
+  {
+   "month": 11,
+   "day": 4,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué representa el palo de picas",
+   "answer": "Una espada"
+  },
+  {
+   "month": 11,
+   "day": 8,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Edad necesaria para presenciar un juicio",
+   "answer": "Cualquier edad"
+  },
+  {
+   "month": 11,
+   "day": 10,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Por qué al kanji de «cuervo» le falta un trazo",
+   "answer": "Cuesta ver los ojos de un cuervo"
+  },
+  {
+   "month": 11,
+   "day": 12,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Por qué la voz suena distinta por teléfono",
+   "answer": "Porque la voz está sintetizada"
+  },
+  {
+   "month": 11,
+   "day": 14,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Pregunta de seguimiento de la clase (tema a confirmar)",
+   "answer": "Por su altitud",
+   "note": "El tema de esta pregunta no está claro en las guías: se confirma jugando."
+  },
+  {
+   "month": 11,
+   "day": 15,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Cómo castigaron al famoso criminal histórico",
+   "answer": "Exhibieron su cabeza"
+  },
+  {
+   "month": 11,
+   "day": 17,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Nombre de la curva que sugieren los «caracoles»",
+   "answer": "Cocleoide"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Gráfico que inspiró el nombre del diábolo",
+   "answer": "D",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Botín total del famoso ladrón de la era Edo",
+   "answer": "Más de mil millones de yenes",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Su condena",
+   "answer": "Exhibieron su cabeza",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 4,
+   "topic": "Para qué se exhibía a los criminales",
+   "answer": "Ejecución pública",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 21,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Palo de la baraja que representa el Santo Grial",
+   "answer": "Corazones",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 21,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Qué puede hacer incluso un bebé en un juicio en Japón",
+   "answer": "Asistir",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 22,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "País donde al poder en las sombras se lo llama «primer ministro en negro»",
+   "answer": "Japón",
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 22,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Palabra inglesa que inspiró el «do» de «dokyuu»",
+   "answer": "Dreadnought",
+   "exam": "dec"
+  },
+  {
+   "month": 1,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Qué ilustra la frase sintoísta sobre sus dioses",
+   "answer": "Lo numerosos que son"
+  },
+  {
+   "month": 1,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "La frase sobre la cantidad de dioses",
+   "answer": "Los ocho millones de dioses"
+  },
+  {
+   "month": 1,
+   "day": 14,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Lugar real en el que se inspira Ihatov",
+   "answer": "Iwate"
+  },
+  {
+   "month": 1,
+   "day": 18,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Significado original de «awful»",
+   "answer": "Excelente"
+  },
+  {
+   "month": 1,
+   "day": 21,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Qué está pisando la mujer",
+   "answer": "Una serpiente"
+  },
+  {
+   "month": 1,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": "Qué significaba describir a alguien como «salty»",
+   "answer": "Bondadoso"
+  },
+  {
+   "month": 1,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": "Connotación de «salty» en ese contexto",
+   "answer": "Negativo"
+  },
+  {
+   "month": 1,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": "Qué significa probablemente «salty»",
+   "answer": "Resentido"
+  },
+  {
+   "month": 1,
+   "day": 27,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": "Según un estudio, hasta dónde se contagia la felicidad",
+   "answer": "A amigos de amigos de amigos"
+  }
+ ]
+}

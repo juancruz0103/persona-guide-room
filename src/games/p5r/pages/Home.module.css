@@ -121,7 +121,7 @@
 
 .toolGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 32px;
 }
 
@@ -191,6 +191,22 @@ a.tool:hover {
 }
 .toolRed .toolDesc {
   color: #fff0ee;
+}
+
+.toolGold {
+  background: var(--c-accent);
+  color: var(--c-ink);
+}
+.toolGold:hover {
+  color: var(--c-ink);
+}
+.toolGold .toolNum,
+.toolGold .toolCta {
+  color: var(--c-paper);
+  text-shadow: 2px 2px 0 var(--c-ink);
+}
+.toolGold .toolDesc {
+  color: #2a2410;
 }
 
 .toolSoon {
