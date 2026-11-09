@@ -38,7 +38,23 @@ para las diferencias de escritura (por ejemplo "Koropokkuru" / "Koropokguru").
 - Las búsquedas encuentran por nombre en español o en inglés.
 - En la ficha de cada Persona se muestra también su nombre en inglés.
 
-## Próximo
+## Confidentes: dónde están los diálogos
 
-Los mismos paquetes de idioma traen los diálogos de los confidentes (`EVENT_DATA/MESSAGE`),
-con sus opciones de respuesta. Falta ubicar el archivo de cada rango.
+Ubicados en los mismos paquetes de idioma (español e inglés, mismas claves en los dos):
+
+| Archivo | Contenido |
+|---------|-----------|
+| `EVENT_DATA/MESSAGE/E700/E7AA_RR0.BMD` | Conversación de rango. `AA` = número de Arcana, `RR` = rango. Ej.: `E707_020` = Carro (Ryuji), rango 2. Las opciones son los mensajes `SEL_*` |
+| `E7AA_2xx.BMD` | Eventos extra de Royal (tercer semestre) |
+| `FIELD/NPC/CORPAAA.BF` | Diálogos de invitación ("¿Salimos?", ir al Palacio, estudiar) |
+| `EVENT_DATA/MESSAGE/E800/E8AA_xxx.BMD` | Citas/quedadas en lugares de la ciudad |
+
+Ryuji completo (rangos 2 a 10) verificado: cada archivo tiene las opciones esperadas.
+
+**Lo que los archivos NO resuelven todavía:** los **puntos** de cada respuesta no están en el
+texto ni en el script del evento (`EVENT_DATA/SCRIPT/E700/E7AA_RR0.BF` solo sube el rango).
+Siguen viniendo de guías (RPG Site), emparejados por el texto en inglés de la opción.
+
+**Corrección encontrada:** el rango 2 de Ryuji cargado a mano tenía una conversación que no
+pertenece a ese rango ("I should've kept up my running") y le faltaba otra ("What about
+them?"). Se corrige al cargar los confidentes desde el juego (Etapa 4).
