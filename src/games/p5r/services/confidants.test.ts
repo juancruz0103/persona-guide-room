@@ -17,3 +17,26 @@ describe('analyzeConversation', () => {
     expect(analyzeConversation(rank2.conversations[1]).allSame).toBe(true);
   });
 });
+
+import { CONFIDANTS, getConfidantSummary, ultimatePersona } from './confidants';
+import { getPersona as getP } from './personas';
+
+describe('los 23 confidentes', () => {
+  it('están todos, con su tipo', () => {
+    expect(CONFIDANTS).toHaveLength(23);
+    expect(CONFIDANTS.filter((c) => c.kind === 'auto').map((c) => c.id).sort()).toEqual(['igor', 'morgana', 'sae']);
+    expect(getConfidantSummary('caroline-justine')?.kind).toBe('fusion');
+  });
+
+  it('cada Arcana de confidente desbloquea su Persona al rango 10', () => {
+    for (const c of CONFIDANTS) expect(ultimatePersona(c.arcana), c.id).toBeDefined();
+    expect(ultimatePersona('chariot')?.name).toBe('Chi You');
+  });
+
+  it('los Ladrones Fantasma enlazan su Persona inicial', () => {
+    for (const c of CONFIDANTS.filter((x) => x.phantomThief)) {
+      expect(c.persona, c.id).toBeDefined();
+      expect(getP(c.persona!)?.party?.stage, c.id).toBe('initial');
+    }
+  });
+});

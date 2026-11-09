@@ -1,0 +1,161 @@
+{
+ "id": "caroline-justine",
+ "name": "Caroline y Justine",
+ "arcana": "strength",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "ranks": [],
+ "kind": "fusion",
+ "sources": [
+  "https://www.rpgsite.net/feature/5486-persona-5-royal-strength-confidant-fusion-solutions-guide",
+  "https://www.ggrecon.com/guides/persona-5-royal-confidant-guide-justine-caroline-confidant/"
+ ],
+ "requests": [
+  {
+   "rank": 1,
+   "persona": "jack-frost",
+   "skill": "Mabufu",
+   "quick": [
+    [
+     "berith",
+     "apsaras"
+    ]
+   ],
+   "reward": {
+    "name": "Group Guillotine",
+    "description": "Fusionar 3 Personas a la vez."
+   }
+  },
+  {
+   "rank": 2,
+   "persona": "ame-no-uzume",
+   "skill": "Frei",
+   "quick": [
+    [
+     "suzaku",
+     "berith"
+    ]
+   ],
+   "note": "Suzaku sale de Berith + Hua Po."
+  },
+  {
+   "rank": 3,
+   "persona": "flauros",
+   "skill": "Tarukaja",
+   "quick": [
+    [
+     "berith",
+     "orobas",
+     "eligor"
+    ]
+   ],
+   "note": "Eligor tiene que estar en Nv 16 para heredar Tarukaja.",
+   "reward": {
+    "name": "Lockdown",
+    "description": "Las Personas encerradas ganan skills de resistencia."
+   }
+  },
+  {
+   "rank": 4,
+   "persona": "phoenix",
+   "skill": "Counter",
+   "quick": [
+    [
+     "yaksini",
+     "kelpie"
+    ]
+   ],
+   "note": "Heredando Réplica. Iaksi sale de Jack-o'-Lantern + Hua Po."
+  },
+  {
+   "rank": 5,
+   "persona": "setanta",
+   "skill": "Rakukaja",
+   "quick": [
+    [
+     "silky",
+     "lamia"
+    ]
+   ],
+   "reward": {
+    "name": "Special Treatment",
+    "description": "Fusionar Personas de nivel mayor al de Joker, pagando."
+   }
+  },
+  {
+   "rank": 6,
+   "persona": "neko-shogun",
+   "skill": "Dekaja",
+   "quick": [
+    [
+     "anzu",
+     "kodama",
+     "sudama"
+    ]
+   ],
+   "note": "Subí a Anzu a Nv 28 para que aprenda Dekaja."
+  },
+  {
+   "rank": 7,
+   "persona": "lachesis",
+   "skill": "Tetraja",
+   "quick": [
+    [
+     "clotho",
+     "regent"
+    ]
+   ],
+   "note": "Subí a Cloto a Nv 28 para que aprenda Tetraja."
+  },
+  {
+   "rank": 8,
+   "persona": "hecatoncheires",
+   "skill": "Masukunda",
+   "quick": [
+    [
+     "lilim",
+     "anzu"
+    ]
+   ],
+   "note": "Lilim tiene que haber aprendido Masukunda.",
+   "reward": {
+    "name": "Guillotine Booster",
+    "description": "Fusionar 4 o más Personas a la vez."
+   }
+  },
+  {
+   "rank": 9,
+   "persona": "bugs",
+   "skill": "Samarecarm",
+   "quick": [
+    [
+     "pixie",
+     "pisaca",
+     "hariti"
+    ]
+   ],
+   "note": "Hariti aprende Samarecarm en Nv 41. Antes hay que hacer un pedido de Mementos."
+  },
+  {
+   "rank": 10,
+   "persona": "seth",
+   "skill": "High Counter",
+   "quick": [
+    [
+     "isis",
+     "thoth",
+     "anubis",
+     "horus"
+    ]
+   ],
+   "note": "La skill se pone con la skill card de un pedido de Mementos.",
+   "reward": {
+    "name": "VIP Treatment",
+    "description": "Gran descuento en Special Measures."
+   }
+  }
+ ]
+}

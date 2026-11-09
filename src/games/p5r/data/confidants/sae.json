@@ -1,0 +1,69 @@
+{
+ "id": "sae",
+ "name": "Sae Niijima",
+ "arcana": "judgement",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "ranks": [],
+ "kind": "auto",
+ "sources": [
+  "https://www.rpgsite.net/feature/5469-persona-5-confidant-choices-unlocks-for-fool-magician-judgement-igor-morgana-sae",
+  "https://www.rpgsite.net/feature/9612-persona-5-royal-endings-guide-interrogation-answers-how-to-get-the-true-ending"
+ ],
+ "timeline": [
+  {
+   "rank": 1,
+   "when": "Automático · 9/7"
+  },
+  {
+   "rank": 2,
+   "when": "Automático · 24/7"
+  },
+  {
+   "rank": 3,
+   "when": "Automático · 22/8"
+  },
+  {
+   "rank": 4,
+   "when": "Con la historia · 23/9"
+  },
+  {
+   "rank": 5,
+   "when": "Automático · 12/10"
+  },
+  {
+   "rank": 6,
+   "when": "Automático · 28/10"
+  },
+  {
+   "rank": 7,
+   "when": "Automático · 20/11"
+  },
+  {
+   "rank": 8,
+   "when": "Automático · 20/11"
+  },
+  {
+   "rank": 9,
+   "when": "Automático · 20/11"
+  },
+  {
+   "rank": 10,
+   "when": "Automático · 20/11",
+   "ability": "True Judgement"
+  }
+ ],
+ "spoiler": {
+  "title": "Interrogatorio (20/11): las respuestas que no te hacen perder",
+  "items": [
+   "Cuando pregunta por tus cómplices: «No.» o «Nunca he oído hablar de ellos.»",
+   "Si insiste: «No existe tal gente.»",
+   "No hagas el trato con Sae: vender a tus amigos lleva a un final malo.",
+   "La pregunta sobre Akechi: cualquier respuesta sirve."
+  ],
+  "note": "Frases traducidas de la guía en inglés: el texto oficial del juego se carga más adelante."
+ }
+}

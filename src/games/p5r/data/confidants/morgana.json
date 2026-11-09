@@ -1,0 +1,77 @@
+{
+ "id": "morgana",
+ "name": "Morgana",
+ "arcana": "magician",
+ "phantomThief": true,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "ranks": [],
+ "kind": "auto",
+ "sources": [
+  "https://www.rpgsite.net/feature/5469-persona-5-confidant-choices-unlocks-for-fool-magician-judgement-igor-morgana-sae"
+ ],
+ "timeline": [
+  {
+   "rank": 1,
+   "when": "Automático · 15/4",
+   "ability": "Infiltration Tools",
+   "description": "Fabricar herramientas de infiltración, como ganzúas, en tu cuarto."
+  },
+  {
+   "rank": 2,
+   "when": "Al robar el primer Tesoro",
+   "ability": "Baton Pass",
+   "description": "Pasa el turno a otro aliado después de un 1 More."
+  },
+  {
+   "rank": 3,
+   "when": "Tras el segundo Palacio",
+   "ability": "Follow Up",
+   "description": "A veces ataca después de Joker."
+  },
+  {
+   "rank": 4,
+   "when": "Automático · 20/6",
+   "ability": "Kitty Talk",
+   "description": "Puede salvar una negociación que salió mal."
+  },
+  {
+   "rank": 5,
+   "when": "Tras el tercer Palacio",
+   "ability": "Pickpocket",
+   "description": "Puede robar un objeto con un ataque cuerpo a cuerpo."
+  },
+  {
+   "rank": 6,
+   "when": "Automático · 25/7",
+   "ability": "Ace Tools",
+   "description": "Fabricar todos los tipos de herramientas."
+  },
+  {
+   "rank": 7,
+   "when": "Automático · 29/8",
+   "ability": "Harisen Recovery",
+   "description": "Puede curar estados alterados del grupo."
+  },
+  {
+   "rank": 8,
+   "when": "Automático · 17/9",
+   "ability": "Endure",
+   "description": "Puede aguantar un golpe que lo derrotaría."
+  },
+  {
+   "rank": 9,
+   "when": "Tras el quinto Palacio",
+   "ability": "Protect",
+   "description": "Protege a Joker de un ataque fatal."
+  },
+  {
+   "rank": 10,
+   "when": "Automático · 23/11",
+   "ability": "Second Awakening",
+   "description": "Su Persona evoluciona a la forma final."
+  }
+ ]
+}

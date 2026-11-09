@@ -1,11 +1,312 @@
 [
-  { "id": "ryuji", "name": "Ryuji Sakamoto", "arcana": "chariot", "phantomThief": true, "romance": false, "hasGuide": true },
-  { "id": "morgana", "name": "Morgana", "arcana": "magician", "phantomThief": true, "romance": false, "hasGuide": false },
-  { "id": "ann", "name": "Ann Takamaki", "arcana": "lovers", "phantomThief": true, "romance": true, "hasGuide": false },
-  { "id": "yusuke", "name": "Yusuke Kitagawa", "arcana": "emperor", "phantomThief": true, "romance": false, "hasGuide": false },
-  { "id": "makoto", "name": "Makoto Niijima", "arcana": "priestess", "phantomThief": true, "romance": true, "hasGuide": false },
-  { "id": "futaba", "name": "Futaba Sakura", "arcana": "hermit", "phantomThief": true, "romance": true, "hasGuide": false },
-  { "id": "haru", "name": "Haru Okumura", "arcana": "empress", "phantomThief": true, "romance": true, "hasGuide": false },
-  { "id": "akechi", "name": "Goro Akechi", "arcana": "justice", "phantomThief": true, "romance": false, "hasGuide": false },
-  { "id": "kasumi", "name": "Kasumi Yoshizawa", "arcana": "faith", "phantomThief": true, "romance": true, "hasGuide": false }
+ {
+  "id": "igor",
+  "name": "Igor",
+  "arcana": "fool",
+  "kind": "auto",
+  "tags": [],
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": true
+ },
+ {
+  "id": "morgana",
+  "name": "Morgana",
+  "arcana": "magician",
+  "kind": "auto",
+  "tags": [
+   "thief"
+  ],
+  "persona": "zorro",
+  "phantomThief": true,
+  "romance": false,
+  "hasGuide": true
+ },
+ {
+  "id": "makoto",
+  "name": "Makoto Niijima",
+  "arcana": "priestess",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "romance",
+   "stat"
+  ],
+  "persona": "johanna",
+  "phantomThief": true,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "haru",
+  "name": "Haru Okumura",
+  "arcana": "empress",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "romance",
+   "stat"
+  ],
+  "persona": "milady",
+  "phantomThief": true,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "yusuke",
+  "name": "Yusuke Kitagawa",
+  "arcana": "emperor",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "stat"
+  ],
+  "persona": "goemon",
+  "phantomThief": true,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "sojiro",
+  "name": "Sojiro Sakura",
+  "arcana": "hierophant",
+  "kind": "normal",
+  "tags": [
+   "locked",
+   "stat"
+  ],
+  "notice": "Su rango queda bloqueado hasta avanzar en la historia de Futaba.",
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "ann",
+  "name": "Ann Takamaki",
+  "arcana": "lovers",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "romance",
+   "stat"
+  ],
+  "persona": "carmen",
+  "phantomThief": true,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "ryuji",
+  "name": "Ryuji Sakamoto",
+  "arcana": "chariot",
+  "kind": "normal",
+  "tags": [
+   "thief"
+  ],
+  "persona": "captain-kidd",
+  "phantomThief": true,
+  "romance": false,
+  "hasGuide": true
+ },
+ {
+  "id": "akechi",
+  "name": "Goro Akechi",
+  "arcana": "justice",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "deadline",
+   "stat"
+  ],
+  "persona": "robin-hood",
+  "notice": "Llegá al rango 8 antes del 17/11: después los rangos 9 y 10 suben solos. Si no llegás, se pierde el resto.",
+  "phantomThief": true,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "futaba",
+  "name": "Futaba Sakura",
+  "arcana": "hermit",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "romance",
+   "stat"
+  ],
+  "persona": "necronomicon",
+  "phantomThief": true,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "chihaya",
+  "name": "Chihaya Mifune",
+  "arcana": "fortune",
+  "kind": "normal",
+  "tags": [
+   "romance",
+   "mementos"
+  ],
+  "notice": "Empieza después de completar un pedido de Mementos.",
+  "phantomThief": false,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "caroline-justine",
+  "name": "Caroline y Justine",
+  "arcana": "strength",
+  "kind": "fusion",
+  "tags": [],
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": true
+ },
+ {
+  "id": "iwai",
+  "name": "Munehisa Iwai",
+  "arcana": "hanged",
+  "kind": "normal",
+  "tags": [
+   "stat"
+  ],
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "takemi",
+  "name": "Tae Takemi",
+  "arcana": "death",
+  "kind": "normal",
+  "tags": [
+   "romance",
+   "stat"
+  ],
+  "phantomThief": false,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "kawakami",
+  "name": "Sadayo Kawakami",
+  "arcana": "temperance",
+  "kind": "normal",
+  "tags": [
+   "romance",
+   "locked",
+   "stat"
+  ],
+  "notice": "Su rango queda bloqueado hasta el final de las vacaciones de verano.",
+  "phantomThief": false,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "ohya",
+  "name": "Ichiko Ohya",
+  "arcana": "devil",
+  "kind": "normal",
+  "tags": [
+   "romance"
+  ],
+  "phantomThief": false,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "oda",
+  "name": "Shinya Oda",
+  "arcana": "tower",
+  "kind": "normal",
+  "tags": [
+   "mementos"
+  ],
+  "notice": "Empieza después de completar un pedido de Mementos.",
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "hifumi",
+  "name": "Hifumi Togo",
+  "arcana": "star",
+  "kind": "normal",
+  "tags": [
+   "romance",
+   "stat"
+  ],
+  "phantomThief": false,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "mishima",
+  "name": "Yuuki Mishima",
+  "arcana": "moon",
+  "kind": "normal",
+  "tags": [
+   "mementos"
+  ],
+  "notice": "Avanza al completar los pedidos de Mementos que te manda.",
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "yoshida",
+  "name": "Toranosuke Yoshida",
+  "arcana": "sun",
+  "kind": "normal",
+  "tags": [
+   "days"
+  ],
+  "notice": "Solo se lo encuentra los domingos por la noche.",
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": false
+ },
+ {
+  "id": "sae",
+  "name": "Sae Niijima",
+  "arcana": "judgement",
+  "kind": "auto",
+  "tags": [],
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": true
+ },
+ {
+  "id": "kasumi",
+  "name": "Kasumi Yoshizawa",
+  "arcana": "faith",
+  "kind": "normal",
+  "tags": [
+   "thief",
+   "royal",
+   "romance",
+   "locked",
+   "deadline"
+  ],
+  "persona": "cendrillon",
+  "notice": "Llegá al rango 5 antes del 18/12; su rango queda bloqueado hasta avanzar en la historia.",
+  "phantomThief": true,
+  "romance": true,
+  "hasGuide": false
+ },
+ {
+  "id": "maruki",
+  "name": "Takuto Maruki",
+  "arcana": "councillor",
+  "kind": "normal",
+  "tags": [
+   "royal",
+   "deadline"
+  ],
+  "notice": "Llegá al rango 9 antes del 17/11: lo necesitás para el final verdadero. El rango 10 sube solo.",
+  "phantomThief": false,
+  "romance": false,
+  "hasGuide": false
+ }
 ]

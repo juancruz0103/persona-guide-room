@@ -4,6 +4,7 @@ import { ElementIcon } from '../../../shared/components/ElementIcon';
 import { CalculatorHeader } from '../components/CalculatorHeader';
 import { SKILL_CARD_PATH } from '../components/ItemIcon';
 import { SkillTip } from '../components/SkillTip';
+import { PersonaPeek } from '../components/PersonaPeek';
 import { ELEMENTS } from '../data/elements';
 import { filterSkillCardRows, getSkillCardRows, type SkillCardFilter, type SkillCardRow } from '../services/items';
 import { describeCost, skillMeta } from '../services/skillText';
@@ -23,29 +24,6 @@ const PAGE = 50;
 const MAX_LEARNERS = 4;
 
 const personaLink = (p: Persona) => `/p5r/calculadora/persona/${p.id}`;
-
-/** Nombre de Persona con su foto en miniatura al pasar el mouse. */
-function PersonaPeek({ persona }: { persona: Persona }) {
-  return (
-    <span className={styles.peek}>
-      <Link to={personaLink(persona)} className={styles.peekLink}>
-        {personaName(persona)}
-      </Link>
-      <span className={styles.preview} aria-hidden="true">
-        <span className={`img-stripes ${styles.photo}`}>
-          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
-            <rect x="3" y="4" width="18" height="16" rx="1" />
-            <circle cx="9" cy="10" r="2" />
-            <path d="M21 16l-5-5-9 9" />
-          </svg>
-          <span>Foto</span>
-        </span>
-        <span className={styles.previewName}>{personaName(persona)}</span>
-        <span className={styles.previewMeta}>Nv {persona.level}</span>
-      </span>
-    </span>
-  );
-}
 
 function Row({ row }: { row: SkillCardRow }) {
   const { skill, cards, learners, exclusive } = row;

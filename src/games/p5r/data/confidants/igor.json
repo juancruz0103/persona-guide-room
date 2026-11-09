@@ -1,0 +1,71 @@
+{
+ "id": "igor",
+ "name": "Igor",
+ "arcana": "fool",
+ "phantomThief": false,
+ "romance": false,
+ "maxRank": 10,
+ "tips": [],
+ "textsProvisional": false,
+ "ranks": [],
+ "kind": "auto",
+ "sources": [
+  "https://www.rpgsite.net/feature/5469-persona-5-confidant-choices-unlocks-for-fool-magician-judgement-igor-morgana-sae"
+ ],
+ "timeline": [
+  {
+   "rank": 1,
+   "when": "Automático · 12/4",
+   "ability": "Wild Talk",
+   "description": "Negociar con las Sombras durante un Hold Up."
+  },
+  {
+   "rank": 2,
+   "when": "Al entrar al primer Palacio",
+   "ability": "Third Eye",
+   "description": "Ver las cosas con más claridad."
+  },
+  {
+   "rank": 3,
+   "when": "Automático · 5/5",
+   "ability": "Power Stock",
+   "description": "Podés llevar 8 Personas."
+  },
+  {
+   "rank": 4,
+   "when": "Tras el segundo Palacio"
+  },
+  {
+   "rank": 5,
+   "when": "Automático · 11/6",
+   "ability": "Super Stock",
+   "description": "Podés llevar 10 Personas."
+  },
+  {
+   "rank": 6,
+   "when": "Tras el cuarto Palacio",
+   "ability": "High Arcana Burst",
+   "description": "Más EXP extra al fusionar, según el rango de confidente."
+  },
+  {
+   "rank": 7,
+   "when": "Automático · 22/8"
+  },
+  {
+   "rank": 8,
+   "when": "Automático · 31/8",
+   "ability": "Ultra Stock",
+   "description": "Podés llevar 12 Personas."
+  },
+  {
+   "rank": 9,
+   "when": "Automático · 11/10"
+  },
+  {
+   "rank": 10,
+   "when": "Automático · 24/12",
+   "ability": "Max Arcana Burst",
+   "description": "Mucha EXP extra al fusionar Personas del Loco."
+  }
+ ]
+}

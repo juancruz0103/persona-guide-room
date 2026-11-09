@@ -163,6 +163,14 @@ h3 {
   background: var(--c-romance);
   color: var(--c-ink);
 }
+.tag--muted {
+  background: #3a3a3a;
+  color: var(--c-text);
+}
+.tag--paper {
+  background: var(--c-paper);
+  color: var(--c-ink);
+}
 .tag--outline {
   border: 2px solid currentColor;
   padding: 1px 9px;
@@ -202,3 +210,13 @@ h3 {
 .cost-sp { color: var(--c-sp); }
 .cost-hp-dark { color: var(--c-hp-dark); }
 .cost-sp-dark { color: var(--c-sp-dark); }
+
+/* Texto solo para lectores de pantalla */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

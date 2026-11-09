@@ -2,8 +2,18 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { getArcana } from '../data/arcana';
-import { analyzeConversation, loadConfidant } from '../services/confidants';
-import type { Confidant, Conversation } from '../types';
+import { PersonaPeek } from '../components/PersonaPeek';
+import {
+  KIND_LABEL,
+  analyzeConversation,
+  getConfidantSummary,
+  loadConfidant,
+  ultimatePersona,
+  type ConfidantSummary,
+} from '../services/confidants';
+import { personaName, skillName } from '../services/gameText';
+import { getPersona } from '../services/personas';
+import type { Confidant, Conversation, FusionRequest, TimelineRank } from '../types';
 import styles from './ConfidantProfile.module.css';
 
 function ConversationCard({ c, index }: { c: Conversation; index: number }) {
@@ -46,6 +56,114 @@ function ConversationCard({ c, index }: { c: Conversation; index: number }) {
   );
 }
 
+function Timeline({ ranks }: { ranks: TimelineRank[] }) {
+  return (
+    <ol className={styles.timeline}>
+      {ranks.map((r) => (
+        <li key={r.rank} className={styles.tlRow}>
+          <span className={styles.tlRank}>{r.rank}</span>
+          <span className={styles.tlBody}>
+            <span className={styles.tlWhen}>{r.when}</span>
+            <span className={`${styles.tlAbility} ${r.ability ? '' : styles.tlNone}`}>{r.ability ?? 'Sin habilidad nueva'}</span>
+            {r.description && <span className={styles.tlDesc}>{r.description}</span>}
+          </span>
+        </li>
+      ))}
+    </ol>
+  );
+}
+
+function SpoilerBox({ spoiler }: { spoiler: NonNullable<Confidant['spoiler']> }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className={styles.spoiler}>
+      <div className={styles.spoilerHead}>
+        <span>{spoiler.title}</span>
+        <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
+          {open ? 'Ocultar' : 'Mostrar spoilers'}
+        </button>
+      </div>
+      {open ? (
+        <>
+          <ol className={styles.spoilerList}>
+            {spoiler.items.map((it) => (
+              <li key={it}>{it}</li>
+            ))}
+          </ol>
+          {spoiler.note && <p className={styles.spoilerNote}>{spoiler.note}</p>}
+        </>
+      ) : (
+        <p className={styles.spoilerHidden}>Contiene spoilers de la historia. Tocá «Mostrar spoilers» para verlo.</p>
+      )}
+    </div>
+  );
+}
+
+function Requests({ requests }: { requests: FusionRequest[] }) {
+  return (
+    <ol className={styles.requests}>
+      {requests.map((r) => {
+        const target = getPersona(r.persona);
+        return (
+          <li key={r.rank} className={styles.request}>
+            <span className={styles.tlRank}>{r.rank}</span>
+            <span className={styles.reqMain}>
+              {target ? <PersonaPeek persona={target} className={styles.reqPersona} /> : r.persona}
+              <span className={styles.reqSkill}>
+                con <strong>{skillName(r.skill)}</strong>
+              </span>
+            </span>
+            <span className={styles.reqCol}>
+              <span className={styles.reqLabel}>Armado rápido</span>
+              {r.quick.map((combo, i) => (
+                <span key={i} className={styles.reqCombo}>
+                  {combo.map((id, j) => {
+                    const p = getPersona(id);
+                    return (
+                      <span key={id}>
+                        {j > 0 && ' + '}
+                        {p ? <PersonaPeek persona={p} /> : id}
+                      </span>
+                    );
+                  })}
+                </span>
+              ))}
+              {r.note && <span className={styles.reqNote}>{r.note}</span>}
+            </span>
+            <span className={styles.reqCol}>
+              <span className={styles.reqLabel}>Recompensa</span>
+              {r.reward ? (
+                <span>
+                  <strong>{r.reward.name}</strong> · {r.reward.description}
+                </span>
+              ) : (
+                <span className={styles.reqNote}>Sin recompensa: las respuestas de la charla no importan.</span>
+              )}
+            </span>
+            {target && (
+              <Link to={`/p5r/calculadora/fusionar?modo=inversa&persona=${target.id}`} className={`btn btn--light ${styles.reqBtn}`}>
+                Ver recetas
+              </Link>
+            )}
+          </li>
+        );
+      })}
+    </ol>
+  );
+}
+
+function UltimateBox({ summary }: { summary: ConfidantSummary }) {
+  const ult = ultimatePersona(summary.arcana);
+  if (!ult) return null;
+  return (
+    <div className={styles.ultimate}>
+      <span className="label label-accent">Rango 10 · desbloquea</span>
+      <PersonaPeek persona={ult} className={styles.ultimateLink} />
+      <span className={styles.muted}>para fusionarla ({personaName(ult)}, Nv {ult.level})</span>
+    </div>
+  );
+}
+
 export default function ConfidantProfile() {
   const { confidantId = '' } = useParams();
   const [data, setData] = useState<Confidant | null | undefined>(undefined);
@@ -61,19 +179,23 @@ export default function ConfidantProfile() {
     };
   }, [confidantId]);
 
-  if (data === undefined) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
-  if (data === null) {
+  const summary = getConfidantSummary(confidantId);
+  if (!summary) {
     return (
       <section className="container" style={{ paddingBlock: 80 }}>
-        <p className="pending">Este confidente todavía no tiene guía.</p>
+        <p className="pending">No encontramos ese confidente.</p>
         <Link to="/p5r/confidentes">← Volver a confidentes</Link>
       </section>
     );
   }
+  if (data === undefined) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
 
-  const arcana = getArcana(data.arcana);
-  const rank = data.ranks.find((r) => r.rank === sel);
-  const ranks = Array.from({ length: data.maxRank }, (_, i) => i + 1);
+  const arcana = getArcana(summary.arcana);
+  const kind = summary.kind;
+  const maxRank = data?.maxRank ?? 10;
+  const rank = data?.ranks.find((r) => r.rank === sel);
+  const ranks = Array.from({ length: maxRank }, (_, i) => i + 1);
+  const thiefPersona = summary.persona ? getPersona(summary.persona) : undefined;
 
   return (
     <article>
@@ -83,12 +205,19 @@ export default function ConfidantProfile() {
           <ImagePlaceholder className={styles.portrait} label="Retrato del confidente" icon="person" />
           <div className={styles.heroText}>
             <span className={styles.arcanaTag}>{arcana.name} · Arcana {arcana.numeral}</span>
-            <h1 className={styles.name}>{data.name}</h1>
+            <h1 className={styles.name}>{summary.name}</h1>
             <div className={styles.heroTags}>
-              {data.phantomThief && <span className={styles.solid}>Ladrón Fantasma</span>}
-              <span className={styles.outline}>{data.romance ? 'Ruta romántica' : 'Sin romance'}</span>
-              <span className={styles.outline}>{data.maxRank} rangos</span>
+              {summary.phantomThief && <span className={styles.solid}>Ladrón Fantasma</span>}
+              {kind !== 'normal' && <span className={styles.solidGold}>{KIND_LABEL[kind]}</span>}
+              <span className={styles.outline}>{summary.romance ? 'Ruta romántica' : 'Sin romance'}</span>
+              <span className={styles.outline}>{maxRank} rangos</span>
+              {thiefPersona && (
+                <PersonaPeek persona={thiefPersona} className={styles.personaChip} below>
+                  Persona: {personaName(thiefPersona)} →
+                </PersonaPeek>
+              )}
             </div>
+            {kind === 'normal' && (
             <div className={styles.trackRow}>
               <button
                 type="button"
@@ -105,37 +234,78 @@ export default function ConfidantProfile() {
               </span>
               <span className={styles.trackNote}>Vista previa · se guardará con tu cuenta (v2)</span>
             </div>
+            )}
           </div>
         </div>
       </section>
 
-      <section className={`container ${styles.infoGrid}`}>
-        <div className={styles.info}>
-          <span className="label label-accent">Ubicación</span>
-          <span className={styles.muted}>Pendiente de cargar (Etapa 4)</span>
+      {summary.notice && (
+        <div className={`container ${styles.noticeWrap}`}>
+          <p className={styles.notice}>
+            <strong>Ojo:</strong> {summary.notice}
+          </p>
         </div>
-        <div className={styles.info}>
-          <span className="label label-accent">Disponibilidad</span>
-          <span className={styles.muted}>Pendiente de cargar (Etapa 4)</span>
-        </div>
-        {data.tips.map((t) => (
-          <div key={t} className={styles.info}>
-            <span className="label label-accent">Consejo</span>
-            <span>{t}</span>
-          </div>
-        ))}
-      </section>
+      )}
 
+      {data && data.tips.length > 0 && (
+        <section className={`container ${styles.infoGrid}`}>
+          {data.tips.map((t) => (
+            <div key={t} className={styles.info}>
+              <span className="label label-accent">Consejo</span>
+              <span>{t}</span>
+            </div>
+          ))}
+        </section>
+      )}
+
+      {kind === 'auto' && data?.timeline && (
+        <section className={`container ${styles.specialBody}`}>
+          <h2 className={styles.h2}>Rangos y recompensas</h2>
+          <p className={styles.specialLead}>No tenés que hacer nada: cada rango sube solo en el momento indicado.</p>
+          <Timeline ranks={data.timeline} />
+          {data.spoiler && <SpoilerBox spoiler={data.spoiler} />}
+          <UltimateBox summary={summary} />
+          <p className={styles.source}>
+            Fuente:{' '}
+            {data.sources.map((u, i) => (
+              <span key={u}>
+                {i > 0 && ' · '}
+                <a href={u}>guía {i + 1} (RPG Site)</a>
+              </span>
+            ))}
+            . Nombres de habilidades en inglés hasta confirmar los oficiales.
+          </p>
+        </section>
+      )}
+
+      {kind === 'fusion' && data?.requests && (
+        <section className={`container ${styles.specialBody}`}>
+          <h2 className={styles.h2}>Pedidos de fusión</h2>
+          <p className={styles.specialLead}>
+            Cada rango te piden una Persona con una skill. Llevala al Velvet Room y sube el rango. Pasá el mouse por
+            un nombre para ver la Persona.
+          </p>
+          <Requests requests={data.requests} />
+          <UltimateBox summary={summary} />
+          <p className={styles.source}>
+            Pedidos y armados: <a href={data.sources[0]}>RPG Site</a> (Royal). Recompensas:{' '}
+            <a href={data.sources[1]}>GGRecon</a>.
+          </p>
+        </section>
+      )}
+
+      {kind === 'normal' && (
+      <>
       <section className={`container ${styles.ranksSection}`}>
         <h2 className={styles.h2}>Rangos</h2>
 
         {tracking && (
           <div className={styles.progress}>
             <span className={styles.progressLabel}>
-              Tu progreso: <strong>{reached} / {data.maxRank}</strong>
+              Tu progreso: <strong>{reached} / {maxRank}</strong>
             </span>
             <span className={styles.progressTrack}>
-              <span style={{ width: `${(reached / data.maxRank) * 100}%` }} />
+              <span style={{ width: `${(reached / maxRank) * 100}%` }} />
             </span>
             <button type="button" className="btn btn--accent" onClick={() => setReached((r) => Math.max(r, sel))}>
               Marcar rango {sel} como alcanzado
@@ -164,7 +334,7 @@ export default function ConfidantProfile() {
             <span className={styles.rankNum}>Rango {sel}</span>
             {rank && rank.conversations.length > 0 && (
               <span className="label" style={{ color: 'var(--c-text-dim)' }}>
-                {data.textsProvisional ? 'Traducción provisoria · falta texto oficial (España)' : 'Español (España)'}
+                {data?.textsProvisional ? 'Traducción provisoria · falta texto oficial (España)' : 'Español (España)'}
               </span>
             )}
           </div>
@@ -179,7 +349,7 @@ export default function ConfidantProfile() {
               ));
             })()
           ) : (
-            <p className="pending">Las respuestas de este rango se cargan en la Etapa 4.</p>
+            <p className="pending">Las respuestas de este rango todavía no están cargadas.</p>
           )}
         </div>
 
@@ -194,18 +364,25 @@ export default function ConfidantProfile() {
               </div>
             ))
           ) : (
-            <p className="pending">Se carga en la Etapa 4.</p>
+            <p className="pending">Todavía no está cargada.</p>
           )}
           <ul className={styles.legend}>
             <li><span style={{ background: 'var(--c-accent)' }} /> Mejor respuesta</li>
             <li><span style={{ background: 'var(--c-royal)' }} /> Exclusivo de Royal</li>
-            {data.romance && <li><span style={{ background: 'var(--c-romance)' }} /> Opción de romance</li>}
+            {summary.romance && <li><span style={{ background: 'var(--c-romance)' }} /> Opción de romance</li>}
           </ul>
-          <p className={styles.source}>
-            Puntos y respuestas: <a href={data.sources[0]}>RPG Site</a>.
-          </p>
+          {data && (
+            <p className={styles.source}>
+              Puntos y respuestas: <a href={data.sources[0]}>RPG Site</a>.
+            </p>
+          )}
         </aside>
       </section>
+      <div className="container">
+        <UltimateBox summary={summary} />
+      </div>
+      </>
+      )}
     </article>
   );
 }

@@ -140,7 +140,33 @@ export interface ConfidantRank {
   unlocks: { name: string; description: string }[];
 }
 
+/** normal = conversaciones con puntos; auto = sube solo con la historia; fusion = pedidos de fusión */
+export type ConfidantKind = 'normal' | 'auto' | 'fusion';
+
+export interface TimelineRank {
+  rank: number;
+  when: string;
+  ability?: string;
+  description?: string;
+}
+
+export interface FusionRequest {
+  rank: number;
+  /** id de la Persona pedida */
+  persona: string;
+  /** skill que tiene que tener (clave interna) */
+  skill: string;
+  /** armados rápidos: listas de ids de Personas a fusionar */
+  quick: string[][];
+  note?: string;
+  reward?: { name: string; description: string };
+}
+
 export interface Confidant {
+  kind?: ConfidantKind;
+  timeline?: TimelineRank[];
+  requests?: FusionRequest[];
+  spoiler?: { title: string; items: string[]; note?: string };
   id: string;
   name: string;
   arcana: ArcanaId;

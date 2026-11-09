@@ -58,6 +58,8 @@
   gap: 10px;
 }
 .solid,
+.solidGold,
+.personaChip,
 .outline {
   font-family: var(--f-label);
   font-weight: 700;
@@ -435,5 +437,239 @@
   .optText {
     flex-basis: 100%;
     order: 3;
+  }
+}
+
+/* ---------- Etapa 4: especiales, avisos y Personas ---------- */
+
+.solidGold {
+  background: var(--c-accent);
+  color: var(--c-ink);
+}
+.personaChip {
+  display: inline-flex;
+  align-items: center;
+  background: var(--c-primary);
+  color: var(--c-text);
+  padding: 6px 14px;
+  text-decoration: none;
+}
+.personaChip:hover {
+  color: var(--c-text);
+  filter: brightness(1.1);
+}
+
+.noticeWrap {
+  padding-top: 28px;
+}
+.notice {
+  margin: 0;
+  padding: 16px 20px;
+  background: var(--c-surface);
+  border-left: 6px solid var(--c-accent);
+  font-size: 17px;
+  line-height: 1.5;
+}
+.notice strong {
+  color: var(--c-accent);
+}
+
+.specialBody {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-block: 36px 96px;
+}
+.specialLead {
+  margin: 0;
+  max-width: 760px;
+  padding: 14px 18px;
+  background: var(--c-surface);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 860px;
+}
+.tlRow {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+.tlRank {
+  font-family: var(--f-display);
+  font-size: 30px;
+  color: var(--c-accent);
+  text-align: center;
+}
+.tlBody {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.tlWhen {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-text-dim);
+}
+.tlAbility {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 21px;
+}
+.tlNone {
+  color: #8a8a84;
+}
+.tlDesc {
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--c-text-muted);
+}
+
+.spoiler {
+  max-width: 860px;
+  border: 2px solid var(--c-primary);
+}
+.spoilerHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  background: var(--c-primary);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.spoilerHead button {
+  min-height: 44px;
+  padding: 0 16px;
+  background: var(--c-ink);
+  color: var(--c-text);
+  border: 0;
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.spoilerList {
+  margin: 0;
+  padding: 18px 18px 6px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.spoilerNote,
+.spoilerHidden {
+  margin: 0;
+  padding: 12px 18px 18px;
+  font-size: 14px;
+  color: var(--c-text-dim);
+}
+
+.requests {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.request {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1.1fr) minmax(0, 1.6fr) minmax(0, 1.2fr) auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 18px;
+  background: var(--c-surface);
+}
+.reqMain,
+.reqCol {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.reqPersona {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--c-text);
+  text-decoration: underline;
+  text-decoration-color: var(--c-accent);
+  text-underline-offset: 4px;
+}
+.reqSkill {
+  font-size: 15px;
+  color: var(--c-text-muted);
+}
+.reqLabel {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.reqCombo {
+  font-size: 15px;
+}
+.reqNote {
+  color: var(--c-text-dim);
+}
+.reqBtn {
+  white-space: nowrap;
+}
+
+.ultimate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  max-width: 860px;
+  margin-block: 8px 40px;
+  padding: 16px 20px;
+  background: var(--c-surface);
+  border-top: 3px solid var(--c-accent);
+}
+.ultimateLink {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--c-text);
+  text-decoration: underline;
+  text-decoration-color: var(--c-accent);
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 860px) {
+  .request {
+    grid-template-columns: 48px minmax(0, 1fr);
+  }
+  .request > .reqCol,
+  .request > .reqBtn {
+    grid-column: 2;
+  }
+  .reqBtn {
+    justify-self: start;
   }
 }
