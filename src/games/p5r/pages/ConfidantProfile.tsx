@@ -16,8 +16,14 @@ import { getPersona } from '../services/personas';
 import type { Confidant, Conversation, FusionRequest, TimelineRank } from '../types';
 import styles from './ConfidantProfile.module.css';
 
-function ConversationCard({ c, index }: { c: Conversation; index: number }) {
+const ROUTE_TEXT = {
+  romance: 'Solo aparece si elegiste el romance.',
+  friend: 'Solo aparece si seguís como amigos (rechazaste el romance).',
+};
+
+function ConversationCard({ c, index, friendHasMore }: { c: Conversation; index: number; friendHasMore?: boolean }) {
   const { max, allSame } = analyzeConversation(c);
+  const isRouteChoice = c.romance && c.kind === 'conversation' && !c.route;
   const title = c.kind === 'phone' ? 'Llamada telefónica' : `Conversación ${index}`;
 
   return (
@@ -26,7 +32,9 @@ function ConversationCard({ c, index }: { c: Conversation; index: number }) {
         <span className={styles.convTitle}>
           <span className="label label-accent">{title}</span>
           {c.royalOnly && <span className="tag tag--royal">Solo Royal</span>}
-          {c.romance && <span className="tag tag--romance">Romance</span>}
+          {c.romance && !c.route && <span className="tag tag--romance">Romance</span>}
+          {c.route === 'romance' && <span className="tag tag--romance">Ruta romántica</span>}
+          {c.route === 'friend' && <span className="tag tag--muted">Ruta de amistad</span>}
         </span>
         {c.provisional && <span className={styles.provisional}>Traducción provisoria</span>}
       </div>
@@ -34,7 +42,15 @@ function ConversationCard({ c, index }: { c: Conversation; index: number }) {
         <strong>{c.speaker}:</strong> «{c.prompt.es}»
         <small>Original: “{c.prompt.en}”</small>
       </p>
-      {allSame && (
+      {c.route && <p className={styles.routeNote}>{ROUTE_TEXT[c.route]}</p>}
+      {isRouteChoice && (
+        <p className={styles.routeNote}>
+          Esta respuesta decide la ruta: la opción en rosa inicia el romance y la otra mantiene la amistad. Lo que sigue
+          en este rango cambia según lo que elijas.
+          {friendHasMore === false && ' Si seguís como amigos, no hay más elecciones en este rango.'}
+        </p>
+      )}
+      {allSame && !isRouteChoice && (
         <span className={styles.same}>Todas las opciones dan los mismos puntos: elegí la que quieras.</span>
       )}
       <ol className={styles.options}>
@@ -347,7 +363,12 @@ export default function ConfidantProfile() {
             (() => {
               let n = 0;
               return rank.conversations.map((c, i) => (
-                <ConversationCard key={i} c={c} index={c.kind === 'phone' ? 0 : ++n} />
+                <ConversationCard
+                  key={i}
+                  c={c}
+                  index={c.kind === 'phone' ? 0 : ++n}
+                  friendHasMore={rank.conversations.some((x) => x.route === 'friend')}
+                />
               ));
             })()
           ) : (

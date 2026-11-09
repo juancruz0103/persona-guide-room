@@ -360,6 +360,14 @@
   padding: 4px 10px;
 }
 
+.routeNote {
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  border-left: 4px solid var(--c-romance);
+  background: rgba(255, 140, 200, 0.08);
+  font-size: 15px;
+  line-height: 1.5;
+}
 .optRomance {
   box-shadow: inset 5px 0 0 var(--c-romance);
 }

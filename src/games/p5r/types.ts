@@ -131,6 +131,8 @@ export interface Conversation {
   /** true = traducción propia (las llamadas de Royal no están en los eventos del juego) */
   provisional?: boolean;
   romance: boolean;
+  /** Solo aparece en una ruta del rango con romance: 'romance' (la aceptaste) o 'friend' (la rechazaste) */
+  route?: 'romance' | 'friend';
   speaker: string;
   prompt: { es: string; en: string };
   options: DialogueOption[];

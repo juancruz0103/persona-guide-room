@@ -1003,6 +1003,7 @@
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
+     "route": "friend",
      "speaker": "Kasumi",
      "prompt": {
       "es": "¡Tú observa! ¡Te prometo que seguiré mejorando!",
@@ -1030,6 +1031,7 @@
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
+     "route": "romance",
      "speaker": "Kasumi",
      "prompt": {
       "es": "Ay... pero ¿qué digo?",
@@ -1052,6 +1054,7 @@
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
+     "route": "romance",
      "speaker": "Kasumi",
      "prompt": {
       "es": "Yo... Mmm... Tú...",

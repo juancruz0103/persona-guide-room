@@ -744,6 +744,7 @@
      "kind": "conversation",
      "royalOnly": false,
      "romance": true,
+     "route": "romance",
      "speaker": "Makoto",
      "prompt": {
       "es": "¿Te... gusto?",

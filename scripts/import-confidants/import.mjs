@@ -24,6 +24,18 @@ import { fileURLToPath } from 'node:url';
 const [convsPath, ...ids] = process.argv.slice(2);
 const here = dirname(fileURLToPath(import.meta.url));
 const dataDir = resolve(here, '../../src/games/p5r/data/confidants');
+/**
+ * Rango 9 con romance: elecciones que solo aparecen en una de las dos rutas
+ * (revisado a mano en los BMD: lo que sigue a «I'm now in a relationship…» es romance;
+ * lo que sigue a la respuesta de amistad, amistad).
+ */
+const ROUTES = {
+  'E709_090|SEL_023_1_0': 'romance', 'E709_090|SEL_023_3_0': 'romance', 'E709_090|SEL_036_0_0': 'romance', // Futaba
+  'E706_090|SEL_039_0_0': 'romance', // Ann
+  'E702_092|SEL_016_5_0': 'romance', // Makoto: «That's not what I meant.» vuelve a la amistad
+  'E722_092|SEL_037_0_0': 'friend', 'E722_092|SEL_046_0_0': 'romance', 'E722_092|SEL_055_0_0': 'romance', // Kasumi
+};
+
 const convs = JSON.parse(readFileSync(convsPath, 'utf8'));
 const index = JSON.parse(readFileSync(join(dataDir, 'index.json'), 'utf8'));
 
@@ -70,6 +82,7 @@ for (const id of ids) {
         kind: 'conversation',
         royalOnly: false,
         romance: c.options.some((o) => romanceOpts.has(`${r}|${norm(o.en)}`)),
+        ...(ROUTES[`${c.file}|${c.key}`] ? { route: ROUTES[`${c.file}|${c.key}`] } : {}),
         speaker: meta.name.split(' ')[0],
         prompt: c.prompt,
         options: c.options.map((o) => ({
