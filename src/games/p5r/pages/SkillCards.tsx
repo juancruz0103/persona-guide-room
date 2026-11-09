@@ -9,6 +9,7 @@ import { filterSkillCardRows, getSkillCardRows, type SkillCardFilter, type Skill
 import { describeCost, skillMeta } from '../services/skillText';
 import type { Persona, SkillElement } from '../types';
 import styles from './SkillCards.module.css';
+import { personaName, skillName, skillNameEn } from '../services/gameText';
 
 const TYPES: { id: SkillCardFilter; label: string; tone: 'red' | 'white' | 'gold' }[] = [
   { id: 'all', label: 'Todas', tone: 'red' },
@@ -28,7 +29,7 @@ function PersonaPeek({ persona }: { persona: Persona }) {
   return (
     <span className={styles.peek}>
       <Link to={personaLink(persona)} className={styles.peekLink}>
-        {persona.name}
+        {personaName(persona)}
       </Link>
       <span className={styles.preview} aria-hidden="true">
         <span className={`img-stripes ${styles.photo}`}>
@@ -39,7 +40,7 @@ function PersonaPeek({ persona }: { persona: Persona }) {
           </svg>
           <span>Foto</span>
         </span>
-        <span className={styles.previewName}>{persona.name}</span>
+        <span className={styles.previewName}>{personaName(persona)}</span>
         <span className={styles.previewMeta}>Nv {persona.level}</span>
       </span>
     </span>
@@ -55,7 +56,9 @@ function Row({ row }: { row: SkillCardRow }) {
     <li className={`${styles.row} ${exclusive ? styles.rowExcl : ''}`}>
       <SkillTip skill={skill} />
       <span className={styles.skill}>
-        <span className={styles.skillName}>{skill.name}</span>
+        <span className={styles.skillName} title={`En inglés: ${skillNameEn(skill.name)}`}>
+          {skillName(skill.name)}
+        </span>
         <span className={styles.skillMeta}>
           {meta}
           {cost && (
@@ -82,7 +85,7 @@ function Row({ row }: { row: SkillCardRow }) {
               <svg width="14" height="18" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill="currentColor" fillRule="evenodd" d={SKILL_CARD_PATH} />
               </svg>
-              {c.persona.name}
+              {personaName(c.persona)}
               {c.alarm && <span className={styles.alarmBadge}>Alarma</span>}
             </Link>
           ))
@@ -99,7 +102,7 @@ function Row({ row }: { row: SkillCardRow }) {
               <PersonaPeek key={p.id} persona={p} />
             ))}
             {learners.length > MAX_LEARNERS && (
-              <span className={styles.more} title={learners.slice(MAX_LEARNERS).map((p) => p.name).join(', ')}>
+              <span className={styles.more} title={learners.slice(MAX_LEARNERS).map(personaName).join(', ')}>
                 +{learners.length - MAX_LEARNERS} más
               </span>
             )}
@@ -225,8 +228,8 @@ export default function SkillCards() {
         )}
 
         <p className={styles.note}>
-          Datos de la silla eléctrica: aqiu384/megaten-fusion-tool. Los nombres de las skills están en inglés hasta
-          que confirmemos los oficiales de la versión en español.
+          Datos de la silla eléctrica: aqiu384/megaten-fusion-tool. Nombres y descripciones: textos oficiales del
+          juego. Pasá el mouse por el nombre de una skill para verlo en inglés.
         </p>
       </section>
     </>

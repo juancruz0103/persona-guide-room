@@ -3,6 +3,7 @@ import { getSkill } from '../services/personas';
 import { TARGET_LABEL, describeCost } from '../services/skillText';
 import { SkillTip } from './SkillTip';
 import styles from './SkillList.module.css';
+import { skillName, skillNameEn } from '../services/gameText';
 
 function SkillRow({ entry }: { entry: PersonaSkill }) {
   const info = getSkill(entry.skill);
@@ -13,7 +14,9 @@ function SkillRow({ entry }: { entry: PersonaSkill }) {
     <li className={`${styles.row} ${initial ? styles.initial : styles.learned}`}>
       <span className={styles.when}>{initial ? 'Inicial' : `Nv ${entry.level}`}</span>
       <SkillTip skill={info} />
-      <span className={styles.name}>{entry.skill}</span>
+      <span className={styles.name} title={`En inglés: ${skillNameEn(entry.skill)}`}>
+        {skillName(entry.skill)}
+      </span>
       {cost && <span className={`${styles.cost} ${cost.kind === 'hp' ? 'cost-hp' : 'cost-sp'}`}>{cost.text}</span>}
       {info?.target && info.element !== 'pas' && <span className={styles.target}>{TARGET_LABEL[info.target]}</span>}
     </li>

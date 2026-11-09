@@ -21,8 +21,10 @@ describe('items de la silla eléctrica', () => {
     expect(it.skill).toBe('Megaton Raid');
     expect(itemTypeLabel(it)).toBe('Accesorio');
     const d = itemDescription(it);
-    expect(d.lines[0].text).toContain('Megaton Raid');
-    expect(d.lines[0].cost).toEqual({ text: '16% HP', kind: 'hp' });
+    // Primero la descripción oficial, después qué skill da (con su nombre en español)
+    expect(d.lines[0].text).toBe('Cinturón que permite asestar un golpe grave.');
+    expect(d.lines[1].text).toContain('Ataque megatón');
+    expect(d.lines[1].cost).toEqual({ text: '16% HP', kind: 'hp' });
   });
 
   it('las armas de P5 traen estadísticas y una advertencia', () => {
@@ -30,7 +32,7 @@ describe('items de la silla eléctrica', () => {
     expect(it.type).toBe('melee');
     expect(it.owner).toBe('joker');
     const d = itemDescription(it);
-    expect(d.lines[0].text).toContain('Ataque 130');
+    expect(d.lines.some((l) => l.text.includes('Ataque 130'))).toBe(true);
     expect(d.note).toMatch(/P5 original/);
   });
 
@@ -38,7 +40,8 @@ describe('items de la silla eléctrica', () => {
     const it = getItem('Ancient Day')!;
     expect(it.type).toBe('unknown');
     const d = itemDescription(it);
-    expect(d.lines).toHaveLength(0);
+    // Solo la descripción oficial del juego: ninguna línea con estadísticas
+    expect(d.lines.every((l) => !/\d/.test(l.text))).toBe(true);
     expect(d.note).toMatch(/falta confirmar/);
   });
 });

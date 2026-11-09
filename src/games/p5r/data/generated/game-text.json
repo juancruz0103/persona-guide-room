@@ -1,0 +1,5314 @@
+{
+ "skills": {
+  "Agi": {
+   "es": "Agi",
+   "en": "Agi",
+   "descEs": "Daño de fuego leve a un enemigo. Puede infligir Quemadura.",
+   "descEn": "Light Fire dmg to one foe. Chance of inflicting Burn."
+  },
+  "Agilao": {
+   "es": "Agilao",
+   "en": "Agilao",
+   "descEs": "Daño de fuego medio a un enemigo. Puede infligir Quemadura.",
+   "descEn": "Medium Fire dmg to one foe. Chance of inflicting Burn."
+  },
+  "Agidyne": {
+   "es": "Agidyne",
+   "en": "Agidyne",
+   "descEs": "Daño de fuego grave a un enemigo. Puede infligir Quemadura.",
+   "descEn": "Heavy Fire dmg to one foe. Chance of inflicting Burn."
+  },
+  "Maragi": {
+   "es": "Maragi",
+   "en": "Maragi",
+   "descEs": "Daño de fuego leve a todos los enemigos. Puede infligir Quemadura.",
+   "descEn": "Light Fire dmg to all foes. Chance of inflicting Burn."
+  },
+  "Maragion": {
+   "es": "Maragion",
+   "en": "Maragion",
+   "descEs": "Daño de fuego medio a todos los enemigos. Puede infligir Quem.",
+   "descEn": "Medium Fire dmg to all foes. Chance of inflicting Burn."
+  },
+  "Maragidyne": {
+   "es": "Maragidyne",
+   "en": "Maragidyne",
+   "descEs": "Daño de fuego grave a todos los enemigos. Puede infligir Quemadura.",
+   "descEn": "Heavy Fire dmg to all foes. Chance of inflicting Burn."
+  },
+  "Bufu": {
+   "es": "Bufu",
+   "en": "Bufu",
+   "descEs": "Daño de hielo leve a un enemigo. Puede infligir Congelación.",
+   "descEn": "Light Ice dmg to one foe. Chance of inflicting Freeze."
+  },
+  "Bufula": {
+   "es": "Bufula",
+   "en": "Bufula",
+   "descEs": "Daño de hielo medio a un enemigo. Puede infligir Congelación.",
+   "descEn": "Medium Ice dmg to one foe. Chance of inflicting Freeze."
+  },
+  "Bufudyne": {
+   "es": "Bufudyne",
+   "en": "Bufudyne",
+   "descEs": "Daño de hielo grave a un enemigo. Puede infligir Congelación.",
+   "descEn": "Heavy Ice dmg to one foe. Chance of inflicting Freeze."
+  },
+  "Mabufu": {
+   "es": "Mabufu",
+   "en": "Mabufu",
+   "descEs": "Daño de hielo leve a todos los enemigos. Puede infligir Cong.",
+   "descEn": "Light Ice dmg to all foes. Chance of inflicting Freeze."
+  },
+  "Mabufula": {
+   "es": "Mabufula",
+   "en": "Mabufula",
+   "descEs": "Daño de hielo medio a todos los enemigos. Puede infligir Cong.",
+   "descEn": "Medium Ice dmg to all foes. Chance of inflicting Freeze."
+  },
+  "Mabufudyne": {
+   "es": "Mabufudyne",
+   "en": "Mabufudyne",
+   "descEs": "Daño de hielo grave a todos los enemigos. Puede infligir Cong.",
+   "descEn": "Heavy Ice dmg to all foes. Chance of inflicting Freeze."
+  },
+  "Garu": {
+   "es": "Garu",
+   "en": "Garu",
+   "descEs": "Daño de viento leve a un enemigo.",
+   "descEn": "Light Wind dmg to one foe."
+  },
+  "Garula": {
+   "es": "Garula",
+   "en": "Garula",
+   "descEs": "Daño de viento medio a un enemigo.",
+   "descEn": "Medium Wind dmg to one foe."
+  },
+  "Garudyne": {
+   "es": "Garudyne",
+   "en": "Garudyne",
+   "descEs": "Daño de viento grave a un enemigo.",
+   "descEn": "Heavy Wind dmg to one foe."
+  },
+  "Magaru": {
+   "es": "Magaru",
+   "en": "Magaru",
+   "descEs": "Daño de viento leve a todos los enemigos.",
+   "descEn": "Light Wind dmg to all foes."
+  },
+  "Magarula": {
+   "es": "Magarula",
+   "en": "Magarula",
+   "descEs": "Daño de viento medio a todos los enemigos.",
+   "descEn": "Medium Wind dmg to all foes."
+  },
+  "Magarudyne": {
+   "es": "Magarudyne",
+   "en": "Magarudyne",
+   "descEs": "Daño de viento grave a todos los enemigos.",
+   "descEn": "Heavy Wind dmg to all foes."
+  },
+  "Zio": {
+   "es": "Zio",
+   "en": "Zio",
+   "descEs": "Daño eléctrico leve a un enemigo. Puede infligir Electrificación.",
+   "descEn": "Light Elec dmg to one foe. Chance of inflicting Shock."
+  },
+  "Zionga": {
+   "es": "Zionga",
+   "en": "Zionga",
+   "descEs": "Daño eléctrico medio a un enemigo. Puede infligir Electrificación.",
+   "descEn": "Medium Elec dmg to one foe. Chance of inflicting Shock."
+  },
+  "Ziodyne": {
+   "es": "Ziodyne",
+   "en": "Ziodyne",
+   "descEs": "Daño eléctrico grave a un enemigo. Puede infligir Electrificación.",
+   "descEn": "Heavy Elec dmg to one foe. Chance of inflicting Shock."
+  },
+  "Mazio": {
+   "es": "Mazio",
+   "en": "Mazio",
+   "descEs": "Daño eléctrico leve a todos los enemigos. Puede infligir Elec.",
+   "descEn": "Light Elec dmg to all foes. Chance of inflicting Shock."
+  },
+  "Mazionga": {
+   "es": "Mazionga",
+   "en": "Mazionga",
+   "descEs": "Daño eléctrico medio a todos los enemigos. Puede infligir Elec.",
+   "descEn": "Medium Elec dmg to all foes. Chance of inflicting Shock."
+  },
+  "Maziodyne": {
+   "es": "Maziodyne",
+   "en": "Maziodyne",
+   "descEs": "Daño eléctrico grave a todos los enemigos. Puede infligir Elec.",
+   "descEn": "Heavy Elec dmg to all foes. Chance of inflicting Shock."
+  },
+  "Hama": {
+   "es": "Hama",
+   "en": "Hama",
+   "descEs": "Posib. baja de causar muerte ins. por bendición a un enemigo.",
+   "descEn": "Low chance of Bless insta-kill to one foe."
+  },
+  "Hamaon": {
+   "es": "Hamaon",
+   "en": "Hamaon",
+   "descEs": "Posib. media de causar muerte ins. por bendición a un enemigo.",
+   "descEn": "Medium chance of Bless insta-kill to one foe."
+  },
+  "Mahama": {
+   "es": "Mahama",
+   "en": "Mahama",
+   "descEs": "Posib. baja de causar muerte ins. por bendición a todos los enemigos.",
+   "descEn": "Low chance of Bless insta-kill to all foes."
+  },
+  "Mahamaon": {
+   "es": "Mahamaon",
+   "en": "Mahamaon",
+   "descEs": "Posib. media de causar muerte ins. por bendición a todos los enemigos.",
+   "descEn": "Medium chance of Bless insta-kill to all foes."
+  },
+  "Kouha": {
+   "es": "Kouha",
+   "en": "Kouha",
+   "descEs": "Daño de bendición leve a un enemigo.",
+   "descEn": "Light Bless dmg to one foe."
+  },
+  "Kouga": {
+   "es": "Kouga",
+   "en": "Kouga",
+   "descEs": "Daño de bendición medio a un enemigo.",
+   "descEn": "Medium Bless dmg to one foe."
+  },
+  "Kougaon": {
+   "es": "Kougaon",
+   "en": "Kougaon",
+   "descEs": "Daño de bendición grave a un enemigo.",
+   "descEn": "Heavy Bless dmg to one foe."
+  },
+  "Makouha": {
+   "es": "Makouha",
+   "en": "Makouha",
+   "descEs": "Daño de bendición leve a todos los enemigos.",
+   "descEn": "Light Bless dmg to all foes."
+  },
+  "Makouga": {
+   "es": "Makouga",
+   "en": "Makouga",
+   "descEs": "Daño de bendición medio a todos los enemigos.",
+   "descEn": "Medium Bless dmg to all foes."
+  },
+  "Makougaon": {
+   "es": "Makougaon",
+   "en": "Makougaon",
+   "descEs": "Daño de bendición grave a todos los enemigos.",
+   "descEn": "Heavy Bless dmg to all foes."
+  },
+  "Mudo": {
+   "es": "Mudo",
+   "en": "Mudo",
+   "descEs": "Posib. baja de causar muerte ins. por maldición a un enemigo.",
+   "descEn": "Low chance of Curse insta-kill to one foe."
+  },
+  "Mudoon": {
+   "es": "Mudoon",
+   "en": "Mudoon",
+   "descEs": "Posib. media de causar muerte ins. por maldición a un enemigo.",
+   "descEn": "Medium chance of Curse insta-kill to one foe."
+  },
+  "Mamudo": {
+   "es": "Mamudo",
+   "en": "Mamudo",
+   "descEs": "Posib. baja de causar muerte ins. por maldición a todos los enemigos.",
+   "descEn": "Low chance of Curse insta-kill to all foes."
+  },
+  "Mamudoon": {
+   "es": "Mamudoon",
+   "en": "Mamudoon",
+   "descEs": "Posib. media de causar muerte ins. por maldición a todos los enemigos.",
+   "descEn": "Medium chance of Curse insta-kill to all foes."
+  },
+  "Eiha": {
+   "es": "Eiha",
+   "en": "Eiha",
+   "descEs": "Daño de maldición leve a un enemigo.",
+   "descEn": "Light Curse dmg to one foe."
+  },
+  "Eiga": {
+   "es": "Eiga",
+   "en": "Eiga",
+   "descEs": "Daño de maldición medio a un enemigo.",
+   "descEn": "Medium Curse dmg to one foe."
+  },
+  "Eigaon": {
+   "es": "Eigaon",
+   "en": "Eigaon",
+   "descEs": "Daño de maldición grave a un enemigo.",
+   "descEn": "Heavy Curse dmg to one foe."
+  },
+  "Maeiha": {
+   "es": "Maeiha",
+   "en": "Maeiha",
+   "descEs": "Daño de maldición leve a todos los enemigos.",
+   "descEn": "Light Curse dmg to all foes."
+  },
+  "Maeiga": {
+   "es": "Maeiga",
+   "en": "Maeiga",
+   "descEs": "Daño de maldición medio a todos los enemigos.",
+   "descEn": "Medium Curse dmg to all foes."
+  },
+  "Maeigaon": {
+   "es": "Maeigaon",
+   "en": "Maeigaon",
+   "descEs": "Daño de maldición grave a todos los enemigos.",
+   "descEn": "Heavy Curse dmg to all foes."
+  },
+  "Megido": {
+   "es": "Megido",
+   "en": "Megido",
+   "descEs": "Daño todopoderoso medio a todos los enemigos.",
+   "descEn": "Medium Almighty dmg to all foes."
+  },
+  "Megidola": {
+   "es": "Megidola",
+   "en": "Megidola",
+   "descEs": "Daño todopoderoso grave a todos los enemigos.",
+   "descEn": "Heavy Almighty dmg to all foes."
+  },
+  "Megidolaon": {
+   "es": "Megidolaon",
+   "en": "Megidolaon",
+   "descEs": "Daño todopoderoso severo a todos los enemigos.",
+   "descEn": "Severe Almighty dmg to all foes."
+  },
+  "Frei": {
+   "es": "Frei",
+   "en": "Frei",
+   "descEs": "Daño nuclear leve a un enemigo.",
+   "descEn": "Light Nuke dmg to one foe."
+  },
+  "Freila": {
+   "es": "Freila",
+   "en": "Freila",
+   "descEs": "Daño nuclear medio a un enemigo.",
+   "descEn": "Medium Nuke dmg to one foe."
+  },
+  "Freidyne": {
+   "es": "Freidyne",
+   "en": "Freidyne",
+   "descEs": "Daño nuclear grave a un enemigo.",
+   "descEn": "Heavy Nuke dmg to one foe."
+  },
+  "Mafrei": {
+   "es": "Mafrei",
+   "en": "Mafrei",
+   "descEs": "Daño nuclear leve a todos los enemigos.",
+   "descEn": "Light Nuke dmg to all foes."
+  },
+  "Mafreila": {
+   "es": "Mafreila",
+   "en": "Mafreila",
+   "descEs": "Daño nuclear medio a todos los enemigos.",
+   "descEn": "Medium Nuke dmg to all foes."
+  },
+  "Mafreidyne": {
+   "es": "Mafreidyne",
+   "en": "Mafreidyne",
+   "descEs": "Daño nuclear grave a todos los enemigos.",
+   "descEn": "Heavy Nuke dmg to all foes."
+  },
+  "Dazzler": {
+   "es": "Deslumbramiento",
+   "en": "Dazzler",
+   "descEs": "Posib. alta de infligir Mareo a un enemigo.",
+   "descEn": "High chance of Dizzy to one foe."
+  },
+  "Nocturnal Flash": {
+   "es": "Destello nocturno",
+   "en": "Nocturnal Flash",
+   "descEs": "Posib. media de infligir Mareo a todos los enem.",
+   "descEn": "Medium chance of Dizzy to all foes."
+  },
+  "Pulinpa": {
+   "es": "Pulinpa",
+   "en": "Pulinpa",
+   "descEs": "Posib. alta de infligir Confusión a un enemigo.",
+   "descEn": "High chance of Confuse to one foe."
+  },
+  "Tentarafoo": {
+   "es": "Tentarafoo",
+   "en": "Tentarafoo",
+   "descEs": "Posib. media de infligir Conf. a todos los enem.",
+   "descEn": "Medium chance of Confuse to all foes."
+  },
+  "Evil Touch": {
+   "es": "Toque maligno",
+   "en": "Evil Touch",
+   "descEs": "Posib. alta de infligir Miedo a un enemigo.",
+   "descEn": "High chance of Fear to one foe."
+  },
+  "Evil Smile": {
+   "es": "Sonrisa maligna",
+   "en": "Evil Smile",
+   "descEs": "Posib. media de infligir Miedo a todos los enem.",
+   "descEn": "Medium chance of Fear to all foes."
+  },
+  "Makajam": {
+   "es": "Makajama",
+   "en": "Makajama",
+   "descEs": "Posib. alta de infligir Amnesia a un enemigo.",
+   "descEn": "High chance of Forget to one foe."
+  },
+  "Makajamaon": {
+   "es": "Makajamaon",
+   "en": "Makajamaon",
+   "descEs": "Posib. media de infligir Amnesia a todos los enem.",
+   "descEn": "Medium chance of Forget to all foes."
+  },
+  "Dormina": {
+   "es": "Dormina",
+   "en": "Dormina",
+   "descEs": "Posib. alta de infligir Sueño a un enemigo.",
+   "descEn": "High chance of Sleep to one foe."
+  },
+  "Lullaby": {
+   "es": "Canción de cuna",
+   "en": "Lullaby",
+   "descEs": "Posib. media de infligir Sueño a todos los enem.",
+   "descEn": "Medium chance of Sleep to all foes."
+  },
+  "Taunt": {
+   "es": "Provocación",
+   "en": "Taunt",
+   "descEs": "Posib. alta de infligir Furia a un enemigo.",
+   "descEn": "High chance of Rage to one foe."
+  },
+  "Wage War": {
+   "es": "Hacha de guerra",
+   "en": "Wage War",
+   "descEs": "Posib. media de infligir Furia a todos los enem.",
+   "descEn": "Medium chance of Rage to all foes."
+  },
+  "Ominous Words": {
+   "es": "Amenaza",
+   "en": "Ominous Words",
+   "descEs": "Posib. alta de infligir Desesp. a un enemigo.",
+   "descEn": "High chance of Despair to one foe."
+  },
+  "Abysmal Surge": {
+   "es": "Arranque abismal",
+   "en": "Abysmal Surge",
+   "descEs": "Posib. media de infligir Desesp. a todos los enem.",
+   "descEn": "Medium chance of Despair to all foes."
+  },
+  "Marin Karin": {
+   "es": "Marin Karin",
+   "en": "Marin Karin",
+   "descEs": "Posib. alta de infligir Mani. a un enemigo.",
+   "descEn": "High chance of Brainwash to one foe."
+  },
+  "Brain Jack": {
+   "es": "Alteración cerebral",
+   "en": "Brain Jack",
+   "descEs": "Posib. media de infligir Mani. a todos los enem.",
+   "descEn": "Medium chance of Brainwash to all foes."
+  },
+  "Life Drain": {
+   "es": "Absorción de salud",
+   "en": "Life Drain",
+   "descEs": "Absorbe PS de un enemigo.",
+   "descEn": "Drains HP from one foe."
+  },
+  "Spirit Drain": {
+   "es": "Absorc. de espíritu",
+   "en": "Spirit Drain",
+   "descEs": "Absorbe PE de un enemigo.",
+   "descEn": "Drains SP from one foe."
+  },
+  "Foul Breath": {
+   "es": "Aliento fétido",
+   "en": "Foul Breath",
+   "descEs": "Aumenta la probabilidad de infligir estados alterados a un enemigo.",
+   "descEn": "Increases chance of inflicting ailments to one foe."
+  },
+  "Stagnant Air": {
+   "es": "Aire estancado",
+   "en": "Stagnant Air",
+   "descEs": "Aumenta la probabilidad de infligir estados alterados a todo el mundo.",
+   "descEn": "Increases chance of inflicting ailments to all."
+  },
+  "Ghastly Wail": {
+   "es": "Lamento espectral",
+   "en": "Ghastly Wail",
+   "descEs": "Muerte instantánea a todos los enemigos que padecen Miedo.",
+   "descEn": "Insta-kills foes inflicted with Fear."
+  },
+  "Inferno": {
+   "es": "Infierno",
+   "en": "Inferno",
+   "descEs": "Daño de fuego severo a un enemigo. Puede infligir Quemadura.",
+   "descEn": "Severe Fire dmg to one foe. Chance of inflicting Burn."
+  },
+  "Blazing Hell": {
+   "es": "Averno ígneo",
+   "en": "Blazing Hell",
+   "descEs": "Daño de fuego severo a todos los enemigos. Puede infligir Quemadura.",
+   "descEn": "Severe Fire dmg to all foes. Chance of inflicting Burn."
+  },
+  "Diamond Dust": {
+   "es": "Polvo de diamante",
+   "en": "Diamond Dust",
+   "descEs": "Daño de hielo severo a un enemigo. Puede infligir Congelación.",
+   "descEn": "Severe Ice dmg to one foe. Chance of inflicting Freeze."
+  },
+  "Ice Age": {
+   "es": "Glaciación",
+   "en": "Ice Age",
+   "descEs": "Daño de hielo severo a todos los enemigos. Puede infligir Cong.",
+   "descEn": "Severe Ice dmg to all foes. Chance of inflicting Freeze."
+  },
+  "Panta Rhei": {
+   "es": "Panta Rei",
+   "en": "Panta Rhei",
+   "descEs": "Daño de viento severo a un enemigo.",
+   "descEn": "Severe Wind dmg to one foe."
+  },
+  "Vacuum Wave": {
+   "es": "Ola succionadora",
+   "en": "Vacuum Wave",
+   "descEs": "Daño de viento severo a todos los enemigos.",
+   "descEn": "Severe Wind dmg to all foes."
+  },
+  "Thunder Reign": {
+   "es": "Reino del trueno",
+   "en": "Thunder Reign",
+   "descEs": "Daño eléctrico severo a un enemigo. Puede infligir Electrificación.",
+   "descEn": "Severe Elec dmg to one foe. Chance of inflicting Shock."
+  },
+  "Wild Thunder": {
+   "es": "Trueno salvaje",
+   "en": "Wild Thunder",
+   "descEs": "Daño eléctrico severo a todos los enemigos. Puede infligir Elec.",
+   "descEn": "Severe Elec dmg to all foes. Chance of inflicting Shock."
+  },
+  "Divine Judgement": {
+   "es": "Juicio divino",
+   "en": "Divine Judgment",
+   "descEs": "Ataque de bendición que reduce los PS de un enemigo un 50 %.",
+   "descEn": "Bless attack that reduces HP of one foe by 50%."
+  },
+  "Samsara": {
+   "es": "Samsara",
+   "en": "Samsara",
+   "descEs": "Posib. alta de causar muerte ins. por bendición a todos los enemigos.",
+   "descEn": "High chance of Bless insta-kill to all foes."
+  },
+  "Demonic Decree": {
+   "es": "Decreto demoníaco",
+   "en": "Demonic Decree",
+   "descEs": "Ataque de maldición que reduce los PS de un enemigo un 50 %.",
+   "descEn": "Curse attack that reduces HP of one foe by 50%."
+  },
+  "Die For Me!": {
+   "es": "¡Morid por mí!",
+   "en": "Die For Me!",
+   "descEs": "Posib. alta de causar muerte ins. por maldición a todos los enemigos.",
+   "descEn": "High chance of Curse insta-kill to all foes."
+  },
+  "Atomic Flare": {
+   "es": "Fulgor atómico",
+   "en": "Atomic Flare",
+   "descEs": "Daño nuclear severo a un enemigo.",
+   "descEn": "Severe Nuke dmg to one foe."
+  },
+  "Cosmic Flare": {
+   "es": "Fulgor cósmico",
+   "en": "Cosmic Flare",
+   "descEs": "Daño nuclear severo a todos los enemigos.",
+   "descEn": "Severe Nuke dmg to all foes."
+  },
+  "Black Viper": {
+   "es": "Víbora negra",
+   "en": "Black Viper",
+   "descEs": "Daño todopoderoso severo a un enemigo.",
+   "descEn": "Severe Almighty dmg to one foe."
+  },
+  "Morning Star": {
+   "es": "Lucero del alba",
+   "en": "Morning Star",
+   "descEs": "Daño todopoderoso severo a todos los enemigos.",
+   "descEn": "Severe Almighty dmg to all foes."
+  },
+  "Abyssal Eye": {
+   "es": "Ojo abisal",
+   "en": "Abyssal Eye",
+   "descEs": "Daño todopoderoso severo a todos los enemigos.",
+   "descEn": "Severe Almighty dmg to all foes."
+  },
+  "Psi": {
+   "es": "Psi",
+   "en": "Psi",
+   "descEs": "Daño psicoquinético leve a un enemigo.",
+   "descEn": "Light Psy dmg to one foe."
+  },
+  "Psio": {
+   "es": "Psio",
+   "en": "Psio",
+   "descEs": "Daño psicoquinético medio a un enemigo.",
+   "descEn": "Medium Psy dmg to one foe."
+  },
+  "Psiodyne": {
+   "es": "Psiodyne",
+   "en": "Psiodyne",
+   "descEs": "Daño psicoquinético grave a un enemigo.",
+   "descEn": "Heavy Psy dmg to one foe."
+  },
+  "Mapsi": {
+   "es": "Mapsi",
+   "en": "Mapsi",
+   "descEs": "Daño psicoquinético leve a todos los enemigos.",
+   "descEn": "Light Psy dmg to all foes."
+  },
+  "Mapsio": {
+   "es": "Mapsio",
+   "en": "Mapsio",
+   "descEs": "Daño psicoquinético medio a todos los enemigos.",
+   "descEn": "Medium Psy dmg to all foes."
+  },
+  "Mapsiodyne": {
+   "es": "Mapsiodyne",
+   "en": "Mapsiodyne",
+   "descEs": "Daño psicoquinético grave a todos los enemigos.",
+   "descEn": "Heavy Psy dmg to all foes."
+  },
+  "Psycho Force": {
+   "es": "Psicofuerza",
+   "en": "Psycho Force",
+   "descEs": "Daño psi. severo a un enemigo.",
+   "descEn": "Severe Psy dmg to one foe."
+  },
+  "Psycho Blast": {
+   "es": "Psicoestallido",
+   "en": "Psycho Blast",
+   "descEs": "Daño psi. severo a todos los enemigos.",
+   "descEn": "Severe Psy dmg to all foes."
+  },
+  "Lunge": {
+   "es": "Acometida",
+   "en": "Lunge",
+   "descEs": "Daño físico leve a un enemigo.",
+   "descEn": "Light Phys dmg to one foe."
+  },
+  "Assault Dive": {
+   "es": "Asalto",
+   "en": "Assault Dive",
+   "descEs": "Daño físico grave a un enemigo.",
+   "descEn": "Heavy Phys dmg to one foe."
+  },
+  "Megaton Raid": {
+   "es": "Ataque megatón",
+   "en": "Megaton Raid",
+   "descEs": "Daño físico severo a un enemigo.",
+   "descEn": "Severe Phys dmg to one foe."
+  },
+  "God's Hand": {
+   "es": "Mano de Dios",
+   "en": "God's Hand",
+   "descEs": "Daño físico colosal a un enemigo.",
+   "descEn": "Colossal Phys dmg to one foe."
+  },
+  "Lucky Punch": {
+   "es": "Golpe de suerte",
+   "en": "Lucky Punch",
+   "descEs": "Daño físico minúsculo a un enemigo y alta probabilidad de críticos.",
+   "descEn": "Miniscule Phys dmg to one foe with high chance of Critical."
+  },
+  "Miracle Punch": {
+   "es": "Golpe milagroso",
+   "en": "Miracle Punch",
+   "descEs": "Daño físico medio a un enemigo y alta probabilidad de críticos.",
+   "descEn": "Medium Phys dmg to one foe with high chance of Critical."
+  },
+  "Kill Rush": {
+   "es": "Acometida asesina",
+   "en": "Kill Rush",
+   "descEs": "Daño físico leve a un enemigo entre 1 y 3 veces.",
+   "descEn": "Light Phys dmg to one foe 1-3 times."
+  },
+  "Gattling Blows": {
+   "es": "Golpe Gatling",
+   "en": "Gatling Blow",
+   "descEs": "Daño físico leve a un enemigo entre 3 y 4 veces.",
+   "descEn": "Light Phys dmg to one foe 3-4 times."
+  },
+  "Cleave": {
+   "es": "Despedazar",
+   "en": "Cleave",
+   "descEs": "Daño físico leve a un enemigo.",
+   "descEn": "Light Phys dmg to one foe."
+  },
+  "Giant Slice": {
+   "es": "Tajo colosal",
+   "en": "Giant Slice",
+   "descEs": "Daño físico medio a un enemigo. Tiene más potencia tras un Relevo.",
+   "descEn": "Medium Phys dmg to one foe. Powers up after a Baton Pass."
+  },
+  "Brave Blade": {
+   "es": "Filo valeroso",
+   "en": "Brave Blade",
+   "descEs": "Daño físico colosal a un enemigo.",
+   "descEn": "Colossal Phys dmg to one foe."
+  },
+  "Sword Dance": {
+   "es": "Baile de espadas",
+   "en": "Sword Dance",
+   "descEs": "Daño físico colosal a un enemigo y alta probabilidad de críticos.",
+   "descEn": "Colossal Phys dmg to one foe with high chance of Critical."
+  },
+  "Holy Benevolence": {
+   "es": "Benevolencia sagrada",
+   "en": "Holy Benevolence",
+   "descEs": "Reanima a todos los aliados caídos con todos sus PS.",
+   "descEn": "Revives all fallen allies to full HP."
+  },
+  "Hassou Tobi": {
+   "es": "Hassou Tobi",
+   "en": "Hassou Tobi",
+   "descEs": "Daño físico leve a todos los enemigos 8 veces.",
+   "descEn": "Light Phys dmg to all foes 8 times."
+  },
+  "Ayamur": {
+   "es": "Ayamur",
+   "en": "Ayamur",
+   "descEs": "Daño físico medio a un enemigo 3 veces con mucha precisión.",
+   "descEn": "Medium Phys dmg to one foe 3 times with high Accuracy."
+  },
+  "Death Scythe": {
+   "es": "Guadaña de la muerte",
+   "en": "Death Scythe",
+   "descEs": "Daño físico severo a un enemigo. Posib. intermedia de infligir Miedo.",
+   "descEn": "Severe Phys dmg to one foe. Medium chance of Fear."
+  },
+  "Cornered Fang": {
+   "es": "Colmillo acorralado",
+   "en": "Cornered Fang",
+   "descEs": "Daño físico medio a un enemigo. Tiene más potencia cuando te rodean.",
+   "descEn": "Medium Phys dmg to one foe. Powers up when surrounded."
+  },
+  "Rising Slash": {
+   "es": "Corte ascendente",
+   "en": "Rising Slash",
+   "descEs": "Daño físico grave a un enemigo. Tiene más potencia tras un Relevo.",
+   "descEn": "Heavy Phys dmg to one foe. Powers up after a Baton Pass."
+  },
+  "Deadly Fury": {
+   "es": "Furia mortal",
+   "en": "Deadly Fury",
+   "descEs": "Daño físico severo a un enemigo. Tiene más potencia tras un Relevo.",
+   "descEn": "Severe Phys dmg to one foe. Powers up after a Baton Pass."
+  },
+  "Snap": {
+   "es": "Chasquido",
+   "en": "Snap",
+   "descEs": "Daño medio por arma a distancia a un enemigo.",
+   "descEn": "Medium Gun dmg to one foe."
+  },
+  "Triple Down": {
+   "es": "Tiro triple",
+   "en": "Triple Down",
+   "descEs": "Daño leve por arma a los enemigos 3 veces.",
+   "descEn": "Light Gun dmg to all foes 3 times."
+  },
+  "One-shot Kill": {
+   "es": "Tiro mortal",
+   "en": "One-shot Kill",
+   "descEs": "Daño severo por arma a un enemigo y alta probabilidad de críticos.",
+   "descEn": "Severe Gun dmg to one foe with high chance of Critical."
+  },
+  "Riot Gun": {
+   "es": "Tiro rebelde",
+   "en": "Riot Gun",
+   "descEs": "Daño severo por arma a todos los enemigos.",
+   "descEn": "Severe Gun dmg to all foes."
+  },
+  "Double Shot": {
+   "es": "Disparo doble",
+   "en": "Double Shot",
+   "descEs": "Daño leve por arma a un enemigo 2 veces.",
+   "descEn": "Light Gun dmg to one foe 2 times."
+  },
+  "Vajra Blast": {
+   "es": "Estallido Vajra",
+   "en": "Vajra Blast",
+   "descEs": "Daño físico medio a todos los enemigos.",
+   "descEn": "Medium Phys dmg to all foes."
+  },
+  "Vorpal Blade": {
+   "es": "Espada vorpal",
+   "en": "Vorpal Blade",
+   "descEs": "Daño físico severo a todos los enemigos.",
+   "descEn": "Severe Phys dmg to all foes."
+  },
+  "Vicious Strike": {
+   "es": "Golpe violento",
+   "en": "Vicious Strike",
+   "descEs": "Daño físico medio a todos los enemigos.",
+   "descEn": "Medium Phys dmg to all foes."
+  },
+  "Heat Wave": {
+   "es": "Ola de calor",
+   "en": "Heat Wave",
+   "descEs": "Daño físico grave a todos los enemigos.",
+   "descEn": "Heavy Phys dmg to all foes."
+  },
+  "Gigantomachia": {
+   "es": "Gigantomaquia",
+   "en": "Gigantomachia",
+   "descEs": "Daño físico colosal a todos los enemigos.",
+   "descEn": "Colossal Phys dmg to all foes."
+  },
+  "Rampage": {
+   "es": "Desmadre",
+   "en": "Rampage",
+   "descEs": "Daño físico leve a todos los enemigos entre 1 y 3 veces.",
+   "descEn": "Light Phys dmg to all foes 1-3 times."
+  },
+  "Swift Strike": {
+   "es": "Golpe veloz",
+   "en": "Swift Strike",
+   "descEs": "Daño físico minúsculo a todos los enemigos entre 2 y 4 veces.",
+   "descEn": "Miniscule Phys dmg to all foes 2-4 times."
+  },
+  "Deathbound": {
+   "es": "Portamuerte",
+   "en": "Deathbound",
+   "descEs": "Daño físico medio a todos los enemigos entre 1 y 2 veces.",
+   "descEn": "Medium Phys dmg to all foes 1-2 times."
+  },
+  "Agneyastra": {
+   "es": "Agneyastra",
+   "en": "Agneyastra",
+   "descEs": "Daño físico medio a todos los enemigos entre 1 y 3 veces.",
+   "descEn": "Medium Phys dmg to all foes 1-3 times."
+  },
+  "Double Fangs": {
+   "es": "Colmillos dobles",
+   "en": "Double Fangs",
+   "descEs": "Daño físico leve a un enemigo 2 veces.",
+   "descEn": "Light Phys dmg to one foe 2 times."
+  },
+  "Power Slash": {
+   "es": "Corte poderoso",
+   "en": "Power Slash",
+   "descEs": "Daño físico medio a un enemigo.",
+   "descEn": "Medium Phys dmg to one foe."
+  },
+  "Tempest Slash": {
+   "es": "Corte tempestuoso",
+   "en": "Tempest Slash",
+   "descEs": "Daño físico minúsculo a un enemigo entre 3 y 5 veces.",
+   "descEn": "Miniscule Phys dmg to one foe 3-5 times."
+  },
+  "Myriad Slashes": {
+   "es": "Mil cortes",
+   "en": "Myriad Slashes",
+   "descEs": "Daño físico medio a un enemigo entre 2 y 3 veces.",
+   "descEn": "Medium Phys dmg to one foe 2-3 times."
+  },
+  "Sledgehammer": {
+   "es": "Mazazo",
+   "en": "Sledgehammer",
+   "descEs": "Daño físico medio a un enemigo. Posib. intermedia de infligir Mareo.",
+   "descEn": "Medium Phys dmg to one foe. Medium chance of Dizzy."
+  },
+  "Skull Cracker": {
+   "es": "Aplastacráneos",
+   "en": "Skull Cracker",
+   "descEs": "Daño físico medio a un enemigo. Posib. intermedia de infligir Confusión.",
+   "descEn": "Medium Phys dmg to one foe. Medium chance of Confuse."
+  },
+  "Terror Claw": {
+   "es": "Garra terrorífica",
+   "en": "Terror Claw",
+   "descEs": "Daño físico leve a un enemigo. Posib. intermedia de infligir Miedo.",
+   "descEn": "Light Phys dmg to one foe. Medium chance of Fear."
+  },
+  "Headbutt": {
+   "es": "Cabezazo",
+   "en": "Headbutt",
+   "descEs": "Daño físico medio a un enemigo. Posib. intermedia de infligir Amnesia.",
+   "descEn": "Medium Phys dmg to one foe. Medium chance of Forget."
+  },
+  "Dream Needle": {
+   "es": "Inyección somnífera",
+   "en": "Dream Needle",
+   "descEs": "Daño leve por arma a un enemigo. Posib. media de infligir Sueño.",
+   "descEn": "Light Gun dmg to one foe. Medium chance of Sleep."
+  },
+  "Hysterical Slap": {
+   "es": "Bofetada histérica",
+   "en": "Hysterical Slap",
+   "descEs": "Daño físico medio a un enemigo. Posib. intermedia de infligir Furia.",
+   "descEn": "Medium Phys dmg to one foe. Medium chance of Rage."
+  },
+  "Negative Pile": {
+   "es": "Golpe negativo",
+   "en": "Negative Pile",
+   "descEs": "Daño físico grave a un enemigo. Posib. intermedia de infligir Desesp.",
+   "descEn": "Heavy Phys dmg to one foe. Medium chance of Despair."
+  },
+  "Brain Shake": {
+   "es": "Agitación cerebral",
+   "en": "Brain Shake",
+   "descEs": "Daño físico medio a un enemigo. Posib. intermedia de infligir Manipulación.",
+   "descEn": "Medium Phys dmg to one foe. Medium chance of Brainwash."
+  },
+  "Flash Bomb": {
+   "es": "Bomba cegadora",
+   "en": "Flash Bomb",
+   "descEs": "Daño físico medio a todos los enemigos. Posib. baja de infligir Mareo.",
+   "descEn": "Medium Phys dmg to all foes. Low chance of Dizzy."
+  },
+  "Mind Slice": {
+   "es": "Tajo mental",
+   "en": "Mind Slice",
+   "descEs": "Daño físico medio a todos los enemigos. Posib. baja de infligir Confusión.",
+   "descEn": "Medium Phys dmg to all foes. Low chance of Confuse."
+  },
+  "Bloodbath": {
+   "es": "Baño de sangre",
+   "en": "Bloodbath",
+   "descEs": "Daño físico grave a todos los enemigos. Posib. baja de infligir Miedo.",
+   "descEn": "Heavy Phys dmg to all foes. Low chance of Fear."
+  },
+  "Memory Blow": {
+   "es": "Golpe amnésico",
+   "en": "Memory Blow",
+   "descEs": "Daño físico leve a todos los enemigos. Posib. baja de infligir Amnesia.",
+   "descEn": "Light Phys dmg to all foes. Low chance of Forget."
+  },
+  "Dormin Rush": {
+   "es": "Acometida soporífera",
+   "en": "Dormin Rush",
+   "descEs": "Daño físico medio a todos los enemigos. Posib. baja de infligir Sueño.",
+   "descEn": "Medium Phys dmg to all foes. Low chance of Sleep."
+  },
+  "Oni Kagura": {
+   "es": "Oni-Kagura",
+   "en": "Oni-Kagura",
+   "descEs": "Daño físico medio a todos los enemigos. Posib. baja de infligir Furia.",
+   "descEn": "Medium Phys dmg to all foes. Low chance of Rage."
+  },
+  "Bad Beat": {
+   "es": "Mal golpe",
+   "en": "Bad Beat",
+   "descEs": "Daño físico medio a todos los enemigos. Posib. baja de infligir Desesp.",
+   "descEn": "Medium Phys dmg to all foes. Low chance of Despair."
+  },
+  "Brain Buster": {
+   "es": "Rompementes",
+   "en": "Brain Buster",
+   "descEs": "Daño físico grave a todos los enemigos. Posib. baja de infligir Manipulación.",
+   "descEn": "Heavy Phys dmg to all foes. Low chance of Brainwash."
+  },
+  "Dia": {
+   "es": "Dia",
+   "en": "Dia",
+   "descEs": "Restaura una cantidad baja de PS a un aliado.",
+   "descEn": "Restores low amount of HP to one ally."
+  },
+  "Diarama": {
+   "es": "Diarama",
+   "en": "Diarama",
+   "descEs": "Restaura una cantidad media de PS a un aliado.",
+   "descEn": "Restores medium amount of HP to one ally."
+  },
+  "Diarahan": {
+   "es": "Diarahan",
+   "en": "Diarahan",
+   "descEs": "Restaura todos los PS de un aliado.",
+   "descEn": "Fully restores HP to one ally."
+  },
+  "Media": {
+   "es": "Media",
+   "en": "Media",
+   "descEs": "Restaura una cantidad baja de PS a todos los aliados.",
+   "descEn": "Restores low amount of HP to all allies."
+  },
+  "Mediarama": {
+   "es": "Mediarama",
+   "en": "Mediarama",
+   "descEs": "Restaura una cantidad media de PS a todos los aliados.",
+   "descEn": "Restores medium amount of HP to all allies."
+  },
+  "Mediarahan": {
+   "es": "Mediarahan",
+   "en": "Mediarahan",
+   "descEs": "Restaura todos los PS de todos los aliados.",
+   "descEn": "Fully restores HP to all allies."
+  },
+  "Recarm": {
+   "es": "Recarm",
+   "en": "Recarm",
+   "descEs": "Reanima a un aliado y cura el 50 % de sus PS.",
+   "descEn": "Revives one fallen ally to 50% HP."
+  },
+  "Samarecarm": {
+   "es": "Samarecarm",
+   "en": "Samarecarm",
+   "descEs": "Reanima a un aliado caído y restaura todos sus PS.",
+   "descEn": "Revives one fallen ally to full HP."
+  },
+  "Amrita Drop": {
+   "es": "Gota de Amrita",
+   "en": "Amrita Drop",
+   "descEs": "Cura los est. alterados normales de un aliado.",
+   "descEn": "Cures all non-special ailments for one ally."
+  },
+  "Amrita Shower": {
+   "es": "Lluvia de Amrita",
+   "en": "Amrita Shower",
+   "descEs": "Cura los est. alterados normales de los aliados.",
+   "descEn": "Cures all non-special ailments for all allies."
+  },
+  "Salvation": {
+   "es": "Salvación",
+   "en": "Salvation",
+   "descEs": "Restaura todos los PS y cura los estados alterados de todos los aliados.",
+   "descEn": "Fully restores HP and cures non-special ailments for all allies."
+  },
+  "Patra": {
+   "es": "Patra",
+   "en": "Patra",
+   "descEs": "Cura Mareo, Amnesia, Sueño y Hambre a un aliado.",
+   "descEn": "Cures Dizzy/Forget/ Sleep/Hunger for one ally."
+  },
+  "Energy Shower": {
+   "es": "Lluvia de energía",
+   "en": "Energy Shower",
+   "descEs": "Cura Confusión, Miedo Desesperación, Manipulación y Furia a los aliados.",
+   "descEn": "Cures Confuse/Fear/ Despair/Brainwash/ Rage for all allies."
+  },
+  "Energy Drop": {
+   "es": "Gota de energía",
+   "en": "Energy Drop",
+   "descEs": "Cura Confusión, Miedo Desesperación, Manipulación y Furia a un aliado.",
+   "descEn": "Cures Confuse/Fear/ Despair/Brainwash/ Rage for one ally."
+  },
+  "Baisudi": {
+   "es": "Baisudi",
+   "en": "Baisudi",
+   "descEs": "Cura Quem., Cong. y Elec. a un aliado.",
+   "descEn": "Cures Burn/Freeze/Shock for one ally."
+  },
+  "Me Patra": {
+   "es": "Me Patra",
+   "en": "Me Patra",
+   "descEs": "Cura Mareo, Amnesia, Sueño y Hambre a todos los aliados.",
+   "descEn": "Cures Dizzy/Forget/ Sleep/Hunger for all allies."
+  },
+  "Mabaisudi": {
+   "es": "Mabaisudi",
+   "en": "Mabaisudi",
+   "descEs": "Cura Quem., Cong. y Elec. a todos los aliados.",
+   "descEn": "Cures Burn/Freeze/Shock for all allies."
+  },
+  "Tarukaja": {
+   "es": "Tarukaja",
+   "en": "Tarukaja",
+   "descEs": "Aumenta el atq. de un aliado durante 3 turnos.",
+   "descEn": "Increases Attack for one ally for 3 turns."
+  },
+  "Rakukaja": {
+   "es": "Rakukaja",
+   "en": "Rakukaja",
+   "descEs": "Aumenta la def. de un aliado durante 3 turnos.",
+   "descEn": "Increases Defense for one ally for 3 turns."
+  },
+  "Sukukaja": {
+   "es": "Sukukaja",
+   "en": "Sukukaja",
+   "descEs": "Aumenta la precisión y la evasión de un aliado durante 3 turnos.",
+   "descEn": "Increases Accuracy/ Evasion for one ally for 3 turns."
+  },
+  "Heat Riser": {
+   "es": "Subidón",
+   "en": "Heat Riser",
+   "descEs": "Aumenta el atq., la def., la evasión y la precisión de un aliado.",
+   "descEn": "Increases ATK/DEF/ Accuracy/Evasion for one ally."
+  },
+  "Matarukaja": {
+   "es": "Matarukaja",
+   "en": "Matarukaja",
+   "descEs": "Aumenta el atq. de los aliados durante 3 turnos.",
+   "descEn": "Increases Attack for all allies for 3 turns."
+  },
+  "Marakukaja": {
+   "es": "Marakukaja",
+   "en": "Marakukaja",
+   "descEs": "Aumenta la def. de los aliados durante 3 turnos.",
+   "descEn": "Increases Defense for all allies for 3 turns."
+  },
+  "Masukukaja": {
+   "es": "Masukukaja",
+   "en": "Masukukaja",
+   "descEs": "Aumenta la precisión y la evasión de todos los aliados durante 3 turnos.",
+   "descEn": "Increases Accuracy/ Evasion for all allies for 3 turns."
+  },
+  "Thermopylae": {
+   "es": "Termópilas",
+   "en": "Thermopylae",
+   "descEs": "Aumenta el atq., la def., la prec. y la eva. de los aliados cuando te rodean.",
+   "descEn": "Increases ATK/DEF/ Accuracy/Evasion for all allies when surrounded."
+  },
+  "Tarunda": {
+   "es": "Tarunda",
+   "en": "Tarunda",
+   "descEs": "Reduce el ataque de un enemigo durante 3 turnos.",
+   "descEn": "Decreases Attack for one foe for 3 turns."
+  },
+  "Rakunda": {
+   "es": "Rakunda",
+   "en": "Rakunda",
+   "descEs": "Reduce la defensa de un enemigo durante 3 turnos.",
+   "descEn": "Decreases Defense for one foe for 3 turns."
+  },
+  "Sukunda": {
+   "es": "Sukunda",
+   "en": "Sukunda",
+   "descEs": "Reduce la precisión y la evasión de un enemigo durante 3 turnos.",
+   "descEn": "Decreases Accuracy/ Evasion for one foe for 3 turns."
+  },
+  "Debilitate": {
+   "es": "Debilitar",
+   "en": "Debilitate",
+   "descEs": "Reduce el atq., la def., la precisión y la evasión de un enemigo.",
+   "descEn": "Decreases ATK/DEF/ Accuracy/Evasion for one foe."
+  },
+  "Matarunda": {
+   "es": "Matarunda",
+   "en": "Matarunda",
+   "descEs": "Reduce el ataque enemigo durante 3 turnos.",
+   "descEn": "Decreases Attack for all foes for 3 turns."
+  },
+  "Marakunda": {
+   "es": "Marakunda",
+   "en": "Marakunda",
+   "descEs": "Reduce la defensa enemiga durante 3 turnos.",
+   "descEn": "Decreases Defense for all foes for 3 turns."
+  },
+  "Masukunda": {
+   "es": "Masukunda",
+   "en": "Masukunda",
+   "descEs": "Reduce la precisión y la evasión de todos los enemig. durante 3 turnos.",
+   "descEn": "Decreases Accuracy/ Evasion for all foes for 3 turns."
+  },
+  "Dekunda": {
+   "es": "Dekunda",
+   "en": "Dekunda",
+   "descEs": "Elimina las debilitaciones de los aliados.",
+   "descEn": "Removes all stat debuffs for all allies."
+  },
+  "Dekaja": {
+   "es": "Dekaja",
+   "en": "Dekaja",
+   "descEs": "Anula los potenciadores de estado de los enemigos.",
+   "descEn": "Removes all stat buffs for all foes."
+  },
+  "Charge": {
+   "es": "Carga",
+   "en": "Charge",
+   "descEs": "El siguiente ataque físico inflige más del doble de daño.",
+   "descEn": "Next physical attack deals over double the damage."
+  },
+  "Concentrate": {
+   "es": "Concentrar",
+   "en": "Concentrate",
+   "descEs": "El siguiente ataque mágico inflige más del doble de daño.",
+   "descEn": "Next magical attack deals over double the damage."
+  },
+  "Rebellion": {
+   "es": "Rebelión",
+   "en": "Rebellion",
+   "descEs": "Aumenta la probabilidad de críticos de un aliado durante 3 turnos.",
+   "descEn": "Increases chance of Critical for one ally for 3 turns."
+  },
+  "Revolution": {
+   "es": "Revolución",
+   "en": "Revolution",
+   "descEs": "Aumenta la probabilidad de críticos para todos durante 3 turnos.",
+   "descEn": "Increases chance of Critical for all for 3 turns."
+  },
+  "Tetrakarn": {
+   "es": "Tetrakarn",
+   "en": "Tetrakarn",
+   "descEs": "Una barrera que refleja el daño físico de un aliado una vez.",
+   "descEn": "A barrier that reflects physical attacks for one ally one time."
+  },
+  "Makarakarn": {
+   "es": "Makarakarn",
+   "en": "Makarakarn",
+   "descEs": "Una barrera que refleja el daño mágico de un aliado una vez.",
+   "descEn": "A barrier that reflects magical attacks for one ally one time."
+  },
+  "Tetraja": {
+   "es": "Tetraja",
+   "en": "Tetraja",
+   "descEs": "Una barrera que evita una muerte instantánea de todos los aliados una vez.",
+   "descEn": "A barrier that nullifies an insta-kill for all allies one time."
+  },
+  "Tetra Break": {
+   "es": "Ruptura Tetra",
+   "en": "Tetra Break",
+   "descEs": "Elimina Tetrakarn de todos los enemigos.",
+   "descEn": "Negates Tetrakarn on all foes."
+  },
+  "Makara Break": {
+   "es": "Ruptura Makara",
+   "en": "Makara Break",
+   "descEs": "Elimina Makarakarn de todos los enemigos.",
+   "descEn": "Negates Makarakarn on all foes."
+  },
+  "Fire Wall": {
+   "es": "Muro ignífugo",
+   "en": "Fire Wall",
+   "descEs": "Añade res. al fuego a un aliado durante 3 turnos.",
+   "descEn": "Adds Fire resistance to one ally for 3 turns."
+  },
+  "Ice Wall": {
+   "es": "Muro helado",
+   "en": "Ice Wall",
+   "descEs": "Añade res. al hielo a un aliado durante 3 turnos.",
+   "descEn": "Adds Ice resistance to one ally for 3 turns."
+  },
+  "Elec Wall": {
+   "es": "Muro eléctrico",
+   "en": "Elec Wall",
+   "descEs": "Añade res. eléctrica a un aliado durante 3 turnos.",
+   "descEn": "Adds Elec resistance to one ally for 3 turns."
+  },
+  "Wind Wall": {
+   "es": "Muro ventoso",
+   "en": "Wind Wall",
+   "descEs": "Añade res. al viento a un aliado durante 3 turnos.",
+   "descEn": "Adds Wind resistance to one ally for 3 turns."
+  },
+  "Fire Break": {
+   "es": "Ruptura de fuego",
+   "en": "Fire Break",
+   "descEs": "Elimina la res. al fuego de todos los enemigos. No elimina Muro ignífugo.",
+   "descEn": "Negates Fire resistance of all foes. Cannot negate Fire Wall."
+  },
+  "Ice Break": {
+   "es": "Ruptura de hielo",
+   "en": "Ice Break",
+   "descEs": "Elimina la resistencia al hielo de todos los enemigos. No elimina Muro helado.",
+   "descEn": "Negates Ice resistance of all foes. Cannot negate Ice Wall."
+  },
+  "Wind Break": {
+   "es": "Ruptura de viento",
+   "en": "Wind Break",
+   "descEs": "Elimina la res. al viento de todos los enemigos. No elimina Muro ventoso.",
+   "descEn": "Negates Wind resistance of all foes. Cannot negate Wind Wall."
+  },
+  "Elec Break": {
+   "es": "Ruptura de electric.",
+   "en": "Elec Break",
+   "descEs": "Elimina la res. eléctrica de todos los enemigos. No elimina Muro eléctrico.",
+   "descEn": "Negates Elec resistance of all foes. Cannot negate Elec Wall."
+  },
+  "Psy Wall": {
+   "es": "Muro psíquico",
+   "en": "Psy Wall",
+   "descEs": "Añade res. psi. a un aliado durante 3 turnos.",
+   "descEn": "Adds Psy resistance to one ally for 3 turns."
+  },
+  "Nuke Break": {
+   "es": "Ruptura nuclear",
+   "en": "Nuke Break",
+   "descEs": "Elimina la res. nuclear de todos los enemigos. No elimina Muro nuclear.",
+   "descEn": "Negates Nuke resistance of all foes. Cannot negate Nuke Wall."
+  },
+  "Psy Break": {
+   "es": "Ruptura psicoquin.",
+   "en": "Psy Break",
+   "descEs": "Elimina la resistencia psi. de todos los enemigos. No elimina Muro psíquico.",
+   "descEn": "Negates Psy resistance of all foes. Cannot negate Psy Wall."
+  },
+  "Cadenza": {
+   "es": "Cadencia",
+   "en": "Cadenza",
+   "descEs": "Restaura un 50 % de PS y aumenta la prec. y la eva. de todos los aliados.",
+   "descEn": "Restores 50% HP and increases Accuracy/ Evasion for all allies."
+  },
+  "Cross Slash": {
+   "es": "Corte cruzado",
+   "en": "Cross Slash",
+   "descEs": "Daño físico grave a un enemigo 2 veces con mucha precisión.",
+   "descEn": "Heavy Phys dmg to one foe 2 times. High Accuracy."
+  },
+  "Door of Hades": {
+   "es": "Puerta del Hades",
+   "en": "Door of Hades",
+   "descEs": "Daño todopoderoso grave a los enemigos y posib. media de muerte ins.",
+   "descEn": "Heavy Almighty dmg to all foes. Medium chance of insta-kill."
+  },
+  "Magatsu Mandala": {
+   "es": "Magatsu Mandala",
+   "en": "Magatsu Mandala",
+   "descEs": "Daño de mald. grave a los enem. y posib. infligir Conf., Miedo y Desesp.",
+   "descEn": "Heavy Curse dmg to all foes. Chance of Confuse/Fear/Despair."
+  },
+  "Shining Arrows": {
+   "es": "Flechas brillantes",
+   "en": "Shining Arrows",
+   "descEs": "Daño de bend. leve a los enem. entre 4 y 8 veces.",
+   "descEn": "Light Bless dmg to all foes 4-8 times."
+  },
+  "Beast Weaver": {
+   "es": "Bestia tejedora",
+   "en": "Beast Weaver",
+   "descEs": "Daño físico colosal a un enemigo. Reduce el ataque.",
+   "descEn": "Colossal Phys dmg to one foe. Decreases Attack."
+  },
+  "Titanomachia": {
+   "es": "Titanomaquia",
+   "en": "Titanomachia",
+   "descEs": "Daño de fuego severo a los enemigos y alta prob. de infligir Miedo.",
+   "descEn": "Severe Fire dmg to all foes, with high chance of Fear."
+  },
+  "Abyssal Wings": {
+   "es": "Alas abisales",
+   "en": "Abyssal Wings",
+   "descEs": "Daño de maldición severo a todos los enemigos.",
+   "descEn": "Severe Curse dmg to all foes."
+  },
+  "Oratorio": {
+   "es": "Oratorio",
+   "en": "Oratario",
+   "descEs": "Restaura los PS y elimina todas las debilitaciones de todos los aliados.",
+   "descEn": "Fully restores HP and removes all stat debuffs for all allies."
+  },
+  "Myriad Truths": {
+   "es": "Mil verdades",
+   "en": "Myriad Truths",
+   "descEs": "Daño todopoderoso grave a los enemigos 3 veces.",
+   "descEn": "Heavy Almighty dmg to all foes 3 times."
+  },
+  "Neo Cadenza": {
+   "es": "Neocadencia",
+   "en": "Neo Cadenza",
+   "descEs": "Restaura el 50 % de PS y aumenta atq., def., eva. y prec. de los aliados.",
+   "descEn": "Restores 50% HP and increases ATK/DEF/ ACC/EV for allies."
+  },
+  "Akashic Arts": {
+   "es": "Artes etéreas",
+   "en": "Akashic Arts",
+   "descEs": "Daño físico severo a los enemigos y alta prob. de críticos 1-2 veces.",
+   "descEn": "Severe Phys dmg to all foes with high chance of Critical 1-2 times."
+  },
+  "Phantom Show": {
+   "es": "Espectáculo fantasmal",
+   "en": "Phantom Show",
+   "descEs": "Probabilidad alta de infligir Sueño a todos los enemigos.",
+   "descEn": "High chance of inflicting Sleep to all foes."
+  },
+  "Counter": {
+   "es": "Réplica",
+   "en": "Counter",
+   "descEs": "Posib. del 10 % de reflejar ataques físicos.",
+   "descEn": "10% chance of reflecting physical attacks."
+  },
+  "Counterstrike": {
+   "es": "Contraataque",
+   "en": "Counterstrike",
+   "descEs": "Posib. del 15 % de reflejar ataques físicos. No se puede acumular.",
+   "descEn": "15% chance of reflecting physical attacks. Does not stack."
+  },
+  "High Counter": {
+   "es": "Gran contraataq.",
+   "en": "High Counter",
+   "descEs": "Posib. del 20 % de reflejar ataques físicos. No se puede acumular.",
+   "descEn": "20% chance of reflecting physical attacks. Does not stack."
+  },
+  "Endure": {
+   "es": "Último aliento",
+   "en": "Endure",
+   "descEs": "Si te abaten, te reanima con 1 PS. Puede usarse una vez por combate.",
+   "descEn": "Revives with 1 HP when KO'd. Usable once per battle."
+  },
+  "Enduring Soul": {
+   "es": "Alma inmortal",
+   "en": "Enduring Soul",
+   "descEs": "Si te abaten, restaura todos tus PS. Puede usarse una vez por combate.",
+   "descEn": "Revives with full HP when KO'd. Usable once per battle."
+  },
+  "Survival Trick": {
+   "es": "Truco de superviv.",
+   "en": "Survival Trick",
+   "descEs": "Sobrevive a las hab. de muerte ins. con 1 PS.",
+   "descEn": "Survive insta-kill skills with 1 HP."
+  },
+  "Dodge Fire": {
+   "es": "Esquivar fuego",
+   "en": "Dodge Fire",
+   "descEs": "Aumenta la evasión contra las hab. de fuego.",
+   "descEn": "Increases Evasion from Fire skills."
+  },
+  "Evade Fire": {
+   "es": "Evadir fuego",
+   "en": "Evade Fire",
+   "descEs": "Aumenta mucho la evasión contra las hab. de fuego. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Fire skills. Does not stack."
+  },
+  "Dodge Ice": {
+   "es": "Esquivar hielo",
+   "en": "Dodge Ice",
+   "descEs": "Aumenta la evasión contra las hab. de hielo.",
+   "descEn": "Increases Evasion from Ice skills."
+  },
+  "Evade Ice": {
+   "es": "Evadir hielo",
+   "en": "Evade Ice",
+   "descEs": "Aumenta mucho la evasión contra las hab. de hielo. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Ice skills. Does not stack."
+  },
+  "Dodge Wind": {
+   "es": "Esquivar viento",
+   "en": "Dodge Wind",
+   "descEs": "Aumenta la evasión contra las hab. de viento.",
+   "descEn": "Increases Evasion from Wind skills."
+  },
+  "Evade Wind": {
+   "es": "Evadir viento",
+   "en": "Evade Wind",
+   "descEs": "Aumenta mucho la evasión contra hab. de viento. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Wind skills. Does not stack."
+  },
+  "Dodge Elec": {
+   "es": "Esquivar electricidad",
+   "en": "Dodge Elec",
+   "descEs": "Aumenta la evasión contra las hab. eléctricas.",
+   "descEn": "Increases Evasion from Elec skills."
+  },
+  "Evade Elec": {
+   "es": "Evadir electricidad",
+   "en": "Evade Elec",
+   "descEs": "Aumenta mucho la evasión contra hab. eléctricas. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Elec skills. Does not stack."
+  },
+  "Dodge Phys": {
+   "es": "Esquivar físico",
+   "en": "Dodge Phys",
+   "descEs": "Aumenta la evasión contra las hab. físicas.",
+   "descEn": "Increases Evasion from Phys skills."
+  },
+  "Evade Phys": {
+   "es": "Evadir físico",
+   "en": "Evade Phys",
+   "descEs": "Aumenta mucho la evasión contra las hab. físicas. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Phys skills. Does not stack."
+  },
+  "Fire Boost": {
+   "es": "Potenc. de fuego",
+   "en": "Fire Boost",
+   "descEs": "Fortalece las habilidades de fuego un 25 %.",
+   "descEn": "Strengthens Fire skills by 25%."
+  },
+  "Fire Amp": {
+   "es": "Amplif. de fuego",
+   "en": "Fire Amp",
+   "descEs": "Fortalece las habilidades de fuego un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Fire skills by 50%. Can stack."
+  },
+  "Ice Boost": {
+   "es": "Potenc. de hielo",
+   "en": "Ice Boost",
+   "descEs": "Fortalece las habilidades de hielo un 25 %.",
+   "descEn": "Strengthens Ice skills by 25%."
+  },
+  "Ice Amp": {
+   "es": "Amplificac. de hielo",
+   "en": "Ice Amp",
+   "descEs": "Fortalece las habilidades de hielo un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Ice skills by 50%. Can stack."
+  },
+  "Wind Boost": {
+   "es": "Potenciac. de viento",
+   "en": "Wind Boost",
+   "descEs": "Fortalece las habilidades de viento un 25 %.",
+   "descEn": "Strengthens Wind skills by 25%."
+  },
+  "Wind Amp": {
+   "es": "Amplif. de viento",
+   "en": "Wind Amp",
+   "descEs": "Fortalece las habilidades de viento un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Wind skills by 50%. Can stack."
+  },
+  "Elec Boost": {
+   "es": "Potenciac. de electr.",
+   "en": "Elec Boost",
+   "descEs": "Fortalece las habilidades eléctricas un 25 %.",
+   "descEn": "Strengthens Elec skills by 25%."
+  },
+  "Elec Amp": {
+   "es": "Amplific. de electr.",
+   "en": "Elec Amp",
+   "descEs": "Fortalece las habilidades eléctricas un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Elec skills by 50%. Can stack."
+  },
+  "Angelic Grace": {
+   "es": "Gracia angelic.",
+   "en": "Angelic Grace",
+   "descEs": "Aumenta la evasión contra los ataques mágicos, menos los todopoderosos.",
+   "descEn": "Increases Evasion from all magical attacks except Almighty."
+  },
+  "Divine Grace": {
+   "es": "Gracia divina",
+   "en": "Divine Grace",
+   "descEs": "Aumenta los efectos de las hab. curativas un 50 %.",
+   "descEn": "Increases the effect of healing skills by 50%."
+  },
+  "Regenerate 1": {
+   "es": "Regenerar 1",
+   "en": "Regenerate 1",
+   "descEs": "Recupera un 2 % de tus PS máx. por turno en combate.",
+   "descEn": "Restores 2% of max HP each turn in battle."
+  },
+  "Regenerate 2": {
+   "es": "Regenerar 2",
+   "en": "Regenerate 2",
+   "descEs": "Recupera un 4 % de tus PS máx. por turno en combate.",
+   "descEn": "Restores 4% of max HP each turn in battle."
+  },
+  "Regenerate 3": {
+   "es": "Regenerar 3",
+   "en": "Regenerate 3",
+   "descEs": "Recupera un 6 % de tus PS máx. por turno en combate.",
+   "descEn": "Restores 6% of max HP each turn in battle."
+  },
+  "Dodge Bless": {
+   "es": "Esquivar bendición",
+   "en": "Dodge Bless",
+   "descEs": "Aumenta la evasión contra las hab. de bendición que no son Hama.",
+   "descEn": "Increases Evasion from non-Hama Bless skills."
+  },
+  "Dodge Curse": {
+   "es": "Esquivar maldición",
+   "en": "Dodge Curse",
+   "descEs": "Aumenta la evasión contra las hab. de maldición que no son Mudo.",
+   "descEn": "Increases Evasion from non-Mudo Curse skills."
+  },
+  "Invigorate 1": {
+   "es": "Vigorizar 1",
+   "en": "Invigorate 1",
+   "descEs": "Restaura 3 PE por turno en combate.",
+   "descEn": "Restores 3 SP each turn in battle."
+  },
+  "Invigorate 2": {
+   "es": "Vigorizar 2",
+   "en": "Invigorate 2",
+   "descEs": "Restaura 5 PE por turno en combate.",
+   "descEn": "Restores 5 SP each turn in battle."
+  },
+  "Invigorate 3": {
+   "es": "Vigorizar 3",
+   "en": "Invigorate 3",
+   "descEs": "Restaura 7 PE por turno en combate.",
+   "descEn": "Restores 7 SP each turn in battle."
+  },
+  "Evade Bless": {
+   "es": "Evadir bendición",
+   "en": "Evade Bless",
+   "descEs": "Aumenta mucho eva. contra las hab. de bend. que no son Hama. No acumulable.",
+   "descEn": "Greatly increases Evasion from non-Hama Bless skills. Does not stack."
+  },
+  "Evade Curse": {
+   "es": "Evadir maldición",
+   "en": "Evade Curse",
+   "descEs": "Aumenta mucho eva. contra las hab. de mald. que no son Mudo. No acumulable.",
+   "descEn": "Greatly increases Evasion from non-Mudo Curse skills. Does not stack."
+  },
+  "Attack Master": {
+   "es": "As del ataque",
+   "en": "Attack Master",
+   "descEs": "Lanza Tarukaja al comenzar el combate.",
+   "descEn": "Automatic Tarukaja at the start of battle."
+  },
+  "Auto-Mataru": {
+   "es": "Auto-Mataru",
+   "en": "Auto-Mataru",
+   "descEs": "Lanza Matarukaja al comenzar el combate.",
+   "descEn": "Automatic Matarukaja at the start of battle."
+  },
+  "Defense Master": {
+   "es": "As de la defensa",
+   "en": "Defense Master",
+   "descEs": "Lanza Rakukaja al comenzar el combate.",
+   "descEn": "Automatic Rakukaja at the start of battle."
+  },
+  "Auto-Maraku": {
+   "es": "Auto-Maraku",
+   "en": "Auto-Maraku",
+   "descEs": "Lanza Marakukaja al comenzar el combate.",
+   "descEn": "Automatic Marakukaja at the start of battle."
+  },
+  "Speed Master": {
+   "es": "As de la velocidad",
+   "en": "Speed Master",
+   "descEs": "Lanza Sukukaja al comenzar el combate.",
+   "descEn": "Automatic Sukukaja at the start of battle."
+  },
+  "Auto-Masuku": {
+   "es": "Auto-Masuku",
+   "en": "Auto-Masuku",
+   "descEs": "Lanza Masukukaja al comenzar el combate.",
+   "descEn": "Automatic Masukukaja at the start of battle."
+  },
+  "Fast Heal": {
+   "es": "Curación rápida",
+   "en": "Fast Heal",
+   "descEs": "Reduce el tiempo de rec. de est. alt. a la mitad.",
+   "descEn": "Decreases recovery time from ailments by half."
+  },
+  "Insta-Heal": {
+   "es": "Curac. inst.",
+   "en": "Insta-Heal",
+   "descEs": "Reduce el tiempo de rec. de est. alt. a un turno.",
+   "descEn": "Decreases recovery time from ailments to 1 turn."
+  },
+  "Arms Master": {
+   "es": "As de las armas",
+   "en": "Arms Master",
+   "descEs": "Reduce a la mitad el coste de PS de las hab.",
+   "descEn": "Decreases HP cost of skills by half."
+  },
+  "Spell Master": {
+   "es": "As de los hechizos",
+   "en": "Spell Master",
+   "descEs": "Reduce a la mitad el coste de PE de las hab.",
+   "descEn": "Decreases SP cost of skills by half."
+  },
+  "Sharp Student": {
+   "es": "Estudiante inteligente",
+   "en": "Sharp Student",
+   "descEs": "Reduce las probabilidades de recibir un golpe crítico.",
+   "descEn": "Decreases chance of being hit by a Critical."
+  },
+  "Apt Pupil": {
+   "es": "Alumno hábil",
+   "en": "Apt Pupil",
+   "descEs": "Aumenta la probabilidad de infligir críticos.",
+   "descEn": "Increases chance of Critical."
+  },
+  "Ali Dance": {
+   "es": "Baile evasivo",
+   "en": "Ali Dance",
+   "descEs": "Reduce mucho la precisión de un enemigo.",
+   "descEn": "Greatly decreases Accuracy for one foe."
+  },
+  "Firm Stance": {
+   "es": "Posición firme",
+   "en": "Firm Stance",
+   "descEs": "Recibes el golpe, pero reduce a la mitad el daño.",
+   "descEn": "Take the blow, but decreases damage by half."
+  },
+  "Life Aid": {
+   "es": "Ayuda vital",
+   "en": "Life Aid",
+   "descEs": "Rec. 8 % de tus PS y PE máximos tras un combate.",
+   "descEn": "Restores 8% of max HP/SP after battle."
+  },
+  "Victory Cry": {
+   "es": "Grito victorioso",
+   "en": "Victory Cry",
+   "descEs": "Restaura todos los PS y PE tras un combate.",
+   "descEn": "Fully restores HP/SP after battle."
+  },
+  "Growth 1": {
+   "es": "Crecimiento 1",
+   "en": "Growth 1",
+   "descEs": "Gana un 25 % de EXP hasta cuando no combate.",
+   "descEn": "Earn 25% EXP even when not participating in battle."
+  },
+  "Growth 2": {
+   "es": "Crecimiento 2",
+   "en": "Growth 2",
+   "descEs": "Gana un 50 % de EXP hasta cuando no combate.",
+   "descEn": "Earn 50% EXP even when not participating in battle."
+  },
+  "Growth 3": {
+   "es": "Crecimiento 3",
+   "en": "Growth 3",
+   "descEs": "Gana un 100 % de EXP hasta cuando no combate.",
+   "descEn": "Earn 100% EXP even when not participating in battle."
+  },
+  "Unshaken Will": {
+   "es": "Voluntad impasible",
+   "en": "Unshaken Will",
+   "descEs": "Evita que te afecten Confusión, Miedo, Furia y Desesperación.",
+   "descEn": "Prevents infliction of Confuse/Fear/Rage/ Despair."
+  },
+  "Null Fire": {
+   "es": "Anular fuego",
+   "en": "Null Fire",
+   "descEs": "Anula los ataques de fuego.",
+   "descEn": "Nullifies Fire attacks."
+  },
+  "Repel Fire": {
+   "es": "Repeler fuego",
+   "en": "Repel Fire",
+   "descEs": "Refleja los atq. de fuego.",
+   "descEn": "Reflects Fire attacks."
+  },
+  "Drain Fire": {
+   "es": "Absorber fuego",
+   "en": "Drain Fire",
+   "descEs": "Absorbe el daño de los ataques de fuego.",
+   "descEn": "Absorbs damage from Fire attacks."
+  },
+  "Null Ice": {
+   "es": "Anular hielo",
+   "en": "Null Ice",
+   "descEs": "Anula los ataques de hielo.",
+   "descEn": "Nullifies Ice attacks."
+  },
+  "Repel Ice": {
+   "es": "Repeler hielo",
+   "en": "Repel Ice",
+   "descEs": "Refleja los atq. de hielo.",
+   "descEn": "Reflects Ice attacks."
+  },
+  "Drain Ice": {
+   "es": "Absorber hielo",
+   "en": "Drain Ice",
+   "descEs": "Absorbe el daño de los ataques de hielo.",
+   "descEn": "Absorbs damage from Ice attacks."
+  },
+  "Resist Wind": {
+   "es": "Resistir viento",
+   "en": "Resist Wind",
+   "descEs": "Aumenta la res. contra los ataques de viento. Anula la debilidad.",
+   "descEn": "Increases resistance to Wind attacks. Nullifies weakness."
+  },
+  "Null Wind": {
+   "es": "Anular viento",
+   "en": "Null Wind",
+   "descEs": "Anula los ataques de viento.",
+   "descEn": "Nullifies Wind attacks."
+  },
+  "Repel Wind": {
+   "es": "Repeler viento",
+   "en": "Repel Wind",
+   "descEs": "Refleja los atq. de viento.",
+   "descEn": "Reflects Wind attacks."
+  },
+  "Drain Wind": {
+   "es": "Absorber viento",
+   "en": "Drain Wind",
+   "descEs": "Absorbe el daño de los ataques de viento.",
+   "descEn": "Absorbs damage from Wind attacks."
+  },
+  "Null Elec": {
+   "es": "Anular electricidad",
+   "en": "Null Elec",
+   "descEs": "Anula los atq. de elec.",
+   "descEn": "Nullifies Elec attacks."
+  },
+  "Repel Elec": {
+   "es": "Repeler electricidad",
+   "en": "Repel Elec",
+   "descEs": "Refleja los atq. de elec.",
+   "descEn": "Reflects Elec attacks."
+  },
+  "Resist Bless": {
+   "es": "Resistir bendición",
+   "en": "Resist Bless",
+   "descEs": "Aumenta la res. contra los ataques de bendición. Anula la debilidad.",
+   "descEn": "Increases resistance to Bless attacks. Nullifies weakness."
+  },
+  "Null Bless": {
+   "es": "Anular bendición",
+   "en": "Null Bless",
+   "descEs": "Anula los atq. de bend.",
+   "descEn": "Nullifies Bless attacks."
+  },
+  "Repel Bless": {
+   "es": "Repeler bendición",
+   "en": "Repel Bless",
+   "descEs": "Refleja los atq. de bend.",
+   "descEn": "Reflects Bless attacks."
+  },
+  "Drain Bless": {
+   "es": "Absorber bendición",
+   "en": "Drain Bless",
+   "descEs": "Absorbe el daño de los ataques de bendición.",
+   "descEn": "Absorbs damage from Bless attacks."
+  },
+  "Null Curse": {
+   "es": "Anular maldición",
+   "en": "Null Curse",
+   "descEs": "Anula los atq. de mald.",
+   "descEn": "Nullifies Curse attacks."
+  },
+  "Repel Curse": {
+   "es": "Repeler maldición",
+   "en": "Repel Curse",
+   "descEs": "Refleja los atq. de mald.",
+   "descEn": "Reflects Curse attacks."
+  },
+  "Drain Curse": {
+   "es": "Absorber maldición",
+   "en": "Drain Curse",
+   "descEs": "Absorbe el daño de los ataques de maldición.",
+   "descEn": "Absorbs damage from Curse attacks."
+  },
+  "Null Phys": {
+   "es": "Anular físico",
+   "en": "Null Phys",
+   "descEs": "Anula los ataques físicos.",
+   "descEn": "Nullifies Phys attacks."
+  },
+  "Repel Phys": {
+   "es": "Repeler físico",
+   "en": "Repel Phys",
+   "descEs": "Refleja los ataques físicos.",
+   "descEn": "Reflects Phys attacks."
+  },
+  "Drain Phys": {
+   "es": "Absorber físico",
+   "en": "Drain Phys",
+   "descEs": "Absorbe el daño de los ataques físicos.",
+   "descEn": "Absorbs damage from Phys attacks."
+  },
+  "Ailment Boost": {
+   "es": "Potenc. estado alter.",
+   "en": "Ailment Boost",
+   "descEs": "Aumenta la prob. de infligir est. alterados.",
+   "descEn": "Increases chance of inflicting ailments."
+  },
+  "Hama Boost": {
+   "es": "Potenc. de Hama",
+   "en": "Hama Boost",
+   "descEs": "Aumenta el índice de éxito de las habilidades Hama.",
+   "descEn": "Increases success rate of Hama skills."
+  },
+  "Mudo Boost": {
+   "es": "Potenc. de Mudo",
+   "en": "Mudo Boost",
+   "descEs": "Aumenta el índice de éxito de las habilidades Mudo.",
+   "descEn": "Increases success rate of Mudo skills."
+  },
+  "Dizzy Boost": {
+   "es": "Potenc. de Mareo",
+   "en": "Dizzy Boost",
+   "descEs": "Aumenta la prob. de infligir Mareo.",
+   "descEn": "Increases chance of inflicting Dizzy."
+  },
+  "Confuse Boost": {
+   "es": "Potenc. de Confusión",
+   "en": "Confuse Boost",
+   "descEs": "Aumenta la prob. de infligir Confusión.",
+   "descEn": "Increases chance of inflicting Confuse."
+  },
+  "Fear Boost": {
+   "es": "Potenc. de Miedo",
+   "en": "Fear Boost",
+   "descEs": "Aumenta la prob. de infligir Miedo.",
+   "descEn": "Increases chance of inflicting Fear."
+  },
+  "Forget Boost": {
+   "es": "Potenc. de Amnesia",
+   "en": "Forget Boost",
+   "descEs": "Aumenta la prob. de infligir Amnesia.",
+   "descEn": "Increases chance of inflicting Forget."
+  },
+  "Sleep Boost": {
+   "es": "Potenc. de Sueño",
+   "en": "Sleep Boost",
+   "descEs": "Aumenta la prob. de infligir Sueño.",
+   "descEn": "Increases chance of inflicting Sleep."
+  },
+  "Rage Boost": {
+   "es": "Potenc. de Furia",
+   "en": "Rage Boost",
+   "descEs": "Aumenta la prob. de infligir Furia.",
+   "descEn": "Increases chance of inflicting Rage."
+  },
+  "Despair Boost": {
+   "es": "Potenc. de Desesper.",
+   "en": "Despair Boost",
+   "descEs": "Aumenta la prob. de infligir Desesperación.",
+   "descEn": "Increases chance of inflicting Despair."
+  },
+  "Brainwash Boost": {
+   "es": "Potenc. de Manipul.",
+   "en": "Brainwash Boost",
+   "descEs": "Aumenta la prob. de infligir Manipulación.",
+   "descEn": "Increases chance of inflicting Brainwash."
+  },
+  "Resist Dizzy": {
+   "es": "Resistir Mareo",
+   "en": "Resist Dizzy",
+   "descEs": "Reduce las probabilidades de que te inflijan Mareo.",
+   "descEn": "Decreases chances of being inflicted with Dizzy."
+  },
+  "Resist Confuse": {
+   "es": "Resistir Confusión",
+   "en": "Resist Confuse",
+   "descEs": "Reduce las probabilidades de que te inflijan Confusión.",
+   "descEn": "Decreases chances of being inflicted with Confuse."
+  },
+  "Resist Fear": {
+   "es": "Resistir Miedo",
+   "en": "Resist Fear",
+   "descEs": "Reduce las probabilidades de que te inflijan Miedo.",
+   "descEn": "Decreases chances of being inflicted with Fear."
+  },
+  "Resist Forget": {
+   "es": "Resistir Amnesia",
+   "en": "Resist Forget",
+   "descEs": "Reduce las probabilidades de que te inflijan Amnesia.",
+   "descEn": "Decreases chances of being inflicted with Forget."
+  },
+  "Resist Sleep": {
+   "es": "Resistir Sueño",
+   "en": "Resist Sleep",
+   "descEs": "Reduce las probabilidades de que te inflijan Sueño.",
+   "descEn": "Decreases chances of being inflicted with Sleep."
+  },
+  "Resist Despair": {
+   "es": "Resistir Desesper.",
+   "en": "Resist Despair",
+   "descEs": "Reduce las probabilidades de que te inflijan Desesperación.",
+   "descEn": "Decreases chances of being inflicted with Despair."
+  },
+  "Resist Brainwash": {
+   "es": "Resistir Manipulación",
+   "en": "Resist Brainwash",
+   "descEs": "Reduce las probabilidades de que te inflijan Manipulación.",
+   "descEn": "Decreases chances of being inflicted with Brainwash."
+  },
+  "Tyrant's Mind": {
+   "es": "Mente del tirano",
+   "en": "Tyrant's Mind",
+   "descEs": "Fortalece todos los ataques. Se puede acumular.",
+   "descEn": "Strengthens all attacks. Can stack."
+  },
+  "Null Dizzy": {
+   "es": "Anular Mareo",
+   "en": "Null Dizzy",
+   "descEs": "Evita que te afecte Mareo.",
+   "descEn": "Prevents infliction of Dizzy."
+  },
+  "Null Confuse": {
+   "es": "Anular Confusión",
+   "en": "Null Confuse",
+   "descEs": "Evita que te afecte Confusión.",
+   "descEn": "Prevents infliction of Confuse."
+  },
+  "Null Forget": {
+   "es": "Anular Amnesia",
+   "en": "Null Forget",
+   "descEs": "Evita que te afecte Amnesia.",
+   "descEn": "Prevents infliction of Forget."
+  },
+  "Null Sleep": {
+   "es": "Anular Sueño",
+   "en": "Null Sleep",
+   "descEs": "Evita que te afecte Sueño.",
+   "descEn": "Prevents infliction of Sleep."
+  },
+  "Null Rage": {
+   "es": "Anular Furia",
+   "en": "Null Rage",
+   "descEs": "Evita que te afecte Furia.",
+   "descEn": "Prevents infliction of Rage."
+  },
+  "Holy Whisper": {
+   "es": "Susurro sagrado",
+   "en": "Holy Whisper",
+   "descEs": "Restaura un 15 % de los PS y 15 PE por turno en combate.",
+   "descEn": "Restores 15% HP and 15 SP each turn in battle."
+  },
+  "Null Brainwash": {
+   "es": "Anular Manipul.",
+   "en": "Null Brainwash",
+   "descEs": "Evita que te afecte Manipulación.",
+   "descEn": "Prevents infliction of Brainwash."
+  },
+  "Holy Embrace": {
+   "es": "Abrazo sagrado",
+   "en": "Holy Embrace",
+   "descEs": "Restaura un 25 % de los PS por turno en combate.",
+   "descEn": "Restores 25% HP each turn in battle."
+  },
+  "Burn Boost": {
+   "es": "Potenc. Quemadura",
+   "en": "Burn Boost",
+   "descEs": "Aumenta la prob. de infligir Quemadura.",
+   "descEn": "Increases chance of inflicting Burn."
+  },
+  "Freeze Boost": {
+   "es": "Poten. de Cong.",
+   "en": "Freeze Boost",
+   "descEs": "Aumenta la prob. de infligir Congelación.",
+   "descEn": "Increases chance of inflicting Freeze."
+  },
+  "Shock Boost": {
+   "es": "Potenc. de Electrif.",
+   "en": "Shock Boost",
+   "descEs": "Aumenta la prob. de infligir Electrificación.",
+   "descEn": "Increases chance of inflicting Shock."
+  },
+  "Fortified Moxy": {
+   "es": "Valor reforzado",
+   "en": "Fortified Moxy",
+   "descEs": "Aumenta la prob. de crít. durante una emboscada.",
+   "descEn": "Increases Critical rate during an Ambush."
+  },
+  "Adverse Resolve": {
+   "es": "Resolución adversa",
+   "en": "Adverse Resolve",
+   "descEs": "Aumenta la prob. de crít. cuando te rodean.",
+   "descEn": "Increases Critical rate when surrounded."
+  },
+  "Last Stand": {
+   "es": "En pie hasta el final",
+   "en": "Last Stand",
+   "descEs": "Reduce mucho la prec. en los atq. todopod. de los enem. cuando te rodean.",
+   "descEn": "Greatly decreases Accuracy of all foes' attacks except Almighty when surrounded."
+  },
+  "Heat Up": {
+   "es": "Calentamiento",
+   "en": "Heat Up",
+   "descEs": "Recupera un 5 % de tus PS máx. y 10 PE por turno durante una emboscada.",
+   "descEn": "Restores 5% max HP and 10 SP each turn during an Ambush."
+  },
+  "Touch n' Go": {
+   "es": "Camaradería",
+   "en": "Touch n' Go",
+   "descEs": "Lanza Sukukaja tras un Relevo.",
+   "descEn": "Automatic Sukukaja after a Baton Pass."
+  },
+  "Climate Decorum": {
+   "es": "Decoro climático",
+   "en": "Climate Decorum",
+   "descEs": "Aumenta mucho la evasión contra las afinidades durante Lluvia o Nieve.",
+   "descEn": "Greatly increases Evasion from all affinities during Rain/Snow."
+  },
+  "Ambient Aid": {
+   "es": "Ayuda ambiental",
+   "en": "Ambient Aid",
+   "descEs": "Aumenta la probabilidad de infligir estados alterados durante Lluvia o Nieve.",
+   "descEn": "Increases chance of inflicting ailments during Rain/Snow."
+  },
+  "Gun Boost": {
+   "es": "Potenc. arma a dist.",
+   "en": "Gun Boost",
+   "descEs": "Fortalece las habilidades de arma a distancia un 25 %.",
+   "descEn": "Strengthens Gun skills by 25%."
+  },
+  "Gun Amp": {
+   "es": "Amplif. arma a dist.",
+   "en": "Gun Amp",
+   "descEs": "Fortalece las habilidades de arma a distancia un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Gun skills by 50%. Can stack."
+  },
+  "Trigger Happy": {
+   "es": "Gatillo fácil",
+   "en": "Trigger Happy",
+   "descEs": "Aumenta la prob. de crít. en ataques a distancia.",
+   "descEn": "Increases chance of Critical from Gun attacks."
+  },
+  "Null Nuke": {
+   "es": "Anular nuclear",
+   "en": "Null Nuke",
+   "descEs": "Anula los ataques nucleares.",
+   "descEn": "Nullifies Nuke attacks."
+  },
+  "Repel Nuke": {
+   "es": "Repeler nuclear",
+   "en": "Repel Nuke",
+   "descEs": "Refleja los ataques nucleares.",
+   "descEn": "Reflects Nuke attacks."
+  },
+  "Drain Nuke": {
+   "es": "Absorber nuclear",
+   "en": "Drain Nuke",
+   "descEs": "Absorbe el daño de los ataques nucleares.",
+   "descEn": "Absorbs damage from Nuke attacks."
+  },
+  "Resist Psy": {
+   "es": "Resistir psicoquin.",
+   "en": "Resist Psy",
+   "descEs": "Aumenta la res. contra los atq. psicoquinéticos. Elimina la debilidad.",
+   "descEn": "Increases resistance to Psy attacks. Nullifies weakness."
+  },
+  "Null Psy": {
+   "es": "Anular psicoquinesis",
+   "en": "Null Psy",
+   "descEs": "Anula los ataques psi.",
+   "descEn": "Nullifies Psy attacks."
+  },
+  "Repel Psy": {
+   "es": "Repeler psicoquinesis",
+   "en": "Repel Psy",
+   "descEs": "Refleja los ataques psi.",
+   "descEn": "Reflects Psy attacks."
+  },
+  "Drain Psy": {
+   "es": "Absorber psicoquin.",
+   "en": "Drain Psy",
+   "descEs": "Absorbe el daño de los ataques psicoquinéticos.",
+   "descEn": "Absorbs damage from Psy attacks."
+  },
+  "Nuke Boost": {
+   "es": "Potenciación nuclear",
+   "en": "Nuke Boost",
+   "descEs": "Fortalece las habilidades nucleares un 25 %.",
+   "descEn": "Strengthens Nuke skills by 25%."
+  },
+  "Nuke Amp": {
+   "es": "Amplif. nuclear",
+   "en": "Nuke Amp",
+   "descEs": "Fortalece las habilidades nucleares un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Nuke skills by 50%. Can stack."
+  },
+  "Psy Boost": {
+   "es": "Potenc. psicoquinét.",
+   "en": "Psy Boost",
+   "descEs": "Fortalece las habilidades de psicoquinesis un 25 %.",
+   "descEn": "Strengthens Psy skills by 25%."
+  },
+  "Psy Amp": {
+   "es": "Amplif. psicoquinét.",
+   "en": "Psy Amp",
+   "descEs": "Fortalece las habilidades de psicoquinesis un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Psy skills by 50%. Can stack."
+  },
+  "Dodge Nuke": {
+   "es": "Esquivar nuclear",
+   "en": "Dodge Nuke",
+   "descEs": "Aumenta la evasión contra las hab. nucleares.",
+   "descEn": "Increases Evasion from Nuke skills."
+  },
+  "Evade Nuke": {
+   "es": "Evadir nuclear",
+   "en": "Evade Nuke",
+   "descEs": "Aumenta mucho la evasión contra hab. nucleares. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Nuke skills. Does not stack."
+  },
+  "Dodge Psy": {
+   "es": "Esquivar psicoquin.",
+   "en": "Dodge Psy",
+   "descEs": "Aumenta la evasión contra hab. de psicoquinesis.",
+   "descEn": "Increases Evasion from Psy skills."
+  },
+  "Evade Psy": {
+   "es": "Evadir psicoquinesis",
+   "en": "Evade Psy",
+   "descEs": "Aumenta mucho la evasión contra las hab. de psi. No se puede acumular.",
+   "descEn": "Greatly increases Evasion from Psy skills. Does not stack."
+  },
+  "Bless Boost": {
+   "es": "Potenc. de bendición",
+   "en": "Bless Boost",
+   "descEs": "Fortalece las habilidades de bendición un 25 %.",
+   "descEn": "Strengthens Bless skills by 25%."
+  },
+  "Bless Amp": {
+   "es": "Amplif. bend.",
+   "en": "Bless Amp",
+   "descEs": "Fortalece las habilidades de bendición un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Bless skills by 50%. Can stack."
+  },
+  "Curse Boost": {
+   "es": "Potenc. de maldición",
+   "en": "Curse Boost",
+   "descEs": "Fortalece las habilidades de maldición un 25 %.",
+   "descEn": "Strengthens Curse skills by 25%."
+  },
+  "Curse Amp": {
+   "es": "Amplif. de maldición",
+   "en": "Curse Amp",
+   "descEs": "Fortalece las habilidades de maldición un 50 %. Se puede acumular.",
+   "descEn": "Strengthens Curse skills by 50%. Can stack."
+  },
+  "Fortify Spirit": {
+   "es": "Fortalecer espíritu",
+   "en": "Fortify Spirit",
+   "descEs": "Reduce las probabilidades de que te inflijan un estado alterado.",
+   "descEn": "Decreases chances of being inflicted with ailments."
+  },
+  "Almighty Boost": {
+   "es": "Potenc. atq. todopod.",
+   "en": "Almighty Boost",
+   "descEs": "Fortalece las habilidades todopoderosas un 25 %.",
+   "descEn": "Strengthens Almighty skills by 25%."
+  },
+  "Relentless": {
+   "es": "Implacable",
+   "en": "Relentless"
+  },
+  "Savior Bloodline": {
+   "es": "Est. de salvación",
+   "en": "Savior Bloodline"
+  },
+  "Relief Bloodline": {
+   "es": "Estirpe de alivio",
+   "en": "Relief Bloodline"
+  },
+  "Foul Stench": {
+   "es": "Peste fétida",
+   "en": "Foul Stench"
+  },
+  "Intense Focus": {
+   "es": "Concen. intensa",
+   "en": "Intense Focus"
+  },
+  "Mighty Gaze": {
+   "es": "Mirada poderosa",
+   "en": "Mighty Gaze"
+  },
+  "Striking Weight": {
+   "es": "Peso sorprendente",
+   "en": "Striking Weight"
+  },
+  "Retaliating Body": {
+   "es": "Cuerpo de venganza",
+   "en": "Retaliating Body"
+  },
+  "Rare Antibody": {
+   "es": "Anticuerpo extraño",
+   "en": "Rare Antibody"
+  },
+  "Immunity": {
+   "es": "Inmunidad",
+   "en": "Immunity"
+  },
+  "Skillful Combo": {
+   "es": "Combo hábil",
+   "en": "Skillful Combo"
+  },
+  "Skillful Technique": {
+   "es": "Técnica hábil",
+   "en": "Skillful Technique"
+  },
+  "Ailment Hunter": {
+   "es": "Caz. de est. alt.",
+   "en": "Ailment Hunter"
+  },
+  "Heated Bloodline": {
+   "es": "Estirpe caldeada",
+   "en": "Heated Bloodline"
+  },
+  "Frigid Bloodline": {
+   "es": "Estirpe glacial",
+   "en": "Frigid Bloodline"
+  },
+  "Electric Bloodline": {
+   "es": "Estirpe eléctrica",
+   "en": "Electric Bloodline"
+  },
+  "Wind Bloodline": {
+   "es": "Estirpe de viento",
+   "en": "Wind Bloodline"
+  },
+  "Psychic Bloodline": {
+   "es": "Estirpe psíquica",
+   "en": "Psychic Bloodline"
+  },
+  "Atomic Bloodline": {
+   "es": "Estirpe atómica",
+   "en": "Atomic Bloodline"
+  },
+  "Blessed Bloodline": {
+   "es": "Estirpe bendita",
+   "en": "Blessed Bloodline"
+  },
+  "Cursed Bloodline": {
+   "es": "Estirpe maldita",
+   "en": "Cursed Bloodline"
+  },
+  "Gluttonmouth": {
+   "es": "Boca de gula",
+   "en": "Gluttonmouth"
+  },
+  "Mouth of Savoring": {
+   "es": "Boca del gusto",
+   "en": "Mouth of Savoring"
+  },
+  "Potent Hypnosis": {
+   "es": "Hipnosis potente",
+   "en": "Potent Hypnosis"
+  },
+  "Internal Hypnosis": {
+   "es": "Hipnosis interna",
+   "en": "Internal Hypnosis"
+  },
+  "Crisis Control": {
+   "es": "Control de crisis",
+   "en": "Crisis Control"
+  },
+  "Bloodstained Eyes": {
+   "es": "Ojos ensangr.",
+   "en": "Bloodstained Eyes"
+  }
+ },
+ "personas": {
+  "Abaddon": {
+   "es": "Abadón",
+   "en": "Abaddon"
+  },
+  "Agathion": {
+   "es": "Agathion",
+   "en": "Agathion"
+  },
+  "Alice": {
+   "es": "Alice",
+   "en": "Alice"
+  },
+  "Alilat": {
+   "es": "Alilat",
+   "en": "Alilat"
+  },
+  "Ame-no-Uzume": {
+   "es": "Ame-no-Uzume",
+   "en": "Ame-no-Uzume"
+  },
+  "Ananta": {
+   "es": "Ananta",
+   "en": "Ananta"
+  },
+  "Andras": {
+   "es": "Andras",
+   "en": "Andras"
+  },
+  "Angel": {
+   "es": "Ángel",
+   "en": "Angel"
+  },
+  "Anubis": {
+   "es": "Anubis",
+   "en": "Anubis"
+  },
+  "Anzu": {
+   "es": "Anzu",
+   "en": "Anzu"
+  },
+  "Apsaras": {
+   "es": "Apsará",
+   "en": "Apsaras"
+  },
+  "Ara Mitama": {
+   "es": "Ara Mitama",
+   "en": "Ara Mitama"
+  },
+  "Arahabaki": {
+   "es": "Arahabaki",
+   "en": "Arahabaki"
+  },
+  "Archangel": {
+   "es": "Arcángel",
+   "en": "Archangel"
+  },
+  "Ardha": {
+   "es": "Ardha",
+   "en": "Ardha"
+  },
+  "Ariadne": {
+   "es": "Ariadna",
+   "en": "Ariadne"
+  },
+  "Ariadne Picaro": {
+   "es": "Ariadna Pícaro",
+   "en": "Ariadne Picaro"
+  },
+  "Arsene": {
+   "es": "Arsène",
+   "en": "Arsène"
+  },
+  "Asterius": {
+   "es": "Asterión",
+   "en": "Asterius"
+  },
+  "Asterius Picaro": {
+   "es": "Asterión Pícaro",
+   "en": "Asterius Picaro"
+  },
+  "Asura": {
+   "es": "Asura",
+   "en": "Asura"
+  },
+  "Atavaka": {
+   "es": "Atavaka",
+   "en": "Atavaka"
+  },
+  "Athena": {
+   "es": "Atenea",
+   "en": "Athena"
+  },
+  "Athena Picaro": {
+   "es": "Atenea Pícaro",
+   "en": "Athena Picaro"
+  },
+  "Atropos": {
+   "es": "Átropos",
+   "en": "Atropos"
+  },
+  "Attis": {
+   "es": "Atis",
+   "en": "Attis"
+  },
+  "Baal": {
+   "es": "Baal",
+   "en": "Baal"
+  },
+  "Baphomet": {
+   "es": "Baphomet",
+   "en": "Baphomet"
+  },
+  "Barong": {
+   "es": "Barong",
+   "en": "Barong"
+  },
+  "Beelzebub": {
+   "es": "Belcebú",
+   "en": "Beelzebub"
+  },
+  "Belial": {
+   "es": "Belial",
+   "en": "Belial"
+  },
+  "Belphegor": {
+   "es": "Belfegor",
+   "en": "Belphegor"
+  },
+  "Berith": {
+   "es": "Berith",
+   "en": "Berith"
+  },
+  "Bicorn": {
+   "es": "Bicornio",
+   "en": "Bicorn"
+  },
+  "Bishamonten": {
+   "es": "Bishamonten",
+   "en": "Bishamonten"
+  },
+  "Black Frost": {
+   "es": "Frost oscuro",
+   "en": "Black Frost"
+  },
+  "Black Ooze": {
+   "es": "Moco negro",
+   "en": "Black Ooze"
+  },
+  "Black Rider": {
+   "es": "Jinete negro",
+   "en": "Black Rider"
+  },
+  "Bugs": {
+   "es": "Bugs",
+   "en": "Bugs"
+  },
+  "Byakhee": {
+   "es": "Byakhee",
+   "en": "Byakhee"
+  },
+  "Byakko": {
+   "es": "Byakko",
+   "en": "Byakko"
+  },
+  "Cait Sith": {
+   "es": "Cait Sith",
+   "en": "Cait Sith"
+  },
+  "Cerberus": {
+   "es": "Cerbero",
+   "en": "Cerberus"
+  },
+  "Chernobog": {
+   "es": "Chernobog",
+   "en": "Chernobog"
+  },
+  "Chi You": {
+   "es": "Chi You",
+   "en": "Chi You"
+  },
+  "Chimera": {
+   "es": "Quimera",
+   "en": "Chimera"
+  },
+  "Choronzon": {
+   "es": "Choronzon",
+   "en": "Choronzon"
+  },
+  "Clotho": {
+   "es": "Cloto",
+   "en": "Clotho"
+  },
+  "Crystal Skull": {
+   "es": "Cráneo de cristal",
+   "en": "Crystal Skull"
+  },
+  "Cu Chulainn": {
+   "es": "Cú Chulainn",
+   "en": "Cu Chulainn"
+  },
+  "Cybele": {
+   "es": "Cibeles",
+   "en": "Cybele"
+  },
+  "Daisoujou": {
+   "es": "Daisoujou",
+   "en": "Daisoujou"
+  },
+  "Dakini": {
+   "es": "Dakini",
+   "en": "Dakini"
+  },
+  "Decarabia": {
+   "es": "Decarabia",
+   "en": "Decarabia"
+  },
+  "Dionysus": {
+   "es": "Dioniso",
+   "en": "Dionysus"
+  },
+  "Dominion": {
+   "es": "Dominio",
+   "en": "Dominion"
+  },
+  "Eligor": {
+   "es": "Eligor",
+   "en": "Eligor"
+  },
+  "Emperor's Amulet": {
+   "es": "Amuleto del emperador",
+   "en": "Emperor's Amulet"
+  },
+  "Fafnir": {
+   "es": "Fafnir",
+   "en": "Fafnir"
+  },
+  "Flauros": {
+   "es": "Flauros",
+   "en": "Flauros"
+  },
+  "Forneus": {
+   "es": "Forneus",
+   "en": "Forneus"
+  },
+  "Fortuna": {
+   "es": "Fortuna",
+   "en": "Fortuna"
+  },
+  "Futsunushi": {
+   "es": "Futsunushi",
+   "en": "Futsunushi"
+  },
+  "Fuu-Ki": {
+   "es": "Fuu-Ki",
+   "en": "Fuu-Ki"
+  },
+  "Gabriel": {
+   "es": "Gabriel",
+   "en": "Gabriel"
+  },
+  "Ganesha": {
+   "es": "Ganesha",
+   "en": "Ganesha"
+  },
+  "Garuda": {
+   "es": "Garuda",
+   "en": "Garuda"
+  },
+  "Genbu": {
+   "es": "Genbu",
+   "en": "Genbu"
+  },
+  "Girimehkala": {
+   "es": "Girimehkala",
+   "en": "Girimehkala"
+  },
+  "Hanuman": {
+   "es": "Hánuman",
+   "en": "Hanuman"
+  },
+  "Hariti": {
+   "es": "Hariti",
+   "en": "Hariti"
+  },
+  "Hastur": {
+   "es": "Hastur",
+   "en": "Hastur"
+  },
+  "Hecatoncheires": {
+   "es": "Hecatónquiro",
+   "en": "Hecatoncheires"
+  },
+  "Hell Biker": {
+   "es": "Ángel del infierno",
+   "en": "Hell Biker"
+  },
+  "High Pixie": {
+   "es": "Gran Pixie",
+   "en": "High Pixie"
+  },
+  "Hope Diamond": {
+   "es": "Diamante Esperanza",
+   "en": "Hope Diamond"
+  },
+  "Horus": {
+   "es": "Horus",
+   "en": "Horus"
+  },
+  "Hua Po": {
+   "es": "Hua Po",
+   "en": "Hua Po"
+  },
+  "Incubus": {
+   "es": "Íncubo",
+   "en": "Incubus"
+  },
+  "Inugami": {
+   "es": "Inugami",
+   "en": "Inugami"
+  },
+  "Ippon-Datara": {
+   "es": "Ippon-Datara",
+   "en": "Ippon-Datara"
+  },
+  "Ishtar": {
+   "es": "Ishtar",
+   "en": "Ishtar"
+  },
+  "Isis": {
+   "es": "Isis",
+   "en": "Isis"
+  },
+  "Izanagi": {
+   "es": "Izanagi",
+   "en": "Izanagi"
+  },
+  "Izanagi Picaro": {
+   "es": "Izanagi Pícaro",
+   "en": "Izanagi Picaro"
+  },
+  "Izanagi-no-Okami": {
+   "es": "Izanagi-no-Okami",
+   "en": "Izanagi-no-Okami"
+  },
+  "Izanagi-no-Okami Picaro": {
+   "es": "Izanagi-no-Okami Pícaro",
+   "en": "Izanagi-no-Okami Picaro"
+  },
+  "Jack Frost": {
+   "es": "Jack Frost",
+   "en": "Jack Frost"
+  },
+  "Jack-o'-Lantern": {
+   "es": "Jack-o'-Lantern",
+   "en": "Jack-o'-Lantern"
+  },
+  "Jatayu": {
+   "es": "Jatayu",
+   "en": "Jatayu"
+  },
+  "Jikokuten": {
+   "es": "Jikokuten",
+   "en": "Jikokuten"
+  },
+  "Kaguya": {
+   "es": "Kaguya",
+   "en": "Kaguya"
+  },
+  "Kaguya Picaro": {
+   "es": "Kaguya Pícaro",
+   "en": "Kaguya Picaro"
+  },
+  "Kaiwan": {
+   "es": "Kaiwan",
+   "en": "Kaiwan"
+  },
+  "Kali": {
+   "es": "Kali",
+   "en": "Kali"
+  },
+  "Kelpie": {
+   "es": "Kelpie",
+   "en": "Kelpie"
+  },
+  "Kikuri-Hime": {
+   "es": "Kikuri-Hime",
+   "en": "Kikuri-Hime"
+  },
+  "Kin-Ki": {
+   "es": "Kin-Ki",
+   "en": "Kin-Ki"
+  },
+  "King Frost": {
+   "es": "Rey Frost",
+   "en": "King Frost"
+  },
+  "Kodama": {
+   "es": "Kodama",
+   "en": "Kodama"
+  },
+  "Koh-i-Noor": {
+   "es": "Koh-i-Noor",
+   "en": "Koh-i-Noor"
+  },
+  "Kohryu": {
+   "es": "Kouryuu",
+   "en": "Kohryu"
+  },
+  "Koppa Tengu": {
+   "es": "Koppa Tengu",
+   "en": "Koppa Tengu"
+  },
+  "Koropokkuru": {
+   "es": "Koropokguru",
+   "en": "Koropokguru"
+  },
+  "Koumokuten": {
+   "es": "Koumokuten",
+   "en": "Koumokuten"
+  },
+  "Kumbhanda": {
+   "es": "Kumbhanda",
+   "en": "Kumbhanda"
+  },
+  "Kurama Tengu": {
+   "es": "Kurama Tengu",
+   "en": "Kurama Tengu"
+  },
+  "Kushi Mitama": {
+   "es": "Kushi Mitama",
+   "en": "Kushi Mitama"
+  },
+  "Kushinada": {
+   "es": "Kushinada",
+   "en": "Kushinada"
+  },
+  "Lachesis": {
+   "es": "Láquesis",
+   "en": "Lachesis"
+  },
+  "Lakshmi": {
+   "es": "Laksmí",
+   "en": "Lakshmi"
+  },
+  "Lamia": {
+   "es": "Lamia",
+   "en": "Lamia"
+  },
+  "Leanan Sidhe": {
+   "es": "Leanan Sidhe",
+   "en": "Leanan Sidhe"
+  },
+  "Legion": {
+   "es": "Legión",
+   "en": "Legion"
+  },
+  "Lilim": {
+   "es": "Lilim",
+   "en": "Lilim"
+  },
+  "Lilith": {
+   "es": "Lilit",
+   "en": "Lilith"
+  },
+  "Loa": {
+   "es": "Loa",
+   "en": "Loa"
+  },
+  "Lucifer": {
+   "es": "Lucifer",
+   "en": "Lucifer"
+  },
+  "Macabre": {
+   "es": "Macabro",
+   "en": "Macabre"
+  },
+  "Mada": {
+   "es": "Mada",
+   "en": "Mada"
+  },
+  "Magatsu-Izanagi": {
+   "es": "Magatsu-Izanagi",
+   "en": "Magatsu-Izanagi"
+  },
+  "Magatsu-Izanagi Picaro": {
+   "es": "Magatsu-Izanagi Pícaro",
+   "en": "Magatsu-Izanagi Picaro"
+  },
+  "Makami": {
+   "es": "Makami",
+   "en": "Makami"
+  },
+  "Mandrake": {
+   "es": "Mandrágora",
+   "en": "Mandrake"
+  },
+  "Mara": {
+   "es": "Mara",
+   "en": "Mara"
+  },
+  "Maria": {
+   "es": "María",
+   "en": "Maria"
+  },
+  "Matador": {
+   "es": "Matador",
+   "en": "Matador"
+  },
+  "Melchizedek": {
+   "es": "Melquisedec",
+   "en": "Melchizedek"
+  },
+  "Messiah": {
+   "es": "Mesías",
+   "en": "Messiah"
+  },
+  "Messiah Picaro": {
+   "es": "Mesías Pícaro",
+   "en": "Messiah Picaro"
+  },
+  "Metatron": {
+   "es": "Metatrón",
+   "en": "Metatron"
+  },
+  "Michael": {
+   "es": "Miguel",
+   "en": "Michael"
+  },
+  "Mishaguji": {
+   "es": "Mishaguji",
+   "en": "Mishaguji"
+  },
+  "Mithras": {
+   "es": "Mithras",
+   "en": "Mithras"
+  },
+  "Mitra": {
+   "es": "Mitra",
+   "en": "Mitra"
+  },
+  "Mokoi": {
+   "es": "Mokoi",
+   "en": "Mokoi"
+  },
+  "Moloch": {
+   "es": "Moloch",
+   "en": "Moloch"
+  },
+  "Mot": {
+   "es": "Mot",
+   "en": "Mot"
+  },
+  "Mother Harlot": {
+   "es": "Ramera babilónica",
+   "en": "Mother Harlot"
+  },
+  "Mothman": {
+   "es": "Hombre polilla",
+   "en": "Mothman"
+  },
+  "Naga": {
+   "es": "Naga",
+   "en": "Naga"
+  },
+  "Narcissus": {
+   "es": "Narciso",
+   "en": "Narcissus"
+  },
+  "Nebiros": {
+   "es": "Naberius",
+   "en": "Nebiros"
+  },
+  "Neko Shogun": {
+   "es": "Neko Shogun",
+   "en": "Neko Shogun"
+  },
+  "Nekomata": {
+   "es": "Nekomata",
+   "en": "Nekomata"
+  },
+  "Nigi Mitama": {
+   "es": "Nigi Mitama",
+   "en": "Nigi Mitama"
+  },
+  "Norn": {
+   "es": "Norna",
+   "en": "Norn"
+  },
+  "Nue": {
+   "es": "Nue",
+   "en": "Nue"
+  },
+  "Obariyon": {
+   "es": "Obariyon",
+   "en": "Obariyon"
+  },
+  "Oberon": {
+   "es": "Oberón",
+   "en": "Oberon"
+  },
+  "Odin": {
+   "es": "Odín",
+   "en": "Odin"
+  },
+  "Okuninushi": {
+   "es": "Okuninushi",
+   "en": "Okuninushi"
+  },
+  "Ongyo-Ki": {
+   "es": "Ongyo-ki",
+   "en": "Ongyo-Ki"
+  },
+  "Oni": {
+   "es": "Oni",
+   "en": "Oni"
+  },
+  "Onmoraki": {
+   "es": "Onmoraki",
+   "en": "Onmoraki"
+  },
+  "Orichalcum": {
+   "es": "Oricalco",
+   "en": "Orichalcum"
+  },
+  "Orlov": {
+   "es": "Orlov",
+   "en": "Orlov"
+  },
+  "Orobas": {
+   "es": "Orobas",
+   "en": "Orobas"
+  },
+  "Orpheus": {
+   "es": "Orfeo",
+   "en": "Orpheus"
+  },
+  "Orpheus F": {
+   "es": "Orfeo F",
+   "en": "Orpheus F"
+  },
+  "Orpheus F Picaro": {
+   "es": "Orfeo F Pícaro",
+   "en": "Orpheus F Picaro"
+  },
+  "Orpheus Picaro": {
+   "es": "Orfeo Pícaro",
+   "en": "Orpheus Picaro"
+  },
+  "Orthrus": {
+   "es": "Ortro",
+   "en": "Orthrus"
+  },
+  "Ose": {
+   "es": "Ose",
+   "en": "Ose"
+  },
+  "Pale Rider": {
+   "es": "Jinete pálido",
+   "en": "Pale Rider"
+  },
+  "Parvati": {
+   "es": "Parvati",
+   "en": "Parvati"
+  },
+  "Pazuzu": {
+   "es": "Pazuzu",
+   "en": "Pazuzu"
+  },
+  "Phoenix": {
+   "es": "Fénix",
+   "en": "Phoenix"
+  },
+  "Pisaca": {
+   "es": "Pisaca",
+   "en": "Pisaca"
+  },
+  "Pixie": {
+   "es": "Pixie",
+   "en": "Pixie"
+  },
+  "Power": {
+   "es": "Poder",
+   "en": "Power"
+  },
+  "Principality": {
+   "es": "Principado",
+   "en": "Principality"
+  },
+  "Queen Mab": {
+   "es": "Reina Mab",
+   "en": "Queen Mab"
+  },
+  "Queen's Necklace": {
+   "es": "Collar de la reina",
+   "en": "Queen's Necklace"
+  },
+  "Quetzalcoatl": {
+   "es": "Quetzalcóatl",
+   "en": "Quetzalcoatl"
+  },
+  "Raja Naga": {
+   "es": "Raja Naga",
+   "en": "Raja Naga"
+  },
+  "Rakshasa": {
+   "es": "Ráksasa",
+   "en": "Rakshasa"
+  },
+  "Rangda": {
+   "es": "Rangda",
+   "en": "Rangda"
+  },
+  "Raoul": {
+   "es": "Raoul",
+   "en": "Raoul"
+  },
+  "Raphael": {
+   "es": "Rafael",
+   "en": "Raphael"
+  },
+  "Red Rider": {
+   "es": "Jinete rojo",
+   "en": "Red Rider"
+  },
+  "Regent": {
+   "es": "Regente",
+   "en": "Regent"
+  },
+  "Saki Mitama": {
+   "es": "Saki Mitama",
+   "en": "Saki Mitama"
+  },
+  "Sandalphon": {
+   "es": "Sandalfón",
+   "en": "Sandalphon"
+  },
+  "Sandman": {
+   "es": "Sandman",
+   "en": "Sandman"
+  },
+  "Sarasvati": {
+   "es": "Sarasvati",
+   "en": "Sarasvati"
+  },
+  "Satan": {
+   "es": "Satán",
+   "en": "Satan"
+  },
+  "Satanael": {
+   "es": "Satanael",
+   "en": "Satanael"
+  },
+  "Scathach": {
+   "es": "Scáthach",
+   "en": "Scathach"
+  },
+  "Seiryu": {
+   "es": "Seiryu",
+   "en": "Seiryu"
+  },
+  "Setanta": {
+   "es": "Setanta",
+   "en": "Setanta"
+  },
+  "Seth": {
+   "es": "Set",
+   "en": "Seth"
+  },
+  "Shiisaa": {
+   "es": "Shiisaa",
+   "en": "Shiisaa"
+  },
+  "Shiki-Ouji": {
+   "es": "Shiki-Ouji",
+   "en": "Shiki-Ouji"
+  },
+  "Shiva": {
+   "es": "Shiva",
+   "en": "Shiva"
+  },
+  "Siegfried": {
+   "es": "Sigfrido",
+   "en": "Siegfried"
+  },
+  "Silky": {
+   "es": "Silky",
+   "en": "Silky"
+  },
+  "Skadi": {
+   "es": "Skadi",
+   "en": "Skadi"
+  },
+  "Slime": {
+   "es": "Limo",
+   "en": "Slime"
+  },
+  "Sraosha": {
+   "es": "Sraosha",
+   "en": "Sraosha"
+  },
+  "Stone of Scone": {
+   "es": "Piedra de Scone",
+   "en": "Stone of Scone"
+  },
+  "Succubus": {
+   "es": "Súcubo",
+   "en": "Succubus"
+  },
+  "Sudama": {
+   "es": "Sudama",
+   "en": "Sudama"
+  },
+  "Sui-Ki": {
+   "es": "Sui-Ki",
+   "en": "Sui-Ki"
+  },
+  "Surt": {
+   "es": "Surt",
+   "en": "Surt"
+  },
+  "Suzaku": {
+   "es": "Suzaku",
+   "en": "Suzaku"
+  },
+  "Take-Minakata": {
+   "es": "Take-Minakata",
+   "en": "Take-Minakata"
+  },
+  "Tam Lin": {
+   "es": "Tam Lin",
+   "en": "Tam Lin"
+  },
+  "Thanatos": {
+   "es": "Tánatos",
+   "en": "Thanatos"
+  },
+  "Thanatos Picaro": {
+   "es": "Tánatos Pícaro",
+   "en": "Thanatos Picaro"
+  },
+  "Thor": {
+   "es": "Thor",
+   "en": "Thor"
+  },
+  "Thoth": {
+   "es": "Tot",
+   "en": "Thoth"
+  },
+  "Throne": {
+   "es": "Trono",
+   "en": "Throne"
+  },
+  "Thunderbird": {
+   "es": "Ave del trueno",
+   "en": "Thunderbird"
+  },
+  "Titania": {
+   "es": "Titania",
+   "en": "Titania"
+  },
+  "Trumpeter": {
+   "es": "Trompetista",
+   "en": "Trumpeter"
+  },
+  "Tsukiyomi": {
+   "es": "Tsukiyomi",
+   "en": "Tsukiyomi"
+  },
+  "Tsukiyomi Picaro": {
+   "es": "Tsukiyomi Pícaro",
+   "en": "Tsukiyomi Picaro"
+  },
+  "Unicorn": {
+   "es": "Unicornio",
+   "en": "Unicorn"
+  },
+  "Uriel": {
+   "es": "Uriel",
+   "en": "Uriel"
+  },
+  "Valkyrie": {
+   "es": "Valquiria",
+   "en": "Valkyrie"
+  },
+  "Vasuki": {
+   "es": "Vasuki",
+   "en": "Vasuki"
+  },
+  "Vishnu": {
+   "es": "Vishnu",
+   "en": "Vishnu"
+  },
+  "Vohu Manah": {
+   "es": "Vohu Manah",
+   "en": "Vohu Manah"
+  },
+  "White Rider": {
+   "es": "Jinete blanco",
+   "en": "White Rider"
+  },
+  "Yaksini": {
+   "es": "Iaksi",
+   "en": "Yaksini"
+  },
+  "Yamata-no-Orochi": {
+   "es": "Yamata-no-Orochi",
+   "en": "Yamata-no-Orochi"
+  },
+  "Yatagarasu": {
+   "es": "Yatagarasu",
+   "en": "Yatagarasu"
+  },
+  "Yoshitsune": {
+   "es": "Yoshitsune",
+   "en": "Yoshitsune"
+  },
+  "Yurlungur": {
+   "es": "Yurlungur",
+   "en": "Yurlungur"
+  },
+  "Zaou-Gongen": {
+   "es": "Zaou-Gongen",
+   "en": "Zaou-Gongen"
+  },
+  "Zouchouten": {
+   "es": "Zouchouten",
+   "en": "Zouchouten"
+  }
+ },
+ "items": {
+  "Abysmal Surge": {
+   "es": "Arranque abismal",
+   "en": "Abysmal Surge"
+  },
+  "Agi": {
+   "es": "Agi",
+   "en": "Agi"
+  },
+  "Agidyne": {
+   "es": "Agidyne",
+   "en": "Agidyne"
+  },
+  "Agilao": {
+   "es": "Agilao",
+   "en": "Agilao"
+  },
+  "Agneyastra": {
+   "es": "Agneyastra",
+   "en": "Agneyastra"
+  },
+  "Aid Charm": {
+   "es": "Amuleto de ayuda",
+   "en": "Aid Charm",
+   "descEs": "Amuleto cargado con un poder curativo.",
+   "descEn": "A charm charged with healing power."
+  },
+  "Amrita Charm": {
+   "es": "Amuleto de Amrita",
+   "en": "Amrita Charm",
+   "descEs": "Amuleto de agua espiritual.",
+   "descEn": "A charm of spiritual water."
+  },
+  "Ancient Day": {
+   "es": "Día antiguo",
+   "en": "Ancient Day",
+   "descEs": "Réplica de juguete de un arma cuyo apodo viene de una deidad.",
+   "descEn": "Toy ray gun that is nicknamed the acting god."
+  },
+  "Archangel Bra": {
+   "es": "Sostén de arcángel",
+   "en": "Archangel Bra",
+   "descEs": "Un sostén bendecido por los ángeles que para los truenos.",
+   "descEn": "Bra blessed by angels. Said to stop lightning."
+  },
+  "Arms Master": {
+   "es": "As de las armas",
+   "en": "Arms Master"
+  },
+  "Arsene's Cane": {
+   "es": "Bastón de Arsène",
+   "en": "Arsène's Cane",
+   "descEs": "Un bastón que llevó en su día un caballero ladrón legendario.",
+   "descEn": "A cane once carried by a legendary gentleman thief."
+  },
+  "Assault Dive": {
+   "es": "Asalto",
+   "en": "Assault Dive"
+  },
+  "Assault Dive Belt": {
+   "es": "Cinturón de asalto",
+   "en": "Assault Belt",
+   "descEs": "Cinturón que permite pegar con fuerza.",
+   "descEn": "A belt that lets you land a heavy blow."
+  },
+  "Atom Ring": {
+   "es": "Anillo atómico",
+   "en": "Atom Ring",
+   "descEs": "Un pequeño anillo que alberga poder nuclear.",
+   "descEn": "A small ring charged by nuclear power."
+  },
+  "Atomic Flare": {
+   "es": "Fulgor atómico",
+   "en": "Atomic Flare"
+  },
+  "Auto-Maraku": {
+   "es": "Auto-Maraku",
+   "en": "Auto-Maraku"
+  },
+  "Auto-Masuku": {
+   "es": "Auto-Masuku",
+   "en": "Auto-Masuku"
+  },
+  "Auto-Mataru": {
+   "es": "Auto-Mataru",
+   "en": "Auto-Mataru"
+  },
+  "Bear Gloves": {
+   "es": "Guantes de oso",
+   "en": "Bear Gloves",
+   "descEs": "Guantes adorables y fuertes que parecen huellas de oso. Ooh.",
+   "descEn": "Cute gloves that look like bears. Aww."
+  },
+  "Big Bear Gloves": {
+   "es": "Guantes de oso grandes",
+   "en": "Big Bear Gloves",
+   "descEs": "Guantes adorables y fuertes que parecen huellas de oso. Ooh.",
+   "descEn": "Cute, strong gloves that look like bears. Aww."
+  },
+  "Black Headband": {
+   "es": "Diadema negra",
+   "en": "Black Headband",
+   "descEs": "Diadema que muestra los deseos más íntimos.",
+   "descEn": "A headband that shows one's inner desires."
+  },
+  "Black Headband R": {
+   "es": "Diadema negra R",
+   "en": "Black Headband R",
+   "descEs": "Diadema regia que muestra los deseos más íntimos.",
+   "descEn": "A royal headband that shows one's inner desires."
+  },
+  "Black Jacket": {
+   "es": "Chaqueta negra",
+   "en": "Black Jacket",
+   "descEs": "Protege de las maldiciones a su portador.",
+   "descEn": "Protects its wearer from curses."
+  },
+  "Black Moon": {
+   "es": "Luna negra",
+   "en": "Black Moon",
+   "descEs": "Piedra de brillo débil.",
+   "descEn": "A stone with a dull glisten."
+  },
+  "Black Moon R": {
+   "es": "Luna negra R",
+   "en": "Black Moon R",
+   "descEs": "Piedra regia de brillo débil.",
+   "descEn": "A royal stone with a dull glisten."
+  },
+  "Black Wing Robe": {
+   "es": "Vestim. de Alasnegras",
+   "en": "Black Wing Robe",
+   "descEs": "Hecha de plumas negras. Protege de la radiación.",
+   "descEn": "Made of black feathers. Guards against radiation."
+  },
+  "Black Wing Robe R": {
+   "es": "Vestim. Alasnegras R",
+   "en": "Black Wing Robe R",
+   "descEs": "Hecha de plumas regias. Protege de la radiación.",
+   "descEn": "Made of royal feathers. Guards against radiation."
+  },
+  "Blazing Horns": {
+   "es": "Cuernos abrasadores",
+   "en": "Blazing Horns",
+   "descEs": "Cuernos como los de un toro bravo.",
+   "descEn": "Horns like that of a wild, fierce bull."
+  },
+  "Bless Amp": {
+   "es": "Amplif. bend.",
+   "en": "Bless Amp"
+  },
+  "Bless Boost": {
+   "es": "Potenc. de bendición",
+   "en": "Bless Boost"
+  },
+  "Blessing Ring": {
+   "es": "Anillo de bendición",
+   "en": "Blessing Ring",
+   "descEs": "Anillo potenciado por los cielos.",
+   "descEn": "A ring powered by the heavens."
+  },
+  "Blizzard Ring": {
+   "es": "Anillo de ventisca",
+   "en": "Blizzard Ring",
+   "descEs": "Anillo que genera un poder helado.",
+   "descEn": "A ring generating icy power."
+  },
+  "Blood Red Capote": {
+   "es": "Capote rojo sangre",
+   "en": "Blood Red Capote",
+   "descEs": "Una capa roja que fue utilizada por un torero.",
+   "descEn": "A red cape once owned by a bullfighter."
+  },
+  "Bloodbath": {
+   "es": "Baño de sangre",
+   "en": "Bloodbath"
+  },
+  "Bloodied Capote": {
+   "es": "Capote ensangrentado",
+   "en": "Bloodied Capote",
+   "descEs": "Una capa color rojo sangre que fue utilizada por un torero.",
+   "descEn": "A blood-red cape once owned by a bullfighter."
+  },
+  "Brain Jack": {
+   "es": "Alteración cerebral",
+   "en": "Brain Jack"
+  },
+  "Brain Shot": {
+   "es": "Tiro cerebral",
+   "en": "Brain Shot",
+   "descEs": "Réplica basada en un arma que trastoca la mente.",
+   "descEn": "Model gun based on one that messes with minds."
+  },
+  "Brave Blade": {
+   "es": "Filo valeroso",
+   "en": "Brave Blade"
+  },
+  "Brave Blade Belt": {
+   "es": "Cinturón de valentía",
+   "en": "Brave Belt",
+   "descEs": "Cinturón que permite asestar un golpe aterrador.",
+   "descEn": "A belt that allows a fearsome strike."
+  },
+  "Breeze Ring": {
+   "es": "Anillo de brisa",
+   "en": "Breeze Ring",
+   "descEs": "Anillo cargado con viento.",
+   "descEn": "A ring charged by the wind."
+  },
+  "Bufu": {
+   "es": "Bufu",
+   "en": "Bufu"
+  },
+  "Bufudyne": {
+   "es": "Bufudyne",
+   "en": "Bufudyne"
+  },
+  "Bufula": {
+   "es": "Bufula",
+   "en": "Bufula"
+  },
+  "Cat Buster": {
+   "es": "Destructor gatuno",
+   "en": "Cat Buster",
+   "descEs": "Versión mejorada del tirachinas Siesta.",
+   "descEn": "Upgraded version of the slingshot Catnap."
+  },
+  "Catnap": {
+   "es": "Siesta",
+   "en": "Catnap",
+   "descEs": "Tirachinas capaz de provocar sueño.",
+   "descEn": "A slingshot capable of causing sleep."
+  },
+  "Charge": {
+   "es": "Carga",
+   "en": "Charge"
+  },
+  "Claiomh Solais": {
+   "es": "Claíomh Solais",
+   "en": "Claiomh Solais",
+   "descEs": "Una espada con un filo luminoso.",
+   "descEn": "A sword with a luminous blade."
+  },
+  "Claiomh Solais R": {
+   "es": "Claíomh Solais R",
+   "en": "Claiomh Solais R",
+   "descEs": "Una espada noble con un filo luminoso.",
+   "descEn": "A noble sword with a luminous blade."
+  },
+  "Cleave": {
+   "es": "Despedazar",
+   "en": "Cleave"
+  },
+  "Concentrate": {
+   "es": "Concentrar",
+   "en": "Concentrate"
+  },
+  "Cornered Fang": {
+   "es": "Colmillo acorralado",
+   "en": "Cornered Fang"
+  },
+  "Counter": {
+   "es": "Réplica",
+   "en": "Counter"
+  },
+  "Counterstrike": {
+   "es": "Contraataque",
+   "en": "Counterstrike"
+  },
+  "Crystal Skull": {
+   "es": "Cráneo de cristal",
+   "en": "Crystal Skull",
+   "descEs": "Una gema mágica que ayuda a evitar las habilidades mágicas.",
+   "descEn": "A magical gem that helps avoid magic skills."
+  },
+  "Crystal Skull R": {
+   "es": "Cráneo de cristal R",
+   "en": "Crystal Skull R",
+   "descEs": "Una gema regia mágica que ayuda a evitar las habilidades mágicas.",
+   "descEn": "A royal magical gem that helps avoid magic skills."
+  },
+  "Cure Charm": {
+   "es": "Amuleto de sanación",
+   "en": "Cure Charm",
+   "descEs": "Amuleto potenciado con un poder curativo.",
+   "descEn": "A charm powered by healing power."
+  },
+  "Curse Ring": {
+   "es": "Anillo de maldición",
+   "en": "Curse Ring",
+   "descEs": "Anillo que porta una maldición.",
+   "descEn": "A ring with a curse placed on it."
+  },
+  "Cursed Ribbon": {
+   "es": "Lazo maldito",
+   "en": "Cursed Ribbon",
+   "descEs": "Lazo blanco que contiene la maldición de una joven.",
+   "descEn": "A white ribbon that bears a young girl's curse."
+  },
+  "Dainaraka Whip": {
+   "es": "Látigo Dainakara",
+   "en": "Dainaraka Whip",
+   "descEs": "Un látigo que asusta y congela a los enemigos.",
+   "descEn": "A whip that frightens and freezes enemies."
+  },
+  "Dark Flame Band": {
+   "es": "Collar de llama oscura",
+   "en": "Dark Flame Band",
+   "descEs": "Un collar con un siniestro diseño de fuego.",
+   "descEn": "A ring with an ominous fire design."
+  },
+  "Dark Jacket": {
+   "es": "Chaqueta oscura",
+   "en": "Dark Jacket",
+   "descEs": "Una chaqueta oscura que protege de las maldiciones.",
+   "descEn": "A pitch black jacket that protects against curses."
+  },
+  "Darkness Ring": {
+   "es": "Anillo de oscuridad",
+   "en": "Darkness Ring",
+   "descEs": "Anillo con el poder de El segador.",
+   "descEn": "A ring housing the Reaper's power."
+  },
+  "Darkness Ring R": {
+   "es": "Anillo de oscuridad R",
+   "en": "Darkness Ring R",
+   "descEs": "Un anillo regio que alberga aún más poder de El segador.",
+   "descEn": "A royal ring housing even more of the Reaper's power."
+  },
+  "Dazzler": {
+   "es": "Deslumbramiento",
+   "en": "Dazzler"
+  },
+  "Deadly Fury": {
+   "es": "Furia mortal",
+   "en": "Deadly Fury"
+  },
+  "Death Contract": {
+   "es": "Contrato de la muerte",
+   "en": "Death Contract",
+   "descEs": "Un hacha capaz de causar desesperación.",
+   "descEn": "An axe capable of inducing despair."
+  },
+  "Death Promise": {
+   "es": "Promesa de la muerte",
+   "en": "Death Promise",
+   "descEs": "Un hacha fuerte capaz de causar desesperación.",
+   "descEn": "A strong axe capable of inducing despair."
+  },
+  "Death Scythe": {
+   "es": "Guadaña de la muerte",
+   "en": "Death Scythe"
+  },
+  "Deathbound": {
+   "es": "Portamuerte",
+   "en": "Deathbound"
+  },
+  "Debilitate": {
+   "es": "Debilitar",
+   "en": "Debilitate"
+  },
+  "Dekaja": {
+   "es": "Dekaja",
+   "en": "Dekaja"
+  },
+  "Dekunda": {
+   "es": "Dekunda",
+   "en": "Dekunda"
+  },
+  "Demonic Decree": {
+   "es": "Decreto demoníaco",
+   "en": "Demonic Decree"
+  },
+  "Diamond Dust": {
+   "es": "Polvo de diamante",
+   "en": "Diamond Dust"
+  },
+  "Diamond Dust Lily": {
+   "es": "Lirio polvo de diamante",
+   "en": "Diamond Dust Lily",
+   "descEs": "Un lirio artificial creado con pequeñas partículas de hielo.",
+   "descEn": "An artificial lily made with small particles of ice."
+  },
+  "Diarahan": {
+   "es": "Diarahan",
+   "en": "Diarahan"
+  },
+  "Diarama": {
+   "es": "Diarama",
+   "en": "Diarama"
+  },
+  "Divine Judgement": {
+   "es": "Juicio divino",
+   "en": "Divine Judgment"
+  },
+  "Divine Ring": {
+   "es": "Anillo divino",
+   "en": "Divine Ring",
+   "descEs": "Anillo que genera un poder celestial.",
+   "descEn": "A ring generating heavenly power."
+  },
+  "Doomsday": {
+   "es": "Día del juicio final",
+   "en": "Doomsday",
+   "descEs": "Réplica de juguete capaz de sobrevivir al Juicio Final.",
+   "descEn": "Toy ray gun surpassing the Last Judgment."
+  },
+  "Dormin Rush": {
+   "es": "Acometida soporífera",
+   "en": "Dormin Rush"
+  },
+  "Dormina": {
+   "es": "Dormina",
+   "en": "Dormina"
+  },
+  "Double Fangs": {
+   "es": "Colmillos dobles",
+   "en": "Double Fangs"
+  },
+  "Double Shot": {
+   "es": "Disparo doble",
+   "en": "Double Shot"
+  },
+  "Dragon's Heart": {
+   "es": "Corazón de dragón",
+   "en": "Dragon's Heart",
+   "descEs": "Una piedra mística que contiene el poder de un dragón.",
+   "descEn": "A mystical stone that has the power of a dragon."
+  },
+  "Drain Curse": {
+   "es": "Absorber maldición",
+   "en": "Drain Curse"
+  },
+  "Drain Fire": {
+   "es": "Absorber fuego",
+   "en": "Drain Fire"
+  },
+  "Drain Phys": {
+   "es": "Absorber físico",
+   "en": "Drain Phys"
+  },
+  "Dream Needle": {
+   "es": "Inyección somnífera",
+   "en": "Dream Needle"
+  },
+  "Eiga": {
+   "es": "Eiga",
+   "en": "Eiga"
+  },
+  "Eigaon": {
+   "es": "Eigaon",
+   "en": "Eigaon"
+  },
+  "Elec Amp": {
+   "es": "Amplific. de electr.",
+   "en": "Elec Amp"
+  },
+  "Elec Boost": {
+   "es": "Potenciac. de electr.",
+   "en": "Elec Boost"
+  },
+  "Ember Ring": {
+   "es": "Anillo de ascuas",
+   "en": "Ember Ring",
+   "descEs": "Anillo cargado con fuego.",
+   "descEn": "A ring charged by fire."
+  },
+  "Endure": {
+   "es": "Último aliento",
+   "en": "Endure"
+  },
+  "Enduring Soul": {
+   "es": "Alma inmortal",
+   "en": "Enduring Soul"
+  },
+  "Energy Charm": {
+   "es": "Amuleto de energía",
+   "en": "Energy Charm",
+   "descEs": "Amuleto que cura la fatiga mental.",
+   "descEn": "A charm that can heal mental fatigue."
+  },
+  "Energy Drop": {
+   "es": "Gota de energía",
+   "en": "Energy Drop"
+  },
+  "Energy Shower": {
+   "es": "Lluvia de energía",
+   "en": "Energy Shower"
+  },
+  "Evil Smile": {
+   "es": "Sonrisa maligna",
+   "en": "Evil Smile"
+  },
+  "Evil Touch": {
+   "es": "Toque maligno",
+   "en": "Evil Touch"
+  },
+  "Fairy Hero Armor": {
+   "es": "Arm. de hada heroica",
+   "en": "Fairy Hero Armor",
+   "descEs": "Una pechera imbuida con la voluntad de un caballero.",
+   "descEn": "A breastplate imbued with the will of a knight."
+  },
+  "Fairy Knight Armor": {
+   "es": "Arm. de hada guerrera",
+   "en": "Fairy Knight Armor",
+   "descEs": "Una pechera imbuida con la voluntad de un caballero.",
+   "descEn": "A breastplate imbued with the will of a knight."
+  },
+  "Fine Ruyi Jingu Bang": {
+   "es": "Ruyi Jingu Bang dest.",
+   "en": "Fine Ruyi Jingu Bang",
+   "descEs": "Un bastón refinado de gran alcance.",
+   "descEn": "A refined staff with an extended reach."
+  },
+  "Fine Silk Dress": {
+   "es": "Vestido de seda buena",
+   "en": "Fine Silk Dress",
+   "descEs": "Un vestido de seda de alta calidad que absorbe magia.",
+   "descEn": "A top quality silk dress that soaks up magic."
+  },
+  "Fine Tapsuan": {
+   "es": "Tapsuan elegante",
+   "en": "Fine Tapsuan",
+   "descEs": "Armadura mágica de alta calidad para evadir el viento.",
+   "descEn": "Top-quality armor that evades the wind."
+  },
+  "Fire Dragon Horn": {
+   "es": "Cuerno Drag. de fuego",
+   "en": "Fire Dragon Horn",
+   "descEs": "El cuerno de un dragón de fuego, imbuido con calor.",
+   "descEn": "The horn of a fire dragon, imbued with heat."
+  },
+  "Firm Stance": {
+   "es": "Posición firme",
+   "en": "Firm Stance"
+  },
+  "Flash Bomb": {
+   "es": "Bomba cegadora",
+   "en": "Flash Bomb"
+  },
+  "Fleurs du Mal": {
+   "es": "Fleurs du Mal",
+   "en": "Fleurs du Mal",
+   "descEs": "Un hacha que desprende un aroma floral deslumbrante.",
+   "descEn": "An axe that emits a bedazzling, floral aroma."
+  },
+  "Fleurs du Mal R": {
+   "es": "Fleurs du Mal R",
+   "en": "Fleurs du Mal R",
+   "descEs": "Un hacha noble que desprende un aroma floral deslumbrante.",
+   "descEn": "A noble axe that emits a bedazzling, floral aroma."
+  },
+  "Foul Breath": {
+   "es": "Aliento fétido",
+   "en": "Foul Breath"
+  },
+  "Frei": {
+   "es": "Frei",
+   "en": "Frei"
+  },
+  "Freidyne": {
+   "es": "Freidyne",
+   "en": "Freidyne"
+  },
+  "Frost Ace Hood": {
+   "es": "Capucha de Frost",
+   "en": "Frost Ace Hood",
+   "descEs": "Una capucha regia azul que refuerza la capacidad psíquica.",
+   "descEn": "A regal blue hood that bolsters mental prowess."
+  },
+  "Frost Hood": {
+   "es": "Capucha helada",
+   "en": "Frost Hood",
+   "descEs": "Una bonita capucha azul que refuerza la capacidad psíquica.",
+   "descEn": "A lovely blue hood that bolsters mental prowess."
+  },
+  "Frost Ring": {
+   "es": "Anillo de escarcha",
+   "en": "Frost Ring",
+   "descEs": "Anillo cargado con hielo.",
+   "descEn": "A ring charged by ice."
+  },
+  "Garu": {
+   "es": "Garu",
+   "en": "Garu"
+  },
+  "Garudyne": {
+   "es": "Garudyne",
+   "en": "Garudyne"
+  },
+  "Garula": {
+   "es": "Garula",
+   "en": "Garula"
+  },
+  "Gattling Blows Belt": {
+   "es": "Cinturón Gatling",
+   "en": "Gatling Belt",
+   "descEs": "Un cinturón que permite atacar varias veces.",
+   "descEn": "A belt that allows one to attack several times."
+  },
+  "Giant Slice": {
+   "es": "Tajo colosal",
+   "en": "Giant Slice"
+  },
+  "Giant Slice Belt": {
+   "es": "Cinturón tajo colosal",
+   "en": "Giant Slice Belt",
+   "descEs": "Un cinturón que otorga al portador el poder de partir cosas por la mitad.",
+   "descEn": "A belt that allows one to slice things open."
+  },
+  "Gigantomachia": {
+   "es": "Gigantomaquia",
+   "en": "Gigantomachia"
+  },
+  "Gigantomachia Belt": {
+   "es": "Cint. gigantomaquia",
+   "en": "Gigantomachia Belt",
+   "descEs": "Cinturón que permite aniquilar cualquier cosa.",
+   "descEn": "A belt that allows one to annihilate anything."
+  },
+  "God's Hand": {
+   "es": "Mano de Dios",
+   "en": "God's Hand"
+  },
+  "God's Hand Belt": {
+   "es": "Cinturón Mano de Dios",
+   "en": "God's Hand Belt",
+   "descEs": "Cinturón con el poder de la Mano de Dios.",
+   "descEn": "A belt with the power of God's Hand."
+  },
+  "Goddess Horn": {
+   "es": "Cuerno de la diosa",
+   "en": "Goddess Horn",
+   "descEs": "Un cuerno electrificado con la cara de una diosa.",
+   "descEn": "An electrified horn that bears a goddess's face."
+  },
+  "Godsent Dress": {
+   "es": "Vestido caído del cielo",
+   "en": "Godsent Dress",
+   "descEs": "Un vestido de diseño con plumas pintorescas.",
+   "descEn": "A top-quality dress with colorful feathers."
+  },
+  "Gordios": {
+   "es": "Gordios",
+   "en": "Gordios",
+   "descEs": "Guantes diseñados según el padre del cielo nómada.",
+   "descEn": "Gloves styled after the nomadic sky father."
+  },
+  "Graceful Harp": {
+   "es": "Arpa elegante",
+   "en": "Graceful Harp",
+   "descEs": "Arpa encantadora con forma de corazón.",
+   "descEn": "An enchanting heart-shaped harp."
+  },
+  "Graceful Harp R": {
+   "es": "Arpa elegante R",
+   "en": "Graceful Harp R",
+   "descEs": "Arpa regia y encantadora con forma de corazón.",
+   "descEn": "A royal, bewitching heart-shaped harp."
+  },
+  "Great Thief Stick": {
+   "es": "Bastón del gran ladrón",
+   "en": "The Great Thief Stick",
+   "descEs": "Un bastón que llevó en su día un caballero ladrón legendario.",
+   "descEn": "A cane once carried by a legendary gentleman thief."
+  },
+  "Growth 2": {
+   "es": "Crecimiento 2",
+   "en": "Growth 2"
+  },
+  "Growth 3": {
+   "es": "Crecimiento 3",
+   "en": "Growth 3"
+  },
+  "Grudge Ring": {
+   "es": "Anillo de rencor",
+   "en": "Grudge Ring",
+   "descEs": "Anillo con un aura siniestra.",
+   "descEn": "A ring with an aura of ill will."
+  },
+  "Gun Amp": {
+   "es": "Amplif. arma a dist.",
+   "en": "Gun Amp"
+  },
+  "Gun Boost": {
+   "es": "Potenc. arma a dist.",
+   "en": "Gun Boost"
+  },
+  "Gungnir": {
+   "es": "Gungnir",
+   "en": "Gungnir",
+   "descEs": "Versión mejorada de la réplica Cacería salvaje.",
+   "descEn": "Upgraded version of the model gun Wild Hunt."
+  },
+  "Hades Harp": {
+   "es": "Arpa de Hades",
+   "en": "Hades Harp",
+   "descEs": "Un arpa que embruja a quienes la escuchan.",
+   "descEn": "A harp that stops bewitchment."
+  },
+  "Hades Harp R": {
+   "es": "Arpa de Hades R",
+   "en": "Hades Harp R",
+   "descEs": "Un harpa regia que embruja a quienes la escuchan.",
+   "descEn": "A royal harp that stops bewitchment."
+  },
+  "Hallowed Ring": {
+   "es": "Anillo bendito",
+   "en": "Hallowed Ring",
+   "descEs": "Anillo potenciado por los cielos.",
+   "descEn": "A ring powered by the heavens."
+  },
+  "Hama": {
+   "es": "Hama",
+   "en": "Hama"
+  },
+  "Hamaon": {
+   "es": "Hamaon",
+   "en": "Hamaon"
+  },
+  "Headbutt": {
+   "es": "Cabezazo",
+   "en": "Headbutt"
+  },
+  "Headhunter Ladle": {
+   "es": "Cucharón cazador",
+   "en": "Headhunter Ladle",
+   "descEs": "Cucharón usado por bakeneko para cazar talentos ciudadanos.",
+   "descEn": "A ladle used by bakeneko for headhunting townsfolk."
+  },
+  "Headhunter Ladle EX": {
+   "es": "Cucharón cazador EX",
+   "en": "Headhunter Ladle EX",
+   "descEs": "Un cucharón usado por un bakeneko para cazar talentos guerreros.",
+   "descEn": "A ladle used by bakeneko for headhunting warriors."
+  },
+  "Heat Riser": {
+   "es": "Subidón",
+   "en": "Heat Riser"
+  },
+  "Heat Wave": {
+   "es": "Ola de calor",
+   "en": "Heat Wave"
+  },
+  "Heaven's Gate": {
+   "es": "Puerta celestial",
+   "en": "Heaven's Gate",
+   "descEs": "Réplica inspirada en un modelo de un centinela celestial.",
+   "descEn": "Model gun inspired by a watchman of the Heavens."
+  },
+  "Heavensent Dress": {
+   "es": "Vestido milagroso",
+   "en": "Heavensent Dress",
+   "descEs": "Un vestido con plumas pintorescas.",
+   "descEn": "A dress with colorful feathers."
+  },
+  "Hex Ring": {
+   "es": "Anillo de maleficio",
+   "en": "Hex Ring",
+   "descEs": "Anillo que porta un maleficio.",
+   "descEn": "A ring with a hex placed on it."
+  },
+  "High Archangel Bra": {
+   "es": "Sostén de arcángel alfa",
+   "en": "High Archangel Bra",
+   "descEs": "Con bendiciones adicionales. Es útil para parar los rayos.",
+   "descEn": "Extra-blessed; great at stopping lightning."
+  },
+  "High Counter": {
+   "es": "Gran contraataq.",
+   "en": "High Counter"
+  },
+  "Hinokagutsuchi": {
+   "es": "Hinokagutsuchi",
+   "en": "Hinokagutsuchi",
+   "descEs": "Una espada adornada con llamas premonitorias.",
+   "descEn": "A sword adorned with foreboding flames."
+  },
+  "Hinokagutsuchi II": {
+   "es": "Hinokagutsuchi II",
+   "en": "Hinokagutsuchi II",
+   "descEs": "Una espada que lo quema todo.",
+   "descEn": "A sword able to burn everything to the ground."
+  },
+  "Hope Diamond": {
+   "es": "Diamante Esperanza",
+   "en": "Hope Diamond",
+   "descEs": "Una famosa gema maldita pero curativa.",
+   "descEn": "Famous gem said to be cursed, but healing."
+  },
+  "Hope Diamond R": {
+   "es": "Diamante Hope R",
+   "en": "Hope Diamond R",
+   "descEs": "Una gema regia maldita pero curativa.",
+   "descEn": "Royal gem said to be cursed, but healing."
+  },
+  "Hysterical Slap": {
+   "es": "Bofetada histérica",
+   "en": "Hysterical Slap"
+  },
+  "Ice Amp": {
+   "es": "Amplificac. de hielo",
+   "en": "Ice Amp"
+  },
+  "Ice Boost": {
+   "es": "Potenc. de hielo",
+   "en": "Ice Boost"
+  },
+  "Imprisoned Mjolnir": {
+   "es": "Mjolnir de opresión",
+   "en": "Imprisoned Mjolnir",
+   "descEs": "Un arma legendaria empuñada por un dios.",
+   "descEn": "A legendary weapon wielded by a god."
+  },
+  "Inferno": {
+   "es": "Infierno",
+   "en": "Inferno"
+  },
+  "Inferno Horns": {
+   "es": "Cuernos del infierno",
+   "en": "Inferno Horns",
+   "descEs": "Cuernos regios como los de un toro bravo.",
+   "descEn": "Royal horns like that of a wild, fierce bull."
+  },
+  "Inferno Ring": {
+   "es": "Anillo del infierno",
+   "en": "Inferno Ring",
+   "descEs": "Anillo que genera un poder fogoso.",
+   "descEn": "A ring generating fiery power."
+  },
+  "Insta-Heal": {
+   "es": "Curac. inst.",
+   "en": "Insta-Heal"
+  },
+  "Judge End": {
+   "es": "Fin del juez",
+   "en": "Judge End",
+   "descEs": "Versión mejorada de la réplica Juez del infierno.",
+   "descEn": "Upgraded version of the model gun Judge of Hell."
+  },
+  "Judge of Hell": {
+   "es": "Juez del infierno",
+   "en": "Judge of Hell",
+   "descEs": "Réplica nombrada en honor a un dios de la muerte.",
+   "descEn": "Model gun named in honor of a god of death."
+  },
+  "Judgement Cross": {
+   "es": "Cruz de juicio",
+   "en": "Judgment Cross",
+   "descEs": "Corona imbuida con el juicio de un dios.",
+   "descEn": "A cross imbued with a god's judgment."
+  },
+  "Karma Ring": {
+   "es": "Anillo de karma",
+   "en": "Karma Ring",
+   "descEs": "Un anillo que alberga un gran poder de psicoquinesis.",
+   "descEn": "A ring powered by psychokinesis."
+  },
+  "Kill Rush": {
+   "es": "Acometida asesina",
+   "en": "Kill Rush"
+  },
+  "Kill Rush Belt": {
+   "es": "Cinturón de Acometida",
+   "en": "Rush Belt",
+   "descEs": "Un cinturón que permite asestar un gran golpe.",
+   "descEn": "A belt that allows one to attack many times."
+  },
+  "King Frost Cape": {
+   "es": "Capa de rey Frost",
+   "en": "King Frost Cape",
+   "descEs": "Una capa majestuosa y fría al tacto.",
+   "descEn": "A regal cape that's cold to the touch."
+  },
+  "King Frost Cape EX": {
+   "es": "Capa de rey Frost EX",
+   "en": "King Frost Cape EX",
+   "descEs": "La capa más majestuosa y fría al tacto.",
+   "descEn": "The most regal of capes that's cold to the touch."
+  },
+  "Koh-i-Noor": {
+   "es": "Koh-i-Noor",
+   "en": "Koh-i-Noor",
+   "descEs": "Una atractiva corona que hace resplandecer a quien la lleva.",
+   "descEn": "An alluring crown that makes the wearer radiant."
+  },
+  "Koh-i-Noor R": {
+   "es": "Koh-i-Noor R",
+   "en": "Koh-i-Noor R",
+   "descEs": "Una corona regia que hace resplandecer a quien la lleva.",
+   "descEn": "A royal crown that makes the wearer radiant."
+  },
+  "Kouga": {
+   "es": "Kouga",
+   "en": "Kouga"
+  },
+  "Kougaon": {
+   "es": "Kougaon",
+   "en": "Kougaon"
+  },
+  "Kouha": {
+   "es": "Kouha",
+   "en": "Kouha"
+  },
+  "Kugelbein": {
+   "es": "Kugelbein",
+   "en": "Kugelbein",
+   "descEs": "Una armadura que aumenta la defensa de todos.",
+   "descEn": "A set of armor that raises everyone's defense."
+  },
+  "Kugelbein R": {
+   "es": "Kugelbein R",
+   "en": "Kugelbein R",
+   "descEs": "Una armadura regia que aumenta la defensa de todo el mundo.",
+   "descEn": "A royal set of armor that raises everyone's defense."
+  },
+  "Kuzuryu Gouhou": {
+   "es": "K. Gouhou",
+   "en": "K. Gouhou",
+   "descEs": "Réplica basada en un arma que aúlla cuando se dispara.",
+   "descEn": "Model gun based on one that howls when it fires."
+  },
+  "Kuzuryu Gouhou EX": {
+   "es": "K. Gouhou EX",
+   "en": "K. Gouhou EX",
+   "descEs": "Versión mejorada de la réplica Kuzuryu Gouhou.",
+   "descEn": "Upgraded version of the model gun Kuzuryu Gouhou."
+  },
+  "Lucky Punch": {
+   "es": "Golpe de suerte",
+   "en": "Lucky Punch"
+  },
+  "Lucky Robe": {
+   "es": "Túnica de la suerte",
+   "en": "Lucky Robe",
+   "descEs": "Una túnica mística que da suerte.",
+   "descEn": "A mystical robe that imparts good luck."
+  },
+  "Lullaby": {
+   "es": "Canción de cuna",
+   "en": "Lullaby"
+  },
+  "Lunge": {
+   "es": "Acometida",
+   "en": "Lunge"
+  },
+  "Mabufu": {
+   "es": "Mabufu",
+   "en": "Mabufu"
+  },
+  "Mabufudyne": {
+   "es": "Mabufudyne",
+   "en": "Mabufudyne"
+  },
+  "Mabufula": {
+   "es": "Mabufula",
+   "en": "Mabufula"
+  },
+  "Maeiga": {
+   "es": "Maeiga",
+   "en": "Maeiga"
+  },
+  "Maeigaon": {
+   "es": "Maeigaon",
+   "en": "Maeigaon"
+  },
+  "Maeiha": {
+   "es": "Maeiha",
+   "en": "Maeiha"
+  },
+  "Mafrei": {
+   "es": "Mafrei",
+   "en": "Mafrei"
+  },
+  "Mafreidyne": {
+   "es": "Mafreidyne",
+   "en": "Mafreidyne"
+  },
+  "Mafreila": {
+   "es": "Mafreila",
+   "en": "Mafreila"
+  },
+  "Magaru": {
+   "es": "Magaru",
+   "en": "Magaru"
+  },
+  "Magarudyne": {
+   "es": "Magarudyne",
+   "en": "Magarudyne"
+  },
+  "Magarula": {
+   "es": "Magarula",
+   "en": "Magarula"
+  },
+  "Mahama": {
+   "es": "Mahama",
+   "en": "Mahama"
+  },
+  "Mahamaon": {
+   "es": "Mahamaon",
+   "en": "Mahamaon"
+  },
+  "Makajam": {
+   "es": "Makajama",
+   "en": "Makajama"
+  },
+  "Makajamaon": {
+   "es": "Makajamaon",
+   "en": "Makajamaon"
+  },
+  "Makarakarn": {
+   "es": "Makarakarn",
+   "en": "Makarakarn"
+  },
+  "Makouga": {
+   "es": "Makouga",
+   "en": "Makouga"
+  },
+  "Makougaon": {
+   "es": "Makougaon",
+   "en": "Makougaon"
+  },
+  "Makouha": {
+   "es": "Makouha",
+   "en": "Makouha"
+  },
+  "Mamudo": {
+   "es": "Mamudo",
+   "en": "Mamudo"
+  },
+  "Mamudoon": {
+   "es": "Mamudoon",
+   "en": "Mamudoon"
+  },
+  "Mapsi": {
+   "es": "Mapsi",
+   "en": "Mapsi"
+  },
+  "Mapsiodyne": {
+   "es": "Mapsiodyne",
+   "en": "Mapsiodyne"
+  },
+  "Maragi": {
+   "es": "Maragi",
+   "en": "Maragi"
+  },
+  "Maragidyne": {
+   "es": "Maragidyne",
+   "en": "Maragidyne"
+  },
+  "Maragion": {
+   "es": "Maragion",
+   "en": "Maragion"
+  },
+  "Marakukaja": {
+   "es": "Marakukaja",
+   "en": "Marakukaja"
+  },
+  "Marakunda": {
+   "es": "Marakunda",
+   "en": "Marakunda"
+  },
+  "Marin Karin": {
+   "es": "Marin Karin",
+   "en": "Marin Karin"
+  },
+  "Masquerade Ribbon": {
+   "es": "Cinta de mascarada",
+   "en": "Masquerade Ribbon",
+   "descEs": "Un látigo que hace que giren las cabezas.",
+   "descEn": "A whip that sends heads spinning."
+  },
+  "Masquerade Ribbon R": {
+   "es": "Cinta de mascarada R",
+   "en": "Masquerade Ribbon R",
+   "descEs": "Un látigo elegante que hace que giren las cabezas.",
+   "descEn": "A elegant whip that sends heads spinning."
+  },
+  "Masukunda": {
+   "es": "Masukunda",
+   "en": "Masukunda"
+  },
+  "Matarukaja": {
+   "es": "Matarukaja",
+   "en": "Matarukaja"
+  },
+  "Matarunda": {
+   "es": "Matarunda",
+   "en": "Matarunda"
+  },
+  "Mazio": {
+   "es": "Mazio",
+   "en": "Mazio"
+  },
+  "Maziodyne": {
+   "es": "Maziodyne",
+   "en": "Maziodyne"
+  },
+  "Mazionga": {
+   "es": "Mazionga",
+   "en": "Mazionga"
+  },
+  "Media": {
+   "es": "Media",
+   "en": "Media"
+  },
+  "Mediarahan": {
+   "es": "Mediarahan",
+   "en": "Mediarahan"
+  },
+  "Mediarama": {
+   "es": "Mediarama",
+   "en": "Mediarama"
+  },
+  "Megaton Raid": {
+   "es": "Ataque megatón",
+   "en": "Megaton Raid"
+  },
+  "Megaton Raid Belt": {
+   "es": "Cinturón megatón",
+   "en": "Megaton Belt",
+   "descEs": "Cinturón que permite asestar un golpe grave.",
+   "descEn": "A belt that lets you land a severe blow."
+  },
+  "Megido Blaster": {
+   "es": "Megido Blaster",
+   "en": "Megido Blaster",
+   "descEs": "Versión mejorada de la réplica Fuego Megido.",
+   "descEn": "Upgraded version of the model gun Megido Fire."
+  },
+  "Megido Fire": {
+   "es": "Fuego Megido",
+   "en": "Megido Fire",
+   "descEs": "Réplica basada en un arma con un poder incendiario.",
+   "descEn": "Model gun based on one with incendiary power."
+  },
+  "Megidola": {
+   "es": "Megidola",
+   "en": "Megidola"
+  },
+  "Megidolaon": {
+   "es": "Megidolaon",
+   "en": "Megidolaon"
+  },
+  "Memory Blow": {
+   "es": "Golpe amnésico",
+   "en": "Memory Blow"
+  },
+  "Mind Slice": {
+   "es": "Tajo mental",
+   "en": "Mind Slice"
+  },
+  "Miracle Punch": {
+   "es": "Golpe milagroso",
+   "en": "Miracle Punch"
+  },
+  "Mirrirmina": {
+   "es": "Mirrirmina",
+   "en": "Mirrirmina",
+   "descEs": "Réplica nombrada en honor a un manantial sagrado.",
+   "descEn": "Model gun named after a sacred spring."
+  },
+  "Mirrirmina EX": {
+   "es": "Mirrirmina EX",
+   "en": "Mirrirmina EX",
+   "descEs": "Versión mejorada de la réplica Mirrirmina.",
+   "descEn": "Upgraded version of the model gun Mirrirmina."
+  },
+  "Mjolnir": {
+   "es": "Mjolnir",
+   "en": "Mjolnir",
+   "descEs": "Un arma legendaria empuñada por un dios.",
+   "descEn": "A legendary weapon wielded by a god."
+  },
+  "Moonlight Robe": {
+   "es": "Túnica de medianoche",
+   "en": "Moonlight Robe",
+   "descEs": "Una túnica que emite un suave resplandor.",
+   "descEn": "A robe that emits a soft glow."
+  },
+  "Moonlight Robe R": {
+   "es": "Túnica medianoche R",
+   "en": "Moonlight Robe R",
+   "descEs": "Una túnica real que emite un majestuoso y suave brillo.",
+   "descEn": "A royal robe that emits a regal, soft glow."
+  },
+  "Mudo": {
+   "es": "Mudo",
+   "en": "Mudo"
+  },
+  "Mudoon": {
+   "es": "Mudoon",
+   "en": "Mudoon"
+  },
+  "Myriad Slashes": {
+   "es": "Mil cortes",
+   "en": "Myriad Slashes"
+  },
+  "Myriad Slashes Belt": {
+   "es": "Cinturón de mil cortes",
+   "en": "Myriad Slash Belt",
+   "descEs": "Cinturón que permite dar un aluvión de tajos.",
+   "descEn": "A belt that allows a storm of slashes."
+  },
+  "Mystic Ring": {
+   "es": "Anillo místico",
+   "en": "Mystic Ring",
+   "descEs": "Un anillo que alberga el poder de psicoquinesis más absoluto.",
+   "descEn": "A ring generating psychokinesis."
+  },
+  "Naraka Whip": {
+   "es": "Látigo Nakara",
+   "en": "Naraka Whip",
+   "descEs": "Un látigo que congela a los enemigos.",
+   "descEn": "A whip that freezes enemies."
+  },
+  "Nataraja": {
+   "es": "Nataraja",
+   "en": "Nataraja",
+   "descEs": "Réplica inspirada por el dios de la destrucción.",
+   "descEn": "Model gun inspired by the god of destruction."
+  },
+  "Nataraja EX": {
+   "es": "Nataraja EX",
+   "en": "Nataraja EX",
+   "descEs": "Versión mejorada de la réplica Nataraja.",
+   "descEn": "Upgraded version of the model gun Nataraja."
+  },
+  "Nocturnal Flash": {
+   "es": "Destello nocturno",
+   "en": "Nocturnal Flash"
+  },
+  "Nuclear Ring": {
+   "es": "Anillo nuclear",
+   "en": "Nuclear Ring",
+   "descEs": "Un anillo que aloja un poder nuclear superior.",
+   "descEn": "A ring powered by nuclear energy."
+  },
+  "Nuke Amp": {
+   "es": "Amplif. nuclear",
+   "en": "Nuke Amp"
+  },
+  "Nuke Boost": {
+   "es": "Potenciación nuclear",
+   "en": "Nuke Boost"
+  },
+  "Null Bless": {
+   "es": "Anular bendición",
+   "en": "Null Bless"
+  },
+  "Null Curse": {
+   "es": "Anular maldición",
+   "en": "Null Curse"
+  },
+  "Null Elec": {
+   "es": "Anular electricidad",
+   "en": "Null Elec"
+  },
+  "Null Fire": {
+   "es": "Anular fuego",
+   "en": "Null Fire"
+  },
+  "Null Ice": {
+   "es": "Anular hielo",
+   "en": "Null Ice"
+  },
+  "Null Nuke": {
+   "es": "Anular nuclear",
+   "en": "Null Nuke"
+  },
+  "Null Psy": {
+   "es": "Anular psicoquinesis",
+   "en": "Null Psy"
+  },
+  "Null Wind": {
+   "es": "Anular viento",
+   "en": "Null Wind"
+  },
+  "Official's Robe": {
+   "es": "Vestimenta de oficial",
+   "en": "Official's Robe",
+   "descEs": "Vestiduras que ayudan a eludir maldiciones.",
+   "descEn": "Robes to help evade curses."
+  },
+  "Official's Robe R": {
+   "es": "Vestimenta de oficial R",
+   "en": "Official's Robe R",
+   "descEs": "Una túnica real que ayuda a eludir maldiciones.",
+   "descEn": "A royal robe to help evade curses."
+  },
+  "Ominous Words": {
+   "es": "Amenaza",
+   "en": "Ominous Words"
+  },
+  "One-shot Kill": {
+   "es": "Tiro mortal",
+   "en": "One-shot Kill"
+  },
+  "Oni Kagura": {
+   "es": "Oni-Kagura",
+   "en": "Oni-Kagura"
+  },
+  "Orichalcum": {
+   "es": "Oricalco",
+   "en": "Orichalcum",
+   "descEs": "Un metal mágico que protege a quien lo porta.",
+   "descEn": "A magical metal that protects the holder."
+  },
+  "Orichalcum R": {
+   "es": "Oricalco R",
+   "en": "Orichalcum R",
+   "descEs": "Un metal regio que protege a quien lo porta.",
+   "descEn": "A royal metal that protects the holder."
+  },
+  "Orlov": {
+   "es": "Orlov",
+   "en": "Orlov",
+   "descEs": "Una gema mágica que provoca sufrimiento.",
+   "descEn": "A magical gem that brings calamity."
+  },
+  "Orlov R": {
+   "es": "Orlov R",
+   "en": "Orlov R",
+   "descEs": "Una gema mágica regia que provoca sufrimiento.",
+   "descEn": "A royal magical gem that brings calamity."
+  },
+  "Panta Rhei": {
+   "es": "Panta Rei",
+   "en": "Panta Rhei"
+  },
+  "Paradise Lost": {
+   "es": "Paraíso perdido",
+   "en": "Paradise Lost",
+   "descEs": "Una daga usada para desterrar a los ángeles del paraíso.",
+   "descEn": "A dagger used to drive angels from Paradise."
+  },
+  "Paradise Lost R": {
+   "es": "Paraíso perdido R",
+   "en": "Paradise Lost R",
+   "descEs": "La noble daga de un ángel caído.",
+   "descEn": "A noble dagger of a fallen angel."
+  },
+  "Paw-omber": {
+   "es": "Patarma",
+   "en": "Paw-omber",
+   "descEs": "Versión mejorada de la réplica Garrazooka.",
+   "descEn": "Upgraded version of the model gun Pawzooka."
+  },
+  "Pawzooka": {
+   "es": "Garrazooka",
+   "en": "Pawzooka",
+   "descEs": "Réplica que se clava como las garras de un gato.",
+   "descEn": "Model gun that darts like a cat's paw."
+  },
+  "Picaresque Crown": {
+   "es": "Corona picaresca",
+   "en": "Picaresque Crown",
+   "descEs": "Corona de un legendario Ladrón Fantasma.",
+   "descEn": "The crown of a legendary phantom thief."
+  },
+  "Picaresque Hat": {
+   "es": "Sombrero picaresco",
+   "en": "Picaresque Hat",
+   "descEs": "Sombrero de seda de un Ladrón Fantasma.",
+   "descEn": "The silk hat of a phantom thief."
+  },
+  "Pink Buster": {
+   "es": "Destructor rosa",
+   "en": "Pink Buster",
+   "descEs": "Versión mejorada de la réplica Tiro cerebral.",
+   "descEn": "Upgraded version of the model gun Brain Shot."
+  },
+  "Power Slash": {
+   "es": "Corte poderoso",
+   "en": "Power Slash"
+  },
+  "Prayer Ring": {
+   "es": "Anillo de oración",
+   "en": "Prayer Ring",
+   "descEs": "Anillo cargado por los cielos.",
+   "descEn": "A ring charged by the heavens."
+  },
+  "Providence": {
+   "es": "Providencia",
+   "en": "Providence",
+   "descEs": "Versión mejorada de la réplica Puerta celestial.",
+   "descEn": "Upgraded version of the model gun Heaven's Gate."
+  },
+  "Psio": {
+   "es": "Psio",
+   "en": "Psio"
+  },
+  "Psiodyne": {
+   "es": "Psiodyne",
+   "en": "Psiodyne"
+  },
+  "Psy Ring": {
+   "es": "Anillo psicoquinético",
+   "en": "Psy Ring",
+   "descEs": "Un pequeño anillo que alberga el poder de la psicoquinesis.",
+   "descEn": "A small ring charged by psychokinesis."
+  },
+  "Psycho Force": {
+   "es": "Psicofuerza",
+   "en": "Psycho Force"
+  },
+  "Pumpkin Bomb": {
+   "es": "Bomba calabaza",
+   "en": "Pumpkin Bomb",
+   "descEs": "Réplica con forma de calabaza que puede provocar quemaduras.",
+   "descEn": "Pumpkin-shape model gun capable of causing burns."
+  },
+  "Pumpkin Buster": {
+   "es": "Destructor calabaza",
+   "en": "Pumpkin Buster",
+   "descEs": "Versión mejorada de la réplica Bomba calabaza.",
+   "descEn": "Upgraded version of the model gun Pumpkin Bomb."
+  },
+  "Queen's Necklace": {
+   "es": "Collar de la reina",
+   "en": "Queen's Necklace",
+   "descEs": "Un colgante mágico que anima el corazón de quien lo porta.",
+   "descEn": "A magic necklace that uplifts the wearer's heart."
+  },
+  "Queen's Necklace R": {
+   "es": "Collar de la reina R",
+   "en": "Queen's Necklace R",
+   "descEs": "Un colgante regio que anima el corazón del quien lo porta.",
+   "descEn": "A royal necklace that uplifts the wearer's heart."
+  },
+  "Rakukaja": {
+   "es": "Rakukaja",
+   "en": "Rakukaja"
+  },
+  "Rakunda": {
+   "es": "Rakunda",
+   "en": "Rakunda"
+  },
+  "Rampage": {
+   "es": "Desmadre",
+   "en": "Rampage"
+  },
+  "Reactor Ring": {
+   "es": "Anillo reactor",
+   "en": "Reactor Ring",
+   "descEs": "Un anillo en espiral que alberga el poder nuclear más absoluto.",
+   "descEn": "A ring generating nuclear power."
+  },
+  "Rebellion": {
+   "es": "Rebelión",
+   "en": "Rebellion"
+  },
+  "Rebellion Anklet": {
+   "es": "Tobillera de rebelión",
+   "en": "Rebellion Anklet",
+   "descEs": "Una tobillera que mejora la concentración.",
+   "descEn": "An anklet that sharpens concentration."
+  },
+  "Recarm": {
+   "es": "Recarm",
+   "en": "Recarm"
+  },
+  "Red String": {
+   "es": "Hilo rojo",
+   "en": "Red String",
+   "descEs": "Un ovillo de hilo que conduce a la salvación.",
+   "descEn": "A ball of yarn that leads to salvation."
+  },
+  "Red String R": {
+   "es": "Hilo rojo R",
+   "en": "Red String R",
+   "descEs": "Un ovillo de hilo regio que conduce a la salvación.",
+   "descEn": "A royal ball of yarn that leads to salvation."
+  },
+  "Regenerate 1": {
+   "es": "Regenerar 1",
+   "en": "Regenerate 1"
+  },
+  "Regenerate 2": {
+   "es": "Regenerar 2",
+   "en": "Regenerate 2"
+  },
+  "Regenerate 3": {
+   "es": "Regenerar 3",
+   "en": "Regenerate 3"
+  },
+  "Regent": {
+   "es": "Regente",
+   "en": "Regent",
+   "descEs": "Gema que fortalece a quien la porta.",
+   "descEn": "A gem that empowers its owner."
+  },
+  "Regent R": {
+   "es": "Regente R",
+   "en": "Regent R",
+   "descEs": "Gema regia que fortalece a quien la porta.",
+   "descEn": "A royal gem that empowers its owner."
+  },
+  "Rejuvenate Charm": {
+   "es": "Amuleto de rejuven.",
+   "en": "Rejuvenate Charm",
+   "descEs": "Amuleto poderoso que otorga vida a los caídos.",
+   "descEn": "A powerful charm that gives life to the fallen."
+  },
+  "Repel Bless": {
+   "es": "Repeler bendición",
+   "en": "Repel Bless"
+  },
+  "Repel Elec": {
+   "es": "Repeler electricidad",
+   "en": "Repel Elec"
+  },
+  "Repel Ice": {
+   "es": "Repeler hielo",
+   "en": "Repel Ice"
+  },
+  "Repel Nuke": {
+   "es": "Repeler nuclear",
+   "en": "Repel Nuke"
+  },
+  "Repel Phys": {
+   "es": "Repeler físico",
+   "en": "Repel Phys"
+  },
+  "Repel Psy": {
+   "es": "Repeler psicoquinesis",
+   "en": "Repel Psy"
+  },
+  "Repel Wind": {
+   "es": "Repeler viento",
+   "en": "Repel Wind"
+  },
+  "Revival Charm": {
+   "es": "Amuleto resurrección",
+   "en": "Revival Charm",
+   "descEs": "Amuleto que otorga vida a los caídos.",
+   "descEn": "A charm that gives life to the fallen."
+  },
+  "Revolution": {
+   "es": "Revolución",
+   "en": "Revolution"
+  },
+  "Revolution Anklet": {
+   "es": "Tobillera de revolución",
+   "en": "Revolution Anklet",
+   "descEs": "Tobillera que mejora la concentración de muchos.",
+   "descEn": "An anklet that sharpens concentration of many."
+  },
+  "Riot Gun": {
+   "es": "Tiro rebelde",
+   "en": "Riot Gun"
+  },
+  "Rising Slash": {
+   "es": "Corte ascendente",
+   "en": "Rising Slash"
+  },
+  "Rising Slash Belt": {
+   "es": "Cint. corte ascendente",
+   "en": "Rising Slash Belt",
+   "descEs": "Cinturón que permite atacar con fuerza.",
+   "descEn": "A belt that allows one to attack powerfully."
+  },
+  "Rosary of Purity": {
+   "es": "Rosario de pureza",
+   "en": "Rosary of Purity",
+   "descEs": "Un rosario que salva las almas de quienes rezan.",
+   "descEn": "A rosary that saves many people through prayer."
+  },
+  "Ruyi Jingu Bang": {
+   "es": "Ruyi Jingu Bang",
+   "en": "Ruyi Jingu Bang",
+   "descEs": "Un bastón que puede alargarse de forma misteriosa.",
+   "descEn": "A staff that can mysteriously elongate."
+  },
+  "Sabazios": {
+   "es": "Sabacio",
+   "en": "Sabazios",
+   "descEs": "Guantes diseñados según el padre del cielo nómada.",
+   "descEn": "Gloves styled after the nomadic sky father."
+  },
+  "Sahasrara": {
+   "es": "Sahasrara",
+   "en": "Sahasrara",
+   "descEs": "Réplica capaz de desatar un poder supremo.",
+   "descEn": "Model gun known to unleash the utmost power."
+  },
+  "Sahasrara EX": {
+   "es": "Sahasrara EX",
+   "en": "Sahasrara EX",
+   "descEs": "Versión mejorada de la réplica Sahasrara.",
+   "descEn": "Upgraded version of the model gun Sahasrara."
+  },
+  "Salvation": {
+   "es": "Salvación",
+   "en": "Salvation"
+  },
+  "Samarecarm": {
+   "es": "Samarecarm",
+   "en": "Samarecarm"
+  },
+  "Senryou Yakusha": {
+   "es": "Senryou Yakusha",
+   "en": "Senryou Yakusha",
+   "descEs": "Una espada que hace distinguir entre actores y aficionados.",
+   "descEn": "A sword that separates actors from amateurs."
+  },
+  "Senryou Yakusha R": {
+   "es": "Senryou Yakusha R",
+   "en": "Senryou Yakusha R",
+   "descEs": "Una espada refinada para actores experimentados.",
+   "descEn": "A refined sword for the experienced actor."
+  },
+  "Shiny Belt": {
+   "es": "Cinturón brillante",
+   "en": "Shiny Belt",
+   "descEs": "Un cinturón con un poderoso brillo.",
+   "descEn": "A belt with a shine that fills the soul."
+  },
+  "Shiny Belt R": {
+   "es": "Cinturón brillante R",
+   "en": "Shiny Belt R",
+   "descEs": "Un cinturón regio con un poderoso brillo.",
+   "descEn": "A royal belt with a shine that fills the soul."
+  },
+  "Silk Dress": {
+   "es": "Vestido de seda",
+   "en": "Silk Dress",
+   "descEs": "Un vestido suave de seda que absorbe magia.",
+   "descEn": "A soft, silk dress that soaks up magic."
+  },
+  "Sirius Armor": {
+   "es": "Armadura de Sirius",
+   "en": "Sirius Armor",
+   "descEs": "Armadura con un pentagrama grabado.",
+   "descEn": "Armor with a pentagram etching."
+  },
+  "Sirius Armor EX": {
+   "es": "Armadura de Sirius EX",
+   "en": "Sirius Armor EX",
+   "descEs": "Armadura majestuosa con un pentagrama grabado.",
+   "descEn": "Regal armor with a pentagram etching."
+  },
+  "Skull Cracker": {
+   "es": "Aplastacráneos",
+   "en": "Skull Cracker"
+  },
+  "Sledgehammer": {
+   "es": "Mazazo",
+   "en": "Sledgehammer"
+  },
+  "Snow Queen's Whip": {
+   "es": "Látigo reina nieves",
+   "en": "Snow Queen's Whip",
+   "descEs": "Un látigo que controla la noche.",
+   "descEn": "A whip that controls the night."
+  },
+  "Snow Queen's Whip II": {
+   "es": "Látigo reina nieves II",
+   "en": "Snow Queen's Whip II",
+   "descEs": "Un fuerte látigo que controla la noche.",
+   "descEn": "A strong whip that controls the night."
+  },
+  "Snow Ring": {
+   "es": "Anillo de nieve",
+   "en": "Snow Ring",
+   "descEs": "Anillo potenciado con hielo.",
+   "descEn": "A ring powered by ice."
+  },
+  "Spark Ring": {
+   "es": "Anillo de chispa",
+   "en": "Spark Ring",
+   "descEs": "Un anillo que alberga un gran poder de electricidad.",
+   "descEn": "A ring powered by electricity."
+  },
+  "Special Shot Belt": {
+   "es": "Cint. disparo especial",
+   "en": "Special Shot Belt",
+   "descEs": "Cinturón equipado con balas especiales.",
+   "descEn": "A belt equipped with special bullets."
+  },
+  "Speed Master": {
+   "es": "As de la velocidad",
+   "en": "Speed Master"
+  },
+  "Spell Master": {
+   "es": "As de los hechizos",
+   "en": "Spell Master"
+  },
+  "Spiral Aid Charm": {
+   "es": "Amuleto espiral ayuda",
+   "en": "Spiral Aid Charm",
+   "descEs": "Amuleto en espiral cargado con un poder curativo.",
+   "descEn": "A spiral charm charged with healing power."
+  },
+  "Spiral Amrita Charm": {
+   "es": "Amuleto espiral Amrita",
+   "en": "Spiral Amrita Charm",
+   "descEs": "Amuleto en espiral de agua espiritual.",
+   "descEn": "A spiral charm of spiritual water."
+  },
+  "Spiral Atom Ring": {
+   "es": "Anillo espiral atómico",
+   "en": "Spiral Atom Ring",
+   "descEs": "Un pequeño anillo en espiral que alberga poder nuclear.",
+   "descEn": "A spiral ring charged by nuclear power."
+  },
+  "Spiral Blessing Ring": {
+   "es": "Anillo espiral bendición",
+   "en": "Spiral Blessing Ring",
+   "descEs": "Anillo en espiral potenciado por los cielos.",
+   "descEn": "A spiral ring powered by the heavens."
+  },
+  "Spiral Blizzard Ring": {
+   "es": "Anillo esp. ventisca",
+   "en": "Spiral Blizzard Ring",
+   "descEs": "Anillo en espiral que genera un poder helado.",
+   "descEn": "A spiral ring generating icy power."
+  },
+  "Spiral Breeze Ring": {
+   "es": "Anillo espiral de brisa",
+   "en": "Spiral Breeze Ring",
+   "descEs": "Anillo en espiral cargado con viento.",
+   "descEn": "A spiral ring charged by the wind."
+  },
+  "Spiral Cure Charm": {
+   "es": "Amuleto esp. sanación",
+   "en": "Spiral Cure Charm",
+   "descEs": "Amuleto en espiral potenc. con un poder curativo.",
+   "descEn": "A spiral charm powered by healing power."
+  },
+  "Spiral Curse Ring": {
+   "es": "Anillo espiral maldición",
+   "en": "Spiral Curse Ring",
+   "descEs": "Anillo en espiral que porta un maleficio.",
+   "descEn": "A spiral ring with a curse placed on it."
+  },
+  "Spiral Divine Ring": {
+   "es": "Anillo espiral divino",
+   "en": "Spiral Divine Ring",
+   "descEs": "Anillo en espiral que genera un poder celestial.",
+   "descEn": "A spiral ring generating heavenly power."
+  },
+  "Spiral Ember Ring": {
+   "es": "Anillo espiral de ascuas",
+   "en": "Spiral Ember Ring",
+   "descEs": "Anillo en espiral cargado con fuego.",
+   "descEn": "A spiral ring charged by fire."
+  },
+  "Spiral Energy Charm": {
+   "es": "Amuleto esp. energía",
+   "en": "Spiral Energy Charm",
+   "descEs": "Un amuleto en espiral que cura la fatiga mental de todos.",
+   "descEn": "A spiral charm that can heal mental fatigue for all."
+  },
+  "Spiral Frost Ring": {
+   "es": "Anillo espiral escarcha",
+   "en": "Spiral Frost Ring",
+   "descEs": "Anillo en espiral cargado con hielo.",
+   "descEn": "A spiral ring charged by ice."
+  },
+  "Spiral Gale Ring": {
+   "es": "Anillo espiral vendaval",
+   "en": "Spiral Gale Ring",
+   "descEs": "Anillo en espiral que genera un poder ventoso.",
+   "descEn": "A spiral ring generating wind power."
+  },
+  "Spiral Grudge Ring": {
+   "es": "Anillo espiral de rencor",
+   "en": "Spiral Grudge Ring",
+   "descEs": "Anillo en espiral con un aura siniestra.",
+   "descEn": "A spiral ring with an aura of ill will."
+  },
+  "Spiral Hallowed Ring": {
+   "es": "Anillo espiral bendito",
+   "en": "Spiral Hallowed Ring",
+   "descEs": "Anillo en espiral potenciado por los cielos.",
+   "descEn": "A spiral ring powered by the heavens."
+  },
+  "Spiral Heal Charm": {
+   "es": "Amuleto esp. curación",
+   "en": "Spiral Heal Charm",
+   "descEs": "Amuleto en espiral que genera un poder curativo.",
+   "descEn": "Spiral charm generating healing power."
+  },
+  "Spiral Hell Ring": {
+   "es": "Anillo espiral infernal",
+   "en": "Spiral Hell Ring",
+   "descEs": "Anillo en espiral imbuido con un poder infernal.",
+   "descEn": "A spiral ring with the great might of hell."
+  },
+  "Spiral Hex Ring": {
+   "es": "Anillo espiral maleficio",
+   "en": "Spiral Hex Ring",
+   "descEs": "Anillo en espiral que porta una maldición.",
+   "descEn": "A spiral ring with a hex placed on it."
+  },
+  "Spiral Inferno Ring": {
+   "es": "Anillo esp. infierno",
+   "en": "Spiral Inferno Ring",
+   "descEs": "Anillo en espiral que genera un poder fogoso.",
+   "descEn": "A spiral ring generating fiery power."
+  },
+  "Spiral Karma Ring": {
+   "es": "Anillo espiral de karma",
+   "en": "Spiral Karma Ring",
+   "descEs": "Un anillo en espiral que alberga un gran poder de psicoquinesis.",
+   "descEn": "A spiral ring powered by psychokinesis."
+  },
+  "Spiral Mystic Ring": {
+   "es": "Anillo espiral místico",
+   "en": "Spiral Mystic Ring",
+   "descEs": "Un anillo en espiral que alberga el poder de psicoquinesis más absoluto.",
+   "descEn": "A spiral ring generating psychokinesis."
+  },
+  "Spiral Nuclear Ring": {
+   "es": "Anillo espiral nuclear",
+   "en": "Spiral Nuclear Ring",
+   "descEs": "Un anillo en espiral que alberga un gran poder nuclear.",
+   "descEn": "A spiral ring powered by nuclear energy."
+  },
+  "Spiral Prayer Ring": {
+   "es": "Anillo esp. oración",
+   "en": "Spiral Prayer Ring",
+   "descEs": "Anillo en espiral cargado por los cielos.",
+   "descEn": "A spiral ring charged by the heavens."
+  },
+  "Spiral Psy Ring": {
+   "es": "Anillo esp. psicoq.",
+   "en": "Spiral Psy Ring",
+   "descEs": "Un pequeño anillo en espiral que alberga el poder de la psicoquinesis.",
+   "descEn": "A spiral ring charged by psychokinesis."
+  },
+  "Spiral Reactor Ring": {
+   "es": "Anillo espiral reactor",
+   "en": "Spiral Reactor Ring",
+   "descEs": "Un anillo en espiral que alberga el poder nuclear más absoluto.",
+   "descEn": "A spiral ring generating nuclear power."
+  },
+  "Spiral Snow Ring": {
+   "es": "Anillo espiral de nieve",
+   "en": "Spiral Snow Ring",
+   "descEs": "Anillo en espiral potenciado con hielo.",
+   "descEn": "A spiral ring powered by ice."
+  },
+  "Spiral Spark Ring": {
+   "es": "Anillo espiral de chispa",
+   "en": "Spiral Spark Ring",
+   "descEs": "Un anillo en espiral que alberga un gran poder de electricidad.",
+   "descEn": "A spiral ring powered by electricity."
+  },
+  "Spiral Static Ring": {
+   "es": "Anillo espiral estático",
+   "en": "Spiral Static Ring",
+   "descEs": "Un pequeño anillo en espiral que alberga el poder de la electricidad.",
+   "descEn": "A spiral ring charged by electricity."
+  },
+  "Spiral Thunder Ring": {
+   "es": "Anillo espiral de trueno",
+   "en": "Spiral Thunder Ring",
+   "descEs": "Un anillo en espiral que alberga el poder de electricidad más absoluto.",
+   "descEn": "A spiral ring generating electricity."
+  },
+  "Spiral Wind Ring": {
+   "es": "Anillo espiral de viento",
+   "en": "Spiral Wind Ring",
+   "descEs": "Anillo en espiral potenciado con viento.",
+   "descEn": "A spiral ring powered by the wind."
+  },
+  "Stagnant Air": {
+   "es": "Aire estancado",
+   "en": "Stagnant Air"
+  },
+  "Static Ring": {
+   "es": "Anillo estático",
+   "en": "Static Ring",
+   "descEs": "Un pequeño anillo que aloja el poder de la electricidad.",
+   "descEn": "A small ring charged by electricity."
+  },
+  "Stone of Scone": {
+   "es": "Piedra de Scone",
+   "en": "Stone of Scone",
+   "descEs": "Una gema mística que mejora el espíritu de quien la porta.",
+   "descEn": "A mystical gem that raises the wearer's spirits."
+  },
+  "Stone of Scone R": {
+   "es": "Piedra de Scone R",
+   "en": "Stone of Scone R",
+   "descEs": "Una gema regia que mejora el espíritu de quien la porta.",
+   "descEn": "A royal gem that raises the wearer's spirits."
+  },
+  "Storm Sculpture": {
+   "es": "Escultura de tormenta",
+   "en": "Storm Sculpture",
+   "descEs": "La escultura de un dios malvado que provoca una tormenta.",
+   "descEn": "An evil god's sculpture that causes a storm."
+  },
+  "Sudarshana": {
+   "es": "Sudarshana",
+   "en": "Sudarshana",
+   "descEs": "Tirachinas con un aura divina y suprema.",
+   "descEn": "A slingshot with a divine, supreme aura about it."
+  },
+  "Sudarshana EX": {
+   "es": "Sudarshana EX",
+   "en": "Sudarshana EX",
+   "descEs": "Versión mejorada del tirachinas Sudarshana.",
+   "descEn": "Upgraded version of the slingshot Sudarshana."
+  },
+  "Sukunda": {
+   "es": "Sukunda",
+   "en": "Sukunda"
+  },
+  "Super Lucky Robe": {
+   "es": "Túnica de supersuerte",
+   "en": "Super Lucky Robe",
+   "descEs": "Una túnica mística que da buena suerte.",
+   "descEn": "A mystical robe that imparts great luck."
+  },
+  "Swift Strike": {
+   "es": "Golpe veloz",
+   "en": "Swift Strike"
+  },
+  "Swift Strike Belt": {
+   "es": "Cinturón golpe veloz",
+   "en": "Swift Strike Belt",
+   "descEs": "Cinturón que te permite sacar todo tu potencial.",
+   "descEn": "A belt that allows you to use your full potential."
+  },
+  "Sword Dance": {
+   "es": "Baile de espadas",
+   "en": "Sword Dance"
+  },
+  "Sword Dance Belt": {
+   "es": "Cint. baile de espadas",
+   "en": "Sword Dance Belt",
+   "descEs": "Cinturón que permite una danza de espadas temible.",
+   "descEn": "A belt that allows a fearsome sword dance."
+  },
+  "Sword of Sinai": {
+   "es": "Espada divina del Sinaí",
+   "en": "Sword of Sinai",
+   "descEs": "Un sable angelical.",
+   "descEn": "An angelic rapier."
+  },
+  "Sword of Sinai II": {
+   "es": "Esp. divina Sinaí II",
+   "en": "Sword of Sinai II",
+   "descEs": "Un sable angelical y divino.",
+   "descEn": "A divine, angelic rapier."
+  },
+  "Tantric Oath": {
+   "es": "Juramento tántrico",
+   "en": "Tantric Oath",
+   "descEs": "Armadura que te protege de los deseos mundanos.",
+   "descEn": "Armor guarding you from worldly desires."
+  },
+  "Tantric Oath R": {
+   "es": "Juramento tántrico R",
+   "en": "Tantric Oath R",
+   "descEs": "Armadura real que desdeña los deseos mundanos.",
+   "descEn": "Royal armor that wards away worldly desires."
+  },
+  "Tapsuan": {
+   "es": "Tapsuan",
+   "en": "Tapsuan",
+   "descEs": "Armadura mágica para evadir el viento.",
+   "descEn": "Magic armor that evades the wind."
+  },
+  "Tarukaja": {
+   "es": "Tarukaja",
+   "en": "Tarukaja"
+  },
+  "Tarunda": {
+   "es": "Tarunda",
+   "en": "Tarunda"
+  },
+  "Tempest Slash": {
+   "es": "Corte tempestuoso",
+   "en": "Tempest Slash"
+  },
+  "Terror Claw": {
+   "es": "Garra terrorífica",
+   "en": "Terror Claw"
+  },
+  "Tetraja": {
+   "es": "Tetraja",
+   "en": "Tetraja"
+  },
+  "Tetrakarn": {
+   "es": "Tetrakarn",
+   "en": "Tetrakarn"
+  },
+  "Thunder Reign": {
+   "es": "Reino del trueno",
+   "en": "Thunder Reign"
+  },
+  "Thunder Ring": {
+   "es": "Anillo de trueno",
+   "en": "Thunder Ring",
+   "descEs": "Un anillo que alberga el poder de electricidad más absoluto.",
+   "descEn": "A ring generating electricity."
+  },
+  "Triple Down": {
+   "es": "Tiro triple",
+   "en": "Triple Down"
+  },
+  "Triple Shot Belt": {
+   "es": "Cinturón disparo triple",
+   "en": "Triple Shot Belt",
+   "descEs": "Un cinturón que tiene tres balas.",
+   "descEn": "A belt that has 3 bullets."
+  },
+  "Tyrant Pistol": {
+   "es": "Pistola de tirano",
+   "en": "Tyrant Pistol",
+   "descEs": "Réplica impregnada con el poder del rey demonio.",
+   "descEn": "Model gun imbued with the Demon King's power."
+  },
+  "Tyrant Pistol EX": {
+   "es": "Pistola de tirano EX",
+   "en": "Tyrant Pistol EX",
+   "descEs": "Versión mejorada de la réplica Pistola de tirano.",
+   "descEn": "Upgraded version of the model gun Tyrant Pistol."
+  },
+  "Unparalleled Vajra": {
+   "es": "Vajra inigualable",
+   "en": "Unparalleled Vajra",
+   "descEs": "En honor al arma de Indra, pero mejorada.",
+   "descEn": "Named after Indra's weapon, but improved."
+  },
+  "Usumidori": {
+   "es": "Usumidori",
+   "en": "Usumidori",
+   "descEs": "La famosa espada de la Novela de Genji.",
+   "descEn": "The renowned sword from the Tale of Genji."
+  },
+  "Usumidori R": {
+   "es": "Usumidori R",
+   "en": "Usumidori R",
+   "descEs": "La verdadera espada de la Novela de Genji.",
+   "descEn": "The true renowned sword from the Tale of Genji."
+  },
+  "Vajra": {
+   "es": "Vajra",
+   "en": "Vajra",
+   "descEs": "En honor al arma de Indra.",
+   "descEn": "Named after Indra's weapon."
+  },
+  "Vajra Blast": {
+   "es": "Estallido Vajra",
+   "en": "Vajra Blast"
+  },
+  "Vicious Strike": {
+   "es": "Golpe violento",
+   "en": "Vicious Strike"
+  },
+  "Vorpal Blade": {
+   "es": "Espada vorpal",
+   "en": "Vorpal Blade"
+  },
+  "Vorpal Blade Belt": {
+   "es": "Cinturón espada Vorpal",
+   "en": "Vorpal Blade Belt",
+   "descEs": "Cinturón que permite cortar y matar cualquier cosa.",
+   "descEn": "A belt that allows one to cut and kill anything."
+  },
+  "White Headband": {
+   "es": "Diadema blanca",
+   "en": "White Headband",
+   "descEs": "Una diadema llena de energía.",
+   "descEn": "A headband filled with energy."
+  },
+  "White Headband R": {
+   "es": "Diadema blanca R",
+   "en": "White Headband R",
+   "descEs": "Una diadema regia llena de más energía aún.",
+   "descEn": "A royal headband filled with even more energy."
+  },
+  "Wild Hunt": {
+   "es": "Cacería salvaje",
+   "en": "Wild Hunt",
+   "descEs": "Réplica nombrada en honor al mito del folclore europeo.",
+   "descEn": "Model gun named after the European folk myth."
+  },
+  "Wind Amp": {
+   "es": "Amplif. de viento",
+   "en": "Wind Amp"
+  },
+  "Wind Boost": {
+   "es": "Potenciac. de viento",
+   "en": "Wind Boost"
+  },
+  "Wind Ring": {
+   "es": "Anillo ventoso",
+   "en": "Wind Ring",
+   "descEs": "Anillo potenciado con viento.",
+   "descEn": "A ring powered by the wind."
+  },
+  "Yagrush": {
+   "es": "Yagrush",
+   "en": "Yagrush",
+   "descEs": "Réplica basada en un arma de estética infernal.",
+   "descEn": "Model gun based on one with a hellfire aesthetic."
+  },
+  "Yagrush EX": {
+   "es": "Yagrush EX",
+   "en": "Yagrush EX",
+   "descEs": "Versión mejorada de la réplica Yagrush.",
+   "descEn": "Upgraded version of the model gun Yagrush."
+  },
+  "Zio": {
+   "es": "Zio",
+   "en": "Zio"
+  },
+  "Ziodyne": {
+   "es": "Ziodyne",
+   "en": "Ziodyne"
+  },
+  "Zionga": {
+   "es": "Zionga",
+   "en": "Zionga"
+  }
+ }
+}

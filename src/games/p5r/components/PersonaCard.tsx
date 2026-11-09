@@ -3,6 +3,7 @@ import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import type { Persona } from '../types';
 import { getArcana } from '../data/arcana';
 import styles from './PersonaCard.module.css';
+import { personaName } from '../services/gameText';
 
 export function PersonaCard({ persona }: { persona: Persona }) {
   const arcana = getArcana(persona.arcana);
@@ -23,7 +24,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
         badge={badge}
       />
       <div className={styles.body}>
-        <span className={styles.name}>{persona.name}</span>
+        <span className={styles.name}>{personaName(persona)}</span>
         <div className={styles.meta}>
           <span className={styles.arcana}>{arcana.name}</span>
           <span className={styles.level}>

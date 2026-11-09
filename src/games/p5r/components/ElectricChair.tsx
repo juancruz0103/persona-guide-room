@@ -3,6 +3,7 @@ import { MATERIAL, getItem, itemDescription, itemTypeLabel } from '../services/i
 import type { Persona } from '../types';
 import { ItemIcon } from './ItemIcon';
 import styles from './ElectricChair.module.css';
+import { itemName, itemNameEn, personaName } from '../services/gameText';
 
 function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
   const tipId = useId();
@@ -13,12 +14,12 @@ function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
 
   return (
     <div className={`${styles.card} ${alarm ? styles.alarm : styles.normal}`}>
-      <span className={styles.tipWrap} tabIndex={0} aria-label={`${name}: ver descripción`} aria-describedby={tipId}>
+      <span className={styles.tipWrap} tabIndex={0} aria-label={`${itemName(name)}: ver descripción`} aria-describedby={tipId}>
         <span className={styles.icon}>
           <ItemIcon item={item} />
         </span>
         <span role="tooltip" id={tipId} className={styles.tip}>
-          <span className={styles.tipTitle}>{name}</span>
+          <span className={styles.tipTitle}>{itemName(name)}</span>
           <span className={styles.tipType}>{typeLabel}</span>
           {lines.map((l, i) => (
             <span key={i} className={styles.tipText}>
@@ -47,7 +48,9 @@ function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
             'Normal'
           )}
         </span>
-        <span className={styles.name}>{name}</span>
+        <span className={styles.name} title={`En inglés: ${itemNameEn(name)}`}>
+          {itemName(name)}
+        </span>
         <span className={styles.meta}>
           {typeLabel}
           {material && ` · Material: ${material}`}
@@ -65,7 +68,7 @@ export function ElectricChair({ persona: p }: { persona: Persona }) {
   return (
     <div className={styles.wrap}>
       <p className={styles.help}>
-        Item que obtenés al ejecutar a {p.name} en el Velvet Room. Con la Alarma de fusión activa (menú en rojo) sale
+        Item que obtenés al ejecutar a {personaName(p)} en el Velvet Room. Con la Alarma de fusión activa (menú en rojo) sale
         una versión mejor. Pasá el mouse por el ícono para ver qué hace.
       </p>
       <ItemCard name={p.itemization} alarm={false} />

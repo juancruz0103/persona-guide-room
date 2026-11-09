@@ -11,6 +11,7 @@ import { ELEMENTS } from '../data/elements';
 import { getPersona } from '../services/personas';
 import type { Persona } from '../types';
 import styles from './PersonaProfile.module.css';
+import { personaName, personaNameEn, skillName } from '../services/gameText';
 
 const STAT_LABELS: [keyof NonNullable<Persona['stats']>, string][] = [
   ['st', 'FU'], ['ma', 'MA'], ['en', 'RE'], ['ag', 'AG'], ['lu', 'SU'],
@@ -59,7 +60,7 @@ function FusionBox({ persona: p }: { persona: Persona }) {
         <ul className={styles.recipeList}>
           {special.map((s) => (
             <li key={s.id}>
-              <Link to={`/p5r/calculadora/persona/${s.id}`}>{s.name}</Link>
+              <Link to={`/p5r/calculadora/persona/${s.id}`}>{personaName(s)}</Link>
               <small>{getArcana(s.arcana).name} · Nv {s.level}</small>
             </li>
           ))}
@@ -83,9 +84,9 @@ function FusionBox({ persona: p }: { persona: Persona }) {
           <ul className={styles.recipeList}>
             {recipes.slice(0, 5).map((r) => (
               <li key={`${r.a.id}-${r.b.id}`}>
-                <Link to={`/p5r/calculadora/persona/${r.a.id}`}>{r.a.name}</Link>
+                <Link to={`/p5r/calculadora/persona/${r.a.id}`}>{personaName(r.a)}</Link>
                 {' + '}
-                <Link to={`/p5r/calculadora/persona/${r.b.id}`}>{r.b.name}</Link>
+                <Link to={`/p5r/calculadora/persona/${r.b.id}`}>{personaName(r.b)}</Link>
                 <small>Nv {r.a.level} + {r.b.level}</small>
               </li>
             ))}
@@ -133,7 +134,8 @@ export default function PersonaProfile() {
             <span className={styles.arcanaTag}>
               {arcana.name} · Arcana {arcana.numeral}
             </span>
-            <h1 className={styles.name}>{p.name}</h1>
+            <h1 className={styles.name}>{personaName(p)}</h1>
+            {personaNameEn(p) !== personaName(p) && <span className={styles.nameEn}>En inglés: {personaNameEn(p)}</span>}
             <div className={styles.flags}>
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}
               {p.flags.special && <span className="tag tag--special">Fusión especial</span>}
@@ -152,7 +154,7 @@ export default function PersonaProfile() {
             </div>
             <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-primary)' }}>
               <dt className="label">Rasgo</dt>
-              <dd>{p.trait ?? '—'}</dd>
+              <dd>{p.trait ? skillName(p.trait) : '—'}</dd>
             </div>
           </dl>
 

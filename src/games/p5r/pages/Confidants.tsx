@@ -15,7 +15,8 @@ export default function Confidants() {
     return CONFIDANTS.filter(
       (c) =>
         (!onlyRomance || c.romance) &&
-        (!query || c.name.toLowerCase().includes(query) || getArcana(c.arcana).name.toLowerCase().includes(query)),
+        (!query || c.name.toLowerCase().includes(query) || getArcana(c.arcana).name.toLowerCase().includes(query) ||
+          getArcana(c.arcana).nameEn.toLowerCase().includes(query)),
     );
   }, [q, onlyRomance]);
 

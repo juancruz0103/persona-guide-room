@@ -2,6 +2,7 @@ import itemsJson from '../data/generated/items.json';
 import type { ItemInfo, ItemOwner, ItemType, Persona, SkillElement, SkillInfo } from '../types';
 import { getAllPersonas, getAllSkills, getSkill } from './personas';
 import { describeCost, skillMeta } from './skillText';
+import { itemDescriptionText, skillName, normalize, personaName, personaNameEn, skillMatches, bySkillName } from './gameText';
 
 const ITEMS = itemsJson as unknown as Record<string, ItemInfo>;
 
@@ -49,20 +50,23 @@ export interface ItemLine {
 
 /** Líneas cortas para el recuadro que aparece al pasar el mouse. */
 export function itemDescription(it: ItemInfo): { lines: ItemLine[]; note?: string } {
+  const official = itemDescriptionText(it.name);
   if (it.type === 'skillcard' || it.type === 'accessory') {
     const skill = it.skill ? getSkill(it.skill) : undefined;
     const verb = it.type === 'skillcard' ? 'Enseña' : 'Permite usar';
     const meta = skill ? skillMeta(skill) : '';
+    const name = it.skill ? skillName(it.skill) : '';
     return {
       lines: [
+        ...(official && it.type === 'accessory' ? [{ text: official }] : []),
         {
-          text: `${verb} ${it.skill}${meta ? ` (${meta})` : ''}${it.type === 'accessory' ? ' a quien lo equipe' : ' a una Persona'}.`,
+          text: `${verb} ${name}${meta ? ` (${meta})` : ''}${it.type === 'accessory' ? ' a quien lo equipe' : ' a una Persona'}.`,
           cost: skill ? describeCost(skill) : undefined,
         },
       ],
     };
   }
-  const lines: ItemLine[] = [];
+  const lines: ItemLine[] = official ? [{ text: official }] : [];
   const s = it.stats ?? {};
   const nums = [
     s.attack !== undefined && `Ataque ${s.attack}`,
@@ -78,7 +82,7 @@ export function itemDescription(it: ItemInfo): { lines: ItemLine[]; note?: strin
   if (it.type === 'unknown') note = 'Item de Royal: falta confirmar tipo y estadísticas.';
   else if (it.variantOf) note = `Versión mejorada de ${it.variantOf}: faltan sus estadísticas.`;
   else if (it.p5Stats) note = 'Estadísticas de P5 original: pueden variar en Royal.';
-  if (!lines.length && !note) note = 'Sin datos todavía.';
+  if (lines.length <= (official ? 1 : 0) && !note) note = 'Sin datos todavía.';
   return { lines, note };
 }
 
@@ -138,19 +142,19 @@ export function getSkillCardRows(): SkillCardRow[] {
       skill,
       exclusive: !!skill.unique,
       cards: skillCardSources(skill.name),
-      learners: (learners.get(skill.name) ?? []).slice().sort((a, b) => a.level - b.level || a.name.localeCompare(b.name)),
+      learners: (learners.get(skill.name) ?? []).slice().sort((a, b) => a.level - b.level || personaName(a).localeCompare(personaName(b), 'es')),
     }))
-    .sort((a, b) => a.skill.name.localeCompare(b.skill.name));
+    .sort((a, b) => bySkillName(a.skill.name, b.skill.name));
   return rows;
 }
 
-const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 export function filterSkillCardRows(
   list: SkillCardRow[],
   f: { query: string; type: SkillCardFilter; element: SkillElement | null },
 ): SkillCardRow[] {
-  const q = norm(f.query.trim());
+  const q = normalize(f.query.trim());
+  const pm = (p: Persona) => normalize(personaName(p)).includes(q) || normalize(personaNameEn(p)).includes(q);
   return list.filter((r) => {
     if (f.element && r.skill.element !== f.element) return false;
     if (f.type === 'card' && !r.cards.length) return false;
@@ -158,9 +162,9 @@ export function filterSkillCardRows(
     if (f.type === 'excl' && !r.exclusive) return false;
     if (!q) return true;
     return (
-      norm(r.skill.name).includes(q) ||
-      r.cards.some((c) => norm(c.persona.name).includes(q)) ||
-      r.learners.some((p) => norm(p.name).includes(q))
+      skillMatches(r.skill.name, f.query) ||
+      r.cards.some((c) => pm(c.persona)) ||
+      r.learners.some(pm)
     );
   });
 }

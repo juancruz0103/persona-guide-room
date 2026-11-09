@@ -4,6 +4,7 @@ import { ELEMENTS } from '../data/elements';
 import { ailmentText, describeCost, techText } from '../services/skillText';
 import type { SkillInfo } from '../types';
 import styles from './SkillTip.module.css';
+import { skillDescription, skillName } from '../services/gameText';
 
 /**
  * Ícono del elemento de una skill. Al pasar el mouse (o tocarlo) muestra
@@ -20,6 +21,7 @@ export function SkillTip({ skill, size = 28 }: { skill: SkillInfo | undefined; s
     );
   }
   const cost = describeCost(skill);
+  const desc = skillDescription(skill.name);
 
   return (
     <span className={styles.wrap}>
@@ -27,8 +29,12 @@ export function SkillTip({ skill, size = 28 }: { skill: SkillInfo | undefined; s
         <ElementIcon element={el.id} size={size} />
       </button>
       <span role="tooltip" id={tipId} className={styles.tip} style={{ borderLeftColor: el.color }}>
-        <span className={styles.title}>{el.name}</span>
-        <span className={styles.text}>{el.description}</span>
+        <span className={styles.title}>{skillName(skill.name)}</span>
+        {desc && <span className={styles.text}>{desc}</span>}
+        <span className={styles.element} style={{ color: el.color }}>
+          {el.name}
+        </span>
+        <span className={styles.textDim}>{el.description}</span>
         {cost && (
           <span className={styles.text}>
             <strong>Costo:</strong> <strong className={cost.kind === 'hp' ? 'cost-hp-dark' : 'cost-sp-dark'}>{cost.text}</strong>

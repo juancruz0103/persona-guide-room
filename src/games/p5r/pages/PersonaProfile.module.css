@@ -54,6 +54,14 @@
   text-transform: uppercase;
 }
 
+.nameEn {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  color: var(--c-text-dim);
+}
+
 .flags {
   display: flex;
   gap: 8px;

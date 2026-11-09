@@ -8,6 +8,7 @@ import { getArcana } from '../data/arcana';
 import { KIND_LABEL, getFusionEngine } from '../services/fusion';
 import type { Persona } from '../types';
 import styles from './Fusion.module.css';
+import { personaName } from '../services/gameText';
 
 const PAGE = 40;
 
@@ -65,7 +66,7 @@ export default function Fusion() {
         className={styles.select} placeholder="Elegí una Persona" />
       {p ? (
         <Link to={`/p5r/calculadora/persona/${p.id}`} className={styles.slotLink}>
-          <ImagePlaceholder className={styles.slotImage} label={p.name} hint={personaLabel(p)}
+          <ImagePlaceholder className={styles.slotImage} label={personaName(p)} hint={personaLabel(p)}
             corner={getArcana(p.arcana).numeral} />
         </Link>
       ) : (
@@ -104,7 +105,7 @@ export default function Fusion() {
                     corner={getArcana(result.result.arcana).numeral} />
                   <span className={styles.resultBody}>
                     <span className={styles.kind}>{KIND_LABEL[result.kind]}</span>
-                    <span className={styles.resultName}>{result.result.name}</span>
+                    <span className={styles.resultName}>{personaName(result.result)}</span>
                     <span className={styles.resultMeta}>{personaLabel(result.result)}</span>
                     {result.unverified && (
                       <span className={styles.warn}>⚠ Regla no verificada para este caso.</span>
@@ -142,12 +143,12 @@ export default function Fusion() {
             <div className={styles.special}>
               <span className="tag tag--special">Fusión especial</span>
               <p>
-                <strong>{targetP.name}</strong> no sale por fusión normal. Se obtiene fusionando a la vez:
+                <strong>{personaName(targetP)}</strong> no sale por fusión normal. Se obtiene fusionando a la vez:
               </p>
               <ul>
                 {special.map((p) => (
                   <li key={p.id}>
-                    <Link to={`/p5r/calculadora/persona/${p.id}`}>{p.name}</Link>{' '}
+                    <Link to={`/p5r/calculadora/persona/${p.id}`}>{personaName(p)}</Link>{' '}
                     <span>{personaLabel(p)}</span>
                   </li>
                 ))}
@@ -162,8 +163,8 @@ export default function Fusion() {
             <>
               <p className={styles.count}>
                 {recipes.length
-                  ? <><strong>{recipes.length}</strong> combinaciones dan {targetP.name}. Primero las normales, después las que usan Treasure Demons; cada grupo de menor a mayor nivel.</>
-                  : <>Ninguna combinación de 2 Personas da {targetP.name} con las opciones actuales.</>}
+                  ? <><strong>{recipes.length}</strong> combinaciones dan {personaName(targetP)}. Primero las normales, después las que usan Treasure Demons; cada grupo de menor a mayor nivel.</>
+                  : <>Ninguna combinación de 2 Personas da {personaName(targetP)} con las opciones actuales.</>}
               </p>
               {recipes.length > 0 && (
                 <div className={styles.tableWrap}>
@@ -179,8 +180,8 @@ export default function Fusion() {
                     <tbody>
                       {recipes.slice(0, shown).map((r) => (
                         <tr key={`${r.a.id}-${r.b.id}`}>
-                          <td><Link to={`/p5r/calculadora/persona/${r.a.id}`}>{r.a.name}</Link> <small>{getArcana(r.a.arcana).name}</small></td>
-                          <td><Link to={`/p5r/calculadora/persona/${r.b.id}`}>{r.b.name}</Link> <small>{getArcana(r.b.arcana).name}</small></td>
+                          <td><Link to={`/p5r/calculadora/persona/${r.a.id}`}>{personaName(r.a)}</Link> <small>{getArcana(r.a.arcana).name}</small></td>
+                          <td><Link to={`/p5r/calculadora/persona/${r.b.id}`}>{personaName(r.b)}</Link> <small>{getArcana(r.b.arcana).name}</small></td>
                           <td>{r.a.level} + {r.b.level}</td>
                           <td>{KIND_LABEL[r.kind]}{r.unverified ? ' ⚠' : ''}</td>
                         </tr>

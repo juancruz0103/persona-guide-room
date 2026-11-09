@@ -1,5 +1,6 @@
 import { ARCANAS } from '../data/arcana';
 import type { Persona } from '../types';
+import { personaName } from '../services/gameText';
 
 interface Props {
   id: string;
@@ -22,7 +23,7 @@ export function PersonaSelect({ id, value, options, onChange, className, placeho
           <optgroup key={a.id} label={a.name}>
             {group.map((p) => (
               <option key={p.id} value={p.id}>
-                {p.name} · Nv {p.level}
+                {personaName(p)} · Nv {p.level}
                 {p.flags.dlc ? ' · DLC' : ''}
                 {p.flags.treasure ? ' · Tesoro' : ''}
               </option>

@@ -71,3 +71,17 @@
     transform: none;
   }
 }
+
+.element {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  filter: brightness(0.6) saturate(1.4);
+}
+.textDim {
+  font-size: 13px;
+  line-height: 1.4;
+  color: #5a5a54;
+}

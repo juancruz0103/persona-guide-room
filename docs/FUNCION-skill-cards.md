@@ -39,9 +39,10 @@ Que `itemr` es el item con Alarma de fusión está confirmado por RPG Site.
 - **Versiones de Royal** (nombres con R, EX o II): se sabe el tipo, faltan los números.
 - **42 items nuevos de Royal** sin tipo ni estadísticas: se muestran con un ícono de pregunta.
 - Todo lo pendiente está en [`REVISAR-items.md`](REVISAR-items.md) para comprobarlo en el juego.
-- **Nombres de skills e items** siguen en inglés hasta tener los oficiales de la versión en
-  español (texto del juego en `ES.CPK`). Las descripciones de efectos ya están en español
-  (traducción propia).
+- **Nombres y descripciones** son los oficiales del juego (ver
+  [`TEXTOS-DEL-JUEGO.md`](TEXTOS-DEL-JUEGO.md)). Los efectos de armas y armaduras que vienen de
+  quan/persona5-items siguen con redacción propia.
+- **Emperor's Amulet** (accesorio) no aparece con ese nombre en la tabla del juego: queda en inglés.
 
 ## Cómo regenerar los datos
 
