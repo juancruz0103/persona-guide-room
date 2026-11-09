@@ -186,6 +186,81 @@ for (const [name, d] of Object.entries(demons)) {
 
 personas.sort((a, b) => a.name.localeCompare(b.name));
 
+/* ---------- Personas de los compañeros (no se fusionan) ---------- */
+// roy-party-data trae la Persona inicial de cada compañero. Las otras formas se
+// arman a partir de ella, según los códigos de nivel de skill de la fuente:
+//   "C1".."C9" = se aprende en ese rango de confidente
+//   "Cx"       = rango 10: evoluciona (gana esa skill y cambia afinidades: "sesists")
+//   "Cy"       = tercer semestre: gana esa skill y un rasgo nuevo
+// Akechi es distinto: Loki viene como entrada propia y Hereward sale de Loki.
+const partyData = read('roy-party-data.json');
+const CHAINS = [
+  ['ryuji', 'Captain Kidd', 'Seiten Taisei', 'William'],
+  ['ann', 'Carmen', 'Hecate', 'Celestine'],
+  ['morgana', 'Zorro', 'Mercurius', 'Diego'],
+  ['yusuke', 'Goemon', 'Kamu Susano-o', 'Gorokichi'],
+  ['makoto', 'Johanna', 'Anat', 'Agnes'],
+  ['futaba', 'Necronomicon', 'Prometheus', 'Al Azif'],
+  ['haru', 'Milady', 'Astarte', 'Lucy'],
+  ['akechi', 'Robin Hood', 'Loki', 'Hereward'],
+  ['kasumi', 'Cendrillon', 'Vanadis', 'Ella'],
+];
+const levelCode = (raw) => (raw >= 120 ? String.fromCharCode(Math.floor(raw / 100) + 32) + String.fromCharCode((raw % 100) + 32) : null);
+const resistsOf = (code) => Object.fromEntries(RESIST_ELEMS.map((e, i) => [e, RESIST_CODE[code[i]] ?? 'neutral']));
+
+function partySkills(d, stage) {
+  const out = [];
+  let trait = d.trait ?? null;
+  for (const [skill, raw] of Object.entries(d.skills)) {
+    const code = levelCode(raw);
+    if (!code) { out.push({ skill, level: raw < 1 ? null : raw, raw }); continue; }
+    const rank = code[0] === 'C' && /[1-9]/.test(code[1]) ? Number(code[1]) : null;
+    if (rank) { out.push({ skill, level: null, note: `Rango ${rank}`, raw: 200 + rank }); continue; }
+    if (code === 'Cx' && stage !== 'initial') { out.push({ skill, level: null, note: 'Al evolucionar', raw: 300 }); continue; }
+    if (code === 'Cy' && stage === 'third') {
+      if (skillRows[skill]?.a[1] === 'tra') { trait = skill; continue; }
+      out.push({ skill, level: null, note: 'Tercer semestre', raw: 400 });
+      continue;
+    }
+    if (code !== 'Cx' && code !== 'Cy') warnings.push(`${d.race}: código de skill desconocido ${code} (${skill})`);
+  }
+  out.sort((a, b) => a.raw - b.raw);
+  for (const s of out) { usedSkills.add(s.skill); delete s.raw; }
+  if (trait) usedSkills.add(trait);
+  return { skills: out, trait };
+}
+
+const party = [];
+for (const [owner, ...names] of CHAINS) {
+  names.forEach((name, i) => {
+    const stage = ['initial', 'evolved', 'third'][i];
+    // Datos de origen: la inicial; en Akechi, Loki para Loki y Hereward
+    const srcName = owner === 'akechi' && i > 0 ? 'Loki' : names[0];
+    const d = partyData[srcName];
+    if (!d) { warnings.push(`Compañero sin datos: ${srcName}`); return; }
+    const effStage = owner === 'akechi' && i === 1 ? 'initial' : stage; // Loki ya es su propia forma
+    const { skills: sk, trait } = partySkills(d, effStage);
+    party.push({
+      id: slug(name),
+      name,
+      arcana: d.race.replace(/ P$/, '').toLowerCase(),
+      level: d.lvl,
+      flags: { dlc: false, treasure: false, special: false, picaro: false },
+      specialRecipe: null,
+      unlock: null,
+      resistances: resistsOf(stage === 'initial' || owner === 'akechi' ? d.resists : d.sesists ?? d.resists),
+      stats: { st: d.stats[0], ma: d.stats[1], en: d.stats[2], ag: d.stats[3], lu: d.stats[4] },
+      skills: sk,
+      inheritance: INHERIT[d.inherits] ?? null,
+      trait,
+      itemization: null,
+      itemizationAlt: null,
+      image: null,
+      party: { owner, stage, baseId: slug(names[0]) },
+    });
+  });
+}
+
 // Las skill cards de la silla eléctrica también cuentan como skills a mostrar.
 for (const p of personas) {
   for (const it of [p.itemization, p.itemizationAlt]) if (it && skillRows[it]) usedSkills.add(it);
@@ -234,6 +309,7 @@ mkdirSync(outDir, { recursive: true });
 const write = (file, data) => writeFileSync(join(outDir, file), JSON.stringify(data, null, 1) + '\n');
 
 write('personas.json', personas);
+write('party.json', party);
 write('accessories.json', read('roy-accessories.json'));
 write('skills.json', skills);
 write('fusion.json', { arcanaOrder: races, chart, treasureChart, specialRecipes: specials });

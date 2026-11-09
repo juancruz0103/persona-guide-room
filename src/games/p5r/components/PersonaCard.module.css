@@ -72,3 +72,9 @@
   font-weight: 400;
   font-size: 22px;
 }
+
+.owner {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 16px;
+}

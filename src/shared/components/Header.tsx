@@ -3,6 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom';
 import type { GameInfo } from '../../core/types';
 import { es } from '../../i18n/es';
 import { GameMenu } from './GameMenu';
+import { LanguageButton } from './LanguageButton';
 import styles from './Header.module.css';
 
 interface Props {
@@ -73,7 +74,10 @@ export function Header({ game }: Props) {
           ))}
         </nav>
 
-        <span className={styles.gameBadge}>{game.shortName}</span>
+        <div className={styles.tools}>
+          <LanguageButton />
+          <span className={styles.gameBadge}>{game.shortName}</span>
+        </div>
       </div>
 
       {open && <GameMenu id={MENU_ID} current={game.id} onClose={() => setOpen(false)} />}

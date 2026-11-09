@@ -1,0 +1,38 @@
+.cover {
+  width: 100%;
+  min-height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px;
+  border: 0;
+  border-bottom: 4px solid var(--c-primary);
+  background-color: var(--c-ink);
+  background-image: repeating-linear-gradient(-45deg, #141414 0 14px, var(--c-ink) 14px 28px);
+  color: var(--c-primary-light);
+  cursor: pointer;
+}
+.cover:hover {
+  color: var(--c-accent);
+}
+.cover:focus-visible {
+  outline: 3px solid var(--c-accent);
+  outline-offset: -3px;
+}
+.title {
+  font-family: var(--f-display);
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--c-text);
+}
+.hint {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--c-text-muted);
+}

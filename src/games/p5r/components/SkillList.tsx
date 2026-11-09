@@ -7,12 +7,12 @@ import { skillName, skillNameEn } from '../services/gameText';
 
 function SkillRow({ entry }: { entry: PersonaSkill }) {
   const info = getSkill(entry.skill);
-  const initial = entry.level === null;
+  const initial = entry.level === null && !entry.note;
   const cost = info ? describeCost(info) : undefined;
 
   return (
     <li className={`${styles.row} ${initial ? styles.initial : styles.learned}`}>
-      <span className={styles.when}>{initial ? 'Inicial' : `Nv ${entry.level}`}</span>
+      <span className={styles.when}>{entry.note ?? (initial ? 'Inicial' : `Nv ${entry.level}`)}</span>
       <SkillTip skill={info} />
       <span className={styles.name} title={`En inglés: ${skillNameEn(entry.skill)}`}>
         {skillName(entry.skill)}

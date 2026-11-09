@@ -31,7 +31,8 @@
 }
 
 .when {
-  width: 70px;
+  width: 92px;
+  line-height: 1.1;
   flex: none;
   font-family: var(--f-label);
   font-weight: 800;

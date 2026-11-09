@@ -6,7 +6,7 @@ import type { ArcanaId } from '../types';
 import {
   DEFAULT_FILTERS,
   filterPersonas,
-  getAllPersonas,
+  getCatalogPersonas,
   type CatalogFilters,
   type SortKey,
 } from '../services/personas';
@@ -14,7 +14,8 @@ import styles from './Catalog.module.css';
 
 export default function Catalog() {
   const [f, setF] = useState<CatalogFilters>(DEFAULT_FILTERS);
-  const all = getAllPersonas();
+  const all = getCatalogPersonas();
+  const [spoilerFilters, setSpoilerFilters] = useState(false);
   const list = useMemo(() => filterPersonas(all, f), [all, f]);
 
   const set = <K extends keyof CatalogFilters>(key: K, value: CatalogFilters[K]) =>
@@ -36,7 +37,7 @@ export default function Catalog() {
             <input
               id="q"
               type="search"
-              placeholder="Ej: Alice"
+              placeholder="Ej: Alice o Capitán Kidd"
               value={f.query}
               onChange={(e) => set('query', e.target.value)}
               className={styles.input}
@@ -90,6 +91,43 @@ export default function Catalog() {
               <input type="checkbox" checked={f.includeTreasure} onChange={(e) => set('includeTreasure', e.target.checked)} />
               Incluir Treasure Demons
             </label>
+          </fieldset>
+
+          <fieldset className={`${styles.group} ${styles.options}`}>
+            <legend className="label label-accent">Personas de compañeros</legend>
+            <p className={styles.note}>Las Personas de los Ladrones Fantasma. Tienen ficha pero no se fusionan.</p>
+            <label className={styles.check}>
+              <input type="checkbox" checked={f.partyInitial} onChange={(e) => set('partyInitial', e.target.checked)} />
+              Iniciales
+            </label>
+            {spoilerFilters ? (
+              <>
+                <label className={styles.check}>
+                  <input type="checkbox" checked={f.partyEvolved} onChange={(e) => set('partyEvolved', e.target.checked)} />
+                  Evolucionadas
+                </label>
+                <label className={styles.check}>
+                  <input type="checkbox" checked={f.partyThird} onChange={(e) => set('partyThird', e.target.checked)} />
+                  Tercer semestre
+                </label>
+              </>
+            ) : (
+              <button
+                type="button"
+                className={styles.spoilerBtn}
+                onClick={() => {
+                  setSpoilerFilters(true);
+                  setF((prev) => ({ ...prev, partyEvolved: true, partyThird: true }));
+                }}
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M3 3l18 18" />
+                  <path d="M10.6 6.1A9.8 9.8 0 0 1 12 6c5 0 9 6 9 6a16 16 0 0 1-2.6 3.2" />
+                  <path d="M6.5 7.6C4.3 9.2 3 12 3 12s4 6 9 6a8.7 8.7 0 0 0 4-1" />
+                </svg>
+                Más filtros · contiene spoilers
+              </button>
+            )}
           </fieldset>
         </aside>
 

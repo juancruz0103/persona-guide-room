@@ -151,6 +151,10 @@ h3 {
   background: var(--c-primary);
   color: var(--c-text);
 }
+.tag--party {
+  background: var(--c-ink);
+  color: var(--c-text);
+}
 .tag--royal {
   background: var(--c-royal);
   color: var(--c-ink);

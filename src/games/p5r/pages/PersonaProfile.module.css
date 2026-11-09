@@ -222,3 +222,28 @@
     min-height: 320px;
   }
 }
+
+.partyNote {
+  margin: 4px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+
+.origin {
+  margin-top: 44px;
+}
+.originCard {
+  background: var(--c-surface);
+  border-top: 4px solid var(--c-accent);
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.originCard p {
+  margin: 0;
+  max-width: 720px;
+  font-size: 18px;
+  line-height: 1.6;
+}

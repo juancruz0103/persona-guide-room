@@ -35,6 +35,15 @@
   "power": 210,
   "unique": true
  },
+ "Active Support": {
+  "name": "Active Support",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Adverse Resolve": {
   "name": "Adverse Resolve",
   "element": "pas",
@@ -172,6 +181,15 @@
   },
   "power": null,
   "unique": false
+ },
+ "Analysis": {
+  "name": "Analysis",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Angelic Grace": {
   "name": "Angelic Grace",
@@ -446,6 +464,18 @@
   "power": 600,
   "unique": false
  },
+ "Brave Step": {
+  "name": "Brave Step",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": null,
+  "unique": true
+ },
  "Bufu": {
   "name": "Bufu",
   "element": "ice",
@@ -515,6 +545,18 @@
   "power": null,
   "unique": false
  },
+ "Checkmate": {
+  "name": "Checkmate",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 90
+  },
+  "power": null,
+  "unique": true
+ },
  "Cleave": {
   "name": "Cleave",
   "element": "phy",
@@ -556,6 +598,15 @@
   "cost": null,
   "power": null,
   "unique": false
+ },
+ "Cool Customer": {
+  "name": "Cool Customer",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Cornered Fang": {
   "name": "Cornered Fang",
@@ -1076,6 +1127,15 @@
   "power": 70,
   "unique": false
  },
+ "Eccentric Temper": {
+  "name": "Eccentric Temper",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Eiga": {
   "name": "Eiga",
   "element": "cur",
@@ -1162,6 +1222,15 @@
   "cost": null,
   "power": null,
   "unique": false
+ },
+ "Emergency Shift": {
+  "name": "Emergency Shift",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Endure": {
   "name": "Endure",
@@ -1310,6 +1379,15 @@
   "power": null,
   "unique": false
  },
+ "Explosive Scheme": {
+  "name": "Explosive Scheme",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Fast Heal": {
   "name": "Fast Heal",
   "element": "pas",
@@ -1327,6 +1405,27 @@
   "cost": null,
   "power": null,
   "unique": false
+ },
+ "Fighting Spirit": {
+  "name": "Fighting Spirit",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 80
+  },
+  "power": null,
+  "unique": true
+ },
+ "Final Guard": {
+  "name": "Final Guard",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Fire Amp": {
   "name": "Fire Amp",
@@ -1492,6 +1591,24 @@
   "cost": null,
   "power": null,
   "unique": false
+ },
+ "Gaia Blessing": {
+  "name": "Gaia Blessing",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Gaia Pact": {
+  "name": "Gaia Pact",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Garu": {
   "name": "Garu",
@@ -1751,6 +1868,18 @@
   "power": null,
   "unique": false
  },
+ "High Energy": {
+  "name": "High Energy",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 80
+  },
+  "power": null,
+  "unique": true
+ },
  "Holy Benevolence": {
   "name": "Holy Benevolence",
   "element": "rec",
@@ -1778,6 +1907,18 @@
   "target": null,
   "ailment": null,
   "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Hyakka Ryouran": {
+  "name": "Hyakka Ryouran",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 90
+  },
   "power": null,
   "unique": true
  },
@@ -1847,6 +1988,15 @@
   "power": null,
   "unique": false
  },
+ "Icy Glare": {
+  "name": "Icy Glare",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Immunity": {
   "name": "Immunity",
   "element": "tra",
@@ -1867,6 +2017,24 @@
   },
   "power": 200,
   "unique": false
+ },
+ "Infinite Scheme": {
+  "name": "Infinite Scheme",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Ingenious Spirit": {
+  "name": "Ingenious Spirit",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Insta-Heal": {
   "name": "Insta-Heal",
@@ -1970,6 +2138,18 @@
   "power": 50,
   "unique": false
  },
+ "Laevateinn": {
+  "name": "Laevateinn",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 800,
+  "unique": true
+ },
  "Last Stand": {
   "name": "Last Stand",
   "element": "pas",
@@ -1999,6 +2179,18 @@
   },
   "power": null,
   "unique": false
+ },
+ "Life Wall": {
+  "name": "Life Wall",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 95
+  },
+  "power": null,
+  "unique": true
  },
  "Lucky Punch": {
   "name": "Lucky Punch",
@@ -2228,6 +2420,15 @@
   "power": null,
   "unique": false
  },
+ "Majestic Presence": {
+  "name": "Majestic Presence",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Makajam": {
   "name": "Makajam",
   "element": "ail",
@@ -2444,6 +2645,27 @@
   "power": null,
   "unique": false
  },
+ "Masquerade": {
+  "name": "Masquerade",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 300,
+  "unique": true
+ },
+ "Mastery of Magic": {
+  "name": "Mastery of Magic",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Masukukaja": {
   "name": "Masukukaja",
   "element": "sup",
@@ -2624,6 +2846,15 @@
   "power": 210,
   "unique": false
  },
+ "Mementos Scan": {
+  "name": "Mementos Scan",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Memory Blow": {
   "name": "Memory Blow",
   "element": "phy",
@@ -2668,6 +2899,27 @@
   },
   "power": 80,
   "unique": false
+ },
+ "Miracle Rush": {
+  "name": "Miracle Rush",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 80,
+  "unique": true
+ },
+ "Moral Support": {
+  "name": "Moral Support",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Morning Star": {
   "name": "Morning Star",
@@ -3032,6 +3284,24 @@
   "power": null,
   "unique": true
  },
+ "Pinnacle of Magic": {
+  "name": "Pinnacle of Magic",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Position Hack": {
+  "name": "Position Hack",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Potent Hypnosis": {
   "name": "Potent Hypnosis",
   "element": "tra",
@@ -3052,6 +3322,15 @@
   },
   "power": 100,
   "unique": false
+ },
+ "Proud Presence": {
+  "name": "Proud Presence",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Psi": {
   "name": "Psi",
@@ -3185,6 +3464,15 @@
   "power": null,
   "unique": false
  },
+ "Raging Temper": {
+  "name": "Raging Temper",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Rakukaja": {
   "name": "Rakukaja",
   "element": "sup",
@@ -3241,6 +3529,18 @@
   },
   "power": null,
   "unique": false
+ },
+ "Rebellion Blade": {
+  "name": "Rebellion Blade",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 99
+  },
+  "power": 900,
+  "unique": true
  },
  "Recarm": {
   "name": "Recarm",
@@ -3560,6 +3860,15 @@
   "power": null,
   "unique": false
  },
+ "Scoundrel Eyes": {
+  "name": "Scoundrel Eyes",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Sharp Student": {
   "name": "Sharp Student",
   "element": "pas",
@@ -3704,6 +4013,42 @@
   "power": null,
   "unique": false
  },
+ "Subrecover HP": {
+  "name": "Subrecover HP",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Subrecover HP EX": {
+  "name": "Subrecover HP EX",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Subrecover SP": {
+  "name": "Subrecover SP",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Subrecover SP EX": {
+  "name": "Subrecover SP EX",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Sukukaja": {
   "name": "Sukukaja",
   "element": "sup",
@@ -3760,6 +4105,15 @@
   },
   "power": 360,
   "unique": false
+ },
+ "Tactical Spirit": {
+  "name": "Tactical Spirit",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Tarukaja": {
   "name": "Tarukaja",
@@ -3914,6 +4268,24 @@
   "power": null,
   "unique": false
  },
+ "Treasure Reboot": {
+  "name": "Treasure Reboot",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Treasure Skimmer": {
+  "name": "Treasure Skimmer",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
  "Trigger Happy": {
   "name": "Trigger Happy",
   "element": "pas",
@@ -3938,6 +4310,24 @@
  "Tyrant's Mind": {
   "name": "Tyrant's Mind",
   "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Ultimate Support": {
+  "name": "Ultimate Support",
+  "element": "pas",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Unparalleled Eyes": {
+  "name": "Unparalleled Eyes",
+  "element": "tra",
   "target": null,
   "ailment": null,
   "cost": null,
@@ -3976,6 +4366,24 @@
   },
   "power": 80,
   "unique": false
+ },
+ "Veil of Midnight": {
+  "name": "Veil of Midnight",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
+ },
+ "Veil of Sunrise": {
+  "name": "Veil of Sunrise",
+  "element": "tra",
+  "target": null,
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": true
  },
  "Vicious Strike": {
   "name": "Vicious Strike",

@@ -11,7 +11,9 @@ import { ELEMENTS } from '../data/elements';
 import { getPersona } from '../services/personas';
 import type { Persona } from '../types';
 import styles from './PersonaProfile.module.css';
-import { personaName, personaNameEn, skillName } from '../services/gameText';
+import { personaMyth, personaName, personaNameEn, skillName } from '../services/gameText';
+import { PARTY_OWNER, PARTY_STAGE, isSpoilerStage } from '../data/party';
+import { SpoilerCover } from '../components/SpoilerCover';
 
 const STAT_LABELS: [keyof NonNullable<Persona['stats']>, string][] = [
   ['st', 'FU'], ['ma', 'MA'], ['en', 'RE'], ['ag', 'AG'], ['lu', 'SU'],
@@ -28,6 +30,20 @@ function unlockText(p: Persona): string {
     case 'story':
     case 'treasure':
       return u.detail;
+  }
+}
+
+function partyText(p: Persona): string {
+  const owner = PARTY_OWNER[p.party!.owner];
+  switch (p.party!.stage) {
+    case 'initial':
+      return `Es la Persona con la que despierta ${owner}.`;
+    case 'evolved':
+      return p.party!.owner === 'akechi'
+        ? 'Akechi la obtiene con la historia.'
+        : `Evoluciona al llegar al rango 10 del confidente de ${owner}: gana una skill y cambian sus afinidades.`;
+    case 'third':
+      return `Despierta en el tercer semestre (solo Royal): gana una skill y un rasgo nuevo.`;
   }
 }
 
@@ -122,12 +138,14 @@ export default function PersonaProfile() {
       </div>
 
       <section className={`container ${styles.top}`}>
-        <ImagePlaceholder
-          className={styles.image}
-          label="Acá va la imagen de la Persona"
-          hint="Formato sugerido: PNG transparente · 600 × 800"
-          corner={arcana.numeral}
-        />
+        <SpoilerCover active={isSpoilerStage(p.party?.stage)} className={styles.image}>
+          <ImagePlaceholder
+            className={styles.image}
+            label="Acá va la imagen de la Persona"
+            hint="Formato sugerido: PNG transparente · 600 × 800"
+            corner={arcana.numeral}
+          />
+        </SpoilerCover>
 
         <div className={styles.info}>
           <div className={styles.heading}>
@@ -140,14 +158,29 @@ export default function PersonaProfile() {
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}
               {p.flags.special && <span className="tag tag--special">Fusión especial</span>}
               {p.flags.treasure && <span className="tag tag--dlc">Treasure Demon</span>}
+              {p.party && <span className="tag tag--party">{PARTY_STAGE[p.party.stage]}</span>}
             </div>
+            {p.party && (
+              <p className={styles.partyNote}>
+                Persona de <strong>{PARTY_OWNER[p.party.owner]}</strong>: no se puede fusionar ni registrar en el
+                compendio.{' '}
+                <Link to={`/p5r/confidentes/${p.party.owner}`}>Ver su confidente →</Link>
+              </p>
+            )}
           </div>
 
           <dl className={styles.facts}>
-            <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-accent)' }}>
-              <dt className="label">Nivel base</dt>
-              <dd className={styles.big}>{p.level}</dd>
-            </div>
+            {p.party ? (
+              <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-accent)' }}>
+                <dt className="label">Compañero</dt>
+                <dd>{PARTY_OWNER[p.party.owner]}</dd>
+              </div>
+            ) : (
+              <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-accent)' }}>
+                <dt className="label">Nivel base</dt>
+                <dd className={styles.big}>{p.level}</dd>
+              </div>
+            )}
             <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-text)' }}>
               <dt className="label">Herencia</dt>
               <dd>{p.inheritance ? ELEMENTS[p.inheritance].name : '—'}</dd>
@@ -159,7 +192,9 @@ export default function PersonaProfile() {
           </dl>
 
           <div className={styles.stats}>
-            <span className="label label-accent">Estadísticas base</span>
+            <span className="label label-accent">
+              {p.party ? `Estadísticas al unirse (Nv ${p.level})` : 'Estadísticas base'}
+            </span>
             {p.stats ? (
               STAT_LABELS.map(([k, label]) => (
                 <div key={k} className={styles.statRow}>
@@ -193,17 +228,38 @@ export default function PersonaProfile() {
           <p className={styles.techLink}>
             <Link to="/p5r/tecnicos">Ver la tabla completa de Técnicos →</Link>
           </p>
+          {personaMyth(p) && (
+            <div className={styles.origin}>
+              <SectionTitle size="md">Origen</SectionTitle>
+              <div className={styles.originCard}>
+                <span className="label label-accent">Mitología · texto oficial del juego</span>
+                <p>{personaMyth(p)}</p>
+              </div>
+            </div>
+          )}
         </div>
 
         <aside className={styles.side}>
-          <SectionTitle size="md">Fusión</SectionTitle>
-          <FusionBox persona={p} />
-          <SectionTitle size="md">Silla eléctrica</SectionTitle>
-          <ElectricChair persona={p} />
-          <div className={styles.card}>
-            <span className="label label-accent">Condición de desbloqueo</span>
-            <span className={styles.muted}>{unlockText(p)}</span>
-          </div>
+          {p.party ? (
+            <>
+              <SectionTitle size="md">Cómo se obtiene</SectionTitle>
+              <div className={styles.card}>
+                <span className="label label-accent">{PARTY_STAGE[p.party.stage]}</span>
+                <span className={styles.muted}>{partyText(p)}</span>
+              </div>
+            </>
+          ) : (
+            <>
+              <SectionTitle size="md">Fusión</SectionTitle>
+              <FusionBox persona={p} />
+              <SectionTitle size="md">Silla eléctrica</SectionTitle>
+              <ElectricChair persona={p} />
+              <div className={styles.card}>
+                <span className="label label-accent">Condición de desbloqueo</span>
+                <span className={styles.muted}>{unlockText(p)}</span>
+              </div>
+            </>
+          )}
         </aside>
       </section>
     </article>

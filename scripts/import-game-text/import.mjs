@@ -30,21 +30,28 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const gen = join(root, 'src/games/p5r/data/generated');
 
 /* ---------- Codificación de texto de Atlus ---------- */
-// ASCII va tal cual. Los demás caracteres usan 2 bytes (índice de la fuente del juego).
-const SPECIAL = { 0x83db: '¡', 0x83f5: '¿', 0x83e3: 'ª', 0x83f7: 'Á', 0x8478: 'É', 0x8483: 'Í', 0x8489: 'Ó', 0x848f: 'Ú' };
+// ASCII va tal cual. Los demás caracteres usan 2 bytes: índice de la fuente del
+// juego = (b1 - 0x80) * 128 + (b2 - 0x80). Desde el índice 0x1F6 (À) siguen el
+// orden de Latin-1, salteando × y ÷. Los signos de antes de À van por tabla.
+const SPECIAL = { 0x1db: '¡', 0x1e3: 'ª', 0x1e4: '«', 0x1f1: '»', 0x1f5: '¿' };
 function decode(buf) {
   let out = '';
   for (let i = 0; i < buf.length; ) {
     const c = buf[i];
     if (c < 0x80) { out += String.fromCharCode(c); i++; continue; }
     const lo = buf[i + 1];
-    const k = (c << 8) | lo;
     i += 2;
-    if (c === 0x80 && lo >= 0xa0) out += String.fromCharCode(lo - 0x60);
-    else if (SPECIAL[k]) out += SPECIAL[k];
-    else if (c === 0x84 && lo >= 0x96 && lo <= 0xab) out += String.fromCharCode(lo + 0x4b); // á..ö
-    else if (c === 0x84 && lo >= 0xac && lo <= 0xb2) out += String.fromCharCode(lo + 0x4c); // ø..ü (salta ÷)
-    else out += '�';
+    const idx = (c - 0x80) * 128 + (lo - 0x80);
+    if (c === 0x80 && lo >= 0xa0) { out += String.fromCharCode(lo - 0x60); continue; } // ASCII "ancho"
+    if (SPECIAL[idx]) { out += SPECIAL[idx]; continue; }
+    if (idx >= 0x1f6 && idx <= 0x233) {
+      let cp = 0xc0 + (idx - 0x1f6);
+      if (cp >= 0xd7) cp++; // ×
+      if (cp >= 0xf7) cp++; // ÷
+      out += String.fromCharCode(cp);
+      continue;
+    }
+    out += '\ufffd';
   }
   return out;
 }
@@ -142,6 +149,7 @@ function load(dir) {
       melee: bmd('datWeaponHelp.bmd'),
       gun: bmd('datGunHelp.bmd'),
       skillcard: bmd('datSkillCardHelp.bmd'),
+      myth: bmd('datMyth.bmd'),
     },
   };
 }
@@ -192,7 +200,11 @@ const PERSONA_ALIAS = {
   'Izanagi-no-Okami Picaro': 'Izanagi-no-Okami Pic.',
   'Magatsu-Izanagi Picaro': 'M. Izanagi Picaro',
 };
-const ourPersonas = JSON.parse(readFileSync(join(gen, 'personas.json'), 'utf8'));
+const ourPersonas = [
+  ...JSON.parse(readFileSync(join(gen, 'personas.json'), 'utf8')),
+  // Personas de los compañeros (no se fusionan, pero tienen ficha)
+  ...JSON.parse(readFileSync(join(gen, 'party.json'), 'utf8')),
+];
 const pIdx = new Map();
 EN.names[SEG.personas].forEach((n, i) => {
   if (bad(n)) return;
@@ -221,7 +233,10 @@ for (const p of ourPersonas) {
     es = es.replace(/^(\S+)/, '$1 F');
     en = en.replace(/^(\S+)/, '$1 F');
   }
-  personas[p.name] = { es, en };
+  // Origen: texto de mitología del compendio (mismo índice que el nombre)
+  const mythEs = ES.help.myth[i];
+  const mythEn = EN.help.myth[i];
+  personas[p.name] = { es, en, ...(!bad(mythEs) ? { mythEs, mythEn } : {}) };
 }
 
 /* ---------- Items: emparejados por nombre en inglés ---------- */

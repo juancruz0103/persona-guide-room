@@ -117,7 +117,13 @@
 
 @media (max-width: 640px) {
   .logoText {
-    font-size: 18px;
+    display: none;
+  }
+  .brand {
+    flex: 1;
+  }
+  .tools {
+    order: 2;
   }
   .nav {
     order: 3;
@@ -132,4 +138,10 @@
     letter-spacing: 0.03em;
     white-space: nowrap;
   }
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 14px;
 }

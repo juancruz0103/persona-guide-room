@@ -22,6 +22,8 @@ export interface PersonaSkill {
   skill: string;
   /** null = skill inicial */
   level: number | null;
+  /** Personas de compañeros: cómo se aprende ("Rango 4", "Al evolucionar", "Tercer semestre") */
+  note?: string;
 }
 
 export type UnlockCondition =
@@ -49,6 +51,19 @@ export interface Persona {
   /** Item de la silla eléctrica con la Alarma de fusión activa ("itemr" en la fuente). */
   itemizationAlt?: string | null;
   image: string | null;
+  /** Solo en las Personas de los compañeros: no se fusionan */
+  party?: PartyInfo;
+}
+
+export type PartyOwner = 'ryuji' | 'ann' | 'morgana' | 'yusuke' | 'makoto' | 'futaba' | 'haru' | 'akechi' | 'kasumi';
+/** initial = la que despierta; evolved = rango 10 de confidente; third = tercer semestre */
+export type PartyStage = 'initial' | 'evolved' | 'third';
+
+export interface PartyInfo {
+  owner: PartyOwner;
+  stage: PartyStage;
+  /** id de la Persona inicial del mismo compañero */
+  baseId: string;
 }
 
 export interface SkillInfo {

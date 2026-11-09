@@ -11,6 +11,9 @@ interface Text {
   en: string;
   descEs?: string;
   descEn?: string;
+  /** Personas: texto de mitología del compendio */
+  mythEs?: string;
+  mythEn?: string;
 }
 const TEXT = gameTextJson as unknown as {
   skills: Record<string, Text>;
@@ -20,6 +23,8 @@ const TEXT = gameTextJson as unknown as {
 
 export const personaName = (p: Pick<Persona, 'name'>): string => TEXT.personas[p.name]?.es ?? p.name;
 export const personaNameEn = (p: Pick<Persona, 'name'>): string => TEXT.personas[p.name]?.en ?? p.name;
+/** Origen de la Persona (texto oficial del compendio del juego). */
+export const personaMyth = (p: Pick<Persona, 'name'>): string | undefined => TEXT.personas[p.name]?.mythEs;
 export const skillName = (key: string): string => TEXT.skills[key]?.es ?? key;
 export const skillNameEn = (key: string): string => TEXT.skills[key]?.en ?? key;
 export const skillDescription = (key: string): string | undefined => TEXT.skills[key]?.descEs;
