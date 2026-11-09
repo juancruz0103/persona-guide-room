@@ -212,7 +212,7 @@ export default function ConfidantProfile() {
               <span className={styles.outline}>{summary.romance ? 'Ruta romántica' : 'Sin romance'}</span>
               <span className={styles.outline}>{maxRank} rangos</span>
               {thiefPersona && (
-                <PersonaPeek persona={thiefPersona} className={styles.personaChip} below>
+                <PersonaPeek persona={thiefPersona} className={styles.personaChip} side>
                   Persona: {personaName(thiefPersona)} →
                 </PersonaPeek>
               )}

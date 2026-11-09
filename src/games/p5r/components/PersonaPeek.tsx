@@ -12,12 +12,15 @@ export function PersonaPeek({
   persona,
   className,
   below = false,
+  side = false,
   children,
 }: {
   persona: Persona;
   className?: string;
   /** Mostrar el recuadro abajo en vez de arriba */
   below?: boolean;
+  /** Mostrar el recuadro al costado (a la derecha); en celular pasa arriba */
+  side?: boolean;
   children?: React.ReactNode;
 }) {
   return (
@@ -25,7 +28,7 @@ export function PersonaPeek({
       <Link to={`/p5r/calculadora/persona/${persona.id}`} className={className ?? styles.link}>
         {children ?? personaName(persona)}
       </Link>
-      <span className={`${styles.preview} ${below ? styles.below : ''}`} aria-hidden="true">
+      <span className={`${styles.preview} ${below ? styles.below : ''} ${side ? styles.side : ''}`} aria-hidden="true">
         <span className={`img-stripes ${styles.photo}`}>
           <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6">
             <rect x="3" y="4" width="18" height="16" rx="1" />
