@@ -148,7 +148,7 @@
    "romance",
    "mementos"
   ],
-  "notice": "Empieza después de completar un pedido de Mementos.",
+  "notice": "Empieza después de completar una misión de Mementos.",
   "phantomThief": false,
   "romance": true,
   "hasGuide": true
@@ -223,7 +223,7 @@
   "tags": [
    "mementos"
   ],
-  "notice": "Empieza después de completar un pedido de Mementos.",
+  "notice": "Empieza después de completar una misión de Mementos.",
   "phantomThief": false,
   "romance": false,
   "hasGuide": true
@@ -249,7 +249,7 @@
   "tags": [
    "mementos"
   ],
-  "notice": "Avanza al completar los pedidos de Mementos que te manda.",
+  "notice": "Avanza al completar las misiones de Mementos que te manda.",
   "phantomThief": false,
   "romance": false,
   "hasGuide": true

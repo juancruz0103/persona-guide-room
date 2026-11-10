@@ -1,6 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/9388-persona-5-royal-hifumi-confidant-guide-star-choices-romance-unlock-gifts
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: la guía lista opciones que no están en Royal.
+CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipuladora»: complétala y vuelve con Hifumi.
 1 | DESBLOQUEO | Koma Sabaki | En el turno de Joker puedes cambiar compañeros del grupo. Varios rangos dan además puntos extra de Conocimiento.
 2 | That's interesting. | 2
 2 | But you don't want to, right? | 2

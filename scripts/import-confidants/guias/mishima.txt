@@ -1,7 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/9385-persona-5-royal-mishima-confidant-guide-moon-choices-answers
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | Los rangos 1 y 2 llegan con la historia (6 y 8 de mayo). El rango 3 está disponible desde el 10 de mayo.
-CONSEJO | Para subir de rango con Mishima hay que completar pedidos de Mementos entre un encuentro y otro.
+CONSEJO | Para subir de rango con Mishima hay que completar misiones de Mementos entre un encuentro y otro.
 CONSEJO | En el rango 7, después de la «purga», ve con el equipo a Mementos y habla con el objetivo; Mishima te escribe después para seguir.
 1 | DESBLOQUEO | Apoyo de Mishima | Los compañeros que no combaten ganan algo de experiencia.
 2 | You've done good, kid. | 3

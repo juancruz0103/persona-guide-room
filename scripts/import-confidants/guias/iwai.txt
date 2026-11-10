@@ -1,7 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/9383-persona-5-royal-iwai-confidant-guide-hanged-man-choices-unlock-list
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: la guía lista opciones que no están en Royal.
-CONSEJO | En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.».
+CONSEJO | En el rango 2 hay que llamarlo: elige «Quizá debería llamarlo.» o «Sí, voy a tener que llamarlo.».
 1 | DESBLOQUEO | Personalización básica | Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza.
 2 | How's your cold? | 2
 2 | What should I do now? | 2

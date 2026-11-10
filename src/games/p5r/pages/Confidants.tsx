@@ -103,7 +103,7 @@ export default function Confidants() {
             </div>
             <div className={`${styles.legendCard} ${styles.legendPlain}`}>
               <span className={styles.legendTitle}>Normal con reglas extra</span>
-              <span>Tienen respuestas como cualquiera, pero además una fecha límite, un rango bloqueado, días fijos o pedidos de Mementos.</span>
+              <span>Tienen respuestas como cualquiera, pero además una fecha límite, un rango bloqueado, días fijos o misiones de Mementos.</span>
               <span className={styles.legendWho}>Akechi · Maruki · Kasumi · Sojiro · Kawakami · Mishima · Yoshida · Chihaya · Oda</span>
             </div>
           </section>

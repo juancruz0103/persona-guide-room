@@ -1,5 +1,6 @@
 # fuente: https://www.rpgsite.net/feature/5471-persona-5-royal-ryuji-confidant-guide-chariot-choices-unlocks
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
+CONSEJO | Lleva una Persona del Arcana Carro para ganar puntos extra.
 2 | I'm counting on you. | 3
 2 | You seem pretty excited. | 3
 2 | ...Help with what? | 2

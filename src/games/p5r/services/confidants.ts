@@ -26,7 +26,7 @@ export const TAG_LABEL: Record<ConfidantTag, string> = {
   deadline: 'Fecha límite',
   locked: 'Rango bloqueado por la historia',
   days: 'Días fijos',
-  mementos: 'Pedidos de Mementos',
+  mementos: 'Misiones de Mementos',
   stat: 'Pide atributo',
 };
 

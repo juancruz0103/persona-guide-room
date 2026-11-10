@@ -1,6 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/5478-persona-5-royal-sojiro-confidant-guide-hierophant-choices-unlock-list
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: lo da la historia; la guía no trae opciones de Royal.
+CONSEJO | En el rango 8 aparece la misión de Mementos «El tío rapiñador»: hasta completarla, Sojiro y Futaba quedan bloqueados.
 2 | Making coffee. | 2
 2 | That guy seemed suspicious. | 2
 2 | I want the ladies to love me. | 2

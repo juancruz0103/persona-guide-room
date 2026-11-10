@@ -169,7 +169,7 @@ for (const id of ids) {
     ranks,
   };
   const prev = existsSync(join(dataDir, `${id}.json`)) ? JSON.parse(readFileSync(join(dataDir, `${id}.json`), 'utf8')) : null;
-  out.tips = tips.length ? tips : prev?.tips ?? [];
+  out.tips = tips; // la guía manda: así no quedan consejos viejos
   writeFileSync(join(dataDir, `${id}.json`), JSON.stringify(out, null, 1) + '\n');
   const n = ranks.reduce((a, r) => a + r.conversations.length, 0);
   console.log(`${id}: ${n} conversaciones`);
