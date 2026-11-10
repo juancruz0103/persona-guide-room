@@ -35,8 +35,8 @@
      "romance": false,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "Cut label",
-      "en": "Cut label"
+      "es": "",
+      "en": ""
      },
      "options": [
       {
@@ -199,7 +199,7 @@
      "romance": false,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "¿? ¿Estás bien? Tienes los ojos llorosos.",
+      "es": "¿(tu nombre)? ¿Estás bien? Tienes los ojos llorosos.",
       "en": "-senpai? You okay? Your eyes are glazing over..."
      },
      "options": [

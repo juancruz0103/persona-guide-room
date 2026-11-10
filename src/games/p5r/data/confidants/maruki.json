@@ -180,7 +180,7 @@
      "romance": false,
      "speaker": "Takuto",
      "prompt": {
-      "es": "¿Qué opinas de este tipo de dolor, ?",
+      "es": "¿Qué opinas de este tipo de dolor, (tu nombre)?",
       "en": "Do you have any thoughts on this kind of pain, -kun?"
      },
      "options": [
@@ -545,7 +545,7 @@
      "romance": false,
      "speaker": "Takuto",
      "prompt": {
-      "es": "Te gusta el café, ¿eh, ? Fantástico.",
+      "es": "Te gusta el café, ¿eh, (tu nombre)? Fantástico.",
       "en": "You must have a real knack for coffee, -kun. This is fantastic."
      },
      "options": [
@@ -686,7 +686,7 @@
      "romance": false,
      "speaker": "Takuto",
      "prompt": {
-      "es": "¿Cómo es posible? ¿Se te ocurre algo, ?",
+      "es": "¿Cómo es posible? ¿Se te ocurre algo, (tu nombre)?",
       "en": "How is such a feat even possible? Any ideas, -kun?"
      },
      "options": [
@@ -713,7 +713,7 @@
      "romance": false,
      "speaker": "Takuto",
      "prompt": {
-      "es": "Oye, , ¿tú crees que voy dando palos de ciego?",
+      "es": "Oye, (tu nombre), ¿tú crees que voy dando palos de ciego?",
       "en": "Hey, -kun. You think I'm getting anywhere here?"
      },
      "options": [
@@ -755,7 +755,7 @@
      "romance": false,
      "speaker": "Takuto",
      "prompt": {
-      "es": "¡, hoy tengo algo para ti! ¡Sé que hace tiempo que no te dan una sorpresa!",
+      "es": "¡(tu nombre), hoy tengo algo para ti! ¡Sé que hace tiempo que no te dan una sorpresa!",
       "en": "-kun, you're in for a real treat today! I know it's been a while since you've had one, too!"
      },
      "options": [
@@ -885,7 +885,7 @@
      "romance": false,
      "speaker": "Takuto",
      "prompt": {
-      "es": "No te preocupes. ¿No quieres celebrarlo tú también, ?",
+      "es": "No te preocupes. ¿No quieres celebrarlo tú también, (tu nombre)?",
       "en": "Oh, don't worry so much. Don't you wanna congratulate him too, -kun?"
      },
      "options": [

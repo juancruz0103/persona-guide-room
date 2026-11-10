@@ -2457,6 +2457,186 @@
   "Bloodstained Eyes": {
    "es": "Ojos ensangr.",
    "en": "Bloodstained Eyes"
+  },
+  "Just Die": {
+   "es": "Muere",
+   "en": "Just Die"
+  },
+  "Foul Odor": {
+   "es": "Olor fétido",
+   "en": "Foul Odor"
+  },
+  "Deathly Illness": {
+   "es": "Enfermedad mortal",
+   "en": "Deathly Illness"
+  },
+  "Naranari": {
+   "es": "Naranari",
+   "en": "Naranari"
+  },
+  "Tag Team": {
+   "es": "Eq. pillapilla",
+   "en": "Tag Team"
+  },
+  "Pinch Anchor": {
+   "es": "Agarrar ancla",
+   "en": "Pinch Anchor"
+  },
+  "Frenzied Bull": {
+   "es": "Toro desenfrenado",
+   "en": "Frenzied Bull"
+  },
+  "Atomic Hellscape": {
+   "es": "Infierno atómico",
+   "en": "Atomic Hellscape"
+  },
+  "Grace of the Olive": {
+   "es": "Gracia de la oliva",
+   "en": "Grace of the Olive"
+  },
+  "Vitality of the Tree": {
+   "es": "Vit. del árbol",
+   "en": "Vitality of the Tree"
+  },
+  "Thermal Conduct": {
+   "es": "Conductor térmico",
+   "en": "Thermal Conduct"
+  },
+  "Mother's Lament": {
+   "es": "Lamento de madre",
+   "en": "Mother's Lament"
+  },
+  "Gloomy Child": {
+   "es": "Niño triste",
+   "en": "Gloomy Child"
+  },
+  "Chi You's Blessing": {
+   "es": "Ben. de Chi You",
+   "en": "Chi You's Blessing"
+  },
+  "Draining Mouth": {
+   "es": "Boca seca",
+   "en": "Draining Mouth"
+  },
+  "Ultimate Vessel": {
+   "es": "Navío definitivo",
+   "en": "Ultimate Vessel"
+  },
+  "Linked Bloodline": {
+   "es": "Estirpe de enlace",
+   "en": "Linked Bloodline"
+  },
+  "Will of the Sword": {
+   "es": "Vol. de la espada",
+   "en": "Will of the Sword"
+  },
+  "Cold-Blooded": {
+   "es": "Sangre fría",
+   "en": "Cold-Blooded"
+  },
+  "Grace of Mother": {
+   "es": "Gracia de Madre",
+   "en": "Grace of Mother"
+  },
+  "God Maker": {
+   "es": "Creador de Dios",
+   "en": "God Maker"
+  },
+  "Country Maker": {
+   "es": "Creador del país",
+   "en": "Country Maker"
+  },
+  "Inviolable Beauty": {
+   "es": "Belleza inviolable",
+   "en": "Inviolable Beauty"
+  },
+  "Universal Law": {
+   "es": "Ley universal",
+   "en": "Universal Law"
+  },
+  "Wealth of Lotus": {
+   "es": "Sunt. de loto",
+   "en": "Wealth of Lotus"
+  },
+  "Allure of Wisdom": {
+   "es": "Fasc. de sabiduría",
+   "en": "Allure of Wisdom"
+  },
+  "Drunken Passion": {
+   "es": "Pasión por la beb.",
+   "en": "Drunken Passion"
+  },
+  "Hollow Jester": {
+   "es": "Bufón hueco",
+   "en": "Hollow Jester"
+  },
+  "Ave Maria": {
+   "es": "Ave María",
+   "en": "Ave Maria"
+  },
+  "Hallowed Spirit": {
+   "es": "Espíritu sagrado",
+   "en": "Hallowed Spirit"
+  },
+  "Martyr's Gift": {
+   "es": "Regalo de mártir",
+   "en": "Martyr's Gift"
+  },
+  "Ghost Nest": {
+   "es": "Nido fant.",
+   "en": "Ghost Nest"
+  },
+  "Static Electricity": {
+   "es": "Electr. estática",
+   "en": "Static Electricity"
+  },
+  "Bargain Bolts": {
+   "es": "Rayos en oferta",
+   "en": "Bargain Bolts"
+  },
+  "Demon's Bite": {
+   "es": "Mord. del demonio",
+   "en": "Demon's Bite"
+  },
+  "Circle of Sadness": {
+   "es": "Cír. de tristeza",
+   "en": "Circle of Sadness"
+  },
+  "Hazy Presence": {
+   "es": "Presencia difusa",
+   "en": "Hazy Presence"
+  },
+  "Omen": {
+   "es": "Presagio",
+   "en": "Omen"
+  },
+  "Cocytus": {
+   "es": "Cocito",
+   "en": "Cocytus"
+  },
+  "Pagan Allure": {
+   "es": "Fascinación pagana",
+   "en": "Pagan Allure"
+  },
+  "Iron Heart": {
+   "es": "Corazón de hierro",
+   "en": "Iron Heart"
+  },
+  "Bolstering Force": {
+   "es": "Fuerza vigorizada",
+   "en": "Bolstering Force"
+  },
+  "Vahana's Wings": {
+   "es": "Alas de Vahana",
+   "en": "Vahana's Wings"
+  },
+  "Positive Thoughts": {
+   "es": "Pens. positivos",
+   "en": "Positive Thoughts"
+  },
+  "Undying Fury": {
+   "es": "Furia imperecedera",
+   "en": "Undying Fury"
   }
  },
  "personas": {
@@ -4481,6 +4661,18 @@
    "en": "Ember Ring",
    "descEs": "Anillo cargado con fuego.",
    "descEn": "A ring charged by fire."
+  },
+  "Emperor's Amulet": {
+   "es": "Amuleto del emperador",
+   "en": "Emperor's Charm",
+   "descEs": "Una gema mágica con el poder de un emperador.",
+   "descEn": "A magical gem with the power of an emperor."
+  },
+  "Emperor's Amulet R": {
+   "es": "Amuleto emperador R",
+   "en": "Emperor's Charm R",
+   "descEs": "Una gema mágica regia con el poder de un emperador.",
+   "descEn": "A royal magical gem with the power of an emperor."
   },
   "Endure": {
    "es": "Último aliento",

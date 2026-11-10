@@ -106,7 +106,8 @@ for (const id of ids) {
         romance: c.options.some(isRomance),
         ...(route ? { route } : {}),
         speaker: meta.name.split(' ')[0],
-        prompt: c.prompt,
+        // El juego no tiene frase antes de algunas preguntas («Cut label»): se deja vacía
+        prompt: c.prompt.en === 'Cut label' ? { es: '', en: '' } : c.prompt,
         options: c.options.map((o) => ({
           es: o.es,
           en: o.en,

@@ -4,7 +4,7 @@ import styles from './SectionTitle.module.css';
 interface Props {
   children: ReactNode;
   as?: 'h1' | 'h2' | 'h3';
-  tone?: 'primary' | 'accent';
+  tone?: 'primary' | 'accent' | 'paper';
   size?: 'lg' | 'md';
 }
 

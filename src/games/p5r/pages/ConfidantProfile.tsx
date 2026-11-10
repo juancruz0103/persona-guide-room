@@ -64,10 +64,16 @@ function ConversationCard({
         </span>
         {c.provisional && <span className={styles.provisional}>Traducción provisoria</span>}
       </div>
-      <p className={styles.prompt}>
-        <strong>{c.speaker}:</strong> «{c.prompt.es}»
-        <small>Original: “{c.prompt.en}”</small>
-      </p>
+      {c.prompt.es ? (
+        <p className={styles.prompt}>
+          <strong>{c.speaker}:</strong> «{c.prompt.es}»
+          <small>Original: “{c.prompt.en}”</small>
+        </p>
+      ) : (
+        <p className={styles.prompt}>
+          <strong>{c.speaker}</strong> <small>(en el juego no hay frase antes de esta pregunta)</small>
+        </p>
+      )}
       {c.route && <p className={styles.routeNote}>{ROUTE_TEXT[c.route]}</p>}
       {isRouteChoice && (
         <p className={styles.routeNote}>

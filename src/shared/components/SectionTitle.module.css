@@ -26,3 +26,6 @@
 .md {
   font-size: clamp(28px, 4vw, 36px);
 }
+.paper {
+  background: var(--c-paper);
+}

@@ -538,7 +538,7 @@
      "romance": false,
      "speaker": "Futaba",
      "prompt": {
-      "es": "¡He podido hacerlo gracias a ti, !",
+      "es": "¡He podido hacerlo gracias a ti, (tu nombre)!",
       "en": "It's all because of you that I could do it, !"
      },
      "options": [
@@ -674,7 +674,7 @@
      "romance": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "¿Por qué, ...?",
+      "es": "¿Por qué, (tu nombre)...?",
       "en": "Why, ...?"
      },
      "options": [

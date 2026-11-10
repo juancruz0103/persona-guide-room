@@ -122,7 +122,7 @@
      "romance": false,
      "speaker": "Haru",
      "prompt": {
-      "es": "Pero, , me preocupa que me expulsen del instituto si se enteran.",
+      "es": "Pero, (tu nombre), me preocupa que me expulsen del instituto si se enteran.",
       "en": "But um, -kun... I'm worried what the school might do if they found out about this."
      },
      "options": [
@@ -750,7 +750,7 @@
      "romance": false,
      "speaker": "Haru",
      "prompt": {
-      "es": "Muchas gracias, .",
+      "es": "Muchas gracias, (tu nombre).",
       "en": "...Thank you, -kun."
      },
      "options": [

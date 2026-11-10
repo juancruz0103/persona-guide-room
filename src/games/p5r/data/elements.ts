@@ -30,26 +30,23 @@ export const ELEMENTS: Record<SkillElement, ElementInfo> = {
   pas: { id: 'pas', name: 'Pasiva', color: '#EBD25A', description: 'Efecto permanente: se activa solo, sin gastar turno ni SP.' },
 };
 
-/**
- * Nombres de estados en español.
- * ⚠️ Provisorios: falta verificarlos contra la versión en español de España.
- */
+/** Nombres de estados: los oficiales de la versión en español del juego. */
 export const AILMENTS: Record<AilmentId, { es: string; en: string }> = {
   burn: { es: 'Quemadura', en: 'Burn' },
   freeze: { es: 'Congelación', en: 'Freeze' },
-  shock: { es: 'Electrocución', en: 'Shock' },
+  shock: { es: 'Electrificación', en: 'Shock' },
   dizzy: { es: 'Mareo', en: 'Dizzy' },
   sleep: { es: 'Sueño', en: 'Sleep' },
-  forget: { es: 'Olvido', en: 'Forget' },
+  forget: { es: 'Amnesia', en: 'Forget' },
   confuse: { es: 'Confusión', en: 'Confuse' },
   fear: { es: 'Miedo', en: 'Fear' },
   despair: { es: 'Desesperación', en: 'Despair' },
   rage: { es: 'Furia', en: 'Rage' },
-  brainwash: { es: 'Lavado de cerebro', en: 'Brainwash' },
+  brainwash: { es: 'Manipulación', en: 'Brainwash' },
   hunger: { es: 'Hambre', en: 'Hunger' },
 };
 
-/** Tabla de Técnicos de P5R. Fuente: Megami Tensei Wiki, página "Technical". */
+/** Tabla de Técnicos de P5R. Fuente: Megami Tensei Wiki, página "Technical". `knowingTheHeart`: extras del libro «Entender el corazón». */
 export const TECHNICAL_CHART: TechnicalRule[] = [
   { ailment: 'burn', base: ['win', 'nuk'], knowingTheHeart: [] },
   { ailment: 'freeze', base: ['phy', 'gun', 'nuk'], knowingTheHeart: [] },

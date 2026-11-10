@@ -603,7 +603,7 @@
      "romance": false,
      "speaker": "Yuuki",
      "prompt": {
-      "es": ", corre.",
+      "es": "(tu nombre), corre.",
       "en": "... Run."
      },
      "options": [

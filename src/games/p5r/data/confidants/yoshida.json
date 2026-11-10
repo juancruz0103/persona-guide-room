@@ -150,7 +150,7 @@
      "romance": false,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": ", ¿no? Dime, ¿qué te llamó la atención de Yoshida?",
+      "es": "(tu nombre), ¿no? Dime, ¿qué te llamó la atención de Yoshida?",
       "en": "-kun, was it? Tell me, what about Yoshida here drew you in?"
      },
      "options": [
@@ -323,7 +323,7 @@
      "romance": false,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": "¿Qué harías en esta situación, ?",
+      "es": "¿Qué harías en esta situación, (tu nombre)?",
       "en": "What would you do at a time like this, -kun?"
      },
      "options": [
@@ -380,7 +380,7 @@
      "romance": false,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": ", ¿podrías hacerle entrar en razón? A ti también te beneficiaría.",
+      "es": "(tu nombre), ¿podrías hacerle entrar en razón? A ti también te beneficiaría.",
       "en": "...-kun, could you talk some sense into him? You'll benefit as well."
      },
      "options": [

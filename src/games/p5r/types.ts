@@ -110,7 +110,7 @@ export interface TechnicalRule {
   ailment: AilmentId;
   /** 'any' = cualquier elemento */
   base: (ResistElement | 'any')[];
-  /** Combinaciones extra al leer "Knowing the Heart" (solo Royal) */
+  /** Combinaciones extra al leer «Entender el corazón» (Knowing the Heart, solo Royal) */
   knowingTheHeart: ResistElement[];
 }
 

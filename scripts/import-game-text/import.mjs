@@ -189,6 +189,20 @@ for (const [id, v] of Object.entries(refSkills)) {
 }
 for (const n of Object.keys(ourSkills)) if (!skills[n]) review.push(`Skill sin nombre oficial: ${n}`);
 
+/* ---------- Rasgos (traits) que no están en skills.json: por nombre en inglés ---------- */
+const traitIdx = new Map();
+EN.names[SEG.traits].forEach((n, i) => { if (!bad(n)) traitIdx.set(norm(n), i); });
+for (const p of [
+  ...JSON.parse(readFileSync(join(gen, 'personas.json'), 'utf8')),
+  ...JSON.parse(readFileSync(join(gen, 'party.json'), 'utf8')),
+]) {
+  const t = p.trait;
+  if (!t || skills[t]) continue;
+  const i = traitIdx.get(norm(t));
+  if (i === undefined || bad(ES.names[SEG.traits][i])) { review.push(`Rasgo sin nombre oficial: ${t}`); continue; }
+  skills[t] = { es: ES.names[SEG.traits][i], en: EN.names[SEG.traits][i] };
+}
+
 /* ---------- Personas: emparejadas por nombre en inglés ---------- */
 // Diferencias de escritura entre aqiu384 y el juego. El índice indica cuál
 // de los nombres repetidos es (Orpheus aparece dos veces: P3 hombre y mujer).
@@ -251,6 +265,8 @@ const ITEM_ALIAS = {
   'Judgement Cross': 'Judgment Cross',
   'Kuzuryu Gouhou': 'K. Gouhou',
   'Kuzuryu Gouhou EX': 'K. Gouhou EX',
+  "Emperor's Amulet": "Emperor's Charm",
+  "Emperor's Amulet R": "Emperor's Charm R",
 };
 const ITEM_SEGS = [
   [SEG.accessories, 'accessory'],

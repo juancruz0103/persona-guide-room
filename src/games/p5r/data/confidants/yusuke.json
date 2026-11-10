@@ -325,7 +325,7 @@
      "romance": false,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "Muy bien. , tú serás el modelo de hoy.",
+      "es": "Muy bien. (tu nombre), tú serás el modelo de hoy.",
       "en": "Very well. , you will have to be my model today."
      },
      "options": [
@@ -352,7 +352,7 @@
      "romance": false,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "¿Crees que algún día lograré plasmar la verdad, ?",
+      "es": "¿Crees que algún día lograré plasmar la verdad, (tu nombre)?",
       "en": "... Do you think I will be able to capture the truth someday?"
      },
      "options": [
@@ -435,7 +435,7 @@
      "romance": false,
      "speaker": "Yusuke",
      "prompt": {
-      "es": ", ¿tú que opinas? ¿Por qué decidió acogerme?",
+      "es": "(tu nombre), ¿tú que opinas? ¿Por qué decidió acogerme?",
       "en": "..., why do you think Madarame decided to take me in?"
      },
      "options": [
@@ -577,7 +577,7 @@
      "romance": false,
      "speaker": "Yusuke",
      "prompt": {
-      "es": ", ¿qué sujeto crees que lo capturaría mejor?",
+      "es": "(tu nombre), ¿qué sujeto crees que lo capturaría mejor?",
       "en": ", what subject do you think would most capture beauty?"
      },
      "options": [

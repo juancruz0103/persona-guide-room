@@ -410,7 +410,7 @@
      "romance": false,
      "speaker": "Ryuji",
      "prompt": {
-      "es": ", entiendes lo que trato de decir, ¿no?",
+      "es": "(tu nombre), entiendes lo que trato de decir, ¿no?",
       "en": "... You get what I'm tryin' to say, yeah?"
      },
      "options": [

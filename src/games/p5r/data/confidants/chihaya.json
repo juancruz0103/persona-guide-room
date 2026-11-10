@@ -213,7 +213,7 @@
      "romance": false,
      "speaker": "Chihaya",
      "prompt": {
-      "es": ", ¿cómo puedo llegar a ser como tu?",
+      "es": "(tu nombre), ¿cómo puedo llegar a ser como tu?",
       "en": "How can I become one of those people, -san?"
      },
      "options": [
@@ -465,7 +465,7 @@
      "romance": false,
      "speaker": "Chihaya",
      "prompt": {
-      "es": "Oye, , ¿te gustan las... maduritas?",
+      "es": "Oye, (tu nombre), ¿te gustan las... maduritas?",
       "en": "U-Um, -san... Are you... interested in older women...?"
      },
      "options": [
@@ -548,7 +548,7 @@
      "romance": true,
      "speaker": "Chihaya",
      "prompt": {
-      "es": ", ¿por qué vienes?",
+      "es": "(tu nombre), ¿por qué vienes?",
       "en": "-san... Why do you come here?"
      },
      "options": [
