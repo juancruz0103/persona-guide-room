@@ -6,7 +6,7 @@ import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { CalculatorHeader } from '../components/CalculatorHeader';
 import { PersonaSelect } from '../components/PersonaSelect';
 import { getArcana } from '../data/arcana';
-import { KIND_LABEL, getFusionEngine } from '../services/fusion';
+import { KIND_LABEL, getFusionEngine, sortRecipes, type RecipeSort, type RecipeSortKey } from '../services/fusion';
 import type { Persona } from '../types';
 import styles from './Fusion.module.css';
 import { personaName } from '../services/gameText';
@@ -28,6 +28,7 @@ export default function Fusion() {
   const [b, setB] = useState(params.get('b') ?? 'arsene');
   const target = params.get('persona') ?? '';
   const [shown, setShown] = useState(PAGE);
+  const [sort, setSort] = useState<RecipeSort | null>(null);
   const reverseRef = useRef<HTMLElement>(null);
 
   // Si una opción desactivada deja afuera a la Persona elegida, se limpia la selección.
@@ -51,6 +52,22 @@ export default function Fusion() {
   const targetP = target ? engine.getById(target) : undefined;
   const special = targetP ? engine.specialRecipe(targetP) : null;
   const recipes = useMemo(() => (targetP && !special ? engine.recipesFor(targetP) : []), [engine, targetP, special]);
+  const sorted = useMemo(() => sortRecipes(recipes, sort), [recipes, sort]);
+
+  // Cada clic: de menor a mayor → de mayor a menor → orden recomendado
+  const toggleSort = (key: RecipeSortKey) =>
+    setSort((s) => (s?.key !== key ? { key, dir: 'asc' } : s.dir === 'asc' ? { key, dir: 'desc' } : null));
+  const sortHeader = (key: RecipeSortKey, label: string, hint: string) => {
+    const active = sort?.key === key;
+    return (
+      <th scope="col" aria-sort={active ? (sort.dir === 'asc' ? 'ascending' : 'descending') : 'none'}>
+        <button type="button" className={`${styles.sortBtn} ${active ? styles.sortActive : ''}`} onClick={() => toggleSort(key)} title={hint}>
+          {label}
+          <span aria-hidden="true" className={styles.sortArrow}>{active ? (sort.dir === 'asc' ? '▲' : '▼') : '↕'}</span>
+        </button>
+      </th>
+    );
+  };
 
   const setTarget = (id: string) => {
     const next = new URLSearchParams(params);
@@ -166,7 +183,7 @@ export default function Fusion() {
             <>
               <p className={styles.count}>
                 {recipes.length
-                  ? <><strong>{recipes.length}</strong> combinaciones dan {personaName(targetP)}. Primero las normales, después las que usan Treasure Demons; cada grupo de menor a mayor nivel.</>
+                  ? <><strong>{recipes.length}</strong> combinaciones dan {personaName(targetP)}. {sort ? 'Tocá el mismo título de nuevo para cambiar el orden o volver al recomendado.' : 'Primero las normales, después las que usan Treasure Demons; cada grupo de menor a mayor nivel. Tocá un título para ordenar.'}</>
                   : <>Ninguna combinación de 2 Personas da {personaName(targetP)} con las opciones actuales.</>}
               </p>
               {recipes.length > 0 && (
@@ -174,14 +191,14 @@ export default function Fusion() {
                   <table className={styles.table}>
                     <thead>
                       <tr>
-                        <th scope="col">Ingrediente 1</th>
-                        <th scope="col">Ingrediente 2</th>
-                        <th scope="col">Niveles</th>
+                        {sortHeader('a', 'Ingrediente 1', 'Ordenar por nombre (A-Z)')}
+                        {sortHeader('b', 'Ingrediente 2', 'Ordenar por nombre (A-Z)')}
+                        {sortHeader('levels', 'Niveles', 'Ordenar por nivel (de menor a mayor)')}
                         <th scope="col">Tipo</th>
                       </tr>
                     </thead>
                     <tbody>
-                      {recipes.slice(0, shown).map((r) => (
+                      {sorted.slice(0, shown).map((r) => (
                         <tr key={`${r.a.id}-${r.b.id}`}>
                           <td><Link to={`/p5r/calculadora/persona/${r.a.id}`}>{personaName(r.a)}</Link> <small>{getArcana(r.a.arcana).name}</small></td>
                           <td><Link to={`/p5r/calculadora/persona/${r.b.id}`}>{personaName(r.b)}</Link> <small>{getArcana(r.b.arcana).name}</small></td>
