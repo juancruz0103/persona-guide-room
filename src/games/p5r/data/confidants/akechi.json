@@ -19,7 +19,6 @@
    "rank": 1,
    "conversations": [],
    "unlocks": [],
-   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -117,7 +116,7 @@
    ],
    "unlocks": [
     {
-     "name": "Sleuthing Instinct",
+     "name": "Instinto detectivesco",
      "description": "Al empezar un combate, a veces revela una afinidad de un enemigo."
     }
    ]
@@ -174,7 +173,8 @@
    "unlocks": [],
    "requirements": [
     "Conocimiento 3 y Encanto 3."
-   ]
+   ],
+   "noReward": true
   },
   {
    "rank": 4,
@@ -303,7 +303,7 @@
    ],
    "unlocks": [
     {
-     "name": "Sleuthing Mastery",
+     "name": "Maestría detectivesca",
      "description": "Al empezar un combate, revela todas las afinidades de un enemigo."
     }
    ]
@@ -389,8 +389,7 @@
      ]
     }
    ],
-   "unlocks": [],
-   "noReward": true
+   "unlocks": []
   },
   {
    "rank": 6,
@@ -566,23 +565,11 @@
      ]
     }
    ],
-   "unlocks": [
-    {
-     "name": "Baton Pass",
-     "description": "Después de un 1 More, Akechi puede pasarle el turno a otro compañero con Baton Pass."
-    },
-    {
-     "name": "Follow Up",
-     "description": "Akechi puede atacar después de Joker."
-    },
-    {
-     "name": "Detective Talk",
-     "description": "Akechi puede salvar una negociación con una Sombra que salió mal."
-    }
-   ],
+   "unlocks": [],
    "requirements": [
     "Que sea desde el 3 de septiembre."
-   ]
+   ],
+   "noReward": true
   },
   {
    "rank": 7,
@@ -632,7 +619,12 @@
      ]
     }
    ],
-   "unlocks": [],
+   "unlocks": [
+    {
+     "name": "Golpe de abanico",
+     "description": "Akechi puede curar estados alterados de los compañeros en combate."
+    }
+   ],
    "requirements": [
     "Conocimiento 4, y que sea desde el 2 de noviembre."
    ]
@@ -693,14 +685,12 @@
    "unlocks": [],
    "requirements": [
     "Llegar antes del 17 de noviembre: si no, el confidente queda bloqueado."
-   ],
-   "noReward": true
+   ]
   },
   {
    "rank": 9,
    "conversations": [],
    "unlocks": [],
-   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -708,8 +698,8 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Endure y Protect",
-     "description": "Akechi puede aguantar con 1 HP un golpe que lo derrotaría y recibir en lugar de Joker un ataque mortal. Se desbloquea la fusión de Metatrón."
+     "name": "Fusión de Metatrón",
+     "description": "Se desbloquea la fusión de Metatrón."
     }
    ],
    "choicesDontMatter": true

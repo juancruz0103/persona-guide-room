@@ -80,6 +80,7 @@ export function itemDescription(it: ItemInfo): { lines: ItemLine[]; note?: strin
 
   let note: string | undefined;
   if (it.type === 'unknown') note = 'Item de Royal: falta confirmar tipo y estadísticas.';
+  else if (it.source === 'juego') note = 'Comprobado en el juego.';
   else if (it.variantOf) note = `Versión mejorada de ${it.variantOf}: faltan sus estadísticas.`;
   else if (it.p5Stats) note = 'Estadísticas de P5 original: pueden variar en Royal.';
   if (lines.length <= (official ? 1 : 0) && !note) note = 'Sin datos todavía.';

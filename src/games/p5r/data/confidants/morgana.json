@@ -16,62 +16,60 @@
   {
    "rank": 1,
    "when": "Automático · 15/4",
-   "ability": "Infiltration Tools",
+   "ability": "Herramientas de infiltración",
    "description": "Fabricar herramientas de infiltración, como ganzúas, en tu cuarto."
   },
   {
    "rank": 2,
-   "when": "Al robar el primer Tesoro",
-   "ability": "Baton Pass",
-   "description": "Pasa el turno a otro aliado después de un 1 More."
+   "when": "Al robar el primer Tesoro"
   },
   {
    "rank": 3,
    "when": "Tras el segundo Palacio",
-   "ability": "Follow Up",
+   "ability": "Golpe de gracia",
    "description": "A veces ataca después de Joker."
   },
   {
    "rank": 4,
    "when": "Automático · 20/6",
-   "ability": "Kitty Talk",
+   "ability": "Mediación gatuna",
    "description": "Puede salvar una negociación que salió mal."
   },
   {
    "rank": 5,
    "when": "Tras el tercer Palacio",
-   "ability": "Pickpocket",
+   "ability": "Carterista",
    "description": "Puede robar un objeto con un ataque cuerpo a cuerpo."
   },
   {
    "rank": 6,
    "when": "Automático · 25/7",
-   "ability": "Ace Tools",
+   "ability": "Herramientas de as",
    "description": "Fabricar todos los tipos de herramientas."
   },
   {
    "rank": 7,
    "when": "Automático · 29/8",
-   "ability": "Harisen Recovery",
+   "ability": "Golpe de abanico",
    "description": "Puede curar estados alterados del grupo."
   },
   {
    "rank": 8,
    "when": "Automático · 17/9",
-   "ability": "Endure",
+   "ability": "Último aliento",
    "description": "Puede aguantar un golpe que lo derrotaría."
   },
   {
    "rank": 9,
    "when": "Tras el quinto Palacio",
-   "ability": "Protect",
+   "ability": "Protección",
    "description": "Protege a Joker de un ataque fatal."
   },
   {
    "rank": 10,
    "when": "Automático · 23/11",
-   "ability": "Second Awakening",
-   "description": "Su Persona evoluciona a la forma final."
+   "ability": "Segundo despertar",
+   "description": "Su Persona evoluciona a la forma final. En el tercer semestre gana Segundo despertar R: vuelve a evolucionar, a Diego."
   }
  ]
 }

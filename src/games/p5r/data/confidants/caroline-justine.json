@@ -25,7 +25,7 @@
     ]
    ],
    "reward": {
-    "name": "Group Guillotine",
+    "name": "Guillotina grupal",
     "description": "Fusionar 3 Personas a la vez."
    }
   },
@@ -54,7 +54,7 @@
    ],
    "note": "Eligor tiene que estar en Nv 16 para heredar Tarukaja.",
    "reward": {
-    "name": "Lockdown",
+    "name": "Confinamiento",
     "description": "Las Personas encerradas ganan skills de resistencia."
    }
   },
@@ -81,7 +81,7 @@
     ]
    ],
    "reward": {
-    "name": "Special Treatment",
+    "name": "Trato especial",
     "description": "Fusionar Personas de nivel mayor al de Joker, pagando."
    }
   },
@@ -122,7 +122,7 @@
    ],
    "note": "Lilim tiene que haber aprendido Masukunda.",
    "reward": {
-    "name": "Guillotine Booster",
+    "name": "Guillotina mejorada",
     "description": "Fusionar 4 o más Personas a la vez."
    }
   },
@@ -153,7 +153,7 @@
    ],
    "note": "La skill se pone con la skill card de un pedido de Mementos.",
    "reward": {
-    "name": "VIP Treatment",
+    "name": "Trato vip",
     "description": "Gran descuento en Special Measures."
    }
   }

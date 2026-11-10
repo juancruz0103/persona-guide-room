@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { personaImage } from '../services/images';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { CalculatorHeader } from '../components/CalculatorHeader';
 import { PersonaSelect } from '../components/PersonaSelect';
@@ -67,6 +68,7 @@ export default function Fusion() {
       {p ? (
         <Link to={`/p5r/calculadora/persona/${p.id}`} className={styles.slotLink}>
           <ImagePlaceholder className={styles.slotImage} label={personaName(p)} hint={personaLabel(p)}
+            src={personaImage(p.id, 'side')} focus="50% 30%"
             corner={getArcana(p.arcana).numeral} />
         </Link>
       ) : (
@@ -101,7 +103,8 @@ export default function Fusion() {
             <div role="status" aria-live="polite">
               {result ? (
                 <Link to={`/p5r/calculadora/persona/${result.result.id}`} className={styles.resultCard}>
-                  <ImagePlaceholder className={styles.resultImage} label="Imagen de Persona"
+                  <ImagePlaceholder className={styles.resultImage} label={personaName(result.result)}
+                    src={personaImage(result.result.id, 'side')} focus="50% 15%"
                     corner={getArcana(result.result.arcana).numeral} />
                   <span className={styles.resultBody}>
                     <span className={styles.kind}>{KIND_LABEL[result.kind]}</span>

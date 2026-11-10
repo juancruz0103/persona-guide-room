@@ -18,12 +18,12 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Down Shot",
+     "name": "Disparo de derribo",
      "description": "Gastas todo el cargador para derribar seguro a un enemigo. Cada rango da además puntos extra de Gentileza."
     }
    ],
    "requirements": [
-    "Completar la misión de Mementos «Winners Don't Use Cheats»: Un jugador de Gun About, el famoso videojuego, hace trampas para ganar las partidas online. Mishima te escribe sobre ella el 4 de septiembre."
+    "Completar la misión de Mementos «Los ganadores no hacen trampas»: Un jugador de Gun About, el famoso videojuego, hace trampas para ganar las partidas online. Mishima te escribe sobre ella el 4 de septiembre."
    ],
    "noData": true
   },
@@ -136,7 +136,7 @@
    ],
    "unlocks": [
     {
-     "name": "Bullet Hail",
+     "name": "Lluvia de balas",
      "description": "Después de una emboscada, a veces lanzas un ataque con armas de todo el grupo."
     }
    ]
@@ -174,7 +174,7 @@
    ],
    "unlocks": [
     {
-     "name": "Warning Shot",
+     "name": "Disparo de aviso",
      "description": "En una negociación puedes intimidar a la Sombra para que se una a ti."
     }
    ]
@@ -246,14 +246,90 @@
   },
   {
    "rank": 5,
-   "conversations": [],
-   "unlocks": [
+   "conversations": [
     {
-     "name": "Ammo Pouch",
-     "description": "Más balas por arma."
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Sentía que no podía competir... No sé qué hacer.",
+      "en": "I mean, I couldn't do anything to him... There's just no way."
+     },
+     "options": [
+      {
+       "es": "Me pareció un poco raro.",
+       "en": "It was pretty weird.",
+       "points": 0
+      },
+      {
+       "es": "Cosas que pasan.",
+       "en": "It happens.",
+       "points": 0
+      },
+      {
+       "es": "Seguro que hizo trampas.",
+       "en": "He must've rigged it.",
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "¡Lo voy a humillar sin piedad!",
+      "en": "I'm definitely gonna demolish him!"
+     },
+     "options": [
+      {
+       "es": "¿Crees que puedes con él?",
+       "en": "You think you have a chance?",
+       "points": 0
+      },
+      {
+       "es": "Confío en ti.",
+       "en": "I'm sure you can do it.",
+       "points": 2
+      },
+      {
+       "es": "No te pongas tenso.",
+       "en": "Don't get so worked up.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "La estrategia de la otra vez fue un fracaso...",
+      "en": "The strategy I used last time didn't work..."
+     },
+     "options": [
+      {
+       "es": "¿Te das por vencido?",
+       "en": "Are you going to give up?",
+       "points": 0
+      },
+      {
+       "es": "Necesitas otra estrategia...",
+       "en": "You need a new strategy.",
+       "points": 3
+      }
+     ]
     }
    ],
-   "noData": true
+   "unlocks": [
+    {
+     "name": "Balas enlazadas",
+     "description": "Más balas por arma."
+    }
+   ]
   },
   {
    "rank": 6,
@@ -310,8 +386,8 @@
    ],
    "unlocks": [
     {
-     "name": "Cheap Shot",
-     "description": "Down Shot gasta menos balas."
+     "name": "Golpe bajo",
+     "description": "Disparo de derribo gasta menos balas."
     }
    ]
   },
@@ -385,14 +461,14 @@
     },
     {
      "kind": "mementos",
-     "title": "A Mother's Aggression",
+     "title": "La agresión de una madre",
      "description": "La madre de Shinya, Hanae Oda, tiene un problema de agresividad que afecta gravemente a su hijo."
     }
    ],
    "unlocks": [
     {
-     "name": "Electric Slug",
-     "description": "Bullet Hail hace más daño."
+     "name": "Electrobalas",
+     "description": "Lluvia de balas hace más daño."
     }
    ]
   },
@@ -456,7 +532,7 @@
    ],
    "unlocks": [],
    "requirements": [
-    "Completar la misión de Mementos «A Mother's Aggression»."
+    "Completar la misión de Mementos «La agresión de una madre»."
    ],
    "noReward": true
   },
@@ -465,7 +541,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Oda Special",
+     "name": "Especial de Oda",
      "description": "Los ataques de Joker ignoran las resistencias. Se desbloquea la fusión de Mada."
     }
    ],

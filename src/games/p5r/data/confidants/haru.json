@@ -16,7 +16,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Cultivation",
+     "name": "Cultivo",
      "description": "Puedes cultivar verduras en la azotea de la escuela."
     }
    ],
@@ -107,15 +107,11 @@
      ]
     }
    ],
-   "unlocks": [
-    {
-     "name": "Baton Pass",
-     "description": "Después de un 1 More, Haru puede pasarle el turno a otro compañero con Baton Pass."
-    }
-   ],
+   "unlocks": [],
    "requirements": [
     "Destreza 5."
-   ]
+   ],
+   "noReward": true
   },
   {
    "rank": 3,
@@ -204,7 +200,7 @@
    ],
    "unlocks": [
     {
-     "name": "Follow Up",
+     "name": "Golpe de gracia",
      "description": "Haru puede atacar después de Joker."
     }
    ]
@@ -350,7 +346,7 @@
    ],
    "unlocks": [
     {
-     "name": "Celeb Talk",
+     "name": "Mediación carismática",
      "description": "Haru puede salvar una negociación con una Sombra que salió mal."
     }
    ]
@@ -442,7 +438,7 @@
    ],
    "unlocks": [
     {
-     "name": "Selective Breeding",
+     "name": "Cosecha abundante",
      "description": "Las verduras de la azotea dan más cosecha."
     }
    ]
@@ -556,7 +552,7 @@
    ],
    "unlocks": [
     {
-     "name": "Harisen Recovery",
+     "name": "Golpe de abanico",
      "description": "Haru puede curar estados alterados de los compañeros en combate."
     }
    ]
@@ -621,7 +617,7 @@
    ],
    "unlocks": [
     {
-     "name": "Soil Improvement",
+     "name": "Mejora de tierra",
      "description": "Las verduras tardan menos en crecer."
     }
    ]
@@ -713,7 +709,7 @@
    ],
    "unlocks": [
     {
-     "name": "Endure",
+     "name": "Último aliento",
      "description": "Haru puede aguantar con 1 HP un golpe que la derrotaría."
     }
    ]
@@ -801,7 +797,7 @@
    ],
    "unlocks": [
     {
-     "name": "Protect",
+     "name": "Protección",
      "description": "Haru puede recibir en lugar de Joker un ataque que lo derrotaría."
     }
    ]
@@ -811,8 +807,12 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "La Persona de Haru evoluciona a Astarté. Se desbloquea la fusión de Ramera babilónica."
+    },
+    {
+     "name": "Segundo despertar R",
+     "description": "En el tercer semestre la Persona de Haru vuelve a evolucionar, a Lucy."
     }
    ],
    "choicesDontMatter": true

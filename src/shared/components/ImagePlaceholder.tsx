@@ -10,13 +10,25 @@ interface Props {
   corner?: ReactNode;
   badge?: ReactNode;
   className?: string;
+  /** Si hay foto, se muestra en lugar del marcador (las esquinas se mantienen) */
+  src?: string;
+  /** Encuadre de la foto (object-position), por ejemplo «50% 20%» */
+  focus?: string;
 }
 
 /**
  * Marca el lugar donde irá una imagen oficial o ilustración.
  * Cuando haya imagen, este componente se reemplaza por <img> sin tocar el layout.
  */
-export function ImagePlaceholder({ label, hint, icon = 'image', corner, badge, className }: Props) {
+export function ImagePlaceholder({ label, hint, icon = 'image', corner, badge, className, src, focus }: Props) {
+  if (src)
+    return (
+      <div className={`${styles.box} ${styles.withImage} ${className ?? ''}`}>
+        <img className={styles.img} src={src} alt={label} loading="lazy" decoding="async" style={focus ? { objectPosition: focus } : undefined} />
+        {corner && <span className={styles.corner}>{corner}</span>}
+        {badge && <span className={styles.badge}>{badge}</span>}
+      </div>
+    );
   return (
     <div className={`img-stripes ${styles.box} ${className ?? ''}`} role="img" aria-label={label}>
       {icon === 'image' ? (

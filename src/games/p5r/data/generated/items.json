@@ -43,8 +43,17 @@
  },
  "Ancient Day": {
   "name": "Ancient Day",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 420,
+   "accuracy": 85,
+   "rounds": 5
+  },
+  "effects": [
+   "Todas las estadísticas +6"
+  ],
+  "variantOf": null
  },
  "Archangel Bra": {
   "name": "Archangel Bra",
@@ -141,8 +150,16 @@
  },
  "Big Bear Gloves": {
   "name": "Big Bear Gloves",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 260,
+   "accuracy": 90
+  },
+  "effects": [
+   "Más probabilidad de crítico (media)"
+  ],
+  "variantOf": null
  },
  "Black Headband": {
   "name": "Black Headband",
@@ -200,13 +217,17 @@
  },
  "Black Wing Robe R": {
   "name": "Black Wing Robe R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Black Wing Robe",
   "type": "armor",
   "gender": "unisex",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "defense": 270,
+   "evasion": 20
+  },
+  "effects": [
+   "Reduce el daño de Nuclear (alta)"
+  ]
  },
  "Blazing Horns": {
   "name": "Blazing Horns",
@@ -240,8 +261,16 @@
  },
  "Blood Red Capote": {
   "name": "Blood Red Capote",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 120,
+   "evasion": 20
+  },
+  "effects": [
+   "Agilidad +3"
+  ],
+  "variantOf": null
  },
  "Bloodbath": {
   "name": "Bloodbath",
@@ -251,8 +280,16 @@
  },
  "Bloodied Capote": {
   "name": "Bloodied Capote",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 130,
+   "evasion": 20
+  },
+  "effects": [
+   "Agilidad +6"
+  ],
+  "variantOf": null
  },
  "Brain Jack": {
   "name": "Brain Jack",
@@ -314,8 +351,17 @@
  },
  "Cat Buster": {
   "name": "Cat Buster",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 170,
+   "accuracy": 90,
+   "rounds": 5
+  },
+  "effects": [
+   "Puede causar Sueño (media)"
+  ],
+  "variantOf": null
  },
  "Catnap": {
   "name": "Catnap",
@@ -341,13 +387,29 @@
  },
  "Claiomh Solais": {
   "name": "Claiomh Solais",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 315,
+   "accuracy": 90
+  },
+  "effects": [
+   "+50 SP máximo"
+  ],
+  "variantOf": null
  },
  "Claiomh Solais R": {
   "name": "Claiomh Solais R",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 330,
+   "accuracy": 90
+  },
+  "effects": [
+   "+50 SP máximo"
+  ],
+  "variantOf": null
  },
  "Cleave": {
   "name": "Cleave",
@@ -411,8 +473,16 @@
  },
  "Dainaraka Whip": {
   "name": "Dainaraka Whip",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 320,
+   "accuracy": 90
+  },
+  "effects": [
+   "Puede causar Congelación (alta)"
+  ],
+  "variantOf": null
  },
  "Dark Flame Band": {
   "name": "Dark Flame Band",
@@ -422,8 +492,16 @@
  },
  "Dark Jacket": {
   "name": "Dark Jacket",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 225,
+   "evasion": 18
+  },
+  "effects": [
+   "Evita la muerte instantánea de Maldición"
+  ],
+  "variantOf": null
  },
  "Darkness Ring": {
   "name": "Darkness Ring",
@@ -466,8 +544,16 @@
  },
  "Death Promise": {
   "name": "Death Promise",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 200,
+   "accuracy": 80
+  },
+  "effects": [
+   "Puede causar Desesperación (media)"
+  ],
+  "variantOf": null
  },
  "Death Scythe": {
   "name": "Death Scythe",
@@ -543,8 +629,17 @@
  },
  "Doomsday": {
   "name": "Doomsday",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 330,
+   "accuracy": 85,
+   "rounds": 5
+  },
+  "effects": [
+   "Todas las estadísticas +5"
+  ],
+  "variantOf": null
  },
  "Dormin Rush": {
   "name": "Dormin Rush",
@@ -686,28 +781,68 @@
  },
  "Fairy Hero Armor": {
   "name": "Fairy Hero Armor",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 180,
+   "evasion": 15
+  },
+  "effects": [
+   "Magia +7"
+  ],
+  "variantOf": null
  },
  "Fairy Knight Armor": {
   "name": "Fairy Knight Armor",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 170,
+   "evasion": 15
+  },
+  "effects": [
+   "Magia +4"
+  ],
+  "variantOf": null
  },
  "Fine Ruyi Jingu Bang": {
   "name": "Fine Ruyi Jingu Bang",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 290,
+   "accuracy": 88
+  },
+  "effects": [
+   "Tarukaja automático al empezar el combate"
+  ],
+  "variantOf": null
  },
  "Fine Silk Dress": {
   "name": "Fine Silk Dress",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 100,
+   "evasion": 14
+  },
+  "effects": [
+   "Más evasión contra magia (media)"
+  ],
+  "variantOf": null
  },
  "Fine Tapsuan": {
   "name": "Fine Tapsuan",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 195,
+   "evasion": 15
+  },
+  "effects": [
+   "Más evasión contra Viento (alta)"
+  ],
+  "variantOf": null
  },
  "Fire Dragon Horn": {
   "name": "Fire Dragon Horn",
@@ -745,13 +880,18 @@
  },
  "Fleurs du Mal R": {
   "name": "Fleurs du Mal R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Fleurs du Mal",
   "type": "melee",
   "owner": "noir",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 345,
+   "accuracy": 86
+  },
+  "effects": [
+   "Magia +6",
+   "Puede causar Mareo (alta)"
+  ]
  },
  "Foul Breath": {
   "name": "Foul Breath",
@@ -773,8 +913,16 @@
  },
  "Frost Ace Hood": {
   "name": "Frost Ace Hood",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 120,
+   "evasion": 20
+  },
+  "effects": [
+   "+40 SP máximo"
+  ],
+  "variantOf": null
  },
  "Frost Hood": {
   "name": "Frost Hood",
@@ -865,13 +1013,29 @@
  },
  "Godsent Dress": {
   "name": "Godsent Dress",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 110,
+   "evasion": 14
+  },
+  "effects": [
+   "Magia +6"
+  ],
+  "variantOf": null
  },
  "Gordios": {
   "name": "Gordios",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 30,
+   "accuracy": 95
+  },
+  "effects": [
+   "Más probabilidad de crítico (alta)"
+  ],
+  "variantOf": null
  },
  "Graceful Harp": {
   "name": "Graceful Harp",
@@ -887,8 +1051,16 @@
  },
  "Great Thief Stick": {
   "name": "Great Thief Stick",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 150,
+   "accuracy": 92
+  },
+  "effects": [
+   "Puede causar estado alterado al azar (media)"
+  ],
+  "variantOf": null
  },
  "Growth 2": {
   "name": "Growth 2",
@@ -922,8 +1094,17 @@
  },
  "Gungnir": {
   "name": "Gungnir",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 408,
+   "accuracy": 90,
+   "rounds": 12
+  },
+  "effects": [
+   "Puede causar Desesperación (media)"
+  ],
+  "variantOf": null
  },
  "Hades Harp": {
   "name": "Hades Harp",
@@ -978,13 +1159,17 @@
  },
  "Headhunter Ladle EX": {
   "name": "Headhunter Ladle EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Headhunter Ladle",
   "type": "melee",
   "owner": "mona",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 150,
+   "accuracy": 90
+  },
+  "effects": [
+   "Más probabilidad de crítico (media)"
+  ]
  },
  "Heat Riser": {
   "name": "Heat Riser",
@@ -1016,8 +1201,16 @@
  },
  "Heavensent Dress": {
   "name": "Heavensent Dress",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 105,
+   "evasion": 14
+  },
+  "effects": [
+   "Magia +4"
+  ],
+  "variantOf": null
  },
  "Hex Ring": {
   "name": "Hex Ring",
@@ -1027,8 +1220,16 @@
  },
  "High Archangel Bra": {
   "name": "High Archangel Bra",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 325,
+   "evasion": 20
+  },
+  "effects": [
+   "Reduce el daño de Eléctrico (alta)"
+  ],
+  "variantOf": null
  },
  "High Counter": {
   "name": "High Counter",
@@ -1038,13 +1239,29 @@
  },
  "Hinokagutsuchi": {
   "name": "Hinokagutsuchi",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 350,
+   "accuracy": 90
+  },
+  "effects": [
+   "Puede causar Quemadura (media)"
+  ],
+  "variantOf": null
  },
  "Hinokagutsuchi II": {
   "name": "Hinokagutsuchi II",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 360,
+   "accuracy": 90
+  },
+  "effects": [
+   "Puede causar Quemadura (alta)"
+  ],
+  "variantOf": null
  },
  "Hope Diamond": {
   "name": "Hope Diamond",
@@ -1078,8 +1295,16 @@
  },
  "Imprisoned Mjolnir": {
   "name": "Imprisoned Mjolnir",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 324,
+   "accuracy": 88
+  },
+  "effects": [
+   "Los ataques hacen daño de Eléctrico"
+  ],
+  "variantOf": null
  },
  "Inferno": {
   "name": "Inferno",
@@ -1107,13 +1332,31 @@
  },
  "Judge End": {
   "name": "Judge End",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 432,
+   "accuracy": 75,
+   "rounds": 6
+  },
+  "effects": [
+   "Todas las estadísticas +11"
+  ],
+  "variantOf": null
  },
  "Judge of Hell": {
   "name": "Judge of Hell",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 340,
+   "accuracy": 75,
+   "rounds": 6
+  },
+  "effects": [
+   "Todas las estadísticas +10"
+  ],
+  "variantOf": null
  },
  "Judgement Cross": {
   "name": "Judgement Cross",
@@ -1156,13 +1399,17 @@
  },
  "King Frost Cape EX": {
   "name": "King Frost Cape EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "King Frost Cape",
   "type": "armor",
   "gender": "unisex",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "defense": 280,
+   "evasion": 16
+  },
+  "effects": [
+   "Reduce el daño de Hielo (alta)"
+  ]
  },
  "Koh-i-Noor": {
   "name": "Koh-i-Noor",
@@ -1224,13 +1471,18 @@
  },
  "Kuzuryu Gouhou EX": {
   "name": "Kuzuryu Gouhou EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Kuzuryu Gouhou",
   "type": "gun",
   "owner": "fox",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 320,
+   "accuracy": 75,
+   "rounds": 10
+  },
+  "effects": [
+   "Fuerza +7"
+  ]
  },
  "Lucky Punch": {
   "name": "Lucky Punch",
@@ -1240,8 +1492,16 @@
  },
  "Lucky Robe": {
   "name": "Lucky Robe",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 210,
+   "evasion": 18
+  },
+  "effects": [
+   "Suerte +5"
+  ],
+  "variantOf": null
  },
  "Lullaby": {
   "name": "Lullaby",
@@ -1452,13 +1712,17 @@
  },
  "Masquerade Ribbon R": {
   "name": "Masquerade Ribbon R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Masquerade Ribbon",
   "type": "melee",
   "owner": "panther",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 250,
+   "accuracy": 88
+  },
+  "effects": [
+   "Puede causar Mareo (media)"
+  ]
  },
  "Masukunda": {
   "name": "Masukunda",
@@ -1528,8 +1792,17 @@
  },
  "Megido Blaster": {
   "name": "Megido Blaster",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 456,
+   "accuracy": 85,
+   "rounds": 3
+  },
+  "effects": [
+   "Puede causar Quemadura (alta)"
+  ],
+  "variantOf": null
  },
  "Megido Fire": {
   "name": "Megido Fire",
@@ -1595,13 +1868,18 @@
  },
  "Mirrirmina EX": {
   "name": "Mirrirmina EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Mirrirmina",
   "type": "gun",
   "owner": "queen",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 235,
+   "accuracy": 75,
+   "rounds": 6
+  },
+  "effects": [
+   "Magia +7"
+  ]
  },
  "Mjolnir": {
   "name": "Mjolnir",
@@ -1635,13 +1913,17 @@
  },
  "Moonlight Robe R": {
   "name": "Moonlight Robe R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Moonlight Robe",
   "type": "armor",
   "gender": "female",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "defense": 70,
+   "evasion": 30
+  },
+  "effects": [
+   "Puede reflejar ataques de Físico (alta)"
+  ]
  },
  "Mudo": {
   "name": "Mudo",
@@ -1706,13 +1988,18 @@
  },
  "Nataraja EX": {
   "name": "Nataraja EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Nataraja",
   "type": "gun",
   "owner": "joker",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 420,
+   "accuracy": 85,
+   "rounds": 8
+  },
+  "effects": [
+   "Todas las estadísticas +6"
+  ]
  },
  "Nocturnal Flash": {
   "name": "Nocturnal Flash",
@@ -1803,13 +2090,17 @@
  },
  "Official's Robe R": {
   "name": "Official's Robe R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Official's Robe",
   "type": "armor",
   "gender": "male",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "defense": 295,
+   "evasion": 20
+  },
+  "effects": [
+   "Más evasión contra Maldición (alta)"
+  ]
  },
  "Ominous Words": {
   "name": "Ominous Words",
@@ -1876,18 +2167,31 @@
  },
  "Paradise Lost R": {
   "name": "Paradise Lost R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Paradise Lost",
   "type": "melee",
   "owner": "joker",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 340,
+   "accuracy": 98
+  },
+  "effects": [
+   "Reduce el daño de Maldición (alta)"
+  ]
  },
  "Paw-omber": {
   "name": "Paw-omber",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 220,
+   "accuracy": 70,
+   "rounds": 1
+  },
+  "effects": [
+   "Puede causar Confusión (media)"
+  ],
+  "variantOf": null
  },
  "Pawzooka": {
   "name": "Pawzooka",
@@ -1919,8 +2223,17 @@
  },
  "Pink Buster": {
   "name": "Pink Buster",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 135,
+   "accuracy": 90,
+   "rounds": 12
+  },
+  "effects": [
+   "Puede causar Manipulación (media)"
+  ],
+  "variantOf": null
  },
  "Power Slash": {
   "name": "Power Slash",
@@ -1936,8 +2249,17 @@
  },
  "Providence": {
   "name": "Providence",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 420,
+   "accuracy": 75,
+   "rounds": 10
+  },
+  "effects": [
+   "Agilidad +13"
+  ],
+  "variantOf": null
  },
  "Psio": {
   "name": "Psio",
@@ -1981,8 +2303,17 @@
  },
  "Pumpkin Buster": {
   "name": "Pumpkin Buster",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 160,
+   "accuracy": 85,
+   "rounds": 3
+  },
+  "effects": [
+   "Puede causar Quemadura (alta)"
+  ],
+  "variantOf": null
  },
  "Queen's Necklace": {
   "name": "Queen's Necklace",
@@ -2202,13 +2533,31 @@
  },
  "Sahasrara": {
   "name": "Sahasrara",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 320,
+   "accuracy": 90,
+   "rounds": 10
+  },
+  "effects": [
+   "Todas las estadísticas +5"
+  ],
+  "variantOf": null
  },
  "Sahasrara EX": {
   "name": "Sahasrara EX",
-  "type": "unknown",
-  "source": null
+  "type": "gun",
+  "source": "juego",
+  "stats": {
+   "attack": 414,
+   "accuracy": 90,
+   "rounds": 10
+  },
+  "effects": [
+   "Todas las estadísticas +6"
+  ],
+  "variantOf": null
  },
  "Salvation": {
   "name": "Salvation",
@@ -2239,13 +2588,17 @@
  },
  "Senryou Yakusha R": {
   "name": "Senryou Yakusha R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Senryou Yakusha",
   "type": "melee",
   "owner": "fox",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 140,
+   "accuracy": 90
+  },
+  "effects": [
+   "Fuerza +6"
+  ]
  },
  "Shiny Belt": {
   "name": "Shiny Belt",
@@ -2276,13 +2629,29 @@
  },
  "Sirius Armor": {
   "name": "Sirius Armor",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 305,
+   "evasion": 10
+  },
+  "effects": [
+   "Reduce el daño de magia (alta)"
+  ],
+  "variantOf": null
  },
  "Sirius Armor EX": {
   "name": "Sirius Armor EX",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 330,
+   "evasion": 10
+  },
+  "effects": [
+   "Reduce el daño de magia (alta)"
+  ],
+  "variantOf": null
  },
  "Skull Cracker": {
   "name": "Skull Cracker",
@@ -2313,13 +2682,17 @@
  },
  "Snow Queen's Whip II": {
   "name": "Snow Queen's Whip II",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Snow Queen's Whip",
   "type": "melee",
   "owner": "panther",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 280,
+   "accuracy": 90
+  },
+  "effects": [
+   "Sukukaja automático al empezar el combate"
+  ]
  },
  "Snow Ring": {
   "name": "Snow Ring",
@@ -2579,13 +2952,18 @@
  },
  "Sudarshana EX": {
   "name": "Sudarshana EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Sudarshana",
   "type": "gun",
   "owner": "mona",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 396,
+   "accuracy": 90,
+   "rounds": 5
+  },
+  "effects": [
+   "Puede causar Mareo (alta)"
+  ]
  },
  "Sukunda": {
   "name": "Sukunda",
@@ -2595,8 +2973,16 @@
  },
  "Super Lucky Robe": {
   "name": "Super Lucky Robe",
-  "type": "unknown",
-  "source": null
+  "type": "armor",
+  "source": "juego",
+  "stats": {
+   "defense": 220,
+   "evasion": 18
+  },
+  "effects": [
+   "Suerte +10"
+  ],
+  "variantOf": null
  },
  "Swift Strike": {
   "name": "Swift Strike",
@@ -2624,13 +3010,29 @@
  },
  "Sword of Sinai": {
   "name": "Sword of Sinai",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 345,
+   "accuracy": 95
+  },
+  "effects": [
+   "Puede causar Mareo (media)"
+  ],
+  "variantOf": null
  },
  "Sword of Sinai II": {
   "name": "Sword of Sinai II",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 365,
+   "accuracy": 95
+  },
+  "effects": [
+   "Puede causar Mareo (alta)"
+  ],
+  "variantOf": null
  },
  "Tantric Oath": {
   "name": "Tantric Oath",
@@ -2649,13 +3051,17 @@
  },
  "Tantric Oath R": {
   "name": "Tantric Oath R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Tantric Oath",
   "type": "armor",
   "gender": "male",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "defense": 350,
+   "evasion": 18
+  },
+  "effects": [
+   "Reduce el daño de magia (alta)"
+  ]
  },
  "Tapsuan": {
   "name": "Tapsuan",
@@ -2750,18 +3156,31 @@
  },
  "Tyrant Pistol EX": {
   "name": "Tyrant Pistol EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Tyrant Pistol",
   "type": "gun",
   "owner": "joker",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 444,
+   "accuracy": 85,
+   "rounds": 8
+  },
+  "effects": [
+   "Magia +15"
+  ]
  },
  "Unparalleled Vajra": {
   "name": "Unparalleled Vajra",
-  "type": "unknown",
-  "source": null
+  "type": "melee",
+  "source": "juego",
+  "stats": {
+   "attack": 325,
+   "accuracy": 90
+  },
+  "effects": [
+   "Puede causar estado alterado al azar (alta)"
+  ],
+  "variantOf": null
  },
  "Usumidori": {
   "name": "Usumidori",
@@ -2780,13 +3199,17 @@
  },
  "Usumidori R": {
   "name": "Usumidori R",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Usumidori",
   "type": "melee",
   "owner": "fox",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 340,
+   "accuracy": 88
+  },
+  "effects": [
+   "Puede causar Miedo (alta)"
+  ]
  },
  "Vajra": {
   "name": "Vajra",
@@ -2890,13 +3313,18 @@
  },
  "Yagrush EX": {
   "name": "Yagrush EX",
-  "source": "quan",
-  "p5Stats": true,
+  "source": "juego",
   "variantOf": "Yagrush",
   "type": "gun",
   "owner": "noir",
-  "stats": {},
-  "effects": []
+  "stats": {
+   "attack": 432,
+   "accuracy": 70,
+   "rounds": 1
+  },
+  "effects": [
+   "Puede causar Electrocución (alta)"
+  ]
  },
  "Zio": {
   "name": "Zio",

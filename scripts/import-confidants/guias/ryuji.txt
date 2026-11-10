@@ -8,17 +8,16 @@
 2 | TEL | I should've kept up my running. | Debería haber seguido corriendo. | You're already fast enough. | Ya eres bastante rápido. | 2
 2 | TEL | I should've kept up my running. | Debería haber seguido corriendo. | Are your legs okay? | ¿Tus piernas están bien? | 2
 2 | TEL | I should've kept up my running. | Debería haber seguido corriendo. | It's never too late, man. | Nunca es tarde, tío. | 2
-2 | DESBLOQUEO | Baton Pass | Después de un 1 More, Ryuji puede pasarle el turno a otro compañero con Baton Pass.
 3 | Let's not fight. | 2
 3 | Calm down, Ryuji. | 3
 3 | Just endure it. | 2
 3 | TEL | I get pissed off so damn easily. I really gotta work on that. | Me cabreo muy fácilmente. Tengo que trabajar en eso. | I can't exactly blame you. | No puedo culparte. | 2
-3 | DESBLOQUEO | Follow Up | Ryuji puede atacar después de Joker.
+3 | DESBLOQUEO | Golpe de gracia | Ryuji puede atacar después de Joker.
 4 | Are you worried about him? | 3
 4 | I know how you feel. | 3
 4 | But you're doing great. | 3
 4 | It's not so bad. | 2
-4 | DESBLOQUEO | Punk Talk | Ryuji puede salvar una negociación con una Sombra que salió mal. También desbloquea el ramen de Ogikubo.
+2 | DESBLOQUEO | Mediación agresiva | Ryuji puede salvar una negociación con una Sombra que salió mal. También desbloquea el ramen de Ogikubo.
 5 | Protein powder? | 3
 5 | A towel? | 2
 5 | You seem conflicted. | 2
@@ -34,11 +33,11 @@
 6 | Absolutely. | 3
 6 | More or less. | 3
 6 | TEL | He'll keep his mouth shut whether or not someone's punchin' him. | Se va a callar aunque le peguen. | So he should've punched back? | ¿Entonces debería haber devuelto el golpe? | 2
-6 | DESBLOQUEO | Harisen Recovery | Cura estados alterados del grupo cuando Ryuji está en el equipo.
+6 | DESBLOQUEO | Golpe de abanico | Cura estados alterados del grupo cuando Ryuji está en el equipo.
 7 | Let's talk to Takeishi. | 3
 7 | I think it's cool, Ryuji. | 3
 7 | Wait, what? | 2
-7 | DESBLOQUEO | Insta-kill | Después de una emboscada puede ganar el combate al instante (más probable con enemigos débiles).
+7 | DESBLOQUEO | Muerte instantánea | Después de una emboscada puede ganar el combate al instante (más probable con enemigos débiles).
 8 | Things turned out for the best. | 3
 8 | You deserved it. | 3
 8 | All I did was watch. | 3
@@ -46,7 +45,7 @@
 8 | You weren't cool though. | 3
 8 | But I was just standing here... | 2
 8 | TEL | Seein' them havin' a real heart-to-heart talk... They got a good team. | Verlos hablar de corazón... Tienen un buen equipo. | So. Case closed? | Entonces, ¿caso cerrado? | 2
-8 | DESBLOQUEO | Endure | Puede aguantar un golpe que lo derrotaría.
+8 | DESBLOQUEO | Último aliento | Puede aguantar un golpe que lo derrotaría.
 9 | Are you satisfied now? | 3
 9 | Not running? | 2
 9 | Don't do it. | 3
@@ -57,7 +56,9 @@
 9 | I agree. | 2
 9 | TEL | Sounds like they got him under control. | Parece que lo tienen bajo control. | Congratulations. | Felicidades. | 2
 9 | TEL | Sounds like they got him under control. | Parece que lo tienen bajo control. | Better watch out for them. | Más vale que tengas cuidado con ellos. | 2
-9 | DESBLOQUEO | Protect | Ryuji puede proteger a Joker de un ataque que lo derrotaría.
-10 | DESBLOQUEO | Second Awakening | Su Persona evoluciona a Seiten Taisei. Además se desbloquea la fusión de Chi You.
+9 | DESBLOQUEO | Protección | Ryuji puede proteger a Joker de un ataque que lo derrotaría.
+10 | DESBLOQUEO | Segundo despertar | Su Persona evoluciona a Seiten Taisei. Además se desbloquea la fusión de Chi You.
 1 | SINRECOMPENSA
 5 | SINRECOMPENSA
+4 | DESBLOQUEO | Esprint sigiloso | En los Palacios, Joker se mueve más rápido sin que lo detecten.
+10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Ryuji vuelve a evolucionar, a William.

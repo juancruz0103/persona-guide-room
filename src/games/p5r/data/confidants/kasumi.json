@@ -104,7 +104,7 @@
    ],
    "unlocks": [
     {
-     "name": "Tumbling",
+     "name": "Voltereta",
      "description": "En un Palacio, a veces evita que una Sombra te sorprenda o lo convierte en ventaja."
     }
    ]
@@ -404,7 +404,7 @@
    ],
    "unlocks": [
     {
-     "name": "Chaines Hook",
+     "name": "Gancho de cadenas",
      "description": "Un gancho para lanzarse sobre las Sombras desde lejos y empezar el combate con ventaja."
     }
    ]
@@ -583,11 +583,11 @@
    ],
    "unlocks": [
     {
-     "name": "Follow Up",
+     "name": "Golpe de gracia",
      "description": "Sumire puede atacar después de Joker."
     },
     {
-     "name": "Fitness Talk",
+     "name": "Mediación atlética",
      "description": "Sumire puede salvar una negociación con una Sombra que salió mal."
     }
    ],
@@ -700,7 +700,7 @@
    ],
    "unlocks": [
     {
-     "name": "Harisen Recovery",
+     "name": "Golpe de abanico",
      "description": "Sumire puede curar estados alterados de los compañeros en combate."
     }
    ]
@@ -864,7 +864,7 @@
    ],
    "unlocks": [
     {
-     "name": "Endure",
+     "name": "Último aliento",
      "description": "Sumire puede aguantar con 1 HP un golpe que la derrotaría."
     }
    ]
@@ -1138,7 +1138,7 @@
    ],
    "unlocks": [
     {
-     "name": "Protect",
+     "name": "Protección",
      "description": "Sumire puede recibir en lugar de Joker un ataque que lo derrotaría."
     }
    ]
@@ -1148,7 +1148,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "La Persona de Sumire evoluciona a Vanadis."
     }
    ],

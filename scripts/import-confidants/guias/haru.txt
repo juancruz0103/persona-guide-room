@@ -1,7 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/9379-persona-5-royal-haru-confidant-guide-empress-choices-romance-gifts
 # Rango 1: la guía lista opciones de P5 original que no están en Royal.
 # Llamadas: la guía no da la frase de Haru, así que no se cargan todavía.
-1 | DESBLOQUEO | Cultivation | Puedes cultivar verduras en la azotea de la escuela.
+1 | DESBLOQUEO | Cultivo | Puedes cultivar verduras en la azotea de la escuela.
 2 | Are you opening a café? | 3
 2 | You like coffee? | 3
 2 | Are you starting a farm? | 2
@@ -9,7 +9,6 @@
 2 | This is a complex issue. | 3
 2 | You might be wrong. | 2
 2 | Maybe you should fire him. | 2
-2 | DESBLOQUEO | Baton Pass | Después de un 1 More, Haru puede pasarle el turno a otro compañero con Baton Pass.
 3 | It'll be okay, I promise. | 3
 3 | They won't find out. | 3
 3 | A phantom thief doesn't worry. | 2
@@ -17,7 +16,7 @@
 3 | Not yet. | 3
 3 | Too many times to count. | 3
 3 | I have. | 2
-3 | DESBLOQUEO | Follow Up | Haru puede atacar después de Joker.
+3 | DESBLOQUEO | Golpe de gracia | Haru puede atacar después de Joker.
 4 | It must be amazing. | 3
 4 | That's pricey. | 2
 4 | I can't let you do that. | 3
@@ -28,13 +27,13 @@
 4 | Excuse me while I vomit. | 3
 4 | Let's ask him. | 3
 4 | I'm not really sure. | 3
-4 | DESBLOQUEO | Celeb Talk | Haru puede salvar una negociación con una Sombra que salió mal.
+4 | DESBLOQUEO | Mediación carismática | Haru puede salvar una negociación con una Sombra que salió mal.
 5 | Somebody's telling the truth. | 3
 5 | Trust no one. | 2
 5 | There has to be another way. | 3
 5 | I don't think so. | 3
 5 | That doesn't matter now. | 2
-5 | DESBLOQUEO | Selective Breeding | Las verduras de la azotea dan más cosecha.
+5 | DESBLOQUEO | Cosecha abundante | Las verduras de la azotea dan más cosecha.
 6 | That's fascinating. | 3
 6 | Can you make some for me? | 3
 6 | You're so studious. | 2
@@ -42,20 +41,20 @@
 6 | That would be bad. | 3
 6 | Black like coffee? | 3
 6 | Be strong, Haru. | 3
-6 | DESBLOQUEO | Harisen Recovery | Haru puede curar estados alterados de los compañeros en combate.
+6 | DESBLOQUEO | Golpe de abanico | Haru puede curar estados alterados de los compañeros en combate.
 7 | What do you want to do? | 3
 7 | That sounds really tough... | 2
 7 | What does Takakura-san think? | 3
 7 | There has to be a way. | 3
 7 | You should tell him that. | 3
-7 | DESBLOQUEO | Soil Improvement | Las verduras tardan menos en crecer.
+7 | DESBLOQUEO | Mejora de tierra | Las verduras tardan menos en crecer.
 8 | The soil? | 3
 8 | It'll help him understand you. | 3
 8 | He's going to love it. | 3
 8 | I'll be cheering for you. | 3
 8 | You're amazing, Haru. | 3
 8 | Are you sure you can do that? | 2
-8 | DESBLOQUEO | Endure | Haru puede aguantar con 1 HP un golpe que la derrotaría.
+8 | DESBLOQUEO | Último aliento | Haru puede aguantar con 1 HP un golpe que la derrotaría.
 9 | I'm sure you'll do great. | 3
 9 | Give it all you've got, Haru. | 3
 9 | It'll be fine. | 2
@@ -63,6 +62,8 @@
 9 | You did amazing. | 3
 9 | He saw us as good friends. | 0
 9 | I like you too, Haru. | 0 | ROMANCE
-9 | DESBLOQUEO | Protect | Haru puede recibir en lugar de Joker un ataque que lo derrotaría.
-10 | DESBLOQUEO | Second Awakening | La Persona de Haru evoluciona a Astarté. Se desbloquea la fusión de Ramera babilónica.
+9 | DESBLOQUEO | Protección | Haru puede recibir en lugar de Joker un ataque que lo derrotaría.
+10 | DESBLOQUEO | Segundo despertar | La Persona de Haru evoluciona a Astarté. Se desbloquea la fusión de Ramera babilónica.
 2 | REQUISITO | Destreza 5.
+2 | SINRECOMPENSA
+10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Haru vuelve a evolucionar, a Lucy.

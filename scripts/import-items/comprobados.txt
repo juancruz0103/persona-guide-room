@@ -1,0 +1,63 @@
+# Ítems comprobados en el juego por Juan (10/11/2026). Pisan los datos de P5.
+# Formato: nombre interno | tipo | estadísticas | efectos (separados por ;)
+# tipo: melee, gun, armor. Estadísticas: attack, accuracy, rounds, defense, evasion.
+Ancient Day | gun | attack 420, accuracy 85, rounds 5 | Todas las estadísticas +6
+Big Bear Gloves | melee | attack 260, accuracy 90 | Más probabilidad de crítico (media)
+Black Wing Robe R | armor | defense 270, evasion 20 | Reduce el daño de Nuclear (alta)
+Bloodied Capote | armor | defense 130, evasion 20 | Agilidad +6
+Cat Buster | gun | attack 170, accuracy 90, rounds 5 | Puede causar Sueño (media)
+Claiomh Solais R | melee | attack 330, accuracy 90 | +50 SP máximo
+Dainaraka Whip | melee | attack 320, accuracy 90 | Puede causar Congelación (alta)
+Dark Jacket | armor | defense 225, evasion 18 | Evita la muerte instantánea de Maldición
+Death Promise | melee | attack 200, accuracy 80 | Puede causar Desesperación (media)
+Fairy Hero Armor | armor | defense 180, evasion 15 | Magia +7
+Fine Ruyi Jingu Bang | melee | attack 290, accuracy 88 | Tarukaja automático al empezar el combate
+Fine Silk Dress | armor | defense 100, evasion 14 | Más evasión contra magia (media)
+Fine Tapsuan | armor | defense 195, evasion 15 | Más evasión contra Viento (alta)
+Fleurs du Mal R | melee | attack 345, accuracy 86 | Magia +6; Puede causar Mareo (alta)
+Frost Ace Hood | armor | defense 120, evasion 20 | +40 SP máximo
+Godsent Dress | armor | defense 110, evasion 14 | Magia +6
+Gordios | melee | attack 30, accuracy 95 | Más probabilidad de crítico (alta)
+Great Thief Stick | melee | attack 150, accuracy 92 | Puede causar estado alterado al azar (media)
+Gungnir | gun | attack 408, accuracy 90, rounds 12 | Puede causar Desesperación (media)
+Headhunter Ladle EX | melee | attack 150, accuracy 90 | Más probabilidad de crítico (media)
+High Archangel Bra | armor | defense 325, evasion 20 | Reduce el daño de Eléctrico (alta)
+Hinokagutsuchi II | melee | attack 360, accuracy 90 | Puede causar Quemadura (alta)
+Imprisoned Mjolnir | melee | attack 324, accuracy 88 | Los ataques hacen daño de Eléctrico
+Judge End | gun | attack 432, accuracy 75, rounds 6 | Todas las estadísticas +11
+King Frost Cape EX | armor | defense 280, evasion 16 | Reduce el daño de Hielo (alta)
+Kuzuryu Gouhou EX | gun | attack 320, accuracy 75, rounds 10 | Fuerza +7
+Masquerade Ribbon R | melee | attack 250, accuracy 88 | Puede causar Mareo (media)
+Megido Blaster | gun | attack 456, accuracy 85, rounds 3 | Puede causar Quemadura (alta)
+Mirrirmina EX | gun | attack 235, accuracy 75, rounds 6 | Magia +7
+Moonlight Robe R | armor | defense 70, evasion 30 | Puede reflejar ataques de Físico (alta)
+Nataraja EX | gun | attack 420, accuracy 85, rounds 8 | Todas las estadísticas +6
+Official's Robe R | armor | defense 295, evasion 20 | Más evasión contra Maldición (alta)
+Paradise Lost R | melee | attack 340, accuracy 98 | Reduce el daño de Maldición (alta)
+Paw-omber | gun | attack 220, accuracy 70, rounds 1 | Puede causar Confusión (media)
+Pink Buster | gun | attack 135, accuracy 90, rounds 12 | Puede causar Manipulación (media)
+Providence | gun | attack 420, accuracy 75, rounds 10 | Agilidad +13
+Pumpkin Buster | gun | attack 160, accuracy 85, rounds 3 | Puede causar Quemadura (alta)
+Sahasrara EX | gun | attack 414, accuracy 90, rounds 10 | Todas las estadísticas +6
+Senryou Yakusha R | melee | attack 140, accuracy 90 | Fuerza +6
+Sirius Armor EX | armor | defense 330, evasion 10 | Reduce el daño de magia (alta)
+Snow Queen's Whip II | melee | attack 280, accuracy 90 | Sukukaja automático al empezar el combate
+Sudarshana EX | gun | attack 396, accuracy 90, rounds 5 | Puede causar Mareo (alta)
+Super Lucky Robe | armor | defense 220, evasion 18 | Suerte +10
+Sword of Sinai II | melee | attack 365, accuracy 95 | Puede causar Mareo (alta)
+Tantric Oath R | armor | defense 350, evasion 18 | Reduce el daño de magia (alta)
+Tyrant Pistol EX | gun | attack 444, accuracy 85, rounds 8 | Magia +15
+Unparalleled Vajra | melee | attack 325, accuracy 90 | Puede causar estado alterado al azar (alta)
+Usumidori R | melee | attack 340, accuracy 88 | Puede causar Miedo (alta)
+Yagrush EX | gun | attack 432, accuracy 70, rounds 1 | Puede causar Electrocución (alta)
+Blood Red Capote | armor | defense 120, evasion 20 | Agilidad +3
+Claiomh Solais | melee | attack 315, accuracy 90 | +50 SP máximo
+Doomsday | gun | attack 330, accuracy 85, rounds 5 | Todas las estadísticas +5
+Fairy Knight Armor | armor | defense 170, evasion 15 | Magia +4
+Heavensent Dress | armor | defense 105, evasion 14 | Magia +4
+Hinokagutsuchi | melee | attack 350, accuracy 90 | Puede causar Quemadura (media)
+Judge of Hell | gun | attack 340, accuracy 75, rounds 6 | Todas las estadísticas +10
+Lucky Robe | armor | defense 210, evasion 18 | Suerte +5
+Sahasrara | gun | attack 320, accuracy 90, rounds 10 | Todas las estadísticas +5
+Sirius Armor | armor | defense 305, evasion 10 | Reduce el daño de magia (alta)
+Sword of Sinai | melee | attack 345, accuracy 95 | Puede causar Mareo (media)

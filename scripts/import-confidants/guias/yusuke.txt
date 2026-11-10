@@ -2,53 +2,54 @@
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: la guía lista opciones de P5 original que no están en Royal; solo queda la que coincide.
 1 | Thanks. | 2
-1 | DESBLOQUEO | Novice Duplication | Yusuke copia skill cards de nivel bajo a partir de cartas en blanco. Al terminar el rango te da la skill card de Recarm.
+1 | DESBLOQUEO | Duplicación de cartas | Yusuke copia skill cards de nivel bajo a partir de cartas en blanco. Al terminar el rango te da la skill card de Recarm.
 2 | It's novel. | 2
 2 | It's enigmatic. | 2
 2 | I can't wait. | 3
 2 | I hope you're right. | 3
 2 | TEL | I'm on a roll right now. I shall keep up this momentum and apply it to the Phantom Thieves as well! | Estoy en racha. ¡Mantendré este impulso y lo aplicaré también a los Ladrones Fantasma! | You're already doing enough. | Ya haces bastante. | 2
-2 | DESBLOQUEO | Baton Pass | Después de un 1 More, Yusuke puede pasarle el turno a otro compañero con Baton Pass.
 3 | Don't let it bother you. | 2
 3 | You're really giving up? | 2
 3 | This isn't like you. | 3
 3 | How exactly? | 2
 3 | That's the spirit. | 2
 3 | TEL | I'm going to have ten pieces finished up by end of today! | ¡Voy a terminar diez obras antes de que acabe el día! | That's the spirit. | Ese es el espíritu. | 2
-3 | DESBLOQUEO | Follow Up | Yusuke puede atacar después de Joker. También desbloquea el museo de Ueno.
+3 | DESBLOQUEO | Golpe de gracia | Yusuke puede atacar después de Joker. También desbloquea el museo de Ueno.
 4 | Why are we in a boat? | 2
 4 | I should bring a girl here. | 2
 4 | Love comes in all forms. | 3
 4 | Maybe you should train more. | 2
 4 | TEL | Even if I ever do understand it, will I truly be able to draw it...? | Aunque llegue a entenderlo, ¿de verdad seré capaz de dibujarlo...? | Don't get discouraged. | No te desanimes. | 2
-4 | DESBLOQUEO | Artist Talk | Yusuke puede salvar una negociación con una Sombra que salió mal. También desbloquea el parque Inokashira.
+4 | DESBLOQUEO | Mediación artística | Yusuke puede salvar una negociación con una Sombra que salió mal. También desbloquea el parque Inokashira.
 5 | Do you want me to strip? | 3
 5 | I dunno if I can do it... | 2
 5 | I'm sure you will. | 3
 5 | It doesn't look like it. | 3
 5 | Do you want to give up? | 2
 5 | TEL | The further I seem to be from understanding the abyss of the heart. | Más lejos parezco estar de entender el abismo del corazón. | There's still hope. | Aún hay esperanza. | 2
-5 | DESBLOQUEO | Adept Duplication | Yusuke copia skill cards de nivel medio. También desbloquea la iglesia de Kanda.
+5 | DESBLOQUEO | Creación de cartas | Yusuke copia skill cards de nivel medio. También desbloquea la iglesia de Kanda.
 6 | It feels nostalgic. | 2
 6 | Maybe he was sympathetic. | 3
 6 | I couldn't possibly tell you. | 3
 6 | He somehow knew you had skill. | 2
 6 | TEL | What's your impression of him? | ¿Qué impresión te dio? | He had a certain dignity. | Tenía cierta dignidad. | 2
-6 | DESBLOQUEO | Harisen Recovery | Yusuke puede curar estados alterados de los compañeros en combate.
+6 | DESBLOQUEO | Golpe de abanico | Yusuke puede curar estados alterados de los compañeros en combate.
 7 | What do you mean? | 2
 7 | The truth is within you. | 3
 7 | TEL | I'm a petty sellout, a slave to the power of money! | ¡Soy un vendido de poca monta, esclavo del poder del dinero! | Calm down. | Tranquilízate. | 2
 7 | TEL | I'm a petty sellout, a slave to the power of money! | ¡Soy un vendido de poca monta, esclavo del poder del dinero! | It's not a crime to enjoy sushi. | Disfrutar del sushi no es un crimen. | 2
-7 | DESBLOQUEO | Master Duplication | Yusuke copia skill cards de nivel alto.
+7 | DESBLOQUEO | Pintura en vivo | Yusuke copia skill cards de nivel alto.
 8 | It has to be Ann. | 2
 8 | You've really grown, Yusuke. | 3
 8 | What's wrong with that? | 2
-8 | DESBLOQUEO | Endure | Yusuke puede aguantar con 1 HP un golpe que lo derrotaría.
+8 | DESBLOQUEO | Último aliento | Yusuke puede aguantar con 1 HP un golpe que lo derrotaría.
 9 | Her love for her son. | 3
 9 | The pain of separation. | 3
 9 | I don't know. | 2
 9 | You've really changed, Yusuke. | 3
 9 | That's a great idea. | 2
-9 | DESBLOQUEO | Protect | Yusuke puede recibir en lugar de Joker un ataque que lo derrotaría.
-10 | DESBLOQUEO | Second Awakening | La Persona de Yusuke evoluciona a Kamu Susano-o. Se desbloquea la fusión de Odín.
+9 | DESBLOQUEO | Protección | Yusuke puede recibir en lugar de Joker un ataque que lo derrotaría.
+10 | DESBLOQUEO | Segundo despertar | La Persona de Yusuke evoluciona a Kamu Susano-o. Se desbloquea la fusión de Odín.
 6 | REQUISITO | Destreza 4.
+2 | SINRECOMPENSA
+10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Yusuke vuelve a evolucionar, a Gorokichi.

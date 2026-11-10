@@ -18,7 +18,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Starter Customization",
+     "name": "Personalización básica",
      "description": "Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza."
     }
    ],
@@ -125,7 +125,7 @@
    ],
    "unlocks": [
     {
-     "name": "Medium Customization",
+     "name": "Personalizar camuflaje",
      "description": "Mejoras de pistola de nivel medio."
     }
    ]
@@ -246,7 +246,7 @@
    ],
    "unlocks": [
     {
-     "name": "Discount",
+     "name": "Descuento",
      "description": "Descuento en las mejoras de pistola."
     }
    ]
@@ -413,7 +413,7 @@
    ],
    "unlocks": [
     {
-     "name": "Expert Customization",
+     "name": "Personalización experta",
      "description": "Mejoras de pistola de nivel experto."
     }
    ]
@@ -477,7 +477,7 @@
     },
     {
      "kind": "mementos",
-     "title": "Shady Deal in the Shadows",
+     "title": "Un acuerdo turbio en las sombras",
      "description": "Iwai tiene un trato relacionado con sus réplicas con un antiguo socio, Tsuda, pero algo no va bien."
     },
     {
@@ -674,7 +674,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Special Customization",
+     "name": "Cortesía de la casa",
      "description": "Mejoras de pistola al máximo. Se desbloquea la fusión de Atis."
     }
    ],

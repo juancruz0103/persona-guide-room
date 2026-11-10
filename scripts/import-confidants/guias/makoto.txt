@@ -1,22 +1,21 @@
 # fuente: https://www.rpgsite.net/feature/9378-persona-5-royal-makoto-confidant-guide-priestess-choices-romance-gifts
 # Rango 1: la guía lista opciones que no están en el evento del rango 1 del juego; se omiten (la subida del rango 1 no depende de las respuestas).
-1 | DESBLOQUEO | Shadow Calculus | Muestra las skills y los objetos de las Sombras en la pantalla de análisis.
+1 | DESBLOQUEO | Análisis de sombras | Muestra las skills y los objetos de las Sombras en la pantalla de análisis.
 2 | You're very well informed. | 2
 2 | That was dangerous. | 3
 2 | You should have known better. | 2
 2 | TEL | I guess nothing beats practical experience. | Supongo que no hay nada como la experiencia práctica. | Couldn't agree more. | No podría estar más de acuerdo. | 3
-2 | DESBLOQUEO | Baton Pass | Después de un 1 More, Makoto puede pasarle el turno a otro compañero con Baton Pass.
 3 | You have the wrong idea. | 2
 3 | You can change. | 3
 3 | Don't let it get to you. | 2
 3 | TEL | She even has a bunch of Buchimaru-kun emoticons! | ¡Hasta tiene un montón de emoticonos de Buchimaru-kun! | Sounds like you two get along. | Parece que os lleváis bien. | 3
-3 | DESBLOQUEO | Brainiac Talk | Makoto puede salvar una negociación con una Sombra que salió mal.
+3 | DESBLOQUEO | Mediación marcial | Makoto puede salvar una negociación con una Sombra que salió mal.
 4 | That's unlike you. | 2
 4 | Why do you use it? | 3
 4 | That's adorable. | 2
 4 | It's an amazing goal. | 3
 4 | I like a woman in uniform. | 2
-4 | DESBLOQUEO | Follow Up | Makoto puede atacar después de Joker.
+4 | DESBLOQUEO | Golpe de gracia | Makoto puede atacar después de Joker.
 5 | He sounds suspicious. | 3
 5 | That's annoying. | 2
 5 | I got this. | 3
@@ -25,7 +24,7 @@
 6 | Love comes in many forms. | 3
 6 | We just started. | 2
 6 | TEL | I want to ignore him, but I shouldn't for Eiko's sake... | Quiero ignorarlo, pero no debería, por Eiko... | Tell him you're on a date. | Dile que estás en una cita. | 2
-6 | DESBLOQUEO | Harisen Recovery | Cura estados alterados del grupo cuando Makoto está en el equipo.
+6 | DESBLOQUEO | Golpe de abanico | Cura estados alterados del grupo cuando Makoto está en el equipo.
 7 | That's a horrible story. | 3
 7 | He was a noble man. | 3
 7 | Was it tough without him? | 2
@@ -37,13 +36,13 @@
 7 | Refuse her, please. | 2
 7 | TEL | Can we keep this up until I can make a call one way or the other? | ¿Podemos seguir así hasta que me decida? | It's the role I always hoped for. | Es el papel que siempre quise. | 3
 7 | TEL | Can we keep this up until I can make a call one way or the other? | ¿Podemos seguir así hasta que me decida? | Of course. | Claro. | 2
-7 | DESBLOQUEO | Shadow Factorization | Al apuntar, muestra si el ataque va a ser eficaz.
+7 | DESBLOQUEO | Estudio de sombras | Al apuntar, muestra si el ataque va a ser eficaz.
 8 | He says that to all his girls. | 2
 8 | That's how he ropes you in. | 2
 8 | Absolutely. | 3
 8 | What are we going to do? | 2
 8 | Eh, she deserves him. | 2
-8 | DESBLOQUEO | Endure | Makoto puede aguantar un golpe que la derrotaría.
+8 | DESBLOQUEO | Último aliento | Makoto puede aguantar un golpe que la derrotaría.
 9 | Get away from her! | 3
 9 | Your fight's with me. | 3
 9 | I'm calling the cops. | 3
@@ -60,9 +59,11 @@
 9 | TEL | (la guía no da la frase) | (la guía no da la frase) | I'd do anything for you. | Haría cualquier cosa por ti. | 2 | ROMANCE
 9 | TEL | (la guía no da la frase) | (la guía no da la frase) | No problem at all. | No es ningún problema. | 2
 9 | TEL | (la guía no da la frase) | (la guía no da la frase) | No big deal. | No es para tanto. | 2
-9 | DESBLOQUEO | Protect | Makoto puede proteger a Joker de un ataque que lo derrotaría.
-10 | DESBLOQUEO | Second Awakening | Su Persona evoluciona a Anat.
+9 | DESBLOQUEO | Protección | Makoto puede proteger a Joker de un ataque que lo derrotaría.
+10 | DESBLOQUEO | Segundo despertar | Su Persona evoluciona a Anat.
 1 | REQUISITO | Conocimiento 3.
 6 | REQUISITO | Encanto 5.
 9 | REQUISITO | Antes hay que averiguar quién es Tsukasa: habla dos veces con el hombre que está frente a la librería de Shinjuku.
 5 | SINRECOMPENSA
+2 | SINRECOMPENSA
+10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Makoto vuelve a evolucionar, a Agnes.

@@ -16,7 +16,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Shadow Calculus",
+     "name": "Análisis de sombras",
      "description": "Muestra las skills y los objetos de las Sombras en la pantalla de análisis."
     }
    ],
@@ -101,12 +101,8 @@
      ]
     }
    ],
-   "unlocks": [
-    {
-     "name": "Baton Pass",
-     "description": "Después de un 1 More, Makoto puede pasarle el turno a otro compañero con Baton Pass."
-    }
-   ]
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 3,
@@ -186,7 +182,7 @@
    ],
    "unlocks": [
     {
-     "name": "Brainiac Talk",
+     "name": "Mediación marcial",
      "description": "Makoto puede salvar una negociación con una Sombra que salió mal."
     }
    ]
@@ -278,7 +274,7 @@
    ],
    "unlocks": [
     {
-     "name": "Follow Up",
+     "name": "Golpe de gracia",
      "description": "Makoto puede atacar después de Joker."
     }
    ]
@@ -413,7 +409,7 @@
    ],
    "unlocks": [
     {
-     "name": "Harisen Recovery",
+     "name": "Golpe de abanico",
      "description": "Cura estados alterados del grupo cuando Makoto está en el equipo."
     }
    ],
@@ -548,7 +544,7 @@
    ],
    "unlocks": [
     {
-     "name": "Shadow Factorization",
+     "name": "Estudio de sombras",
      "description": "Al apuntar, muestra si el ataque va a ser eficaz."
     }
    ]
@@ -613,7 +609,7 @@
    ],
    "unlocks": [
     {
-     "name": "Endure",
+     "name": "Último aliento",
      "description": "Makoto puede aguantar un golpe que la derrotaría."
     }
    ]
@@ -803,7 +799,7 @@
    ],
    "unlocks": [
     {
-     "name": "Protect",
+     "name": "Protección",
      "description": "Makoto puede proteger a Joker de un ataque que lo derrotaría."
     }
    ],
@@ -816,8 +812,12 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "Su Persona evoluciona a Anat."
+    },
+    {
+     "name": "Segundo despertar R",
+     "description": "En el tercer semestre la Persona de Makoto vuelve a evolucionar, a Agnes."
     }
    ],
    "choicesDontMatter": true

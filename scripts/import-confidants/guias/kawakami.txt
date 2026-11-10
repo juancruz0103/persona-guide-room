@@ -3,7 +3,7 @@
 # Rango 1: la guía lista opciones que no están en Royal.
 CONSEJO | Empieza después del evento del 24 de mayo. Se la llama desde el teléfono de Leblanc los viernes y sábados por la noche: necesitas Coraje 3 y cada visita cuesta 5000 ¥.
 CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
-1 | DESBLOQUEO | Slack Off | En clase puedes hacer otras cosas, como fabricar herramientas de infiltración.
+1 | DESBLOQUEO | Hacer el vago | En clase puedes hacer otras cosas, como fabricar herramientas de infiltración.
 2 | It does. | 2
 2 | Absolutely not! | 2
 2 | TEL | Is that okay, Master? | ¿Le parece bien, amo? | You have the wrong number. | Se ha equivocado de número. | 2
@@ -13,7 +13,7 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 3 | Do some real cooking. | 2
 3 | I'll request you more often. | 3
 3 | TEL | You're still young, so you really need to eat properly... | Todavía eres joven, así que tienes que comer bien... | Thanks. | Gracias. | 2
-3 | DESBLOQUEO | Housekeeping | Kawakami puede preparar café o hacerte la colada.
+3 | DESBLOQUEO | Tareas del hogar | Kawakami puede preparar café o hacerte la colada.
 4 | How rude. | 2
 4 | You need to love yourself. | 3
 4 | Yes, you do. | 2
@@ -22,7 +22,7 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 5 | How terrible... | 2
 5 | So, did you stop? | 2
 5 | TEL | Do you get to eat that place's curry every day? | ¿Comes el curry de ese sitio todos los días? | You want some? | ¿Quieres un poco? | 2
-5 | DESBLOQUEO | Free Time | Puedes escaquearte en clase todavía más a menudo.
+5 | DESBLOQUEO | Tiempo libre | Puedes escaquearte en clase todavía más a menudo.
 6 | Want to rest a bit? | 2
 6 | Are you all right? | 3
 6 | You should go home. | 3
@@ -31,7 +31,7 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 7 | Don't pay them. | 3
 7 | Don't strain yourself. | 2
 7 | Think this through more. | 3
-7 | DESBLOQUEO | Super Housekeeping | Kawakami puede preparar curry o herramientas de infiltración.
+7 | DESBLOQUEO | Tareas del hogar avanzadas | Kawakami puede preparar curry o herramientas de infiltración.
 8 | Is this really what you want? | 3
 8 | If that's what you decided. | 3
 8 | You're running away. | 2
@@ -50,9 +50,9 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 9 | I mean what I say. | 0 | ROMANCE
 9 | I'm a master; you're a maid. | 0
 9 | I'm a man; you're a woman. | 0 | ROMANCE
-10 | DESBLOQUEO | Special Massage | Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha.
+10 | DESBLOQUEO | Masaje especial | Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha.
 1 | REQUISITO | Coraje 3 para poder llamarla. Cada visita cuesta 5000 ¥.
-9 | MEMENTOS | A Teacher Maid to Suffer | Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte. | E714_090
+9 | MEMENTOS | Una profesora que sirve para sufrir | Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte. | E714_090
 2 | SINRECOMPENSA
 4 | SINRECOMPENSA
 6 | SINRECOMPENSA

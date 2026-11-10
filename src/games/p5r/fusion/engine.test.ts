@@ -151,6 +151,16 @@ describe('propiedades con el compendio completo', () => {
       }
   });
 
+  it('Persona especial + Treasure Demon no se puede fusionar (comprobado en el juego)', () => {
+    const P = (n: string) => PERSONAS.find((p) => p.name === n)!;
+    expect(eng.fuse(P('Stone of Scone'), P('Trumpeter'))).toBeNull();
+  });
+
+  it('Baal + Odin = Oberon (comprobado en el juego)', () => {
+    const P = (n: string) => PERSONAS.find((p) => p.name === n)!;
+    expect(eng.fuse(P('Baal'), P('Odin'))?.result.name).toBe('Oberon');
+  });
+
   it('Belial + Nebiros = Alice (receta especial conocida)', () => {
     expect(eng.fuse(P('Belial'), P('Nebiros'))?.result.name).toBe('Alice');
   });

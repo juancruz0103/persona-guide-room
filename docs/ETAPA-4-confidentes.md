@@ -22,8 +22,7 @@ Diseño aprobado en el lienzo (tableros 05, 09 y 10).
 ## Fuentes
 
 - Igor, Morgana y Sae: RPG Site (P5 y Royal coinciden).
-- Interrogatorio de Sae: guía de finales de RPG Site. Frases traducidas de la guía; falta
-  reemplazarlas por el texto oficial del juego.
+- Interrogatorio de Sae: guía de finales de RPG Site. Juan comprobó en el juego que las frases son correctas.
 - Pedidos de Caroline y Justine: RPG Site (Royal). Recompensas: GGRecon.
 - Fechas límite: las guías dicen 17 o 18/11 para Akechi y Maruki; se muestra la fecha más
   temprana para no arriesgar.
@@ -55,10 +54,12 @@ Diseño aprobado en el lienzo (tableros 05, 09 y 10).
   (después de la última conversación de ese archivo del juego, o al final). La descripción es la oficial
   de `datQuestHelp` (quest51 a quest60); el título queda en inglés porque no está en los archivos extraídos.
 - `R | SINRECOMPENSA` muestra «Este rango no da ninguna recompensa».
-- Para comprobar en la partida (las guías no coinciden):
-  - ¿En qué rango se desbloquea el Baton Pass de los Ladrones Fantasma (¿1, 2 o desde el principio en Royal?)
-  - Ann: Sexy Technique, ¿rango 4 o 7?; ¿qué da el rango 4?
-  - Akechi: rango 3 (¿Smooth Talk?), rango 6 (Baton Pass / Follow Up / Detective Talk) y rango 7 (¿Harisen Recovery?).
-  - Ryuji rango 4: ¿Punk Talk o Stealth Dash?
-  - Maruki: rango 7 ¿Quick Flow o Flow Boost?; rango 10 ¿Wakefulness?
-  - Ann: ¿tiene requisito de atributo? (la etiqueta lo dice, ninguna guía lo confirma)
+- Comprobado en la partida (10/11):
+  - El Baton Pass viene de entrada en Royal: ningún confidente lo da.
+  - Nombres oficiales de las habilidades sacados de la pantalla de cada confidente (capturas de Juan).
+  - Ann: Seducción en el rango 4; el 7 no da nada. Ryuji: Esprint sigiloso en el 4.
+  - Maruki: Potenc. de flujo (7) e Insomnio (10). Akechi: 3 y 6 no dan nada; Golpe de abanico en el 7.
+  - Títulos de las misiones de Mementos en español. Oda rango 5 (notas musicales).
+  - Ohya y Chihaya: rangos de la Megami Tensei Wiki, que coinciden con el orden de la pantalla del juego.
+- Falta: Akechi, en qué rango dan Mediación zalamera, Golpe de gracia, Protección y Último aliento.
+- Falta: Ann, ¿tiene requisito de atributo?

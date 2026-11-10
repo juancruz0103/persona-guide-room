@@ -166,3 +166,14 @@
   align-items: center;
   gap: 14px;
 }
+
+/* Celulares angostos: que entren las cuatro secciones sin desplazar */
+@media (max-width: 430px) {
+  .link {
+    font-size: 13px;
+    letter-spacing: 0.01em;
+  }
+  .nav {
+    gap: 6px;
+  }
+}

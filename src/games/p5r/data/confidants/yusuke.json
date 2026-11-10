@@ -44,7 +44,7 @@
    ],
    "unlocks": [
     {
-     "name": "Novice Duplication",
+     "name": "Duplicación de cartas",
      "description": "Yusuke copia skill cards de nivel bajo a partir de cartas en blanco. Al terminar el rango te da la skill card de Recarm."
     }
    ]
@@ -125,12 +125,8 @@
      ]
     }
    ],
-   "unlocks": [
-    {
-     "name": "Baton Pass",
-     "description": "Después de un 1 More, Yusuke puede pasarle el turno a otro compañero con Baton Pass."
-    }
-   ]
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 3,
@@ -232,7 +228,7 @@
    ],
    "unlocks": [
     {
-     "name": "Follow Up",
+     "name": "Golpe de gracia",
      "description": "Yusuke puede atacar después de Joker. También desbloquea el museo de Ueno."
     }
    ]
@@ -315,7 +311,7 @@
    ],
    "unlocks": [
     {
-     "name": "Artist Talk",
+     "name": "Mediación artística",
      "description": "Yusuke puede salvar una negociación con una Sombra que salió mal. También desbloquea el parque Inokashira."
     }
    ]
@@ -398,7 +394,7 @@
    ],
    "unlocks": [
     {
-     "name": "Adept Duplication",
+     "name": "Creación de cartas",
      "description": "Yusuke copia skill cards de nivel medio. También desbloquea la iglesia de Kanda."
     }
    ]
@@ -481,7 +477,7 @@
    ],
    "unlocks": [
     {
-     "name": "Harisen Recovery",
+     "name": "Golpe de abanico",
      "description": "Yusuke puede curar estados alterados de los compañeros en combate."
     }
    ],
@@ -567,7 +563,7 @@
    ],
    "unlocks": [
     {
-     "name": "Master Duplication",
+     "name": "Pintura en vivo",
      "description": "Yusuke copia skill cards de nivel alto."
     }
    ]
@@ -632,7 +628,7 @@
    ],
    "unlocks": [
     {
-     "name": "Endure",
+     "name": "Último aliento",
      "description": "Yusuke puede aguantar con 1 HP un golpe que lo derrotaría."
     }
    ]
@@ -697,7 +693,7 @@
    ],
    "unlocks": [
     {
-     "name": "Protect",
+     "name": "Protección",
      "description": "Yusuke puede recibir en lugar de Joker un ataque que lo derrotaría."
     }
    ]
@@ -707,8 +703,12 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "La Persona de Yusuke evoluciona a Kamu Susano-o. Se desbloquea la fusión de Odín."
+    },
+    {
+     "name": "Segundo despertar R",
+     "description": "En el tercer semestre la Persona de Yusuke vuelve a evolucionar, a Gorokichi."
     }
    ],
    "choicesDontMatter": true

@@ -176,7 +176,7 @@
   border-bottom-color: var(--c-accent);
 }
 .portrait {
-  height: 150px;
+  height: 180px;
 }
 .body {
   flex: 1;

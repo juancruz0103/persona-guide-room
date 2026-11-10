@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getFusionEngine } from '../services/fusion';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { personaImage } from '../services/images';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { AffinityGrid } from '../components/AffinityGrid';
 import { ElectricChair } from '../components/ElectricChair';
@@ -141,7 +142,9 @@ export default function PersonaProfile() {
         <SpoilerCover active={isSpoilerStage(p.party?.stage)} className={styles.image}>
           <ImagePlaceholder
             className={styles.image}
-            label="Acá va la imagen de la Persona"
+            src={personaImage(p.id, 'profile')}
+            focus="50% 30%"
+            label={personaImage(p.id, 'profile') ? personaName(p) : 'Acá va la imagen de la Persona'}
             hint="Formato sugerido: PNG transparente · 600 × 800"
             corner={arcana.numeral}
           />

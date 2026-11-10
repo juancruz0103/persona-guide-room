@@ -108,7 +108,7 @@
    ],
    "unlocks": [
     {
-     "name": "Detox X",
+     "name": "Depuración X",
      "description": "A veces cura al momento un estado alterado."
     },
     {
@@ -244,7 +244,7 @@
    ],
    "unlocks": [
     {
-     "name": "Flow",
+     "name": "Flujo",
      "description": "A veces empiezas el combate con Cargar y Concentrar activos."
     },
     {
@@ -527,7 +527,7 @@
    ],
    "unlocks": [
     {
-     "name": "Mindfulness",
+     "name": "Conciencia plena",
      "description": "Cuando te queda poco SP, a veces recuperas algo."
     },
     {
@@ -737,8 +737,8 @@
    ],
    "unlocks": [
     {
-     "name": "Quick Flow",
-     "description": "Flow se activa más a menudo."
+     "name": "Potenc. de flujo",
+     "description": "Flujo se activa más a menudo."
     },
     {
      "name": "SP +5 y Oblea Fantasma",
@@ -961,8 +961,8 @@
    ],
    "unlocks": [
     {
-     "name": "Detox DX",
-     "description": "Detox X funciona mejor y más a menudo."
+     "name": "Depuración DX",
+     "description": "Depuración X funciona mejor y más a menudo."
     },
     {
      "name": "SP +5 y Saciante",
@@ -975,8 +975,8 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Wakefulness",
-     "description": "Mindfulness recupera más SP."
+     "name": "Insomnio",
+     "description": "Conciencia plena recupera más SP."
     }
    ],
    "choicesDontMatter": true

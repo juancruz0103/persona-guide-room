@@ -18,7 +18,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Rumor-filled Scoop",
+     "name": "Exclusiva infundada",
      "description": "La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto."
     }
    ],
@@ -149,6 +149,10 @@
    ],
    "unlocks": [
     {
+     "name": "Exclusiva impactante",
+     "description": "La alerta sube con menos facilidad y baja después de una emboscada."
+    },
+    {
      "name": "Encanto +",
      "description": "Puntos extra de Encanto."
     }
@@ -203,12 +207,8 @@
      ]
     }
    ],
-   "unlocks": [
-    {
-     "name": "Shocking Scoop",
-     "description": "Mejora Rumor-filled Scoop."
-    }
-   ]
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 5,
@@ -263,6 +263,10 @@
     {
      "name": "Encanto +",
      "description": "Puntos extra de Encanto."
+    },
+    {
+     "name": "Exclusiva sin precedentes",
+     "description": "La alerta empieza más baja al infiltrarte."
     }
    ]
   },
@@ -444,8 +448,8 @@
    ],
    "unlocks": [
     {
-     "name": "Outrageous Scoop",
-     "description": "Mejora todavía más Rumor-filled Scoop."
+     "name": "Exclusiva escandalosa",
+     "description": "La alerta empieza todavía más baja al infiltrarte."
     }
    ]
   },
@@ -481,7 +485,7 @@
     },
     {
      "kind": "mementos",
-     "title": "Fighting for Truth in Journalism",
+     "title": "Luchando por la verdad periodística",
      "description": "Ohya quiere investigar el caso de su compañero desaparecido, pero su jefe intenta pararle los pies."
     },
     {
@@ -673,7 +677,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Legendary Scoop",
+     "name": "Exclusiva legendaria",
      "description": "La alerta de los Palacios deja de subir. Se desbloquea la fusión de Belcebú."
     }
    ],

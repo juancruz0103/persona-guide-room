@@ -19,13 +19,13 @@
    "conversations": [
     {
      "kind": "mementos",
-     "title": "Ending the Boyfriend's Abuse",
+     "title": "Acabar con el maltrato del novio",
      "description": "Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata..."
     }
    ],
    "unlocks": [
     {
-     "name": "Luck Reading",
+     "name": "Lectura de fortuna",
      "description": "Una lectura de Chihaya aumenta por un tiempo lo que ganas de un atributo social."
     }
    ],
@@ -199,7 +199,7 @@
    ],
    "unlocks": [
     {
-     "name": "Money Reading",
+     "name": "Lectura de dinero",
      "description": "Después de una lectura, ganas más dinero en los combates por un tiempo."
     }
    ]
@@ -289,8 +289,8 @@
    ],
    "unlocks": [
     {
-     "name": "Fate Reading",
-     "description": "Te muestra qué habilidades vas a desbloquear con un confidente."
+     "name": "Lectura de afinidad",
+     "description": "Después de una lectura, ganas un punto con el confidente que elijas."
     }
    ]
   },
@@ -402,8 +402,8 @@
    ],
    "unlocks": [
     {
-     "name": "Affinity Reading",
-     "description": "Después de una lectura, subes más rápido la relación con el confidente que elijas."
+     "name": "Lectura especial del sino",
+     "description": "Te muestra todas las habilidades del confidente que elijas."
     }
    ]
   },
@@ -483,7 +483,7 @@
     },
     {
      "kind": "mementos",
-     "title": "Debunking the Psychic",
+     "title": "¡Desenmascarar al vidente!",
      "description": "Yuichi Fukurai, el presidente de la APD, controla a Chihaya..."
     },
     {
@@ -505,8 +505,12 @@
      ]
     }
    ],
-   "unlocks": [],
-   "noReward": true
+   "unlocks": [
+    {
+     "name": "Lectura celestial",
+     "description": "Activa la Alarma de fusión en la Sala de Terciopelo y ese día es más fácil que vuelva a sonar en combate."
+    }
+   ]
   },
   {
    "rank": 9,
@@ -574,8 +578,8 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Special Fate Reading",
-     "description": "Te muestra todas las habilidades que te faltan de cualquier confidente. Se desbloquea la fusión de Laksmí."
+     "name": "Lectura especial de vínculo",
+     "description": "Ese día, las mejores respuestas con los confidentes se marcan en rojo. Se desbloquea la fusión de Laksmí."
     }
    ],
    "choicesDontMatter": true

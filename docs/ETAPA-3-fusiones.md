@@ -46,5 +46,5 @@ Fecha: 08/11/2026
 
 ## Pendiente
 
-- Confirmar en el juego el caso ⚠ (Treasure Demon + Persona especial).
+- Comprobado en el juego: Persona especial + Treasure Demon no se puede fusionar (Piedra de Scone + Trompetista), y Baal + Odín = Oberón.
 - Fusión avanzada (3 o más Personas): hoy se listan los ingredientes, sin calculadora propia.

@@ -3,7 +3,7 @@
 # Rango 1: la guía lista opciones que no están en Royal.
 # Rango 9: «It was for my exams.» aparece dos veces con distintos puntos; no se carga para no confundir.
 CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takemi te atiende de día; los días de lluvia, también de noche.
-1 | DESBLOQUEO | Rejuvenation | La clínica vende más objetos de curación. Varios rangos dan además puntos extra de Coraje.
+1 | DESBLOQUEO | Rejuvenecimiento | La clínica vende más objetos de curación. Varios rangos dan además puntos extra de Coraje.
 2 | I have a bad heart. | 2
 2 | I agree. | 2
 2 | TEL | You know how it is. Some patients get sick on their way back home. | Ya sabes cómo va esto. Hay pacientes que se ponen malos de camino a casa. | I'm totally fine. | Estoy perfectamente. | 2
@@ -11,7 +11,7 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 3 | I don't mind. | 2
 3 | I need the medicine. | 2
 3 | TEL | You... haven't told anyone about my drugs, right? | No le habrás contado a nadie lo de mis medicamentos, ¿verdad? | Of course not. | Claro que no. | 2
-3 | DESBLOQUEO | Sterilization | La clínica vende más objetos.
+3 | DESBLOQUEO | Desinfección | La clínica vende más objetos.
 4 | Dr. Takemi will help. | 2
 4 | You seem happy. | 3
 4 | You're so kind. | 2
@@ -20,7 +20,7 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 5 | That's good. | 3
 5 | When will it be done? | 2
 5 | TEL | Also... sorry for the long talk today. I wasn't planning on telling you all that. | Y... perdona por la charla tan larga de hoy. No pensaba contarte todo eso. | About Miwa-chan? | ¿Lo de Miwa-chan? | 2
-5 | DESBLOQUEO | Immunization | La clínica vende objetos de apoyo.
+5 | DESBLOQUEO | Inmunización | La clínica vende objetos de apoyo.
 6 | It suits you. | 3
 6 | You're not honest. | 2
 6 | TEL | I'll need you to stick around just a little bit longer. I hope you can handle it. | Voy a necesitar que aguantes un poco más. Espero que puedas. | You can count on me. | Puedes contar conmigo. | 0
@@ -32,7 +32,7 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 7 | Anything I can do? | 2
 7 | We all do sometimes. | 3
 7 | I'm glad you did. | 2
-7 | DESBLOQUEO | Discount | Los objetos de la clínica cuestan mucho menos.
+7 | DESBLOQUEO | Descuento | Los objetos de la clínica cuestan mucho menos.
 8 | I'm your ally. | 2
 8 | You should hurry. | 2
 8 | Let's get to work, Doctor. | 3
@@ -50,10 +50,10 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 9 | It isn't a joke. | 3 | ROMANCE
 9 | That sounds good. | 0
 9 | DESBLOQUEO | Parque Inokashira | Se desbloquea el lugar si aún no lo tenías.
-10 | DESBLOQUEO | Resuscitation | La clínica vende objetos para revivir. Se desbloquea la fusión de Alice.
+10 | DESBLOQUEO | Reanimación | La clínica vende objetos para revivir. Se desbloquea la fusión de Alice.
 2 | REQUISITO | Coraje 2.
 8 | REQUISITO | Encanto 4.
-8 | MEMENTOS | Bad Medicine | A Takemi se le atribuyó un error de Oyamada, el director médico, en su época en el hospital universitario. | E713_080
+8 | MEMENTOS | Mala medicina | A Takemi se le atribuyó un error de Oyamada, el director médico, en su época en el hospital universitario. | E713_080
 2 | DESBLOQUEO | Coraje + | Puntos extra de Coraje.
 4 | DESBLOQUEO | Coraje + | Puntos extra de Coraje.
 6 | SINRECOMPENSA

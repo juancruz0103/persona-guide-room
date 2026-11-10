@@ -173,6 +173,8 @@ export interface TimelineRank {
   when: string;
   ability?: string;
   description?: string;
+  /** Otras habilidades del mismo rango */
+  extra?: { ability: string; description: string }[];
 }
 
 export interface FusionRequest {

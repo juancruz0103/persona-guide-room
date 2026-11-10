@@ -136,7 +136,7 @@
    ],
    "unlocks": [
     {
-     "name": "Diplomacy",
+     "name": "Diplomacia",
      "description": "Consigues más dinero u objetos al negociar con las Sombras."
     }
    ]
@@ -192,7 +192,7 @@
    ],
    "unlocks": [
     {
-     "name": "Fundraising",
+     "name": "Colecta",
      "description": "Puedes pedir mucho más dinero en las negociaciones."
     }
    ]
@@ -282,7 +282,7 @@
    ],
    "unlocks": [
     {
-     "name": "Manipulation",
+     "name": "Manipulación",
      "description": "Los enemigos sueltan objetos raros más a menudo."
     }
    ]
@@ -488,7 +488,7 @@
    ],
    "unlocks": [
     {
-     "name": "Mind Control",
+     "name": "Control mental",
      "description": "A veces te ahorras la negociación y la Sombra se une directamente."
     }
    ]
@@ -559,7 +559,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Charismatic Speech",
+     "name": "Discurso carismático",
      "description": "Es más fácil hacer pactos con Personas de nivel más alto. Se desbloquea la fusión de Asura."
     }
    ],

@@ -5,7 +5,7 @@
 2 | That guy seemed suspicious. | 2
 2 | I want the ladies to love me. | 2
 2 | TEL | Seems like you're a quick study, so I hope you've got the hang of it. | Parece que aprendes rápido, así que espero que le hayas pillado el truco. | Got it. | Entendido. | 2
-2 | DESBLOQUEO | Coffee Basics | Puedes preparar café en Leblanc: recupera SP en combate. Además, +3 de Gentileza.
+2 | DESBLOQUEO | Café básico | Puedes preparar café en Leblanc: recupera SP en combate. Además, +3 de Gentileza.
 3 | Medium-fine. | 2
 3 | Is it trouble? | 2
 3 | TEL | But don't worry, I'll put you to work. We've got lots of time on our hands. | Pero tranquilo, te pondré a trabajar. Tenemos tiempo de sobra. | I'm ready to work. | Estoy listo para trabajar. | 2
@@ -13,7 +13,7 @@
 4 | Tell me more. | 3
 4 | Call Sojiro's phone | 3
 4 | TEL | Just let him do his thing, and get on with the job. Got it? | Déjalo a lo suyo y sigue con el trabajo. ¿Entendido? | Understood. | Entendido. | 2
-4 | DESBLOQUEO | Leblanc Curry | Puedes preparar curry: recupera SP. Además, +3 de Gentileza.
+4 | DESBLOQUEO | Curry del Leblanc | Puedes preparar curry: recupera SP. Además, +3 de Gentileza.
 5 | I think I'm addicted! | 3
 5 | It wasn't bad. | 2
 5 | She wasn't normal, huh? | 3
@@ -26,7 +26,7 @@
 6 | You're wrong. | 2
 6 | Saving Futaba was no mistake. | 2
 6 | TEL | Futaba's fast asleep... Didn't mean to get you tangled up in all this mess. | Futaba está dormida... No quería meterte en todo este lío. | If I can help somehow... | Si puedo ayudar en algo... | 2
-6 | DESBLOQUEO | Coffee Mastery | El café que preparas es de mejor calidad. Además, +3 de Gentileza.
+6 | DESBLOQUEO | Café superior | El café que preparas es de mejor calidad. Además, +3 de Gentileza.
 7 | You might be right. | 2
 7 | TEL | And that's only because you helped us connect, so... thanks for that. | Y eso es solo porque nos ayudaste a acercarnos, así que... gracias. | Feel like a real dad now? | ¿Ya te sientes un padre de verdad? | 2
 7 | DESBLOQUEO | Gentileza +3 | Ganas 3 puntos extra de Gentileza.
@@ -40,13 +40,13 @@
 9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | You did great. | Lo hiciste genial. | 3
 9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | Futaba did great. | Futaba lo hizo genial. | 3
 9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | You two were already family. | Vosotros ya erais familia. | 3
-9 | DESBLOQUEO | Curry Tips | El curry que preparas es de mejor calidad.
-10 | DESBLOQUEO | Curry Mastery | El curry recupera SP a todo el grupo. Se desbloquea la fusión de Kouryuu y, si aún no la tenías, la iglesia de Kanda.
+9 | DESBLOQUEO | Secretos del curry | El curry que preparas es de mejor calidad.
+10 | DESBLOQUEO | Curry superior | El curry recupera SP a todo el grupo. Se desbloquea la fusión de Kouryuu y, si aún no la tenías, la iglesia de Kanda.
 3 | REQUISITO | Haber preparado café en Leblanc al menos una vez.
 5 | REQUISITO | Que sea después del 22 de agosto.
 7 | REQUISITO | Gentileza 5.
-8 | MEMENTOS | The Money-Grubbing Uncle | El tío de Futaba está intentando quitarle la custodia de Futaba al Jefe...
-9 | REQUISITO | Completar la misión de Mementos «The Money-Grubbing Uncle».
+8 | MEMENTOS | El tío rapiñador | El tío de Futaba está intentando quitarle la custodia de Futaba al Jefe...
+9 | REQUISITO | Completar la misión de Mementos «El tío rapiñador».
 1 | SINRECOMPENSA
 3 | SINRECOMPENSA
 8 | SINRECOMPENSA

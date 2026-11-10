@@ -18,7 +18,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Rejuvenation",
+     "name": "Rejuvenecimiento",
      "description": "La clínica vende más objetos de curación. Varios rangos dan además puntos extra de Coraje."
     }
    ],
@@ -166,7 +166,7 @@
    ],
    "unlocks": [
     {
-     "name": "Sterilization",
+     "name": "Desinfección",
      "description": "La clínica vende más objetos."
     }
    ]
@@ -300,7 +300,7 @@
    ],
    "unlocks": [
     {
-     "name": "Immunization",
+     "name": "Inmunización",
      "description": "La clínica vende objetos de apoyo."
     }
    ]
@@ -449,7 +449,7 @@
    ],
    "unlocks": [
     {
-     "name": "Discount",
+     "name": "Descuento",
      "description": "Los objetos de la clínica cuestan mucho menos."
     }
    ]
@@ -486,7 +486,7 @@
     },
     {
      "kind": "mementos",
-     "title": "Bad Medicine",
+     "title": "Mala medicina",
      "description": "A Takemi se le atribuyó un error de Oyamada, el director médico, en su época en el hospital universitario."
     },
     {
@@ -687,7 +687,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Resuscitation",
+     "name": "Reanimación",
      "description": "La clínica vende objetos para revivir. Se desbloquea la fusión de Alice."
     }
    ],

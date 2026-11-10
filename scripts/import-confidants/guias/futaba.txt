@@ -1,12 +1,12 @@
 # fuente: https://www.rpgsite.net/feature/9382-persona-5-royal-futaba-confidant-guide-hermit-choices-romance-gifts
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: lo da la historia; las respuestas no suman puntos.
-1 | DESBLOQUEO | Moral Support | En combate, Futaba puede lanzar un -kaja o curar al grupo. También desbloquea Akihabara.
+1 | DESBLOQUEO | Apoyo moral | En combate, Futaba puede lanzar un -kaja o curar al grupo. También desbloquea Akihabara.
 2 | That's a great idea. | 2
 2 | If we work together. | 3
 2 | Want me to help? | 2
 2 | TEL | Do you think it'd make Sojiro happy? | ¿Crees que eso haría feliz a Sojiro? | I bet it will. | Seguro que sí. | 2
-2 | DESBLOQUEO | Mementos Scan | Al entrar en un piso de Mementos, Futaba puede revelar el mapa completo.
+2 | DESBLOQUEO | Análisis de Mementos | Al entrar en un piso de Mementos, Futaba puede revelar el mapa completo.
 3 | I was about to come find you. | 3
 3 | Good to see you again. | 3
 3 | You're the one who appeared. | 2
@@ -18,7 +18,7 @@
 4 | Not at all. | 2
 4 | TEL | The real world is a scary place... | El mundo real da mucho miedo... | I'll help you anytime. | Te ayudaré siempre que lo necesites. | 3
 4 | TEL | The real world is a scary place... | El mundo real da mucho miedo... | We'll take it slow. | Iremos poco a poco. | 2
-4 | DESBLOQUEO | Position Hack | A veces el combate empieza con un atraco a las Sombras.
+4 | DESBLOQUEO | Manipulac. posicional | A veces el combate empieza con un atraco a las Sombras.
 5 | I think you're right. | 3
 5 | Your... what? | 2
 5 | He's the protagonist. | 3
@@ -28,7 +28,7 @@
 6 | Were you happy? | 2
 6 | You didn't know any better. | 2
 6 | TEL | I get so scared... | Me entra tanto miedo... | Are you running away again? | ¿Vas a huir otra vez? | 2
-6 | DESBLOQUEO | Active Support | Moral Support a veces también carga ataques o recupera SP.
+6 | DESBLOQUEO | Apoyo activo | Apoyo moral a veces también carga ataques o recupera SP.
 7 | What horrible parents. | 2
 7 | We have to put a stop to this. | 2
 7 | I'll do it, for you. | 3
@@ -49,13 +49,14 @@
 9 | No way. | 2
 9 | Because we're teammates. | 0
 9 | Because I love you. | 0 | ROMANCE
-9 | DESBLOQUEO | Emergency Shift | Si caen dos o más compañeros, Futaba puede cambiarlos por otros del grupo.
-10 | DESBLOQUEO | Final Guard | Futaba puede anular por completo un ataque que te derrotaría.
-10 | DESBLOQUEO | Second Awakening | La Persona de Futaba evoluciona a Prometeo. Se desbloquea la fusión de Ongyo-ki.
+9 | DESBLOQUEO | Cambio de emergencia | Si caen dos o más compañeros, Futaba puede cambiarlos por otros del grupo.
+10 | DESBLOQUEO | Defensa definitiva | Futaba puede anular por completo un ataque que te derrotaría.
+10 | DESBLOQUEO | Segundo despertar | La Persona de Futaba evoluciona a Prometeo. Se desbloquea la fusión de Ongyo-ki.
 2 | REQUISITO | Gentileza 4, y que sea después del 2 de septiembre.
-7 | MEMENTOS | Daughter's Just a Meal Ticket | Los padres de Kana, la mejor amiga de Futaba, se aprovechan de ella...
-8 | REQUISITO | Completar la misión de Mementos «Daughter's Just a Meal Ticket».
+7 | MEMENTOS | Una hija como sustento | Los padres de Kana, la mejor amiga de Futaba, se aprovechan de ella...
+8 | REQUISITO | Completar la misión de Mementos «Una hija como sustento».
 3 | SINRECOMPENSA
 5 | SINRECOMPENSA
 8 | SINRECOMPENSA
-7 | DESBLOQUEO | Treasure Reboot | Futaba puede hacer reaparecer las Sombras con tesoro.
+7 | DESBLOQUEO | Tesoro doble | Futaba puede hacer reaparecer las Sombras con tesoro.
+10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Futaba vuelve a evolucionar, a Al Azif.

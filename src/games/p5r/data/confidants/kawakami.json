@@ -19,7 +19,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Slack Off",
+     "name": "Hacer el vago",
      "description": "En clase puedes hacer otras cosas, como fabricar herramientas de infiltración."
     }
    ],
@@ -195,7 +195,7 @@
    ],
    "unlocks": [
     {
-     "name": "Housekeeping",
+     "name": "Tareas del hogar",
      "description": "Kawakami puede preparar café o hacerte la colada."
     }
    ]
@@ -339,7 +339,7 @@
    ],
    "unlocks": [
     {
-     "name": "Free Time",
+     "name": "Tiempo libre",
      "description": "Puedes escaquearte en clase todavía más a menudo."
     }
    ]
@@ -483,7 +483,7 @@
    ],
    "unlocks": [
     {
-     "name": "Super Housekeeping",
+     "name": "Tareas del hogar avanzadas",
      "description": "Kawakami puede preparar curry o herramientas de infiltración."
     }
    ]
@@ -739,7 +739,7 @@
     },
     {
      "kind": "mementos",
-     "title": "A Teacher Maid to Suffer",
+     "title": "Una profesora que sirve para sufrir",
      "description": "Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte."
     }
    ],
@@ -751,7 +751,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Special Massage",
+     "name": "Masaje especial",
      "description": "Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha."
     }
    ],

@@ -2,20 +2,20 @@
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: la guía lista opciones que no están en Royal.
 CONSEJO | En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.».
-1 | DESBLOQUEO | Starter Customization | Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza.
+1 | DESBLOQUEO | Personalización básica | Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza.
 2 | How's your cold? | 2
 2 | What should I do now? | 2
 3 | I always knew you were a thug. | 3
 3 | Y-Yakuza!? | 2
 3 | We made a deal, didn't we? | 3
-3 | DESBLOQUEO | Medium Customization | Mejoras de pistola de nivel medio.
+3 | DESBLOQUEO | Personalizar camuflaje | Mejoras de pistola de nivel medio.
 4 | Where's my reward? | 3
 4 | You two should play nice. | 2
 4 | TEL | Now Tsuda knows your face. And that could be a real problem. | Ahora Tsuda conoce tu cara. Y eso puede ser un problema. | I agree. | Estoy de acuerdo. | 2
 5 | You're pathetic. | 3
 5 | I'll stick around for the guns. | 3
 5 | That's right. | 2
-5 | DESBLOQUEO | Discount | Descuento en las mejoras de pistola.
+5 | DESBLOQUEO | Descuento | Descuento en las mejoras de pistola.
 6 | Girls. | 3
 6 | That's a secret. | 3
 6 | Our futures. | 2
@@ -28,7 +28,7 @@ CONSEJO | En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o �
 7 | He's clever. | 3
 7 | What a crafty bastard. | 2
 7 | TEL | We can't afford to take any chances. | No podemos arriesgarnos. | Bring it on. | Que venga. | 2
-7 | DESBLOQUEO | Expert Customization | Mejoras de pistola de nivel experto.
+7 | DESBLOQUEO | Personalización experta | Mejoras de pistola de nivel experto.
 8 | I did it all for Iwai. | 3
 8 | It most definitely was. | 2
 8 | I will. | 2
@@ -47,10 +47,10 @@ CONSEJO | En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o �
 9 | He gets that maturity from you. | 2
 9 | TEL | ...The kid must've grown into a man while I wasn't looking. | ...El chaval se ha hecho un hombre sin que me diera cuenta. | Like father, like son. | De tal palo, tal astilla. | 2
 9 | TEL | ...The kid must've grown into a man while I wasn't looking. | ...El chaval se ha hecho un hombre sin que me diera cuenta. | Gecko bonds go beyond blood. | Los lazos de geco van más allá de la sangre. | 2
-10 | DESBLOQUEO | Special Customization | Mejoras de pistola al máximo. Se desbloquea la fusión de Atis.
+10 | DESBLOQUEO | Cortesía de la casa | Mejoras de pistola al máximo. Se desbloquea la fusión de Atis.
 1 | REQUISITO | Coraje 4. Disponible desde el 6 de mayo.
 8 | REQUISITO | Coraje 5.
-8 | MEMENTOS | Shady Deal in the Shadows | Iwai tiene un trato relacionado con sus réplicas con un antiguo socio, Tsuda, pero algo no va bien. | E712_080
+8 | MEMENTOS | Un acuerdo turbio en las sombras | Iwai tiene un trato relacionado con sus réplicas con un antiguo socio, Tsuda, pero algo no va bien. | E712_080
 2 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.
 4 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.
 8 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.

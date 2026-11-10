@@ -1,27 +1,27 @@
 # fuente: https://www.rpgsite.net/feature/5472-persona-5-royal-chihaya-confidant-guide-fortune-choices-romance-gifts
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y domingos (no cuando llueve). Desde el 22 de junio.
-1 | DESBLOQUEO | Luck Reading | Una lectura de Chihaya aumenta por un tiempo lo que ganas de un atributo social.
+1 | DESBLOQUEO | Lectura de fortuna | Una lectura de Chihaya aumenta por un tiempo lo que ganas de un atributo social.
 2 | Encourage her. | ?
 2 | Overturn your fate! | ?
 2 | Open your mind to change. | 2
 2 | TEL | You're currently standing right in front of your house, correct!? | Ahora mismo estás delante de tu casa, ¿¡verdad!? | Of course I am. | Claro que sí. | 2
 3 | Follow his heart. | ?
 3 | Thieves may steal her away. | ?
-3 | DESBLOQUEO | Money Reading | Después de una lectura, ganas más dinero en los combates por un tiempo.
+3 | DESBLOQUEO | Lectura de dinero | Después de una lectura, ganas más dinero en los combates por un tiempo.
 4 | Trust in yourself. | 3
 4 | Strengthen your will. | 2
 4 | TEL | Talking to you about everything is helping me feel a little better. | Hablar contigo de todo me está ayudando a sentirme un poco mejor. | I didn't do much. | No he hecho gran cosa. | 2
 5 | You're such a hard worker. | 3
 5 | You must have lots of free time. | 2
-5 | DESBLOQUEO | Fate Reading | Te muestra qué habilidades vas a desbloquear con un confidente.
+5 | DESBLOQUEO | Lectura de afinidad | Después de una lectura, ganas un punto con el confidente que elijas.
 6 | You're just Chihaya to me. | 3
 6 | TEL | I just can't find the courage to say what I need to... | No encuentro el valor para decir lo que tengo que decir... | Be honest with yourself. | Sé sincera contigo misma. | 2
 7 | I don't think so. | 3
 7 | You shouldn't have tricked them. | 2
 7 | TEL | I'm done turning a blind eye. | Se acabó mirar hacia otro lado. | Are you gonna be okay? | ¿Vas a estar bien? | 2
 7 | TEL | I'm done turning a blind eye. | Se acabó mirar hacia otro lado. | Be careful. | Ten cuidado. | 2
-7 | DESBLOQUEO | Affinity Reading | Después de una lectura, subes más rápido la relación con el confidente que elijas.
+7 | DESBLOQUEO | Lectura especial del sino | Te muestra todas las habilidades del confidente que elijas.
 8 | I know. | 3
 8 | I had no idea. | 2
 8 | I'm glad to hear that. | 3
@@ -33,13 +33,13 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 9 | That's all in the past now. | 2
 9 | I like having my fortune read. | 0
 9 | So I can be with you. | 0 | ROMANCE
-10 | DESBLOQUEO | Special Fate Reading | Te muestra todas las habilidades que te faltan de cualquier confidente. Se desbloquea la fusión de Laksmí.
+10 | DESBLOQUEO | Lectura especial de vínculo | Ese día, las mejores respuestas con los confidentes se marcan en rojo. Se desbloquea la fusión de Laksmí.
 1 | REQUISITO | Comprarle la Piedra Sagrada (100.000 ¥).
-1 | MEMENTOS | Ending the Boyfriend's Abuse | Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata... | E710_010
-8 | MEMENTOS | Debunking the Psychic | Yuichi Fukurai, el presidente de la APD, controla a Chihaya... | E710_080
+1 | MEMENTOS | Acabar con el maltrato del novio | Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata... | E710_010
+8 | MEMENTOS | ¡Desenmascarar al vidente! | Yuichi Fukurai, el presidente de la APD, controla a Chihaya... | E710_080
 9 | DESBLOQUEO | Devolución | Chihaya te devuelve los 100.000 ¥ de la Piedra Sagrada.
 2 | SINRECOMPENSA
 4 | SINRECOMPENSA
 6 | SINRECOMPENSA
-8 | SINRECOMPENSA
+8 | DESBLOQUEO | Lectura celestial | Activa la Alarma de fusión en la Sala de Terciopelo y ese día es más fácil que vuelva a sonar en combate.
 CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que completar la misión de Mementos del rango 1. En el rango 9 te devuelve el dinero.

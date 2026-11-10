@@ -103,8 +103,8 @@
    ],
    "unlocks": [
     {
-     "name": "Baton Pass",
-     "description": "Después de un 1 More, Ryuji puede pasarle el turno a otro compañero con Baton Pass."
+     "name": "Mediación agresiva",
+     "description": "Ryuji puede salvar una negociación con una Sombra que salió mal. También desbloquea el ramen de Ogikubo."
     }
    ]
   },
@@ -186,7 +186,7 @@
    ],
    "unlocks": [
     {
-     "name": "Follow Up",
+     "name": "Golpe de gracia",
      "description": "Ryuji puede atacar después de Joker."
     }
    ]
@@ -251,8 +251,8 @@
    ],
    "unlocks": [
     {
-     "name": "Punk Talk",
-     "description": "Ryuji puede salvar una negociación con una Sombra que salió mal. También desbloquea el ramen de Ogikubo."
+     "name": "Esprint sigiloso",
+     "description": "En los Palacios, Joker se mueve más rápido sin que lo detecten."
     }
    ]
   },
@@ -452,7 +452,7 @@
    ],
    "unlocks": [
     {
-     "name": "Harisen Recovery",
+     "name": "Golpe de abanico",
      "description": "Cura estados alterados del grupo cuando Ryuji está en el equipo."
     }
    ]
@@ -507,7 +507,7 @@
    ],
    "unlocks": [
     {
-     "name": "Insta-kill",
+     "name": "Muerte instantánea",
      "description": "Después de una emboscada puede ganar el combate al instante (más probable con enemigos débiles)."
     }
    ]
@@ -602,7 +602,7 @@
    ],
    "unlocks": [
     {
-     "name": "Endure",
+     "name": "Último aliento",
      "description": "Puede aguantar un golpe que lo derrotaría."
     }
    ]
@@ -734,7 +734,7 @@
    ],
    "unlocks": [
     {
-     "name": "Protect",
+     "name": "Protección",
      "description": "Ryuji puede proteger a Joker de un ataque que lo derrotaría."
     }
    ]
@@ -744,8 +744,12 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "Su Persona evoluciona a Seiten Taisei. Además se desbloquea la fusión de Chi You."
+    },
+    {
+     "name": "Segundo despertar R",
+     "description": "En el tercer semestre la Persona de Ryuji vuelve a evolucionar, a William."
     }
    ],
    "choicesDontMatter": true

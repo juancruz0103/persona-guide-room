@@ -16,7 +16,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Moral Support",
+     "name": "Apoyo moral",
      "description": "En combate, Futaba puede lanzar un -kaja o curar al grupo. También desbloquea Akihabara."
     }
    ],
@@ -95,7 +95,7 @@
    ],
    "unlocks": [
     {
-     "name": "Mementos Scan",
+     "name": "Análisis de Mementos",
      "description": "Al entrar en un piso de Mementos, Futaba puede revelar el mapa completo."
     }
    ],
@@ -265,7 +265,7 @@
    ],
    "unlocks": [
     {
-     "name": "Position Hack",
+     "name": "Manipulac. posicional",
      "description": "A veces el combate empieza con un atraco a las Sombras."
     }
    ]
@@ -427,8 +427,8 @@
    ],
    "unlocks": [
     {
-     "name": "Active Support",
-     "description": "Moral Support a veces también carga ataques o recupera SP."
+     "name": "Apoyo activo",
+     "description": "Apoyo moral a veces también carga ataques o recupera SP."
     }
    ]
   },
@@ -491,13 +491,13 @@
     },
     {
      "kind": "mementos",
-     "title": "Daughter's Just a Meal Ticket",
+     "title": "Una hija como sustento",
      "description": "Los padres de Kana, la mejor amiga de Futaba, se aprovechan de ella..."
     }
    ],
    "unlocks": [
     {
-     "name": "Treasure Reboot",
+     "name": "Tesoro doble",
      "description": "Futaba puede hacer reaparecer las Sombras con tesoro."
     }
    ]
@@ -585,7 +585,7 @@
    ],
    "unlocks": [],
    "requirements": [
-    "Completar la misión de Mementos «Daughter's Just a Meal Ticket»."
+    "Completar la misión de Mementos «Una hija como sustento»."
    ],
    "noReward": true
   },
@@ -694,7 +694,7 @@
    ],
    "unlocks": [
     {
-     "name": "Emergency Shift",
+     "name": "Cambio de emergencia",
      "description": "Si caen dos o más compañeros, Futaba puede cambiarlos por otros del grupo."
     }
    ]
@@ -704,12 +704,16 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Final Guard",
+     "name": "Defensa definitiva",
      "description": "Futaba puede anular por completo un ataque que te derrotaría."
     },
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "La Persona de Futaba evoluciona a Prometeo. Se desbloquea la fusión de Ongyo-ki."
+    },
+    {
+     "name": "Segundo despertar R",
+     "description": "En el tercer semestre la Persona de Futaba vuelve a evolucionar, a Al Azif."
     }
    ],
    "choicesDontMatter": true

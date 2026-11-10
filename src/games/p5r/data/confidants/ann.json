@@ -14,12 +14,8 @@
   {
    "rank": 1,
    "conversations": [],
-   "unlocks": [
-    {
-     "name": "Baton Pass",
-     "description": "Después de un 1 More, Ann puede pasarle el turno a otro compañero con Baton Pass."
-    }
-   ],
+   "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -154,7 +150,7 @@
    ],
    "unlocks": [
     {
-     "name": "Girl Talk",
+     "name": "Mediación femenina",
      "description": "Ann puede salvar una negociación con una Sombra que salió mal."
     }
    ]
@@ -281,7 +277,7 @@
    ],
    "unlocks": [
     {
-     "name": "Follow Up",
+     "name": "Golpe de gracia",
      "description": "Ann puede atacar después de Joker."
     }
    ]
@@ -443,7 +439,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Seducción",
+     "description": "Ann puede seducir a las Sombras al negociar."
+    }
+   ]
   },
   {
    "rank": 5,
@@ -517,7 +518,7 @@
    ],
    "unlocks": [
     {
-     "name": "Crocodile Tears",
+     "name": "Lágrimas de cocodrilo",
      "description": "Ann puede bajar lo que pide una Sombra al negociar."
     }
    ]
@@ -605,7 +606,7 @@
    ],
    "unlocks": [
     {
-     "name": "Harisen Recovery",
+     "name": "Golpe de abanico",
      "description": "Cura estados alterados del grupo cuando Ann está en el equipo."
     }
    ]
@@ -681,12 +682,8 @@
      ]
     }
    ],
-   "unlocks": [
-    {
-     "name": "Sexy Technique",
-     "description": "Ann puede seducir a las Sombras al negociar."
-    }
-   ]
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 8,
@@ -793,7 +790,7 @@
    ],
    "unlocks": [
     {
-     "name": "Endure",
+     "name": "Último aliento",
      "description": "Ann puede aguantar un golpe que la derrotaría."
     }
    ]
@@ -868,7 +865,7 @@
    ],
    "unlocks": [
     {
-     "name": "Protect",
+     "name": "Protección",
      "description": "Ann puede proteger a Joker de un ataque que lo derrotaría."
     }
    ]
@@ -878,8 +875,12 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Second Awakening",
+     "name": "Segundo despertar",
      "description": "Su Persona evoluciona a Hécate."
+    },
+    {
+     "name": "Segundo despertar R",
+     "description": "En el tercer semestre la Persona de Ann vuelve a evolucionar, a Celestine."
     }
    ],
    "choicesDontMatter": true

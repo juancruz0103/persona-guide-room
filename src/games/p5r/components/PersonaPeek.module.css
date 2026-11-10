@@ -80,3 +80,11 @@
     transform: none;
   }
 }
+
+.photoImg {
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  background: #0b0b0b;
+}

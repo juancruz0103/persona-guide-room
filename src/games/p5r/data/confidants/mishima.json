@@ -20,7 +20,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Mishima's Support",
+     "name": "Apoyo de Mishima",
      "description": "Los compañeros que no combaten ganan algo de experiencia."
     }
    ],
@@ -220,7 +220,7 @@
    ],
    "unlocks": [
     {
-     "name": "Mishima's Enthusiasm",
+     "name": "Entusiasmo de Mishima",
      "description": "Ganas más experiencia en los combates."
     }
    ]
@@ -387,7 +387,7 @@
    ],
    "unlocks": [
     {
-     "name": "Mishima's Desperation",
+     "name": "Desesperación de Mishima",
      "description": "Los compañeros que no combaten ganan más experiencia."
     }
    ]
@@ -589,7 +589,7 @@
    ],
    "unlocks": [
     {
-     "name": "Phanboy",
+     "name": "Fantasmafan",
      "description": "Ganas mucha más experiencia en los combates."
     }
    ]
@@ -762,7 +762,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Salvation Wish",
+     "name": "Deseo de salvación",
      "description": "Los compañeros que no combaten ganan toda la experiencia. Se desbloquea la fusión de Sandalfón."
     }
    ],

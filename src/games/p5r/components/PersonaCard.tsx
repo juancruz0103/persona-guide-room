@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { personaImage } from '../services/images';
 import type { Persona } from '../types';
 import { getArcana } from '../data/arcana';
 import { PARTY_OWNER, isSpoilerStage } from '../data/party';
@@ -25,7 +26,9 @@ export function PersonaCard({ persona }: { persona: Persona }) {
       <SpoilerCover active={isSpoilerStage(party?.stage)} className={styles.image}>
         <ImagePlaceholder
           className={styles.image}
-          label="Imagen de Persona"
+          src={personaImage(persona.id, 'side')}
+          focus="50% 30%"
+          label={personaImage(persona.id, 'side') ? personaName(persona) : 'Imagen de Persona'}
           corner={arcana.numeral}
           badge={badge}
         />

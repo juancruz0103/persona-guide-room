@@ -16,19 +16,25 @@
   {
    "rank": 1,
    "when": "Automático · 12/4",
-   "ability": "Wild Talk",
-   "description": "Negociar con las Sombras durante un Hold Up."
+   "ability": "Mediación salvaje",
+   "description": "Negociar con las Sombras durante un Hold Up.",
+   "extra": [
+    {
+     "ability": "Explosión arcana",
+     "description": "Las Personas fusionadas ganan EXP extra según el rango del confidente de su Arcana."
+    }
+   ]
   },
   {
    "rank": 2,
    "when": "Al entrar al primer Palacio",
-   "ability": "Third Eye",
+   "ability": "Tercer ojo",
    "description": "Ver las cosas con más claridad."
   },
   {
    "rank": 3,
    "when": "Automático · 5/5",
-   "ability": "Power Stock",
+   "ability": "Superinventario",
    "description": "Podés llevar 8 Personas."
   },
   {
@@ -38,13 +44,13 @@
   {
    "rank": 5,
    "when": "Automático · 11/6",
-   "ability": "Super Stock",
+   "ability": "Megainventario",
    "description": "Podés llevar 10 Personas."
   },
   {
    "rank": 6,
    "when": "Tras el cuarto Palacio",
-   "ability": "High Arcana Burst",
+   "ability": "Gran explosión arcana",
    "description": "Más EXP extra al fusionar, según el rango de confidente."
   },
   {
@@ -54,7 +60,7 @@
   {
    "rank": 8,
    "when": "Automático · 31/8",
-   "ability": "Ultra Stock",
+   "ability": "Ultrainventario",
    "description": "Podés llevar 12 Personas."
   },
   {
@@ -64,7 +70,7 @@
   {
    "rank": 10,
    "when": "Automático · 24/12",
-   "ability": "Max Arcana Burst",
+   "ability": "Explosión arcana máxima",
    "description": "Mucha EXP extra al fusionar Personas del Loco."
   }
  ]

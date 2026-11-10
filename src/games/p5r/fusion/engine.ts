@@ -191,14 +191,9 @@ export class FusionEngine {
     if (!offset) return null;
     const list = this.results.get(p.arcana) ?? [];
 
-    if (p.flags.special) {
-      // ⚠️ Regla no verificada: la referencia calcula este caso de forma distinta según
-      // desde qué lado se mire. Usamos su cálculo "desde el tesoro" y lo marcamos.
-      const below = list.filter((x) => p.level > x.level).length;
-      const idx = offset + below;
-      const result = idx > 0 && idx < list.length ? list[idx] : undefined;
-      return result ? { result, kind: 'treasure', unverified: true } : null;
-    }
+    // Una Persona especial no se puede fusionar con un Treasure Demon
+    // (comprobado en el juego: Piedra de Scone + Trompetista no da nada).
+    if (p.flags.special) return null;
 
     const idx = list.findIndex((x) => x.id === p.id);
     const result = idx === -1 ? undefined : list[idx + offset];

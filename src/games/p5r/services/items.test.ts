@@ -37,12 +37,17 @@ describe('items de la silla eléctrica', () => {
   });
 
   it('un item sin datos no inventa números', () => {
-    const it = getItem('Ancient Day')!;
-    expect(it.type).toBe('unknown');
-    const d = itemDescription(it);
-    // Solo la descripción oficial del juego: ninguna línea con estadísticas
+    const d = itemDescription({ name: 'Inventado', type: 'unknown', source: null } as Parameters<typeof itemDescription>[0]);
     expect(d.lines.every((l) => !/\d/.test(l.text))).toBe(true);
     expect(d.note).toMatch(/falta confirmar/);
+  });
+
+  it('un item comprobado en el juego muestra sus números y lo dice', () => {
+    const it = getItem('Ancient Day')!;
+    expect(it.type).toBe('gun');
+    const d = itemDescription(it);
+    expect(d.lines.some((l) => l.text.includes('Ataque 420'))).toBe(true);
+    expect(d.note).toMatch(/Comprobado en el juego/);
   });
 });
 

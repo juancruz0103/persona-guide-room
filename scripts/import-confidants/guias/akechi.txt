@@ -9,7 +9,7 @@ CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero 
 2 | I see a lot of things. | 3
 2 | Maybe I'll be a detective. | 2
 2 | TEL | If you're so inclined, we could go out again sometime. | Si te apetece, podríamos volver a quedar algún día. | As rivals? | ¿Como rivales? | 2
-2 | DESBLOQUEO | Sleuthing Instinct | Al empezar un combate, a veces revela una afinidad de un enemigo.
+2 | DESBLOQUEO | Instinto detectivesco | Al empezar un combate, a veces revela una afinidad de un enemigo.
 3 | Should've figured. | 3
 3 | Your life must be so hard. | 2
 3 | TEL | I saw first-hand what happens when I'm too careless with my words around you. | Ya he visto lo que pasa cuando hablo sin cuidado delante de ti. | Wasn't it fun? | ¿A que fue divertido? | 2
@@ -22,7 +22,7 @@ CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero 
 4 | I can use a microwave... | 3
 4 | All I need is curry. | 2
 4 | TEL | It's a euphoria like when I manage to solve a case. | Es una euforia como la de resolver un caso. | I kinda get it. | Más o menos lo entiendo. | 2
-4 | DESBLOQUEO | Sleuthing Mastery | Al empezar un combate, revela todas las afinidades de un enemigo.
+4 | DESBLOQUEO | Maestría detectivesca | Al empezar un combate, revela todas las afinidades de un enemigo.
 5 | Are you used to gunplay? | 2
 5 | You wanted to be a hero? | 3
 5 | Very interesting. | 2
@@ -42,21 +42,17 @@ CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero 
 6 | I think you're right. | 3
 6 | Can I put my clothes on? | 2
 6 | TEL | If they saw how I was acting today, perhaps they'd say I wasn't acting like the Detective Prince. | Si me hubieran visto hoy, quizá dirían que no me comportaba como el Príncipe Detective. | My bad, I guess. | Culpa mía, supongo. | 2
-6 | DESBLOQUEO | Baton Pass | Después de un 1 More, Akechi puede pasarle el turno a otro compañero con Baton Pass.
-6 | DESBLOQUEO | Follow Up | Akechi puede atacar después de Joker.
-6 | DESBLOQUEO | Detective Talk | Akechi puede salvar una negociación con una Sombra que salió mal.
 7 | That's why it's so fun. | 3
 7 | Yeah, it's convoluted... | 2
 7 | I couldn't let myself lose. | 3
 8 | I definitely wouldn't lose. | 3
 8 | Really hate losing, don't you? | 2
 8 | Same here. | 1
-10 | DESBLOQUEO | Endure y Protect | Akechi puede aguantar con 1 HP un golpe que lo derrotaría y recibir en lugar de Joker un ataque mortal. Se desbloquea la fusión de Metatrón.
+10 | DESBLOQUEO | Fusión de Metatrón | Se desbloquea la fusión de Metatrón.
 3 | REQUISITO | Conocimiento 3 y Encanto 3.
 6 | REQUISITO | Que sea desde el 3 de septiembre.
 7 | REQUISITO | Conocimiento 4, y que sea desde el 2 de noviembre.
 8 | REQUISITO | Llegar antes del 17 de noviembre: si no, el confidente queda bloqueado.
-1 | SINRECOMPENSA
-5 | SINRECOMPENSA
-8 | SINRECOMPENSA
-9 | SINRECOMPENSA
+3 | SINRECOMPENSA
+6 | SINRECOMPENSA
+7 | DESBLOQUEO | Golpe de abanico | Akechi puede curar estados alterados de los compañeros en combate.

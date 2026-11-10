@@ -1,5 +1,4 @@
 # fuente: https://www.rpgsite.net/feature/9381-persona-5-royal-ann-confidant-guide-lovers-choices-romance-gifts
-1 | DESBLOQUEO | Baton Pass | Después de un 1 More, Ann puede pasarle el turno a otro compañero con Baton Pass.
 2 | Are you feeling better now? | 3
 2 | She's so strong. | 3
 2 | So are you friends again? | 2
@@ -13,7 +12,7 @@
 2 | TEL | I hope you'll join me again next time! | ¡Espero que la próxima vez vengas conmigo otra vez! | Of course. You're my teammate. | Claro. Eres mi compañera. | 2
 2 | TEL | I hope you'll join me again next time! | ¡Espero que la próxima vez vengas conmigo otra vez! | Leave it to me. | Déjamelo a mí. | 2
 2 | TEL | I hope you'll join me again next time! | ¡Espero que la próxima vez vengas conmigo otra vez! | The no-refills thing again? | ¿Otra vez lo de no repetir? | 2
-2 | DESBLOQUEO | Girl Talk | Ann puede salvar una negociación con una Sombra que salió mal.
+2 | DESBLOQUEO | Mediación femenina | Ann puede salvar una negociación con una Sombra que salió mal.
 3 | Can we stop yet? | 3
 3 | I love you. | 2
 3 | I like you. | 2
@@ -21,7 +20,7 @@
 3 | That's odd. | 2
 3 | That freedom sounds nice. | 2
 3 | TEL | Do you think she thought I was cool...? | ¿Crees que le parecí guay...? | Could be. | Puede ser. | 2
-3 | DESBLOQUEO | Follow Up | Ann puede atacar después de Joker.
+3 | DESBLOQUEO | Golpe de gracia | Ann puede atacar después de Joker.
 4 | I know what you mean. | 3
 4 | That comes down to you. | 2
 4 | That's hilarious. | 3
@@ -36,7 +35,7 @@
 5 | Give it up. | 2
 5 | She's amazing, huh... | 2
 5 | It had grace. | 2
-5 | DESBLOQUEO | Crocodile Tears | Ann puede bajar lo que pide una Sombra al negociar.
+5 | DESBLOQUEO | Lágrimas de cocodrilo | Ann puede bajar lo que pide una Sombra al negociar.
 6 | It seems that way. | 3
 6 | If it's a friend, yeah. | 2
 6 | Comfort her. | 3
@@ -44,11 +43,11 @@
 6 | Listen to what she has to say. | 2
 6 | TEL | I know I'll find something I can do for her...! | ¡Seguro que encuentro algo que pueda hacer por ella...! | Someone's motivated. | Alguien está motivada. | 2
 6 | TEL | I know I'll find something I can do for her...! | ¡Seguro que encuentro algo que pueda hacer por ella...! | I'll cheer you on. | Te daré ánimos. | 2
-6 | DESBLOQUEO | Harisen Recovery | Cura estados alterados del grupo cuando Ann está en el equipo.
+6 | DESBLOQUEO | Golpe de abanico | Cura estados alterados del grupo cuando Ann está en el equipo.
 7 | She admires you. | 2
 7 | Go get 'em, tiger. | 2
 7 | TEL | I'll do any workout! | ¡Haré cualquier ejercicio! | You got this. | Tú puedes. | 2
-7 | DESBLOQUEO | Sexy Technique | Ann puede seducir a las Sombras al negociar.
+4 | DESBLOQUEO | Seducción | Ann puede seducir a las Sombras al negociar.
 8 | You have some real guts. | 3
 8 | You're beautiful as is. | 2
 8 | There's no doubt in my mind. | 3
@@ -58,11 +57,14 @@
 8 | I'm sure she already knows. | 3
 8 | TEL | Being able to push herself because someone was there with her... | Poder esforzarse porque alguien estaba con ella... | You can ask her yourself. | Puedes preguntárselo tú. | 2
 8 | TEL | Being able to push herself because someone was there with her... | Poder esforzarse porque alguien estaba con ella... | That's probably it. | Seguramente sea eso. | 0
-8 | DESBLOQUEO | Endure | Ann puede aguantar un golpe que la derrotaría.
+8 | DESBLOQUEO | Último aliento | Ann puede aguantar un golpe que la derrotaría.
 9 | Hang in there. | 3
 9 | I believe in you, Ann. | 3
 9 | You have me. | 0 | ROMANCE
 9 | You have the others. | 0
 9 | TEL | I guess... I'm alone again, huh...? | Supongo que... vuelvo a estar sola, ¿eh...? | I'm yours forever. | Soy tuyo para siempre. | 3 | ROMANCE
-9 | DESBLOQUEO | Protect | Ann puede proteger a Joker de un ataque que lo derrotaría.
-10 | DESBLOQUEO | Second Awakening | Su Persona evoluciona a Hécate.
+9 | DESBLOQUEO | Protección | Ann puede proteger a Joker de un ataque que lo derrotaría.
+10 | DESBLOQUEO | Segundo despertar | Su Persona evoluciona a Hécate.
+1 | SINRECOMPENSA
+7 | SINRECOMPENSA
+10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Ann vuelve a evolucionar, a Celestine.

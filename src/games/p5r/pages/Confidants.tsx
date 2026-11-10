@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { confidantImage } from '../services/images';
 import { getArcana } from '../data/arcana';
 import { CONFIDANTS, KIND_LABEL, TAG_LABEL, type ConfidantTag } from '../services/confidants';
 import { normalize } from '../services/gameText';
@@ -120,7 +121,9 @@ export default function Confidants() {
                 <Link to={`/p5r/confidentes/${c.id}`} className={`${styles.card} ${special ? styles.cardSpecial : ''}`}>
                   <ImagePlaceholder
                     className={styles.portrait}
-                    label="Retrato"
+                    src={confidantImage(c.id)}
+                    focus="50% 30%"
+                    label={confidantImage(c.id) ? c.name : 'Retrato'}
                     icon="person"
                     corner={arcana.numeral}
                     badge={special ? <span className="tag tag--dlc">Especial</span> : undefined}

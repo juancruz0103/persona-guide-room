@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { confidantImage } from '../services/images';
 import { getArcana } from '../data/arcana';
 import { PersonaPeek } from '../components/PersonaPeek';
 import {
@@ -117,6 +118,12 @@ function Timeline({ ranks }: { ranks: TimelineRank[] }) {
             <span className={styles.tlWhen}>{r.when}</span>
             <span className={`${styles.tlAbility} ${r.ability ? '' : styles.tlNone}`}>{r.ability ?? 'Sin habilidad nueva'}</span>
             {r.description && <span className={styles.tlDesc}>{r.description}</span>}
+            {r.extra?.map((x) => (
+              <span key={x.ability} className={styles.tlExtra}>
+                <span className={styles.tlAbility}>{x.ability}</span>
+                <span className={styles.tlDesc}>{x.description}</span>
+              </span>
+            ))}
           </span>
         </li>
       ))}
@@ -253,7 +260,12 @@ export default function ConfidantProfile() {
       <section className={styles.hero}>
         <div className={styles.heroSlab} aria-hidden="true" />
         <div className={`container ${styles.heroInner}`}>
-          <ImagePlaceholder className={styles.portrait} label="Retrato del confidente" icon="person" />
+          <ImagePlaceholder
+            className={styles.portrait}
+            label={confidantImage(summary.id) ? summary.name : 'Retrato del confidente'}
+            icon="person"
+            src={confidantImage(summary.id)}
+          />
           <div className={styles.heroText}>
             <span className={styles.arcanaTag}>{arcana.name} · Arcana {arcana.numeral}</span>
             <h1 className={styles.name}>{summary.name}</h1>

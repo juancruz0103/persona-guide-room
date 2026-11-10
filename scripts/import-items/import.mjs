@@ -151,6 +151,20 @@ for (const name of [...names].sort()) {
   review.push({ item: name, why: 'Item agregado en Royal: falta saber tipo y estadísticas' });
 }
 
+// 5. Ítems comprobados en el juego (pisan todo lo anterior)
+const checked = readFileSync(join(root, 'scripts/import-items/comprobados.txt'), 'utf8')
+  .split('\n').map((l) => l.trim()).filter((l) => l && !l.startsWith('#'));
+for (const line of checked) {
+  const [name, type, statText, effectText] = line.split('|').map((x) => x.trim());
+  if (!items[name]) throw new Error(`comprobados.txt: no existe el item «${name}»`);
+  const stats = Object.fromEntries(statText.split(',').map((x) => x.trim().split(' ')).map(([k, v]) => [k, Number(v)]));
+  const effects = effectText ? effectText.split(';').map((x) => x.trim()) : [];
+  const { p5Stats: _old, ...rest } = items[name];
+  items[name] = { ...rest, type, stats, effects, source: 'juego', variantOf: rest.variantOf ?? null };
+  const i = review.findIndex((r) => r.item === name);
+  if (i !== -1) review.splice(i, 1);
+}
+
 writeFileSync(join(gen, 'items.json'), JSON.stringify(items, null, 1) + '\n');
 
 const counts = Object.values(items).reduce((acc, it) => ((acc[it.type] = (acc[it.type] ?? 0) + 1), acc), {});

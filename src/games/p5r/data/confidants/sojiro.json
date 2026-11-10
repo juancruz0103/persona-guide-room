@@ -121,7 +121,7 @@
    ],
    "unlocks": [
     {
-     "name": "Coffee Basics",
+     "name": "Café básico",
      "description": "Puedes preparar café en Leblanc: recupera SP en combate. Además, +3 de Gentileza."
     }
    ]
@@ -291,7 +291,7 @@
    ],
    "unlocks": [
     {
-     "name": "Leblanc Curry",
+     "name": "Curry del Leblanc",
      "description": "Puedes preparar curry: recupera SP. Además, +3 de Gentileza."
     }
    ]
@@ -509,7 +509,7 @@
    ],
    "unlocks": [
     {
-     "name": "Coffee Mastery",
+     "name": "Café superior",
      "description": "El café que preparas es de mejor calidad. Además, +3 de Gentileza."
     }
    ]
@@ -632,7 +632,7 @@
     },
     {
      "kind": "mementos",
-     "title": "The Money-Grubbing Uncle",
+     "title": "El tío rapiñador",
      "description": "El tío de Futaba está intentando quitarle la custodia de Futaba al Jefe..."
     }
    ],
@@ -722,12 +722,12 @@
    ],
    "unlocks": [
     {
-     "name": "Curry Tips",
+     "name": "Secretos del curry",
      "description": "El curry que preparas es de mejor calidad."
     }
    ],
    "requirements": [
-    "Completar la misión de Mementos «The Money-Grubbing Uncle»."
+    "Completar la misión de Mementos «El tío rapiñador»."
    ]
   },
   {
@@ -735,7 +735,7 @@
    "conversations": [],
    "unlocks": [
     {
-     "name": "Curry Mastery",
+     "name": "Curry superior",
      "description": "El curry recupera SP a todo el grupo. Se desbloquea la fusión de Kouryuu y, si aún no la tenías, la iglesia de Kanda."
     }
    ],

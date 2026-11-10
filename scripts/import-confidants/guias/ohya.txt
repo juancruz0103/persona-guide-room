@@ -2,7 +2,7 @@
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: lo da la historia. Las llamadas del rango 9 no se cargan: la guía no da la frase.
 CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroads todas las noches (de día está cerrado).
-1 | DESBLOQUEO | Rumor-filled Scoop | La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto.
+1 | DESBLOQUEO | Exclusiva infundada | La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto.
 2 | Mishima might... | 2
 2 | It's for the article. | 2
 3 | You shouldn't make assumptions. | 2
@@ -11,7 +11,7 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 4 | Don't tell anybody. | 2
 4 | TEL | I'll write you a solid article on the Phantom Thieves. | Te escribiré un buen artículo sobre los Ladrones Fantasma. | Leave it to me. | Déjamelo a mí. | 2
 4 | TEL | I'll write you a solid article on the Phantom Thieves. | Te escribiré un buen artículo sobre los Ladrones Fantasma. | That was our deal. | Ese era el trato. | 2
-4 | DESBLOQUEO | Shocking Scoop | Mejora Rumor-filled Scoop.
+3 | DESBLOQUEO | Exclusiva impactante | La alerta sube con menos facilidad y baja después de una emboscada.
 5 | That's unforgivable. | 3
 5 | That sounds like defamation. | 2
 5 | TEL | For me digging up your records and such without asking, I mean... | Por haber investigado tu historial sin preguntarte, me refiero... | I don't mind it. | No me importa. | 2
@@ -26,7 +26,7 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 7 | You're charming as you are. | 3
 7 | You should work on that. | 2
 7 | TEL | I'll do whatever it takes to find her...! | ¡Haré lo que haga falta para encontrarla...! | That's the spirit. | Ese es el espíritu. | 2
-7 | DESBLOQUEO | Outrageous Scoop | Mejora todavía más Rumor-filled Scoop.
+7 | DESBLOQUEO | Exclusiva escandalosa | La alerta empieza todavía más baja al infiltrarte.
 8 | You seem tired. | 2
 8 | That's not like you. | 3
 8 | You need to pursue the truth. | 3
@@ -40,11 +40,13 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 9 | I didn't take it seriously. | 0
 9 | I love you, Ichiko. | 0 | ROMANCE
 9 | I'm just kidding. | 0
-10 | DESBLOQUEO | Legendary Scoop | La alerta de los Palacios deja de subir. Se desbloquea la fusión de Belcebú.
-8 | MEMENTOS | Fighting for Truth in Journalism | Ohya quiere investigar el caso de su compañero desaparecido, pero su jefe intenta pararle los pies. | E715_080
+10 | DESBLOQUEO | Exclusiva legendaria | La alerta de los Palacios deja de subir. Se desbloquea la fusión de Belcebú.
+8 | MEMENTOS | Luchando por la verdad periodística | Ohya quiere investigar el caso de su compañero desaparecido, pero su jefe intenta pararle los pies. | E715_080
 2 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
 3 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
 5 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
 6 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
 8 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
 9 | SINRECOMPENSA
+5 | DESBLOQUEO | Exclusiva sin precedentes | La alerta empieza más baja al infiltrarte.
+4 | SINRECOMPENSA
