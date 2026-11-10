@@ -56,6 +56,8 @@ export interface CatalogFilters {
   partyInitial: boolean;
   partyEvolved: boolean;
   partyThird: boolean;
+  /** Mostrar solo las Personas de compañeros (respeta los tres filtros de forma) */
+  partyOnly?: boolean;
   sort: SortKey;
 }
 
@@ -70,6 +72,7 @@ export const DEFAULT_FILTERS: CatalogFilters = {
   // Evolucionadas y tercer semestre son spoiler: se activan desde "Más filtros"
   partyEvolved: false,
   partyThird: false,
+  partyOnly: false,
   sort: 'level-asc',
 };
 
@@ -79,6 +82,7 @@ export function filterPersonas(list: Persona[], f: CatalogFilters): Persona[] {
   const result = list.filter((p) => {
     if (!f.includeDlc && p.flags.dlc) return false;
     if (!f.includeTreasure && p.flags.treasure) return false;
+    if (f.partyOnly && !p.party) return false;
     if (p.party) {
       const on = { initial: f.partyInitial, evolved: f.partyEvolved, third: f.partyThird }[p.party.stage];
       if (!on) return false;

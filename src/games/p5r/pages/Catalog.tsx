@@ -97,6 +97,14 @@ export default function Catalog() {
           <fieldset className={`${styles.group} ${styles.options}`}>
             <legend className="label label-accent">Personas de compañeros</legend>
             <p className={styles.note}>Las Personas de los Ladrones Fantasma. Tienen ficha pero no se fusionan.</p>
+            <button
+              type="button"
+              aria-pressed={!!f.partyOnly}
+              className={`${styles.partyOnlyBtn} ${f.partyOnly ? styles.partyOnlyOn : ''}`}
+              onClick={() => set('partyOnly', !f.partyOnly)}
+            >
+              {f.partyOnly ? '✓ Solo compañeros' : 'Ver solo compañeros'}
+            </button>
             <label className={styles.check}>
               <input type="checkbox" checked={f.partyInitial} onChange={(e) => set('partyInitial', e.target.checked)} />
               Iniciales
@@ -154,7 +162,11 @@ export default function Catalog() {
               ))}
             </div>
           ) : (
-            <p className="pending">No hay Personas con esos filtros.</p>
+            <p className="pending">
+              {f.partyOnly && !f.partyInitial && !f.partyEvolved && !f.partyThird
+                ? 'Marcá al menos una forma (iniciales, evolucionadas o tercer semestre) para ver Personas de compañeros.'
+                : 'No hay Personas con esos filtros.'}
+            </p>
           )}
         </section>
       </div>

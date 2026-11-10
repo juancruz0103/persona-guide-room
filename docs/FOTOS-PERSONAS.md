@@ -22,3 +22,4 @@ Fotos de Juan, sacadas del juego:
   figura, así que no se recorta: `scripts/import-photos/tercer_semestre.py` la sigue columna por columna y la
   pinta del color del fondo. Lista y zonas a limpiar a mano en `tercer_semestre.txt` (Agnes: ícono del menú).
 - Falta Al Azif (Futaba, tercer semestre).
+- Ella (ficha): recortada en 200,0,660,575 para que quede centrada (la captura la corta a la derecha).

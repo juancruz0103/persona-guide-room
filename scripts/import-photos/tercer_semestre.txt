@@ -14,7 +14,7 @@ fotos confidentes/Haru/Lucy-de.png | lucy-de | - |
 fotos confidentes/Haru/Lucy-iz.png | lucy-iz | - |
 fotos confidentes/Goro Akechi/Hereward-de.png | hereward-de | - |
 fotos confidentes/Goro Akechi/Hereward-iz.png | hereward-iz | - |
-fotos confidentes/Kasumi/Ella-de.png | ella-de | - |
+fotos confidentes/Kasumi/Ella-de.png | ella-de | 200,0,660,575 |
 fotos confidentes/Kasumi/Ella-iz.png | ella-iz | - |
 Persona fotos/Izanagi-no-Okami Pícaro/Izanagi-no-Okami Pícaro-de.png | izanagi-no-okami-picaro-de | - |
 Persona fotos/Izanagi-no-Okami Pícaro/Izanagi-no-Okami Pícaro-iz.png | izanagi-no-okami-picaro-iz | - |

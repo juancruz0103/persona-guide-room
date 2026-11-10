@@ -187,3 +187,27 @@
 .spoilerBtn:hover {
   border-color: var(--c-accent);
 }
+
+.partyOnlyBtn {
+  min-height: 42px;
+  padding: 0 14px;
+  margin-bottom: 4px;
+  background: var(--c-surface);
+  color: var(--c-text);
+  border: 2px solid var(--c-line);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  clip-path: var(--slant-btn);
+}
+.partyOnlyBtn:hover {
+  border-color: var(--c-accent);
+}
+.partyOnlyOn {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: var(--c-ink);
+}

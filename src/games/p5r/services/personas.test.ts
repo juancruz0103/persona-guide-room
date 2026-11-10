@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { DEFAULT_FILTERS, filterPersonas, getAllPersonas, getPersona, getSkill } from './personas';
+import { DEFAULT_FILTERS, filterPersonas, getAllPersonas, getCatalogPersonas, getPersona, getSkill } from './personas';
 
 const all = getAllPersonas();
 
@@ -52,5 +52,19 @@ describe('datos del compendio', () => {
   it('Mabufudyne puede congelar y Flash Bomb marear', () => {
     expect(getSkill('Mabufudyne')).toMatchObject({ element: 'ice', ailment: 'freeze', target: 'all' });
     expect(getSkill('Flash Bomb')).toMatchObject({ element: 'phy', ailment: 'dizzy' });
+  });
+});
+
+describe('filtro «solo compañeros»', () => {
+  it('muestra solo Personas de compañeros y respeta las formas elegidas', () => {
+    const catalog = getCatalogPersonas();
+    const only = filterPersonas(catalog, { ...DEFAULT_FILTERS, partyOnly: true });
+    expect(only.length).toBeGreaterThan(0);
+    expect(only.every((p) => p.party?.stage === 'initial')).toBe(true);
+    const allForms = filterPersonas(catalog, { ...DEFAULT_FILTERS, partyOnly: true, partyEvolved: true, partyThird: true });
+    expect(allForms.every((p) => p.party)).toBe(true);
+    expect(new Set(allForms.map((p) => p.party!.stage))).toEqual(new Set(['initial', 'evolved', 'third']));
+    const thirdOnly = filterPersonas(catalog, { ...DEFAULT_FILTERS, partyOnly: true, partyInitial: false, partyThird: true });
+    expect(thirdOnly.every((p) => p.party!.stage === 'third')).toBe(true);
   });
 });
