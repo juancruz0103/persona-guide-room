@@ -98,6 +98,9 @@
      "name": "Mementos Scan",
      "description": "Al entrar en un piso de Mementos, Futaba puede revelar el mapa completo."
     }
+   ],
+   "requirements": [
+    "Gentileza 4, y que sea después del 2 de septiembre."
    ]
   },
   {
@@ -176,7 +179,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 4,
@@ -342,7 +346,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 6,
@@ -483,12 +488,17 @@
        "points": 2
       }
      ]
+    },
+    {
+     "kind": "mementos",
+     "title": "Daughter's Just a Meal Ticket",
+     "description": "Los padres de Kana, la mejor amiga de Futaba, se aprovechan de ella..."
     }
    ],
    "unlocks": [
     {
      "name": "Treasure Reboot",
-     "description": "Futaba puede hacer reaparecer las Sombras con tesoro. Aparece el pedido de Mementos «Daughter's Just a Meal Ticket»: hay que completarlo para llegar al rango 8."
+     "description": "Futaba puede hacer reaparecer las Sombras con tesoro."
     }
    ]
   },
@@ -573,7 +583,11 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Completar la misión de Mementos «Daughter's Just a Meal Ticket»."
+   ],
+   "noReward": true
   },
   {
    "rank": 9,

@@ -383,6 +383,60 @@
   padding: 4px 10px;
 }
 
+/* Misión de Mementos entre conversaciones */
+.mission {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 20px;
+  border: 2px dashed var(--c-accent);
+  background: rgba(212, 175, 55, 0.07);
+}
+.missionKicker,
+.requirementsKicker {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.missionTitle {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 20px;
+}
+.missionDesc {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+.missionHint {
+  font-size: 14px;
+  color: var(--c-text-dim);
+}
+
+.requirements {
+  margin-bottom: 18px;
+  padding: 14px 18px;
+  background: var(--c-surface);
+  border-left: 5px solid var(--c-accent);
+}
+.requirements ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.noReward {
+  margin: 0;
+  padding: 14px 18px;
+  background: var(--c-surface);
+  font-size: 15px;
+  color: var(--c-text-muted);
+}
+
 /* Lateral */
 .rankSide {
   flex: 1 1 300px;

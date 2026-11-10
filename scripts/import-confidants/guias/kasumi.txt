@@ -75,3 +75,8 @@ CONSEJO | Los rangos 1 y 6 llegan solos con la historia.
 9 | TEL | I don't know what to do! | ¡No sé qué hacer! | Get used to it. | Acostúmbrate. | 3
 9 | DESBLOQUEO | Protect | Sumire puede recibir en lugar de Joker un ataque que lo derrotaría.
 10 | DESBLOQUEO | Second Awakening | La Persona de Sumire evoluciona a Vanadis.
+1 | DESBLOQUEO | HP +5 | Este rango solo sube 5 HP el máximo de Kasumi.
+3 | DESBLOQUEO | HP +5 | Este rango solo sube 5 HP el máximo de Kasumi.
+5 | DESBLOQUEO | HP +5 | Este rango solo sube 5 HP el máximo de Kasumi.
+5 | REQUISITO | Completar el rango 4 antes del 22 de diciembre.
+6 | REQUISITO | Haber llegado al rango 5 antes del 22 de diciembre: si no, el confidente queda bloqueado. El rango 6 llega con la historia.

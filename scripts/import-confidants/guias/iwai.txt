@@ -1,9 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/9383-persona-5-royal-iwai-confidant-guide-hanged-man-choices-unlock-list
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: la guía lista opciones que no están en Royal.
-CONSEJO | Disponible desde el 6 de mayo, después del evento del paquete en la tienda de airsoft. Para empezar necesitas Coraje 4; para el rango 8, Coraje 5.
 CONSEJO | En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.».
-CONSEJO | En el rango 8 aparece un pedido de Mementos: complétalo para seguir con Iwai.
 1 | DESBLOQUEO | Starter Customization | Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza.
 2 | How's your cold? | 2
 2 | What should I do now? | 2
@@ -50,3 +48,11 @@ CONSEJO | En el rango 8 aparece un pedido de Mementos: complétalo para seguir c
 9 | TEL | ...The kid must've grown into a man while I wasn't looking. | ...El chaval se ha hecho un hombre sin que me diera cuenta. | Like father, like son. | De tal palo, tal astilla. | 2
 9 | TEL | ...The kid must've grown into a man while I wasn't looking. | ...El chaval se ha hecho un hombre sin que me diera cuenta. | Gecko bonds go beyond blood. | Los lazos de geco van más allá de la sangre. | 2
 10 | DESBLOQUEO | Special Customization | Mejoras de pistola al máximo. Se desbloquea la fusión de Atis.
+1 | REQUISITO | Coraje 4. Disponible desde el 6 de mayo.
+8 | REQUISITO | Coraje 5.
+8 | MEMENTOS | Shady Deal in the Shadows | Iwai tiene un trato relacionado con sus réplicas con un antiguo socio, Tsuda, pero algo no va bien. | E712_080
+2 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.
+4 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.
+8 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.
+6 | SINRECOMPENSA
+9 | SINRECOMPENSA

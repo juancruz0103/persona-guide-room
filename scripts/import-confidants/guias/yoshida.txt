@@ -37,3 +37,8 @@ CONSEJO | Después del 13 de noviembre ya no está disponible.
 9 | I'm getting nervous. | 2
 9 | You had a change of heart. | 2
 10 | DESBLOQUEO | Charismatic Speech | Es más fácil hacer pactos con Personas de nivel más alto. Se desbloquea la fusión de Asura.
+1 | SINRECOMPENSA
+4 | SINRECOMPENSA
+6 | SINRECOMPENSA
+7 | SINRECOMPENSA
+9 | SINRECOMPENSA

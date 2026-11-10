@@ -7,9 +7,7 @@
  "maxRank": 10,
  "tips": [
   "Empieza solo con la historia el 13 de mayo. Está en la escuela de día los lunes, martes, miércoles y viernes.",
-  "No se puede pasar del rango 5 hasta después del 19 de septiembre.",
-  "Hay que llegar al rango 9 antes del 17 de noviembre: así el rango 10 llega con la historia y se desbloquea el tercer semestre.",
-  "Cada rango sube 5 SP el máximo de Joker y te da un objeto."
+  "Hay que llegar al rango 9 antes del 17 de noviembre: así el rango 10 llega con la historia y se desbloquea el tercer semestre."
  ],
  "textsProvisional": false,
  "sources": [
@@ -20,6 +18,7 @@
    "rank": 1,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -111,6 +110,10 @@
     {
      "name": "Detox X",
      "description": "A veces cura al momento un estado alterado."
+    },
+    {
+     "name": "SP +5 y Chicle disipador",
+     "description": "El SP máximo de Joker sube 5 y recibes un Chicle disipador."
     }
    ]
   },
@@ -243,6 +246,10 @@
     {
      "name": "Flow",
      "description": "A veces empiezas el combate con Cargar y Concentrar activos."
+    },
+    {
+     "name": "SP +5 y Jagariko",
+     "description": "El SP máximo de Joker sube 5 y recibes un Jagariko."
     }
    ]
   },
@@ -376,7 +383,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "SP +5 y Piruleta feliz",
+     "description": "El SP máximo de Joker sube 5 y recibes una Piruleta feliz."
+    }
+   ]
   },
   {
    "rank": 5,
@@ -517,6 +529,10 @@
     {
      "name": "Mindfulness",
      "description": "Cuando te queda poco SP, a veces recuperas algo."
+    },
+    {
+     "name": "SP +5 y Roscalmante",
+     "description": "El SP máximo de Joker sube 5 y recibes un Roscalmante."
     }
    ]
   },
@@ -628,7 +644,11 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Que sea después del 19 de septiembre."
+   ],
+   "noReward": true
   },
   {
    "rank": 7,
@@ -719,6 +739,10 @@
     {
      "name": "Quick Flow",
      "description": "Flow se activa más a menudo."
+    },
+    {
+     "name": "SP +5 y Oblea Fantasma",
+     "description": "El SP máximo de Joker sube 5 y recibes una Oblea Fantasma."
     }
    ]
   },
@@ -901,7 +925,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 9,
@@ -938,6 +963,10 @@
     {
      "name": "Detox DX",
      "description": "Detox X funciona mejor y más a menudo."
+    },
+    {
+     "name": "SP +5 y Saciante",
+     "description": "El SP máximo de Joker sube 5 y recibes un Saciante."
     }
    ]
   },

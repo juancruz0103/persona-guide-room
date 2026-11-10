@@ -484,6 +484,9 @@
      "name": "Harisen Recovery",
      "description": "Yusuke puede curar estados alterados de los compañeros en combate."
     }
+   ],
+   "requirements": [
+    "Destreza 4."
    ]
   },
   {

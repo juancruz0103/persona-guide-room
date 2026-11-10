@@ -20,6 +20,9 @@
      "description": "Muestra las skills y los objetos de las Sombras en la pantalla de análisis."
     }
    ],
+   "requirements": [
+    "Conocimiento 3."
+   ],
    "noData": true
   },
   {
@@ -356,7 +359,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 6,
@@ -412,6 +416,9 @@
      "name": "Harisen Recovery",
      "description": "Cura estados alterados del grupo cuando Makoto está en el equipo."
     }
+   ],
+   "requirements": [
+    "Encanto 5."
    ]
   },
   {
@@ -799,6 +806,9 @@
      "name": "Protect",
      "description": "Makoto puede proteger a Joker de un ataque que lo derrotaría."
     }
+   ],
+   "requirements": [
+    "Antes hay que averiguar quién es Tsukasa: habla dos veces con el hombre que está frente a la librería de Shinjuku."
    ]
   },
   {

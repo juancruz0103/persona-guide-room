@@ -34,7 +34,6 @@
 7 | I'll do it, for you. | 3
 7 | We'll show them the truth. | 3
 7 | Give me some time. | 2
-7 | DESBLOQUEO | Treasure Reboot | Futaba puede hacer reaparecer las Sombras con tesoro. Aparece el pedido de Mementos «Daughter's Just a Meal Ticket»: hay que completarlo para llegar al rango 8.
 8 | That's incredible. | 3
 8 | I'm glad to hear that. | 3
 8 | Did you stutter at all? | 2
@@ -53,3 +52,10 @@
 9 | DESBLOQUEO | Emergency Shift | Si caen dos o más compañeros, Futaba puede cambiarlos por otros del grupo.
 10 | DESBLOQUEO | Final Guard | Futaba puede anular por completo un ataque que te derrotaría.
 10 | DESBLOQUEO | Second Awakening | La Persona de Futaba evoluciona a Prometeo. Se desbloquea la fusión de Ongyo-ki.
+2 | REQUISITO | Gentileza 4, y que sea después del 2 de septiembre.
+7 | MEMENTOS | Daughter's Just a Meal Ticket | Los padres de Kana, la mejor amiga de Futaba, se aprovechan de ella...
+8 | REQUISITO | Completar la misión de Mementos «Daughter's Just a Meal Ticket».
+3 | SINRECOMPENSA
+5 | SINRECOMPENSA
+8 | SINRECOMPENSA
+7 | DESBLOQUEO | Treasure Reboot | Futaba puede hacer reaparecer las Sombras con tesoro.

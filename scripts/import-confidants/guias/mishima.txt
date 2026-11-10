@@ -56,3 +56,7 @@ CONSEJO | En el rango 7, después de la «purga», ve con el equipo a Mementos y
 9 | I'm glad you're still alive. | 2
 9 | TEL | You heard what he said about me... but do you really think some part of me's changed? | Ya oíste lo que dijo de mí... pero ¿de verdad crees que he cambiado en algo? | The sparkle in your eyes. | El brillo de tus ojos. | 2
 10 | DESBLOQUEO | Salvation Wish | Los compañeros que no combaten ganan toda la experiencia. Se desbloquea la fusión de Sandalfón.
+2 | SINRECOMPENSA
+4 | SINRECOMPENSA
+8 | SINRECOMPENSA
+9 | SINRECOMPENSA

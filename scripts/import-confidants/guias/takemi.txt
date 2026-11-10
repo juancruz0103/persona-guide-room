@@ -3,8 +3,6 @@
 # Rango 1: la guía lista opciones que no están en Royal.
 # Rango 9: «It was for my exams.» aparece dos veces con distintos puntos; no se carga para no confundir.
 CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takemi te atiende de día; los días de lluvia, también de noche.
-CONSEJO | Para el rango 2 necesitas Coraje 2; para el rango 8, Encanto 4.
-CONSEJO | En el rango 8 aparece el pedido de Mementos «Bad Medicine»: complétalo y vuelve a la clínica.
 1 | DESBLOQUEO | Rejuvenation | La clínica vende más objetos de curación. Varios rangos dan además puntos extra de Coraje.
 2 | I have a bad heart. | 2
 2 | I agree. | 2
@@ -53,3 +51,10 @@ CONSEJO | En el rango 8 aparece el pedido de Mementos «Bad Medicine»: complét
 9 | That sounds good. | 0
 9 | DESBLOQUEO | Parque Inokashira | Se desbloquea el lugar si aún no lo tenías.
 10 | DESBLOQUEO | Resuscitation | La clínica vende objetos para revivir. Se desbloquea la fusión de Alice.
+2 | REQUISITO | Coraje 2.
+8 | REQUISITO | Encanto 4.
+8 | MEMENTOS | Bad Medicine | A Takemi se le atribuyó un error de Oyamada, el director médico, en su época en el hospital universitario. | E713_080
+2 | DESBLOQUEO | Coraje + | Puntos extra de Coraje.
+4 | DESBLOQUEO | Coraje + | Puntos extra de Coraje.
+6 | SINRECOMPENSA
+8 | SINRECOMPENSA

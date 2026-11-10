@@ -290,7 +290,7 @@
    "deadline"
   ],
   "persona": "cendrillon",
-  "notice": "Llegá al rango 5 antes del 18/12; su rango queda bloqueado hasta avanzar en la historia.",
+  "notice": "Llegá al rango 5 antes del 22/12: si no, el confidente queda bloqueado. Después de ese rango, se frena hasta avanzar en la historia.",
   "phantomThief": true,
   "romance": true,
   "hasGuide": true

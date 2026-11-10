@@ -6,9 +6,7 @@
  "romance": true,
  "maxRank": 10,
  "tips": [
-  "Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takemi te atiende de día; los días de lluvia, también de noche.",
-  "Para el rango 2 necesitas Coraje 2; para el rango 8, Encanto 4.",
-  "En el rango 8 aparece el pedido de Mementos «Bad Medicine»: complétalo y vuelve a la clínica."
+  "Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takemi te atiende de día; los días de lluvia, también de noche."
  ],
  "textsProvisional": false,
  "sources": [
@@ -107,7 +105,15 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Coraje +",
+     "description": "Puntos extra de Coraje."
+    }
+   ],
+   "requirements": [
+    "Coraje 2."
+   ]
   },
   {
    "rank": 3,
@@ -236,7 +242,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Coraje +",
+     "description": "Puntos extra de Coraje."
+    }
+   ]
   },
   {
    "rank": 5,
@@ -348,7 +359,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 7,
@@ -473,6 +485,11 @@
      ]
     },
     {
+     "kind": "mementos",
+     "title": "Bad Medicine",
+     "description": "A Takemi se le atribuyó un error de Oyamada, el director médico, en su época en el hospital universitario."
+    },
+    {
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
@@ -550,7 +567,11 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Encanto 4."
+   ],
+   "noReward": true
   },
   {
    "rank": 9,

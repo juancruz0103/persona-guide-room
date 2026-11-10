@@ -18,6 +18,7 @@
    "rank": 1,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "noData": true
   },
   {
@@ -206,7 +207,11 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Haber preparado café en Leblanc al menos una vez."
+   ],
+   "noReward": true
   },
   {
    "rank": 4,
@@ -399,6 +404,9 @@
      "name": "Gentileza +3",
      "description": "Ganas 3 puntos extra de Gentileza."
     }
+   ],
+   "requirements": [
+    "Que sea después del 22 de agosto."
    ]
   },
   {
@@ -560,6 +568,9 @@
      "name": "Gentileza +3",
      "description": "Ganas 3 puntos extra de Gentileza."
     }
+   ],
+   "requirements": [
+    "Gentileza 5."
    ]
   },
   {
@@ -618,14 +629,15 @@
        "points": 0
       }
      ]
+    },
+    {
+     "kind": "mementos",
+     "title": "The Money-Grubbing Uncle",
+     "description": "El tío de Futaba está intentando quitarle la custodia de Futaba al Jefe..."
     }
    ],
-   "unlocks": [
-    {
-     "name": "Pedido de Mementos",
-     "description": "Aparece «The Money-Grubbing Uncle»: complétalo para seguir con Sojiro y Futaba."
-    }
-   ]
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 9,
@@ -713,6 +725,9 @@
      "name": "Curry Tips",
      "description": "El curry que preparas es de mejor calidad."
     }
+   ],
+   "requirements": [
+    "Completar la misión de Mementos «The Money-Grubbing Uncle»."
    ]
   },
   {

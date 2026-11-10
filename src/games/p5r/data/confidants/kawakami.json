@@ -7,8 +7,7 @@
  "maxRank": 10,
  "tips": [
   "Empieza después del evento del 24 de mayo. Se la llama desde el teléfono de Leblanc los viernes y sábados por la noche: necesitas Coraje 3 y cada visita cuesta 5000 ¥.",
-  "Hay que llegar al rango 10 antes del 18 de noviembre.",
-  "En el rango 9 aparece el pedido de Mementos «A Teacher Maid to Suffer»: complétalo para seguir."
+  "Hay que llegar al rango 10 antes del 18 de noviembre."
  ],
  "textsProvisional": false,
  "sources": [
@@ -23,6 +22,9 @@
      "name": "Slack Off",
      "description": "En clase puedes hacer otras cosas, como fabricar herramientas de infiltración."
     }
+   ],
+   "requirements": [
+    "Coraje 3 para poder llamarla. Cada visita cuesta 5000 ¥."
    ],
    "noData": true
   },
@@ -112,7 +114,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 3,
@@ -255,7 +258,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 5,
@@ -416,7 +420,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 7,
@@ -608,7 +613,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 9,
@@ -730,9 +736,15 @@
        "romance": true
       }
      ]
+    },
+    {
+     "kind": "mementos",
+     "title": "A Teacher Maid to Suffer",
+     "description": "Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte."
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 10,

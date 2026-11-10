@@ -112,6 +112,9 @@
      "name": "Baton Pass",
      "description": "Después de un 1 More, Haru puede pasarle el turno a otro compañero con Baton Pass."
     }
+   ],
+   "requirements": [
+    "Destreza 5."
    ]
   },
   {

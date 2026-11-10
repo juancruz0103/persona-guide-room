@@ -127,6 +127,17 @@ export interface DialogueOption {
   recommended?: boolean;
 }
 
+/** Aviso entre conversaciones: el confidente te da una misión de Mementos */
+export interface MementosMission {
+  kind: 'mementos';
+  /** Título de la guía (en inglés: el título oficial no está en los archivos extraídos) */
+  title: string;
+  /** Descripción oficial del juego */
+  description: string;
+}
+
+export type RankItem = Conversation | MementosMission;
+
 export interface Conversation {
   kind: 'conversation' | 'phone';
   royalOnly: boolean;
@@ -146,7 +157,11 @@ export interface ConfidantRank {
   choicesDontMatter?: boolean;
   /** true cuando el juego tiene elecciones pero la guía no da sus puntos */
   noData?: boolean;
-  conversations: Conversation[];
+  /** Requisitos para llegar a este rango (atributos, fechas, misiones) */
+  requirements?: string[];
+  /** true cuando el rango no da ninguna recompensa */
+  noReward?: boolean;
+  conversations: RankItem[];
   unlocks: { name: string; description: string }[];
 }
 

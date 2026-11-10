@@ -1,9 +1,7 @@
 # fuente: https://www.rpgsite.net/feature/9598-persona-5-royal-maruki-confidant-choices-guide-the-councillor
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | Empieza solo con la historia el 13 de mayo. Está en la escuela de día los lunes, martes, miércoles y viernes.
-CONSEJO | No se puede pasar del rango 5 hasta después del 19 de septiembre.
 CONSEJO | Hay que llegar al rango 9 antes del 17 de noviembre: así el rango 10 llega con la historia y se desbloquea el tercer semestre.
-CONSEJO | Cada rango sube 5 SP el máximo de Joker y te da un objeto.
 1 | NOIMPORTA
 2 | We made a deal. | 2
 2 | I'm a little nervous. | 2
@@ -71,3 +69,13 @@ CONSEJO | Cada rango sube 5 SP el máximo de Joker y te da un objeto.
 9 | Well... take care of yourself. | 2
 9 | DESBLOQUEO | Detox DX | Detox X funciona mejor y más a menudo.
 10 | DESBLOQUEO | Wakefulness | Mindfulness recupera más SP.
+2 | DESBLOQUEO | SP +5 y Chicle disipador | El SP máximo de Joker sube 5 y recibes un Chicle disipador.
+3 | DESBLOQUEO | SP +5 y Jagariko | El SP máximo de Joker sube 5 y recibes un Jagariko.
+4 | DESBLOQUEO | SP +5 y Piruleta feliz | El SP máximo de Joker sube 5 y recibes una Piruleta feliz.
+5 | DESBLOQUEO | SP +5 y Roscalmante | El SP máximo de Joker sube 5 y recibes un Roscalmante.
+7 | DESBLOQUEO | SP +5 y Oblea Fantasma | El SP máximo de Joker sube 5 y recibes una Oblea Fantasma.
+9 | DESBLOQUEO | SP +5 y Saciante | El SP máximo de Joker sube 5 y recibes un Saciante.
+6 | REQUISITO | Que sea después del 19 de septiembre.
+1 | SINRECOMPENSA
+6 | SINRECOMPENSA
+8 | SINRECOMPENSA

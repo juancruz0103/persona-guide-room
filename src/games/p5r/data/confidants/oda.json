@@ -6,8 +6,7 @@
  "romance": false,
  "maxRank": 10,
  "tips": [
-  "Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves después de clase, sábados de día y los días de lluvia.",
-  "En el rango 8 aparece el pedido de Mementos «A Mother's Aggression»: hay que completarlo para empezar el rango 9."
+  "Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves después de clase, sábados de día y los días de lluvia."
  ],
  "textsProvisional": false,
  "sources": [
@@ -22,6 +21,9 @@
      "name": "Down Shot",
      "description": "Gastas todo el cargador para derribar seguro a un enemigo. Cada rango da además puntos extra de Gentileza."
     }
+   ],
+   "requirements": [
+    "Completar la misión de Mementos «Winners Don't Use Cheats»: Un jugador de Gun About, el famoso videojuego, hace trampas para ganar las partidas online. Mishima te escribe sobre ella el 4 de septiembre."
    ],
    "noData": true
   },
@@ -235,7 +237,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Gentileza +",
+     "description": "Puntos extra de Gentileza."
+    }
+   ]
   },
   {
    "rank": 5,
@@ -311,7 +318,12 @@
   {
    "rank": 7,
    "conversations": [],
-   "unlocks": [],
+   "unlocks": [
+    {
+     "name": "Gentileza +",
+     "description": "Puntos extra de Gentileza."
+    }
+   ],
    "choicesDontMatter": true
   },
   {
@@ -370,6 +382,11 @@
        "points": 3
       }
      ]
+    },
+    {
+     "kind": "mementos",
+     "title": "A Mother's Aggression",
+     "description": "La madre de Shinya, Hanae Oda, tiene un problema de agresividad que afecta gravemente a su hijo."
     }
    ],
    "unlocks": [
@@ -437,7 +454,11 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Completar la misión de Mementos «A Mother's Aggression»."
+   ],
+   "noReward": true
   },
   {
    "rank": 10,

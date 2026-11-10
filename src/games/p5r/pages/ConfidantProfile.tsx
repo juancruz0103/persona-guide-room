@@ -13,8 +13,21 @@ import {
 } from '../services/confidants';
 import { personaName, skillName } from '../services/gameText';
 import { getPersona } from '../services/personas';
-import type { Confidant, Conversation, FusionRequest, TimelineRank } from '../types';
+import type { Confidant, Conversation, FusionRequest, MementosMission, RankItem, TimelineRank } from '../types';
 import styles from './ConfidantProfile.module.css';
+
+function MementosNote({ m }: { m: MementosMission }) {
+  return (
+    <div className={styles.mission}>
+      <span className={styles.missionKicker}>Misión de Mementos</span>
+      <span className={styles.missionTitle}>«{m.title}»</span>
+      <span className={styles.missionDesc}>{m.description}</span>
+      <span className={styles.missionHint}>Complétala en Mementos para seguir con este confidente.</span>
+    </div>
+  );
+}
+
+const isConv = (c: RankItem): c is Conversation => c.kind !== 'mementos';
 
 const ROUTE_TEXT = {
   romance: 'Solo aparece si elegiste el romance.',
@@ -377,25 +390,48 @@ export default function ConfidantProfile() {
             )}
           </div>
 
-          {rank?.noData ? (
-            <p className="pending">
-              Este rango tiene respuestas en el juego, pero la guía que usamos no dice cuántos puntos da cada una.
-              Las cargamos cuando las confirmemos con otra fuente.
-            </p>
-          ) : rank?.choicesDontMatter ? (
-            <div className={styles.dontMatter}>En este rango las respuestas no cambian los puntos: elegí la que quieras.</div>
+          {rank?.requirements && (
+            <div className={styles.requirements}>
+              <span className={styles.requirementsKicker}>Requisito para este rango</span>
+              <ul>
+                {rank.requirements.map((t) => (
+                  <li key={t}>{t}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {rank?.noData || rank?.choicesDontMatter ? (
+            <>
+              {rank.noData ? (
+                <p className="pending">
+                  Este rango tiene respuestas en el juego, pero la guía que usamos no dice cuántos puntos da cada una.
+                  Las cargamos cuando las confirmemos con otra fuente.
+                </p>
+              ) : (
+                <div className={styles.dontMatter}>En este rango las respuestas no cambian los puntos: elegí la que quieras.</div>
+              )}
+              {rank.conversations.map((c, i) => (c.kind === 'mementos' ? <MementosNote key={i} m={c} /> : null))}
+            </>
           ) : rank ? (
             (() => {
               let n = 0;
-              return rank.conversations.map((c, i) => (
-                <ConversationCard
-                  key={i}
-                  c={c}
-                  index={c.kind === 'phone' ? 0 : ++n}
-                  friendHasMore={rank.conversations.some((x) => x.route === 'friend')}
-                  multiStep={rank.conversations.filter((x) => x.romance && x.kind === 'conversation' && !x.route).length > 1}
-                />
-              ));
+              const convs = rank.conversations.filter(isConv);
+              const friendHasMore = convs.some((x) => x.route === 'friend');
+              const multiStep = convs.filter((x) => x.romance && x.kind === 'conversation' && !x.route).length > 1;
+              return rank.conversations.map((c, i) =>
+                c.kind === 'mementos' ? (
+                  <MementosNote key={i} m={c} />
+                ) : (
+                  <ConversationCard
+                    key={i}
+                    c={c}
+                    index={c.kind === 'phone' ? 0 : ++n}
+                    friendHasMore={friendHasMore}
+                    multiStep={multiStep}
+                  />
+                ),
+              );
             })()
           ) : (
             <p className="pending">Las respuestas de este rango todavía no están cargadas.</p>
@@ -407,11 +443,13 @@ export default function ConfidantProfile() {
           {rank && rank.unlocks.length > 0 ? (
             rank.unlocks.map((u) => (
               <div key={u.name} className={styles.reward}>
-                <span className={styles.rewardKicker}>Habilidad desbloqueada</span>
+                <span className={styles.rewardKicker}>Desbloqueás</span>
                 <span className={styles.rewardName}>{u.name}</span>
                 <span className={styles.rewardDesc}>{u.description}</span>
               </div>
             ))
+          ) : rank?.noReward ? (
+            <p className={styles.noReward}>Este rango no da ninguna recompensa.</p>
           ) : (
             <p className="pending">Todavía no está cargada.</p>
           )}

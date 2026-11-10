@@ -2,7 +2,6 @@
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: lo da la historia. Las llamadas del rango 9 no se cargan: la guía no da la frase.
 CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroads todas las noches (de día está cerrado).
-CONSEJO | En el rango 8 aparece el pedido de Mementos «Fighting for Truth in Journalism»: complétalo y vuelve para subir de rango.
 1 | DESBLOQUEO | Rumor-filled Scoop | La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto.
 2 | Mishima might... | 2
 2 | It's for the article. | 2
@@ -42,3 +41,10 @@ CONSEJO | En el rango 8 aparece el pedido de Mementos «Fighting for Truth in Jo
 9 | I love you, Ichiko. | 0 | ROMANCE
 9 | I'm just kidding. | 0
 10 | DESBLOQUEO | Legendary Scoop | La alerta de los Palacios deja de subir. Se desbloquea la fusión de Belcebú.
+8 | MEMENTOS | Fighting for Truth in Journalism | Ohya quiere investigar el caso de su compañero desaparecido, pero su jefe intenta pararle los pies. | E715_080
+2 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
+3 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
+5 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
+6 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
+8 | DESBLOQUEO | Encanto + | Puntos extra de Encanto.
+9 | SINRECOMPENSA

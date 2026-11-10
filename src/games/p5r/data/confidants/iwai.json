@@ -6,9 +6,7 @@
  "romance": false,
  "maxRank": 10,
  "tips": [
-  "Disponible desde el 6 de mayo, después del evento del paquete en la tienda de airsoft. Para empezar necesitas Coraje 4; para el rango 8, Coraje 5.",
-  "En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.».",
-  "En el rango 8 aparece un pedido de Mementos: complétalo para seguir con Iwai."
+  "En el rango 2 hay que llamarlo: elige «Maybe I should call him.» o «Yeah, I really need to call him.»."
  ],
  "textsProvisional": false,
  "sources": [
@@ -23,6 +21,9 @@
      "name": "Starter Customization",
      "description": "Puedes mejorar las pistolas para el combate. Cada rango sube además tu Destreza."
     }
+   ],
+   "requirements": [
+    "Coraje 4. Disponible desde el 6 de mayo."
    ],
    "noData": true
   },
@@ -57,7 +58,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Destreza +",
+     "description": "Puntos extra de Destreza."
+    }
+   ]
   },
   {
    "rank": 3,
@@ -173,7 +179,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Destreza +",
+     "description": "Puntos extra de Destreza."
+    }
+   ]
   },
   {
    "rank": 5,
@@ -321,7 +332,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 7,
@@ -464,6 +476,11 @@
      ]
     },
     {
+     "kind": "mementos",
+     "title": "Shady Deal in the Shadows",
+     "description": "Iwai tiene un trato relacionado con sus réplicas con un antiguo socio, Tsuda, pero algo no va bien."
+    },
+    {
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
@@ -536,7 +553,15 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Destreza +",
+     "description": "Puntos extra de Destreza."
+    }
+   ],
+   "requirements": [
+    "Coraje 5."
+   ]
   },
   {
    "rank": 9,
@@ -641,7 +666,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 10,

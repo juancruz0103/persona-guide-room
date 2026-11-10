@@ -17,6 +17,7 @@
    "rank": 1,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -348,7 +349,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 6,

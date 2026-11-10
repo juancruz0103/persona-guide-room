@@ -1,9 +1,6 @@
 # fuente: https://www.rpgsite.net/feature/9601-persona-5-royal-akechi-confidant-guide-justice-choices-unlocks
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.
-CONSEJO | Para empezar el rango 3 necesitas Conocimiento 3 y Encanto 3. Para el rango 7, Conocimiento 4.
-CONSEJO | El rango 6 está disponible desde el 3 de septiembre y el 7, desde el 2 de noviembre.
-CONSEJO | Hay que llegar al rango 8 antes del 17 de noviembre: si no, el confidente queda bloqueado para siempre.
 CONSEJO | En el rango 7 elige «You're my rival.» y en el 8 «I accept.»: no suman puntos, pero desbloquean diálogos posteriores.
 CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero hay que elegir detener a Maruki; las otras respuestas llevan al final malo.
 2 | You always seem so busy. | 2
@@ -55,3 +52,11 @@ CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero 
 8 | Really hate losing, don't you? | 2
 8 | Same here. | 1
 10 | DESBLOQUEO | Endure y Protect | Akechi puede aguantar con 1 HP un golpe que lo derrotaría y recibir en lugar de Joker un ataque mortal. Se desbloquea la fusión de Metatrón.
+3 | REQUISITO | Conocimiento 3 y Encanto 3.
+6 | REQUISITO | Que sea desde el 3 de septiembre.
+7 | REQUISITO | Conocimiento 4, y que sea desde el 2 de noviembre.
+8 | REQUISITO | Llegar antes del 17 de noviembre: si no, el confidente queda bloqueado.
+1 | SINRECOMPENSA
+5 | SINRECOMPENSA
+8 | SINRECOMPENSA
+9 | SINRECOMPENSA

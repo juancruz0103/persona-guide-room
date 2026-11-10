@@ -2,7 +2,6 @@
 # La guía pone en el rango 5 las respuestas del 4 (comprobado con el juego) y no tiene las del 5.
 # Llamadas: la guía no da la frase de Shinya, así que no se cargan todavía.
 CONSEJO | Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves después de clase, sábados de día y los días de lluvia.
-CONSEJO | En el rango 8 aparece el pedido de Mementos «A Mother's Aggression»: hay que completarlo para empezar el rango 9.
 1 | DESBLOQUEO | Down Shot | Gastas todo el cargador para derribar seguro a un enemigo. Cada rango da además puntos extra de Gentileza.
 2 | Don't compare me to you. | 3
 2 | Sorry... | 2
@@ -32,3 +31,9 @@ CONSEJO | En el rango 8 aparece el pedido de Mementos «A Mother's Aggression»:
 9 | No, that makes sense. | 3
 9 | A little bit, yeah. | 2
 10 | DESBLOQUEO | Oda Special | Los ataques de Joker ignoran las resistencias. Se desbloquea la fusión de Mada.
+1 | REQUISITO | Completar la misión de Mementos «Winners Don't Use Cheats»: Un jugador de Gun About, el famoso videojuego, hace trampas para ganar las partidas online. Mishima te escribe sobre ella el 4 de septiembre.
+8 | MEMENTOS | A Mother's Aggression | La madre de Shinya, Hanae Oda, tiene un problema de agresividad que afecta gravemente a su hijo.
+9 | REQUISITO | Completar la misión de Mementos «A Mother's Aggression».
+4 | DESBLOQUEO | Gentileza + | Puntos extra de Gentileza.
+7 | DESBLOQUEO | Gentileza + | Puntos extra de Gentileza.
+9 | SINRECOMPENSA

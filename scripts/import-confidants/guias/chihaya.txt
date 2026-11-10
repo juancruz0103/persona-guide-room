@@ -1,8 +1,6 @@
 # fuente: https://www.rpgsite.net/feature/5472-persona-5-royal-chihaya-confidant-guide-fortune-choices-romance-gifts
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y domingos (no cuando llueve). Desde el 22 de junio.
-CONSEJO | Para empezar hay que comprarle la Piedra Sagrada (100.000 ¥) y completar el pedido de Mementos «Ending the Boyfriend's Abuse». En el rango 9 te devuelve el dinero.
-CONSEJO | En el rango 8 cualquier respuesta sirve al principio; aparece el pedido de Mementos «Debunking the Psychic». Después de completarlo, vuelve con Chihaya.
 1 | DESBLOQUEO | Luck Reading | Una lectura de Chihaya aumenta por un tiempo lo que ganas de un atributo social.
 2 | Encourage her. | ?
 2 | Overturn your fate! | ?
@@ -36,3 +34,12 @@ CONSEJO | En el rango 8 cualquier respuesta sirve al principio; aparece el pedid
 9 | I like having my fortune read. | 0
 9 | So I can be with you. | 0 | ROMANCE
 10 | DESBLOQUEO | Special Fate Reading | Te muestra todas las habilidades que te faltan de cualquier confidente. Se desbloquea la fusión de Laksmí.
+1 | REQUISITO | Comprarle la Piedra Sagrada (100.000 ¥).
+1 | MEMENTOS | Ending the Boyfriend's Abuse | Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata... | E710_010
+8 | MEMENTOS | Debunking the Psychic | Yuichi Fukurai, el presidente de la APD, controla a Chihaya... | E710_080
+9 | DESBLOQUEO | Devolución | Chihaya te devuelve los 100.000 ¥ de la Piedra Sagrada.
+2 | SINRECOMPENSA
+4 | SINRECOMPENSA
+6 | SINRECOMPENSA
+8 | SINRECOMPENSA
+CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que completar la misión de Mementos del rango 1. En el rango 9 te devuelve el dinero.

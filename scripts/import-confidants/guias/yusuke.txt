@@ -51,3 +51,4 @@
 9 | That's a great idea. | 2
 9 | DESBLOQUEO | Protect | Yusuke puede recibir en lugar de Joker un ataque que lo derrotaría.
 10 | DESBLOQUEO | Second Awakening | La Persona de Yusuke evoluciona a Kamu Susano-o. Se desbloquea la fusión de Odín.
+6 | REQUISITO | Destreza 4.

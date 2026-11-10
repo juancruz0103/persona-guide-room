@@ -47,3 +47,18 @@ Diseño aprobado en el lienzo (tableros 05, 09 y 10).
   Kawakami 9, Chihaya 9, Hifumi 9, Makoto 9); los rangos sin datos; nombres oficiales de las habilidades.
 - Nombres oficiales en español de las habilidades de confidente.
 - Requisitos de atributo con número (hoy las guías no coinciden).
+
+## Requisitos, misiones y recompensas (9/11)
+
+- `R | REQUISITO | texto` se muestra arriba del rango («Requisito para este rango»).
+- `R | MEMENTOS | título | descripción | [archivo]` pone un aviso de misión entre las conversaciones
+  (después de la última conversación de ese archivo del juego, o al final). La descripción es la oficial
+  de `datQuestHelp` (quest51 a quest60); el título queda en inglés porque no está en los archivos extraídos.
+- `R | SINRECOMPENSA` muestra «Este rango no da ninguna recompensa».
+- Para comprobar en la partida (las guías no coinciden):
+  - ¿En qué rango se desbloquea el Baton Pass de los Ladrones Fantasma (¿1, 2 o desde el principio en Royal?)
+  - Ann: Sexy Technique, ¿rango 4 o 7?; ¿qué da el rango 4?
+  - Akechi: rango 3 (¿Smooth Talk?), rango 6 (Baton Pass / Follow Up / Detective Talk) y rango 7 (¿Harisen Recovery?).
+  - Ryuji rango 4: ¿Punk Talk o Stealth Dash?
+  - Maruki: rango 7 ¿Quick Flow o Flow Boost?; rango 10 ¿Wakefulness?
+  - Ann: ¿tiene requisito de atributo? (la etiqueta lo dice, ninguna guía lo confirma)

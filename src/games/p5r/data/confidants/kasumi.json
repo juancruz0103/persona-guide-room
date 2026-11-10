@@ -18,7 +18,12 @@
   {
    "rank": 1,
    "conversations": [],
-   "unlocks": [],
+   "unlocks": [
+    {
+     "name": "HP +5",
+     "description": "Este rango solo sube 5 HP el máximo de Kasumi."
+    }
+   ],
    "choicesDontMatter": true
   },
   {
@@ -243,7 +248,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "HP +5",
+     "description": "Este rango solo sube 5 HP el máximo de Kasumi."
+    }
+   ]
   },
   {
    "rank": 4,
@@ -534,7 +544,15 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "HP +5",
+     "description": "Este rango solo sube 5 HP el máximo de Kasumi."
+    }
+   ],
+   "requirements": [
+    "Completar el rango 4 antes del 22 de diciembre."
+   ]
   },
   {
    "rank": 6,
@@ -572,6 +590,9 @@
      "name": "Fitness Talk",
      "description": "Sumire puede salvar una negociación con una Sombra que salió mal."
     }
+   ],
+   "requirements": [
+    "Haber llegado al rango 5 antes del 22 de diciembre: si no, el confidente queda bloqueado. El rango 6 llega con la historia."
    ]
   },
   {

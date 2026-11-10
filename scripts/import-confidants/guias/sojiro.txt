@@ -1,8 +1,6 @@
 # fuente: https://www.rpgsite.net/feature/5478-persona-5-royal-sojiro-confidant-guide-hierophant-choices-unlock-list
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 # Rango 1: lo da la historia; la guía no trae opciones de Royal.
-CONSEJO | Para empezar el rango 3 tienes que haber preparado café una vez. El rango 5 está disponible desde el 22 de agosto y el 7 pide Gentileza 5.
-CONSEJO | En el rango 8 aparece el pedido de Mementos «The Money-Grubbing Uncle»: hasta completarlo, Sojiro y Futaba quedan bloqueados.
 2 | Making coffee. | 2
 2 | That guy seemed suspicious. | 2
 2 | I want the ladies to love me. | 2
@@ -35,7 +33,6 @@ CONSEJO | En el rango 8 aparece el pedido de Mementos «The Money-Grubbing Uncle
 8 | Something with curry. | 3
 8 | You want my suggestion? | 2
 8 | I was just protecting Futaba. | 3
-8 | DESBLOQUEO | Pedido de Mementos | Aparece «The Money-Grubbing Uncle»: complétalo para seguir con Sojiro y Futaba.
 9 | It's great. | 3
 9 | He's a bit of a nag. | 2
 9 | You have a great daughter. | 3
@@ -45,3 +42,11 @@ CONSEJO | En el rango 8 aparece el pedido de Mementos «The Money-Grubbing Uncle
 9 | TEL | Getting all sentimental like this? At my age? | ¿Ponerme sentimental así? ¿A mi edad? | You two were already family. | Vosotros ya erais familia. | 3
 9 | DESBLOQUEO | Curry Tips | El curry que preparas es de mejor calidad.
 10 | DESBLOQUEO | Curry Mastery | El curry recupera SP a todo el grupo. Se desbloquea la fusión de Kouryuu y, si aún no la tenías, la iglesia de Kanda.
+3 | REQUISITO | Haber preparado café en Leblanc al menos una vez.
+5 | REQUISITO | Que sea después del 22 de agosto.
+7 | REQUISITO | Gentileza 5.
+8 | MEMENTOS | The Money-Grubbing Uncle | El tío de Futaba está intentando quitarle la custodia de Futaba al Jefe...
+9 | REQUISITO | Completar la misión de Mementos «The Money-Grubbing Uncle».
+1 | SINRECOMPENSA
+3 | SINRECOMPENSA
+8 | SINRECOMPENSA

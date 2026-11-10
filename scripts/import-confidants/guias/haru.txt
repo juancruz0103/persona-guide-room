@@ -65,3 +65,4 @@
 9 | I like you too, Haru. | 0 | ROMANCE
 9 | DESBLOQUEO | Protect | Haru puede recibir en lugar de Joker un ataque que lo derrotaría.
 10 | DESBLOQUEO | Second Awakening | La Persona de Haru evoluciona a Astarté. Se desbloquea la fusión de Ramera babilónica.
+2 | REQUISITO | Destreza 5.

@@ -7,9 +7,6 @@
  "maxRank": 10,
  "tips": [
   "El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.",
-  "Para empezar el rango 3 necesitas Conocimiento 3 y Encanto 3. Para el rango 7, Conocimiento 4.",
-  "El rango 6 está disponible desde el 3 de septiembre y el 7, desde el 2 de noviembre.",
-  "Hay que llegar al rango 8 antes del 17 de noviembre: si no, el confidente queda bloqueado para siempre.",
   "En el rango 7 elige «You're my rival.» y en el 8 «I accept.»: no suman puntos, pero desbloquean diálogos posteriores.",
   "Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero hay que elegir detener a Maruki; las otras respuestas llevan al final malo."
  ],
@@ -22,6 +19,7 @@
    "rank": 1,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -173,7 +171,10 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Conocimiento 3 y Encanto 3."
+   ]
   },
   {
    "rank": 4,
@@ -388,7 +389,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 6,
@@ -577,6 +579,9 @@
      "name": "Detective Talk",
      "description": "Akechi puede salvar una negociación con una Sombra que salió mal."
     }
+   ],
+   "requirements": [
+    "Que sea desde el 3 de septiembre."
    ]
   },
   {
@@ -627,7 +632,10 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Conocimiento 4, y que sea desde el 2 de noviembre."
+   ]
   },
   {
    "rank": 8,
@@ -682,12 +690,17 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "requirements": [
+    "Llegar antes del 17 de noviembre: si no, el confidente queda bloqueado."
+   ],
+   "noReward": true
   },
   {
    "rank": 9,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {

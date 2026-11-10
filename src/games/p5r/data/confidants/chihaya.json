@@ -7,8 +7,7 @@
  "maxRank": 10,
  "tips": [
   "Chihaya está en Shinjuku por la noche los martes, jueves, sábados y domingos (no cuando llueve). Desde el 22 de junio.",
-  "Para empezar hay que comprarle la Piedra Sagrada (100.000 ¥) y completar el pedido de Mementos «Ending the Boyfriend's Abuse». En el rango 9 te devuelve el dinero.",
-  "En el rango 8 cualquier respuesta sirve al principio; aparece el pedido de Mementos «Debunking the Psychic». Después de completarlo, vuelve con Chihaya."
+  "La Piedra Sagrada no funciona: para empezar el confidente hay que completar la misión de Mementos del rango 1. En el rango 9 te devuelve el dinero."
  ],
  "textsProvisional": false,
  "sources": [
@@ -17,12 +16,21 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "mementos",
+     "title": "Ending the Boyfriend's Abuse",
+     "description": "Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata..."
+    }
+   ],
    "unlocks": [
     {
      "name": "Luck Reading",
      "description": "Una lectura de Chihaya aumenta por un tiempo lo que ganas de un atributo social."
     }
+   ],
+   "requirements": [
+    "Comprarle la Piedra Sagrada (100.000 ¥)."
    ],
    "noData": true
   },
@@ -126,7 +134,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 3,
@@ -244,7 +253,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 5,
@@ -333,7 +343,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 7,
@@ -471,6 +482,11 @@
      ]
     },
     {
+     "kind": "mementos",
+     "title": "Debunking the Psychic",
+     "description": "Yuichi Fukurai, el presidente de la APD, controla a Chihaya..."
+    },
+    {
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
@@ -489,7 +505,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 9,
@@ -545,7 +562,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Devolución",
+     "description": "Chihaya te devuelve los 100.000 ¥ de la Piedra Sagrada."
+    }
+   ]
   },
   {
    "rank": 10,

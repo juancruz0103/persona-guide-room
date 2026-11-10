@@ -62,3 +62,7 @@
 9 | TEL | (la guía no da la frase) | (la guía no da la frase) | No big deal. | No es para tanto. | 2
 9 | DESBLOQUEO | Protect | Makoto puede proteger a Joker de un ataque que lo derrotaría.
 10 | DESBLOQUEO | Second Awakening | Su Persona evoluciona a Anat.
+1 | REQUISITO | Conocimiento 3.
+6 | REQUISITO | Encanto 5.
+9 | REQUISITO | Antes hay que averiguar quién es Tsukasa: habla dos veces con el hombre que está frente a la librería de Shinjuku.
+5 | SINRECOMPENSA

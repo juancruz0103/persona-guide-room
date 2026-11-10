@@ -6,8 +6,7 @@
  "romance": true,
  "maxRank": 10,
  "tips": [
-  "Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroads todas las noches (de día está cerrado).",
-  "En el rango 8 aparece el pedido de Mementos «Fighting for Truth in Journalism»: complétalo y vuelve para subir de rango."
+  "Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroads todas las noches (de día está cerrado)."
  ],
  "textsProvisional": false,
  "sources": [
@@ -83,7 +82,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Encanto +",
+     "description": "Puntos extra de Encanto."
+    }
+   ]
   },
   {
    "rank": 3,
@@ -143,7 +147,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Encanto +",
+     "description": "Puntos extra de Encanto."
+    }
+   ]
   },
   {
    "rank": 4,
@@ -250,7 +259,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Encanto +",
+     "description": "Puntos extra de Encanto."
+    }
+   ]
   },
   {
    "rank": 6,
@@ -350,7 +364,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Encanto +",
+     "description": "Puntos extra de Encanto."
+    }
+   ]
   },
   {
    "rank": 7,
@@ -461,6 +480,11 @@
      ]
     },
     {
+     "kind": "mementos",
+     "title": "Fighting for Truth in Journalism",
+     "description": "Ohya quiere investigar el caso de su compañero desaparecido, pero su jefe intenta pararle los pies."
+    },
+    {
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
@@ -511,7 +535,12 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [
+    {
+     "name": "Encanto +",
+     "description": "Puntos extra de Encanto."
+    }
+   ]
   },
   {
    "rank": 9,
@@ -636,7 +665,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 10,
