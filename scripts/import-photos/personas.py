@@ -28,18 +28,70 @@ def paint_band(im, strict=False):
     samples = [px[x, min(h - 1, curve[x] + 6)] for x in range(w)]
     # color de relleno: mediana de lo que hay debajo de la franja en las columnas vecinas
     # (así, si debajo está la figura, manda el fondo de alrededor)
+    is_bg = lambda c: c[2] > c[0] + 10 and c[2] >= c[1] and sum(c) < 330
+    ok = [c for c in samples if is_bg(c)] or [(10, 20, 60)]
+    glob_med = tuple(sorted(c[i] for c in ok)[len(ok) // 2] for i in range(3))
     fills = []
     for x in range(w):
-        win = samples[max(0, x - 120): x + 121]
-        fills.append(tuple(sorted(c[i] for c in win)[len(win) // 2] for i in range(3)))
+        win = [c for c in samples[max(0, x - 120): x + 121] if is_bg(c)]
+        loc = tuple(sorted(c[i] for c in win)[len(win) // 2] for i in range(3)) if len(win) > 10 else glob_med
+        # mitad local, mitad general (estricto: solo el general, la figura deja columnas claras debajo)
+        fills.append(glob_med if strict else tuple((a + b) // 2 for a, b in zip(loc, glob_med)))
     for x in range(w):
+        # bordes de la franja medidos antes de pintar (blanco puro de la franja)
+        white = [y for y in range(min(h, curve[x] + 10)) if min(px[x, y]) > 190 and max(px[x, y]) - min(px[x, y]) < 12]
         for y in range(min(h, curve[x] + 2)):
             c = px[x, y]
             spread = max(c) - min(c)
             # estricto: solo el blanco de la franja y el negro de arriba (la figura gris claro se respeta)
-            band = (min(c) > 215 and spread < 14) or max(c) < 22 if strict else spread < 28
+            band = (min(c) > 190 and spread < 12) or max(c) < 22 if strict else spread < 28
             if band: px[x, y] = fills[x]
+        if strict and white:  # líneas grises finitas de los bordes de la franja
+            for y0, y1 in ((white[0] - 5, white[0] + 3), (white[-1] - 3, white[-1] + 7)):
+                for y in range(max(0, y0), min(h, y1)):
+                    c = px[x, y]
+                    if max(c) - min(c) < 35 and c != fills[x]: px[x, y] = fills[x]
+            for y in range(white[-1] + 1):  # negro/gris oscuro de arriba que quedó
+                c = px[x, y]
+                if max(c) - min(c) < 35 and sum(c) < 130: px[x, y] = fills[x]
     return im
+
+def add_headroom(im, extra):
+    """
+    Agrega fondo arriba: color por columna (mediana de la fila de arriba en las columnas vecinas,
+    así la figura no se estira) que se oscurece hacia arriba como la viñeta del compendio,
+    y se funde suave con la foto para que no quede una franja marcada.
+    """
+    w, h = im.size
+    is_bg = lambda c: c[2] > c[0] + 10 and c[2] >= c[1] and sum(c) < 330
+    # muestras de fondo de las primeras filas (sin la figura)
+    cols = [[im.getpixel((x, y)) for y in range(0, min(30, h), 3) if is_bg(im.getpixel((x, y)))] for x in range(w)]
+    allbg = [c for col in cols for c in col] or [(10, 20, 60)]
+    glob_med = tuple(sorted(c[i] for c in allbg)[len(allbg) // 2] for i in range(3))
+    base = []
+    for x in range(w):
+        win = [c for col in cols[max(0, x - 150): x + 151] for c in col]
+        base.append(tuple(sorted(c[i] for c in win)[len(win) // 2] for i in range(3)) if len(win) > 20 else glob_med)
+    out = Image.new('RGB', (w, h + extra))
+    out.paste(im, (0, extra))
+    px = out.load()
+    for y in range(extra):
+        t = y / extra  # 0 arriba, 1 donde empieza la foto
+        k = 0.55 + 0.45 * t
+        for x in range(w):
+            r, g, b = base[x]
+            px[x, y] = (int(r * k), int(g * k), int(b * k))
+    # fundido: las primeras filas de la foto se mezclan con el relleno (solo donde es fondo)
+    blend = min(24, h)
+    for y in range(blend):
+        a = (y + 1) / (blend + 1)
+        for x in range(w):
+            c = px[x, extra + y]
+            r, g, b = c
+            if is_bg(c):  # fondo azul: se funde; la figura queda igual
+                br, bg_, bb = base[x]
+                px[x, extra + y] = (int(br * (1 - a) + r * a), int(bg_ * (1 - a) + g * a), int(bb * (1 - a) + b * a))
+    return out
 
 def trim(im, keep_top=False):
     w, h = im.size
@@ -94,14 +146,7 @@ def main(src, game_text, personas_json, party_json, out):
             im = raw.crop(tuple(box)) if box else trim(raw, keep_top=painted)
             extra = manual.get('_aire_arriba', {}).get(f'{pid}-{side}')
             if extra:  # la figura toca el borde de arriba: se agrega fondo para que respire
-                # color por columna: mediana de la fila de arriba en las columnas vecinas (así la figura no se estira)
-                row = [im.getpixel((x, 0)) for x in range(im.width)]
-                line = Image.new('RGB', (im.width, 1))
-                for x in range(im.width):
-                    win = row[max(0, x - 150): x + 151]
-                    line.putpixel((x, 0), tuple(sorted(c[i] for c in win)[len(win) // 2] for i in range(3)))
-                strip = line.resize((im.width, extra))
-                tall = Image.new('RGB', (im.width, im.height + extra)); tall.paste(strip, (0, 0)); tall.paste(im, (0, extra)); im = tall
+                im = add_headroom(im, extra)
             im.thumbnail((900, 900), Image.LANCZOS)
             im.save(os.path.join(out, f'{pid}-{side}.webp'), 'WEBP', quality=80, method=6)
             done += 1
