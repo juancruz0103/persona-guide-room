@@ -1,0 +1,20 @@
+# Fotos procesadas con tercer_semestre.py (fondo oscuro de la pantalla del equipo).
+# archivo de Juan | id | recorte | zonas a limpiar
+fotos confidentes/Ryuji/William-de.png | william-de | - |
+fotos confidentes/Ryuji/William-iz.png | william-iz | - |
+fotos confidentes/Morgana/Diego-de.png | diego-de | - |
+fotos confidentes/Morgana/Diego-iz.png | diego-iz | - |
+fotos confidentes/Ann/Celestine-de.png | celestine-de | - |
+fotos confidentes/Ann/Celestine-iz.png | celestine-iz | - |
+fotos confidentes/Yosuke/Gorokichi-de.png | gorokichi-de | - |
+fotos confidentes/Yosuke/Gorokichi-iz.png | gorokichi-iz | - |
+fotos confidentes/Makoto/Agnes-de.png | agnes-de | - | 600,0,695,160
+fotos confidentes/Makoto/Agnes-iz.png | agnes-iz | - |
+fotos confidentes/Haru/Lucy-de.png | lucy-de | - |
+fotos confidentes/Haru/Lucy-iz.png | lucy-iz | - |
+fotos confidentes/Goro Akechi/Hereward-de.png | hereward-de | - |
+fotos confidentes/Goro Akechi/Hereward-iz.png | hereward-iz | - |
+fotos confidentes/Kasumi/Ella-de.png | ella-de | - |
+fotos confidentes/Kasumi/Ella-iz.png | ella-iz | - |
+Persona fotos/Izanagi-no-Okami Pícaro/Izanagi-no-Okami Pícaro-de.png | izanagi-no-okami-picaro-de | - |
+Persona fotos/Izanagi-no-Okami Pícaro/Izanagi-no-Okami Pícaro-iz.png | izanagi-no-okami-picaro-iz | - |

@@ -17,3 +17,8 @@ Fotos de Juan, sacadas del juego:
 - Recorte de las siluetas: (1090, 50, 1790, 750) de la captura de 1919×1079. Igor, Morgana, Makoto, Haru, Ann,
   Caroline y Justine y Oda usan (1130, 170, 1750, 790): más zoom y la cara más arriba (pedido de Juan).
 - Caroline y Justine: la foto se cambiará por spoilers; irá un botón en la esquina para alternar imágenes.
+- Tercer semestre (William, Diego, Celestine, Gorokichi, Agnes, Lucy, Hereward, Ella) e Izanagi-no-Okami Pícaro:
+  capturas con el fondo oscuro de la pantalla del equipo. La franja blanca curva del menú pasa por detrás de la
+  figura, así que no se recorta: `scripts/import-photos/tercer_semestre.py` la sigue columna por columna y la
+  pinta del color del fondo. Lista y zonas a limpiar a mano en `tercer_semestre.txt` (Agnes: ícono del menú).
+- Falta Al Azif (Futaba, tercer semestre).

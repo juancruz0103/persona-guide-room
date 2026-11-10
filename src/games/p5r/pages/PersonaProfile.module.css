@@ -16,7 +16,9 @@
 .image {
   flex: 1 1 320px;
   max-width: 440px;
-  min-height: 460px;
+  align-self: flex-start;
+  /* misma proporción que las fotos: así no se recortan de más */
+  aspect-ratio: 4 / 5;
   border: 3px solid var(--c-accent);
   clip-path: polygon(0 0, 100% 0, 100% 90%, 86% 100%, 0 100%);
 }
@@ -217,11 +219,6 @@
   line-height: 1.5;
 }
 
-@media (max-width: 640px) {
-  .image {
-    min-height: 320px;
-  }
-}
 
 .partyNote {
   margin: 4px 0 0;

@@ -45,7 +45,10 @@ def main(src, game_text, personas_json, party_json, out):
     for p in ps + pt:
         es = gt.get(p['name'], {}).get('es', p['name'])
         by_es[norm(es)] = p['id']
-    manual = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'recortes.json')))
+    here = os.path.dirname(os.path.abspath(__file__))
+    manual = json.load(open(os.path.join(here, 'recortes.json')))
+    # las que se procesan con tercer_semestre.py (otro fondo) no se tocan acá
+    other = {l.split('|')[1].strip() for l in open(os.path.join(here, 'tercer_semestre.txt')) if '|' in l and not l.startswith('#')}
     os.makedirs(out, exist_ok=True)
     missing, done = [], 0
     for folder in sorted(os.listdir(src)):
@@ -56,6 +59,7 @@ def main(src, game_text, personas_json, party_json, out):
         for f in files:
             side = 'de' if f.lower().endswith('-de.png') else 'iz' if f.lower().endswith('-iz.png') else None
             if not side: missing.append(f'{folder}/{f}'); continue
+            if f'{pid}-{side}' in other: continue
             raw = Image.open(os.path.join(src, folder, f)).convert('RGB')
             box = manual.get(f'{pid}-{side}')
             im = raw.crop(tuple(box)) if box else trim(raw)
