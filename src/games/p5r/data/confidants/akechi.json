@@ -7,8 +7,9 @@
  "maxRank": 10,
  "tips": [
   "El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.",
-  "En el rango 7 elige «You're my rival.» y en el 8 «I accept.»: no suman puntos, pero desbloquean diálogos posteriores.",
-  "Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero hay que elegir detener a Maruki; las otras respuestas llevan al final malo."
+  "En el rango 7 elige «Eres mi rival.» y en el 8 «Acepto.»: no suman puntos, pero desbloquean diálogos posteriores.",
+  "Cuando Akechi se une a los Ladrones Fantasma recibe de golpe Mediación zalamera, Golpe de gracia, Protección y Último aliento: no salen de ningún rango.",
+  "Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 a tiempo."
  ],
  "textsProvisional": false,
  "sources": [
@@ -19,6 +20,7 @@
    "rank": 1,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {
@@ -389,7 +391,8 @@
      ]
     }
    ],
-   "unlocks": []
+   "unlocks": [],
+   "noReward": true
   },
   {
    "rank": 6,
@@ -685,12 +688,14 @@
    "unlocks": [],
    "requirements": [
     "Llegar antes del 17 de noviembre: si no, el confidente queda bloqueado."
-   ]
+   ],
+   "noReward": true
   },
   {
    "rank": 9,
    "conversations": [],
    "unlocks": [],
+   "noReward": true,
    "choicesDontMatter": true
   },
   {

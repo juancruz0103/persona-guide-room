@@ -17,7 +17,7 @@ Fine Tapsuan | armor | defense 195, evasion 15 | Más evasión contra Viento (al
 Fleurs du Mal R | melee | attack 345, accuracy 86 | Magia +6; Puede causar Mareo (alta)
 Frost Ace Hood | armor | defense 120, evasion 20 | +40 SP máximo
 Godsent Dress | armor | defense 110, evasion 14 | Magia +6
-Gordios | melee | attack 30, accuracy 95 | Más probabilidad de crítico (alta)
+Gordios | melee | attack 300, accuracy 95 | Más probabilidad de crítico (alta)
 Great Thief Stick | melee | attack 150, accuracy 92 | Puede causar estado alterado al azar (media)
 Gungnir | gun | attack 408, accuracy 90, rounds 12 | Puede causar Desesperación (media)
 Headhunter Ladle EX | melee | attack 150, accuracy 90 | Más probabilidad de crítico (media)

@@ -1029,7 +1029,7 @@
   "type": "melee",
   "source": "juego",
   "stats": {
-   "attack": 30,
+   "attack": 300,
    "accuracy": 95
   },
   "effects": [

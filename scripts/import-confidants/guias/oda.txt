@@ -1,5 +1,5 @@
 # fuente: https://www.rpgsite.net/feature/5475-persona-5-royal-oda-confidant-guide-tower-choices-unlock-list
-# La guía pone en el rango 5 las respuestas del 4 (comprobado con el juego). Las del 5 las comprobó Juan jugando (notas musicales).
+# La guía pone en el rango 5 las respuestas del 4 (comprobado con el juego). Las del 5 las comprobó Juan jugando (notas musicales), confirmado el 10/11.
 # Llamadas: la guía no da la frase de Shinya, así que no se cargan todavía.
 CONSEJO | Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves después de clase, sábados de día y los días de lluvia.
 1 | DESBLOQUEO | Disparo de derribo | Gastas todo el cargador para derribar seguro a un enemigo. Cada rango da además puntos extra de Gentileza.

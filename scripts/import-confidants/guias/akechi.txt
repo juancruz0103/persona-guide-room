@@ -1,8 +1,9 @@
 # fuente: https://www.rpgsite.net/feature/9601-persona-5-royal-akechi-confidant-guide-justice-choices-unlocks
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.
-CONSEJO | En el rango 7 elige «You're my rival.» y en el 8 «I accept.»: no suman puntos, pero desbloquean diálogos posteriores.
-CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero hay que elegir detener a Maruki; las otras respuestas llevan al final malo.
+CONSEJO | En el rango 7 elige «Eres mi rival.» y en el 8 «Acepto.»: no suman puntos, pero desbloquean diálogos posteriores.
+CONSEJO | Cuando Akechi se une a los Ladrones Fantasma recibe de golpe Mediación zalamera, Golpe de gracia, Protección y Último aliento: no salen de ningún rango.
+CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 a tiempo.
 2 | You always seem so busy. | 2
 2 | Shoot very carefully. | 2
 2 | I'll go for a power shot. | 2
@@ -53,6 +54,10 @@ CONSEJO | Los rangos 9 y 10 llegan solos en el tercer semestre. El 2 de febrero 
 6 | REQUISITO | Que sea desde el 3 de septiembre.
 7 | REQUISITO | Conocimiento 4, y que sea desde el 2 de noviembre.
 8 | REQUISITO | Llegar antes del 17 de noviembre: si no, el confidente queda bloqueado.
-3 | SINRECOMPENSA
-6 | SINRECOMPENSA
 7 | DESBLOQUEO | Golpe de abanico | Akechi puede curar estados alterados de los compañeros en combate.
+1 | SINRECOMPENSA
+3 | SINRECOMPENSA
+5 | SINRECOMPENSA
+6 | SINRECOMPENSA
+8 | SINRECOMPENSA
+9 | SINRECOMPENSA
