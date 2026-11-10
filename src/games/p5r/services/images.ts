@@ -20,3 +20,10 @@ export const confidantImage = (id: string): string | undefined => CONFIDANTS[id]
  */
 export const personaImage = (id: string, view: 'profile' | 'side'): string | undefined =>
   PERSONAS[`${id}-${view === 'profile' ? 'de' : 'iz'}`];
+
+/** Encuadre en las tarjetas del catálogo: por defecto 50% 30%; algunas fotos necesitan mostrar más arriba. */
+const CARD_FOCUS: Record<string, string> = {
+  'cu-chulainn': '50% 0%',
+  'fuu-ki': '50% 0%', // con aire agregado arriba (recortes.json)
+};
+export const personaCardFocus = (id: string): string => CARD_FOCUS[id] ?? '50% 30%';

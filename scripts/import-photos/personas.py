@@ -19,12 +19,31 @@ def bright_ratio(im, box):
     px = list(im.crop(box).convert('L').tobytes())
     return sum(1 for v in px if v > 225) / max(len(px), 1)
 
-def trim(im):
+def paint_band(im):
+    """La franja blanca pasa por detrás de la cabeza: se pinta con el azul que hay justo debajo, columna por columna."""
+    from tercer_semestre import band_profile, smooth_curve
+    w, h = im.size
+    px = im.load()
+    curve = smooth_curve(band_profile(px, w, h), w)
+    samples = [px[x, min(h - 1, curve[x] + 6)] for x in range(w)]
+    # color de relleno: mediana de lo que hay debajo de la franja en las columnas vecinas
+    # (así, si debajo está la figura, manda el fondo de alrededor)
+    fills = []
+    for x in range(w):
+        win = samples[max(0, x - 120): x + 121]
+        fills.append(tuple(sorted(c[i] for c in win)[len(win) // 2] for i in range(3)))
+    for x in range(w):
+        for y in range(min(h, curve[x] + 2)):
+            c = px[x, y]
+            if max(c) - min(c) < 28: px[x, y] = fills[x]
+    return im
+
+def trim(im, keep_top=False):
     w, h = im.size
     top = 0
     for y in range(0, min(220, h)):              # franja blanca del menú
         if bright_ratio(im, (0, y, w, y + 1)) > 0.15: top = y + 1
-    top = min(top + 6, h // 4)
+    top = 0 if keep_top else min(top + 6, h // 4)
     bottom = h
     for y in range(h - 1, h - 140, -1):           # barra de botones y restos del menú abajo
         if bright_ratio(im, (0, y, w, y + 1)) > 0.03: bottom = y
@@ -47,6 +66,9 @@ def main(src, game_text, personas_json, party_json, out):
         by_es[norm(es)] = p['id']
     here = os.path.dirname(os.path.abspath(__file__))
     manual = json.load(open(os.path.join(here, 'recortes.json')))
+    # fotos donde la franja del menú tapa la cabeza: se pinta en vez de recortarla
+    paint = set(manual.get('_pintar_franja', []))
+    sys.path.insert(0, here)
     # las que se procesan con tercer_semestre.py (otro fondo) no se tocan acá
     other = {l.split('|')[1].strip() for l in open(os.path.join(here, 'tercer_semestre.txt')) if '|' in l and not l.startswith('#')}
     os.makedirs(out, exist_ok=True)
@@ -62,7 +84,13 @@ def main(src, game_text, personas_json, party_json, out):
             if f'{pid}-{side}' in other: continue
             raw = Image.open(os.path.join(src, folder, f)).convert('RGB')
             box = manual.get(f'{pid}-{side}')
-            im = raw.crop(tuple(box)) if box else trim(raw)
+            painted = f'{pid}-{side}' in paint
+            if painted: raw = paint_band(raw)
+            im = raw.crop(tuple(box)) if box else trim(raw, keep_top=painted)
+            extra = manual.get('_aire_arriba', {}).get(f'{pid}-{side}')
+            if extra:  # la figura toca el borde de arriba: se agrega fondo (la primera fila estirada) para que respire
+                strip = im.crop((0, 0, im.width, 1)).resize((im.width, extra))
+                tall = Image.new('RGB', (im.width, im.height + extra)); tall.paste(strip, (0, 0)); tall.paste(im, (0, extra)); im = tall
             im.thumbnail((900, 900), Image.LANCZOS)
             im.save(os.path.join(out, f'{pid}-{side}.webp'), 'WEBP', quality=80, method=6)
             done += 1

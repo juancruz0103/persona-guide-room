@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
-import { personaImage } from '../services/images';
+import { personaCardFocus, personaImage } from '../services/images';
 import type { Persona } from '../types';
 import { getArcana } from '../data/arcana';
 import { PARTY_OWNER, isSpoilerStage } from '../data/party';
@@ -27,7 +27,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
         <ImagePlaceholder
           className={styles.image}
           src={personaImage(persona.id, 'side')}
-          focus="50% 30%"
+          focus={personaCardFocus(persona.id)}
           label={personaImage(persona.id, 'side') ? personaName(persona) : 'Imagen de Persona'}
           corner={arcana.numeral}
           badge={badge}
