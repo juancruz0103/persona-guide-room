@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { BackButton } from '../../../shared/components/BackButton';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { confidantImage } from '../services/images';
 import { getArcana } from '../data/arcana';
@@ -222,12 +223,43 @@ function UltimateBox({ summary }: { summary: ConfidantSummary }) {
   );
 }
 
+/* ---------- Seguimiento de progreso (se guarda en este navegador) ---------- */
+
+interface Progress {
+  tracking: boolean;
+  reached: number;
+}
+const progressKey = (id: string) => `pgr.progress.${id}`;
+function loadProgress(id: string): Progress {
+  try {
+    const raw = localStorage.getItem(progressKey(id));
+    if (raw) return JSON.parse(raw) as Progress;
+  } catch {
+    /* sin almacenamiento */
+  }
+  return { tracking: false, reached: 0 };
+}
+function saveProgress(id: string, p: Progress) {
+  try {
+    localStorage.setItem(progressKey(id), JSON.stringify(p));
+  } catch {
+    /* sin almacenamiento: el progreso dura mientras la página esté abierta */
+  }
+}
+
 export default function ConfidantProfile() {
   const { confidantId = '' } = useParams();
   const [data, setData] = useState<Confidant | null | undefined>(undefined);
   const [sel, setSel] = useState(2);
   const [tracking, setTracking] = useState(false);
   const [reached, setReached] = useState(0);
+
+  useEffect(() => {
+    const saved = loadProgress(confidantId);
+    setTracking(saved.tracking);
+    setReached(saved.reached);
+    setSel(saved.tracking ? Math.min(saved.reached + 1, 10) : 2);
+  }, [confidantId]);
 
   useEffect(() => {
     let alive = true;
@@ -255,8 +287,43 @@ export default function ConfidantProfile() {
   const ranks = Array.from({ length: maxRank }, (_, i) => i + 1);
   const thiefPersona = summary.persona ? getPersona(summary.persona) : undefined;
 
+  // Un rango «sin respuestas» (nada que elegir en la ficha) se puede dar por hecho al empezar
+  const hasAnswers = (n: number) =>
+    data?.ranks.find((r) => r.rank === n)?.conversations.some((c) => c.kind !== 'mementos') ?? false;
+  const startReached = () => (hasAnswers(1) ? 0 : 1);
+  const persist = (t: boolean, r: number) => saveProgress(confidantId, { tracking: t, reached: r });
+  const goTo = (r: number) => setSel(Math.min(r + 1, maxRank));
+
+  const toggleTracking = () => {
+    if (tracking) {
+      setTracking(false);
+      persist(false, reached);
+      return;
+    }
+    const r = reached > 0 ? reached : startReached();
+    setTracking(true);
+    setReached(r);
+    goTo(r);
+    persist(true, r);
+  };
+  const markReached = () => {
+    if (sel !== reached + 1) return;
+    setReached(sel);
+    persist(true, sel);
+    if (sel < maxRank) setSel(sel + 1);
+  };
+  const resetProgress = () => {
+    const r = startReached();
+    setReached(r);
+    goTo(r);
+    persist(true, r);
+  };
+
   return (
     <article>
+      <div className={`container ${styles.back}`}>
+        <BackButton fallback="/p5r/confidentes" />
+      </div>
       <section className={styles.hero}>
         <div className={styles.heroSlab} aria-hidden="true" />
         <div className={`container ${styles.heroInner}`}>
@@ -287,7 +354,7 @@ export default function ConfidantProfile() {
                 role="switch"
                 aria-checked={tracking}
                 aria-label="Seguimiento de progreso"
-                onClick={() => setTracking((v) => !v)}
+                onClick={toggleTracking}
                 className={`${styles.switch} ${tracking ? styles.switchOn : ''}`}
               >
                 <span />
@@ -295,7 +362,7 @@ export default function ConfidantProfile() {
               <span className={styles.trackLabel}>
                 Seguimiento de progreso: {tracking ? 'activado' : 'desactivado'}
               </span>
-              <span className={styles.trackNote}>Vista previa · se guardará con tu cuenta (v2)</span>
+              <span className={styles.trackNote}>Se guarda en este navegador · con tu cuenta en la v2</span>
             </div>
             )}
           </div>
@@ -370,8 +437,23 @@ export default function ConfidantProfile() {
             <span className={styles.progressTrack}>
               <span style={{ width: `${(reached / maxRank) * 100}%` }} />
             </span>
-            <button type="button" className="btn btn--accent" onClick={() => setReached((r) => Math.max(r, sel))}>
-              Marcar rango {sel} como alcanzado
+            {reached >= maxRank ? (
+              <span className={styles.progressDone}>¡Confidente al máximo!</span>
+            ) : sel === reached + 1 ? (
+              <button type="button" className="btn btn--accent" onClick={markReached}>
+                Marcar rango {sel} como alcanzado
+              </button>
+            ) : sel <= reached ? (
+              <button type="button" className="btn btn--accent" disabled>
+                Rango {sel} alcanzado ✓
+              </button>
+            ) : (
+              <button type="button" className="btn btn--light" onClick={() => setSel(reached + 1)}>
+                Primero el rango {reached + 1}: ir
+              </button>
+            )}
+            <button type="button" className={`btn btn--light ${styles.resetBtn}`} onClick={resetProgress}>
+              Reiniciar progreso
             </button>
           </div>
         )}

@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { getFusionEngine } from '../services/fusion';
+import { BackButton } from '../../../shared/components/BackButton';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { personaImage } from '../services/images';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
@@ -135,7 +136,7 @@ export default function PersonaProfile() {
   return (
     <article>
       <div className={`container ${styles.back}`}>
-        <Link to="/p5r/calculadora" className="label">← Volver al catálogo</Link>
+        <BackButton fallback="/p5r/calculadora" />
       </div>
 
       <section className={`container ${styles.top}`}>

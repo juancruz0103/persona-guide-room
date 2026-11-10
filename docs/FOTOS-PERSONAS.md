@@ -13,3 +13,6 @@ Fotos de Juan, sacadas del juego:
 
 - Una sola foto por confidente (retrato de la ficha y de la tarjeta del índice): la silueta de la pantalla
   de habilidades del juego (`<nombre>-full.png`), recortada en cuadrado. Quedan en `assets/confidants/<id>.webp`.
+- Recorte de las siluetas: (1090, 50, 1790, 750) de la captura de 1919×1079. Igor, Morgana, Makoto, Haru, Ann,
+  Caroline y Justine y Oda usan (1130, 170, 1750, 790): más zoom y la cara más arriba (pedido de Juan).
+- Caroline y Justine: la foto se cambiará por spoilers; irá un botón en la esquina para alternar imágenes.

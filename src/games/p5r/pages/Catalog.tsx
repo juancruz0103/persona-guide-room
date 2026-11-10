@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { useSessionState } from '../../../shared/hooks/useSessionState';
 import { CalculatorHeader } from '../components/CalculatorHeader';
 import { PersonaCard } from '../components/PersonaCard';
 import { ARCANAS } from '../data/arcana';
@@ -13,9 +14,9 @@ import {
 import styles from './Catalog.module.css';
 
 export default function Catalog() {
-  const [f, setF] = useState<CatalogFilters>(DEFAULT_FILTERS);
+  const [f, setF] = useSessionState<CatalogFilters>('catalog.filters', DEFAULT_FILTERS);
   const all = getCatalogPersonas();
-  const [spoilerFilters, setSpoilerFilters] = useState(false);
+  const [spoilerFilters, setSpoilerFilters] = useSessionState('catalog.spoilerFilters', false);
   const list = useMemo(() => filterPersonas(all, f), [all, f]);
 
   const set = <K extends keyof CatalogFilters>(key: K, value: CatalogFilters[K]) =>

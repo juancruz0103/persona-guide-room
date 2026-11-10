@@ -767,3 +767,18 @@
   text-transform: uppercase;
   color: #8a8a84;
 }
+
+.back {
+  padding-block: 20px 14px;
+}
+.progressDone {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.resetBtn {
+  padding-inline: 14px;
+  font-size: 15px;
+}

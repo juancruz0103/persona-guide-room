@@ -2,7 +2,7 @@
 # Llamadas (TEL): texto de la guía en inglés; el español es traducción provisoria.
 CONSEJO | El rango 1 llega solo con la historia (10 de junio). Akechi está disponible los miércoles y sábados por la noche; de mediados de julio a mediados de agosto, también los martes.
 CONSEJO | En el rango 7 elige «Eres mi rival.» y en el 8 «Acepto.»: no suman puntos, pero desbloquean diálogos posteriores.
-CONSEJO | Cuando Akechi se une a los Ladrones Fantasma recibe de golpe Mediación zalamera, Golpe de gracia, Protección y Último aliento: no salen de ningún rango.
+CONSEJO | Más adelante, Akechi obtiene de golpe Mediación zalamera, Golpe de gracia, Protección y Último aliento: no salen de ningún rango.
 CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 a tiempo.
 2 | You always seem so busy. | 2
 2 | Shoot very carefully. | 2

@@ -62,5 +62,5 @@ Diseño aprobado en el lienzo (tableros 05, 09 y 10).
   - Títulos de las misiones de Mementos en español. Oda rango 5 (notas musicales).
   - Ohya y Chihaya: rangos de la Megami Tensei Wiki, que coinciden con el orden de la pantalla del juego.
 - Akechi: los rangos 1, 3, 5, 6, 8 y 9 no dan nada; Mediación zalamera, Golpe de gracia, Protección y Último aliento
-  los recibe al unirse a los Ladrones Fantasma. Sin detalles de los rangos 9 y 10 (spoilers fuertes).
+  los obtiene más adelante (el consejo no dice cuándo: spoiler). Sin detalles de los rangos 9 y 10 (spoilers fuertes).
 - Falta: Ann, ¿tiene requisito de atributo?

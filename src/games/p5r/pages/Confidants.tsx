@@ -1,4 +1,5 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { useSessionState } from '../../../shared/hooks/useSessionState';
 import { Link } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { confidantImage } from '../services/images';
@@ -19,9 +20,9 @@ const TAG_CLASS: Partial<Record<ConfidantTag, string>> = {
 const isSpecial = (kind: string) => kind !== 'normal';
 
 export default function Confidants() {
-  const [group, setGroup] = useState<Group>('all');
-  const [tag, setTag] = useState<ConfidantTag | null>(null);
-  const [q, setQ] = useState('');
+  const [group, setGroup] = useSessionState<Group>('confidants.group', 'all');
+  const [tag, setTag] = useSessionState<ConfidantTag | null>('confidants.tag', null);
+  const [q, setQ] = useSessionState('confidants.q', '');
 
   const counts = {
     all: CONFIDANTS.length,

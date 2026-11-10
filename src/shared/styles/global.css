@@ -220,3 +220,20 @@ h3 {
   clip: rect(0 0 0 0);
   white-space: nowrap;
 }
+
+/* Botón «← Volver» */
+.back-btn {
+  padding: 0;
+  background: none;
+  border: 0;
+  color: var(--c-accent);
+  font-size: 17px;
+  cursor: pointer;
+}
+.back-btn:hover {
+  text-decoration: underline;
+}
+.btn:disabled {
+  opacity: 0.65;
+  cursor: default;
+}
