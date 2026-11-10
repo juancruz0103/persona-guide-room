@@ -18,3 +18,7 @@ fotos confidentes/Kasumi/Ella-de.png | ella-de | 200,0,660,575 |
 fotos confidentes/Kasumi/Ella-iz.png | ella-iz | - |
 fotos confidentes/Futaba/Al Azif-de.png | al-azif-de | 0,130,756,860 |
 fotos confidentes/Futaba/Al Azif-iz.png | al-azif-iz | 0,60,742,720 |
+fotos confidentes/Goro Akechi/Loki-de.png | loki-de | - |
+fotos confidentes/Goro Akechi/Loki-iz.png | loki-iz | - | 612,0,671,50 572,25,671,90
+fotos confidentes/Kasumi/Vanadis-de.png | vanadis-de | - |
+fotos confidentes/Kasumi/Vanadis-iz.png | vanadis-iz | - |

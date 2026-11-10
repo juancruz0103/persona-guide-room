@@ -24,6 +24,20 @@ export const personaImage = (id: string, view: 'profile' | 'side'): string | und
 /** Encuadre en las tarjetas del catálogo: por defecto 50% 30%; algunas fotos necesitan mostrar más arriba. */
 const CARD_FOCUS: Record<string, string> = {
   'cu-chulainn': '50% 0%',
-  'fuu-ki': '50% 0%', // con aire agregado arriba (recortes.json)
+  'fuu-ki': '50% 0%',
+  'andras': '50% 0%',
+  'hariti': '50% 0%',
+  'izanagi': '50% 0%',
+  'izanagi-picaro': '50% 0%',
+  'jikokuten': '50% 0%',
+  'koumokuten': '50% 0%',
+  'kumbhanda': '50% 0%',
+  'kurama-tengu': '50% 0%',
+  'lilim': '50% 0%',
+  'lilith': '50% 0%',
+  'macabre': '50% 0%',
+  'messiah': '50% 0%',
+  'moloch': '50% 0%',
+  'magatsu-izanagi': '35% 0%',
 };
 export const personaCardFocus = (id: string): string => CARD_FOCUS[id] ?? '50% 30%';

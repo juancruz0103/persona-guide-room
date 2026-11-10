@@ -29,6 +29,28 @@
     "yaksini-iz"
   ],
   "_aire_arriba": {
-    "fuu-ki-iz": 90
-  }
+    "fuu-ki-iz": 90,
+    "andras-iz": 80,
+    "hariti-iz": 80,
+    "izanagi-iz": 80,
+    "izanagi-picaro-iz": 80,
+    "jikokuten-iz": 80,
+    "koumokuten-iz": 80,
+    "kumbhanda-iz": 80,
+    "lilim-iz": 80,
+    "lilith-iz": 80,
+    "macabre-iz": 80,
+    "messiah-iz": 80,
+    "moloch-iz": 80,
+    "magatsu-izanagi-iz": 80,
+    "izanagi-de": 90,
+    "izanagi-picaro-de": 90,
+    "jikokuten-de": 90,
+    "kurama-tengu-de": 60,
+    "kurama-tengu-iz": 60
+  },
+  "_pintar_franja_estricta": [
+    "kurama-tengu-de",
+    "kurama-tengu-iz"
+  ]
 }
