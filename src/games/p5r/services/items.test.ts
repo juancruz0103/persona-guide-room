@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { getAllPersonas, getPersona } from './personas';
-import { filterSkillCardRows, getItem, getSkillCardRows, itemDescription, itemTypeLabel, skillCardSources } from './items';
+import { NO_DAMAGE, filterSkillCardRows, getItem, getSkillCardRows, itemDescription, itemTypeLabel, skillCardSources, sortByPower } from './items';
 import { describeCost } from './skillText';
 import { getSkill } from './personas';
 
@@ -84,5 +84,32 @@ describe('skill cards', () => {
     expect(ice.every((r) => r.skill.element === 'ice')).toBe(true);
     const byPersona = filterSkillCardRows(rows, { query: 'baphomet', type: 'all', element: null });
     expect(byPersona.map((r) => r.skill.name)).toContain('Bufudyne');
+  });
+});
+
+describe('filtros y orden de skill cards', () => {
+  const rows = getSkillCardRows();
+  it('«Fusión normal» deja solo skills con skill card sin alarma; «Alarma» las que piden alarma', () => {
+    const normal = filterSkillCardRows(rows, { query: '', type: 'normal', element: null });
+    expect(normal.length).toBeGreaterThan(0);
+    expect(normal.every((r) => r.cards.some((c) => !c.alarm))).toBe(true);
+    const alarm = filterSkillCardRows(rows, { query: '', type: 'alarm', element: null });
+    expect(alarm.every((r) => r.cards.some((c) => c.alarm))).toBe(true);
+    const excl = filterSkillCardRows(rows, { query: '', type: 'excl', element: null });
+    expect(excl.every((r) => r.exclusive && r.cards.length === 0)).toBe(true);
+  });
+
+  it('ordenar por daño no agrega ni quita skills y respeta el sentido', () => {
+    const fire = filterSkillCardRows(rows, { query: '', type: 'all', element: 'fir' });
+    const desc = sortByPower(fire, 'desc');
+    expect(desc.map((r) => r.skill.name).sort()).toEqual(fire.map((r) => r.skill.name).sort());
+    const p = desc.map((r) => r.skill.power ?? -1);
+    for (let i = 1; i < p.length; i++) expect(p[i - 1]).toBeGreaterThanOrEqual(p[i]);
+    expect(sortByPower(fire, 'asc')[0].skill.power).toBe(Math.min(...fire.map((r) => r.skill.power ?? Infinity)));
+  });
+
+  it('sanación, apoyo, pasivas y estados alterados no se ordenan por daño', () => {
+    for (const e of ['rec', 'sup', 'pas', 'ail'] as const) expect(NO_DAMAGE.has(e)).toBe(true);
+    expect(NO_DAMAGE.has('fir')).toBe(false);
   });
 });

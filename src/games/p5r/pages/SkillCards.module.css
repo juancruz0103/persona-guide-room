@@ -147,6 +147,84 @@
 
 /* ---------- Tabla ---------- */
 
+.kindIcon {
+  flex: none;
+}
+.typeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.headBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.headBtn:hover,
+.headActive {
+  color: var(--c-text);
+}
+.headArrow {
+  font-size: 16px;
+  line-height: 1;
+}
+.headMenuWrap {
+  position: relative;
+}
+.headMenu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  padding: 6px;
+  background: var(--c-surface);
+  border: 2px solid var(--c-accent);
+  box-shadow: 6px 6px 0 #000;
+}
+.headMenuItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+  background: none;
+  border: 0;
+  color: var(--c-text);
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-align: left;
+  cursor: pointer;
+}
+.headMenuItem:hover {
+  background: #222;
+}
+.headMenuItem[aria-checked='true'] {
+  color: var(--c-accent);
+}
+.menuIconSlot {
+  width: 18px;
+  display: inline-flex;
+  justify-content: center;
+}
+.power {
+  color: var(--c-accent);
+}
+
 .head,
 .row {
   display: grid;

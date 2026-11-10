@@ -113,7 +113,8 @@ export function skillCardSources(skill: string): SkillCardSource[] {
   return cardIndex.get(skill) ?? [];
 }
 
-export type SkillCardFilter = 'all' | 'card' | 'alarm' | 'excl';
+/** all = todas · normal = sale ejecutando sin alarma · alarm = con la Alarma de fusión · excl = exclusiva */
+export type SkillCardFilter = 'all' | 'normal' | 'alarm' | 'excl';
 
 export interface SkillCardRow {
   skill: SkillInfo;
@@ -158,7 +159,7 @@ export function filterSkillCardRows(
   const pm = (p: Persona) => normalize(personaName(p)).includes(q) || normalize(personaNameEn(p)).includes(q);
   return list.filter((r) => {
     if (f.element && r.skill.element !== f.element) return false;
-    if (f.type === 'card' && !r.cards.length) return false;
+    if (f.type === 'normal' && !r.cards.some((c) => !c.alarm)) return false;
     if (f.type === 'alarm' && !r.cards.some((c) => c.alarm)) return false;
     if (f.type === 'excl' && !r.exclusive) return false;
     if (!q) return true;
@@ -167,5 +168,21 @@ export function filterSkillCardRows(
       r.cards.some((c) => pm(c.persona)) ||
       r.learners.some(pm)
     );
+  });
+}
+
+/** Elementos sin daño: no se ordenan por daño. */
+export const NO_DAMAGE: ReadonlySet<SkillElement> = new Set(['rec', 'sup', 'pas', 'ail', 'tra'] as SkillElement[]);
+
+/** Ordena una COPIA por daño (las que no tienen dato de daño van al final). */
+export function sortByPower(list: SkillCardRow[], dir: 'desc' | 'asc'): SkillCardRow[] {
+  const sign = dir === 'desc' ? -1 : 1;
+  return [...list].sort((x, y) => {
+    const a = x.skill.power ?? null;
+    const b = y.skill.power ?? null;
+    if (a === null && b === null) return 0;
+    if (a === null) return 1;
+    if (b === null) return -1;
+    return sign * (a - b);
   });
 }

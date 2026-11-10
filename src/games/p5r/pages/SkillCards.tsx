@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ElementIcon } from '../../../shared/components/ElementIcon';
 import { CalculatorHeader } from '../components/CalculatorHeader';
@@ -6,7 +6,7 @@ import { SKILL_CARD_PATH } from '../components/ItemIcon';
 import { SkillTip } from '../components/SkillTip';
 import { PersonaPeek } from '../components/PersonaPeek';
 import { ELEMENTS } from '../data/elements';
-import { filterSkillCardRows, getSkillCardRows, type SkillCardFilter, type SkillCardRow } from '../services/items';
+import { NO_DAMAGE, filterSkillCardRows, getSkillCardRows, sortByPower, type SkillCardFilter, type SkillCardRow } from '../services/items';
 import { describeCost, skillMeta } from '../services/skillText';
 import type { Persona, SkillElement } from '../types';
 import styles from './SkillCards.module.css';
@@ -14,10 +14,27 @@ import { personaName, skillName, skillNameEn } from '../services/gameText';
 
 const TYPES: { id: SkillCardFilter; label: string; tone: 'red' | 'white' | 'gold' }[] = [
   { id: 'all', label: 'Todas', tone: 'red' },
-  { id: 'card', label: 'Con skill card', tone: 'white' },
-  { id: 'alarm', label: 'Con alarma', tone: 'red' },
+  { id: 'normal', label: 'Fusión normal', tone: 'white' },
+  { id: 'alarm', label: 'Alarma de fusión', tone: 'red' },
   { id: 'excl', label: 'Exclusivas', tone: 'gold' },
 ];
+
+/** Ícono de cada tipo: carta blanca (normal), carta roja (alarma), estrella dorada (exclusiva). */
+function KindIcon({ kind }: { kind: SkillCardFilter }) {
+  if (kind === 'all') return null;
+  if (kind === 'excl')
+    return (
+      <svg className={styles.kindIcon} width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="var(--c-accent)" d="M12 2l3 6.3 6.9.9-5 4.8 1.2 6.8L12 17.6l-6.1 3.2 1.2-6.8-5-4.8 6.9-.9z" />
+      </svg>
+    );
+  return (
+    <svg className={styles.kindIcon} width="17" height="22" viewBox="0 0 24 24" aria-hidden="true">
+      <rect x="4" y="1" width="16" height="22" fill={kind === 'alarm' ? 'var(--c-primary)' : 'var(--c-paper)'} stroke="var(--c-ink)" strokeWidth="1.5" />
+      <path fill={kind === 'alarm' ? 'var(--c-text)' : 'var(--c-ink)'} d="M12 6l1.6 3.3 3.6.5-2.6 2.5.6 3.6L12 14.2l-3.2 1.7.6-3.6-2.6-2.5 3.6-.5z" />
+    </svg>
+  );
+}
 
 const ELEMENT_FILTER = Object.keys(ELEMENTS) as SkillElement[];
 const PAGE = 50;
@@ -25,7 +42,7 @@ const MAX_LEARNERS = 4;
 
 const personaLink = (p: Persona) => `/p5r/calculadora/persona/${p.id}`;
 
-function Row({ row }: { row: SkillCardRow }) {
+function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
   const { skill, cards, learners, exclusive } = row;
   const cost = describeCost(skill);
   const meta = skillMeta(skill);
@@ -39,6 +56,12 @@ function Row({ row }: { row: SkillCardRow }) {
         </span>
         <span className={styles.skillMeta}>
           {meta}
+          {showPower && (
+            <>
+              {' · '}
+              <strong className={styles.power}>{row.skill.power != null ? `Daño ${row.skill.power}` : 'Daño sin dato'}</strong>
+            </>
+          )}
           {cost && (
             <>
               {' · '}
@@ -98,10 +121,42 @@ export default function SkillCards() {
   const [type, setType] = useState<SkillCardFilter>('all');
   const [element, setElement] = useState<SkillElement | null>(null);
   const [limit, setLimit] = useState(PAGE);
+  const [powerSort, setPowerSort] = useState<'desc' | 'asc' | null>(null);
+  const [typeMenu, setTypeMenu] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  const canSortPower = element !== null && !NO_DAMAGE.has(element);
+  useEffect(() => {
+    if (!canSortPower) setPowerSort(null);
+  }, [canSortPower]);
+
+  // El menú del título se cierra al tocar afuera o con Escape
+  useEffect(() => {
+    if (!typeMenu) return;
+    const close = (e: Event) => {
+      if (e instanceof KeyboardEvent ? e.key === 'Escape' : !menuRef.current?.contains(e.target as Node)) setTypeMenu(false);
+    };
+    document.addEventListener('mousedown', close);
+    document.addEventListener('keydown', close);
+    return () => {
+      document.removeEventListener('mousedown', close);
+      document.removeEventListener('keydown', close);
+    };
+  }, [typeMenu]);
 
   const all = getSkillCardRows();
-  const list = useMemo(() => filterSkillCardRows(all, { query, type, element }), [all, query, type, element]);
+  const list = useMemo(() => {
+    const filtered = filterSkillCardRows(all, { query, type, element });
+    return powerSort ? sortByPower(filtered, powerSort) : filtered;
+  }, [all, query, type, element, powerSort]);
   const reset = () => setLimit(PAGE);
+  // Cada clic: más daño primero → menos daño primero → orden normal
+  const cyclePower = () => setPowerSort((s) => (s === null ? 'desc' : s === 'desc' ? 'asc' : null));
+  const chooseType = (t: SkillCardFilter) => {
+    setType(t);
+    setTypeMenu(false);
+    reset();
+  };
 
   return (
     <>
@@ -149,6 +204,7 @@ export default function SkillCards() {
                   reset();
                 }}
               >
+                <KindIcon kind={t.id} />
                 {t.label}
               </button>
             ))}
@@ -184,16 +240,60 @@ export default function SkillCards() {
           <strong>{list.length}</strong> skills
         </p>
 
-        <div className={styles.head} aria-hidden="true">
+        <div className={styles.head}>
           <span />
-          <span>Skill</span>
-          <span>Skill card (silla eléctrica)</span>
+          {canSortPower ? (
+            <button
+              type="button"
+              className={`${styles.headBtn} ${powerSort ? styles.headActive : ''}`}
+              onClick={cyclePower}
+              title="Ordenar por daño"
+            >
+              Skill · daño
+              <span aria-hidden="true" className={styles.headArrow}>{powerSort === 'desc' ? '▼' : powerSort === 'asc' ? '▲' : '↕'}</span>
+              <span className="visually-hidden">
+                {powerSort === 'desc' ? '(de más a menos daño)' : powerSort === 'asc' ? '(de menos a más daño)' : '(sin ordenar)'}
+              </span>
+            </button>
+          ) : (
+            <span title="Elegí un elemento de daño para ordenar por daño">Skill</span>
+          )}
+          <div className={styles.headMenuWrap} ref={menuRef}>
+            <button
+              type="button"
+              className={`${styles.headBtn} ${type !== 'all' ? styles.headActive : ''}`}
+              aria-haspopup="menu"
+              aria-expanded={typeMenu}
+              onClick={() => setTypeMenu((v) => !v)}
+            >
+              Skill card (silla eléctrica)
+              {type !== 'all' && <KindIcon kind={type} />}
+              <span aria-hidden="true" className={styles.headArrow}>▾</span>
+            </button>
+            {typeMenu && (
+              <div className={styles.headMenu} role="menu">
+                {TYPES.map((t) => (
+                  <button
+                    key={t.id}
+                    type="button"
+                    role="menuitemradio"
+                    aria-checked={type === t.id}
+                    className={styles.headMenuItem}
+                    onClick={() => chooseType(t.id)}
+                  >
+                    <span className={styles.menuIconSlot}><KindIcon kind={t.id} /></span>
+                    {t.label}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
           <span>La aprenden</span>
         </div>
         {list.length ? (
           <ul className={styles.list}>
             {list.slice(0, limit).map((r) => (
-              <Row key={r.skill.name} row={r} />
+              <Row key={r.skill.name} row={r} showPower={powerSort !== null} />
             ))}
           </ul>
         ) : (
