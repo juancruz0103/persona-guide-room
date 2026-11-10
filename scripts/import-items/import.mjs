@@ -156,15 +156,25 @@ writeFileSync(join(gen, 'items.json'), JSON.stringify(items, null, 1) + '\n');
 const counts = Object.values(items).reduce((acc, it) => ((acc[it.type] = (acc[it.type] ?? 0) + 1), acc), {});
 console.log(`Items: ${Object.keys(items).length}`, counts);
 
+// Qué Persona hay que ejecutar en la silla eléctrica para conseguir cada item (nombres oficiales en español)
+const gameText = JSON.parse(readFileSync(join(gen, 'game-text.json'), 'utf8'));
+const esPersona = (n) => gameText.personas[n]?.es ?? n;
+const esItem = (n) => gameText.items[n]?.es ?? n;
+const personaList = Array.isArray(personas) ? personas : Object.values(personas);
+const sourcesOf = (item) => [
+  ...personaList.filter((p) => p.itemization === item).map((p) => `${esPersona(p.name)} (Nv ${p.level})`),
+  ...personaList.filter((p) => p.itemizationAlt === item).map((p) => `${esPersona(p.name)} (Nv ${p.level}) con Alarma de fusión`),
+];
+
 const md = [
   '# Items a revisar en el juego',
   '',
   'Generado por `scripts/import-items/import.mjs`. Cada línea es un item de la silla eléctrica',
   'al que le falta información. Cuando lo compruebes, anotá tipo y estadísticas.',
   '',
-  '| Item | Qué falta |',
-  '|------|-----------|',
-  ...review.map((r) => `| ${r.item} | ${r.why} |`),
+  '| Item | En el juego (español) | Persona para la silla eléctrica | Qué falta |',
+  '|------|------|------|-----------|',
+  ...review.map((r) => `| ${r.item} | ${esItem(r.item)} | ${sourcesOf(r.item).join('; ') || '—'} | ${r.why} |`),
   '',
 ].join('\n');
 writeFileSync(join(root, 'docs/REVISAR-items.md'), md);
