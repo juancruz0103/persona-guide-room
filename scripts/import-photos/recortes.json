@@ -1,0 +1,15 @@
+{
+  "_nota": "Recortes a mano (x0, y0, x1, y1 sobre la foto original) para las fotos que el recorte automático deja descuadradas.",
+  "agathion-de": [
+    150,
+    108,
+    930,
+    888
+  ],
+  "agathion-iz": [
+    60,
+    44,
+    780,
+    764
+  ]
+}

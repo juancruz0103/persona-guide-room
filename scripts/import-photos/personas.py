@@ -6,6 +6,7 @@ Uso: python3 -I personas.py "<carpeta Persona fotos>" <game-text.json> <personas
 
 - Cada carpeta lleva el nombre oficial en español; los archivos terminan en -de (ficha) o -iz (calculadora).
 - Se quitan solos la franja blanca del menú (arriba), los botones (abajo) y bordes blancos.
+- recortes.json: recorte a mano para las fotos que quedan descuadradas.
 - Salida: <salida>/<id>-de.webp y <id>-iz.webp (id interno de la Persona).
 """
 import json, os, sys, unicodedata
@@ -44,6 +45,7 @@ def main(src, game_text, personas_json, party_json, out):
     for p in ps + pt:
         es = gt.get(p['name'], {}).get('es', p['name'])
         by_es[norm(es)] = p['id']
+    manual = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'recortes.json')))
     os.makedirs(out, exist_ok=True)
     missing, done = [], 0
     for folder in sorted(os.listdir(src)):
@@ -54,7 +56,9 @@ def main(src, game_text, personas_json, party_json, out):
         for f in files:
             side = 'de' if f.lower().endswith('-de.png') else 'iz' if f.lower().endswith('-iz.png') else None
             if not side: missing.append(f'{folder}/{f}'); continue
-            im = trim(Image.open(os.path.join(src, folder, f)).convert('RGB'))
+            raw = Image.open(os.path.join(src, folder, f)).convert('RGB')
+            box = manual.get(f'{pid}-{side}')
+            im = raw.crop(tuple(box)) if box else trim(raw)
             im.thumbnail((900, 900), Image.LANCZOS)
             im.save(os.path.join(out, f'{pid}-{side}.webp'), 'WEBP', quality=80, method=6)
             done += 1

@@ -8,6 +8,7 @@ Fotos de Juan, sacadas del juego:
 - Se convierten con `scripts/import-photos/personas.py` (quita la franja del menú, los botones y los bordes; WebP).
 - Quedan en `src/games/p5r/assets/personas/<id>-de.webp` y `-iz.webp`. Donde no hay foto se ve el marcador.
 - Hechas: las 29 Personas que empiezan con A (10/11).
+- Si una foto queda descuadrada, se le pone un recorte a mano en `scripts/import-photos/recortes.json` (por ejemplo, Agathion).
 
 ## Confidentes
 
