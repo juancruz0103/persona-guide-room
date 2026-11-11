@@ -12,6 +12,7 @@ import { getArcana } from '../data/arcana';
 import { ELEMENTS } from '../data/elements';
 import { getPersona } from '../services/personas';
 import type { Persona } from '../types';
+import { TREASURE_TRAITS, traitDescription } from '../data/traits';
 import styles from './PersonaProfile.module.css';
 import { personaMyth, personaName, personaNameEn, skillName } from '../services/gameText';
 import { PARTY_OWNER, PARTY_STAGE, isSpoilerStage } from '../data/party';
@@ -194,6 +195,23 @@ export default function PersonaProfile() {
               <dd>{p.trait ? skillName(p.trait) : '—'}</dd>
             </div>
           </dl>
+
+          {p.trait && traitDescription(p.trait) && (
+            <div className={styles.trait}>
+              <span className="label label-accent">Rasgo · {skillName(p.trait)}</span>
+              <p>{traitDescription(p.trait)}</p>
+              {TREASURE_TRAITS[p.id] && (
+                <ul className={styles.traitList}>
+                  {TREASURE_TRAITS[p.id].map(([main, alt]) => (
+                    <li key={main}>
+                      <strong>{skillName(main)}</strong>: {traitDescription(main)}
+                      {alt && <small> Si ya lo tiene: {skillName(alt)}.</small>}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
 
           <div className={styles.stats}>
             <span className="label label-accent">

@@ -14,6 +14,8 @@
  *       RANGO | opción en inglés | puntos
  *       RANGO | TEL | frase EN | frase ES | opción EN | opción ES | puntos   (llamadas de Royal)
  *       RANGO | DESBLOQUEO | nombre | descripción
+ *       RANGO | CONV | frase ES | opción=puntos ; opción=puntos   (texto del juego anotado en partida, sin inglés)
+ *       En TEL, si la frase EN va vacía es texto del juego en español anotado en partida (no provisorio).
  *   Las opciones que la guía no lista dan 0 puntos.
  *
  * Las elecciones del evento sin ninguna opción en la guía (por ejemplo "¿seguimos?")
@@ -32,6 +34,17 @@ const dataDir = resolve(here, '../../src/games/p5r/data/confidants');
  * (revisado a mano en los BMD: lo que sigue a «I'm now in a relationship…» es romance;
  * lo que sigue a la respuesta de amistad, amistad).
  */
+/** El juego deja un hueco donde va el nombre del protagonista: se completa con «(tu nombre)». */
+const NAME = '(tu nombre)';
+const fillName = (t) =>
+  t
+    .replace(/^, /, `${NAME}, `)
+    .replace(/^¡, /, `¡${NAME}, `)
+    .replace(/^¿\? /, `¿${NAME}? `)
+    .replace(/, ([.!?])/g, `, ${NAME}$1`)
+    .replace(/, , /g, `, ${NAME}, `)
+    .replace(/\. , /g, `. ${NAME}, `);
+
 const ROUTES = {
   'E709_090|SEL_023_1_0': 'romance', 'E709_090|SEL_023_3_0': 'romance', 'E709_090|SEL_036_0_0': 'romance', // Futaba
   'E706_090|SEL_039_0_0': 'romance', // Ann
@@ -58,6 +71,7 @@ for (const id of ids) {
   const dontMatter = new Set([10]); // en el rango máximo las respuestas ya no suman
   const requirements = new Map(); // rango → [texto]
   const missions = new Map(); // rango → [{title, description, after}]
+  const extra = new Map(); // rango → conversaciones anotadas en partida (CONV)
   const noReward = new Set();
   for (const line of guide) {
     const f = line.split('|').map((x) => x.trim());
@@ -72,10 +86,18 @@ for (const id of ids) {
     const p = line.split('|').map((s) => s.trim());
     const rank = Number(p[0]);
     if (p[1] === 'DESBLOQUEO') { unlocks.set(rank, [...(unlocks.get(rank) ?? []), { name: p[2], description: p[3] }]); continue; }
+    if (p[1] === 'CONV') {
+      const options = p[3].split(';').map((x) => {
+        const [es, pts] = x.split('=').map((y) => y.trim());
+        return { es, en: '', points: Number(pts ?? 0) };
+      });
+      extra.set(rank, [...(extra.get(rank) ?? []), { prompt: p[2], options }]);
+      continue;
+    }
     if (p[1] === 'TEL') {
       const list = phones.get(rank) ?? [];
-      let call = list.find((c) => c.prompt === p[2]);
-      if (!call) { call = { prompt: p[2], promptEs: p[3], options: [] }; list.push(call); }
+      let call = list.find((c) => c.prompt === p[2] && c.promptEs === p[3]);
+      if (!call) { call = { prompt: p[2], promptEs: p[3], options: [], ...(p[7] === 'RUTA_ROMANCE' ? { route: 'romance' } : {}) }; list.push(call); }
       call.options.push({ en: p[4], es: p[5], points: Number(p[6] ?? 0), ...(p[7] === 'ROMANCE' ? { romance: true } : {}) });
       phones.set(rank, list);
       continue;
@@ -107,9 +129,9 @@ for (const id of ids) {
         ...(route ? { route } : {}),
         speaker: meta.name.split(' ')[0],
         // El juego no tiene frase antes de algunas preguntas («Cut label»): se deja vacía
-        prompt: c.prompt.en === 'Cut label' ? { es: '', en: '' } : c.prompt,
+        prompt: c.prompt.en === 'Cut label' ? { es: '', en: '' } : { es: fillName(c.prompt.es), en: c.prompt.en },
         options: c.options.map((o) => ({
-          es: o.es,
+          es: fillName(o.es),
           en: o.en,
           points: typeof pts.get(norm(o.en)) === 'number' ? pts.get(norm(o.en)) : 0,
           ...(pts.get(norm(o.en)) === '?' ? { recommended: true } : {}),
@@ -122,14 +144,15 @@ for (const id of ids) {
         kind: 'phone',
         royalOnly: true,
         romance: call.options.some((o) => o.romance),
-        provisional: true,
+        ...(call.route ? { route: call.route } : {}),
+        ...(call.prompt ? { provisional: true } : {}),
         speaker: meta.name.split(' ')[0],
-        prompt: { es: call.promptEs ?? call.prompt, en: call.prompt },
+        prompt: { es: call.promptEs || call.prompt, en: call.prompt },
         options: call.options,
       });
     }
     for (const [k] of pts) if (!used.has(`${r}|${k}`)) report.push(`rango ${r}: la opción de la guía «${k}» no aparece en el juego`);
-    const hasChoices = conversations.length > 0;
+    const hasChoices = conversations.length > 0 || (extra.get(r) ?? []).length > 0;
     // Misiones de Mementos: después de la última conversación del archivo indicado (o al final de las del rango)
     for (const m of missions.get(r) ?? []) {
       let at = conversations.filter((c) => c.kind === 'conversation').length;
@@ -139,6 +162,17 @@ for (const id of ids) {
         else at = last + 1;
       }
       conversations.splice(at, 0, { kind: 'mementos', title: m.title, description: m.description });
+    }
+    // Conversaciones anotadas en partida: al final (suelen ser la del rango ya subido)
+    for (const c of extra.get(r) ?? []) {
+      conversations.push({
+        kind: 'conversation',
+        royalOnly: false,
+        romance: false,
+        speaker: meta.name.split(' ')[0],
+        prompt: { es: c.prompt, en: '' },
+        options: c.options,
+      });
     }
     for (const c of conversations) delete c.file;
     const rank = { rank: r, conversations, unlocks: unlocks.get(r) ?? [] };

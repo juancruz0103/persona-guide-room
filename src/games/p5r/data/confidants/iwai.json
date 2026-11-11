@@ -15,7 +15,35 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Munehisa",
+     "prompt": {
+      "es": "Si quieres algo, tendrás que trabajar para conseguirlo.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Yo me encargo.",
+       "en": "",
+       "points": 2
+      },
+      {
+       "es": "Si es seguro...",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "¿En qué consiste mi primer trabajo?",
+       "en": "",
+       "points": 0
+      }
+     ]
+    }
+   ],
    "unlocks": [
     {
      "name": "Personalización básica",
@@ -24,8 +52,7 @@
    ],
    "requirements": [
     "Coraje 4. Disponible desde el 6 de mayo."
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,

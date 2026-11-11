@@ -22,7 +22,7 @@
      "description": "La alerta de los Palacios sube más despacio y baja un poco cada noche. Varios rangos dan además puntos extra de Encanto."
     }
    ],
-   "noData": true
+   "choicesDontMatter": true
   },
   {
    "rank": 2,

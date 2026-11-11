@@ -16,10 +16,37 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Toranosuke",
+     "prompt": {
+      "es": "Es sobre mi programa de discursos a partir de ahora, ¿quieres oírlo?",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Claro.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Qué remedio.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Permíteme que me lo apunte.",
+       "en": "",
+       "points": 3
+      }
+     ]
+    }
+   ],
    "unlocks": [],
-   "noReward": true,
-   "noData": true
+   "noReward": true
   },
   {
    "rank": 2,

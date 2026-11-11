@@ -20,7 +20,7 @@
      "description": "En combate, Futaba puede lanzar un -kaja o curar al grupo. También desbloquea Akihabara."
     }
    ],
-   "noData": true
+   "choicesDontMatter": true
   },
   {
    "rank": 2,

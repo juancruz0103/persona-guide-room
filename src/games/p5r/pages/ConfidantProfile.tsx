@@ -16,6 +16,7 @@ import {
 import { personaName, skillName } from '../services/gameText';
 import { getPersona } from '../services/personas';
 import type { Confidant, Conversation, FusionRequest, MementosMission, RankItem, TimelineRank } from '../types';
+import rankMaxImg from '../assets/ui/rango-max.webp';
 import styles from './ConfidantProfile.module.css';
 
 function MementosNote({ m }: { m: MementosMission }) {
@@ -67,7 +68,7 @@ function ConversationCard({
       {c.prompt.es ? (
         <p className={styles.prompt}>
           <strong>{c.speaker}:</strong> «{c.prompt.es}»
-          <small>Original: “{c.prompt.en}”</small>
+          {c.prompt.en && <small>Original: “{c.prompt.en}”</small>}
         </p>
       ) : (
         <p className={styles.prompt}>
@@ -102,7 +103,7 @@ function ConversationCard({
               <span className={styles.optNum}>Opción {i + 1}</span>
               <span className={styles.optText}>
                 <span>«{o.es}»</span>
-                <small>{o.en}</small>
+                {o.en && <small>{o.en}</small>}
               </span>
               <span className={styles.points}>{hasRecommended ? '' : o.points > 0 ? `+${o.points}` : '0'}</span>
               {o.romance && <span className={styles.romanceTag}>Inicia el romance</span>}
@@ -489,6 +490,16 @@ export default function ConfidantProfile() {
               </span>
             )}
           </div>
+
+          {sel === maxRank && (
+            <div className={styles.rankMax}>
+              <img src={rankMaxImg} alt="" width={1536} height={1024} loading="lazy" />
+              <span className={styles.rankMaxText}>
+                <span className={styles.rankMaxKicker}>Rango máximo</span>
+                <span>El vínculo con {data?.name.split(' ')[0]} está al máximo.</span>
+              </span>
+            </div>
+          )}
 
           {rank?.requirements && (
             <div className={styles.requirements}>

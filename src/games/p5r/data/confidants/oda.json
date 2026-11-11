@@ -15,7 +15,35 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Dame tu ID, anda, que yo no estoy aquí siempre.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Claro.",
+       "en": "",
+       "points": 1
+      },
+      {
+       "es": "¿Tenemos que hacerlo?",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Llámame cuando vayas a jugar.",
+       "en": "",
+       "points": 0
+      }
+     ]
+    }
+   ],
    "unlocks": [
     {
      "name": "Disparo de derribo",
@@ -24,8 +52,7 @@
    ],
    "requirements": [
     "Completar la misión de Mementos «Los ganadores no hacen trampas»: Un jugador de Gun About, el famoso videojuego, hace trampas para ganar las partidas online. Mishima te escribe sobre ella el 4 de septiembre."
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,
@@ -132,6 +159,33 @@
        "points": 3
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Al principio a nadie se le da bien, pero con la práctica se mejora.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Me esforzaré.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Si me apetece.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Así podré ganarte?",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -167,6 +221,33 @@
       {
        "es": "Sí que quieres a tu madre.",
        "en": "You really love your mom.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "Podríamos ir a comer, si te parece.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Claro.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "A ver si lo cuadramos.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Alguna petición culinaria?",
        "points": 0
       }
      ]
@@ -322,6 +403,33 @@
        "points": 3
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "¡Tengo que cambiar de estrategia antes de enfrentarme a él!",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Te estaré animando.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Eres un chico listo.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Podrás contra él?",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -379,6 +487,33 @@
       {
        "es": "Me preocupa tu actitud.",
        "en": "I'm worried about you.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "(Tu nombre)... ¿Estás seguro de que no acabarás odiándome?",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Claro que no.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Eso depende de ti.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Soy tu hermano mayor, ¿no?",
        "points": 0
       }
      ]
@@ -526,6 +661,33 @@
        "es": "Significa que has madurado.",
        "en": "It means you've matured.",
        "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Shinya",
+     "prompt": {
+      "es": "¡Me alegro de que haya vuelto a ser como antes! ¡Gracias, Ladrones Fantasma!",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Tu deseo se ha cumplido.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "¿De verdad crees que fueron ellos?",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Tú también lo has hecho genial.",
+       "points": 2
       }
      ]
     }

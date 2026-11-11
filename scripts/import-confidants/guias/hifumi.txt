@@ -45,3 +45,5 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipu
 8 | MEMENTOS | Freno a la madre manipuladora | Mitsuyo Togo es la controladora madre de una niña famosa, Hifumi... | E717_080
 2 | DESBLOQUEO | Conocimiento + | Puntos extra de Conocimiento.
 8 | DESBLOQUEO | Conocimiento + | Puntos extra de Conocimiento.
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | No hace falta si no quieres, claro. | Claro.=1 ; Supongo que sí.=0 ; Qué suerte tengo.=0

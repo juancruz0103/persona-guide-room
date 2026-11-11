@@ -16,7 +16,57 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Y no olvides solicitar mis servicios si necesitas ayuda con las tareas del hogar.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "No necesito ayuda.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "¿Por qué?",
+       "en": "",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Será un secretito entre Becky y su amo, ¿vale? ¿Lo guardarás?",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Sí, lo pillo.",
+       "en": "",
+       "points": 3
+      },
+      {
+       "es": "Lo haré si tú también lo haces.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Deja de hablar así, por favor.",
+       "en": "",
+       "points": 0
+      }
+     ]
+    }
+   ],
    "unlocks": [
     {
      "name": "Hacer el vago",
@@ -25,8 +75,7 @@
    ],
    "requirements": [
     "Coraje 3 para poder llamarla. Cada visita cuesta 5000 ¥."
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,

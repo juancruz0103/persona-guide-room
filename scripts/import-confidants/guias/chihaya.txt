@@ -43,3 +43,5 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 6 | SINRECOMPENSA
 8 | DESBLOQUEO | Lectura celestial | Activa la Alarma de fusión en la Sala de Terciopelo y ese día es más fácil que vuelva a sonar en combate.
 CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que completar la misión de Mementos del rango 1. En el rango 9 te devuelve el dinero.
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | No te escabullas porque entonces tendré que recurrir a la magia negra. | Allí estaré.=3 ; Qué rollo.=0 ; Te estás pasando.=0

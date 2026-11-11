@@ -60,3 +60,5 @@
 8 | SINRECOMPENSA
 7 | DESBLOQUEO | Tesoro doble | Futaba puede hacer reaparecer las Sombras con tesoro.
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Futaba vuelve a evolucionar, a Al Azif.
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | NOIMPORTA

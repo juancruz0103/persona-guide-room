@@ -58,3 +58,5 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 4 | DESBLOQUEO | Coraje + | Puntos extra de Coraje.
 6 | SINRECOMPENSA
 8 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Según los resultados de hoy, creo que puedo crear un fármaco nuevo. Pásate cuando estés listo. | Me parece bien.=1 ; No te pases conmigo.=0 ; Cuántas lucecitas.=0

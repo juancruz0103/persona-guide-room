@@ -15,10 +15,37 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Sojiro",
+     "prompt": {
+      "es": "Tú haz lo que puedas y no te metas en líos, ¿eh?",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Entendido.",
+       "en": "",
+       "points": 3
+      },
+      {
+       "es": "Ese era el trato.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Es lo mínimo que puedo hacer.",
+       "en": "",
+       "points": 0
+      }
+     ]
+    }
+   ],
    "unlocks": [],
-   "noReward": true,
-   "noData": true
+   "noReward": true
   },
   {
    "rank": 2,

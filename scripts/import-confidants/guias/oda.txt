@@ -40,3 +40,20 @@ CONSEJO | Shinya está en la sala de juegos de Shibuya: lunes, martes y jueves d
 4 | DESBLOQUEO | Gentileza + | Puntos extra de Gentileza.
 7 | DESBLOQUEO | Gentileza + | Puntos extra de Gentileza.
 9 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Dame tu ID, anda, que yo no estoy aquí siempre. | Claro.=1 ; ¿Tenemos que hacerlo?=0 ; Llámame cuando vayas a jugar.=0
+2 | TEL |  | Al principio a nadie se le da bien, pero con la práctica se mejora. | | Me esforzaré. | 2
+2 | TEL |  | Al principio a nadie se le da bien, pero con la práctica se mejora. | | Si me apetece. | 0
+2 | TEL |  | Al principio a nadie se le da bien, pero con la práctica se mejora. | | ¿Así podré ganarte? | 0
+3 | TEL |  | Podríamos ir a comer, si te parece. | | Claro. | 2
+3 | TEL |  | Podríamos ir a comer, si te parece. | | A ver si lo cuadramos. | 0
+3 | TEL |  | Podríamos ir a comer, si te parece. | | ¿Alguna petición culinaria? | 0
+5 | TEL |  | ¡Tengo que cambiar de estrategia antes de enfrentarme a él! | | Te estaré animando. | 0
+5 | TEL |  | ¡Tengo que cambiar de estrategia antes de enfrentarme a él! | | Eres un chico listo. | 0
+5 | TEL |  | ¡Tengo que cambiar de estrategia antes de enfrentarme a él! | | ¿Podrás contra él? | 0
+6 | TEL |  | (Tu nombre)... ¿Estás seguro de que no acabarás odiándome? | | Claro que no. | 2
+6 | TEL |  | (Tu nombre)... ¿Estás seguro de que no acabarás odiándome? | | Eso depende de ti. | 0
+6 | TEL |  | (Tu nombre)... ¿Estás seguro de que no acabarás odiándome? | | Soy tu hermano mayor, ¿no? | 0
+9 | TEL |  | ¡Me alegro de que haya vuelto a ser como antes! ¡Gracias, Ladrones Fantasma! | | Tu deseo se ha cumplido. | 2
+9 | TEL |  | ¡Me alegro de que haya vuelto a ser como antes! ¡Gracias, Ladrones Fantasma! | | ¿De verdad crees que fueron ellos? | 2
+9 | TEL |  | ¡Me alegro de que haya vuelto a ser como antes! ¡Gracias, Ladrones Fantasma! | | Tú también lo has hecho genial. | 2

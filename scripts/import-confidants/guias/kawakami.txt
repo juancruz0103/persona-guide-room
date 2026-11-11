@@ -58,3 +58,6 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 6 | SINRECOMPENSA
 8 | SINRECOMPENSA
 9 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Y no olvides solicitar mis servicios si necesitas ayuda con las tareas del hogar. | No necesito ayuda.=0 ; ¿Por qué?=0
+1 | CONV | Será un secretito entre Becky y su amo, ¿vale? ¿Lo guardarás? | Sí, lo pillo.=3 ; Lo haré si tú también lo haces.=0 ; Deja de hablar así, por favor.=0

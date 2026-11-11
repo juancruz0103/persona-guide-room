@@ -15,14 +15,41 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Según los resultados de hoy, creo que puedo crear un fármaco nuevo. Pásate cuando estés listo.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Me parece bien.",
+       "en": "",
+       "points": 1
+      },
+      {
+       "es": "No te pases conmigo.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Cuántas lucecitas.",
+       "en": "",
+       "points": 0
+      }
+     ]
+    }
+   ],
    "unlocks": [
     {
      "name": "Rejuvenecimiento",
      "description": "La clínica vende más objetos de curación. Varios rangos dan además puntos extra de Coraje."
     }
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,

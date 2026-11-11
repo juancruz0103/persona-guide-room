@@ -6,6 +6,7 @@ import { SKILL_CARD_PATH } from '../components/ItemIcon';
 import { SkillCardKindIcon } from '../components/SkillCardKindIcon';
 import { SkillTip } from '../components/SkillTip';
 import { PersonaPeek } from '../components/PersonaPeek';
+import { TraitList } from '../components/TraitList';
 import { ELEMENTS } from '../data/elements';
 import { NO_DAMAGE, filterSkillCardRows, getSkillCardRows, sortByPower, type SkillCardFilter, type SkillCardRow } from '../services/items';
 import { describeCost, skillMeta } from '../services/skillText';
@@ -111,6 +112,7 @@ function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
 }
 
 export default function SkillCards() {
+  const [view, setView] = useState<'cards' | 'traits'>('cards');
   const [query, setQuery] = useState('');
   const [type, setType] = useState<SkillCardFilter>('all');
   const [element, setElement] = useState<SkillElement | null>(null);
@@ -157,6 +159,19 @@ export default function SkillCards() {
       <CalculatorHeader />
 
       <section className={`container ${styles.page}`}>
+        <div className={styles.views} role="tablist" aria-label="Qué ver">
+          <button type="button" role="tab" aria-selected={view === 'cards'} className={styles.viewBtn} onClick={() => setView('cards')}>
+            Skill cards
+          </button>
+          <button type="button" role="tab" aria-selected={view === 'traits'} className={styles.viewBtn} onClick={() => setView('traits')}>
+            Rasgos
+          </button>
+        </div>
+
+        {view === 'traits' ? (
+          <TraitList />
+        ) : (
+          <>
         <p className={styles.intro}>
           Qué Persona tenés que ejecutar en la <strong>silla eléctrica</strong> para conseguir la skill card de cada
           habilidad, y cuáles son <strong>exclusivas</strong> (no existen como skill card).
@@ -303,6 +318,8 @@ export default function SkillCards() {
           Datos de la silla eléctrica: aqiu384/megaten-fusion-tool. Nombres y descripciones: textos oficiales del
           juego. Pasá el mouse por el nombre de una skill para verlo en inglés.
         </p>
+          </>
+        )}
       </section>
     </>
   );

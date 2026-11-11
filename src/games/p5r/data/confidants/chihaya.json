@@ -21,6 +21,33 @@
      "kind": "mementos",
      "title": "Acabar con el maltrato del novio",
      "description": "Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata..."
+    },
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "No te escabullas porque entonces tendré que recurrir a la magia negra.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Allí estaré.",
+       "en": "",
+       "points": 3
+      },
+      {
+       "es": "Qué rollo.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Te estás pasando.",
+       "en": "",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -31,8 +58,7 @@
    ],
    "requirements": [
     "Comprarle la Piedra Sagrada (100.000 ¥)."
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,

@@ -42,3 +42,5 @@ CONSEJO | Después del 13 de noviembre ya no está disponible.
 6 | SINRECOMPENSA
 7 | SINRECOMPENSA
 9 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Es sobre mi programa de discursos a partir de ahora, ¿quieres oírlo? | Claro.=0 ; Qué remedio.=0 ; Permíteme que me lo apunte.=3

@@ -13,7 +13,35 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Hoy me ha pasado de todo... y me lo he pasado hasta bien.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "A ver si vamos otra vez.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Eres una persona nueva.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "¿El barrio rojo a la próxima?",
+       "en": "",
+       "points": 3
+      }
+     ]
+    }
+   ],
    "unlocks": [
     {
      "name": "Análisis de sombras",
@@ -22,8 +50,7 @@
    ],
    "requirements": [
     "Conocimiento 3."
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,

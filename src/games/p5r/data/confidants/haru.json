@@ -13,14 +13,41 @@
  "ranks": [
   {
    "rank": 1,
-   "conversations": [],
+   "conversations": [
+    {
+     "kind": "conversation",
+     "royalOnly": false,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Tengo mogollón de semillas. Si tienes alguna preferencia, habla.",
+      "en": ""
+     },
+     "options": [
+      {
+       "es": "Perfecto.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Ese era nuestro trato.",
+       "en": "",
+       "points": 3
+      },
+      {
+       "es": "Gracias, cuento contigo.",
+       "en": "",
+       "points": 0
+      }
+     ]
+    }
+   ],
    "unlocks": [
     {
      "name": "Cultivo",
      "description": "Puedes cultivar verduras en la azotea de la escuela."
     }
-   ],
-   "noData": true
+   ]
   },
   {
    "rank": 2,
@@ -103,6 +130,33 @@
        "es": "Quizá deberías despedirlo.",
        "en": "Maybe you should fire him.",
        "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Prefiero plantar comida que le guste a todo el mundo.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Zanahoria lunar.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Tomate solar.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Melón joya.",
+       "points": 3
       }
      ]
     }
@@ -194,6 +248,33 @@
        "es": "He perdido la cuenta.",
        "en": "Too many times to count.",
        "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Me excusé diciendo que un amigo me había llamado. Por eso estoy aquí, lejos de él.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Buena respuesta.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Parece un engorro.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Qué amigo?",
+       "points": 0
       }
      ]
     }
@@ -342,6 +423,33 @@
        "points": 3
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Has sacado tiempo para verme y hemos terminado hablando de mis problemas.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "No me importa.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Era bastante intrigante.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Tomemos café otro día.",
+       "points": 2
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -432,6 +540,33 @@
        "es": "No lo creo.",
        "en": "I don't think so.",
        "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Cuando lo pensé, el miedo volvió a apoderarse de mí.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "¿Estás bien?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Estamos aquí para ayudarte.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Pellízcate.",
+       "points": 2
       }
      ]
     }
@@ -548,6 +683,33 @@
        "points": 3
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Tanta negatividad me hacía daño, no la soportaba... Por eso te llamé.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Llámame cuando quieras.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Que diga lo que quiera.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Nos fugamos?",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -611,6 +773,33 @@
        "es": "Deberías decirle eso.",
        "en": "You should tell him that.",
        "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Puedo seguir adelante gracias a tu apoyo.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "No bajes la guardia aún.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Yo siempre te cubriré las espaldas.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "¿Qué objeto mágico?",
+       "points": 0
       }
      ]
     }
@@ -705,6 +894,33 @@
        "points": 2
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Ya estoy analizando la tierra que me llevé a casa. Mis plantas de café están contentísimas.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "¿Las entiendes?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Lo tuyo es la naturaleza.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Dame algunas.",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -791,6 +1007,34 @@
        "en": "I like you too, Haru.",
        "points": 0,
        "romance": true
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "romance",
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Eh, bueno... ¿C-cómo estás?",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "¿Qué haces?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Quería oír tu voz.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Te echo de menos.",
+       "points": 2
       }
      ]
     }

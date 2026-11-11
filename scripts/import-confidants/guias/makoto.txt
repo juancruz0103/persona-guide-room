@@ -67,3 +67,5 @@
 5 | SINRECOMPENSA
 2 | SINRECOMPENSA
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Makoto vuelve a evolucionar, a Agnes.
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Hoy me ha pasado de todo... y me lo he pasado hasta bien. | A ver si vamos otra vez.=0 ; Eres una persona nueva.=0 ; ¿El barrio rojo a la próxima?=3

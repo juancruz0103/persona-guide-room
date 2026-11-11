@@ -67,3 +67,29 @@
 2 | REQUISITO | Destreza 5.
 2 | SINRECOMPENSA
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Haru vuelve a evolucionar, a Lucy.
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Tengo mogollón de semillas. Si tienes alguna preferencia, habla. | Perfecto.=0 ; Ese era nuestro trato.=3 ; Gracias, cuento contigo.=0
+2 | TEL |  | Prefiero plantar comida que le guste a todo el mundo. | | Zanahoria lunar. | 0
+2 | TEL |  | Prefiero plantar comida que le guste a todo el mundo. | | Tomate solar. | 0
+2 | TEL |  | Prefiero plantar comida que le guste a todo el mundo. | | Melón joya. | 3
+3 | TEL |  | Me excusé diciendo que un amigo me había llamado. Por eso estoy aquí, lejos de él. | | Buena respuesta. | 2
+3 | TEL |  | Me excusé diciendo que un amigo me había llamado. Por eso estoy aquí, lejos de él. | | Parece un engorro. | 0
+3 | TEL |  | Me excusé diciendo que un amigo me había llamado. Por eso estoy aquí, lejos de él. | | ¿Qué amigo? | 0
+4 | TEL |  | Has sacado tiempo para verme y hemos terminado hablando de mis problemas. | | No me importa. | 0
+4 | TEL |  | Has sacado tiempo para verme y hemos terminado hablando de mis problemas. | | Era bastante intrigante. | 0
+4 | TEL |  | Has sacado tiempo para verme y hemos terminado hablando de mis problemas. | | Tomemos café otro día. | 2
+5 | TEL |  | Cuando lo pensé, el miedo volvió a apoderarse de mí. | | ¿Estás bien? | 0
+5 | TEL |  | Cuando lo pensé, el miedo volvió a apoderarse de mí. | | Estamos aquí para ayudarte. | 0
+5 | TEL |  | Cuando lo pensé, el miedo volvió a apoderarse de mí. | | Pellízcate. | 2
+6 | TEL |  | Tanta negatividad me hacía daño, no la soportaba... Por eso te llamé. | | Llámame cuando quieras. | 2
+6 | TEL |  | Tanta negatividad me hacía daño, no la soportaba... Por eso te llamé. | | Que diga lo que quiera. | 0
+6 | TEL |  | Tanta negatividad me hacía daño, no la soportaba... Por eso te llamé. | | ¿Nos fugamos? | 0
+7 | TEL |  | Puedo seguir adelante gracias a tu apoyo. | | No bajes la guardia aún. | 0
+7 | TEL |  | Puedo seguir adelante gracias a tu apoyo. | | Yo siempre te cubriré las espaldas. | 2
+7 | TEL |  | Puedo seguir adelante gracias a tu apoyo. | | ¿Qué objeto mágico? | 0
+8 | TEL |  | Ya estoy analizando la tierra que me llevé a casa. Mis plantas de café están contentísimas. | | ¿Las entiendes? | 0
+8 | TEL |  | Ya estoy analizando la tierra que me llevé a casa. Mis plantas de café están contentísimas. | | Lo tuyo es la naturaleza. | 2
+8 | TEL |  | Ya estoy analizando la tierra que me llevé a casa. Mis plantas de café están contentísimas. | | Dame algunas. | 0
+9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | ¿Qué haces? | 0 | RUTA_ROMANCE
+9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | Quería oír tu voz. | 0 | RUTA_ROMANCE
+9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | Te echo de menos. | 2 | RUTA_ROMANCE

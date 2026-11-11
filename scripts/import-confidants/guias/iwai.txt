@@ -56,3 +56,5 @@ CONSEJO | En el rango 2 hay que llamarlo: elige «Quizá debería llamarlo.» o 
 8 | DESBLOQUEO | Destreza + | Puntos extra de Destreza.
 6 | SINRECOMPENSA
 9 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Si quieres algo, tendrás que trabajar para conseguirlo. | Yo me encargo.=2 ; Si es seguro...=0 ; ¿En qué consiste mi primer trabajo?=0

@@ -50,3 +50,5 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 9 | SINRECOMPENSA
 5 | DESBLOQUEO | Exclusiva sin precedentes | La alerta empieza más baja al infiltrarte.
 4 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | NOIMPORTA

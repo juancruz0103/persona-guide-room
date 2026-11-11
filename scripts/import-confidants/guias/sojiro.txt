@@ -51,3 +51,5 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «El tío rapiñador»: h
 1 | SINRECOMPENSA
 3 | SINRECOMPENSA
 8 | SINRECOMPENSA
+# Anotado en partida (rango 1 / llamadas), texto oficial en español
+1 | CONV | Tú haz lo que puedas y no te metas en líos, ¿eh? | Entendido.=3 ; Ese era el trato.=0 ; Es lo mínimo que puedo hacer.=0
