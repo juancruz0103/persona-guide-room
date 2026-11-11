@@ -30,7 +30,6 @@
   ],
   "_aire_arriba": {
     "fuu-ki-iz": 90,
-    "andras-iz": 80,
     "hariti-iz": 80,
     "izanagi-iz": 80,
     "izanagi-picaro-iz": 80,
@@ -47,7 +46,16 @@
     "izanagi-picaro-de": 90,
     "jikokuten-de": 90,
     "kurama-tengu-de": 60,
-    "kurama-tengu-iz": 60
+    "kurama-tengu-iz": 60,
+    "nebiros-iz": 80,
+    "nebiros-de": 80,
+    "okuninushi-iz": 80,
+    "okuninushi-de": 80,
+    "pisaca-iz": 80,
+    "siegfried-iz": 80,
+    "tam-lin-iz": 80,
+    "vohu-manah-iz": 80,
+    "vohu-manah-de": 80
   },
   "_pintar_franja_estricta": [
     "kurama-tengu-de",

@@ -25,7 +25,6 @@ export const personaImage = (id: string, view: 'profile' | 'side'): string | und
 const CARD_FOCUS: Record<string, string> = {
   'cu-chulainn': '50% 0%',
   'fuu-ki': '50% 0%',
-  'andras': '50% 0%',
   'hariti': '50% 0%',
   'izanagi': '50% 0%',
   'izanagi-picaro': '50% 0%',
@@ -39,5 +38,23 @@ const CARD_FOCUS: Record<string, string> = {
   'messiah': '50% 0%',
   'moloch': '50% 0%',
   'magatsu-izanagi': '35% 0%',
+  'nebiros': '50% 0%',
+  'okuninushi': '50% 0%',
+  'pisaca': '50% 0%',
+  'shiki-ouji': '50% 0%',
+  'siegfried': '50% 0%',
+  'tam-lin': '50% 0%',
+  'vohu-manah': '50% 0%',
 };
 export const personaCardFocus = (id: string): string => CARD_FOCUS[id] ?? '50% 30%';
+
+/** Encuadre de la foto en la ficha de la Persona: por defecto 50% 30%. */
+const PROFILE_FOCUS: Record<string, string> = {
+  nebiros: '50% 0%',
+  okuninushi: '50% 0%',
+  'shiki-ouji': '50% 0%',
+  'vohu-manah': '50% 0%',
+  seth: '100% 0%',
+  unicorn: '100% 30%',
+};
+export const personaProfileFocus = (id: string): string => PROFILE_FOCUS[id] ?? '50% 30%';

@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { getFusionEngine } from '../services/fusion';
 import { BackButton } from '../../../shared/components/BackButton';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
-import { personaImage } from '../services/images';
+import { personaImage, personaProfileFocus } from '../services/images';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { AffinityGrid } from '../components/AffinityGrid';
 import { ElectricChair } from '../components/ElectricChair';
@@ -144,7 +144,7 @@ export default function PersonaProfile() {
           <ImagePlaceholder
             className={styles.image}
             src={personaImage(p.id, 'profile')}
-            focus="50% 30%"
+            focus={personaProfileFocus(p.id)}
             label={personaImage(p.id, 'profile') ? personaName(p) : 'Acá va la imagen de la Persona'}
             hint="Formato sugerido: PNG transparente · 600 × 800"
             corner={arcana.numeral}
