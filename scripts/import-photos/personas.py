@@ -123,6 +123,7 @@ def main(src, game_text, personas_json, party_json, out):
     manual = json.load(open(os.path.join(here, 'recortes.json')))
     # fotos donde la franja del menú tapa la cabeza: se pinta en vez de recortarla
     paint = set(manual.get('_pintar_franja', []))
+    with_band = set(manual.get('_con_franja', []))  # la cara quedó sobre la franja: se deja tal cual
     paint_strict = set(manual.get('_pintar_franja_estricta', []))  # figura gris clara delante de la franja
     sys.path.insert(0, here)
     # las que se procesan con tercer_semestre.py (otro fondo) no se tocan acá
@@ -143,7 +144,13 @@ def main(src, game_text, personas_json, party_json, out):
             strict = f'{pid}-{side}' in paint_strict
             painted = f'{pid}-{side}' in paint or strict
             if painted: raw = paint_band(raw, strict)
-            im = raw.crop(tuple(box)) if box else trim(raw, keep_top=painted)
+            if f'{pid}-{side}' in with_band and not box:
+                # la cara está sobre la franja blanca: se deja la franja (se corta solo el negro de arriba)
+                w0, h0 = raw.size
+                top = next((y for y in range(min(150, h0)) if bright_ratio(raw, (0, y, w0, y + 1)) > 0.15), 0)
+                im = trim(raw.crop((0, top, w0, h0)), keep_top=True)
+            else:
+                im = raw.crop(tuple(box)) if box else trim(raw, keep_top=painted)
             extra = manual.get('_aire_arriba', {}).get(f'{pid}-{side}')
             if extra:  # la figura toca el borde de arriba: se agrega fondo para que respire
                 im = add_headroom(im, extra)
