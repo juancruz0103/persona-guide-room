@@ -24,6 +24,7 @@ export const personaImage = (id: string, view: 'profile' | 'side'): string | und
 /** Encuadre en las tarjetas del catálogo: por defecto 50% 30%; algunas fotos necesitan mostrar más arriba. */
 const CARD_FOCUS: Record<string, string> = {
   'cu-chulainn': '50% 0%',
+  andras: '50% 0%',
   'fuu-ki': '50% 0%',
   'hariti': '50% 0%',
   'izanagi': '50% 0%',
