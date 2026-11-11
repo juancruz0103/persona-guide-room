@@ -32,6 +32,7 @@ const personaLink = (p: Persona) => `/p5r/calculadora/persona/${p.id}`;
 
 function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
   const { skill, cards, learners, exclusive } = row;
+  const [showAll, setShowAll] = useState(false);
   const cost = describeCost(skill);
   const meta = skillMeta(skill);
 
@@ -87,13 +88,18 @@ function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
         <span className={styles.mobileLabel}>La aprenden</span>
         {learners.length ? (
           <>
-            {learners.slice(0, MAX_LEARNERS).map((p) => (
+            {(showAll ? learners : learners.slice(0, MAX_LEARNERS)).map((p) => (
               <PersonaPeek key={p.id} persona={p} />
             ))}
             {learners.length > MAX_LEARNERS && (
-              <span className={styles.more} title={learners.slice(MAX_LEARNERS).map(personaName).join(', ')}>
-                +{learners.length - MAX_LEARNERS} más
-              </span>
+              <button
+                type="button"
+                className={styles.more}
+                aria-expanded={showAll}
+                onClick={() => setShowAll((v) => !v)}
+              >
+                {showAll ? 'Ver menos' : `+${learners.length - MAX_LEARNERS} más`}
+              </button>
             )}
           </>
         ) : (
