@@ -2637,6 +2637,16 @@
   "Undying Fury": {
    "es": "Furia imperecedera",
    "en": "Undying Fury"
+  },
+  "Mementos Scan": {
+   "es": "Análisis de Mementos",
+   "en": "Mementos Scan",
+   "descEs": "Al entrar en un piso de Mementos, puede revelar el mapa completo."
+  },
+  "Treasure Reboot": {
+   "es": "Tesoro doble",
+   "en": "Treasure Reboot",
+   "descEs": "Puede hacer reaparecer las Sombras con tesoro."
   }
  },
  "personas": {

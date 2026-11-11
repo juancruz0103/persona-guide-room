@@ -187,6 +187,13 @@ for (const [id, v] of Object.entries(refSkills)) {
     ...(desc && !bad(ES.help.skill[idx]) ? { descEs: ES.help.skill[idx], descEn: EN.help.skill[idx] } : {}),
   };
 }
+
+/* ---------- Habilidades de navegación que no están en las tablas: nombre anotado en partida ---------- */
+const MANUAL_SKILLS = {
+  'Mementos Scan': { es: 'Análisis de Mementos', en: 'Mementos Scan', descEs: 'Al entrar en un piso de Mementos, puede revelar el mapa completo.' },
+  'Treasure Reboot': { es: 'Tesoro doble', en: 'Treasure Reboot', descEs: 'Puede hacer reaparecer las Sombras con tesoro.' },
+};
+for (const [k, v] of Object.entries(MANUAL_SKILLS)) if (!skills[k]) skills[k] = v;
 for (const n of Object.keys(ourSkills)) if (!skills[n]) review.push(`Skill sin nombre oficial: ${n}`);
 
 /* ---------- Rasgos (traits) que no están en skills.json: por nombre en inglés ---------- */
