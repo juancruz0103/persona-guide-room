@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { BackButton } from '../../../shared/components/BackButton';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
-import { confidantImage } from '../services/images';
+import { confidantAltImage, confidantImage } from '../services/images';
 import { getArcana } from '../data/arcana';
 import { PersonaPeek } from '../components/PersonaPeek';
 import {
@@ -257,6 +257,7 @@ function saveProgress(id: string, p: Progress) {
 export default function ConfidantProfile() {
   const { confidantId = '' } = useParams();
   const [data, setData] = useState<Confidant | null | undefined>(undefined);
+  const [showAlt, setShowAlt] = useState(false);
   const [sel, setSel] = useState(2);
   const [tracking, setTracking] = useState(false);
   const [reached, setReached] = useState(0);
@@ -287,6 +288,7 @@ export default function ConfidantProfile() {
   }
   if (data === undefined) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
 
+  const alt = confidantAltImage(summary.id);
   const arcana = getArcana(summary.arcana);
   const kind = summary.kind;
   const maxRank = data?.maxRank ?? 10;
@@ -334,12 +336,26 @@ export default function ConfidantProfile() {
       <section className={styles.hero}>
         <div className={styles.heroSlab} aria-hidden="true" />
         <div className={`container ${styles.heroInner}`}>
-          <ImagePlaceholder
-            className={styles.portrait}
-            label={confidantImage(summary.id) ? summary.name : 'Retrato del confidente'}
-            icon="person"
-            src={confidantImage(summary.id)}
-          />
+          <div className={styles.portraitWrap}>
+            <ImagePlaceholder
+              className={styles.portrait}
+              label={confidantImage(summary.id) ? summary.name : 'Retrato del confidente'}
+              icon="person"
+              src={showAlt && alt ? alt.src : confidantImage(summary.id)}
+            />
+            {alt && (
+              <button
+                type="button"
+                className={styles.altBtn}
+                aria-pressed={showAlt}
+                onClick={() => setShowAlt((v) => !v)}
+                title={showAlt ? 'Volver a la foto sin spoiler' : `Ver ${alt.label} (spoiler)`}
+              >
+                <span aria-hidden="true">⇄</span>
+                {showAlt ? 'Sin spoiler' : 'Spoiler'}
+              </button>
+            )}
+          </div>
           <div className={styles.heroText}>
             <span className={styles.arcanaTag}>{arcana.name} · Arcana {arcana.numeral}</span>
             <h1 className={styles.name}>{summary.name}</h1>

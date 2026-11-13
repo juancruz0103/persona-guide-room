@@ -21,6 +21,41 @@
   gap: 40px;
   padding-block: 44px;
 }
+.portraitWrap {
+  position: relative;
+  flex: 0 0 240px;
+  display: flex;
+}
+.portraitWrap .portrait {
+  flex: 1 1 auto;
+}
+.altBtn {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 10px;
+  background: var(--c-ink);
+  color: var(--c-paper);
+  border: 2px solid var(--c-paper);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.altBtn[aria-pressed='true'] {
+  background: var(--c-primary);
+}
+.altBtn:hover,
+.altBtn:focus-visible {
+  border-color: var(--c-accent);
+}
 .portrait {
   flex: 0 0 240px;
   height: 300px;
@@ -510,6 +545,9 @@
 @media (max-width: 640px) {
   .heroSlab {
     display: none;
+  }
+  .portraitWrap {
+    flex-basis: 100%;
   }
   .portrait {
     flex-basis: 100%;

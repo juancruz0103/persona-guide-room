@@ -14,6 +14,15 @@ const PERSONAS = byName(personaFiles);
 /** Silueta del confidente (pantalla de habilidades del juego). */
 export const confidantImage = (id: string): string | undefined => CONFIDANTS[id];
 
+/** Foto alternativa con spoiler (se muestra solo si el usuario la pide con el botón de la esquina). */
+const CONFIDANT_ALT: Record<string, { file: string; label: string }> = {
+  'caroline-justine': { file: 'caroline-justine-lavenza', label: 'su forma verdadera' },
+};
+export const confidantAltImage = (id: string): { src: string; label: string } | undefined => {
+  const alt = CONFIDANT_ALT[id];
+  return alt && CONFIDANTS[alt.file] ? { src: CONFIDANTS[alt.file], label: alt.label } : undefined;
+};
+
 /**
  * Foto de una Persona. «profile» = mirando a la derecha (ficha);
  * «side» = mirando a la izquierda (calculadora y tarjetas).
