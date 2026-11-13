@@ -503,6 +503,33 @@
        "points": 2
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Ryuji",
+     "prompt": {
+      "es": "Además, dudo que esos tíos me escuchen.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Las cosas hay que intentarlas.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "No está en nuestras manos.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "No descarto usar la fuerza.",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [

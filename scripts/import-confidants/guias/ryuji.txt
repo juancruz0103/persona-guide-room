@@ -67,3 +67,6 @@ CONSEJO | Lleva una Persona del Arcana Carro para ganar puntos extra.
 9 | TEL |  | Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado. | | Enhorabuena. | 2
 9 | TEL |  | Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado. | | ¿Cómo lo tienen controlado? | 0
 9 | TEL |  | Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado. | | Mucho ojo con ellos. | 2
+7 | TEL |  | Además, dudo que esos tíos me escuchen. | | Las cosas hay que intentarlas. | 2
+7 | TEL |  | Además, dudo que esos tíos me escuchen. | | No está en nuestras manos. | 0
+7 | TEL |  | Además, dudo que esos tíos me escuchen. | | No descarto usar la fuerza. | 0
