@@ -585,17 +585,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ryuji",
      "prompt": {
-      "es": "Verlos hablar de corazón... Tienen un buen equipo.",
-      "en": "Seein' them havin' a real heart-to-heart talk... They got a good team."
+      "es": "Qué bien que hablen con sinceridad. Son un equipazo.",
+      "en": ""
      },
      "options": [
       {
-       "en": "So. Case closed?",
+       "en": "",
+       "es": "Lo has hecho genial.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Entonces, ¿caso cerrado?",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Somos un gran equipo.",
+       "points": 0
       }
      ]
     }
@@ -712,21 +721,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ryuji",
      "prompt": {
-      "es": "Parece que lo tienen bajo control.",
-      "en": "Sounds like they got him under control."
+      "es": "Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Congratulations.",
-       "es": "Felicidades.",
+       "en": "",
+       "es": "Enhorabuena.",
        "points": 2
       },
       {
-       "en": "Better watch out for them.",
-       "es": "Más vale que tengas cuidado con ellos.",
+       "en": "",
+       "es": "¿Cómo lo tienen controlado?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Mucho ojo con ellos.",
        "points": 2
       }
      ]

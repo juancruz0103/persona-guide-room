@@ -22,3 +22,13 @@ fotos confidentes/Goro Akechi/Loki-de.png | loki-de | - |
 fotos confidentes/Goro Akechi/Loki-iz.png | loki-iz | - | 612,0,671,50 572,25,671,90
 fotos confidentes/Kasumi/Vanadis-de.png | vanadis-de | - |
 fotos confidentes/Kasumi/Vanadis-iz.png | vanadis-iz | - |
+fotos confidentes/Ann/Carmen-de.png | carmen-de | - |
+fotos confidentes/Ann/Carmen-iz.png | carmen-iz | - |
+fotos confidentes/Morgana/Zorro-de.png | zorro-de | - |
+fotos confidentes/Morgana/Zorro-iz.png | zorro-iz | - |
+fotos confidentes/Ryuji/Capitán Kidd-de.png | captain-kidd-de | - |
+fotos confidentes/Ryuji/Capitán Kidd-iz.png | captain-kidd-iz | - |
+fotos confidentes/Ryuji/Seiten Taisei-de.png | seiten-taisei-de | - |
+fotos confidentes/Ryuji/Seiten Taisei-iz.png | seiten-taisei-iz | - |
+fotos confidentes/Yosuke/Goemon-de.png | goemon-de | - |
+fotos confidentes/Yosuke/Goemon-iz.png | goemon-iz | - |

@@ -45,7 +45,6 @@ CONSEJO | Lleva una Persona del Arcana Carro para ganar puntos extra.
 8 | Are you gonna pay me back? | 2
 8 | You weren't cool though. | 3
 8 | But I was just standing here... | 2
-8 | TEL | Seein' them havin' a real heart-to-heart talk... They got a good team. | Verlos hablar de corazón... Tienen un buen equipo. | So. Case closed? | Entonces, ¿caso cerrado? | 2
 8 | DESBLOQUEO | Último aliento | Puede aguantar un golpe que lo derrotaría.
 9 | Are you satisfied now? | 3
 9 | Not running? | 2
@@ -55,11 +54,16 @@ CONSEJO | Lleva una Persona del Arcana Carro para ganar puntos extra.
 9 | You're right. | 3
 9 | I never realized that. | 3
 9 | I agree. | 2
-9 | TEL | Sounds like they got him under control. | Parece que lo tienen bajo control. | Congratulations. | Felicidades. | 2
-9 | TEL | Sounds like they got him under control. | Parece que lo tienen bajo control. | Better watch out for them. | Más vale que tengas cuidado con ellos. | 2
 9 | DESBLOQUEO | Protección | Ryuji puede proteger a Joker de un ataque que lo derrotaría.
 10 | DESBLOQUEO | Segundo despertar | Su Persona evoluciona a Seiten Taisei. Además se desbloquea la fusión de Chi You.
 1 | SINRECOMPENSA
 5 | SINRECOMPENSA
 4 | DESBLOQUEO | Esprint sigiloso | En los Palacios, Joker se mueve más rápido sin que lo detecten.
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Ryuji vuelve a evolucionar, a William.
+# Llamadas de los rangos 8 y 9: texto oficial anotado en partida (capturas de Juan)
+8 | TEL |  | Qué bien que hablen con sinceridad. Son un equipazo. | | Lo has hecho genial. | 0
+8 | TEL |  | Qué bien que hablen con sinceridad. Son un equipazo. | | Entonces, ¿caso cerrado? | 2
+8 | TEL |  | Qué bien que hablen con sinceridad. Son un equipazo. | | Somos un gran equipo. | 0
+9 | TEL |  | Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado. | | Enhorabuena. | 2
+9 | TEL |  | Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado. | | ¿Cómo lo tienen controlado? | 0
+9 | TEL |  | Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado. | | Mucho ojo con ellos. | 2
