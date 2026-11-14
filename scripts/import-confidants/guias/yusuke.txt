@@ -17,25 +17,20 @@
 4 | I should bring a girl here. | 2
 4 | Love comes in all forms. | 3
 4 | Maybe you should train more. | 2
-4 | TEL | Even if I ever do understand it, will I truly be able to draw it...? | Aunque llegue a entenderlo, ¿de verdad seré capaz de dibujarlo...? | Don't get discouraged. | No te desanimes. | 2
 4 | DESBLOQUEO | Mediación artística | Yusuke puede salvar una negociación con una Sombra que salió mal. También desbloquea el parque Inokashira.
 5 | Do you want me to strip? | 3
 5 | I dunno if I can do it... | 2
 5 | I'm sure you will. | 3
 5 | It doesn't look like it. | 3
 5 | Do you want to give up? | 2
-5 | TEL | The further I seem to be from understanding the abyss of the heart. | Más lejos parezco estar de entender el abismo del corazón. | There's still hope. | Aún hay esperanza. | 2
 5 | DESBLOQUEO | Creación de cartas | Yusuke copia skill cards de nivel medio. También desbloquea la iglesia de Kanda.
 6 | It feels nostalgic. | 2
 6 | Maybe he was sympathetic. | 3
 6 | I couldn't possibly tell you. | 3
 6 | He somehow knew you had skill. | 2
-6 | TEL | What's your impression of him? | ¿Qué impresión te dio? | He had a certain dignity. | Tenía cierta dignidad. | 2
 6 | DESBLOQUEO | Golpe de abanico | Yusuke puede curar estados alterados de los compañeros en combate.
 7 | What do you mean? | 2
 7 | The truth is within you. | 3
-7 | TEL | I'm a petty sellout, a slave to the power of money! | ¡Soy un vendido de poca monta, esclavo del poder del dinero! | Calm down. | Tranquilízate. | 2
-7 | TEL | I'm a petty sellout, a slave to the power of money! | ¡Soy un vendido de poca monta, esclavo del poder del dinero! | It's not a crime to enjoy sushi. | Disfrutar del sushi no es un crimen. | 2
 7 | DESBLOQUEO | Pintura en vivo | Yusuke copia skill cards de nivel alto.
 8 | It has to be Ann. | 2
 8 | You've really grown, Yusuke. | 3
@@ -58,3 +53,15 @@
 3 | TEL |  | Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras! | | Así me gusta. | 2
 3 | TEL |  | Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras! | | Te estás pasando. | 0
 3 | TEL |  | Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras! | | ¿Eso es todo? | 0
+4 | TEL |  | ¿Cuándo entenderé del todo el corazón? Y aunque lo logre, ¿seré capaz de dibujarlo? | | No te desanimes. | 2
+4 | TEL |  | ¿Cuándo entenderé del todo el corazón? Y aunque lo logre, ¿seré capaz de dibujarlo? | | Sigue dibujando. | 0
+4 | TEL |  | ¿Cuándo entenderé del todo el corazón? Y aunque lo logre, ¿seré capaz de dibujarlo? | | Te falta autoestima. | 0
+5 | TEL |  | Cuanto más pienso en ello, menos me parece que entiendo el abismo del corazón. | | No le des tantas vueltas. | 0
+5 | TEL |  | Cuanto más pienso en ello, menos me parece que entiendo el abismo del corazón. | | Tienes que seguir dibujando. | 0
+5 | TEL |  | Cuanto más pienso en ello, menos me parece que entiendo el abismo del corazón. | | Aún hay esperanza. | 2
+6 | TEL |  | Por cierto, ese caballero... Kawanabe, ¿verdad? ¿Qué te ha parecido? | | Tenía cierta dignidad. | 2
+6 | TEL |  | Por cierto, ese caballero... Kawanabe, ¿verdad? ¿Qué te ha parecido? | | Parecía de fiar. | 0
+6 | TEL |  | Por cierto, ese caballero... Kawanabe, ¿verdad? ¿Qué te ha parecido? | | No lo tengo claro. | 0
+7 | TEL |  | ¡No tengo voluntad! Me vendo a cualquiera, ¡me rindo ante el poder del dinero! | | Para el carro. | 2
+7 | TEL |  | ¡No tengo voluntad! Me vendo a cualquiera, ¡me rindo ante el poder del dinero! | | Disfrutar del sushi no es delito. | 2
+7 | TEL |  | ¡No tengo voluntad! Me vendo a cualquiera, ¡me rindo ante el poder del dinero! | | Volvamos otro día. | 0

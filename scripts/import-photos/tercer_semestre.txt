@@ -36,3 +36,5 @@ fotos confidentes/Ann/Hécate-de.png | hecate-de | - |
 fotos confidentes/Ann/Hécate-iz.png | hecate-iz | - | 520,0,610,45 540,40,660,100
 fotos confidentes/Makoto/Johana-de.png | johanna-de | - |
 fotos confidentes/Makoto/Johana-iz.png | johanna-iz | - |
+fotos confidentes/Yosuke/Kamu Susano-o-de.png | kamu-susano-o-de | - |
+fotos confidentes/Yosuke/Kamu Susano-o-iz.png | kamu-susano-o-iz | - |

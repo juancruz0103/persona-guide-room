@@ -312,17 +312,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "Aunque llegue a entenderlo, ¿de verdad seré capaz de dibujarlo...?",
-      "en": "Even if I ever do understand it, will I truly be able to draw it...?"
+      "es": "¿Cuándo entenderé del todo el corazón? Y aunque lo logre, ¿seré capaz de dibujarlo?",
+      "en": ""
      },
      "options": [
       {
-       "en": "Don't get discouraged.",
+       "en": "",
        "es": "No te desanimes.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Sigue dibujando.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Te falta autoestima.",
+       "points": 0
       }
      ]
     }
@@ -395,15 +404,24 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "Más lejos parezco estar de entender el abismo del corazón.",
-      "en": "The further I seem to be from understanding the abyss of the heart."
+      "es": "Cuanto más pienso en ello, menos me parece que entiendo el abismo del corazón.",
+      "en": ""
      },
      "options": [
       {
-       "en": "There's still hope.",
+       "en": "",
+       "es": "No le des tantas vueltas.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Tienes que seguir dibujando.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Aún hay esperanza.",
        "points": 2
       }
@@ -478,17 +496,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "¿Qué impresión te dio?",
-      "en": "What's your impression of him?"
+      "es": "Por cierto, ese caballero... Kawanabe, ¿verdad? ¿Qué te ha parecido?",
+      "en": ""
      },
      "options": [
       {
-       "en": "He had a certain dignity.",
+       "en": "",
        "es": "Tenía cierta dignidad.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Parecía de fiar.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "No lo tengo claro.",
+       "points": 0
       }
      ]
     }
@@ -559,22 +586,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "¡Soy un vendido de poca monta, esclavo del poder del dinero!",
-      "en": "I'm a petty sellout, a slave to the power of money!"
+      "es": "¡No tengo voluntad! Me vendo a cualquiera, ¡me rindo ante el poder del dinero!",
+      "en": ""
      },
      "options": [
       {
-       "en": "Calm down.",
-       "es": "Tranquilízate.",
+       "en": "",
+       "es": "Para el carro.",
        "points": 2
       },
       {
-       "en": "It's not a crime to enjoy sushi.",
-       "es": "Disfrutar del sushi no es un crimen.",
+       "en": "",
+       "es": "Disfrutar del sushi no es delito.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Volvamos otro día.",
+       "points": 0
       }
      ]
     }
