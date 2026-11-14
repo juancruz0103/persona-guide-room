@@ -68,6 +68,6 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | Haré lo que sea por ti. | 0
 10 | NOTA | Si en el rango 9 elegiste las respuestas de romance, en este rango empezáis la relación romántica.
 # Llamadas verificadas en partida (capturas de Juan): texto oficial
-9 | TEL |  | Con el paso del tiempo, todo eso se disipó. Reavivar esa pasión parece fácil, pero cuesta mucho. | | Estoy de acuerdo. | 0 | RUTA_AMISTAD
+9 | TEL |  | Con el paso del tiempo, todo eso se disipó. Reavivar esa pasión parece fácil, pero cuesta mucho. | | Estoy de acuerdo. | 2 | RUTA_AMISTAD
 9 | TEL |  | Con el paso del tiempo, todo eso se disipó. Reavivar esa pasión parece fácil, pero cuesta mucho. | | ¡Tú puedes! | 0 | RUTA_AMISTAD
 9 | TEL |  | Con el paso del tiempo, todo eso se disipó. Reavivar esa pasión parece fácil, pero cuesta mucho. | | Eras una buena sirvienta. | 0 | RUTA_AMISTAD

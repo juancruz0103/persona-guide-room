@@ -20,24 +20,24 @@
      "romance": false,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "Van Gogh no alcanzó la fama en vida, pero tuvo un gran apoyo de su hermano y admirador.",
-      "en": "Van Gogh did not achieve fame in his lifetime, but found an admirer and supporter in his brother."
+      "es": "He de cumplir con mi parte del trato para dar lo mejor de mí. Solo tienes que pedírmelo.",
+      "en": ""
      },
      "options": [
       {
-       "es": "¿Un admirador?",
-       "en": "An admirer?",
-       "points": 0
-      },
-      {
-       "es": "¿Un apoyo?",
-       "en": "A supporter?",
-       "points": 0
-      },
-      {
        "es": "Gracias.",
-       "en": "Thanks.",
+       "en": "",
        "points": 2
+      },
+      {
+       "es": "Intentaré no hacerlo.",
+       "en": "",
+       "points": 0
+      },
+      {
+       "es": "Te haré muchas preguntas.",
+       "en": "",
+       "points": 0
       }
      ]
     }
