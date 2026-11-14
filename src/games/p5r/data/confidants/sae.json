@@ -57,13 +57,16 @@
   }
  ],
  "spoiler": {
-  "title": "Interrogatorio (20/11): las respuestas que no te hacen perder",
+  "title": "Cómo conseguir el final bueno: interrogatorio (20/11) y después",
   "items": [
-   "Cuando pregunta por tus cómplices: «No.» o «Nunca he oído hablar de ellos.»",
-   "Si insiste: «No existe tal gente.»",
-   "No hagas el trato con Sae: vender a tus amigos lleva a un final malo.",
-   "La pregunta sobre Akechi: cualquier respuesta sirve."
+   "Antes del 17/11: subí a Maruki al rango 9 (sin eso no hay final verdadero) y a Akechi al rango 8 (para ver todas sus escenas).",
+   "Cuando Sae pregunta si son tus cómplices: «No.» o «No me suenan de nada.»",
+   "Si respondiste «Así es.» y te pide que le cuentes de ellos: «No, nadie hizo eso.». Nunca «Te lo contaré todo.»: vender a tus amigos lleva a un final malo.",
+   "La pregunta sobre si Akechi es de tu equipo: cualquier respuesta sirve.",
+   "El resto de la charla (el acuerdo, la justicia, el verdadero culpable, si te rindes): cualquier respuesta sirve. Lo único que importa es no delatar a nadie.",
+   "La parte del móvil (a quién mostrárselo): cualquier opción hace avanzar el plan, Sae acaba entendiendo.",
+   "Después del interrogatorio: rechazá todas las ofertas que te hagan más adelante (la primera llega el 24/12). Aceptar cualquiera lleva a un final malo."
   ],
-  "note": "Frases comprobadas en el juego."
+  "note": "Opciones comprobadas en el juego."
  }
 }
