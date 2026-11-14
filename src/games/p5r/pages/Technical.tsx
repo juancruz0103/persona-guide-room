@@ -93,8 +93,10 @@ export default function Technical() {
               hacen Técnico después de leer el libro <strong>Entender el corazón</strong>.
             </span>
             <span className={styles.bookHow}>
-              <strong>Cómo conseguirlo:</strong> se compra en la librería de Jinbocho (¥12.000, un solo capítulo).
-              Para que lo vendan, primero hay que leer los otros cinco libros de esa librería y volver una vez más.
+              <strong>Cómo conseguirlo:</strong> se compra por ¥12.000 en la <strong>Librería Nagiuri</strong> de
+              Jinbocho. Antes hay que comprar y terminar de leer los otros cinco libros de esa librería (¥8.000 cada uno:
+              Maestro espadachín, Llámame Jefe, Casanova osado, Revelaciones heroicas e Introducción al karakuri); al
+              leerlos todos se desbloquea.
             </span>
           </span>
         </div>
