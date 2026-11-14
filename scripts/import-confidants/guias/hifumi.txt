@@ -57,7 +57,7 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipu
 6 | TEL |  | No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar. | | ¿Eso crees? | 0
 6 | TEL |  | No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar. | | Te lo estás imaginando. | 2
 6 | TEL |  | No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar. | | Confiesa tus pecados, hija mía. | 0
-8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Lo apoyo. | 0
+8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Lo apoyo. | 2
 8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Piénsatelo bien. | 0
 8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Es admirable. | 0
 9 | TEL |  | Por eso lo digo convencida. La derrota de hoy no ha sido un paso atrás, sino un salto adelante. | | Es una buena forma de verlo. | 3 | RUTA_AMISTAD
