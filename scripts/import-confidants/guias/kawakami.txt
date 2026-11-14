@@ -50,7 +50,7 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 9 | I'm a man; you're a woman. | 0 | ROMANCE
 10 | DESBLOQUEO | Masaje especial | Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha.
 1 | REQUISITO | Coraje 3 para poder llamarla. Cada visita cuesta 5000 ¥.
-9 | MEMENTOS | Una profesora que sirve para sufrir | Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte. | E714_090
+8 | MEMENTOS | Una profesora que sirve para sufrir | Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte. Después de clase te llama para pedirte ayuda. | E714_080
 2 | SINRECOMPENSA
 4 | SINRECOMPENSA
 6 | SINRECOMPENSA

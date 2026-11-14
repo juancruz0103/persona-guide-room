@@ -653,6 +653,11 @@
      ]
     },
     {
+     "kind": "mementos",
+     "title": "Una profesora que sirve para sufrir",
+     "description": "Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte. Después de clase te llama para pedirte ayuda."
+    },
+    {
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
@@ -803,11 +808,6 @@
        "romance": true
       }
      ]
-    },
-    {
-     "kind": "mementos",
-     "title": "Una profesora que sirve para sufrir",
-     "description": "Kawakami está siendo extorsionada por los tutores de su antiguo alumno, que la culpan de su muerte."
     }
    ],
    "unlocks": [],
