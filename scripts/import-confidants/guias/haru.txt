@@ -92,4 +92,7 @@
 8 | TEL |  | Ya estoy analizando la tierra que me llevé a casa. Mis plantas de café están contentísimas. | | Dame algunas. | 0
 9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | ¿Qué haces? | 0 | RUTA_ROMANCE
 9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | Quería oír tu voz. | 0 | RUTA_ROMANCE
-9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | Te echo de menos. | 2 | RUTA_ROMANCE
+9 | TEL |  | Eh, bueno... ¿C-cómo estás? | | Te echo de menos. | 3 | RUTA_ROMANCE
+9 | TEL |  | Ojalá pudieras olerlo. | | Gracias. | 0 | RUTA_AMISTAD
+9 | TEL |  | Ojalá pudieras olerlo. | | Pareces muy feliz. | 3 | RUTA_AMISTAD
+9 | TEL |  | Ojalá pudieras olerlo. | | Qué ganas de probarlo. | 0 | RUTA_AMISTAD

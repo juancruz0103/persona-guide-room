@@ -48,3 +48,7 @@ fotos confidentes/Kasumi/Cendrillon-de.png | cendrillon-de | - |
 fotos confidentes/Kasumi/Cendrillon-iz.png | cendrillon-iz | - |
 fotos confidentes/Goro Akechi/Robin Hood-de.png | robin-hood-de | - |
 fotos confidentes/Goro Akechi/Robin Hood-iz.png | robin-hood-iz | - |
+fotos confidentes/Haru/Astarté-de.png | astarte-de | - |
+fotos confidentes/Haru/Astarté-iz.png | astarte-iz | - |
+fotos confidentes/Futaba/Prometeo-de.png | prometheus-de | - |
+fotos confidentes/Futaba/Prometeo-iz.png | prometheus-iz | - |

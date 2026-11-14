@@ -1034,7 +1034,35 @@
       {
        "en": "",
        "es": "Te echo de menos.",
-       "points": 2
+       "points": 3
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "friend",
+     "speaker": "Haru",
+     "prompt": {
+      "es": "Ojalá pudieras olerlo.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Gracias.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Pareces muy feliz.",
+       "points": 3
+      },
+      {
+       "en": "",
+       "es": "Qué ganas de probarlo.",
+       "points": 0
       }
      ]
     }
