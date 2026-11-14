@@ -4,11 +4,9 @@
 2 | You're very well informed. | 2
 2 | That was dangerous. | 3
 2 | You should have known better. | 2
-2 | TEL | I guess nothing beats practical experience. | Supongo que no hay nada como la experiencia práctica. | Couldn't agree more. | No podría estar más de acuerdo. | 3
 3 | You have the wrong idea. | 2
 3 | You can change. | 3
 3 | Don't let it get to you. | 2
-3 | TEL | She even has a bunch of Buchimaru-kun emoticons! | ¡Hasta tiene un montón de emoticonos de Buchimaru-kun! | Sounds like you two get along. | Parece que os lleváis bien. | 3
 3 | DESBLOQUEO | Mediación marcial | Makoto puede salvar una negociación con una Sombra que salió mal.
 4 | That's unlike you. | 2
 4 | Why do you use it? | 3
@@ -20,10 +18,8 @@
 5 | That's annoying. | 2
 5 | I got this. | 3
 5 | Only if I can take it seriously. | 2
-5 | TEL | What should we do...? | ¿Qué deberíamos hacer...? | Try to reach out to her. | Intenta hablar con ella. | 3
 6 | Love comes in many forms. | 3
 6 | We just started. | 2
-6 | TEL | I want to ignore him, but I shouldn't for Eiko's sake... | Quiero ignorarlo, pero no debería, por Eiko... | Tell him you're on a date. | Dile que estás en una cita. | 2
 6 | DESBLOQUEO | Golpe de abanico | Cura estados alterados del grupo cuando Makoto está en el equipo.
 7 | That's a horrible story. | 3
 7 | He was a noble man. | 3
@@ -34,8 +30,6 @@
 7 | You can figure that out now. | 2
 7 | I'm game if you are. | 2
 7 | Refuse her, please. | 2
-7 | TEL | Can we keep this up until I can make a call one way or the other? | ¿Podemos seguir así hasta que me decida? | It's the role I always hoped for. | Es el papel que siempre quise. | 3
-7 | TEL | Can we keep this up until I can make a call one way or the other? | ¿Podemos seguir así hasta que me decida? | Of course. | Claro. | 2
 7 | DESBLOQUEO | Estudio de sombras | Al apuntar, muestra si el ataque va a ser eficaz.
 8 | He says that to all his girls. | 2
 8 | That's how he ropes you in. | 2
@@ -56,9 +50,6 @@
 9 | I'll be your study partner. | 0 | ROMANCE
 9 | I do. | 3 | ROMANCE
 9 | That's not what I meant. | 0
-9 | TEL | (la guía no da la frase) | (la guía no da la frase) | I'd do anything for you. | Haría cualquier cosa por ti. | 2 | ROMANCE
-9 | TEL | (la guía no da la frase) | (la guía no da la frase) | No problem at all. | No es ningún problema. | 2
-9 | TEL | (la guía no da la frase) | (la guía no da la frase) | No big deal. | No es para tanto. | 2
 9 | DESBLOQUEO | Protección | Makoto puede proteger a Joker de un ataque que lo derrotaría.
 10 | DESBLOQUEO | Segundo despertar | Su Persona evoluciona a Anat.
 1 | REQUISITO | Conocimiento 3.
@@ -69,3 +60,25 @@
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Makoto vuelve a evolucionar, a Agnes.
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | CONV | Hoy me ha pasado de todo... y me lo he pasado hasta bien. | A ver si vamos otra vez.=0 ; Eres una persona nueva.=0 ; ¿El barrio rojo a la próxima?=3
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+2 | TEL |  | Hoy ha sido un día agotador, pero he aprendido un montón. No hay nada como la práctica. | | No podría estar más de acuerdo. | 3
+2 | TEL |  | Hoy ha sido un día agotador, pero he aprendido un montón. No hay nada como la práctica. | | No se rendirá así como así. | 0
+2 | TEL |  | Hoy ha sido un día agotador, pero he aprendido un montón. No hay nada como la práctica. | | A la próxima. | 0
+3 | TEL |  | Fue una pasada ver una foto de toda su colección. ¡Si hasta tiene iconos de Buchimaru! | | Parece que os lleváis bien. | 3
+3 | TEL |  | Fue una pasada ver una foto de toda su colección. ¡Si hasta tiene iconos de Buchimaru! | | ¿Buchimaru? | 0
+3 | TEL |  | Fue una pasada ver una foto de toda su colección. ¡Si hasta tiene iconos de Buchimaru! | | Vale, cálmate. | 0
+5 | TEL |  | Pero si al final está jugando con Eiko, ¿qué hacemos? | | ¡Puño de la justicia! | 0
+5 | TEL |  | Pero si al final está jugando con Eiko, ¿qué hacemos? | | Denúncialo a la policía. | 0
+5 | TEL |  | Pero si al final está jugando con Eiko, ¿qué hacemos? | | Intenta hablar con ella. | 3
+6 | TEL |  | Usa unos símbolos rarísimos que no entiendo. Quiero ignorarlo, pero no puedo por Eiko... | | Dile que tienes una cita. | 2
+6 | TEL |  | Usa unos símbolos rarísimos que no entiendo. Quiero ignorarlo, pero no puedo por Eiko... | | Pasa de él. | 0
+6 | TEL |  | Usa unos símbolos rarísimos que no entiendo. Quiero ignorarlo, pero no puedo por Eiko... | | El fuego se combate con fuego. | 0
+7 | TEL |  | Aún no me fío del novio de Eiko. Sigamos con la farsa hasta que me decida, por favor. | | Pues claro. | 2
+7 | TEL |  | Aún no me fío del novio de Eiko. Sigamos con la farsa hasta que me decida, por favor. | | Imagino. | 0
+7 | TEL |  | Aún no me fío del novio de Eiko. Sigamos con la farsa hasta que me decida, por favor. | | Es el papel que siempre quise. | 3
+9 | TEL |  | Nunca lo habría logrado sin ti. Muchas gracias. | | No hay problema. | 3 | RUTA_AMISTAD
+9 | TEL |  | Nunca lo habría logrado sin ti. Muchas gracias. | | Menuda tensión. | 0 | RUTA_AMISTAD
+9 | TEL |  | Nunca lo habría logrado sin ti. Muchas gracias. | | Siempre puedes darme una bofetada. | 0 | RUTA_AMISTAD
+9 | TEL |  | Nunca lo habría logrado sin ti. Muchas gracias. | | Haría lo que fuera por ti. | 2 | RUTA_ROMANCE
+9 | TEL |  | Nunca lo habría logrado sin ti. Muchas gracias. | | ¿Tenías miedo? | 0 | RUTA_ROMANCE
+9 | TEL |  | Nunca lo habría logrado sin ti. Muchas gracias. | | No es nada. | 2 | RUTA_ROMANCE

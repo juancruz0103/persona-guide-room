@@ -27,7 +27,6 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 6 | Are you all right? | 3
 6 | You should go home. | 3
 6 | Have you seen a doctor? | 2
-6 | TEL | If you neglect stuff like that, it makes you more likely to get sick. | Si descuidas esas cosas, es más fácil que enfermes. | How are you feeling, though? | ¿Y tú cómo te encuentras? | 2
 7 | Don't pay them. | 3
 7 | Don't strain yourself. | 2
 7 | Think this through more. | 3
@@ -40,7 +39,6 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 8 | You're asking a student? | 3
 8 | I want to protect you. | 3
 8 | That's reassuring. | 3
-8 | TEL | It's thanks to you that I actually figured out what I need to do. | Gracias a ti he descubierto lo que tengo que hacer. | You're welcome. | De nada. | 2
 9 | Nonsense. | 3
 9 | What a bummer. | 3
 9 | Thank you for your service. | 3
@@ -61,3 +59,10 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | CONV | Y no olvides solicitar mis servicios si necesitas ayuda con las tareas del hogar. | No necesito ayuda.=0 ; ¿Por qué?=0
 1 | CONV | Será un secretito entre Becky y su amo, ¿vale? ¿Lo guardarás? | Sí, lo pillo.=3 ; Lo haré si tú también lo haces.=0 ; Deja de hablar así, por favor.=0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+6 | TEL |  | Si pasas por alto cosas así, es más fácil que te pongas malo. | | Estaré bien. | 0
+6 | TEL |  | Si pasas por alto cosas así, es más fácil que te pongas malo. | | No, no tengo ganas. | 0
+6 | TEL |  | Si pasas por alto cosas así, es más fácil que te pongas malo. | | Pero ¿cómo te sientes? | 2
+8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | De nada. | 2
+8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | Adiós a lo de ser sirvienta. | 0
+8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | Haré lo que sea por ti. | 0

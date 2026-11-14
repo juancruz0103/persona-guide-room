@@ -6,7 +6,6 @@ CONSEJO | Los rangos 1 y 6 llegan solos con la historia.
 2 | We're just getting started. | 2
 2 | I'm so done with this. | 2
 2 | Next time, then. | 2
-2 | TEL | Then my stomach wouldn't stop growling in my meeting. | Y luego no paraban de rugirme las tripas en la reunión. | Impressive. | Impresionante. | 2
 2 | DESBLOQUEO | Voltereta | En un Palacio, a veces evita que una Sombra te sorprenda o lo convierte en ventaja.
 3 | Making bento? | 3
 3 | I'm touched! | 2
@@ -22,7 +21,6 @@ CONSEJO | Los rangos 1 y 6 llegan solos con la historia.
 4 | Of course. | 2
 4 | Good choice. | 2
 4 | Everyone deals with that. | 2
-4 | TEL | He was so happy with them! | ¡Le encantaron! | I'm glad to hear that. | Me alegra oír eso. | 2
 4 | DESBLOQUEO | Gancho de cadenas | Un gancho para lanzarse sobre las Sombras desde lejos y empezar el combate con ventaja.
 5 | It's a surprise, yeah. | 2
 5 | Go ahead. I'll watch. | 3
@@ -80,3 +78,10 @@ CONSEJO | Los rangos 1 y 6 llegan solos con la historia.
 5 | DESBLOQUEO | HP +5 | Este rango solo sube 5 HP el máximo de Kasumi.
 5 | REQUISITO | Completar el rango 4 antes del 22 de diciembre.
 6 | REQUISITO | Haber llegado al rango 5 antes del 22 de diciembre: si no, el confidente queda bloqueado. El rango 6 llega con la historia.
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+2 | TEL |  | Me calmé tanto que de golpe me entró hambre y la barriga no paraba de hacerme ruido. | | Increíble. | 2
+2 | TEL |  | Me calmé tanto que de golpe me entró hambre y la barriga no paraba de hacerme ruido. | | Tienes que superarlo. | 0
+2 | TEL |  | Me calmé tanto que de golpe me entró hambre y la barriga no paraba de hacerme ruido. | | Al final comiste, ¿no? | 0
+4 | TEL |  | ¡Le quedan mucho mejor de lo que esperaba! ¡Le han encantado! | | Me alegra escuchar eso. | 2
+4 | TEL |  | ¡Le quedan mucho mejor de lo que esperaba! ¡Le han encantado! | | Deberías tener más seguridad. | 0
+4 | TEL |  | ¡Le quedan mucho mejor de lo que esperaba! ¡Le han encantado! | | Claro que sí. | 0

@@ -157,17 +157,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Goro",
      "prompt": {
-      "es": "Ya he visto lo que pasa cuando hablo sin cuidado delante de ti.",
-      "en": "I saw first-hand what happens when I'm too careless with my words around you."
+      "es": "He visto de primera mano lo que pasa cuando no mido mis palabras cerca de ti.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Wasn't it fun?",
-       "es": "¿A que fue divertido?",
+       "en": "",
+       "es": "Qué imprudente, ¿no?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿No te ha gustado?",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Siempre puedo volver a disfrazarte.",
+       "points": 0
       }
      ]
     }
@@ -288,17 +297,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Goro",
      "prompt": {
-      "es": "Es una euforia como la de resolver un caso.",
-      "en": "It's a euphoria like when I manage to solve a case."
+      "es": "Esa sincronía extraña y errática tiene algo... Es como la euforia que siento cuando resuelvo un caso.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I kinda get it.",
-       "es": "Más o menos lo entiendo.",
+       "en": "",
+       "es": "¿De qué hablas?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Creo que lo pillo.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Sí que te estás divirtiendo.",
+       "points": 0
       }
      ]
     }
@@ -366,26 +384,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Goro",
      "prompt": {
-      "es": "Ojalá hubiera jugado mejor.",
-      "en": "I wish I'd played better."
+      "es": "Espero no haber quedado como un novato. Ojalá hubiera jugado mejor.",
+      "en": ""
      },
      "options": [
       {
-       "en": "You did fine.",
+       "en": "",
        "es": "Lo has hecho bien.",
        "points": 2
       },
       {
-       "en": "You've still got a long way to go.",
-       "es": "Aún te queda mucho por mejorar.",
+       "en": "",
+       "es": "Aún te queda bastante.",
        "points": 2
       },
       {
-       "en": "You were getting cocky.",
-       "es": "Te estabas confiando demasiado.",
+       "en": "",
+       "es": "Se te estaba subiendo a la cabeza.",
        "points": 2
       }
      ]

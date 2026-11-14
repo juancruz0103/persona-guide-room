@@ -46,7 +46,6 @@
 6 | DESBLOQUEO | Golpe de abanico | Cura estados alterados del grupo cuando Ann está en el equipo.
 7 | She admires you. | 2
 7 | Go get 'em, tiger. | 2
-7 | TEL | I'll do any workout! | ¡Haré cualquier ejercicio! | You got this. | Tú puedes. | 2
 4 | DESBLOQUEO | Seducción | Ann puede seducir a las Sombras al negociar.
 8 | You have some real guts. | 3
 8 | You're beautiful as is. | 2
@@ -55,16 +54,23 @@
 8 | Good luck finding it. | 3
 8 | She'll be happy to hear that. | 3
 8 | I'm sure she already knows. | 3
-8 | TEL | Being able to push herself because someone was there with her... | Poder esforzarse porque alguien estaba con ella... | You can ask her yourself. | Puedes preguntárselo tú. | 2
-8 | TEL | Being able to push herself because someone was there with her... | Poder esforzarse porque alguien estaba con ella... | That's probably it. | Seguramente sea eso. | 0
 8 | DESBLOQUEO | Último aliento | Ann puede aguantar un golpe que la derrotaría.
 9 | Hang in there. | 3
 9 | I believe in you, Ann. | 3
 9 | You have me. | 0 | ROMANCE
 9 | You have the others. | 0
-9 | TEL | I guess... I'm alone again, huh...? | Supongo que... vuelvo a estar sola, ¿eh...? | I'm yours forever. | Soy tuyo para siempre. | 3 | ROMANCE
 9 | DESBLOQUEO | Protección | Ann puede proteger a Joker de un ataque que lo derrotaría.
 10 | DESBLOQUEO | Segundo despertar | Su Persona evoluciona a Hécate.
 1 | SINRECOMPENSA
 7 | SINRECOMPENSA
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Ann vuelve a evolucionar, a Celestine.
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+7 | TEL |  | Tendré que ponerme a dieta, comer menos y hacer ejercicio, pero ¡haré lo que sea! | | Tú puedes. | 2
+7 | TEL |  | Tendré que ponerme a dieta, comer menos y hacer ejercicio, pero ¡haré lo que sea! | | Tampoco te pases. | 0
+7 | TEL |  | Tendré que ponerme a dieta, comer menos y hacer ejercicio, pero ¡haré lo que sea! | | ¿Intentas ser como Mika? | 0
+8 | TEL |  | ¿Así se sintió Shiho durante la rehabilitación? Sacó fuerzas de donde pudo porque no estaba sola. | | Será eso. | 0
+8 | TEL |  | ¿Así se sintió Shiho durante la rehabilitación? Sacó fuerzas de donde pudo porque no estaba sola. | | Vete a saber. | 0
+8 | TEL |  | ¿Así se sintió Shiho durante la rehabilitación? Sacó fuerzas de donde pudo porque no estaba sola. | | Pregúntale. | 2
+9 | TEL |  | ¡A estas alturas, te necesito! | | Claro. | 0 | RUTA_ROMANCE
+9 | TEL |  | ¡A estas alturas, te necesito! | | Soy tuyo para siempre. | 3 | RUTA_ROMANCE
+9 | TEL |  | ¡A estas alturas, te necesito! | | Eso depende de ti. | 0 | RUTA_ROMANCE

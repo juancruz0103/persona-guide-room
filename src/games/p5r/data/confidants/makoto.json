@@ -113,17 +113,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Makoto",
      "prompt": {
-      "es": "Supongo que no hay nada como la experiencia práctica.",
-      "en": "I guess nothing beats practical experience."
+      "es": "Hoy ha sido un día agotador, pero he aprendido un montón. No hay nada como la práctica.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Couldn't agree more.",
+       "en": "",
        "es": "No podría estar más de acuerdo.",
        "points": 3
+      },
+      {
+       "en": "",
+       "es": "No se rendirá así como así.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "A la próxima.",
+       "points": 0
       }
      ]
     }
@@ -192,17 +201,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Makoto",
      "prompt": {
-      "es": "¡Hasta tiene un montón de emoticonos de Buchimaru-kun!",
-      "en": "She even has a bunch of Buchimaru-kun emoticons!"
+      "es": "Fue una pasada ver una foto de toda su colección. ¡Si hasta tiene iconos de Buchimaru!",
+      "en": ""
      },
      "options": [
       {
-       "en": "Sounds like you two get along.",
+       "en": "",
        "es": "Parece que os lleváis bien.",
        "points": 3
+      },
+      {
+       "en": "",
+       "es": "¿Buchimaru?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Vale, cálmate.",
+       "points": 0
       }
      ]
     }
@@ -367,15 +385,24 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Makoto",
      "prompt": {
-      "es": "¿Qué deberíamos hacer...?",
-      "en": "What should we do...?"
+      "es": "Pero si al final está jugando con Eiko, ¿qué hacemos?",
+      "en": ""
      },
      "options": [
       {
-       "en": "Try to reach out to her.",
+       "en": "",
+       "es": "¡Puño de la justicia!",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Denúncialo a la policía.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Intenta hablar con ella.",
        "points": 3
       }
@@ -419,17 +446,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Makoto",
      "prompt": {
-      "es": "Quiero ignorarlo, pero no debería, por Eiko...",
-      "en": "I want to ignore him, but I shouldn't for Eiko's sake..."
+      "es": "Usa unos símbolos rarísimos que no entiendo. Quiero ignorarlo, pero no puedo por Eiko...",
+      "en": ""
      },
      "options": [
       {
-       "en": "Tell him you're on a date.",
-       "es": "Dile que estás en una cita.",
+       "en": "",
+       "es": "Dile que tienes una cita.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Pasa de él.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "El fuego se combate con fuego.",
+       "points": 0
       }
      ]
     }
@@ -549,22 +585,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Makoto",
      "prompt": {
-      "es": "¿Podemos seguir así hasta que me decida?",
-      "en": "Can we keep this up until I can make a call one way or the other?"
+      "es": "Aún no me fío del novio de Eiko. Sigamos con la farsa hasta que me decida, por favor.",
+      "en": ""
      },
      "options": [
       {
-       "en": "It's the role I always hoped for.",
-       "es": "Es el papel que siempre quise.",
-       "points": 3
+       "en": "",
+       "es": "Pues claro.",
+       "points": 2
       },
       {
-       "en": "Of course.",
-       "es": "Claro.",
-       "points": 2
+       "en": "",
+       "es": "Imagino.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Es el papel que siempre quise.",
+       "points": 3
       }
      ]
     }
@@ -797,28 +837,55 @@
     {
      "kind": "phone",
      "royalOnly": true,
-     "romance": true,
-     "provisional": true,
+     "romance": false,
+     "route": "friend",
      "speaker": "Makoto",
      "prompt": {
-      "es": "(la guía no da la frase)",
-      "en": "(la guía no da la frase)"
+      "es": "Nunca lo habría logrado sin ti. Muchas gracias.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'd do anything for you.",
-       "es": "Haría cualquier cosa por ti.",
-       "points": 2,
-       "romance": true
+       "en": "",
+       "es": "No hay problema.",
+       "points": 3
       },
       {
-       "en": "No problem at all.",
-       "es": "No es ningún problema.",
+       "en": "",
+       "es": "Menuda tensión.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Siempre puedes darme una bofetada.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "romance",
+     "speaker": "Makoto",
+     "prompt": {
+      "es": "Nunca lo habría logrado sin ti. Muchas gracias.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Haría lo que fuera por ti.",
        "points": 2
       },
       {
-       "en": "No big deal.",
-       "es": "No es para tanto.",
+       "en": "",
+       "es": "¿Tenías miedo?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "No es nada.",
        "points": 2
       }
      ]

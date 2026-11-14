@@ -110,17 +110,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "Estoy en racha. ¡Mantendré este impulso y lo aplicaré también a los Ladrones Fantasma!",
-      "en": "I'm on a roll right now. I shall keep up this momentum and apply it to the Phantom Thieves as well!"
+      "es": "Llevo muy buena racha. ¡Tengo que mantenerme así y hacerlo igual con los Ladrones Fantasma!",
+      "en": ""
      },
      "options": [
       {
-       "en": "You're already doing enough.",
-       "es": "Ya haces bastante.",
+       "en": "",
+       "es": "Ya haces suficiente.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Me muero de ganas.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿De verdad?",
+       "points": 0
       }
      ]
     }
@@ -211,17 +220,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yusuke",
      "prompt": {
-      "es": "¡Voy a terminar diez obras antes de que acabe el día!",
-      "en": "I'm going to have ten pieces finished up by end of today!"
+      "es": "Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras!",
+      "en": ""
      },
      "options": [
       {
-       "en": "That's the spirit.",
-       "es": "Ese es el espíritu.",
+       "en": "",
+       "es": "Así me gusta.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Te estás pasando.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Eso es todo?",
+       "points": 0
       }
      ]
     }

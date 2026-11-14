@@ -96,8 +96,9 @@ for (const id of ids) {
     }
     if (p[1] === 'TEL') {
       const list = phones.get(rank) ?? [];
-      let call = list.find((c) => c.prompt === p[2] && c.promptEs === p[3]);
-      if (!call) { call = { prompt: p[2], promptEs: p[3], options: [], ...(p[7] === 'RUTA_ROMANCE' ? { route: 'romance' } : {}) }; list.push(call); }
+      const route = p[7] === 'RUTA_ROMANCE' ? 'romance' : p[7] === 'RUTA_AMISTAD' ? 'friend' : undefined;
+      let call = list.find((c) => c.prompt === p[2] && c.promptEs === p[3] && c.route === route);
+      if (!call) { call = { prompt: p[2], promptEs: p[3], options: [], ...(route ? { route } : {}) }; list.push(call); }
       call.options.push({ en: p[4], es: p[5], points: Number(p[6] ?? 0), ...(p[7] === 'ROMANCE' ? { romance: true } : {}) });
       phones.set(rank, list);
       continue;

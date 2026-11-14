@@ -454,16 +454,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sadayo",
      "prompt": {
-      "es": "Si descuidas esas cosas, es más fácil que enfermes.",
-      "en": "If you neglect stuff like that, it makes you more likely to get sick."
+      "es": "Si pasas por alto cosas así, es más fácil que te pongas malo.",
+      "en": ""
      },
      "options": [
       {
-       "en": "How are you feeling, though?",
-       "es": "¿Y tú cómo te encuentras?",
+       "en": "",
+       "es": "Estaré bien.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "No, no tengo ganas.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Pero ¿cómo te sientes?",
        "points": 2
       }
      ]
@@ -647,17 +656,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sadayo",
      "prompt": {
-      "es": "Gracias a ti he descubierto lo que tengo que hacer.",
-      "en": "It's thanks to you that I actually figured out what I need to do."
+      "es": "Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer.",
+      "en": ""
      },
      "options": [
       {
-       "en": "You're welcome.",
+       "en": "",
        "es": "De nada.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Adiós a lo de ser sirvienta.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Haré lo que sea por ti.",
+       "points": 0
       }
      ]
     }

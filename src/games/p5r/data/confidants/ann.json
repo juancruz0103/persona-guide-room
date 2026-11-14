@@ -667,17 +667,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ann",
      "prompt": {
-      "es": "¡Haré cualquier ejercicio!",
-      "en": "I'll do any workout!"
+      "es": "Tendré que ponerme a dieta, comer menos y hacer ejercicio, pero ¡haré lo que sea!",
+      "en": ""
      },
      "options": [
       {
-       "en": "You got this.",
+       "en": "",
        "es": "Tú puedes.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Tampoco te pases.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Intentas ser como Mika?",
+       "points": 0
       }
      ]
     }
@@ -768,22 +777,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ann",
      "prompt": {
-      "es": "Poder esforzarse porque alguien estaba con ella...",
-      "en": "Being able to push herself because someone was there with her..."
+      "es": "¿Así se sintió Shiho durante la rehabilitación? Sacó fuerzas de donde pudo porque no estaba sola.",
+      "en": ""
      },
      "options": [
       {
-       "en": "You can ask her yourself.",
-       "es": "Puedes preguntárselo tú.",
-       "points": 2
+       "en": "",
+       "es": "Será eso.",
+       "points": 0
       },
       {
-       "en": "That's probably it.",
-       "es": "Seguramente sea eso.",
+       "en": "",
+       "es": "Vete a saber.",
        "points": 0
+      },
+      {
+       "en": "",
+       "es": "Pregúntale.",
+       "points": 2
       }
      ]
     }
@@ -846,19 +859,28 @@
     {
      "kind": "phone",
      "royalOnly": true,
-     "romance": true,
-     "provisional": true,
+     "romance": false,
+     "route": "romance",
      "speaker": "Ann",
      "prompt": {
-      "es": "Supongo que... vuelvo a estar sola, ¿eh...?",
-      "en": "I guess... I'm alone again, huh...?"
+      "es": "¡A estas alturas, te necesito!",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'm yours forever.",
+       "en": "",
+       "es": "Claro.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Soy tuyo para siempre.",
-       "points": 3,
-       "romance": true
+       "points": 3
+      },
+      {
+       "en": "",
+       "es": "Eso depende de ti.",
+       "points": 0
       }
      ]
     }

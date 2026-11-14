@@ -7,13 +7,11 @@
 2 | It's enigmatic. | 2
 2 | I can't wait. | 3
 2 | I hope you're right. | 3
-2 | TEL | I'm on a roll right now. I shall keep up this momentum and apply it to the Phantom Thieves as well! | Estoy en racha. ¡Mantendré este impulso y lo aplicaré también a los Ladrones Fantasma! | You're already doing enough. | Ya haces bastante. | 2
 3 | Don't let it bother you. | 2
 3 | You're really giving up? | 2
 3 | This isn't like you. | 3
 3 | How exactly? | 2
 3 | That's the spirit. | 2
-3 | TEL | I'm going to have ten pieces finished up by end of today! | ¡Voy a terminar diez obras antes de que acabe el día! | That's the spirit. | Ese es el espíritu. | 2
 3 | DESBLOQUEO | Golpe de gracia | Yusuke puede atacar después de Joker. También desbloquea el museo de Ueno.
 4 | Why are we in a boat? | 2
 4 | I should bring a girl here. | 2
@@ -53,3 +51,10 @@
 6 | REQUISITO | Destreza 4.
 2 | SINRECOMPENSA
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Yusuke vuelve a evolucionar, a Gorokichi.
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+2 | TEL |  | Llevo muy buena racha. ¡Tengo que mantenerme así y hacerlo igual con los Ladrones Fantasma! | | Ya haces suficiente. | 2
+2 | TEL |  | Llevo muy buena racha. ¡Tengo que mantenerme así y hacerlo igual con los Ladrones Fantasma! | | Me muero de ganas. | 0
+2 | TEL |  | Llevo muy buena racha. ¡Tengo que mantenerme así y hacerlo igual con los Ladrones Fantasma! | | ¿De verdad? | 0
+3 | TEL |  | Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras! | | Así me gusta. | 2
+3 | TEL |  | Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras! | | Te estás pasando. | 0
+3 | TEL |  | Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras! | | ¿Eso es todo? | 0

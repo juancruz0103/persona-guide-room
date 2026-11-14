@@ -32,3 +32,7 @@ fotos confidentes/Ryuji/Seiten Taisei-de.png | seiten-taisei-de | - |
 fotos confidentes/Ryuji/Seiten Taisei-iz.png | seiten-taisei-iz | - |
 fotos confidentes/Yosuke/Goemon-de.png | goemon-de | - |
 fotos confidentes/Yosuke/Goemon-iz.png | goemon-iz | - |
+fotos confidentes/Ann/Hécate-de.png | hecate-de | - |
+fotos confidentes/Ann/Hécate-iz.png | hecate-iz | - | 520,0,610,45 540,40,660,100
+fotos confidentes/Makoto/Johana-de.png | johanna-de | - |
+fotos confidentes/Makoto/Johana-iz.png | johanna-iz | - |

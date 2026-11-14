@@ -13,7 +13,6 @@ CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 
 2 | DESBLOQUEO | Instinto detectivesco | Al empezar un combate, a veces revela una afinidad de un enemigo.
 3 | Should've figured. | 3
 3 | Your life must be so hard. | 2
-3 | TEL | I saw first-hand what happens when I'm too careless with my words around you. | Ya he visto lo que pasa cuando hablo sin cuidado delante de ti. | Wasn't it fun? | ¿A que fue divertido? | 2
 4 | Now this is my kind of club. | 3
 4 | Do they have coffee? | 2
 4 | Any recommendations? | 3
@@ -22,14 +21,10 @@ CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 
 4 | Pretty frequently. | 3
 4 | I can use a microwave... | 3
 4 | All I need is curry. | 2
-4 | TEL | It's a euphoria like when I manage to solve a case. | Es una euforia como la de resolver un caso. | I kinda get it. | Más o menos lo entiendo. | 2
 4 | DESBLOQUEO | Maestría detectivesca | Al empezar un combate, revela todas las afinidades de un enemigo.
 5 | Are you used to gunplay? | 2
 5 | You wanted to be a hero? | 3
 5 | Very interesting. | 2
-5 | TEL | I wish I'd played better. | Ojalá hubiera jugado mejor. | You did fine. | Lo has hecho bien. | 2
-5 | TEL | I wish I'd played better. | Ojalá hubiera jugado mejor. | You've still got a long way to go. | Aún te queda mucho por mejorar. | 2
-5 | TEL | I wish I'd played better. | Ojalá hubiera jugado mejor. | You were getting cocky. | Te estabas confiando demasiado. | 2
 6 | A while, huh? | 3
 6 | So relaxing... | 2
 6 | ...You've been through a lot. | 2
@@ -61,3 +56,13 @@ CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 
 6 | SINRECOMPENSA
 8 | SINRECOMPENSA
 9 | SINRECOMPENSA
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+3 | TEL |  | He visto de primera mano lo que pasa cuando no mido mis palabras cerca de ti. | | Qué imprudente, ¿no? | 0
+3 | TEL |  | He visto de primera mano lo que pasa cuando no mido mis palabras cerca de ti. | | ¿No te ha gustado? | 2
+3 | TEL |  | He visto de primera mano lo que pasa cuando no mido mis palabras cerca de ti. | | Siempre puedo volver a disfrazarte. | 0
+4 | TEL |  | Esa sincronía extraña y errática tiene algo... Es como la euforia que siento cuando resuelvo un caso. | | ¿De qué hablas? | 0
+4 | TEL |  | Esa sincronía extraña y errática tiene algo... Es como la euforia que siento cuando resuelvo un caso. | | Creo que lo pillo. | 2
+4 | TEL |  | Esa sincronía extraña y errática tiene algo... Es como la euforia que siento cuando resuelvo un caso. | | Sí que te estás divirtiendo. | 0
+5 | TEL |  | Espero no haber quedado como un novato. Ojalá hubiera jugado mejor. | | Lo has hecho bien. | 2
+5 | TEL |  | Espero no haber quedado como un novato. Ojalá hubiera jugado mejor. | | Aún te queda bastante. | 2
+5 | TEL |  | Espero no haber quedado como un novato. Ojalá hubiera jugado mejor. | | Se te estaba subiendo a la cabeza. | 2

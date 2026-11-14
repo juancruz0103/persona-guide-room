@@ -87,17 +87,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "Y luego no paraban de rugirme las tripas en la reunión.",
-      "en": "Then my stomach wouldn't stop growling in my meeting."
+      "es": "Me calmé tanto que de golpe me entró hambre y la barriga no paraba de hacerme ruido.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Impressive.",
-       "es": "Impresionante.",
+       "en": "",
+       "es": "Increíble.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Tienes que superarlo.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Al final comiste, ¿no?",
+       "points": 0
       }
      ]
     }
@@ -387,17 +396,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "¡Le encantaron!",
-      "en": "He was so happy with them!"
+      "es": "¡Le quedan mucho mejor de lo que esperaba! ¡Le han encantado!",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'm glad to hear that.",
-       "es": "Me alegra oír eso.",
+       "en": "",
+       "es": "Me alegra escuchar eso.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Deberías tener más seguridad.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Claro que sí.",
+       "points": 0
       }
      ]
     }
