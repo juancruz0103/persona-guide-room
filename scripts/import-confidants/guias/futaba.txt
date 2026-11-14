@@ -75,3 +75,10 @@
 8 | TEL |  | Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo. | | Felicidades. | 2
 8 | TEL |  | Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo. | | Aún te quedan más. | 0
 8 | TEL |  | Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo. | | ¿Quieres más palmaditas? | 2
+# Rango 9: llamada según la ruta (capturas de Juan)
+9 | TEL |  | ¿Podrías ser más concreto? ¿Del mismo equipo en qué sentido? | | Un amigo de verdad. | 2 | RUTA_AMISTAD
+9 | TEL |  | ¿Podrías ser más concreto? ¿Del mismo equipo en qué sentido? | | Un socio. | 0 | RUTA_AMISTAD
+9 | TEL |  | ¿Podrías ser más concreto? ¿Del mismo equipo en qué sentido? | | Un objeto fundamental. | 0 | RUTA_AMISTAD
+9 | TEL |  | Eh... esto... ¿Qué quieres? | | Fideos instantáneos. | 0 | RUTA_ROMANCE
+9 | TEL |  | Eh... esto... ¿Qué quieres? | | Morgana. | 0 | RUTA_ROMANCE
+9 | TEL |  | Eh... esto... ¿Qué quieres? | | ¿Tengo que responder? | 2 | RUTA_ROMANCE

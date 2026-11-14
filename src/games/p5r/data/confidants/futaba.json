@@ -734,6 +734,62 @@
        "romance": true
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "friend",
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "¿Podrías ser más concreto? ¿Del mismo equipo en qué sentido?",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Un amigo de verdad.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Un socio.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Un objeto fundamental.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "romance",
+     "speaker": "Futaba",
+     "prompt": {
+      "es": "Eh... esto... ¿Qué quieres?",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Fideos instantáneos.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Morgana.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Tengo que responder?",
+       "points": 2
+      }
+     ]
     }
    ],
    "unlocks": [
