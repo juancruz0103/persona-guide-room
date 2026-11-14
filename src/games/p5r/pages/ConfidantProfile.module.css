@@ -860,3 +860,15 @@
     max-width: 320px;
   }
 }
+
+.rankNote {
+  background: var(--c-surface);
+  border-left: 4px solid #f08ac0;
+  padding: 14px 20px;
+  margin-bottom: 24px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.rankNote p {
+  margin: 0;
+}

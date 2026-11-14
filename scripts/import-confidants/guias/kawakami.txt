@@ -66,3 +66,4 @@ CONSEJO | Hay que llegar al rango 10 antes del 18 de noviembre.
 8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | De nada. | 2
 8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | Adiós a lo de ser sirvienta. | 0
 8 | TEL |  | Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer. | | Haré lo que sea por ti. | 0
+10 | NOTA | Si en el rango 9 elegiste las respuestas de romance, en este rango empezáis la relación romántica.

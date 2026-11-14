@@ -517,6 +517,14 @@ export default function ConfidantProfile() {
             </div>
           )}
 
+          {rank?.notes && (
+            <div className={styles.rankNote}>
+              {rank.notes.map((t) => (
+                <p key={t}>{t}</p>
+              ))}
+            </div>
+          )}
+
           {rank?.requirements && (
             <div className={styles.requirements}>
               <span className={styles.requirementsKicker}>Requisito para este rango</span>

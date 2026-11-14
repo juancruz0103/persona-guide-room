@@ -159,6 +159,8 @@ export interface ConfidantRank {
   noData?: boolean;
   /** Requisitos para llegar a este rango (atributos, fechas, misiones) */
   requirements?: string[];
+  /** Aclaraciones del rango (ruta romántica, etc.) */
+  notes?: string[];
   /** true cuando el rango no da ninguna recompensa */
   noReward?: boolean;
   conversations: RankItem[];

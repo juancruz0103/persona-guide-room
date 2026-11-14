@@ -5,6 +5,7 @@
  *   Puntos «?»: respuesta recomendada por la guía sin puntos conocidos.
  *   «R | REQUISITO | texto», «R | SINRECOMPENSA», «R | MEMENTOS | título | descripción | [archivo después del que va]».
  *   «R | NOIMPORTA»: en ese rango las respuestas no suman puntos.
+ *   «R | NOTA | texto»: aclaración que se muestra en ese rango.
  *   Líneas «CONSEJO | texto» de la guía van a los consejos de la ficha.
  *   node scripts/import-confidants/import.mjs <convs.json> <id> [<id>...]
  *
@@ -70,11 +71,13 @@ for (const id of ids) {
   const tips = [];
   const dontMatter = new Set([10]); // en el rango máximo las respuestas ya no suman
   const requirements = new Map(); // rango → [texto]
+  const notes = new Map(); // rango → [texto]
   const missions = new Map(); // rango → [{title, description, after}]
   const extra = new Map(); // rango → conversaciones anotadas en partida (CONV)
   const noReward = new Set();
   for (const line of guide) {
     const f = line.split('|').map((x) => x.trim());
+    if (f[1] === 'NOTA') { notes.set(Number(f[0]), [...(notes.get(Number(f[0])) ?? []), f[2]]); continue; }
     if (f[1] === 'REQUISITO') { requirements.set(Number(f[0]), [...(requirements.get(Number(f[0])) ?? []), f[2]]); continue; }
     if (f[1] === 'MEMENTOS') {
       missions.set(Number(f[0]), [...(missions.get(Number(f[0])) ?? []), { title: f[2], description: f[3], after: f[4] || null }]);
@@ -178,6 +181,7 @@ for (const id of ids) {
     for (const c of conversations) delete c.file;
     const rank = { rank: r, conversations, unlocks: unlocks.get(r) ?? [] };
     if (requirements.has(r)) rank.requirements = requirements.get(r);
+    if (notes.has(r)) rank.notes = notes.get(r);
     if (noReward.has(r)) {
       if (rank.unlocks.length) report.push(`rango ${r}: marcado sin recompensa pero tiene desbloqueos`);
       rank.noReward = true;

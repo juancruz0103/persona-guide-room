@@ -822,6 +822,9 @@
      "description": "Puedes salir por la noche después de explorar el Metaverso. Se desbloquea la fusión de Ardha."
     }
    ],
+   "notes": [
+    "Si en el rango 9 elegiste las respuestas de romance, en este rango empezáis la relación romántica."
+   ],
    "choicesDontMatter": true
   }
  ]
