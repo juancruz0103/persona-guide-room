@@ -160,7 +160,8 @@ for (const id of ids) {
     // Misiones de Mementos: después de la última conversación del archivo indicado (o al final de las del rango)
     for (const m of missions.get(r) ?? []) {
       let at = conversations.filter((c) => c.kind === 'conversation').length;
-      if (m.after) {
+      if (m.after === 'INICIO') at = 0; // hay que hacerla antes de cualquier conversación del rango
+      else if (m.after) {
         const last = conversations.map((c) => c.file).lastIndexOf(m.after);
         if (last === -1) report.push(`rango ${r}: la misión «${m.title}» apunta a ${m.after}, que no tiene conversaciones`);
         else at = last + 1;

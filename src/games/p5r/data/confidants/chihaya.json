@@ -464,6 +464,11 @@
    "rank": 8,
    "conversations": [
     {
+     "kind": "mementos",
+     "title": "¡Desenmascarar al vidente!",
+     "description": "Yuichi Fukurai, el presidente de la APD, controla a Chihaya..."
+    },
+    {
      "kind": "conversation",
      "royalOnly": false,
      "romance": false,
@@ -533,11 +538,6 @@
        "points": 3
       }
      ]
-    },
-    {
-     "kind": "mementos",
-     "title": "¡Desenmascarar al vidente!",
-     "description": "Yuichi Fukurai, el presidente de la APD, controla a Chihaya..."
     },
     {
      "kind": "phone",

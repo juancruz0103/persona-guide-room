@@ -33,7 +33,7 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 10 | DESBLOQUEO | Lectura especial de vínculo | Ese día, las mejores respuestas con los confidentes se marcan en rojo. Se desbloquea la fusión de Laksmí.
 1 | REQUISITO | Comprarle la Piedra Sagrada (100.000 ¥).
 1 | MEMENTOS | Acabar con el maltrato del novio | Una mujer le está pidiendo ayuda a la adivina de Shinjuku porque su novio la maltrata... | E710_010
-8 | MEMENTOS | ¡Desenmascarar al vidente! | Yuichi Fukurai, el presidente de la APD, controla a Chihaya... | E710_080
+8 | MEMENTOS | ¡Desenmascarar al vidente! | Yuichi Fukurai, el presidente de la APD, controla a Chihaya... | INICIO
 9 | DESBLOQUEO | Devolución | Chihaya te devuelve los 100.000 ¥ de la Piedra Sagrada.
 2 | SINRECOMPENSA
 4 | SINRECOMPENSA
