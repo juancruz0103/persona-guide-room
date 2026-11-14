@@ -46,3 +46,5 @@ fotos confidentes/Haru/Milady-de.png | milady-de | - |
 fotos confidentes/Haru/Milady-iz.png | milady-iz | - |
 fotos confidentes/Kasumi/Cendrillon-de.png | cendrillon-de | - |
 fotos confidentes/Kasumi/Cendrillon-iz.png | cendrillon-iz | - |
+fotos confidentes/Goro Akechi/Robin Hood-de.png | robin-hood-de | - |
+fotos confidentes/Goro Akechi/Robin Hood-iz.png | robin-hood-iz | - |

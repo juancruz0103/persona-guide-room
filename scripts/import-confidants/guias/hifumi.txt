@@ -14,12 +14,10 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipu
 4 | DESBLOQUEO | Jinbocho | Se desbloquea el barrio de las librerías.
 5 | She's scary. | 2
 5 | You should stop then. | 2
-5 | TEL | She didn't mean to offend you at all. I hope you'll accept my apology in her place. | No pretendía ofenderte en absoluto. Espero que aceptes mis disculpas en su nombre. | You've got a lot to deal with. | Tienes mucho con lo que lidiar. | 2
 5 | DESBLOQUEO | Kakoi Kuzushi | Puedes intentar huir aunque los enemigos te rodeen.
 6 | Is that frustrating? | 2
 6 | Do what you love. | 2
 6 | Do you still like shogi? | 2
-6 | TEL | Considering how good a listener you are, I mean. | Teniendo en cuenta lo bien que escuchas, quiero decir. | You're imagining things. | Son imaginaciones tuyas. | 2
 6 | DESBLOQUEO | Tokyo Skytree | Se desbloquea el lugar si aún no lo tenías.
 7 | It may come down to luck. | 3
 7 | That's almost a relief. | 2
@@ -52,3 +50,19 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipu
 4 | TEL |  | Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto. | | Me encantaría. | 2
 4 | TEL |  | Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto. | | A ver si lo cuadramos. | 0
 4 | TEL |  | Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto. | | ¿A dónde vamos ahora? | 2
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+5 | TEL |  | No quería ofenderte, seguro. Espero que aceptes mis disculpas en su lugar. | | No hay problema. | 0
+5 | TEL |  | No quería ofenderte, seguro. Espero que aceptes mis disculpas en su lugar. | | Tienes mucho con lo que lidiar... | 2
+5 | TEL |  | No quería ofenderte, seguro. Espero que aceptes mis disculpas en su lugar. | | ¿Por qué pides perdón? | 0
+6 | TEL |  | No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar. | | ¿Eso crees? | 0
+6 | TEL |  | No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar. | | Te lo estás imaginando. | 2
+6 | TEL |  | No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar. | | Confiesa tus pecados, hija mía. | 0
+8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Lo apoyo. | 0
+8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Piénsatelo bien. | 0
+8 | TEL |  | Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas. | | Es admirable. | 0
+9 | TEL |  | Por eso lo digo convencida. La derrota de hoy no ha sido un paso atrás, sino un salto adelante. | | Es una buena forma de verlo. | 3 | RUTA_AMISTAD
+9 | TEL |  | Por eso lo digo convencida. La derrota de hoy no ha sido un paso atrás, sino un salto adelante. | | Le estás dando demasiadas vueltas. | 0 | RUTA_AMISTAD
+9 | TEL |  | Por eso lo digo convencida. La derrota de hoy no ha sido un paso atrás, sino un salto adelante. | | La próxima la ganamos. | 0 | RUTA_AMISTAD
+9 | TEL |  | Pero apareciste tú... Y con nuestras revelaciones me salvaste. Gracias. | | Lo que sea por ti. | 3 | RUTA_ROMANCE
+9 | TEL |  | Pero apareciste tú... Y con nuestras revelaciones me salvaste. Gracias. | | Fue una gran coincidencia. | 0 | RUTA_ROMANCE
+9 | TEL |  | Pero apareciste tú... Y con nuestras revelaciones me salvaste. Gracias. | | Fue amor a primera vista. | 0 | RUTA_ROMANCE

@@ -16,8 +16,6 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 6 | You're just Chihaya to me. | 3
 7 | I don't think so. | 3
 7 | You shouldn't have tricked them. | 2
-7 | TEL | I'm done turning a blind eye. | Se acabó mirar hacia otro lado. | Are you gonna be okay? | ¿Vas a estar bien? | 2
-7 | TEL | I'm done turning a blind eye. | Se acabó mirar hacia otro lado. | Be careful. | Ten cuidado. | 2
 7 | DESBLOQUEO | Lectura especial del sino | Te muestra todas las habilidades del confidente que elijas.
 8 | I know. | 3
 8 | I had no idea. | 2
@@ -25,7 +23,6 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 8 | That's some good luck. | 3
 8 | It's because you're strong. | 3
 8 | Hell yeah I am. | 3
-8 | TEL | I think that's thanks to your influence. | Creo que es gracias a tu influencia. | It was all your own will. | Fue todo cosa de tu voluntad. | 2
 9 | Well, fate can be changed. | 3
 9 | That's all in the past now. | 2
 9 | I like having my fortune read. | 0
@@ -53,3 +50,10 @@ CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que comp
 6 | TEL |  | Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero. | | No te fatigues. | 0
 6 | TEL |  | Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero. | | La honestidad por bandera. | 2
 6 | TEL |  | Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero. | | Lo haremos entre los dos. | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+7 | TEL |  | ¡Estoy harta de hacer la vista gorda! | | ¿Te ves con fuerzas? | 2
+7 | TEL |  | ¡Estoy harta de hacer la vista gorda! | | Ten cuidado. | 2
+7 | TEL |  | ¡Estoy harta de hacer la vista gorda! | | Oráculo está entrando en acción. | 0
+8 | TEL |  | Pero me mantuve firme y creo que fue gracias a tu influencia. | | No es para tanto. | 0
+8 | TEL |  | Pero me mantuve firme y creo que fue gracias a tu influencia. | | Fue tu propia voluntad. | 2
+8 | TEL |  | Pero me mantuve firme y creo que fue gracias a tu influencia. | | Sabía que pasaría. | 0

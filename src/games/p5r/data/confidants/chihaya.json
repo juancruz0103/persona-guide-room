@@ -433,22 +433,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Chihaya",
      "prompt": {
-      "es": "Se acabó mirar hacia otro lado.",
-      "en": "I'm done turning a blind eye."
+      "es": "¡Estoy harta de hacer la vista gorda!",
+      "en": ""
      },
      "options": [
       {
-       "en": "Are you gonna be okay?",
-       "es": "¿Vas a estar bien?",
+       "en": "",
+       "es": "¿Te ves con fuerzas?",
        "points": 2
       },
       {
-       "en": "Be careful.",
+       "en": "",
        "es": "Ten cuidado.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Oráculo está entrando en acción.",
+       "points": 0
       }
      ]
     }
@@ -543,17 +547,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Chihaya",
      "prompt": {
-      "es": "Creo que es gracias a tu influencia.",
-      "en": "I think that's thanks to your influence."
+      "es": "Pero me mantuve firme y creo que fue gracias a tu influencia.",
+      "en": ""
      },
      "options": [
       {
-       "en": "It was all your own will.",
-       "es": "Fue todo cosa de tu voluntad.",
+       "en": "",
+       "es": "No es para tanto.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Fue tu propia voluntad.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Sabía que pasaría.",
+       "points": 0
       }
      ]
     }

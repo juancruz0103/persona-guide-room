@@ -364,17 +364,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Hifumi",
      "prompt": {
-      "es": "No pretendía ofenderte en absoluto. Espero que aceptes mis disculpas en su nombre.",
-      "en": "She didn't mean to offend you at all. I hope you'll accept my apology in her place."
+      "es": "No quería ofenderte, seguro. Espero que aceptes mis disculpas en su lugar.",
+      "en": ""
      },
      "options": [
       {
-       "en": "You've got a lot to deal with.",
-       "es": "Tienes mucho con lo que lidiar.",
+       "en": "",
+       "es": "No hay problema.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Tienes mucho con lo que lidiar...",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "¿Por qué pides perdón?",
+       "points": 0
       }
      ]
     }
@@ -447,17 +456,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Hifumi",
      "prompt": {
-      "es": "Teniendo en cuenta lo bien que escuchas, quiero decir.",
-      "en": "Considering how good a listener you are, I mean."
+      "es": "No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar.",
+      "en": ""
      },
      "options": [
       {
-       "en": "You're imagining things.",
-       "es": "Son imaginaciones tuyas.",
+       "en": "",
+       "es": "¿Eso crees?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Te lo estás imaginando.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Confiesa tus pecados, hija mía.",
+       "points": 0
       }
      ]
     }
@@ -595,6 +613,33 @@
        "points": 3
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Lo apoyo.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Piénsatelo bien.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Es admirable.",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [
@@ -707,6 +752,62 @@
       {
        "es": "Seremos amigos para siempre.",
        "en": "We'll be friends forever.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "friend",
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Por eso lo digo convencida. La derrota de hoy no ha sido un paso atrás, sino un salto adelante.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Es una buena forma de verlo.",
+       "points": 3
+      },
+      {
+       "en": "",
+       "es": "Le estás dando demasiadas vueltas.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "La próxima la ganamos.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "romance",
+     "speaker": "Hifumi",
+     "prompt": {
+      "es": "Pero apareciste tú... Y con nuestras revelaciones me salvaste. Gracias.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Lo que sea por ti.",
+       "points": 3
+      },
+      {
+       "en": "",
+       "es": "Fue una gran coincidencia.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Fue amor a primera vista.",
        "points": 0
       }
      ]

@@ -33,8 +33,6 @@
 8 | Did you stutter at all? | 2
 8 | You worked really hard too. | 3
 8 | You're making me blush... | 2
-8 | TEL | I'm so glad I cleared that goal. | Me alegro mucho de haber cumplido ese objetivo. | Congrats. | Enhorabuena. | 2
-8 | TEL | I'm so glad I cleared that goal. | Me alegro mucho de haber cumplido ese objetivo. | Want more pats? | ¿Quieres más palmaditas? | 2
 9 | You've really matured. | 3
 9 | And if you're bullied again? | 2
 9 | Are you okay, Futaba? | 3
@@ -73,3 +71,7 @@
 6 | TEL |  | Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto! | | ¿Piensas huir de nuevo? | 2
 6 | TEL |  | Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto! | | Tranquilízate primero. | 0
 6 | TEL |  | Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto! | | Estoy aquí contigo. | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+8 | TEL |  | Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo. | | Felicidades. | 2
+8 | TEL |  | Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo. | | Aún te quedan más. | 0
+8 | TEL |  | Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo. | | ¿Quieres más palmaditas? | 2

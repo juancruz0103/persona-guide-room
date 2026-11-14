@@ -603,20 +603,24 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "Me alegro mucho de haber cumplido ese objetivo.",
-      "en": "I'm so glad I cleared that goal."
+      "es": "Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Congrats.",
-       "es": "Enhorabuena.",
+       "en": "",
+       "es": "Felicidades.",
        "points": 2
       },
       {
-       "en": "Want more pats?",
+       "en": "",
+       "es": "Aún te quedan más.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "¿Quieres más palmaditas?",
        "points": 2
       }
