@@ -9,17 +9,13 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 3 | She was falsely accused? | 2
 4 | Of course we are. | 2
 4 | Don't tell anybody. | 2
-4 | TEL | I'll write you a solid article on the Phantom Thieves. | Te escribiré un buen artículo sobre los Ladrones Fantasma. | Leave it to me. | Déjamelo a mí. | 2
-4 | TEL | I'll write you a solid article on the Phantom Thieves. | Te escribiré un buen artículo sobre los Ladrones Fantasma. | That was our deal. | Ese era el trato. | 2
 3 | DESBLOQUEO | Exclusiva impactante | La alerta sube con menos facilidad y baja después de una emboscada.
 5 | That's unforgivable. | 3
 5 | That sounds like defamation. | 2
-5 | TEL | For me digging up your records and such without asking, I mean... | Por haber investigado tu historial sin preguntarte, me refiero... | I don't mind it. | No me importa. | 2
 6 | He must not like you. | 2
 6 | You should trust in her. | 2
 6 | That's the spirit. | 2
 6 | You're a great journalist. | 2
-6 | TEL | I'm only able to meet my insane quota because of the info you give me on the Phantom Thieves. | Solo llego a mi cuota absurda gracias a lo que me cuentas de los Ladrones Fantasma. | I'll dig up some more for you. | Te conseguiré más. | 2
 7 | Let's think of another way. | 3
 7 | Don't let him provoke you. | 3
 7 | Calm down. | 2
@@ -52,3 +48,13 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 4 | SINRECOMPENSA
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | NOIMPORTA
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+4 | TEL |  | Y te recompensaré con el poder del periodismo. Escribiré un buen artículo sobre los Ladrones. | | Yo me encargo. | 2
+4 | TEL |  | Y te recompensaré con el poder del periodismo. Escribiré un buen artículo sobre los Ladrones. | | Ese era nuestro trato. | 2
+4 | TEL |  | Y te recompensaré con el poder del periodismo. Escribiré un buen artículo sobre los Ladrones. | | Lo que sea por mi novia. | 0
+5 | TEL |  | Siento lo de antes, de verdad. Indagar en tus antecedentes sin preguntar ha sido... | | Me da igual. | 2
+5 | TEL |  | Siento lo de antes, de verdad. Indagar en tus antecedentes sin preguntar ha sido... | | Mientras yo no me quede sin nada... | 0
+5 | TEL |  | Siento lo de antes, de verdad. Indagar en tus antecedentes sin preguntar ha sido... | | Yo te hice lo mismo. | 0
+6 | TEL |  | Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma. | | Me alegra oír eso. | 0
+6 | TEL |  | Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma. | | No te mates a trabajar. | 0
+6 | TEL |  | Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma. | | Averiguaré más cosas para ti. | 2

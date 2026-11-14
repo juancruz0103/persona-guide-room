@@ -38,3 +38,7 @@ fotos confidentes/Makoto/Johana-de.png | johanna-de | - |
 fotos confidentes/Makoto/Johana-iz.png | johanna-iz | - |
 fotos confidentes/Yosuke/Kamu Susano-o-de.png | kamu-susano-o-de | - |
 fotos confidentes/Yosuke/Kamu Susano-o-iz.png | kamu-susano-o-iz | - |
+fotos confidentes/Futaba/Necronomicón-de.png | necronomicon-de | - |
+fotos confidentes/Futaba/Necronomicón-iz.png | necronomicon-iz | - |
+fotos confidentes/Makoto/Anat-de.png | anat-de | - |
+fotos confidentes/Makoto/Anat.iz.png | anat-iz | - |

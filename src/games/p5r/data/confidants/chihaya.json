@@ -145,17 +145,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Chihaya",
      "prompt": {
-      "es": "Ahora mismo estás delante de tu casa, ¿¡verdad!?",
-      "en": "You're currently standing right in front of your house, correct!?"
+      "es": "Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?!",
+      "en": ""
      },
      "options": [
       {
-       "en": "Of course I am.",
+       "en": "",
        "es": "Claro que sí.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "¿Y qué pasa?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Me estás espiando?",
+       "points": 0
       }
      ]
     }

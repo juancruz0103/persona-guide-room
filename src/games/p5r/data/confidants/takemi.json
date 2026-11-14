@@ -254,17 +254,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Tae",
      "prompt": {
-      "es": "Sobre todo después de aceptar la consulta de esa niña sin mi permiso.",
-      "en": "Especially after approving that girl's consultation without my permission."
+      "es": "Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'll reflect on my mistakes.",
+       "en": "",
        "es": "Reflexionaré sobre mis errores.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Pero ha terminado bien.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Castígame más.",
+       "points": 0
       }
      ]
     }

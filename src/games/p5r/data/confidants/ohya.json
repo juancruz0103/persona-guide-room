@@ -187,22 +187,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ichiko",
      "prompt": {
-      "es": "Te escribiré un buen artículo sobre los Ladrones Fantasma.",
-      "en": "I'll write you a solid article on the Phantom Thieves."
+      "es": "Y te recompensaré con el poder del periodismo. Escribiré un buen artículo sobre los Ladrones.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Leave it to me.",
-       "es": "Déjamelo a mí.",
+       "en": "",
+       "es": "Yo me encargo.",
        "points": 2
       },
       {
-       "en": "That was our deal.",
-       "es": "Ese era el trato.",
+       "en": "",
+       "es": "Ese era nuestro trato.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Lo que sea por mi novia.",
+       "points": 0
       }
      ]
     }
@@ -244,17 +248,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ichiko",
      "prompt": {
-      "es": "Por haber investigado tu historial sin preguntarte, me refiero...",
-      "en": "For me digging up your records and such without asking, I mean..."
+      "es": "Siento lo de antes, de verdad. Indagar en tus antecedentes sin preguntar ha sido...",
+      "en": ""
      },
      "options": [
       {
-       "en": "I don't mind it.",
-       "es": "No me importa.",
+       "en": "",
+       "es": "Me da igual.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Mientras yo no me quede sin nada...",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Yo te hice lo mismo.",
+       "points": 0
       }
      ]
     }
@@ -353,16 +366,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ichiko",
      "prompt": {
-      "es": "Solo llego a mi cuota absurda gracias a lo que me cuentas de los Ladrones Fantasma.",
-      "en": "I'm only able to meet my insane quota because of the info you give me on the Phantom Thieves."
+      "es": "Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'll dig up some more for you.",
-       "es": "Te conseguiré más.",
+       "en": "",
+       "es": "Me alegra oír eso.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "No te mates a trabajar.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Averiguaré más cosas para ti.",
        "points": 2
       }
      ]

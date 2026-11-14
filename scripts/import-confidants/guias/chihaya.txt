@@ -5,7 +5,6 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 2 | Encourage her. | ?
 2 | Overturn your fate! | ?
 2 | Open your mind to change. | 2
-2 | TEL | You're currently standing right in front of your house, correct!? | Ahora mismo estás delante de tu casa, ¿¡verdad!? | Of course I am. | Claro que sí. | 2
 3 | Follow his heart. | ?
 3 | Thieves may steal her away. | ?
 3 | DESBLOQUEO | Lectura de dinero | Después de una lectura, ganas más dinero en los combates por un tiempo.
@@ -45,3 +44,7 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que completar la misión de Mementos del rango 1. En el rango 9 te devuelve el dinero.
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | CONV | No te escabullas porque entonces tendré que recurrir a la magia negra. | Allí estaré.=3 ; Qué rollo.=0 ; Te estás pasando.=0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+2 | TEL |  | Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?! | | Claro que sí. | 2
+2 | TEL |  | Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?! | | ¿Y qué pasa? | 0
+2 | TEL |  | Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?! | | ¿Me estás espiando? | 0

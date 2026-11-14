@@ -16,7 +16,6 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 4 | You seem happy. | 3
 4 | You're so kind. | 2
 4 | Why free? | 2
-4 | TEL | Especially after approving that girl's consultation without my permission. | Sobre todo después de aceptar la consulta de esa niña sin mi permiso. | I'll reflect on my mistakes. | Reflexionaré sobre mis errores. | 2
 5 | That's good. | 3
 5 | When will it be done? | 2
 5 | TEL | Also... sorry for the long talk today. I wasn't planning on telling you all that. | Y... perdona por la charla tan larga de hoy. No pensaba contarte todo eso. | About Miwa-chan? | ¿Lo de Miwa-chan? | 2
@@ -60,3 +59,7 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 8 | SINRECOMPENSA
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | CONV | Según los resultados de hoy, creo que puedo crear un fármaco nuevo. Pásate cuando estés listo. | Me parece bien.=1 ; No te pases conmigo.=0 ; Cuántas lucecitas.=0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+4 | TEL |  | Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso. | | Reflexionaré sobre mis errores. | 2
+4 | TEL |  | Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso. | | Pero ha terminado bien. | 0
+4 | TEL |  | Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso. | | Castígame más. | 0
