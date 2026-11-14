@@ -453,17 +453,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ichiko",
      "prompt": {
-      "es": "¡Haré lo que haga falta para encontrarla...!",
-      "en": "I'll do whatever it takes to find her...!"
+      "es": "Pero ahora tengo una pista sobre Kayo. ¡Haré lo que haga falta para encontrarla!",
+      "en": ""
      },
      "options": [
       {
-       "en": "That's the spirit.",
-       "es": "Ese es el espíritu.",
+       "en": "",
+       "es": "Esa es la actitud.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Qué duro.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Tampoco te pases.",
+       "points": 0
       }
      ]
     }
@@ -541,22 +550,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ichiko",
      "prompt": {
-      "es": "A partir de ahora, siempre voy a perseguir la verdad.",
-      "en": "From now on, I'm always gonna chase the truth."
+      "es": "Soy periodista. A partir de ahora, iré siempre en busca de la verdad.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Good luck.",
+       "en": "",
        "es": "Buena suerte.",
        "points": 2
       },
       {
-       "en": "Be careful.",
-       "es": "Ten cuidado.",
+       "en": "",
+       "es": "Mucho cuidado.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Tráeme un regalito.",
+       "points": 0
       }
      ]
     }
@@ -686,6 +699,34 @@
       {
        "es": "No me lo he tomado en serio.",
        "en": "I didn't take it seriously.",
+       "points": 0
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "romance",
+     "speaker": "Ichiko",
+     "prompt": {
+      "es": "¿Tú no tienes nada que decirme? Porque este es el momento.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Quería oír tu voz.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Por favor, no me dejes.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "TeamoTeamoTeamo.",
        "points": 0
       }
      ]

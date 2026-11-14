@@ -180,17 +180,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Hifumi",
      "prompt": {
-      "es": "¿Cómo voy a enseñarte bien estando tan agobiada...?",
-      "en": "How can I teach you properly when I'm this distressed...?"
+      "es": "Pero no me parece justo. ¿Cómo voy a enseñarte si estoy así de angustiada?",
+      "en": ""
      },
      "options": [
       {
-       "en": "Bring it on.",
+       "en": "",
        "es": "Adelante.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "No te preocupes.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "También es parte de nuestro trato.",
+       "points": 0
       }
      ]
     }

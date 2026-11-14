@@ -21,14 +21,11 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 7 | Calm down. | 2
 7 | You're charming as you are. | 3
 7 | You should work on that. | 2
-7 | TEL | I'll do whatever it takes to find her...! | ¡Haré lo que haga falta para encontrarla...! | That's the spirit. | Ese es el espíritu. | 2
 7 | DESBLOQUEO | Exclusiva escandalosa | La alerta empieza todavía más baja al infiltrarte.
 8 | You seem tired. | 2
 8 | That's not like you. | 3
 8 | You need to pursue the truth. | 3
 8 | I'll go with you. | 3
-8 | TEL | From now on, I'm always gonna chase the truth. | A partir de ahora, siempre voy a perseguir la verdad. | Good luck. | Buena suerte. | 2
-8 | TEL | From now on, I'm always gonna chase the truth. | A partir de ahora, siempre voy a perseguir la verdad. | Be careful. | Ten cuidado. | 2
 9 | You're not giving up, are you? | 2
 9 | I can't leave you. | 3
 9 | I want to help. | 3
@@ -58,3 +55,13 @@ CONSEJO | Disponible cuando puedes ir a Shinjuku: Ohya está en el bar Crossroad
 6 | TEL |  | Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma. | | Me alegra oír eso. | 0
 6 | TEL |  | Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma. | | No te mates a trabajar. | 0
 6 | TEL |  | Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma. | | Averiguaré más cosas para ti. | 2
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+7 | TEL |  | Pero ahora tengo una pista sobre Kayo. ¡Haré lo que haga falta para encontrarla! | | Esa es la actitud. | 2
+7 | TEL |  | Pero ahora tengo una pista sobre Kayo. ¡Haré lo que haga falta para encontrarla! | | Qué duro. | 0
+7 | TEL |  | Pero ahora tengo una pista sobre Kayo. ¡Haré lo que haga falta para encontrarla! | | Tampoco te pases. | 0
+8 | TEL |  | Soy periodista. A partir de ahora, iré siempre en busca de la verdad. | | Buena suerte. | 2
+8 | TEL |  | Soy periodista. A partir de ahora, iré siempre en busca de la verdad. | | Mucho cuidado. | 2
+8 | TEL |  | Soy periodista. A partir de ahora, iré siempre en busca de la verdad. | | Tráeme un regalito. | 0
+9 | TEL |  | ¿Tú no tienes nada que decirme? Porque este es el momento. | | Quería oír tu voz. | 2 | RUTA_ROMANCE
+9 | TEL |  | ¿Tú no tienes nada que decirme? Porque este es el momento. | | Por favor, no me dejes. | 0 | RUTA_ROMANCE
+9 | TEL |  | ¿Tú no tienes nada que decirme? Porque este es el momento. | | TeamoTeamoTeamo. | 0 | RUTA_ROMANCE

@@ -37,7 +37,6 @@ CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 
 6 | Because we're similar. | 2
 6 | I think you're right. | 3
 6 | Can I put my clothes on? | 2
-6 | TEL | If they saw how I was acting today, perhaps they'd say I wasn't acting like the Detective Prince. | Si me hubieran visto hoy, quizá dirían que no me comportaba como el Príncipe Detective. | My bad, I guess. | Culpa mía, supongo. | 2
 7 | That's why it's so fun. | 3
 7 | Yeah, it's convoluted... | 2
 7 | I couldn't let myself lose. | 3
@@ -66,3 +65,7 @@ CONSEJO | Los rangos 9 y 10 llegan solos con la historia si llegaste al rango 8 
 5 | TEL |  | Espero no haber quedado como un novato. Ojalá hubiera jugado mejor. | | Lo has hecho bien. | 2
 5 | TEL |  | Espero no haber quedado como un novato. Ojalá hubiera jugado mejor. | | Aún te queda bastante. | 2
 5 | TEL |  | Espero no haber quedado como un novato. Ojalá hubiera jugado mejor. | | Se te estaba subiendo a la cabeza. | 2
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+6 | TEL |  | Si me hubieran visto hoy, quizá dirían que no estaba actuando como el Príncipe Detective. | | Cierto. | 0
+6 | TEL |  | Si me hubieran visto hoy, quizá dirían que no estaba actuando como el Príncipe Detective. | | Seguro que les encantaría. | 0
+6 | TEL |  | Si me hubieran visto hoy, quizá dirían que no estaba actuando como el Príncipe Detective. | | Culpa mía, supongo. | 2

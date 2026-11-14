@@ -319,17 +319,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Tae",
      "prompt": {
-      "es": "Y... perdona por la charla tan larga de hoy. No pensaba contarte todo eso.",
-      "en": "Also... sorry for the long talk today. I wasn't planning on telling you all that."
+      "es": "Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso.",
+      "en": ""
      },
      "options": [
       {
-       "en": "About Miwa-chan?",
-       "es": "¿Lo de Miwa-chan?",
+       "en": "",
+       "es": "¿Sobre Miwa?",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "¿Sobre Oyamada?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Sobre Crawford-Ende?",
+       "points": 0
       }
      ]
     }

@@ -78,17 +78,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "¿Crees que eso haría feliz a Sojiro?",
-      "en": "Do you think it'd make Sojiro happy?"
+      "es": "¿Crees que Sojiro se pondrá feliz?",
+      "en": ""
      },
      "options": [
       {
-       "en": "I bet it will.",
+       "en": "",
        "es": "Seguro que sí.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "No sé.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Y si le preguntas directamente?",
+       "points": 0
       }
      ]
     }
@@ -164,16 +173,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "¡Lo superaré en nada...! ¿Verdad?",
-      "en": "I'll clear it in no time...! Right?"
+      "es": "¡A este paso, acabaré en un periquete! ¿A que sí?",
+      "en": ""
      },
      "options": [
       {
-       "en": "We'll both do our best.",
-       "es": "Los dos lo daremos todo.",
+       "en": "",
+       "es": "Las cosas se complicarán.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Verás como sí.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Habrá que esforzarse.",
        "points": 2
       }
      ]
@@ -243,22 +261,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "El mundo real da mucho miedo...",
-      "en": "The real world is a scary place..."
+      "es": "Creo que me quedaría sin maná enseguida. El mundo real da miedo.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'll help you anytime.",
-       "es": "Te ayudaré siempre que lo necesites.",
-       "points": 3
+       "en": "",
+       "es": "Nos lo tomaremos con calma.",
+       "points": 2
       },
       {
-       "en": "We'll take it slow.",
-       "es": "Iremos poco a poco.",
-       "points": 2
+       "en": "",
+       "es": "Necesitas practicar más.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Te ayudaré cuando sea.",
+       "points": 3
       }
      ]
     }
@@ -331,17 +353,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "¡Se acabó tenerle miedo a la policía! ¡Venga, dime que soy guay!",
-      "en": "No more getting scared of the police! C'mon, tell me I'm cool!"
+      "es": "¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien!",
+      "en": ""
      },
      "options": [
       {
-       "en": "You did great.",
+       "en": "",
        "es": "Lo has hecho genial.",
        "points": 3
+      },
+      {
+       "en": "",
+       "es": "No tiene nada de especial.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¡Tin! ¡Has subido de nivel!",
+       "points": 0
       }
      ]
     }

@@ -42,3 +42,5 @@ fotos confidentes/Futaba/Necronomicón-de.png | necronomicon-de | - |
 fotos confidentes/Futaba/Necronomicón-iz.png | necronomicon-iz | - |
 fotos confidentes/Makoto/Anat-de.png | anat-de | - |
 fotos confidentes/Makoto/Anat.iz.png | anat-iz | - |
+fotos confidentes/Haru/Milady-de.png | milady-de | - |
+fotos confidentes/Haru/Milady-iz.png | milady-iz | - |

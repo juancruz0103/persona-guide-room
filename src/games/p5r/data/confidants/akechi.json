@@ -570,15 +570,24 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Goro",
      "prompt": {
-      "es": "Si me hubieran visto hoy, quizá dirían que no me comportaba como el Príncipe Detective.",
-      "en": "If they saw how I was acting today, perhaps they'd say I wasn't acting like the Detective Prince."
+      "es": "Si me hubieran visto hoy, quizá dirían que no estaba actuando como el Príncipe Detective.",
+      "en": ""
      },
      "options": [
       {
-       "en": "My bad, I guess.",
+       "en": "",
+       "es": "Cierto.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Seguro que les encantaría.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Culpa mía, supongo.",
        "points": 2
       }

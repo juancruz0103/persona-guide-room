@@ -20,16 +20,13 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «El tío rapiñador»: h
 5 | She wasn't normal, huh? | 3
 5 | Was she like Futaba? | 2
 5 | It really paid off in the end. | 2
-5 | TEL | It's only a problem when she asks for it three times a day. | Solo es un problema cuando lo pide tres veces al día. | She needs a balanced diet. | Necesita una dieta equilibrada. | 2
 5 | DESBLOQUEO | Gentileza +3 | Ganas 3 puntos extra de Gentileza.
 6 | To each his own. | 2
 6 | Shut your mouth. | 3
 6 | You're wrong. | 2
 6 | Saving Futaba was no mistake. | 2
-6 | TEL | Futaba's fast asleep... Didn't mean to get you tangled up in all this mess. | Futaba está dormida... No quería meterte en todo este lío. | If I can help somehow... | Si puedo ayudar en algo... | 2
 6 | DESBLOQUEO | Café superior | El café que preparas es de mejor calidad. Además, +3 de Gentileza.
 7 | You might be right. | 2
-7 | TEL | And that's only because you helped us connect, so... thanks for that. | Y eso es solo porque nos ayudaste a acercarnos, así que... gracias. | Feel like a real dad now? | ¿Ya te sientes un padre de verdad? | 2
 7 | DESBLOQUEO | Gentileza +3 | Ganas 3 puntos extra de Gentileza.
 8 | Something with curry. | 3
 8 | You want my suggestion? | 2
@@ -53,3 +50,13 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «El tío rapiñador»: h
 8 | SINRECOMPENSA
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | CONV | Tú haz lo que puedas y no te metas en líos, ¿eh? | Entendido.=3 ; Ese era el trato.=0 ; Es lo mínimo que puedo hacer.=0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+5 | TEL |  | Solo me supone un problema cuando lo pide tres veces al día. | | Suena bien. | 0
+5 | TEL |  | Solo me supone un problema cuando lo pide tres veces al día. | | Necesita una dieta equilibrada. | 2
+5 | TEL |  | Solo me supone un problema cuando lo pide tres veces al día. | | Siempre hay fideos instantáneos. | 0
+6 | TEL |  | Futaba duerme como un tronco. No pretendía meterte en este embrollo. | | ¿Está bien? | 0
+6 | TEL |  | Futaba duerme como un tronco. No pretendía meterte en este embrollo. | | Intenta relajarte. | 0
+6 | TEL |  | Futaba duerme como un tronco. No pretendía meterte en este embrollo. | | Si puedo ayudar de alguna forma... | 2
+7 | TEL |  | Y todo porque nos ayudaste a conectar, así que... gracias. | | Me alegro mucho. | 0
+7 | TEL |  | Y todo porque nos ayudaste a conectar, así que... gracias. | | De nada. | 0
+7 | TEL |  | Y todo porque nos ayudaste a conectar, así que... gracias. | | ¿Ahora te sientes como un padre? | 2

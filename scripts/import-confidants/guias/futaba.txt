@@ -5,25 +5,20 @@
 2 | That's a great idea. | 2
 2 | If we work together. | 3
 2 | Want me to help? | 2
-2 | TEL | Do you think it'd make Sojiro happy? | ¿Crees que eso haría feliz a Sojiro? | I bet it will. | Seguro que sí. | 2
 2 | DESBLOQUEO | Análisis de Mementos | Al entrar en un piso de Mementos, Futaba puede revelar el mapa completo.
 3 | I was about to come find you. | 3
 3 | Good to see you again. | 3
 3 | You're the one who appeared. | 2
-3 | TEL | I'll clear it in no time...! Right? | ¡Lo superaré en nada...! ¿Verdad? | We'll both do our best. | Los dos lo daremos todo. | 2
 4 | Let's do this together. | 3
 4 | Nope. | 2
 4 | I think it's cute. | 3
 4 | Everyone does it. | 2
 4 | Not at all. | 2
-4 | TEL | The real world is a scary place... | El mundo real da mucho miedo... | I'll help you anytime. | Te ayudaré siempre que lo necesites. | 3
-4 | TEL | The real world is a scary place... | El mundo real da mucho miedo... | We'll take it slow. | Iremos poco a poco. | 2
 4 | DESBLOQUEO | Manipulac. posicional | A veces el combate empieza con un atraco a las Sombras.
 5 | I think you're right. | 3
 5 | Your... what? | 2
 5 | He's the protagonist. | 3
 5 | What's an NPC? | 2
-5 | TEL | No more getting scared of the police! C'mon, tell me I'm cool! | ¡Se acabó tenerle miedo a la policía! ¡Venga, dime que soy guay! | You did great. | Lo has hecho genial. | 3
 6 | That must have been a shock. | 3
 6 | Were you happy? | 2
 6 | You didn't know any better. | 2
@@ -62,3 +57,16 @@
 10 | DESBLOQUEO | Segundo despertar R | En el tercer semestre la Persona de Futaba vuelve a evolucionar, a Al Azif.
 # Anotado en partida (rango 1 / llamadas), texto oficial en español
 1 | NOIMPORTA
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+2 | TEL |  | ¿Crees que Sojiro se pondrá feliz? | | Seguro que sí. | 2
+2 | TEL |  | ¿Crees que Sojiro se pondrá feliz? | | No sé. | 0
+2 | TEL |  | ¿Crees que Sojiro se pondrá feliz? | | ¿Y si le preguntas directamente? | 0
+3 | TEL |  | ¡A este paso, acabaré en un periquete! ¿A que sí? | | Las cosas se complicarán. | 0
+3 | TEL |  | ¡A este paso, acabaré en un periquete! ¿A que sí? | | Verás como sí. | 0
+3 | TEL |  | ¡A este paso, acabaré en un periquete! ¿A que sí? | | Habrá que esforzarse. | 2
+4 | TEL |  | Creo que me quedaría sin maná enseguida. El mundo real da miedo. | | Nos lo tomaremos con calma. | 2
+4 | TEL |  | Creo que me quedaría sin maná enseguida. El mundo real da miedo. | | Necesitas practicar más. | 0
+4 | TEL |  | Creo que me quedaría sin maná enseguida. El mundo real da miedo. | | Te ayudaré cuando sea. | 3
+5 | TEL |  | ¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien! | | Lo has hecho genial. | 3
+5 | TEL |  | ¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien! | | No tiene nada de especial. | 0
+5 | TEL |  | ¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien! | | ¡Tin! ¡Has subido de nivel! | 0

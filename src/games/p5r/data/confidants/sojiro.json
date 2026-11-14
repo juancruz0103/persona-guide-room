@@ -410,17 +410,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "Solo es un problema cuando lo pide tres veces al día.",
-      "en": "It's only a problem when she asks for it three times a day."
+      "es": "Solo me supone un problema cuando lo pide tres veces al día.",
+      "en": ""
      },
      "options": [
       {
-       "en": "She needs a balanced diet.",
+       "en": "",
+       "es": "Suena bien.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Necesita una dieta equilibrada.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Siempre hay fideos instantáneos.",
+       "points": 0
       }
      ]
     }
@@ -518,16 +527,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "Futaba está dormida... No quería meterte en todo este lío.",
-      "en": "Futaba's fast asleep... Didn't mean to get you tangled up in all this mess."
+      "es": "Futaba duerme como un tronco. No pretendía meterte en este embrollo.",
+      "en": ""
      },
      "options": [
       {
-       "en": "If I can help somehow...",
-       "es": "Si puedo ayudar en algo...",
+       "en": "",
+       "es": "¿Está bien?",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Intenta relajarte.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Si puedo ayudar de alguna forma...",
        "points": 2
       }
      ]
@@ -574,16 +592,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "Y eso es solo porque nos ayudaste a acercarnos, así que... gracias.",
-      "en": "And that's only because you helped us connect, so... thanks for that."
+      "es": "Y todo porque nos ayudaste a conectar, así que... gracias.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Feel like a real dad now?",
-       "es": "¿Ya te sientes un padre de verdad?",
+       "en": "",
+       "es": "Me alegro mucho.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "De nada.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Ahora te sientes como un padre?",
        "points": 2
       }
      ]

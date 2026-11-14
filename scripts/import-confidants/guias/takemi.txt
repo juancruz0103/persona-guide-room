@@ -18,7 +18,6 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 4 | Why free? | 2
 5 | That's good. | 3
 5 | When will it be done? | 2
-5 | TEL | Also... sorry for the long talk today. I wasn't planning on telling you all that. | Y... perdona por la charla tan larga de hoy. No pensaba contarte todo eso. | About Miwa-chan? | ¿Lo de Miwa-chan? | 2
 5 | DESBLOQUEO | Inmunización | La clínica vende objetos de apoyo.
 6 | It suits you. | 3
 6 | You're not honest. | 2
@@ -63,3 +62,7 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 4 | TEL |  | Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso. | | Reflexionaré sobre mis errores. | 2
 4 | TEL |  | Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso. | | Pero ha terminado bien. | 0
 4 | TEL |  | Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso. | | Castígame más. | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+5 | TEL |  | Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso. | | ¿Sobre Miwa? | 2
+5 | TEL |  | Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso. | | ¿Sobre Oyamada? | 0
+5 | TEL |  | Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso. | | ¿Sobre Crawford-Ende? | 0
