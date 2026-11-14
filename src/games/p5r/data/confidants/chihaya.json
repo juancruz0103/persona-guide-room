@@ -630,6 +630,33 @@
        "romance": true
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "speaker": "Chihaya",
+     "prompt": {
+      "es": "Si tienes problemas, ven y te haré una lectura.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Cuenta con ello.",
+       "points": 2
+      },
+      {
+       "en": "",
+       "es": "Si me apetece, iré.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Quiero una de esas piedras.",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [

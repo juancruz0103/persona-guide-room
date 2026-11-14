@@ -57,3 +57,7 @@ CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que comp
 8 | TEL |  | Pero me mantuve firme y creo que fue gracias a tu influencia. | | No es para tanto. | 0
 8 | TEL |  | Pero me mantuve firme y creo que fue gracias a tu influencia. | | Fue tu propia voluntad. | 2
 8 | TEL |  | Pero me mantuve firme y creo que fue gracias a tu influencia. | | Sabía que pasaría. | 0
+# Rango 9: misma llamada en las dos rutas (capturas de Juan)
+9 | TEL |  | Si tienes problemas, ven y te haré una lectura. | | Cuenta con ello. | 2
+9 | TEL |  | Si tienes problemas, ven y te haré una lectura. | | Si me apetece, iré. | 0
+9 | TEL |  | Si tienes problemas, ven y te haré una lectura. | | Quiero una de esas piedras. | 0
