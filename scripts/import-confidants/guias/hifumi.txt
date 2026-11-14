@@ -11,8 +11,6 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipu
 4 | I didn't mind. | 2
 4 | Must've been the katsu curry. | 2
 4 | They're cool. | 2
-4 | TEL | Really, I would be delighted to do this again. | De verdad, me encantaría repetirlo. | I'd love to. | Me encantaría. | 2
-4 | TEL | Really, I would be delighted to do this again. | De verdad, me encantaría repetirlo. | Where shall we go next? | ¿Adónde vamos la próxima vez? | 2
 4 | DESBLOQUEO | Jinbocho | Se desbloquea el barrio de las librerías.
 5 | She's scary. | 2
 5 | You should stop then. | 2
@@ -50,3 +48,7 @@ CONSEJO | En el rango 8 aparece la misión de Mementos «Freno a la madre manipu
 3 | TEL |  | Pero no me parece justo. ¿Cómo voy a enseñarte si estoy así de angustiada? | | Adelante. | 2
 3 | TEL |  | Pero no me parece justo. ¿Cómo voy a enseñarte si estoy así de angustiada? | | No te preocupes. | 0
 3 | TEL |  | Pero no me parece justo. ¿Cómo voy a enseñarte si estoy así de angustiada? | | También es parte de nuestro trato. | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+4 | TEL |  | Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto. | | Me encantaría. | 2
+4 | TEL |  | Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto. | | A ver si lo cuadramos. | 0
+4 | TEL |  | Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto. | | ¿A dónde vamos ahora? | 2

@@ -44,3 +44,5 @@ fotos confidentes/Makoto/Anat-de.png | anat-de | - |
 fotos confidentes/Makoto/Anat.iz.png | anat-iz | - |
 fotos confidentes/Haru/Milady-de.png | milady-de | - |
 fotos confidentes/Haru/Milady-iz.png | milady-iz | - |
+fotos confidentes/Kasumi/Cendrillon-de.png | cendrillon-de | - |
+fotos confidentes/Kasumi/Cendrillon-iz.png | cendrillon-iz | - |

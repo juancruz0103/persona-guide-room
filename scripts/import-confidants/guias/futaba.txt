@@ -22,7 +22,6 @@
 6 | That must have been a shock. | 3
 6 | Were you happy? | 2
 6 | You didn't know any better. | 2
-6 | TEL | I get so scared... | Me entra tanto miedo... | Are you running away again? | ¿Vas a huir otra vez? | 2
 6 | DESBLOQUEO | Apoyo activo | Apoyo moral a veces también carga ataques o recupera SP.
 7 | What horrible parents. | 2
 7 | We have to put a stop to this. | 2
@@ -70,3 +69,7 @@
 5 | TEL |  | ¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien! | | Lo has hecho genial. | 3
 5 | TEL |  | ¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien! | | No tiene nada de especial. | 0
 5 | TEL |  | ¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien! | | ¡Tin! ¡Has subido de nivel! | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+6 | TEL |  | Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto! | | ¿Piensas huir de nuevo? | 2
+6 | TEL |  | Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto! | | Tranquilízate primero. | 0
+6 | TEL |  | Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto! | | Estoy aquí contigo. | 0

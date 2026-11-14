@@ -272,21 +272,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Hifumi",
      "prompt": {
-      "es": "De verdad, me encantaría repetirlo.",
-      "en": "Really, I would be delighted to do this again."
+      "es": "Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'd love to.",
+       "en": "",
        "es": "Me encantaría.",
        "points": 2
       },
       {
-       "en": "Where shall we go next?",
-       "es": "¿Adónde vamos la próxima vez?",
+       "en": "",
+       "es": "A ver si lo cuadramos.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿A dónde vamos ahora?",
        "points": 2
       }
      ]

@@ -441,17 +441,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Futaba",
      "prompt": {
-      "es": "Me entra tanto miedo...",
-      "en": "I get so scared..."
+      "es": "Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto!",
+      "en": ""
      },
      "options": [
       {
-       "en": "Are you running away again?",
-       "es": "¿Vas a huir otra vez?",
+       "en": "",
+       "es": "¿Piensas huir de nuevo?",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Tranquilízate primero.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Estoy aquí contigo.",
+       "points": 0
       }
      ]
     }

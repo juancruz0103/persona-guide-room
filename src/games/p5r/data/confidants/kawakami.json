@@ -808,6 +808,34 @@
        "romance": true
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "friend",
+     "speaker": "Sadayo",
+     "prompt": {
+      "es": "Con el paso del tiempo, todo eso se disipó. Reavivar esa pasión parece fácil, pero cuesta mucho.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Estoy de acuerdo.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¡Tú puedes!",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Eras una buena sirvienta.",
+       "points": 0
+      }
+     ]
     }
    ],
    "unlocks": [],

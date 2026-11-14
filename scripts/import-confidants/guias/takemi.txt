@@ -21,8 +21,6 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 5 | DESBLOQUEO | Inmunización | La clínica vende objetos de apoyo.
 6 | It suits you. | 3
 6 | You're not honest. | 2
-6 | TEL | I'll need you to stick around just a little bit longer. I hope you can handle it. | Voy a necesitar que aguantes un poco más. Espero que puedas. | You can count on me. | Puedes contar conmigo. | 0
-6 | TEL | I'll need you to stick around just a little bit longer. I hope you can handle it. | Voy a necesitar que aguantes un poco más. Espero que puedas. | Anything for you. | Lo que sea por ti. | 2
 7 | This is harassment. | 2
 7 | She's a great doctor. | 2
 7 | Please be quiet. | 2
@@ -38,8 +36,6 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 8 | It's for you. | 3
 8 | It's for Miwa-chan. | 3
 8 | It's for my exams. | 2
-8 | TEL | Miwa-chan was fighting all that time. I have to fight for her, too. | Miwa-chan estuvo luchando todo ese tiempo. Yo también tengo que luchar por ella. | I'll be cheering you on. | Te estaré animando. | 2
-8 | TEL | Miwa-chan was fighting all that time. I have to fight for her, too. | Miwa-chan estuvo luchando todo ese tiempo. Yo también tengo que luchar por ella. | Anything else I can do? | ¿Puedo hacer algo más? | 2
 9 | It was rough. | 3
 9 | Don't worry about it. | 2
 9 | I wanted to see you. | 0 | ROMANCE
@@ -66,3 +62,10 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 5 | TEL |  | Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso. | | ¿Sobre Miwa? | 2
 5 | TEL |  | Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso. | | ¿Sobre Oyamada? | 0
 5 | TEL |  | Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso. | | ¿Sobre Crawford-Ende? | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+6 | TEL |  | Necesito que me ayudes un poco más, así que aguanta. | | Cuenta conmigo. | 0
+6 | TEL |  | Necesito que me ayudes un poco más, así que aguanta. | | Creo que no puedo más... | 0
+6 | TEL |  | Necesito que me ayudes un poco más, así que aguanta. | | Lo que sea por ti. | 2
+8 | TEL |  | Miwa nunca se rendía. Yo también tengo que luchar por ella. | | Te estaré animando. | 2
+8 | TEL |  | Miwa nunca se rendía. Yo también tengo que luchar por ella. | | No hace falta que te pases. | 0
+8 | TEL |  | Miwa nunca se rendía. Yo también tengo que luchar por ella. | | ¿Hay algo que pueda hacer? | 2

@@ -10,12 +10,10 @@ CONSEJO | Chihaya está en Shinjuku por la noche los martes, jueves, sábados y 
 3 | DESBLOQUEO | Lectura de dinero | Después de una lectura, ganas más dinero en los combates por un tiempo.
 4 | Trust in yourself. | 3
 4 | Strengthen your will. | 2
-4 | TEL | Talking to you about everything is helping me feel a little better. | Hablar contigo de todo me está ayudando a sentirme un poco mejor. | I didn't do much. | No he hecho gran cosa. | 2
 5 | You're such a hard worker. | 3
 5 | You must have lots of free time. | 2
 5 | DESBLOQUEO | Lectura de afinidad | Después de una lectura, ganas un punto con el confidente que elijas.
 6 | You're just Chihaya to me. | 3
-6 | TEL | I just can't find the courage to say what I need to... | No encuentro el valor para decir lo que tengo que decir... | Be honest with yourself. | Sé sincera contigo misma. | 2
 7 | I don't think so. | 3
 7 | You shouldn't have tricked them. | 2
 7 | TEL | I'm done turning a blind eye. | Se acabó mirar hacia otro lado. | Are you gonna be okay? | ¿Vas a estar bien? | 2
@@ -48,3 +46,10 @@ CONSEJO | La Piedra Sagrada no funciona: para empezar el confidente hay que comp
 2 | TEL |  | Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?! | | Claro que sí. | 2
 2 | TEL |  | Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?! | | ¿Y qué pasa? | 0
 2 | TEL |  | Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?! | | ¿Me estás espiando? | 0
+# Llamadas verificadas en partida (capturas de Juan): texto oficial
+4 | TEL |  | Pero hablar contigo de todo me ayuda a sentirme mejor. | | Me alegra oír eso. | 0
+4 | TEL |  | Pero hablar contigo de todo me ayuda a sentirme mejor. | | No he hecho gran cosa. | 2
+4 | TEL |  | Pero hablar contigo de todo me ayuda a sentirme mejor. | | Cuéntame más sobre tu casa. | 0
+6 | TEL |  | Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero. | | No te fatigues. | 0
+6 | TEL |  | Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero. | | La honestidad por bandera. | 2
+6 | TEL |  | Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero. | | Lo haremos entre los dos. | 0

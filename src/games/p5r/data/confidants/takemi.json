@@ -384,20 +384,24 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Tae",
      "prompt": {
-      "es": "Voy a necesitar que aguantes un poco más. Espero que puedas.",
-      "en": "I'll need you to stick around just a little bit longer. I hope you can handle it."
+      "es": "Necesito que me ayudes un poco más, así que aguanta.",
+      "en": ""
      },
      "options": [
       {
-       "en": "You can count on me.",
-       "es": "Puedes contar conmigo.",
+       "en": "",
+       "es": "Cuenta conmigo.",
        "points": 0
       },
       {
-       "en": "Anything for you.",
+       "en": "",
+       "es": "Creo que no puedo más...",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "Lo que sea por ti.",
        "points": 2
       }
@@ -592,21 +596,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Tae",
      "prompt": {
-      "es": "Miwa-chan estuvo luchando todo ese tiempo. Yo también tengo que luchar por ella.",
-      "en": "Miwa-chan was fighting all that time. I have to fight for her, too."
+      "es": "Miwa nunca se rendía. Yo también tengo que luchar por ella.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I'll be cheering you on.",
+       "en": "",
        "es": "Te estaré animando.",
        "points": 2
       },
       {
-       "en": "Anything else I can do?",
-       "es": "¿Puedo hacer algo más?",
+       "en": "",
+       "es": "No hace falta que te pases.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "¿Hay algo que pueda hacer?",
        "points": 2
       }
      ]

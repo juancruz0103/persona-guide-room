@@ -273,17 +273,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Chihaya",
      "prompt": {
-      "es": "Hablar contigo de todo me está ayudando a sentirme un poco mejor.",
-      "en": "Talking to you about everything is helping me feel a little better."
+      "es": "Pero hablar contigo de todo me ayuda a sentirme mejor.",
+      "en": ""
      },
      "options": [
       {
-       "en": "I didn't do much.",
+       "en": "",
+       "es": "Me alegra oír eso.",
+       "points": 0
+      },
+      {
+       "en": "",
        "es": "No he hecho gran cosa.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Cuéntame más sobre tu casa.",
+       "points": 0
       }
      ]
     }
@@ -363,17 +372,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Chihaya",
      "prompt": {
-      "es": "No encuentro el valor para decir lo que tengo que decir...",
-      "en": "I just can't find the courage to say what I need to..."
+      "es": "Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero.",
+      "en": ""
      },
      "options": [
       {
-       "en": "Be honest with yourself.",
-       "es": "Sé sincera contigo misma.",
+       "en": "",
+       "es": "No te fatigues.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "La honestidad por bandera.",
        "points": 2
+      },
+      {
+       "en": "",
+       "es": "Lo haremos entre los dos.",
+       "points": 0
       }
      ]
     }
