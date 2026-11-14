@@ -726,6 +726,62 @@
        "points": 0
       }
      ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "friend",
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Eres el mejor conejillo de Indias que podía tener.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "De nada.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Ha estado chupado.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Me alegro de haberlo conseguido.",
+       "points": 2
+      }
+     ]
+    },
+    {
+     "kind": "phone",
+     "royalOnly": true,
+     "romance": false,
+     "route": "romance",
+     "speaker": "Tae",
+     "prompt": {
+      "es": "Parece que mi conejillo de Indias ha pillado una enfermedad más severa que Crawford-Ende.",
+      "en": ""
+     },
+     "options": [
+      {
+       "en": "",
+       "es": "Es amor verdadero.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Tú también.",
+       "points": 0
+      },
+      {
+       "en": "",
+       "es": "Siempre te he amado.",
+       "points": 2
+      }
+     ]
     }
    ],
    "unlocks": [

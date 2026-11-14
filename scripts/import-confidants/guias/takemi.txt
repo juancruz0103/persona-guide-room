@@ -69,3 +69,10 @@ CONSEJO | Disponible desde el 18 de abril en la clínica cerca de Leblanc. Takem
 8 | TEL |  | Miwa nunca se rendía. Yo también tengo que luchar por ella. | | Te estaré animando. | 2
 8 | TEL |  | Miwa nunca se rendía. Yo también tengo que luchar por ella. | | No hace falta que te pases. | 0
 8 | TEL |  | Miwa nunca se rendía. Yo también tengo que luchar por ella. | | ¿Hay algo que pueda hacer? | 2
+# Rango 9: llamada según la ruta (capturas de Juan)
+9 | TEL |  | Eres el mejor conejillo de Indias que podía tener. | | De nada. | 0 | RUTA_AMISTAD
+9 | TEL |  | Eres el mejor conejillo de Indias que podía tener. | | Ha estado chupado. | 0 | RUTA_AMISTAD
+9 | TEL |  | Eres el mejor conejillo de Indias que podía tener. | | Me alegro de haberlo conseguido. | 2 | RUTA_AMISTAD
+9 | TEL |  | Parece que mi conejillo de Indias ha pillado una enfermedad más severa que Crawford-Ende. | | Es amor verdadero. | 0 | RUTA_ROMANCE
+9 | TEL |  | Parece que mi conejillo de Indias ha pillado una enfermedad más severa que Crawford-Ende. | | Tú también. | 0 | RUTA_ROMANCE
+9 | TEL |  | Parece que mi conejillo de Indias ha pillado una enfermedad más severa que Crawford-Ende. | | Siempre te he amado. | 2 | RUTA_ROMANCE
