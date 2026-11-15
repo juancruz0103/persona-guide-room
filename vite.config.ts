@@ -2,10 +2,11 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// `base` debe coincidir con el nombre del repositorio para GitHub Pages:
+// En Cloudflare Pages (CF_PAGES=1) el sitio vive en la raíz del dominio.
+// En GitHub Pages `base` debe coincidir con el nombre del repositorio:
 // https://juancruz0103.github.io/persona-guide-room/
 export default defineConfig({
-  base: '/persona-guide-room/',
+  base: process.env.CF_PAGES ? '/' : '/persona-guide-room/',
   plugins: [react()],
   test: {
     environment: 'node',
