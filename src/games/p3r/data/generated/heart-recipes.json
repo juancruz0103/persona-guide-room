@@ -1,0 +1,2979 @@
+{
+ "recipes": {
+  "Soul Sea Driblet": [
+   {
+    "result": {
+     "en": "Holy Knight Sword",
+     "es": "Espada de caballero sagrado",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 30,
+      "Accuracy": 85
+     },
+     "desc": "Una espada que cambia la afinidad del ataque a luz. Para ."
+    },
+    "materials": [
+     {
+      "item": "Black Sword",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 5
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Alicorn",
+     "es": "Alicornio",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un accesorio con forma de cuerno de unicornio. Evita Veneno."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Narcissus Flower",
+     "es": "Flor de Narciso",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una flor de adorno que acaba con toda tentación. Evita Manipulación."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Unbreakable Cage",
+     "es": "Jaula irrompible",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un adorno que recuerda a una horda de espíritus. Evita Confusión."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Serpent's Eye",
+     "es": "Ojo de víbora",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un globo ocular del tamaño de una mano. Apretarlo ayuda a calmar los nervios. Evita Miedo."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Staunch Anklets",
+     "es": "Tobilleras firmes",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una bola y una cadena. Es extrañamente reconfortante. Evita Angustia."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Ring of Serenity",
+     "es": "Anillo de serenidad",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un anillo azul de lujo. Disipa la rabia al observarlo. Evita Furia."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Alarm Watch",
+     "es": "Despertador",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace tanto ruido que quien lo lleva no se distrae. Evita Mareo."
+    },
+    "materials": [
+     {
+      "item": "Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Gale Bow",
+     "es": "Arco de vendaval",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 120,
+      "Accuracy": 88
+     },
+     "desc": "Un arco largo que cambia la afinidad del ataque a viento. Para Yukari."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Night Falcon",
+     "es": "Halcón nocturno",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 100,
+      "Accuracy": 85
+     },
+     "desc": "Una espada de embestida que cambia la afinidad del ataque a oscuridad. Para Mitsuru."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Blessed Lance",
+     "es": "Lanza bendita",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 80,
+      "Accuracy": 88
+     },
+     "desc": "Una lanza ceremonial que cambia la afinidad del ataque a luz. Para Amada."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Flaring Flair",
+     "es": "Vestido deslumbrante",
+     "kind": "armor",
+     "stats": {
+      "Defence": 120
+     },
+     "desc": "Un vestido elegante y cálido. Perfecto para Yukari."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 2
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Genbu's Leggings",
+     "es": "Mallas Genbu",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 50,
+      "Strength": 3
+     },
+     "desc": "Protector para piernas similar a un caparazón de tortuga. Probabilidad baja de repeler ataques físicos."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Black Quartz",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Ver. 0 Armor",
+     "es": "Armadura ver. 0",
+     "kind": "armor",
+     "stats": {
+      "Defence": 137
+     },
+     "desc": "Prototipo de armadura para Aigis. Se dejó de fabricar tras la fase piloto."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 2
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Ergotite Legs",
+     "es": "Piernas de ergotita",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 64
+     },
+     "desc": "Equipamiento de pierna para Aigis. Restaura un poco los PS durante el combate."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Driblet",
+      "n": 1
+     },
+     {
+      "item": "Black Quartz",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Soul Sea Droplet": [
+   {
+    "result": {
+     "en": "Blazing Greatsword",
+     "es": "Mandoble ardiente",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 90,
+      "Accuracy": 90
+     },
+     "desc": "Una espada templada que cambia la afinidad del ataque a fuego. Para Junpei."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Thunder Knuckles",
+     "es": "Nudilleras de trueno",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 120,
+      "Accuracy": 80
+     },
+     "desc": "Guantes electrificados que cambian la afinidad del ataque a electricidad. Para Sanada."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Hazakura",
+     "es": "Hazakura",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 130,
+      "Accuracy": 85
+     },
+     "desc": "Una espada que cambia la afinidad del ataque a viento. Para Koromaru."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 2
+     },
+     {
+      "item": "Emerald",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Power Enhancer",
+     "es": "Potenciador de poder",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace que quien lo lleva sea más fuerte temporalmente al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Guard Enhancer",
+     "es": "Potenciador de prot.",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace que quien lo lleva sea más resistente temporalmente al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Speed Enhancer",
+     "es": "Potenciador de vel.",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace que quien lo lleva sea más ágil temporalmente al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Critical Enhancer",
+     "es": "Potenciador de críticos",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Aumenta temporalmente la probabilidad de críticos de quien lo lleva al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Red Shawl",
+     "es": "Mantón rojo",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un mantón que resiste el daño de fuego durante 3 turnos al empezar el combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Blue Shawl",
+     "es": "Mantón azul",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un mantón que resiste el daño de hielo durante 3 turnos al empezar el combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Yellow Shawl",
+     "es": "Mantón amarillo",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un mantón que otorga \"Resistir electricidad\" que dura 3 turnos al empezar el combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Green Shawl",
+     "es": "Mantón verde",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un mantón que resiste el daño de viento durante 3 turnos al empezar el combate."
+    },
+    "materials": [
+     {
+      "item": "Quality Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Erinys",
+     "es": "Erinys",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 100,
+      "Accuracy": 85
+     },
+     "desc": "Una lanza corta siniestra que cambia la afinidad del ataque a oscuridad. Para Mitsuru."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 2
+     },
+     {
+      "item": "Emerald",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Fifth Number",
+     "es": "Quinto modelo",
+     "kind": "armor",
+     "stats": {
+      "Defence": 259
+     },
+     "desc": "Armadura de lo más resistente para Aigis. Potencia muchísimo la resistencia."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 2
+     },
+     {
+      "item": "Emerald",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Free Walkers",
+     "es": "Andadores libres",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 40
+     },
+     "desc": "Equipamiento de pierna para Aigis. Cuenta con un sistema de recuperación de calor."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 2
+     },
+     {
+      "item": "Topaz",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Bracelet of Life",
+     "es": "Brazalete de vida",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un brazalete que permite sobrevivir a un ataque de muerte instantánea con 1 PS."
+    },
+    "materials": [
+     {
+      "item": "Prime Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 3
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Amulet of Vertigo",
+     "es": "Talismán de vértigo",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una chapa de madera que aumenta la probabilidad de infligir Mareo."
+    },
+    "materials": [
+     {
+      "item": "Prime Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Droplet",
+      "n": 3
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Thunder Whetstone": [
+   {
+    "result": {
+     "en": "Mjolnir",
+     "es": "Mjolnir",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 350,
+      "Accuracy": 90,
+      "Strength": 7
+     },
+     "desc": "Un martillo sagrado que cambia la afinidad del ataque a electricidad. Para Aragaki."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Thunder Whetstone",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Lightning Gloves",
+     "es": "Guantes relámpago",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Guantes que llevó el dios del trueno. Disipa toda electricidad."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Thunder Whetstone",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Jacktite": [
+   {
+    "result": {
+     "en": "Jack Jumper",
+     "es": "Chaqueta Jack",
+     "kind": "armor",
+     "stats": {
+      "Defence": 120
+     },
+     "desc": "Ropa cómoda con una mascota adorable para ."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Shard",
+      "n": 1
+     },
+     {
+      "item": "Jacktite",
+      "n": 1
+     },
+     {
+      "item": "Black Quartz",
+      "n": 3
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Jack's Gauntlets",
+     "es": "Guanteletes de Jack",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 270,
+      "Accuracy": 85
+     },
+     "desc": "Guantes técnicos que alteran el ritmo del rival. Para Sanada."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Black Frostite",
+      "n": 1
+     },
+     {
+      "item": "Jacktite",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Soul Sea Drop": [
+   {
+    "result": {
+     "en": "Amakuni",
+     "es": "Amakuni",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 200,
+      "Accuracy": 90
+     },
+     "desc": "Una espada que cambia la afinidad del ataque a luz. Para ."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Garnet",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Power Transmitter",
+     "es": "Transmisor de poder",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace que todos los aliados sean más fuertes temporalmente al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Prime Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Emerald",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Guard Transmitter",
+     "es": "Transmisor de guardia",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace que todos los aliados sean más resistentes temporalmente al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Prime Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Emerald",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Speed Transmitter",
+     "es": "Transmisor de velocidad",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Hace que todos los aliados sean más ágiles temporalmente al empezar un combate."
+    },
+    "materials": [
+     {
+      "item": "Prime Nihil Ore",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Emerald",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Pandemonium",
+     "es": "Pandemónium",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 400,
+      "Accuracy": 93,
+      "Agility": 7
+     },
+     "desc": "Un arma de fuego robusta cuyos disparos atraviesan las resistencias. Para Aigis."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Underworld Kunai",
+     "es": "Kunai del inframundo",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 330,
+      "Accuracy": 96,
+      "Magic": 5
+     },
+     "desc": "Un kunai que cambia la afinidad del ataque a oscuridad. Para Koromaru."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Fallen Noble Armor",
+     "es": "Armadura del noble caído",
+     "kind": "armor",
+     "stats": {
+      "Defence": 345
+     },
+     "desc": "Armadura que llevaba un aristócrata caído. Anula los estados alterados mentales."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Papillon Method",
+     "es": "Método mariposa",
+     "kind": "armor",
+     "stats": {
+      "Defence": 360
+     },
+     "desc": "Equipamiento reforzado para Aigis. Mejora las cualidades de combate."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Kugelbein",
+     "es": "Kugelbein",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 100
+     },
+     "desc": "Equipamiento de pierna para Aigis. Diseñado a imagen del dios bestia."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Soul Sea Drop",
+      "n": 2
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Unholy Wooden Doll": [
+   {
+    "result": {
+     "en": "Calamity Bow",
+     "es": "Arma calamidad",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 260,
+      "Accuracy": 88
+     },
+     "desc": "Un arco siniestro que provoca el desastre. Para Yukari."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Unholy Wooden Doll",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Night Demon Sandals",
+     "es": "Sandalias demoníacas",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 80
+     },
+     "desc": "Sandalias populares entre los chicos jóvenes. Perfectas para Amada."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Unholy Wooden Doll",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Black Frostite": [
+   {
+    "result": {
+     "en": "Jack's Gauntlets",
+     "es": "Guanteletes de Jack",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 270,
+      "Accuracy": 85
+     },
+     "desc": "Guantes técnicos que alteran el ritmo del rival. Para Sanada."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Black Frostite",
+      "n": 1
+     },
+     {
+      "item": "Jacktite",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Fetching Hero's Comb": [
+   {
+    "result": {
+     "en": "Gae Bolg",
+     "es": "Gae Bolg",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 200,
+      "Accuracy": 90
+     },
+     "desc": "Una lanza mágica que cambia la afinidad del ataque a luz. Para Amada."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Fetching Hero's Comb",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Second Hand of Fate": [
+   {
+    "result": {
+     "en": "Elegant Scarf",
+     "es": "Bufanda elegante",
+     "kind": "armor",
+     "stats": {
+      "Defence": 200
+     },
+     "desc": "Una bufanda elegante que no para de moverse con el viento. Genial para Mitsuru."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Second Hand of Fate",
+      "n": 1
+     },
+     {
+      "item": "Emerald",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Eye of Wadjet": [
+   {
+    "result": {
+     "en": "Rousing Pendant",
+     "es": "Colgante estimulante",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Recupera PE de quien lo lleva al relevar a un aliado."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Eye of Wadjet",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 5
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Hell's Muffler": [
+   {
+    "result": {
+     "en": "Pendant of Amity",
+     "es": "Colgante de la amistad",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Libera un pico de fuerza potenciado por los vínculos de quien lo lleva."
+    },
+    "materials": [
+     {
+      "item": "Ergotite Chunk",
+      "n": 1
+     },
+     {
+      "item": "Hell's Muffler",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 5
+     },
+     {
+      "item": "Malachite",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Earth Goddess Ring": [
+   {
+    "result": {
+     "en": "Sabazios",
+     "es": "Sabazios",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 350,
+      "Accuracy": 97,
+      "Luck": 7
+     },
+     "desc": "Una mano mística que cambia la afinidad del ataque a hielo. Para Sanada."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Earth Goddess Ring",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Frozen Stone",
+     "es": "Piedra congelada",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un cristal precioso de color azul marino. Evita todo tipo de congelación y hielo."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Earth Goddess Ring",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Shadow Lipstick": [
+   {
+    "result": {
+     "en": "Snow Queen Whip",
+     "es": "Látigo reina de hielo",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 377,
+      "Accuracy": 95,
+      "Magic": 5
+     },
+     "desc": "Un látigo de hielo que cambia la afinidad del ataque a hielo. Para Mitsuru."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Shadow Lipstick",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Divine Black Tights",
+     "es": "Medias negras divinas",
+     "kind": "armor",
+     "stats": {
+      "Defence": 345
+     },
+     "desc": "Medias negras para invierno. Curan al instante los estados alterados."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Shadow Lipstick",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "King of Beasts Fang": [
+   {
+    "result": {
+     "en": "Gaia Dog Suit",
+     "es": "Traje de Gea",
+     "kind": "armor",
+     "stats": {
+      "Defence": 345
+     },
+     "desc": "Un traje para perro mejorado al máximo. Restaura PS y PE cada turno."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "King of Beasts Fang",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Wisdom King's Locks": [
+   {
+    "result": {
+     "en": "Soldier's Flag",
+     "es": "Bandera de soldado",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un cartel rojo y llamativo habitado por las almas de innumerables soldados."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Wisdom King's Locks",
+      "n": 1
+     },
+     {
+      "item": "Malachite",
+      "n": 20
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Aura Dog Suit",
+     "es": "Traje con halo",
+     "kind": "armor",
+     "stats": {
+      "Defence": 380,
+      "Endurance": 5
+     },
+     "desc": "Un enigmático traje para perro que emite una luz misteriosa."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Wisdom King's Locks",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Emperor's Sake Cup": [
+   {
+    "result": {
+     "en": "Masakado's Hair",
+     "es": "Pelo de Masakado",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Estos fuertes rizos mejoran la capacidad de reacción a ataques físicos."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Emperor's Sake Cup",
+      "n": 1
+     },
+     {
+      "item": "Amethyst",
+      "n": 20
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Masakado's Katana",
+     "es": "Katana de Masakado",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 440,
+      "Accuracy": 92,
+      "Strength": 5,
+      "Magic": 5,
+      "Endurance": 5,
+      "Agility": 5,
+      "Luck": 5
+     },
+     "desc": "Una espada de color rojo oscuro que duplica la probabilidad de críticos del usuario. Para Junpei."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Emperor's Sake Cup",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Contract Angel Wing": [
+   {
+    "result": {
+     "en": "Book of Enoch",
+     "es": "Libro de Enoc",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un texto ancestral que describe los secretos para esquivar ataques mágicos."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Contract Angel Wing",
+      "n": 1
+     },
+     {
+      "item": "Onyx",
+      "n": 20
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Metatronius",
+     "es": "Metatronius",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 450,
+      "Accuracy": 93,
+      "Strength": 5,
+      "Magic": 5,
+      "Endurance": 5,
+      "Agility": 5,
+      "Luck": 5
+     },
+     "desc": "Un arma sagrada que reduce a la mitad el coste de PS de las habilidades físicas. Para Aigis."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Contract Angel Wing",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Abyssal King Tooth": [
+   {
+    "result": {
+     "en": "Tome of the Void",
+     "es": "Tomo del vacío",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un libro que evita Confusión, Angustia, Manipulación, Miedo y Furia."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Abyssal King Tooth",
+      "n": 1
+     },
+     {
+      "item": "Topaz",
+      "n": 20
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Sacrifice God Wrap": [
+   {
+    "result": {
+     "en": "Sacrificial Idol",
+     "es": "Ídolo de sacrificio",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un artefacto divino que restaura todos los PS al morir una vez por batalla."
+    },
+    "materials": [
+     {
+      "item": "AS Refined Material",
+      "n": 1
+     },
+     {
+      "item": "Sacrifice God Wrap",
+      "n": 1
+     },
+     {
+      "item": "Emerald",
+      "n": 20
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Archangel Wings": [
+   {
+    "result": {
+     "en": "Deus Xiphos",
+     "es": "Deus Xiphos",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 360,
+      "Accuracy": 99,
+      "Strength": 7
+     },
+     "desc": "Una espada de oro rojizo que atraviesa las resistencias. Para ."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Archangel Wings",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Bull Warrior Horns": [
+   {
+    "result": {
+     "en": "Quintessence Bow",
+     "es": "Arco de quinta esencia",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 400,
+      "Accuracy": 98
+     },
+     "desc": "Un arco que fortalece el primer ataque mágico de cada combate. Para Yukari."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Bull Warrior Horns",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Barbaric Bracers",
+     "es": "Brazales bárbaros",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Unos brazales intimidantes. Hace que sea más difícil golpear a quien los lleva."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Bull Warrior Horns",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 7
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Preservation Conch": [
+   {
+    "result": {
+     "en": "Sarnga",
+     "es": "Sarnga",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 370,
+      "Accuracy": 98
+     },
+     "desc": "Un arco alado que cambia la afinidad del ataque a luz. Para Yukari."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Preservation Conch",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Nibelung Ore": [
+   {
+    "result": {
+     "en": "Balmung",
+     "es": "Balmung",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 395,
+      "Accuracy": 92,
+      "Agility": 7
+     },
+     "desc": "Una espada mágica suprema que atraviesa las resistencias. Para Junpei."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Nibelung Ore",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Susano-o's Cloth": [
+   {
+    "result": {
+     "en": "Eternal Plate",
+     "es": "Peto eterno",
+     "kind": "armor",
+     "stats": {
+      "Defence": 375
+     },
+     "desc": "Una armadura que resiste bien los ataques. Hay quien dice que durará toda la eternidad."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Susano-o's Cloth",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 10
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Eternal Shoes",
+     "es": "Calzado eterno",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 120
+     },
+     "desc": "Calzado misterioso que restaura PE al relevar a un aliado."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Susano-o's Cloth",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 10
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Black Sun Candle": [
+   {
+    "result": {
+     "en": "Blazing Flame",
+     "es": "Llama ígnea",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una piedra imbuida con una llama tan ardiente que resta fuerza a otras fuentes de calor."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Black Sun Candle",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Sword God Steel": [
+   {
+    "result": {
+     "en": "Sword God's Sheath",
+     "es": "Vaina del Dios de la espada",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una vaina de acero que otrora usó el dios de las espadas. Dicen que puede bloquear cualquier filo."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Sword God Steel",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "God Dragon Whiskers": [
+   {
+    "result": {
+     "en": "Kohryu's Scale",
+     "es": "Escama de Kouryuu",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una escama dorada gruesa. Invulnerable a los golpes contundentes."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "God Dragon Whiskers",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Clay God Fragment": [
+   {
+    "result": {
+     "en": "Impenetrable Doll",
+     "es": "Muñeca impenetrable",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Una figura de cerámica indestructible que no se puede atravesar."
+    },
+    "materials": [
+     {
+      "item": "Nihil Black Model",
+      "n": 1
+     },
+     {
+      "item": "Clay God Fragment",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Mara's Head": [
+   {
+    "result": {
+     "en": "Evil Gloves",
+     "es": "Guantes malignos",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 410,
+      "Accuracy": 97
+     },
+     "desc": "Guantes mágicos que potencian temporalmente todas las estadísticas. Para Sanada."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Mara's Head",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Destroyer's Drums": [
+   {
+    "result": {
+     "en": "Pinaka",
+     "es": "Pinaka",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 440,
+      "Accuracy": 94
+     },
+     "desc": "Un tridente imbuido con el poder de la destrucción y la creación. Para Amada."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Destroyer's Drums",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Rudra Ring",
+     "es": "Anillo de Rudra",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un anillo que reduce el coste de PS de las habilidades físicas a la mitad."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Destroyer's Drums",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 7
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Eyepatch of Wisdom": [
+   {
+    "result": {
+     "en": "Gungnir",
+     "es": "Gungnir",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 400,
+      "Accuracy": 99,
+      "Magic": 5
+     },
+     "desc": "Una lanza de plata que cambia la afinidad del ataque a electricidad. Para Amada."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Eyepatch of Wisdom",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Lord of Flies Wings": [
+   {
+    "result": {
+     "en": "Corpse Rod",
+     "es": "Barra cadavérica",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 450,
+      "Accuracy": 90,
+      "Agility": 15
+     },
+     "desc": "Un bastón que fortalece el primer ataque físico de cada combate. Para Aragaki."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Lord of Flies Wings",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Prayer Angel Garland": [
+   {
+    "result": {
+     "en": "Hallowed Plate",
+     "es": "Placa sacra",
+     "kind": "armor",
+     "stats": {
+      "Defence": 375
+     },
+     "desc": "La armadura de un salvador. Restaura todos los PS al morir una vez por batalla."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Prayer Angel Garland",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 10
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Hallowed Boots",
+     "es": "Botas sacras",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 120
+     },
+     "desc": "Botas misteriosas que aumentan el ataque al relevar a un aliado."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Prayer Angel Garland",
+      "n": 1
+     },
+     {
+      "item": "Garnet",
+      "n": 10
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Jaw of Death": [
+   {
+    "result": {
+     "en": "Soul of Athena",
+     "es": "Alma de Atenea",
+     "kind": "armor",
+     "stats": {
+      "Defence": 400
+     },
+     "desc": "Armadura especial para Aigis. Anula todos los estados alterados."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Jaw of Death",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Ring of Darkness",
+     "es": "Anillo de oscuridad",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un anillo de color negro obsidiana. Pone freno a las fuerzas oscuras."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Jaw of Death",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Goddess Water Lily": [
+   {
+    "result": {
+     "en": "Swan Legs",
+     "es": "Patas de cisne",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 125
+     },
+     "desc": "Equipamiento de pierna para Aigis. Irradia divinidad angelical."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Goddess Water Lily",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     },
+     {
+      "item": "Ruby",
+      "n": 3
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Rainbow Snake Scale": [
+   {
+    "result": {
+     "en": "Storm Ring",
+     "es": "Anillo de tormenta",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un anillo con forma parecida a un vendaval. Apacigua hasta las tormentas más feroces."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Rainbow Snake Scale",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Immortal Angel Core": [
+   {
+    "result": {
+     "en": "Radiant Halo",
+     "es": "Aureola radiante",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un anillo de color blanco puro. Protege de todas las formas sagradas de poder."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Immortal Angel Core",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Preceptress Silk": [
+   {
+    "result": {
+     "en": "Queen's Alice Band",
+     "es": "Banda de la reina Alice",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un accesorio para el pelo con runas grabadas. Desata el sexto sentido de quien lo lleva."
+    },
+    "materials": [
+     {
+      "item": "Nihil White Model",
+      "n": 1
+     },
+     {
+      "item": "Preceptress Silk",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     },
+     {
+      "item": "Opal",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Fallen Angel Wing": [
+   {
+    "result": {
+     "en": "Lucifer's Blade",
+     "es": "Hoja de Lucifer",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 425,
+      "Accuracy": 95,
+      "Strength": 7,
+      "Magic": 7,
+      "Endurance": 7,
+      "Agility": 7,
+      "Luck": 7
+     },
+     "desc": "Una espada que fortalece los ataques mágicos. Para ."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Fallen Angel Wing",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 10
+     },
+     {
+      "item": "Ruby",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Black Pillar Shard": [
+   {
+    "result": {
+     "en": "Kokuseki Senjin",
+     "es": "Kokuseki Senjin",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 425,
+      "Accuracy": 95,
+      "Strength": 5,
+      "Magic": 5,
+      "Endurance": 5,
+      "Agility": 5,
+      "Luck": 5
+     },
+     "desc": "Una lanza corta azabache que fortalece los ataques mágicos. Para Mitsuru."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Black Pillar Shard",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Ruby",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Carnage King's Gear": [
+   {
+    "result": {
+     "en": "Vajra",
+     "es": "Vajra",
+     "kind": "weapon",
+     "stats": {
+      "Attack": 410,
+      "Accuracy": 96,
+      "Strength": 9,
+      "Magic": 9,
+      "Endurance": 9,
+      "Agility": 9,
+      "Luck": 9
+     },
+     "desc": "Una herramienta que reduce a la mitad la probabilidad de recibir golpes. Para Koromaru."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Carnage King's Gear",
+      "n": 1
+     },
+     {
+      "item": "Gold Quartz",
+      "n": 5
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Chakra Ring",
+     "es": "Anillo de chakra",
+     "kind": "accessory",
+     "stats": {},
+     "desc": "Un anillo que reduce el coste de PE de las habilidades mágicas a la mitad."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Carnage King's Gear",
+      "n": 1
+     },
+     {
+      "item": "Opal",
+      "n": 7
+     },
+     {
+      "item": "Ruby",
+      "n": 2
+     }
+    ],
+    "from": "1/4"
+   }
+  ],
+  "Savior's Augite": [
+   {
+    "result": {
+     "en": "Armor of Light",
+     "es": "Armadura de luz",
+     "kind": "armor",
+     "stats": {
+      "Defence": 400
+     },
+     "desc": "Una armadura tallada que protege a quien la lleva de la magia."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Savior's Augite",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     },
+     {
+      "item": "Ruby",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   },
+   {
+    "result": {
+     "en": "Shoes of Light",
+     "es": "Calzado de luz",
+     "kind": "shoes",
+     "stats": {
+      "Evasion": 135
+     },
+     "desc": "Calzado adornado que reduce mucho la probabilidad de críticos de los ataques recibidos."
+    },
+    "materials": [
+     {
+      "item": "Dead Moon's Husk",
+      "n": 1
+     },
+     {
+      "item": "Savior's Augite",
+      "n": 1
+     },
+     {
+      "item": "Diamond",
+      "n": 10
+     },
+     {
+      "item": "Ruby",
+      "n": 5
+     }
+    ],
+    "from": "1/4"
+   }
+  ]
+ },
+ "materials": {
+  "Unused": "Sin usar",
+  "未使用": "未使用",
+  "Lead Medal": "Medalla de plomo",
+  "Steel Medal": "Medalla de acero",
+  "Bronze Medal": "Medalla de bronce",
+  "Silver Medal": "Medalla de plata",
+  "Gold Medal": "Medalla de oro",
+  "Platinum Medal": "Medalla de platino",
+  "Bloody Button": "Botón sangriento",
+  "Shaft Fragment": "Fragmento de eje",
+  "Worldly Coin": "Moneda mundanal",
+  "Odd Coin": "Moneda rara",
+  "Rustic Coin": "Moneda rústica",
+  "Sumptuous Coin": "Moneda fastuosa",
+  "Scintillating Coin": "Moneda centelleante",
+  "Melancholic Coin": "Moneda melancólica",
+  "Amethyst": "Amatista",
+  "Emerald": "Esmeralda",
+  "Onyx": "Ónice",
+  "Opal": "Ópalo",
+  "Garnet": "Granate",
+  "Diamond": "Diamante",
+  "Turquoise": "Turquesa",
+  "Topaz": "Topacio",
+  "Ruby": "Rubí",
+  "Malachite": "Malaquita",
+  "Black Quartz": "Cuarzo negro",
+  "Silver Quartz": "Cuarzo plateado",
+  "Gold Quartz": "Cuarzo dorado",
+  "Black Sword": "Espada negra",
+  "Quality Nihil Blade": "Filo Nihil de calidad",
+  "Prime Nihil Blade": "Filo Nihil excelente",
+  "Nihil Cloth": "Tela Nihil",
+  "Quality Nihil Cloth": "Tela Nihil de calidad",
+  "Prime Nihil Cloth": "Tela Nihil excelente",
+  "Nihil Ore": "Mineral Nihil",
+  "Quality Nihil Ore": "Mineral Nihil de calidad",
+  "Prime Nihil Ore": "Mineral Nihil excelente",
+  "Ergotite Shard": "Esquirla de ergotita",
+  "Ergotite Chunk": "Fragmento de ergotita",
+  "Nihil Black Model": "Modelo negro Nihil",
+  "Nihil White Model": "Modelo blanco Nihil",
+  "Nihil Blade": "Hoja Nihil",
+  "AS Generic Material": "Material genérico AS",
+  "AS Refined Material": "Material refinado AS",
+  "Dead Moon's Husk": "Cáscara de la Luna muerta",
+  "Jacktite": "Jacktite",
+  "Black Frostite": "Frostite negro",
+  "Fetching Hero's Comb": "Peine del héroe atractivo",
+  "Unholy Wooden Doll": "Muñeca de madera profana",
+  "Múspell Rock": "Piedra Múspell",
+  "Mask of Cowardice": "Máscara de la cobardía",
+  "Mask of Cruelty": "Máscara de la crueldad",
+  "Mask of Vanity": "Máscara de la vanidad",
+  "Mask of Pride": "Máscara del orgullo",
+  "Mask of Sloth": "Máscara de la pereza",
+  "Mask of Betrayal": "Máscara de la traición",
+  "Mask of Concession": "Máscara de la concesión",
+  "Mask of Prejudice": "Máscara del prejuicio",
+  "Mask of Greed": "Máscara de la avaricia",
+  "Mask of Folly": "Máscara de la insensatez",
+  "Mask of Reality": "Máscara de la realidad",
+  "Mask of Sacrifice": "Máscara del sacrificio",
+  "Hellish Bowtie": "Pajarita infernal",
+  "Dancer's Necklace": "Collar de bailarín",
+  "Assailant's Choker": "Gargantilla agresora",
+  "Divine Adornment": "Adorno divino",
+  "Iron Cutlery": "Cubertería de hierro",
+  "Bronze Cutlery": "Cubertería de bronce",
+  "Silver Cutlery": "Cubertería de plata",
+  "Platinum Cutlery": "Cubertería de platino",
+  "Cap of Wizardry": "Gorro de la hechicería",
+  "Cap of Admiration": "Gorro de la admiración",
+  "Cap of Knowledge": "Gorro del conocimiento",
+  "Cap of Eminence": "Gorro de la eminencia",
+  "Hushing Tiara": "Tiara silenciosa",
+  "Lamenting Tiara": "Tiara afligida",
+  "Shrieking Tiara": "Tiara chillona",
+  "Silencing Tiara": "Tiara silenciadora",
+  "Book of Fabrication": "Libro de fabricación",
+  "Book of Fanaticism": "Libro del fanatismo",
+  "Book of Secrets": "Libro de los secretos",
+  "Book of Indignation": "Libro de la indignación",
+  "Throne of Serenity": "Trono de serenidad",
+  "Throne of Freedom": "Trono de la libertad",
+  "Throne of Ruin": "Trono de perdición",
+  "Throne of Mania": "Trono de la obsesión",
+  "Ostentatious Plume": "Pluma ostentosa",
+  "Jet-Black Plume": "Pluma azabache",
+  "Airy Plume": "Pluma ligera",
+  "Immortal Plume": "Pluma inmortal",
+  "Orb of Creation": "Orbe de la creación",
+  "Orb of Continuity": "Orbe de la continuidad",
+  "Orb of Growth": "Orbe del crecimiento",
+  "Orb of Flux": "Orbe del flujo",
+  "Lady's Stool": "Asiento de la dama",
+  "Opulent Stool": "Asiento opulento",
+  "Leopardess Stool": "Asiento del leopardo",
+  "Saint's Stool": "Asiento del santo",
+  "Vanguard's Horn": "Cuerno de la vanguardia",
+  "Shogun's Horn": "Cuerno del shogun",
+  "Champion's Horn": "Cuerno del campeón",
+  "Emperor's Horn": "Cuerno del emperador",
+  "Saddle of Aggression": "Montura de la agresión",
+  "Saddle of Merit": "Montura del mérito",
+  "Saddle of Vengeance": "Montura de la venganza",
+  "Saddle of Fortitude": "Montura de la entereza",
+  "Ashen Wall Fragment": "Fragmento de muro ceniciento",
+  "Green Wall Fragment": "Fragmento de muro verde",
+  "Red Wall Fragment": "Fragmento de muro rojo",
+  "White Wall Fragment": "Fragmento de muro blanco",
+  "Shackles of Ecstasy": "Grilletes del éxtasis",
+  "Shackles of Depravity": "Grilletes de la depravación",
+  "Shackles of Morbidity": "Grilletes de la morbilidad",
+  "Shackles of Madness": "Grilletes de la locura",
+  "Crown of Vice": "Corona de vicio",
+  "Crown of Obstinacy": "Corona de obstinación",
+  "Crown of Egoism": "Corona de egoísmo",
+  "Crown of Servility": "Corona de servidumbre",
+  "Hail Charm": "Amuleto de granizo",
+  "Inferno Charm": "Amuleto infernal",
+  "Whirlwind Charm": "Amuleto de espiral",
+  "Pandemonium Charm": "Amuleto del Pandemónium",
+  "Arrowhead of Desire": "Punta de flecha del deseo",
+  "Arrowhead of Envy": "Punta de flecha de la envidia",
+  "Arrowhead of Control": "Punta de flecha del control",
+  "Arrowhead of Heart": "Punta de fecha del corazón",
+  "Necklace of Fantasy": "Collar de la fantasía",
+  "Necklace of Craving": "Collar del anhelo",
+  "Necklace of Impulse": "Collar del impulso",
+  "Necklace of Fixation": "Collar de la fijación",
+  "Balloon of Amity": "Globo de la amistad",
+  "Balloon of Feuds": "Globo de las enemistades",
+  "Balloon of Harmony": "Globo de la armonía",
+  "Balloon of Unity": "Globo de la unidad",
+  "Steel Wheel": "Rueda de acero",
+  "Rapid Wheel": "Rueda rápida",
+  "Surmounting Wheel": "Rueda de la superación",
+  "War Wheel": "Rueda de la guerra",
+  "Brutish Rotary Leg": "Pata rotatoria salvaje",
+  "Ruthless Rotary Leg": "Pata rotatoria implacable",
+  "Cruel Rotary Leg": "Pata rotatoria cruel",
+  "Ruinous Rotary Leg": "Pata rotatoria destructiva",
+  "Kill Shot Turret": "Torreta mortal",
+  "Bloodstained Turret": "Torreta ensangrentada",
+  "Ominous Turret": "Torreta siniestra",
+  "Purified Turret": "Torreta purificada",
+  "Rusty Blade": "Filo oxidado",
+  "Bronze Blade": "Filo de bronce",
+  "Steel Blade": "Filo de acero",
+  "Tamahagane Blade": "Filo tamahagane",
+  "Red-Blue Plates": "Platos rojos y azules",
+  "Purple-Green Plates": "Platos morados y verdes",
+  "Golden Plates": "Platos de oro",
+  "Platinum Plates": "Platos de platino",
+  "Warped Balance": "Balanza torcida",
+  "Wavering Balance": "Balanza oscilante",
+  "Immovable Balance": "Balanza inamovible",
+  "Equal Balance": "Balanza igualada",
+  "Dusk Lantern": "Farol crepuscular",
+  "Incandescent Lantern": "Farol incandescente",
+  "Chilling Lantern": "Farol frío",
+  "Black Hole Lantern": "Farol del agujero negro",
+  "Wizard's Candlestick": "Candelabro del mago",
+  "Lord's Candlestick": "Candelabro del señor",
+  "Leader's Candlestick": "Candelabro del jefe",
+  "Divine Candlestick": "Candelabro divino",
+  "Murky Eyeball": "Ojo turbio",
+  "Decaying Eyeball": "Ojo deteriorado",
+  "Coruscant Eyeball": "Ojo reluciente",
+  "Bloody Eyeball": "Ojo sangriento",
+  "Copper Dice": "Dado de cobre",
+  "Steel Dice": "Dado de acero",
+  "Silver Dice": "Dado de plata",
+  "Platinum Dice": "Dado de platino",
+  "Ring of Anxiety": "Anillo de ansiedad",
+  "Ring of Resentment": "Anillo de resentimiento",
+  "Ring of Asphyxiation": "Anillo de asfixia",
+  "Ring of Retribution": "Anillo de retribución",
+  "Red Sand": "Arena roja",
+  "Orange Sand": "Arena naranja",
+  "Blue Sand": "Arena azul",
+  "White Sand": "Arena blanca",
+  "Samurai Helmet": "Casco de samurái",
+  "Warlord Helmet": "Casco de caudillo",
+  "Vengeful Helmet": "Casco vengativo",
+  "Ruling Helmet": "Casco de gobernante",
+  "Fighter's Pants": "Pantalones de luchador",
+  "Iron-Lined Pants": "Pantalones forrados de hierro",
+  "Hero's Pants": "Pantalones de héroe",
+  "Holy Pants": "Pantalones sagrados",
+  "Beastly Fur": "Piel bestial",
+  "Servant's Fur": "Piel del siervo",
+  "Wicked Fur": "Piel perversa",
+  "Divine Fur": "Piel divina",
+  "Ver. IV Restraints": "Cadenas ver. IV",
+  "Ver. III Restraints": "Cadenas ver. III",
+  "Ver. II Restraints": "Cadenas ver. II",
+  "Ver. I Restraints": "Cadenas ver. I",
+  "Sadistic Wood Horse": "Caballo de madera sádico",
+  "Bloody Wood Horse": "Caballo de madera sangriento",
+  "Infernal Wood Horse": "Caballo de madera infernal",
+  "Forlorn Wood Horse": "Caballo de madera desamparado",
+  "Cross of Ineptitude": "Cruz de ineptitud",
+  "Cross of Sanity": "Cruz de cordura",
+  "Cross of Resignation": "Cruz de renuncia",
+  "Cross of Order": "Cruz de orden",
+  "Copper Coin": "Moneda de cobre",
+  "Silver Coin": "Moneda de plata",
+  "Gold Coin": "Moneda de oro",
+  "Thebel Glass Shard": "Esquirla de vidrio de Thebel",
+  "Thebel Stone Piece": "Trozo de piedra de Thebel",
+  "Thebel Lantern": "Farol de Thebel",
+  "Thebel Iron Fence": "Valla de hierro de Thebel",
+  "Thebel Crystal": "Cristal de Thebel",
+  "Arqa Shell": "Caparazón de Arqa",
+  "Arqa Ivy": "Hiedra de Arqa",
+  "Arqa Luminary": "Luminaria de Arqa",
+  "Arqa Wall Piece": "Pieza mural de Arqa",
+  "Arqa Gem": "Gema de Arqa",
+  "Arqa Mineral": "Mineral de Arqa",
+  "Arqa Vine": "Enredadera de Arqa",
+  "Arqa Sculpture": "Escultura de Arqa",
+  "Arqa Luminous Shell": "Caparazón luminoso de Arqa",
+  "Arqa Crystal": "Cristal de Arqa",
+  "Yabbashah Steel": "Acero de Yabbashah",
+  "Yabbashah Light": "Luz de Yabbashah",
+  "Yabbashah Fuel Can": "Bidón de Yabbashah",
+  "Yabbashah Arch": "Arco de Yabbashah",
+  "Yabbashah Gem": "Gema de Yabbashah",
+  "Yabbashah Iron Plate": "Placa de hierro de Yabbashah",
+  "Yabbashah Column": "Columna de Yabbashah",
+  "Yabbashah Cube": "Cubo de Yabbashah",
+  "Yabbashah Flare": "Fulgor de Yabbashah",
+  "Yabbashah Crystal": "Cristal de Yabbashah",
+  "Tziah Window Frame": "Marco de ventana de Tziah",
+  "Tziah Ingot": "Lingote de Tziah",
+  "Tziah Stone Pillar": "Pilar de piedra de Tziah",
+  "Tziah Basin": "Pila de Tziah",
+  "Tziah Gem": "Gema de Tziah",
+  "Tziah Carpet": "Alfombra de Tziah",
+  "Tziah Wall Piece": "Pieza mural de Tziah",
+  "Tziah Gold Ornament": "Adorno dorado de Tziah",
+  "Tziah Pot": "Maceta de Tziah",
+  "Tziah Crystal": "Cristal de Tziah",
+  "Harabah Ampoule": "Ampolla de Harabah",
+  "Harabah Light Shard": "Esquirla de luz de Harabah",
+  "Harabah Glass Eye": "Ojo de cristal de Harabah",
+  "Harabah Cloth": "Tela de Harabah",
+  "Harabah Gem": "Gema de Harabah",
+  "Harabah Wall Piece": "Pieza mural de Harabah",
+  "Harabah Discus": "Disco de Harabah",
+  "Harabah Glass Sphere": "Esfera de cristal de Harabah",
+  "Harabah Cube": "Cubo de Harabah",
+  "Harabah Crystal": "Cristal de Harabah",
+  "Adamah Wall Piece": "Pieza mural de Adamah",
+  "Adamah Steel Pillar": "Pilar de acero de Adamah",
+  "Adamah Pyramid": "Pirámide de Adamah",
+  "Adamah Orb": "Orbe de Adamah",
+  "Adamah Crystal": "Cristal de Adamah",
+  "King of Beasts Fang": "Colmillo del rey de bestias",
+  "Thunder Whetstone": "Piedra del trueno",
+  "Hell's Muffler": "Silenciador del infierno",
+  "Second Hand of Fate": "Segunda mano del destino",
+  "Immortal Angel Core": "Núcleo del ángel inmortal",
+  "Nibelung Ore": "Mineral nibelungo",
+  "Eye of Wadjet": "Ojo de Wadjet",
+  "Earth Goddess Ring": "Anillo de la diosa de la tierra",
+  "Shadow Lipstick": "Pintalabios sombrío",
+  "Archangel Wings": "Alas de arcángel",
+  "God Dragon Whiskers": "Bigotes del dios dragón",
+  "Rainbow Snake Scale": "Escama de serpiente arcoíris",
+  "Mara's Head": "Cabeza de Mara",
+  "Goddess Water Lily": "Nenúfar de la diosa",
+  "Sword God Steel": "Dios de la espada de acero",
+  "Eyepatch of Wisdom": "Parche de la sabiduría",
+  "Preceptress Silk": "Seda preceptora",
+  "Sacrifice God Wrap": "Envoltura del dios del sacrificio",
+  "Black Sun Candle": "Vela del sol negro",
+  "Abyssal King Tooth": "Diente del rey del abismo",
+  "Jaw of Death": "Mordaza de la muerte",
+  "Preservation Conch": "Concha de conservación",
+  "Emperor's Sake Cup": "Copa de sake del emperador",
+  "Prayer Angel Garland": "Guirnalda del ángel del rezo",
+  "Lord of Flies Wings": "Alas del señor de las moscas",
+  "Destroyer's Drums": "Tambores de la destrucción",
+  "Black Pillar Shard": "Fragmento de pilar negro",
+  "Carnage King's Gear": "Equipamiento del rey carnicero",
+  "Bull Warrior Horns": "Cuernos del toro de la guerra",
+  "Contract Angel Wing": "Ala de ángel bajo contrato",
+  "Fallen Angel Wing": "Ala de ángel caído",
+  "Savior's Augite": "Augita del salvador",
+  "Susano-o's Cloth": "Tela de Susanoo",
+  "Clay God Fragment": "Fragmento del dios de barro",
+  "Wisdom King's Locks": "Rizos del rey sabio",
+  "Soul Sea Driblet": "Adarme del mar de las almas",
+  "Soul Sea Droplet": "Gotita del mar de las almas",
+  "Soul Sea Drop": "Gota del mar de las almas"
+ }
+}

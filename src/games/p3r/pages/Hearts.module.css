@@ -1,0 +1,26 @@
+.page { padding: 24px 0 64px; display: grid; gap: 12px; }
+.lead { color: var(--c-text-muted); margin: 0; }
+.search { display: grid; gap: 6px; max-width: 460px; margin-bottom: 8px; }
+.search input { padding: 10px 12px; background: var(--c-surface); color: var(--c-text); border: 2px solid var(--c-line); font: inherit; }
+.card { background: var(--c-surface); border-left: 6px solid var(--c-primary); }
+.card summary { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 2fr) auto; gap: 12px; align-items: center; padding: 12px 16px; cursor: pointer; list-style: none; }
+.card summary::-webkit-details-marker { display: none; }
+.card[open] summary { border-bottom: 1px solid var(--c-line); }
+.name { font-family: var(--f-label); font-size: 20px; font-weight: 800; }
+.from { font-family: var(--f-label); font-size: 17px; }
+.from a { color: var(--c-text); }
+.from small { color: var(--c-text-dim); }
+.count { color: var(--c-primary-light); font-family: var(--f-label); font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; font-size: 14px; }
+.desc { color: var(--c-text-muted); margin: 10px 16px 0; font-style: italic; }
+.recipes { list-style: none; margin: 0; padding: 8px 16px 14px; display: grid; gap: 8px; }
+.recipes li { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 12px; padding: 10px 12px; background: var(--c-surface-2); }
+@media (max-width: 760px) { .card summary, .recipes li { grid-template-columns: 1fr; } }
+.result { display: grid; gap: 3px; }
+.result strong { font-family: var(--f-label); font-size: 19px; }
+.result small { color: var(--c-text-dim); }
+.kind { font-family: var(--f-label); font-weight: 800; font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--c-primary-light); }
+.stats { display: flex; flex-wrap: wrap; gap: 4px 12px; font-family: var(--f-label); color: var(--c-text-muted); }
+.stats b { color: var(--c-text); }
+.mats { display: flex; flex-wrap: wrap; gap: 6px; align-content: flex-start; }
+.mats span { font-family: var(--f-label); font-size: 15px; padding: 3px 8px; border: 1px solid var(--c-line); }
+.mats .heartMat { border-color: var(--c-primary); color: var(--c-primary-light); font-weight: 800; }
