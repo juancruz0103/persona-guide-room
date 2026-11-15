@@ -39,8 +39,12 @@ export interface BuildGoal {
   trait: string | null;
 }
 
+export type BuildGame = 'p5r' | 'p3r' | 'p4g';
+
 export interface Build {
   id: string;
+  /** Juego al que pertenece (cada guía muestra solo las suyas). */
+  game?: BuildGame;
   user_id: string;
   persona_id: string;
   title: string;
@@ -73,7 +77,7 @@ export const MAX_SKILLS = 8;
 export const offered = (s: BuildStep): string[] => [...new Set(s.ingredients.flatMap((i) => i.skills))];
 
 const SELECT =
-  'id, user_id, persona_id, title, description, steps, skill_cards, goal, hidden, created_at, updated_at, author:profiles!builds_user_id_fkey(username), build_likes(count), build_comments(count)';
+  'id, game, user_id, persona_id, title, description, steps, skill_cards, goal, hidden, created_at, updated_at, author:profiles!builds_user_id_fkey(username), build_likes(count), build_comments(count)';
 
 type Row = Omit<Build, 'likes' | 'comments'> & {
   build_likes: { count: number }[];
@@ -85,8 +89,8 @@ const toBuild = (r: Row): Build => ({
   comments: r.build_comments?.[0]?.count ?? 0,
 });
 
-export async function listBuilds(opts: { personaId?: string; userId?: string } = {}): Promise<Build[]> {
-  let q = supabase.from('builds').select(SELECT).order('created_at', { ascending: false }).limit(100);
+export async function listBuilds(opts: { personaId?: string; userId?: string; game?: BuildGame } = {}): Promise<Build[]> {
+  let q = supabase.from('builds').select(SELECT).eq('game', opts.game ?? 'p5r').order('created_at', { ascending: false }).limit(100);
   if (opts.personaId) q = q.eq('persona_id', opts.personaId);
   if (opts.userId) q = q.eq('user_id', opts.userId);
   const { data } = await q;
@@ -116,10 +120,12 @@ export async function getBuild(id: string): Promise<Build | null> {
 export async function saveBuild(
   userId: string,
   b: Pick<Build, 'title' | 'description' | 'steps' | 'skill_cards' | 'goal'> & { id?: string },
+  game: BuildGame = 'p5r',
 ): Promise<{ id?: string; error?: string }> {
   const last = b.steps[b.steps.length - 1];
   const row = {
     user_id: userId,
+    game,
     title: b.title,
     description: b.description,
     steps: b.steps,
