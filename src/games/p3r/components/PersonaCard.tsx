@@ -5,6 +5,8 @@ import { PARTY_OWNER } from '../services/personas';
 import { personaName } from '../services/text';
 import type { Persona } from '../types';
 import styles from '../../p5r/components/PersonaCard.module.css';
+import { SpoilerCover } from '../../p5r/components/SpoilerCover';
+import { isSpoiler } from './PersonaPeek';
 import { L } from '../../../i18n';
 
 export function PersonaCard({ persona }: { persona: Persona }) {
@@ -18,9 +20,11 @@ export function PersonaCard({ persona }: { persona: Persona }) {
   ) : null;
   return (
     <Link to={`/p3r/calculadora/persona/${persona.id}`} className={styles.card}>
-      <ImagePlaceholder className={styles.image} label={L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
+      <SpoilerCover active={isSpoiler(persona)} className={styles.image} label={L('Spoiler · tocá para ver', 'Spoiler · tap to see')}>
+        <ImagePlaceholder className={styles.image} label={L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
+      </SpoilerCover>
       <div className={styles.body}>
-        <span className={styles.name}>{personaName(persona)}</span>
+        <span className={styles.name}>{isSpoiler(persona) ? L('Evolución (spoiler)', 'Evolution (spoiler)') : personaName(persona)}</span>
         <div className={styles.meta}>
           <span className={styles.arcana}>{arcana.name}</span>
           {persona.party ? (

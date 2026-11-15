@@ -3,6 +3,7 @@ import { CalcHeader } from '../components/CalcHeader';
 import { getArcana } from '../data/arcana';
 import { getFusionEngine } from '../fusion';
 import { personaName } from '../services/text';
+import { PersonaPeek } from '../components/PersonaPeek';
 import styles from './Fusion.module.css';
 import { L } from '../../../i18n';
 
@@ -22,7 +23,7 @@ export default function Specials() {
             </h2>
             <p style={{ margin: 0, fontFamily: 'var(--f-label)', fontSize: 18 }}>
               {engine.specialRecipe(p)!.map((s, i) => (
-                <span key={s.id}>{i > 0 && <b style={{ color: 'var(--c-primary)' }}> + </b>}<Link to={`/p3r/calculadora/persona/${s.id}`} style={{ color: 'var(--c-text)' }}>{personaName(s)}</Link></span>
+                <span key={s.id}>{i > 0 && <b style={{ color: 'var(--c-primary)' }}> + </b>}<PersonaPeek persona={s} below /></span>
               ))}
             </p>
           </section>

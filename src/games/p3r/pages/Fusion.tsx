@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { CalcHeader } from '../components/CalcHeader';
 import { PersonaPicker } from '../components/PersonaPicker';
+import { PersonaPeek } from '../components/PersonaPeek';
 import { getArcana } from '../data/arcana';
 import { getFusionEngine } from '../fusion';
 import { personaName } from '../services/text';
@@ -87,7 +88,7 @@ export default function Fusion() {
                   {withA.map(({ x, r }) => (
                     <li key={x.id}>
                       <span>+ <Link to={`?a=${a.id}&b=${x.id}`}>{personaName(x)}</Link> <small>{L('Nv', 'Lv')} {x.level}</small></span>
-                      <span>= <Link to={`/p3r/calculadora/persona/${r.result.id}`}><strong>{personaName(r.result)}</strong></Link> <small>{getArcana(r.result.arcana).name} · {L('Nv', 'Lv')} {r.result.level}</small></span>
+                      <span>= <strong><PersonaPeek persona={r.result} below /></strong> <small>{getArcana(r.result.arcana).name} · {L('Nv', 'Lv')} {r.result.level}</small></span>
                     </li>
                   ))}
                 </ul>
@@ -115,8 +116,8 @@ export default function Fusion() {
                 <ul className={styles.rows}>
                   {recipes.map((r) => (
                     <li key={r.a.id + r.b.id}>
-                      <span><Link to={`/p3r/calculadora/persona/${r.a.id}`}>{personaName(r.a)}</Link> <small>{getArcana(r.a.arcana).name} · {L('Nv', 'Lv')} {r.a.level}</small></span>
-                      <span>+ <Link to={`/p3r/calculadora/persona/${r.b.id}`}>{personaName(r.b)}</Link> <small>{getArcana(r.b.arcana).name} · {L('Nv', 'Lv')} {r.b.level}</small></span>
+                      <span><PersonaPeek persona={r.a} below /> <small>{getArcana(r.a.arcana).name} · {L('Nv', 'Lv')} {r.a.level}</small></span>
+                      <span>+ <PersonaPeek persona={r.b} below /> <small>{getArcana(r.b.arcana).name} · {L('Nv', 'Lv')} {r.b.level}</small></span>
                     </li>
                   ))}
                 </ul>

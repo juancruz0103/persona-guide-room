@@ -785,6 +785,147 @@
   "heart": null
  },
  {
+  "id": "artemisia",
+  "name": "Artemisia",
+  "nameEs": "Artemisia",
+  "arcana": "empress",
+  "level": 20,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "neutral",
+   "fir": "weak",
+   "ice": "null",
+   "ele": "neutral",
+   "win": "neutral",
+   "lig": "neutral",
+   "dar": "neutral",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 13,
+   "ma": 17,
+   "en": 11,
+   "ag": 15,
+   "lu": 11
+  },
+  "skills": [
+   {
+    "skill": "Bufu",
+    "level": null
+   },
+   {
+    "skill": "Mabufu",
+    "level": null
+   },
+   {
+    "skill": "Rakunda",
+    "level": null
+   },
+   {
+    "skill": "Marin Karin",
+    "level": null
+   },
+   {
+    "skill": "Bufula",
+    "level": 21
+   },
+   {
+    "skill": "Eerie Sound",
+    "level": 24
+   },
+   {
+    "skill": "Fatal End",
+    "level": 27
+   },
+   {
+    "skill": "Spirit Drain",
+    "level": 30
+   },
+   {
+    "skill": "Ice Break",
+    "level": 33
+   },
+   {
+    "skill": "Tentarafoo",
+    "level": 35
+   },
+   {
+    "skill": "Mabufula",
+    "level": 38
+   },
+   {
+    "skill": "Ice Boost",
+    "level": 41
+   },
+   {
+    "skill": "Neuro Slash",
+    "level": 44
+   },
+   {
+    "skill": "Freeze Boost",
+    "level": 47
+   },
+   {
+    "skill": "Bufudyne",
+    "level": 51
+   },
+   {
+    "skill": "Concentrate",
+    "level": 55
+   },
+   {
+    "skill": "Marakunda",
+    "level": 59
+   },
+   {
+    "skill": "Ailment Boost",
+    "level": 63
+   },
+   {
+    "skill": "Mabufudyne",
+    "level": 67
+   },
+   {
+    "skill": "Diamond Dust",
+    "level": 73
+   },
+   {
+    "skill": "Ailment Burst",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Ailment Surge",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Blizzard Edge",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Blade of Execution",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "iceA",
+  "heart": null,
+  "party": {
+   "owner": "mitsuru",
+   "stage": "evolved",
+   "baseId": "penthesilea"
+  }
+ },
+ {
   "id": "astarte",
   "name": "Astarte",
   "nameEs": "Astarté",
@@ -996,6 +1137,143 @@
   "heart": {
    "item": "Wisdom King's Locks",
    "level": 79
+  }
+ },
+ {
+  "id": "athena",
+  "name": "Athena",
+  "nameEs": "Atenea",
+  "arcana": "chariot",
+  "level": 27,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "null",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "lig": "neutral",
+   "dar": "neutral",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 21,
+   "ma": 15,
+   "en": 24,
+   "ag": 15,
+   "lu": 13
+  },
+  "skills": [
+   {
+    "skill": "Arrow Rain",
+    "level": null
+   },
+   {
+    "skill": "Swift Strike",
+    "level": null
+   },
+   {
+    "skill": "Tarukaja",
+    "level": null
+   },
+   {
+    "skill": "Rakukaja",
+    "level": null
+   },
+   {
+    "skill": "Dekunda",
+    "level": null
+   },
+   {
+    "skill": "Cruel Attack",
+    "level": 30
+   },
+   {
+    "skill": "Diarama",
+    "level": 33
+   },
+   {
+    "skill": "Fast Heal",
+    "level": 37
+   },
+   {
+    "skill": "Marakukaja",
+    "level": 40
+   },
+   {
+    "skill": "Myriad Arrows",
+    "level": 43
+   },
+   {
+    "skill": "Null Dizzy",
+    "level": 46
+   },
+   {
+    "skill": "Matarukaja",
+    "level": 49
+   },
+   {
+    "skill": "Heat Wave",
+    "level": 53
+   },
+   {
+    "skill": "Diarahan",
+    "level": 56
+   },
+   {
+    "skill": "Insta-Heal",
+    "level": 60
+   },
+   {
+    "skill": "Primal Force",
+    "level": 64
+   },
+   {
+    "skill": "Enduring Soul",
+    "level": 68
+   },
+   {
+    "skill": "Akasha Arts",
+    "level": 72
+   },
+   {
+    "skill": "Resist Phys",
+    "level": 76
+   },
+   {
+    "skill": "Phys Boost",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Phys Amp",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Orgia Mode",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Maximum Firepower",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "pierceA",
+  "heart": null,
+  "party": {
+   "owner": "aigis",
+   "stage": "evolved",
+   "baseId": "palladion"
   }
  },
  {
@@ -1743,6 +2021,151 @@
   }
  },
  {
+  "id": "caesar",
+  "name": "Caesar",
+  "nameEs": "César",
+  "arcana": "emperor",
+  "level": 14,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "neutral",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "null",
+   "win": "neutral",
+   "lig": "neutral",
+   "dar": "neutral",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 12,
+   "ma": 10,
+   "en": 9,
+   "ag": 11,
+   "lu": 7
+  },
+  "skills": [
+   {
+    "skill": "Zio",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": null
+   },
+   {
+    "skill": "Sonic Punch",
+    "level": null
+   },
+   {
+    "skill": "Mazio",
+    "level": null
+   },
+   {
+    "skill": "Tarunda",
+    "level": 15
+   },
+   {
+    "skill": "Shock Boost",
+    "level": 17
+   },
+   {
+    "skill": "Sukukaja",
+    "level": 21
+   },
+   {
+    "skill": "Diarama",
+    "level": 24
+   },
+   {
+    "skill": "Zionga",
+    "level": 28
+   },
+   {
+    "skill": "Elec Boost",
+    "level": 32
+   },
+   {
+    "skill": "Elec Break",
+    "level": 35
+   },
+   {
+    "skill": "Gigantic Fist",
+    "level": 39
+   },
+   {
+    "skill": "Mazionga",
+    "level": 42
+   },
+   {
+    "skill": "Matarunda",
+    "level": 46
+   },
+   {
+    "skill": "Masukukaja",
+    "level": 50
+   },
+   {
+    "skill": "Ziodyne",
+    "level": 54
+   },
+   {
+    "skill": "Diarahan",
+    "level": 58
+   },
+   {
+    "skill": "Evade Ice",
+    "level": 62
+   },
+   {
+    "skill": "Maziodyne",
+    "level": 67
+   },
+   {
+    "skill": "God's Hand",
+    "level": 72
+   },
+   {
+    "skill": "Elec Amp",
+    "level": 75
+   },
+   {
+    "skill": "Buff Boost",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Buff Amp",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Lightning Spike",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Electric Onslaught",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "elecA",
+  "heart": null,
+  "party": {
+   "owner": "akihiko",
+   "stage": "evolved",
+   "baseId": "polydeuces"
+  }
+ },
+ {
   "id": "captain-kidd",
   "name": "Captain Kidd",
   "nameEs": "Capitán Kidd",
@@ -1983,7 +2406,8 @@
   "inheritance": "strikeA",
   "heart": null,
   "party": {
-   "owner": "shinjiro"
+   "owner": "shinjiro",
+   "stage": "initial"
   }
  },
  {
@@ -2181,7 +2605,8 @@
   "inheritance": "darkA",
   "heart": null,
   "party": {
-   "owner": "koromaru"
+   "owner": "koromaru",
+   "stage": "initial"
   }
  },
  {
@@ -4316,7 +4741,9 @@
   "inheritance": "slashA",
   "heart": null,
   "party": {
-   "owner": "junpei"
+   "owner": "junpei",
+   "stage": "initial",
+   "evolvedId": "trismegistus"
   }
  },
  {
@@ -4858,7 +5285,166 @@
   "inheritance": "windA",
   "heart": null,
   "party": {
-   "owner": "yukari"
+   "owner": "yukari",
+   "stage": "initial",
+   "evolvedId": "isis"
+  }
+ },
+ {
+  "id": "isis",
+  "name": "Isis",
+  "nameEs": "Isis",
+  "arcana": "lovers",
+  "level": 1,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "null",
+   "lig": "neutral",
+   "dar": "neutral",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 2,
+   "ma": 3,
+   "en": 1,
+   "ag": 2,
+   "lu": 2
+  },
+  "skills": [
+   {
+    "skill": "Garu",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": null
+   },
+   {
+    "skill": "Patra",
+    "level": 5
+   },
+   {
+    "skill": "Pulinpa",
+    "level": 8
+   },
+   {
+    "skill": "Media",
+    "level": 11
+   },
+   {
+    "skill": "Magaru",
+    "level": 14
+   },
+   {
+    "skill": "Sukunda",
+    "level": 17
+   },
+   {
+    "skill": "Diarama",
+    "level": 21
+   },
+   {
+    "skill": "Garula",
+    "level": 24
+   },
+   {
+    "skill": "Recarm",
+    "level": 27
+   },
+   {
+    "skill": "Wind Break",
+    "level": 30
+   },
+   {
+    "skill": "Me Patra",
+    "level": 33
+   },
+   {
+    "skill": "Magarula",
+    "level": 37
+   },
+   {
+    "skill": "Mediarama",
+    "level": 40
+   },
+   {
+    "skill": "Poison Mist",
+    "level": 43
+   },
+   {
+    "skill": "Amrita Drop",
+    "level": 46
+   },
+   {
+    "skill": "Garudyne",
+    "level": 50
+   },
+   {
+    "skill": "Diarahan",
+    "level": 53
+   },
+   {
+    "skill": "Samarecarm",
+    "level": 56
+   },
+   {
+    "skill": "Masukunda",
+    "level": 59
+   },
+   {
+    "skill": "Amrita Shower",
+    "level": 62
+   },
+   {
+    "skill": "Magarudyne",
+    "level": 66
+   },
+   {
+    "skill": "Mediarahan",
+    "level": 70
+   },
+   {
+    "skill": "Wind Amp",
+    "level": 74
+   },
+   {
+    "skill": "Healing Master",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Healing Apex",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Cyclone Arrow",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Tranquility",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "windA",
+  "heart": null,
+  "party": {
+   "owner": "yukari",
+   "stage": "evolved",
+   "baseId": "io"
   }
  },
  {
@@ -5263,6 +5849,91 @@
   "heart": null
  },
  {
+  "id": "juno",
+  "name": "Juno",
+  "nameEs": "Juno",
+  "arcana": "priestess",
+  "level": 18,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "lig": "neutral",
+   "dar": "neutral",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 9,
+   "ma": 15,
+   "en": 12,
+   "ag": 13,
+   "lu": 12
+  },
+  "skills": [
+   {
+    "skill": "Full Analysis",
+    "level": null
+   },
+   {
+    "skill": "Jamming",
+    "level": null
+   },
+   {
+    "skill": "Sylphid Aura",
+    "level": 26
+   },
+   {
+    "skill": "Shock Noise",
+    "level": 38
+   },
+   {
+    "skill": "Escape Route",
+    "level": 51
+   },
+   {
+    "skill": "Tartarus Search",
+    "level": 64
+   },
+   {
+    "skill": "Weakness Buffer",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Weakness Mitigator",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Oracle",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Revelation",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "lidarkA",
+  "heart": null,
+  "party": {
+   "owner": "fuuka",
+   "stage": "evolved",
+   "baseId": "lucia"
+  }
+ },
+ {
   "id": "kaguya",
   "name": "Kaguya",
   "nameEs": "Kaguya",
@@ -5392,6 +6063,127 @@
   ],
   "inheritance": "darkA",
   "heart": null
+ },
+ {
+  "id": "kala-nemi",
+  "name": "Kala-Nemi",
+  "nameEs": "Kala-Nemi",
+  "arcana": "justice",
+  "level": 37,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "lig": "null",
+   "dar": "weak",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 19,
+   "ma": 28,
+   "en": 23,
+   "ag": 25,
+   "lu": 23
+  },
+  "skills": [
+   {
+    "skill": "Zionga",
+    "level": null
+   },
+   {
+    "skill": "Kougaon",
+    "level": null
+   },
+   {
+    "skill": "Mediarama",
+    "level": null
+   },
+   {
+    "skill": "Makarakarn",
+    "level": null
+   },
+   {
+    "skill": "Dekaja",
+    "level": null
+   },
+   {
+    "skill": "Makouga",
+    "level": 38
+   },
+   {
+    "skill": "Tetrakarn",
+    "level": 42
+   },
+   {
+    "skill": "Samarecarm",
+    "level": 47
+   },
+   {
+    "skill": "Vile Assault",
+    "level": 51
+   },
+   {
+    "skill": "Ziodyne",
+    "level": 55
+   },
+   {
+    "skill": "Mahamaon",
+    "level": 60
+   },
+   {
+    "skill": "Mediarahan",
+    "level": 64
+   },
+   {
+    "skill": "Makougaon",
+    "level": 68
+   },
+   {
+    "skill": "Light Amp",
+    "level": 72
+   },
+   {
+    "skill": "Heat Riser",
+    "level": 76
+   },
+   {
+    "skill": "Spirit Refresh",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Spirit Restore",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Divine Retribution",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Divine Intervention",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "lightA",
+  "heart": null,
+  "party": {
+   "owner": "ken",
+   "stage": "evolved",
+   "baseId": "nemesis"
+  }
  },
  {
   "id": "kali",
@@ -6735,7 +7527,9 @@
   "inheritance": "lidarkA",
   "heart": null,
   "party": {
-   "owner": "fuuka"
+   "owner": "fuuka",
+   "stage": "initial",
+   "evolvedId": "juno"
   }
  },
  {
@@ -8537,7 +9331,9 @@
   "inheritance": "lightA",
   "heart": null,
   "party": {
-   "owner": "ken"
+   "owner": "ken",
+   "stage": "initial",
+   "evolvedId": "kala-nemi"
   }
  },
  {
@@ -9613,7 +10409,9 @@
   "inheritance": "pierceA",
   "heart": null,
   "party": {
-   "owner": "aigis"
+   "owner": "aigis",
+   "stage": "initial",
+   "evolvedId": "athena"
   }
  },
  {
@@ -9887,7 +10685,9 @@
   "inheritance": "iceA",
   "heart": null,
   "party": {
-   "owner": "mitsuru"
+   "owner": "mitsuru",
+   "stage": "initial",
+   "evolvedId": "artemisia"
   }
  },
  {
@@ -10146,7 +10946,9 @@
   "inheritance": "elecA",
   "heart": null,
   "party": {
-   "owner": "akihiko"
+   "owner": "akihiko",
+   "stage": "initial",
+   "evolvedId": "caesar"
   }
  },
  {
@@ -12980,6 +13782,159 @@
   "heart": {
    "item": "Soul Sea Droplet",
    "level": 52
+  }
+ },
+ {
+  "id": "trismegistus",
+  "name": "Trismegistus",
+  "nameEs": "Trismegistus",
+  "arcana": "magician",
+  "level": 1,
+  "flags": {
+   "dlc": false,
+   "special": false
+  },
+  "specialRecipe": null,
+  "unlock": null,
+  "resistances": {
+   "sla": "neutral",
+   "str": "neutral",
+   "pie": "neutral",
+   "fir": "null",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "weak",
+   "lig": "neutral",
+   "dar": "neutral",
+   "alm": "neutral"
+  },
+  "stats": {
+   "st": 3,
+   "ma": 1,
+   "en": 2,
+   "ag": 3,
+   "lu": 1
+  },
+  "skills": [
+   {
+    "skill": "Power Slash",
+    "level": null
+   },
+   {
+    "skill": "Agi",
+    "level": 4
+   },
+   {
+    "skill": "Bash",
+    "level": 6
+   },
+   {
+    "skill": "Rakukaja",
+    "level": 9
+   },
+   {
+    "skill": "Vacuum Slash",
+    "level": 13
+   },
+   {
+    "skill": "Counter",
+    "level": 16
+   },
+   {
+    "skill": "Assault Dive",
+    "level": 18
+   },
+   {
+    "skill": "Maragi",
+    "level": 22
+   },
+   {
+    "skill": "Torrent Shot",
+    "level": 25
+   },
+   {
+    "skill": "Agilao",
+    "level": 29
+   },
+   {
+    "skill": "Counterstrike",
+    "level": 33
+   },
+   {
+    "skill": "Fire Break",
+    "level": 36
+   },
+   {
+    "skill": "Blade of Fury",
+    "level": 40
+   },
+   {
+    "skill": "Shift Boost",
+    "level": 44
+   },
+   {
+    "skill": "Gigantic Fist",
+    "level": 47
+   },
+   {
+    "skill": "Marakukaja",
+    "level": 51
+   },
+   {
+    "skill": "Deathbound",
+    "level": 54
+   },
+   {
+    "skill": "High Counter",
+    "level": 57
+   },
+   {
+    "skill": "Vile Assault",
+    "level": 60
+   },
+   {
+    "skill": "Agidyne",
+    "level": 64
+   },
+   {
+    "skill": "Regenerate 3",
+    "level": 67
+   },
+   {
+    "skill": "Brave Blade",
+    "level": 71
+   },
+   {
+    "skill": "Vorpal Blade",
+    "level": 75
+   },
+   {
+    "skill": "Critical Boost",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Critical Amp",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Hack n' Blast",
+    "level": null,
+    "note": "special"
+   },
+   {
+    "skill": "Blaze of Life",
+    "level": null,
+    "note": "special"
+   }
+  ],
+  "inheritance": "slashA",
+  "heart": null,
+  "party": {
+   "owner": "junpei",
+   "stage": "evolved",
+   "baseId": "hermes"
   }
  },
  {

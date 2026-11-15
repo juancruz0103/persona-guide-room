@@ -14,10 +14,12 @@ export interface CatalogFilters {
   maxLevel: number;
   includeDlc: boolean;
   party: 'all' | 'only' | 'none';
+  /** Mostrar las evoluciones de los compañeros (spoiler) */
+  evolved: boolean;
   sort: 'level-asc' | 'level-desc' | 'name-asc' | 'arcana';
 }
 export const DEFAULT_FILTERS: CatalogFilters = {
-  query: '', arcanas: [], minLevel: 1, maxLevel: 99, includeDlc: true, party: 'all', sort: 'arcana',
+  query: '', arcanas: [], minLevel: 1, maxLevel: 99, includeDlc: true, party: 'all', evolved: false, sort: 'arcana',
 };
 
 const norm = (s: string) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -31,6 +33,7 @@ export function filterPersonas(list: Persona[], f: CatalogFilters): Persona[] {
     if (p.flags.dlc && !f.includeDlc) return false;
     if (f.party === 'only' && !p.party) return false;
     if (f.party === 'none' && p.party) return false;
+    if (p.party?.stage === 'evolved' && !f.evolved) return false;
     if (!p.party && (p.level < f.minLevel || p.level > f.maxLevel)) return false;
     return true;
   });

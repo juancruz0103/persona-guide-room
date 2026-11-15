@@ -6,9 +6,9 @@ const engine = getFusionEngine({ includeDlc: true });
 const noDlc = getFusionEngine({ includeDlc: false });
 
 describe('datos de P3R', () => {
-  it('194 Personas fusionables + 9 de compañeros, sin Episode Aigis', () => {
+  it('194 Personas fusionables + 16 de compañeros (9 + 7 evoluciones), sin Episode Aigis', () => {
     expect(P3R_PERSONAS.filter((p) => !p.party)).toHaveLength(194);
-    expect(P3R_PERSONAS.filter((p) => p.party)).toHaveLength(9);
+    expect(P3R_PERSONAS.filter((p) => p.party)).toHaveLength(16);
   });
   it('todas tienen nombre oficial en español', () => {
     expect(P3R_PERSONAS.filter((p) => !p.nameEs).map((p) => p.name)).toEqual([]);

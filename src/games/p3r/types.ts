@@ -49,7 +49,8 @@ export interface Persona {
   skills: PersonaSkill[];
   inheritance: string | null;
   heart: { item: string; level: number } | null;
-  party?: { owner: string | null };
+  /** Personas de compañeros: initial = la que despierta; evolved = evolución por historia (spoiler) */
+  party?: { owner: string | null; stage: 'initial' | 'evolved'; baseId?: string; evolvedId?: string };
 }
 
 export interface SkillInfo {

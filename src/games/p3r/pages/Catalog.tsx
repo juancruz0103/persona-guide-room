@@ -9,7 +9,7 @@ import styles from '../../p5r/pages/Catalog.module.css';
 import { L } from '../../../i18n';
 
 export default function Catalog() {
-  const [f, setF] = useSessionState<CatalogFilters>('p3r.catalog.filters', DEFAULT_FILTERS);
+  const [f, setF] = useSessionState<CatalogFilters>('p3r.catalog.filters2', DEFAULT_FILTERS);
   const list = useMemo(() => filterPersonas(getAllPersonas(), f), [f]);
   const set = <K extends keyof CatalogFilters>(k: K, v: CatalogFilters[K]) => setF((p) => ({ ...p, [k]: v }));
   const toggleArcana = (id: ArcanaId) =>
@@ -63,6 +63,10 @@ export default function Catalog() {
                 {v === 'all' ? L('Mostrar todas', 'Show all') : v === 'none' ? L('Ocultar compañeros', 'Hide party') : L('Solo compañeros', 'Party only')}
               </label>
             ))}
+            <label className={styles.check}>
+              <input type="checkbox" checked={!!f.evolved} onChange={(e) => set('evolved', e.target.checked)} />
+              {L('Mostrar evoluciones · contiene spoilers', 'Show evolutions · contains spoilers')}
+            </label>
           </fieldset>
         </aside>
         <section className={styles.results} aria-live="polite">

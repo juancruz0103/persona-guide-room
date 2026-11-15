@@ -2,6 +2,8 @@ import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
+import { PersonaPeek } from '../components/PersonaPeek';
+import { SpoilerCover } from '../../p5r/components/SpoilerCover';
 import { getArcana } from '../data/arcana';
 import { affinityLong, affinityShort, elementColor, elementShort, elementName, RESIST_GROUPS, INHERIT_ELEMS } from '../data/elements';
 import fusionJson from '../data/generated/fusion.json';
@@ -61,6 +63,21 @@ export default function PersonaProfile() {
           </div>
         </header>
 
+        {p.party?.evolvedId && getPersona(p.party.evolvedId) && (
+          <section className={styles.box}>
+            <h2 className={styles.h2}>{L('Evolución', 'Evolution')}</h2>
+            <SpoilerCover active label={L('Spoiler · tocá para ver en qué evoluciona', 'Spoiler · tap to see its evolution')}>
+              <p className={styles.note}>
+                {L('Evoluciona por la historia en', 'Evolves through the story into')} <PersonaPeek persona={getPersona(p.party.evolvedId)!} below />.
+              </p>
+            </SpoilerCover>
+          </section>
+        )}
+        {p.party?.baseId && getPersona(p.party.baseId) && (
+          <p className={styles.note}>
+            {L('Evolución por historia de', 'Story evolution of')} <PersonaPeek persona={getPersona(p.party.baseId)!} below />. {L('Contiene spoilers.', 'Contains spoilers.')}
+          </p>
+        )}
         <section aria-label={L('Afinidades', 'Affinities')} className={styles.affWrap}>
           {RESIST_GROUPS.map((g) => (
             <div key={g.label()} className={styles.affGroup}>
@@ -149,7 +166,7 @@ export default function PersonaProfile() {
               {special.map((s, i) => (
                 <span key={s.id}>
                   {i > 0 && <em> + </em>}
-                  <Link to={`/p3r/calculadora/persona/${s.id}`}>{personaName(s)}</Link>
+                  <PersonaPeek persona={s} below />
                   <small> ({getArcana(s.arcana).name}, {L('Nv', 'Lv')} {s.level})</small>
                 </span>
               ))}
@@ -166,10 +183,10 @@ export default function PersonaProfile() {
                 <ul className={styles.recipes}>
                   {recipes.slice(0, 12).map((r) => (
                     <li key={r.a.id + r.b.id}>
-                      <Link to={`/p3r/calculadora/persona/${r.a.id}`}>{personaName(r.a)}</Link>
+                      <PersonaPeek persona={r.a} below />
                       <small> {L('Nv', 'Lv')} {r.a.level}</small>
                       <em> + </em>
-                      <Link to={`/p3r/calculadora/persona/${r.b.id}`}>{personaName(r.b)}</Link>
+                      <PersonaPeek persona={r.b} below />
                       <small> {L('Nv', 'Lv')} {r.b.level}</small>
                     </li>
                   ))}

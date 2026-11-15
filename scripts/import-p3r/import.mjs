@@ -136,10 +136,23 @@ function convert(name, d, isParty) {
     ...(isParty ? { party: { owner: PARTY_OWNER[name] ?? null } } : {}),
   };
 }
-const personas = [
-  ...Object.entries(demons).map(([n, d]) => convert(n, d, false)),
-  ...Object.entries(party).map(([n, d]) => convert(n, d, true)),
-].sort((a, b) => a.name.localeCompare(b.name));
+/** Evolución por historia: misma Persona con afinidades mejoradas ("sesists" en la fuente). */
+const EVOLVES = {
+  Io: 'Isis', Hermes: 'Trismegistus', Polydeuces: 'Caesar', Penthesilea: 'Artemisia',
+  Lucia: 'Juno', Palladion: 'Athena', Nemesis: 'Kala-Nemi',
+};
+const partyList = Object.entries(party).flatMap(([n, d]) => {
+  const base = convert(n, d, true);
+  base.party.stage = 'initial';
+  const evolved = EVOLVES[n];
+  if (!evolved || !d.sesists) return [base];
+  const evo = convert(evolved, { ...d, resists: d.sesists }, true);
+  evo.party = { owner: base.party.owner, stage: 'evolved', baseId: base.id };
+  base.party.evolvedId = evo.id;
+  return [base, evo];
+});
+const personas = [...Object.entries(demons).map(([n, d]) => convert(n, d, false)), ...partyList]
+  .sort((a, b) => a.name.localeCompare(b.name));
 
 /* ---------- Fusión ---------- */
 const arcanaOrder = chart.races.map((r) => r.toLowerCase());
