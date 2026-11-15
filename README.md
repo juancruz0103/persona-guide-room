@@ -1,6 +1,6 @@
 # Persona Guide Room
 
-Guía interactiva para **Persona 5 Royal**: calculadora de fusiones, guía de confidentes y builds de Personas creadas por la comunidad. Tiene una estética inspirada en los menús del juego.
+Guía interactiva para **Persona 5 Royal** y **Persona 3 Reload**: calculadoras de fusiones, guías de confidentes y vínculos, respuestas de clase y builds de Personas creadas por la comunidad. Cada juego tiene una estética inspirada en sus menús.
 
 > Proyecto fan, no oficial. Persona es propiedad de ATLUS / SEGA.
 
@@ -23,6 +23,13 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones, guía de co
   - Personas favoritas.
 - **Moderación:** filtro de palabras prohibidas (detecta variantes con puntos, espacios y números), límites anti-spam, reportes y panel de administración para revisar reportes, suspender usuarios y editar la lista de palabras.
 - **Español e inglés:** detecta el idioma del navegador y tiene un botón para cambiarlo.
+
+### Persona 3 Reload (paleta «Medianoche»)
+
+- **Calculadora:** las 194 Personas (sin Episode Aigis), fusión de 2, búsqueda inversa, fusiones especiales, objetos de corazón y Personas de los compañeros con su evolución (con aviso de spoiler).
+- **Vínculos sociales:** los 22 vínculos con los diálogos oficiales del juego, mejores respuestas por rango, rutas de romance y amistad, y seguimiento de progreso.
+- **Respuestas de clase:** las 53 preguntas de profesores, ayudas a Junpei y exámenes, con el texto oficial.
+- **Builds:** cadena de fusiones y skill cards (sin rasgos), con la misma comunidad que Royal.
 
 ## Tecnologías
 
@@ -98,7 +105,8 @@ Las Personas, habilidades y reglas de fusión vienen de [aqiu384/megaten-fusion-
 
 - ~~**v1:** compendio completo, motor de fusiones, guía de confidentes~~ ✅
 - ~~**v2:** cuentas, progreso de confidentes, favoritas, builds de la comunidad, moderación, versión en inglés~~ ✅
-- **Futuro:** más builds oficiales, Persona 3 Reload y Persona 4 Golden con su propia paleta.
+- ~~**v3:** Persona 3 Reload con su propia paleta~~ ✅
+- **Futuro:** imágenes de las Personas de Reload, más builds oficiales y Persona 4 Golden.
 
 ## Licencia
 
