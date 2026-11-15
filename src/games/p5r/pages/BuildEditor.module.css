@@ -100,3 +100,15 @@
   .addIng { margin-top: 0; }
 }
 .back { align-self: flex-start; }
+.chipTrait { background: rgba(217, 163, 245, 0.16); color: var(--c-sp); border-color: var(--c-sp); }
+.traitBox { display: flex; flex-direction: column; gap: 4px; padding: 6px; border: 1px solid rgba(217, 163, 245, 0.45); background: rgba(217, 163, 245, 0.06); }
+.traitLabel { font-size: 12.5px; font-weight: 700; color: var(--c-sp); }
+.alarm { align-self: flex-start; padding: 2px 8px; background: var(--c-primary); color: var(--c-text); font-size: 13px; font-weight: 700; }
+.goalEdit { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start; }
+.goalSlots { flex: 1; min-width: 280px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+@media (max-width: 700px) { .goalSlots { grid-template-columns: minmax(0, 1fr); } }
+.goalSlot { display: flex; align-items: center; gap: 8px; padding: 6px; background: var(--c-bg); border-left: 4px solid var(--c-accent); }
+.goalSlot input { flex: 1; min-width: 0; min-height: 38px; padding: 4px 8px; background: var(--c-surface); color: var(--c-text); border: 1px solid var(--c-line); font: inherit; }
+.goalNum { display: inline-grid; place-items: center; width: 24px; height: 24px; flex-shrink: 0; background: var(--c-accent); color: var(--c-ink); font-weight: 800; font-size: 13px; }
+.goalFreeTxt { flex: 1; color: var(--c-text-muted); font-style: italic; }
+.panel > .btn { align-self: flex-start; }

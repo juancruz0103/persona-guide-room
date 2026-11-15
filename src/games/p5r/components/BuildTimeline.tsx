@@ -1,5 +1,7 @@
 import { Fragment, useState } from 'react';
-import type { BuildCard, BuildStep } from '../../../core/account/builds';
+import type { BuildCard, BuildGoal, BuildStep } from '../../../core/account/builds';
+import { personaCardFocus, personaImage } from '../services/images';
+import { Link } from 'react-router-dom';
 import { BuildPersona } from './BuildPersona';
 import { buildRequirements, checkStep } from '../services/builds';
 import { getPersona } from '../services/personas';
@@ -96,7 +98,7 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
                 </Fragment>
               ))}
               <span className={styles.arrow}>➜</span>
-              {!isLast && <BuildPersona personaId={s.result} skills={s.inherit} learn={s.learn} variant="result" />}
+              {!isLast && <BuildPersona personaId={s.result} skills={s.inherit} learn={s.learn} trait={s.trait} variant="result" />}
               {isLast && <span className={styles.finalHint}>Persona final ↓</span>}
             </div>
             {s.note && <p className={styles.note}>{s.note}</p>}
@@ -108,7 +110,7 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
 
       {last && (
         <div className={styles.finale}>
-          <BuildPersona personaId={last.result} skills={last.inherit} learn={last.learn} variant="final" />
+          <BuildPersona personaId={last.result} skills={last.inherit} learn={last.learn} trait={last.trait} variant="final" />
           {cards.length > 0 && (
             <div className={styles.cards}>
               <span className={styles.cardsTitle}>Skill cards · silla eléctrica</span>
@@ -116,7 +118,7 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
                 <div key={k} className={styles.cardRow}>
                   <span className={styles.cardArrow}>⬅</span>
                   <span className={styles.skillCard}>{skillName(c.skill)}</span>
-                  <span className={styles.cardFrom}>de</span>
+                  <span className={styles.cardFrom}>de{c.alarm ? ' (con Alarma de fusión)' : ''}</span>
                   <BuildPersona personaId={c.from} variant="mini" />
                 </div>
               ))}
@@ -124,6 +126,35 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+/** «Así tiene que quedar»: la Persona final con sus 8 habilidades y el rasgo. */
+export function BuildGoalView({ goal }: { goal: BuildGoal }) {
+  const p = getPersona(goal.persona);
+  const img = personaImage(goal.persona, 'profile') ?? personaImage(goal.persona, 'side');
+  const slots = Array.from({ length: 8 }, (_, i) => goal.skills[i]);
+  return (
+    <div className={styles.goal}>
+      <Link to={`/p5r/calculadora/persona/${goal.persona}`} className={styles.goalImg} title="Ver perfil">
+        {img && <img src={img} alt="" style={{ objectPosition: personaCardFocus(goal.persona) }} />}
+        <span>{p ? personaName(p) : goal.persona}</span>
+      </Link>
+      <div className={styles.goalBody}>
+        <span className={styles.goalTitle}>Así tiene que quedar</span>
+        <ol className={styles.goalSkills}>
+          {slots.map((s, i) => (
+            <li key={i} className={s === null ? styles.goalFree : s ? undefined : styles.goalEmpty}>
+              <span>{i + 1}</span>
+              {s === null ? 'A elección del jugador' : s ? skillName(s) : '—'}
+            </li>
+          ))}
+        </ol>
+        <div className={styles.goalTrait}>
+          Rasgo: <strong>{goal.trait === null ? 'a elección del jugador' : goal.trait ? skillName(goal.trait) : '—'}</strong>
+        </div>
+      </div>
     </div>
   );
 }

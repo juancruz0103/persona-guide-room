@@ -19,12 +19,23 @@ export interface BuildStep {
   /** Habilidades importantes que hereda el resultado */
   inherit: string[];
   learn: BuildLearn[];
+  /** Rasgo que hereda el resultado: name null = a elección del jugador; from = Persona de la que sale */
+  trait?: { name: string | null; from?: string };
   note?: string;
 }
 /** Skill card del toque final: la habilidad y la Persona que se lleva a la silla eléctrica. */
 export interface BuildCard {
   skill: string;
   from: string;
+  /** La carta sale de esa Persona solo con la Alarma de fusión */
+  alarm?: boolean;
+}
+
+/** Cómo tiene que quedar la Persona final: 8 habilidades y rasgo (null = a elección del jugador). */
+export interface BuildGoal {
+  persona: string;
+  skills: (string | null)[];
+  trait: string | null;
 }
 
 export interface Build {
@@ -35,6 +46,7 @@ export interface Build {
   description: string | null;
   steps: BuildStep[];
   skill_cards: BuildCard[];
+  goal: BuildGoal | null;
   hidden: boolean;
   created_at: string;
   updated_at: string;
@@ -60,7 +72,7 @@ export const MAX_SKILLS = 8;
 export const offered = (s: BuildStep): string[] => [...new Set(s.ingredients.flatMap((i) => i.skills))];
 
 const SELECT =
-  'id, user_id, persona_id, title, description, steps, skill_cards, hidden, created_at, updated_at, author:profiles!builds_user_id_fkey(username), build_likes(count), build_comments(count)';
+  'id, user_id, persona_id, title, description, steps, skill_cards, goal, hidden, created_at, updated_at, author:profiles!builds_user_id_fkey(username), build_likes(count), build_comments(count)';
 
 type Row = Omit<Build, 'likes' | 'comments'> & {
   build_likes: { count: number }[];
@@ -87,7 +99,7 @@ export async function getBuild(id: string): Promise<Build | null> {
 
 export async function saveBuild(
   userId: string,
-  b: Pick<Build, 'title' | 'description' | 'steps' | 'skill_cards'> & { id?: string },
+  b: Pick<Build, 'title' | 'description' | 'steps' | 'skill_cards' | 'goal'> & { id?: string },
 ): Promise<{ id?: string; error?: string }> {
   const last = b.steps[b.steps.length - 1];
   const row = {
@@ -96,7 +108,8 @@ export async function saveBuild(
     description: b.description,
     steps: b.steps,
     skill_cards: b.skill_cards,
-    persona_id: last?.result ?? '',
+    goal: b.goal,
+    persona_id: b.goal?.persona || last?.result || '',
   };
   const res = b.id
     ? await supabase.from('builds').update(row).eq('id', b.id).select('id').single()

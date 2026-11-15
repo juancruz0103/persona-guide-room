@@ -15,7 +15,7 @@ import {
 } from '../../../core/account/builds';
 import { authErrorText, supabase } from '../../../core/account/supabase';
 import { BackButton } from '../../../shared/components/BackButton';
-import { BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
+import { BuildGoalView, BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
 import styles from './Builds.module.css';
 
 /** Una build: la línea de fusiones paso a paso, likes y comentarios. */
@@ -103,6 +103,7 @@ export default function BuildView() {
       </section>
 
       <section className={`container ${styles.viewBody}`}>
+        {build.goal && <BuildGoalView goal={build.goal} />}
         <BuildRequirements steps={build.steps} cards={build.skill_cards} />
         <BuildTimeline steps={build.steps} cards={build.skill_cards} />
       </section>

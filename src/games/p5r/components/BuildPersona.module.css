@@ -151,3 +151,16 @@
     width: 100%;
   }
 }
+.trait {
+  margin: 6px 10px 0;
+  padding: 3px 8px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--c-sp);
+  background: rgba(217, 163, 245, 0.12);
+  border: 1px solid rgba(217, 163, 245, 0.55);
+}
+.trait small {
+  font-weight: 400;
+  opacity: 0.85;
+}

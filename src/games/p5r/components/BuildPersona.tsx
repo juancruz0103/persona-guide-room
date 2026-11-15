@@ -14,11 +14,13 @@ interface Props {
   note?: string;
   /** «Del paso 3»: la Persona sale de un paso anterior */
   fromStep?: number;
+  /** Rasgo que hereda (null = a elección del jugador) */
+  trait?: { name: string | null; from?: string };
   variant?: 'ingredient' | 'result' | 'final' | 'mini';
 }
 
 /** Cuadro de una Persona dentro de una build: foto, nombre y habilidades. Lleva a su perfil. */
-export function BuildPersona({ personaId, skills = [], learn = [], note, fromStep, variant = 'ingredient' }: Props) {
+export function BuildPersona({ personaId, skills = [], learn = [], note, fromStep, trait, variant = 'ingredient' }: Props) {
   const p = getPersona(personaId);
   const img = personaImage(personaId, 'side');
   const req = p ? personaRequirement(p) : null;
@@ -42,6 +44,12 @@ export function BuildPersona({ personaId, skills = [], learn = [], note, fromSte
         </span>
       </Link>
       {note && <span className={styles.note}>{note}</span>}
+      {trait && (
+        <span className={styles.trait} title="Rasgo que hereda">
+          Rasgo · {trait.name ? skillName(trait.name) : 'a elección del jugador'}
+          {trait.from && <small> ← {(() => { const f = getPersona(trait.from); return f ? personaName(f) : trait.from; })()}</small>}
+        </span>
+      )}
       {(skills.length > 0 || learn.length > 0) && (
         <div className={styles.skills}>
           {skills.map((s) => (

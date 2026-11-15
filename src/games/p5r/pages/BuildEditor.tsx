@@ -8,6 +8,7 @@ import {
   offered,
   saveBuild,
   type BuildCard,
+  type BuildGoal,
   type BuildIngredient,
   type BuildStep,
 } from '../../../core/account/builds';
@@ -17,7 +18,8 @@ import { getAllPersonas, getAllSkills, getPersona } from '../services/personas';
 import { bySkillName, personaMatches, personaName, skillName } from '../services/gameText';
 import { personaCardFocus, personaImage } from '../services/images';
 import { checkStep, fuseResult, personaRequirement, specialIngredients } from '../services/builds';
-import { BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
+import { skillCardSources } from '../services/items';
+import { BuildGoalView, BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
 import styles from './BuildEditor.module.css';
 
 const ALL_PERSONAS = getAllPersonas()
@@ -47,8 +49,9 @@ export default function BuildEditor() {
   const [description, setDescription] = useState('');
   const [steps, setSteps] = useState<BuildStep[]>([emptyStep()]);
   const [cards, setCards] = useState<BuildCard[]>([]);
+  const [goal, setGoal] = useState<BuildGoal>({ persona: '', skills: Array(8).fill(''), trait: '' });
   const [current, setCurrent] = useState(0);
-  const [view, setView] = useState<'step' | 'cards' | 'preview'>('step');
+  const [view, setView] = useState<'goal' | 'step' | 'cards' | 'preview'>(buildId ? 'step' : 'goal');
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
   const [owner, setOwner] = useState<string | null>(null);
@@ -61,6 +64,7 @@ export default function BuildEditor() {
       setDescription(b.description ?? '');
       setSteps(b.steps.length ? b.steps : [emptyStep()]);
       setCards(b.skill_cards);
+      if (b.goal) setGoal({ ...b.goal, skills: Array.from({ length: 8 }, (_, i) => (b.goal!.skills[i] === undefined ? '' : b.goal!.skills[i])) });
       setOwner(b.user_id);
     });
   }, [buildId]);
@@ -99,6 +103,7 @@ export default function BuildEditor() {
       if (s.inherit.length > MAX_SKILLS) return `En el paso ${i + 1} el resultado hereda más de ${MAX_SKILLS} habilidades.`;
     }
     if (cards.some((c) => !c.skill || !c.from)) return 'Completá las skill cards o quitá las que estén vacías.';
+    if (!goal.persona) return 'En «Objetivo», elegí la Persona final y cómo tienen que quedar sus habilidades.';
     return '';
   };
 
@@ -108,7 +113,7 @@ export default function BuildEditor() {
     if (v) return setError(v);
     if (!profile?.username) return setError('Elegí un nombre de usuario en «Mi perfil» antes de publicar.');
     setBusy(true);
-    const res = await saveBuild(user.id, { id: buildId, title: title.trim(), description: description.trim() || null, steps, skill_cards: cards });
+    const res = await saveBuild(user.id, { id: buildId, title: title.trim(), description: description.trim() || null, steps, skill_cards: cards, goal: goal.persona ? goal : null });
     setBusy(false);
     if (res.error) return setError(res.error.includes('row-level') ? 'Tu cuenta no puede publicar builds.' : authErrorText(res.error));
     navigate(`/p5r/builds/${res.id}`);
@@ -134,6 +139,9 @@ export default function BuildEditor() {
         </div>
 
         <nav className={styles.stepper} aria-label="Pasos de la build">
+          <button type="button" className={`${styles.stepBtn} ${view === 'goal' ? styles.stepOn : ''}`} onClick={() => setView('goal')}>
+            <span className={`${styles.dot} ${goal.persona ? styles.dotOk : ''}`}>◆</span> Objetivo
+          </button>
           {steps.map((s, i) => {
             const c = checkStep(s);
             const on = view === 'step' && i === current;
@@ -171,10 +179,13 @@ export default function BuildEditor() {
           />
         )}
 
+        {view === 'goal' && <GoalPanel goal={goal} onChange={setGoal} onStart={() => setView('step')} />}
+
         {view === 'cards' && <CardsPanel cards={cards} onChange={setCards} />}
 
         {view === 'preview' && (
           <div className={styles.preview}>
+            {goal.persona && <BuildGoalView goal={goal} />}
             <BuildRequirements steps={steps} cards={cards.filter((c) => c.skill && c.from)} />
             <BuildTimeline steps={steps.filter((s) => checkStep(s) !== 'incomplete')} cards={cards.filter((c) => c.skill && c.from)} />
           </div>
@@ -301,6 +312,7 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
                   );
                 })}
               </div>
+              <TraitPicker step={step} onChange={(trait) => onChange({ ...step, trait })} />
               <span className={styles.mini}>Aprende sola (tocá para marcar):</span>
               <div className={styles.chips}>
                 {(getPersona(step.result)?.skills ?? []).map((s) => {
@@ -351,7 +363,7 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
           maxLength={600}
           value={step.note ?? ''}
           onChange={(e) => onChange({ ...step, note: e.target.value || undefined })}
-          placeholder="Contá con tus palabras qué hacer en este paso o qué hay que tener en cuenta. Ej.: «Ishtar ya trae Absorber viento de base: pasale solo Absorber hielo.»"
+          placeholder="Contá con tus palabras qué hacer en este paso o qué hay que tener en cuenta."
         />
       </label>
 
@@ -510,47 +522,196 @@ function PickCard({ id, onPick }: { id: string; onPick: (id: string) => void }) 
   );
 }
 
-/* ---------- Skill cards ---------- */
+/* ---------- Rasgo ---------- */
 
-function CardsPanel({ cards, onChange }: { cards: BuildCard[]; onChange: (c: BuildCard[]) => void }) {
-  const [picking, setPicking] = useState<number | null>(null);
+function TraitPicker({ step, onChange }: { step: BuildStep; onChange: (t: BuildStep['trait']) => void }) {
+  const options = [
+    ...step.ingredients.filter((x) => x.persona).map((x) => ({ name: getPersona(x.persona)?.trait ?? null, from: x.persona })),
+    { name: getPersona(step.result)?.trait ?? null, from: step.result },
+  ].filter((o): o is { name: string; from: string } => !!o.name);
+  const seen = new Set<string>();
+  const unique = options.filter((o) => (seen.has(o.name) ? false : (seen.add(o.name), true)));
+  const cur = step.trait;
+  const [free, setFree] = useState('');
+  return (
+    <div className={styles.traitBox}>
+      <span className={styles.traitLabel}>Rasgo que hereda</span>
+      <div className={styles.chips}>
+        {unique.map((o) => {
+          const on = cur?.name === o.name;
+          return (
+            <button key={o.name} type="button" className={`${styles.chip} ${on ? styles.chipTrait : styles.chipOff}`} onClick={() => onChange(on ? undefined : { name: o.name, from: o.from })}>
+              {skillName(o.name)} <small>← {pname(o.from)}</small>
+            </button>
+          );
+        })}
+        <button type="button" className={`${styles.chip} ${cur && cur.name === null ? styles.chipTrait : styles.chipOff}`} onClick={() => onChange(cur && cur.name === null ? undefined : { name: null })}>
+          A elección del jugador
+        </button>
+        {cur?.name && !unique.some((o) => o.name === cur.name) && (
+          <button type="button" className={`${styles.chip} ${styles.chipTrait}`} onClick={() => onChange(undefined)}>
+            {skillName(cur.name)}
+          </button>
+        )}
+      </div>
+      <div className={styles.addSkill}>
+        <input list="all-traits" value={free} onChange={(e) => setFree(e.target.value)} placeholder="Otro rasgo que te salió…" />
+        <button
+          type="button"
+          onClick={() => {
+            const t = TRAITS_LIST.find((k) => skillName(k).toLowerCase() === free.trim().toLowerCase());
+            if (t) onChange({ name: t });
+            setFree('');
+          }}
+        >
+          +
+        </button>
+        <datalist id="all-traits">{TRAITS_LIST.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
+      </div>
+    </div>
+  );
+}
+
+const TRAITS_LIST = [...new Set(getAllPersonas().map((p) => p.trait).filter((t): t is string => !!t))].sort(bySkillName);
+
+/* ---------- Objetivo: cómo queda la Persona final ---------- */
+
+function GoalPanel({ goal, onChange, onStart }: { goal: BuildGoal; onChange: (g: BuildGoal) => void; onStart: () => void }) {
+  const [picking, setPicking] = useState(false);
+  const setSkill = (i: number, v: string | null) => onChange({ ...goal, skills: goal.skills.map((x, j) => (j === i ? v : x)) });
   return (
     <div className={styles.panel}>
-      <h2 className={styles.h2}>Skill cards del toque final</h2>
-      <p className={styles.howto}>Elegí la habilidad y la Persona que se lleva a la silla eléctrica para conseguir la carta.</p>
-      {cards.map((c, k) => (
-        <div key={k} className={styles.cardRow}>
-          <Slot personaId={c.from} label="Persona para la silla" onPick={() => setPicking(k)} />
-          <span className={styles.op}>➜</span>
-          <div className={styles.field}>
-            <span className={styles.mini}>Habilidad de la carta</span>
-            <SkillInput value={c.skill} onChange={(skill) => onChange(cards.map((x, j) => (j === k ? { ...x, skill } : x)))} />
-            <button type="button" className={styles.smallBtn} onClick={() => onChange(cards.filter((_, j) => j !== k))}>Quitar carta</button>
+      <div className={styles.panelHead}>
+        <h2 className={styles.h2}>Objetivo</h2>
+        <p className={styles.howto}>Mostrá cómo tienen que quedar las 8 habilidades y el rasgo de la Persona final. Si alguna queda a gusto de cada jugador, marcala como «A elección».</p>
+      </div>
+      <div className={styles.goalEdit}>
+        <Slot personaId={goal.persona} label="Persona final" result onPick={() => setPicking(true)} />
+        <div className={styles.goalSlots}>
+          {goal.skills.map((s, i) => (
+            <div key={i} className={styles.goalSlot}>
+              <span className={styles.goalNum}>{i + 1}</span>
+              {s === null ? (
+                <span className={styles.goalFreeTxt}>A elección del jugador</span>
+              ) : (
+                <SkillInput key={`${i}-${s}`} value={s} onChange={(v) => setSkill(i, v)} />
+              )}
+              <button type="button" className={`${styles.chip} ${s === null ? styles.chipOn : styles.chipOff}`} onClick={() => setSkill(i, s === null ? '' : null)}>
+                A elección
+              </button>
+            </div>
+          ))}
+          <div className={styles.goalSlot}>
+            <span className={styles.goalNum} style={{ background: 'var(--c-sp)' }}>R</span>
+            {goal.trait === null ? (
+              <span className={styles.goalFreeTxt}>Rasgo a elección del jugador</span>
+            ) : (
+              <TraitInput key={goal.trait} value={goal.trait} onChange={(trait) => onChange({ ...goal, trait })} />
+            )}
+            <button type="button" className={`${styles.chip} ${goal.trait === null ? styles.chipTrait : styles.chipOff}`} onClick={() => onChange({ ...goal, trait: goal.trait === null ? '' : null })}>
+              A elección
+            </button>
           </div>
         </div>
-      ))}
-      {cards.length < 8 && (
-        <button type="button" className="btn btn--light" onClick={() => onChange([...cards, { skill: '', from: '' }])}>+ Agregar skill card</button>
-      )}
-      {picking !== null && (
+      </div>
+      <datalist id="all-traits-goal">{TRAITS_LIST.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
+      <div className={styles.tools}>
+        <button type="button" className="btn btn--light" onClick={onStart}>Empezar con el paso 1 →</button>
+      </div>
+      {picking && (
         <PersonaPicker
-          title="Persona para la silla eléctrica"
+          title="¿Qué Persona querés armar?"
           created={[]}
-          onPick={(from) => { onChange(cards.map((x, j) => (j === picking ? { ...x, from } : x))); setPicking(null); }}
-          onClose={() => setPicking(null)}
+          onPick={(persona) => {
+            const p = getPersona(persona);
+            onChange({ ...goal, persona, trait: goal.trait || p?.trait || '' });
+            setPicking(false);
+          }}
+          onClose={() => setPicking(false)}
         />
       )}
     </div>
   );
 }
 
-function SkillInput({ value, onChange }: { value: string; onChange: (v: string) => void }) {
+function TraitInput({ value, onChange }: { value: string; onChange: (v: string) => void }) {
+  const [text, setText] = useState(value ? skillName(value) : '');
+  return (
+    <input
+      list="all-traits-goal"
+      value={text}
+      onChange={(e) => {
+        setText(e.target.value);
+        onChange(TRAITS_LIST.find((k) => skillName(k).toLowerCase() === e.target.value.trim().toLowerCase()) ?? '');
+      }}
+      placeholder="Rasgo"
+    >
+    </input>
+  );
+}
+
+/* ---------- Skill cards ---------- */
+
+function CardsPanel({ cards, onChange }: { cards: BuildCard[]; onChange: (c: BuildCard[]) => void }) {
+  const setSkill = (k: number, skill: string) => {
+    const src = skill ? skillCardSources(skill)[0] : undefined;
+    onChange(cards.map((x, j) => (j === k ? { skill, from: src?.persona.id ?? '', alarm: src?.alarm } : x)));
+  };
+  return (
+    <div className={styles.panel}>
+      <h2 className={styles.h2}>Skill cards del toque final</h2>
+      <p className={styles.howto}>Elegí la skill card: la Persona que hay que llevar a la silla eléctrica aparece sola.</p>
+      {cards.map((c, k) => {
+        const sources = c.skill ? skillCardSources(c.skill) : [];
+        return (
+          <div key={k} className={styles.cardRow}>
+            <div className={styles.field} style={{ minWidth: 220 }}>
+              <span className={styles.mini}>Skill card</span>
+              <SkillInput value={c.skill} onChange={(v) => setSkill(k, v)} onlyCards />
+              {c.skill && !sources.length && <span className={styles.bad}>Esta habilidad no existe como skill card.</span>}
+            </div>
+            {c.from && (
+              <>
+                <span className={styles.op}>⬅</span>
+                <Slot personaId={c.from} label="Persona" onPick={() => undefined} />
+                <div className={styles.field}>
+                  {c.alarm && <span className={styles.alarm}>Solo con la Alarma de fusión</span>}
+                  {sources.length > 1 && (
+                    <>
+                      <span className={styles.mini}>También la dan:</span>
+                      <div className={styles.chips}>
+                        {sources.map((s) => (
+                          <button key={s.persona.id + s.alarm} type="button" className={`${styles.chip} ${s.persona.id === c.from && !!s.alarm === !!c.alarm ? styles.chipOn : styles.chipOff}`} onClick={() => onChange(cards.map((x, j) => (j === k ? { ...x, from: s.persona.id, alarm: s.alarm } : x)))}>
+                            {personaName(s.persona)}{s.alarm ? ' (alarma)' : ''}
+                          </button>
+                        ))}
+                      </div>
+                    </>
+                  )}
+                </div>
+              </>
+            )}
+            <button type="button" className={styles.smallBtn} onClick={() => onChange(cards.filter((_, j) => j !== k))}>Quitar</button>
+          </div>
+        );
+      })}
+      {cards.length < 8 && (
+        <button type="button" className="btn btn--light" onClick={() => onChange([...cards, { skill: '', from: '' }])}>+ Agregar skill card</button>
+      )}
+    </div>
+  );
+}
+
+const CARD_SKILLS = SKILLS.filter((k) => skillCardSources(k).length > 0);
+
+function SkillInput({ value, onChange, onlyCards }: { value: string; onChange: (v: string) => void; onlyCards?: boolean }) {
   const [text, setText] = useState(value ? skillName(value) : '');
   const listId = useMemo(() => `ski-${Math.random().toString(36).slice(2)}`, []);
+  const list = onlyCards ? CARD_SKILLS : SKILLS;
   return (
     <>
       <input list={listId} value={text} onChange={(e) => { setText(e.target.value); onChange(findSkill(e.target.value) ?? ''); }} placeholder="Escribí una habilidad" />
-      <datalist id={listId}>{SKILLS.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
+      <datalist id={listId}>{list.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
     </>
   );
 }
