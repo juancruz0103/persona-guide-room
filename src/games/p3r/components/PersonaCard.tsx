@@ -25,7 +25,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
         <ImagePlaceholder className={styles.image} src={personaImage(persona.id, 'side')} focus={personaCardFocus(persona.id)} label={personaImage(persona.id, 'side') ? personaName(persona) : L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
       </SpoilerCover>
       <div className={styles.body}>
-        <span className={styles.name}>{isSpoiler(persona) ? L('Evolución (spoiler)', 'Evolution (spoiler)') : personaName(persona)}</span>
+        <span className={styles.name}>{personaName(persona)}</span>
         <div className={styles.meta}>
           <span className={styles.arcana}>{arcana.name}</span>
           {persona.party ? (
