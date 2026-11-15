@@ -18,7 +18,7 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones, guía de co
 - **Builds:** rutas de fusión paso a paso con fotos, herencia de habilidades y rasgos, skill cards, notas por paso y un panel automático de requisitos (confidentes al máximo, DLC y avance de la historia, con aviso de spoiler).
   - Editor guiado que verifica cada combinación con el motor de fusiones.
   - Comentarios, "me gusta" y reportes.
-- **Cuentas de usuario:** entrada con Google o con email.
+- **Cuentas de usuario:** entrada con Google (la cuenta se crea sola la primera vez).
   - Progreso de confidentes guardado en la cuenta, con orden configurable en «Mi perfil».
   - Personas favoritas.
 - **Moderación:** filtro de palabras prohibidas (detecta variantes con puntos, espacios y números), límites anti-spam, reportes y panel de administración para revisar reportes, suspender usuarios y editar la lista de palabras.
@@ -30,7 +30,7 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones, guía de co
 - **Vite**: servidor de desarrollo y build.
 - **React Router (HashRouter)**: rutas que funcionan en cualquier hosting estático.
 - **CSS Modules + variables CSS**: estilos por componente y paleta centralizada por juego.
-- **Supabase**: autenticación (Google y email) y base de datos Postgres.
+- **Supabase**: autenticación con Google y base de datos Postgres.
   - Las reglas de seguridad viven en la base: políticas RLS, el filtro de palabras, los límites anti-spam y la protección de campos de administrador.
 - **Vitest**: tests del motor de fusiones, los filtros y los datos.
 - **Cloudflare Workers** (archivos estáticos): hosting principal, que se publica solo con cada push a `main`.
