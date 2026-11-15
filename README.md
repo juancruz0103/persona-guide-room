@@ -1,35 +1,42 @@
 # Persona Guide Room
 
-Guía interactiva para **Persona 5 Royal**: calculadora de fusiones de Personas y guía de confidentes, con una estética inspirada en los menús del juego.
+Guía interactiva para **Persona 5 Royal**: calculadora de fusiones, guía de confidentes y builds de Personas creadas por la comunidad. Tiene una estética inspirada en los menús del juego.
 
 > Proyecto fan, no oficial. Persona es propiedad de ATLUS / SEGA.
 
-🔗 **Demo:** https://personaguy.personaguide.workers.dev/
+🔗 **Sitio:** https://personaguy.personaguide.workers.dev/
 
 ---
 
-## Estado actual
+## Qué tiene
 
-| Etapa | Estado |
-|-------|--------|
-| 1 · Investigación y planificación | ✅ [Informe](docs/ETAPA-1-informe.md) |
-| 2 · Diseño visual navegable | ✅ [Decisiones de diseño](docs/ETAPA-2-diseno.md) |
-| 3 · Calculadora (compendio completo + motor de fusiones) | ✅ [Reglas y verificación](docs/ETAPA-3-fusiones.md) |
-| 4 · Guía de confidentes (9 Ladrones Fantasma) | ⏳ Próxima |
-| 5 · Pruebas y publicación | ⏳ |
-
-**Hoy:** la calculadora tiene las **232 Personas** de Royal, fusión de 2 Personas, búsqueda inversa y recetas especiales, con opciones para excluir DLC y Treasure Demons. **Skill cards y silla eléctrica:** qué Persona da cada skill card (normal o con Alarma de fusión), las skills exclusivas y el item de cada Persona en su ficha ([detalle](docs/FUNCION-skill-cards.md)). **Respuestas de clase:** las 100 preguntas de profesores y exámenes, filtrables por mes, día y tipo. En los confidentes, solo el **rango 2 de Ryuji** tiene datos (traducción provisoria). Todo lo pendiente está marcado así en la web.
+- **Calculadora de fusiones:** las **232 Personas** de Royal, con fusión de 2 Personas, búsqueda inversa, fusiones especiales y avanzadas, y opciones para excluir DLC y Treasure Demons.
+- **Fichas de Personas:** estadísticas, afinidades, habilidades, rasgo, skill card y objeto de la silla eléctrica.
+- **Skill cards:** qué Persona da cada skill card, normal o con Alarma de fusión.
+- **Confidentes:** los **23 confidentes**, con las mejores respuestas por rango, rutas de romance, fechas límite, rangos bloqueados y recompensas.
+- **Respuestas de clase:** las 100 preguntas de profesores y exámenes, filtrables por mes, día y tipo.
+- **Builds:** rutas de fusión paso a paso con fotos, herencia de habilidades y rasgos, skill cards, notas por paso y un panel automático de requisitos (confidentes al máximo, DLC y avance de la historia, con aviso de spoiler).
+  - Editor guiado que verifica cada combinación con el motor de fusiones.
+  - Comentarios, "me gusta" y reportes.
+- **Cuentas de usuario:** entrada con Google o con email.
+  - Progreso de confidentes guardado en la cuenta, con orden configurable en «Mi perfil».
+  - Personas favoritas.
+- **Moderación:** filtro de palabras prohibidas (detecta variantes con puntos, espacios y números), límites anti-spam, reportes y panel de administración para revisar reportes, suspender usuarios y editar la lista de palabras.
+- **Español e inglés:** detecta el idioma del navegador y tiene un botón para cambiarlo.
 
 ## Tecnologías
 
 - **React 18 + TypeScript**: interfaz por componentes, tipada.
-- **Vite**: servidor de desarrollo y build rápidos.
-- **React Router (HashRouter)**: rutas compatibles con GitHub Pages.
-- **CSS Modules + variables CSS**: estilos por componente y paleta centralizada (permite cambiar la paleta por juego).
-- **Vitest**: tests de la lógica (filtros, datos, confidentes).
-- **GitHub Actions + GitHub Pages**: publicación automática.
+- **Vite**: servidor de desarrollo y build.
+- **React Router (HashRouter)**: rutas que funcionan en cualquier hosting estático.
+- **CSS Modules + variables CSS**: estilos por componente y paleta centralizada por juego.
+- **Supabase**: autenticación (Google y email) y base de datos Postgres.
+  - Las reglas de seguridad viven en la base: políticas RLS, el filtro de palabras, los límites anti-spam y la protección de campos de administrador.
+- **Vitest**: tests del motor de fusiones, los filtros y los datos.
+- **Cloudflare Workers** (archivos estáticos): hosting principal, que se publica solo con cada push a `main`.
+- **GitHub Actions + GitHub Pages**: copia de respaldo que redirige al sitio principal.
 
-Sitio 100% estático: no hay backend ni claves.
+La clave de Supabase que usa la web es la pública (publishable). Los permisos los controla la base de datos, no el navegador.
 
 ## Cómo ejecutarlo
 
@@ -51,15 +58,23 @@ node scripts/import-aqiu384/import.mjs /tmp/aqiu/src/app/p5/data $(git -C /tmp/a
 npm test
 ```
 
+## Publicación
+
+- **Cloudflare:** la configuración está en `wrangler.jsonc`. Cloudflare corre `npm run build` y después `npx wrangler deploy`. En Cloudflare el sitio vive en la raíz del dominio (`base: '/'`).
+- **GitHub Pages:** lo publica `.github/workflows/`. Ahí el sitio vive en `/persona-guide-room/`, y un script en `index.html` redirige al dominio de Cloudflare conservando la sección abierta.
+
 ## Organización de carpetas
 
 ```
 src/
-├─ app/                 Router, layout por juego, 404
-├─ core/                Tipos compartidos y registro de juegos
-├─ i18n/                Textos de la interfaz (es)
+├─ app/                 Router, layout por juego, cuenta, perfil, admin, «Sobre nosotros», 404
+├─ core/
+│  ├─ account/          Cliente de Supabase, sesión, progreso, favoritas y builds
+│  ├─ games.ts          Registro de juegos
+│  └─ types.ts          Tipos compartidos
+├─ i18n/                Idioma: L(es, en) para la interfaz y data-en.json para los datos
 ├─ shared/
-│  ├─ components/       Header, menú de juegos, íconos, marcadores de imagen...
+│  ├─ components/       Header, footer, botón de cuenta, selector de idioma...
 │  └─ styles/           tokens.css (paleta por juego) y estilos globales
 └─ games/
    └─ p5r/              Todo lo de Persona 5 Royal
@@ -68,28 +83,22 @@ src/
       ├─ services/      Lógica separada de la interfaz (+ tests)
       ├─ components/    Componentes propios de P5R
       └─ pages/         Pantallas
+public/                 Favicon e imagen de vista previa para redes (og.png)
 scripts/                Importador de datos
 docs/                   Informe y decisiones del proyecto
 ```
 
 **Sumar un juego:** crear `src/games/<id>/`, registrarlo en `src/core/games.ts` y definir su paleta en `tokens.css` con `[data-game="<id>"]`.
 
-## Fuentes de datos
+## Datos
 
-| Datos | Fuente | Licencia / uso |
-|-------|--------|----------------|
-| Personas, skills, reglas de fusión | [aqiu384/megaten-fusion-tool](https://github.com/aqiu384/megaten-fusion-tool) (solo archivos de Royal) | Unlicense (dominio público). Se atribuye igual. |
-| Respuestas y puntos de confidentes | [RPG Site](https://www.rpgsite.net/feature/5479-persona-5-royal-confidant-guide-conversation-choices-answers-romance-options-gifts-skill-unlocks) | Se usan los datos, redactados con palabras propias. |
-| Tabla de Técnicos | [Megami Tensei Wiki](https://megatenwiki.com/wiki/Technical) | Referencia. |
-| Respuestas de clase y exámenes | [Eurogamer España](https://www.eurogamer.es/persona-5-royal-todas-respuestas-examenes-preguntas-clase) (verificadas jugando) · temas redactados a partir de [RPG Site](https://www.rpgsite.net/feature/9602-persona-5-royal-school-answers-all-class-test-questions-solutions) | Se usan las respuestas; los temas están redactados con palabras propias. |
-
-Los íconos de elementos son **diseño propio**. No se usa arte oficial: los recuadros rayados marcan dónde irán las imágenes.
+Las Personas, habilidades y reglas de fusión vienen de [aqiu384/megaten-fusion-tool](https://github.com/aqiu384/megaten-fusion-tool) (Unlicense, dominio público), importadas con el script de arriba. El resto de los textos de la guía están redactados con palabras propias y verificados jugando.
 
 ## Roadmap
 
-- **v1:** ~~compendio completo, motor de fusiones, búsqueda inversa~~ ✅ · guía de los 9 Ladrones Fantasma.
-- **v2:** cuenta de usuario, seguimiento de progreso de confidentes (activable), Personas favoritas.
-- **Futuro:** resto de confidentes, imágenes, descripciones de skills, otros idiomas, Persona 3 Reload y Persona 4 Golden con su propia paleta.
+- ~~**v1:** compendio completo, motor de fusiones, guía de confidentes~~ ✅
+- ~~**v2:** cuentas, progreso de confidentes, favoritas, builds de la comunidad, moderación, versión en inglés~~ ✅
+- **Futuro:** más builds oficiales, Persona 3 Reload y Persona 4 Golden con su propia paleta.
 
 ## Licencia
 
@@ -97,4 +106,4 @@ Código bajo licencia [MIT](LICENSE). Persona y todo su contenido pertenecen a A
 
 ---
 
-Hecho por **Juan**.
+Hecho por **Juan** · [Contacto y donaciones](https://personaguy.personaguide.workers.dev/#/p5r/sobre-nosotros)

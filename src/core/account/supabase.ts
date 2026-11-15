@@ -33,6 +33,9 @@ export const takeDestination = (): string | null => {
 /** Pasa los errores de Supabase a mensajes en castellano. */
 export function authErrorText(msg: string | undefined): string {
   const m = (msg ?? '').toLowerCase();
+  if (m.includes('rate_limit:comments')) return L('Estás comentando muy rápido. Esperá un minuto y probá de nuevo.', 'You are commenting too fast. Wait a minute and try again.');
+  if (m.includes('rate_limit:builds')) return L('Ya publicaste varias builds seguidas. Esperá un rato antes de publicar otra.', 'You have published several builds in a row. Wait a while before publishing another.');
+  if (m.includes('rate_limit:reports')) return L('Enviaste muchos reportes en poco tiempo. Probá de nuevo en una hora.', 'You sent many reports in a short time. Try again in an hour.');
   if (m.includes('bad_words')) return L('Ese texto tiene palabras que no están permitidas.', 'That text contains words that are not allowed.');
   if (m.includes('invalid login')) return L('El email o la contraseña no son correctos.', 'The email or password is not correct.');
   if (m.includes('email not confirmed')) return L('Todavía no confirmaste tu email. Revisá tu correo.', 'You have not confirmed your email yet. Check your inbox.');

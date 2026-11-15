@@ -200,6 +200,7 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
   const [reason, setReason] = useState('Lenguaje ofensivo');
   const [details, setDetails] = useState('');
   const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  const [errText, setErrText] = useState('');
   if (state === 'sent') return <span className={styles.sent}>{L('Reporte enviado. Lo va a revisar un administrador.', 'Report sent. An administrator will review it.')}</span>;
   if (!open) {
     return (
@@ -211,6 +212,7 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
   const send = async () => {
     setState('sending');
     const { error } = await report(user!.id, type, id, reason, details);
+    setErrText(error?.message?.includes('RATE_LIMIT') ? authErrorText(error.message) : L('No se pudo enviar. Probá de nuevo.', 'It could not be sent. Try again.'));
     setState(error ? 'error' : 'sent');
   };
   return (
@@ -228,7 +230,7 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
         onChange={(e) => setDetails(e.target.value)}
         placeholder={L('Contanos qué pasa (opcional)', 'Tell us what is wrong (optional)')}
       />
-      {state === 'error' && <span className={styles.error}>{L('No se pudo enviar. Probá de nuevo.', 'It could not be sent. Try again.')}</span>}
+      {state === 'error' && <span className={styles.error}>{errText}</span>}
       <span className={styles.reportActions}>
         <button type="button" onClick={send} disabled={state === 'sending'}>{L('Enviar reporte', 'Send report')}</button>
         <button type="button" onClick={() => setOpen(false)}>{L('Cancelar', 'Cancel')}</button>
