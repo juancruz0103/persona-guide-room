@@ -20,7 +20,7 @@ const PROFILE_FOCUS: Record<string, string> = {
   caesar: '50% 0%',
   alice: '50% 0%',
   asura: '50% 0%',
-  atropos: '50% 0%',
+  atropos: '50% 15%',
   thunderbird: '50% 20%',
 };
 export const personaProfileFocus = (id: string) => PROFILE_FOCUS[id] ?? '50% 50%';
