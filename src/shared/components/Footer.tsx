@@ -1,5 +1,6 @@
+import { L } from '../../i18n';
 import { Link } from 'react-router-dom';
-import { es } from '../../i18n/es';
+import { t } from '../../i18n/es';
 import styles from './Footer.module.css';
 
 export function Footer() {
@@ -7,10 +8,10 @@ export function Footer() {
     <footer className={styles.footer}>
       <div className={`container ${styles.inner}`}>
         <p>
-          {es.footer.disclaimer}
+          {t().footer.disclaimer}
         </p>
         <Link to="/p5r/sobre-nosotros" className={styles.about}>
-          {es.nav.about} · Contacto y donaciones →
+          {t().nav.about} · {L('Contacto y donaciones', 'Contact and donations')} →
         </Link>
       </div>
     </footer>

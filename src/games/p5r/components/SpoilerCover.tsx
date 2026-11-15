@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react';
 import styles from './SpoilerCover.module.css';
+import { L } from '../../../i18n';
 
 /**
  * Tapa contenido con spoilers hasta que el usuario lo toca.
@@ -9,7 +10,7 @@ export function SpoilerCover({
   active,
   children,
   className,
-  label = 'Tocá para ver la imagen',
+  label = L('Tocá para ver la imagen', 'Tap to see the image'),
 }: {
   active: boolean;
   children: ReactNode;
@@ -28,7 +29,7 @@ export function SpoilerCover({
         e.stopPropagation();
         setShown(true);
       }}
-      aria-label="Spoiler: mostrar la imagen"
+      aria-label={L('Spoiler: mostrar la imagen', 'Spoiler: show the image')}
     >
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d="M3 3l18 18" />

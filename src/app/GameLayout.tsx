@@ -3,6 +3,7 @@ import { Navigate, Outlet, useParams } from 'react-router-dom';
 import { getGame } from '../core/games';
 import { Header } from '../shared/components/Header';
 import { Footer } from '../shared/components/Footer';
+import { L } from '../i18n';
 
 /**
  * Layout de cada juego: aplica su tema (data-game) y muestra header y footer.
@@ -20,7 +21,7 @@ export function GameLayout() {
 
   return (
     <>
-      <a href="#contenido" className="sr-only">Saltar al contenido</a>
+      <a href="#contenido" className="sr-only">{L('Saltar al contenido', 'Skip to content')}</a>
       <Header game={game} />
       <main id="contenido">
         <Outlet />

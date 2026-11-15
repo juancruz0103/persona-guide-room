@@ -1,6 +1,8 @@
 import schoolJson from '../data/school.json';
 
 /** Preguntas de clase y exámenes de Shujin. */
+import { bilingual } from '../../../i18n';
+
 export type QuestionKind = 'class' | 'exam';
 export type AskedTo = 'protagonist' | 'ann';
 export type SchoolFilterType = 'all' | 'protagonist' | 'ann' | 'exam';
@@ -48,6 +50,9 @@ export const SCHOOL_MONTHS: { month: number; name: string }[] = [
 ];
 
 const monthOrder = new Map(SCHOOL_MONTHS.map((m, i) => [m.month, i]));
+
+const MONTHS_EN: Record<number, string> = { 1: 'January', 4: 'April', 5: 'May', 6: 'June', 7: 'July', 9: 'September', 10: 'October', 11: 'November', 12: 'December' };
+for (const m of SCHOOL_MONTHS) bilingual(m, { name: MONTHS_EN[m.month] });
 
 export function monthName(month: number): string {
   return SCHOOL_MONTHS.find((m) => m.month === month)?.name ?? String(month);

@@ -5,14 +5,18 @@ import { getAllPersonas } from '../services/personas';
 import type { Persona } from '../types';
 import { PersonaPeek } from './PersonaPeek';
 import styles from './TraitList.module.css';
+import { L, bilingual, tr } from '../../../i18n';
 
-const GROUPS: { id: TraitGroup | 'all'; label: string }[] = [
-  { id: 'all', label: 'Todos' },
-  { id: 'persona', label: 'De Persona' },
-  { id: 'ally', label: 'De compañeros' },
-  { id: 'treasure', label: 'Tesoro' },
+const GROUPS = (): { id: TraitGroup | 'all'; label: string }[] => [
+  { id: 'all', label: L('Todos', 'All') },
+  { id: 'persona', label: L('De Persona', 'Persona') },
+  { id: 'ally', label: L('De compañeros', 'Party') },
+  { id: 'treasure', label: L('Tesoro', 'Treasure') },
 ];
-const GROUP_TAG: Record<TraitGroup, string> = { persona: 'Persona', ally: 'Compañeros', treasure: 'Tesoro' };
+const GROUP_TAG: Record<TraitGroup, string> = bilingual(
+  { persona: 'Persona', ally: 'Compañeros', treasure: 'Tesoro' },
+  { persona: 'Persona', ally: 'Party', treasure: 'Treasure' },
+);
 const MAX_OWNERS = 4;
 const collator = new Intl.Collator('es', { sensitivity: 'base' });
 
@@ -30,18 +34,18 @@ function Row({ row }: { row: TraitRow }) {
   return (
     <li className={`${styles.row} ${styles[`g_${row.group}`]}`}>
       <span className={styles.name}>
-        <span title={`En inglés: ${skillNameEn(row.key)}`}>{row.name}</span>
+        <span title={`${L('En inglés', 'In Spanish')}: ${skillNameEn(row.key)}`}>{row.name}</span>
         <span className={styles.tag}>{GROUP_TAG[row.group]}</span>
       </span>
       <span className={styles.desc}>{row.description}</span>
       <span className={styles.owners}>
-        <span className={styles.mobileLabel}>Lo tienen</span>
+        <span className={styles.mobileLabel}>{L('Lo tienen', 'Who has it')}</span>
         {owners.map((p) => (
           <PersonaPeek key={p.id} persona={p} />
         ))}
         {row.owners.length > MAX_OWNERS && (
           <button type="button" className={styles.more} aria-expanded={showAll} onClick={() => setShowAll((v) => !v)}>
-            {showAll ? 'Ver menos' : `+${row.owners.length - MAX_OWNERS} más`}
+            {showAll ? L('Ver menos', 'Show less') : `+${row.owners.length - MAX_OWNERS} ${L('más', 'more')}`}
           </button>
         )}
       </span>
@@ -64,7 +68,7 @@ export function TraitList() {
     return Object.entries(TRAITS).map(([key, t]) => ({
       key,
       name: skillName(key),
-      description: t.description,
+      description: tr(t.description),
       group: t.group,
       owners: (byTrait.get(key) ?? []).sort((a, b) => collator.compare(personaName(a), personaName(b))),
     }));
@@ -84,17 +88,17 @@ export function TraitList() {
   return (
     <>
       <p className={styles.intro}>
-        En Royal cada Persona tiene un <strong>rasgo</strong>: una pasiva especial que no ocupa hueco de habilidad. Al
-        fusionar podés elegir qué rasgo hereda la Persona nueva.
+        {L('En Royal cada Persona tiene un', 'In Royal each Persona has a')} <strong>{L('rasgo', 'trait')}</strong>
+        {L(': una pasiva especial que no ocupa hueco de habilidad. Al fusionar podés elegir qué rasgo hereda la Persona nueva.', ': a special passive that does not take a skill slot. When fusing you can choose which trait the new Persona inherits.')}
       </p>
 
       <div className={styles.controls}>
         <label className={styles.search}>
-          <span className="label label-accent">Buscar rasgo o Persona</span>
-          <input type="search" placeholder="Ej: Linaje" value={query} onChange={(e) => setQuery(e.target.value)} />
+          <span className="label label-accent">{L('Buscar rasgo o Persona', 'Search trait or Persona')}</span>
+          <input type="search" placeholder={L('Ej: Linaje', 'E.g.: Bloodline')} value={query} onChange={(e) => setQuery(e.target.value)} />
         </label>
-        <div className={styles.groups} role="group" aria-label="Tipo de rasgo">
-          {GROUPS.map((g) => (
+        <div className={styles.groups} role="group" aria-label={L('Tipo de rasgo', 'Trait type')}>
+          {GROUPS().map((g) => (
             <button
               key={g.id}
               type="button"
@@ -117,14 +121,14 @@ export function TraitList() {
           type="button"
           className={styles.headBtn}
           onClick={() => setOrder((o) => (o === 'asc' ? 'desc' : 'asc'))}
-          title="Ordenar por nombre"
+          title={L('Ordenar por nombre', 'Sort by name')}
         >
-          Rasgo
+          {L('Rasgo', 'Trait')}
           <span aria-hidden="true" className={styles.headArrow}>{order === 'asc' ? 'A→Z' : 'Z→A'}</span>
           <span className="visually-hidden">{order === 'asc' ? '(de la A a la Z)' : '(de la Z a la A)'}</span>
         </button>
-        <span>Qué hace</span>
-        <span>Lo tienen</span>
+        <span>{L('Qué hace', 'What it does')}</span>
+        <span>{L('Lo tienen', 'Who has it')}</span>
       </div>
 
       {list.length ? (
@@ -134,11 +138,11 @@ export function TraitList() {
           ))}
         </ul>
       ) : (
-        <p className="pending">Ningún rasgo coincide con esa búsqueda.</p>
+        <p className="pending">{L('Ningún rasgo coincide con esa búsqueda.', 'No trait matches that search.')}</p>
       )}
 
       <p className={styles.note}>
-        Pasá el mouse por el nombre de un rasgo para verlo en inglés.
+        {L('Pasá el mouse por el nombre de un rasgo para verlo en inglés.', 'Hover over a trait name to see it in Spanish.')}
       </p>
     </>
   );

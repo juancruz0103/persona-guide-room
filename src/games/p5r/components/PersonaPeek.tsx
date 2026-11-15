@@ -5,6 +5,7 @@ import type { Persona } from "../types";
 import { personaImage } from "../services/images";
 import { isSpoilerStage } from "../data/party";
 import styles from "./PersonaPeek.module.css";
+import { L } from '../../../i18n';
 
 /**
  * Nombre de una Persona que lleva a su ficha. Al pasar el mouse (o con el
@@ -63,12 +64,12 @@ export function PersonaPeek({
               <circle cx="9" cy="10" r="2" />
               <path d="M21 16l-5-5-9 9" />
             </svg>
-            <span>Foto</span>
+            <span>{L('Foto', 'Photo')}</span>
           </span>
         )}
         <span className={styles.previewName}>{personaName(persona)}</span>
         <span className={styles.previewMeta}>
-          {getArcana(persona.arcana).name} · Nv {persona.level}
+          {getArcana(persona.arcana).name} · {L('Nv', 'Lv')} {persona.level}
         </span>
       </span>
     </span>

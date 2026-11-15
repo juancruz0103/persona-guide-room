@@ -1,4 +1,5 @@
 import { createClient } from '@supabase/supabase-js';
+import { L } from '../../i18n';
 
 // Clave pública (publishable): está pensada para ir en la web. La seguridad la dan las reglas (RLS) de la base.
 const URL = 'https://shokulyavsrpjrjtpiyf.supabase.co';
@@ -32,13 +33,13 @@ export const takeDestination = (): string | null => {
 /** Pasa los errores de Supabase a mensajes en castellano. */
 export function authErrorText(msg: string | undefined): string {
   const m = (msg ?? '').toLowerCase();
-  if (m.includes('bad_words')) return 'Ese texto tiene palabras que no están permitidas.';
-  if (m.includes('invalid login')) return 'El email o la contraseña no son correctos.';
-  if (m.includes('email not confirmed')) return 'Todavía no confirmaste tu email. Revisá tu correo.';
-  if (m.includes('already registered')) return 'Ya existe una cuenta con ese email.';
-  if (m.includes('password should be')) return 'La contraseña tiene que tener al menos 6 caracteres.';
-  if (m.includes('rate limit')) return 'Demasiados intentos. Esperá unos minutos y probá de nuevo.';
-  if (m.includes('duplicate key') && m.includes('username')) return 'Ese nombre de usuario ya está en uso.';
-  if (m.includes('username_check')) return 'El nombre tiene que tener entre 3 y 24 caracteres.';
-  return 'Algo salió mal. Probá de nuevo en un rato.';
+  if (m.includes('bad_words')) return L('Ese texto tiene palabras que no están permitidas.', 'That text contains words that are not allowed.');
+  if (m.includes('invalid login')) return L('El email o la contraseña no son correctos.', 'The email or password is not correct.');
+  if (m.includes('email not confirmed')) return L('Todavía no confirmaste tu email. Revisá tu correo.', 'You have not confirmed your email yet. Check your inbox.');
+  if (m.includes('already registered')) return L('Ya existe una cuenta con ese email.', 'An account with that email already exists.');
+  if (m.includes('password should be')) return L('La contraseña tiene que tener al menos 6 caracteres.', 'The password must have at least 6 characters.');
+  if (m.includes('rate limit')) return L('Demasiados intentos. Esperá unos minutos y probá de nuevo.', 'Too many attempts. Wait a few minutes and try again.');
+  if (m.includes('duplicate key') && m.includes('username')) return L('Ese nombre de usuario ya está en uso.', 'That username is already taken.');
+  if (m.includes('username_check')) return L('El nombre tiene que tener entre 3 y 24 caracteres.', 'The name must have 3 to 24 characters.');
+  return L('Algo salió mal. Probá de nuevo en un rato.', 'Something went wrong. Try again in a while.');
 }

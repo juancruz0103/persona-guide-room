@@ -4,6 +4,8 @@
  * Fuentes: Megami Tensei Wiki («Traits in Persona 5 Royal») y megaten-fusion-tool.
  * Redacción propia en español; PS = salud y PE = energía, como en el juego.
  */
+import { tr } from '../../../i18n';
+
 export type TraitGroup = 'persona' | 'ally' | 'treasure';
 
 export interface TraitInfo {
@@ -142,4 +144,4 @@ export const TREASURE_TRAITS: Record<string, [string, string | null][]> = {
 };
 
 export const traitDescription = (key: string | null | undefined): string | undefined =>
-  key ? TRAITS[key]?.description : undefined;
+  key && TRAITS[key] ? tr(TRAITS[key].description) : undefined;

@@ -7,18 +7,19 @@ import { PARTY_OWNER, isSpoilerStage } from '../data/party';
 import { personaName } from '../services/gameText';
 import { SpoilerCover } from './SpoilerCover';
 import styles from './PersonaCard.module.css';
+import { L } from '../../../i18n';
 
 export function PersonaCard({ persona }: { persona: Persona }) {
   const arcana = getArcana(persona.arcana);
   const party = persona.party;
   const badge = party ? (
-    <span className="tag tag--party">Compañero</span>
+    <span className="tag tag--party">{L('Compañero', 'Party')}</span>
   ) : persona.flags.dlc ? (
     <span className="tag tag--dlc">DLC</span>
   ) : persona.flags.special ? (
-    <span className="tag tag--special">Especial</span>
+    <span className="tag tag--special">{L('Especial', 'Special')}</span>
   ) : persona.flags.treasure ? (
-    <span className="tag tag--dlc">Tesoro</span>
+    <span className="tag tag--dlc">{L('Tesoro', 'Treasure')}</span>
   ) : null;
 
   return (
@@ -28,7 +29,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
           className={styles.image}
           src={personaImage(persona.id, 'side')}
           focus={personaCardFocus(persona.id)}
-          label={personaImage(persona.id, 'side') ? personaName(persona) : 'Imagen de Persona'}
+          label={personaImage(persona.id, 'side') ? personaName(persona) : L('Imagen de Persona', 'Persona image')}
           corner={arcana.numeral}
           badge={badge}
         />
@@ -41,7 +42,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
             <span className={styles.owner}>de {PARTY_OWNER[party.owner]}</span>
           ) : (
             <span className={styles.level}>
-              Nv <strong>{persona.level}</strong>
+              {L('Nv', 'Lv')} <strong>{persona.level}</strong>
             </span>
           )}
         </div>

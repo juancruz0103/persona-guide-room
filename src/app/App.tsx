@@ -4,6 +4,7 @@ import { DEFAULT_GAME } from '../core/games';
 import { GameLayout } from './GameLayout';
 import { ScrollToTop } from './ScrollToTop';
 import { AuthProvider } from '../core/account/AuthContext';
+import { L, useLang } from '../i18n';
 
 // Cada pantalla se carga por separado (lazy loading) para que la web sea rápida.
 const Home = lazy(() => import('../games/p5r/pages/Home'));
@@ -30,11 +31,13 @@ const NotFound = lazy(() => import('./NotFound'));
  * Hoy solo P5R tiene pantallas; los otros juegos se suman con sus propias rutas.
  */
 export function App() {
+  // Al cambiar el idioma se vuelve a dibujar todo con los textos nuevos.
+  const lang = useLang();
   return (
-    <AuthProvider>
+    <AuthProvider key={lang}>
     <HashRouter>
       <ScrollToTop />
-      <Suspense fallback={<div className="container" style={{ padding: '64px 0' }}>Cargando…</div>}>
+      <Suspense fallback={<div className="container" style={{ padding: '64px 0' }}>{L('Cargando…', 'Loading…')}</div>}>
         <Routes>
           <Route path="/" element={<Navigate to={`/${DEFAULT_GAME}`} replace />} />
           <Route path="/:gameId" element={<GameLayout />}>

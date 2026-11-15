@@ -1,4 +1,5 @@
 import { supabase } from './supabase';
+import { locale } from '../../i18n';
 
 /** Una Persona que entra en la fusión y las habilidades importantes que pasa. */
 export interface BuildIngredient {
@@ -154,7 +155,7 @@ export async function report(userId: string, targetType: 'build' | 'comment' | '
 }
 
 export const formatDate = (iso: string) =>
-  new Date(iso).toLocaleDateString('es-AR', { day: 'numeric', month: 'short', year: 'numeric' });
+  new Date(iso).toLocaleDateString(locale(), { day: 'numeric', month: 'short', year: 'numeric' });
 
 /** Cantidad de reportes sin revisar (solo la ve el admin). */
 export async function pendingReports(): Promise<number> {

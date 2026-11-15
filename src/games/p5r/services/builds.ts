@@ -3,6 +3,7 @@ import { getArcana } from '../data/arcana';
 import { getFusionEngine } from './fusion';
 import { getPersona } from './personas';
 import type { Persona } from '../types';
+import { L, tr } from '../../../i18n';
 
 export type StepCheck = 'ok' | 'bad' | 'incomplete';
 
@@ -38,9 +39,9 @@ export interface Requirement {
 /** Qué hace falta para conseguir una Persona (null si nada especial). */
 export function personaRequirement(p: Persona): Omit<Requirement, 'personas'> | null {
   const u = p.unlock;
-  if (u?.type === 'confidant') return { kind: 'confidant', text: `${getArcana(u.arcana).name} rango ${u.rank}` };
+  if (u?.type === 'confidant') return { kind: 'confidant', text: `${getArcana(u.arcana).name} ${L('rango', 'rank')} ${u.rank}` };
   if (u?.type === 'dlc' || p.flags.dlc) return { kind: 'dlc', text: u?.type === 'dlc' ? u.pack : 'DLC' };
-  if (u?.type === 'story') return { kind: 'story', text: u.detail };
+  if (u?.type === 'story') return { kind: 'story', text: tr(u.detail) };
   return null;
 }
 

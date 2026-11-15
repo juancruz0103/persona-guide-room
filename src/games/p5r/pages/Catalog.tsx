@@ -12,6 +12,7 @@ import {
   type SortKey,
 } from '../services/personas';
 import styles from './Catalog.module.css';
+import { L } from '../../../i18n';
 
 export default function Catalog() {
   const [f, setF] = useSessionState<CatalogFilters>('catalog.filters', DEFAULT_FILTERS);
@@ -34,11 +35,11 @@ export default function Catalog() {
       <div className={`container ${styles.layout}`}>
         <aside className={styles.filters} aria-label="Filtros">
           <div className={styles.group}>
-            <label htmlFor="q" className="label label-accent">Buscar por nombre</label>
+            <label htmlFor="q" className="label label-accent">{L('Buscar por nombre', 'Search by name')}</label>
             <input
               id="q"
               type="search"
-              placeholder="Ej: Alice o Capitán Kidd"
+              placeholder={L('Ej: Alice o Capitán Kidd', 'E.g.: Alice or Captain Kidd')}
               value={f.query}
               onChange={(e) => set('query', e.target.value)}
               className={styles.input}
@@ -65,59 +66,59 @@ export default function Catalog() {
             </div>
             {f.arcanas.length > 0 && (
               <button type="button" className={styles.clear} onClick={() => set('arcanas', [])}>
-                Quitar filtro de Arcana
+                {L('Quitar filtro de Arcana', 'Clear Arcana filter')}
               </button>
             )}
           </fieldset>
 
           <fieldset className={styles.group}>
-            <legend className="label label-accent">Nivel</legend>
+            <legend className="label label-accent">{L('Nivel', 'Level')}</legend>
             <div className={styles.levels}>
-              <label htmlFor="lmin">de</label>
+              <label htmlFor="lmin">{L('de', 'from')}</label>
               <input id="lmin" type="number" min={1} max={99} value={f.minLevel}
                 onChange={(e) => set('minLevel', clampLevel(e.target.value))} className={styles.input} />
-              <label htmlFor="lmax">a</label>
+              <label htmlFor="lmax">{L('a', 'to')}</label>
               <input id="lmax" type="number" min={1} max={99} value={f.maxLevel}
                 onChange={(e) => set('maxLevel', clampLevel(e.target.value))} className={styles.input} />
             </div>
           </fieldset>
 
           <fieldset className={`${styles.group} ${styles.options}`}>
-            <legend className="label label-accent">Opciones</legend>
+            <legend className="label label-accent">{L('Opciones', 'Options')}</legend>
             <label className={styles.check}>
               <input type="checkbox" checked={f.includeDlc} onChange={(e) => set('includeDlc', e.target.checked)} />
-              Incluir Personas DLC
+              {L('Incluir Personas DLC', 'Include DLC Personas')}
             </label>
             <label className={styles.check}>
               <input type="checkbox" checked={f.includeTreasure} onChange={(e) => set('includeTreasure', e.target.checked)} />
-              Incluir Treasure Demons
+              {L('Incluir Treasure Demons', 'Include Treasure Demons')}
             </label>
           </fieldset>
 
           <fieldset className={`${styles.group} ${styles.options}`}>
-            <legend className="label label-accent">Personas de compañeros</legend>
-            <p className={styles.note}>Las Personas de los Ladrones Fantasma. Tienen ficha pero no se fusionan.</p>
+            <legend className="label label-accent">{L('Personas de compañeros', 'Party Personas')}</legend>
+            <p className={styles.note}>{L('Las Personas de los Ladrones Fantasma. Tienen ficha pero no se fusionan.', "The Phantom Thieves' Personas. They have a profile but can't be fused.")}</p>
             <button
               type="button"
               aria-pressed={!!f.partyOnly}
               className={`${styles.partyOnlyBtn} ${f.partyOnly ? styles.partyOnlyOn : ''}`}
               onClick={() => set('partyOnly', !f.partyOnly)}
             >
-              {f.partyOnly ? '✓ Solo compañeros' : 'Ver solo compañeros'}
+              {f.partyOnly ? L('✓ Solo compañeros', '✓ Party only') : L('Ver solo compañeros', 'Show party only')}
             </button>
             <label className={styles.check}>
               <input type="checkbox" checked={f.partyInitial} onChange={(e) => set('partyInitial', e.target.checked)} />
-              Iniciales
+              {L('Iniciales', 'Initial')}
             </label>
             {spoilerFilters ? (
               <>
                 <label className={styles.check}>
                   <input type="checkbox" checked={f.partyEvolved} onChange={(e) => set('partyEvolved', e.target.checked)} />
-                  Evolucionadas
+                  {L('Evolucionadas', 'Evolved')}
                 </label>
                 <label className={styles.check}>
                   <input type="checkbox" checked={f.partyThird} onChange={(e) => set('partyThird', e.target.checked)} />
-                  Tercer semestre
+                  {L('Tercer semestre', 'Third semester')}
                 </label>
               </>
             ) : (
@@ -134,7 +135,7 @@ export default function Catalog() {
                   <path d="M10.6 6.1A9.8 9.8 0 0 1 12 6c5 0 9 6 9 6a16 16 0 0 1-2.6 3.2" />
                   <path d="M6.5 7.6C4.3 9.2 3 12 3 12s4 6 9 6a8.7 8.7 0 0 0 4-1" />
                 </svg>
-                Más filtros · contiene spoilers
+                {L('Más filtros · contiene spoilers', 'More filters · contains spoilers')}
               </button>
             )}
           </fieldset>
@@ -143,14 +144,14 @@ export default function Catalog() {
         <section className={styles.results} aria-live="polite">
           <div className={styles.toolbar}>
             <span>
-              Mostrando <strong>{list.length}</strong> Personas
+              {L('Mostrando', 'Showing')} <strong>{list.length}</strong> Personas
             </span>
             <label className={styles.sort}>
-              Ordenar por
+              {L('Ordenar por', 'Sort by')}
               <select value={f.sort} onChange={(e) => set('sort', e.target.value as SortKey)} className={styles.input}>
-                <option value="level-asc">Nivel (menor a mayor)</option>
-                <option value="level-desc">Nivel (mayor a menor)</option>
-                <option value="name-asc">Nombre (A–Z)</option>
+                <option value="level-asc">{L('Nivel (menor a mayor)', 'Level (low to high)')}</option>
+                <option value="level-desc">{L('Nivel (mayor a menor)', 'Level (high to low)')}</option>
+                <option value="name-asc">{L('Nombre (A–Z)', 'Name (A–Z)')}</option>
               </select>
             </label>
           </div>
@@ -164,8 +165,8 @@ export default function Catalog() {
           ) : (
             <p className="pending">
               {f.partyOnly && !f.partyInitial && !f.partyEvolved && !f.partyThird
-                ? 'Marcá al menos una forma (iniciales, evolucionadas o tercer semestre) para ver Personas de compañeros.'
-                : 'No hay Personas con esos filtros.'}
+                ? L('Marcá al menos una forma (iniciales, evolucionadas o tercer semestre) para ver Personas de compañeros.', 'Select at least one form (initial, evolved or third semester) to see party Personas.')
+                : L('No hay Personas con esos filtros.', 'No Personas match those filters.')}
             </p>
           )}
         </section>

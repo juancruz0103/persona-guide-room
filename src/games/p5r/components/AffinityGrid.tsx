@@ -2,6 +2,7 @@ import { ElementIcon } from '../../../shared/components/ElementIcon';
 import type { Affinity, ResistElement } from '../types';
 import { AFFINITY_LABEL, ELEMENTS, RESIST_ORDER } from '../data/elements';
 import styles from './AffinityGrid.module.css';
+import { L } from '../../../i18n';
 
 const LEGEND: Affinity[] = ['weak', 'resist', 'null', 'repel', 'drain', 'neutral'];
 
@@ -28,10 +29,10 @@ export function AffinityGrid({ resistances }: { resistances: Record<ResistElemen
         {LEGEND.map((a) => (
           <span key={a} className={styles.legendItem}>
             <span className={`${styles.swatch} ${styles[a]}`} aria-hidden="true" />
-            {a === 'neutral' ? 'Neutral' : AFFINITY_LABEL[a]}
+            {a === 'neutral' ? L('Neutral', 'Neutral') : AFFINITY_LABEL[a]}
           </span>
         ))}
-        <span>· Pasá el mouse sobre un ícono para ver el nombre del elemento.</span>
+        <span>· {L('Pasá el mouse sobre un ícono para ver el nombre del elemento.', 'Hover over an icon to see the element name.')}</span>
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import type { GameInfo } from '../../core/types';
-import { es } from '../../i18n/es';
+import { t } from '../../i18n/es';
 import { GameMenu } from './GameMenu';
 import { LanguageButton } from './LanguageButton';
 import { AccountButton } from './AccountButton';
@@ -36,10 +36,10 @@ export function Header({ game }: Props) {
 
   const base = `/${game.id}`;
   const links = [
-    { to: base, label: es.nav.home, end: true },
-    { to: `${base}/calculadora`, label: es.nav.calculator, end: false },
-    { to: `${base}/confidentes`, label: es.nav.confidants, end: false },
-    { to: `${base}/clases`, label: es.nav.school, end: false },
+    { to: base, label: t().nav.home, end: true },
+    { to: `${base}/calculadora`, label: t().nav.calculator, end: false },
+    { to: `${base}/confidentes`, label: t().nav.confidants, end: false },
+    { to: `${base}/clases`, label: t().nav.school, end: false },
     { to: `${base}/builds`, label: 'Builds', end: false },
   ];
 
@@ -50,7 +50,7 @@ export function Header({ game }: Props) {
           <button
             type="button"
             className={`${styles.burger} ${open ? styles.burgerOpen : ''}`}
-            aria-label={es.nav.openGameMenu}
+            aria-label={t().nav.openGameMenu}
             aria-expanded={open}
             aria-controls={MENU_ID}
             onClick={() => setOpen((v) => !v)}
@@ -63,7 +63,7 @@ export function Header({ game }: Props) {
           </Link>
         </div>
 
-        <nav aria-label={es.nav.mainMenu} className={styles.nav}>
+        <nav aria-label={t().nav.mainMenu} className={styles.nav}>
           {links.map((l) => (
             <NavLink
               key={l.to}

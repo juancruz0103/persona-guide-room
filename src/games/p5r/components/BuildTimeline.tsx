@@ -7,6 +7,7 @@ import { buildRequirements, checkStep } from '../services/builds';
 import { getPersona } from '../services/personas';
 import { personaName, skillName } from '../services/gameText';
 import styles from './BuildTimeline.module.css';
+import { L } from '../../../i18n';
 
 /** Requisitos detectados solos a partir de las Personas de la build. */
 export function BuildRequirements({ steps, cards }: { steps: BuildStep[]; cards: BuildCard[] }) {
@@ -23,14 +24,14 @@ export function BuildRequirements({ steps, cards }: { steps: BuildStep[]; cards:
   const story = reqs.filter((r) => r.kind === 'story');
   return (
     <div className={styles.reqs}>
-      <span className={styles.reqTitle}>Requisitos</span>
+      <span className={styles.reqTitle}>{L('Requisitos', 'Requirements')}</span>
       {conf.length > 0 && (
         <div className={styles.reqGroup}>
-          <span className={styles.reqLabel}>Confidentes al máximo</span>
+          <span className={styles.reqLabel}>{L('Confidentes al máximo', 'Maxed confidants')}</span>
           <div className={styles.reqChips}>
             {conf.map((r) => (
-              <span key={r.text} className={styles.reqConf} title={`Para: ${r.personas.map(name).join(', ')}`}>
-                {r.text.replace(/ rango \d+$/, '')} <small>({r.personas.map(name).join(', ')})</small>
+              <span key={r.text} className={styles.reqConf} title={`${L('Para', 'For')}: ${r.personas.map(name).join(', ')}`}>
+                {r.text.replace(/ (rango|rank) \d+$/, '')} <small>({r.personas.map(name).join(', ')})</small>
               </span>
             ))}
           </div>
@@ -38,7 +39,7 @@ export function BuildRequirements({ steps, cards }: { steps: BuildStep[]; cards:
       )}
       {dlc.length > 0 && (
         <div className={styles.reqGroup}>
-          <span className={styles.reqLabel}>Contenido descargable</span>
+          <span className={styles.reqLabel}>{L('Contenido descargable', 'Downloadable content')}</span>
           <div className={styles.reqChips}>
             {dlc.map((r) => (
               <span key={r.text} className={styles.reqDlc}>
@@ -50,7 +51,7 @@ export function BuildRequirements({ steps, cards }: { steps: BuildStep[]; cards:
       )}
       {story.length > 0 && (
         <div className={styles.reqGroup}>
-          <span className={styles.reqLabel}>Avance de la historia</span>
+          <span className={styles.reqLabel}>{L('Avance de la historia', 'Story progress')}</span>
           {showStory ? (
             <div className={styles.reqChips}>
               {story.map((r) => (
@@ -61,7 +62,7 @@ export function BuildRequirements({ steps, cards }: { steps: BuildStep[]; cards:
             </div>
           ) : (
             <button type="button" className={styles.spoilerBtn} onClick={() => setShowStory(true)}>
-              Mostrar (spoiler)
+              {L('Mostrar (spoiler)', 'Show (spoiler)')}
             </button>
           )}
         </div>
@@ -84,11 +85,11 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
             <div className={styles.stepHead}>
               <span className={styles.num}>{i + 1}</span>
               <span className={styles.stepTitle}>
-                {isLast ? 'Fusión final' : `Paso ${i + 1}`}
-                {s.ingredients.length > 2 && <span className={styles.kind}> · Fusión avanzada</span>}
+                {isLast ? L('Fusión final', 'Final fusion') : `${L('Paso', 'Step')} ${i + 1}`}
+                {s.ingredients.length > 2 && <span className={styles.kind}> · {L('Fusión avanzada', 'Advanced fusion')}</span>}
               </span>
-              {check === 'ok' && <span className={styles.ok}>✓ Combinación verificada</span>}
-              {check === 'bad' && <span className={styles.bad}>✗ Esta combinación no da ese resultado</span>}
+              {check === 'ok' && <span className={styles.ok}>✓ {L('Combinación verificada', 'Verified combination')}</span>}
+              {check === 'bad' && <span className={styles.bad}>✗ {L('Esta combinación no da ese resultado', 'This combination does not give that result')}</span>}
             </div>
             <div className={styles.row}>
               {s.ingredients.map((ing, j) => (
@@ -99,7 +100,7 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
               ))}
               <span className={styles.arrow}>➜</span>
               {!isLast && <BuildPersona personaId={s.result} skills={s.inherit} learn={s.learn} trait={s.trait} variant="result" />}
-              {isLast && <span className={styles.finalHint}>Persona final ↓</span>}
+              {isLast && <span className={styles.finalHint}>{L('Persona final ↓', 'Final Persona ↓')}</span>}
             </div>
             {s.note && <p className={styles.note}>{s.note}</p>}
           </div>
@@ -113,12 +114,12 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
           <BuildPersona personaId={last.result} skills={last.inherit} learn={last.learn} trait={last.trait} variant="final" />
           {cards.length > 0 && (
             <div className={styles.cards}>
-              <span className={styles.cardsTitle}>Skill cards · silla eléctrica</span>
+              <span className={styles.cardsTitle}>{L('Skill cards · silla eléctrica', 'Skill cards · electric chair')}</span>
               {cards.map((c, k) => (
                 <div key={k} className={styles.cardRow}>
                   <span className={styles.cardArrow}>⬅</span>
                   <span className={styles.skillCard}>{skillName(c.skill)}</span>
-                  <span className={styles.cardFrom}>de{c.alarm ? ' (con Alarma de fusión)' : ''}</span>
+                  <span className={styles.cardFrom}>{L('de', 'from')}{c.alarm ? L(' (con Alarma de fusión)', ' (with Fusion Alarm)') : ''}</span>
                   <BuildPersona personaId={c.from} variant="mini" />
                 </div>
               ))}
@@ -137,22 +138,22 @@ export function BuildGoalView({ goal }: { goal: BuildGoal }) {
   const slots = Array.from({ length: 8 }, (_, i) => goal.skills[i]);
   return (
     <div className={styles.goal}>
-      <Link to={`/p5r/calculadora/persona/${goal.persona}`} className={styles.goalImg} title="Ver perfil">
+      <Link to={`/p5r/calculadora/persona/${goal.persona}`} className={styles.goalImg} title={L('Ver perfil', 'See profile')}>
         {img && <img src={img} alt="" style={{ objectPosition: personaCardFocus(goal.persona) }} />}
         <span>{p ? personaName(p) : goal.persona}</span>
       </Link>
       <div className={styles.goalBody}>
-        <span className={styles.goalTitle}>Así tiene que quedar</span>
+        <span className={styles.goalTitle}>{L('Así tiene que quedar', 'How it should end up')}</span>
         <ol className={styles.goalSkills}>
           {slots.map((s, i) => (
             <li key={i} className={s === null ? styles.goalFree : s ? undefined : styles.goalEmpty}>
               <span>{i + 1}</span>
-              {s === null ? 'A elección del jugador' : s ? skillName(s) : '—'}
+              {s === null ? L('A elección del jugador', "Player's choice") : s ? skillName(s) : '—'}
             </li>
           ))}
         </ol>
         <div className={styles.goalTrait}>
-          Rasgo: <strong>{goal.trait === null ? 'a elección del jugador' : goal.trait ? skillName(goal.trait) : '—'}</strong>
+          {L('Rasgo', 'Trait')}: <strong>{goal.trait === null ? L('a elección del jugador', "player's choice") : goal.trait ? skillName(goal.trait) : '—'}</strong>
         </div>
       </div>
     </div>

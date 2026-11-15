@@ -1,6 +1,7 @@
 import itemsJson from '../data/generated/items.json';
 import type { ItemInfo, ItemOwner, ItemType, Persona, SkillElement, SkillInfo } from '../types';
 import { getAllPersonas, getAllSkills, getSkill } from './personas';
+import { L, bilingual, tr } from '../../../i18n';
 import { describeCost, skillMeta } from './skillText';
 import { itemDescriptionText, skillName, normalize, personaName, personaNameEn, skillMatches, bySkillName } from './gameText';
 
@@ -15,7 +16,10 @@ export const OWNER_LABEL: Record<ItemOwner, string> = {
   queen: 'Queen', noir: 'Noir', crow: 'Crow', violet: 'Violet',
 };
 
-const GENDER_LABEL = { male: 'masculina', female: 'femenina', unisex: 'unisex', morgana: 'solo Morgana' } as const;
+const GENDER_LABEL = bilingual(
+  { male: 'masculina', female: 'femenina', unisex: 'unisex', morgana: 'solo Morgana' },
+  { male: '(male)', female: '(female)', unisex: '(unisex)', morgana: '(Morgana only)' },
+);
 
 /** Material que hace falta en el Velvet Room para cada tipo de item. */
 export const MATERIAL: Partial<Record<ItemType, string>> = {
@@ -29,17 +33,17 @@ export const MATERIAL: Partial<Record<ItemType, string>> = {
 export function itemTypeLabel(it: ItemInfo): string {
   switch (it.type) {
     case 'melee':
-      return it.owner ? `Arma cuerpo a cuerpo · ${OWNER_LABEL[it.owner]}` : 'Arma cuerpo a cuerpo';
+      return it.owner ? `${L('Arma cuerpo a cuerpo', 'Melee weapon')} · ${OWNER_LABEL[it.owner]}` : L('Arma cuerpo a cuerpo', 'Melee weapon');
     case 'gun':
-      return it.owner ? `Arma de fuego · ${OWNER_LABEL[it.owner]}` : 'Arma de fuego';
+      return it.owner ? `${L('Arma de fuego', 'Gun')} · ${OWNER_LABEL[it.owner]}` : L('Arma de fuego', 'Gun');
     case 'armor':
-      return it.gender ? `Armadura ${GENDER_LABEL[it.gender]}` : 'Armadura';
+      return it.gender ? `${L('Armadura', 'Armor')} ${GENDER_LABEL[it.gender]}` : L('Armadura', 'Armor');
     case 'accessory':
-      return 'Accesorio';
+      return L('Accesorio', 'Accessory');
     case 'skillcard':
       return 'Skill card';
     default:
-      return 'Equipo (tipo a confirmar)';
+      return L('Equipo (tipo a confirmar)', 'Equipment (type to be confirmed)');
   }
 }
 
@@ -53,14 +57,14 @@ export function itemDescription(it: ItemInfo): { lines: ItemLine[]; note?: strin
   const official = itemDescriptionText(it.name);
   if (it.type === 'skillcard' || it.type === 'accessory') {
     const skill = it.skill ? getSkill(it.skill) : undefined;
-    const verb = it.type === 'skillcard' ? 'Enseña' : 'Permite usar';
+    const verb = it.type === 'skillcard' ? L('Enseña', 'Teaches') : L('Permite usar', 'Lets you use');
     const meta = skill ? skillMeta(skill) : '';
     const name = it.skill ? skillName(it.skill) : '';
     return {
       lines: [
         ...(official && it.type === 'accessory' ? [{ text: official }] : []),
         {
-          text: `${verb} ${name}${meta ? ` (${meta})` : ''}${it.type === 'accessory' ? ' a quien lo equipe' : ' a una Persona'}.`,
+          text: `${verb} ${name}${meta ? ` (${meta})` : ''}${it.type === 'accessory' ? L(' a quien lo equipe', ' to whoever equips it') : L(' a una Persona', ' to a Persona')}.`,
           cost: skill ? describeCost(skill) : undefined,
         },
       ],
@@ -69,21 +73,21 @@ export function itemDescription(it: ItemInfo): { lines: ItemLine[]; note?: strin
   const lines: ItemLine[] = official ? [{ text: official }] : [];
   const s = it.stats ?? {};
   const nums = [
-    s.attack !== undefined && `Ataque ${s.attack}`,
-    s.defense !== undefined && `Defensa ${s.defense}`,
-    s.accuracy !== undefined && `Precisión ${s.accuracy}`,
-    s.evasion !== undefined && `Evasión ${s.evasion}`,
-    s.rounds !== undefined && `Balas ${s.rounds}`,
+    s.attack !== undefined && `${L('Ataque', 'Attack')} ${s.attack}`,
+    s.defense !== undefined && `${L('Defensa', 'Defense')} ${s.defense}`,
+    s.accuracy !== undefined && `${L('Precisión', 'Accuracy')} ${s.accuracy}`,
+    s.evasion !== undefined && `${L('Evasión', 'Evasion')} ${s.evasion}`,
+    s.rounds !== undefined && `${L('Balas', 'Rounds')} ${s.rounds}`,
   ].filter(Boolean) as string[];
   if (nums.length) lines.push({ text: nums.join(' · ') });
-  for (const e of it.effects ?? []) lines.push({ text: e });
+  for (const e of it.effects ?? []) lines.push({ text: tr(e) });
 
   let note: string | undefined;
-  if (it.type === 'unknown') note = 'Item de Royal: falta confirmar tipo y estadísticas.';
-  else if (it.source === 'juego') note = 'Comprobado en el juego.';
-  else if (it.variantOf) note = `Versión mejorada de ${it.variantOf}: faltan sus estadísticas.`;
-  else if (it.p5Stats) note = 'Estadísticas de P5 original: pueden variar en Royal.';
-  if (lines.length <= (official ? 1 : 0) && !note) note = 'Sin datos todavía.';
+  if (it.type === 'unknown') note = L('Item de Royal: falta confirmar tipo y estadísticas.', 'Royal item: type and stats still to be confirmed.');
+  else if (it.source === 'juego') note = L('Comprobado en el juego.', 'Checked in the game.');
+  else if (it.variantOf) note = L(`Versión mejorada de ${it.variantOf}: faltan sus estadísticas.`, `Upgraded version of ${it.variantOf}: stats missing.`);
+  else if (it.p5Stats) note = L('Estadísticas de P5 original: pueden variar en Royal.', 'Original P5 stats: they may differ in Royal.');
+  if (lines.length <= (official ? 1 : 0) && !note) note = L('Sin datos todavía.', 'No data yet.');
   return { lines, note };
 }
 

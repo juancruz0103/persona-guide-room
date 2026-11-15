@@ -7,6 +7,7 @@ import { personaName } from '../services/gameText';
 import { personaCardFocus, personaImage } from '../services/images';
 import { PersonaSelect } from '../components/PersonaSelect';
 import styles from './Builds.module.css';
+import { L } from '../../../i18n';
 
 /** Guía de builds: lista de builds de la comunidad, filtrable por Persona final. */
 export default function Builds() {
@@ -32,44 +33,45 @@ export default function Builds() {
       <section className={styles.hero}>
         <div className={styles.heroSlab} aria-hidden="true" />
         <div className={`container ${styles.heroInner}`}>
-          <span className={styles.kicker}>Comunidad</span>
-          <h1 className={styles.title}>Builds de Personas</h1>
+          <span className={styles.kicker}>{L('Comunidad', 'Community')}</span>
+          <h1 className={styles.title}>{L('Builds de Personas', 'Persona builds')}</h1>
           <p className={styles.lead}>
-            Rutas de fusión paso a paso: qué Personas fusionar y qué habilidades heredar en cada paso hasta llegar a la
-            Persona final.
+            {L('Rutas de fusión paso a paso: qué Personas fusionar y qué habilidades heredar en cada paso hasta llegar a la Persona final.', 'Step-by-step fusion routes: which Personas to fuse and which skills to inherit at each step until you reach the final Persona.')}
           </p>
           <Link to={user ? '/p5r/builds/nueva' : '/p5r/cuenta'} state={{ from: '/p5r/builds/nueva' }} className="btn btn--dark">
-            + Crear build
+            {L('+ Crear build', '+ Create build')}
           </Link>
         </div>
       </section>
 
       <section className={`container ${styles.controls}`}>
         <label className={styles.field}>
-          <span className="label label-accent">Persona final</span>
+          <span className="label label-accent">{L('Persona final', 'Final Persona')}</span>
           <PersonaSelect
             id="build-persona"
             value={personaId}
             options={personas}
-            placeholder="Todas las Personas"
+            placeholder={L('Todas las Personas', 'All Personas')}
             onChange={(v) => setParams(v ? { persona: v } : {})}
           />
         </label>
         <label className={styles.field}>
-          <span className="label label-accent">Ordenar</span>
+          <span className="label label-accent">{L('Ordenar', 'Sort')}</span>
           <select value={order} onChange={(e) => setOrder(e.target.value as 'new' | 'likes')}>
-            <option value="new">Más nuevas</option>
-            <option value="likes">Más votadas</option>
+            <option value="new">{L('Más nuevas', 'Newest')}</option>
+            <option value="likes">{L('Más votadas', 'Most liked')}</option>
           </select>
         </label>
       </section>
 
       <section className={`container ${styles.list}`}>
         {sorted === null ? (
-          <p className="pending">Cargando…</p>
+          <p className="pending">{L('Cargando…', 'Loading…')}</p>
         ) : sorted.length === 0 ? (
           <p className="pending">
-            Todavía no hay builds{personaId ? ' para esta Persona' : ''}. ¡Sé el primero en crear una!
+            {personaId
+              ? L('Todavía no hay builds para esta Persona. ¡Sé el primero en crear una!', 'There are no builds for this Persona yet. Be the first to create one!')
+              : L('Todavía no hay builds. ¡Sé el primero en crear una!', 'There are no builds yet. Be the first to create one!')}
           </p>
         ) : (
           <ul className={styles.grid}>
@@ -99,13 +101,13 @@ export function BuildCard({ build: b }: { build: Build }) {
         <span className={styles.cardPersona}>{p ? personaName(p) : b.persona_id}</span>
         <strong className={styles.cardTitle}>{b.title}</strong>
         <span className={styles.cardMeta}>
-          por {b.author?.username ?? 'anónimo'} · {formatDate(b.created_at)}
+          {L('por', 'by')} {b.author?.username ?? L('anónimo', 'anonymous')} · {formatDate(b.created_at)}
         </span>
         <span className={styles.cardStats}>
           <span>♥ {b.likes ?? 0}</span>
-          <span>{b.comments ?? 0} coment.</span>
-          <span>{b.steps.length} {b.steps.length === 1 ? 'paso' : 'pasos'}</span>
-          {b.hidden && <span className={styles.hiddenTag}>Oculta</span>}
+          <span>{b.comments ?? 0} {L('coment.', 'comments')}</span>
+          <span>{b.steps.length} {b.steps.length === 1 ? L('paso', 'step') : L('pasos', 'steps')}</span>
+          {b.hidden && <span className={styles.hiddenTag}>{L('Oculta', 'Hidden')}</span>}
         </span>
       </span>
     </Link>

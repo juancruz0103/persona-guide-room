@@ -3,6 +3,7 @@ import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../core/account/AuthContext';
 import { formatDate } from '../core/account/builds';
 import { supabase } from '../core/account/supabase';
+import { tr, L } from '../i18n';
 import styles from './Admin.module.css';
 
 interface Report {
@@ -26,14 +27,14 @@ interface UserRow {
 export default function Admin() {
   const { profile, loading } = useAuth();
   const [tab, setTab] = useState<'reports' | 'users' | 'words'>('reports');
-  if (loading) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
+  if (loading) return <div className="container" style={{ paddingBlock: 80 }}>{L('Cargando…', 'Loading…')}</div>;
   if (!profile?.is_admin) return <Navigate to="/p5r" replace />;
   return (
     <section className={`container ${styles.page}`}>
-      <h1 className={styles.title}>Administración</h1>
-      <p className={styles.meta}>Revisá cada reporte y decidí si hace falta una sanción: ocultar o borrar la publicación, o banear al usuario. Si no pasa nada, descartá el reporte.</p>
+      <h1 className={styles.title}>{L('Administración', 'Administration')}</h1>
+      <p className={styles.meta}>{L('Revisá cada reporte y decidí si hace falta una sanción: ocultar o borrar la publicación, o banear al usuario. Si no pasa nada, descartá el reporte.', 'Review each report and decide whether a sanction is needed: hide or delete the post, or ban the user. If nothing is wrong, dismiss the report.')}</p>
       <div className={styles.tabs} role="tablist">
-        {([['reports', 'Reportes'], ['users', 'Usuarios'], ['words', 'Palabras prohibidas']] as const).map(([id, label]) => (
+        {([['reports', L('Reportes', 'Reports')], ['users', L('Usuarios', 'Users')], ['words', L('Palabras prohibidas', 'Banned words')]] as const).map(([id, label]) => (
           <button key={id} type="button" role="tab" aria-selected={tab === id} className={tab === id ? styles.tabOn : styles.tab} onClick={() => setTab(id)}>
             {label}
           </button>
@@ -68,9 +69,9 @@ function Reports() {
     for (const x of (b.data ?? []) as { id: string; title: string; user_id: string; hidden: boolean }[])
       p[x.id] = { text: `Build: «${x.title}»`, link: `/p5r/builds/${x.id}`, userId: x.user_id, hidden: x.hidden };
     for (const x of (c.data ?? []) as { id: string; body: string; user_id: string; build_id: string; hidden: boolean }[])
-      p[x.id] = { text: `Comentario: «${x.body}»`, link: `/p5r/builds/${x.build_id}`, userId: x.user_id, hidden: x.hidden };
+      p[x.id] = { text: `${L('Comentario', 'Comment')}: «${x.body}»`, link: `/p5r/builds/${x.build_id}`, userId: x.user_id, hidden: x.hidden };
     for (const x of (u.data ?? []) as { id: string; username: string | null }[])
-      p[x.id] = { text: `Usuario: ${x.username ?? 'sin nombre'}`, userId: x.id };
+      p[x.id] = { text: `${L('Usuario', 'User')}: ${x.username ?? L('sin nombre', 'no name')}`, userId: x.id };
     setPreviews(p);
   };
   useEffect(() => {
@@ -87,19 +88,19 @@ function Reports() {
     await resolve(r.id);
   };
   const remove = async (r: Report) => {
-    if (!window.confirm('¿Borrar definitivamente? No se puede deshacer.')) return;
+    if (!window.confirm(L('¿Borrar definitivamente? No se puede deshacer.', 'Delete permanently? This cannot be undone.'))) return;
     const table = r.target_type === 'build' ? 'builds' : 'build_comments';
     await supabase.from(table).delete().eq('id', r.target_id);
     await resolve(r.id);
   };
   const ban = async (r: Report, userId: string) => {
-    if (!window.confirm('¿Banear a este usuario? Su contenido deja de verse y no puede publicar más.')) return;
+    if (!window.confirm(L('¿Banear a este usuario? Su contenido deja de verse y no puede publicar más.', 'Ban this user? Their content stops being visible and they can no longer post.'))) return;
     await supabase.from('profiles').update({ banned: true }).eq('id', userId);
     await resolve(r.id);
   };
 
-  if (list === null) return <p className="pending">Cargando…</p>;
-  if (!list.length) return <p className="pending">No hay reportes pendientes.</p>;
+  if (list === null) return <p className="pending">{L('Cargando…', 'Loading…')}</p>;
+  if (!list.length) return <p className="pending">{L('No hay reportes pendientes.', 'No pending reports.')}</p>;
   return (
     <ul className={styles.list}>
       {list.map((r) => {
@@ -107,18 +108,18 @@ function Reports() {
         return (
           <li key={r.id} className={styles.item}>
             <p className={styles.meta}>
-              {formatDate(r.created_at)} · reportado por {r.reporter?.username ?? 'anónimo'} · <strong>{r.reason ?? 'Sin motivo'}</strong>
+              {formatDate(r.created_at)} · {L('reportado por', 'reported by')} {r.reporter?.username ?? L('anónimo', 'anonymous')} · <strong>{r.reason ? tr(r.reason) : L('Sin motivo', 'No reason')}</strong>
             </p>
             {r.details && <p className={styles.details}>«{r.details}»</p>}
             <p className={styles.text}>
-              {pv ? pv.text : 'Ya no existe (fue borrado).'} {pv?.hidden && <em>(oculto)</em>}
+              {pv ? pv.text : L('Ya no existe (fue borrado).', 'It no longer exists (deleted).')} {pv?.hidden && <em>{L('(oculto)', '(hidden)')}</em>}
             </p>
             <div className={styles.actions}>
-              {pv?.link && <Link to={pv.link}>Ver</Link>}
-              {pv && r.target_type !== 'user' && <button type="button" onClick={() => hide(r)}>Ocultar</button>}
-              {pv && r.target_type !== 'user' && <button type="button" onClick={() => remove(r)}>Borrar</button>}
-              {pv?.userId && <button type="button" onClick={() => ban(r, pv.userId!)}>Banear usuario</button>}
-              <button type="button" onClick={() => resolve(r.id)}>Descartar reporte</button>
+              {pv?.link && <Link to={pv.link}>{L('Ver', 'View')}</Link>}
+              {pv && r.target_type !== 'user' && <button type="button" onClick={() => hide(r)}>{L('Ocultar', 'Hide')}</button>}
+              {pv && r.target_type !== 'user' && <button type="button" onClick={() => remove(r)}>{L('Borrar', 'Delete')}</button>}
+              {pv?.userId && <button type="button" onClick={() => ban(r, pv.userId!)}>{L('Banear usuario', 'Ban user')}</button>}
+              <button type="button" onClick={() => resolve(r.id)}>{L('Descartar reporte', 'Dismiss report')}</button>
             </div>
           </li>
         );
@@ -149,25 +150,25 @@ function Users() {
   return (
     <>
       <form className={styles.row} onSubmit={(e) => { e.preventDefault(); load(); }}>
-        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar por nombre de usuario" />
-        <button type="submit">Buscar</button>
+        <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={L('Buscar por nombre de usuario', 'Search by username')} />
+        <button type="submit">{L('Buscar', 'Search')}</button>
         <label className={styles.check}>
-          <input type="checkbox" checked={onlyBanned} onChange={(e) => setOnlyBanned(e.target.checked)} /> Solo baneados
+          <input type="checkbox" checked={onlyBanned} onChange={(e) => setOnlyBanned(e.target.checked)} /> {L('Solo baneados', 'Banned only')}
         </label>
       </form>
       {list === null ? (
-        <p className="pending">Cargando…</p>
+        <p className="pending">{L('Cargando…', 'Loading…')}</p>
       ) : (
         <ul className={styles.list}>
           {list.map((u) => (
             <li key={u.id} className={styles.item}>
               <p className={styles.text}>
-                <strong>{u.username ?? 'sin nombre'}</strong> {u.is_admin && '· admin'} {u.banned && <em className={styles.banned}>· baneado</em>}
+                <strong>{u.username ?? L('sin nombre', 'no name')}</strong> {u.is_admin && '· admin'} {u.banned && <em className={styles.banned}>· {L('baneado', 'banned')}</em>}
               </p>
-              <p className={styles.meta}>Desde {formatDate(u.created_at)}</p>
+              <p className={styles.meta}>{L('Desde', 'Since')} {formatDate(u.created_at)}</p>
               {!u.is_admin && (
                 <div className={styles.actions}>
-                  <button type="button" onClick={() => toggleBan(u)}>{u.banned ? 'Quitar ban' : 'Banear'}</button>
+                  <button type="button" onClick={() => toggleBan(u)}>{u.banned ? L('Quitar ban', 'Unban') : L('Banear', 'Ban')}</button>
                 </div>
               )}
             </li>
@@ -201,14 +202,14 @@ function Words() {
   };
   return (
     <>
-      <p className={styles.meta}>Si un comentario, una build o un nombre de usuario tiene alguna de estas palabras, no se guarda.</p>
+      <p className={styles.meta}>{L('Si un comentario, una build o un nombre de usuario tiene alguna de estas palabras, no se guarda.', 'If a comment, a build or a username contains any of these words, it is not saved.')}</p>
       <form className={styles.row} onSubmit={(e) => { e.preventDefault(); add(); }}>
-        <input value={word} onChange={(e) => setWord(e.target.value)} placeholder="Nueva palabra" />
-        <button type="submit">Agregar</button>
+        <input value={word} onChange={(e) => setWord(e.target.value)} placeholder={L('Nueva palabra', 'New word')} />
+        <button type="submit">{L('Agregar', 'Add')}</button>
       </form>
       <div className={styles.words}>
         {list.map((w) => (
-          <button key={w} type="button" onClick={() => remove(w)} title="Quitar">
+          <button key={w} type="button" onClick={() => remove(w)} title={L('Quitar', 'Remove')}>
             {w} ×
           </button>
         ))}

@@ -17,6 +17,7 @@ import { authErrorText, supabase } from '../../../core/account/supabase';
 import { BackButton } from '../../../shared/components/BackButton';
 import { BuildGoalView, BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
 import styles from './Builds.module.css';
+import { L } from '../../../i18n';
 
 /** Una build: la línea de fusiones paso a paso, likes y comentarios. */
 export default function BuildView() {
@@ -37,12 +38,12 @@ export default function BuildView() {
     if (user) hasLiked(user.id, buildId).then(setLiked);
   }, [user, buildId]);
 
-  if (build === undefined) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
+  if (build === undefined) return <div className="container" style={{ paddingBlock: 80 }}>{L('Cargando…', 'Loading…')}</div>;
   if (!build) {
     return (
       <section className="container" style={{ paddingBlock: 80 }}>
-        <p className="pending">No encontramos esa build.</p>
-        <Link to="/p5r/builds">← Volver a las builds</Link>
+        <p className="pending">{L('No encontramos esa build.', 'We could not find that build.')}</p>
+        <Link to="/p5r/builds">{L('← Volver a las builds', '← Back to builds')}</Link>
       </section>
     );
   }
@@ -62,7 +63,7 @@ export default function BuildView() {
     }
   };
   const remove = async () => {
-    if (!window.confirm('¿Borrar esta build? No se puede deshacer.')) return;
+    if (!window.confirm(L('¿Borrar esta build? No se puede deshacer.', 'Delete this build? This cannot be undone.'))) return;
     await deleteBuild(build.id);
     navigate('/p5r/builds');
   };
@@ -79,9 +80,9 @@ export default function BuildView() {
       <section className={`container ${styles.viewHead}`}>
         <h1 className={styles.viewTitle}>{build.title}</h1>
         <p className={styles.cardMeta}>
-          por <strong>{build.author?.username ?? 'anónimo'}</strong> · {formatDate(build.created_at)}
+          {L('por', 'by')} <strong>{build.author?.username ?? L('anónimo', 'anonymous')}</strong> · {formatDate(build.created_at)}
         </p>
-        {build.hidden && <p className={styles.hiddenNote}>Esta build está oculta por moderación: solo la ves vos.</p>}
+        {build.hidden && <p className={styles.hiddenNote}>{L('Esta build está oculta por moderación: solo la ves vos.', 'This build is hidden by moderation: only you can see it.')}</p>}
         {build.description && <p className={styles.desc}>{build.description}</p>}
         <div className={styles.actions}>
           <button type="button" className={`${styles.likeBtn} ${liked ? styles.liked : ''}`} aria-pressed={liked} onClick={toggleLike}>
@@ -89,17 +90,17 @@ export default function BuildView() {
           </button>
           {mine && (
             <Link to={`/p5r/builds/${build.id}/editar`} className={styles.smallBtn}>
-              Editar
+              {L('Editar', 'Edit')}
             </Link>
           )}
           {(mine || admin) && (
             <button type="button" className={styles.smallBtn} onClick={remove}>
-              Borrar
+              {L('Borrar', 'Delete')}
             </button>
           )}
           {admin && !mine && (
             <button type="button" className={styles.smallBtn} onClick={toggleHidden}>
-              {build.hidden ? 'Mostrar' : 'Ocultar'}
+              {build.hidden ? L('Mostrar', 'Show') : L('Ocultar', 'Hide')}
             </button>
           )}
           {user && !mine && <ReportButton type="build" id={build.id} />}
@@ -132,10 +133,10 @@ function Comments({ buildId }: { buildId: string }) {
     e.preventDefault();
     setError('');
     const t = body.trim();
-    if (!t) return setError('Escribí algo primero.');
-    if (!profile?.username) return setError('Elegí un nombre de usuario en «Mi perfil» antes de comentar.');
+    if (!t) return setError(L('Escribí algo primero.', 'Write something first.'));
+    if (!profile?.username) return setError(L('Elegí un nombre de usuario en «Mi perfil» antes de comentar.', 'Choose a username in «My profile» before commenting.'));
     const { error: err } = await addComment(user!.id, buildId, t);
-    if (err) return setError(err.message.includes('row-level') ? 'Tu cuenta no puede comentar.' : authErrorText(err.message));
+    if (err) return setError(err.message.includes('row-level') ? L('Tu cuenta no puede comentar.', 'Your account cannot comment.') : authErrorText(err.message));
     setBody('');
     load();
   };
@@ -150,20 +151,20 @@ function Comments({ buildId }: { buildId: string }) {
 
   return (
     <section className={`container ${styles.comments}`}>
-      <h2 className={styles.h2}>Comentarios{list ? ` (${list.length})` : ''}</h2>
+      <h2 className={styles.h2}>{L('Comentarios', 'Comments')}{list ? ` (${list.length})` : ''}</h2>
       {list?.map((c) => (
         <div key={c.id} className={`${styles.comment} ${c.hidden ? styles.commentHidden : ''}`}>
           <p className={styles.commentHead}>
-            <strong>{c.author?.username ?? 'anónimo'}</strong> · {formatDate(c.created_at)}
-            {c.hidden && ' · oculto'}
+            <strong>{c.author?.username ?? L('anónimo', 'anonymous')}</strong> · {formatDate(c.created_at)}
+            {c.hidden && L(' · oculto', ' · hidden')}
           </p>
           <p className={styles.commentBody}>{c.body}</p>
           <div className={styles.commentActions}>
             {(user?.id === c.user_id || profile?.is_admin) && (
-              <button type="button" onClick={() => remove(c.id)}>Borrar</button>
+              <button type="button" onClick={() => remove(c.id)}>{L('Borrar', 'Delete')}</button>
             )}
             {profile?.is_admin && user?.id !== c.user_id && (
-              <button type="button" onClick={() => hide(c)}>{c.hidden ? 'Mostrar' : 'Ocultar'}</button>
+              <button type="button" onClick={() => hide(c)}>{c.hidden ? L('Mostrar', 'Show') : L('Ocultar', 'Hide')}</button>
             )}
             {user && user.id !== c.user_id && <ReportButton type="comment" id={c.id} compact />}
           </div>
@@ -171,18 +172,26 @@ function Comments({ buildId }: { buildId: string }) {
       ))}
       {user ? (
         <form onSubmit={send} className={styles.commentForm}>
-          <textarea value={body} onChange={(e) => { setBody(e.target.value); setError(''); }} maxLength={1000} rows={3} placeholder="¿Te sirvió? ¿Algún consejo?" />
+          <textarea value={body} onChange={(e) => { setBody(e.target.value); setError(''); }} maxLength={1000} rows={3} placeholder={L('¿Te sirvió? ¿Algún consejo?', 'Did it help? Any tips?')} />
           {error && <p className={styles.error}>{error}</p>}
-          <button type="submit" className="btn btn--accent">Comentar</button>
+          <button type="submit" className="btn btn--accent">{L('Comentar', 'Comment')}</button>
         </form>
       ) : (
         <p className="pending">
-          <Link to="/p5r/cuenta" state={{ from: `/p5r/builds/${buildId}` }}>Entrá</Link> para comentar.
+          <Link to="/p5r/cuenta" state={{ from: `/p5r/builds/${buildId}` }}>{L('Entrá', 'Log in')}</Link> {L('para comentar.', 'to comment.')}
         </p>
       )}
     </section>
   );
 }
+
+const REASONS: [string, string][] = [
+  ['Lenguaje ofensivo', 'Offensive language'],
+  ['Spam o publicidad', 'Spam or advertising'],
+  ['Spoilers sin aviso', 'Unmarked spoilers'],
+  ['Información incorrecta', 'Wrong information'],
+  ['Otro', 'Other'],
+];
 
 export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' | 'user'; id: string; compact?: boolean }) {
   const { user } = useAuth();
@@ -190,11 +199,11 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
   const [reason, setReason] = useState('Lenguaje ofensivo');
   const [details, setDetails] = useState('');
   const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
-  if (state === 'sent') return <span className={styles.sent}>Reporte enviado. Lo va a revisar un administrador.</span>;
+  if (state === 'sent') return <span className={styles.sent}>{L('Reporte enviado. Lo va a revisar un administrador.', 'Report sent. An administrator will review it.')}</span>;
   if (!open) {
     return (
       <button type="button" className={compact ? undefined : styles.smallBtn} onClick={() => setOpen(true)}>
-        Reportar
+        {L('Reportar', 'Report')}
       </button>
     );
   }
@@ -205,25 +214,23 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
   };
   return (
     <span className={styles.reportBox}>
-      <span className={styles.reportTitle}>¿Por qué lo reportás?</span>
+      <span className={styles.reportTitle}>{L('¿Por qué lo reportás?', 'Why are you reporting it?')}</span>
       <select value={reason} onChange={(e) => setReason(e.target.value)}>
-        <option>Lenguaje ofensivo</option>
-        <option>Spam o publicidad</option>
-        <option>Spoilers sin aviso</option>
-        <option>Información incorrecta</option>
-        <option>Otro</option>
+        {REASONS.map(([es, en]) => (
+          <option key={es} value={es}>{L(es, en)}</option>
+        ))}
       </select>
       <textarea
         value={details}
         maxLength={500}
         rows={2}
         onChange={(e) => setDetails(e.target.value)}
-        placeholder="Contanos qué pasa (opcional)"
+        placeholder={L('Contanos qué pasa (opcional)', 'Tell us what is wrong (optional)')}
       />
-      {state === 'error' && <span className={styles.error}>No se pudo enviar. Probá de nuevo.</span>}
+      {state === 'error' && <span className={styles.error}>{L('No se pudo enviar. Probá de nuevo.', 'It could not be sent. Try again.')}</span>}
       <span className={styles.reportActions}>
-        <button type="button" onClick={send} disabled={state === 'sending'}>Enviar reporte</button>
-        <button type="button" onClick={() => setOpen(false)}>Cancelar</button>
+        <button type="button" onClick={send} disabled={state === 'sending'}>{L('Enviar reporte', 'Send report')}</button>
+        <button type="button" onClick={() => setOpen(false)}>{L('Cancelar', 'Cancel')}</button>
       </span>
     </span>
   );

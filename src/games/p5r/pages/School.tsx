@@ -12,12 +12,13 @@ import {
   type SchoolQuestion,
 } from '../services/school';
 import styles from './School.module.css';
+import { L, bilingual, tr } from '../../../i18n';
 
-const TYPES: { id: SchoolFilterType; label: string }[] = [
-  { id: 'all', label: 'Todas' },
-  { id: 'protagonist', label: 'Protagonista' },
+const TYPES = (): { id: SchoolFilterType; label: string }[] => [
+  { id: 'all', label: L('Todas', 'All') },
+  { id: 'protagonist', label: L('Protagonista', 'Protagonist') },
   { id: 'ann', label: 'Ann' },
-  { id: 'exam', label: 'Exámenes' },
+  { id: 'exam', label: L('Exámenes', 'Exams') },
 ];
 
 function tone(q: SchoolQuestion): 'class' | 'ann' | 'exam' {
@@ -25,7 +26,7 @@ function tone(q: SchoolQuestion): 'class' | 'ann' | 'exam' {
   return q.askedTo === 'ann' ? 'ann' : 'class';
 }
 
-const TAG = { class: 'Protagonista', ann: 'Ann', exam: 'Examen' } as const;
+const TAG = bilingual({ class: 'Protagonista', ann: 'Ann', exam: 'Examen' }, { class: 'Protagonist', exam: 'Exam' });
 
 export default function School() {
   const { questions } = getSchoolData();
@@ -39,57 +40,56 @@ export default function School() {
         <div className={styles.heroSlab} aria-hidden="true" />
         <div className={`container ${styles.heroInner}`}>
           <span className={styles.kicker}>Shujin Academy</span>
-          <h1 className={styles.title}>Respuestas de clase</h1>
+          <h1 className={styles.title}>{L('Respuestas de clase', 'Class answers')}</h1>
           <p className={styles.lead}>
-            Todas las preguntas que hacen los profesores y las de los exámenes, ordenadas por fecha. Buscá el día en
-            que estás y listo.
+            {L('Todas las preguntas que hacen los profesores y las de los exámenes, ordenadas por fecha. Buscá el día en que estás y listo.', 'Every question teachers ask and every exam question, sorted by date. Find the day you are on and you are done.')}
           </p>
         </div>
       </section>
 
       <section className={`container ${styles.controls}`}>
-        <ul className={styles.legend} aria-label="Referencias de color">
-          <li><span className={styles.sw} data-tone="class" /> Pregunta al protagonista</li>
-          <li><span className={styles.sw} data-tone="ann" /> Pregunta a Ann (la ayudás vos)</li>
-          <li><span className={styles.sw} data-tone="exam" /> Examen</li>
+        <ul className={styles.legend} aria-label={L('Referencias de color', 'Color legend')}>
+          <li><span className={styles.sw} data-tone="class" /> {L('Pregunta al protagonista', 'Question to the protagonist')}</li>
+          <li><span className={styles.sw} data-tone="ann" /> {L('Pregunta a Ann (la ayudás vos)', 'Question to Ann (you help her)')}</li>
+          <li><span className={styles.sw} data-tone="exam" /> {L('Examen', 'Exam')}</li>
         </ul>
 
         <div className={styles.filters}>
           <label className={styles.field}>
-            <span className="label label-accent">Buscar palabra</span>
+            <span className="label label-accent">{L('Buscar palabra', 'Search word')}</span>
             <input
               type="search"
               value={f.query}
-              placeholder="Ej: diccionario"
+              placeholder={L('Ej: diccionario', 'E.g.: dictionary')}
               onChange={(e) => setF({ ...f, query: e.target.value })}
             />
           </label>
           <label className={styles.field}>
-            <span className="label label-accent">Mes</span>
+            <span className="label label-accent">{L('Mes', 'Month')}</span>
             <select
               value={f.month ?? ''}
               onChange={(e) => setF({ ...f, month: e.target.value ? Number(e.target.value) : null, day: null })}
             >
-              <option value="">Todos los meses</option>
+              <option value="">{L('Todos los meses', 'All months')}</option>
               {SCHOOL_MONTHS.map((m) => (
                 <option key={m.month} value={m.month}>{m.name}</option>
               ))}
             </select>
           </label>
           <label className={styles.field}>
-            <span className="label label-accent">Día</span>
+            <span className="label label-accent">{L('Día', 'Day')}</span>
             <select
               value={f.day ?? ''}
               onChange={(e) => setF({ ...f, day: e.target.value ? Number(e.target.value) : null })}
             >
-              <option value="">Todos los días</option>
+              <option value="">{L('Todos los días', 'All days')}</option>
               {days.map((d) => (
                 <option key={d} value={d}>{d}</option>
               ))}
             </select>
           </label>
-          <div className={styles.types} role="group" aria-label="Tipo de pregunta">
-            {TYPES.map((t) => (
+          <div className={styles.types} role="group" aria-label={L('Tipo de pregunta', 'Question type')}>
+            {TYPES().map((t) => (
               <button
                 key={t.id}
                 type="button"
@@ -119,8 +119,8 @@ export default function School() {
             <Fragment key={`${q.month}-${q.day}-${q.part ?? 0}`}>
               {newExamBlock && (
                 <div className={styles.examBand}>
-                  <span className={styles.examTitle}>{exam.title}</span>
-                  <span className={styles.examRange}>{exam.range}</span>
+                  <span className={styles.examTitle}>{tr(exam.title)}</span>
+                  <span className={styles.examRange}>{tr(exam.range)}</span>
                 </div>
               )}
               <article className={styles.entry} data-tone={t}>
@@ -131,22 +131,22 @@ export default function School() {
                 <div className={styles.body}>
                   <div className={styles.meta}>
                     <span className={styles.tag}>{TAG[t]}</span>
-                    {q.part && <span className={styles.part}>Pregunta {q.part}</span>}
-                    {q.month === 1 && <span className="tag tag--royal">Solo Royal</span>}
+                    {q.part && <span className={styles.part}>{L('Pregunta', 'Question')} {q.part}</span>}
+                    {q.month === 1 && <span className="tag tag--royal">{L('Solo Royal', 'Royal only')}</span>}
                   </div>
-                  <p className={styles.topic}>{q.topic}</p>
+                  <p className={styles.topic}>{tr(q.topic)}</p>
                   <div className={styles.answer}>
-                    <span className={styles.answerLabel}>Respuesta</span>
-                    <span className={styles.answerText}>{q.answer}</span>
+                    <span className={styles.answerLabel}>{L('Respuesta', 'Answer')}</span>
+                    <span className={styles.answerText}>{tr(q.answer)}</span>
                   </div>
-                  {q.note && <p className={styles.note}>{q.note}</p>}
+                  {q.note && <p className={styles.note}>{tr(q.note)}</p>}
                 </div>
               </article>
             </Fragment>
           );
         })}
 
-        {!list.length && <p className="pending">No hay preguntas con esos filtros.</p>}
+        {!list.length && <p className="pending">{L('No hay preguntas con esos filtros.', 'No questions match those filters.')}</p>}
       </section>
     </>
   );

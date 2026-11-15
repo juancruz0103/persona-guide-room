@@ -21,6 +21,7 @@ import { checkStep, fuseResult, personaRequirement, specialIngredients } from '.
 import { skillCardSources } from '../services/items';
 import { BuildGoalView, BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
 import styles from './BuildEditor.module.css';
+import { L } from '../../../i18n';
 
 const ALL_PERSONAS = getAllPersonas()
   .filter((p) => !p.party)
@@ -69,7 +70,7 @@ export default function BuildEditor() {
     });
   }, [buildId]);
 
-  if (loading) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
+  if (loading) return <div className="container" style={{ paddingBlock: 80 }}>{L('Cargando…', 'Loading…')}</div>;
   if (!user) return <Navigate to="/p5r/cuenta" state={{ from: '/p5r/builds/nueva' }} replace />;
   if (buildId && owner && owner !== user.id) return <Navigate to={`/p5r/builds/${buildId}`} replace />;
 
@@ -95,15 +96,15 @@ export default function BuildEditor() {
   };
 
   const validate = (): string => {
-    if (title.trim().length < 3) return 'Ponele un título a la build (mínimo 3 letras).';
+    if (title.trim().length < 3) return L('Ponele un título a la build (mínimo 3 letras).', 'Give the build a title (at least 3 letters).');
     for (const [i, s] of steps.entries()) {
       const c = checkStep(s);
-      if (c === 'incomplete') return `Completá las Personas del paso ${i + 1}.`;
-      if (c === 'bad') return `La combinación del paso ${i + 1} no da esa Persona.`;
-      if (s.inherit.length > MAX_SKILLS) return `En el paso ${i + 1} el resultado hereda más de ${MAX_SKILLS} habilidades.`;
+      if (c === 'incomplete') return L(`Completá las Personas del paso ${i + 1}.`, `Fill in the Personas of step ${i + 1}.`);
+      if (c === 'bad') return L(`La combinación del paso ${i + 1} no da esa Persona.`, `The combination in step ${i + 1} does not give that Persona.`);
+      if (s.inherit.length > MAX_SKILLS) return L(`En el paso ${i + 1} el resultado hereda más de ${MAX_SKILLS} habilidades.`, `In step ${i + 1} the result inherits more than ${MAX_SKILLS} skills.`);
     }
-    if (cards.some((c) => !c.skill || !c.from)) return 'Completá las skill cards o quitá las que estén vacías.';
-    if (!goal.persona) return 'En «Objetivo», elegí la Persona final y cómo tienen que quedar sus habilidades.';
+    if (cards.some((c) => !c.skill || !c.from)) return L('Completá las skill cards o quitá las que estén vacías.', 'Fill in the skill cards or remove the empty ones.');
+    if (!goal.persona) return L('En «Objetivo», elegí la Persona final y cómo tienen que quedar sus habilidades.', 'In «Goal», choose the final Persona and how its skills should end up.');
     return '';
   };
 
@@ -111,11 +112,11 @@ export default function BuildEditor() {
     e.preventDefault();
     const v = validate();
     if (v) return setError(v);
-    if (!profile?.username) return setError('Elegí un nombre de usuario en «Mi perfil» antes de publicar.');
+    if (!profile?.username) return setError(L('Elegí un nombre de usuario en «Mi perfil» antes de publicar.', 'Choose a username in «My profile» before publishing.'));
     setBusy(true);
     const res = await saveBuild(user.id, { id: buildId, title: title.trim(), description: description.trim() || null, steps, skill_cards: cards, goal: goal.persona ? goal : null });
     setBusy(false);
-    if (res.error) return setError(res.error.includes('row-level') ? 'Tu cuenta no puede publicar builds.' : authErrorText(res.error));
+    if (res.error) return setError(res.error.includes('row-level') ? L('Tu cuenta no puede publicar builds.', 'Your account cannot publish builds.') : authErrorText(res.error));
     navigate(`/p5r/builds/${res.id}`);
   };
 
@@ -124,23 +125,23 @@ export default function BuildEditor() {
       <div className={styles.back}>
         <BackButton fallback={buildId ? `/p5r/builds/${buildId}` : '/p5r/builds'} />
       </div>
-      <h1 className={styles.title}>{buildId ? 'Editar build' : 'Nueva build'}</h1>
+      <h1 className={styles.title}>{buildId ? L('Editar build', 'Edit build') : L('Nueva build', 'New build')}</h1>
 
       <form onSubmit={save} className={styles.form} noValidate>
         <div className={styles.meta}>
           <label className={styles.field}>
-            <span className="label label-accent">Título</span>
-            <input value={title} maxLength={80} onChange={(e) => setTitle(e.target.value)} placeholder="Yoshitsune casi indestructible" />
+            <span className="label label-accent">{L('Título', 'Title')}</span>
+            <input value={title} maxLength={80} onChange={(e) => setTitle(e.target.value)} placeholder={L('Yoshitsune casi indestructible', 'Nearly indestructible Yoshitsune')} />
           </label>
           <label className={styles.field}>
-            <span className="label label-accent">Descripción (opcional)</span>
-            <textarea value={description} maxLength={2000} rows={2} onChange={(e) => setDescription(e.target.value)} placeholder="Para qué sirve, nivel recomendado, consejos…" />
+            <span className="label label-accent">{L('Descripción (opcional)', 'Description (optional)')}</span>
+            <textarea value={description} maxLength={2000} rows={2} onChange={(e) => setDescription(e.target.value)} placeholder={L('Para qué sirve, nivel recomendado, consejos…', 'What it is for, recommended level, tips…')} />
           </label>
         </div>
 
-        <nav className={styles.stepper} aria-label="Pasos de la build">
+        <nav className={styles.stepper} aria-label={L('Pasos de la build', 'Build steps')}>
           <button type="button" className={`${styles.stepBtn} ${view === 'goal' ? styles.stepOn : ''}`} onClick={() => setView('goal')}>
-            <span className={`${styles.dot} ${goal.persona ? styles.dotOk : ''}`}>◆</span> Objetivo
+            <span className={`${styles.dot} ${goal.persona ? styles.dotOk : ''}`}>◆</span> {L('Objetivo', 'Goal')}
           </button>
           {steps.map((s, i) => {
             const c = checkStep(s);
@@ -148,20 +149,20 @@ export default function BuildEditor() {
             return (
               <button key={i} type="button" className={`${styles.stepBtn} ${on ? styles.stepOn : ''}`} onClick={() => { setCurrent(i); setView('step'); }}>
                 <span className={`${styles.dot} ${c === 'ok' ? styles.dotOk : c === 'bad' ? styles.dotBad : ''}`}>{c === 'ok' ? '✓' : c === 'bad' ? '!' : i + 1}</span>
-                <span>Paso {i + 1}{s.result ? ` · ${pname(s.result)}` : ''}</span>
+                <span>{L('Paso', 'Step')} {i + 1}{s.result ? ` · ${pname(s.result)}` : ''}</span>
               </button>
             );
           })}
           {steps.length < MAX_STEPS && (
             <button type="button" className={styles.stepBtn} onClick={addStep}>
-              <span className={styles.dot}>+</span> Nuevo paso
+              <span className={styles.dot}>+</span> {L('Nuevo paso', 'New step')}
             </button>
           )}
           <button type="button" className={`${styles.stepBtn} ${view === 'cards' ? styles.stepOn : ''}`} onClick={() => setView('cards')}>
             <span className={styles.dot}>★</span> Skill cards
           </button>
           <button type="button" className={`${styles.stepBtn} ${view === 'preview' ? styles.stepOn : ''}`} onClick={() => setView('preview')}>
-            <span className={styles.dot}>◎</span> Vista previa
+            <span className={styles.dot}>◎</span> {L('Vista previa', 'Preview')}
           </button>
         </nav>
 
@@ -194,9 +195,9 @@ export default function BuildEditor() {
         {error && <p className={styles.error} role="alert">{error}</p>}
         <div className={styles.actions}>
           <button type="submit" className="btn btn--accent" disabled={busy}>
-            {buildId ? 'Guardar cambios' : 'Publicar build'}
+            {buildId ? L('Guardar cambios', 'Save changes') : L('Publicar build', 'Publish build')}
           </button>
-          <Link to={buildId ? `/p5r/builds/${buildId}` : '/p5r/builds'} className={styles.smallBtn}>Cancelar</Link>
+          <Link to={buildId ? `/p5r/builds/${buildId}` : '/p5r/builds'} className={styles.smallBtn}>{L('Cancelar', 'Cancel')}</Link>
         </div>
       </form>
     </section>
@@ -260,10 +261,11 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
   return (
     <div className={styles.panel}>
       <div className={styles.panelHead}>
-        <h2 className={styles.h2}>Paso {index + 1}</h2>
+        <h2 className={styles.h2}>{L('Paso', 'Step')} {index + 1}</h2>
         <p className={styles.howto}>
-          <span>1</span> Elegí las Personas tocando los cuadros <span>2</span> Tocá las habilidades que pasan al resultado{' '}
-          <span>3</span> Explicá el paso con tus palabras
+          <span>1</span> {L('Elegí las Personas tocando los cuadros', 'Choose the Personas by tapping the boxes')} <span>2</span>{' '}
+          {L('Tocá las habilidades que pasan al resultado', 'Tap the skills that pass to the result')} <span>3</span>{' '}
+          {L('Explicá el paso con tus palabras', 'Explain the step in your own words')}
         </p>
       </div>
 
@@ -273,8 +275,8 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
             {j > 0 && <span className={styles.op}>+</span>}
             <Slot
               personaId={x.persona}
-              label={`Ingrediente ${j + 1}`}
-              tag={fromStep(x.persona) ? `Del paso ${fromStep(x.persona)!.n}` : undefined}
+              label={`${L('Ingrediente', 'Ingredient')} ${j + 1}`}
+              tag={fromStep(x.persona) ? `${L('Del paso', 'From step')} ${fromStep(x.persona)!.n}` : undefined}
               onPick={() => setPicking(j)}
               onClear={step.ingredients.length > 2 ? () => updateIngredients(step.ingredients.filter((_, k) => k !== j)) : undefined}
             >
@@ -287,21 +289,21 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
                 />
               )}
               {x.persona && (
-                <input className={styles.slotNote} value={x.note ?? ''} maxLength={120} onChange={(e) => setIng(j, { ...x, note: e.target.value || undefined })} placeholder="Nota corta (opcional)" />
+                <input className={styles.slotNote} value={x.note ?? ''} maxLength={120} onChange={(e) => setIng(j, { ...x, note: e.target.value || undefined })} placeholder={L('Nota corta (opcional)', 'Short note (optional)')} />
               )}
             </Slot>
           </Fragment>
         ))}
         {step.ingredients.length < 6 && (
-          <button type="button" className={styles.addIng} onClick={() => updateIngredients([...step.ingredients, ing()])} title="Agregar ingrediente (fusión avanzada)">
-            + ingrediente
+          <button type="button" className={styles.addIng} onClick={() => updateIngredients([...step.ingredients, ing()])} title={L('Agregar ingrediente (fusión avanzada)', 'Add ingredient (advanced fusion)')}>
+            {L('+ ingrediente', '+ ingredient')}
           </button>
         )}
         <span className={styles.op}>=</span>
-        <Slot personaId={step.result} label="Resultado" result onPick={() => setPicking('result')}>
+        <Slot personaId={step.result} label={L('Resultado', 'Result')} result onPick={() => setPicking('result')}>
           {step.result && (
             <>
-              {offered(step).length > 0 && <span className={styles.mini}>Hereda (tocá para quitar):</span>}
+              {offered(step).length > 0 && <span className={styles.mini}>{L('Hereda (tocá para quitar):', 'Inherits (tap to remove):')}</span>}
               <div className={styles.chips}>
                 {offered(step).map((s) => {
                   const on = step.inherit.includes(s);
@@ -313,13 +315,13 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
                 })}
               </div>
               <TraitPicker step={step} onChange={(trait) => onChange({ ...step, trait })} />
-              <span className={styles.mini}>Aprende sola (tocá para marcar):</span>
+              <span className={styles.mini}>{L('Aprende sola (tocá para marcar):', 'Learns by itself (tap to mark):')}</span>
               <div className={styles.chips}>
                 {(getPersona(step.result)?.skills ?? []).map((s) => {
                   const on = step.learn.some((l) => l.skill === s.skill);
                   return (
                     <button key={s.skill} type="button" className={`${styles.chip} ${on ? styles.chipLearn : styles.chipOff}`} onClick={() => onChange({ ...step, learn: on ? step.learn.filter((l) => l.skill !== s.skill) : [...step.learn, { skill: s.skill, level: s.level }] })}>
-                      {s.level ? `Nv ${s.level}` : 'Base'} · {skillName(s.skill)}
+                      {s.level ? `${L('Nv', 'Lv')} ${s.level}` : L('Base', 'Innate')} · {skillName(s.skill)}
                     </button>
                   );
                 })}
@@ -329,14 +331,14 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
         </Slot>
       </div>
 
-      {check === 'ok' && <p className={styles.ok}>✓ Combinación correcta en Royal</p>}
+      {check === 'ok' && <p className={styles.ok}>✓ {L('Combinación correcta en Royal', 'Correct combination in Royal')}</p>}
       {check === 'bad' && (
         <p className={styles.bad}>
-          ✗ Esta combinación no da {pname(step.result)}.
-          {real ? ` ${step.ingredients.map((x) => pname(x.persona)).join(' + ')} da ${pname(real)}.` : ''}
+          ✗ {L('Esta combinación no da', 'This combination does not give')} {pname(step.result)}.
+          {real ? ` ${step.ingredients.map((x) => pname(x.persona)).join(' + ')} ${L('da', 'gives')} ${pname(real)}.` : ''}
           {real && (
             <button type="button" className={styles.fix} onClick={() => onChange({ ...step, result: real, learn: [] })}>
-              Usar {pname(real)}
+              {L('Usar', 'Use')} {pname(real)}
             </button>
           )}
         </p>
@@ -344,12 +346,12 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
 
       {previous.length > 0 && (
         <div className={styles.created}>
-          <span className={styles.mini}>Usar una Persona que ya creaste:</span>
+          <span className={styles.mini}>{L('Usar una Persona que ya creaste:', 'Use a Persona you already created:')}</span>
           <div className={styles.chips}>
             {previous.map((p) => (
               <button key={p.n} type="button" className={styles.createdBtn} onClick={() => useCreated(p.step.result)}>
                 {personaImage(p.step.result, 'side') && <img src={personaImage(p.step.result, 'side')} alt="" style={{ objectPosition: personaCardFocus(p.step.result) }} />}
-                Paso {p.n} · {pname(p.step.result)}
+                {L('Paso', 'Step')} {p.n} · {pname(p.step.result)}
               </button>
             ))}
           </div>
@@ -357,28 +359,28 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
       )}
 
       <label className={styles.field}>
-        <span className="label label-accent">Explicación del paso</span>
+        <span className="label label-accent">{L('Explicación del paso', 'Step explanation')}</span>
         <textarea
           rows={3}
           maxLength={600}
           value={step.note ?? ''}
           onChange={(e) => onChange({ ...step, note: e.target.value || undefined })}
-          placeholder="Contá con tus palabras qué hacer en este paso o qué hay que tener en cuenta."
+          placeholder={L('Contá con tus palabras qué hacer en este paso o qué hay que tener en cuenta.', 'Explain in your own words what to do in this step or what to keep in mind.')}
         />
       </label>
 
       <div className={styles.tools}>
-        <button type="button" className={styles.smallBtn} onClick={() => onMove(-1)} disabled={index === 0}>← Mover antes</button>
-        <button type="button" className={styles.smallBtn} onClick={() => onMove(1)} disabled={index === total - 1}>Mover después →</button>
-        <button type="button" className={styles.smallBtn} onClick={onRemove}>Borrar paso</button>
+        <button type="button" className={styles.smallBtn} onClick={() => onMove(-1)} disabled={index === 0}>{L('← Mover antes', '← Move earlier')}</button>
+        <button type="button" className={styles.smallBtn} onClick={() => onMove(1)} disabled={index === total - 1}>{L('Mover después →', 'Move later →')}</button>
+        <button type="button" className={styles.smallBtn} onClick={onRemove}>{L('Borrar paso', 'Delete step')}</button>
         <button type="button" className="btn btn--light" onClick={onNext}>
-          {isLastStep ? '+ Siguiente paso' : 'Ir al paso siguiente →'}
+          {isLastStep ? L('+ Siguiente paso', '+ Next step') : L('Ir al paso siguiente →', 'Go to next step →')}
         </button>
       </div>
 
       {picking !== null && (
         <PersonaPicker
-          title={picking === 'result' ? '¿Qué Persona querés crear?' : 'Elegí un ingrediente'}
+          title={picking === 'result' ? L('¿Qué Persona querés crear?', 'Which Persona do you want to create?') : L('Elegí un ingrediente', 'Choose an ingredient')}
           created={previous.map((p) => p.step.result)}
           onPick={pick}
           onClose={() => setPicking(null)}
@@ -396,26 +398,26 @@ function Slot({ personaId, label, tag, result, onPick, onClear, children }: { pe
   const req = p ? personaRequirement(p) : null;
   return (
     <div className={`${styles.slot} ${result ? styles.slotResult : ''}`}>
-      <button type="button" className={styles.slotPick} onClick={onPick} title={p ? 'Cambiar Persona' : 'Elegir Persona'}>
+      <button type="button" className={styles.slotPick} onClick={onPick} title={p ? L('Cambiar Persona', 'Change Persona') : L('Elegir Persona', 'Choose Persona')}>
         {p ? (
-          img ? <img src={img} alt="" style={{ objectPosition: personaCardFocus(personaId) }} /> : <span className={styles.slotEmpty}>Sin foto</span>
+          img ? <img src={img} alt="" style={{ objectPosition: personaCardFocus(personaId) }} /> : <span className={styles.slotEmpty}>{L('Sin foto', 'No photo')}</span>
         ) : (
-          <span className={styles.slotEmpty}>+ Elegir<br />{label.toLowerCase()}</span>
+          <span className={styles.slotEmpty}>{L('+ Elegir', '+ Choose')}<br />{label.toLowerCase()}</span>
         )}
         {tag && <span className={styles.tag}>{tag}</span>}
-        {req && <span className={styles.req}>{req.kind === 'story' ? 'Historia' : req.text}</span>}
+        {req && <span className={styles.req}>{req.kind === 'story' ? L('Historia', 'Story') : req.text}</span>}
       </button>
       <div className={styles.slotName}>
         {p ? (
           <>
-            <Link to={`/p5r/calculadora/persona/${personaId}`} target="_blank" title="Ver perfil (se abre aparte)">{personaName(p)}</Link>
-            <small>Nv {p.level}</small>
+            <Link to={`/p5r/calculadora/persona/${personaId}`} target="_blank" title={L('Ver perfil (se abre aparte)', 'See profile (opens separately)')}>{personaName(p)}</Link>
+            <small>{L('Nv', 'Lv')} {p.level}</small>
           </>
         ) : (
           <span className={styles.mini}>{label}</span>
         )}
         {onClear && (
-          <button type="button" className={styles.clear} onClick={onClear} aria-label="Quitar ingrediente">×</button>
+          <button type="button" className={styles.clear} onClick={onClear} aria-label={L('Quitar ingrediente', 'Remove ingredient')}>×</button>
         )}
       </div>
       {children}
@@ -436,7 +438,7 @@ function SkillToggles({ personaId, carried, value, onChange }: { personaId: stri
     // Nota automática con el nivel más alto que hace falta
     const lv = Math.max(0, ...next.map((k) => own.find((o) => o.skill === k)?.level ?? 0));
     const learnt = next.filter((k) => (own.find((o) => o.skill === k)?.level ?? 0) === lv && lv > 0);
-    onChange(next, lv > (p?.level ?? 0) ? `Subila al Nv ${lv} para que aprenda ${learnt.map(skillName).join(' y ')}` : '');
+    onChange(next, lv > (p?.level ?? 0) ? L(`Subila al Nv ${lv} para que aprenda ${learnt.map(skillName).join(' y ')}`, `Level it to ${lv} so it learns ${learnt.map(skillName).join(' and ')}`) : '');
   };
   const add = () => {
     const k = findSkill(text);
@@ -445,7 +447,7 @@ function SkillToggles({ personaId, carried, value, onChange }: { personaId: stri
   };
   return (
     <div className={styles.toggles}>
-      {carried.length > 0 && <span className={styles.mini}>Trae heredadas:</span>}
+      {carried.length > 0 && <span className={styles.mini}>{L('Trae heredadas:', 'Already inherited:')}</span>}
       <div className={styles.chips}>
         {carried.map((s) => (
           <button key={`c-${s}`} type="button" className={`${styles.chip} ${value.includes(s) ? styles.chipOn : styles.chipOff}`} onClick={() => toggle(s)}>
@@ -453,11 +455,11 @@ function SkillToggles({ personaId, carried, value, onChange }: { personaId: stri
           </button>
         ))}
       </div>
-      <span className={styles.mini}>Sus habilidades:</span>
+      <span className={styles.mini}>{L('Sus habilidades:', 'Its skills:')}</span>
       <div className={styles.chips}>
         {own.filter((o) => !carried.includes(o.skill)).map((o) => (
-          <button key={o.skill} type="button" className={`${styles.chip} ${value.includes(o.skill) ? styles.chipOn : styles.chipOff}`} onClick={() => toggle(o.skill)} title={o.level ? `La aprende al Nv ${o.level}` : 'La trae de base'}>
-            {o.level ? <small>Nv {o.level}</small> : null} {skillName(o.skill)}
+          <button key={o.skill} type="button" className={`${styles.chip} ${value.includes(o.skill) ? styles.chipOn : styles.chipOff}`} onClick={() => toggle(o.skill)} title={o.level ? L(`La aprende al Nv ${o.level}`, `Learned at Lv ${o.level}`) : L('La trae de base', 'Innate')}>
+            {o.level ? <small>{L('Nv', 'Lv')} {o.level}</small> : null} {skillName(o.skill)}
           </button>
         ))}
         {extra.map((s) => (
@@ -467,7 +469,7 @@ function SkillToggles({ personaId, carried, value, onChange }: { personaId: stri
         ))}
       </div>
       <div className={styles.addSkill}>
-        <input list={listId} value={text} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); add(); } }} placeholder="Otra habilidad…" />
+        <input list={listId} value={text} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); add(); } }} placeholder={L('Otra habilidad…', 'Another skill…')} />
         <button type="button" onClick={add}>+</button>
         <datalist id={listId}>{SKILLS.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
       </div>
@@ -491,20 +493,20 @@ function PersonaPicker({ title, created, onPick, onClose }: { title: string; cre
       <div className={styles.modal} role="dialog" aria-modal="true" aria-label={title}>
         <div className={styles.modalHead}>
           <h3>{title}</h3>
-          <button type="button" className={styles.clear} onClick={onClose} aria-label="Cerrar">×</button>
+          <button type="button" className={styles.clear} onClick={onClose} aria-label={L('Cerrar', 'Close')}>×</button>
         </div>
-        <input autoFocus className={styles.search} value={q} onChange={(e) => setQ(e.target.value)} placeholder="Buscar por nombre…" />
+        <input autoFocus className={styles.search} value={q} onChange={(e) => setQ(e.target.value)} placeholder={L('Buscar por nombre…', 'Search by name…')} />
         {createdSet.length > 0 && !q && (
           <>
-            <span className={styles.mini}>Creadas en pasos anteriores</span>
+            <span className={styles.mini}>{L('Creadas en pasos anteriores', 'Created in earlier steps')}</span>
             <div className={styles.grid}>{createdSet.map((id) => <PickCard key={`c-${id}`} id={id} onPick={onPick} />)}</div>
-            <span className={styles.mini}>Todas</span>
+            <span className={styles.mini}>{L('Todas', 'All')}</span>
           </>
         )}
         <div className={styles.grid}>
           {list.slice(0, 120).map((p) => <PickCard key={p.id} id={p.id} onPick={onPick} />)}
         </div>
-        {list.length > 120 && <p className={styles.mini}>Escribí para encontrar más…</p>}
+        {list.length > 120 && <p className={styles.mini}>{L('Escribí para encontrar más…', 'Type to find more…')}</p>}
       </div>
     </div>
   );
@@ -517,7 +519,7 @@ function PickCard({ id, onPick }: { id: string; onPick: (id: string) => void }) 
     <button type="button" className={styles.pick} onClick={() => onPick(id)}>
       {img ? <img src={img} alt="" loading="lazy" style={{ objectPosition: personaCardFocus(id) }} /> : <span className={styles.pickEmpty} />}
       <span>{personaName(p)}</span>
-      <small>Nv {p.level}</small>
+      <small>{L('Nv', 'Lv')} {p.level}</small>
     </button>
   );
 }
@@ -535,7 +537,7 @@ function TraitPicker({ step, onChange }: { step: BuildStep; onChange: (t: BuildS
   const [free, setFree] = useState('');
   return (
     <div className={styles.traitBox}>
-      <span className={styles.traitLabel}>Rasgo que hereda</span>
+      <span className={styles.traitLabel}>{L('Rasgo que hereda', 'Inherited trait')}</span>
       <div className={styles.chips}>
         {unique.map((o) => {
           const on = cur?.name === o.name;
@@ -546,7 +548,7 @@ function TraitPicker({ step, onChange }: { step: BuildStep; onChange: (t: BuildS
           );
         })}
         <button type="button" className={`${styles.chip} ${cur && cur.name === null ? styles.chipTrait : styles.chipOff}`} onClick={() => onChange(cur && cur.name === null ? undefined : { name: null })}>
-          A elección del jugador
+          {L('A elección del jugador', "Player's choice")}
         </button>
         {cur?.name && !unique.some((o) => o.name === cur.name) && (
           <button type="button" className={`${styles.chip} ${styles.chipTrait}`} onClick={() => onChange(undefined)}>
@@ -555,7 +557,7 @@ function TraitPicker({ step, onChange }: { step: BuildStep; onChange: (t: BuildS
         )}
       </div>
       <div className={styles.addSkill}>
-        <input list="all-traits" value={free} onChange={(e) => setFree(e.target.value)} placeholder="Otro rasgo que te salió…" />
+        <input list="all-traits" value={free} onChange={(e) => setFree(e.target.value)} placeholder={L('Otro rasgo que te salió…', 'Another trait you got…')} />
         <button
           type="button"
           onClick={() => {
@@ -582,45 +584,45 @@ function GoalPanel({ goal, onChange, onStart }: { goal: BuildGoal; onChange: (g:
   return (
     <div className={styles.panel}>
       <div className={styles.panelHead}>
-        <h2 className={styles.h2}>Objetivo</h2>
-        <p className={styles.howto}>Mostrá cómo tienen que quedar las 8 habilidades y el rasgo de la Persona final. Si alguna queda a gusto de cada jugador, marcala como «A elección».</p>
+        <h2 className={styles.h2}>{L('Objetivo', 'Goal')}</h2>
+        <p className={styles.howto}>{L('Mostrá cómo tienen que quedar las 8 habilidades y el rasgo de la Persona final. Si alguna queda a gusto de cada jugador, marcala como «A elección».', 'Show how the 8 skills and the trait of the final Persona should end up. If any is up to each player, mark it as «Choice».')}</p>
       </div>
       <div className={styles.goalEdit}>
-        <Slot personaId={goal.persona} label="Persona final" result onPick={() => setPicking(true)} />
+        <Slot personaId={goal.persona} label={L('Persona final', 'Final Persona')} result onPick={() => setPicking(true)} />
         <div className={styles.goalSlots}>
           {goal.skills.map((s, i) => (
             <div key={i} className={styles.goalSlot}>
               <span className={styles.goalNum}>{i + 1}</span>
               {s === null ? (
-                <span className={styles.goalFreeTxt}>A elección del jugador</span>
+                <span className={styles.goalFreeTxt}>{L('A elección del jugador', "Player's choice")}</span>
               ) : (
                 <SkillInput key={`${i}-${s}`} value={s} onChange={(v) => setSkill(i, v)} />
               )}
               <button type="button" className={`${styles.chip} ${s === null ? styles.chipOn : styles.chipOff}`} onClick={() => setSkill(i, s === null ? '' : null)}>
-                A elección
+                {L('A elección', 'Choice')}
               </button>
             </div>
           ))}
           <div className={styles.goalSlot}>
             <span className={styles.goalNum} style={{ background: 'var(--c-sp)' }}>R</span>
             {goal.trait === null ? (
-              <span className={styles.goalFreeTxt}>Rasgo a elección del jugador</span>
+              <span className={styles.goalFreeTxt}>{L('Rasgo a elección del jugador', "Trait: player's choice")}</span>
             ) : (
               <TraitInput key={goal.trait} value={goal.trait} onChange={(trait) => onChange({ ...goal, trait })} />
             )}
             <button type="button" className={`${styles.chip} ${goal.trait === null ? styles.chipTrait : styles.chipOff}`} onClick={() => onChange({ ...goal, trait: goal.trait === null ? '' : null })}>
-              A elección
+              {L('A elección', 'Choice')}
             </button>
           </div>
         </div>
       </div>
       <datalist id="all-traits-goal">{TRAITS_LIST.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
       <div className={styles.tools}>
-        <button type="button" className="btn btn--light" onClick={onStart}>Empezar con el paso 1 →</button>
+        <button type="button" className="btn btn--light" onClick={onStart}>{L('Empezar con el paso 1 →', 'Start with step 1 →')}</button>
       </div>
       {picking && (
         <PersonaPicker
-          title="¿Qué Persona querés armar?"
+          title={L('¿Qué Persona querés armar?', 'Which Persona do you want to build?')}
           created={[]}
           onPick={(persona) => {
             const p = getPersona(persona);
@@ -644,7 +646,7 @@ function TraitInput({ value, onChange }: { value: string; onChange: (v: string) 
         setText(e.target.value);
         onChange(TRAITS_LIST.find((k) => skillName(k).toLowerCase() === e.target.value.trim().toLowerCase()) ?? '');
       }}
-      placeholder="Rasgo"
+      placeholder={L('Rasgo', 'Trait')}
     >
     </input>
   );
@@ -659,8 +661,8 @@ function CardsPanel({ cards, onChange }: { cards: BuildCard[]; onChange: (c: Bui
   };
   return (
     <div className={styles.panel}>
-      <h2 className={styles.h2}>Skill cards del toque final</h2>
-      <p className={styles.howto}>Elegí la skill card: la Persona que hay que llevar a la silla eléctrica aparece sola.</p>
+      <h2 className={styles.h2}>{L('Skill cards del toque final', 'Finishing skill cards')}</h2>
+      <p className={styles.howto}>{L('Elegí la skill card: la Persona que hay que llevar a la silla eléctrica aparece sola.', 'Choose the skill card: the Persona to take to the electric chair shows up by itself.')}</p>
       {cards.map((c, k) => {
         const sources = c.skill ? skillCardSources(c.skill) : [];
         return (
@@ -668,21 +670,21 @@ function CardsPanel({ cards, onChange }: { cards: BuildCard[]; onChange: (c: Bui
             <div className={styles.field} style={{ minWidth: 220 }}>
               <span className={styles.mini}>Skill card</span>
               <SkillInput value={c.skill} onChange={(v) => setSkill(k, v)} onlyCards />
-              {c.skill && !sources.length && <span className={styles.bad}>Esta habilidad no existe como skill card.</span>}
+              {c.skill && !sources.length && <span className={styles.bad}>{L('Esta habilidad no existe como skill card.', 'This skill does not exist as a skill card.')}</span>}
             </div>
             {c.from && (
               <>
                 <span className={styles.op}>⬅</span>
                 <Slot personaId={c.from} label="Persona" onPick={() => undefined} />
                 <div className={styles.field}>
-                  {c.alarm && <span className={styles.alarm}>Solo con la Alarma de fusión</span>}
+                  {c.alarm && <span className={styles.alarm}>{L('Solo con la Alarma de fusión', 'Only with the Fusion Alarm')}</span>}
                   {sources.length > 1 && (
                     <>
-                      <span className={styles.mini}>También la dan:</span>
+                      <span className={styles.mini}>{L('También la dan:', 'Also given by:')}</span>
                       <div className={styles.chips}>
                         {sources.map((s) => (
                           <button key={s.persona.id + s.alarm} type="button" className={`${styles.chip} ${s.persona.id === c.from && !!s.alarm === !!c.alarm ? styles.chipOn : styles.chipOff}`} onClick={() => onChange(cards.map((x, j) => (j === k ? { ...x, from: s.persona.id, alarm: s.alarm } : x)))}>
-                            {personaName(s.persona)}{s.alarm ? ' (alarma)' : ''}
+                            {personaName(s.persona)}{s.alarm ? L(' (alarma)', ' (alarm)') : ''}
                           </button>
                         ))}
                       </div>
@@ -691,12 +693,12 @@ function CardsPanel({ cards, onChange }: { cards: BuildCard[]; onChange: (c: Bui
                 </div>
               </>
             )}
-            <button type="button" className={styles.smallBtn} onClick={() => onChange(cards.filter((_, j) => j !== k))}>Quitar</button>
+            <button type="button" className={styles.smallBtn} onClick={() => onChange(cards.filter((_, j) => j !== k))}>{L('Quitar', 'Remove')}</button>
           </div>
         );
       })}
       {cards.length < 8 && (
-        <button type="button" className="btn btn--light" onClick={() => onChange([...cards, { skill: '', from: '' }])}>+ Agregar skill card</button>
+        <button type="button" className="btn btn--light" onClick={() => onChange([...cards, { skill: '', from: '' }])}>{L('+ Agregar skill card', '+ Add skill card')}</button>
       )}
     </div>
   );
@@ -710,7 +712,7 @@ function SkillInput({ value, onChange, onlyCards }: { value: string; onChange: (
   const list = onlyCards ? CARD_SKILLS : SKILLS;
   return (
     <>
-      <input list={listId} value={text} onChange={(e) => { setText(e.target.value); onChange(findSkill(e.target.value) ?? ''); }} placeholder="Escribí una habilidad" />
+      <input list={listId} value={text} onChange={(e) => { setText(e.target.value); onChange(findSkill(e.target.value) ?? ''); }} placeholder={L('Escribí una habilidad', 'Type a skill')} />
       <datalist id={listId}>{list.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
     </>
   );

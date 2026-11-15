@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { pendingReports } from '../../core/account/builds';
 import { useAuth } from '../../core/account/AuthContext';
 import styles from './LanguageButton.module.css';
+import { L } from '../../i18n';
 
 /** Botón de la cabecera: «Entrar» o acceso a «Mi perfil». */
 export function AccountButton() {
@@ -21,7 +22,7 @@ export function AccountButton() {
   if (!user) {
     return (
       <Link to="/p5r/cuenta" state={{ from: location.pathname }} className={styles.button} style={{ textDecoration: 'none', textTransform: 'uppercase' }}>
-        Entrar
+        {L('Entrar', 'Log in')}
       </Link>
     );
   }
@@ -30,10 +31,10 @@ export function AccountButton() {
       to="/p5r/perfil"
       className={styles.button}
       style={{ textDecoration: 'none', textTransform: 'uppercase' }}
-      title={profile?.is_admin ? 'Mi perfil · Administrador' : 'Mi perfil'}
+      title={profile?.is_admin ? L('Mi perfil · Administrador', 'My profile · Administrator') : L('Mi perfil', 'My profile')}
     >
       {profile?.is_admin ? (
-        <svg width="22" height="22" viewBox="0 0 24 24" aria-label="Administrador" role="img" style={{ color: 'var(--c-primary-light)' }}>
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-label={L('Administrador', 'Administrator')} role="img" style={{ color: 'var(--c-primary-light)' }}>
           <path fill="currentColor" d="M3 18h18l1-11-5.5 4L12 4 7.5 11 2 7z" />
           <rect x="3" y="19.5" width="18" height="2" fill="currentColor" />
         </svg>
@@ -44,11 +45,11 @@ export function AccountButton() {
         </svg>
       )}
       <span style={{ maxWidth: 120, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-        {profile?.username ?? 'Mi perfil'}
+        {profile?.username ?? L('Mi perfil', 'My profile')}
       </span>
       {pending > 0 && (
         <span
-          title={`${pending} reporte${pending === 1 ? '' : 's'} sin revisar`}
+          title={L(`${pending} reporte${pending === 1 ? '' : 's'} sin revisar`, `${pending} unreviewed report${pending === 1 ? '' : 's'}`)}
           style={{ minWidth: 22, height: 22, padding: '0 6px', display: 'inline-grid', placeItems: 'center', background: 'var(--c-primary)', color: 'var(--c-text)', fontSize: 13, borderRadius: 11 }}
         >
           {pending}

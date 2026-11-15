@@ -1,6 +1,7 @@
 import fusionJson from '../data/generated/fusion.json';
 import { FusionEngine, type FusionData, type FusionOptions, type Recipe } from '../fusion/engine';
 import { byPersonaName } from './gameText';
+import { bilingual } from '../../../i18n';
 import { getAllPersonas } from './personas';
 
 const DATA = fusionJson as unknown as FusionData;
@@ -17,13 +18,13 @@ export function getFusionEngine(options: FusionOptions): FusionEngine {
   return engine;
 }
 
-export const KIND_LABEL = {
+export const KIND_LABEL = bilingual({
   normal: 'Fusión normal',
   'same-arcana': 'Misma Arcana',
   treasure: 'Con Treasure Demon',
   'two-treasures': 'Dos Treasure Demons',
   special: 'Fusión especial',
-} as const;
+}, { normal: 'Normal fusion', 'same-arcana': 'Same Arcana', treasure: 'With Treasure Demon', 'two-treasures': 'Two Treasure Demons', special: 'Special fusion' });
 
 /* ---------- Orden de la tabla «¿Cómo consigo una Persona?» ---------- */
 

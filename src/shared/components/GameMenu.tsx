@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { GAMES } from '../../core/games';
 import type { GameId } from '../../core/types';
-import { es } from '../../i18n/es';
+import { t } from '../../i18n/es';
 import styles from './GameMenu.module.css';
 
 interface Props {
@@ -14,7 +14,7 @@ interface Props {
 export function GameMenu({ id, current, onClose }: Props) {
   return (
     <div id={id} className={styles.panel}>
-      <span className="label label-accent">{es.gameMenu.title}</span>
+      <span className="label label-accent">{t().gameMenu.title}</span>
       <ul className={styles.list}>
         {GAMES.map((g) => {
           const isCurrent = g.id === current;
@@ -24,8 +24,8 @@ export function GameMenu({ id, current, onClose }: Props) {
                 <span className={styles.swatch} style={{ background: g.swatch }} aria-hidden="true" />
                 {g.name}
               </span>
-              {isCurrent && <span className={`tag ${styles.tagCurrent}`}>{es.gameMenu.current}</span>}
-              {!g.available && <span className="tag tag--outline">{es.gameMenu.soon}</span>}
+              {isCurrent && <span className={`tag ${styles.tagCurrent}`}>{t().gameMenu.current}</span>}
+              {!g.available && <span className="tag tag--outline">{t().gameMenu.soon}</span>}
             </>
           );
           return (
@@ -48,7 +48,7 @@ export function GameMenu({ id, current, onClose }: Props) {
           );
         })}
       </ul>
-      <p className={styles.note}>{es.gameMenu.note}</p>
+      <p className={styles.note}>{t().gameMenu.note}</p>
     </div>
   );
 }

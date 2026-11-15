@@ -13,12 +13,13 @@ import { describeCost, skillMeta } from '../services/skillText';
 import type { Persona, SkillElement } from '../types';
 import styles from './SkillCards.module.css';
 import { personaName, skillName, skillNameEn } from '../services/gameText';
+import { L } from '../../../i18n';
 
-const TYPES: { id: SkillCardFilter; label: string; tone: 'red' | 'white' | 'gold' }[] = [
-  { id: 'all', label: 'Todas', tone: 'red' },
-  { id: 'normal', label: 'Fusión normal', tone: 'white' },
-  { id: 'alarm', label: 'Alarma de fusión', tone: 'red' },
-  { id: 'excl', label: 'Exclusivas', tone: 'gold' },
+const TYPES = (): { id: SkillCardFilter; label: string; tone: 'red' | 'white' | 'gold' }[] => [
+  { id: 'all', label: L('Todas', 'All'), tone: 'red' },
+  { id: 'normal', label: L('Fusión normal', 'Normal fusion'), tone: 'white' },
+  { id: 'alarm', label: L('Alarma de fusión', 'Fusion Alarm'), tone: 'red' },
+  { id: 'excl', label: L('Exclusivas', 'Exclusive'), tone: 'gold' },
 ];
 
 function KindIcon({ kind }: { kind: SkillCardFilter }) {
@@ -41,7 +42,7 @@ function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
     <li className={`${styles.row} ${exclusive ? styles.rowExcl : ''}`}>
       <SkillTip skill={skill} />
       <span className={styles.skill}>
-        <span className={styles.skillName} title={`En inglés: ${skillNameEn(skill.name)}`}>
+        <span className={styles.skillName} title={`${L('En inglés', 'In Spanish')}: ${skillNameEn(skill.name)}`}>
           {skillName(skill.name)}
         </span>
         <span className={styles.skillMeta}>
@@ -49,7 +50,7 @@ function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
           {showPower && (
             <>
               {' · '}
-              <strong className={styles.power}>{row.skill.power != null ? `Daño ${row.skill.power}` : 'Daño sin dato'}</strong>
+              <strong className={styles.power}>{row.skill.power != null ? `${L('Daño', 'Power')} ${row.skill.power}` : L('Daño sin dato', 'No power data')}</strong>
             </>
           )}
           {cost && (
@@ -64,29 +65,29 @@ function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
       <span className={styles.cards}>
         <span className={styles.mobileLabel}>Skill card</span>
         {exclusive ? (
-          <span className={styles.exclTag}>Exclusiva · no existe como skill card</span>
+          <span className={styles.exclTag}>{L('Exclusiva · no existe como skill card', 'Exclusive · it does not exist as a skill card')}</span>
         ) : cards.length ? (
           cards.map((c) => (
             <Link
               key={`${c.persona.id}-${c.alarm}`}
               to={personaLink(c.persona)}
               className={`${styles.card} ${c.alarm ? styles.cardAlarm : styles.cardNormal}`}
-              title={c.alarm ? 'Ejecutar con la Alarma de fusión activa' : 'Ejecución normal'}
+              title={c.alarm ? L('Ejecutar con la Alarma de fusión activa', 'Execute with the Fusion Alarm active') : L('Ejecución normal', 'Normal execution')}
             >
               <svg width="14" height="18" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill="currentColor" fillRule="evenodd" d={SKILL_CARD_PATH} />
               </svg>
               {personaName(c.persona)}
-              {c.alarm && <span className={styles.alarmBadge}>Alarma</span>}
+              {c.alarm && <span className={styles.alarmBadge}>{L('Alarma', 'Alarm')}</span>}
             </Link>
           ))
         ) : (
-          <span className={styles.none}>Ninguna Persona la da por silla eléctrica</span>
+          <span className={styles.none}>{L('Ninguna Persona la da por silla eléctrica', 'No Persona gives it through the electric chair')}</span>
         )}
       </span>
 
       <span className={styles.learn}>
-        <span className={styles.mobileLabel}>La aprenden</span>
+        <span className={styles.mobileLabel}>{L('La aprenden', 'Learned by')}</span>
         {learners.length ? (
           <>
             {(showAll ? learners : learners.slice(0, MAX_LEARNERS)).map((p) => (
@@ -99,12 +100,12 @@ function Row({ row, showPower }: { row: SkillCardRow; showPower?: boolean }) {
                 aria-expanded={showAll}
                 onClick={() => setShowAll((v) => !v)}
               >
-                {showAll ? 'Ver menos' : `+${learners.length - MAX_LEARNERS} más`}
+                {showAll ? L('Ver menos', 'Show less') : `+${learners.length - MAX_LEARNERS} ${L('más', 'more')}`}
               </button>
             )}
           </>
         ) : (
-          <span className={styles.none}>Ninguna por nivel</span>
+          <span className={styles.none}>{L('Ninguna por nivel', 'None by level')}</span>
         )}
       </span>
     </li>
@@ -159,12 +160,12 @@ export default function SkillCards() {
       <CalculatorHeader />
 
       <section className={`container ${styles.page}`}>
-        <div className={styles.views} role="tablist" aria-label="Qué ver">
+        <div className={styles.views} role="tablist" aria-label={L('Qué ver', 'What to see')}>
           <button type="button" role="tab" aria-selected={view === 'cards'} className={styles.viewBtn} onClick={() => setView('cards')}>
             Skill cards
           </button>
           <button type="button" role="tab" aria-selected={view === 'traits'} className={styles.viewBtn} onClick={() => setView('traits')}>
-            Rasgos
+            {L('Rasgos', 'Traits')}
           </button>
         </div>
 
@@ -173,26 +174,27 @@ export default function SkillCards() {
         ) : (
           <>
         <p className={styles.intro}>
-          Qué Persona tenés que ejecutar en la <strong>silla eléctrica</strong> para conseguir la skill card de cada
-          habilidad, y cuáles son <strong>exclusivas</strong> (no existen como skill card).
+          {L('Qué Persona tenés que ejecutar en la', 'Which Persona you have to execute in the')} <strong>{L('silla eléctrica', 'electric chair')}</strong>{' '}
+          {L('para conseguir la skill card de cada habilidad, y cuáles son', 'to get the skill card of each skill, and which ones are')}{' '}
+          <strong>{L('exclusivas', 'exclusive')}</strong> {L('(no existen como skill card).', '(they do not exist as skill cards).')}
         </p>
 
         <div className={styles.legend}>
-          <span className="label label-accent">Referencias</span>
-          <span><i className={styles.swatch} style={{ background: 'var(--c-paper)' }} /> Ejecución normal</span>
-          <span><i className={styles.swatch} style={{ background: 'var(--c-primary)' }} /> Requiere Alarma de fusión</span>
-          <span><i className={styles.swatch} style={{ background: 'var(--c-accent)' }} /> Exclusiva de Persona</span>
+          <span className="label label-accent">{L('Referencias', 'Legend')}</span>
+          <span><i className={styles.swatch} style={{ background: 'var(--c-paper)' }} /> {L('Ejecución normal', 'Normal execution')}</span>
+          <span><i className={styles.swatch} style={{ background: 'var(--c-primary)' }} /> {L('Requiere Alarma de fusión', 'Requires Fusion Alarm')}</span>
+          <span><i className={styles.swatch} style={{ background: 'var(--c-accent)' }} /> {L('Exclusiva de Persona', 'Persona exclusive')}</span>
           <span>
-            Costo: <strong className="cost-hp">HP</strong> / <strong className="cost-sp">SP</strong>
+            {L('Costo:', 'Cost:')} <strong className="cost-hp">HP</strong> / <strong className="cost-sp">SP</strong>
           </span>
         </div>
 
         <div className={styles.controls}>
           <label className={styles.search}>
-            <span className="label label-accent">Buscar skill o Persona</span>
+            <span className="label label-accent">{L('Buscar skill o Persona', 'Search skill or Persona')}</span>
             <input
               type="search"
-              placeholder="Ej: Bufudyne"
+              placeholder={L('Ej: Bufudyne', 'E.g.: Bufudyne')}
               value={query}
               onChange={(e) => {
                 setQuery(e.target.value);
@@ -201,7 +203,7 @@ export default function SkillCards() {
             />
           </label>
           <div className={styles.types} role="group" aria-label="Tipo">
-            {TYPES.map((t) => (
+            {TYPES().map((t) => (
               <button
                 key={t.id}
                 type="button"
@@ -221,7 +223,7 @@ export default function SkillCards() {
         </div>
 
         <div className={styles.elements} role="group" aria-label="Elemento">
-          <span className="label label-accent">Elemento</span>
+          <span className="label label-accent">{L('Elemento', 'Element')}</span>
           {ELEMENT_FILTER.map((id) => (
             <button
               key={id}
@@ -240,7 +242,7 @@ export default function SkillCards() {
           ))}
           {element && (
             <button type="button" className={styles.clear} onClick={() => setElement(null)}>
-              Quitar filtro
+              {L('Quitar filtro', 'Clear filter')}
             </button>
           )}
         </div>
@@ -256,16 +258,16 @@ export default function SkillCards() {
               type="button"
               className={`${styles.headBtn} ${powerSort ? styles.headActive : ''}`}
               onClick={cyclePower}
-              title="Ordenar por daño"
+              title={L('Ordenar por daño', 'Sort by power')}
             >
-              Skill · daño
+              {L('Skill · daño', 'Skill · power')}
               <span aria-hidden="true" className={styles.headArrow}>{powerSort === 'desc' ? '▼' : powerSort === 'asc' ? '▲' : '↕'}</span>
               <span className="visually-hidden">
-                {powerSort === 'desc' ? '(de más a menos daño)' : powerSort === 'asc' ? '(de menos a más daño)' : '(sin ordenar)'}
+                {powerSort === 'desc' ? L('(de más a menos daño)', '(highest power first)') : powerSort === 'asc' ? L('(de menos a más daño)', '(lowest power first)') : L('(sin ordenar)', '(unsorted)')}
               </span>
             </button>
           ) : (
-            <span title="Elegí un elemento de daño para ordenar por daño">Skill</span>
+            <span title={L('Elegí un elemento de daño para ordenar por daño', 'Choose a damage element to sort by power')}>Skill</span>
           )}
           <div className={styles.headMenuWrap} ref={menuRef}>
             <button
@@ -275,13 +277,13 @@ export default function SkillCards() {
               aria-expanded={typeMenu}
               onClick={() => setTypeMenu((v) => !v)}
             >
-              Skill card (silla eléctrica)
+              {L('Skill card (silla eléctrica)', 'Skill card (electric chair)')}
               {type !== 'all' && <KindIcon kind={type} />}
               <span aria-hidden="true" className={styles.headArrow}>▾</span>
             </button>
             {typeMenu && (
               <div className={styles.headMenu} role="menu">
-                {TYPES.map((t) => (
+                {TYPES().map((t) => (
                   <button
                     key={t.id}
                     type="button"
@@ -297,7 +299,7 @@ export default function SkillCards() {
               </div>
             )}
           </div>
-          <span>La aprenden</span>
+          <span>{L('La aprenden', 'Learned by')}</span>
         </div>
         {list.length ? (
           <ul className={styles.list}>
@@ -306,16 +308,16 @@ export default function SkillCards() {
             ))}
           </ul>
         ) : (
-          <p className="pending">Ninguna skill coincide con esos filtros.</p>
+          <p className="pending">{L('Ninguna skill coincide con esos filtros.', 'No skill matches those filters.')}</p>
         )}
         {list.length > limit && (
           <button type="button" className={`btn btn--light ${styles.moreBtn}`} onClick={() => setLimit(limit + PAGE)}>
-            Mostrar más ({list.length - limit} restantes)
+            {L('Mostrar más', 'Show more')} ({list.length - limit} {L('restantes', 'left')})
           </button>
         )}
 
         <p className={styles.note}>
-          Pasá el mouse por el nombre de una skill para verlo en inglés.
+          {L('Pasá el mouse por el nombre de una skill para verlo en inglés.', 'Hover over a skill name to see it in Spanish.')}
         </p>
           </>
         )}

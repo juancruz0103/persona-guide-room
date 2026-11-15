@@ -1,3 +1,4 @@
+import { bilingual, L } from '../../../i18n';
 import type { AilmentId, ResistElement, SkillElement, TechnicalRule, Affinity } from '../types';
 
 export interface ElementInfo {
@@ -29,6 +30,28 @@ export const ELEMENTS: Record<SkillElement, ElementInfo> = {
   sup: { id: 'sup', name: 'Apoyo', color: '#4C7DF0', description: 'Mejora al grupo o debilita a los enemigos.' },
   pas: { id: 'pas', name: 'Pasiva', color: '#EBD25A', description: 'Efecto permanente: se activa solo, sin gastar turno ni SP.' },
 };
+
+const ELEMENTS_EN: Record<SkillElement, [string, string]> = {
+  phy: ['Physical', 'Melee attack. Costs HP instead of SP and can land critical hits.'],
+  gun: ['Gun', 'Firearm shot. Costs HP and can land critical hits.'],
+  fir: ['Fire', 'Magic fire attack. Some skills can burn the enemy.'],
+  ice: ['Ice', 'Magic ice attack. Some skills can freeze the enemy.'],
+  ele: ['Electric', 'Magic electric attack. Some skills can shock the enemy.'],
+  win: ['Wind', 'Magic wind attack.'],
+  psy: ['Psy', 'Psychic attack. Key for Technicals on mental ailments.'],
+  nuk: ['Nuclear', 'Nuclear attack. Deals Technical damage to burned, frozen or shocked enemies.'],
+  ble: ['Bless', 'Light attack. Includes instant-kill skills.'],
+  cur: ['Curse', 'Darkness attack. Includes instant-kill skills.'],
+  alm: ['Almighty', 'Pure damage: almost no enemy resists it.'],
+  ail: ['Ailment', 'Inflicts ailments on the enemy without dealing damage.'],
+  rec: ['Healing', 'Restores HP or cures ailments for the party.'],
+  sup: ['Support', 'Strengthens the party or weakens enemies.'],
+  pas: ['Passive', 'Permanent effect: triggers on its own, without using a turn or SP.'],
+};
+for (const [id, [name, description]] of Object.entries(ELEMENTS_EN)) bilingual(ELEMENTS[id as SkillElement], { name, description });
+
+/** Nombre de un estado alterado en el idioma actual. */
+export const ailmentName = (id: AilmentId): string => L(AILMENTS[id].es, AILMENTS[id].en);
 
 /** Nombres de estados: los oficiales de la versión en español del juego. */
 export const AILMENTS: Record<AilmentId, { es: string; en: string }> = {
@@ -65,11 +88,7 @@ export function technicalFor(ailment: AilmentId): TechnicalRule | undefined {
   return TECHNICAL_CHART.find((r) => r.ailment === ailment);
 }
 
-export const AFFINITY_LABEL: Record<Affinity, string> = {
-  weak: 'Débil',
-  neutral: '—',
-  resist: 'Resiste',
-  null: 'Nulo',
-  repel: 'Refleja',
-  drain: 'Absorbe',
-};
+export const AFFINITY_LABEL: Record<Affinity, string> = bilingual(
+  { weak: 'Débil', neutral: '—', resist: 'Resiste', null: 'Nulo', repel: 'Refleja', drain: 'Absorbe' },
+  { weak: 'Weak', resist: 'Resist', null: 'Null', repel: 'Repel', drain: 'Drain' },
+);

@@ -5,6 +5,7 @@ import { ailmentText, describeCost, techText } from '../services/skillText';
 import type { SkillInfo } from '../types';
 import styles from './SkillTip.module.css';
 import { skillDescription, skillName } from '../services/gameText';
+import { L } from '../../../i18n';
 
 /**
  * Ícono del elemento de una skill. Al pasar el mouse (o tocarlo) muestra
@@ -37,16 +38,16 @@ export function SkillTip({ skill, size = 28 }: { skill: SkillInfo | undefined; s
         <span className={styles.textDim}>{el.description}</span>
         {cost && (
           <span className={styles.text}>
-            <strong>Costo:</strong> <strong className={cost.kind === 'hp' ? 'cost-hp-dark' : 'cost-sp-dark'}>{cost.text}</strong>
+            <strong>{L('Costo:', 'Cost:')}</strong> <strong className={cost.kind === 'hp' ? 'cost-hp-dark' : 'cost-sp-dark'}>{cost.text}</strong>
           </span>
         )}
         {skill.ailment && (
           <span className={styles.ailment}>
             <span>
-              <strong>Puede causar:</strong> {ailmentText(skill)}
+              <strong>{L('Puede causar:', 'Can inflict:')}</strong> {ailmentText(skill)}
             </span>
             <span>
-              <strong className={styles.tech}>Técnico con:</strong> {techText(skill)}
+              <strong className={styles.tech}>{L('Técnico con:', 'Technical with:')}</strong> {techText(skill)}
             </span>
           </span>
         )}

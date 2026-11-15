@@ -5,6 +5,7 @@ import { personaName, skillName } from '../services/gameText';
 import { personaCardFocus, personaImage } from '../services/images';
 import { personaRequirement } from '../services/builds';
 import styles from './BuildPersona.module.css';
+import { L } from '../../../i18n';
 
 interface Props {
   personaId: string;
@@ -26,27 +27,27 @@ export function BuildPersona({ personaId, skills = [], learn = [], note, fromSte
   const req = p ? personaRequirement(p) : null;
   return (
     <div className={`${styles.card} ${styles[variant]}`}>
-      <Link to={`/p5r/calculadora/persona/${personaId}`} className={styles.head} title={`Ver perfil de ${p ? personaName(p) : personaId}`}>
+      <Link to={`/p5r/calculadora/persona/${personaId}`} className={styles.head} title={`${L('Ver perfil de', 'See profile of')} ${p ? personaName(p) : personaId}`}>
         <span className={styles.imgWrap}>
           {img ? (
             <img src={img} alt="" className={styles.img} style={{ objectPosition: personaCardFocus(personaId) }} />
           ) : (
             <span className={styles.img} />
           )}
-          {fromStep !== undefined && <span className={styles.from}>Del paso {fromStep}</span>}
+          {fromStep !== undefined && <span className={styles.from}>{L('Del paso', 'From step')} {fromStep}</span>}
           {req && variant !== 'mini' && (
-            <span className={`${styles.req} ${styles[`req_${req.kind}`]}`}>{req.kind === 'story' ? 'Historia' : req.text}</span>
+            <span className={`${styles.req} ${styles[`req_${req.kind}`]}`}>{req.kind === 'story' ? L('Historia', 'Story') : req.text}</span>
           )}
         </span>
         <span className={styles.name}>
           <span>{p ? personaName(p) : personaId}</span>
-          {p && <small>Nv {p.level}</small>}
+          {p && <small>{L('Nv', 'Lv')} {p.level}</small>}
         </span>
       </Link>
       {note && <span className={styles.note}>{note}</span>}
       {trait && (
-        <span className={styles.trait} title="Rasgo que hereda">
-          Rasgo · {trait.name ? skillName(trait.name) : 'a elección del jugador'}
+        <span className={styles.trait} title={L('Rasgo que hereda', 'Inherited trait')}>
+          {L('Rasgo', 'Trait')} · {trait.name ? skillName(trait.name) : L('a elección del jugador', "player's choice")}
           {trait.from && <small> ← {(() => { const f = getPersona(trait.from); return f ? personaName(f) : trait.from; })()}</small>}
         </span>
       )}
@@ -56,8 +57,8 @@ export function BuildPersona({ personaId, skills = [], learn = [], note, fromSte
             <span key={s} className={styles.chip}>{skillName(s)}</span>
           ))}
           {learn.map((l) => (
-            <span key={l.skill} className={styles.learn} title={l.level ? `La aprende al subir al Nv ${l.level}` : 'La trae de base'}>
-              {l.level ? `Nv ${l.level}` : 'Base'} · {skillName(l.skill)}
+            <span key={l.skill} className={styles.learn} title={l.level ? L(`La aprende al subir al Nv ${l.level}`, `Learned at Lv ${l.level}`) : L('La trae de base', 'Innate')}>
+              {l.level ? `${L('Nv', 'Lv')} ${l.level}` : L('Base', 'Innate')} · {skillName(l.skill)}
             </span>
           ))}
         </div>

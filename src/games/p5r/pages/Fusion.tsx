@@ -10,11 +10,12 @@ import { KIND_LABEL, getFusionEngine, sortRecipes, type RecipeSort, type RecipeS
 import type { Persona } from '../types';
 import styles from './Fusion.module.css';
 import { personaName } from '../services/gameText';
+import { L } from '../../../i18n';
 
 const PAGE = 40;
 
 function personaLabel(p: Persona) {
-  return `${getArcana(p.arcana).name} · Nv ${p.level}`;
+  return `${getArcana(p.arcana).name} · ${L('Nv', 'Lv')} ${p.level}`;
 }
 
 export default function Fusion() {
@@ -81,7 +82,7 @@ export default function Fusion() {
     <div className={styles.slot}>
       <label htmlFor={`p${n}`} className="label label-accent">Persona {n}</label>
       <PersonaSelect id={`p${n}`} value={value} options={options} onChange={set}
-        className={styles.select} placeholder="Elegí una Persona" />
+        className={styles.select} placeholder={L('Elegí una Persona', 'Choose a Persona')} />
       {p ? (
         <Link to={`/p5r/calculadora/persona/${p.id}`} className={styles.slotLink}>
           <ImagePlaceholder className={styles.slotImage} label={personaName(p)} hint={personaLabel(p)}
@@ -89,7 +90,7 @@ export default function Fusion() {
             corner={getArcana(p.arcana).numeral} />
         </Link>
       ) : (
-        <div className={`${styles.slotImage} ${styles.empty}`}>Sin elegir</div>
+        <div className={`${styles.slotImage} ${styles.empty}`}>{L('Sin elegir', 'Not chosen')}</div>
       )}
     </div>
   );
@@ -102,11 +103,11 @@ export default function Fusion() {
         <div className={styles.options}>
           <label className={styles.check}>
             <input type="checkbox" checked={includeDlc} onChange={(e) => setIncludeDlc(e.target.checked)} />
-            Incluir Personas DLC
+            {L('Incluir Personas DLC', 'Include DLC Personas')}
           </label>
           <label className={styles.check}>
             <input type="checkbox" checked={includeTreasure} onChange={(e) => setIncludeTreasure(e.target.checked)} />
-            Incluir Treasure Demons
+            {L('Incluir Treasure Demons', 'Include Treasure Demons')}
           </label>
         </div>
 
@@ -116,7 +117,7 @@ export default function Fusion() {
           {slot(2, b, setB, pb)}
           <span className={`${styles.op} ${styles.eq}`} aria-hidden="true">=</span>
           <div className={styles.slot}>
-            <span className="label label-accent">Resultado</span>
+            <span className="label label-accent">{L('Resultado', 'Result')}</span>
             <div role="status" aria-live="polite">
               {result ? (
                 <Link to={`/p5r/calculadora/persona/${result.result.id}`} className={styles.resultCard}>
@@ -128,9 +129,9 @@ export default function Fusion() {
                     <span className={styles.resultName}>{personaName(result.result)}</span>
                     <span className={styles.resultMeta}>{personaLabel(result.result)}</span>
                     {result.unverified && (
-                      <span className={styles.warn}>⚠ Regla no verificada para este caso.</span>
+                      <span className={styles.warn}>⚠ {L('Regla no verificada para este caso.', 'Rule not verified for this case.')}</span>
                     )}
-                    <span className={styles.resultCta}>Ver ficha →</span>
+                    <span className={styles.resultCta}>{L('Ver ficha →', 'See profile →')}</span>
                   </span>
                 </Link>
               ) : (
@@ -139,9 +140,9 @@ export default function Fusion() {
                   <span>
                     {pa && pb
                       ? pa.id === pb.id
-                        ? 'No se puede fusionar una Persona consigo misma.'
-                        : 'Esta combinación no da ningún resultado.'
-                      : 'Elegí dos Personas para ver el resultado.'}
+                        ? L('No se puede fusionar una Persona consigo misma.', 'A Persona cannot be fused with itself.')
+                        : L('Esta combinación no da ningún resultado.', 'This combination gives no result.')
+                      : L('Elegí dos Personas para ver el resultado.', 'Choose two Personas to see the result.')}
                   </span>
                 </div>
               )}
@@ -152,18 +153,18 @@ export default function Fusion() {
 
       <section ref={reverseRef} id="inversa" className={styles.reverse}>
         <div className="container">
-          <SectionTitle size="md">¿Cómo consigo una Persona?</SectionTitle>
+          <SectionTitle size="md">{L('¿Cómo consigo una Persona?', 'How do I get a Persona?')}</SectionTitle>
           <div className={styles.search}>
-            <label htmlFor="target" className="label label-accent">Persona que querés obtener</label>
+            <label htmlFor="target" className="label label-accent">{L('Persona que querés obtener', 'Persona you want to get')}</label>
             <PersonaSelect id="target" value={target} options={options.filter((p) => !p.flags.treasure)}
-              onChange={setTarget} className={styles.select} placeholder="Elegí una Persona" />
+              onChange={setTarget} className={styles.select} placeholder={L('Elegí una Persona', 'Choose a Persona')} />
           </div>
 
           {targetP && special && (
             <div className={styles.special}>
-              <span className="tag tag--special">Fusión especial</span>
+              <span className="tag tag--special">{L('Fusión especial', 'Special fusion')}</span>
               <p>
-                <strong>{personaName(targetP)}</strong> no sale por fusión normal. Se obtiene fusionando a la vez:
+                <strong>{personaName(targetP)}</strong> {L('no sale por fusión normal. Se obtiene fusionando a la vez:', 'does not come from normal fusion. You get it by fusing at once:')}
               </p>
               <ul>
                 {special.map((p) => (
@@ -174,7 +175,7 @@ export default function Fusion() {
                 ))}
               </ul>
               {special.length > 2 && (
-                <p className={styles.note}>Las fusiones de 3 o más Personas se hacen en el juego desde el menú de fusión avanzada.</p>
+                <p className={styles.note}>{L('Las fusiones de 3 o más Personas se hacen en el juego desde el menú de fusión avanzada.', 'Fusions of 3 or more Personas are done in the game from the advanced fusion menu.')}</p>
               )}
             </div>
           )}
@@ -183,18 +184,18 @@ export default function Fusion() {
             <>
               <p className={styles.count}>
                 {recipes.length
-                  ? <><strong>{recipes.length}</strong> combinaciones dan {personaName(targetP)}. {sort ? 'Tocá el mismo título de nuevo para cambiar el orden o volver al recomendado.' : 'Primero las normales, después las que usan Treasure Demons; cada grupo de menor a mayor nivel. Tocá un título para ordenar.'}</>
-                  : <>Ninguna combinación de 2 Personas da {personaName(targetP)} con las opciones actuales.</>}
+                  ? <><strong>{recipes.length}</strong> {L('combinaciones dan', 'combinations give')} {personaName(targetP)}. {sort ? L('Tocá el mismo título de nuevo para cambiar el orden o volver al recomendado.', 'Tap the same header again to change the order or go back to the recommended one.') : L('Primero las normales, después las que usan Treasure Demons; cada grupo de menor a mayor nivel. Tocá un título para ordenar.', 'Normal ones first, then the ones using Treasure Demons; each group from lowest to highest level. Tap a header to sort.')}</>
+                  : <>{L('Ninguna combinación de 2 Personas da', 'No 2-Persona combination gives')} {personaName(targetP)} {L('con las opciones actuales.', 'with the current options.')}</>}
               </p>
               {recipes.length > 0 && (
                 <div className={styles.tableWrap}>
                   <table className={styles.table}>
                     <thead>
                       <tr>
-                        {sortHeader('a', 'Ingrediente 1', 'Ordenar por nombre (A-Z)')}
-                        {sortHeader('b', 'Ingrediente 2', 'Ordenar por nombre (A-Z)')}
-                        {sortHeader('levels', 'Niveles', 'Ordenar por nivel (de menor a mayor)')}
-                        <th scope="col">Tipo</th>
+                        {sortHeader('a', L('Ingrediente 1', 'Ingredient 1'), L('Ordenar por nombre (A-Z)', 'Sort by name (A-Z)'))}
+                        {sortHeader('b', L('Ingrediente 2', 'Ingredient 2'), L('Ordenar por nombre (A-Z)', 'Sort by name (A-Z)'))}
+                        {sortHeader('levels', L('Niveles', 'Levels'), L('Ordenar por nivel (de menor a mayor)', 'Sort by level (low to high)'))}
+                        <th scope="col">{L('Tipo', 'Type')}</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -212,19 +213,18 @@ export default function Fusion() {
               )}
               {recipes.some((r) => r.unverified) && (
                 <p className={styles.note}>
-                  ⚠ Treasure Demon + Persona de fusión especial: la regla para este caso no está verificada, tomalo con
-                  cuidado.
+                  ⚠ {L('Treasure Demon + Persona de fusión especial: la regla para este caso no está verificada, tomalo con cuidado.', 'Treasure Demon + special fusion Persona: the rule for this case is not verified, take it with care.')}
                 </p>
               )}
               {recipes.length > shown && (
                 <button type="button" className={`btn btn--light ${styles.more}`} onClick={() => setShown((s) => s + PAGE)}>
-                  Ver {Math.min(PAGE, recipes.length - shown)} más
+                  {L('Ver', 'Show')} {Math.min(PAGE, recipes.length - shown)} {L('más', 'more')}
                 </button>
               )}
             </>
           )}
 
-          {!targetP && <p className={styles.count}>Elegí una Persona para ver todas las combinaciones que la producen.</p>}
+          {!targetP && <p className={styles.count}>{L('Elegí una Persona para ver todas las combinaciones que la producen.', 'Choose a Persona to see every combination that produces it.')}</p>}
         </div>
       </section>
     </>

@@ -4,6 +4,7 @@ import { TARGET_LABEL, describeCost } from '../services/skillText';
 import { SkillTip } from './SkillTip';
 import styles from './SkillList.module.css';
 import { skillName, skillNameEn } from '../services/gameText';
+import { L } from '../../../i18n';
 
 function SkillRow({ entry }: { entry: PersonaSkill }) {
   const info = getSkill(entry.skill);
@@ -12,9 +13,9 @@ function SkillRow({ entry }: { entry: PersonaSkill }) {
 
   return (
     <li className={`${styles.row} ${initial ? styles.initial : styles.learned}`}>
-      <span className={styles.when}>{entry.note ?? (initial ? 'Inicial' : `Nv ${entry.level}`)}</span>
+      <span className={styles.when}>{entry.note ?? (initial ? L('Inicial', 'Innate') : `${L('Nv', 'Lv')} ${entry.level}`)}</span>
       <SkillTip skill={info} />
-      <span className={styles.name} title={`En inglés: ${skillNameEn(entry.skill)}`}>
+      <span className={styles.name} title={`${L('En inglés', 'In Spanish')}: ${skillNameEn(entry.skill)}`}>
         {skillName(entry.skill)}
       </span>
       {cost && <span className={`${styles.cost} ${cost.kind === 'hp' ? 'cost-hp' : 'cost-sp'}`}>{cost.text}</span>}
@@ -32,8 +33,11 @@ export function SkillList({ skills }: { skills: PersonaSkill[] }) {
         ))}
       </ul>
       <p className={styles.help}>
-        Pasá el mouse (o tocá) el ícono para ver qué hace el elemento, cuánto cuesta y, si provoca un estado, con
-        qué elementos hacés un Técnico. Costo: <strong className="cost-hp">HP</strong> /{' '}
+        {L(
+          'Pasá el mouse (o tocá) el ícono para ver qué hace el elemento, cuánto cuesta y, si provoca un estado, con qué elementos hacés un Técnico.',
+          'Hover over (or tap) the icon to see what the element does, how much it costs and, if it inflicts an ailment, which elements trigger a Technical.',
+        )}{' '}
+        {L('Costo:', 'Cost:')} <strong className="cost-hp">HP</strong> /{' '}
         <strong className="cost-sp">SP</strong>.
       </p>
     </>

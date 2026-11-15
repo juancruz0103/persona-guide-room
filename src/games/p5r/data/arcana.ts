@@ -1,4 +1,5 @@
 import type { ArcanaId } from '../types';
+import { bilingual } from '../../../i18n';
 
 export interface ArcanaInfo {
   id: ArcanaId;
@@ -37,6 +38,8 @@ export const ARCANAS: ArcanaInfo[] = [
   { id: 'councillor', name: 'Consejero', nameEn: 'Councillor', numeral: 'C' },
   { id: 'world', name: 'Mundo', nameEn: 'World', numeral: 'XXI' },
 ];
+
+for (const a of ARCANAS) bilingual(a, { name: a.nameEn });
 
 const BY_ID = new Map(ARCANAS.map((a) => [a.id, a]));
 

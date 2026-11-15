@@ -1,12 +1,14 @@
 import { Link, useLocation } from 'react-router-dom';
 import styles from './CalculatorHeader.module.css';
+import { L } from '../../../i18n';
 
-const TABS = [
-  { id: 'catalog', label: 'Catálogo', to: '/p5r/calculadora' },
-  { id: 'fuse', label: 'Fusionar', to: '/p5r/calculadora/fusionar' },
-  { id: 'reverse', label: '¿Cómo la consigo?', to: '/p5r/calculadora/fusionar?modo=inversa' },
-  { id: 'cards', label: 'Skill cards', to: '/p5r/calculadora/skill-cards' },
-] as const;
+const TABS = () =>
+  [
+    { id: 'catalog', label: L('Catálogo', 'Catalog'), to: '/p5r/calculadora' },
+    { id: 'fuse', label: L('Fusionar', 'Fuse'), to: '/p5r/calculadora/fusionar' },
+    { id: 'reverse', label: L('¿Cómo la consigo?', 'How do I get it?'), to: '/p5r/calculadora/fusionar?modo=inversa' },
+    { id: 'cards', label: 'Skill cards', to: '/p5r/calculadora/skill-cards' },
+  ] as const;
 
 /** Banda roja con el título de la calculadora y sus pestañas. */
 export function CalculatorHeader() {
@@ -20,9 +22,9 @@ export function CalculatorHeader() {
   return (
     <section className={styles.band}>
       <div className={`container ${styles.inner}`}>
-        <h1 className={styles.title}>Calculadora de Personas</h1>
-        <nav className={styles.tabs} aria-label="Secciones de la calculadora">
-          {TABS.map((t) => (
+        <h1 className={styles.title}>{L('Calculadora de Personas', 'Persona Calculator')}</h1>
+        <nav className={styles.tabs} aria-label={L('Secciones de la calculadora', 'Calculator sections')}>
+          {TABS().map((t) => (
             <Link
               key={t.id}
               to={t.to}

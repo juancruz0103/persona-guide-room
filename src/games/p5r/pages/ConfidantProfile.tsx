@@ -20,24 +20,25 @@ import rankMaxImg from '../assets/ui/rango-max.webp';
 import styles from './ConfidantProfile.module.css';
 import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
+import { L, bilingual, isEn, tr } from '../../../i18n';
 
 function MementosNote({ m }: { m: MementosMission }) {
   return (
     <div className={styles.mission}>
-      <span className={styles.missionKicker}>Misión de Mementos</span>
-      <span className={styles.missionTitle}>«{m.title}»</span>
-      <span className={styles.missionDesc}>{m.description}</span>
-      <span className={styles.missionHint}>Complétala en Mementos para seguir con este confidente.</span>
+      <span className={styles.missionKicker}>{L('Misión de Mementos', 'Mementos request')}</span>
+      <span className={styles.missionTitle}>«{tr(m.title)}»</span>
+      <span className={styles.missionDesc}>{tr(m.description)}</span>
+      <span className={styles.missionHint}>{L('Complétala en Mementos para seguir con este confidente.', 'Complete it in Mementos to continue with this confidant.')}</span>
     </div>
   );
 }
 
 const isConv = (c: RankItem): c is Conversation => c.kind !== 'mementos';
 
-const ROUTE_TEXT = {
+const ROUTE_TEXT = bilingual({
   romance: 'Solo aparece si elegiste el romance.',
   friend: 'Solo aparece si seguís como amigos (rechazaste el romance).',
-};
+}, { romance: 'Only shows up if you chose the romance.', friend: 'Only shows up if you stay friends (you turned down the romance).' });
 
 function ConversationCard({
   c,
@@ -53,63 +54,66 @@ function ConversationCard({
 }) {
   const { max, allSame, hasRecommended } = analyzeConversation(c);
   const isRouteChoice = c.romance && c.kind === 'conversation' && !c.route;
-  const title = c.kind === 'phone' ? 'Llamada telefónica' : `Conversación ${index}`;
+  const title = c.kind === 'phone' ? L('Llamada telefónica', 'Phone call') : `${L('Conversación', 'Conversation')} ${index}`;
 
   return (
     <div className={`${styles.conv} ${c.royalOnly ? styles.convRoyal : ''} ${c.romance ? styles.convRomance : ''}`}>
       <div className={styles.convHead}>
         <span className={styles.convTitle}>
           <span className="label label-accent">{title}</span>
-          {c.royalOnly && <span className="tag tag--royal">Solo Royal</span>}
+          {c.royalOnly && <span className="tag tag--royal">{L('Solo Royal', 'Royal only')}</span>}
           {c.romance && !c.route && <span className="tag tag--romance">Romance</span>}
-          {c.route === 'romance' && <span className="tag tag--romance">Ruta romántica</span>}
-          {c.route === 'friend' && <span className="tag tag--muted">Ruta de amistad</span>}
+          {c.route === 'romance' && <span className="tag tag--romance">{L('Ruta romántica', 'Romance route')}</span>}
+          {c.route === 'friend' && <span className="tag tag--muted">{L('Ruta de amistad', 'Friendship route')}</span>}
         </span>
-        {c.provisional && <span className={styles.provisional}>Traducción provisoria</span>}
+        {c.provisional && !isEn() && <span className={styles.provisional}>Traducción provisoria</span>}
       </div>
-      {c.prompt.es ? (
+      {isEn() && (c.prompt.en || c.prompt.es) ? (
+        <p className={styles.prompt}>
+          <strong>{c.speaker}:</strong> «{c.prompt.en || c.prompt.es}»
+        </p>
+      ) : c.prompt.es ? (
         <p className={styles.prompt}>
           <strong>{c.speaker}:</strong> «{c.prompt.es}»
           {c.prompt.en && <small>Original: “{c.prompt.en}”</small>}
         </p>
       ) : (
         <p className={styles.prompt}>
-          <strong>{c.speaker}</strong> <small>(en el juego no hay frase antes de esta pregunta)</small>
+          <strong>{c.speaker}</strong> <small>{L('(en el juego no hay frase antes de esta pregunta)', '(in the game there is no line before this question)')}</small>
         </p>
       )}
       {c.route && <p className={styles.routeNote}>{ROUTE_TEXT[c.route]}</p>}
       {isRouteChoice && (
         <p className={styles.routeNote}>
           {multiStep ? (
-            'El romance se decide en varias preguntas: hay que elegir la opción en rosa en todas las de este rango. Con cualquier otra respuesta, seguís como amigos.'
+            L('El romance se decide en varias preguntas: hay que elegir la opción en rosa en todas las de este rango. Con cualquier otra respuesta, seguís como amigos.', 'The romance is decided over several questions: you have to pick the pink option in all of them in this rank. With any other answer, you stay friends.')
           ) : (
             <>
-              Esta respuesta decide la ruta: la opción en rosa inicia el romance y la otra mantiene la amistad. Lo que
-              sigue en este rango cambia según lo que elijas.
-              {friendHasMore === false && ' Si seguís como amigos, no hay más elecciones en este rango.'}
+              {L('Esta respuesta decide la ruta: la opción en rosa inicia el romance y la otra mantiene la amistad. Lo que sigue en este rango cambia según lo que elijas.', 'This answer decides the route: the pink option starts the romance and the other keeps the friendship. What follows in this rank changes depending on your choice.')}
+              {friendHasMore === false && L(' Si seguís como amigos, no hay más elecciones en este rango.', ' If you stay friends, there are no more choices in this rank.')}
             </>
           )}
         </p>
       )}
       {hasRecommended && (
-        <span className={styles.same}>La guía recomienda esta respuesta, pero no dice cuántos puntos da.</span>
+        <span className={styles.same}>{L('La guía recomienda esta respuesta, pero no dice cuántos puntos da.', 'The guide recommends this answer, but does not say how many points it gives.')}</span>
       )}
       {allSame && !isRouteChoice && (
-        <span className={styles.same}>Todas las opciones dan los mismos puntos: elegí la que quieras.</span>
+        <span className={styles.same}>{L('Todas las opciones dan los mismos puntos: elegí la que quieras.', 'All options give the same points: pick whichever you like.')}</span>
       )}
       <ol className={styles.options}>
         {c.options.map((o, i) => {
           const best = hasRecommended ? !!o.recommended : !allSame && o.points === max;
           return (
             <li key={i} className={`${styles.option} ${best ? styles.best : ''} ${o.romance ? styles.optRomance : ''}`}>
-              <span className={styles.optNum}>Opción {i + 1}</span>
+              <span className={styles.optNum}>{L('Opción', 'Option')} {i + 1}</span>
               <span className={styles.optText}>
-                <span>«{o.es}»</span>
-                {o.en && <small>{o.en}</small>}
+                <span>«{isEn() ? o.en || o.es : o.es}»</span>
+                {!isEn() && o.en && <small>{o.en}</small>}
               </span>
               <span className={styles.points}>{hasRecommended ? '' : o.points > 0 ? `+${o.points}` : '0'}</span>
-              {o.romance && <span className={styles.romanceTag}>Inicia el romance</span>}
-              {best && <span className={styles.bestTag}>{hasRecommended ? 'Recomendada' : 'Mejor'}</span>}
+              {o.romance && <span className={styles.romanceTag}>{L('Inicia el romance', 'Starts the romance')}</span>}
+              {best && <span className={styles.bestTag}>{hasRecommended ? L('Recomendada', 'Recommended') : L('Mejor', 'Best')}</span>}
             </li>
           );
         })}
@@ -125,13 +129,13 @@ function Timeline({ ranks }: { ranks: TimelineRank[] }) {
         <li key={r.rank} className={styles.tlRow}>
           <span className={styles.tlRank}>{r.rank}</span>
           <span className={styles.tlBody}>
-            <span className={styles.tlWhen}>{r.when}</span>
-            <span className={`${styles.tlAbility} ${r.ability ? '' : styles.tlNone}`}>{r.ability ?? 'Sin habilidad nueva'}</span>
-            {r.description && <span className={styles.tlDesc}>{r.description}</span>}
+            <span className={styles.tlWhen}>{tr(r.when)}</span>
+            <span className={`${styles.tlAbility} ${r.ability ? '' : styles.tlNone}`}>{r.ability ? tr(r.ability) : L('Sin habilidad nueva', 'No new ability')}</span>
+            {r.description && <span className={styles.tlDesc}>{tr(r.description)}</span>}
             {r.extra?.map((x) => (
               <span key={x.ability} className={styles.tlExtra}>
-                <span className={styles.tlAbility}>{x.ability}</span>
-                <span className={styles.tlDesc}>{x.description}</span>
+                <span className={styles.tlAbility}>{tr(x.ability)}</span>
+                <span className={styles.tlDesc}>{tr(x.description)}</span>
               </span>
             ))}
           </span>
@@ -146,22 +150,22 @@ function SpoilerBox({ spoiler }: { spoiler: NonNullable<Confidant['spoiler']> })
   return (
     <div className={styles.spoiler}>
       <div className={styles.spoilerHead}>
-        <span>{spoiler.title}</span>
+        <span>{tr(spoiler.title)}</span>
         <button type="button" aria-expanded={open} onClick={() => setOpen((v) => !v)}>
-          {open ? 'Ocultar' : 'Mostrar spoilers'}
+          {open ? L('Ocultar', 'Hide') : L('Mostrar spoilers', 'Show spoilers')}
         </button>
       </div>
       {open ? (
         <>
           <ol className={styles.spoilerList}>
             {spoiler.items.map((it) => (
-              <li key={it}>{it}</li>
+              <li key={it}>{tr(it)}</li>
             ))}
           </ol>
-          {spoiler.note && <p className={styles.spoilerNote}>{spoiler.note}</p>}
+          {spoiler.note && <p className={styles.spoilerNote}>{tr(spoiler.note)}</p>}
         </>
       ) : (
-        <p className={styles.spoilerHidden}>Contiene spoilers de la historia. Tocá «Mostrar spoilers» para verlo.</p>
+        <p className={styles.spoilerHidden}>{L('Contiene spoilers de la historia. Tocá «Mostrar spoilers» para verlo.', 'Contains story spoilers. Tap «Show spoilers» to see it.')}</p>
       )}
     </div>
   );
@@ -178,11 +182,11 @@ function Requests({ requests }: { requests: FusionRequest[] }) {
             <span className={styles.reqMain}>
               {target ? <PersonaPeek persona={target} className={styles.reqPersona} /> : r.persona}
               <span className={styles.reqSkill}>
-                con <strong>{skillName(r.skill)}</strong>
+                {L('con', 'with')} <strong>{skillName(r.skill)}</strong>
               </span>
             </span>
             <span className={styles.reqCol}>
-              <span className={styles.reqLabel}>Armado rápido</span>
+              <span className={styles.reqLabel}>{L('Armado rápido', 'Quick recipe')}</span>
               {r.quick.map((combo, i) => (
                 <span key={i} className={styles.reqCombo}>
                   {combo.map((id, j) => {
@@ -196,21 +200,21 @@ function Requests({ requests }: { requests: FusionRequest[] }) {
                   })}
                 </span>
               ))}
-              {r.note && <span className={styles.reqNote}>{r.note}</span>}
+              {r.note && <span className={styles.reqNote}>{tr(r.note)}</span>}
             </span>
             <span className={styles.reqCol}>
-              <span className={styles.reqLabel}>Recompensa</span>
+              <span className={styles.reqLabel}>{L('Recompensa', 'Reward')}</span>
               {r.reward ? (
                 <span>
-                  <strong>{r.reward.name}</strong> · {r.reward.description}
+                  <strong>{tr(r.reward.name)}</strong> · {tr(r.reward.description)}
                 </span>
               ) : (
-                <span className={styles.reqNote}>Sin recompensa: las respuestas de la charla no importan.</span>
+                <span className={styles.reqNote}>{L('Sin recompensa: las respuestas de la charla no importan.', 'No reward: the answers in the talk do not matter.')}</span>
               )}
             </span>
             {target && (
               <Link to={`/p5r/calculadora/fusionar?modo=inversa&persona=${target.id}`} className={`btn btn--light ${styles.reqBtn}`}>
-                Ver recetas
+                {L('Ver recetas', 'See recipes')}
               </Link>
             )}
           </li>
@@ -225,9 +229,9 @@ function UltimateBox({ summary }: { summary: ConfidantSummary }) {
   if (!ult) return null;
   return (
     <div className={styles.ultimate}>
-      <span className="label label-accent">Rango 10 · desbloquea</span>
+      <span className="label label-accent">{L('Rango 10 · desbloquea', 'Rank 10 · unlocks')}</span>
       <PersonaPeek persona={ult} className={styles.ultimateLink} />
-      <span className={styles.muted}>para fusionarla ({personaName(ult)}, Nv {ult.level})</span>
+      <span className={styles.muted}>{L('para fusionarla', 'to fuse it')} ({personaName(ult)}, {L('Nv', 'Lv')} {ult.level})</span>
     </div>
   );
 }
@@ -258,12 +262,12 @@ export default function ConfidantProfile() {
   if (!summary) {
     return (
       <section className="container" style={{ paddingBlock: 80 }}>
-        <p className="pending">No encontramos ese confidente.</p>
-        <Link to="/p5r/confidentes">← Volver a confidentes</Link>
+        <p className="pending">{L('No encontramos ese confidente.', 'We could not find that confidant.')}</p>
+        <Link to="/p5r/confidentes">{L('← Volver a confidentes', '← Back to confidants')}</Link>
       </section>
     );
   }
-  if (data === undefined) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
+  if (data === undefined) return <div className="container" style={{ paddingBlock: 80 }}>{L('Cargando…', 'Loading…')}</div>;
 
   const alt = confidantAltImage(summary.id);
   const arcana = getArcana(summary.arcana);
@@ -311,7 +315,7 @@ export default function ConfidantProfile() {
           <div className={styles.portraitWrap}>
             <ImagePlaceholder
               className={styles.portrait}
-              label={confidantImage(summary.id) ? summary.name : 'Retrato del confidente'}
+              label={confidantImage(summary.id) ? tr(summary.name) : L('Retrato del confidente', 'Confidant portrait')}
               icon="person"
               src={showAlt && alt ? alt.src : confidantImage(summary.id)}
             />
@@ -321,21 +325,21 @@ export default function ConfidantProfile() {
                 className={styles.altBtn}
                 aria-pressed={showAlt}
                 onClick={() => setShowAlt((v) => !v)}
-                title={showAlt ? 'Volver a la foto sin spoiler' : `Ver ${alt.label} (spoiler)`}
+                title={showAlt ? L('Volver a la foto sin spoiler', 'Back to the spoiler-free picture') : `${L('Ver', 'See')} ${tr(alt.label)} (spoiler)`}
               >
                 <span aria-hidden="true">⇄</span>
-                {showAlt ? 'Sin spoiler' : 'Spoiler'}
+                {showAlt ? L('Sin spoiler', 'No spoiler') : 'Spoiler'}
               </button>
             )}
           </div>
           <div className={styles.heroText}>
             <span className={styles.arcanaTag}>{arcana.name} · Arcana {arcana.numeral}</span>
-            <h1 className={styles.name}>{summary.name}</h1>
+            <h1 className={styles.name}>{tr(summary.name)}</h1>
             <div className={styles.heroTags}>
-              {summary.phantomThief && <span className={styles.solid}>Ladrón Fantasma</span>}
+              {summary.phantomThief && <span className={styles.solid}>{L('Ladrón Fantasma', 'Phantom Thief')}</span>}
               {kind !== 'normal' && <span className={styles.solidGold}>{KIND_LABEL[kind]}</span>}
-              <span className={styles.outline}>{summary.romance ? 'Ruta romántica' : 'Sin romance'}</span>
-              <span className={styles.outline}>{maxRank} rangos</span>
+              <span className={styles.outline}>{summary.romance ? L('Ruta romántica', 'Romance route') : L('Sin romance', 'No romance')}</span>
+              <span className={styles.outline}>{maxRank} {L('rangos', 'ranks')}</span>
               {thiefPersona && (
                 <PersonaPeek persona={thiefPersona} className={styles.personaChip} side>
                   Persona: {personaName(thiefPersona)} →
@@ -348,17 +352,17 @@ export default function ConfidantProfile() {
                 type="button"
                 role="switch"
                 aria-checked={tracking}
-                aria-label="Seguimiento de progreso"
+                aria-label={L('Seguimiento de progreso', 'Progress tracking')}
                 onClick={toggleTracking}
                 className={`${styles.switch} ${tracking ? styles.switchOn : ''}`}
               >
                 <span />
               </button>
               <span className={styles.trackLabel}>
-                Seguimiento de progreso: {tracking ? 'activado' : 'desactivado'}
+                {L('Seguimiento de progreso', 'Progress tracking')}: {tracking ? L('activado', 'on') : L('desactivado', 'off')}
               </span>
               <span className={styles.trackNote}>
-                {user ? 'Se guarda en tu cuenta' : <>Se guarda en este navegador · <Link to="/p5r/cuenta">entrá</Link> para guardarlo en tu cuenta</>}
+                {user ? L('Se guarda en tu cuenta', 'Saved to your account') : <>{L('Se guarda en este navegador', 'Saved in this browser')} · <Link to="/p5r/cuenta">{L('entrá', 'log in')}</Link> {L('para guardarlo en tu cuenta', 'to save it to your account')}</>}
               </span>
             </div>
             )}
@@ -369,7 +373,7 @@ export default function ConfidantProfile() {
       {summary.notice && (
         <div className={`container ${styles.noticeWrap}`}>
           <p className={styles.notice}>
-            <strong>Ojo:</strong> {summary.notice}
+            <strong>{L('Ojo:', 'Note:')}</strong> {tr(summary.notice)}
           </p>
         </div>
       )}
@@ -378,8 +382,8 @@ export default function ConfidantProfile() {
         <section className={`container ${styles.infoGrid}`}>
           {data.tips.map((t) => (
             <div key={t} className={styles.info}>
-              <span className="label label-accent">Consejo</span>
-              <span>{t}</span>
+              <span className="label label-accent">{L('Consejo', 'Tip')}</span>
+              <span>{tr(t)}</span>
             </div>
           ))}
         </section>
@@ -387,8 +391,8 @@ export default function ConfidantProfile() {
 
       {kind === 'auto' && data?.timeline && (
         <section className={`container ${styles.specialBody}`}>
-          <h2 className={styles.h2}>Rangos y recompensas</h2>
-          <p className={styles.specialLead}>No tenés que hacer nada: cada rango sube solo en el momento indicado.</p>
+          <h2 className={styles.h2}>{L('Rangos y recompensas', 'Ranks and rewards')}</h2>
+          <p className={styles.specialLead}>{L('No tenés que hacer nada: cada rango sube solo en el momento indicado.', 'You do not have to do anything: each rank goes up by itself at the given moment.')}</p>
           <Timeline ranks={data.timeline} />
           {data.spoiler && <SpoilerBox spoiler={data.spoiler} />}
           <UltimateBox summary={summary} />
@@ -397,10 +401,9 @@ export default function ConfidantProfile() {
 
       {kind === 'fusion' && data?.requests && (
         <section className={`container ${styles.specialBody}`}>
-          <h2 className={styles.h2}>Pedidos de fusión</h2>
+          <h2 className={styles.h2}>{L('Pedidos de fusión', 'Fusion requests')}</h2>
           <p className={styles.specialLead}>
-            Cada rango te piden una Persona con una skill. Llevala al Velvet Room y sube el rango. Pasá el mouse por
-            un nombre para ver la Persona.
+            {L('Cada rango te piden una Persona con una skill. Llevala al Velvet Room y sube el rango. Pasá el mouse por un nombre para ver la Persona.', 'Each rank asks you for a Persona with a skill. Bring it to the Velvet Room and the rank goes up. Hover over a name to see the Persona.')}
           </p>
           <Requests requests={data.requests} />
           <UltimateBox summary={summary} />
@@ -410,38 +413,38 @@ export default function ConfidantProfile() {
       {kind === 'normal' && (
       <>
       <section className={`container ${styles.ranksSection}`}>
-        <h2 className={styles.h2}>Rangos</h2>
+        <h2 className={styles.h2}>{L('Rangos', 'Ranks')}</h2>
 
         {tracking && (
           <div className={styles.progress}>
             <span className={styles.progressLabel}>
-              Tu progreso: <strong>{reached} / {maxRank}</strong>
+              {L('Tu progreso', 'Your progress')}: <strong>{reached} / {maxRank}</strong>
             </span>
             <span className={styles.progressTrack}>
               <span style={{ width: `${(reached / maxRank) * 100}%` }} />
             </span>
             {reached >= maxRank ? (
-              <span className={styles.progressDone}>¡Confidente al máximo!</span>
+              <span className={styles.progressDone}>{L('¡Confidente al máximo!', 'Confidant maxed!')}</span>
             ) : sel === reached + 1 ? (
               <button type="button" className="btn btn--accent" onClick={markReached}>
-                Marcar rango {sel} como alcanzado
+                {L(`Marcar rango ${sel} como alcanzado`, `Mark rank ${sel} as reached`)}
               </button>
             ) : sel <= reached ? (
               <button type="button" className="btn btn--accent" disabled>
-                Rango {sel} alcanzado ✓
+                {L(`Rango ${sel} alcanzado ✓`, `Rank ${sel} reached ✓`)}
               </button>
             ) : (
               <button type="button" className="btn btn--light" onClick={() => setSel(reached + 1)}>
-                Primero el rango {reached + 1}: ir
+                {L(`Primero el rango ${reached + 1}: ir`, `First rank ${reached + 1}: go`)}
               </button>
             )}
             <button type="button" className={`btn btn--light ${styles.resetBtn}`} onClick={resetProgress}>
-              Reiniciar progreso
+              {L('Reiniciar progreso', 'Reset progress')}
             </button>
           </div>
         )}
 
-        <div className={styles.rankButtons} role="group" aria-label="Elegir rango">
+        <div className={styles.rankButtons} role="group" aria-label={L('Elegir rango', 'Choose rank')}>
           {ranks.map((n) => (
             <button
               key={n}
@@ -459,10 +462,10 @@ export default function ConfidantProfile() {
       <section className={`container ${styles.rankBody}`}>
         <div className={styles.rankMain}>
           <div className={styles.rankTitle}>
-            <span className={styles.rankNum}>Rango {sel}</span>
+            <span className={styles.rankNum}>{L('Rango', 'Rank')} {sel}</span>
             {rank && rank.conversations.length > 0 && (
               <span className="label" style={{ color: 'var(--c-text-dim)' }}>
-                {data?.textsProvisional ? 'Traducción provisoria · falta texto oficial (España)' : 'Texto oficial del juego'}
+                {isEn() ? 'Official game text' : data?.textsProvisional ? 'Traducción provisoria · falta texto oficial (España)' : 'Texto oficial del juego'}
               </span>
             )}
           </div>
@@ -471,8 +474,8 @@ export default function ConfidantProfile() {
             <div className={styles.rankMax}>
               <img src={rankMaxImg} alt="" width={1536} height={1024} loading="lazy" />
               <span className={styles.rankMaxText}>
-                <span className={styles.rankMaxKicker}>Rango máximo</span>
-                <span>El vínculo con {data?.name.split(' ')[0]} está al máximo.</span>
+                <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
+                <span>{L(`El vínculo con ${data?.name.split(' ')[0]} está al máximo.`, `Your bond with ${data?.name.split(' ')[0]} is at its max.`)}</span>
               </span>
             </div>
           )}
@@ -480,17 +483,17 @@ export default function ConfidantProfile() {
           {rank?.notes && (
             <div className={styles.rankNote}>
               {rank.notes.map((t) => (
-                <p key={t}>{t}</p>
+                <p key={t}>{tr(t)}</p>
               ))}
             </div>
           )}
 
           {rank?.requirements && (
             <div className={styles.requirements}>
-              <span className={styles.requirementsKicker}>Requisito para este rango</span>
+              <span className={styles.requirementsKicker}>{L('Requisito para este rango', 'Requirement for this rank')}</span>
               <ul>
                 {rank.requirements.map((t) => (
-                  <li key={t}>{t}</li>
+                  <li key={t}>{tr(t)}</li>
                 ))}
               </ul>
             </div>
@@ -500,11 +503,10 @@ export default function ConfidantProfile() {
             <>
               {rank.noData ? (
                 <p className="pending">
-                  Este rango tiene respuestas en el juego, pero la guía que usamos no dice cuántos puntos da cada una.
-                  Las cargamos cuando las confirmemos con otra fuente.
+                  {L('Este rango tiene respuestas en el juego, pero la guía que usamos no dice cuántos puntos da cada una. Las cargamos cuando las confirmemos con otra fuente.', 'This rank has answers in the game, but our guide does not say how many points each gives. We will add them once confirmed with another source.')}
                 </p>
               ) : (
-                <div className={styles.dontMatter}>En este rango las respuestas no cambian los puntos: elegí la que quieras.</div>
+                <div className={styles.dontMatter}>{L('En este rango las respuestas no cambian los puntos: elegí la que quieras.', 'In this rank the answers do not change the points: pick whichever you like.')}</div>
               )}
               {rank.conversations.map((c, i) => (c.kind === 'mementos' ? <MementosNote key={i} m={c} /> : null))}
             </>
@@ -529,29 +531,29 @@ export default function ConfidantProfile() {
               );
             })()
           ) : (
-            <p className="pending">Las respuestas de este rango todavía no están cargadas.</p>
+            <p className="pending">{L('Las respuestas de este rango todavía no están cargadas.', 'The answers for this rank are not loaded yet.')}</p>
           )}
         </div>
 
         <aside className={styles.rankSide}>
-          <h3 className={styles.h3}>Recompensa del rango</h3>
+          <h3 className={styles.h3}>{L('Recompensa del rango', 'Rank reward')}</h3>
           {rank && rank.unlocks.length > 0 ? (
             rank.unlocks.map((u) => (
               <div key={u.name} className={styles.reward}>
-                <span className={styles.rewardKicker}>Desbloqueás</span>
-                <span className={styles.rewardName}>{u.name}</span>
-                <span className={styles.rewardDesc}>{u.description}</span>
+                <span className={styles.rewardKicker}>{L('Desbloqueás', 'You unlock')}</span>
+                <span className={styles.rewardName}>{tr(u.name)}</span>
+                <span className={styles.rewardDesc}>{tr(u.description)}</span>
               </div>
             ))
           ) : rank?.noReward ? (
-            <p className={styles.noReward}>Este rango no da ninguna recompensa.</p>
+            <p className={styles.noReward}>{L('Este rango no da ninguna recompensa.', 'This rank gives no reward.')}</p>
           ) : (
-            <p className="pending">Todavía no está cargada.</p>
+            <p className="pending">{L('Todavía no está cargada.', 'Not loaded yet.')}</p>
           )}
           <ul className={styles.legend}>
-            <li><span style={{ background: 'var(--c-accent)' }} /> Mejor respuesta</li>
-            <li><span style={{ background: 'var(--c-royal)' }} /> Exclusivo de Royal</li>
-            {summary.romance && <li><span style={{ background: 'var(--c-romance)' }} /> Opción de romance</li>}
+            <li><span style={{ background: 'var(--c-accent)' }} /> {L('Mejor respuesta', 'Best answer')}</li>
+            <li><span style={{ background: 'var(--c-royal)' }} /> {L('Exclusivo de Royal', 'Royal exclusive')}</li>
+            {summary.romance && <li><span style={{ background: 'var(--c-romance)' }} /> {L('Opción de romance', 'Romance option')}</li>}
           </ul>
         </aside>
       </section>

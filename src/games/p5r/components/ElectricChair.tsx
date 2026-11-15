@@ -4,6 +4,7 @@ import type { Persona } from '../types';
 import { ItemIcon } from './ItemIcon';
 import styles from './ElectricChair.module.css';
 import { itemName, itemNameEn, personaName } from '../services/gameText';
+import { L } from '../../../i18n';
 
 function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
   const tipId = useId();
@@ -14,7 +15,7 @@ function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
 
   return (
     <div className={`${styles.card} ${alarm ? styles.alarm : styles.normal}`}>
-      <span className={styles.tipWrap} tabIndex={0} aria-label={`${itemName(name)}: ver descripción`} aria-describedby={tipId}>
+      <span className={styles.tipWrap} tabIndex={0} aria-label={`${itemName(name)}: ${L('ver descripción', 'see description')}`} aria-describedby={tipId}>
         <span className={styles.icon}>
           <ItemIcon item={item} />
         </span>
@@ -42,18 +43,18 @@ function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
               <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
                 <path fill="currentColor" d="M12 2a7 7 0 0 0-7 7v5l-2 3h18l-2-3V9a7 7 0 0 0-7-7zm-2.5 17a2.5 2.5 0 0 0 5 0z" />
               </svg>
-              Con Alarma de fusión
+              {L('Con Alarma de fusión', 'With Fusion Alarm')}
             </>
           ) : (
-            'Normal'
+            L('Normal', 'Normal')
           )}
         </span>
-        <span className={styles.name} title={`En inglés: ${itemNameEn(name)}`}>
+        <span className={styles.name} title={`${L('En inglés', 'In Spanish')}: ${itemNameEn(name)}`}>
           {itemName(name)}
         </span>
         <span className={styles.meta}>
           {typeLabel}
-          {material && ` · Material: ${material}`}
+          {material && ` · ${L('Material', 'Material')}: ${material}`}
         </span>
       </span>
     </div>
@@ -63,13 +64,15 @@ function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
 /** Item que se obtiene al ejecutar a la Persona en el Velvet Room. */
 export function ElectricChair({ persona: p }: { persona: Persona }) {
   if (!p.itemization) {
-    return <p className={styles.help}>Esta Persona no se puede ejecutar en la silla eléctrica.</p>;
+    return <p className={styles.help}>{L('Esta Persona no se puede ejecutar en la silla eléctrica.', 'This Persona cannot be executed in the electric chair.')}</p>;
   }
   return (
     <div className={styles.wrap}>
       <p className={styles.help}>
-        Item que obtenés al ejecutar a {personaName(p)} en el Velvet Room. Con la Alarma de fusión activa (menú en rojo) sale
-        una versión mejor. Pasá el mouse por el ícono para ver qué hace.
+        {L(
+          `Item que obtenés al ejecutar a ${personaName(p)} en el Velvet Room. Con la Alarma de fusión activa (menú en rojo) sale una versión mejor. Pasá el mouse por el ícono para ver qué hace.`,
+          `Item you get by executing ${personaName(p)} in the Velvet Room. With the Fusion Alarm active (red menu) you get a better version. Hover over the icon to see what it does.`,
+        )}
       </p>
       <ItemCard name={p.itemization} alarm={false} />
       {p.itemizationAlt && p.itemizationAlt !== p.itemization && <ItemCard name={p.itemizationAlt} alarm />}

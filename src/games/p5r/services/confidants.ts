@@ -1,5 +1,6 @@
 import type { ArcanaId, Confidant, ConfidantKind, Conversation, Persona } from '../types';
 import indexJson from '../data/confidants/index.json';
+import { bilingual } from '../../../i18n';
 import { getAllPersonas } from './personas';
 
 export type ConfidantTag = 'thief' | 'romance' | 'royal' | 'deadline' | 'locked' | 'days' | 'mementos' | 'stat';
@@ -19,7 +20,7 @@ export interface ConfidantSummary {
   hasGuide: boolean;
 }
 
-export const TAG_LABEL: Record<ConfidantTag, string> = {
+export const TAG_LABEL: Record<ConfidantTag, string> = bilingual({
   thief: 'Ladrón Fantasma',
   romance: 'Romance',
   royal: 'Solo Royal',
@@ -28,13 +29,13 @@ export const TAG_LABEL: Record<ConfidantTag, string> = {
   days: 'Días fijos',
   mementos: 'Misiones de Mementos',
   stat: 'Pide atributo',
-};
+} as Record<ConfidantTag, string>, { thief: 'Phantom Thief', romance: 'Romance', royal: 'Royal only', deadline: 'Deadline', locked: 'Rank locked by the story', days: 'Fixed days', mementos: 'Mementos requests', stat: 'Needs a social stat' });
 
-export const KIND_LABEL: Record<ConfidantKind, string> = {
+export const KIND_LABEL: Record<ConfidantKind, string> = bilingual({
   normal: 'Normal',
   auto: 'Automático por la historia',
   fusion: 'Pedidos de fusión',
-};
+} as Record<ConfidantKind, string>, { normal: 'Normal', auto: 'Automatic with the story', fusion: 'Fusion requests' });
 
 export function getConfidantSummary(id: string): ConfidantSummary | undefined {
   return CONFIDANTS.find((c) => c.id === id);

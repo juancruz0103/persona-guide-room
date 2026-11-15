@@ -18,22 +18,24 @@ import { personaMyth, personaName, personaNameEn, skillName } from '../services/
 import { PARTY_OWNER, PARTY_STAGE, isSpoilerStage } from '../data/party';
 import { SpoilerCover } from '../components/SpoilerCover';
 import { FavoriteButton } from '../components/FavoriteButton';
+import { L, isEn, tr } from '../../../i18n';
 
-const STAT_LABELS: [keyof NonNullable<Persona['stats']>, string][] = [
-  ['st', 'FU'], ['ma', 'MA'], ['en', 'RE'], ['ag', 'AG'], ['lu', 'SU'],
-];
+const STAT_LABELS = (): [keyof NonNullable<Persona['stats']>, string][] =>
+  isEn()
+    ? [['st', 'St'], ['ma', 'Ma'], ['en', 'En'], ['ag', 'Ag'], ['lu', 'Lu']]
+    : [['st', 'FU'], ['ma', 'MA'], ['en', 'RE'], ['ag', 'AG'], ['lu', 'SU']];
 
 function unlockText(p: Persona): string {
   const u = p.unlock;
-  if (!u) return 'Ninguna: se obtiene por fusión normal.';
+  if (!u) return L('Ninguna: se obtiene por fusión normal.', 'None: it is obtained through normal fusion.');
   switch (u.type) {
     case 'confidant':
-      return `Confidente de ${getArcana(u.arcana).name} al rango ${u.rank}.`;
+      return L(`Confidente de ${getArcana(u.arcana).name} al rango ${u.rank}.`, `${getArcana(u.arcana).name} Confidant at rank ${u.rank}.`);
     case 'dlc':
-      return `Contenido descargable: ${u.pack}.`;
+      return `${L('Contenido descargable', 'Downloadable content')}: ${u.pack}.`;
     case 'story':
     case 'treasure':
-      return u.detail;
+      return tr(u.detail);
   }
 }
 
@@ -41,13 +43,13 @@ function partyText(p: Persona): string {
   const owner = PARTY_OWNER[p.party!.owner];
   switch (p.party!.stage) {
     case 'initial':
-      return `Es la Persona con la que despierta ${owner}.`;
+      return L(`Es la Persona con la que despierta ${owner}.`, `It is the Persona ${owner} awakens with.`);
     case 'evolved':
       return p.party!.owner === 'akechi'
-        ? 'Akechi la obtiene con la historia.'
-        : `Evoluciona al llegar al rango 10 del confidente de ${owner}: gana una skill y cambian sus afinidades.`;
+        ? L('Akechi la obtiene con la historia.', 'Akechi gets it through the story.')
+        : L(`Evoluciona al llegar al rango 10 del confidente de ${owner}: gana una skill y cambian sus afinidades.`, `It evolves when ${owner}'s confidant reaches rank 10: it gains a skill and its affinities change.`);
     case 'third':
-      return `Despierta en el tercer semestre (solo Royal): gana una skill y un rasgo nuevo.`;
+      return L('Despierta en el tercer semestre (solo Royal): gana una skill y un rasgo nuevo.', 'It awakens in the third semester (Royal only): it gains a skill and a new trait.');
   }
 }
 
@@ -66,8 +68,7 @@ function FusionBox({ persona: p }: { persona: Persona }) {
       <div className={styles.card}>
         <span className="label label-accent">Treasure Demon</span>
         <span className={styles.muted}>
-          No se obtiene por fusión: se recluta en el Metaverso. Sirve como ingrediente para subir o bajar de
-          escalón a otras Personas.
+          {L('No se obtiene por fusión: se recluta en el Metaverso. Sirve como ingrediente para subir o bajar de escalón a otras Personas.', 'It is not obtained through fusion: it is recruited in the Metaverse. It works as an ingredient to move other Personas up or down a rank.')}
         </span>
       </div>
     );
@@ -76,18 +77,19 @@ function FusionBox({ persona: p }: { persona: Persona }) {
   if (special) {
     return (
       <div className={styles.card}>
-        <span className="label label-accent">Fusión especial</span>
+        <span className="label label-accent">{L('Fusión especial', 'Special fusion')}</span>
         <ul className={styles.recipeList}>
           {special.map((s) => (
             <li key={s.id}>
               <Link to={`/p5r/calculadora/persona/${s.id}`}>{personaName(s)}</Link>
-              <small>{getArcana(s.arcana).name} · Nv {s.level}</small>
+              <small>{getArcana(s.arcana).name} · {L('Nv', 'Lv')} {s.level}</small>
             </li>
           ))}
         </ul>
         <span className={styles.muted}>
-          Ingredientes fijos{special.length > 2 ? ', todos a la vez (fusión avanzada)' : ''}: no sale por fusión
-          normal.
+          {L('Ingredientes fijos', 'Fixed ingredients')}
+          {special.length > 2 ? L(', todos a la vez (fusión avanzada)', ', all at once (advanced fusion)') : ''}
+          {L(': no sale por fusión normal.', ': it does not come out of normal fusion.')}
         </span>
       </div>
     );
@@ -95,11 +97,11 @@ function FusionBox({ persona: p }: { persona: Persona }) {
 
   return (
     <div className={styles.card}>
-      <span className="label label-accent">Recetas para obtenerla</span>
+      <span className="label label-accent">{L('Recetas para obtenerla', 'Recipes to get it')}</span>
       {recipes.length ? (
         <>
           <span className={styles.muted}>
-            <strong className={styles.countNum}>{recipes.length}</strong> combinaciones. Las de menor nivel:
+            <strong className={styles.countNum}>{recipes.length}</strong> {L('combinaciones. Las de menor nivel:', 'combinations. The lowest level ones:')}
           </span>
           <ul className={styles.recipeList}>
             {recipes.slice(0, 5).map((r) => (
@@ -107,14 +109,14 @@ function FusionBox({ persona: p }: { persona: Persona }) {
                 <Link to={`/p5r/calculadora/persona/${r.a.id}`}>{personaName(r.a)}</Link>
                 {' + '}
                 <Link to={`/p5r/calculadora/persona/${r.b.id}`}>{personaName(r.b)}</Link>
-                <small>Nv {r.a.level} + {r.b.level}</small>
+                <small>{L('Nv', 'Lv')} {r.a.level} + {r.b.level}</small>
               </li>
             ))}
           </ul>
-          <Link to={reverseLink} className="label">Ver todas en la calculadora →</Link>
+          <Link to={reverseLink} className="label">{L('Ver todas en la calculadora →', 'See all in the calculator →')}</Link>
         </>
       ) : (
-        <span className={styles.muted}>Ninguna combinación de 2 Personas la produce.</span>
+        <span className={styles.muted}>{L('Ninguna combinación de 2 Personas la produce.', 'No 2-Persona combination produces it.')}</span>
       )}
     </div>
   );
@@ -127,8 +129,8 @@ export default function PersonaProfile() {
   if (!p) {
     return (
       <section className="container" style={{ paddingBlock: 80 }}>
-        <p className="pending">No encontramos esa Persona.</p>
-        <Link to="/p5r/calculadora">← Volver al catálogo</Link>
+        <p className="pending">{L('No encontramos esa Persona.', 'We could not find that Persona.')}</p>
+        <Link to="/p5r/calculadora">{L('← Volver al catálogo', '← Back to catalog')}</Link>
       </section>
     );
   }
@@ -147,8 +149,8 @@ export default function PersonaProfile() {
             className={styles.image}
             src={personaImage(p.id, 'profile')}
             focus={personaProfileFocus(p.id)}
-            label={personaImage(p.id, 'profile') ? personaName(p) : 'Acá va la imagen de la Persona'}
-            hint="Formato sugerido: PNG transparente · 600 × 800"
+            label={personaImage(p.id, 'profile') ? personaName(p) : L('Acá va la imagen de la Persona', 'Persona image goes here')}
+            hint={L('Formato sugerido: PNG transparente · 600 × 800', 'Suggested format: transparent PNG · 600 × 800')}
             corner={arcana.numeral}
           />
         </SpoilerCover>
@@ -163,22 +165,22 @@ export default function PersonaProfile() {
               <FavoriteButton personaId={p.id} />
               {!p.party && (
                 <Link to={`/p5r/builds?persona=${p.id}`} className="btn btn--light" style={{ minHeight: 42, fontSize: 17 }}>
-                  Ver builds
+                  {L('Ver builds', 'See builds')}
                 </Link>
               )}
             </div>
-            {personaNameEn(p) !== personaName(p) && <span className={styles.nameEn}>En inglés: {personaNameEn(p)}</span>}
+            {personaNameEn(p) !== personaName(p) && <span className={styles.nameEn}>{L('En inglés', 'In Spanish')}: {personaNameEn(p)}</span>}
             <div className={styles.flags}>
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}
-              {p.flags.special && <span className="tag tag--special">Fusión especial</span>}
+              {p.flags.special && <span className="tag tag--special">{L('Fusión especial', 'Special fusion')}</span>}
               {p.flags.treasure && <span className="tag tag--dlc">Treasure Demon</span>}
               {p.party && <span className="tag tag--party">{PARTY_STAGE[p.party.stage]}</span>}
             </div>
             {p.party && (
               <p className={styles.partyNote}>
-                Persona de <strong>{PARTY_OWNER[p.party.owner]}</strong>: no se puede fusionar ni registrar en el
-                compendio.{' '}
-                <Link to={`/p5r/confidentes/${p.party.owner}`}>Ver su confidente →</Link>
+                {L('Persona de', 'Persona of')} <strong>{PARTY_OWNER[p.party.owner]}</strong>
+                {L(': no se puede fusionar ni registrar en el compendio.', ': it cannot be fused or registered in the compendium.')}{' '}
+                <Link to={`/p5r/confidentes/${p.party.owner}`}>{L('Ver su confidente →', 'See their confidant →')}</Link>
               </p>
             )}
           </div>
@@ -186,35 +188,35 @@ export default function PersonaProfile() {
           <dl className={styles.facts}>
             {p.party ? (
               <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-accent)' }}>
-                <dt className="label">Compañero</dt>
+                <dt className="label">{L('Compañero', 'Party member')}</dt>
                 <dd>{PARTY_OWNER[p.party.owner]}</dd>
               </div>
             ) : (
               <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-accent)' }}>
-                <dt className="label">Nivel base</dt>
+                <dt className="label">{L('Nivel base', 'Base level')}</dt>
                 <dd className={styles.big}>{p.level}</dd>
               </div>
             )}
             <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-text)' }}>
-              <dt className="label">Herencia</dt>
+              <dt className="label">{L('Herencia', 'Inheritance')}</dt>
               <dd>{p.inheritance ? ELEMENTS[p.inheritance].name : '—'}</dd>
             </div>
             <div className={styles.fact} style={{ ['--b' as string]: 'var(--c-primary)' }}>
-              <dt className="label">Rasgo</dt>
+              <dt className="label">{L('Rasgo', 'Trait')}</dt>
               <dd>{p.trait ? skillName(p.trait) : '—'}</dd>
             </div>
           </dl>
 
           {p.trait && traitDescription(p.trait) && (
             <div className={styles.trait}>
-              <span className="label label-accent">Rasgo · {skillName(p.trait)}</span>
+              <span className="label label-accent">{L('Rasgo', 'Trait')} · {skillName(p.trait)}</span>
               <p>{traitDescription(p.trait)}</p>
               {TREASURE_TRAITS[p.id] && (
                 <ul className={styles.traitList}>
                   {TREASURE_TRAITS[p.id].map(([main, alt]) => (
                     <li key={main}>
                       <strong>{skillName(main)}</strong>: {traitDescription(main)}
-                      {alt && <small> Si ya lo tiene: {skillName(alt)}.</small>}
+                      {alt && <small> {L('Si ya lo tiene', 'If it already has it')}: {skillName(alt)}.</small>}
                     </li>
                   ))}
                 </ul>
@@ -224,10 +226,10 @@ export default function PersonaProfile() {
 
           <div className={styles.stats}>
             <span className="label label-accent">
-              {p.party ? `Estadísticas al unirse (Nv ${p.level})` : 'Estadísticas base'}
+              {p.party ? `${L('Estadísticas al unirse', 'Stats when joining')} (${L('Nv', 'Lv')} ${p.level})` : L('Estadísticas base', 'Base stats')}
             </span>
             {p.stats ? (
-              STAT_LABELS.map(([k, label]) => (
+              STAT_LABELS().map(([k, label]) => (
                 <div key={k} className={styles.statRow}>
                   <span className={styles.statKey}>{label}</span>
                   <span className={styles.statTrack}>
@@ -237,33 +239,33 @@ export default function PersonaProfile() {
                 </div>
               ))
             ) : (
-              <p className={styles.pendingLine}>Se cargan con el compendio completo (Etapa 3).</p>
+              <p className={styles.pendingLine}>{L('Se cargan con el compendio completo (Etapa 3).', 'Loaded with the full compendium (Stage 3).')}</p>
             )}
           </div>
         </div>
       </section>
 
       <section className={`container ${styles.block}`}>
-        <SectionTitle size="md">Afinidades elementales</SectionTitle>
+        <SectionTitle size="md">{L('Afinidades elementales', 'Elemental affinities')}</SectionTitle>
         <AffinityGrid resistances={p.resistances} />
       </section>
 
       <section className={`container ${styles.bottom}`}>
         <div className={styles.skills}>
-          <SectionTitle size="md">Habilidades</SectionTitle>
+          <SectionTitle size="md">{L('Habilidades', 'Skills')}</SectionTitle>
           {p.skills ? (
             <SkillList skills={p.skills} />
           ) : (
-            <p className="pending">Las habilidades se cargan con el compendio completo (Etapa 3).</p>
+            <p className="pending">{L('Las habilidades se cargan con el compendio completo (Etapa 3).', 'Skills are loaded with the full compendium (Stage 3).')}</p>
           )}
           <p className={styles.techLink}>
-            <Link to="/p5r/tecnicos">Ver la tabla completa de Técnicos →</Link>
+            <Link to="/p5r/tecnicos">{L('Ver la tabla completa de Técnicos →', 'See the full Technical chart →')}</Link>
           </p>
           {personaMyth(p) && (
             <div className={styles.origin}>
-              <SectionTitle size="md">Origen</SectionTitle>
+              <SectionTitle size="md">{L('Origen', 'Origin')}</SectionTitle>
               <div className={styles.originCard}>
-                <span className="label label-accent">Mitología · texto oficial del juego</span>
+                <span className="label label-accent">{L('Mitología · texto oficial del juego', 'Mythology · official game text')}</span>
                 <p>{personaMyth(p)}</p>
               </div>
             </div>
@@ -273,7 +275,7 @@ export default function PersonaProfile() {
         <aside className={styles.side}>
           {p.party ? (
             <>
-              <SectionTitle size="md">Cómo se obtiene</SectionTitle>
+              <SectionTitle size="md">{L('Cómo se obtiene', 'How to get it')}</SectionTitle>
               <div className={styles.card}>
                 <span className="label label-accent">{PARTY_STAGE[p.party.stage]}</span>
                 <span className={styles.muted}>{partyText(p)}</span>
@@ -281,12 +283,12 @@ export default function PersonaProfile() {
             </>
           ) : (
             <>
-              <SectionTitle size="md">Fusión</SectionTitle>
+              <SectionTitle size="md">{L('Fusión', 'Fusion')}</SectionTitle>
               <FusionBox persona={p} />
-              <SectionTitle size="md">Silla eléctrica</SectionTitle>
+              <SectionTitle size="md">{L('Silla eléctrica', 'Electric chair')}</SectionTitle>
               <ElectricChair persona={p} />
               <div className={styles.card}>
-                <span className="label label-accent">Condición de desbloqueo</span>
+                <span className="label label-accent">{L('Condición de desbloqueo', 'Unlock condition')}</span>
                 <span className={styles.muted}>{unlockText(p)}</span>
               </div>
             </>
