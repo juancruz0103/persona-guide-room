@@ -4731,11 +4731,6 @@
     "skill": "Hack n' Blast",
     "level": null,
     "note": "special"
-   },
-   {
-    "skill": "Blaze of Life",
-    "level": null,
-    "note": "special"
    }
   ],
   "inheritance": "slashA",
@@ -5273,11 +5268,6 @@
    },
    {
     "skill": "Cyclone Arrow",
-    "level": null,
-    "note": "special"
-   },
-   {
-    "skill": "Tranquility",
     "level": null,
     "note": "special"
    }
@@ -7517,11 +7507,6 @@
     "skill": "Oracle",
     "level": null,
     "note": "special"
-   },
-   {
-    "skill": "Revelation",
-    "level": null,
-    "note": "special"
    }
   ],
   "inheritance": "lidarkA",
@@ -9321,11 +9306,6 @@
     "skill": "Divine Retribution",
     "level": null,
     "note": "special"
-   },
-   {
-    "skill": "Divine Intervention",
-    "level": null,
-    "note": "special"
    }
   ],
   "inheritance": "lightA",
@@ -10675,11 +10655,6 @@
     "skill": "Blizzard Edge",
     "level": null,
     "note": "special"
-   },
-   {
-    "skill": "Blade of Execution",
-    "level": null,
-    "note": "special"
    }
   ],
   "inheritance": "iceA",
@@ -10934,11 +10909,6 @@
    },
    {
     "skill": "Lightning Spike",
-    "level": null,
-    "note": "special"
-   },
-   {
-    "skill": "Electric Onslaught",
     "level": null,
     "note": "special"
    }

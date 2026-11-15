@@ -8,7 +8,9 @@ import { loadLocal } from '../../../core/account/progress';
 import styles from './Links.module.css';
 import { L } from '../../../i18n';
 
-type Sort = 'arcana' | 'progress';
+type Sort = 'arcana' | 'sees' | 'progress';
+/** Vínculos de integrantes de S.E.E.S. (el grupo y los compañeros con vínculo propio). */
+const SEES = new Set(['fool', 'priestess', 'empress', 'lovers', 'judgement', 'aeon']);
 
 /** Lista de los 22 vínculos sociales de Persona 3 Reload. */
 export default function Links() {
@@ -20,6 +22,7 @@ export default function Links() {
       .map((l) => ({ l, reached: loadLocal(progressId(l.arcana)).reached }))
       .filter(({ l }) => (!romance || l.romance) && (day === '' || l.auto || l.days?.includes(day) || (day === 6 && l.holidays)));
     if (sort === 'progress') rows.sort((a, b) => b.reached - a.reached);
+    if (sort === 'sees') rows.sort((a, b) => Number(SEES.has(b.l.arcana)) - Number(SEES.has(a.l.arcana)));
     return rows;
   }, [sort, day, romance]);
 
@@ -41,6 +44,7 @@ export default function Links() {
       <div className={styles.filters}>
         <div className={styles.sorts}>
           <button type="button" className={sort === 'arcana' ? styles.on : ''} onClick={() => pick('arcana')}>{L('Por Arcana', 'By Arcana')}</button>
+          <button type="button" className={sort === 'sees' ? styles.on : ''} onClick={() => pick('sees')}>{L('S.E.E.S. primero', 'S.E.E.S. first')}</button>
           <button type="button" className={sort === 'progress' ? styles.on : ''} onClick={() => pick('progress')}>{L('Más avanzados', 'Most advanced')}</button>
         </div>
         <label className={styles.select}>
