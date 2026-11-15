@@ -32,10 +32,29 @@
 }
 
 /* Paletas futuras (esqueleto, todavía no se usan) */
+/* Persona 3 Reload · paleta "Medianoche" */
 [data-game='p3r'] {
-  --c-primary: #2e7dd7;
-  --c-primary-strong: #1f5fa8;
-  --c-primary-light: #6aaaf0;
+  --c-bg: #111827;
+  --c-surface: #1a2232;
+  --c-surface-2: #222c3e;
+  --c-line: #33405a;
+  --c-text: #ffffff;
+  --c-text-muted: #c6d3e6;
+  --c-text-dim: #93a4bf;
+  --c-primary: #00aeef;
+  --c-primary-strong: #0089bd;
+  --c-primary-light: #5cd2ff;
+  --c-accent: #ffffff;
+  --c-accent-light: #ffffff;
+  --c-paper: #ffffff;
+  --c-ink: #111827;
+  --c-royal: #00aeef;
+  --c-romance: #f28cc1;
+  --c-hp: #5cf4f6;      /* PS: celeste agua, como la barra del juego */
+  --c-sp: #f9ee48;      /* PE: amarillo, como la barra del juego */
+  --c-hp-dark: #0f9ea1;
+  --c-sp-dark: #a99d00;
+  --c-theurgy: #e8202a; /* Teúrgia cargada */
 }
 
 [data-game='p4g'] {

@@ -41,7 +41,7 @@ export function Header({ game }: Props) {
     { to: `${base}/confidentes`, label: t().nav.confidants, end: false },
     { to: `${base}/clases`, label: t().nav.school, end: false },
     { to: `${base}/builds`, label: 'Builds', end: false },
-  ];
+  ].filter((l) => game.id === 'p5r' || l.end || l.to.endsWith('/calculadora'));
 
   return (
     <header ref={ref} className={styles.header}>

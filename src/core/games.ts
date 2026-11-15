@@ -1,5 +1,6 @@
 import type { GameId, GameInfo } from './types';
 import { p5rGame } from '../games/p5r/config';
+import { p3rGame } from '../games/p3r/config';
 
 /**
  * Registro de juegos.
@@ -7,14 +8,7 @@ import { p5rGame } from '../games/p5r/config';
  */
 export const GAMES: GameInfo[] = [
   p5rGame,
-  {
-    id: 'p3r',
-    name: 'Persona 3 Reload',
-    shortName: 'P3 RELOAD',
-    available: false,
-    swatch: '#2E7DD7',
-    tools: [],
-  },
+  p3rGame,
   {
     id: 'p4g',
     name: 'Persona 4 Golden',
