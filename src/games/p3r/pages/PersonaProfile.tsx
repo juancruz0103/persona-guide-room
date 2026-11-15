@@ -50,7 +50,7 @@ export default function PersonaProfile() {
     <>
       <CalcHeader />
       <article className={`container ${styles.page}`}>
-        <BackButton fallback="/p3r/calculadora" label={L('Volver', 'Back')} />
+        <div><BackButton fallback="/p3r/calculadora" label={L('Volver', 'Back')} /></div>
         <header className={styles.top}>
           <ImagePlaceholder
             className={personaImage(p.id, 'profile') ? styles.photoBig : styles.photo}
