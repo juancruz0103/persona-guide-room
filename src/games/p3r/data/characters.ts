@@ -17,7 +17,12 @@ const LIST: (Character & { aliases: string[] })[] = [
 export const findCharacter = (token: string): Character | undefined => LIST.find((c) => c.aliases.includes(token.trim()));
 export const characterLabel = (c: Character) => (c.id === 'protagonist' ? L('el protagonista', 'the protagonist') : c.name);
 
-/** Fotos de personajes (se suman cuando estén las capturas). */
+/** Caras de la interfaz de combate (las que se ven junto a las barras de PS/PE). Se usan en el equipo. */
+const FACES = import.meta.glob('../assets/faces/*.{webp,png,jpg}', { eager: true, import: 'default' }) as Record<string, string>;
+export const characterFace = (id: string): string | undefined =>
+  Object.entries(FACES).find(([path]) => path.includes(`/faces/${id}.`))?.[1];
+
+/** Fotos de personajes para los vínculos (se suman cuando estén las capturas). */
 const PHOTOS = import.meta.glob('../assets/characters/*.{webp,png,jpg}', { eager: true, import: 'default' }) as Record<string, string>;
 export const characterPhoto = (id: string): string | undefined =>
   Object.entries(PHOTOS).find(([path]) => path.includes(`/characters/${id}.`))?.[1];

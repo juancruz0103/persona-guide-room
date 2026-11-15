@@ -1,10 +1,10 @@
-import { characterLabel, characterPhoto, type Character } from '../data/characters';
+import { characterFace, characterLabel, type Character } from '../data/characters';
 import styles from '../../p5r/components/PersonaPeek.module.css';
 import { L } from '../../../i18n';
 
-/** Nombre de un personaje con su foto al pasar el cursor. */
+/** Nombre de un personaje con su cara (la de la interfaz de combate) al pasar el cursor. */
 export function CharacterPeek({ character }: { character: Character }) {
-  const photo = characterPhoto(character.id);
+  const photo = characterFace(character.id);
   return (
     <span className={styles.peek} tabIndex={0}>
       <span style={{ textDecoration: 'underline dotted', cursor: 'help' }}>{characterLabel(character)}</span>
