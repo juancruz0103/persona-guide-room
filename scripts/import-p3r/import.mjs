@@ -149,12 +149,10 @@ const partyList = Object.entries(party).flatMap(([n, d]) => {
   const evo = convert(evolved, { ...d, resists: d.sesists }, true);
   evo.party = { owner: base.party.owner, stage: 'evolved', baseId: base.id };
   base.party.evolvedId = evo.id;
-  // La segunda Teúrgia (la última habilidad especial) se gana al evolucionar,
-  // salvo Aigis, que la tiene desde antes.
-  if (base.party.owner !== 'aigis') {
-    const last = base.skills.map((s) => s.note).lastIndexOf('special');
-    if (last >= 0) base.skills.splice(last, 1);
-  }
+  // La segunda Teúrgia (la última habilidad especial) se gana al evolucionar.
+  // Shinjiro (Castor) no evoluciona, así que conserva las dos.
+  const last = base.skills.map((s) => s.note).lastIndexOf('special');
+  if (last >= 0) base.skills.splice(last, 1);
   return [base, evo];
 });
 const personas = [...Object.entries(demons).map(([n, d]) => convert(n, d, false)), ...partyList]
