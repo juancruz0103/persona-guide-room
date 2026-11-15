@@ -33,7 +33,7 @@ Misma estructura y componentes que Royal; solo cambia la paleta con `[data-game=
 
 - **22 vínculos**, uno por Arcana. Algunos avanzan solos con la historia (Loco, Muerte, Juicio y otros).
 - Las respuestas con puntos están verificadas para la versión Reload en [RPG Site](https://www.rpgsite.net/guide/15321-persona-3-reload-100-max-social-link-guide) (los puntos difieren de Portable y FES).
-- **Mecánicas propias de P3** a cubrir en la guía: requisitos de stats sociales para empezar, días y lugares fijos, Persona de la misma Arcana para ganar más puntos, rutas de romance y amistad, y vínculos que se pueden **invertir o romper**.
+- **Mecánicas propias de P3** a cubrir en la guía: requisitos de stats sociales para empezar, días y lugares fijos, Persona de la misma Arcana para ganar más puntos, y rutas de romance y amistad. En Reload, la inversión de vínculos aparece en **un solo vínculo**, como guiño a los juegos anteriores, y se vuelve a la normalidad casi enseguida: alcanza con una nota en ese confidente.
 - **Linked Episodes:** episodios con los compañeros varones de S.E.E.S. (nuevo en Reload). Se evalúan después.
 
 ## 3. Respuestas de clase
