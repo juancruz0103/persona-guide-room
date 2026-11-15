@@ -15,11 +15,12 @@ import {
 import { authErrorText } from '../../../core/account/supabase';
 import { BackButton } from '../../../shared/components/BackButton';
 import { getAllPersonas, getAllSkills, getPersona } from '../services/personas';
-import { bySkillName, personaMatches, personaName, skillName } from '../services/gameText';
+import { bySkillName, personaMatches, personaName, skillName, skillNameEn } from '../services/gameText';
 import { personaCardFocus, personaImage } from '../services/images';
 import { checkStep, fuseResult, personaRequirement, specialIngredients } from '../services/builds';
 import { skillCardSources } from '../services/items';
 import { BuildGoalView, BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
+import { SkillSearch, type SkillOption } from '../../../shared/components/SkillSearch';
 import styles from './BuildEditor.module.css';
 import { L } from '../../../i18n';
 
@@ -29,10 +30,6 @@ const ALL_PERSONAS = getAllPersonas()
 const SKILLS = getAllSkills()
   .map((s) => s.name)
   .sort(bySkillName);
-const findSkill = (text: string) => {
-  const t = text.trim().toLowerCase();
-  return SKILLS.find((k) => skillName(k).toLowerCase() === t || k.toLowerCase() === t);
-};
 const pname = (id: string) => {
   const p = getPersona(id);
   return p ? personaName(p) : id;
@@ -429,8 +426,6 @@ function Slot({ personaId, label, tag, result, onPick, onClear, children }: { pe
 function SkillToggles({ personaId, carried, value, onChange }: { personaId: string; carried: string[]; value: string[]; onChange: (v: string[], note?: string) => void }) {
   const p = getPersona(personaId);
   const own = p?.skills ?? [];
-  const [text, setText] = useState('');
-  const listId = useMemo(() => `sk-${Math.random().toString(36).slice(2)}`, []);
   const extra = value.filter((s) => !carried.includes(s) && !own.some((o) => o.skill === s));
   const toggle = (s: string) => {
     const on = value.includes(s);
@@ -439,11 +434,6 @@ function SkillToggles({ personaId, carried, value, onChange }: { personaId: stri
     const lv = Math.max(0, ...next.map((k) => own.find((o) => o.skill === k)?.level ?? 0));
     const learnt = next.filter((k) => (own.find((o) => o.skill === k)?.level ?? 0) === lv && lv > 0);
     onChange(next, lv > (p?.level ?? 0) ? L(`Subila al Nv ${lv} para que aprenda ${learnt.map(skillName).join(' y ')}`, `Level it to ${lv} so it learns ${learnt.map(skillName).join(' and ')}`) : '');
-  };
-  const add = () => {
-    const k = findSkill(text);
-    if (k && !value.includes(k)) onChange([...value, k]);
-    setText('');
   };
   return (
     <div className={styles.toggles}>
@@ -469,9 +459,7 @@ function SkillToggles({ personaId, carried, value, onChange }: { personaId: stri
         ))}
       </div>
       <div className={styles.addSkill}>
-        <input list={listId} value={text} onChange={(e) => setText(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); add(); } }} placeholder={L('Otra habilidad…', 'Another skill…')} />
-        <button type="button" onClick={add}>+</button>
-        <datalist id={listId}>{SKILLS.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
+        <SkillSearch options={skillOptions(SKILLS)} keepText={false} onChange={(k) => { if (k && !value.includes(k)) onChange([...value, k]); }} placeholder={L('Otra habilidad… (buscá por cualquier palabra)', 'Another skill… (search any word)')} />
       </div>
     </div>
   );
@@ -707,13 +695,15 @@ function CardsPanel({ cards, onChange }: { cards: BuildCard[]; onChange: (c: Bui
 const CARD_SKILLS = SKILLS.filter((k) => skillCardSources(k).length > 0);
 
 function SkillInput({ value, onChange, onlyCards }: { value: string; onChange: (v: string) => void; onlyCards?: boolean }) {
-  const [text, setText] = useState(value ? skillName(value) : '');
-  const listId = useMemo(() => `ski-${Math.random().toString(36).slice(2)}`, []);
-  const list = onlyCards ? CARD_SKILLS : SKILLS;
-  return (
-    <>
-      <input list={listId} value={text} onChange={(e) => { setText(e.target.value); onChange(findSkill(e.target.value) ?? ''); }} placeholder={L('Escribí una habilidad', 'Type a skill')} />
-      <datalist id={listId}>{list.map((k) => <option key={k} value={skillName(k)} />)}</datalist>
-    </>
-  );
+  return <SkillSearch options={skillOptions(onlyCards ? CARD_SKILLS : SKILLS)} value={value} onChange={onChange} placeholder={L('Escribí una habilidad', 'Type a skill')} />;
+}
+
+const optionCache = new Map<string[], SkillOption[]>();
+function skillOptions(list: string[]): SkillOption[] {
+  let o = optionCache.get(list);
+  if (!o) {
+    o = list.map((k) => ({ key: k, label: skillName(k), alt: skillNameEn(k) }));
+    optionCache.set(list, o);
+  }
+  return o;
 }
