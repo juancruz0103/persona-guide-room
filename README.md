@@ -97,4 +97,4 @@ Código bajo licencia [MIT](LICENSE). Persona y todo su contenido pertenecen a A
 
 ---
 
-Hecho por **Juan Cruz Vidal**.
+Hecho por **Juan**.

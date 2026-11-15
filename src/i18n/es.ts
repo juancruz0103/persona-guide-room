@@ -23,7 +23,7 @@ export const es = {
   footer: {
     disclaimer: 'Proyecto fan, no oficial. Persona es propiedad de ATLUS / SEGA.',
     data: 'Datos de Personas: aqiu384/megaten-fusion-tool (dominio público).',
-    madeBy: 'Hecho por Juan Cruz Vidal',
+    madeBy: 'Hecho por Juan',
   },
   common: {
     level: 'Nv',

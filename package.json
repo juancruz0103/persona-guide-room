@@ -12,7 +12,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc --noEmit"
   },
-  "author": "Juan Cruz Vidal",
+  "author": "Juan",
   "license": "MIT",
   "dependencies": {
     "@supabase/supabase-js": "^2.119.0",

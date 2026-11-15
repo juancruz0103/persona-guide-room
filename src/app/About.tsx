@@ -23,7 +23,7 @@ export default function About() {
         <article className={`${styles.card} ${styles.wide}`}>
           <h2 className={styles.cardTitle}>Quién está detrás</h2>
           <p>
-            Soy <strong>Juan Cruz Vidal</strong>, fan de la saga Persona. Armé esta guía
+            Soy <strong>Juan</strong>, fan de la saga Persona. Armé esta guía
             mientras jugaba Persona 5 Royal: cada respuesta, llamada y foto la fui comprobando en el juego.
           </p>
           <a className={styles.mail} href="https://github.com/juancruz0103/persona-guide-room" target="_blank" rel="noopener noreferrer">
