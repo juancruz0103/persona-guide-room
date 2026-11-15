@@ -1,0 +1,7894 @@
+{
+ "magician": {
+  "npc": "101",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Oye, tío, voy a ir a comer ramen después de clase. ¿Te vienes?",
+      "qEn": "Hey man, I'm gonna get some ramen after school. You wanna come?",
+      "opts": [
+       "¿Por qué me lo preguntas?",
+       "¿A qué viene eso?"
+      ],
+      "optsEn": [
+       "Why are you asking me?",
+       "Why so out of the blue?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "015",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Es que me emociono cuando vengo a comer a este sitio.",
+      "qEn": "I always geek out a little whenever I eat here.",
+      "opts": [
+       "Ya sé por dónde vas.",
+       "Come y calla."
+      ],
+      "optsEn": [
+       "I know what you mean.",
+       "Just shut up and eat."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "¿Puedes ir, en plan, al dormitorio de Yukari y ese rollo?",
+      "qEn": "Can you, like, just waltz on into Takeba-san's room and stuff?",
+      "opts": [
+       "Por supuesto.",
+       "Ni loco.",
+       "Es un secreto."
+      ],
+      "optsEn": [
+       "Of course.",
+       "No way.",
+       "That's a secret."
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Me gustan las mujeres más mayores. ¿Y a ti?",
+      "qEn": "I'm more into older women. How 'bout you?",
+      "opts": [
+       "A mí también me molan más mayores.",
+       "Las prefiero de mi edad.",
+       "¡Me gustan todas!"
+      ],
+      "optsEn": [
+       "I'm into older women, too.",
+       "I prefer girls my age.",
+       "I like them all!"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Dios, estoy hasta las narices, macho.",
+      "qEn": "Maaan... I'm so sick of this, dude.",
+      "opts": [
+       "¿Del ramen?",
+       "¿Del insti?",
+       "¿De la vida?"
+      ],
+      "optsEn": [
+       "What, of ramen?",
+       "What, of school?",
+       "What, of life?"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Decidido, . ¡Voy a buscarme novia!",
+      "qEn": "Okay, that settles it, . I'm gonna get myself a girlfriend! Right now!",
+      "opts": [
+       "Imposible.",
+       "¡Buena suerte!"
+      ],
+      "optsEn": [
+       "Sounds impossible.",
+       "Good luck!"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Hola, tío. Gracias por venir. Espera un momento, anda.",
+      "qEn": "Hey, thanks for coming, man. You mind waiting here for a sec?",
+      "opts": [
+       "Claro.",
+       "¿Por qué?"
+      ],
+      "optsEn": [
+       "Sure.",
+       "Why?"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "¡Voy a pedirle salir a la profesora Kanou ahora mismo!",
+      "qEn": "I'm gonna go ask Ms. Kanou out! Like, right now!",
+      "opts": [
+       "¡Buena suerte!",
+       "Ni se te ocurra.",
+       "Pues vale."
+      ],
+      "optsEn": [
+       "Good luck!",
+       "Don't do it.",
+       "Whatever, man."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "La gente guapa se atrae entre sí. Es como si fuera una ley no escrita.",
+      "qEn": "Yeah, good-looking people just flock together, y'know? It's like a law of attraction.",
+      "opts": [
+       "¿Ah, sí?",
+       "Vale...",
+       "Conque es atractiva..."
+      ],
+      "optsEn": [
+       "...Is that so?",
+       "Okay...",
+       "Good-looking, huh?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Perdona, pero hoy no puedo.",
+      "qEn": "Sorry, man, but I've gotta pass this time.",
+      "opts": [
+       "¿Así sin más?",
+       "¿Y eso?"
+      ],
+      "optsEn": [
+       "Just like that?",
+       "Why?"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "A fin de cuentas, ir a la universidad es muy importante, ¿no crees? ¿Tú no piensas en tu futuro?",
+      "qEn": "I mean, getting into college is pretty important, don't ya think? You think about the future too, right?",
+      "opts": [
+       "Ya tengo planes.",
+       "Sí, más que tú.",
+       "Ni un poquito."
+      ],
+      "optsEn": [
+       "I've got plans already.",
+       "Yeah, more than you do.",
+       "Not even a little."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "No tengo apetito...",
+      "qEn": "I can't eat...",
+      "opts": [
+       "¿Qué ha ocurrido?",
+       "Comeré a tu salud."
+      ],
+      "optsEn": [
+       "What happened?",
+       "I'll eat it for you."
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Vi una revista en la mesita de Emiri. Adivina el nombre.",
+      "qEn": "I saw a magazine in Emiri's room. Guess what it was called.",
+      "opts": [
+       "¿\"A la moda\"?",
+       "¿\"Vida ocultista\"?",
+       "¿\"Futura esposa\"?"
+      ],
+      "optsEn": [
+       "In Fashion?",
+       "Occult Living?",
+       "Bride-to-Be?"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "¿Crees que es buen plan?",
+      "qEn": "You think that's a good plan?",
+      "opts": [
+       "¡Enhorabuena!",
+       "Vas muy deprisa.",
+       "Pues vale."
+      ],
+      "optsEn": [
+       "Congrats!",
+       "You're rushing things.",
+       "Sure, whatever."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "O-oye, siento haberte hecho venir. Es que... Joder...",
+      "qEn": "H-Hey, man. Sorry to make you come here. I, um... Ah, damn it...",
+      "opts": [
+       "Suéltalo.",
+       "¿Te pasa algo?"
+      ],
+      "optsEn": [
+       "Spit it out!",
+       "Are you in trouble?"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Van a trasladarla a un instituto de Kyushu. ¿Qué hago ahora?",
+      "qEn": "And now she's being transferred to a school in Kyushu. What do I do!?",
+      "opts": [
+       "Deberías irte con ella.",
+       "Deberíais hablar.",
+       "Apáñatelas como puedas."
+      ],
+      "optsEn": [
+       "You should go with her.",
+       "You two should talk it out.",
+       "Figure it out yourself."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Me hacía tanta ilusión irme con ella que...",
+      "qEn": "I was so excited about going with her that I... I...",
+      "opts": [
+       "Anímate, hombre.",
+       "¡Yo me ocupo!",
+       "Ja, ja."
+      ],
+      "optsEn": [
+       "Cheer up, man.",
+       "Let me handle this!",
+       "Haha."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "La profesora Kanou estará ya en Kyushu. Y lo mismo hasta se ha casado y todo.",
+      "qEn": "Ms. Kanou must be in Kyushu by now. I wonder if she had her wedding already.",
+      "opts": [
+       "...",
+       "Puede que sí.",
+       "A que te robo el huevo."
+      ],
+      "optsEn": [
+       "......",
+       "Maybe she did.",
+       "I'm stealing your egg!"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Contigo uno no se aburre nunca. Pero, dicho esto, me gustaría tener novia.",
+      "qEn": "Man, it's always a blast hanging out with you. That said... I still want a girlfriend!",
+      "opts": [
+       "No sabes cuándo rendirte.",
+       "¡Tú puedes!",
+       "¿Te busco novia?"
+      ],
+      "optsEn": [
+       "You don't know when to give up...",
+       "You've got this!",
+       "Want me to find you a girl?"
+      ]
+     },
+     {
+      "speaker": "Kenji Tomochika",
+      "q": "Lo que sí tengo claro es que eres un buen amigo.",
+      "qEn": "What I did figure out is... you're a true friend.",
+      "opts": [
+       "¿Vamos a seguir hablando de amor?",
+       "¡Eso es! Somos buenos colegas."
+      ],
+      "optsEn": [
+       "...Are we still talking about love?",
+       "That's right! We're great friends."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "priestess": {
+  "npc": "006",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Quiero tu más sincera opinión, ¿vale? ¿Q-qué tal está?",
+      "qEn": "I want your honest opinion, okay? H-How was it?",
+      "opts": [
+       "...",
+       "Está asqueroso.",
+       "No está mal para una principiante."
+      ],
+      "optsEn": [
+       "......",
+       "It tastes horrible.",
+       "Not bad for a beginner."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "A lo mejor debería darle algo de comer. ¿Tú qué crees, ?",
+      "qEn": "Maybe I should give him some food. What do you think, -kun?",
+      "opts": [
+       "Claro.",
+       "Ni se te ocurra."
+      ],
+      "optsEn": [
+       "Sure.",
+       "Don't do it."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "No me gustaría que acabaras en el hospital.",
+      "qEn": "I don't want to put you in the hospital...",
+      "opts": [
+       "Puedo soportarlo.",
+       "Quizá podemos usarlo en combate."
+      ],
+      "optsEn": [
+       "I can handle a bit.",
+       "Maybe we can use it in battle."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "No me veo capaz de hacerlo sola. ¿Puedo contar con tu ayuda?",
+      "qEn": "I don't think I can do this alone. Can I... count on you to help?",
+      "opts": [
+       "Faltaría más.",
+       "¿Será algo rico la próxima vez?"
+      ],
+      "optsEn": [
+       "Sure thing.",
+       "Will it be good next time?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "No sé muy bien cuánta sal echar. ¿Tú cómo lo haces, ?",
+      "qEn": "I still don't have a feel for how much salt to add. How do you do it, -kun?",
+      "opts": [
+       "El truco es agitar el bote dos veces.",
+       "No echo nada de sal.",
+       "Échale un puñado grande."
+      ],
+      "optsEn": [
+       "Just a dash or two.",
+       "I don't add salt.",
+       "Just dump in a ton."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Perdona, sé que solo intentabas ayudarme, y lo único que hago es ponerme negativa.",
+      "qEn": "O-Oh, sorry. I know you're just trying to help me, and all I'm doing is being negative.",
+      "opts": [
+       "Tómatelo con calma.",
+       "No te desanimes tan pronto.",
+       "La práctica hace al maestro."
+      ],
+      "optsEn": [
+       "Just take it slow.",
+       "Don't get discouraged already.",
+       "Practice makes perfect."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Pero no es fácil leer y cocinar al mismo tiempo, y tampoco quisiera ensuciar las páginas.",
+      "qEn": "Hmm... But in that case, I can't really read while cooking. I wouldn't want to get the pages dirty.",
+      "opts": [
+       "Ve a la librería.",
+       "Te ayudaré a encontrar alguno."
+      ],
+      "optsEn": [
+       "Go to the bookstore.",
+       "I'll help you find something."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Pero no me decidía y tampoco tenía muy claro cómo utilizarla.",
+      "qEn": "But I couldn't really decide, and I wasn't sure how to use whatever I'd buy...",
+      "opts": [
+       "¿De verdad lo necesitas?",
+       "Empieza por lo más básico."
+      ],
+      "optsEn": [
+       "Do you really need one?",
+       "Start with the basics first."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Tampoco es que tenga nada más que valga la pena.",
+      "qEn": "And it's not like I have any other redeeming qualities.",
+      "opts": [
+       "¿No hay nada que se te dé bien?",
+       "¿Y tu Persona?",
+       "Eres muy trabajadora."
+      ],
+      "optsEn": [
+       "There's nothing you're good at?",
+       "What about your Persona?",
+       "You're a hard worker."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Por no mencionar que todo el tema me da un poco de vergüenza. Lo digo porque no es un hobby muy femenino.",
+      "qEn": "Not to mention that I'm kind of embarrassed about it all. I mean, it's not a very feminine hobby.",
+      "opts": [
+       "Eso no es verdad.",
+       "A lo mejor tienes razón.",
+       "¿Por qué crees eso?"
+      ],
+      "optsEn": [
+       "That's not true.",
+       "Maybe you're right.",
+       "Why do you think that?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "¿Y bien? ¿Qué tal está?",
+      "qEn": "W-Well... How is it?",
+      "opts": [
+       "Qué rica.",
+       "Te ha salido de lujo."
+      ],
+      "optsEn": [
+       "It's good.",
+       "You did a great job."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Porque... sin ti no habría llegado tan lejos.",
+      "qEn": "Because, I don't think I could have made it this far without you.",
+      "opts": [
+       "Me alegro de haber sido de ayuda.",
+       "Yo no he hecho nada."
+      ],
+      "optsEn": [
+       "I'm glad I could help.",
+       "I didn't do anything."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "A lo mejor por eso me han salido unas bolas de arroz tan ricas, porque las he hecho pensando en quién iba a comérselas.",
+      "qEn": "That might be the reason why I made such good rice balls. Because I was thinking about who was going to eat them.",
+      "opts": [
+       "Gracias.",
+       "Creo que lo entiendo.",
+       "¿Me haces más otro día?"
+      ],
+      "optsEn": [
+       "Thank you.",
+       "I think I get it.",
+       "Can you make more sometime?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Te prometo que lo haré lo mejor posible. ¿Aceptas?",
+      "qEn": "I promise I'm going to do the best I can. So can I count on you?",
+      "opts": [
+       "Por supuesto.",
+       "¿Seguro que no te estás pasando?"
+      ],
+      "optsEn": [
+       "Of course.",
+       "You sure you're not overdoing it?"
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Sé que parece que no soy de fiar, pero quiero convertirme en un miembro útil para el equipo.",
+      "qEn": "I know I don't seem very reliable, but I want to make myself a useful member of the team.",
+      "opts": [
+       "Esa es la actitud.",
+       "No te dejes llevar tanto.",
+       "Ya eres muy útil."
+      ],
+      "optsEn": [
+       "That's the spirit.",
+       "Don't get too carried away.",
+       "You're already plenty useful."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "¿Qué ocurre?",
+       "¿Y tiene algo de malo?"
+      ],
+      "optsEn": [
+       "What is it?",
+       "Something wrong with that?"
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Lo de que no me gusta mucho ir a las librerías.",
+      "qEn": "I mentioned that I don't really like going to bookstores.",
+      "opts": [
+       "Sí, lo recuerdo.",
+       "Acabamos de estar en una."
+      ],
+      "optsEn": [
+       "Yeah, I remember.",
+       "But we were just in one..."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Me amenazó con enseñársela a mis padres y todo.",
+      "qEn": "She even threatened to show my parents...",
+      "opts": [
+       "No fue culpa tuya.",
+       "...",
+       "Eso es pasarse."
+      ],
+      "optsEn": [
+       "You did nothing wrong.",
+       "......",
+       "That's messed up."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Seguro que es porque eres el líder. Por eso dependo tanto de ti.",
+      "qEn": "I'm sure it's because you're our leader. That's why I depend on you so much.",
+      "opts": [
+       "¿Es ese el único motivo?",
+       "Sí, será por eso."
+      ],
+      "optsEn": [
+       "Is that the only reason?",
+       "That's probably it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "¿Cómo consigues tú convencerte a ti mismo de que todo saldrá bien?",
+      "qEn": "How are you able to tell yourself that things will work out in the end?",
+      "opts": [
+       "Creo en mí.",
+       "Es que soy así.",
+       "Nunca lo había pensado."
+      ],
+      "optsEn": [
+       "I believe in myself.",
+       "It's just my personality.",
+       "I've never thought about it."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "¿Dejaremos de quedar?",
+      "qEn": "Will that be the end of us spending time together like this?",
+      "opts": [
+       "Para nada.",
+       "Nos seguiremos viendo en la resi."
+      ],
+      "optsEn": [
+       "Not at all.",
+       "We'll see each other in the dorm."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Que los amigos no llevan la cuenta de estas cosas.",
+      "qEn": "She said, \"When you're friends, you don't keep score.\"",
+      "opts": [
+       "Tiene razón.",
+       "¡Ja, ja, ja! Qué gracioso."
+      ],
+      "optsEn": [
+       "She's right.",
+       "Ahaha! That's funny."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Quiero estar contigo, para siempre.",
+      "qEn": "I want to be together with you, forever.",
+      "opts": [
+       "Opino lo mismo.",
+       "Yo también."
+      ],
+      "optsEn": [
+       "I feel the same way.",
+       "Me too."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "Te quiero, Fuuka.",
+       "Seremos amigos para siempre."
+      ],
+      "optsEn": [
+       "I love you, Fuuka.",
+       "We'll always be friends."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "¡¿...?!",
+      "qEn": "...!?",
+      "opts": [
+       "Siempre estaremos juntos.",
+       "Te trataré bien."
+      ],
+      "optsEn": [
+       "We'll be together forever.",
+       "I'll treat you right."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Pero creo que sería divertido cocinar con un amigo.",
+      "qEn": "But... I think it'd be fun to cook with friends.",
+      "opts": [
+       "Vale.",
+       "No lo tengo claro.",
+       "¿Qué vas a preparar?"
+      ],
+      "optsEn": [
+       "Sure.",
+       "I'm not confident.",
+       "What are you gonna make?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Perdona, ya no sé ni lo que digo.",
+      "qEn": "Sorry, I don't know what I'm talking about...",
+      "opts": [
+       "¿Hay nervios?",
+       "Yo te veo como siempre."
+      ],
+      "optsEn": [
+       "Are you nervous?",
+       "You seem like your usual self."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Mientras te tenga a ti, encontraré la manera.",
+      "qEn": "As long as I have you... I don't think I'll lose my way.",
+      "opts": [
+       "Me alegro.",
+       "Aquí me tienes para lo que haga falta."
+      ],
+      "optsEn": [
+       "Glad to hear it.",
+       "I'm always here for you."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "En fin... ¿qué te parece?",
+      "qEn": "So... what do you think?",
+      "opts": [
+       "¡Me encantan!",
+       "Tus habilidades son impresionantes."
+      ],
+      "optsEn": [
+       "I love them!",
+       "Your skills are impressive."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "180",
+    "rank": 8,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Me llama la atención, pero seguro que es mucha comida.",
+      "qEn": "I am curious about that one, but it sounds like a lot of food.",
+      "opts": [
+       "Probablemente.",
+       "Mejor no pidas eso.",
+       "Me como yo tu ramen."
+      ],
+      "optsEn": [
+       "Probably.",
+       "You'd better not order that.",
+       "I'll eat your ramen for you."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "No hablaban de otra cosa mientras comíamos. Que si los exámenes, que si mis planes cuando me gradúe...",
+      "qEn": "And whenever we ate, that's all we'd talk about. My upcoming tests, my post-graduation plans...",
+      "opts": [
+       "Qué agobio.",
+       "Se implican mucho, ¿no?"
+      ],
+      "optsEn": [
+       "Sounds suffocating.",
+       "They're big on education, huh?"
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Pero, bueno, para eso aún me queda. Seguro que la liaría un montón.",
+      "qEn": "Oh, but I'm not quite ready for that yet. I'd probably make so many mistakes.",
+      "opts": [
+       "Estaría bien.",
+       "Te preocupas demasiado."
+      ],
+      "optsEn": [
+       "I think it'd be fine.",
+       "You're worrying too much."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "190",
+    "rank": 9,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Y que las amigas no se deben nada. Están para eso.",
+      "qEn": "She said, \"When you're friends, you don't keep score.\"",
+      "opts": [
+       "Tiene razón.",
+       "¡Ja, ja, ja! Qué gracioso."
+      ],
+      "optsEn": [
+       "She's right.",
+       "Ahaha! That's funny."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Espero que sigamos siendo amigos.",
+      "qEn": "I hope you and I can continue to be friends.",
+      "opts": [
+       "Por supuesto.",
+       "Por nosotros."
+      ],
+      "optsEn": [
+       "Of course.",
+       "Here's to us."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Nunca te lo he preguntado porque imaginaba que te haría perder el tiempo, pero siempre he querido cocinar con algún amigo.",
+      "qEn": "I've never asked because I assumed I'd be wasting your time, but I've always wanted to try cooking with a friend.",
+      "opts": [
+       "Faltaría más.",
+       "Soy un poco desastre."
+      ],
+      "optsEn": [
+       "Sure thing.",
+       "I'm not very good at it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "200",
+    "rank": 10,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Se me ha ocurrido que estaría bien que tuviese textura, así que he echado un montón de verduras.",
+      "qEn": "I thought it might be nice to add some texture, so I made sure there's plenty of vegetables mixed in.",
+      "opts": [
+       "Qué atrevida.",
+       "¿Es peligroso?",
+       "Pero a mí me gusta la carne."
+      ],
+      "optsEn": [
+       "How bold.",
+       "Is that safe?",
+       "But I like meat..."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Se te ve más cómoda. O a lo mejor es que estás más segura de ti misma. ¿A ti no te lo parece, ?",
+      "qEn": "You just seem more at ease now. Or maybe it's more confidence? Don't you think so, -kun?",
+      "opts": [
+       "Sí, estoy de acuerdo.",
+       "Aún no has visto nada."
+      ],
+      "optsEn": [
+       "I agree.",
+       "You haven't seen anything yet."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "¿Te acuerdas que te conté que los aparatos electrónicos se me daban de maravilla?",
+      "qEn": "Remember how I told you I was pretty good with machines? Well, how are they?",
+      "opts": [
+       "¡Me encantan!",
+       "Estoy flipando en colores."
+      ],
+      "optsEn": [
+       "I love them!",
+       "My mind is blown."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "empress": {
+  "npc": "005",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Cuéntame cuál es la etiqueta de este sitio. ¿Se sigue alguna costumbre o algo así?",
+      "qEn": "I need to know the etiquette of this place. Are there any customs I should follow?",
+      "opts": [
+       "Sorbe los fideos.",
+       "Échale un montón de ingredientes.",
+       "No dejes que los fideos se ablanden.",
+       "Bébete todo el caldo."
+      ],
+      "optsEn": [
+       "Slurp the noodles.",
+       "Add a lot of toppings.",
+       "Don't let it get soggy.",
+       "Drink all the soup."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "¿Te parece... inusual?",
+      "qEn": "Do you find that... unusual?",
+      "opts": [
+       "Mucho.",
+       "Para nada."
+      ],
+      "optsEn": [
+       "Very.",
+       "Not at all."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Es más pequeño de lo que creía.",
+      "qEn": "It's smaller than I expected.",
+      "opts": [
+       "¿Es tu primera vez aquí?",
+       "¿Sabes cómo se come?"
+      ],
+      "optsEn": [
+       "Is this your first time?",
+       "Do you know how to eat it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "A veces mi ignorancia me sorprende...",
+      "qEn": "Sometimes my own ignorance truly astounds me...",
+      "opts": [
+       "¿Quieres que te invite?",
+       "¿Por qué no lo pruebas?"
+      ],
+      "optsEn": [
+       "Want me to treat you?",
+       "Why not give it a try?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Igual simplemente está madurando...",
+      "qEn": "Maybe he's just maturing...",
+      "opts": [
+       "¿Estás triste?",
+       "¿Estás contenta?"
+      ],
+      "optsEn": [
+       "Are you sad?",
+       "Are you happy?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Es un sentimiento de lo más peculiar.",
+      "qEn": "It's the most peculiar feeling.",
+      "opts": [
+       "Igual estás enamorada.",
+       "Igual estás preocupada.",
+       "Igual es tristeza."
+      ],
+      "optsEn": [
+       "Maybe you're in love.",
+       "Maybe you're anxious.",
+       "It must be sadness."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Perdona por soltarte mis divagaciones. Olvida lo que te he dicho.",
+      "qEn": "Sorry to subject you to my thoughtless rambling. Just forget I said anything.",
+      "opts": [
+       "Tú puedes.",
+       "No he oído nada."
+      ],
+      "optsEn": [
+       "I'm rooting for you.",
+       "I heard nothing."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Dentro de poco, recordaremos estos días con nostalgia.",
+      "qEn": "In just a short while, we'll be looking back on these days with nostalgia.",
+      "opts": [
+       "¿Qué harás después?",
+       "¿Ha pasado algo?"
+      ],
+      "optsEn": [
+       "What's next for you?",
+       "Did something happen?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "¿Qué significa el matrimonio para ti?",
+      "qEn": "What does marriage mean to you?",
+      "opts": [
+       "El matrimonio bebe del amor.",
+       "No es más que un contrato social.",
+       "Depende del compromiso."
+      ],
+      "optsEn": [
+       "It's all for love.",
+       "It's a social agreement.",
+       "It's about compromise."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "¿Es posible que me esté equivocando?",
+      "qEn": "Am I... wrong about this?",
+      "opts": [
+       "¿Tienes novio?",
+       "Esta es difícil."
+      ],
+      "optsEn": [
+       "Do you have a boyfriend?",
+       "That's a tough one."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Parece que se ha tenido mucho en cuenta el diseño al construir un cine.",
+      "qEn": "It seems a lot of thought goes into the design and construction of a movie theater.",
+      "opts": [
+       "Dijo la niña rica.",
+       "Me alegra que te lo hayas pasado bien."
+      ],
+      "optsEn": [
+       "...Said the rich girl.",
+       "Glad you enjoyed it."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Puede que a ella también se le dé mejor ir en moto que a mí.",
+      "qEn": "She's likely more suited to riding a motorcycle than I am, as well.",
+      "opts": [
+       "¿Una moto?",
+       "¿No estás capacitada para hacerlo?"
+      ],
+      "optsEn": [
+       "A motorcycle?",
+       "You're not suited?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Bueno, en cierto modo, tiene su gracia.",
+      "qEn": "Well, fantasizing can be fun in its own way.",
+      "opts": [
+       "Menuda motera de postín.",
+       "Vamos a dar una vuelta en moto."
+      ],
+      "optsEn": [
+       "What a high-class biker.",
+       "Let's go for a ride."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "¿Buscas algo en concreto?",
+       "¿Necesitas ayuda?",
+       "¿Has venido a por un libro?"
+      ],
+      "optsEn": [
+       "Looking for something specific?",
+       "Need some help?",
+       "Borrowing a book?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Aunque tenga que hacer sacrificios por el camino.",
+      "qEn": "...Even if I have to make sacrifices to do it.",
+      "opts": [
+       "¿Ha pasado algo?",
+       "Qué mal suena eso."
+      ],
+      "optsEn": [
+       "Did something happen?",
+       "That doesn't sound good."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Es la mejor solución para todos los implicados.",
+      "qEn": "This is the best solution for everyone involved...",
+      "opts": [
+       "¿De verdad?",
+       "No lo sabía..."
+      ],
+      "optsEn": [
+       "Is it really?",
+       "I didn't know..."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Así que... no huiré de mi destino.",
+      "qEn": "So... I won't run from my fate.",
+      "opts": [
+       "¿Estás segura?",
+       "Es admirable.",
+       "Haré algo al respecto."
+      ],
+      "optsEn": [
+       "Are you sure about this?",
+       "That's admirable.",
+       "I'll do something about it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "¿O estoy siendo muy egoísta pidiéndote eso?",
+      "qEn": "Or... is that too selfish a request?",
+      "opts": [
+       "No me importa en absoluto.",
+       "¿Eso es todo lo que necesitas?"
+      ],
+      "optsEn": [
+       "I don't mind at all.",
+       "Is that all you need?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Un lugar muy lejos de aquí, donde nadie te conozca...",
+      "qEn": "Somewhere far away, where no one knows who you are?",
+      "opts": [
+       "Sí.",
+       "No."
+      ],
+      "optsEn": [
+       "Yes.",
+       "No."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Hablar contigo se ha convertido en una vía de escape para mí. Je, seguro que estás hasta las narices de escucharme.",
+      "qEn": "Talking to you has become something of an outlet for me. Heh, I'm sure you're sick of it by now.",
+      "opts": [
+       "Desahógate todo lo que quieras.",
+       "Esto no es propio de ti."
+      ],
+      "optsEn": [
+       "Vent all you want.",
+       "This isn't like you."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Ay... Ten en cuenta que es un supuesto.",
+      "qEn": "Ah... Keep in mind, this is a what-if scenario.",
+      "opts": [
+       "Depende de ti.",
+       "No tiene futuro."
+      ],
+      "optsEn": [
+       "That's up to you.",
+       "It's not meant to be."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "¡¿Cómo te atreves a decir eso?!",
+      "qEn": "How dare you say that!?",
+      "opts": [
+       "Tranquilízate.",
+       "¡Retira eso!"
+      ],
+      "optsEn": [
+       "Calm down, Mitsuru.",
+       "Don't insult her father!"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Si me disculpas.",
+      "qEn": "Please excuse me.",
+      "opts": [
+       "No te rindas.",
+       "¿Estás segura de esto?"
+      ],
+      "optsEn": [
+       "Don't give in.",
+       "You're sure about this?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Pero... cuando ha hablado de mi padre y de ti... No he podido evitarlo.",
+      "qEn": "But... when he mentioned my father, and you... I couldn't help myself.",
+      "opts": [
+       "Ni te rayes.",
+       "Has estado increíble."
+      ],
+      "optsEn": [
+       "Don't sweat it.",
+       "You were awesome."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Siento lo que pasó la última vez que nos vimos.",
+      "qEn": "I'm sorry for what happened last time.",
+      "opts": [
+       "¿A qué te refieres?",
+       "Ni te rayes.",
+       "Me hizo muy feliz."
+      ],
+      "optsEn": [
+       "What happened?",
+       "Don't worry about it.",
+       "It made me happy."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Pero no me imaginaba que fuese a terminar gritándolo en público.",
+      "qEn": "I just didn't think I'd end up shouting them in public like that.",
+      "opts": [
+       "Qué atrevida.",
+       "¿Lo que sientes?"
+      ],
+      "optsEn": [
+       "Talk about bold.",
+       "Your feelings?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Siento que me voy a morir de la vergüenza.",
+      "qEn": "...I feel like I'm going to die of embarrassment.",
+      "opts": [
+       "Yo también te quiero.",
+       "Lo siento, pero..."
+      ],
+      "optsEn": [
+       "I love you too.",
+       "I'm sorry, but..."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Llevo un tiempo reflexionando sobre el tema, pero la forma en la que te diriges a mí...",
+      "qEn": "I've been thinking about this for a while now, but the way you address me...",
+      "opts": [
+       "¿\"Mitsuru\"?",
+       "¿Qué le pasa?"
+      ],
+      "optsEn": [
+       "\"Mitsuru\"?",
+       "What about it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Lo estoy deseando.",
+      "qEn": "I'll be looking forward to it.",
+      "opts": [
+       "Lo intentaré.",
+       "Me vale ir detrás."
+      ],
+      "optsEn": [
+       "I'll give it a try.",
+       "I'm fine with the back."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "190",
+    "rank": 9,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Em... Sé lo que estás pensando.",
+      "qEn": "Um... I know what you're thinking.",
+      "opts": [
+       "Qué pasada de habitación.",
+       "Qué mal."
+      ],
+      "optsEn": [
+       "This room is... Wow.",
+       "No fair."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Es el recordatorio de que no estoy sola que necesitaba.",
+      "qEn": "It's been a much-needed reminder that I'm not alone.",
+      "opts": [
+       "Es un alivio.",
+       "Nunca lo olvides.",
+       "Esta es tu fuerza."
+      ],
+      "optsEn": [
+       "That's a relief.",
+       "Never let go of that.",
+       "This is your strength."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "200",
+    "rank": 10,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "La batería y la presión de aire parecen correctas y ya he cambiado el aceite, así que perfecto.",
+      "qEn": "The battery and tire pressure look good... And I've already changed the oil, so that's fine.",
+      "opts": [
+       "Impresionante.",
+       "Parece divertido."
+      ],
+      "optsEn": [
+       "Impressive.",
+       "Looks like fun."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Cuando se acabe todo esto, vayámonos de viaje por ahí con la moto.",
+      "qEn": "When this is all over, let's take this motorcycle and go on a trip somewhere together.",
+      "opts": [
+       "¡Buena idea!",
+       "Si me da por ahí...",
+       "No tengo carné."
+      ],
+      "optsEn": [
+       "Great idea.",
+       "If I feel like it.",
+       "I don't have a license."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "emperor": {
+  "npc": "102",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Perdona, pero necesito verte después de clase. Tengo que pedirte una cosa especial.",
+      "qEn": "I'm sorry, but I'll need some of your time after school. I have a special request for you.",
+      "opts": [
+       "¿Por qué yo?",
+       "¿Una cosa especial?"
+      ],
+      "optsEn": [
+       "Why me?",
+       "A special request?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "013",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Resumiendo, quiero que te unas al consejo estudiantil.",
+      "qEn": "To make a long story short, I'd like you to join student council.",
+      "opts": [
+       "Eso es mucho curro.",
+       "No sé qué decirte..."
+      ],
+      "optsEn": [
+       "Sounds like a lot of work.",
+       "I'm not so sure..."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Solo tienes que pasarte por el aula del consejo estudiantil cuando puedas.",
+      "qEn": "Just come to the student council room when you can.",
+      "opts": [
+       "¿Y nada más?",
+       "¿Por qué yo?"
+      ],
+      "optsEn": [
+       "That's it?",
+       "Why me?"
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "Con \"aliado\", me refiero a alguien que entienda mi situación. Además, tú ya sabes lo que es liderar.",
+      "qEn": "An ally meaning someone who understands my situation. You know what it means to be a leader, so I'm asking you.",
+      "opts": [
+       "Vale, acepto.",
+       "Pues bueno..."
+      ],
+      "optsEn": [
+       "All right, I'll do it.",
+       "Fine, I guess..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "015",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Profesora Toriumi",
+      "q": "Anda, . ¿Qué quieres?",
+      "qEn": "Oh, -kun. What can I do for you?",
+      "opts": [
+       "Es sobre el consejo estudiantil...",
+       "En fin."
+      ],
+      "optsEn": [
+       "It's about student council...",
+       "Never mind..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "017",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Estoy en primero y, bueno, todavía le estoy pillando el truco. Así que ten paciencia conmigo, .",
+      "qEn": "I'm a first-year, and um, I'm still learning the ropes, so please be patient with me, -san.",
+      "opts": [
+       "Encantado.",
+       "Os ayudaré en lo que pueda."
+      ],
+      "optsEn": [
+       "Nice to meet you.",
+       "I'll do my best."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Algunos alumnos creen que se debería abolir los uniformes y están captando simpatizantes.",
+      "qEn": "Some students think the school uniform should be abolished, and they're gathering supporters.",
+      "opts": [
+       "No les falta razón.",
+       "Menuda tontería."
+      ],
+      "optsEn": [
+       "They've got a point.",
+       "Sounds like nonsense."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Secretario",
+      "q": "¡¿Qué?! ¡Necesitas el permiso de la presidenta para tomar esa decisión!",
+      "qEn": "What!? You can't decide something like that without talking to the president first!",
+      "opts": [
+       "¿Qué ha ocurrido?",
+       "No os peleéis."
+      ],
+      "optsEn": [
+       "What happened?",
+       "No need to fight."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "045",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "",
+      "q": "¡Parece que van a pegarle a Hidetoshi!",
+      "qEn": "This guy looks like he's about to hit Odagiri!",
+      "opts": [
+       "¡Déjalo ya!",
+       "..."
+      ],
+      "optsEn": [
+       "Knock it off!",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "¿Qué pasa? ¿Necesitas algo?",
+      "qEn": "What is it? Did you need something from me?",
+      "opts": [
+       "Te has pasado un poco.",
+       "A ti no hay quien te pare."
+      ],
+      "optsEn": [
+       "You went a little overboard.",
+       "Looks like you're hard at work."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Vaya panda de trogloditas.",
+      "qEn": "...Bunch of neanderthals.",
+      "opts": [
+       "Son lo peor.",
+       "No deberías acusar a cualquiera."
+      ],
+      "optsEn": [
+       "They're the worst.",
+       "You shouldn't accuse everyone."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Me alegro de no tener a esas hienas aquí.",
+      "qEn": "It's nice not having those hyenas around.",
+      "opts": [
+       "¿Todavía no te vas?",
+       "¿Cómo dices?"
+      ],
+      "optsEn": [
+       "You're not going home yet?",
+       "\"It's nice\"?"
+      ]
+     },
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Como ves, no podemos convocar una reunión ahora mismo. Puedes irte si quieres.",
+      "qEn": "So as you can see, we can't exactly hold a meeting right now. You can leave if you want.",
+      "opts": [
+       "Pero si acabo de llegar.",
+       "Creo que me voy a quedar."
+      ],
+      "optsEn": [
+       "But I just got here...",
+       "I think I'll stick around."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Del castigo al fumador, digo.",
+      "qEn": "About the smoker's punishment, I mean.",
+      "opts": [
+       "Me parece lógico.",
+       "Es demasiado severo."
+      ],
+      "optsEn": [
+       "It seems reasonable.",
+       "It seems too harsh."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Oye, ¿ha hecho algo Hidetoshi?",
+      "qEn": "Um, did Odagiri-san do something?",
+      "opts": [
+       "¿Qué?",
+       "¿Por? ¿Ha pasado algo?"
+      ],
+      "optsEn": [
+       "What do you mean?",
+       "Why? Is something wrong?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "085",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Lo habrás oído todo, ¿no?",
+      "qEn": "...So, you heard all that.",
+      "opts": [
+       "Yo no he sido.",
+       "¿Me has defendido?"
+      ],
+      "optsEn": [
+       "It wasn't me.",
+       "You stood up for me?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "095",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Siempre hablando de reglas y justicia, y al final lo único que dejé claro es lo desesperado que estaba por el poder.",
+      "qEn": "I rambled on about rules and fairness, but all I really proved was that I was desperate for power.",
+      "opts": [
+       "No te martirices.",
+       "Lo importante es que te has dado cuenta."
+      ],
+      "optsEn": [
+       "Don't blame yourself.",
+       "What matters is you realized it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "¿Qué tal lo he hecho? ¿Qué opinan los demás?",
+      "qEn": "So, how did I do? What'd everyone think?",
+      "opts": [
+       "Nada mal.",
+       "Has estado increíble."
+      ],
+      "optsEn": [
+       "Not too shabby.",
+       "You were great."
+      ]
+     },
+     {
+      "speaker": "Hidetoshi Odagiri",
+      "q": "Por eso deberías quedártelo tú.",
+      "qEn": "That's why you should be the one to have it.",
+      "opts": [
+       "Lo cuidaré.",
+       "Vale, pues me lo quedo."
+      ],
+      "optsEn": [
+       "I'll cherish it.",
+       "I guess I'll take it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "hierophant": {
+  "npc": "103",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Anciano",
+      "q": "",
+      "qEn": "",
+      "opts": [
+       "Eso es.",
+       "No exactamente."
+      ],
+      "optsEn": [
+       "That's right.",
+       "Not exactly."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bunkichi",
+      "q": "¿Cómo te llamabas?",
+      "qEn": "What was your name again?",
+      "opts": [
+       ".",
+       "..."
+      ],
+      "optsEn": [
+       ".",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Me han dado unos cuantos, pero ya tengo muchos. Toma, llévate uno.",
+      "qEn": "Someone gave it to me, but I have more than enough. Go ahead and take it, -chan.",
+      "opts": [
+       "Gracias.",
+       "Estoy bien, gracias."
+      ],
+      "optsEn": [
+       "Thank you.",
+       "I'm okay, thanks."
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Tenemos tantos que mi mujer y yo tardaríamos una eternidad en terminarlos.",
+      "qEn": "We have so many, my wife and I would take forever to finish them all.",
+      "opts": [
+       "Me encantaría.",
+       "No, gracias."
+      ],
+      "optsEn": [
+       "I'd like that.",
+       "No, thank you."
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Tendría que estar aquí atendiendo a los clientes... , lo siento mucho.",
+      "qEn": "He should be here helping customers... Sorry about that, -chan.",
+      "opts": [
+       "¿Muchacho?",
+       "No tiene que disculparse."
+      ],
+      "optsEn": [
+       "Boy?",
+       "No need to apologize."
+      ]
+     },
+     {
+      "speaker": "Mitsuko",
+      "q": "Ay, querido, si está...",
+      "qEn": "Oh, my dear, he's...",
+      "opts": [
+       "¿Está qué?",
+       "¿Qué ocurre?"
+      ],
+      "optsEn": [
+       "He's what?",
+       "What's this about?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bunkichi",
+      "q": "No la veo por ninguna parte.",
+      "qEn": "I don't see it anywhere...",
+      "opts": [
+       "¿Busca algo?",
+       "¿Limpiando la tienda?"
+      ],
+      "optsEn": [
+       "Looking for something?",
+       "Cleaning the store?"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "No estoy buscando las lentillas, sino mi cartera. ¡Mi cartera! ¿Dónde la habré puesto?",
+      "qEn": "It's not my contact lens I'm looking for, it's my wallet. My wallet! Now, where did I put it?",
+      "opts": [
+       "Mucha suerte.",
+       "¿Puedo ayudarle?"
+      ],
+      "optsEn": [
+       "Best of luck.",
+       "Can I help?"
+      ]
+     },
+     {
+      "speaker": "Extranjero misterioso",
+      "q": "Yo también soy nuevo, voy al Gekkoukan.",
+      "qEn": "I am one as well! I am a student at Gekkoukan!",
+      "opts": [
+       "Encantado.",
+       "¿Quién eres?"
+      ],
+      "optsEn": [
+       "Nice to meet you.",
+       "...Who are you?"
+      ]
+     },
+     {
+      "speaker": "Extranjero misterioso",
+      "q": "Pero llámame Bebe, ¡encantado!",
+      "qEn": "But you can call me \"Bebe\"! It's quite nice to meet you!",
+      "opts": [
+       "Encantado.",
+       "..."
+      ],
+      "optsEn": [
+       "Nice to meet you.",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Mitsuko",
+      "q": "¡¿Por qué tienes que subirte al coche?! ¡¿Quieres que me quede sola?!",
+      "qEn": "Why must you get into a car...? Do you want me to end up all alone!?",
+      "opts": [
+       "¿Qué coche?",
+       "¿Sola?"
+      ],
+      "optsEn": [
+       "What's this about a car?",
+       "All alone?"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Cuando volvía a casa del trabajo, tuvo un accidente. Lo atropelló un camionero que iba borracho.",
+      "qEn": "On his way home from work, he got into an accident... He was hit by a dump truck driver who was drunk on the job...",
+      "opts": [
+       "Vaya, lamento oír eso.",
+       "Qué mala suerte."
+      ],
+      "optsEn": [
+       "I'm sorry to hear that.",
+       "That's terrible luck."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bunkichi",
+      "q": "Mi esposa acaba de marcharse al Gekkoukan.",
+      "qEn": "My wife just headed out to Gekkoukan.",
+      "opts": [
+       "Debería irme.",
+       "Esperaré aquí."
+      ],
+      "optsEn": [
+       "I should go too.",
+       "I'll wait here."
+      ]
+     },
+     {
+      "speaker": "Mitsuko",
+      "q": "E-el... El árbol...",
+      "qEn": "The... The... The tree...",
+      "opts": [
+       "¿Qué pasa?",
+       "¿Qué árbol?"
+      ],
+      "optsEn": [
+       "What happened?",
+       "Tree?"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "¿Tú sabes algo, ?",
+      "qEn": "Do you know anything about this, -chan?",
+      "opts": [
+       "Qué va.",
+       "Eso me preocupa."
+      ],
+      "optsEn": [
+       "No, I don't.",
+       "I'm worried."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bunkichi",
+      "q": "Discúlpanos por causarte tantas molestias con el asunto del caqui.",
+      "qEn": "We've been feeling a bit guilty for troubling you about the persimmon tree...",
+      "opts": [
+       "No puedo pedirle peras al caqui...",
+       "¿Qué caqui?"
+      ],
+      "optsEn": [
+       "I wouldn't worry about it.",
+       "What tree?"
+      ]
+     },
+     {
+      "speaker": "Mitsuko",
+      "q": "¿Por qué ahora? ¿Por qué quieren cortarlo ahora?",
+      "qEn": "Why now? Why do they want to cut it down now...?",
+      "opts": [
+       "Anímese.",
+       "No pasará nada."
+      ],
+      "optsEn": [
+       "Cheer up.",
+       "It'll be okay."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuko",
+      "q": "Si perdemos ese árbol, sería como perder a nuestro hijo por partida doble.",
+      "qEn": "If we lose that tree... it would be like losing our son all over again...",
+      "opts": [
+       "No hay que darle tantas vueltas.",
+       "Nada de discutir, por favor."
+      ],
+      "optsEn": [
+       "You're overthinking it.",
+       "Please don't fight."
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Por desgracia, a mi esposa solo le ha recordado el dolor que sentimos el día que murió.",
+      "qEn": "Unfortunately, that just reminded my dear of the pain we felt the day our son died...",
+      "opts": [
+       "Anímese.",
+       "Seguro que todo irá bien."
+      ],
+      "optsEn": [
+       "Cheer up.",
+       "I'm sure it'll be okay."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mitsuko",
+      "q": "Ah...",
+      "qEn": "Ah...",
+      "opts": [
+       "¿Qué pasa?",
+       "¿Ya están peleándose otra vez?"
+      ],
+      "optsEn": [
+       "What happened?",
+       "Are you fighting again?"
+      ]
+     },
+     {
+      "speaker": "Mitsuko",
+      "q": "Dicen que es un árbol conmemorativo de su antiguo profesor... y que no quieren que lo corten.",
+      "qEn": "They say the tree is a memorial to their former teacher... They don't want it to be cut down.",
+      "opts": [
+       "¿Un árbol conmemorativo?",
+       "Fantástico."
+      ],
+      "optsEn": [
+       "The tree? A memorial?",
+       "That's great."
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Seguro que los llamaste tú, ¿verdad, ?",
+      "qEn": "You must be the one who called on them for this, right, -chan?",
+      "opts": [
+       "No.",
+       "Eso es.",
+       "¿De qué habla?"
+      ],
+      "optsEn": [
+       "No.",
+       "That's right.",
+       "What are you talking about?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bunkichi",
+      "q": "¿Quién crees que era? Te daré una pista: firma.",
+      "qEn": "Who do you think it was? Here's a hint: \"signature.\"",
+      "opts": [
+       "¿Alguien que recogía firmas?",
+       "¿Un fan suyo?"
+      ],
+      "optsEn": [
+       "A petitioner?",
+       "A fan of yours?"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Ya ha reunido muchas firmas de alumnos de la clase de nuestro hijo.",
+      "qEn": "He's already gathered a number of signatures from students who were in our son's class!",
+      "opts": [
+       "Fantástico.",
+       "Qué guay."
+      ],
+      "optsEn": [
+       "That's great.",
+       "That's amazing."
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "¡Tengo que darle la buena noticia a mi hijo!",
+      "qEn": "I have to tell my son the good news!",
+      "opts": [
+       "Claro, vamos.",
+       "¿Tiene que ser ahora?"
+      ],
+      "optsEn": [
+       "Sure, let's go.",
+       "Right now?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bunkichi",
+      "q": "No te lo esperabas, ¿eh? Pues navego bastante por el internet, que lo sepas.",
+      "qEn": "What, is that surprising? I'm actually quite the net surfer, you know!",
+      "opts": [
+       "¿Qué pone en la carta?",
+       "¿Por qué una carta?"
+      ],
+      "optsEn": [
+       "What does the letter say?",
+       "Why a letter?"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "¿Tienes curiosidad por la carta o es que estás emocionado? ¿Eufórico, quizá?",
+      "qEn": "Are you curious about the letter? Excited, perhaps? Even exhilarated?",
+      "opts": [
+       "Emocionado.",
+       "Eufórico."
+      ],
+      "optsEn": [
+       "Excited.",
+       "Exhilarated."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "",
+      "q": "Bunkichi habla en sueños. Parece que se está echando la siesta.",
+      "qEn": "Bunkichi-san is sleep talking. Looks like he's taking a nap...",
+      "opts": [
+       "Acercarte",
+       "Dejarlo en paz"
+      ],
+      "optsEn": [
+       "Take a closer look",
+       "Leave him be"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Estamos a plena luz del día, pero tengo mucho sueño...",
+      "qEn": "It's the middle of the day, but I feel awfully sleepy...",
+      "opts": [
+       "¿Qué tema?",
+       "¿Por qué está aliviado?"
+      ],
+      "optsEn": [
+       "What matter?",
+       "Why are you relieved?"
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Les hemos pedido que talen el caqui.",
+      "qEn": "We asked them to go ahead and cut the persimmon tree down.",
+      "opts": [
+       "Pero... ¿por qué?",
+       "Bueno."
+      ],
+      "optsEn": [
+       "But... why?",
+       "Oh well."
+      ]
+     },
+     {
+      "speaker": "Bunkichi",
+      "q": "Al fin y al cabo, era profesor.",
+      "qEn": "He was a teacher, after all!",
+      "opts": [
+       "Cierto.",
+       "¿Está seguro?"
+      ],
+      "optsEn": [
+       "That's true.",
+       "Are you really sure?"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "lovers": {
+  "npc": "002",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Al decirlo, te pica más la curiosidad, ¿eh?",
+      "qEn": "...I guess saying that only makes you more curious, huh?",
+      "opts": [
+       "Sí...",
+       "No, la verdad."
+      ],
+      "optsEn": [
+       "It does...",
+       "Not really."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Creo que me quedo con las gerberas. ¿De qué color las pongo?",
+      "qEn": "I think I'll go with the gerberas. What color do you think should I get?",
+      "opts": [
+       "Rosa cuqui.",
+       "Blanco puro.",
+       "Rojo intenso.",
+       "¿Qué es una gerbera?"
+      ],
+      "optsEn": [
+       "Cute pink.",
+       "Pure white.",
+       "Bright red.",
+       "What's a gerbera?"
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Ah, espera, nunca has visto mi habitación, ¿no? ¿Y entonces para qué te pregunto?",
+      "qEn": "Oh wait, you've never seen my room, have you? Well then, why am I even asking you?",
+      "opts": [
+       "Qué cruel.",
+       "Pues invítame."
+      ],
+      "optsEn": [
+       "That's mean.",
+       "Invite me over, then."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Mi madre es exactamente igual.",
+      "qEn": "I guess my own mom's no different.",
+      "opts": [
+       "¿Por qué dices eso?",
+       "..."
+      ],
+      "optsEn": [
+       "What makes you say that?",
+       "......"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Lo siento.",
+      "qEn": "Sorry.",
+      "opts": [
+       "¿Quién era?",
+       "¿A qué ha venido eso?",
+       "¿Estás bien?"
+      ],
+      "optsEn": [
+       "Who was that?",
+       "What was that about?",
+       "Are you okay?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "",
+      "q": "¿Qué hago?",
+      "qEn": "What should I do?",
+      "opts": [
+       "Echar un vistazo",
+       "Esperar aquí"
+      ],
+      "optsEn": [
+       "Look around",
+       "Wait here"
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "¿Ha pasado algo...?",
+      "qEn": "Did something happen...?",
+      "opts": [
+       "Ir a buscarla",
+       "Esperar un poco más"
+      ],
+      "optsEn": [
+       "Go look for her",
+       "Wait a bit longer"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "055",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "Te vas a enterar.",
+       "Llamaré a la policía.",
+       "¿Qué ocurre?"
+      ],
+      "optsEn": [
+       "I'll take you on.",
+       "I'll call the police.",
+       "What's going on?"
+      ]
+     },
+     {
+      "speaker": "Chico violento",
+      "q": "¿Eh? ¿Quién narices eres tú?",
+      "qEn": "Huh? Who the hell are you?",
+      "opts": [
+       "Su novio.",
+       "Su amigo.",
+       "Solo pasaba por aquí."
+      ],
+      "optsEn": [
+       "Her boyfriend.",
+       "Her friend.",
+       "Just a passerby."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "¡No necesitaba tu ayuda!",
+      "qEn": "I didn't need your help!",
+      "opts": [
+       "Lo siento.",
+       "Está bien apoyarse en los demás.",
+       "Eres una chica, así que..."
+      ],
+      "optsEn": [
+       "I'm sorry.",
+       "It's okay to rely on others.",
+       "You're a girl, so..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Gracias por ayudarme. Te lo agradezco de corazón.",
+      "qEn": "Thanks for your help back then. I really appreciate it.",
+      "opts": [
+       "No hay de qué.",
+       "Nada.",
+       "Gracias a ti también."
+      ],
+      "optsEn": [
+       "You're quite welcome.",
+       "Anytime.",
+       "Thank you, too."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Menudo fastidio, ¿no, ? La gente pensaría que estamos saliendo.",
+      "qEn": "Wouldn't that be annoying, -kun? Y'know, if people assumed we were dating...",
+      "opts": [
+       "No me importaría.",
+       "Ya..."
+      ],
+      "optsEn": [
+       "I wouldn't mind.",
+       "Yeah..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Podríamos hacer algún picnic. E incluso ver ciervos o algo. ¿Qué te parece?",
+      "qEn": "We could have lunch outdoors. Maybe we'll even see a deer or something. What do you think?",
+      "opts": [
+       "Me parece bien.",
+       "Vayamos todos juntos.",
+       "Vayamos solo nosotros.",
+       "No, gracias."
+      ],
+      "optsEn": [
+       "Sounds good.",
+       "Let's go with everyone.",
+       "Let's go just the two of us.",
+       "No thanks."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "¡Ya sé! ¿Por qué no me ayudas a elegirlos, ?",
+      "qEn": "I know! Why don't you come help me pick something out, -kun?",
+      "opts": [
+       "Vale.",
+       "Qué pereza."
+      ],
+      "optsEn": [
+       "All right.",
+       "I'm too lazy."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Le he dicho que podíamos quedar para hablar del tema. Me pongo de los nervios solo con pensarlo...",
+      "qEn": "I told her we could meet up and talk about her remarriage. I'm nervous just thinking about it...",
+      "opts": [
+       "¿Vas a dejar que se case?",
+       "¿Quieres verla?"
+      ],
+      "optsEn": [
+       "Will you let her do it?",
+       "Do you want to see her?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "¿Sí?",
+       "...",
+       "Si no es nada, me voy."
+      ],
+      "optsEn": [
+       "Hello?",
+       "......",
+       "If it's nothing, I'm leaving."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "¿Qué piensas de mí en realidad?",
+      "qEn": "What do you really think of me?",
+      "opts": [
+       "Te quiero.",
+       "Eres una amiga muy importante."
+      ],
+      "optsEn": [
+       "I love you.",
+       "You're a precious friend."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "¡No iba por ahí! No pienses mal.",
+      "qEn": "Wait, I didn't mean it like that! Don't get the wrong idea, okay!?",
+      "opts": [
+       "Demasiado tarde.",
+       "Yo no he dicho nada."
+      ],
+      "optsEn": [
+       "Too late.",
+       "I didn't say anything."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "190",
+    "rank": 9,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "¿Sí?",
+       "...",
+       "Si no es nada, me voy."
+      ],
+      "optsEn": [
+       "Hello?",
+       "......",
+       "If it's nothing, I'm leaving."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "¿Hay algo que te preocupe?",
+      "qEn": "Are you worried about anything?",
+      "opts": [
+       "¿De qué va?",
+       "Pues no."
+      ],
+      "optsEn": [
+       "What's this about?",
+       "Not really..."
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Yo... quiero estar ahí para ti. Quiero cuidarte igual que tú a mí.",
+      "qEn": "So... I want to be that person for you. I want to look after you the way you do for me.",
+      "opts": [
+       "Gracias.",
+       "Exageras."
+      ],
+      "optsEn": [
+       "Thank you.",
+       "You're exaggerating."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "200",
+    "rank": 10,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Ah, hoy estaba con su madre.",
+      "qEn": "He was with his mother today, huh...",
+      "opts": [
+       "Es un alivio.",
+       "¿Qué ocurre?"
+      ],
+      "optsEn": [
+       "That's a relief.",
+       "What's wrong?"
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Ay, no sé qué hacer. Ojalá alguien me acompañase...",
+      "qEn": "Gee, what should I do? If only someone would come with me...",
+      "opts": [
+       "Yo voy.",
+       "Buena suerte.",
+       "¿Cuál es la palabrita mágica?"
+      ],
+      "optsEn": [
+       "I'll go.",
+       "Good luck.",
+       "What's the magic word?"
+      ]
+     },
+     {
+      "speaker": "Yukari Takeba",
+      "q": "Así que he pensado que igual también te puede ser de ayuda.",
+      "qEn": "So I was just thinking, maybe it could help you in some way too.",
+      "opts": [
+       "¿Me lo estás ofreciendo de verdad?",
+       "Cuánta intensidad."
+      ],
+      "optsEn": [
+       "Can I really have this?",
+       "That's intense."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "chariot": {
+  "npc": "105",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Asesor del equipo de atletismo",
+      "q": "A partir de hoy, forma oficialmente parte del equipo.",
+      "qEn": "...So, starting today, he's an official member of the team.",
+      "opts": [
+       "Soy .",
+       "Es un placer conoceros."
+      ],
+      "optsEn": [
+       "I'm .",
+       "Nice to meet you."
+      ]
+     },
+     {
+      "speaker": "Miyamoto",
+      "q": "Me llamo Kazushi Miyamoto. Supongo que ya me habrás visto por ahí.",
+      "qEn": "I'm Kazushi Miyamoto. You've seen me around, right?",
+      "opts": [
+       "Sí.",
+       "Pues no."
+      ],
+      "optsEn": [
+       "Yeah.",
+       "Nope."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Qué dolor tengo en el costado... Creo que me he pasado.",
+      "qEn": "M-My side is killing me... I might've overdone it a bit.",
+      "opts": [
+       "No te excedas.",
+       "A ver si te esfuerzas más."
+      ],
+      "optsEn": [
+       "Don't push yourself.",
+       "Toughen up!"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "No pareces estar cansado. ¿Qué rutina de entrenamiento sigues?",
+      "qEn": "You don't even look tired... Uh, what kind of training regimen do you have?",
+      "opts": [
+       "Una rutina normalita.",
+       "Una rutina muy especial."
+      ],
+      "optsEn": [
+       "Just a normal routine.",
+       "A very special routine."
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "En marcha. ¿Eh?",
+      "qEn": "Let's get go— Argh!",
+      "opts": [
+       "¿Qué ocurre?",
+       "Venga, date prisa."
+      ],
+      "optsEn": [
+       "What's wrong?",
+       "Come on, hurry up."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "035",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Solo tengo un poco de anemia.",
+      "qEn": "It's just, um... my anemia's acting up.",
+      "opts": [
+       "Lo siento, menudo panorama.",
+       "Oye, ¿estás bien?"
+      ],
+      "optsEn": [
+       "Sorry, that sounds awful!",
+       "Are you going to be okay?"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Me he tomado pastillas y me la he vendado y todo, pero el dolor no se me quita.",
+      "qEn": "I tried medicine, I tried wrapping it, but the pain won't stop.",
+      "opts": [
+       "¿Crees que se te pasará?",
+       "Descansa un rato."
+      ],
+      "optsEn": [
+       "Will it heal?",
+       "Take a break from practice."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "045",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "¿Q-qué pasa? Iba a ponerme ahora a entrenar.",
+      "qEn": "Wh-What's up? I was just gonna sneak back into practice.",
+      "opts": [
+       "¿Dónde has estado?",
+       "¿Ya has abandonado?"
+      ],
+      "optsEn": [
+       "Where have you been?",
+       "Did you ditch?"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Llamó para pedir cita sin preguntarme, así que no me ha quedado otra.",
+      "qEn": "She made the appointment without telling me, so there was nothing I could do!",
+      "opts": [
+       "¿Qué te han dicho?",
+       "Qué mierda."
+      ],
+      "optsEn": [
+       "How did it go?",
+       "That really sucks."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "055",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Tronco, te veo siempre cuando menos me lo espero.",
+      "qEn": "Man... I keep running into you at the weirdest times.",
+      "opts": [
+       "¿Vienes del hospital?",
+       "¿Ya has abandonado?"
+      ],
+      "optsEn": [
+       "Back from the hospital?",
+       "Did you ditch?"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "No me jodas. ¡¿Por qué no puedo levantarme?!",
+      "qEn": "You gotta be kidding... Why can't I... stand up!?",
+      "opts": [
+       "Apóyate en mi hombro, anda.",
+       "Yo te llevo.",
+       "Voy a pedir ayuda."
+      ],
+      "optsEn": [
+       "Take my shoulder!",
+       "I'll carry you!",
+       "I'll go get help!"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "065",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Quiero ganar, así que no me queda otra.",
+      "qEn": "I want to win, so I have to practice.",
+      "opts": [
+       "Tampoco puedes hacer nada.",
+       "Demuestra que tienes agallas."
+      ],
+      "optsEn": [
+       "There's nothing you can do.",
+       "Show some guts, man!"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Prometí ganar en la competición del año que viene y ser el mejor atleta de todo Japón.",
+      "qEn": "I promised I'd win at next year's meet and become the number one athlete in Japan.",
+      "opts": [
+       "¿En serio?",
+       "¿Por qué te excedes tanto?"
+      ],
+      "optsEn": [
+       "You promised?",
+       "Why go so far?"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Tengo que ganar este encuentro para poder ir al torneo nacional.",
+      "qEn": "That's why I have to win this meet—so I can make it to nationals!",
+      "opts": [
+       "¿Crees que ganarás?",
+       "¿Y qué pasa con tu rodilla?"
+      ],
+      "optsEn": [
+       "Do you think you can win?",
+       "What about your knee?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "075",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Ya sé que no le has dicho nada, pero se ha dado cuenta de que pasa algo.",
+      "qEn": "I know you didn't say anything. I just think he can tell something's up.",
+      "opts": [
+       "¿Cómo va la rodilla?",
+       "¿Puedes disimular?"
+      ],
+      "optsEn": [
+       "How's your knee?",
+       "Can you hide it?"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "¡Si no, no seré capaz de cumplir la promesa que le hice a mi sobrino!",
+      "qEn": "Otherwise, I won't be able to keep my promise to my nephew!",
+      "opts": [
+       "Tienes que ganar fuerzas.",
+       "Así no vas a ganar nada.",
+       "Necesitas descansar."
+      ],
+      "optsEn": [
+       "You have to get tougher!",
+       "You can't win like this.",
+       "You need to take a break..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "085",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Asesor del equipo de atletismo",
+      "q": "Seguro que sabes lo que ocurre.",
+      "qEn": "You must know what's going on.",
+      "opts": [
+       "No sé nada de nada.",
+       "..."
+      ],
+      "optsEn": [
+       "I don't know anything.",
+       "......"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "095",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Seguro que te encanta ir tirando de semejante peso muerto, ¿eh?",
+      "qEn": "I'm sure you love lugging all this dead weight around, huh?",
+      "opts": [
+       "No me importa.",
+       "No, la verdad es que no.",
+       "Tranqui. Soy más duro que una piedra."
+      ],
+      "optsEn": [
+       "I don't mind at all.",
+       "No, not exactly.",
+       "It's fine—I'm tough as hell."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": []
+   }
+  ]
+ },
+ "justice": {
+  "npc": "109",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Vaya, me alegra saber que estás dispuesto, pero...",
+      "qEn": "I mean, um, I'm glad you're willing to... b-but...",
+      "opts": [
+       "¿Qué quieres decir?",
+       "¿Has cambiado de opinión?",
+       "Relájate un poco."
+      ],
+      "optsEn": [
+       "What are you trying to say?",
+       "Have you changed your mind?",
+       "Just relax..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "015",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Mi casa está en la dirección contraria.",
+      "qEn": "My house is in the other direction...",
+      "opts": [
+       "Haberlo dicho antes.",
+       "Debería haberte preguntado."
+      ],
+      "optsEn": [
+       "Why didn't you say so?",
+       "I should've asked."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Siento haberte arrastrado de compras...",
+      "qEn": "Sorry to drag you along while I go shopping...",
+      "opts": [
+       "No te preocupes.",
+       "Da igual, estaba aburrido."
+      ],
+      "optsEn": [
+       "Don't worry about it.",
+       "I was bored anyway."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Eh... ¿Te gusta leer, ?",
+      "qEn": "...Um, do you read much, -san?",
+      "opts": [
+       "Me gustan los clásicos.",
+       "Me gusta el manga.",
+       "Me gustan las revistas de moda.",
+       "No leo libros."
+      ],
+      "optsEn": [
+       "I read the classics.",
+       "I read manga.",
+       "I read fashion magazines.",
+       "I don't read books."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¿Te resulta aburrido quedar con alguien... como yo?",
+      "qEn": "Is it boring for you to hang around with, um... someone like me?",
+      "opts": [
+       "Yo me estoy divirtiendo.",
+       "Sí, es un tostón.",
+       "Me resulta indiferente."
+      ],
+      "optsEn": [
+       "I'm having fun.",
+       "Yeah, it's a drag.",
+       "I'm indifferent."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Como siempre tengo tanto miedo, lo único que hago es asentir...",
+      "qEn": "But I'm always so scared, that all I can do is nod...",
+      "opts": [
+       "¿Solo eres así con chicos?",
+       "¿Por qué tienes tanto miedo?"
+      ],
+      "optsEn": [
+       "Are you only like this with guys?",
+       "Why are you so afraid?"
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Así que, cuando veo a un hombre, solo pienso en esa cara...",
+      "qEn": "So... whenever I see a man now, all I can think of is that face...",
+      "opts": [
+       "No tendría que haber preguntado.",
+       "Lo siento."
+      ],
+      "optsEn": [
+       "I shouldn't have asked.",
+       "I'm sorry."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡¿E-es que no saben dónde están?!",
+      "qEn": "...Do they not know where they are!?",
+      "opts": [
+       "No tienen vergüenza.",
+       "¿Su primer beso...?",
+       "¿Dónde se han metido?"
+      ],
+      "optsEn": [
+       "They have no shame.",
+       "They're gonna kiss...?",
+       "Where did they go?"
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡Deberíamos avisar a la presidenta del consejo estudiantil cuanto antes y debatirlo en la próxima reunión!",
+      "qEn": "We should notify the student council president right away, and discuss this at our next meeting!",
+      "opts": [
+       "Sí, estoy de acuerdo.",
+       "Eso es pasarse.",
+       "¿No te gustan los besos?"
+      ],
+      "optsEn": [
+       "I agree.",
+       "That's kind of extreme...",
+       "You don't like kissing?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "045",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡!",
+      "qEn": "-san!",
+      "opts": [
+       "Piérdete.",
+       "Hola."
+      ],
+      "optsEn": [
+       "Get lost.",
+       "...Hey."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¿Por qué no paro de temblar?",
+      "qEn": "Why am I still shaking?",
+      "opts": [
+       "Vamos a darnos la mano.",
+       "Estoy contigo.",
+       "Respira hondo."
+      ],
+      "optsEn": [
+       "Let's hold hands.",
+       "I'm here for you.",
+       "Take a deep breath."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Ah, sí, quería preguntarte una cosa...",
+      "qEn": "So, um... there was something I needed to ask you...",
+      "opts": [
+       "Soy todo oídos.",
+       "¿Te preocupa algo?"
+      ],
+      "optsEn": [
+       "I'm all ears.",
+       "Something on your mind?"
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡¿Estará enamorada?!",
+      "qEn": "Is she in love right now!?",
+      "opts": [
+       "Sí, está enamorada.",
+       "No saques conclusiones precipitadas."
+      ],
+      "optsEn": [
+       "Yeah, she's in love.",
+       "You're jumping to conclusions."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Perdón por sacarte un tema tan extraño.",
+      "qEn": "Sorry for asking you about such a weird topic.",
+      "opts": [
+       "Me alegra poder ayudarte.",
+       "No te preocupes."
+      ],
+      "optsEn": [
+       "Happy to help.",
+       "Don't worry about it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "055",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "",
+      "q": "¿Qué hago?",
+      "qEn": "What should I do...?",
+      "opts": [
+       "Cogerla de la mano",
+       "Besarla",
+       "Hablarle con dulzura"
+      ],
+      "optsEn": [
+       "Hold her hand",
+       "Kiss her",
+       "Speak to her softly"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¿Q-qué hago?",
+      "qEn": "Wh-What should I do...?",
+      "opts": [
+       "¿Son buenos?",
+       "¿No los vas a comprar?"
+      ],
+      "optsEn": [
+       "Is it good?",
+       "You're not buying it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "065",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Hasta hace poco, claro...",
+      "qEn": "That is, until recently...",
+      "opts": [
+       "¿Qué piensas ahora?",
+       "¿Qué quieres decir?"
+      ],
+      "optsEn": [
+       "What do you think now?",
+       "What do you mean?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "...",
+      "qEn": "-san...",
+      "opts": [
+       "Intenta recordarlo.",
+       "Tiene que ser un malentendido."
+      ],
+      "optsEn": [
+       "Try to remember.",
+       "It's gotta be a misunderstanding."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "No he sido capaz de plantarles cara... ¡Pero yo no he cogido nada!",
+      "qEn": "I-I couldn't stand up to them, but I... I didn't take anything!",
+      "opts": [
+       "No te preocupes.",
+       "Hay que hacer algo..."
+      ],
+      "optsEn": [
+       "Don't worry.",
+       "We have to do something..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Estudiante de pelo corto",
+      "q": "¡Está más claro que el agua! Con esa cara de mosquita muerta que tiene...",
+      "qEn": "See, how could it not be her!? And with such an innocent face, too...",
+      "opts": [
+       "Es todo un malentendido.",
+       "..."
+      ],
+      "optsEn": [
+       "That's all a misunderstanding.",
+       "......"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "085",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "No puedo contar con nadie más...",
+      "qEn": "I don't really have anyone else I can count on...",
+      "opts": [
+       "Pronto acabarán los rumores.",
+       "Sé que eres inocente.",
+       "Sé fuerte."
+      ],
+      "optsEn": [
+       "The rumors will stop soon.",
+       "I know you're innocent.",
+       "Be strong."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡No me digas que ella también se piensa que fui yo la que robó el dinero!",
+      "qEn": "D-Don't tell me she thinks I stole the money too!",
+      "opts": [
+       "Calma, nos ayudará.",
+       "Mitsuru no es así."
+      ],
+      "optsEn": [
+       "Don't worry, she'll help us.",
+       "Mitsuru's not like that."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "093",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "Chihiro es inocente.",
+       "Tienes que decírselo tú."
+      ],
+      "optsEn": [
+       "Chihiro is innocent.",
+       "You need to tell her yourself."
+      ]
+     },
+     {
+      "speaker": "Mitsuru Kirijo",
+      "q": "¿Me echarás una mano, ?",
+      "qEn": "Give me a hand, will you, ?",
+      "opts": [
+       "¿Por qué yo?",
+       "De acuerdo."
+      ],
+      "optsEn": [
+       "Why me?",
+       "All right."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "095",
+    "rank": 9,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "097",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡Je, je, je!",
+      "qEn": "Ehehehehe!",
+      "opts": [
+       "¿Qué mosca te ha picado?",
+       "Así que eras la culpable."
+      ],
+      "optsEn": [
+       "What's gotten into you?",
+       "So you ARE guilty."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¡Te quiero!",
+      "qEn": "I love you!",
+      "opts": [
+       "Yo siento lo mismo, Chihiro.",
+       "Me gusta trabajar contigo, pero..."
+      ],
+      "optsEn": [
+       "I feel the same, Chihiro.",
+       "I like working with you, but..."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¿Eh? ¿Qué has dicho?",
+      "qEn": "Huh? What did you say...?",
+      "opts": [
+       "He dicho que siento lo mismo.",
+       "Te quiero."
+      ],
+      "optsEn": [
+       "I said I feel the same.",
+       "I love you."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Entonces, ¿crees que podríamos seguir siendo amigos?",
+      "qEn": "Then, do you think... we could still be friends?",
+      "opts": [
+       "Faltaría más.",
+       "Sí, amigos."
+      ],
+      "optsEn": [
+       "Sure thing.",
+       "Yeah, friends."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Solo me tienes que prometer que pensarás en mí cuando lo leas...",
+      "qEn": "Just promise to think of me when you read it...",
+      "opts": [
+       "Gracias.",
+       "Yo no leo mangas de chicas."
+      ],
+      "optsEn": [
+       "Thank you.",
+       "I don't read shojo manga."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "N-no tengo que explicártelo, ¿verdad?",
+      "qEn": "I-I don't have to spell it out, do I!?",
+      "opts": [
+       "Se está haciendo tarde...",
+       "Cierra la puerta con llave."
+      ],
+      "optsEn": [
+       "It's getting late...",
+       "Lock your doors."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "197",
+    "rank": 9,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Y le he plantado cara al profesor Takenozuka... ¡Un adulto!",
+      "qEn": "And I stood up to Mr. Takenozuka... An actual adult man!",
+      "opts": [
+       "Lo vi todo.",
+       "¿De qué estás hablando?"
+      ],
+      "optsEn": [
+       "I saw the whole thing.",
+       "What're you talking about?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "200",
+    "rank": 10,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "No sé si será suficiente con estos folletos...",
+      "qEn": "I wonder if this is going to be enough flyers...",
+      "opts": [
+       "Parece mucho lío.",
+       "¿Te obligaron a hacer esto?"
+      ],
+      "optsEn": [
+       "Looks tough.",
+       "Were you forced into this?"
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Aunque, mmm... Te agradecería que me ayudaras de vez en cuando, como hoy.",
+      "qEn": "Oh, but, um... I'd appreciate it if you could still help me every now and then, just like today.",
+      "opts": [
+       "Tú puedes.",
+       "Confío en ti, Chihiro."
+      ],
+      "optsEn": [
+       "You can do it.",
+       "I believe in you, Chihiro."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "¿Puedo pedirte que seas el primero de esos lectores?",
+      "qEn": "Could I ask that you be the first of those many readers?",
+      "opts": [
+       "Gracias.",
+       "Vale."
+      ],
+      "optsEn": [
+       "Thanks.",
+       "I'll take it."
+      ]
+     },
+     {
+      "speaker": "Chihiro Fushimi",
+      "q": "Ya me ocupo yo del resto.",
+      "qEn": "I'll handle the rest by myself.",
+      "opts": [
+       "Te acompaño.",
+       "¿Estás segura?"
+      ],
+      "optsEn": [
+       "I can tag along.",
+       "Are you sure?"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "hermit": {
+  "npc": "107",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chica de rojo",
+      "q": "eh, bienvenido al juego! m algro d vert x aquí :3",
+      "qEn": "eh, welcome to teh game! cool to seeya round :3",
+      "opts": [
+       "¿Quién eres...?",
+       "¿Ya no es popular?"
+      ],
+      "optsEn": [
+       "Who are you...?",
+       "It's not popular anymore?"
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "has tnido un déjà vu? ;P",
+      "qEn": "have a little deja vu? ;P",
+      "opts": [
+       "Je, qué ingeniosa.",
+       "No lo pillo..."
+      ],
+      "optsEn": [
+       "Heh, that's clever.",
+       "I don't get it..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Chica de rojo",
+      "q": "t acuerdas d mí, no? =/",
+      "qEn": "u remember me rite? :O",
+      "opts": [
+       "Por supuesto.",
+       "¿Nos hemos visto antes?"
+      ],
+      "optsEn": [
+       "Of course.",
+       "...Have we met?"
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "mm... q hacemos jugando dntro cndo hace 1 día tan bueno?",
+      "qEn": "hmm... what kinda people r we, playing inside on such a beautiful day?",
+      "opts": [
+       "¿No te gustan los videojuegos?",
+       "La luz del sol está sobrevalorada.",
+       "Supongo que somos unos fracasados."
+      ],
+      "optsEn": [
+       "Don't you like video games?",
+       "Sunshine is overrated.",
+       "Guess we're loners."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "pues s q... toy pedo! xD",
+      "qEn": "so ummmmmm...... im drunk! xD",
+      "opts": [
+       "¿En serio? o_O",
+       "¿Eres mayor de edad?"
+      ],
+      "optsEn": [
+       "Oh really? o_O",
+       "Are you an adult?"
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "pro cda vez m cuesta + encntrar motiva100 pra trminar el trbajo. =/",
+      "qEn": "but lately i cant get motviated to get work done @ work. =/",
+      "opts": [
+       "¿No te gusta tu trabajo?",
+       "¿Ya no puedes más?"
+      ],
+      "optsEn": [
+       "You don't like your job?",
+       "Are you burned out?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "bah... es como si solo le importase q m casara cn alguien ＞=/",
+      "qEn": "its like all she cares about is marrying me off to some dude ＞=/ whys it her problem?",
+      "opts": [
+       "¿No quieres casarte?",
+       "Primero hay que tener novio.",
+       "Vamos a planear nuestra boda."
+      ],
+      "optsEn": [
+       "Don't wanna get married?",
+       "You'll need a boyfriend first.",
+       "Let's plan our wedding, then."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "El Sr. E es stúpido y un HDP!t(-_-t)",
+      "qEn": "Mr. E is such a stupid eh so bee!! t(-_-t)",
+      "opts": [
+       "¿Quién es el Sr. E?",
+       "¿Otra vez borracha?",
+       "¿Quieres decir que...?"
+      ],
+      "optsEn": [
+       "Who's Mr. E?",
+       "Are you drunk again?",
+       "Do you mean S.O.B.?"
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "ay, no! no hbrás adivina2 a q m dedico, vrdad? O_o",
+      "qEn": "...oh noes! u cant figure out what my job is can u? O_o",
+      "opts": [
+       "¿Eres una maestra borrachilla?",
+       "Maya es periodista, ¿verdad?",
+       "¿Eres profesora?"
+      ],
+      "optsEn": [
+       "A drunken master?",
+       "Maya's a reporter, right?",
+       "Are you a teacher?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "la vrdad es q solo fui xq stabaenfdadísima cn ese capullo! ＞=/",
+      "qEn": "actually, i only went cuz i was so pissed at that bastard! ＞=/",
+      "opts": [
+       "Tranquilízate.",
+       "¡Qué desgraciado!"
+      ],
+      "optsEn": [
+       "Calm down.",
+       "What bastard?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "a los hmbres les gstan las mujers + jóvenes? sé sincero ._.",
+      "qEn": "...do men only want younger women? b honest ._.",
+      "opts": [
+       "¿De qué estás hablando?",
+       "No es cuestión de edad.",
+       "Pues sí."
+      ],
+      "optsEn": [
+       "What are you talking about?",
+       "Age isn't the point.",
+       "Well, yeah."
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "incluso se mete relleno n el sujtador XD",
+      "qEn": "she even stuffs her bra!! lol",
+      "opts": [
+       "¿Que hace qué?",
+       "Tranquilízate."
+      ],
+      "optsEn": [
+       "She, um... what?",
+       "Calm down."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "ay, no... ya mpiezo a sudar =/",
+      "qEn": "oh noes... now im starting to get sweaty =/",
+      "opts": [
+       "¿Estás hablando sola?",
+       "Date vida y cuéntamelo."
+      ],
+      "optsEn": [
+       "Are you talking to yourself?",
+       "Hurry up and tell me."
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "s una locura incluso pra mí ＞_＞",
+      "qEn": "thats kinda crazy even for me ＞_＞;",
+      "opts": [
+       "¿Cómo es?",
+       "¿Vas a pedirle salir?"
+      ],
+      "optsEn": [
+       "What is he like?",
+       "Are you gonna ask him out?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "ponía q van a cancelar Innocent Sin.crees q van n serio?",
+      "qEn": "it said their cancelling innocent sin. ...think its for real?",
+      "opts": [
+       "Ya no podemos hacer nada.",
+       "¡Venga ya!",
+       "Yo qué sé."
+      ],
+      "optsEn": [
+       "Not much we can do.",
+       "No way!",
+       "Whatever, I guess."
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "tatsuya... crees q pdremos seguir viéndonos? T_T",
+      "qEn": "tatsuya... do u think we'll still be able to see each other? T_T",
+      "opts": [
+       "Eso creo.",
+       "No, se acabó.",
+       "No te preocupes por eso."
+      ],
+      "optsEn": [
+       "I think so.",
+       "No, this is the end.",
+       "Don't worry about that."
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "maya no s va x las buenas! ＞=/voy a hacrles picadillo!",
+      "qEn": "maya's not goin quietly! ＞=/ i'll beat em to the punch!",
+      "opts": [
+       "¿Qué estás maquinando?",
+       "Eso no va a arreglar nada."
+      ],
+      "optsEn": [
+       "What are you planning?",
+       "This won't change anything."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maya",
+      "q": "debería disculprme...",
+      "qEn": "...i should apologize",
+      "opts": [
+       "¿Por qué?",
+       "Ah, no te preocupes."
+      ],
+      "optsEn": [
+       "About what?",
+       "Oh, no worries."
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "no creo q lo haga...",
+      "qEn": "i dun think i will...",
+      "opts": [
+       "Ahora sí que se va a acabar seguro.",
+       "¿Lo sientes por eso?"
+      ],
+      "optsEn": [
+       "Now they'll end it for sure.",
+       "Is that why you're sorry?"
+      ]
+     },
+     {
+      "speaker": "Maya",
+      "q": "creo q voy a djar el juego hoy.no... no creo q vuelva a vrte T_T",
+      "qEn": "im thinkin bout quittin the MMO today. i... dun think i'll c u again T_T",
+      "opts": [
+       "Qué repentino...",
+       "Te echaré de menos."
+      ],
+      "optsEn": [
+       "This is sudden...",
+       "I'll miss you."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "fortune": {
+  "npc": "108",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "¡Por eso no te preocupes! Oye, , ¿tienes ojo para el arte?",
+      "qEn": "Don't worry about that! Hey, -kun, do you have an eye for art?",
+      "opts": [
+       "No, la verdad.",
+       "Sí, un poco."
+      ],
+      "optsEn": [
+       "No, not really.",
+       "Yeah, kinda."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "025",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "¡...!",
+      "qEn": "...!",
+      "opts": [
+       "¿Qué ocurre?",
+       "¿Necesitas descansar?"
+      ],
+      "optsEn": [
+       "What's wrong?",
+       "Do you need some rest?"
+      ]
+     },
+     {
+      "speaker": "Miembro del club",
+      "q": "Yamagishi se va a quedar aquí un tiempecito.",
+      "qEn": "Yamagishi-san won't be going anywhere for a while.",
+      "opts": [
+       "¿\"La misma cantinela\"?",
+       "¿Hay algún problema?"
+      ],
+      "optsEn": [
+       "\"Strikes again\"?",
+       "Is that a problem?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Me ayudó mucho a distribuir la pintura en el lienzo. Seguro que fue la única razón por la que los jueces se fijaron en él.",
+      "qEn": "It really helped apply the paint to the canvas, so I'm sure that's the only reason the judges even noticed.",
+      "opts": [
+       "Tienes talento.",
+       "Has tenido suerte."
+      ],
+      "optsEn": [
+       "You've got talent.",
+       "You got lucky."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "035",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Te recomiendo que añadas más marisco a tu dieta, como ostras y orejas de mar. Están repletas de hierro y son fáciles de cocinar.",
+      "qEn": "I recommend adding more shellfish to your diet, like oyster and abalone. They're packed with iron and easy to cook.",
+      "opts": [
+       "Buen trabajo, hijo de médico.",
+       "¿Estará bien?"
+      ],
+      "optsEn": [
+       "Good work, Doc Junior.",
+       "Will he be okay?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "¿L-lo has oído... todo?",
+      "qEn": "Did you... hear everything?",
+      "opts": [
+       "¿Dejas el club de arte?",
+       "¿Vas a retirarte del concurso?"
+      ],
+      "optsEn": [
+       "You're quitting art club?",
+       "You're pulling out of the contest?"
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "¡Yo también tengo mis sueños! Uf, ¡no aguanto más!",
+      "qEn": "I have my own dreams too, you know! Ugh, I can't stand it anymore!",
+      "opts": [
+       "No solucionarás nada quejándote.",
+       "¿Y lo vas a aceptar sin más?"
+      ],
+      "optsEn": [
+       "Complaining to me won't help you.",
+       "So you're just gonna take it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Eso significa que...",
+      "qEn": "Wait. Then... that means...",
+      "opts": [
+       "¡Deberías decírselo a tu padre!",
+       "¡Ya no tienes que dejarlo!"
+      ],
+      "optsEn": [
+       "You should tell your dad!",
+       "Now you don't have to quit!"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "055",
+    "rank": 5,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "065",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Todos se están esforzando mucho...",
+      "qEn": "Everyone's working so hard...",
+      "opts": [
+       "Igual que tú.",
+       "¿Qué sucede?"
+      ],
+      "optsEn": [
+       "So are you.",
+       "What's the matter?"
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "No sé qué pensar.",
+      "qEn": "I just don't know what to think.",
+      "opts": [
+       "¿Quieres estudiar fuera?",
+       "Ahora decides tú."
+      ],
+      "optsEn": [
+       "Will you study abroad?",
+       "It's your choice now."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "075",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Ahora intenta ser mucho más comprensivo. Es raro.",
+      "qEn": "It's like he's suddenly trying to be more understanding. It's weird.",
+      "opts": [
+       "¿Quieres ser médico?",
+       "¿No te gusta el club de arte?"
+      ],
+      "optsEn": [
+       "Do you want to be a doctor?",
+       "Don't you like art club?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "085",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "¿Recuerdas cómo te llamas?",
+      "qEn": "Can you remember your name?",
+      "opts": [
+       "No pasa nada. Estoy bien.",
+       "Claro, me llamo Keisuke.",
+       "..."
+      ],
+      "optsEn": [
+       "It's okay, I'm fine.",
+       "Of course. It's Keisuke.",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "B-bueno, ¿recuerdas lo que pasó?",
+      "qEn": "A-Anyway, do you remember what happened?",
+      "opts": [
+       "Sí.",
+       "No."
+      ],
+      "optsEn": [
+       "I do.",
+       "I don't."
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "No soy médico...",
+      "qEn": "I'm not a doctor...",
+      "opts": [
+       "¿Tú quieres serlo?",
+       "No te fustigues."
+      ],
+      "optsEn": [
+       "Do you think you want to be one?",
+       "Don't beat yourself up about it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "095",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "¡Diles adiós de mi parte a los demás!",
+      "qEn": "Tell the others I said goodbye!",
+      "opts": [
+       "¡No puedes irte!",
+       "¡Buena suerte!"
+      ],
+      "optsEn": [
+       "You can't go!",
+       "Good luck!"
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Señora, ¿está bien? Esa tos...",
+      "qEn": "Ma'am, are you all right!? That cough...",
+      "opts": [
+       "¿Qué ha ocurrido?",
+       "Deberías irte."
+      ],
+      "optsEn": [
+       "What happened?",
+       "...You should just go."
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "¡El tren está a punto de salir! ¿Q-qué hago?",
+      "qEn": "My train's about to leave! Wh-What should I do?",
+      "opts": [
+       "¡Ya me encargo yo!",
+       "¡No puedes dejar tu viaje!"
+      ],
+      "optsEn": [
+       "Leave this to me!",
+       "You can't abandon your trip!"
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "¿Cómo lo ayudo?",
+      "qEn": "How should I help him?",
+      "opts": [
+       "Es mejor dejarlo en paz.",
+       "Debería hablar con él.",
+       "Le daré unas palmaditas en la espalda."
+      ],
+      "optsEn": [
+       "Better leave him alone.",
+       "I should talk to him.",
+       "I'll try patting his upper back."
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "¿Qué hago ahora?",
+      "qEn": "What should I do next?",
+      "opts": [
+       "Es mejor dejarlo en paz.",
+       "Podría frotarle la espalda.",
+       "Lo tumbaré boca arriba."
+      ],
+      "optsEn": [
+       "Better leave him alone.",
+       "I could rub his back.",
+       "I'll lay him on his back."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": []
+   }
+  ]
+ },
+ "strength": {
+  "npc": "106",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Y tú qué, ? ¿Te gusta el atletismo?",
+      "qEn": "...How about you, -kun? Are you enjoying track and field?",
+      "opts": [
+       "Es divertido.",
+       "Todavía no lo sé."
+      ],
+      "optsEn": [
+       "It's fun.",
+       "I'm not sure yet."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Además, tampoco andaba con ánimos de venir sola.",
+      "qEn": "Also, I wasn't really in the mental state to do this alone today.",
+      "opts": [
+       "¿Qué ha ocurrido?",
+       "Hiciste bien."
+      ],
+      "optsEn": [
+       "What happened?",
+       "You did good."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Y, sin darme cuenta, me quedé dormida. Al final entregué el folio en blanco.",
+      "qEn": "And before I knew it, I'd dozed off. I ended up handing in a blank paper.",
+      "opts": [
+       "Qué mal...",
+       "No fue culpa tuya."
+      ],
+      "optsEn": [
+       "That's bad.",
+       "It wasn't your fault."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Venga ya... Es demasiado pronto para preocuparse por el futuro, ¿no? ¡Todavía somos adolescentes!",
+      "qEn": "But come on, it's way too early to worry about the future, isn't it? We're still just teenagers!",
+      "opts": [
+       "Eso es cierto.",
+       "No creo.",
+       "¿No has pensado en tu futuro?"
+      ],
+      "optsEn": [
+       "That's true.",
+       "I don't think so.",
+       "You haven't thought about it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "De lo contrario, se habría pasado de la raya.",
+      "qEn": "Going that far would've been crossing the line.",
+      "opts": [
+       "¿Te pasa a menudo?",
+       "¿Sabes quién ha sido?"
+      ],
+      "optsEn": [
+       "Does this happen often?",
+       "Do you know who did it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "035",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Siento haberte implicado en esto.",
+      "qEn": "Sorry you got dragged into that.",
+      "opts": [
+       "¿Amigas tuyas?",
+       "No te preocupes."
+      ],
+      "optsEn": [
+       "Friends of yours?",
+       "Don't worry about it."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Han dicho que eras mi novio. Seguro que eso te ha hecho sentir incómodo, ¿no?",
+      "qEn": "They called you my boyfriend. That must have made you feel awkward, huh?",
+      "opts": [
+       "Me halaga.",
+       "No pasa nada.",
+       "Podría ser un problema."
+      ],
+      "optsEn": [
+       "I'm honored.",
+       "I don't mind.",
+       "It might be a problem."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "045",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": ", ¿qué crees que debería hacer?",
+      "qEn": "-kun, what do you think I should do?",
+      "opts": [
+       "¿Por qué no intentarlo?",
+       "Eso lo decides tú."
+      ],
+      "optsEn": [
+       "Why not give it a go?",
+       "That's for you to decide."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Por qué no? Porfi... Sinceramente, no creo que pueda encargarme yo sola.",
+      "qEn": "I mean, why not, right? Please? Honestly, I don't think I can handle it on my own...",
+      "opts": [
+       "Faltaría más.",
+       "Es mucho rollo."
+      ],
+      "optsEn": [
+       "Sure thing.",
+       "It's kind of a hassle."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Los niños de primaria aprenden muy rápido, ¿verdad?",
+      "qEn": "Elementary school kids really learn fast, don't you think?",
+      "opts": [
+       "Tienes razón, es impresionante.",
+       "¿No es lo normal?",
+       "Es porque enseñas muy bien."
+      ],
+      "optsEn": [
+       "You're right, it's impressive.",
+       "That's not normal?",
+       "It's because you teach so well."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Debería cambiar de rutina de entrenamiento? Quizá deberían correr más.",
+      "qEn": "Should I change the training routine? Maybe they should be running more.",
+      "opts": [
+       "No deberías cambiarla.",
+       "Quizá deberías replanteártelo.",
+       "Confío en todo lo que decidas, Yuko."
+      ],
+      "optsEn": [
+       "You shouldn't change it.",
+       "Maybe you should rethink it.",
+       "I trust whatever you decide, Yuko."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Ah, , ¿por qué no les das tú también algún consejo?",
+      "qEn": "...Oh, -kun, why don't you give them some advice too?",
+      "opts": [
+       "Vosotros podéis.",
+       "¡Demostrad que tenéis agallas!"
+      ],
+      "optsEn": [
+       "You guys got this.",
+       "Show some guts!"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "La diferencia de edad es muy importante cuando son tan pequeños. ¿Crees que podrán con los de sexto?",
+      "qEn": "Age difference really matters when you're as young as they are. Do you really think they can beat the sixth graders?",
+      "opts": [
+       "Va a ser duro.",
+       "Hay que tener fe en ellos."
+      ],
+      "optsEn": [
+       "It's gonna be tough.",
+       "As long as we believe in them."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Erre que erre con que eres mi novio...",
+      "qEn": "They called you my boyfriend till the very end...",
+      "opts": [
+       "¿Quieres que lo hagamos realidad?",
+       "Me da mucho corte.",
+       "Solo están de broma."
+      ],
+      "optsEn": [
+       "Wanna make that true?",
+       "It's embarrassing.",
+       "They're just joking."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Es como que los niños han abandonado el nido...",
+      "qEn": "It's like the kids have left the nest...",
+      "opts": [
+       "¿Estás triste?",
+       "¿Te sientes más aliviada?"
+      ],
+      "optsEn": [
+       "Are you sad?",
+       "Are you relieved?"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Podríamos hacer una fiestecilla. Ya sabes, para celebrar nuestra primera experiencia como entrenadores.",
+      "qEn": "Maybe we should throw a little party. You know, to celebrate our first attempt at coaching.",
+      "opts": [
+       "Venga, vale.",
+       "¿Por qué?"
+      ],
+      "optsEn": [
+       "Let's do it.",
+       "Why?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Salí a comprar cosas para el entrenamiento de atletismo y me quedé sin dinero.",
+      "qEn": "I was out buying stuff that might be useful for running practice, and I ran out of money.",
+      "opts": [
+       "No pasa nada.",
+       "Qué habitación tan bonita.",
+       "¿Cosas para los niños?"
+      ],
+      "optsEn": [
+       "It's fine.",
+       "This is a nice room.",
+       "Stuff for the kids?"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Mmm... Ah, ¿te gustan los niños?",
+      "qEn": "Hmm... Oh, do you like children?",
+      "opts": [
+       "Sí.",
+       "No creas."
+      ],
+      "optsEn": [
+       "I do.",
+       "Not really."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Qué te gustaría que fuese, niño o niña?",
+      "qEn": "Would you want it to be a boy or a girl?",
+      "opts": [
+       "Un niño.",
+       "Una niña.",
+       "Me da igual."
+      ],
+      "optsEn": [
+       "A boy.",
+       "A girl.",
+       "I don't care."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Al final, me confundió más de lo que estaba. Tendré que ir a preguntarle otra vez mañana.",
+      "qEn": "All it did was make me more confused than I originally was. Guess I'll have to go ask again tomorrow.",
+      "opts": [
+       "Eres muy trabajadora.",
+       "¿Por qué te tomas tantas molestias?"
+      ],
+      "optsEn": [
+       "You're so hardworking.",
+       "Why go through all that trouble?"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "A ver si lo adivinas.",
+      "qEn": "Can you guess what it is?",
+      "opts": [
+       "¿Estrella del atletismo?",
+       "¿Monitora?",
+       "¿Maestra de preescolar?",
+       "Ni idea."
+      ],
+      "optsEn": [
+       "A track and field star?",
+       "An instructor?",
+       "A nursery teacher?",
+       "No idea..."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Me he dado cuenta de que he estado dependiendo mucho de ti.",
+      "qEn": "I realized now that I might've been relying too much on you.",
+      "opts": [
+       "No pasa nada.",
+       "Puedes seguir contando conmigo."
+      ],
+      "optsEn": [
+       "I don't mind.",
+       "You can rely on me even more."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Solo lo eres... conmigo? N-no, no puede ser.",
+      "qEn": "Are you like this... just with me? N-No, no, th-that can't be it, huh...",
+      "opts": [
+       "Porque te quiero.",
+       "Porque eres muy buena amiga."
+      ],
+      "optsEn": [
+       "It's because I love you.",
+       "It's because you're a close friend."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Qué está pasando? ¿Estoy soñando?",
+      "qEn": "What's happening...? Is this a dream?",
+      "opts": [
+       "Te quiero, Yuko.",
+       "No es un sueño."
+      ],
+      "optsEn": [
+       "I love you, Yuko.",
+       "It's not a dream."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Deberías tener cuidado con lo que dices. Podrías meterte en un buen lío.",
+      "qEn": "So you should really be careful about that. It could land you in some hot water.",
+      "opts": [
+       "Eso haré.",
+       "¿Por qué?"
+      ],
+      "optsEn": [
+       "Okay, I will.",
+       "Why?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Podría habértelo explicado en el instituto, pero quería hablar contigo en un lugar más tranquilo.",
+      "qEn": "I guess I could've told you this next part at school, but I wanted to talk somewhere quiet.",
+      "opts": [
+       "¿Tan importante es?",
+       "¿Qué pasa?"
+      ],
+      "optsEn": [
+       "Is it that important?",
+       "What is it?"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Sé que nos dieron mucha guerra, pero también tienen un lado muy entrañable, ¿no te parece?",
+      "qEn": "I know they were kind of a handful, but they also have an endearing side to them, don't you think?",
+      "opts": [
+       "Sí.",
+       "No creas."
+      ],
+      "optsEn": [
+       "Yeah.",
+       "Not really."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Porque hoy... Bueno, mis padres no están en casa, así que...",
+      "qEn": "Because today... Well, my parents aren't home, so...",
+      "opts": [
+       "Ya.",
+       "¿Qué significa eso?"
+      ],
+      "optsEn": [
+       "I see.",
+       "What does that mean?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "180",
+    "rank": 8,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¿Cuál te llama más, ?",
+      "qEn": "Which one sounds better to you, -kun?",
+      "opts": [
+       "El cuqui.",
+       "El razonable.",
+       "El que sea."
+      ],
+      "optsEn": [
+       "The cute one.",
+       "The reasonable one.",
+       "Either is fine."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Siento mucho arrastrarte siempre a situaciones como esta.",
+      "qEn": "Sorry for always dragging you into situations like this.",
+      "opts": [
+       "Menos mal que no ha acabado en pelea.",
+       "Lo has manejado bien."
+      ],
+      "optsEn": [
+       "Glad it didn't turn into a fight.",
+       "You handled it well."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "190",
+    "rank": 9,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "¡Casi me revienta el estómago!",
+      "qEn": "I thought my stomach was gonna explode!",
+      "opts": [
+       "Típico de ti.",
+       "Así vas a engordar."
+      ],
+      "optsEn": [
+       "That sounds like you.",
+       "You're gonna get fat."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "A ver si lo adivinas.",
+      "qEn": "Can you guess what it is?",
+      "opts": [
+       "¿Estrella del atletismo?",
+       "¿Monitora?",
+       "¿Maestra de preescolar?",
+       "Ni idea."
+      ],
+      "optsEn": [
+       "A track and field star?",
+       "An instructor?",
+       "A nursery teacher?",
+       "No idea..."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Ahora que lo pienso, te he causado muchos problemas... Lo siento mucho.",
+      "qEn": "Thinking back, I really caused you a lot of trouble, so... I'm sorry.",
+      "opts": [
+       "No pasa nada.",
+       "Puedes seguir contando conmigo."
+      ],
+      "optsEn": [
+       "I don't mind.",
+       "You can rely on me even more."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Si tienes algo en mente, estoy aquí para lo que necesites. Aunque sea para despotricar, ¿vale?",
+      "qEn": "If you've got something on your mind, I'm here for you anytime, even if you just gotta rant, all right?",
+      "opts": [
+       "Gracias.",
+       "Siempre se puede contar contigo.",
+       "Pues tengo tarea..."
+      ],
+      "optsEn": [
+       "Thanks.",
+       "You're so dependable.",
+       "I do have some homework..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "200",
+    "rank": 10,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Uf, cómo pesa. No debería haberlo apiñado todo ahí.",
+      "qEn": "Ugh, this is so heavy. I shouldn't have crammed everything in there...",
+      "opts": [
+       "¿Cosas para el equipo de atletismo?",
+       "¿Quieres que la lleve yo?"
+      ],
+      "optsEn": [
+       "Stuff for the track team?",
+       "Want me to carry it?"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Y tampoco ha pasado tanto tiempo desde que entrenamos a los niños, ¿eh?",
+      "qEn": "It hasn't even been that long since we coached those kids though, huh?",
+      "opts": [
+       "Fue muy gratificante.",
+       "Es la edad..."
+      ],
+      "optsEn": [
+       "That's just how fulfilling it was.",
+       "It's age..."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Me lo han dado los niños. Me han dicho que \"no se me olvide dárselo a \".",
+      "qEn": "It's from those kids. They told me to \"make sure I give it to -san.\"",
+      "opts": [
+       "Se han acordado de cómo me llamo.",
+       "¿Y la tuya?",
+       "Gracias."
+      ],
+      "optsEn": [
+       "They remembered my name...",
+       "Where's yours?",
+       "Thanks."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Casi que me dan ganas de repetirlo. ¿Qué opinas tú?",
+      "qEn": "Kinda makes me wanna do it all again. What about you?",
+      "opts": [
+       "Si surge la oportunidad...",
+       "Solo si tú lo haces también."
+      ],
+      "optsEn": [
+       "If the opportunity arises.",
+       "Only if you're doing it too."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Uf, cómo pesa. No debería haberlo apiñado todo ahí.",
+      "qEn": "Ugh, this is so heavy. I shouldn't have crammed everything in there...",
+      "opts": [
+       "¿Cosas para el equipo de atletismo?",
+       "¿Quieres que la lleve yo?"
+      ],
+      "optsEn": [
+       "Stuff for the track team?",
+       "Want me to carry it?"
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Y tampoco ha pasado tanto tiempo desde que entrenamos a los niños, ¿eh?",
+      "qEn": "It hasn't even been that long since we coached those kids though, huh?",
+      "opts": [
+       "Fue muy gratificante.",
+       "Es la edad..."
+      ],
+      "optsEn": [
+       "That's just how fulfilling it was.",
+       "It's age..."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Me lo han dado los niños. Me han dicho que \"no se me olvide dárselo a mi novio\".",
+      "qEn": "It's from those kids. They told me to \"make sure I give it to my boyfriend.\"",
+      "opts": [
+       "Novio...",
+       "¿Y la tuya?",
+       "Me halaga."
+      ],
+      "optsEn": [
+       "Boyfriend...",
+       "Where's yours?",
+       "I'm honored."
+      ]
+     },
+     {
+      "speaker": "Yuko Nishiwaki",
+      "q": "Casi que me dan ganas de repetirlo. ¿Qué opinas tú?",
+      "qEn": "Kinda makes me wanna do it all again. What about you?",
+      "opts": [
+       "Si surge la oportunidad...",
+       "Me lo pensaré."
+      ],
+      "optsEn": [
+       "If the opportunity arises.",
+       "Let me think about it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "hanged": {
+  "npc": "110",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "Te toca, ¿vale? ¡Tienes que elegir!",
+      "qEn": "It's your turn, okay? You get to pick!",
+      "opts": [
+       "Vamos al balancín.",
+       "Vamos a las barras.",
+       "Vamos al pasamanos.",
+       "Quiero irme a casa."
+      ],
+      "optsEn": [
+       "See-saw.",
+       "Jungle gym.",
+       "Monkey bars.",
+       "I wanna go home."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¡Me ruge el estómago! ¿Podemos ir a Wilduck?",
+      "qEn": "My tummy's grumbling! Can we go to Wilduck?",
+      "opts": [
+       "Claro, vamos.",
+       "Sigamos jugando."
+      ],
+      "optsEn": [
+       "Sure, let's go.",
+       "Let's keep playing."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "025",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¿Por qué quieren divorciarse?",
+      "qEn": "Why would they get a divorce?",
+      "opts": [
+       "Ya no están enamorados.",
+       "Probablemente sea culpa tuya.",
+       "No lo sé."
+      ],
+      "optsEn": [
+       "They fell out of love.",
+       "It's probably your fault.",
+       "I don't know."
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "Está sollozando. ¿Qué hago?",
+      "qEn": "...She's sobbing loudly. What should I do?",
+      "opts": [
+       "Calmarla",
+       "Esperar a que deje de llorar"
+      ],
+      "optsEn": [
+       "Calm her down",
+       "Wait for her to finish"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Joven delgado",
+      "q": "¿Y tú quién eres?",
+      "qEn": "...And who are you?",
+      "opts": [
+       "Soy amigo de Maiko.",
+       "Alguien que pasaba por aquí."
+      ],
+      "optsEn": [
+       "I'm Maiko's friend.",
+       "Just a random passerby."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "035",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¿Crees que vendrá a verme?",
+      "qEn": "Do you think he'll come home and see me?",
+      "opts": [
+       "Probablemente se olvidará.",
+       "La verdad es que no lo sé.",
+       "No te preocupes, irá."
+      ],
+      "optsEn": [
+       "He'll probably forget.",
+       "I really can't say.",
+       "Don't worry, he'll be there."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¡Sí que se preocupan por mí!",
+      "qEn": "They really do care about me!",
+      "opts": [
+       "Qué buenas noticias.",
+       "Claro que les importas.",
+       "No, no les importas."
+      ],
+      "optsEn": [
+       "That's great news.",
+       "Of course they care.",
+       "Nah, they don't care."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¡Es malo conmigo! ¡No es justo!",
+      "qEn": "He's so mean! It's not fair!",
+      "opts": [
+       "Qué horror.",
+       "¿Por qué ha hecho eso?"
+      ],
+      "optsEn": [
+       "That's awful.",
+       "Why would he do that?"
+      ]
+     },
+     {
+      "speaker": "Maiko",
+      "q": "¿Será que prefieren que desaparezca?",
+      "qEn": "Do they just wish I would disappear?",
+      "opts": [
+       "Es posible.",
+       "Nunca querrían eso."
+      ],
+      "optsEn": [
+       "It's possible.",
+       "They would never."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¡Ya lo he decidido! ¡Tengo que irme de casa!",
+      "qEn": "I made up my mind! I have to run away from home!",
+      "opts": [
+       "Ni se te ocurra.",
+       "Tranquilízate.",
+       "Tú decides."
+      ],
+      "optsEn": [
+       "Don't do it.",
+       "Calm down.",
+       "It's up to you."
+      ]
+     },
+     {
+      "speaker": "Maiko",
+      "q": "Necesitaré mucha comida, ¿verdad? ¿Y mi tarjeta del seguro?",
+      "qEn": "I need lots of snacks, right? And my... insurance card?",
+      "opts": [
+       "Con eso debería ser suficiente.",
+       "Yo cogería más cosas."
+      ],
+      "optsEn": [
+       "That should be enough.",
+       "It'll take more than that."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Madre de Maiko",
+      "q": "¡Nunca había hecho algo así!",
+      "qEn": "She's never done anything like this before!",
+      "opts": [
+       "Deberíamos buscarla.",
+       "Probablemente sea culpa tuya.",
+       "Déjala tranquila."
+      ],
+      "optsEn": [
+       "We should look for her.",
+       "It's probably your fault.",
+       "Just leave her alone."
+      ]
+     },
+     {
+      "speaker": "Padre de Maiko",
+      "q": "Si sabes dónde puede estar, te ruego que nos lo digas.",
+      "qEn": "If you have any idea where she is, I'm begging you to tell us.",
+      "opts": [
+       "Quizá esté en la tienda de música.",
+       "Quizá esté en el puesto de takoyaki."
+      ],
+      "optsEn": [
+       "Maybe the music store.",
+       "Maybe the takoyaki stand."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "073",
+    "rank": 7,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "075",
+    "rank": 7,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¿Qué te apetece?",
+      "qEn": "What do you wanna get?",
+      "opts": [
+       "Hamburguesa.",
+       "Cocina japonesa."
+      ],
+      "optsEn": [
+       "Hamburgers.",
+       "Japanese food."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "085",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "Fue triste, pero los escuché atentamente. ¿Hice bien?",
+      "qEn": "It was sad, but I listened to the whole thing. Did I do good?",
+      "opts": [
+       "Eres muy buena niña.",
+       "No, la verdad."
+      ],
+      "optsEn": [
+       "You're a good girl.",
+       "Not really."
+      ]
+     },
+     {
+      "speaker": "Maiko",
+      "q": "¿A quién debería elegir?",
+      "qEn": "Who do you think I should pick?",
+      "opts": [
+       "Vive con tu papá.",
+       "Vive con tu mamá.",
+       "Tú decides."
+      ],
+      "optsEn": [
+       "Your dad.",
+       "Your mom.",
+       "You decide."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "095",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "Aunque me vaya, mantendremos nuestra amistad, ¿no?",
+      "qEn": "Even if I'm gone... we'll still be friends, right?",
+      "opts": [
+       "Amiguis para siempre.",
+       "Puede que me olvide de ti."
+      ],
+      "optsEn": [
+       "Friends forever.",
+       "I might forget about you."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Maiko",
+      "q": "¿Tú crees que algún día formaré mi propia familia?",
+      "qEn": "Do you think I'll have a family of my own one day?",
+      "opts": [
+       "Seguro que sí.",
+       "Ni idea."
+      ],
+      "optsEn": [
+       "I'm sure you will.",
+       "No idea."
+      ]
+     },
+     {
+      "speaker": "Maiko",
+      "q": "¿Podemos casarnos?",
+      "qEn": "Can we get married?",
+      "opts": [
+       "Claro.",
+       "Me lo pensaré."
+      ],
+      "optsEn": [
+       "Sure.",
+       "I'll think about it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "temperance": {
+  "npc": "112",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "",
+      "q": "El estudiante de intercambio que conocí en la librería está ocupado cosiendo.",
+      "qEn": "The foreign exchange student I met at the bookstore is busy sewing.",
+      "opts": [
+       "Debería saludar.",
+       "Es mejor dejarlo en paz."
+      ],
+      "optsEn": [
+       "I should say hi.",
+       "Better leave him alone."
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "¡Qué sorpresa tan agradable! ¡Me alegro de verte!",
+      "qEn": "What a pleasant surprise! I am so happy to see you!",
+      "opts": [
+       "¿Qué haces?",
+       "¿Sabes cómo me llamo?"
+      ],
+      "optsEn": [
+       "What are you doing?",
+       "You know my name?"
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "Si me permites la osadía, ¿te unes a mi club?",
+      "qEn": "If I may be so bold, would you sign up for my club?",
+      "opts": [
+       "Claro, me uniré.",
+       "No, gracias."
+      ],
+      "optsEn": [
+       "Sure, I'll join.",
+       "No thanks."
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "¿Cuál es la mejor manera de despedirse de un amigo? ¿Qué está más culturalmente aceptado?",
+      "qEn": "I was wondering, what is the best way to say bye to a friend? As in, what is the most culturally accepted?",
+      "opts": [
+       "Algo simple: \"¡Nos vemos!\".",
+       "Algo divertido: \"¡Hasta luegui!\".",
+       "Algo majestuoso: \"Hasta la próxima\".",
+       "Algo intenso y teatral: \"¡Volveré!\"."
+      ],
+      "optsEn": [
+       "Just a simple \"See you later.\"",
+       "A cool and chummy \"Peace out.\"",
+       "A stately \"Until we meet again.\"",
+       "A theatrical, intense \"I'll be back.\""
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "Será la primera vez que vaya. ¿Quieres enseñarme las costumbres?",
+      "qEn": "It will be my first time going. Will you maybe, how do you say, show me the ropes?",
+      "opts": [
+       "Claro, vamos.",
+       "¿Te gustan los dulces?",
+       "No hay nada que enseñar."
+      ],
+      "optsEn": [
+       "Sure, let's go.",
+       "You like sweets?",
+       "There's nothing to show."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "025",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¡Me encanta la cultura de Nihon! ¡Japón es sugoi, incroyable!",
+      "qEn": "I love the culture of Nihon! Japan is sugoi—amazing!",
+      "opts": [
+       "Estoy de acuerdo.",
+       "¿Y qué me dices de tu país?",
+       "No es para tanto."
+      ],
+      "optsEn": [
+       "I totally agree.",
+       "What about your country?",
+       "It's not that great."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "Has mejorado muchísimo, . ¡Subarashii, qué maravilla!",
+      "qEn": "You have gotten much better at this, -dono! Subarashii—wonderful!",
+      "opts": [
+       "Puedo hacerlo mejor.",
+       "Gracias."
+      ],
+      "optsEn": [
+       "I can do better.",
+       "Thanks."
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "Me gustaría hacer algo japonés, pero ¿qué?",
+      "qEn": "I would like to make something Japanese, but what?",
+      "opts": [
+       "¿Qué te gusta?",
+       "¿Y por qué no ropa occidental?",
+       "¿Qué te parece un kimono?"
+      ],
+      "optsEn": [
+       "What do you like?",
+       "Why not Western clothes?",
+       "How about a kimono?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "¿Cómo es que hoy no trabajas?",
+       "¿Lo dejamos por hoy?",
+       "¿Estás bien?"
+      ],
+      "optsEn": [
+       "How come you're not working?",
+       "Should we stop for today?",
+       "Are you all right?"
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "¡Se la han llevado los ángeles!",
+      "qEn": "She was taken by the angels!",
+      "opts": [
+       "¿Qué ha ocurrido?",
+       "Tranquilízate.",
+       "Qué tragedia..."
+      ],
+      "optsEn": [
+       "What happened?",
+       "Calm down.",
+       "That's terrible..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¿Vamos a comer algo a algún sitio después?",
+      "qEn": "Could we go somewhere to eat after this?",
+      "opts": [
+       "Claro.",
+       "¿Que por qué?"
+      ],
+      "optsEn": [
+       "Sure.",
+       "Why?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "055",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¡Quizá nunca vuelva a Japón!",
+      "qEn": "I might never come back to Japan again!",
+      "opts": [
+       "Tienes que aceptarlo.",
+       "¡Pues quédate en Japón!"
+      ],
+      "optsEn": [
+       "You have to accept it.",
+       "Just stay in Japan!"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "No he avanzado casi nada.",
+      "qEn": "I have barely sewn anything at all.",
+      "opts": [
+       "¿Qué ocurre?",
+       "¿No quieres descansar?"
+      ],
+      "optsEn": [
+       "What's wrong?",
+       "Why not take a break?"
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "¿Te vienes con moi a Azuki Arai?",
+      "qEn": "Will you go to Azuki Arai with moi?",
+      "opts": [
+       "Venga.",
+       "Solo un minuto..."
+      ],
+      "optsEn": [
+       "Let's do it.",
+       "Just one minute..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "065",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¡Quiero quedarme en Japón, aunque tenga que alimentarme de piedras!",
+      "qEn": "I want to stay here in Japan even if I have to eat dirt!",
+      "opts": [
+       "¡Estoy contigo!",
+       "¿Qué vas a hacer?"
+      ],
+      "optsEn": [
+       "I have your back!",
+       "What will you do?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¡Le enseñaré un kimono! Cuando lo vea, ¡comprenderá la belleza de Nihon!",
+      "qEn": "I will show him a kimono! When he sees it, he will understand the beauty of Nihon!",
+      "opts": [
+       "¿Con eso será suficiente?",
+       "Muy buena idea."
+      ],
+      "optsEn": [
+       "Will that be enough?",
+       "That's a great idea."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¡Cuando mi tío vea esto, seguro que coincidirá conmigo en lo genial que es Nihon!",
+      "qEn": "When my uncle sees this, I know he'll agree with me about how great Nihon is!",
+      "opts": [
+       "¿Cuándo estará listo?",
+       "¡Seguro que sí!",
+       "Menos cháchara y más trabajar."
+      ],
+      "optsEn": [
+       "When will it be done?",
+       "He'll definitely agree!",
+       "Less talk, more work."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "Y, gracias a toda tu ayuda, ¡el kimono está casi acabado! ¡Qué bendición!",
+      "qEn": "And thanks to all your help, the kimono is almost finished! I feel so blessed!",
+      "opts": [
+       "¡Enhorabuena!",
+       "¿No echas de menos tu hogar?",
+       "Recuerda que me debes una."
+      ],
+      "optsEn": [
+       "Congrats!",
+       "Aren't you homesick?",
+       "Don't forget, you owe me."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Bebe",
+      "q": "¡Por fin está fini!",
+      "qEn": "At last, it is fini!",
+      "opts": [
+       "¿Qué tal?",
+       "¡Buen trabajo!"
+      ],
+      "optsEn": [
+       "How does it look?",
+       "Great work!"
+      ]
+     },
+     {
+      "speaker": "Bebe",
+      "q": "Han sido los que he pasado contigo, mi tomodachi.",
+      "qEn": "They are the times I spend with you, my tomodachi.",
+      "opts": [
+       "Te estaré esperando.",
+       "Buena suerte."
+      ],
+      "optsEn": [
+       "I'll be waiting for you.",
+       "Good luck out there."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "devil": {
+  "npc": "113",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Hombre trajeado",
+      "q": "Vale... Si insistes, te daré mi autógrafo. Siempre me gusta conocer a mis admiradores.",
+      "qEn": "All right... If you insist, I'll give you my autograph. It's always a pleasure to meet a fan.",
+      "opts": [
+       "¿Quién eres?",
+       "No quiero un autógrafo.",
+       "Me suenas de algo..."
+      ],
+      "optsEn": [
+       "Who are you?",
+       "I don't want an autograph.",
+       "You look familiar..."
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "Parece que está hablando sobre mí.",
+      "qEn": "It sounds like he's talking about me...",
+      "opts": [
+       "Hablar con él",
+       "Ignorarlo"
+      ],
+      "optsEn": [
+       "Talk to him",
+       "Ignore him"
+      ]
+     },
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "¡No se te ocurra chivarle a nadie que te he robado el dinero o que te he llamado mocoso! ¡¿Capisce?!",
+      "qEn": "Don't even think about telling someone that I took your money or called you a little brat! Capiche!?",
+      "opts": [
+       "Entendido.",
+       "Lo que tú digas."
+      ],
+      "optsEn": [
+       "Got it.",
+       "Whatever you say."
+      ]
+     },
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "¡Por favor! ¡Si hace falta, te limpiaré los zapatos con la lengua!",
+      "qEn": "Please! I'll lick your shoes clean if you want me to!",
+      "opts": [
+       "De acuerdo.",
+       "Me da igual."
+      ],
+      "optsEn": [
+       "All right.",
+       "I don't care."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "\"Placebo\". Es una palabra llana.",
+      "qEn": "\"Placebo\"! The stress is on the middle syllable.",
+      "opts": [
+       "\"Placebo\".",
+       "..."
+      ],
+      "optsEn": [
+       "\"Placebo.\"",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "¡Eso es solo una parte de nuestra línea de productos única!",
+      "qEn": "These are just a fraction of our unique line of products!",
+      "opts": [
+       "Hala.",
+       "Pero ¿eso se vende?"
+      ],
+      "optsEn": [
+       "Wow.",
+       "Can you even sell those?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "Hoy en día, hasta un niño de primaria sabe cómo comprar acciones por internet. ¿Y tú? ¿Te interesan las operaciones bursátiles?",
+      "qEn": "These days, even a grade-schooler knows how to buy stocks online. How about you? Interested in stock trading?",
+      "opts": [
+       "Quizá un poco.",
+       "Para nada."
+      ],
+      "optsEn": [
+       "Maybe a little.",
+       "Not at all."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "¿Alguna vez te has imaginado cómo sería poder ver a través de los trajes de baño en la playa?",
+      "qEn": "Have you ever wondered what it would be like to see through people's bathing suits at the beach?",
+      "opts": [
+       "¡Claro!",
+       "¿Eso es posible?"
+      ],
+      "optsEn": [
+       "Sure have!",
+       "Is that possible?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "No puedo concentrarme. ¡Cómo me cabreo cuando me acuerdo de su cara!",
+      "qEn": "Ugh, I just can't concentrate. I get so worked up when I picture his face!",
+      "opts": [
+       "¿Qué ha ocurrido?",
+       "¿La cara de quién?"
+      ],
+      "optsEn": [
+       "What happened?",
+       "Whose face?"
+      ]
+     },
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "Al final..., terminó por dejar de venir a trabajar.",
+      "qEn": "Then... he just stopped coming to work.",
+      "opts": [
+       "Me da pena por él.",
+       "¿Qué es de él?"
+      ],
+      "optsEn": [
+       "I feel sorry for him.",
+       "What happened to him?"
+      ]
+     },
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "Me pongo malo solo de pensar en las pérdidas netas. Argh.",
+      "qEn": "It makes me sick just thinking about the net losses... Argh...",
+      "opts": [
+       "Todo es cuestión de dinero...",
+       "¿Tanto fue?"
+      ],
+      "optsEn": [
+       "It's all about the money...",
+       "How bad is it?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "Hace poco, mi instituto organizó una reunión.",
+      "qEn": "Just the other day, my high school organized a class reunion.",
+      "opts": [
+       "Pinta divertido.",
+       "Menudo rollo."
+      ],
+      "optsEn": [
+       "Sounds fun.",
+       "Sounds like a hassle."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "¿Y bien? ¿No me notas nada diferente?",
+      "qEn": "Well? Do you notice anything different about me?",
+      "opts": [
+       "¿Como qué?",
+       "Más o menos..."
+      ],
+      "optsEn": [
+       "Like what?",
+       "Sort of..."
+      ]
+     },
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "¿Cuál crees que repondría el supermercado?",
+      "qEn": "Which one do you think the supermarket would rather stock?",
+      "opts": [
+       "El ecológico.",
+       "El que tiene buena pinta."
+      ],
+      "optsEn": [
+       "The organic one.",
+       "The one that looks good."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "Me dio las gracias.",
+      "qEn": "He said, \"Thank you.\"",
+      "opts": [
+       "Debiste oír mal.",
+       "¿Por qué iba a decir eso?"
+      ],
+      "optsEn": [
+       "You must've misheard.",
+       "Why would he say that?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Presidente Tanaka",
+      "q": "No obstante, por muy atractiva que fuera, me asqueó su compromiso con la caridad.",
+      "qEn": "But no matter how attractive she was, I was repulsed by her dedication to charity work.",
+      "opts": [
+       "¿Vas a donar?",
+       "¿No vas a donar?"
+      ],
+      "optsEn": [
+       "Are you going to donate?",
+       "You're not gonna donate?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": []
+   }
+  ]
+ },
+ "tower": {
+  "npc": "114",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Monje",
+      "q": "Je... Tiene gracia viniendo de un monje que bebe y fuma, ¿eh?",
+      "qEn": "Heh... I guess that sounds funny comin' out of an alcohol-drinkin', cigar-smokin' monk, eh?",
+      "opts": [
+       "¿Sabe bien el alcohol?",
+       "¿A qué sabe el tabaco?"
+      ],
+      "optsEn": [
+       "Is alcohol good?",
+       "What's a cigar taste like?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Monje",
+      "q": "¿Qué te trae hoy por aquí, chaval?",
+      "qEn": "What'cha doin' here today, kid?",
+      "opts": [
+       "He venido a verte, abuelo.",
+       "No es asunto tuyo."
+      ],
+      "optsEn": [
+       "I came to see you, old man.",
+       "None of your business."
+      ]
+     },
+     {
+      "speaker": "Monje",
+      "q": "No hace falta que me veneres, pero al menos muéstrame respeto.",
+      "qEn": "You don't have to revere me, but at least show some proper respect.",
+      "opts": [
+       "¿Cómo te llamas?",
+       "¿Que te muestre respeto?"
+      ],
+      "optsEn": [
+       "How should I address you?",
+       "Show respect?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "¿Cómo es que siempre que te veo estás solo? ¿Es que no tienes amigos?",
+      "qEn": "How come you're always alone when I see ya? Don'tcha got any friends?",
+      "opts": [
+       "No es que no tenga.",
+       "No tengo amigos."
+      ],
+      "optsEn": [
+       "I can't say I don't.",
+       "I don't have any friends."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "Deberías cortártelo. No, mejor aún, rápate por completo. Prueba el estilo bola de billar.",
+      "qEn": "You should cut it. No, better yet, shave it all off... Give the bald look a try.",
+      "opts": [
+       "Sí, podría quedar guay.",
+       "Es que raparse..."
+      ],
+      "optsEn": [
+       "Yeah, that might look cool.",
+       "Yeah, I dunno..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "Los chavales de instituto no tenéis demasiado dinero, ¿verdad? Al menos, yo nunca le di mucho a mi hijo.",
+      "qEn": "High school kids don't have much money, do they? At least, I never gave much to my son.",
+      "opts": [
+       "Con lo que tengo me basta.",
+       "No me cuesta..."
+      ],
+      "optsEn": [
+       "I have enough.",
+       "I'm not NOT struggling..."
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "Algo que se puede comprar con dinero. No me vengas con tonterías de \"amor\" o \"sentido del humor\".",
+      "qEn": "...And I mean somethin' you can buy with money. Not some crap like \"love\" or \"a sense of humor.\"",
+      "opts": [
+       "Sí.",
+       "No."
+      ],
+      "optsEn": [
+       "Yes.",
+       "No."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "Uf... Estoy para el arrastre.",
+      "qEn": "Ugh... I'm in bad shape...",
+      "opts": [
+       "¿Estás bien?",
+       "Deberías irte a casa."
+      ],
+      "optsEn": [
+       "Are you okay?",
+       "You should go home."
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "Es en momentos como este... cuando más cuesta estar solo.",
+      "qEn": "It's always in times like these... ah... when it's hardest to be alone...",
+      "opts": [
+       "¿Vives solo?",
+       "¿Trabaja alguien contigo?"
+      ],
+      "optsEn": [
+       "You live by yourself?",
+       "Do you have any coworkers?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "Eh, allí hay un micrófono. Tráelo, joven. Voy a realizar un recital del Sutra en directo.",
+      "qEn": "...Hey! There's a microphone over there. Bring it over, kid! I'll perform a live sutra reading.",
+      "opts": [
+       "¿En serio?",
+       "A lo mejor no deberías..."
+      ],
+      "optsEn": [
+       "Really?",
+       "You probably shouldn't..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "¿No te ha dicho papá que no hagash eso?",
+      "qEn": "Didn't Dad tell you not to do that, huh?",
+      "opts": [
+       "¿Papá?",
+       "Es la primera vez que lo oigo.",
+       "..."
+      ],
+      "optsEn": [
+       "Dad?",
+       "It's my first time hearing it.",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "¡¿Qué naricesh hacíash por ahí hashta las tantash?!",
+      "qEn": "Where the hell were ya wanderin' around? Iss late!",
+      "opts": [
+       "Estaba con amigos.",
+       "Estaba estudiando.",
+       "No es asunto tuyo."
+      ],
+      "optsEn": [
+       "I was with a friend.",
+       "I was studying.",
+       "None of your business."
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "Me pregunto si se sentían igual que yo mientras te estaba esperando antes.",
+      "qEn": "I wonder if they felt the same way I did, when I was waiting for you earlier...",
+      "opts": [
+       "¿De quiénes hablas?",
+       "¿De qué estás hablando?"
+      ],
+      "optsEn": [
+       "Who's \"they\"?",
+       "What're you talking about?"
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "Ahora no sé qué hacer con mi vida cuando vuelvo a casa. Por eso vengo aquí a beber todas las noches.",
+      "qEn": "...Now when I go home, I don't know what to do with myself, so I just come here and drink every night.",
+      "opts": [
+       "¿Echas de menos a tu familia?",
+       "¿Estás huyendo?"
+      ],
+      "optsEn": [
+       "Do you miss your family?",
+       "Are you running away?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "Trabajo día y noche en funerales, como si mi pequeño templo fuera una tienda de autoservicio o algo así.",
+      "qEn": "I'm workin' memorial service after memorial service 24/7, as if my little temple was some kinda convenience store...",
+      "opts": [
+       "¿No quieres descansar?",
+       "Los pobres no conocen el descanso."
+      ],
+      "optsEn": [
+       "Why not take a break?",
+       "Poor men know no leisure."
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "Últimamente, he bebido demasiado y he acabado haciendo el ridículo, como el otro día.",
+      "qEn": "I've been drinkin' too much lately... Makin' a fool of myself like I did the other day.",
+      "opts": [
+       "Aguanta.",
+       "¿Hora de jubilarse?"
+      ],
+      "optsEn": [
+       "Hang in there.",
+       "Time to retire?"
+      ]
+     },
+     {
+      "speaker": "Mutatsu",
+      "q": "¿Qué opinas?",
+      "qEn": "Whaddaya think?",
+      "opts": [
+       "¿De qué se trata?",
+       "Ni me va ni me viene."
+      ],
+      "optsEn": [
+       "What's this about?",
+       "I don't really care."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mutatsu",
+      "q": "\"Quiero recitar los sutras contigo a mi lado durante el resto de mi vida\". ¿Y bien? ¿Qué te parece?",
+      "qEn": "I'm gonna say, \"I wanna recite the sutras with you by my side, for the rest of my life.\" ...Well? How's that sound?",
+      "opts": [
+       "Cómo mola.",
+       "Falta algo."
+      ],
+      "optsEn": [
+       "That's awesome.",
+       "It's missing something."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "star": {
+  "npc": "115",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "¡Oye, estás bajando el ritmo! ¿Eso es todo lo que puedes hacer?",
+      "qEn": "Hey, eat up—you're slowing down! Is that all you've got?",
+      "opts": [
+       "¡Esto aún no ha terminado!",
+       "¡¿Quieres ver de qué pasta estoy hecho?!"
+      ],
+      "optsEn": [
+       "It's not over yet!",
+       "You wanna see what I've got!?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Pocos me pueden seguir el ritmo. ¡Me has impresionado, !",
+      "qEn": "Not many people can keep up with me. I'm impressed, !",
+      "opts": [
+       "Pensaba que te ganaría.",
+       "Pues creía que perdería, la verdad."
+      ],
+      "optsEn": [
+       "I thought I could win.",
+       "I expected to lose, actually."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Por eso tengo que seguir creciendo, por todos los que me han ayudado.",
+      "qEn": "That's why I have to make it big—it's for everyone who's been helping me.",
+      "opts": [
+       "Qué envidia.",
+       "Cuánta presión."
+      ],
+      "optsEn": [
+       "I'm kinda jealous.",
+       "Sounds like a lot of pressure."
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Por cierto, ¿a quién consideras tu mayor rival?",
+      "qEn": "By the way, who would you say is your biggest rival?",
+      "opts": [
+       "Tú.",
+       "Yo mismo."
+      ],
+      "optsEn": [
+       "You.",
+       "Myself."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Igual debería comprar para ellos también...",
+      "qEn": "Maybe I should get some for them, too...",
+      "opts": [
+       "¿Para los de tu equipo?",
+       "¿De quiénes hablas?"
+      ],
+      "optsEn": [
+       "For your teammates?",
+       "Who's \"them\"?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Aunque vivimos en un piso muy pequeño y estamos como sardinas en lata.",
+      "qEn": "Our apartment's pretty small, though, so we're packed like sardines.",
+      "opts": [
+       "Suena divertido.",
+       "Tiene que ser duro."
+      ],
+      "optsEn": [
+       "Sounds like fun.",
+       "That sounds rough."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Venga, ¡solo uno más!",
+      "qEn": "...All right, just one more!",
+      "opts": [
+       "¿Qué haces?",
+       "Baja el ritmo y saboréalo."
+      ],
+      "optsEn": [
+       "What are you doing?",
+       "Slow down and savor it."
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "¿Sabes lo que eso significa? Que, si lo hago bien, podrían darme una beca.",
+      "qEn": "Know what that means? If I do well enough, I might score a scholarship.",
+      "opts": [
+       "¡Eso sería genial!",
+       "¿Y qué?"
+      ],
+      "optsEn": [
+       "That would be amazing!",
+       "What's the big deal?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Y quizá le facilite un poco la vida a mi madre...",
+      "qEn": "And maybe... this'll make my mom's life a little easier.",
+      "opts": [
+       "No sabría decirte.",
+       "Sí, seguro que sí."
+      ],
+      "optsEn": [
+       "Hard to say.",
+       "Yeah, I bet it would."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Uf, uf... Siento haberte hecho esperar.",
+      "qEn": "*huff* *huff* Sorry I kept you waiting...",
+      "opts": [
+       "Llegas tarde.",
+       "¿Estás bien?"
+      ],
+      "optsEn": [
+       "You're late.",
+       "Are you okay?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Antes venía mucho con mis compañeros de equipo, pero...",
+      "qEn": "I used to come here all the time with my teammates, but...",
+      "opts": [
+       "Pero ¿qué?",
+       "Volveremos aquí juntos."
+      ],
+      "optsEn": [
+       "But what?",
+       "I'll come back here with you."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "",
+      "q": "A ver...",
+      "qEn": "Let's see...",
+      "opts": [
+       "Lo buscaré.",
+       "Esperaré un poco más."
+      ],
+      "optsEn": [
+       "I'll look around for him.",
+       "I'll wait a bit longer."
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "Mmm...",
+      "qEn": "Hmm...",
+      "opts": [
+       "Supongo que mataré el tiempo.",
+       "Supongo que seguiré esperando."
+      ],
+      "optsEn": [
+       "Guess I'll kill some time.",
+       "Guess I'll keep waiting."
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "Oye...",
+      "qEn": "Well...",
+      "opts": [
+       "Esperaré solo un poco más.",
+       "Me voy a ir a casa."
+      ],
+      "optsEn": [
+       "I'll wait just a bit longer.",
+       "I'm just gonna go home."
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Lo siento, pero no creo que pueda ir hoy.",
+      "qEn": "Sorry, but I don't think I can make it today.",
+      "opts": [
+       "¿Y bien? ¿Qué ha pasado?",
+       "No te preocupes, no pasa nada."
+      ],
+      "optsEn": [
+       "Well, what happened?",
+       "Don't worry, it's okay."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Gracias por venir hasta aquí.",
+      "qEn": "Thanks for coming all the way here for this.",
+      "opts": [
+       "¿Qué querías?",
+       "No pasa nada."
+      ],
+      "optsEn": [
+       "What did you want?",
+       "It's no problem at all."
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Todavía tengo que hacer muchas cosas.",
+      "qEn": "There's still so much I have to do.",
+      "opts": [
+       "Pinta muy mal.",
+       "¡Deja de quejarte y ponte a ello!"
+      ],
+      "optsEn": [
+       "Sounds pretty rough.",
+       "Stop whining and do it!"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "¡¿Por qué tendrías que morir, papá?!",
+      "qEn": "Why'd you have to die, Dad!?",
+      "opts": [
+       "No es culpa tuya.",
+       "¡Haz algo al respecto!"
+      ],
+      "optsEn": [
+       "This isn't your fault.",
+       "Do something about it!"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "¿Es así como acaba mi historia?",
+      "qEn": "Is this... really how it ends for me?",
+      "opts": [
+       "Tienes que aceptarlo.",
+       "No te des por vencido aún."
+      ],
+      "optsEn": [
+       "You have to accept it.",
+       "Don't give up yet."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Mmm...",
+      "qEn": "Hmm...",
+      "opts": [
+       "¡Hazlo!",
+       "Yo puedo prestarte algo de pasta."
+      ],
+      "optsEn": [
+       "Do it!",
+       "I could spot you some cash."
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Al final, tal vez fue mi culpa que el equipo no pudiera entrenar en armonía.",
+      "qEn": "In the end, maybe it was my fault the team couldn't work together.",
+      "opts": [
+       "Es lo más seguro.",
+       "Ni te rayes."
+      ],
+      "optsEn": [
+       "It sure was.",
+       "Don't sweat it."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "El gran encuentro deportivo para conseguir la beca fue ayer.",
+      "qEn": "So, uh, the big meet for that scholarship was yesterday.",
+      "opts": [
+       "¿Ganaste?",
+       "¿Perdiste?"
+      ],
+      "optsEn": [
+       "Did you win?",
+       "Did you lose?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "¡Pues claro que he ganado!",
+      "qEn": "I got first place, of course!",
+      "opts": [
+       "Anda, ¿en serio?",
+       "¡Enhorabuena, hombre!"
+      ],
+      "optsEn": [
+       "Wow, really?",
+       "Congrats, man!"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Me siento vacío, por así decirlo.",
+      "qEn": "Kinda makes me feel empty inside.",
+      "opts": [
+       "¿Y ahora qué vas a hacer?",
+       "¿Vas a dejar de correr?"
+      ],
+      "optsEn": [
+       "What will you do now?",
+       "Will you quit running?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Adelante, pide más fideos. Yo invito.",
+      "qEn": "Go ahead and order extra noodles. It's on me.",
+      "opts": [
+       "¡Gracias!",
+       "¡No te molestes!"
+      ],
+      "optsEn": [
+       "Thanks!",
+       "Don't put yourself out!"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Me alegro de haber podido quedar contigo una vez más antes de irme.",
+      "qEn": "Glad we could meet up one more time before I take off.",
+      "opts": [
+       "¿Irte?",
+       "¿Te vas hoy?"
+      ],
+      "optsEn": [
+       "\"Take off\"?",
+       "You're leaving today?"
+      ]
+     },
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "En fin, será mejor que me vaya.",
+      "qEn": "Well then, I better get going...",
+      "opts": [
+       "Te acompaño.",
+       "Hablemos un poco más."
+      ],
+      "optsEn": [
+       "I'll see you off.",
+       "Let's chat a bit more."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "moon": {
+  "npc": "116",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Estudiante regordete",
+      "q": "¡O-oye, t-tú! Llama a los bomberos... Eh, quiero decir..., a...",
+      "qEn": "H-Hey! Y-You! Call the fire truck— Er, I mean the, uh... Uh...",
+      "opts": [
+       "¿Llamo a la policía?",
+       "¿Perdona?"
+      ],
+      "optsEn": [
+       "Call the police?",
+       "Sorry, what?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "¿Y bien? ¿Te gustaría ser... mi hermano pequeño?",
+      "qEn": "Well? Would you wanna be... my younger brother?",
+      "opts": [
+       "Claro, ¿por qué no?",
+       "No, la verdad."
+      ],
+      "optsEn": [
+       "Sure, why not.",
+       "Not really, no."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "Me entiendes, ¿verdad? ¿Quién soy? Venga, ¡quiero escucharte decirlo!",
+      "qEn": "So? Do you \"get me,\" hm? Who am I? Go on, I wanna hear it come out of your mouth!",
+      "opts": [
+       "Nozomi Suemitsu.",
+       "El Rey gourmet."
+      ],
+      "optsEn": [
+       "Nozomi Suemitsu.",
+       "The Gourmet King."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "Uf... Ha faltado poquísimo. Si el baño hubiera estado un poco más lejos... Madre mía.",
+      "qEn": "Whew... That was way too close. If that toilet was just a bit further away... Ohhhh, boy.",
+      "opts": [
+       "¿Te has pasado comiendo?",
+       "¿Te sientes mal?"
+      ],
+      "optsEn": [
+       "Did you eat too much?",
+       "Are you feeling sick?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "¿Verdad, ?",
+      "qEn": "Right, -kun?",
+      "opts": [
+       "Eso es.",
+       "¿Perdona?"
+      ],
+      "optsEn": [
+       "That's right.",
+       "Sorry, what?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "No lo entiendo. Me sentía estupendamente hace un minuto. De repente, me he empezado a encontrar mal.",
+      "qEn": "I don't get it. I was fine up until a minute ago, then suddenly I felt sick.",
+      "opts": [
+       "¿Te pasa mucho?",
+       "¿Te has pasado comiendo?",
+       "¿Te encuentras mal?"
+      ],
+      "optsEn": [
+       "Does this happen a lot?",
+       "Did you eat too much?",
+       "Are you sick?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "¿Y bien? Estás flipando, ¿eh?",
+      "qEn": "Well? Did that just blow your mind?",
+      "opts": [
+       "Sí, qué nervios.",
+       "No, la verdad.",
+       "¿El mundo se acaba?"
+      ],
+      "optsEn": [
+       "Yeah, I'm freaking out.",
+       "Not really.",
+       "The world is ending?"
+      ]
+     },
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "Además, obtendrás un descuento, porque yo también te recomendaré. ¡Qué suertudo!",
+      "qEn": "Not to mention you'll get a discount since I'll be referring you, too. You are one lucky guy!",
+      "opts": [
+       "¡Menuda locura!",
+       "No pienso pagar nada."
+      ],
+      "optsEn": [
+       "That's insane!",
+       "No way I'm paying that."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "¡Mírame! ¡Me estoy quedando en los huesos!",
+      "qEn": "Look at me! I'm paper-thin now!",
+      "opts": [
+       "Pues sí que estás más delgado.",
+       "No, para nada."
+      ],
+      "optsEn": [
+       "You do look thinner.",
+       "No, you're not."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "¡Por fin el Paraíso me sonríe! ¡Toma, toma!",
+      "qEn": "Finally, Paradise is smiling back at me! Yes! Yesss!",
+      "opts": [
+       "¿Vas a estafarlos a ellos también?",
+       "Déjalo ya."
+      ],
+      "optsEn": [
+       "You're gonna scam them, too?",
+       "Just knock it off."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "095",
+    "rank": 9,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": []
+   }
+  ]
+ },
+ "sun": {
+  "npc": "117",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "¿Entiendes cómo me siento?",
+      "qEn": "...Do you understand how I feel?",
+      "opts": [
+       "Creo que sí.",
+       "No, no puedo."
+      ],
+      "optsEn": [
+       "I think I might.",
+       "No, I can't."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Tú... no eres como los demás.",
+      "qEn": "You're... not like the others.",
+      "opts": [
+       "¿Por qué soy diferente?",
+       "¿En serio?"
+      ],
+      "optsEn": [
+       "Why am I different?",
+       "Really?"
+      ]
+     },
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Morir no está tan mal, ¿verdad? ¿Qué sentido tiene alargar el tiempo en este mundo?",
+      "qEn": "Dying isn't so bad, is it? What's the point of dragging out your time in this world, anyhow?",
+      "opts": [
+       "Tienes razón.",
+       "No estoy de acuerdo.",
+       "Nunca lo había pensado."
+      ],
+      "optsEn": [
+       "You have a point.",
+       "I don't agree.",
+       "I've never thought about that."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "¿Por qué me pasa esto solo a mí?",
+      "qEn": "...Why is this only happening to me?",
+      "opts": [
+       "Tal vez sea un capricho de Dios.",
+       "No sabría decirte.",
+       "No estás solo."
+      ],
+      "optsEn": [
+       "Maybe it's a whim of God.",
+       "I couldn't say.",
+       "You aren't alone."
+      ]
+     },
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Si estoy solo, a veces es demasiado para mí...",
+      "qEn": "It's almost too much for me, if I'm alone...",
+      "opts": [
+       "Tranquilo, que no es así.",
+       "Procura no hablar demasiado."
+      ],
+      "optsEn": [
+       "Don't worry, you're not.",
+       "Try not to talk too much."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "¿Te gusta leer?",
+      "qEn": "...Do you enjoy reading books?",
+      "opts": [
+       "Diría que sí.",
+       "Qué va.",
+       "Depende del libro."
+      ],
+      "optsEn": [
+       "I'd say so.",
+       "No, I don't.",
+       "It depends on the book."
+      ]
+     },
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "¿Tú te lees los libros hasta el final?",
+      "qEn": "...Do you read books all the way through?",
+      "opts": [
+       "Por supuesto.",
+       "Lo dejo si me aburre."
+      ],
+      "optsEn": [
+       "Of course I do.",
+       "I stop if I get bored."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "No creo que le esté haciendo a mi salud ningún favor.",
+      "qEn": "I suppose I'm not doing my health any favors like this...",
+      "opts": [
+       "Debes escuchar a tu cuerpo.",
+       "¿No deberías ir a descansar?"
+      ],
+      "optsEn": [
+       "You need to listen to your body.",
+       "Maybe you should go rest?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Oye, ¿qué te parecen los cocodrilos rosas?",
+      "qEn": "Say, how do you feel about a pink alligator?",
+      "opts": [
+       "Suena bien.",
+       "No sé...",
+       "¿De qué hablas?"
+      ],
+      "optsEn": [
+       "Sounds fine to me.",
+       "I dunno...",
+       "Uh, what?"
+      ]
+     },
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "En fin, ¿qué te parece?",
+      "qEn": "So, what do you think?",
+      "opts": [
+       "Es interesante.",
+       "Se puede mejorar...",
+       "Necesitaría oír más."
+      ],
+      "optsEn": [
+       "It sounds interesting.",
+       "It needs work...",
+       "I'd need to hear more."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Y hasta ahí he llegado. Aún no me decido por un final.",
+      "qEn": "...That's as far as I've written. I haven't decided on an ending yet.",
+      "opts": [
+       "Es una buena historia.",
+       "Qué deprimente.",
+       "Ya la había oído antes."
+      ],
+      "optsEn": [
+       "That's a good story.",
+       "It sounds really depressing.",
+       "I've heard that one before."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Dame un minuto... para que pueda... calmarme...",
+      "qEn": "...Just give me a minute... so I can... calm down...",
+      "opts": [
+       "Tómate el tiempo que necesites.",
+       "Tú puedes."
+      ],
+      "optsEn": [
+       "Take as long as you need.",
+       "You can do this."
+      ]
+     },
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "De todas formas, no me va a curar, ¿no? Solo aplaca el dolor y el sufrimiento...",
+      "qEn": "It's not going to cure me anyway, right? It just eases my pain and suffering...",
+      "opts": [
+       "Es peligroso.",
+       "¿Por qué has parado?"
+      ],
+      "optsEn": [
+       "That's dangerous.",
+       "Why did you stop?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "Oye... Me gustaría que celebraras conmigo. A partir de hoy, soy un hombre libre.",
+      "qEn": "So... I'd like you to celebrate with me. As of today, I am a free individual.",
+      "opts": [
+       "¿Libre de qué?",
+       "¿Has terminado tu historia?"
+      ],
+      "optsEn": [
+       "Free from what?",
+       "You finished your story?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Akinari Kamiki",
+      "q": "No sé cómo explicarlo, pero... ¿crees que tiene sentido?",
+      "qEn": "I don't know how to explain it, but... does that make sense?",
+      "opts": [
+       "Eso creo.",
+       "Sigo sin entenderlo."
+      ],
+      "optsEn": [
+       "I think so.",
+       "I still don't get it."
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "aeon": {
+  "npc": "007",
+  "events": [
+   {
+    "event": "010",
+    "rank": 1,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "020",
+    "rank": 2,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "¿Y a ti, ? ¿Te gusta estar aquí?",
+      "qEn": "What about you, -san? Do you... like it here?",
+      "opts": [
+       "Me gusta estar aquí.",
+       "No te creas.",
+       "Me da igual."
+      ],
+      "optsEn": [
+       "I like it here.",
+       "Not really.",
+       "I don't care."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "030",
+    "rank": 3,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "¿Cómo podemos hacer que lo entiendan?",
+      "qEn": "How can we make them understand?",
+      "opts": [
+       "Intenta explicárselo.",
+       "Dudo que podamos."
+      ],
+      "optsEn": [
+       "Just try explaining.",
+       "I don't think we can."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "Puede ser.",
+       "Eso no es verdad."
+      ],
+      "optsEn": [
+       "Maybe so.",
+       "That's not true."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "040",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "Una gata blanca... ¿Has visto algún gato así, ?",
+      "qEn": "A white, spotted cat... Did you see one, -san?",
+      "opts": [
+       "Puede.",
+       "No, la verdad."
+      ],
+      "optsEn": [
+       "I might have...",
+       "No, I haven't."
+      ]
+     },
+     {
+      "speaker": "Anciana en apuros",
+      "q": "¡Ay, cielos! ¡¿En serio?! ¿Por dónde estaba?",
+      "qEn": "Goodness, really!? Where might this have been?",
+      "opts": [
+       "Cerca de la estación.",
+       "Cerca de la zona de tiendas.",
+       "No me acuerdo."
+      ],
+      "optsEn": [
+       "Near the station.",
+       "Near the strip mall.",
+       "I don't remember."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "Parece que perder a su gata le ha dolido mucho.",
+      "qEn": "Being separated from a loved one can be very distressing after all...",
+      "opts": [
+       "Vale.",
+       "Qué mierda..."
+      ],
+      "optsEn": [
+       "All right.",
+       "What a pain..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "043",
+    "rank": 4,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "045",
+    "rank": 4,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "047",
+    "rank": 4,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "Y fui yo la que quiso comenzar esta búsqueda... Lo siento.",
+      "qEn": "And I was the one who insisted we search... I'm sorry.",
+      "opts": [
+       "No dejes que te afecte.",
+       "Deberíamos dejarlo por hoy.",
+       "Sigamos buscando."
+      ],
+      "optsEn": [
+       "Don't let it get to you.",
+       "We should head back for today.",
+       "Let's keep looking."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "050",
+    "rank": 5,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "055",
+    "rank": 5,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "Parece que vivir es algo que no se puede hacer en solitario.",
+      "qEn": "It seems that living is something that can't be done alone.",
+      "opts": [
+       "A lo mejor.",
+       "Eso no es verdad.",
+       "No lo sé."
+      ],
+      "optsEn": [
+       "You might be right.",
+       "That's not true.",
+       "I don't know."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "060",
+    "rank": 6,
+    "alt": false,
+    "choices": []
+   },
+   {
+    "event": "065",
+    "rank": 6,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "¿Habré hecho algo mal?",
+      "qEn": "Did I do something wrong?",
+      "opts": [
+       "No lo has llamado Joe.",
+       "No, para nada.",
+       "Pensaba que yo era tu novio."
+      ],
+      "optsEn": [
+       "You didn't call him Joe.",
+       "No, you didn't.",
+       "He thought I was your boyfriend."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "070",
+    "rank": 7,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "¿Chai fue feliz?",
+      "qEn": "Was Mii-chan-san happy?",
+      "opts": [
+       "Creo que fue feliz.",
+       "A saber."
+      ],
+      "optsEn": [
+       "I think she was happy.",
+       "Who knows?"
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "¿Chai... se alegró de haber nacido?",
+      "qEn": "Was Mii-chan-san... grateful to have been born...?",
+      "opts": [
+       "Pues claro que sí.",
+       "No estoy seguro."
+      ],
+      "optsEn": [
+       "I'm sure she was.",
+       "I'm not sure."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "¿Qué propósito tenía la vida de Chai?",
+      "qEn": "For what purpose... was Mii-chan-san born...?",
+      "opts": [
+       "Cualquiera sabe.",
+       "No lo sé."
+      ],
+      "optsEn": [
+       "No one can say.",
+       "I don't know."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "080",
+    "rank": 8,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "Lo preguntaba por curiosidad.",
+      "qEn": "I was just curious.",
+      "opts": [
+       "A veces.",
+       "Hoy mismo.",
+       "No."
+      ],
+      "optsEn": [
+       "Sometimes.",
+       "I'm doing it now.",
+       "No."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "...",
+      "qEn": "......",
+      "opts": [
+       "No me importa que estés aquí.",
+       "¿A qué se debe?"
+      ],
+      "optsEn": [
+       "I don't mind you being here.",
+       "What brought this on?"
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "¿Por qué eres tan importante para mí, ?",
+      "qEn": "Why are you so important to me, -san?",
+      "opts": [
+       "Es amor.",
+       "Porque somos amigos."
+      ],
+      "optsEn": [
+       "It's love.",
+       "Because we're friends."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "090",
+    "rank": 9,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "El 31 de enero...",
+      "qEn": "January 31st...",
+      "opts": [
+       "Es verdad.",
+       "No me había dado cuenta."
+      ],
+      "optsEn": [
+       "You're right.",
+       "I hadn't noticed..."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "Te quiero tanto... que a veces siento que me voy a romper en pedazos.",
+      "qEn": "I love you so much... that I feel like I'm going to break down somehow...",
+      "opts": [
+       "Yo también te quiero.",
+       "Lo siento, pero no puedo..."
+      ],
+      "optsEn": [
+       "I love you, too.",
+       "Sorry, but I can't..."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "100",
+    "rank": 10,
+    "alt": false,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "Hay algo que solo yo puedo decir, porque soy inmortal.",
+      "qEn": "There's something only I can say, because I am unable to die.",
+      "opts": [
+       "¿Qué pasa?",
+       "No lo entiendo."
+      ],
+      "optsEn": [
+       "What is it?",
+       "I don't really get it."
+      ]
+     },
+     {
+      "speaker": "",
+      "q": "Aigis me mira atentamente.",
+      "qEn": "Aigis is gazing at me intently...",
+      "opts": [
+       "Asentir en silencio",
+       "Cogerle la mano con delicadeza"
+      ],
+      "optsEn": [
+       "Nod silently",
+       "Gently hold her hand"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "190",
+    "rank": 9,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "El 31 de enero...",
+      "qEn": "January 31st...",
+      "opts": [
+       "Es verdad.",
+       "No me había dado cuenta."
+      ],
+      "optsEn": [
+       "You're right.",
+       "I hadn't noticed..."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "Pero, aun así, deseo ser tu mejor amiga.",
+      "qEn": "But, even so... my wish is to be your closest friend.",
+      "opts": [
+       "Ya eres mi mejor amiga.",
+       "Qué deseo tan bonito."
+      ],
+      "optsEn": [
+       "You're already my best friend.",
+       "That's a beautiful wish."
+      ]
+     }
+    ]
+   },
+   {
+    "event": "200",
+    "rank": 10,
+    "alt": true,
+    "choices": [
+     {
+      "speaker": "Aigis",
+      "q": "¡P-patata!",
+      "qEn": "Ch-Cheese...!",
+      "opts": [
+       "Patata.",
+       "..."
+      ],
+      "optsEn": [
+       "Cheese.",
+       "......"
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "¿Te gusta hacerte fotos, ?",
+      "qEn": "Do you like taking photos, -san?",
+      "opts": [
+       "Sí, es divertido.",
+       "No, la verdad."
+      ],
+      "optsEn": [
+       "Yeah, it's fun.",
+       "Actually, I don't."
+      ]
+     },
+     {
+      "speaker": "Aigis",
+      "q": "Hay algo que solo yo, una máquina con corazón humano, puedo hacer.",
+      "qEn": "There is one thing only a machine with a human heart can do... That only I can do.",
+      "opts": [
+       "¿El qué?",
+       "No lo entiendo."
+      ],
+      "optsEn": [
+       "What's that?",
+       "I don't understand."
+      ]
+     },
+     {
+      "speaker": "Fuuka Yamagishi",
+      "q": "Je, je. ¿Qué estabais haciendo Aigis y tú?",
+      "qEn": "Hehe. So, what were you and Aigis up to?",
+      "opts": [
+       "Echándonos una foto.",
+       "Pues charlando."
+      ],
+      "optsEn": [
+       "Taking a picture.",
+       "Just chatting."
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
