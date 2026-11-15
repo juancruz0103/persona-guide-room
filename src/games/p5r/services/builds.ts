@@ -59,3 +59,11 @@ export function buildRequirements(personaIds: string[]): Requirement[] {
   const order = { confidant: 0, dlc: 1, story: 2 };
   return [...map.values()].sort((a, b) => order[a.kind] - order[b.kind] || a.text.localeCompare(b.text));
 }
+
+/** Qué Persona da realmente una fusión de 2 (para avisar cuando no coincide). */
+export function fuseResult(a: string, b: string): string | null {
+  const pa = getPersona(a);
+  const pb = getPersona(b);
+  if (!pa || !pb) return null;
+  return getFusionEngine({ includeDlc: true, includeTreasure: true }).fuse(pa, pb)?.result.id ?? null;
+}

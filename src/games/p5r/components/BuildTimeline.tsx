@@ -88,7 +88,6 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
               {check === 'ok' && <span className={styles.ok}>✓ Combinación verificada</span>}
               {check === 'bad' && <span className={styles.bad}>✗ Esta combinación no da ese resultado</span>}
             </div>
-            {s.note && <p className={styles.note}>{s.note}</p>}
             <div className={styles.row}>
               {s.ingredients.map((ing, j) => (
                 <Fragment key={j}>
@@ -100,6 +99,7 @@ export function BuildTimeline({ steps, cards }: { steps: BuildStep[]; cards: Bui
               {!isLast && <BuildPersona personaId={s.result} skills={s.inherit} learn={s.learn} variant="result" />}
               {isLast && <span className={styles.finalHint}>Persona final ↓</span>}
             </div>
+            {s.note && <p className={styles.note}>{s.note}</p>}
           </div>
         );
         resultStep.set(s.result, i + 1);
