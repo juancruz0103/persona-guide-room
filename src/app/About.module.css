@@ -1,0 +1,87 @@
+.hero {
+  position: relative;
+  background: var(--c-paper);
+  color: var(--c-ink);
+  overflow: hidden;
+}
+.heroSlab {
+  position: absolute;
+  inset: 0 0 0 auto;
+  width: 34%;
+  background: var(--c-primary);
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+}
+.heroInner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-block: 44px 48px;
+}
+.kicker {
+  align-self: flex-start;
+  background: var(--c-ink);
+  color: var(--c-accent);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 4px 16px;
+  transform: skewX(-12deg);
+}
+.title {
+  font-size: clamp(48px, 8vw, 80px);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.lead {
+  margin: 0;
+  max-width: 620px;
+  font-size: 19px;
+  color: #2a2a2a;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding-block: 40px 56px;
+}
+.card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-line);
+  border-left: 4px solid var(--c-primary);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card p {
+  margin: 0;
+  color: var(--c-text-muted);
+  line-height: 1.6;
+}
+.cardTitle {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.mail {
+  color: var(--c-accent-light);
+  font-weight: 600;
+  word-break: break-all;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 4px;
+}
+@media (max-width: 700px) {
+  .heroSlab {
+    width: 16%;
+  }
+  .lead {
+    max-width: 82%;
+  }
+}

@@ -14,6 +14,7 @@ const Technical = lazy(() => import('../games/p5r/pages/Technical'));
 const School = lazy(() => import('../games/p5r/pages/School'));
 const Confidants = lazy(() => import('../games/p5r/pages/Confidants'));
 const ConfidantProfile = lazy(() => import('../games/p5r/pages/ConfidantProfile'));
+const About = lazy(() => import('./About'));
 const NotFound = lazy(() => import('./NotFound'));
 
 /**
@@ -38,6 +39,7 @@ export function App() {
             <Route path="clases" element={<School />} />
             <Route path="confidentes" element={<Confidants />} />
             <Route path="confidentes/:confidantId" element={<ConfidantProfile />} />
+            <Route path="sobre-nosotros" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

@@ -39,6 +39,7 @@ export function Header({ game }: Props) {
     { to: `${base}/calculadora`, label: es.nav.calculator, end: false },
     { to: `${base}/confidentes`, label: es.nav.confidants, end: false },
     { to: `${base}/clases`, label: es.nav.school, end: false },
+    { to: `${base}/sobre-nosotros`, label: es.nav.about, end: false },
   ];
 
   return (

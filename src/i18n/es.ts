@@ -10,7 +10,7 @@ export const es = {
     confidants: 'Confidentes',
     school: 'Clases',
     soon: 'Próximamente',
-    about: 'El proyecto',
+    about: 'Sobre nosotros',
     openGameMenu: 'Cambiar de juego',
     mainMenu: 'Menú principal',
   },
