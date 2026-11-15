@@ -470,7 +470,7 @@ export default function ConfidantProfile() {
 
           {sel === maxRank && (
             <div className={styles.rankMax}>
-              <img src={rankMaxImg} alt="" width={1536} height={1024} loading="lazy" />
+              <img src={rankMaxImg} alt="" width={720} height={632} loading="lazy" />
               <span className={styles.rankMaxText}>
                 <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
                 <span>{L(`El vínculo con ${data?.name.split(' ')[0]} está al máximo.`, `Your bond with ${data?.name.split(' ')[0]} is at its max.`)}</span>

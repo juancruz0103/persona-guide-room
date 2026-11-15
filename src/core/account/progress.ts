@@ -104,3 +104,29 @@ export function useConfidantProgress(id: string): [Progress, (p: Progress) => vo
 
   return [p, save];
 }
+
+/**
+ * Rango alcanzado de varios confidentes a la vez (para las listas).
+ * Lee el navegador y, si hay sesión, la cuenta manda.
+ */
+export function useAllProgress(ids: string[]): Record<string, number> {
+  const { user } = useAuth();
+  const read = () => Object.fromEntries(ids.map((id) => { const p = loadLocal(id); return [id, p.tracking ? p.reached : 0]; }));
+  const [map, setMap] = useState<Record<string, number>>(read);
+  const sig = ids.join(',');
+  useEffect(() => {
+    setMap(read());
+    if (!user) return;
+    let alive = true;
+    fetchAllProgress(user.id).then((rows) => {
+      if (!alive) return;
+      const remote = Object.fromEntries(rows.map((r) => [r.confidant_id, r.rank]));
+      setMap(Object.fromEntries(ids.map((id) => [id, remote[id] ?? 0])));
+    });
+    return () => {
+      alive = false;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [sig, user]);
+  return map;
+}
