@@ -7,11 +7,14 @@ const TABS = () => [
   { id: 'fuse', label: L('Fusionar', 'Fuse'), to: '/p3r/calculadora/fusionar' },
   { id: 'reverse', label: L('¿Cómo la consigo?', 'How do I get it?'), to: '/p3r/calculadora/fusionar?modo=inversa' },
   { id: 'special', label: L('Especiales', 'Special'), to: '/p3r/calculadora/especiales' },
+  { id: 'hearts', label: L('Objetos de corazón', 'Heart items'), to: '/p3r/calculadora/corazones' },
 ];
 
 export function CalcHeader() {
   const { pathname, search } = useLocation();
-  const active = pathname.endsWith('/especiales')
+  const active = pathname.endsWith('/corazones')
+    ? 'hearts'
+    : pathname.endsWith('/especiales')
     ? 'special'
     : pathname.endsWith('/fusionar')
       ? new URLSearchParams(search).get('modo') === 'inversa' ? 'reverse' : 'fuse'

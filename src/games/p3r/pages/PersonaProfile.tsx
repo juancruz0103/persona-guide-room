@@ -13,6 +13,7 @@ import { itemName, personaMyth, personaName } from '../services/text';
 import { unlockText } from '../services/unlock';
 import type { SkillElement } from '../types';
 import styles from './PersonaProfile.module.css';
+import { heartDescription } from './Hearts';
 import { L } from '../../../i18n';
 
 const INHERIT = (fusionJson as { inheritTypes: Record<string, string[]> }).inheritTypes;
@@ -132,6 +133,7 @@ export default function PersonaProfile() {
               <section className={`${styles.box} ${styles.heart}`}>
                 <h2 className={styles.h2}>{L('Objeto de corazón', 'Heart item')}</h2>
                 <p className={styles.big}>{itemName(p.heart.item)}</p>
+                {heartDescription(p.heart.item) && <p className={styles.note}>{heartDescription(p.heart.item)}</p>}
                 <p className={styles.note}>{L(`Lo da al llegar al Nv ${p.heart.level}.`, `Given at Lv ${p.heart.level}.`)}</p>
               </section>
             )}

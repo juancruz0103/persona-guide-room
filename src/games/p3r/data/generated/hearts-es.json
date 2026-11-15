@@ -1,0 +1,170 @@
+{
+ "Jacktite": {
+  "es": "Jacktite",
+  "desc": "Una piedra que alberga el poder de una Persona llamada Jack."
+ },
+ "Black Frostite": {
+  "es": "Frostite negro",
+  "desc": "Una piedra negra y brillante que alberga el poder de Frost oscuro."
+ },
+ "Fetching Hero's Comb": {
+  "es": "Peine del héroe atractivo",
+  "desc": "Un peine elegante que alberga el poder de Cú Chulainn."
+ },
+ "Unholy Wooden Doll": {
+  "es": "Muñeca de madera profana",
+  "desc": "Una muñeca de madera que alberga el poder de Nebiros."
+ },
+ "King of Beasts Fang": {
+  "es": "Colmillo del rey de bestias",
+  "desc": "Un colmillo afilado que alberga el poder de Byakko."
+ },
+ "Thunder Whetstone": {
+  "es": "Piedra del trueno",
+  "desc": "Una piedra de afilar resistente que alberga el poder de Thor."
+ },
+ "Hell's Muffler": {
+  "es": "Silenciador del infierno",
+  "desc": "Un silenciador rojo que alberga el poder de Ángel del infierno."
+ },
+ "Second Hand of Fate": {
+  "es": "Segunda mano del destino",
+  "desc": "Una aguja larguísima que alberga el poder de Norna."
+ },
+ "Immortal Angel Core": {
+  "es": "Núcleo del ángel inmortal",
+  "desc": "Un cristal de color aguamarina que alberga el poder de Melquisedec."
+ },
+ "Nibelung Ore": {
+  "es": "Mineral nibelungo",
+  "desc": "Un mineral resistente que alberga el poder de Sigfrido."
+ },
+ "Eye of Wadjet": {
+  "es": "Ojo de Wadjet",
+  "desc": "Una roca con un sello decorativo que alberga el poder de Horus."
+ },
+ "Earth Goddess Ring": {
+  "es": "Anillo de la diosa de la tierra",
+  "desc": "Una pulsera fina y plateada que alberga el poder de Cibeles."
+ },
+ "Shadow Lipstick": {
+  "es": "Pintalabios sombrío",
+  "desc": "Un pintalabios rojo carmesí que alberga el poder de Skadi."
+ },
+ "Archangel Wings": {
+  "es": "Alas de arcángel",
+  "desc": "Alas resistentes y maleables que albergan el poder de Miguel."
+ },
+ "God Dragon Whiskers": {
+  "es": "Bigotes del dios dragón",
+  "desc": "Largos bigotes dorados que albergan el poder de Kouryuu."
+ },
+ "Rainbow Snake Scale": {
+  "es": "Escama de serpiente arcoíris",
+  "desc": "Una escama de color arcoíris que alberga el poder de Yurlungur."
+ },
+ "Mara's Head": {
+  "es": "Cabeza de Mara",
+  "desc": "Un objeto verde prominente que alberga el poder de Mara."
+ },
+ "Goddess Water Lily": {
+  "es": "Nenúfar de la diosa",
+  "desc": "Un nenúfar exuberante que alberga el poder de Laksmí."
+ },
+ "Sword God Steel": {
+  "es": "Dios de la espada de acero",
+  "desc": "Una vaina de color gris oscuro que alberga el poder de Futsunushi."
+ },
+ "Eyepatch of Wisdom": {
+  "es": "Parche de la sabiduría",
+  "desc": "Un parche de gran calidad que alberga el poder de Odín."
+ },
+ "Preceptress Silk": {
+  "es": "Seda preceptora",
+  "desc": "Una tela de seda de color negro que alberga el poder de Scáthach."
+ },
+ "Sacrifice God Wrap": {
+  "es": "Envoltura del dios del sacrificio",
+  "desc": "Vendas irrompibles que albergan el poder de Atis."
+ },
+ "Black Sun Candle": {
+  "es": "Vela del sol negro",
+  "desc": "Una vela inextinguible que alberga el poder de Saturno."
+ },
+ "Abyssal King Tooth": {
+  "es": "Diente del rey del abismo",
+  "desc": "Un diente gigante y nauseabundo que alberga el poder de Abadón."
+ },
+ "Jaw of Death": {
+  "es": "Mordaza de la muerte",
+  "desc": "Una mandíbula enorme y de forma irregular que alberga el poder de Tánatos."
+ },
+ "Preservation Conch": {
+  "es": "Concha de conservación",
+  "desc": "Una concha de color claro que alberga el poder de Vishnu."
+ },
+ "Emperor's Sake Cup": {
+  "es": "Copa de sake del emperador",
+  "desc": "Una copa de sake de lujo que alberga el poder de Masakado."
+ },
+ "Prayer Angel Garland": {
+  "es": "Guirnalda del ángel del rezo",
+  "desc": "Una corona preciosa que alberga el poder de Sandalfón."
+ },
+ "Lord of Flies Wings": {
+  "es": "Alas del señor de las moscas",
+  "desc": "Alas con diseño de calavera que albergan el poder de Belcebú."
+ },
+ "Destroyer's Drums": {
+  "es": "Tambores de la destrucción",
+  "desc": "Tambores con un ritmo alegre que albergan el poder de Shiva."
+ },
+ "Black Pillar Shard": {
+  "es": "Fragmento de pilar negro",
+  "desc": "Un fragmento negro que alberga el poder de Alilat."
+ },
+ "Carnage King's Gear": {
+  "es": "Equipamiento del rey carnicero",
+  "desc": "Un instrumento para rituales austero que alberga el poder de Asura."
+ },
+ "Bull Warrior Horns": {
+  "es": "Cuernos del toro de la guerra",
+  "desc": "Dos cuernos afilados que albergan el poder de Chi You."
+ },
+ "Contract Angel Wing": {
+  "es": "Ala de ángel bajo contrato",
+  "desc": "Un ala plateada elegante que alberga el poder de Metatrón."
+ },
+ "Fallen Angel Wing": {
+  "es": "Ala de ángel caído",
+  "desc": "Un ala enorme doblada que alberga el poder de Lucifer."
+ },
+ "Savior's Augite": {
+  "es": "Augita del salvador",
+  "desc": "Una piedra brillante que alberga el poder de Mesías."
+ },
+ "Susano-o's Cloth": {
+  "es": "Tela de Susanoo",
+  "desc": "Una tela tosca pero resistente que alberga el poder de Susanoo."
+ },
+ "Clay God Fragment": {
+  "es": "Fragmento del dios de barro",
+  "desc": "Un fragmento añil que alberga el poder de Arahabaki."
+ },
+ "Wisdom King's Locks": {
+  "es": "Rizos del rey sabio",
+  "desc": "Pelo tieso de color azul que alberga el poder de Atavaka."
+ },
+ "Soul Sea Driblet": {
+  "es": "Adarme del mar de las almas",
+  "desc": "Una perla pequeña con forma de gota nacida de una Persona."
+ },
+ "Soul Sea Droplet": {
+  "es": "Gotita del mar de las almas",
+  "desc": "Una perla con forma de gota nacida de una Persona."
+ },
+ "Soul Sea Drop": {
+  "es": "Gota del mar de las almas",
+  "desc": "Una perla brillante con forma de gota nacida de una Persona."
+ }
+}

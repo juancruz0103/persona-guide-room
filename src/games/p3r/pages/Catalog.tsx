@@ -53,6 +53,10 @@ export default function Catalog() {
               <input type="checkbox" checked={f.includeDlc} onChange={(e) => set('includeDlc', e.target.checked)} />
               {L('Incluir Personas DLC (packs de P4 y P5)', 'Include DLC Personas (P4 and P5 packs)')}
             </label>
+            <label className={styles.check}>
+              <input type="checkbox" checked={!!f.heartOnly} onChange={(e) => set('heartOnly', e.target.checked)} />
+              {L('Solo las que dan objeto de corazón', 'Only those with a heart item')}
+            </label>
           </fieldset>
           <fieldset className={`${styles.group} ${styles.options}`}>
             <legend className="label label-accent">{L('Personas de compañeros', 'Party Personas')}</legend>

@@ -16,6 +16,8 @@ export interface CatalogFilters {
   party: 'all' | 'only' | 'none';
   /** Mostrar las evoluciones de los compañeros (spoiler) */
   evolved: boolean;
+  /** Solo Personas que dan objeto de corazón */
+  heartOnly?: boolean;
   sort: 'level-asc' | 'level-desc' | 'name-asc' | 'arcana';
 }
 export const DEFAULT_FILTERS: CatalogFilters = {
@@ -34,6 +36,7 @@ export function filterPersonas(list: Persona[], f: CatalogFilters): Persona[] {
     if (f.party === 'only' && !p.party) return false;
     if (f.party === 'none' && p.party) return false;
     if (p.party?.stage === 'evolved' && !f.evolved) return false;
+    if (f.heartOnly && !p.heart) return false;
     if (!p.party && (p.level < f.minLevel || p.level > f.maxLevel)) return false;
     return true;
   });
