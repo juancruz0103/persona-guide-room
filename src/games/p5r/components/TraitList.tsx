@@ -138,8 +138,7 @@ export function TraitList() {
       )}
 
       <p className={styles.note}>
-        Nombres de los rasgos: textos oficiales del juego. Qué hace cada uno: Megami Tensei Wiki y
-        aqiu384/megaten-fusion-tool, en redacción propia. Pasá el mouse por el nombre para verlo en inglés.
+        Pasá el mouse por el nombre de un rasgo para verlo en inglés.
       </p>
     </>
   );

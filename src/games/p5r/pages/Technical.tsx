@@ -127,10 +127,6 @@ export default function Technical() {
             </tbody>
           </table>
         </div>
-        <p className={styles.note}>
-          Combinaciones: Megami Tensei Wiki (página “Technical”). Nombres de los estados y del libro: textos
-          oficiales de la versión en español del juego.
-        </p>
       </section>
     </div>
   );

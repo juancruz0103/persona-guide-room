@@ -315,8 +315,7 @@ export default function SkillCards() {
         )}
 
         <p className={styles.note}>
-          Datos de la silla eléctrica: aqiu384/megaten-fusion-tool. Nombres y descripciones: textos oficiales del
-          juego. Pasá el mouse por el nombre de una skill para verlo en inglés.
+          Pasá el mouse por el nombre de una skill para verlo en inglés.
         </p>
           </>
         )}

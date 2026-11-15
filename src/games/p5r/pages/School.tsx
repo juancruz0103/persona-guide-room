@@ -147,11 +147,6 @@ export default function School() {
         })}
 
         {!list.length && <p className="pending">No hay preguntas con esos filtros.</p>}
-
-        <p className={styles.source}>
-          Respuestas: Eurogamer España, verificadas jugando. Temas de cada pregunta redactados a partir de RPG Site.
-          Preguntas de Ann confirmadas jugando.
-        </p>
       </section>
     </>
   );

@@ -15,11 +15,23 @@ export function AccountButton() {
     );
   }
   return (
-    <Link to="/p5r/perfil" className={styles.button} style={{ textDecoration: 'none', textTransform: 'uppercase' }} title="Mi perfil">
-      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
-        <circle cx="12" cy="8" r="4" />
-        <path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" />
-      </svg>
+    <Link
+      to="/p5r/perfil"
+      className={styles.button}
+      style={{ textDecoration: 'none', textTransform: 'uppercase' }}
+      title={profile?.is_admin ? 'Mi perfil · Administrador' : 'Mi perfil'}
+    >
+      {profile?.is_admin ? (
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-label="Administrador" role="img" style={{ color: 'var(--c-primary-light)' }}>
+          <path fill="currentColor" d="M3 18h18l1-11-5.5 4L12 4 7.5 11 2 7z" />
+          <rect x="3" y="19.5" width="18" height="2" fill="currentColor" />
+        </svg>
+      ) : (
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+          <circle cx="12" cy="8" r="4" />
+          <path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6" />
+        </svg>
+      )}
       <span style={{ maxWidth: 120, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
         {profile?.username ?? 'Mi perfil'}
       </span>
