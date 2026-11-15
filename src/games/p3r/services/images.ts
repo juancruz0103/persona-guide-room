@@ -9,10 +9,18 @@ const PERSONAS = Object.fromEntries(Object.entries(files).map(([p, url]) => [p.s
 export const personaImage = (id: string, view: 'profile' | 'side' = 'side'): string | undefined =>
   PERSONAS[`${id}-${view === 'profile' ? 'de' : 'iz'}`];
 
-export const personaCardFocus = (_id: string) => '50% 30%';
+/** Encuadre en las tarjetas del catálogo: por defecto 50% 30%. */
+const CARD_FOCUS: Record<string, string> = {
+  byakko: '20% 50%',
+};
+export const personaCardFocus = (id: string) => CARD_FOCUS[id] ?? '50% 30%';
 
 /** Encuadre de la foto grande de la ficha: por defecto centrada; algunas necesitan mostrar más arriba. */
 const PROFILE_FOCUS: Record<string, string> = {
   caesar: '50% 0%',
+  alice: '50% 0%',
+  asura: '50% 0%',
+  atropos: '50% 0%',
+  thunderbird: '50% 20%',
 };
 export const personaProfileFocus = (id: string) => PROFILE_FOCUS[id] ?? '50% 50%';
