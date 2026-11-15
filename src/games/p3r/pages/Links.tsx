@@ -4,7 +4,7 @@ import { LinkPortrait } from '../components/LinkPortrait';
 import { getArcana } from '../data/arcana';
 import { DAY_NAMES, scheduleText, type Day } from '../data/links';
 import { getAllLinks, progressId } from '../services/links';
-import { loadLocal } from '../../../core/account/progress';
+import { useAllProgress } from '../../../core/account/progress';
 import styles from './Links.module.css';
 import { L } from '../../../i18n';
 
@@ -17,14 +17,15 @@ export default function Links() {
   const [sort, setSort] = useState<Sort>(() => (sessionStorage.getItem('p3r.links.sort') as Sort) ?? 'arcana');
   const [day, setDay] = useState<'' | Day>('');
   const [romance, setRomance] = useState(false);
+  const progress = useAllProgress(getAllLinks().map((l) => progressId(l.arcana)));
   const list = useMemo(() => {
     const rows = getAllLinks()
-      .map((l) => ({ l, reached: loadLocal(progressId(l.arcana)).reached }))
+      .map((l) => ({ l, reached: progress[progressId(l.arcana)] ?? 0 }))
       .filter(({ l }) => (!romance || l.romance) && (day === '' || l.auto || l.days?.includes(day) || (day === 6 && l.holidays)));
     if (sort === 'progress') rows.sort((a, b) => b.reached - a.reached);
     if (sort === 'sees') rows.sort((a, b) => Number(SEES.has(b.l.arcana)) - Number(SEES.has(a.l.arcana)));
     return rows;
-  }, [sort, day, romance]);
+  }, [sort, day, romance, progress]);
 
   const pick = (s: Sort) => {
     setSort(s);

@@ -58,3 +58,9 @@
 .romance .route, .routeR { border-color: var(--c-romance); color: var(--c-romance); }
 .opts .romanceOpt { border-color: var(--c-romance); }
 .page { --c-romance: #FF6FB5; }
+
+.rankMax { display: flex; align-items: center; gap: 24px; padding: 14px 20px; border: 1px solid var(--c-primary); }
+.rankMax img { width: 220px; height: auto; flex: none; }
+.rankMaxText { display: flex; flex-direction: column; gap: 6px; }
+.rankMaxKicker { font-family: var(--f-display); font-size: 34px; color: var(--c-primary-light); text-transform: uppercase; }
+@media (max-width: 640px) { .rankMax { flex-direction: column; text-align: center; padding: 12px; } .rankMax img { width: 100%; max-width: 320px; } }

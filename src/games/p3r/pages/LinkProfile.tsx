@@ -7,6 +7,7 @@ import { scheduleText } from '../data/links';
 import { eventsByRank, getLink, maxPersona, progressId, type LinkChoice } from '../services/links';
 import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
+import rankMaxImg from '../assets/rango-max.webp';
 import styles from './LinkProfile.module.css';
 import { L, isEn } from '../../../i18n';
 
@@ -142,6 +143,16 @@ export default function LinkProfile() {
             ))}
           </div>
           <div className={styles.rankTitle}><span className={styles.rankNum}>{L('Rango', 'Rank')} {sel}</span></div>
+          {sel === 10 && (
+            <div className={styles.rankMax}>
+              <img src={rankMaxImg} alt="" width={720} height={684} loading="lazy" />
+              <span className={styles.rankMaxText}>
+                <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
+                <span>{L(`El vínculo con ${link.who[0].split(' ')[0]} está al máximo.`, `Your bond with ${link.who[1].split(' ')[0]} is at its max.`)}</span>
+                {persona && <span>{L('Se desbloquea la fusión de', 'Unlocks the fusion of')} <PersonaPeek persona={persona} />.</span>}
+              </span>
+            </div>
+          )}
           {shown.length ? (
             <>
               <p className={styles.note}>
