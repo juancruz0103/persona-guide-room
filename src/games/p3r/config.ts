@@ -26,11 +26,18 @@ export const p3rGame: GameInfo = {
       title: 'Respuestas de clase',
       description: 'Las preguntas de los profesores, las ayudas a Junpei y los exámenes, con la respuesta correcta y el texto oficial.',
     },
+    {
+      id: 'builds',
+      path: 'builds',
+      title: 'Builds de Personas',
+      description: 'Rutas de fusión paso a paso armadas por la comunidad: qué heredar en cada paso y qué skill cards enseñar al final.',
+    },
   ],
 };
 
 const TOOLS_EN: Record<string, { title: string; description: string }> = {
   calculator: { title: 'Persona Calculator', description: "Reload's 194 Personas with profiles, two-Persona fusion, reverse search and special fusions." },
+  builds: { title: 'Persona builds', description: 'Community step-by-step fusion routes: what to inherit at each step and which skill cards to teach at the end.' },
   classes: { title: 'Class answers', description: 'Teacher questions, helping Junpei and exams, with the right answer and the official text.' },
   links: { title: 'Social Links', description: 'All 22 Social Links: where to find them, how they start and what to answer at each rank.' },
 };
