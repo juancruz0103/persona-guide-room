@@ -13,6 +13,9 @@ export function Footer() {
         <Link to="/p5r/sobre-nosotros" className={styles.about}>
           {t().nav.about} · {L('Contacto y donaciones', 'Contact and donations')} →
         </Link>
+        <a href={`${import.meta.env.BASE_URL}privacidad.html${L('', '#en')}`} className={styles.about}>
+          {L('Privacidad', 'Privacy')}
+        </a>
       </div>
     </footer>
   );
