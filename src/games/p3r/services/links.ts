@@ -26,6 +26,8 @@ export function eventsByRank(arcana: ArcanaId): { rank: number; route: '' | 'R' 
     if (g) g.events.push(e);
     else out.push({ rank: e.rank, route: e.route, events: [e] });
   }
+  // Si un rango tiene versión de amistad, la versión común es la de la ruta romántica.
+  for (const g of out) if (!g.route && out.some((x) => x.rank === g.rank && x.route === 'P')) g.route = 'R';
   const order = { '': 0, R: 1, P: 2 } as const;
   return out.sort((a, b) => a.rank - b.rank || order[a.route] - order[b.route]);
 }

@@ -13,7 +13,8 @@
 .h2 { margin: 0; font-family: var(--f-display); font-size: 28px; }
 .note { margin: 0; color: var(--c-text-muted); max-width: 75ch; }
 .rank { background: var(--c-surface); border-left: 6px solid var(--c-primary); display: grid; }
-.rank > .route { justify-self: start; margin: 12px 16px 0; }
+.routeHead { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 12px 16px 0; }
+.routeHead small { color: var(--c-text-dim); }
 .route { font-family: var(--f-label); font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 8px; border: 1px solid var(--c-primary); color: var(--c-primary-light); }
 .done { font-size: 13px; color: var(--c-text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
 .choice { padding: 12px 16px; display: grid; gap: 8px; }
@@ -54,6 +55,6 @@
 .dontMatter { background: var(--c-surface); border-left: 6px solid var(--c-primary); padding: 18px 22px; }
 /* Ruta romántica: contorno rosa */
 .romance { border-left-color: var(--c-romance); outline: 2px solid var(--c-romance); outline-offset: -2px; }
-.romance > .route, .routeR { border-color: var(--c-romance); color: var(--c-romance); }
+.romance .route, .routeR { border-color: var(--c-romance); color: var(--c-romance); }
 .opts .romanceOpt { border-color: var(--c-romance); }
 .page { --c-romance: #FF6FB5; }

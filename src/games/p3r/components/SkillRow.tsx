@@ -6,7 +6,7 @@ import styles from './SkillRow.module.css';
 import { L } from '../../../i18n';
 
 /** Fila de habilidad con su descripción oficial al pasar el cursor (o al tocar en el celular). */
-export function SkillRow({ name, right }: { name: string; right?: React.ReactNode }) {
+export function SkillRow({ name, right, special = false }: { name: string; right?: React.ReactNode; special?: boolean }) {
   const [open, setOpen] = useState(false);
   const info = getSkill(name);
   const desc = skillDescription(name);
@@ -14,7 +14,7 @@ export function SkillRow({ name, right }: { name: string; right?: React.ReactNod
   return (
     <li className={styles.row} onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
       <button type="button" className={styles.main} onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-        {info ? <ElementIcon el={info.element} size={24} title={false} /> : <span className={styles.dot} style={{ background: color }} aria-hidden="true" />}
+        {info ? <ElementIcon el={info.element} size={24} title={false} special={special && info.element === 'pas'} /> : <span className={styles.dot} style={{ background: color }} aria-hidden="true" />}
         <span className={styles.name}>{skillName(name)}</span>
         {info?.cost && (
           <span className={info.cost.type === 'hp' ? styles.hp : styles.sp}>
@@ -27,7 +27,7 @@ export function SkillRow({ name, right }: { name: string; right?: React.ReactNod
         <div className={styles.tip} role="tooltip">
           {info && (
             <span className={styles.tipKind} style={{ color }}>
-              {elementName(info.element)}
+              {special && info.element === 'pas' ? L('Pasiva especial', 'Special passive') : elementName(info.element)}
               {info.ailment ? ` · ${ailmentName(info.ailment)}` : ''}
             </span>
           )}

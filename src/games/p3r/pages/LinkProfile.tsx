@@ -74,7 +74,12 @@ export default function LinkProfile() {
   const group = (g: (typeof groups)[number]) => {
     const box = (
       <div key={`${g.rank}${g.route}`} className={`${styles.rank} ${g.route === 'R' ? styles.romance : ''}`}>
-        {g.route && <span className={styles.route}>{routeLabel(g.route)}</span>}
+        {g.route && (
+          <span className={styles.routeHead}>
+            <span className={styles.route}>{routeLabel(g.route)}</span>
+            <small>{g.route === 'R' ? L('Si elegiste el romance con este personaje.', 'If you chose romance with this character.') : L('Si elegiste quedar como amigos.', 'If you chose to stay friends.')}</small>
+          </span>
+        )}
         {g.events.flatMap((e) => e.choices).map((c, i) => <Choice key={i} c={c} />)}
       </div>
     );

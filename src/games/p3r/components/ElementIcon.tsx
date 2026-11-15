@@ -1,6 +1,7 @@
 import type { ReactElement } from 'react';
 import type { SkillElement } from '../types';
 import { elementName } from '../data/elements';
+import { L } from '../../../i18n';
 
 /**
  * Íconos de elementos de Reload — diseño propio inspirado en el juego (disco negro con el símbolo de color).
@@ -23,12 +24,15 @@ const GLYPHS: Record<SkillElement, ReactElement> = {
   pas: <><g fill="none" stroke="#F9EE48" strokeWidth="2.6"><circle cx="16" cy="16" r="8"/><circle cx="16" cy="16" r="3" fill="#F9EE48"/></g></>,
 };
 
-export function ElementIcon({ el, size = 28, title = true }: { el: SkillElement; size?: number; title?: boolean }) {
+/** Estrella azul: pasivas especiales de los integrantes de S.E.E.S. */
+const STAR = <path d="M16 4.5l3.4 7.1 7.8 1-5.7 5.4 1.4 7.7L16 22l-6.9 3.7 1.4-7.7-5.7-5.4 7.8-1z" fill="#3D9BFF" />;
+
+export function ElementIcon({ el, size = 28, title = true, special = false }: { el: SkillElement; size?: number; title?: boolean; special?: boolean }) {
   return (
     <svg viewBox="0 0 32 32" width={size} height={size} role={title ? 'img' : undefined} aria-hidden={title ? undefined : true} style={{ flex: 'none' }}>
-      {title && <title>{elementName(el)}</title>}
+      {title && <title>{special ? L('Pasiva especial', 'Special passive') : elementName(el)}</title>}
       <circle cx="16" cy="16" r="15.5" fill="#0b0f18" />
-      {GLYPHS[el]}
+      {special ? STAR : GLYPHS[el]}
     </svg>
   );
 }

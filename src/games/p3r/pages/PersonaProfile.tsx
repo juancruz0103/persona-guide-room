@@ -114,7 +114,7 @@ export default function PersonaProfile() {
                 <p className={styles.note}>
                   {p.party ? L('Las Teúrgias se cargan en combate. Las pasivas de dos niveles se consiguen pasando el rato con el compañero.', 'Theurgies charge up in battle. Two-level passives are earned by hanging out with the teammate.') : L('No se aprenden por nivel: la Teúrgia se carga en combate.', "Not learned by level: the Theurgy charges up in battle.")}
                 </p>
-                <ul className={styles.skills}>{extra.map((s) => <SkillRow key={s.skill} name={s.skill} />)}</ul>
+                <ul className={styles.skills}>{extra.map((s) => <SkillRow key={s.skill} name={s.skill} special={!!p.party} />)}</ul>
               </>
             )}
           </section>
