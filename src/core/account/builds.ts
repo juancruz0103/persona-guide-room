@@ -89,8 +89,9 @@ const toBuild = (r: Row): Build => ({
   comments: r.build_comments?.[0]?.count ?? 0,
 });
 
-export async function listBuilds(opts: { personaId?: string; userId?: string; game?: BuildGame } = {}): Promise<Build[]> {
-  let q = supabase.from('builds').select(SELECT).eq('game', opts.game ?? 'p5r').order('created_at', { ascending: false }).limit(100);
+export async function listBuilds(opts: { personaId?: string; userId?: string; game?: BuildGame | 'all' } = {}): Promise<Build[]> {
+  let q = supabase.from('builds').select(SELECT).order('created_at', { ascending: false }).limit(100);
+  if (opts.game !== 'all') q = q.eq('game', opts.game ?? 'p5r');
   if (opts.personaId) q = q.eq('persona_id', opts.personaId);
   if (opts.userId) q = q.eq('user_id', opts.userId);
   const { data } = await q;

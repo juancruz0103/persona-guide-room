@@ -10,6 +10,7 @@ import { personaName as p3Name } from '../games/p3r/services/text';
 import { fetchAllProgress } from '../core/account/progress';
 import { listBuilds, translateBuild, pendingReports, type Build } from '../core/account/builds';
 import { BuildCard } from '../games/p5r/pages/Builds';
+import { BuildCard as P3BuildCard } from '../games/p3r/pages/Builds';
 import { authErrorText, supabase } from '../core/account/supabase';
 import { getConfidantSummary } from '../games/p5r/services/confidants';
 import { confidantImage, personaCardFocus, personaImage } from '../games/p5r/services/images';
@@ -59,7 +60,7 @@ export default function MyProfile() {
   useEffect(() => {
     if (!user) return;
     fetchAllProgress(user.id).then(setProgress);
-    listBuilds({ userId: user.id }).then((l) => setBuilds(l.map(translateBuild)));
+    listBuilds({ userId: user.id, game: 'all' }).then((l) => setBuilds(l.map(translateBuild)));
   }, [user]);
   useEffect(() => {
     if (profile?.is_admin) pendingReports().then(setPending);
@@ -242,7 +243,7 @@ export default function MyProfile() {
           <ul className={styles.favGrid} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))' }}>
             {builds.map((b) => (
               <li key={b.id}>
-                <BuildCard build={b} />
+                {b.game === 'p3r' ? <P3BuildCard build={b} /> : <BuildCard build={b} />}
               </li>
             ))}
           </ul>
