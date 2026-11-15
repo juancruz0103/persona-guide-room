@@ -1,0 +1,18 @@
+.page { display: flex; flex-direction: column; gap: 20px; padding-block: 40px 72px; }
+.title { font-size: clamp(36px, 6vw, 56px); text-transform: uppercase; line-height: 1.05; padding-top: 0.08em; }
+.tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+.tab, .tabOn { min-height: 44px; padding: 0 18px; font-family: var(--f-label); font-weight: 700; font-size: 17px; text-transform: uppercase; letter-spacing: 0.04em; cursor: pointer; border: 2px solid var(--c-accent); clip-path: var(--slant-btn); }
+.tab { background: transparent; color: var(--c-text); }
+.tabOn { background: var(--c-accent); color: var(--c-ink); }
+.list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+.item { background: var(--c-surface); border: 1px solid var(--c-line); border-left: 4px solid var(--c-primary); padding: 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+.meta { margin: 0; color: var(--c-text-dim); font-size: 14px; }
+.text { margin: 0; word-break: break-word; }
+.banned { color: var(--c-primary-light); }
+.actions { display: flex; flex-wrap: wrap; gap: 14px; }
+.actions a, .actions button, .words button { background: none; border: 0; padding: 2px 0; color: var(--c-accent-light); font: inherit; font-size: 15px; cursor: pointer; text-decoration: underline; }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.row input:not([type='checkbox']) { flex: 1; min-width: 200px; min-height: 44px; padding: 0 12px; background: var(--c-bg); color: var(--c-text); border: 2px solid var(--c-line); font: inherit; }
+.row button { min-height: 44px; padding: 0 18px; background: var(--c-accent); color: var(--c-ink); border: 0; font-family: var(--f-label); font-weight: 800; font-size: 17px; text-transform: uppercase; cursor: pointer; }
+.check { display: inline-flex; align-items: center; gap: 6px; color: var(--c-text-muted); }
+.words { display: flex; flex-wrap: wrap; gap: 8px 14px; }

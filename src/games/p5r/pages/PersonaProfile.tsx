@@ -159,7 +159,14 @@ export default function PersonaProfile() {
               {arcana.name} · Arcana {arcana.numeral}
             </span>
             <h1 className={styles.name}>{personaName(p)}</h1>
-            <FavoriteButton personaId={p.id} />
+            <div className={styles.flags}>
+              <FavoriteButton personaId={p.id} />
+              {!p.party && (
+                <Link to={`/p5r/builds?persona=${p.id}`} className="btn btn--light" style={{ minHeight: 42, fontSize: 17 }}>
+                  Ver builds
+                </Link>
+              )}
+            </div>
             {personaNameEn(p) !== personaName(p) && <span className={styles.nameEn}>En inglés: {personaNameEn(p)}</span>}
             <div className={styles.flags}>
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}

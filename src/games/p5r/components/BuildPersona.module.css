@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background: var(--c-surface);
+  border: 1px solid var(--c-line);
+  min-width: 0;
+}
+.result {
+  border: 2px solid var(--c-accent);
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  color: var(--c-text);
+  text-decoration: none;
+}
+.head:hover .name {
+  color: var(--c-accent-light);
+}
+.img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--c-surface-2);
+}
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px 10px 4px;
+  font-weight: 700;
+  font-size: 16px;
+}
+.lvl {
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--c-text-dim);
+  white-space: nowrap;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  padding: 4px 10px 10px;
+}
+.chip {
+  font-size: 13px;
+  padding: 2px 8px;
+  background: rgba(212, 175, 55, 0.16);
+  color: var(--c-accent-light);
+  border: 1px solid rgba(212, 175, 55, 0.4);
+}

@@ -3,6 +3,8 @@ import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../core/account/AuthContext';
 import { useFavorites } from '../core/account/favorites';
 import { fetchAllProgress } from '../core/account/progress';
+import { listBuilds, type Build } from '../core/account/builds';
+import { BuildCard } from '../games/p5r/pages/Builds';
 import { authErrorText, supabase } from '../core/account/supabase';
 import { getConfidantSummary } from '../games/p5r/services/confidants';
 import { confidantImage, personaCardFocus, personaImage } from '../games/p5r/services/images';
@@ -16,9 +18,12 @@ export default function MyProfile() {
   const { user, profile, loading, signOut, refreshProfile, recovering, doneRecovering } = useAuth();
   const { ids: favorites } = useFavorites();
   const [progress, setProgress] = useState<{ confidant_id: string; rank: number }[] | null>(null);
+  const [builds, setBuilds] = useState<Build[]>([]);
 
   useEffect(() => {
-    if (user) fetchAllProgress(user.id).then(setProgress);
+    if (!user) return;
+    fetchAllProgress(user.id).then(setProgress);
+    listBuilds({ userId: user.id }).then(setBuilds);
   }, [user]);
 
   if (loading) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
@@ -38,7 +43,11 @@ export default function MyProfile() {
         <div className={styles.who}>
           <h1 className={styles.title}>{profile?.username ?? 'Mi perfil'}</h1>
           <span className={styles.email}>{user.email}</span>
-          {profile?.is_admin && <span className={styles.admin}>Administrador</span>}
+          {profile?.is_admin && (
+            <Link to="/p5r/admin" className={styles.admin}>
+              Administrador · Abrir panel →
+            </Link>
+          )}
         </div>
         <button type="button" className="btn btn--dark" onClick={() => void signOut()}>
           Cerrar sesión
@@ -104,6 +113,22 @@ export default function MyProfile() {
                   <span className={styles.favName}>{personaName(p)}</span>
                   <span className={styles.favLvl}>Nv {p.level}</span>
                 </Link>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+      <div className={styles.block}>
+        <h2 className={styles.h2}>Mis builds</h2>
+        {builds.length === 0 ? (
+          <p className={styles.empty}>
+            Todavía no publicaste ninguna. <Link to="/p5r/builds/nueva">Crear una build</Link>.
+          </p>
+        ) : (
+          <ul className={styles.favGrid} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))' }}>
+            {builds.map((b) => (
+              <li key={b.id}>
+                <BuildCard build={b} />
               </li>
             ))}
           </ul>

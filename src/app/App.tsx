@@ -17,6 +17,10 @@ const Confidants = lazy(() => import('../games/p5r/pages/Confidants'));
 const ConfidantProfile = lazy(() => import('../games/p5r/pages/ConfidantProfile'));
 const Account = lazy(() => import('./Account'));
 const MyProfile = lazy(() => import('./MyProfile'));
+const Builds = lazy(() => import('../games/p5r/pages/Builds'));
+const BuildView = lazy(() => import('../games/p5r/pages/BuildView'));
+const BuildEditor = lazy(() => import('../games/p5r/pages/BuildEditor'));
+const Admin = lazy(() => import('./Admin'));
 const About = lazy(() => import('./About'));
 const NotFound = lazy(() => import('./NotFound'));
 
@@ -43,6 +47,11 @@ export function App() {
             <Route path="clases" element={<School />} />
             <Route path="confidentes" element={<Confidants />} />
             <Route path="confidentes/:confidantId" element={<ConfidantProfile />} />
+            <Route path="builds" element={<Builds />} />
+            <Route path="builds/nueva" element={<BuildEditor />} />
+            <Route path="builds/:buildId" element={<BuildView />} />
+            <Route path="builds/:buildId/editar" element={<BuildEditor />} />
+            <Route path="admin" element={<Admin />} />
             <Route path="cuenta" element={<Account />} />
             <Route path="perfil" element={<MyProfile />} />
             <Route path="sobre-nosotros" element={<About />} />
