@@ -10,9 +10,20 @@ import { getConfidantSummary } from '../games/p5r/services/confidants';
 import { confidantImage, personaCardFocus, personaImage } from '../games/p5r/services/images';
 import { getPersona } from '../games/p5r/services/personas';
 import { personaName } from '../games/p5r/services/gameText';
-import { getArcana } from '../games/p5r/data/arcana';
+import { ARCANAS, getArcana } from '../games/p5r/data/arcana';
 import styles from './MyProfile.module.css';
 import { L } from '../i18n';
+
+type ConfRow = { confidant_id: string; rank: number; summary: ReturnType<typeof getConfidantSummary> };
+const arcanaIndex = (r: ConfRow) => ARCANAS.findIndex((a) => a.id === r.summary?.arcana);
+const byName = (a: ConfRow, b: ConfRow) => (a.summary?.name ?? '').localeCompare(b.summary?.name ?? '');
+const SORTS = {
+  most: { label: () => L('Más avanzados', 'Most advanced'), cmp: (a: ConfRow, b: ConfRow) => b.rank - a.rank || byName(a, b) },
+  least: { label: () => L('Menos avanzados', 'Least advanced'), cmp: (a: ConfRow, b: ConfRow) => a.rank - b.rank || byName(a, b) },
+  arcana: { label: () => L('Por arcano', 'By Arcana'), cmp: (a: ConfRow, b: ConfRow) => arcanaIndex(a) - arcanaIndex(b) || byName(a, b) },
+  name: { label: () => 'A–Z', cmp: byName },
+};
+type SortKey = keyof typeof SORTS;
 
 /** Mi perfil: nombre de usuario, confidentes en curso y Personas favoritas. */
 export default function MyProfile() {
@@ -21,6 +32,22 @@ export default function MyProfile() {
   const [progress, setProgress] = useState<{ confidant_id: string; rank: number }[] | null>(null);
   const [builds, setBuilds] = useState<Build[]>([]);
   const [pending, setPending] = useState(0);
+  const [sort, setSortState] = useState<SortKey>(() => {
+    try {
+      const v = localStorage.getItem('pgr.confSort') as SortKey | null;
+      return v && v in SORTS ? v : 'most';
+    } catch {
+      return 'most';
+    }
+  });
+  const setSort = (k: SortKey) => {
+    setSortState(k);
+    try {
+      localStorage.setItem('pgr.confSort', k);
+    } catch {
+      /* sin almacenamiento */
+    }
+  };
 
   useEffect(() => {
     if (!user) return;
@@ -36,7 +63,8 @@ export default function MyProfile() {
 
   const confidants = (progress ?? [])
     .map((r) => ({ ...r, summary: getConfidantSummary(r.confidant_id) }))
-    .filter((r) => r.summary);
+    .filter((r) => r.summary)
+    .sort(SORTS[sort].cmp);
   const personas = favorites.map((id) => getPersona(id)).filter((p) => p !== undefined);
 
   return (
@@ -68,7 +96,24 @@ export default function MyProfile() {
       <UsernameForm current={profile?.username ?? ''} onSaved={refreshProfile} />
 
       <div className={styles.block}>
-        <h2 className={styles.h2}>{L('Mis confidentes', 'My confidants')}</h2>
+        <div className={styles.blockHead}>
+          <h2 className={styles.h2}>{L('Mis confidentes', 'My confidants')}</h2>
+          {confidants.length > 1 && (
+            <div className={styles.sorts} role="group" aria-label={L('Ordenar confidentes', 'Sort confidants')}>
+              {(Object.keys(SORTS) as SortKey[]).map((k) => (
+                <button
+                  key={k}
+                  type="button"
+                  className={`${styles.sortBtn} ${sort === k ? styles.sortOn : ''}`}
+                  aria-pressed={sort === k}
+                  onClick={() => setSort(k)}
+                >
+                  {SORTS[k].label()}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
         {progress === null ? (
           <p className={styles.empty}>{L('Cargando…', 'Loading…')}</p>
         ) : confidants.length === 0 ? (

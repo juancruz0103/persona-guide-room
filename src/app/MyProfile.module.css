@@ -210,3 +210,36 @@
 }
 .alert { display: block; padding: 14px 18px; background: var(--c-primary); color: var(--c-text); font-weight: 700; text-decoration: none; clip-path: polygon(0 0, 100% 0, 98.5% 100%, 0 100%); }
 .alert:hover { background: var(--c-primary-strong); }
+
+.blockHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.sorts {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.sortBtn {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 6px 12px;
+  border: 1px solid var(--c-line);
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+}
+.sortBtn:hover {
+  border-color: var(--c-accent);
+}
+.sortOn,
+.sortOn:hover {
+  background: var(--c-accent);
+  border-color: var(--c-accent);
+  color: #111;
+}

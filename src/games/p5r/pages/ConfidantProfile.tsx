@@ -75,7 +75,6 @@ function ConversationCard({
       ) : c.prompt.es ? (
         <p className={styles.prompt}>
           <strong>{c.speaker}:</strong> «{c.prompt.es}»
-          {c.prompt.en && <small>Original: “{c.prompt.en}”</small>}
         </p>
       ) : (
         <p className={styles.prompt}>
@@ -109,7 +108,6 @@ function ConversationCard({
               <span className={styles.optNum}>{L('Opción', 'Option')} {i + 1}</span>
               <span className={styles.optText}>
                 <span>«{isEn() ? o.en || o.es : o.es}»</span>
-                {!isEn() && o.en && <small>{o.en}</small>}
               </span>
               <span className={styles.points}>{hasRecommended ? '' : o.points > 0 ? `+${o.points}` : '0'}</span>
               {o.romance && <span className={styles.romanceTag}>{L('Inicia el romance', 'Starts the romance')}</span>}
