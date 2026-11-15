@@ -8,6 +8,7 @@ import { CONFIDANTS, KIND_LABEL, TAG_LABEL, type ConfidantTag } from '../service
 import { normalize } from '../services/gameText';
 import styles from './Confidants.module.css';
 import { L } from '../../../i18n';
+import { useAllProgress } from '../../../core/account/progress';
 
 type Group = 'all' | 'normal' | 'special';
 const FILTER_TAGS: ConfidantTag[] = ['romance', 'royal', 'deadline', 'locked', 'mementos', 'stat'];
@@ -24,6 +25,8 @@ export default function Confidants() {
   const [group, setGroup] = useSessionState<Group>('confidants.group', 'all');
   const [tag, setTag] = useSessionState<ConfidantTag | null>('confidants.tag', null);
   const [q, setQ] = useSessionState('confidants.q', '');
+  const [thievesFirst, setThievesFirst] = useSessionState('confidants.thievesFirst', false);
+  const progress = useAllProgress(CONFIDANTS.map((c) => c.id));
 
   const counts = {
     all: CONFIDANTS.length,
@@ -33,14 +36,15 @@ export default function Confidants() {
 
   const list = useMemo(() => {
     const query = normalize(q.trim());
-    return CONFIDANTS.filter((c) => {
+    const rows = CONFIDANTS.filter((c) => {
       if (group !== 'all' && (group === 'special') !== isSpecial(c.kind)) return false;
       if (tag && !c.tags.includes(tag)) return false;
       if (!query) return true;
       const a = getArcana(c.arcana);
       return [c.name, a.name, a.nameEn].some((s) => normalize(s).includes(query));
     });
-  }, [group, tag, q]);
+    return thievesFirst ? [...rows].sort((a, b) => Number(b.phantomThief) - Number(a.phantomThief)) : rows;
+  }, [group, tag, q, thievesFirst]);
 
   return (
     <>
@@ -77,6 +81,9 @@ export default function Confidants() {
         </div>
         <div className={styles.tagFilters} role="group" aria-label={L('Filtrar por etiqueta', 'Filter by tag')}>
           <span className="label label-accent">{L('Filtrar por', 'Filter by')}</span>
+          <button type="button" aria-pressed={thievesFirst} className={styles.tagBtn} onClick={() => setThievesFirst(!thievesFirst)}>
+            {L('Ladrones Fantasma primero', 'Phantom Thieves first')}
+          </button>
           {FILTER_TAGS.map((t) => (
             <button
               key={t}
@@ -140,6 +147,9 @@ export default function Confidants() {
                           {TAG_LABEL[t]}
                         </span>
                       ))}
+                    </span>
+                    <span className={styles.bar} aria-label={L(`Rango ${progress[c.id] ?? 0} de 10`, `Rank ${progress[c.id] ?? 0} of 10`)}>
+                      <i style={{ width: `${Math.min(progress[c.id] ?? 0, 10) * 10}%` }} />
                     </span>
                   </div>
                 </Link>
