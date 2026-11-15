@@ -43,7 +43,7 @@ export function Header({ game }: Props) {
     { to: `${base}/vinculos`, label: L('Vínculos', 'Social Links'), end: false },
     { to: `${base}/clases`, label: t().nav.school, end: false },
     { to: `${base}/builds`, label: 'Builds', end: false },
-  ].filter((l) => (l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.end || l.to.endsWith('/calculadora')));
+  ].filter((l) => (l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.end || l.to.endsWith('/calculadora') || l.to.endsWith('/clases')));
 
   return (
     <header ref={ref} className={styles.header}>
