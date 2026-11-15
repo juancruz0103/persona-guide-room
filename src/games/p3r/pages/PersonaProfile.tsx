@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { BackButton } from '../../../shared/components/BackButton';
 import { personaImage } from '../services/images';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
@@ -49,7 +50,7 @@ export default function PersonaProfile() {
     <>
       <CalcHeader />
       <article className={`container ${styles.page}`}>
-        <Link to="/p3r/calculadora" className={styles.back}>← {L('Volver al catálogo', 'Back to catalog')}</Link>
+        <BackButton fallback="/p3r/calculadora" label={L('Volver', 'Back')} />
         <header className={styles.top}>
           <ImagePlaceholder
             className={personaImage(p.id, 'profile') ? styles.photoBig : styles.photo}

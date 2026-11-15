@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, Navigate, useParams } from 'react-router-dom';
 import { LinkPortrait } from '../components/LinkPortrait';
+import { BackButton } from '../../../shared/components/BackButton';
 import { PersonaPeek } from '../components/PersonaPeek';
 import { getArcana } from '../data/arcana';
 import { scheduleText } from '../data/links';
@@ -89,7 +90,7 @@ export default function LinkProfile() {
 
   return (
     <div className={`container ${styles.page}`}>
-      <Link to="/p3r/vinculos" className={styles.back}>← {L('Todos los vínculos', 'All Social Links')}</Link>
+      <div><BackButton fallback="/p3r/vinculos" label={L('Volver', 'Back')} /></div>
       <section className={styles.top}>
         <LinkPortrait arcana={link.arcana} alt={L(link.who[0], link.who[1])} className={styles.photo} />
         <div className={styles.info}>
