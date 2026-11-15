@@ -1,0 +1,6516 @@
+{
+ "Attack": {
+  "name": "Attack",
+  "nameEs": "Ataque",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "unique": false,
+  "card": null
+ },
+ "Agi": {
+  "name": "Agi",
+  "nameEs": "Agi",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 2"
+ },
+ "Agilao": {
+  "name": "Agilao",
+  "nameEs": "Agilao",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Agidyne": {
+  "name": "Agidyne",
+  "nameEs": "Agidyne",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Maragi": {
+  "name": "Maragi",
+  "nameEs": "Maragi",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Maragion": {
+  "name": "Maragion",
+  "nameEs": "Maragion",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Maragidyne": {
+  "name": "Maragidyne",
+  "nameEs": "Maragidyne",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Inferno": {
+  "name": "Inferno",
+  "nameEs": "Infierno",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": 600,
+  "unique": false,
+  "card": null
+ },
+ "Maralagidyne": {
+  "name": "Maralagidyne",
+  "nameEs": "Maralagidyne",
+  "element": "fir",
+  "target": "all",
+  "ailment": "charm",
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 220,
+  "unique": false,
+  "card": null
+ },
+ "Bufu": {
+  "name": "Bufu",
+  "nameEs": "Bufu",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 2"
+ },
+ "Bufula": {
+  "name": "Bufula",
+  "nameEs": "Bufula",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Bufudyne": {
+  "name": "Bufudyne",
+  "nameEs": "Bufudyne",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Mabufu": {
+  "name": "Mabufu",
+  "nameEs": "Mabufu",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Mabufula": {
+  "name": "Mabufula",
+  "nameEs": "Mabufula",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Mabufudyne": {
+  "name": "Mabufudyne",
+  "nameEs": "Mabufudyne",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Diamond Dust": {
+  "name": "Diamond Dust",
+  "nameEs": "Polvo de diamante",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 46
+  },
+  "power": 600,
+  "unique": false,
+  "card": null
+ },
+ "Garu": {
+  "name": "Garu",
+  "nameEs": "Garu",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 2"
+ },
+ "Garula": {
+  "name": "Garula",
+  "nameEs": "Garula",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Garudyne": {
+  "name": "Garudyne",
+  "nameEs": "Garudyne",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Magaru": {
+  "name": "Magaru",
+  "nameEs": "Magaru",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Magarula": {
+  "name": "Magarula",
+  "nameEs": "Magarula",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Magarudyne": {
+  "name": "Magarudyne",
+  "nameEs": "Magarudyne",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Panta Rhei": {
+  "name": "Panta Rhei",
+  "nameEs": "Panta Rei",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": 600,
+  "unique": false,
+  "card": null
+ },
+ "Zio": {
+  "name": "Zio",
+  "nameEs": "Zio",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 2"
+ },
+ "Zionga": {
+  "name": "Zionga",
+  "nameEs": "Zionga",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Ziodyne": {
+  "name": "Ziodyne",
+  "nameEs": "Ziodyne",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Mazio": {
+  "name": "Mazio",
+  "nameEs": "Mazio",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Mazionga": {
+  "name": "Mazionga",
+  "nameEs": "Mazionga",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Maziodyne": {
+  "name": "Maziodyne",
+  "nameEs": "Maziodyne",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 220,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Thunder Reign": {
+  "name": "Thunder Reign",
+  "nameEs": "Reino del trueno",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 46
+  },
+  "power": 600,
+  "unique": false,
+  "card": null
+ },
+ "Hama": {
+  "name": "Hama",
+  "nameEs": "Hama",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Hamaon": {
+  "name": "Hamaon",
+  "nameEs": "Hamaon",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Mahama": {
+  "name": "Mahama",
+  "nameEs": "Mahama",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Mahamaon": {
+  "name": "Mahamaon",
+  "nameEs": "Mahamaon",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 26
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Samsara": {
+  "name": "Samsara",
+  "nameEs": "Samsara",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Kouha": {
+  "name": "Kouha",
+  "nameEs": "Kouha",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 60,
+  "unique": false,
+  "card": "Sword 2"
+ },
+ "Kouga": {
+  "name": "Kouga",
+  "nameEs": "Kouga",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 140,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Kougaon": {
+  "name": "Kougaon",
+  "nameEs": "Kougaon",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": 350,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Makouha": {
+  "name": "Makouha",
+  "nameEs": "Makouha",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 60,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Makouga": {
+  "name": "Makouga",
+  "nameEs": "Makouga",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 140,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Makougaon": {
+  "name": "Makougaon",
+  "nameEs": "Makougaon",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 25
+  },
+  "power": 350,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Divine Judgment": {
+  "name": "Divine Judgment",
+  "nameEs": "Juicio divino",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Mudo": {
+  "name": "Mudo",
+  "nameEs": "Mudo",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Mudoon": {
+  "name": "Mudoon",
+  "nameEs": "Mudoon",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Mamudo": {
+  "name": "Mamudo",
+  "nameEs": "Mamudo",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Mamudoon": {
+  "name": "Mamudoon",
+  "nameEs": "Mamudoon",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 26
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Die For Me!": {
+  "name": "Die For Me!",
+  "nameEs": "¡Morid por mí!",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Eiha": {
+  "name": "Eiha",
+  "nameEs": "Eiha",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 60,
+  "unique": false,
+  "card": "Sword 2"
+ },
+ "Eiga": {
+  "name": "Eiga",
+  "nameEs": "Eiga",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 140,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Eigaon": {
+  "name": "Eigaon",
+  "nameEs": "Eigaon",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": 350,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Maeiha": {
+  "name": "Maeiha",
+  "nameEs": "Maeiha",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 60,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Maeiga": {
+  "name": "Maeiga",
+  "nameEs": "Maeiga",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 140,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Maeigaon": {
+  "name": "Maeigaon",
+  "nameEs": "Maeigaon",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 25
+  },
+  "power": 350,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Demonic Decree": {
+  "name": "Demonic Decree",
+  "nameEs": "Decreto demoníaco",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Megido": {
+  "name": "Megido",
+  "nameEs": "Megido",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 20
+  },
+  "power": 170,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Megidola": {
+  "name": "Megidola",
+  "nameEs": "Megidola",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 32
+  },
+  "power": 380,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Megidolaon": {
+  "name": "Megidolaon",
+  "nameEs": "Megidolaon",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 50
+  },
+  "power": 690,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Black Viper": {
+  "name": "Black Viper",
+  "nameEs": "Víbora negra",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 70
+  },
+  "power": 1000,
+  "unique": false,
+  "card": null
+ },
+ "Morning Star": {
+  "name": "Morning Star",
+  "nameEs": "Lucero del alba",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 64
+  },
+  "power": 850,
+  "unique": false,
+  "card": null
+ },
+ "Poisma": {
+  "name": "Poisma",
+  "nameEs": "Poisma",
+  "element": "ail",
+  "target": "one",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Poison Mist": {
+  "name": "Poison Mist",
+  "nameEs": "Neblina venenosa",
+  "element": "ail",
+  "target": "all",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Marin Karin": {
+  "name": "Marin Karin",
+  "nameEs": "Marin Karin",
+  "element": "ail",
+  "target": "one",
+  "ailment": "charm",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Sexy Dance": {
+  "name": "Sexy Dance",
+  "nameEs": "Baile seductor",
+  "element": "ail",
+  "target": "all",
+  "ailment": "charm",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Bewilder": {
+  "name": "Bewilder",
+  "nameEs": "Desconcertar",
+  "element": "ail",
+  "target": "one",
+  "ailment": "distress",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Eerie Sound": {
+  "name": "Eerie Sound",
+  "nameEs": "Sonido espeluznante",
+  "element": "ail",
+  "target": "all",
+  "ailment": "distress",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Pulinpa": {
+  "name": "Pulinpa",
+  "nameEs": "Pulinpa",
+  "element": "ail",
+  "target": "one",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Tentarafoo": {
+  "name": "Tentarafoo",
+  "nameEs": "Tentarafoo",
+  "element": "ail",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Evil Touch": {
+  "name": "Evil Touch",
+  "nameEs": "Toque maligno",
+  "element": "ail",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Evil Smile": {
+  "name": "Evil Smile",
+  "nameEs": "Sonrisa maligna",
+  "element": "ail",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Provoke": {
+  "name": "Provoke",
+  "nameEs": "Provocar",
+  "element": "ail",
+  "target": "one",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Infuriate": {
+  "name": "Infuriate",
+  "nameEs": "Enfurecer",
+  "element": "ail",
+  "target": "all",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Ghastly Wail": {
+  "name": "Ghastly Wail",
+  "nameEs": "Lamento espectral",
+  "element": "alm",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 28
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Foul Breath": {
+  "name": "Foul Breath",
+  "nameEs": "Aliento fétido",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Stagnant Air": {
+  "name": "Stagnant Air",
+  "nameEs": "Aire estancado",
+  "element": "alm",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Life Drain": {
+  "name": "Life Drain",
+  "nameEs": "Absorción de salud",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Spirit Drain": {
+  "name": "Spirit Drain",
+  "nameEs": "Absorción de espíritu",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Virus Breath": {
+  "name": "Virus Breath",
+  "nameEs": "Aliento vírico",
+  "element": "alm",
+  "target": "all",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 25
+  },
+  "power": 200,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Power Slash": {
+  "name": "Power Slash",
+  "nameEs": "Corte poderoso",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 7
+  },
+  "power": 50,
+  "unique": false,
+  "card": "Sword 1"
+ },
+ "Fatal End": {
+  "name": "Fatal End",
+  "nameEs": "Final fatídico",
+  "element": "sla",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 110,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Tempest Slash": {
+  "name": "Tempest Slash",
+  "nameEs": "Corte tempestuoso",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 50,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Vacuum Slash": {
+  "name": "Vacuum Slash",
+  "nameEs": "Corte succionador",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 85,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Blade of Fury": {
+  "name": "Blade of Fury",
+  "nameEs": "Espada de furia",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 17
+  },
+  "power": 42,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Deathbound": {
+  "name": "Deathbound",
+  "nameEs": "Portamuerte",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 19
+  },
+  "power": 350,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Brave Blade": {
+  "name": "Brave Blade",
+  "nameEs": "Filo valeroso",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 650,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Vorpal Blade": {
+  "name": "Vorpal Blade",
+  "nameEs": "Espada vorpal",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 580,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Heaven's Blade": {
+  "name": "Heaven's Blade",
+  "nameEs": "Hoja celestial",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 500,
+  "unique": false,
+  "card": "Skill Mutation"
+ },
+ "Getsu-ei": {
+  "name": "Getsu-ei",
+  "nameEs": "Getsu-ei",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 13
+  },
+  "power": 180,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Zan-ei": {
+  "name": "Zan-ei",
+  "nameEs": "Zan-ei",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 100,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Neuro Slash": {
+  "name": "Neuro Slash",
+  "nameEs": "Neurocorte",
+  "element": "sla",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 180,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Bash": {
+  "name": "Bash",
+  "nameEs": "Arremetida",
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 7
+  },
+  "power": 50,
+  "unique": false,
+  "card": "Sword 1"
+ },
+ "Assault Dive": {
+  "name": "Assault Dive",
+  "nameEs": "Asalto",
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 11
+  },
+  "power": 120,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Gigantic Fist": {
+  "name": "Gigantic Fist",
+  "nameEs": "Puño gigantesco",
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 380,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Swift Strike": {
+  "name": "Swift Strike",
+  "nameEs": "Golpe veloz",
+  "element": "str",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 15
+  },
+  "power": 60,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Herculean Strike": {
+  "name": "Herculean Strike",
+  "nameEs": "Golpe hercúleo",
+  "element": "str",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 17
+  },
+  "power": 230,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Heat Wave": {
+  "name": "Heat Wave",
+  "nameEs": "Ola de calor",
+  "element": "str",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 400,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "God's Hand": {
+  "name": "God's Hand",
+  "nameEs": "Mano de Dios",
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 800,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Akasha Arts": {
+  "name": "Akasha Arts",
+  "nameEs": "Artes etéreas",
+  "element": "str",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 300,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Sonic Punch": {
+  "name": "Sonic Punch",
+  "nameEs": "Puño sónico",
+  "element": "str",
+  "target": "one",
+  "ailment": "distress",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 70,
+  "unique": false,
+  "card": null
+ },
+ "Single Shot": {
+  "name": "Single Shot",
+  "nameEs": "Disparo",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 6
+  },
+  "power": 45,
+  "unique": false,
+  "card": "Sword 1"
+ },
+ "Holy Arrow": {
+  "name": "Holy Arrow",
+  "nameEs": "Flecha divina",
+  "element": "pie",
+  "target": "one",
+  "ailment": "charm",
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 65,
+  "unique": false,
+  "card": "Sword 1"
+ },
+ "Torrent Shot": {
+  "name": "Torrent Shot",
+  "nameEs": "Disparo torrencial",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 11
+  },
+  "power": 30,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Vile Assault": {
+  "name": "Vile Assault",
+  "nameEs": "Asalto vil",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 15
+  },
+  "power": 400,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Arrow Rain": {
+  "name": "Arrow Rain",
+  "nameEs": "Lluvia de flechas",
+  "element": "pie",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 27,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Myriad Arrows": {
+  "name": "Myriad Arrows",
+  "nameEs": "Mil flechas",
+  "element": "pie",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 19
+  },
+  "power": 40,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Cruel Attack": {
+  "name": "Cruel Attack",
+  "nameEs": "Ataque cruel",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 13
+  },
+  "power": 200,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Primal Force": {
+  "name": "Primal Force",
+  "nameEs": "Fuerza primigenia",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 21
+  },
+  "power": 580,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Pralaya": {
+  "name": "Pralaya",
+  "nameEs": "Pralaya",
+  "element": "pie",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 23
+  },
+  "power": 600,
+  "unique": false,
+  "card": null
+ },
+ "Poison Arrow": {
+  "name": "Poison Arrow",
+  "nameEs": "Flecha venenosa",
+  "element": "pie",
+  "target": "one",
+  "ailment": "poison",
+  "cost": {
+   "type": "hp",
+   "value": 13
+  },
+  "power": 300,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Dia": {
+  "name": "Dia",
+  "nameEs": "Dia",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": 50,
+  "unique": false,
+  "card": "Sword 1"
+ },
+ "Diarama": {
+  "name": "Diarama",
+  "nameEs": "Diarama",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 150,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Diarahan": {
+  "name": "Diarahan",
+  "nameEs": "Diarahan",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 20
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Media": {
+  "name": "Media",
+  "nameEs": "Media",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 7
+  },
+  "power": 50,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Mediarama": {
+  "name": "Mediarama",
+  "nameEs": "Mediarama",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 150,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Mediarahan": {
+  "name": "Mediarahan",
+  "nameEs": "Mediarahan",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 44
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Salvation": {
+  "name": "Salvation",
+  "nameEs": "Salvación",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 60
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Recarm": {
+  "name": "Recarm",
+  "nameEs": "Recarm",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Samarecarm": {
+  "name": "Samarecarm",
+  "nameEs": "Samarecarm",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 35
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Recarmdra": {
+  "name": "Recarmdra",
+  "nameEs": "Recarmdra",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Patra": {
+  "name": "Patra",
+  "nameEs": "Patra",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "charm",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Me Patra": {
+  "name": "Me Patra",
+  "nameEs": "Me Patra",
+  "element": "rec",
+  "target": "party",
+  "ailment": "charm",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Baisudi": {
+  "name": "Baisudi",
+  "nameEs": "Baisudi",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 1"
+ },
+ "Mabaisudi": {
+  "name": "Mabaisudi",
+  "nameEs": "Mabaisudi",
+  "element": "rec",
+  "target": "party",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Amrita Shower": {
+  "name": "Amrita Shower",
+  "nameEs": "Lluvia de Amrita",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 25
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Amrita Drop": {
+  "name": "Amrita Drop",
+  "nameEs": "Gota de Amrita",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Tarukaja": {
+  "name": "Tarukaja",
+  "nameEs": "Tarukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Rakukaja": {
+  "name": "Rakukaja",
+  "nameEs": "Rakukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Sukukaja": {
+  "name": "Sukukaja",
+  "nameEs": "Sukukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Matarukaja": {
+  "name": "Matarukaja",
+  "nameEs": "Matarukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Marakukaja": {
+  "name": "Marakukaja",
+  "nameEs": "Marakukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Masukukaja": {
+  "name": "Masukukaja",
+  "nameEs": "Masukukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Heat Riser": {
+  "name": "Heat Riser",
+  "nameEs": "Subidón",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 36
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Tarunda": {
+  "name": "Tarunda",
+  "nameEs": "Tarunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Rakunda": {
+  "name": "Rakunda",
+  "nameEs": "Rakunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Sukunda": {
+  "name": "Sukunda",
+  "nameEs": "Sukunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Matarunda": {
+  "name": "Matarunda",
+  "nameEs": "Matarunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Marakunda": {
+  "name": "Marakunda",
+  "nameEs": "Marakunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Masukunda": {
+  "name": "Masukunda",
+  "nameEs": "Masukunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Debilitate": {
+  "name": "Debilitate",
+  "nameEs": "Debilitar",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 36
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dekaja": {
+  "name": "Dekaja",
+  "nameEs": "Dekaja",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Dekunda": {
+  "name": "Dekunda",
+  "nameEs": "Dekunda",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Charge": {
+  "name": "Charge",
+  "nameEs": "Carga",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Concentrate": {
+  "name": "Concentrate",
+  "nameEs": "Concentrar",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Bloody Charge": {
+  "name": "Bloody Charge",
+  "nameEs": "Carga sangrienta",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 40
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Rebellion": {
+  "name": "Rebellion",
+  "nameEs": "Rebelión",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 7
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Revolution": {
+  "name": "Revolution",
+  "nameEs": "Revolución",
+  "element": "sup",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 14
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Tetrakarn": {
+  "name": "Tetrakarn",
+  "nameEs": "Tetrakarn",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Makarakarn": {
+  "name": "Makarakarn",
+  "nameEs": "Makarakarn",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 10"
+ },
+ "Fire Break": {
+  "name": "Fire Break",
+  "nameEs": "Ruptura de fuego",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Ice Break": {
+  "name": "Ice Break",
+  "nameEs": "Ruptura de hielo",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Wind Break": {
+  "name": "Wind Break",
+  "nameEs": "Ruptura de viento",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Elec Break": {
+  "name": "Elec Break",
+  "nameEs": "Ruptura de electricidad",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Sinful Shell": {
+  "name": "Sinful Shell",
+  "nameEs": "Proyectil pecaminoso",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 66
+  },
+  "power": 700,
+  "unique": false,
+  "card": null
+ },
+ "Wild Thunder": {
+  "name": "Wild Thunder",
+  "nameEs": "Trueno salvaje",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 450,
+  "unique": false,
+  "card": null
+ },
+ "Vacuum Wave": {
+  "name": "Vacuum Wave",
+  "nameEs": "Ola succionadora",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 44
+  },
+  "power": 500,
+  "unique": false,
+  "card": null
+ },
+ "Blazing Hell": {
+  "name": "Blazing Hell",
+  "nameEs": "Averno ígneo",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 44
+  },
+  "power": 500,
+  "unique": false,
+  "card": null
+ },
+ "Ice Age": {
+  "name": "Ice Age",
+  "nameEs": "Glaciación",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 450,
+  "unique": false,
+  "card": null
+ },
+ "Cosmic Flare": {
+  "name": "Cosmic Flare",
+  "nameEs": "Fulgor cósmico",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": 550,
+  "unique": false,
+  "card": null
+ },
+ "One-shot Kill": {
+  "name": "One-shot Kill",
+  "nameEs": "Tiro mortal",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 17
+  },
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "Rebellion Blade": {
+  "name": "Rebellion Blade",
+  "nameEs": "Espada de la rebelión",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 80
+  },
+  "power": 700,
+  "unique": false,
+  "card": null
+ },
+ "Masquerade": {
+  "name": "Masquerade",
+  "nameEs": "Mascarada",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 24
+  },
+  "power": 200,
+  "unique": false,
+  "card": null
+ },
+ "Cross Slash": {
+  "name": "Cross Slash",
+  "nameEs": "Corte cruzado",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Magatsu Mandala": {
+  "name": "Magatsu Mandala",
+  "nameEs": "Magatsu Mandala",
+  "element": "dar",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": 300,
+  "unique": false,
+  "card": null
+ },
+ "Shining Arrows": {
+  "name": "Shining Arrows",
+  "nameEs": "Flechas brillantes",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 15,
+  "unique": false,
+  "card": null
+ },
+ "Full Analysis": {
+  "name": "Full Analysis",
+  "nameEs": "Análisis completo",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 35
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Escape Route": {
+  "name": "Escape Route",
+  "nameEs": "Vía de escape",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Jamming": {
+  "name": "Jamming",
+  "nameEs": "Inhibición",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 20
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Tartarus Search": {
+  "name": "Tartarus Search",
+  "nameEs": "Inspección de Tártaro",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 50
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Sylphid Aura": {
+  "name": "Sylphid Aura",
+  "nameEs": "Aura sílfide",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shock Noise": {
+  "name": "Shock Noise",
+  "nameEs": "Ruido atemorizante",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Cadenza": {
+  "name": "Cadenza",
+  "nameEs": "Cadencia",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Jack Brothers": {
+  "name": "Jack Brothers",
+  "nameEs": "Hermanos Jack",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 80,
+  "unique": false,
+  "card": null
+ },
+ "Best Friends": {
+  "name": "Best Friends",
+  "nameEs": "Mejores amigos",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Scarlet Havoc": {
+  "name": "Scarlet Havoc",
+  "nameEs": "Caos escarlata",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "Trickster": {
+  "name": "Trickster",
+  "nameEs": "Bromista",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 300,
+  "unique": false,
+  "card": null
+ },
+ "Armageddon": {
+  "name": "Armageddon",
+  "nameEs": "Armagedón",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Justice": {
+  "name": "Justice",
+  "nameEs": null,
+  "element": "pie",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 80,
+  "unique": false,
+  "card": null
+ },
+ "Dreamfest": {
+  "name": "Dreamfest",
+  "nameEs": null,
+  "element": "dar",
+  "target": "all",
+  "ailment": "charm",
+  "cost": null,
+  "power": 200,
+  "unique": false,
+  "card": null
+ },
+ "Shadow Hound": {
+  "name": "Shadow Hound",
+  "nameEs": null,
+  "element": "pie",
+  "target": "one",
+  "ailment": "fear",
+  "cost": null,
+  "power": 300,
+  "unique": false,
+  "card": null
+ },
+ "Oracle": {
+  "name": "Oracle",
+  "nameEs": "Oráculo",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Revelation": {
+  "name": "Revelation",
+  "nameEs": "Revelación",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Cyclone Arrow": {
+  "name": "Cyclone Arrow",
+  "nameEs": "Flecha ciclónica",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 220,
+  "unique": false,
+  "card": null
+ },
+ "Hack n' Blast": {
+  "name": "Hack n' Blast",
+  "nameEs": "Ráfaga incisiva",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "Lightning Spike": {
+  "name": "Lightning Spike",
+  "nameEs": "Saque tronador",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Blizzard Edge": {
+  "name": "Blizzard Edge",
+  "nameEs": "Ventisca punzante",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 180,
+  "unique": false,
+  "card": null
+ },
+ "Orgia Mode": {
+  "name": "Orgia Mode",
+  "nameEs": "Modo Desenfreno",
+  "element": "pie",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Divine Retribution": {
+  "name": "Divine Retribution",
+  "nameEs": "Retribución divina",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 230,
+  "unique": false,
+  "card": null
+ },
+ "Hound of Hades": {
+  "name": "Hound of Hades",
+  "nameEs": "Sabueso del Hades",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 220,
+  "unique": false,
+  "card": null
+ },
+ "Bleeding Fury": {
+  "name": "Bleeding Fury",
+  "nameEs": "Furia sangrante",
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 280,
+  "unique": false,
+  "card": null
+ },
+ "Tranquility": {
+  "name": "Tranquility",
+  "nameEs": "Remanso de paz",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Blaze of Life": {
+  "name": "Blaze of Life",
+  "nameEs": "Resplandor vital",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 450,
+  "unique": false,
+  "card": null
+ },
+ "Electric Onslaught": {
+  "name": "Electric Onslaught",
+  "nameEs": "Masacre eléctrica",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 200,
+  "unique": false,
+  "card": null
+ },
+ "Blade of Execution": {
+  "name": "Blade of Execution",
+  "nameEs": "Hoja de ejecución",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 350,
+  "unique": false,
+  "card": null
+ },
+ "Maximum Firepower": {
+  "name": "Maximum Firepower",
+  "nameEs": "Artillería pesada",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "Divine Intervention": {
+  "name": "Divine Intervention",
+  "nameEs": "Intervención divina",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Power Howling": {
+  "name": "Power Howling",
+  "nameEs": "Aullido de poder",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Charging Blitz": {
+  "name": "Charging Blitz",
+  "nameEs": null,
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "All-Out Attack": {
+  "name": "All-Out Attack",
+  "nameEs": "Ataque combinado",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "unique": false,
+  "card": null
+ },
+ "Slash Attack": {
+  "name": "Slash Attack",
+  "nameEs": "Ataque cortante",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Strike Attack": {
+  "name": "Strike Attack",
+  "nameEs": "Ataque contundente",
+  "element": "str",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Pierce Attack": {
+  "name": "Pierce Attack",
+  "nameEs": "Ataque perforante",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Fire Attack": {
+  "name": "Fire Attack",
+  "nameEs": "Ataque de fuego",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Ice Attack": {
+  "name": "Ice Attack",
+  "nameEs": "Ataque de hielo",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Electric Attack": {
+  "name": "Electric Attack",
+  "nameEs": "Ataque de electricidad",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Wind Attack": {
+  "name": "Wind Attack",
+  "nameEs": "Ataque de viento",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Light Attack": {
+  "name": "Light Attack",
+  "nameEs": "Ataque de luz",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Dark Attack": {
+  "name": "Dark Attack",
+  "nameEs": "Ataque de oscuridad",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Almighty Attack": {
+  "name": "Almighty Attack",
+  "nameEs": "Ataque todopoderoso",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 40,
+  "unique": false,
+  "card": null
+ },
+ "Summon": {
+  "name": "Summon",
+  "nameEs": "Invocar",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 1
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Ice Storm": {
+  "name": "Ice Storm",
+  "nameEs": "Tormenta gélida",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": 80,
+  "unique": false,
+  "card": null
+ },
+ "Invitation to Chaos": {
+  "name": "Invitation to Chaos",
+  "nameEs": "Invitación al caos",
+  "element": "alm",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Doomsday Doctrine": {
+  "name": "Doomsday Doctrine",
+  "nameEs": "Doctrina del juicio final",
+  "element": "ail",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Paradigm Shift": {
+  "name": "Paradigm Shift",
+  "nameEs": "Cambio de paradigma",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Heartbreaker": {
+  "name": "Heartbreaker",
+  "nameEs": "Rompecorazones",
+  "element": "alm",
+  "target": "all",
+  "ailment": "charm",
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": 60,
+  "unique": false,
+  "card": null
+ },
+ "Seductive Breath": {
+  "name": "Seductive Breath",
+  "nameEs": "Aliento seductor",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Unite": {
+  "name": "Unite",
+  "nameEs": "Unión",
+  "element": "alm",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Separate": {
+  "name": "Separate",
+  "nameEs": "Separación",
+  "element": "alm",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Restore": {
+  "name": "Restore",
+  "nameEs": "Restaurar",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 500,
+  "unique": false,
+  "card": null
+ },
+ "Armor-Piercing Shell": {
+  "name": "Armor-Piercing Shell",
+  "nameEs": "Proyectil perforante",
+  "element": "pie",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 2500,
+  "unique": false,
+  "card": null
+ },
+ "High-Explosive Shell": {
+  "name": "High-Explosive Shell",
+  "nameEs": "Proyectil ultraexplosivo",
+  "element": "pie",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 220,
+  "unique": false,
+  "card": null
+ },
+ "Frag Grenade": {
+  "name": "Frag Grenade",
+  "nameEs": "Granada de mano",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 300,
+  "unique": false,
+  "card": null
+ },
+ "Lightning Grenade": {
+  "name": "Lightning Grenade",
+  "nameEs": "Granada tronadora",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "Flash Grenade": {
+  "name": "Flash Grenade",
+  "nameEs": "Granada cegadora",
+  "element": "alm",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Flame Grenade": {
+  "name": "Flame Grenade",
+  "nameEs": "Granada ígnea",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 350,
+  "unique": false,
+  "card": null
+ },
+ "Shock Grenade": {
+  "name": "Shock Grenade",
+  "nameEs": "Granada eléctrica",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 300,
+  "unique": false,
+  "card": null
+ },
+ "EX Flash Grenade": {
+  "name": "EX Flash Grenade",
+  "nameEs": "Granada cegadora EX",
+  "element": "alm",
+  "target": "all",
+  "ailment": "confuse",
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 200,
+  "unique": false,
+  "card": null
+ },
+ "Weakness Scan": {
+  "name": "Weakness Scan",
+  "nameEs": "Análisis de debilidad",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Potent Stim Injection": {
+  "name": "Potent Stim Injection",
+  "nameEs": "Superinyección estimulante",
+  "element": "sup",
+  "target": "ally",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Paradise of Quietus": {
+  "name": "Paradise of Quietus",
+  "nameEs": "Asestada mortal",
+  "element": "alm",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": 900,
+  "unique": false,
+  "card": null
+ },
+ "Charging Complete": {
+  "name": "Charging Complete",
+  "nameEs": "Carga completa",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 0
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Accelerated Charging": {
+  "name": "Accelerated Charging",
+  "nameEs": "Carga acelerada",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "High-Volt Current": {
+  "name": "High-Volt Current",
+  "nameEs": "Alto voltaje",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": 250,
+  "unique": false,
+  "card": null
+ },
+ "Mega Spark": {
+  "name": "Mega Spark",
+  "nameEs": "Megachispa",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": 400,
+  "unique": false,
+  "card": null
+ },
+ "Giga Spark": {
+  "name": "Giga Spark",
+  "nameEs": "Gigachispa",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": 600,
+  "unique": false,
+  "card": null
+ },
+ "Tera Spark": {
+  "name": "Tera Spark",
+  "nameEs": "Terachispa",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 1
+  },
+  "power": 800,
+  "unique": false,
+  "card": null
+ },
+ "Initiate Charging": {
+  "name": "Initiate Charging",
+  "nameEs": "Carga iniciada",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Arcana Shift": {
+  "name": "Arcana Shift",
+  "nameEs": "Cambio arcano",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Sweep": {
+  "name": "Sweep",
+  "nameEs": "Barrido",
+  "element": "sla",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 350,
+  "unique": false,
+  "card": null
+ },
+ "Sunder": {
+  "name": "Sunder",
+  "nameEs": "Hendidura",
+  "element": "sla",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 650,
+  "unique": false,
+  "card": null
+ },
+ "Night Queen": {
+  "name": "Night Queen",
+  "nameEs": "Reina nocturna",
+  "element": "alm",
+  "target": "all",
+  "ailment": "distress",
+  "cost": null,
+  "power": 1200,
+  "unique": false,
+  "card": null
+ },
+ "Apocalypse": {
+  "name": "Apocalypse",
+  "nameEs": "Apocalipsis",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 99,
+  "unique": false,
+  "card": null
+ },
+ "Grim Transcendence": {
+  "name": "Grim Transcendence",
+  "nameEs": "Trascendencia macabra",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 1
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Mobius Rondo": {
+  "name": "Mobius Rondo",
+  "nameEs": "Rondó Mobius",
+  "element": "str",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 30,
+  "unique": false,
+  "card": null
+ },
+ "Wheel of Fortune": {
+  "name": "Wheel of Fortune",
+  "nameEs": "Rueda de la fortuna",
+  "element": "sup",
+  "target": "everyone",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Death": {
+  "name": "Death",
+  "nameEs": "de la Muerte.",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 9999,
+  "unique": false,
+  "card": null
+ },
+ "Great Seal": {
+  "name": "Great Seal",
+  "nameEs": "Gran sello",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 100
+  },
+  "power": 1,
+  "unique": false,
+  "card": null
+ },
+ "Mahama B": {
+  "name": "Mahama B",
+  "nameEs": "Mahama",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Spring of Life": {
+  "name": "Spring of Life",
+  "nameEs": "Manantial de la vida",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Soul Drain": {
+  "name": "Soul Drain",
+  "nameEs": "Absorción de alma",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drop Money": {
+  "name": "Drop Money",
+  "nameEs": "Soltar dinero",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drop Item": {
+  "name": "Drop Item",
+  "nameEs": "Soltar objeto",
+  "element": "pas",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Freeze (low)": {
+  "name": "Freeze (low)",
+  "nameEs": "Congelación (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Freeze (med)": {
+  "name": "Freeze (med)",
+  "nameEs": "Congelación (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Freeze (high)": {
+  "name": "Freeze (high)",
+  "nameEs": "Congelación (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shock (low)": {
+  "name": "Shock (low)",
+  "nameEs": "Paralización (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shock (med)": {
+  "name": "Shock (med)",
+  "nameEs": "Paralización (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shock (high)": {
+  "name": "Shock (high)",
+  "nameEs": "Paralización (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Confuse (low)": {
+  "name": "Confuse (low)",
+  "nameEs": "Confusión (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Confuse (med)": {
+  "name": "Confuse (med)",
+  "nameEs": "Confusión (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Confuse (high)": {
+  "name": "Confuse (high)",
+  "nameEs": "Confusión (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Fear (low)": {
+  "name": "Fear (low)",
+  "nameEs": "Miedo (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Fear (med)": {
+  "name": "Fear (med)",
+  "nameEs": "Miedo (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Fear (high)": {
+  "name": "Fear (high)",
+  "nameEs": "Miedo (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Distress (low)": {
+  "name": "Distress (low)",
+  "nameEs": "Angustia (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Distress (med)": {
+  "name": "Distress (med)",
+  "nameEs": "Angustia (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Distress (high)": {
+  "name": "Distress (high)",
+  "nameEs": "Angustia (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Charm (low)": {
+  "name": "Charm (low)",
+  "nameEs": "Manipulación (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Charm (med)": {
+  "name": "Charm (med)",
+  "nameEs": "Manipulación (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Charm (high)": {
+  "name": "Charm (high)",
+  "nameEs": "Manipulación (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Rage (low)": {
+  "name": "Rage (low)",
+  "nameEs": "Furia (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Rage (med)": {
+  "name": "Rage (med)",
+  "nameEs": "Furia (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Rage (high)": {
+  "name": "Rage (high)",
+  "nameEs": "Furia (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Poison (low)": {
+  "name": "Poison (low)",
+  "nameEs": "Veneno (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Poison (med)": {
+  "name": "Poison (med)",
+  "nameEs": "Veneno (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Poison (high)": {
+  "name": "Poison (high)",
+  "nameEs": "Veneno (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "All Ailments (low)": {
+  "name": "All Ailments (low)",
+  "nameEs": "Todos los estados alterados (baja)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "All Ailments (med)": {
+  "name": "All Ailments (med)",
+  "nameEs": "Todos los estados alterados (media)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "All Ailments (high)": {
+  "name": "All Ailments (high)",
+  "nameEs": "Todos los estados alterados (alta)",
+  "element": "pas",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Medicine": {
+  "name": "Medicine",
+  "nameEs": "Medicina",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Bead": {
+  "name": "Bead",
+  "nameEs": "Abalorio",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Bead Chain": {
+  "name": "Bead Chain",
+  "nameEs": "Cadena de abalorios",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Precious Egg": {
+  "name": "Precious Egg",
+  "nameEs": "Huevo preciado",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Potent Medicine": {
+  "name": "Potent Medicine",
+  "nameEs": "Medicina potente",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 1,
+  "unique": false,
+  "card": null
+ },
+ "Medical Powder": {
+  "name": "Medical Powder",
+  "nameEs": "Polvo medicinal",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Muscle Drink": {
+  "name": "Muscle Drink",
+  "nameEs": "Batido de proteínas",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "poison",
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Odd Morsel": {
+  "name": "Odd Morsel",
+  "nameEs": "Bocado extraño",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "fear",
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Rancid Gravy": {
+  "name": "Rancid Gravy",
+  "nameEs": "Salsa rancia",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "confuse",
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Umugi Water": {
+  "name": "Umugi Water",
+  "nameEs": "Agua Umugi",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Bread": {
+  "name": "Bread",
+  "nameEs": "Bread",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 20,
+  "unique": false,
+  "card": null
+ },
+ "Cutlet Sandwich": {
+  "name": "Cutlet Sandwich",
+  "nameEs": "Sándwich de carne",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 75,
+  "unique": false,
+  "card": null
+ },
+ "Snuff Soul": {
+  "name": "Snuff Soul",
+  "nameEs": "Rapé espiritual",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Chewing Soul": {
+  "name": "Chewing Soul",
+  "nameEs": "Chicle espiritual",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Soma": {
+  "name": "Soma",
+  "nameEs": "Soma",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "SP Drink": {
+  "name": "SP Drink",
+  "nameEs": "Bebida de PE",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dis-Poison": {
+  "name": "Dis-Poison",
+  "nameEs": "Antiveneno",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dis-Rage": {
+  "name": "Dis-Rage",
+  "nameEs": "Antifuria",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dis-Charm": {
+  "name": "Dis-Charm",
+  "nameEs": "Antimanipulación",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Me Patra Gem": {
+  "name": "Me Patra Gem",
+  "nameEs": "Gema Me Patra",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Traesto Gem": {
+  "name": "Traesto Gem",
+  "nameEs": "Gema Traesto",
+  "element": "pas",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Trafuri Gem": {
+  "name": "Trafuri Gem",
+  "nameEs": "Gema Trafuri",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Agilao Gem": {
+  "name": "Agilao Gem",
+  "nameEs": "Gema Agilao",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Maragi Gem": {
+  "name": "Maragi Gem",
+  "nameEs": "Gema Maragi",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Bufula Gem": {
+  "name": "Bufula Gem",
+  "nameEs": "Gema Bufula",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Mabufu Gem": {
+  "name": "Mabufu Gem",
+  "nameEs": "Gema Mabufu",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Zionga Gem": {
+  "name": "Zionga Gem",
+  "nameEs": "Gema Zionga",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Mazio Gem": {
+  "name": "Mazio Gem",
+  "nameEs": "Gema Mazio",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Garula Gem": {
+  "name": "Garula Gem",
+  "nameEs": "Gema Garula",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Magaru Gem": {
+  "name": "Magaru Gem",
+  "nameEs": "Gema Magaru",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Megido Gem": {
+  "name": "Megido Gem",
+  "nameEs": "Gema Megido",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Megidolaon Gem": {
+  "name": "Megidolaon Gem",
+  "nameEs": "Gema Megidolaon",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 200,
+  "unique": false,
+  "card": null
+ },
+ "Purifying Rice": {
+  "name": "Purifying Rice",
+  "nameEs": "Arroz purificador",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Curse Paper": {
+  "name": "Curse Paper",
+  "nameEs": "Papel maldito",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Flame Magatama": {
+  "name": "Flame Magatama",
+  "nameEs": "Magatama de llama",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Frigid Magatama": {
+  "name": "Frigid Magatama",
+  "nameEs": "Magatama gélida",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Shock Magatama": {
+  "name": "Shock Magatama",
+  "nameEs": "Magatama paralizante",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Gale Magatama": {
+  "name": "Gale Magatama",
+  "nameEs": "Magatama de vendaval",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Homunculus": {
+  "name": "Homunculus",
+  "nameEs": "Homúnculo",
+  "element": "pas",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Plume of Gold": {
+  "name": "Plume of Gold",
+  "nameEs": "Pluma de oro",
+  "element": "pas",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Life Stone": {
+  "name": "Life Stone",
+  "nameEs": "Piedra vital",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 30,
+  "unique": false,
+  "card": null
+ },
+ "Mega Kudzu": {
+  "name": "Mega Kudzu",
+  "nameEs": "Mega Kudzu",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 20,
+  "unique": false,
+  "card": null
+ },
+ "Value Medicine": {
+  "name": "Value Medicine",
+  "nameEs": "Medicina cara",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Soul Drop": {
+  "name": "Soul Drop",
+  "nameEs": "Gota espiritual",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Kouga Gem": {
+  "name": "Kouga Gem",
+  "nameEs": "Gema Kouga",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Makouha Gem": {
+  "name": "Makouha Gem",
+  "nameEs": "Gema Makouha",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Eiga Gem": {
+  "name": "Eiga Gem",
+  "nameEs": "Gema Eiga",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Maeiha Gem": {
+  "name": "Maeiha Gem",
+  "nameEs": "Gema Maeiha",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "unique": false,
+  "card": null
+ },
+ "Holy Magatama": {
+  "name": "Holy Magatama",
+  "nameEs": "Magatama sagrado",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Malice Magatama": {
+  "name": "Malice Magatama",
+  "nameEs": "Magatama de malicia",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Dis-Distress": {
+  "name": "Dis-Distress",
+  "nameEs": "Quitaangustias",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dis-Confuse": {
+  "name": "Dis-Confuse",
+  "nameEs": "Quitaconfusión",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dis-Fear": {
+  "name": "Dis-Fear",
+  "nameEs": "Quitamiedo",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Amrita Gem": {
+  "name": "Amrita Gem",
+  "nameEs": "Gema de Amrita",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Defrost Powder": {
+  "name": "Defrost Powder",
+  "nameEs": "Polvo descongelante",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Antistatic Paper": {
+  "name": "Antistatic Paper",
+  "nameEs": "Papel antiestático",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Smelling Salts": {
+  "name": "Smelling Salts",
+  "nameEs": "Sales aromáticas",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Weird Takoyaki": {
+  "name": "Weird Takoyaki",
+  "nameEs": "Takoyaki raro",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "fear",
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "HP Drink": {
+  "name": "HP Drink",
+  "nameEs": "Bebida de PS",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 10,
+  "unique": false,
+  "card": null
+ },
+ "Single-target Dekunda": {
+  "name": "Single-target Dekunda",
+  "nameEs": "Dekunda de objetivo único",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Soul Spinach": {
+  "name": "Soul Spinach",
+  "nameEs": "Espinalmas",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Leafy Soul Spinach": {
+  "name": "Leafy Soul Spinach",
+  "nameEs": "Espinalmas frondosas",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Golden Tomato": {
+  "name": "Golden Tomato",
+  "nameEs": "Tomate dorado",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Big Golden Tomato": {
+  "name": "Big Golden Tomato",
+  "nameEs": "Tomate grande dorado",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "unique": false,
+  "card": null
+ },
+ "Tiny Golden Tomato": {
+  "name": "Tiny Golden Tomato",
+  "nameEs": "Tomate pequeño dorado",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Golden Tomato EX": {
+  "name": "Golden Tomato EX",
+  "nameEs": "Tomate dorado EX",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "unique": false,
+  "card": null
+ },
+ "Platinum Tomato": {
+  "name": "Platinum Tomato",
+  "nameEs": "Tomate de platino",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": null,
+  "power": 200,
+  "unique": false,
+  "card": null
+ },
+ "Resist Slash": {
+  "name": "Resist Slash",
+  "nameEs": "Resistir corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Slash": {
+  "name": "Null Slash",
+  "nameEs": "Anular corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Slash": {
+  "name": "Repel Slash",
+  "nameEs": "Repeler corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Drain Slash": {
+  "name": "Drain Slash",
+  "nameEs": "Absorber corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Strike": {
+  "name": "Resist Strike",
+  "nameEs": "Resistir contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Strike": {
+  "name": "Null Strike",
+  "nameEs": "Anular contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Strike": {
+  "name": "Repel Strike",
+  "nameEs": "Repeler contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Drain Strike": {
+  "name": "Drain Strike",
+  "nameEs": "Absorber contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Pierce": {
+  "name": "Resist Pierce",
+  "nameEs": "Resistir perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Pierce": {
+  "name": "Null Pierce",
+  "nameEs": "Anular perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Pierce": {
+  "name": "Repel Pierce",
+  "nameEs": "Repeler perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Drain Pierce": {
+  "name": "Drain Pierce",
+  "nameEs": "Absorber perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Fire": {
+  "name": "Resist Fire",
+  "nameEs": "Resistir fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Fire": {
+  "name": "Null Fire",
+  "nameEs": "Anular fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Fire": {
+  "name": "Repel Fire",
+  "nameEs": "Repeler fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Fire": {
+  "name": "Drain Fire",
+  "nameEs": "Absorber fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Resist Ice": {
+  "name": "Resist Ice",
+  "nameEs": "Resistir hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Ice": {
+  "name": "Null Ice",
+  "nameEs": "Anular hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Ice": {
+  "name": "Repel Ice",
+  "nameEs": "Repeler hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Ice": {
+  "name": "Drain Ice",
+  "nameEs": "Absorber hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Resist Wind": {
+  "name": "Resist Wind",
+  "nameEs": "Resistir viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Wind": {
+  "name": "Null Wind",
+  "nameEs": "Anular viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Wind": {
+  "name": "Repel Wind",
+  "nameEs": "Repeler viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Wind": {
+  "name": "Drain Wind",
+  "nameEs": "Absorber viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Resist Elec": {
+  "name": "Resist Elec",
+  "nameEs": "Resistir electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Elec": {
+  "name": "Null Elec",
+  "nameEs": "Anular electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Repel Elec": {
+  "name": "Repel Elec",
+  "nameEs": "Repeler electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Elec": {
+  "name": "Drain Elec",
+  "nameEs": "Absorber electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Resist Light": {
+  "name": "Resist Light",
+  "nameEs": "Resistir luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Light": {
+  "name": "Null Light",
+  "nameEs": "Anular luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Repel Light": {
+  "name": "Repel Light",
+  "nameEs": "Repeler luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Light": {
+  "name": "Drain Light",
+  "nameEs": "Absorber luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Dark": {
+  "name": "Resist Dark",
+  "nameEs": "Resistir oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 8"
+ },
+ "Null Dark": {
+  "name": "Null Dark",
+  "nameEs": "Anular oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Repel Dark": {
+  "name": "Repel Dark",
+  "nameEs": "Repeler oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Dark": {
+  "name": "Drain Dark",
+  "nameEs": "Absorber oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Dizzy": {
+  "name": "Resist Dizzy",
+  "nameEs": "Resistir Mareo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Dizzy": {
+  "name": "Null Dizzy",
+  "nameEs": "Anular Mareo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Poison": {
+  "name": "Resist Poison",
+  "nameEs": "Resistir Veneno",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Poison": {
+  "name": "Null Poison",
+  "nameEs": "Anular Veneno",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Charm": {
+  "name": "Resist Charm",
+  "nameEs": "Resistir Manipulación",
+  "element": "pas",
+  "target": "self",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Charm": {
+  "name": "Null Charm",
+  "nameEs": "Anular Manipulación",
+  "element": "pas",
+  "target": "self",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Distress": {
+  "name": "Resist Distress",
+  "nameEs": "Resistir Angustia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Distress": {
+  "name": "Null Distress",
+  "nameEs": "Anular Angustia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Confuse": {
+  "name": "Resist Confuse",
+  "nameEs": "Resistir Confusión",
+  "element": "pas",
+  "target": "self",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Confuse": {
+  "name": "Null Confuse",
+  "nameEs": "Anular Confusión",
+  "element": "pas",
+  "target": "self",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Fear": {
+  "name": "Resist Fear",
+  "nameEs": "Resistir Miedo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Fear": {
+  "name": "Null Fear",
+  "nameEs": "Anular Miedo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Rage": {
+  "name": "Resist Rage",
+  "nameEs": "Resistir Furia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Rage": {
+  "name": "Null Rage",
+  "nameEs": "Anular Furia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Freeze": {
+  "name": "Resist Freeze",
+  "nameEs": "Resistir Congelación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Freeze": {
+  "name": "Null Freeze",
+  "nameEs": "Anular Congelación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Shock": {
+  "name": "Resist Shock",
+  "nameEs": "Resistir Paralización",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Shock": {
+  "name": "Null Shock",
+  "nameEs": "Anular Paralización",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Unshaken Will": {
+  "name": "Unshaken Will",
+  "nameEs": "Voluntad impasible",
+  "element": "pas",
+  "target": "self",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Resist Ailments": {
+  "name": "Resist Ailments",
+  "nameEs": "Resistir estados alterados",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Dodge Slash": {
+  "name": "Dodge Slash",
+  "nameEs": "Esquivar corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Slash": {
+  "name": "Evade Slash",
+  "nameEs": "Evadir corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Strike": {
+  "name": "Dodge Strike",
+  "nameEs": "Esquivar contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Strike": {
+  "name": "Evade Strike",
+  "nameEs": "Evadir contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Pierce": {
+  "name": "Dodge Pierce",
+  "nameEs": "Esquivar perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Pierce": {
+  "name": "Evade Pierce",
+  "nameEs": "Evadir perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Fire": {
+  "name": "Dodge Fire",
+  "nameEs": "Esquivar fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Fire": {
+  "name": "Evade Fire",
+  "nameEs": "Evadir fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Ice": {
+  "name": "Dodge Ice",
+  "nameEs": "Esquivar hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Ice": {
+  "name": "Evade Ice",
+  "nameEs": "Evadir hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Wind": {
+  "name": "Dodge Wind",
+  "nameEs": "Esquivar viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Wind": {
+  "name": "Evade Wind",
+  "nameEs": "Evadir viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Elec": {
+  "name": "Dodge Elec",
+  "nameEs": "Esquivar electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Elec": {
+  "name": "Evade Elec",
+  "nameEs": "Evadir electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Light": {
+  "name": "Dodge Light",
+  "nameEs": "Esquivar luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Light": {
+  "name": "Evade Light",
+  "nameEs": "Evadir luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Dodge Dark": {
+  "name": "Dodge Dark",
+  "nameEs": "Esquivar oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Evade Dark": {
+  "name": "Evade Dark",
+  "nameEs": "Evadir oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Counter": {
+  "name": "Counter",
+  "nameEs": "Réplica",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Counterstrike": {
+  "name": "Counterstrike",
+  "nameEs": "Contraataque",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "High Counter": {
+  "name": "High Counter",
+  "nameEs": "Gran contraataque",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Regenerate 1": {
+  "name": "Regenerate 1",
+  "nameEs": "Regenerar 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Regenerate 2": {
+  "name": "Regenerate 2",
+  "nameEs": "Regenerar 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Regenerate 3": {
+  "name": "Regenerate 3",
+  "nameEs": "Regenerar 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Invigorate 1": {
+  "name": "Invigorate 1",
+  "nameEs": "Vigorizar 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Invigorate 2": {
+  "name": "Invigorate 2",
+  "nameEs": "Vigorizar 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Invigorate 3": {
+  "name": "Invigorate 3",
+  "nameEs": "Vigorizar 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Slash Boost": {
+  "name": "Slash Boost",
+  "nameEs": "Potenciación de corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Slash Amp": {
+  "name": "Slash Amp",
+  "nameEs": "Amplificación de corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Strike Boost": {
+  "name": "Strike Boost",
+  "nameEs": "Potenciación de contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Strike Amp": {
+  "name": "Strike Amp",
+  "nameEs": "Amplificación de contundente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Pierce Boost": {
+  "name": "Pierce Boost",
+  "nameEs": "Potenciación de perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Pierce Amp": {
+  "name": "Pierce Amp",
+  "nameEs": "Amplificación de perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Fire Boost": {
+  "name": "Fire Boost",
+  "nameEs": "Potenciación de fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Fire Amp": {
+  "name": "Fire Amp",
+  "nameEs": "Amplificación de fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Ice Boost": {
+  "name": "Ice Boost",
+  "nameEs": "Potenciación de hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Ice Amp": {
+  "name": "Ice Amp",
+  "nameEs": "Amplificación de hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Wind Boost": {
+  "name": "Wind Boost",
+  "nameEs": "Potenciación de viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Wind Amp": {
+  "name": "Wind Amp",
+  "nameEs": "Amplificación de viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Elec Boost": {
+  "name": "Elec Boost",
+  "nameEs": "Potenciación de electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Elec Amp": {
+  "name": "Elec Amp",
+  "nameEs": "Amplificación de electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Light Boost": {
+  "name": "Light Boost",
+  "nameEs": "Potenciación de luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Light Amp": {
+  "name": "Light Amp",
+  "nameEs": "Amplificación de luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Dark Boost": {
+  "name": "Dark Boost",
+  "nameEs": "Potenciación de oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Dark Amp": {
+  "name": "Dark Amp",
+  "nameEs": "Amplificación de oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword Q"
+ },
+ "Dizzy Boost": {
+  "name": "Dizzy Boost",
+  "nameEs": "Potenciación de Mareo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Poison Boost": {
+  "name": "Poison Boost",
+  "nameEs": "Potenciación de Veneno",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Charm Boost": {
+  "name": "Charm Boost",
+  "nameEs": "Potenc. Manipulación",
+  "element": "pas",
+  "target": "self",
+  "ailment": "charm",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Distress Boost": {
+  "name": "Distress Boost",
+  "nameEs": "Potenc. Angustia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "distress",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Confuse Boost": {
+  "name": "Confuse Boost",
+  "nameEs": "Potenciación de Confusión",
+  "element": "pas",
+  "target": "self",
+  "ailment": "confuse",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Fear Boost": {
+  "name": "Fear Boost",
+  "nameEs": "Potenciación de Miedo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Rage Boost": {
+  "name": "Rage Boost",
+  "nameEs": "Potenciación de Furia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Freeze Boost": {
+  "name": "Freeze Boost",
+  "nameEs": "Potenciación de Congelación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shock Boost": {
+  "name": "Shock Boost",
+  "nameEs": "Potenc. de Electrif.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Ailment Boost": {
+  "name": "Ailment Boost",
+  "nameEs": "Potenciación de estado alterado",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 5"
+ },
+ "Hama Boost": {
+  "name": "Hama Boost",
+  "nameEs": "Potenciación de Hama",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Mudo Boost": {
+  "name": "Mudo Boost",
+  "nameEs": "Potenciación de Mudo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 4"
+ },
+ "Auto Tarukaja": {
+  "name": "Auto Tarukaja",
+  "nameEs": "Autotarukaja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Auto Rakukaja": {
+  "name": "Auto Rakukaja",
+  "nameEs": "Autorakukaja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Auto Sukukaja": {
+  "name": "Auto Sukukaja",
+  "nameEs": "Autosukukaja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Auto Mataru": {
+  "name": "Auto Mataru",
+  "nameEs": "Automataru",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Auto Maraku": {
+  "name": "Auto Maraku",
+  "nameEs": "Automaraku",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Auto Masuku": {
+  "name": "Auto Masuku",
+  "nameEs": "Automasuku",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Auto Rebellion": {
+  "name": "Auto Rebellion",
+  "nameEs": "Autorrebelión",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Sharp Student": {
+  "name": "Sharp Student",
+  "nameEs": "Estudiante inteligente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Apt Pupil": {
+  "name": "Apt Pupil",
+  "nameEs": "Alumno hábil",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Endure": {
+  "name": "Endure",
+  "nameEs": "Último aliento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Enduring Soul": {
+  "name": "Enduring Soul",
+  "nameEs": "Alma inmortal",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Life Aid": {
+  "name": "Life Aid",
+  "nameEs": "Ayuda vital",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Victory Cry": {
+  "name": "Victory Cry",
+  "nameEs": "Grito victorioso",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Divine Grace": {
+  "name": "Divine Grace",
+  "nameEs": "Gracia divina",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Angelic Grace": {
+  "name": "Angelic Grace",
+  "nameEs": "Gracia angelical",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Raging Tiger": {
+  "name": "Raging Tiger",
+  "nameEs": "Tigre furioso",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Vidyaraja's Blessing": {
+  "name": "Vidyaraja's Blessing",
+  "nameEs": "Bendición de Vidyaraja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Growth 1": {
+  "name": "Growth 1",
+  "nameEs": "Crecimiento 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Growth 2": {
+  "name": "Growth 2",
+  "nameEs": "Crecimiento 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Growth 3": {
+  "name": "Growth 3",
+  "nameEs": "Crecimiento 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Ali Dance": {
+  "name": "Ali Dance",
+  "nameEs": "Baile evasivo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Firm Stance": {
+  "name": "Firm Stance",
+  "nameEs": "Posición firme",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Survive Light": {
+  "name": "Survive Light",
+  "nameEs": "Sobrevivir a luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Endure Light": {
+  "name": "Endure Light",
+  "nameEs": "Resistir luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Survive Dark": {
+  "name": "Survive Dark",
+  "nameEs": "Sobrevivir a oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Endure Dark": {
+  "name": "Endure Dark",
+  "nameEs": "Resistir oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Survival Trick": {
+  "name": "Survival Trick",
+  "nameEs": "Truco de supervivencia",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 9"
+ },
+ "Arms Master": {
+  "name": "Arms Master",
+  "nameEs": "As de las armas",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Spell Master": {
+  "name": "Spell Master",
+  "nameEs": "As de los hechizos",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword K"
+ },
+ "Almighty Boost": {
+  "name": "Almighty Boost",
+  "nameEs": "Potenciación de ataque todopoderoso",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Almighty Amp": {
+  "name": "Almighty Amp",
+  "nameEs": "Amplificación de ataque todopoderoso",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Skill Mutation"
+ },
+ "Magic Ability": {
+  "name": "Magic Ability",
+  "nameEs": "Habilidad mágica",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Magic Mastery": {
+  "name": "Magic Mastery",
+  "nameEs": "Dominio mágico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Skill Mutation"
+ },
+ "Fast Heal": {
+  "name": "Fast Heal",
+  "nameEs": "Curación rápida",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Insta-Heal": {
+  "name": "Insta-Heal",
+  "nameEs": "Curación instantánea",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword J"
+ },
+ "Resist Phys": {
+  "name": "Resist Phys",
+  "nameEs": "Resistir físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Null Phys": {
+  "name": "Null Phys",
+  "nameEs": "Anular físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Slash Driver": {
+  "name": "Slash Driver",
+  "nameEs": "Intensificador de corte",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Strike Driver": {
+  "name": "Strike Driver",
+  "nameEs": "Intensificador de contundentes",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Pierce Driver": {
+  "name": "Pierce Driver",
+  "nameEs": "Intensificador de perforación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Fire Driver": {
+  "name": "Fire Driver",
+  "nameEs": "Intensificador de fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Ice Driver": {
+  "name": "Ice Driver",
+  "nameEs": "Intensificador de hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Elec Driver": {
+  "name": "Elec Driver",
+  "nameEs": "Intensificador de electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Wind Driver": {
+  "name": "Wind Driver",
+  "nameEs": "Intensificador de viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Light Driver": {
+  "name": "Light Driver",
+  "nameEs": "Intensificador de luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Dark Driver": {
+  "name": "Dark Driver",
+  "nameEs": "Intensificador de oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Crit Rate Boost": {
+  "name": "Crit Rate Boost",
+  "nameEs": "Potenciación de críticos",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Crit Rate Amp": {
+  "name": "Crit Rate Amp",
+  "nameEs": "Amplificación de críticos",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Anti-Fire Master": {
+  "name": "Anti-Fire Master",
+  "nameEs": "Maestro antifuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Anti-Ice Master": {
+  "name": "Anti-Ice Master",
+  "nameEs": "Maestro antihielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Anti-Electric Master": {
+  "name": "Anti-Electric Master",
+  "nameEs": "Maestro antielectricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Anti-Wind Master": {
+  "name": "Anti-Wind Master",
+  "nameEs": "Maestro antiviento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 6"
+ },
+ "Soul Shift": {
+  "name": "Soul Shift",
+  "nameEs": "Cambio espiritual",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Soul Chain": {
+  "name": "Soul Chain",
+  "nameEs": "Cadena espiritual",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Soul Link": {
+  "name": "Soul Link",
+  "nameEs": "Vínculo espiritual",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shift Boost": {
+  "name": "Shift Boost",
+  "nameEs": "Potenciación de cambio",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Shift Amp": {
+  "name": "Shift Amp",
+  "nameEs": "Amplificación de cambio",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Drain Ability": {
+  "name": "Drain Ability",
+  "nameEs": "Absorber habilidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 3"
+ },
+ "Single-Target Boost": {
+  "name": "Single-Target Boost",
+  "nameEs": "Potenciación de objetivo único",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Multi-Target Boost": {
+  "name": "Multi-Target Boost",
+  "nameEs": "Potenciación de objetivo múltiple",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "Sword 7"
+ },
+ "Weakness Boost": {
+  "name": "Weakness Boost",
+  "nameEs": "Potenciación de debilidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "30% compendium completion"
+ },
+ "Weakness Amp": {
+  "name": "Weakness Amp",
+  "nameEs": "Amplificación de debilidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": "60% compendium completion"
+ },
+ "Healing Master": {
+  "name": "Healing Master",
+  "nameEs": "Maestro de sanación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Healing Apex": {
+  "name": "Healing Apex",
+  "nameEs": "Cumbre de sanación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Critical Boost": {
+  "name": "Critical Boost",
+  "nameEs": "Potenciación de críticos",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Critical Amp": {
+  "name": "Critical Amp",
+  "nameEs": "Amplificación de críticos",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Buff Boost": {
+  "name": "Buff Boost",
+  "nameEs": "Potenciación de mejora",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Buff Amp": {
+  "name": "Buff Amp",
+  "nameEs": "Amplificación de mejora",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Ailment Burst": {
+  "name": "Ailment Burst",
+  "nameEs": "Estallido de estados alterados",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Ailment Surge": {
+  "name": "Ailment Surge",
+  "nameEs": "Sobrecarga de estados alterados",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Weakness Buffer": {
+  "name": "Weakness Buffer",
+  "nameEs": "Barrera de debilidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Weakness Mitigator": {
+  "name": "Weakness Mitigator",
+  "nameEs": "Mitigador de debilidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Phys Boost": {
+  "name": "Phys Boost",
+  "nameEs": "Potenc. físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Phys Amp": {
+  "name": "Phys Amp",
+  "nameEs": "Amplificación de físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Spirit Refresh": {
+  "name": "Spirit Refresh",
+  "nameEs": "Renuevaespíritu",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Spirit Restore": {
+  "name": "Spirit Restore",
+  "nameEs": "Restauraespíritu",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Auto Sukunda": {
+  "name": "Auto Sukunda",
+  "nameEs": "Autosukunda",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Auto Masukunda": {
+  "name": "Auto Masukunda",
+  "nameEs": "Automasukunda",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Auto Bolster": {
+  "name": "Auto Bolster",
+  "nameEs": "Autovigorización",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Auto Heat Riser": {
+  "name": "Auto Heat Riser",
+  "nameEs": "Autosubidón",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Sister Boost": {
+  "name": "Sister Boost",
+  "nameEs": null,
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ },
+ "Sister Amp": {
+  "name": "Sister Amp",
+  "nameEs": null,
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "unique": false,
+  "card": null
+ }
+}

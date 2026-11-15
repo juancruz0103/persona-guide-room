@@ -1,0 +1,23 @@
+{
+ "source": "https://github.com/aqiu384/megaten-fusion-tool",
+ "license": "Unlicense (dominio público)",
+ "officialNames": "Persona 3 Reload (texto del juego en español)",
+ "excluded": "Episode Aigis (archivos aeg-*)",
+ "sourceCommit": "0b207612f6cdcff092e62af16f5c355271a1d892",
+ "importedAt": "2026-11-15",
+ "counts": {
+  "personas": 194,
+  "party": 9,
+  "dlc": 21,
+  "special": 22,
+  "skills": 539
+ },
+ "warnings": [
+  "Skill sin nombre ES: Justice",
+  "Skill sin nombre ES: Dreamfest",
+  "Skill sin nombre ES: Shadow Hound",
+  "Skill sin nombre ES: Charging Blitz",
+  "Skill sin nombre ES: Sister Boost",
+  "Skill sin nombre ES: Sister Amp"
+ ]
+}
