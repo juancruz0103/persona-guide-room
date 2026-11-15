@@ -1,0 +1,24 @@
+.btn {
+  align-self: flex-start;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 42px;
+  padding: 0 16px;
+  background: transparent;
+  color: var(--c-accent-light);
+  border: 2px solid var(--c-accent);
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  clip-path: var(--slant-btn);
+}
+.btn:hover,
+.on {
+  background: var(--c-accent);
+  color: var(--c-ink);
+}

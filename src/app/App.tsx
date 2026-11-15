@@ -3,6 +3,7 @@ import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { DEFAULT_GAME } from '../core/games';
 import { GameLayout } from './GameLayout';
 import { ScrollToTop } from './ScrollToTop';
+import { AuthProvider } from '../core/account/AuthContext';
 
 // Cada pantalla se carga por separado (lazy loading) para que la web sea rápida.
 const Home = lazy(() => import('../games/p5r/pages/Home'));
@@ -14,6 +15,8 @@ const Technical = lazy(() => import('../games/p5r/pages/Technical'));
 const School = lazy(() => import('../games/p5r/pages/School'));
 const Confidants = lazy(() => import('../games/p5r/pages/Confidants'));
 const ConfidantProfile = lazy(() => import('../games/p5r/pages/ConfidantProfile'));
+const Account = lazy(() => import('./Account'));
+const MyProfile = lazy(() => import('./MyProfile'));
 const About = lazy(() => import('./About'));
 const NotFound = lazy(() => import('./NotFound'));
 
@@ -24,6 +27,7 @@ const NotFound = lazy(() => import('./NotFound'));
  */
 export function App() {
   return (
+    <AuthProvider>
     <HashRouter>
       <ScrollToTop />
       <Suspense fallback={<div className="container" style={{ padding: '64px 0' }}>Cargando…</div>}>
@@ -39,11 +43,14 @@ export function App() {
             <Route path="clases" element={<School />} />
             <Route path="confidentes" element={<Confidants />} />
             <Route path="confidentes/:confidantId" element={<ConfidantProfile />} />
+            <Route path="cuenta" element={<Account />} />
+            <Route path="perfil" element={<MyProfile />} />
             <Route path="sobre-nosotros" element={<About />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>
       </Suspense>
     </HashRouter>
+    </AuthProvider>
   );
 }

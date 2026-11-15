@@ -18,6 +18,8 @@ import { getPersona } from '../services/personas';
 import type { Confidant, Conversation, FusionRequest, MementosMission, RankItem, TimelineRank } from '../types';
 import rankMaxImg from '../assets/ui/rango-max.webp';
 import styles from './ConfidantProfile.module.css';
+import { useConfidantProgress } from '../../../core/account/progress';
+import { useAuth } from '../../../core/account/AuthContext';
 
 function MementosNote({ m }: { m: MementosMission }) {
   return (
@@ -230,44 +232,19 @@ function UltimateBox({ summary }: { summary: ConfidantSummary }) {
   );
 }
 
-/* ---------- Seguimiento de progreso (se guarda en este navegador) ---------- */
-
-interface Progress {
-  tracking: boolean;
-  reached: number;
-}
-const progressKey = (id: string) => `pgr.progress.${id}`;
-function loadProgress(id: string): Progress {
-  try {
-    const raw = localStorage.getItem(progressKey(id));
-    if (raw) return JSON.parse(raw) as Progress;
-  } catch {
-    /* sin almacenamiento */
-  }
-  return { tracking: false, reached: 0 };
-}
-function saveProgress(id: string, p: Progress) {
-  try {
-    localStorage.setItem(progressKey(id), JSON.stringify(p));
-  } catch {
-    /* sin almacenamiento: el progreso dura mientras la página esté abierta */
-  }
-}
-
 export default function ConfidantProfile() {
   const { confidantId = '' } = useParams();
   const [data, setData] = useState<Confidant | null | undefined>(undefined);
   const [showAlt, setShowAlt] = useState(false);
   const [sel, setSel] = useState(2);
-  const [tracking, setTracking] = useState(false);
-  const [reached, setReached] = useState(0);
+  const [progress, saveProgress] = useConfidantProgress(confidantId);
+  const { tracking, reached } = progress;
+  const { user } = useAuth();
 
   useEffect(() => {
-    const saved = loadProgress(confidantId);
-    setTracking(saved.tracking);
-    setReached(saved.reached);
-    setSel(saved.tracking ? Math.min(saved.reached + 1, 10) : 2);
-  }, [confidantId]);
+    setSel(progress.tracking ? Math.min(progress.reached + 1, 10) : 2);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [confidantId, progress.tracking]);
 
   useEffect(() => {
     let alive = true;
@@ -300,30 +277,25 @@ export default function ConfidantProfile() {
   const hasAnswers = (n: number) =>
     data?.ranks.find((r) => r.rank === n)?.conversations.some((c) => c.kind !== 'mementos') ?? false;
   const startReached = () => (hasAnswers(1) ? 0 : 1);
-  const persist = (t: boolean, r: number) => saveProgress(confidantId, { tracking: t, reached: r });
+  const persist = (t: boolean, r: number) => saveProgress({ tracking: t, reached: r });
   const goTo = (r: number) => setSel(Math.min(r + 1, maxRank));
 
   const toggleTracking = () => {
     if (tracking) {
-      setTracking(false);
       persist(false, reached);
       return;
     }
     const r = reached > 0 ? reached : startReached();
-    setTracking(true);
-    setReached(r);
     goTo(r);
     persist(true, r);
   };
   const markReached = () => {
     if (sel !== reached + 1) return;
-    setReached(sel);
     persist(true, sel);
     if (sel < maxRank) setSel(sel + 1);
   };
   const resetProgress = () => {
     const r = startReached();
-    setReached(r);
     goTo(r);
     persist(true, r);
   };
@@ -385,7 +357,9 @@ export default function ConfidantProfile() {
               <span className={styles.trackLabel}>
                 Seguimiento de progreso: {tracking ? 'activado' : 'desactivado'}
               </span>
-              <span className={styles.trackNote}>Se guarda en este navegador · con tu cuenta en la v2</span>
+              <span className={styles.trackNote}>
+                {user ? 'Se guarda en tu cuenta' : <>Se guarda en este navegador · <Link to="/p5r/cuenta">entrá</Link> para guardarlo en tu cuenta</>}
+              </span>
             </div>
             )}
           </div>

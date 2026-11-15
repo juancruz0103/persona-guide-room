@@ -1,0 +1,91 @@
+.wrap {
+  display: flex;
+  justify-content: center;
+  padding-block: 56px 72px;
+}
+.card {
+  width: 100%;
+  max-width: 440px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-line);
+  border-top: 4px solid var(--c-primary);
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.title {
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.lead {
+  margin: 0;
+  color: var(--c-text-muted);
+  line-height: 1.5;
+}
+.full {
+  width: 100%;
+}
+.primary {
+  background: var(--c-primary);
+  color: var(--c-text);
+}
+.primary:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+.or {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  color: var(--c-text-dim);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.field input {
+  min-height: 46px;
+  padding: 0 12px;
+  background: var(--c-bg);
+  color: var(--c-text);
+  border: 2px solid var(--c-line);
+  font: inherit;
+}
+.field input:focus {
+  outline: none;
+  border-color: var(--c-accent);
+}
+.error {
+  margin: 0;
+  color: var(--c-primary-light);
+  font-weight: 600;
+}
+.info {
+  margin: 0;
+  color: var(--c-hp);
+  font-weight: 600;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.links button {
+  background: none;
+  border: 0;
+  color: var(--c-accent-light);
+  font: inherit;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 4px;
+}

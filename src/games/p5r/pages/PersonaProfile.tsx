@@ -17,6 +17,7 @@ import styles from './PersonaProfile.module.css';
 import { personaMyth, personaName, personaNameEn, skillName } from '../services/gameText';
 import { PARTY_OWNER, PARTY_STAGE, isSpoilerStage } from '../data/party';
 import { SpoilerCover } from '../components/SpoilerCover';
+import { FavoriteButton } from '../components/FavoriteButton';
 
 const STAT_LABELS: [keyof NonNullable<Persona['stats']>, string][] = [
   ['st', 'FU'], ['ma', 'MA'], ['en', 'RE'], ['ag', 'AG'], ['lu', 'SU'],
@@ -158,6 +159,7 @@ export default function PersonaProfile() {
               {arcana.name} · Arcana {arcana.numeral}
             </span>
             <h1 className={styles.name}>{personaName(p)}</h1>
+            <FavoriteButton personaId={p.id} />
             {personaNameEn(p) !== personaName(p) && <span className={styles.nameEn}>En inglés: {personaNameEn(p)}</span>}
             <div className={styles.flags}>
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}

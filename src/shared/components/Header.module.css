@@ -110,8 +110,11 @@
 }
 
 /* Entre celular y escritorio ancho no entra todo en una fila: se achica en este orden */
-@media (max-width: 1320px) {
+@media (max-width: 99999px) {
   .gameBadge {
+    display: none;
+  }
+  .logoText {
     display: none;
   }
   .nav {
@@ -136,7 +139,7 @@
   }
 }
 
-@media (max-width: 760px) {
+@media (max-width: 1000px) {
   .logoText {
     display: none;
   }
@@ -175,5 +178,14 @@
   }
   .nav {
     gap: 6px;
+  }
+  .tools {
+    gap: 8px;
+  }
+  .brand {
+    gap: 10px;
+  }
+  .bar {
+    column-gap: 10px;
   }
 }

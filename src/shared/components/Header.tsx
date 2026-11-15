@@ -4,6 +4,7 @@ import type { GameInfo } from '../../core/types';
 import { es } from '../../i18n/es';
 import { GameMenu } from './GameMenu';
 import { LanguageButton } from './LanguageButton';
+import { AccountButton } from './AccountButton';
 import styles from './Header.module.css';
 
 interface Props {
@@ -39,7 +40,6 @@ export function Header({ game }: Props) {
     { to: `${base}/calculadora`, label: es.nav.calculator, end: false },
     { to: `${base}/confidentes`, label: es.nav.confidants, end: false },
     { to: `${base}/clases`, label: es.nav.school, end: false },
-    { to: `${base}/sobre-nosotros`, label: es.nav.about, end: false },
   ];
 
   return (
@@ -76,6 +76,7 @@ export function Header({ game }: Props) {
         </nav>
 
         <div className={styles.tools}>
+          <AccountButton />
           <LanguageButton />
           <span className={styles.gameBadge}>{game.shortName}</span>
         </div>
