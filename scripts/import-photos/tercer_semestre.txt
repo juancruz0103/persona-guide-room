@@ -52,3 +52,5 @@ fotos confidentes/Haru/Astarté-de.png | astarte-de | - |
 fotos confidentes/Haru/Astarté-iz.png | astarte-iz | - |
 fotos confidentes/Futaba/Prometeo-de.png | prometheus-de | - |
 fotos confidentes/Futaba/Prometeo-iz.png | prometheus-iz | - |
+fotos confidentes/Morgana/Mercurio-de.png | mercurius-de | - |
+fotos confidentes/Morgana/Mercurio-iz.png | mercurius-iz | - |
