@@ -5,6 +5,7 @@
 .kicker { background: var(--c-ink); color: var(--c-accent); font-family: var(--f-label); font-weight: 800; font-style: italic; font-size: 18px; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 16px; transform: skewX(-12deg); }
 .title { font-size: clamp(44px, 8vw, 80px); line-height: 1.05; padding-top: 0.08em; text-transform: uppercase; }
 .lead { margin: 0; max-width: 620px; font-size: 19px; color: #2a2a2a; }
+@media (max-width: 1000px) { .lead { max-width: 58%; } }
 @media (max-width: 700px) { .heroSlab { width: 16%; } .lead { max-width: 82%; } }
 
 /* ---------- Lista ---------- */
