@@ -27,10 +27,11 @@ const matName = (en: string) => L(DATA.materials[en] ?? en, en);
 
 /** "Para Sanada." → "Para <Akihiko Sanada con foto>." ; "Para ." (nombre del protagonista) → "Para el protagonista." */
 function GearDesc({ text }: { text: string }) {
-  const m = text.match(/^(.*?)Para ([^.]*)\.(.*)$/);
-  const who = m ? findCharacter(m[2]) : undefined;
+  const m = text.match(/^(.*?)([Pp]ara) ([^.]*)\.(.*)$/);
+  const who = m ? findCharacter(m[3]) : undefined;
   if (!m || !who) return <small>{text}</small>;
-  return <small>{m[1]}{L('Para', 'For')} <CharacterPeek character={who} />.{m[3]}</small>;
+  const para = m[2] === 'Para' ? L('Para', 'For') : L('para', 'for');
+  return <small>{m[1]}{para} <CharacterPeek character={who} />.{m[4]}</small>;
 }
 
 /** Objetos de corazón: qué Persona los da y qué equipo se fabrica con ellos en Mayoido Antiques. */
