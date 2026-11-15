@@ -33,6 +33,8 @@ const P3Profile = lazy(() => import('../games/p3r/pages/PersonaProfile'));
 const P3Fusion = lazy(() => import('../games/p3r/pages/Fusion'));
 const P3Specials = lazy(() => import('../games/p3r/pages/Specials'));
 const P3Hearts = lazy(() => import('../games/p3r/pages/Hearts'));
+const P3Links = lazy(() => import('../games/p3r/pages/Links'));
+const P3LinkProfile = lazy(() => import('../games/p3r/pages/LinkProfile'));
 
 /** Elige la pantalla según el juego de la URL. Si un juego no la tiene, muestra "no encontrado". */
 function byGame(screens: Partial<Record<string, ComponentType>>) {
@@ -48,6 +50,8 @@ const FusionScreen = byGame({ p5r: Fusion, p3r: P3Fusion });
 const ProfileScreen = byGame({ p5r: PersonaProfile, p3r: P3Profile });
 const SpecialsScreen = byGame({ p3r: P3Specials });
 const HeartsScreen = byGame({ p3r: P3Hearts });
+const LinksScreen = byGame({ p3r: P3Links });
+const LinkProfileScreen = byGame({ p3r: P3LinkProfile });
 const p5rOnly = (C: ComponentType) => byGame({ p5r: C });
 const SkillCardsScreen = p5rOnly(SkillCards);
 const TechnicalScreen = p5rOnly(Technical);
@@ -85,6 +89,8 @@ export function App() {
             <Route path="clases" element={<SchoolScreen />} />
             <Route path="confidentes" element={<ConfidantsScreen />} />
             <Route path="confidentes/:confidantId" element={<ConfidantProfileScreen />} />
+            <Route path="vinculos" element={<LinksScreen />} />
+            <Route path="vinculos/:linkId" element={<LinkProfileScreen />} />
             <Route path="builds" element={<BuildsScreen />} />
             <Route path="builds/nueva" element={<BuildEditorScreen />} />
             <Route path="builds/:buildId" element={<BuildViewScreen />} />

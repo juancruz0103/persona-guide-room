@@ -4,8 +4,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -24,8 +22,6 @@
    },
    {
     "event": "015",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -44,8 +40,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -81,8 +75,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -116,8 +108,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -151,8 +141,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -173,8 +161,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -208,8 +194,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -258,8 +242,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -293,8 +275,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -315,8 +295,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kenji Tomochika",
@@ -370,8 +348,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -392,8 +368,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -438,8 +412,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -488,8 +460,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -538,8 +508,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -586,8 +554,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -621,8 +587,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -682,8 +646,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -717,8 +679,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -791,8 +751,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -837,8 +795,6 @@
    },
    {
     "event": "180",
-    "rank": 8,
-    "alt": true,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -885,8 +841,6 @@
    },
    {
     "event": "190",
-    "rank": 9,
-    "alt": true,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -931,8 +885,6 @@
    },
    {
     "event": "200",
-    "rank": 10,
-    "alt": true,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -984,8 +936,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1021,8 +971,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1041,8 +989,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1102,8 +1048,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1150,8 +1094,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1196,8 +1138,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1259,8 +1199,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1279,8 +1217,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1364,8 +1300,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1425,8 +1359,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1445,8 +1377,6 @@
    },
    {
     "event": "190",
-    "rank": 9,
-    "alt": true,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1480,8 +1410,6 @@
    },
    {
     "event": "200",
-    "rank": 10,
-    "alt": true,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1520,8 +1448,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1540,8 +1466,6 @@
    },
    {
     "event": "013",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuru Kirijo",
@@ -1586,8 +1510,6 @@
    },
    {
     "event": "015",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Profesora Toriumi",
@@ -1606,8 +1528,6 @@
    },
    {
     "event": "017",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -1626,8 +1546,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1646,8 +1564,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Secretario",
@@ -1666,14 +1582,10 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": []
    },
    {
     "event": "045",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "",
@@ -1705,8 +1617,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1725,8 +1635,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1758,8 +1666,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1778,8 +1684,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -1798,8 +1702,6 @@
    },
    {
     "event": "085",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1818,14 +1720,10 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": []
    },
    {
     "event": "095",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1844,8 +1742,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hidetoshi Odagiri",
@@ -1882,8 +1778,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Anciano",
@@ -1902,8 +1796,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bunkichi",
@@ -1974,8 +1866,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bunkichi",
@@ -2059,8 +1949,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bunkichi",
@@ -2105,8 +1993,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bunkichi",
@@ -2138,8 +2024,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuko",
@@ -2171,8 +2055,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mitsuko",
@@ -2219,8 +2101,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bunkichi",
@@ -2265,8 +2145,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bunkichi",
@@ -2298,8 +2176,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "",
@@ -2362,8 +2238,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2382,8 +2256,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2419,8 +2291,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2439,8 +2309,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2461,8 +2329,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "",
@@ -2494,8 +2360,6 @@
    },
    {
     "event": "055",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2546,8 +2410,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2581,8 +2443,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2605,8 +2465,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2638,8 +2496,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2673,8 +2529,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2693,8 +2547,6 @@
    },
    {
     "event": "190",
-    "rank": 9,
-    "alt": true,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2741,8 +2593,6 @@
    },
    {
     "event": "200",
-    "rank": 10,
-    "alt": true,
     "choices": [
      {
       "speaker": "Yukari Takeba",
@@ -2794,8 +2644,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Asesor del equipo de atletismo",
@@ -2827,8 +2675,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -2873,14 +2719,10 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": []
    },
    {
     "event": "035",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -2912,14 +2754,10 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": []
    },
    {
     "event": "045",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -2951,14 +2789,10 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": []
    },
    {
     "event": "055",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -2992,14 +2826,10 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": []
    },
    {
     "event": "065",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -3044,14 +2874,10 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": []
    },
    {
     "event": "075",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -3085,14 +2911,10 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": []
    },
    {
     "event": "085",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Asesor del equipo de atletismo",
@@ -3111,14 +2933,10 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": []
    },
    {
     "event": "095",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Kazushi Miyamoto",
@@ -3139,9 +2957,56 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": []
+   },
+   {
+    "event": "105",
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Quiero comentarte una cosa.",
+      "qEn": "There's something I wanna talk to you about.",
+      "opts": [
+       "Dime.",
+       "¿Qué pasa?"
+      ],
+      "optsEn": [
+       "Okay, let's hear it.",
+       "What is it about?"
+      ]
+     }
+    ]
+   },
+   {
+    "event": "107",
+    "choices": [
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "He cambiado de opinión. Me voy a operar la rodilla.",
+      "qEn": "I've made up my mind. I'm going to have surgery to fix my knee.",
+      "opts": [
+       "¿Qué pasa con el encuentro?",
+       "¿Qué pasa con tu promesa?"
+      ],
+      "optsEn": [
+       "What about the big meet?",
+       "What about your promise?"
+      ]
+     },
+     {
+      "speaker": "Kazushi Miyamoto",
+      "q": "Por ahora, voy a dejar de pensar en ganar carreras. ¡Voy a centrarme en recuperar mi salud!",
+      "qEn": "I'm not gonna worry about winning races. I'm gonna focus on winning back my health instead!",
+      "opts": [
+       "¡Tú puedes!",
+       "Has madurado mucho."
+      ],
+      "optsEn": [
+       "You've got this!",
+       "You've really grown up."
+      ]
+     }
+    ]
    }
   ]
  },
@@ -3150,8 +3015,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3172,8 +3035,6 @@
    },
    {
     "event": "015",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3192,8 +3053,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3270,8 +3129,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3307,14 +3164,10 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": []
    },
    {
     "event": "045",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3348,8 +3201,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3394,8 +3245,6 @@
    },
    {
     "event": "055",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "",
@@ -3416,8 +3265,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3436,8 +3283,6 @@
    },
    {
     "event": "065",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3456,8 +3301,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3489,8 +3332,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Estudiante de pelo corto",
@@ -3509,8 +3350,6 @@
    },
    {
     "event": "085",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3531,8 +3370,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3551,8 +3388,6 @@
    },
    {
     "event": "093",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3584,14 +3419,10 @@
    },
    {
     "event": "095",
-    "rank": 9,
-    "alt": false,
     "choices": []
    },
    {
     "event": "097",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3649,8 +3480,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3682,8 +3511,6 @@
    },
    {
     "event": "197",
-    "rank": 9,
-    "alt": true,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3702,8 +3529,6 @@
    },
    {
     "event": "200",
-    "rank": 10,
-    "alt": true,
     "choices": [
      {
       "speaker": "Chihiro Fushimi",
@@ -3766,8 +3591,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chica de rojo",
@@ -3799,8 +3622,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Chica de rojo",
@@ -3834,8 +3655,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -3867,8 +3686,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -3889,8 +3706,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -3926,8 +3741,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -3946,8 +3759,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -3981,8 +3792,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -4014,8 +3823,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -4064,8 +3871,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maya",
@@ -4115,8 +3920,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4135,14 +3938,10 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": []
    },
    {
     "event": "025",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Fuuka Yamagishi",
@@ -4174,8 +3973,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4194,8 +3991,6 @@
    },
    {
     "event": "035",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4214,8 +4009,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4247,8 +4040,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4267,20 +4058,14 @@
    },
    {
     "event": "055",
-    "rank": 5,
-    "alt": false,
     "choices": []
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": []
    },
    {
     "event": "065",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4312,14 +4097,10 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": []
    },
    {
     "event": "075",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4338,14 +4119,10 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": []
    },
    {
     "event": "085",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4392,14 +4169,10 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": []
    },
    {
     "event": "095",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Keisuke Hiraga",
@@ -4474,9 +4247,40 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": []
+   },
+   {
+    "event": "105",
+    "choices": [
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "Por eso quiero que te la quedes.",
+      "qEn": "That's why I want you to have it.",
+      "opts": [
+       "Lo entiendo.",
+       "Pero ¿por qué?",
+       "Deja de depender de los demás."
+      ],
+      "optsEn": [
+       "I understand.",
+       "But why?",
+       "Stop relying on others."
+      ]
+     },
+     {
+      "speaker": "Keisuke Hiraga",
+      "q": "N-no estoy resultando arrogante, ¿verdad?",
+      "qEn": "I-I'm not coming off as arrogant, am I?",
+      "opts": [
+       "Para nada.",
+       "Un poco."
+      ],
+      "optsEn": [
+       "Not at all.",
+       "You kinda are."
+      ]
+     }
+    ]
    }
   ]
  },
@@ -4485,8 +4289,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4505,8 +4307,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4553,8 +4353,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4573,8 +4371,6 @@
    },
    {
     "event": "035",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4608,14 +4404,10 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": []
    },
    {
     "event": "045",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4647,8 +4439,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4684,8 +4474,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4717,8 +4505,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4765,8 +4551,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4815,8 +4599,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4904,8 +4686,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4950,8 +4730,6 @@
    },
    {
     "event": "180",
-    "rank": 8,
-    "alt": true,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -4985,8 +4763,6 @@
    },
    {
     "event": "190",
-    "rank": 9,
-    "alt": true,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -5050,8 +4826,6 @@
    },
    {
     "event": "200",
-    "rank": 10,
-    "alt": true,
     "choices": [
      {
       "speaker": "Yuko Nishiwaki",
@@ -5170,8 +4944,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5194,8 +4966,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5214,8 +4984,6 @@
    },
    {
     "event": "025",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5249,8 +5017,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Joven delgado",
@@ -5269,8 +5035,6 @@
    },
    {
     "event": "035",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5291,8 +5055,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5313,8 +5075,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5346,8 +5106,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5381,8 +5139,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Madre de Maiko",
@@ -5416,20 +5172,14 @@
    },
    {
     "event": "073",
-    "rank": 7,
-    "alt": false,
     "choices": []
    },
    {
     "event": "075",
-    "rank": 7,
-    "alt": false,
     "choices": []
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5448,8 +5198,6 @@
    },
    {
     "event": "085",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5483,14 +5231,10 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": []
    },
    {
     "event": "095",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5509,8 +5253,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Maiko",
@@ -5547,8 +5289,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "",
@@ -5610,8 +5350,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5632,8 +5370,6 @@
    },
    {
     "event": "025",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5654,8 +5390,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5689,8 +5423,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5726,8 +5458,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5746,8 +5476,6 @@
    },
    {
     "event": "055",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5766,8 +5494,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5799,8 +5525,6 @@
    },
    {
     "event": "065",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5819,8 +5543,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5839,8 +5561,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5861,8 +5581,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5883,8 +5601,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Bebe",
@@ -5921,8 +5637,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Hombre trajeado",
@@ -5982,8 +5696,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6015,8 +5727,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6035,8 +5745,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6055,8 +5763,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6101,8 +5807,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6121,8 +5825,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6154,8 +5856,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6174,8 +5874,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Presidente Tanaka",
@@ -6194,8 +5892,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": []
    }
   ]
@@ -6205,8 +5901,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Monje",
@@ -6225,8 +5919,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Monje",
@@ -6258,8 +5950,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6278,8 +5968,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6298,8 +5986,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6331,8 +6017,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6364,8 +6048,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6384,8 +6066,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6447,8 +6127,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6493,8 +6171,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mutatsu",
@@ -6518,8 +6194,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6551,8 +6225,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6584,8 +6256,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6617,8 +6287,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6663,8 +6331,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6696,8 +6362,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "",
@@ -6755,8 +6419,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6814,8 +6476,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6847,8 +6507,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6906,8 +6564,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Mamoru Hayase",
@@ -6936,6 +6592,24 @@
       ]
      }
     ]
+   },
+   {
+    "event": "105",
+    "choices": [
+     {
+      "speaker": "Mamoru Hayase",
+      "q": "Quiero que te la quedes.",
+      "qEn": "I want you to hang on to that.",
+      "opts": [
+       "¿Para qué es esto?",
+       "Todavía no tengo carné de conducir."
+      ],
+      "optsEn": [
+       "What's this for?",
+       "But I can't drive yet."
+      ]
+     }
+    ]
    }
   ]
  },
@@ -6944,8 +6618,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Estudiante regordete",
@@ -6964,8 +6636,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -6984,8 +6654,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7004,8 +6672,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7024,8 +6690,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7044,8 +6708,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7066,8 +6728,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7101,8 +6761,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7121,8 +6779,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Nozomi Suemitsu",
@@ -7141,15 +6797,42 @@
    },
    {
     "event": "095",
-    "rank": 9,
-    "alt": false,
     "choices": []
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": []
+   },
+   {
+    "event": "105",
+    "choices": [
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "Pero ni siquiera pude llorar. En realidad, me sentí... aliviado. Pensé: \"Quizá por fin todos dejen de reírse de mí\".",
+      "qEn": "But I couldn't even cry. I actually felt... relieved. I thought, \"Maybe they'll all finally stop laughing at me.\"",
+      "opts": [
+       "Qué tragedia.",
+       "Es comprensible."
+      ],
+      "optsEn": [
+       "That's terrible.",
+       "That's understandable."
+      ]
+     },
+     {
+      "speaker": "Nozomi Suemitsu",
+      "q": "Pero, si sigo así, nunca podré reemplazar a mi hermano, ¿verdad?",
+      "qEn": "But if I keep this up, I'll never be able to replace my brother, will I?",
+      "opts": [
+       "Sé tú mismo.",
+       "Eres irremplazable."
+      ],
+      "optsEn": [
+       "Just be yourself.",
+       "You're irreplaceable."
+      ]
+     }
+    ]
    }
   ]
  },
@@ -7158,8 +6841,6 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7178,8 +6859,6 @@
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7213,8 +6892,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7248,8 +6925,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7283,8 +6958,6 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7303,8 +6976,6 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7340,8 +7011,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7362,8 +7031,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7395,8 +7062,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7415,8 +7080,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Akinari Kamiki",
@@ -7440,14 +7103,10 @@
   "events": [
    {
     "event": "010",
-    "rank": 1,
-    "alt": false,
     "choices": []
    },
    {
     "event": "020",
-    "rank": 2,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7468,8 +7127,6 @@
    },
    {
     "event": "030",
-    "rank": 3,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7501,8 +7158,6 @@
    },
    {
     "event": "040",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7549,20 +7204,14 @@
    },
    {
     "event": "043",
-    "rank": 4,
-    "alt": false,
     "choices": []
    },
    {
     "event": "045",
-    "rank": 4,
-    "alt": false,
     "choices": []
    },
    {
     "event": "047",
-    "rank": 4,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7583,14 +7232,10 @@
    },
    {
     "event": "050",
-    "rank": 5,
-    "alt": false,
     "choices": []
    },
    {
     "event": "055",
-    "rank": 5,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7611,14 +7256,10 @@
    },
    {
     "event": "060",
-    "rank": 6,
-    "alt": false,
     "choices": []
    },
    {
     "event": "065",
-    "rank": 6,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7639,8 +7280,6 @@
    },
    {
     "event": "070",
-    "rank": 7,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7685,8 +7324,6 @@
    },
    {
     "event": "080",
-    "rank": 8,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7733,8 +7370,6 @@
    },
    {
     "event": "090",
-    "rank": 9,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7766,8 +7401,6 @@
    },
    {
     "event": "100",
-    "rank": 10,
-    "alt": false,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7799,8 +7432,6 @@
    },
    {
     "event": "190",
-    "rank": 9,
-    "alt": true,
     "choices": [
      {
       "speaker": "Aigis",
@@ -7832,8 +7463,6 @@
    },
    {
     "event": "200",
-    "rank": 10,
-    "alt": true,
     "choices": [
      {
       "speaker": "Aigis",

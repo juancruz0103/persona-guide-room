@@ -1,0 +1,532 @@
+@magician
+RANK 1->2
+No way.|1
+That's a secret.|1
+I'm into older women, too.|1
+I like them all!|1
+RANK 2->3
+What, of life?|3
+Good luck!|1
+RANK 3->4
+Good luck!|3
+RANK 4->5
+Okay...|3
+RANK 5->6
+I've got plans already.|3
+RANK 6->7
+What happened?|1
+Bride-to-Be?|1
+Congrats!|1
+RANK 7->8
+Are you in trouble?|3
+You should go with her.|1
+You two should talk it out.|1
+RANK 8->9
+Let me handle this!|3
+RANK 9->10
+You don't know when to give up...|2
+You've got this!|2
+Want me to find you a girl?|3
+@priestess
+RANK 1->2
+Sure.|3
+Sure thing.|3
+RANK 2->3
+Just a dash or two.|3
+Just take it slow|3
+Practice makes perfect.|1
+RANK 3->4
+You're a hard worker.|1
+That's not true.|3
+Why do you think that?|1
+RANK 4->5
+It's good.|1
+You did a great job.|3
+I'm glad I could help.|1
+Thank you.|1
+Can you make more sometime?|3
+RANK 5->6
+Of course.|3
+That's the spirit.|3
+RANK 6->7
+That's messed up.|1
+Is that the only reason?|R
+That's probably it.|P
+RANK 7->8
+I believe in myself.|1
+It's just my personality.|1
+I've never thought about it.|1
+Not at all.|1
+We'll see each other in the dorm.|1
+RANK 8->9
+I love you, Fuuka|3R
+We'll always be friends.|P
+Sure|3
+RANK 9->10 R
+I'm always here for you.|3
+Glad to hear it|1
+I love them|3
+Your skills are impressive.|1
+RANK 9->10 P
+I love them!|3
+My mind is blown|1
+@empress
+RANK 2->3
+Why not give it a try?|1
+Are you happy?|3
+Maybe you're anxious.|1
+RANK 3->4
+Did something happen?|1
+It's all for love.|3
+RANK 4->5
+Glad you enjoyed it.|3
+You're not suited?|1
+Let's go for a ride.|3
+RANK 5->6
+Need some help?|1
+Is it really?|1
+Are you sure about this?|1
+I'll do something about it.|3
+RANK 6->7
+I don't mind at all.|3
+RANK 7->8
+Vent all you want.|1
+Don't insult her father!|3
+Don't give in.|3
+RANK 8->9
+It made me happy.|3
+I love you too.|R
+I'm sorry but...|P
+RANK 9->10 R
+I'm fine with the back.|1
+RANK 9->10 P
+Impressive|1
+Looks like fun.|1
+Great idea.|2
+@emperor
+RANK 1->2
+Sounds like nonsense.|3
+RANK 2->3
+No need to fight.|1
+What happened?|1
+RANK 3->4
+Looks like you're hard at work.|3
+RANK 4->5
+They're the worst.|3
+RANK 5->6
+But I just got here...|3
+I think I'll stick around.|1
+RANK 6->7
+It seems too harsh.|3
+RANK 7->8
+It wasn't me.|3
+RANK 8->9
+What matters is you realized it.|3
+RANK 9->10
+You were great.|1
+I'll cherish it.|3
+@hierophant
+RANK 1->2
+Makoto Yuki.|1
+Thank you.|3
+RANK 2->3
+Looking for something?|1
+Can I help?|3
+RANK 3->4
+I should go too.|3
+I'll wait here.|3
+I'm worried.|1
+RANK 4->5
+I wouldn't worry about it|1
+Cheer up.|1
+It'll be okay.|1
+RANK 5->6
+Please don't fight.|3
+RANK 6->7
+What happened?|1
+That's great.|1
+No.|1
+That's right.|1
+What are you talking about?|1
+RANK 7->8
+A petitioner?|2
+A fan of yours?|1
+Sure, let's go.|3
+RANK 8->9
+What does the letter say?|1
+Why a letter?|1
+RANK 9->10
+But... why?|3
+@lovers
+RANK 1->2
+Cute pink.|3
+That's mean.|1
+RANK 3->4
+Are you okay?|3
+RANK 4->5
+Sorry.|3
+RANK 5->6
+Anytime.|1
+You're quite welcome.|1
+Thank you, too|1
+I wouldn't mind|1
+RANK 6->7
+Sounds good.|3
+Let's go with everyone.|1
+Let's go just the two of us.|3
+RANK 7->8
+All right.|3
+RANK 8->9
+.....|3
+I love you.|R
+You're a precious friend.|P
+RANK 9->10 R
+Too late.|3
+I didn't say anything.|1
+RANK 9->10 P
+I didn't say anything.|1
+I'll go.|2
+Good luck.|1
+What's the magic word?|1
+@chariot
+RANK 1->2
+Toughen up!|1
+RANK 2->3
+Are you going to be okay?|3
+Will it heal?|1
+RANK 3->4
+That really sucks.|3
+RANK 4->5
+Back from the hospital?|1
+Take my shoulder!|3
+I'll carry you.|1
+RANK 5->6
+Show some guts, man!|1
+Why go so far?|1
+What about your knee?|1
+RANK 6->7
+How's your knee?|1
+You have to get tougher.|3
+RANK 7->8
+...|1
+RANK 8->9
+I don't mind at all.|3
+It's fine- I'm tough as hell.|1
+RANK 9->10
+What about the big meet?|3
+What about your promise?|1
+You've got this!|1
+You've really grown up|1
+@justice
+RANK 1->2
+Don't worry about it.|3
+I read the classics.|1
+I read manga.|1
+I'm having fun|1
+RANK 2->3
+They have no shame.|1
+I agree.|1
+RANK 3->4
+I'm here for you.|3
+RANK 4->5
+I'm all ears|2
+Yeah, she's in love|3
+Happy to help.|2
+Hold her hand.|3
+RANK 5->6
+Is it good?|3
+What do you mean?|1
+RANK 6->7
+It's gotta be a misunderstanding.|1
+We have to do something...|1
+RANK 7->8
+I know you're innocent.|1
+RANK 8->9
+Don't worry. She'll help us.|2
+Chihiro is innocent|1
+You need to tell her yourself.|1
+What's gotten into you?|1
+I feel the same, Chihiro|R
+I like working with you, but...|P
+RANK 9->10 R
+Thank you.|3
+RANK 9->10 P
+You can do it.|2
+I believe in you, Chihiro|2
+@hermit
+RANK 1->2
+Of course.|3
+Sunshine is overrated.|1
+RANK 2->3
+Oh really?! o_O|1
+You don't like your job?|3
+RANK 3->4
+Let's plan our wedding, then?|3
+RANK 4->5
+Do you mean S.O.B.?|1
+Are you a teacher?|1
+RANK 5->6
+What bastard?|3
+RANK 6->7
+Well yeah.|3
+She um... what?|1
+RANK 7->8
+Hurry up and tell me.|3
+What is he like?|1
+RANK 8->9
+No way!|1
+What are you planning?|1
+RANK 9->10
+Oh, no worries.|1
+Is that why you're sorry?|1
+I'll miss you.|3
+@fortune
+RANK 2->3
+You've got talent|3
+RANK 3->4
+You're pulling out of the contest|1
+So you're just going to take it?|1
+RANK 4->5
+You should tell your dad!|3
+RANK 5->6
+It's your choice now.|3
+RANK 6->7
+Do you want to be a doctor?|3
+RANK 7->8
+It's okay, I'm fine.|3
+RANK 8->9
+You can't go!|3
+RANK 9->10
+Stop relying on others.|1
+Not at all.|3
+@strength
+RANK 1->2
+What happened?|3
+It wasn't your fault.|1
+That's true.|3
+RANK 2->3
+Don't worry about it.|1
+I'm honored.|1
+I don't mind.|1
+RANK 3->4
+Sure thing|1
+RANK 4->5
+It's because you teach so well|2
+You're right, it's impressive|1
+You shouldn't change it|1
+I trust whatever you decide, Yuko|1
+RANK 5->6
+You guys got this|1
+Show some guts|1
+As long as we believe in them.|1
+RANK 6->7
+Are you relieved?|1
+Let's do it.|3
+RANK 7->8
+A boy.|1
+A girl.|1
+RANK 8->9
+An instructor?|3
+A track and field star?|1
+A nursery teacher?|1
+It's because I love you.|R
+It's because you're a close friend.|P
+I love you, Yuko.|1
+Okay, I will|1
+RANK 9->10 R
+Is it important?|1
+What is it?|1
+Yeah|1
+Not really|1
+What does that mean?|1
+RANK 9->10 P
+Want me to carry it?|1
+That's just how fulfilling it was.|1
+If the opportunity arises|3
+@hanged
+RANK 1->2
+Sure, let's go.|3
+RANK 2->3
+Don't worry, he'll be there.|3
+RANK 3->4
+That's great news.|3
+Of course they care.|3
+RANK 4->5
+That's awful.|3
+They would never.|1
+RANK 5->6
+Calm down.|1
+That should be enough|3
+RANK 7->8
+Hamburgers.|1
+You're a good girl.|3
+Your dad.|3
+RANK 8->9
+Friends forever.|3
+RANK 9->10
+I'm sure you will.|3
+Sure.|3
+@temperance
+RANK 1->2
+Sure. Let's go.|1
+There's nothing to show.|1
+I totally agree.|3
+RANK 2->3
+Thanks.|1
+How about a kimono?|3
+RANK 3->4
+Are you all right?|3
+RANK 4->5
+Sure.|1
+Just stay in Japan!|1
+RANK 5->6
+Let's do it.|1
+I have your back!|3
+RANK 6->7
+That's a great idea.|3
+RANK 7->8
+He'll definitely agree!|3
+RANK 8->9
+Congrats!|1
+Aren't you homesick?|3
+RANK 9->10
+Great work!|3
+I'll be waiting for you.|3
+@devil
+RANK 1->2
+Placebo.|3
+......|1
+Wow.|1
+Can you even sell those?|1
+RANK 2->3
+Maybe a little.|3
+RANK 3->4
+Sure have!|3
+RANK 4->5
+Whose face?|1
+It's all about the money...|1
+RANK 5->6
+Sounds fun.|3
+RANK 6->7
+Sort of...|3
+The organic one.|3
+RANK 7->8
+Why would he say that?|3
+You must've misheard.|1
+RANK 8->9
+Are you going to donate?|3
+@tower
+RANK 1->2
+None of your business.|3
+How should I address you?|1
+RANK 2->3
+I don't have any friends.|3
+RANK 3->4
+Yeah, that might look cool.|3
+RANK 5->6
+You should go home.|3
+Do you have any coworkers?|1
+RANK 6->7
+You probably shouldn't.|3
+RANK 7->8
+Dad?|3
+I was with a friend.|1
+RANK 9->10
+That's awesome!|3
+@star
+RANK 1->2
+Sounds like a lot of pressure.|1
+Myself.|3
+RANK 2->3
+For your teammates?|1
+Who's 'them'?|1
+Sounds like fun.|1
+That sounds rough.|1
+RANK 3->4
+What are you doing?|1
+That would be amazing!|1
+Yeah, I bet it would.|1
+RANK 4->5
+Are you okay?|1
+I'll come back here with you.|1
+RANK 5->6
+Don't worry, it's okay.|3
+RANK 6->7
+It's no problem at all.|1
+Sounds pretty rough.|1
+Stop whining and do it.|1
+Don't give up yet.|3
+RANK 7->8
+Do it!|3
+It sure was.|1
+Don't sweat it.|1
+RANK 8->9
+Did you win?|1
+Congrats, man!|1
+What will you do now?|1
+Will you quit running?|1
+Thanks!|1
+RANK 9->10
+You're leaving today?|3
+@moon
+RANK 1->2
+Sure, why not.|3
+RANK 2->3
+The Gourmet King.|3
+RANK 3->4
+Are you feeling sick?|3
+RANK 4->5
+That's right.|3
+RANK 5->6
+Are you sick?|3
+RANK 6->7
+The world is ending?|3
+RANK 7->8
+No, you're not|3
+RANK 9->10
+Just be yourself|3
+You're irreplaceable|3
+@sun
+RANK 1->2
+Really?|1
+You have a point.|1
+RANK 2->3
+I couldn't say.|1
+Try not to talk so much.|1
+RANK 3->4
+I'd say so.|3
+No, I don't|1
+It depends on the book.|1
+I stop if I get bored.|1
+RANK 4->5
+You need to listen to your body.|3
+RANK 5->6
+Sounds fine to me.|3
+It sounds interesting.|3
+RANK 6->7
+That's a good story.|1
+It sounds really depressing.|3
+RANK 7->8
+Take as long as you need.|1
+Why did you stop?|1
+RANK 8->9
+You finished your story?|1
+@aeon
+RANK 1->2
+I like it here.|3
+RANK 2->3
+That's not true.|1
+RANK 3->4
+All right.|3
+RANK 4->5
+You might be right.|3
+RANK 5->6
+He thought I was your boyfriend.|3
+RANK 7->8
+I'm doing it now.|3
+It's love.|R
+Because we're friends.|P
+RANK 8->9
+You're right.|3
+I love you, too.|R
+Sorry, but I can't...|P

@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import type { GameInfo } from '../../core/types';
 import { t } from '../../i18n/es';
+import { L } from '../../i18n';
 import { GameMenu } from './GameMenu';
 import { LanguageButton } from './LanguageButton';
 import { AccountButton } from './AccountButton';
@@ -39,9 +40,10 @@ export function Header({ game }: Props) {
     { to: base, label: t().nav.home, end: true },
     { to: `${base}/calculadora`, label: t().nav.calculator, end: false },
     { to: `${base}/confidentes`, label: t().nav.confidants, end: false },
+    { to: `${base}/vinculos`, label: L('Vínculos', 'Social Links'), end: false },
     { to: `${base}/clases`, label: t().nav.school, end: false },
     { to: `${base}/builds`, label: 'Builds', end: false },
-  ].filter((l) => game.id === 'p5r' || l.end || l.to.endsWith('/calculadora'));
+  ].filter((l) => (l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.end || l.to.endsWith('/calculadora')));
 
   return (
     <header ref={ref} className={styles.header}>

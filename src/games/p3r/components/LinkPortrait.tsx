@@ -14,14 +14,14 @@ const SPOILER_LINKS: ArcanaId[] = ['judgement'];
  *   collage completo (spoiler: aparecen miembros que se suman más adelante).
  * - Juicio: tapado con spoiler.
  */
-export function LinkPortrait({ arcana, alt, className }: { arcana: ArcanaId; alt: string; className?: string }) {
+export function LinkPortrait({ arcana, alt, className, compact }: { arcana: ArcanaId; alt: string; className?: string; compact?: boolean }) {
   const [full, setFull] = useState(false);
   const src = arcana === 'fool' ? linkImage('fool', full ? 6 : 1) : linkImage(arcana);
   if (!src) return null;
   const img = (
     <div className={`${styles.box} ${className ?? ''}`}>
       <img src={src} alt={alt} className={styles.img} loading="lazy" decoding="async" />
-      {arcana === 'fool' && (
+      {arcana === 'fool' && !compact && (
         <button type="button" className={styles.corner} onClick={() => setFull((f) => !f)} aria-pressed={full}>
           {full ? L('Ver primera versión', 'Show first version') : L('Ver completa · spoiler', 'Show full · spoiler')}
         </button>
@@ -29,7 +29,7 @@ export function LinkPortrait({ arcana, alt, className }: { arcana: ArcanaId; alt
     </div>
   );
   return SPOILER_LINKS.includes(arcana) ? (
-    <SpoilerCover active label={L('Spoiler · tocá para ver', 'Spoiler · tap to see')}>{img}</SpoilerCover>
+    <SpoilerCover active className={className} label={L('Spoiler · tocá para ver', 'Spoiler · tap to see')}>{img}</SpoilerCover>
   ) : (
     img
   );
