@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { BackButton } from '../../../shared/components/BackButton';
-import { personaImage } from '../services/images';
+import { personaImage, personaProfileFocus } from '../services/images';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
 import { FavoriteButton } from '../../p5r/components/FavoriteButton';
@@ -55,6 +55,7 @@ export default function PersonaProfile() {
           <ImagePlaceholder
             className={personaImage(p.id, 'profile') ? styles.photoBig : styles.photo}
             src={personaImage(p.id, 'profile')}
+            focus={personaProfileFocus(p.id)}
             label={personaImage(p.id, 'profile') ? personaName(p) : L('Imagen de Persona', 'Persona image')}
             icon="person"
           />
