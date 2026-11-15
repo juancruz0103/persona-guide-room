@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <script>
+      // La página de GitHub Pages ahora redirige al sitio en Cloudflare (conserva la sección abierta).
+      if (location.hostname.endsWith('github.io')) {
+        location.replace('https://personaguy.personaguide.workers.dev/' + location.hash);
+      }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Guía interactiva para Persona 5 Royal: calculadora de fusiones y guía de confidentes. Proyecto fan, no oficial." />

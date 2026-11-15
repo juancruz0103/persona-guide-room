@@ -4,7 +4,7 @@ Guía interactiva para **Persona 5 Royal**: calculadora de fusiones de Personas 
 
 > Proyecto fan, no oficial. Persona es propiedad de ATLUS / SEGA.
 
-🔗 **Demo:** https://juancruz0103.github.io/persona-guide-room/
+🔗 **Demo:** https://personaguy.personaguide.workers.dev/
 
 ---
 
