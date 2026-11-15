@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
+import { FavoriteButton } from '../../p5r/components/FavoriteButton';
 import { ElementIcon } from '../components/ElementIcon';
 import { PersonaPeek } from '../components/PersonaPeek';
 import { SpoilerCover } from '../../p5r/components/SpoilerCover';
@@ -61,6 +62,14 @@ export default function PersonaProfile() {
               {p.party && <span className="tag tag--party">{L('Persona de', 'Persona of')} {PARTY_OWNER[p.party.owner ?? '']}</span>}
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}
               {p.flags.special && <span className="tag tag--special">{L('Fusión especial', 'Special fusion')}</span>}
+            </div>
+            <div className={styles.actions}>
+              <FavoriteButton personaId={`p3r:${p.id}`} />
+              {!p.party && (
+                <Link to={`/p3r/builds?persona=${p.id}`} className="btn btn--light" style={{ minHeight: 42, fontSize: 17 }}>
+                  {L('Ver builds', 'See builds')}
+                </Link>
+              )}
             </div>
           </div>
         </header>

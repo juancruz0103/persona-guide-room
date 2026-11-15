@@ -2,17 +2,19 @@ import { Link, useLocation } from 'react-router-dom';
 import { useAuth } from '../../../core/account/AuthContext';
 import { useFavorites } from '../../../core/account/favorites';
 import styles from './FavoriteButton.module.css';
+import { useGameBase } from '../../../shared/hooks/useGameBase';
 import { L } from '../../../i18n';
 
 /** Estrella para marcar una Persona como favorita. Sin sesión, lleva a iniciar sesión. */
 export function FavoriteButton({ personaId }: { personaId: string }) {
   const { user } = useAuth();
+  const base = useGameBase();
   const { isFavorite, toggle, loading } = useFavorites();
   const location = useLocation();
 
   if (!user) {
     return (
-      <Link to="/p5r/cuenta" state={{ from: location.pathname }} className={styles.btn}>
+      <Link to={`${base}/cuenta`} state={{ from: location.pathname }} className={styles.btn}>
         <Star filled={false} /> {L('Entrá para guardar en favoritas', 'Log in to save to favorites')}
       </Link>
     );

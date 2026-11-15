@@ -2,6 +2,8 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../core/account/AuthContext';
 import { useFavorites } from '../core/account/favorites';
+import { getPersona as getP3Persona } from '../games/p3r/services/personas';
+import { personaName as p3Name } from '../games/p3r/services/text';
 import { fetchAllProgress } from '../core/account/progress';
 import { listBuilds, translateBuild, pendingReports, type Build } from '../core/account/builds';
 import { BuildCard } from '../games/p5r/pages/Builds';
@@ -68,6 +70,7 @@ export default function MyProfile() {
     .filter((r) => r.summary)
     .sort(SORTS[sort].cmp);
   const personas = favorites.map((id) => getPersona(id)).filter((p) => p !== undefined);
+  const p3rFavs = favorites.filter((id) => id.startsWith('p3r:')).map((id) => getP3Persona(id.slice(4))).filter((p) => p !== undefined);
 
   return (
     <section className={`container ${styles.page}`}>
@@ -174,6 +177,22 @@ export default function MyProfile() {
               </li>
             ))}
           </ul>
+        )}
+        {p3rFavs.length > 0 && (
+          <>
+            <h3 className={styles.h2} style={{ fontSize: 22, marginTop: 18 }}>Persona 3 Reload</h3>
+            <ul className={styles.favGrid}>
+              {p3rFavs.map((p) => (
+                <li key={p.id}>
+                  <Link to={`/p3r/calculadora/persona/${p.id}`} className={styles.fav}>
+                    <span className={styles.favEmpty} />
+                    <span className={styles.favName}>{p3Name(p)}</span>
+                    <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
         )}
       </div>
       <div className={styles.block}>

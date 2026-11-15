@@ -60,7 +60,7 @@ export default function Catalog() {
           </fieldset>
           <fieldset className={`${styles.group} ${styles.options}`}>
             <legend className="label label-accent">{L('Personas de compañeros', 'Party Personas')}</legend>
-            <p className={styles.note}>{L('Las Personas de S.E.E.S. Tienen ficha pero no se fusionan.', "S.E.E.S. members' Personas. They have a profile but can't be fused.")}</p>
+            <p className={styles.note}>{L('Las Personas de los miembros de S.E.E.S. tienen ficha, pero no se fusionan.', "S.E.E.S. members' Personas. They have a profile but can't be fused.")}</p>
             {(['all', 'none', 'only'] as const).map((v) => (
               <label key={v} className={styles.check}>
                 <input type="radio" name="party" checked={f.party === v} onChange={() => set('party', v)} />

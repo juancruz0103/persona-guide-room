@@ -40,3 +40,4 @@
 .myth { color: var(--c-text-muted); line-height: 1.6; margin: 0; }
 .inheritList { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 6px; }
 .inheritList span { display: inline-flex; align-items: center; gap: 6px; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }

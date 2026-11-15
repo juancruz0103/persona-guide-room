@@ -109,6 +109,8 @@
   accent-color: var(--c-primary);
   width: 20px;
   height: 20px;
+  flex: none;
+  margin: 0;
 }
 
 /* ---------- Resultados ---------- */
