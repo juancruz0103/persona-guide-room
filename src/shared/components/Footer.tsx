@@ -8,8 +8,6 @@ export function Footer() {
       <div className={`container ${styles.inner}`}>
         <p>
           {es.footer.disclaimer}
-          <br />
-          {es.footer.data}
         </p>
         <Link to="/p5r/sobre-nosotros" className={styles.about}>
           {es.nav.about} · Contacto y donaciones →

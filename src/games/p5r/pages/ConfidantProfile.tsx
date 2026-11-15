@@ -392,16 +392,6 @@ export default function ConfidantProfile() {
           <Timeline ranks={data.timeline} />
           {data.spoiler && <SpoilerBox spoiler={data.spoiler} />}
           <UltimateBox summary={summary} />
-          <p className={styles.source}>
-            Fuente:{' '}
-            {data.sources.map((u, i) => (
-              <span key={u}>
-                {i > 0 && ' · '}
-                <a href={u}>guía {i + 1} (RPG Site)</a>
-              </span>
-            ))}
-            . Nombres de habilidades en inglés hasta confirmar los oficiales.
-          </p>
         </section>
       )}
 
@@ -414,10 +404,6 @@ export default function ConfidantProfile() {
           </p>
           <Requests requests={data.requests} />
           <UltimateBox summary={summary} />
-          <p className={styles.source}>
-            Pedidos y armados: <a href={data.sources[0]}>RPG Site</a> (Royal). Recompensas:{' '}
-            <a href={data.sources[1]}>GGRecon</a>.
-          </p>
         </section>
       )}
 
@@ -567,11 +553,6 @@ export default function ConfidantProfile() {
             <li><span style={{ background: 'var(--c-royal)' }} /> Exclusivo de Royal</li>
             {summary.romance && <li><span style={{ background: 'var(--c-romance)' }} /> Opción de romance</li>}
           </ul>
-          {data && (
-            <p className={styles.source}>
-              Puntos y respuestas: <a href={data.sources[0]}>RPG Site</a>.
-            </p>
-          )}
         </aside>
       </section>
       <div className="container">
