@@ -1,5 +1,5 @@
 import { supabase } from './supabase';
-import { locale } from '../../i18n';
+import { locale, tr } from '../../i18n';
 
 /** Una Persona que entra en la fusión y las habilidades importantes que pasa. */
 export interface BuildIngredient {
@@ -91,6 +91,21 @@ export async function listBuilds(opts: { personaId?: string; userId?: string } =
   if (opts.userId) q = q.eq('user_id', opts.userId);
   const { data } = await q;
   return ((data ?? []) as unknown as Row[]).map(toBuild);
+}
+
+/** Versión para mostrar: pasa los textos por el diccionario (las builds oficiales tienen traducción). No usar en el editor. */
+export function translateBuild(b: Build): Build {
+  const t = (x?: string | null) => (x ? tr(x) : x);
+  return {
+    ...b,
+    title: tr(b.title),
+    description: t(b.description) ?? b.description,
+    steps: b.steps.map((s) => ({
+      ...s,
+      note: t(s.note) ?? s.note,
+      ingredients: s.ingredients.map((i) => ({ ...i, note: t(i.note) ?? i.note })),
+    })),
+  };
 }
 
 export async function getBuild(id: string): Promise<Build | null> {

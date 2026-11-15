@@ -5,7 +5,7 @@ import {
   addComment,
   deleteBuild,
   formatDate,
-  getBuild,
+  getBuild, translateBuild,
   hasLiked,
   listComments,
   report,
@@ -29,7 +29,8 @@ export default function BuildView() {
   const [likes, setLikes] = useState(0);
 
   useEffect(() => {
-    getBuild(buildId).then((b) => {
+    getBuild(buildId).then((raw) => {
+      const b = raw && translateBuild(raw);
       setBuild(b);
       setLikes(b?.likes ?? 0);
     });

@@ -3,7 +3,7 @@ import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../core/account/AuthContext';
 import { useFavorites } from '../core/account/favorites';
 import { fetchAllProgress } from '../core/account/progress';
-import { listBuilds, pendingReports, type Build } from '../core/account/builds';
+import { listBuilds, translateBuild, pendingReports, type Build } from '../core/account/builds';
 import { BuildCard } from '../games/p5r/pages/Builds';
 import { authErrorText, supabase } from '../core/account/supabase';
 import { getConfidantSummary } from '../games/p5r/services/confidants';
@@ -25,7 +25,7 @@ export default function MyProfile() {
   useEffect(() => {
     if (!user) return;
     fetchAllProgress(user.id).then(setProgress);
-    listBuilds({ userId: user.id }).then(setBuilds);
+    listBuilds({ userId: user.id }).then((l) => setBuilds(l.map(translateBuild)));
   }, [user]);
   useEffect(() => {
     if (profile?.is_admin) pendingReports().then(setPending);

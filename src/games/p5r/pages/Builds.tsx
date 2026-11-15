@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { useAuth } from '../../../core/account/AuthContext';
-import { formatDate, listBuilds, type Build } from '../../../core/account/builds';
+import { formatDate, listBuilds, translateBuild, type Build } from '../../../core/account/builds';
 import { getCatalogPersonas, getPersona } from '../services/personas';
 import { personaName } from '../services/gameText';
 import { personaCardFocus, personaImage } from '../services/images';
@@ -20,7 +20,7 @@ export default function Builds() {
 
   useEffect(() => {
     setBuilds(null);
-    listBuilds({ personaId: personaId || undefined }).then(setBuilds);
+    listBuilds({ personaId: personaId || undefined }).then((l) => setBuilds(l.map(translateBuild)));
   }, [personaId]);
 
   const sorted = useMemo(() => {
