@@ -11,6 +11,7 @@
 .groupLabel { font-family: var(--f-label); color: var(--c-text-dim); font-size: 13px; letter-spacing: 0.12em; text-transform: uppercase; text-align: center; }
 .affRow { display: flex; gap: 3px; }
 .aff { flex: 1 1 0; min-width: 64px; background: var(--c-surface); border-top: 4px solid var(--c-line); text-align: center; padding: 8px 4px; }
+.aff svg { display: block; margin: 0 auto 4px; }
 .aff b { display: block; font-family: var(--f-label); font-size: 14px; letter-spacing: 0.04em; text-transform: uppercase; }
 .aff span { display: block; margin-top: 4px; font-family: var(--f-label); font-weight: 800; font-size: 17px; }
 .a_weak { color: #ff5468; }
@@ -37,3 +38,5 @@
 .recipe small, .recipes small { color: var(--c-text-dim); }
 .recipes { list-style: none; margin: 8px 0 12px; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 6px 18px; font-family: var(--f-label); font-size: 18px; }
 .myth { color: var(--c-text-muted); line-height: 1.6; margin: 0; }
+.inheritList { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 6px; }
+.inheritList span { display: inline-flex; align-items: center; gap: 6px; }

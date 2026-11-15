@@ -44,7 +44,7 @@ export default function Links() {
       <div className={styles.filters}>
         <div className={styles.sorts}>
           <button type="button" className={sort === 'arcana' ? styles.on : ''} onClick={() => pick('arcana')}>{L('Por Arcana', 'By Arcana')}</button>
-          <button type="button" className={sort === 'sees' ? styles.on : ''} onClick={() => pick('sees')}>{L('S.E.E.S. primero', 'S.E.E.S. first')}</button>
+          <button type="button" className={sort === 'sees' ? styles.on : ''} onClick={() => pick('sees')}>S.E.E.S.</button>
           <button type="button" className={sort === 'progress' ? styles.on : ''} onClick={() => pick('progress')}>{L('Más avanzados', 'Most advanced')}</button>
         </div>
         <label className={styles.select}>

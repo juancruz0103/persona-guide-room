@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { elementColor, elementName, ailmentName } from '../data/elements';
 import { getSkill, skillDescription, skillName } from '../services/text';
+import { ElementIcon } from './ElementIcon';
 import styles from './SkillRow.module.css';
 import { L } from '../../../i18n';
 
@@ -13,7 +14,7 @@ export function SkillRow({ name, right }: { name: string; right?: React.ReactNod
   return (
     <li className={styles.row} onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
       <button type="button" className={styles.main} onClick={() => setOpen((o) => !o)} aria-expanded={open}>
-        <span className={styles.dot} style={{ background: color }} aria-hidden="true" />
+        {info ? <ElementIcon el={info.element} size={24} title={false} /> : <span className={styles.dot} style={{ background: color }} aria-hidden="true" />}
         <span className={styles.name}>{skillName(name)}</span>
         {info?.cost && (
           <span className={info.cost.type === 'hp' ? styles.hp : styles.sp}>

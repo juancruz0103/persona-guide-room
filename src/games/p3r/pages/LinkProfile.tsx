@@ -7,7 +7,6 @@ import { scheduleText } from '../data/links';
 import { eventsByRank, getLink, maxPersona, progressId, type LinkChoice } from '../services/links';
 import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
-import { SpoilerCover } from '../../p5r/components/SpoilerCover';
 import styles from './LinkProfile.module.css';
 import { L, isEn } from '../../../i18n';
 
@@ -29,12 +28,12 @@ function Choice({ c }: { c: LinkChoice }) {
       )}
       <ul className={styles.opts}>
         {c.opts.map((o, i) => (
-          <li key={i} className={best > 0 && o.pts === best ? styles.best : ''}>
+          <li key={i} className={`${best > 0 && o.pts === best ? styles.best : ''} ${o.route === 'R' ? styles.romanceOpt : ''}`}>
             <span>
               {withName(L(o.es, o.en))}
               {!isEn() && <small>{withName(o.en)}</small>}
             </span>
-            {o.route && <span className={styles.route}>{o.route === 'R' ? L('Romance', 'Romance') : L('Amistad', 'Friends')}</span>}
+            {o.route && <span className={`${styles.route} ${o.route === 'R' ? styles.routeR : ''}`}>{o.route === 'R' ? L('Lleva al romance', 'Leads to romance') : L('Lleva a la amistad', 'Leads to friendship')}</span>}
             <b className={o.pts ? styles.pts : styles.zero}>{o.pts ? `+${o.pts}` : '—'}</b>
           </li>
         ))}
@@ -74,14 +73,12 @@ export default function LinkProfile() {
 
   const group = (g: (typeof groups)[number]) => {
     const box = (
-      <div key={`${g.rank}${g.route}`} className={styles.rank}>
+      <div key={`${g.rank}${g.route}`} className={`${styles.rank} ${g.route === 'R' ? styles.romance : ''}`}>
         {g.route && <span className={styles.route}>{routeLabel(g.route)}</span>}
         {g.events.flatMap((e) => e.choices).map((c, i) => <Choice key={i} c={c} />)}
       </div>
     );
-    return g.rank >= 9 && g.route ? (
-      <SpoilerCover key={`${g.rank}${g.route}`} active label={L(`Spoiler · ${routeLabel(g.route)}`, `Spoiler · ${routeLabel(g.route)}`)} className={styles.spoiler}>{box}</SpoilerCover>
-    ) : box;
+    return box;
   };
 
   return (

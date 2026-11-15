@@ -9,7 +9,6 @@ export const RESIST_GROUPS: { label: () => string; ids: ResistElement[] }[] = [
   { label: () => L('Físicos', 'Physical'), ids: ['sla', 'str', 'pie'] },
   { label: () => L('Elementales', 'Elemental'), ids: ['fir', 'ice', 'ele', 'win'] },
   { label: () => L('Luz y oscuridad', 'Light and dark'), ids: ['lig', 'dar'] },
-  { label: () => L('Todopoderoso', 'Almighty'), ids: ['alm'] },
 ];
 
 /** Nombres oficiales de la versión en español del juego. */

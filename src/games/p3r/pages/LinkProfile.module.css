@@ -52,3 +52,8 @@
 .rankTitle { margin-top: 8px; }
 .rankNum { font-family: var(--f-display); font-size: 48px; line-height: 1; color: var(--c-primary-light); text-transform: uppercase; }
 .dontMatter { background: var(--c-surface); border-left: 6px solid var(--c-primary); padding: 18px 22px; }
+/* Ruta romántica: contorno rosa */
+.romance { border-left-color: var(--c-romance); outline: 2px solid var(--c-romance); outline-offset: -2px; }
+.romance > .route, .routeR { border-color: var(--c-romance); color: var(--c-romance); }
+.opts .romanceOpt { border-color: var(--c-romance); }
+.page { --c-romance: #FF6FB5; }

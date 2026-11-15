@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
+import { ElementIcon } from '../components/ElementIcon';
 import { PersonaPeek } from '../components/PersonaPeek';
 import { SpoilerCover } from '../../p5r/components/SpoilerCover';
 import { getArcana } from '../data/arcana';
@@ -88,6 +89,7 @@ export default function PersonaProfile() {
                   const a = p.resistances[id];
                   return (
                     <div key={id} className={styles.aff} style={{ borderTopColor: elementColor(id) }} title={`${elementName(id)}: ${affinityLong(a)}`}>
+                      <ElementIcon el={id} size={34} title={false} />
                       <b>{elementShort(id)}</b>
                       <span className={styles[`a_${a}`]}>{affinityShort(a)}</span>
                     </div>
@@ -144,7 +146,11 @@ export default function PersonaProfile() {
                 {cantInherit.length ? (
                   <p className={styles.note}>
                     {L('No puede heredar:', "Can't inherit:")}{' '}
-                    {cantInherit.map((e) => elementName(e as SkillElement)).join(', ')}
+                    <span className={styles.inheritList}>
+                      {cantInherit.map((e) => (
+                        <span key={e}><ElementIcon el={e as SkillElement} size={22} title={false} />{elementName(e as SkillElement)}</span>
+                      ))}
+                    </span>
                   </p>
                 ) : (
                   <p className={styles.note}>{L('Puede heredar habilidades de cualquier tipo.', 'Can inherit any skill type.')}</p>
