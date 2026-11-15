@@ -40,7 +40,7 @@
   margin: 0;
   max-width: 620px;
   font-size: 19px;
-  color: #2a2a2a;
+  color: var(--c-ink, #2a2a2a);
 }
 .cards {
   display: grid;

@@ -4,9 +4,11 @@ import { pendingReports } from '../../core/account/builds';
 import { useAuth } from '../../core/account/AuthContext';
 import styles from './LanguageButton.module.css';
 import { L } from '../../i18n';
+import { useGameBase } from '../hooks/useGameBase';
 
 /** Botón de la cabecera: «Entrar» o acceso a «Mi perfil». */
 export function AccountButton() {
+  const base = useGameBase();
   const { user, profile, loading } = useAuth();
   const location = useLocation();
   const [pending, setPending] = useState(0);
@@ -21,14 +23,14 @@ export function AccountButton() {
   if (loading) return null;
   if (!user) {
     return (
-      <Link to="/p5r/cuenta" state={{ from: location.pathname }} className={styles.button} style={{ textDecoration: 'none', textTransform: 'uppercase' }}>
+      <Link to={`${base}/cuenta`} state={{ from: location.pathname }} className={styles.button} style={{ textDecoration: 'none', textTransform: 'uppercase' }}>
         {L('Entrar', 'Log in')}
       </Link>
     );
   }
   return (
     <Link
-      to="/p5r/perfil"
+      to={`${base}/perfil`}
       className={styles.button}
       style={{ textDecoration: 'none', textTransform: 'uppercase' }}
       title={profile?.is_admin ? L('Mi perfil · Administrador', 'My profile · Administrator') : L('Mi perfil', 'My profile')}

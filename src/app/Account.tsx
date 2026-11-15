@@ -4,12 +4,14 @@ import { useAuth } from '../core/account/AuthContext';
 import { authErrorText, authRedirect, rememberDestination, supabase } from '../core/account/supabase';
 import styles from './Account.module.css';
 import { L } from '../i18n';
+import { useGameBase } from '../shared/hooks/useGameBase';
 
 /** Entrar o crear cuenta: solo con Google. */
 export default function Account() {
+  const base = useGameBase();
   const { user, loading } = useAuth();
   const location = useLocation();
-  const from = (location.state as { from?: string } | null)?.from ?? '/p5r/perfil';
+  const from = (location.state as { from?: string } | null)?.from ?? `${base}/perfil`;
   const [error, setError] = useState('');
 
   if (!loading && user) return <Navigate to={from} replace />;
@@ -28,7 +30,7 @@ export default function Account() {
     <section className={`container ${styles.wrap}`}>
       <div className={styles.card}>
         <h1 className={styles.title}>{L('Iniciar sesión', 'Log in')}</h1>
-        <p className={styles.lead}>{L('Con tu cuenta guardás el progreso de tus confidentes y tus Personas favoritas.', 'With your account you save your confidant progress and your favorite Personas.')}</p>
+        <p className={styles.lead}>{base === '/p3r' ? L('Con tu cuenta guardás el progreso de tus vínculos y publicás tus builds.', 'With your account you save your Social Link progress and publish your builds.') : L('Con tu cuenta guardás el progreso de tus confidentes y tus Personas favoritas.', 'With your account you save your confidant progress and your favorite Personas.')}</p>
 
         <button type="button" className={`btn btn--light ${styles.full}`} onClick={google}>
           <svg width="20" height="20" viewBox="0 0 48 48" aria-hidden="true">

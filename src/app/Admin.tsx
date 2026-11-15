@@ -62,12 +62,12 @@ function Reports() {
     const ids = (t: Report['target_type']) => rows.filter((r) => r.target_type === t).map((r) => r.target_id);
     const p: typeof previews = {};
     const [b, c, u] = await Promise.all([
-      ids('build').length ? supabase.from('builds').select('id, title, user_id, hidden').in('id', ids('build')) : { data: [] },
+      ids('build').length ? supabase.from('builds').select('id, game, title, user_id, hidden').in('id', ids('build')) : { data: [] },
       ids('comment').length ? supabase.from('build_comments').select('id, body, user_id, build_id, hidden').in('id', ids('comment')) : { data: [] },
       ids('user').length ? supabase.from('profiles').select('id, username').in('id', ids('user')) : { data: [] },
     ]);
-    for (const x of (b.data ?? []) as { id: string; title: string; user_id: string; hidden: boolean }[])
-      p[x.id] = { text: `Build: «${x.title}»`, link: `/p5r/builds/${x.id}`, userId: x.user_id, hidden: x.hidden };
+    for (const x of (b.data ?? []) as { id: string; game?: string; title: string; user_id: string; hidden: boolean }[])
+      p[x.id] = { text: `Build: «${x.title}»`, link: `/${x.game ?? 'p5r'}/builds/${x.id}`, userId: x.user_id, hidden: x.hidden };
     for (const x of (c.data ?? []) as { id: string; body: string; user_id: string; build_id: string; hidden: boolean }[])
       p[x.id] = { text: `${L('Comentario', 'Comment')}: «${x.body}»`, link: `/p5r/builds/${x.build_id}`, userId: x.user_id, hidden: x.hidden };
     for (const x of (u.data ?? []) as { id: string; username: string | null }[])

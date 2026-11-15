@@ -13,6 +13,7 @@ import { personaName } from '../games/p5r/services/gameText';
 import { ARCANAS, getArcana } from '../games/p5r/data/arcana';
 import styles from './MyProfile.module.css';
 import { L } from '../i18n';
+import { useGameBase } from '../shared/hooks/useGameBase';
 
 type ConfRow = { confidant_id: string; rank: number; summary: ReturnType<typeof getConfidantSummary> };
 const arcanaIndex = (r: ConfRow) => ARCANAS.findIndex((a) => a.id === r.summary?.arcana);
@@ -27,6 +28,7 @@ type SortKey = keyof typeof SORTS;
 
 /** Mi perfil: nombre de usuario, confidentes en curso y Personas favoritas. */
 export default function MyProfile() {
+  const base = useGameBase();
   const { user, profile, loading, signOut, refreshProfile, recovering, doneRecovering } = useAuth();
   const { ids: favorites } = useFavorites();
   const [progress, setProgress] = useState<{ confidant_id: string; rank: number }[] | null>(null);
@@ -59,7 +61,7 @@ export default function MyProfile() {
   }, [profile?.is_admin]);
 
   if (loading) return <div className="container" style={{ paddingBlock: 80 }}>{L('Cargando…', 'Loading…')}</div>;
-  if (!user) return <Navigate to="/p5r/cuenta" replace />;
+  if (!user) return <Navigate to={`${base}/cuenta`} replace />;
 
   const confidants = (progress ?? [])
     .map((r) => ({ ...r, summary: getConfidantSummary(r.confidant_id) }))
@@ -77,7 +79,7 @@ export default function MyProfile() {
           <h1 className={styles.title}>{profile?.username ?? L('Mi perfil', 'My profile')}</h1>
           <span className={styles.email}>{user.email}</span>
           {profile?.is_admin && (
-            <Link to="/p5r/admin" className={styles.admin}>
+            <Link to={`${base}/admin`} className={styles.admin}>
               {L('Administrador · Abrir panel →', 'Administrator · Open panel →')}
             </Link>
           )}
@@ -88,7 +90,7 @@ export default function MyProfile() {
       </header>
 
       {pending > 0 && (
-        <Link to="/p5r/admin" className={styles.alert}>
+        <Link to={`${base}/admin`} className={styles.alert}>
           ⚠ {L(`Tenés ${pending} reporte${pending === 1 ? '' : 's'} sin revisar. Entrá al panel para ver si hace falta una sanción →`, `You have ${pending} unreviewed report${pending === 1 ? '' : 's'}. Open the panel to see if a sanction is needed →`)}
         </Link>
       )}
@@ -178,7 +180,7 @@ export default function MyProfile() {
         <h2 className={styles.h2}>{L('Mis builds', 'My builds')}</h2>
         {builds.length === 0 ? (
           <p className={styles.empty}>
-            {L('Todavía no publicaste ninguna.', 'You have not published any yet.')} <Link to="/p5r/builds/nueva">{L('Crear una build', 'Create a build')}</Link>.
+            {L('Todavía no publicaste ninguna.', 'You have not published any yet.')} <Link to={`${base}/builds/nueva`}>{L('Crear una build', 'Create a build')}</Link>.
           </p>
         ) : (
           <ul className={styles.favGrid} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))' }}>

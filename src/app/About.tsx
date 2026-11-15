@@ -1,10 +1,12 @@
 import styles from './About.module.css';
 import { L } from '../i18n';
+import { useGameBase } from '../shared/hooks/useGameBase';
 
 const MAIL = 'personaguyconsultas@gmail.com';
 
 /** Sobre nosotros: qué es el proyecto, contacto y donaciones. */
 export default function About() {
+  const p3r = useGameBase() === '/p3r';
   return (
     <>
       <section className={styles.hero}>
@@ -13,10 +15,15 @@ export default function About() {
           <span className={styles.kicker}>Persona Guide Room</span>
           <h1 className={styles.title}>{L('Sobre nosotros', 'About us')}</h1>
           <p className={styles.lead}>
-            {L(
-              'Persona Guide Room es un proyecto personal hecho por un fan de la saga Persona. La idea es tener en un solo lugar todo lo que hace falta para jugar tranquilo: los confidentes con sus respuestas, el compendio de Personas y la calculadora de fusiones, siempre cuidando los spoilers.',
-              'Persona Guide Room is a personal project made by a fan of the Persona series. The idea is to have everything you need to play at ease in one place: confidants with their answers, the Persona compendium and the fusion calculator, always avoiding spoilers.',
-            )}
+            {p3r
+              ? L(
+                  'Persona Guide Room es un proyecto personal hecho por un fan de la saga Persona. La idea es tener en un solo lugar todo lo que hace falta para jugar tranquilo: los vínculos con sus respuestas, las clases, el compendio de Personas y la calculadora de fusiones, siempre cuidando los spoilers.',
+                  'Persona Guide Room is a personal project made by a fan of the Persona series. The idea is to have everything you need to play at ease in one place: Social Links with their answers, classes, the Persona compendium and the fusion calculator, always avoiding spoilers.',
+                )
+              : L(
+                  'Persona Guide Room es un proyecto personal hecho por un fan de la saga Persona. La idea es tener en un solo lugar todo lo que hace falta para jugar tranquilo: los confidentes con sus respuestas, el compendio de Personas y la calculadora de fusiones, siempre cuidando los spoilers.',
+                  'Persona Guide Room is a personal project made by a fan of the Persona series. The idea is to have everything you need to play at ease in one place: confidants with their answers, the Persona compendium and the fusion calculator, always avoiding spoilers.',
+                )}
           </p>
         </div>
       </section>
@@ -26,10 +33,15 @@ export default function About() {
           <h2 className={styles.cardTitle}>{L('Quién está detrás', 'Who is behind it')}</h2>
           <p>
             {L('Soy', "I'm")} <strong>Juan</strong>
-            {L(
-              ', fan de la saga Persona. Armé esta guía mientras jugaba Persona 5 Royal: cada respuesta, llamada y foto la fui comprobando en el juego.',
-              ', a fan of the Persona series. I built this guide while playing Persona 5 Royal: every answer, call and picture was checked in the game.',
-            )}
+            {p3r
+              ? L(
+                  ', fan de la saga Persona. La guía empezó con Persona 5 Royal y ahora suma Persona 3 Reload: los diálogos y las respuestas salen de los textos oficiales del juego y los voy comprobando mientras juego.',
+                  ', a fan of the Persona series. The guide started with Persona 5 Royal and now adds Persona 3 Reload: dialogue and answers come from the official game text and I check them as I play.',
+                )
+              : L(
+                  ', fan de la saga Persona. Armé esta guía mientras jugaba Persona 5 Royal: cada respuesta, llamada y foto la fui comprobando en el juego.',
+                  ', a fan of the Persona series. I built this guide while playing Persona 5 Royal: every answer, call and picture was checked in the game.',
+                )}
           </p>
           <a className={styles.mail} href="https://github.com/juancruz0103/persona-guide-room" target="_blank" rel="noopener noreferrer">
             {L('Ver el proyecto en GitHub →', 'See the project on GitHub →')}
