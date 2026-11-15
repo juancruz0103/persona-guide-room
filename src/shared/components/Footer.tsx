@@ -11,10 +11,9 @@ export function Footer() {
           <br />
           {es.footer.data}
         </p>
-        <p>
-          <Link to="/p5r/sobre-nosotros">{es.nav.about}</Link> · {es.footer.madeBy} ·{' '}
-          <a href="https://github.com/juancruz0103/persona-guide-room">GitHub</a>
-        </p>
+        <Link to="/p5r/sobre-nosotros" className={styles.about}>
+          {es.nav.about} · Contacto y donaciones →
+        </Link>
       </div>
     </footer>
   );
