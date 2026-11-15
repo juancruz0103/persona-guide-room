@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react';
 import { CalcHeader } from '../components/CalcHeader';
 import { PersonaPeek } from '../components/PersonaPeek';
+import { CharacterPeek } from '../components/CharacterPeek';
+import { findCharacter } from '../data/characters';
 import heartsJson from '../data/generated/hearts-es.json';
 import recipesJson from '../data/generated/heart-recipes.json';
 import { getAllPersonas } from '../services/personas';
@@ -23,9 +25,18 @@ const STAT = (s: string) =>
      Strength: L('Fu', 'St'), Magic: 'Ma', Endurance: L('Re', 'En'), Agility: 'Ag', Luck: L('Su', 'Lu') } as Record<string, string>)[s] ?? s;
 const matName = (en: string) => L(DATA.materials[en] ?? en, en);
 
+/** "Para Sanada." → "Para <Akihiko Sanada con foto>." ; "Para ." (nombre del protagonista) → "Para el protagonista." */
+function GearDesc({ text }: { text: string }) {
+  const m = text.match(/^(.*?)Para ([^.]*)\.(.*)$/);
+  const who = m ? findCharacter(m[2]) : undefined;
+  if (!m || !who) return <small>{text}</small>;
+  return <small>{m[1]}{L('Para', 'For')} <CharacterPeek character={who} />.{m[3]}</small>;
+}
+
 /** Objetos de corazón: qué Persona los da y qué equipo se fabrica con ellos en Mayoido Antiques. */
 export default function Hearts() {
   const [q, setQ] = useState('');
+  const [sort, setSort] = useState<'level' | 'az'>('level');
   const groups = useMemo(() => {
     const by = new Map<string, Persona[]>();
     for (const p of getAllPersonas()) if (p.heart && !p.party) by.set(key(p.heart.item), [...(by.get(key(p.heart.item)) ?? []), p]);
@@ -33,8 +44,8 @@ export default function Hearts() {
     return [...by.entries()]
       .map(([item, personas]) => ({ item, personas: personas.sort((a, b) => a.heart!.level - b.heart!.level), recipes: DATA.recipes[item] ?? [] }))
       .filter((g) => !q || [itemName(g.item), ...g.personas.map((p) => p.nameEs ?? p.name), ...g.recipes.map((r) => L(r.result.es, r.result.en))].some((s) => norm(s).includes(norm(q))))
-      .sort((a, b) => a.personas[0].heart!.level - b.personas[0].heart!.level);
-  }, [q]);
+      .sort((a, b) => sort === 'az' ? itemName(a.item).localeCompare(itemName(b.item)) : a.personas[0].heart!.level - b.personas[0].heart!.level);
+  }, [q, sort]);
 
   return (
     <>
@@ -46,6 +57,13 @@ export default function Hearts() {
         <label className={styles.search}>
           <span className="label label-accent">{L('Buscar objeto, Persona o equipo', 'Search item, Persona or gear')}</span>
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} />
+        </label>
+        <label className={styles.search}>
+          <span className="label label-accent">{L('Ordenar por', 'Sort by')}</span>
+          <select value={sort} onChange={(e) => setSort(e.target.value as 'level' | 'az')}>
+            <option value="level">{L('Nivel en que se consigue', 'Level obtained')}</option>
+            <option value="az">{L('Nombre (A–Z)', 'Name (A–Z)')}</option>
+          </select>
         </label>
         {groups.map((g) => (
           <details key={g.item} className={styles.card}>
@@ -70,7 +88,7 @@ export default function Hearts() {
                         {Object.entries(r.result.stats).map(([k, v]) => <span key={k}>{STAT(k)} <b>{v}</b></span>)}
                       </span>
                     )}
-                    {r.result.desc && <small>{r.result.desc}</small>}
+                    {r.result.desc && <GearDesc text={r.result.desc} />}
                   </div>
                   <div className={styles.mats}>
                     {r.materials.map((m) => (
