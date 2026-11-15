@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { personaImage } from '../services/images';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
 import { FavoriteButton } from '../../p5r/components/FavoriteButton';
@@ -50,7 +51,12 @@ export default function PersonaProfile() {
       <article className={`container ${styles.page}`}>
         <Link to="/p3r/calculadora" className={styles.back}>← {L('Volver al catálogo', 'Back to catalog')}</Link>
         <header className={styles.top}>
-          <ImagePlaceholder className={styles.photo} label={L('Imagen de Persona', 'Persona image')} icon="person" />
+          <ImagePlaceholder
+            className={personaImage(p.id, 'profile') ? styles.photoBig : styles.photo}
+            src={personaImage(p.id, 'profile')}
+            label={personaImage(p.id, 'profile') ? personaName(p) : L('Imagen de Persona', 'Persona image')}
+            icon="person"
+          />
           <div>
             <span className={styles.kicker}>
               {arcana.name} · Arcana {arcana.numeral || '—'}

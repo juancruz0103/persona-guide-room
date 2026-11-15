@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { personaCardFocus, personaImage } from '../services/images';
 import { getArcana } from '../data/arcana';
 import { PARTY_OWNER } from '../services/personas';
 import { personaName } from '../services/text';
@@ -21,7 +22,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
   return (
     <Link to={`/p3r/calculadora/persona/${persona.id}`} className={styles.card}>
       <SpoilerCover active={isSpoiler(persona)} className={styles.image} label={L('Spoiler · tocá para ver', 'Spoiler · tap to see')}>
-        <ImagePlaceholder className={styles.image} label={L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
+        <ImagePlaceholder className={styles.image} src={personaImage(persona.id, 'side')} focus={personaCardFocus(persona.id)} label={personaImage(persona.id, 'side') ? personaName(persona) : L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
       </SpoilerCover>
       <div className={styles.body}>
         <span className={styles.name}>{isSpoiler(persona) ? L('Evolución (spoiler)', 'Evolution (spoiler)') : personaName(persona)}</span>
