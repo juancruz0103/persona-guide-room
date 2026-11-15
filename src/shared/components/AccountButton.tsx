@@ -1,4 +1,6 @@
+import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { pendingReports } from '../../core/account/builds';
 import { useAuth } from '../../core/account/AuthContext';
 import styles from './LanguageButton.module.css';
 
@@ -6,6 +8,15 @@ import styles from './LanguageButton.module.css';
 export function AccountButton() {
   const { user, profile, loading } = useAuth();
   const location = useLocation();
+  const [pending, setPending] = useState(0);
+  const admin = !!profile?.is_admin;
+  useEffect(() => {
+    if (!admin) return setPending(0);
+    const load = () => void pendingReports().then(setPending);
+    load();
+    const t = setInterval(load, 60000);
+    return () => clearInterval(t);
+  }, [admin, location.pathname]);
   if (loading) return null;
   if (!user) {
     return (
@@ -35,6 +46,14 @@ export function AccountButton() {
       <span style={{ maxWidth: 120, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
         {profile?.username ?? 'Mi perfil'}
       </span>
+      {pending > 0 && (
+        <span
+          title={`${pending} reporte${pending === 1 ? '' : 's'} sin revisar`}
+          style={{ minWidth: 22, height: 22, padding: '0 6px', display: 'inline-grid', placeItems: 'center', background: 'var(--c-primary)', color: 'var(--c-text)', fontSize: 13, borderRadius: 11 }}
+        >
+          {pending}
+        </span>
+      )}
     </Link>
   );
 }

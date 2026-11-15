@@ -145,11 +145,19 @@ export async function setLike(userId: string, buildId: string, on: boolean) {
     : supabase.from('build_likes').delete().eq('user_id', userId).eq('build_id', buildId);
 }
 
-export async function report(userId: string, targetType: 'build' | 'comment' | 'user', targetId: string, reason: string) {
-  const res = await supabase.from('reports').insert({ reporter_id: userId, target_type: targetType, target_id: targetId, reason });
+export async function report(userId: string, targetType: 'build' | 'comment' | 'user', targetId: string, reason: string, details?: string) {
+  const res = await supabase
+    .from('reports')
+    .insert({ reporter_id: userId, target_type: targetType, target_id: targetId, reason, details: details?.trim() || null });
   if (res.error?.message.includes('duplicate')) return { error: null };
   return res;
 }
 
 export const formatDate = (iso: string) =>
   new Date(iso).toLocaleDateString('es-AR', { day: 'numeric', month: 'short', year: 'numeric' });
+
+/** Cantidad de reportes sin revisar (solo la ve el admin). */
+export async function pendingReports(): Promise<number> {
+  const { count } = await supabase.from('reports').select('id', { count: 'exact', head: true }).eq('resolved', false);
+  return count ?? 0;
+}

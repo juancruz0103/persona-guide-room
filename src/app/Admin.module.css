@@ -16,3 +16,4 @@
 .row button { min-height: 44px; padding: 0 18px; background: var(--c-accent); color: var(--c-ink); border: 0; font-family: var(--f-label); font-weight: 800; font-size: 17px; text-transform: uppercase; cursor: pointer; }
 .check { display: inline-flex; align-items: center; gap: 6px; color: var(--c-text-muted); }
 .words { display: flex; flex-wrap: wrap; gap: 8px 14px; }
+.details { margin: 0; padding: 6px 10px; background: var(--c-bg); border-left: 3px solid var(--c-accent); font-style: italic; }

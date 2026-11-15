@@ -208,3 +208,5 @@
   color: var(--c-text-dim);
   font-size: 14px;
 }
+.alert { display: block; padding: 14px 18px; background: var(--c-primary); color: var(--c-text); font-weight: 700; text-decoration: none; clip-path: polygon(0 0, 100% 0, 98.5% 100%, 0 100%); }
+.alert:hover { background: var(--c-primary-strong); }

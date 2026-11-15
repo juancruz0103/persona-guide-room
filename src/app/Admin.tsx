@@ -10,6 +10,7 @@ interface Report {
   target_type: 'build' | 'comment' | 'user';
   target_id: string;
   reason: string | null;
+  details: string | null;
   created_at: string;
   reporter: { username: string | null } | null;
 }
@@ -30,6 +31,7 @@ export default function Admin() {
   return (
     <section className={`container ${styles.page}`}>
       <h1 className={styles.title}>Administración</h1>
+      <p className={styles.meta}>Revisá cada reporte y decidí si hace falta una sanción: ocultar o borrar la publicación, o banear al usuario. Si no pasa nada, descartá el reporte.</p>
       <div className={styles.tabs} role="tablist">
         {([['reports', 'Reportes'], ['users', 'Usuarios'], ['words', 'Palabras prohibidas']] as const).map(([id, label]) => (
           <button key={id} type="button" role="tab" aria-selected={tab === id} className={tab === id ? styles.tabOn : styles.tab} onClick={() => setTab(id)}>
@@ -51,7 +53,7 @@ function Reports() {
   const load = async () => {
     const { data } = await supabase
       .from('reports')
-      .select('id, target_type, target_id, reason, created_at, reporter:profiles!reports_reporter_id_fkey(username)')
+      .select('id, target_type, target_id, reason, details, created_at, reporter:profiles!reports_reporter_id_fkey(username)')
       .eq('resolved', false)
       .order('created_at', { ascending: false });
     const rows = (data ?? []) as unknown as Report[];
@@ -107,6 +109,7 @@ function Reports() {
             <p className={styles.meta}>
               {formatDate(r.created_at)} · reportado por {r.reporter?.username ?? 'anónimo'} · <strong>{r.reason ?? 'Sin motivo'}</strong>
             </p>
+            {r.details && <p className={styles.details}>«{r.details}»</p>}
             <p className={styles.text}>
               {pv ? pv.text : 'Ya no existe (fue borrado).'} {pv?.hidden && <em>(oculto)</em>}
             </p>

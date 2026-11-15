@@ -3,7 +3,7 @@ import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../core/account/AuthContext';
 import { useFavorites } from '../core/account/favorites';
 import { fetchAllProgress } from '../core/account/progress';
-import { listBuilds, type Build } from '../core/account/builds';
+import { listBuilds, pendingReports, type Build } from '../core/account/builds';
 import { BuildCard } from '../games/p5r/pages/Builds';
 import { authErrorText, supabase } from '../core/account/supabase';
 import { getConfidantSummary } from '../games/p5r/services/confidants';
@@ -19,12 +19,16 @@ export default function MyProfile() {
   const { ids: favorites } = useFavorites();
   const [progress, setProgress] = useState<{ confidant_id: string; rank: number }[] | null>(null);
   const [builds, setBuilds] = useState<Build[]>([]);
+  const [pending, setPending] = useState(0);
 
   useEffect(() => {
     if (!user) return;
     fetchAllProgress(user.id).then(setProgress);
     listBuilds({ userId: user.id }).then(setBuilds);
   }, [user]);
+  useEffect(() => {
+    if (profile?.is_admin) pendingReports().then(setPending);
+  }, [profile?.is_admin]);
 
   if (loading) return <div className="container" style={{ paddingBlock: 80 }}>Cargando…</div>;
   if (!user) return <Navigate to="/p5r/cuenta" replace />;
@@ -54,6 +58,11 @@ export default function MyProfile() {
         </button>
       </header>
 
+      {pending > 0 && (
+        <Link to="/p5r/admin" className={styles.alert}>
+          ⚠ Tenés {pending} reporte{pending === 1 ? '' : 's'} sin revisar. Entrá al panel para ver si hace falta una sanción →
+        </Link>
+      )}
       {recovering && <NewPassword onDone={doneRecovering} />}
       <UsernameForm current={profile?.username ?? ''} onSaved={refreshProfile} />
 

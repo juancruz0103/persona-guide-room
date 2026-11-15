@@ -55,7 +55,11 @@ export default function BuildView() {
     const on = !liked;
     setLiked(on);
     setLikes((n) => n + (on ? 1 : -1));
-    await setLike(user.id, build.id, on);
+    const { error } = await setLike(user.id, build.id, on);
+    if (error) {
+      setLiked(!on);
+      setLikes((n) => n - (on ? 1 : -1));
+    }
   };
   const remove = async () => {
     if (!window.confirm('¿Borrar esta build? No se puede deshacer.')) return;
@@ -184,8 +188,9 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
   const { user } = useAuth();
   const [open, setOpen] = useState(false);
   const [reason, setReason] = useState('Lenguaje ofensivo');
-  const [sent, setSent] = useState(false);
-  if (sent) return <span className={styles.sent}>Reporte enviado</span>;
+  const [details, setDetails] = useState('');
+  const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
+  if (state === 'sent') return <span className={styles.sent}>Reporte enviado. Lo va a revisar un administrador.</span>;
   if (!open) {
     return (
       <button type="button" className={compact ? undefined : styles.smallBtn} onClick={() => setOpen(true)}>
@@ -194,11 +199,13 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
     );
   }
   const send = async () => {
-    await report(user!.id, type, id, reason);
-    setSent(true);
+    setState('sending');
+    const { error } = await report(user!.id, type, id, reason, details);
+    setState(error ? 'error' : 'sent');
   };
   return (
     <span className={styles.reportBox}>
+      <span className={styles.reportTitle}>¿Por qué lo reportás?</span>
       <select value={reason} onChange={(e) => setReason(e.target.value)}>
         <option>Lenguaje ofensivo</option>
         <option>Spam o publicidad</option>
@@ -206,8 +213,18 @@ export function ReportButton({ type, id, compact }: { type: 'build' | 'comment' 
         <option>Información incorrecta</option>
         <option>Otro</option>
       </select>
-      <button type="button" onClick={send}>Enviar</button>
-      <button type="button" onClick={() => setOpen(false)}>Cancelar</button>
+      <textarea
+        value={details}
+        maxLength={500}
+        rows={2}
+        onChange={(e) => setDetails(e.target.value)}
+        placeholder="Contanos qué pasa (opcional)"
+      />
+      {state === 'error' && <span className={styles.error}>No se pudo enviar. Probá de nuevo.</span>}
+      <span className={styles.reportActions}>
+        <button type="button" onClick={send} disabled={state === 'sending'}>Enviar reporte</button>
+        <button type="button" onClick={() => setOpen(false)}>Cancelar</button>
+      </span>
     </span>
   );
 }

@@ -70,7 +70,10 @@
 .commentForm textarea { width: 100%; }
 .error { margin: 0; color: var(--c-primary-light); font-weight: 600; }
 .sent { color: var(--c-hp); font-size: 14px; }
-.reportBox { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.reportBox { display: flex; flex-direction: column; gap: 8px; width: 100%; max-width: 460px; padding: 12px; background: var(--c-surface); border: 1px solid var(--c-primary); }
+.reportBox textarea { min-height: 60px; padding: 8px; background: var(--c-bg); color: var(--c-text); border: 2px solid var(--c-line); font: inherit; resize: vertical; }
+.reportTitle { font-weight: 700; }
+.reportActions { display: flex; gap: 14px; }
 .reportBox select { min-height: 36px; padding: 4px 8px; }
 
 /* ---------- Editor ---------- */
