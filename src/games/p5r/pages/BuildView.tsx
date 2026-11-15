@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState, type FormEvent } from 'react';
+import { useEffect, useState, type FormEvent } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../../../core/account/AuthContext';
 import {
@@ -7,7 +7,6 @@ import {
   formatDate,
   getBuild,
   hasLiked,
-  inherited,
   listComments,
   report,
   setLike,
@@ -16,8 +15,7 @@ import {
 } from '../../../core/account/builds';
 import { authErrorText, supabase } from '../../../core/account/supabase';
 import { BackButton } from '../../../shared/components/BackButton';
-import { BuildPersona } from '../components/BuildPersona';
-import { skillName } from '../services/gameText';
+import { BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
 import styles from './Builds.module.css';
 
 /** Una build: la línea de fusiones paso a paso, likes y comentarios. */
@@ -104,33 +102,9 @@ export default function BuildView() {
         </div>
       </section>
 
-      <section className={`container ${styles.timeline}`}>
-        {build.steps.map((s, i) => (
-          <Fragment key={i}>
-            <p className={styles.stepLabel}>
-              Paso {i + 1}
-              {i === 0 ? ' · las habilidades marcadas pasan al resultado' : ''}
-            </p>
-            <div className={styles.step}>
-              <BuildPersona personaId={s.a.persona} skills={s.a.skills} />
-              <span className={styles.op}>+</span>
-              <BuildPersona personaId={s.b.persona} skills={s.b.skills} />
-              <span className={styles.op}>=</span>
-              <BuildPersona personaId={s.result} skills={inherited(s)} result />
-            </div>
-            {s.note && <p className={styles.stepNote}>{s.note}</p>}
-          </Fragment>
-        ))}
-        {build.skill_cards.length > 0 && (
-          <>
-            <p className={styles.stepLabel}>Toque final · skill cards</p>
-            <div className={styles.cards}>
-              {build.skill_cards.map((c) => (
-                <span key={c} className={styles.skillCard}>{skillName(c)}</span>
-              ))}
-            </div>
-          </>
-        )}
+      <section className={`container ${styles.viewBody}`}>
+        <BuildRequirements steps={build.steps} cards={build.skill_cards} />
+        <BuildTimeline steps={build.steps} cards={build.skill_cards} />
       </section>
 
       <Comments buildId={build.id} />

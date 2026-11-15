@@ -88,3 +88,17 @@
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chipBtn { font: inherit; font-size: 14px; padding: 3px 10px; background: rgba(212, 175, 55, 0.16); color: var(--c-accent-light); border: 1px solid rgba(212, 175, 55, 0.4); cursor: pointer; }
 .chipBtn:hover { border-color: var(--c-primary-light); color: var(--c-primary-light); }
+
+.viewBody { display: flex; flex-direction: column; gap: 24px; padding-block: 24px 40px; }
+.stepTools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.ingRow { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr) auto; gap: 10px; align-items: start; padding: 10px; background: var(--c-bg); border: 1px solid var(--c-line); }
+@media (max-width: 860px) { .ingRow { grid-template-columns: minmax(0, 1fr); } }
+.ingRow select, .ingRow input, .resultBox select, .resultBox input, .cardRow select { min-height: 44px; padding: 8px; background: var(--c-bg); color: var(--c-text); border: 2px solid var(--c-line); font: inherit; width: 100%; }
+.resultBox { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1.2fr); gap: 12px; padding: 12px; background: rgba(212,175,55,0.07); border: 2px solid var(--c-accent); }
+@media (max-width: 860px) { .resultBox { grid-template-columns: minmax(0, 1fr); } }
+.okTag { color: var(--c-hp); font-weight: 700; font-size: 14px; }
+.badTag { color: var(--c-primary-light); font-weight: 700; font-size: 14px; }
+.cardRow { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; gap: 10px; align-items: end; }
+@media (max-width: 700px) { .cardRow { grid-template-columns: minmax(0, 1fr); } }
+.learnRow { display: flex; gap: 6px; align-items: center; }
+.learnRow input[type='number'] { width: 80px; }

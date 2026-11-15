@@ -1,47 +1,58 @@
 import { Link } from 'react-router-dom';
+import type { BuildLearn } from '../../../core/account/builds';
 import { getPersona } from '../services/personas';
 import { personaName, skillName } from '../services/gameText';
 import { personaCardFocus, personaImage } from '../services/images';
+import { personaRequirement } from '../services/builds';
 import styles from './BuildPersona.module.css';
 
 interface Props {
   personaId: string;
-  skills: string[];
-  /** Resaltar como resultado de la fusión */
-  result?: boolean;
-  /** Texto en lugar de la lista de habilidades (p. ej. «3 heredadas») */
-  skillsLabel?: string;
+  /** Habilidades importantes que pasa (ingrediente) o hereda (resultado) */
+  skills?: string[];
+  learn?: BuildLearn[];
+  note?: string;
+  /** «Del paso 3»: la Persona sale de un paso anterior */
+  fromStep?: number;
+  variant?: 'ingredient' | 'result' | 'final' | 'mini';
 }
 
-/** Tarjeta de una Persona dentro de una build: foto, nombre y habilidades que pasa. Lleva a su perfil. */
-export function BuildPersona({ personaId, skills, result, skillsLabel }: Props) {
+/** Cuadro de una Persona dentro de una build: foto, nombre y habilidades. Lleva a su perfil. */
+export function BuildPersona({ personaId, skills = [], learn = [], note, fromStep, variant = 'ingredient' }: Props) {
   const p = getPersona(personaId);
   const img = personaImage(personaId, 'side');
+  const req = p ? personaRequirement(p) : null;
   return (
-    <div className={`${styles.card} ${result ? styles.result : ''}`}>
-      <Link to={`/p5r/calculadora/persona/${personaId}`} className={styles.head} title="Ver perfil de la Persona">
-        {img ? (
-          <img src={img} alt="" className={styles.img} style={{ objectPosition: personaCardFocus(personaId) }} />
-        ) : (
-          <span className={styles.img} />
-        )}
+    <div className={`${styles.card} ${styles[variant]}`}>
+      <Link to={`/p5r/calculadora/persona/${personaId}`} className={styles.head} title={`Ver perfil de ${p ? personaName(p) : personaId}`}>
+        <span className={styles.imgWrap}>
+          {img ? (
+            <img src={img} alt="" className={styles.img} style={{ objectPosition: personaCardFocus(personaId) }} />
+          ) : (
+            <span className={styles.img} />
+          )}
+          {fromStep !== undefined && <span className={styles.from}>Del paso {fromStep}</span>}
+          {req && variant !== 'mini' && (
+            <span className={`${styles.req} ${styles[`req_${req.kind}`]}`}>{req.kind === 'story' ? 'Historia' : req.text}</span>
+          )}
+        </span>
         <span className={styles.name}>
-          {p ? personaName(p) : personaId}
-          {p && <span className={styles.lvl}>Nv {p.level}</span>}
+          <span>{p ? personaName(p) : personaId}</span>
+          {p && <small>Nv {p.level}</small>}
         </span>
       </Link>
-      {skillsLabel ? (
+      {note && <span className={styles.note}>{note}</span>}
+      {(skills.length > 0 || learn.length > 0) && (
         <div className={styles.skills}>
-          <span className={styles.chip}>{skillsLabel}</span>
+          {skills.map((s) => (
+            <span key={s} className={styles.chip}>{skillName(s)}</span>
+          ))}
+          {learn.map((l) => (
+            <span key={l.skill} className={styles.learn} title={l.level ? `La aprende al subir al Nv ${l.level}` : 'La trae de base'}>
+              {l.level ? `Nv ${l.level}` : 'Base'} · {skillName(l.skill)}
+            </span>
+          ))}
         </div>
-      ) : (
-        skills.length > 0 && (
-          <div className={styles.skills}>
-            {skills.map((s) => (
-              <span key={s} className={styles.chip}>{skillName(s)}</span>
-            ))}
-          </div>
-        )
       )}
     </div>
   );

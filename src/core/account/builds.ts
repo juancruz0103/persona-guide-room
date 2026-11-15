@@ -1,16 +1,30 @@
 import { supabase } from './supabase';
 
-/** Una parte de la fusión: la Persona y las habilidades que pasa al resultado. */
-export interface BuildPart {
+/** Una Persona que entra en la fusión y las habilidades importantes que pasa. */
+export interface BuildIngredient {
   persona: string;
   skills: string[];
-}
-/** Un paso: A + B = resultado (que hereda las habilidades marcadas de A y B). */
-export interface BuildStep {
-  a: BuildPart;
-  b: BuildPart;
-  result: string;
+  /** Ej.: «Subila al Nv 64» */
   note?: string;
+}
+/** Habilidad que el resultado aprende solo (level null = la trae de base). */
+export interface BuildLearn {
+  skill: string;
+  level: number | null;
+}
+/** Un paso: 2 Personas (o más, si es fusión especial/avanzada) = resultado. */
+export interface BuildStep {
+  ingredients: BuildIngredient[];
+  result: string;
+  /** Habilidades importantes que hereda el resultado */
+  inherit: string[];
+  learn: BuildLearn[];
+  note?: string;
+}
+/** Skill card del toque final: la habilidad y la Persona que se lleva a la silla eléctrica. */
+export interface BuildCard {
+  skill: string;
+  from: string;
 }
 
 export interface Build {
@@ -20,7 +34,7 @@ export interface Build {
   title: string;
   description: string | null;
   steps: BuildStep[];
-  skill_cards: string[];
+  skill_cards: BuildCard[];
   hidden: boolean;
   created_at: string;
   updated_at: string;
@@ -39,11 +53,11 @@ export interface BuildComment {
   author?: { username: string | null } | null;
 }
 
-export const MAX_STEPS = 10;
+export const MAX_STEPS = 20;
 export const MAX_SKILLS = 8;
 
-/** Habilidades que tiene el resultado de un paso. */
-export const inherited = (s: BuildStep): string[] => [...new Set([...s.a.skills, ...s.b.skills])];
+/** Todas las habilidades importantes que pasan los ingredientes de un paso. */
+export const offered = (s: BuildStep): string[] => [...new Set(s.ingredients.flatMap((i) => i.skills))];
 
 const SELECT =
   'id, user_id, persona_id, title, description, steps, skill_cards, hidden, created_at, updated_at, author:profiles!builds_user_id_fkey(username), build_likes(count), build_comments(count)';
