@@ -3,6 +3,9 @@ import { Link, Navigate } from 'react-router-dom';
 import { useAuth } from '../core/account/AuthContext';
 import { useFavorites } from '../core/account/favorites';
 import { getPersona as getP3Persona } from '../games/p3r/services/personas';
+import { getLink } from '../games/p3r/services/links';
+import { linkImage } from '../games/p3r/data/linkImages';
+import { getArcana as getP3Arcana } from '../games/p3r/data/arcana';
 import { personaName as p3Name } from '../games/p3r/services/text';
 import { fetchAllProgress } from '../core/account/progress';
 import { listBuilds, translateBuild, pendingReports, type Build } from '../core/account/builds';
@@ -70,6 +73,11 @@ export default function MyProfile() {
     .filter((r) => r.summary)
     .sort(SORTS[sort].cmp);
   const personas = favorites.map((id) => getPersona(id)).filter((p) => p !== undefined);
+  const links = (progress ?? [])
+    .filter((r) => r.confidant_id.startsWith('p3r-'))
+    .map((r) => ({ ...r, link: getLink(r.confidant_id.slice(4)) }))
+    .filter((r) => r.link)
+    .sort((a, b) => (sort === 'least' ? a.rank - b.rank : b.rank - a.rank));
   const p3rFavs = favorites.filter((id) => id.startsWith('p3r:')).map((id) => getP3Persona(id.slice(4))).filter((p) => p !== undefined);
 
   return (
@@ -153,6 +161,35 @@ export default function MyProfile() {
           </ul>
         )}
       </div>
+
+      {links.length > 0 && (
+        <div className={styles.block}>
+          <h2 className={styles.h2}>{L('Vínculos en curso · Persona 3 Reload', 'Social Links in progress · Persona 3 Reload')}</h2>
+          <ul className={styles.confList}>
+            {links.map(({ confidant_id, rank, link }) => {
+              const a = getP3Arcana(link!.arcana);
+              const img = link!.spoiler ? undefined : linkImage(link!.arcana);
+              return (
+                <li key={confidant_id}>
+                  <Link to={`/p3r/vinculos/${link!.arcana}`} className={styles.conf}>
+                    {img ? <img src={img} alt="" className={styles.confImg} style={{ objectPosition: 'top' }} /> : <span className={styles.confImg} />}
+                    <span className={styles.confText}>
+                      <strong>{link!.spoiler ? L('Spoiler', 'Spoiler') : L(link!.who[0], link!.who[1])}</strong>
+                      <span>{a.name}</span>
+                    </span>
+                    <span className={styles.rank}>
+                      {rank >= 10 ? L('Rango MAX', 'Rank MAX') : `${L('Rango', 'Rank')} ${rank}`}
+                      <span className={styles.bar}>
+                        <i style={{ width: `${Math.min(rank, 10) * 10}%` }} />
+                      </span>
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
 
       <div className={styles.block}>
         <h2 className={styles.h2}>{L('Personas favoritas', 'Favorite Personas')}</h2>
