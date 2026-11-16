@@ -127,6 +127,8 @@ if __name__ == '__main__':
             if n: names[fold(n)] = p['id']
     if isinstance(data, dict): names = {fold(k): v for k, v in data.items()}
     names.setdefault('lo', 'io')
+    # Loki base y Loki DLC comparten nombre en español.
+    names['loki'] = 'loki'; names['loki dlc'] = 'loki-a'
     os.makedirs(dst, exist_ok=True)
     files = []
     for root, _, fs in os.walk(src):
