@@ -1,4 +1,5 @@
-.box { position: relative; background: var(--c-surface); overflow: hidden; }
+/* Marco con el color del juego. */
+.box { outline: 3px solid var(--c-primary); outline-offset: -3px; box-shadow: inset 0 0 0 8px rgba(0, 0, 0, 0.25); position: relative; background: var(--c-surface); overflow: hidden; }
 .img { display: block; width: 100%; height: auto; }
 .corner {
   position: absolute; top: 8px; right: 8px; padding: 6px 12px; border: 0; cursor: pointer;
