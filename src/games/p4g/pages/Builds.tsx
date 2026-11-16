@@ -4,7 +4,7 @@ import { useAuth } from '../../../core/account/AuthContext';
 import { formatDate, listBuilds, translateBuild, type Build } from '../../../core/account/builds';
 import { getAllPersonas, getPersona } from '../services/personas';
 import { personaName } from '../services/text';
-import { personaCardFocus, personaImage } from '../services/images';
+import { personaImage } from '../services/images';
 import { PersonaSelect } from '../components/PersonaSelect';
 import styles from '../../p3r/pages/Builds.module.css';
 import { L } from '../../../i18n';
