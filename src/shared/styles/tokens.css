@@ -57,10 +57,40 @@
   --c-theurgy: #e8202a; /* Teúrgia cargada */
 }
 
+/* Persona 4 Golden: dorado mostaza, negro cálido y oro envejecido */
 [data-game='p4g'] {
-  --c-primary: #f2c230;
-  --c-primary-strong: #c99a12;
-  --c-primary-light: #ffe07a;
+  --c-bg: #211d12;
+  --c-surface: #2c2718;
+  --c-surface-2: #373020;
+  --c-line: #554a2c;
+  --c-text: #ffffff;
+  --c-text-muted: #e6dcc0;
+  --c-text-dim: #b8ab86;
+  --c-primary: #a87912;
+  --c-primary-strong: #86600c;
+  --c-primary-light: #d6b65c;
+  --c-accent: #d6b65c;
+  --c-accent-light: #e9d18f;
+  --c-paper: #ffffff;
+  --c-ink: #211d12;
+  --c-royal: #a87912;
+  --c-romance: #f28cc1;
+  --c-hp: #7ce38b;
+  --c-sp: #d6b65c;
+  --c-hp-dark: #2f8a3d;
+  --c-sp-dark: #86600c;
+}
+
+/* Ilustraciones del Golden: fondo transparente, se muestran enteras. */
+.p4g-art.p4g-art {
+  background: radial-gradient(circle at 50% 40%, #3a321c 0%, #211d12 75%);
+}
+.p4g-art img {
+  object-fit: contain;
+  padding: 6%;
+}
+.p4g-art--flip img {
+  transform: scaleX(-1);
 }
 
 :root {

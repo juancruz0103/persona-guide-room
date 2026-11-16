@@ -43,7 +43,12 @@ export function Header({ game }: Props) {
     { to: `${base}/vinculos`, label: L('Vínculos', 'Social Links'), end: false },
     { to: `${base}/clases`, label: t().nav.school, end: false },
     { to: `${base}/builds`, label: 'Builds', end: false },
-  ].filter((l) => (l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.end || l.to.endsWith('/calculadora') || l.to.endsWith('/clases') || l.to.endsWith('/builds')));
+  ].filter((l) => {
+    if (l.end) return true;
+    // P4G muestra solo las secciones que ya tiene.
+    if (game.id === 'p4g') return game.tools.some((t) => l.to.endsWith(`/${t.path}`));
+    return l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.to.endsWith('/calculadora') || l.to.endsWith('/clases') || l.to.endsWith('/builds');
+  });
 
   return (
     <header ref={ref} className={styles.header}>

@@ -1,6 +1,7 @@
 import type { GameId, GameInfo } from './types';
 import { p5rGame } from '../games/p5r/config';
 import { p3rGame } from '../games/p3r/config';
+import { p4gGame } from '../games/p4g/config';
 
 /**
  * Registro de juegos.
@@ -9,14 +10,7 @@ import { p3rGame } from '../games/p3r/config';
 export const GAMES: GameInfo[] = [
   p5rGame,
   p3rGame,
-  {
-    id: 'p4g',
-    name: 'Persona 4 Golden',
-    shortName: 'P4 GOLDEN',
-    available: false,
-    swatch: '#F2C230',
-    tools: [],
-  },
+  p4gGame,
 ];
 
 export const DEFAULT_GAME: GameId = 'p5r';
