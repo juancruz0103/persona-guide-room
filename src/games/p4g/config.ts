@@ -26,12 +26,19 @@ export const p4gGame: GameInfo = {
       title: 'Respuestas de clase',
       description: 'Las preguntas de los profesores, las ayudas a tus amigos y los exámenes, con la respuesta correcta y el texto oficial.',
     },
+    {
+      id: 'builds',
+      path: 'builds',
+      title: 'Builds de Personas',
+      description: 'Rutas de fusión paso a paso armadas por la comunidad: qué heredar en cada paso y qué skill cards enseñar al final.',
+    },
   ],
 };
 
 const TOOLS_EN: Record<string, { title: string; description: string }> = {
   calculator: { title: 'Persona Calculator', description: "Golden's Personas with their official artwork, profiles, two-Persona fusion, reverse search and special fusions." },
   classes: { title: 'Class answers', description: 'Teacher questions, helping your friends and exams, with the right answer and the official text.' },
+  builds: { title: 'Persona builds', description: 'Community step-by-step fusion routes: what to inherit at each step and which skill cards to teach at the end.' },
   links: { title: 'Social Links', description: "Every Social Link in Golden: where to find each one, how it starts and what to answer rank by rank, with the game's dialogue." },
 };
 for (const t of p4gGame.tools) bilingual(t, TOOLS_EN[t.id]);

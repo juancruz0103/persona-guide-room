@@ -6,4 +6,7 @@
 const files = import.meta.glob('../assets/personas/*.webp', { eager: true, query: '?url', import: 'default' }) as Record<string, string>;
 const PERSONAS = Object.fromEntries(Object.entries(files).map(([p, url]) => [p.split('/').pop()!.replace('.webp', ''), url]));
 
-export const personaImage = (id: string): string | undefined => PERSONAS[id];
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const personaImage = (id: string, _view?: string): string | undefined => PERSONAS[id];
+/** Encuadre de la ilustración en recortes (las de Golden se muestran enteras: arriba al centro). */
+export const personaCardFocus = (_id?: string): string => '50% 15%';
