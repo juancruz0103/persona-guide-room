@@ -64,3 +64,7 @@
 .rankMaxText { display: flex; flex-direction: column; gap: 6px; }
 .rankMaxKicker { font-family: var(--f-display); font-size: 34px; color: var(--c-primary-light); text-transform: uppercase; }
 @media (max-width: 640px) { .rankMax { flex-direction: column; text-align: center; padding: 12px; } .rankMax img { width: 100%; max-width: 320px; } }
+/* Recompensas por rango (Golden) */
+.rewardBox { display: grid; gap: 6px; padding: 12px 18px; background: var(--c-surface); border-left: 6px solid var(--c-primary-light, var(--c-primary)); }
+.rewardHead { font-family: var(--f-label); font-weight: 800; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--c-primary-light, var(--c-primary)); }
+.rewardList { margin: 0; padding-left: 18px; display: grid; gap: 4px; }

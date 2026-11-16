@@ -4,7 +4,8 @@ import { LinkPortrait } from '../components/LinkPortrait';
 import { BackButton } from '../../../shared/components/BackButton';
 import { PersonaPeek } from '../components/PersonaPeek';
 import { getArcana } from '../data/arcana';
-import { scheduleText, type LinkMeta } from '../data/links';
+import { rankRewards, scheduleText, type LinkMeta, type Reward } from '../data/links';
+import { SkillPeek } from '../components/SkillPeek';
 import { eventsByRank, getLink, maxPersona, progressId, type LinkChoice, type Route } from '../services/links';
 import { getPersona } from '../services/personas';
 import { skillName } from '../services/text';
@@ -43,6 +44,35 @@ function Choice({ c }: { c: LinkChoice }) {
   );
 }
 
+/** Recompensas de un rango: skills (con descripción al pasar el cursor), habilidades y objetos. */
+function Rewards({ items, compact }: { items: Reward[]; compact?: boolean }) {
+  if (!items.length) {
+    return compact ? null : (
+      <div className={styles.rewardBox}>
+        <span className={styles.rewardHead}>{L('Recompensa', 'Reward')}</span>
+        <span>{L('Ninguna extra: este rango solo sube el bonus de EXP al fusionar Personas de esta Arcana.', 'Nothing extra: this rank only raises the EXP bonus when fusing Personas of this Arcana.')}</span>
+      </div>
+    );
+  }
+  const list = (
+    <ul className={styles.rewardList}>
+      {items.map((r, i) => (
+        <li key={i}>
+          {r.type === 'skill' ? <>{L('Aprende', 'Learns')} <SkillPeek skill={r.skill} /></>
+            : r.type === 'item' ? <>{L('Objeto clave', 'Key item')}: <strong>{L(r.item[0], r.item[1])}</strong></>
+            : L(r.text[0], r.text[1])}
+        </li>
+      ))}
+    </ul>
+  );
+  return compact ? list : (
+    <div className={styles.rewardBox}>
+      <span className={styles.rewardHead}>{L('Recompensa', 'Reward')}</span>
+      {list}
+    </div>
+  );
+}
+
 /** Lista de rangos para los vínculos sin respuestas: pedidos de Margaret o fechas (como en Royal). */
 function RankList({ link }: { link: LinkMeta }) {
   if (link.requests) {
@@ -61,6 +91,7 @@ function RankList({ link }: { link: LinkMeta }) {
                 <span className={tl.tlAbility}>{p ? <PersonaPeek persona={p} /> : r.persona}</span>
                 <span className={tl.tlWhen}>{L('Con', 'With')} {skillName(r.skill)}{r.level ? L(` · nivel ${r.level}+`, ` · level ${r.level}+`) : ''}</span>
                 {r.note && <span className={tl.tlDesc}>{L(r.note[0], r.note[1])}</span>}
+                <Rewards items={rankRewards(link, r.rank)} compact />
               </span>
             </li>
           );
@@ -76,6 +107,7 @@ function RankList({ link }: { link: LinkMeta }) {
           <span className={tl.tlBody}>
             <span className={tl.tlWhen}>{L(r.when[0], r.when[1])}</span>
             {r.note && <span className={tl.tlDesc}>{L(r.note[0], r.note[1])}</span>}
+            <Rewards items={rankRewards(link, r.rank)} compact />
           </span>
         </li>
       ))}
@@ -221,6 +253,7 @@ export default function LinkProfile() {
             ))}
           </div>
           <div className={styles.rankTitle}><span className={styles.rankNum}>{L('Rango', 'Rank')} {sel}</span></div>
+          <Rewards items={rankRewards(link, sel)} />
           {sel === 10 && maxBox}
           {body()}
         </section>

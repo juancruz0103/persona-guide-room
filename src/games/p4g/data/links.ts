@@ -5,6 +5,12 @@ import { L } from '../../../i18n';
 export type Day = 0 | 1 | 2 | 3 | 4 | 5 | 6;
 export type Slot = 'day' | 'night';
 
+/** Recompensa de un rango: una skill (con su descripción al pasar el cursor), una habilidad o un objeto. */
+export type Reward =
+  | { type: 'skill'; skill: string; who?: [string, string] }
+  | { type: 'ability'; text: [string, string] }
+  | { type: 'item'; item: [string, string] };
+
 /** Pedido de Margaret para subir un rango (Emperatriz). */
 export interface Request { rank: number; persona: string; skill: string; level?: number; note?: [string, string] }
 
@@ -31,6 +37,10 @@ export interface LinkMeta {
   requests?: Request[];
   /** Vínculos que suben solos: cuándo llega cada rango. */
   timeline?: { rank: number; when: [string, string]; note?: [string, string] }[];
+  /** Es compañero de combate: suma las habilidades de combate de los rangos 1, 3, 5, 7, 9 y 10. */
+  fighter?: boolean;
+  /** Recompensas por rango (skills, habilidades y el objeto del rango máximo). */
+  rewards?: Record<number, Reward[]>;
 }
 
 /**
@@ -112,13 +122,13 @@ export const LINKS: LinkMeta[] = [
     unlock: ['Sube solo con eventos y la historia, desde el 24 de junio.', 'Ranks up with events and the story, from June 24.'],
     timeline: [
       { rank: 1, when: ['Evento · 24/6', 'Event · June 24'] },
-      { rank: 2, when: ['Al terminar el 3.er calabozo', 'After clearing the 3rd dungeon'], note: ['Teddie aprende Auto-Rakukaja.', 'Teddie learns Auto-Rakukaja.'] },
+      { rank: 2, when: ['Al terminar el 3.er calabozo', 'After clearing the 3rd dungeon'] },
       { rank: 3, when: ['Evento · 26/7', 'Event · July 26'] },
-      { rank: 4, when: ['Al terminar el 4.º calabozo', 'After clearing the 4th dungeon'], note: ['Teddie aprende Recarm.', 'Teddie learns Recarm.'] },
+      { rank: 4, when: ['Al terminar el 4.º calabozo', 'After clearing the 4th dungeon'] },
       { rank: 5, when: ['Evento · 8/9', 'Event · September 8'] },
-      { rank: 6, when: ['Evento · 7/10', 'Event · October 7'], note: ['Teddie aprende Marakunda.', 'Teddie learns Marakunda.'] },
+      { rank: 6, when: ['Evento · 7/10', 'Event · October 7'] },
       { rank: 7, when: ['Evento · 11/10', 'Event · October 11'] },
-      { rank: 8, when: ['Evento · 30/10', 'Event · October 30'], note: ['Teddie aprende Samarecarm.', 'Teddie learns Samarecarm.'] },
+      { rank: 8, when: ['Evento · 30/10', 'Event · October 30'] },
       { rank: 9, when: ['Al terminar el 6.º calabozo', 'After clearing the 6th dungeon'] },
       { rank: 10, when: ['Evento · 5/12', 'Event · December 5'], note: ['Solo si seguís la ruta del final bueno.', 'Only if you follow the good ending route.'] },
     ] },
@@ -157,4 +167,58 @@ export function scheduleText(l: LinkMeta): string {
   const extra = l.holidays && !d.includes(6) ? L(', domingos y feriados', ', Sundays and holidays') : '';
   const rain = l.noRain ? L(' · no con lluvia', ' · not when raining') : '';
   return `${days}${extra}, ${slot}${rain}`;
+}
+
+const skill = (s: string): Reward => ({ type: 'skill', skill: s });
+const item = (es: string, en: string): Reward => ({ type: 'item', item: [es, en] });
+
+/** Recompensas por rango. Skills y objetos: guías de RPG Site; objetos con su nombre oficial del juego. */
+const REWARDS: Record<string, Record<number, Reward[]>> = {
+  magician: { 2: [skill('Trafuri')], 4: [skill('Dekaja')], 6: [skill('Auto-Sukukaja')], 8: [skill('Diarama')], 10: [skill('Evade Elec'), item('Venda de colega', "Buddy's Bandage")] },
+  chariot: { 2: [skill('Rebellion')], 4: [skill('Ice Boost')], 6: [skill('Revolution')], 8: [skill('Bufula')], 10: [item('Pulsera', 'Wristbands')] },
+  priestess: { 4: [skill('Divine Grace')], 6: [skill('Amrita')], 8: [skill('Mudoon')], 10: [item('Amuleto de santuario', 'Shrine Charm')] },
+  emperor: { 2: [skill('Dizzy Boost')], 4: [skill('Masukunda')], 6: [skill('Power Charge')], 8: [skill('Regenerate 3')], 10: [skill('Evade Wind'), item('Correa bonita', 'Cute Strap')] },
+  lovers: {
+    3: [{ type: 'ability', text: ['Rise detecta los tesoros del piso', 'Rise detects the treasure on each floor'] }],
+    6: [{ type: 'ability', text: ['Rise detecta a los enemigos del piso', 'Rise detects the enemies on each floor'] }],
+    10: [{ type: 'ability', text: ['Rise puede analizar las debilidades del enemigo', 'Rise can scan enemy weaknesses'] }, item('Foto firmada', 'Signed Photo')],
+  },
+  fortune: { 2: [skill('Invigorate 1')], 4: [skill('Mind Charge')], 6: [skill('Invigorate 2')], 8: [skill('Heat Riser')], 10: [item('Insignia de detective', 'Detective Badge')] },
+  star: { 2: [skill('Auto-Rakukaja')], 4: [skill('Recarm')], 6: [skill('Marakunda')], 8: [skill('Samarecarm')] },
+  empress: { 10: [item('Broche en espiral', 'Spiral Brooch')] },
+  hierophant: { 10: [item('Taza de café', 'Coffee Mug')] },
+  justice: { 10: [item('Foto familiar', 'Family Picture')] },
+  hermit: { 10: [item('Ema de gratitud', 'Gratitude Ema')] },
+  'strength-kou': { 10: [item('Carta para Kou', 'Letter to Kou')] },
+  'strength-daisuke': { 10: [item('Brocha de pinchos', 'Spike Brush')] },
+  hanged: { 10: [item('Ticket del Junes', 'Junes Receipt')] },
+  death: { 10: [item('Pluma vieja', 'Old Fountain Pen')] },
+  temperance: { 10: [item('Marcapáginas trébol', 'Clover Bookmark')] },
+  devil: { 10: [item('Tarjeta de hospital', 'Hospital ID')] },
+  tower: { 10: [item('Resultados de prueba', 'Test Results')] },
+  moon: { 10: [item('Polvera', 'Compact')] },
+  'sun-yumi': { 10: [item('Notas a mano', 'Annotated Script')] },
+  'sun-ayane': { 10: [item('Entrada hecha a mano', 'Handmade Ticket')] },
+};
+const FIGHTERS = new Set(['magician', 'chariot', 'priestess', 'emperor', 'fortune', 'star']);
+for (const l of LINKS) {
+  l.rewards = REWARDS[l.id];
+  if (FIGHTERS.has(l.id)) l.fighter = true;
+}
+
+/** Habilidades de combate de los compañeros en el Golden (Megami Tensei Wiki). */
+export const FIGHTER_ABILITIES: Record<number, [string, string]> = {
+  1: ['Puede curarte cuando estás derribado o mareado', 'May cure you when you are Down or Dizzy'],
+  3: ['Ataque de seguimiento en combate (y en la moto cuando no está en el grupo)', 'Follow-up attacks in battle (and from the scooter when not in the party)'],
+  5: ['Puede curar Furia, Pánico o Miedo', 'May cure Rage, Panic or Fear'],
+  7: ['Resiste un golpe mortal una vez por combate', 'Survives a fatal blow once per battle'],
+  9: ['Puede recibir un golpe mortal en tu lugar', 'May take a fatal blow in your place'],
+  10: ['Su Persona se transforma y aprende una skill de evasión', 'Their Persona transforms and learns an Evade skill'],
+};
+
+/** Todo lo que da un rango, incluidas las habilidades de combate de los compañeros. */
+export function rankRewards(l: LinkMeta, rank: number): Reward[] {
+  const out: Reward[] = [];
+  if (l.fighter && FIGHTER_ABILITIES[rank]) out.push({ type: 'ability', text: FIGHTER_ABILITIES[rank] });
+  return out.concat(l.rewards?.[rank] ?? []);
 }
