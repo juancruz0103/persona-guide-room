@@ -3042,7 +3042,7 @@
      "speaker": "",
      "speakerEn": "",
      "q": "{P}",
-     "qEn": "",
+     "qEn": "{P}",
      "opts": [
       {
        "es": "NOT USED",
@@ -10547,6 +10547,31 @@
   }
  ],
  "sun-ayane": [
+  {
+   "event": "710_001",
+   "rank": 1,
+   "route": "",
+   "choices": [
+    {
+     "speaker": "",
+     "speakerEn": "",
+     "q": "",
+     "qEn": "",
+     "opts": [
+      {
+       "es": "",
+       "en": "",
+       "pts": 0
+      },
+      {
+       "es": "",
+       "en": "",
+       "pts": 0
+      }
+     ]
+    }
+   ]
+  },
   {
    "event": "710_002",
    "rank": 1,

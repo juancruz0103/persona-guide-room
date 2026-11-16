@@ -11,6 +11,8 @@ import { skillName } from '../services/text';
 import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
 import styles from '../../p3r/pages/LinkProfile.module.css';
+import tl from '../../p5r/pages/ConfidantProfile.module.css';
+import rankMaxImg from '../assets/rango-max.webp';
 import { L } from '../../../i18n';
 
 /** El juego guarda el nombre del protagonista aparte ({P}); usamos el del anime. */
@@ -40,19 +42,43 @@ function Choice({ c }: { c: LinkChoice }) {
   );
 }
 
-/** Pedido de Margaret para el rango elegido. */
-function RequestBox({ link, rank }: { link: LinkMeta; rank: number }) {
-  const r = link.requests?.find((x) => x.rank === rank);
-  if (!r) return <div className={styles.dontMatter}>{L('El rango 1 llega solo al hablar con Margaret por primera vez.', 'Rank 1 comes on its own the first time you talk to Margaret.')}</div>;
-  const p = getPersona(r.persona);
+/** Lista de rangos para los vínculos sin respuestas: pedidos de Margaret o fechas (como en Royal). */
+function RankList({ link }: { link: LinkMeta }) {
+  if (link.requests) {
+    return (
+      <ol className={tl.timeline}>
+        <li className={tl.tlRow}>
+          <span className={tl.tlRank}>1</span>
+          <span className={tl.tlBody}><span className={tl.tlWhen}>{L('Al hablar con Margaret por primera vez', 'When you first talk to Margaret')}</span></span>
+        </li>
+        {link.requests.map((r) => {
+          const p = getPersona(r.persona);
+          return (
+            <li key={r.rank} className={tl.tlRow}>
+              <span className={tl.tlRank}>{r.rank}</span>
+              <span className={tl.tlBody}>
+                <span className={tl.tlAbility}>{p ? <PersonaPeek persona={p} /> : r.persona}</span>
+                <span className={tl.tlWhen}>{L('Con', 'With')} {skillName(r.skill)}{r.level ? L(` · nivel ${r.level}+`, ` · level ${r.level}+`) : ''}</span>
+                {r.note && <span className={tl.tlDesc}>{L(r.note[0], r.note[1])}</span>}
+              </span>
+            </li>
+          );
+        })}
+      </ol>
+    );
+  }
   return (
-    <div className={styles.dontMatter}>
-      <p className={styles.note}>
-        {L('Llevale', 'Bring her')} {p ? <PersonaPeek persona={p} /> : r.persona} {L('con la skill', 'with the skill')} <strong>{skillName(r.skill)}</strong>
-        {r.level ? L(` (nivel ${r.level} o más).`, ` (level ${r.level} or higher).`) : '.'}
-      </p>
-      {r.note && <p className={styles.note}>{L(r.note[0], r.note[1])}</p>}
-    </div>
+    <ol className={tl.timeline}>
+      {link.timeline?.map((r) => (
+        <li key={r.rank} className={tl.tlRow}>
+          <span className={tl.tlRank}>{r.rank}</span>
+          <span className={tl.tlBody}>
+            <span className={tl.tlWhen}>{L(r.when[0], r.when[1])}</span>
+            {r.note && <span className={tl.tlDesc}>{L(r.note[0], r.note[1])}</span>}
+          </span>
+        </li>
+      ))}
+    </ol>
   );
 }
 
@@ -87,6 +113,19 @@ export default function LinkProfile() {
     setSel(1);
   };
 
+  const maxBox = (
+    <div className={styles.rankMax}>
+      <img src={rankMaxImg} alt="" width={720} height={663} loading="lazy" />
+      <span className={styles.rankMaxText}>
+        <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
+        <span>{link.id === 'fool'
+          ? L('El vínculo con el Equipo de investigación está al máximo.', 'Your bond with the Investigation Team is at its max.')
+          : L(`El vínculo con ${name(0)} está al máximo.`, `Your bond with ${name(1)} is at its max.`)}</span>
+        {persona && <span>{L('Se desbloquea la fusión de', 'Unlocks the fusion of')} <PersonaPeek persona={persona} />.</span>}
+      </span>
+    </div>
+  );
+
   const group = (g: (typeof groups)[number]) => (
     <div key={`${g.rank}${g.route}`} className={`${styles.rank} ${g.route === 'L' ? styles.romance : ''}`}>
       {g.route && (
@@ -100,7 +139,6 @@ export default function LinkProfile() {
   );
 
   const body = () => {
-    if (link.requests) return <RequestBox link={link} rank={sel} />;
     if (link.arcana === 'hermit') {
       return <div className={styles.dontMatter}>{sel === 1
         ? L('El rango 1 llega solo al conocer al Zorro en el santuario.', 'Rank 1 comes on its own when you meet the Fox at the shrine.')
@@ -133,7 +171,7 @@ export default function LinkProfile() {
             {link.romance && (<><dt>{L('Romance', 'Romance')}</dt><dd>{L('Sí: en un rango avanzado se elige romance o amistad.', 'Yes: at a later rank you choose romance or friendship.')}</dd></>)}
             {persona && !link.spoiler && (<><dt>{L('Al máximo', 'At max rank')}</dt><dd><PersonaPeek persona={persona} /></dd></>)}
           </dl>
-          <div className={styles.trackRow}>
+          {!(link.timeline || link.requests || link.auto) && <div className={styles.trackRow}>
             <button type="button" role="switch" aria-checked={tracking} aria-label={L('Seguimiento de progreso', 'Progress tracking')} onClick={toggle} className={`${styles.switch} ${tracking ? styles.switchOn : ''}`}>
               <span />
             </button>
@@ -141,11 +179,20 @@ export default function LinkProfile() {
             <span className={styles.trackNote}>
               {user ? L('Se guarda en tu cuenta', 'Saved to your account') : <>{L('Se guarda en este navegador', 'Saved in this browser')} · <Link to="/p4g/cuenta">{L('entrá', 'log in')}</Link> {L('para guardarlo en tu cuenta', 'to save it to your account')}</>}
             </span>
-          </div>
+          </div>}
         </div>
       </section>
 
-      {link.auto ? (
+      {link.timeline || link.requests ? (
+        <section className={styles.list}>
+          <h2 className={styles.h2}>{link.requests ? L('Pedidos de fusión', 'Fusion requests') : L('Rangos', 'Ranks')}</h2>
+          <p className={styles.note}>{link.requests
+            ? L('Cada rango te pide una Persona con una skill. Llevásela a la Velvet Room y sube el rango.', 'Each rank asks for a Persona with a skill. Bring it to the Velvet Room and the rank goes up.')
+            : L('No tenés que hacer nada: cada rango sube solo en el momento indicado.', 'You do not have to do anything: each rank goes up by itself at the given moment.')}</p>
+          <RankList link={link} />
+          {maxBox}
+        </section>
+      ) : link.auto ? (
         <p className={styles.note}>{L('Este vínculo no tiene respuestas para elegir: sube solo a medida que avanza la historia.', 'This link has no answers to choose: it ranks up on its own as the story moves on.')}</p>
       ) : (
         <section className={styles.list}>
@@ -173,15 +220,7 @@ export default function LinkProfile() {
             ))}
           </div>
           <div className={styles.rankTitle}><span className={styles.rankNum}>{L('Rango', 'Rank')} {sel}</span></div>
-          {sel === 10 && (
-            <div className={styles.rankMax}>
-              <span className={styles.rankMaxText}>
-                <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
-                <span>{L(`El vínculo con ${name(0)} está al máximo.`, `Your bond with ${name(1)} is at its max.`)}</span>
-                {persona && <span>{L('Se desbloquea la fusión de', 'Unlocks the fusion of')} <PersonaPeek persona={persona} />.</span>}
-              </span>
-            </div>
-          )}
+          {sel === 10 && maxBox}
           {body()}
         </section>
       )}

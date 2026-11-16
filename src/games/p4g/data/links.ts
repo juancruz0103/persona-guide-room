@@ -29,6 +29,8 @@ export interface LinkMeta {
   /** La otra persona posible del mismo Arcana (se elige una sola). */
   alt?: string;
   requests?: Request[];
+  /** Vínculos que suben solos: cuándo llega cada rango. */
+  timeline?: { rank: number; when: [string, string]; note?: [string, string] }[];
 }
 
 /**
@@ -37,7 +39,13 @@ export interface LinkMeta {
  */
 export const LINKS: LinkMeta[] = [
   { id: 'fool', arcana: 'fool', who: ['Equipo de investigación', 'Investigation Team'], auto: true,
-    unlock: ['Empieza el 17 de abril y sube solo con la historia.', 'Starts on April 17 and ranks up with the story.'] },
+    unlock: ['Empieza el 17 de abril y sube solo con la historia.', 'Starts on April 17 and ranks up with the story.'],
+    timeline: [
+      { rank: 1, when: ['17/4', 'April 17'] }, { rank: 2, when: ['30/4', 'April 30'] }, { rank: 3, when: ['18/5', 'May 18'] },
+      { rank: 4, when: ['6/6', 'June 6'] }, { rank: 5, when: ['10/7', 'July 10'] }, { rank: 6, when: ['10/7', 'July 10'] },
+      { rank: 7, when: ['27/7', 'July 27'] }, { rank: 8, when: ['6/10', 'October 6'] }, { rank: 9, when: ['6/11', 'November 6'] },
+      { rank: 10, when: ['3/12', 'December 3'] },
+    ] },
   { id: 'magician', arcana: 'magician', who: ['Yosuke Hanamura', 'Yosuke Hanamura'], days: [0, 3, 4, 5], holidays: true, slot: 'day', noRain: true,
     place: ['Aulas 2.º piso · domingos y feriados: Junes', 'Classroom Building 2F · Sundays and holidays: Junes'],
     unlock: ['Empieza solo el 16 de abril.', 'Starts on its own on April 16.'] },
@@ -101,7 +109,19 @@ export const LINKS: LinkMeta[] = [
     place: ['Casa de Shu (trabajo de tutor)', 'Shu\'s house (tutoring job)'],
     unlock: ['Tomá el trabajo de tutor (Comprensión nivel 5, desde el 25 de mayo).', 'Take the tutoring job (Understanding level 5, from May 25).'] },
   { id: 'star', arcana: 'star', who: ['Teddie', 'Teddie'], auto: true,
-    unlock: ['Sube solo con eventos y la historia, desde el 24 de junio.', 'Ranks up with events and the story, from June 24.'] },
+    unlock: ['Sube solo con eventos y la historia, desde el 24 de junio.', 'Ranks up with events and the story, from June 24.'],
+    timeline: [
+      { rank: 1, when: ['Evento · 24/6', 'Event · June 24'] },
+      { rank: 2, when: ['Al terminar el 3.er calabozo', 'After clearing the 3rd dungeon'], note: ['Teddie aprende Auto-Rakukaja.', 'Teddie learns Auto-Rakukaja.'] },
+      { rank: 3, when: ['Evento · 26/7', 'Event · July 26'] },
+      { rank: 4, when: ['Al terminar el 4.º calabozo', 'After clearing the 4th dungeon'], note: ['Teddie aprende Recarm.', 'Teddie learns Recarm.'] },
+      { rank: 5, when: ['Evento · 8/9', 'Event · September 8'] },
+      { rank: 6, when: ['Evento · 7/10', 'Event · October 7'], note: ['Teddie aprende Marakunda.', 'Teddie learns Marakunda.'] },
+      { rank: 7, when: ['Evento · 11/10', 'Event · October 11'] },
+      { rank: 8, when: ['Evento · 30/10', 'Event · October 30'], note: ['Teddie aprende Samarecarm.', 'Teddie learns Samarecarm.'] },
+      { rank: 9, when: ['Al terminar el 6.º calabozo', 'After clearing the 6th dungeon'] },
+      { rank: 10, when: ['Evento · 5/12', 'Event · December 5'], note: ['Solo si seguís la ruta del final bueno.', 'Only if you follow the good ending route.'] },
+    ] },
   { id: 'moon', arcana: 'moon', who: ['Ai Ebihara', 'Ai Ebihara'], romance: true, days: [2, 3, 4], slot: 'day', noRain: true,
     place: ['Aulas 1.er piso', 'Classroom Building 1F'],
     unlock: ['Llevá la Fuerza al rango 4 para conocerla; después te pide faltar a clase con ella (Coraje nivel 3).', 'Take Strength to rank 4 to meet her; then she asks you to skip class with her (Courage level 3).'] },
