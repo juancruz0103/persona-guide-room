@@ -36,5 +36,8 @@ python3 merge_links.py /tmp/p4g-links-dialogs.json <repo>
 
 El vínculo de Teddie (Estrella) sube solo: sus eventos no tienen opciones.
 
-Fotos de los vínculos: `camp/bustup/c_chaNNa.tmx` (01 protagonista, 02 Yosuke, 03 Chie, 04 Yukiko, 05 Rise,
+Fotos de los vínculos: los retratos del menú de vínculos están en `commu/bustup/com_kyaraXX_a(_w).tmx`
+(02 Yosuke … 08 Teddie, 10 Dojima, 11 Sayoko, 12 Zorro, 13 Kou, 14 Daisuke, 15 Naoki, 16 Hisano, 18 Ai, 19 Shu,
+1a Yumi, 1b Ayane, 1c Eri, 1d Nanako, 1e Margaret, 1f Adachi, 20 Marie; 21 es un spoiler con placeholder: no se usa).
+El protagonista (Loco) sale de `camp/bustup/c_cha01a.tmx`. Antes se usaba `camp/bustup/c_chaNNa.tmx` (01 protagonista, 02 Yosuke, 03 Chie, 04 Yukiko, 05 Rise,
 06 Kanji, 07 Naoto, 08 Teddie; `b` = ropa de verano) → `src/games/p4g/assets/links/<id>.webp`.
