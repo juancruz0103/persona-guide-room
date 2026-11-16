@@ -6,17 +6,17 @@ import { findCharacter } from '../data/characters';
 import heartsJson from '../data/generated/hearts-es.json';
 import recipesJson from '../data/generated/heart-recipes.json';
 import { getAllPersonas } from '../services/personas';
-import { itemName } from '../services/text';
+import { DESC_EN, itemName } from '../services/text';
 import type { Persona } from '../types';
 import styles from './Hearts.module.css';
-import { L } from '../../../i18n';
+import { L, isEn } from '../../../i18n';
 
 const HEARTS = heartsJson as Record<string, { es: string; desc: string | null }>;
 interface Item { en: string; es: string; kind: 'weapon' | 'armor' | 'shoes' | 'accessory' | 'material'; stats?: Record<string, number>; desc?: string }
 interface Recipe { result: Item; materials: { item: string; n: number }[] }
 const DATA = recipesJson as unknown as { recipes: Record<string, Recipe[]>; materials: Record<string, string> };
 const key = (s: string) => s.replace('’', "'");
-export const heartDescription = (item: string) => HEARTS[key(item)]?.desc ?? null;
+export const heartDescription = (item: string) => (isEn() ? DESC_EN.hearts?.[key(item)] : HEARTS[key(item)]?.desc) ?? null;
 
 const KIND = (k: Item['kind']) =>
   ({ weapon: L('Arma', 'Weapon'), armor: L('Armadura', 'Armor'), shoes: L('Calzado', 'Footwear'), accessory: L('Accesorio', 'Accessory'), material: L('Material', 'Material') })[k];

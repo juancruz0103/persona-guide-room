@@ -10,9 +10,29 @@ import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
 import rankMaxImg from '../assets/rango-max.webp';
 import styles from './LinkProfile.module.css';
-import { L, isEn } from '../../../i18n';
+import { L } from '../../../i18n';
 
 /** El juego guarda el nombre del protagonista aparte: "-kun" → "Makoto-kun". */
+/** Nombres de quien habla, como en la versión en inglés del juego. */
+const SPEAKER_EN: Record<string, string> = {
+  "Anciana en apuros": "Troubled Old Lady",
+  "Anciano": "Old Man",
+  "Asesor del equipo de atletismo": "Track Team Advisor",
+  "Chica de rojo": "Girl in Red",
+  "Chico violento": "Fierce Guy",
+  "Estudiante de pelo corto": "Short-Haired Student",
+  "Estudiante regordete": "Chubby Student",
+  "Extranjero misterioso": "Mysterious Foreigner",
+  "Hombre trajeado": "Man in a Suit",
+  "Joven delgado": "Thin Young Man",
+  "Madre de Maiko": "Maiko's Mom",
+  "Miembro del club": "Club Member",
+  "Monje": "Monk",
+  "Padre de Maiko": "Maiko's Dad",
+  "Presidente Tanaka": "President Tanaka",
+  "Profesora Toriumi": "Ms. Toriumi",
+  "Secretario": "Secretary",
+};
 const withName = (s: string) => s.replace(/(^|[\s¿¡"“(])-(kun|san|chan|dono|sama)/g, '$1Makoto-$2');
 
 const routeLabel = (r: '' | 'R' | 'P') => (r === 'R' ? L('Ruta romántica', 'Romance route') : r === 'P' ? L('Ruta de amistad', 'Friendship route') : '');
@@ -23,9 +43,8 @@ function Choice({ c }: { c: LinkChoice }) {
     <div className={styles.choice}>
       {c.q && (
         <blockquote className={styles.q}>
-          {c.speaker && <cite>{c.speaker}</cite>}
+          {c.speaker && <cite>{L(c.speaker, SPEAKER_EN[c.speaker] ?? c.speaker)}</cite>}
           <span>“{withName(L(c.q, c.qEn))}”</span>
-          {!isEn() && <small>{withName(c.qEn)}</small>}
         </blockquote>
       )}
       <ul className={styles.opts}>
@@ -33,7 +52,6 @@ function Choice({ c }: { c: LinkChoice }) {
           <li key={i} className={`${best > 0 && o.pts === best ? styles.best : ''} ${o.route === 'R' ? styles.romanceOpt : ''}`}>
             <span>
               {withName(L(o.es, o.en))}
-              {!isEn() && <small>{withName(o.en)}</small>}
             </span>
             {o.route && <span className={`${styles.route} ${o.route === 'R' ? styles.routeR : ''}`}>{o.route === 'R' ? L('Lleva al romance', 'Leads to romance') : L('Lleva a la amistad', 'Leads to friendship')}</span>}
             <b className={o.pts ? styles.pts : styles.zero}>{o.pts ? `+${o.pts}` : '—'}</b>

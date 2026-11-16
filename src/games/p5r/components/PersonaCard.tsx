@@ -39,7 +39,7 @@ export function PersonaCard({ persona }: { persona: Persona }) {
         <div className={styles.meta}>
           <span className={styles.arcana}>{arcana.name}</span>
           {party ? (
-            <span className={styles.owner}>de {PARTY_OWNER[party.owner]}</span>
+            <span className={styles.owner}>{L(`de ${PARTY_OWNER[party.owner]}`, `${PARTY_OWNER[party.owner]}'s`)}</span>
           ) : (
             <span className={styles.level}>
               {L('Nv', 'Lv')} <strong>{persona.level}</strong>

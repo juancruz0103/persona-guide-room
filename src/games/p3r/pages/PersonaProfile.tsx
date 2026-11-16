@@ -18,7 +18,7 @@ import { unlockText } from '../services/unlock';
 import type { SkillElement } from '../types';
 import styles from './PersonaProfile.module.css';
 import { heartDescription } from './Hearts';
-import { L } from '../../../i18n';
+import { L, isEn } from '../../../i18n';
 
 const INHERIT = (fusionJson as { inheritTypes: Record<string, string[]> }).inheritTypes;
 const STATS = () => [
@@ -65,7 +65,7 @@ export default function PersonaProfile() {
               {!p.party && <> · {L('Nv', 'Lv')} {p.level}</>}
             </span>
             <h1 className={styles.name}>{personaName(p)}</h1>
-            {p.nameEs && p.nameEs !== p.name && <span className={styles.alt}>{L(p.name, p.nameEs)}</span>}
+            {!isEn() && p.nameEs && p.nameEs !== p.name && <span className={styles.alt}>{p.name}</span>}
             <div className={styles.tags}>
               {p.party && <span className="tag tag--party">{L('Persona de', 'Persona of')} {PARTY_OWNER[p.party.owner ?? '']}</span>}
               {p.flags.dlc && <span className="tag tag--dlc">DLC</span>}

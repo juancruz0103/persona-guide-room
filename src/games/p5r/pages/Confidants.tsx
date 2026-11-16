@@ -7,7 +7,7 @@ import { getArcana } from '../data/arcana';
 import { CONFIDANTS, KIND_LABEL, TAG_LABEL, type ConfidantTag } from '../services/confidants';
 import { normalize } from '../services/gameText';
 import styles from './Confidants.module.css';
-import { L } from '../../../i18n';
+import { L, tr } from '../../../i18n';
 import { useAllProgress } from '../../../core/account/progress';
 
 type Group = 'all' | 'normal' | 'special';
@@ -132,14 +132,14 @@ export default function Confidants() {
                     className={styles.portrait}
                     src={confidantImage(c.id)}
                     focus="50% 30%"
-                    label={confidantImage(c.id) ? c.name : L('Retrato', 'Portrait')}
+                    label={confidantImage(c.id) ? tr(c.name) : L('Retrato', 'Portrait')}
                     icon="person"
                     corner={arcana.numeral}
                     badge={special ? <span className="tag tag--dlc">{L('Especial', 'Special')}</span> : undefined}
                   />
                   <div className={styles.body}>
                     <span className={styles.arcana}>{arcana.name}</span>
-                    <span className={styles.name}>{c.name}</span>
+                    <span className={styles.name}>{tr(c.name)}</span>
                     {special && <span className={styles.kind}>{KIND_LABEL[c.kind]}</span>}
                     <span className={styles.tags}>
                       {c.tags.map((t) => (
