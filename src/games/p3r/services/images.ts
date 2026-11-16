@@ -68,6 +68,6 @@ const PROFILE_FOCUS: Record<string, string> = {
   'tam-lin': '50% 7%',
   virtue: '50% 1%',
   'white-rider': '50% 6%',
-  zouchouten: '50% 0%',
+  zouchouten: '50% 20%',
 };
 export const personaProfileFocus = (id: string) => PROFILE_FOCUS[id] ?? '50% 50%';
