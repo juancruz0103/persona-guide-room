@@ -87,6 +87,10 @@ def page_text(t: bytes) -> str:
         c = t[i]
         if c == 0:
             break
+        if t[i:i + 2] == b'\xf1\x82':  # función que escribe el nombre del protagonista
+            out += b'\x80\x80'
+            i += 2
+            continue
         if c & 0xF0 == 0xF0:  # función de script: (c & 0x0F) * 2 bytes en total
             i += max(2, (c & 0x0F) * 2)
             continue

@@ -41,3 +41,14 @@ Fotos de los vínculos: los retratos del menú de vínculos están en `commu/bus
 1a Yumi, 1b Ayane, 1c Eri, 1d Nanako, 1e Margaret, 1f Adachi, 20 Marie; 21 es un spoiler con placeholder: no se usa).
 El protagonista (Loco) sale de `camp/bustup/c_cha01a.tmx`. Antes se usaba `camp/bustup/c_chaNNa.tmx` (01 protagonista, 02 Yosuke, 03 Chie, 04 Yukiko, 05 Rise,
 06 Kanji, 07 Naoto, 08 Teddie; `b` = ropa de verano) → `src/games/p4g/assets/links/<id>.webp`.
+
+## Clases y exámenes
+
+Las preguntas están en `event/e470` (E470/E471/E473 = clases, E474 = exámenes). Las fechas y las respuestas
+salen de la guía de RPG Site (`classes-guide.txt`) y se cruzan por la respuesta y el texto de la pregunta.
+
+```
+python3 extract_classes.py <P4G-texto-ES> <P4G-texto-EN> src/games/p4g/data/generated/classes.json
+```
+
+El nombre del protagonista va en el texto como la función `F1 82`; se guarda como `{P}` y la web pone "Yu".

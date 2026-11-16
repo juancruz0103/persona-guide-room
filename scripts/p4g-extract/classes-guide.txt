@@ -1,0 +1,94 @@
+# Fechas y respuestas: RPG Site (P4G classroom answers). fecha|tipo|pregunta (guía)|respuesta
+4/14|class|What is the year before 1 AD called?|1 BC.
+4/18|class|The word alphabet comes from the word alpha and what other one?|Beta.
+4/20|class|C'mon, man, help me here!|Three
+4/23|class|What's this ergonomic bubble she's asking about?|Tulip mania
+4/25|class|What's it called when you gain more muscle after getting sore through exercise?|Overcompensation.
+4/26|class|I don't think I've heard of any of these!|Marriage numbers
+4/30|class|What is the greatest canyon in the solar system?|Valles Marineris.
+5/7|class|Do you know how Soseki Natsume translated the English phrase I love you into Japanese?|The moon is beautiful, isn't it?
+5/9|exam|What is it called when muscles grow after exercise?|Overcompensation.
+5/9|exam|What is the year before 1 A.D. called?|1 B.C.
+5/10|exam|Which of these types of numbers does not exist?|Marriage numbers
+5/10|exam|Who translated I love you as The moon is beautiful, isn't it?|Soseki Natsume
+5/11|exam|Who said, As soon as laws are necessary for men, they are no longer fit for freedom?|Pythagoras
+5/11|exam|Which of the following is the highest mountain in the solar system?|Olympus Mons.
+5/26|class|Tell me how the theory that the pyramids were built by slaves was disproven!|Attendance logs.
+6/8|class|What sport is heikin-dai?|Balance Beam.
+6/13|class|Tell me what kind of exercise builds up lactic acid in the muscles!|Anaerobics.
+6/15|class|Sorry, tell me what morale is!|Cheerfulness in a group.
+6/20|class|What period did Japan first implement bonus pay?|Meiji.
+6/27|class|Answer this: What is identity?|Individuality.
+6/30|class|Which one of these is the name of a real river?|Pis Pis River.
+7/4|class|You gotta help me out!|Pascal.
+7/7|class|What is the beginning of Gakumon no Susume a reference to?|The U.S. Declaration of Independence.
+7/13|class|What is the medical term for brainfreeze?|Sphenopalatine ganglioneuralgia.
+7/14|class|Which famous Heian-era monk famously used a wrong version of the kanji?|Kuukai.
+7/15|class|Which line can a typhoon never cross?|The equator.
+7/16|class|Tell me what makes the king of hearts look different from the other kings in a standard deck of cards.|He has no mustache.
+7/19|exam|What is morale?|Cheerfulness in a group.
+7/19|exam|What sport is heikin-dai?|Balance Beam.
+7/20|exam|It is said, Even Kobo made mistakes in writing. Which kanji did he make a mistake on?|#0
+7/20|exam|In which period did Japan first implement bonus pay?|Meiji.
+7/21|exam|Which king in a deck of cards is missing a mustache?|King of hearts.
+7/21|exam|Who said this: Man is but a reed, the most feeble thing in nature; but he is a thinking reed?|Pascal.
+7/22|exam|Which one of these is the name of a real river?|Pis Pis River.
+7/22|exam|What is the beginning of Gakumon no Susume a reference to?|The U.S. Declaration of Independence.
+9/1|class|Venison is the meat of what animal?|All of the above.
+9/5|class|Which of the following is a kigo for fall?|Brisk.
+9/17|class|How short was history's shortest war?|40 minutes.
+9/20|class|What do you call somebody who's between ninety and one hundred years old?|A nonagenarian.
+9/28|class|Hey, Do you know the answer?|Throat.
+10/4|class|Which of these sports also uses an anchor?|Tug-of-war.
+10/5|class|I don't even know what he's talking about... Do you know the answer?|The right edge.
+10/8|class|Be brave! Tell me what bird's name means coward in English!|Chicken.
+10/11|class|What did Napoleon have invented?|Glass jars.
+10/12|class|Do you know what vegetable was used to make the first jack-o'-lanterns?|Turnips.
+10/13|class|What kind of fish was I just talking about?|Ojisan.
+10/14|exam|What part of the body contains the Adam's apple?|Throat.
+10/14|exam|Where would you find Japan on a map made in a foreign country?|The right edge.
+10/15|exam|How short was history's shortest war?|40 minutes.
+10/15|exam|Venison is the meat of what animal?|All of the above.
+10/17|exam|What is the Japanese name for panda?|Black and white bears.
+10/17|exam|Which bird is falsely known for being cowardly in the English phrase to stick one's head in the sand?|Ostrich.
+10/18|exam|What was the name of the Wasan textbook that came out in the Edo period?|Math Girl.
+10/18|exam|What did Napoleon have invented?|Glass jars.
+10/19|exam|Which season is the adjective brisk a kigo for?|Fall.
+10/19|exam|What is Dragon's Blood?|Plant resin.
+11/1|class|Tell me what the figure in figure skating refers to!|Geometric shapes.
+11/4|class|Sorry, I have no idea.|A cuckoo.
+11/7|class|Which country do you think the South Pole belongs to?|No country.
+11/11|class|What desert is the Welwitschia found in?|Namib.
+11/17|class|The roots of bridal? What...?|Bride ale
+11/22|class|Do you know what an atlas is?|A book of maps.
+11/24|class|0, 1, 1, 2, 3, 5, 8, 13... What is this sequence called?|The Fibonacci sequence.
+11/25|class|There are over 130 ancient pyramids in Egypt, but do you know who's buried in the biggest one?|Khufu.
+11/26|class|Which of these is considered a rice cake?|Mochi.
+11/28|exam|What does French food stem from?|Italian food.
+11/28|exam|What does the figure in figure skating refer to?|Geometric shapes.
+11/29|exam|Who is buried in the biggest pyramid in Egypt?|Khufu
+11/29|exam|What is a book of maps called?|Atlas
+11/30|exam|What word has the words bride ale as its roots?|Bridal.
+11/30|exam|What kind of bird is a kanko-dori?|A cuckoo.
+12/1|exam|Which country does the South Pole belong to?|No country.
+12/1|exam|0, 1, 1, 2, 3, 5, 8, 13... What is this sequence called?|The Fibonacci sequence.
+12/2|exam|What desert is the Welwitschia found in?|Namib.
+12/2|exam|Which of these is considered a rice cake?|Mochi.
+12/9|class|Do you know what color a fuzzy-wuzzy polar bear's fur really is?|Transparent.
+12/10|class|What determines whether a hair grows curly or straight?|The cross-section.
+12/17|class|Huh? What? I wasn't listening... help!|Compassion makes you look better
+12/21|class|will you tell me if you know the answer?|VII
+1/10|class|Tell me, what are you supposed to put on top of a kagami mochi?|An orange.
+1/14|class|Toso is a traditional drink for the new year, but what does that name mean?|Bury the demons.
+1/19|class|In the Vietnamese zodiac, which animal is used in the place of the rabbit?|Cat.
+1/25|class|European snow in spring...? Do you know?|Red
+1/30|class|What's the next unit of measurement up from a terabyte?|Petabyte.
+2/1|class|What color were the pyramids originally?|White.
+2/6|exam|The word alphabet comes from the words alpha and what other one?|Beta.
+2/6|exam|How was the theory that the pyramids were built by slaves disproven?|Attendance logs.
+2/7|exam|What drink name means bury demons?|Toso.
+2/7|exam|What is the medical term for brainfreeze?|Sphenopalatine ganglioneuralgia.
+2/8|exam|What is the Japanese zodiac equivalent to the cat in the Vietnamese zodiac?|Rabbit.
+2/8|exam|What vegetable was used to make the first jack-o'-lanterns?|Turnips.
+2/9|exam|What color were the pyramids when they were first built?|White.
+2/9|exam|What gets mixed with snow in Europe that sometimes causes it to turn red?|The Sahara Desert sand.

@@ -321,8 +321,8 @@
     {
      "speaker": "Yosuke",
      "speakerEn": "Yosuke",
-     "q": "Lo siento, Saki...\nLo siento, .",
-     "qEn": "I'm sorry... Saki-senpai.\nI'm sorry... .",
+     "q": "Lo siento, Saki...\nLo siento, {P}.",
+     "qEn": "I'm sorry... Saki-senpai.\nI'm sorry... {P}.",
      "opts": [
       {
        "es": "\"Tómatelo con calma\".",
@@ -344,8 +344,8 @@
     {
      "speaker": "Yosuke",
      "speakerEn": "Yosuke",
-     "q": "...\nCreo que me he quedado sin lágrimas.",
-     "qEn": "... I think I'm all\ncried out...",
+     "q": "{P}...\nCreo que me he quedado sin lágrimas.",
+     "qEn": "{P}... I think I'm all\ncried out...",
      "opts": [
       {
        "es": "Acariciarle la cabeza",
@@ -5019,8 +5019,8 @@
     {
      "speaker": "Kou",
      "speakerEn": "Kou",
-     "q": "Oye, ,\n¿qué prefieres, el Aiya o el Junes?",
-     "qEn": "Hey , Aiya or Junes?\nYou decide.",
+     "q": "Oye, {P},\n¿qué prefieres, el Aiya o el Junes?",
+     "qEn": "Hey {P}, Aiya or Junes?\nYou decide.",
      "opts": [
       {
        "es": "\"El Aiya\".",
@@ -5065,8 +5065,8 @@
     {
      "speaker": "Kou",
      "speakerEn": "Kou",
-     "q": "¿A ti te gustan, ?\n¿Quieres que los compartamos?",
-     "qEn": "You like sweets, ?\nWant me to get you some, too?",
+     "q": "¿A ti te gustan, {P}?\n¿Quieres que los compartamos?",
+     "qEn": "You like sweets, {P}?\nWant me to get you some, too?",
      "opts": [
       {
        "es": "\"Claro\".",
@@ -5262,8 +5262,8 @@
     {
      "speaker": "Daisuke",
      "speakerEn": "Daisuke",
-     "q": ", ¿qué le pasa?\n¿Está enfermo o algo?",
-     "qEn": "Hey, , what's his problem?\nIs he sick or something?",
+     "q": "{P}, ¿qué le pasa?\n¿Está enfermo o algo?",
+     "qEn": "Hey, {P}, what's his problem?\nIs he sick or something?",
      "opts": [
       {
        "es": "\"Se podría decir que sí\".",
@@ -5653,8 +5653,8 @@
     {
      "speaker": "Kou",
      "speakerEn": "Kou",
-     "q": "¿Has jugado al fútbol alguna vez,\n?",
-     "qEn": "You played much soccer before,\n?",
+     "q": "¿Has jugado al fútbol alguna vez,\n{P}?",
+     "qEn": "You played much soccer before,\n{P}?",
      "opts": [
       {
        "es": "\"Mucho\".",
@@ -5726,8 +5726,8 @@
     {
      "speaker": "Daisuke",
      "speakerEn": "Daisuke",
-     "q": "Qué más da. Las chicas son un peñazo.\n¿A que sí, ?",
-     "qEn": "Whatever... Girls are a pain in the\nass, right, ?",
+     "q": "Qué más da. Las chicas son un peñazo.\n¿A que sí, {P}?",
+     "qEn": "Whatever... Girls are a pain in the\nass, right, {P}?",
      "opts": [
       {
        "es": "\"Tal cual\".",
@@ -9627,8 +9627,8 @@
     {
      "speaker": "Ai",
      "speakerEn": "Ai",
-     "q": "¿Verdad que sí, ?",
-     "qEn": "Isn't that right, ?",
+     "q": "¿Verdad que sí, {P}?",
+     "qEn": "Isn't that right, {P}?",
      "opts": [
       {
        "es": "\"Sí\".",
@@ -9705,8 +9705,8 @@
     {
      "speaker": "Ai",
      "speakerEn": "Ai",
-     "q": ", ¿me quieres?",
-     "qEn": "... Do you love me?",
+     "q": "{P}, ¿me quieres?",
+     "qEn": "{P}... Do you love me?",
      "opts": [
       {
        "es": "\"Por supuesto\".",
@@ -10215,8 +10215,8 @@
     {
      "speaker": "Yumi",
      "speakerEn": "Yumi",
-     "q": ", ¿qué haces...?",
-     "qEn": "-kun... Why are you...?",
+     "q": "{P}, ¿qué haces...?",
+     "qEn": "{P}-kun... Why are you...?",
      "opts": [
       {
        "es": "\"Me tenías en vilo\".",
@@ -10650,8 +10650,8 @@
     {
      "speaker": "Capitán de la banda",
      "speakerEn": "Band captain",
-     "q": "Bueno, , ¿tienes\nexperiencia tocando algún instrumento?",
-     "qEn": "So, , have any experience with\nmusical instruments?",
+     "q": "Bueno, {P}, ¿tienes\nexperiencia tocando algún instrumento?",
+     "qEn": "So, {P}, have any experience with\nmusical instruments?",
      "opts": [
       {
        "es": "\"Ensayo a todas horas\".",

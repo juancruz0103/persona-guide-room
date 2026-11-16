@@ -1,0 +1,2412 @@
+{
+ "source": "Textos oficiales del juego (event/e470). Fechas y respuestas: RPG Site.",
+ "questions": [
+  {
+   "month": 4,
+   "day": 14,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Sofue",
+   "speakerEn": "Ms. Sofue",
+   "q": "¿Cómo se llama el año anterior\nal 1 d. C.?",
+   "qEn": "What is the year before 1 AD called?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"0 d. C.\".",
+    "\"1 a. C.\"",
+    "\"-1 d. C.\"."
+   ],
+   "optsEn": [
+    "\"0 AD.\"",
+    "\"1 BC.\"",
+    "\"-1 AD.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 4,
+   "day": 18,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "La palabra \"alfabeto\" viene de la fusión\nde la palabra \"alfa\"... ¿y cuál más?",
+   "qEn": "The word \"alphabet\" comes from the\nwords \"alpha\" and what other one?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Bestia\".",
+    "\"Betún\".",
+    "\"Beta\"."
+   ],
+   "optsEn": [
+    "\"Better.\"",
+    "\"Bet.\"",
+    "\"Beta.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 4,
+   "day": 20,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "¡{P}! ¡Ayúdame, tío!",
+   "qEn": "{P}! C'mon, man, help me here!",
+   "ctx": "¡Hanamura! ¡Te ha tocado! Algo me dice\nque no eres mucho de leer.",
+   "ctxEn": "Hana-chan! I'm calling on you! I get the\nfeeling you're not much of a reader!",
+   "ctxSpeaker": "Profesor soso",
+   "ctxSpeakerEn": "Dull teacher",
+   "opts": [
+    "Dos",
+    "Tres",
+    "Siete"
+   ],
+   "optsEn": [
+    "Two",
+    "Three",
+    "Seven"
+   ],
+   "answer": 1
+  },
+  {
+   "month": 4,
+   "day": 23,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "¡A-ayúdame, {P}! ¿De qué\nburbuja ergonómica está hablando?",
+   "qEn": "H-Help, {P}! What's this\nergonomic bubble she's asking about!?",
+   "ctx": "¡Eh! ¡Despierta, Hanamura!\n¿Cuál fue la primera burbuja económica\nregistrada a nivel mundial?",
+   "ctxEn": "Hey! Mr. Hanamura, wake up!\nWhat was the first economic bubble\nincident in the world?",
+   "ctxSpeaker": "Profesora Sofue",
+   "ctxSpeakerEn": "Ms. Sofue",
+   "opts": [
+    "La burbuja de los mares del sur",
+    "La Compañía del Misisipi",
+    "La Gran Depresión",
+    "La tulipomanía"
+   ],
+   "optsEn": [
+    "The South Sea Bubble",
+    "The Mississippi Company",
+    "The Great Depression",
+    "Tulip mania"
+   ],
+   "answer": 3
+  },
+  {
+   "month": 4,
+   "day": 25,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "Una pregunta: ¿cómo se llama el proceso\nmediante el cual se obtiene más músculo\ntras un ejercicio de gran exigencia?",
+   "qEn": "Answer this one: what's it called when\nyou gain more muscle after getting sore\nthrough exercise?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Sobrecrecimiento\".",
+    "\"Sobrecompensación\".",
+    "\"Sobresfuerzo\"."
+   ],
+   "optsEn": [
+    "\"Overgrowth.\"",
+    "\"Overcompensation.\"",
+    "\"Overexertion.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 4,
+   "day": 26,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Chie",
+   "speakerEn": "Chie",
+   "q": "¿Tú lo sabes, {P}?\n¡No me suena ninguno de nada!",
+   "qEn": "Do you know, {P}-kun?\nI don't think I've heard of any of these!",
+   "ctx": "Satonaka, dime cuál de estos tipos\nno existe.",
+   "ctxEn": "Well, Miss Satonaka. Tell me which of \nthese don't exist.",
+   "ctxSpeaker": "Profesora Nakayama",
+   "ctxSpeakerEn": "Mrs. Nakayama",
+   "opts": [
+    "Números amigos",
+    "Números perfectos",
+    "Números casados",
+    "Números sociables"
+   ],
+   "optsEn": [
+    "Amicable numbers",
+    "Betrothed numbers",
+    "Marriage numbers",
+    "Sociable numbers"
+   ],
+   "answer": 2
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Yamada",
+   "speakerEn": "Mr. Yamada",
+   "q": "¿Cuál es el cañón más grande\ndel sistema solar?",
+   "qEn": "What is the greatest canyon in the\nsolar system?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Cañón de Kurobe\".",
+    "\"Valles Marineris\".",
+    "\"Gran Cañón del Colorado\"."
+   ],
+   "optsEn": [
+    "\"Kurobe Canyon.\"",
+    "\"Valles Marineris.\"",
+    "\"Grand Canyon.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 5,
+   "day": 7,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Hosoi",
+   "speakerEn": "Mr. Hosoi",
+   "q": "¿Sabes cómo tradujo Soseki Natsume\nla frase \"te quiero\" al japonés?",
+   "qEn": "Do you know how Soseki Natsume translated\nthe English phrase \"I love you\" into\nJapanese?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Te quiero\".",
+    "\"Podría morir\".",
+    "\"Te amo\".",
+    "\"La luna está muy bonita, ¿no?\"."
+   ],
+   "optsEn": [
+    "\"'I love you.'\"",
+    "\"'I could die.'\"",
+    "\"'I love thee.'\"",
+    "\"'The moon is beautiful, isn't it?'\""
+   ],
+   "answer": 3
+  },
+  {
+   "month": 5,
+   "day": 9,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Educación Física",
+   "speakerEn": "P.E.",
+   "q": "¿Cómo se llama cuando los músculos\ncrecen tras el ejercicio?",
+   "qEn": "What is it called when muscles grow\nafter exercise?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Sobrecrecimiento.",
+    "Sobrecompensación.",
+    "Sobresfuerzo."
+   ],
+   "optsEn": [
+    "Overgrowth.",
+    "Overcompensation.",
+    "Overexertion."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 5,
+   "day": 9,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿Cómo se llama el año anterior\nal 1 d. C.?",
+   "qEn": "What is the year before 1 A.D. called?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "0 a. C.",
+    "0 d. C.",
+    "1 a. C."
+   ],
+   "optsEn": [
+    "0 B.C.",
+    "0 A.D.",
+    "1 B.C."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 5,
+   "day": 10,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Matemáticas",
+   "speakerEn": "Math",
+   "q": "¿Cuál de los siguientes tipos\nde números no existe?",
+   "qEn": "Which of these types of numbers does not\nexist?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Números amigos",
+    "Números perfectos",
+    "Números casados",
+    "Números sociables"
+   ],
+   "optsEn": [
+    "Amicable numbers",
+    "Betrothed numbers",
+    "Marriage numbers",
+    "Sociable numbers"
+   ],
+   "answer": 2
+  },
+  {
+   "month": 5,
+   "day": 10,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "¿Quién tradujo \"te quiero\" como\n\"la luna está muy bonita, ¿no?\".",
+   "qEn": "Who translated \"I love you\" as\n\"The moon is beautiful, isn't it?\"",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Soseki Natsume",
+    "Shimei Futabatei",
+    "Yukichi Fukuzawa"
+   ],
+   "optsEn": [
+    "Soseki Natsume",
+    "Shimei Futabatei",
+    "Yukichi Fukuzawa"
+   ],
+   "answer": 0
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Filosofía",
+   "speakerEn": "Philosophy",
+   "q": "¿Quién dijo \"Si hacen falta leyes\npara regir a los hombres,\nes que no merecen ser libres\"?",
+   "qEn": "Who said, \"As soon as laws are necessary\nfor men, they are no longer fit for\nfreedom\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Sartre",
+    "Nietzsche",
+    "Pascal",
+    "Pitágoras"
+   ],
+   "optsEn": [
+    "Sartre",
+    "Nietzsche",
+    "Pascal",
+    "Pythagoras"
+   ],
+   "answer": 3
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Geografía",
+   "speakerEn": "Geography",
+   "q": "¿Cuál de las siguientes es la montaña\nmás alta del sistema solar?",
+   "qEn": "Which of the following is the highest\nmountain in the solar system?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Monte Everest.",
+    "Gula Mons.",
+    "Maxwell Montes.",
+    "Monte Olimpo."
+   ],
+   "optsEn": [
+    "Mt. Everest.",
+    "Gula Mons.",
+    "Maxwell Montes.",
+    "Olympus Mons."
+   ],
+   "answer": 3
+  },
+  {
+   "month": 5,
+   "day": 26,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "Eh... ¿Algo sobre los trabajadores?",
+   "qEn": "Uh...\nSomething about laborers?",
+   "ctx": "¡Dime cómo se desmintió la teoría\nde que las pirámides habían sido\nconstruidas por esclavos!",
+   "ctxEn": "Tell me how the theory that the pyramids\nwere built by slaves was disproven!",
+   "ctxSpeaker": "Profesora Sofue",
+   "ctxSpeakerEn": "Ms. Sofue",
+   "opts": [
+    "\"Currículums\".",
+    "\"Contratos\".",
+    "\"Registros de asistencia\".",
+    "\"Tarjetas de identificación\"."
+   ],
+   "optsEn": [
+    "\"Resumes.\"",
+    "\"Contracts.\"",
+    "\"Attendance logs.\"",
+    "\"Employee ID cards.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 6,
+   "day": 8,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yukiko",
+   "speakerEn": "Yukiko",
+   "q": "¿Qué deporte es el \"heikin-dai\"?",
+   "qEn": "What sport is \"heikin-dai\"?",
+   "ctx": "¡Qué delicado sentido del equilibrio!\nAunque no me extraña que los hombres\nno se atrevan a intentarlo, ¡ja, ja, ja!",
+   "ctxEn": "They do beautiful moves with a delicate\nsense of balance! Though, I can see why\nmen would be afraid to try it! Hahahaha!",
+   "ctxSpeaker": "Profesor Kondo",
+   "ctxSpeakerEn": "Mr. Kondo",
+   "opts": [
+    "\"Barra fija\".",
+    "\"Salto\".",
+    "\"Barras asimétricas\".",
+    "\"Natación sincronizada\"."
+   ],
+   "optsEn": [
+    "\"Balance Beam.\"",
+    "\"High Dive.\"",
+    "\"Uneven Bars.\"",
+    "\"Synchronized Dancing.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 6,
+   "day": 13,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¡Dime con qué tipo de ejercicio se\nacumula ácido láctico en los músculos!",
+   "qEn": "Tell me what kind of exercise builds up\nlactic acid in the muscles!",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Anaeróbico\".",
+    "\"Aeróbico\".",
+    "\"Oxiróbico\"."
+   ],
+   "optsEn": [
+    "\"Anaerobics.\"",
+    "\"Aerobics.\"",
+    "\"Oxyrobics.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 6,
+   "day": 15,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "Oye, {P},\n¡dime qué es la moral!",
+   "qEn": "Sorry, {P}, tell me what\nmorale is!",
+   "ctx": "¡La moralidad es la base de la virtud!\nLa moral es... ¡Dímelo tú, Hanamura,\nque pareces bastante falto de ella!",
+   "ctxEn": "Morals are about virtue! Morale is... \nTell me, Hanamura! You seem to be lacking\nin morals!",
+   "ctxSpeaker": "Profesor Morooka",
+   "ctxSpeakerEn": "Mr. Morooka",
+   "opts": [
+    "\"Una recompensa\".",
+    "\"El deseo de crecer\".",
+    "\"El estado de ánimo\".",
+    "\"Tener un espíritu audaz\"."
+   ],
+   "optsEn": [
+    "\"A reward.\"",
+    "\"The desire to grow.\"",
+    "\"Cheerfulness in a group.\"",
+    "\"Gambling spirit.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 6,
+   "day": 20,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Nakayama",
+   "speakerEn": "Mrs. Nakayama",
+   "q": "¿En qué época se implementaron\nlas pagas extraordinarias en Japón?",
+   "qEn": "What period did Japan first implement\nbonus pay?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Edo\".",
+    "\"Meiji\".",
+    "\"Taisho\"."
+   ],
+   "optsEn": [
+    "\"Edo.\"",
+    "\"Meiji.\"",
+    "\"Taisho.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 6,
+   "day": 27,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Morooka",
+   "speakerEn": "Mr. Morooka",
+   "q": "Responde a esto: ¿qué es la identidad?",
+   "qEn": "Answer this: What is identity?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Singularidad\".",
+    "\"Diferencia\".",
+    "\"Individualidad\"."
+   ],
+   "optsEn": [
+    "\"Uniqueness.\"",
+    "\"Difference.\"",
+    "\"Individuality.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 6,
+   "day": 30,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Yamada",
+   "speakerEn": "Mr. Yamada",
+   "q": "¿Cuál de los siguientes es un río real?",
+   "qEn": "Which one of these is the name of a\nreal river?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Río Caca Caca\".",
+    "\"Río Pis Pis\".",
+    "\"Río Culo Culo\"."
+   ],
+   "optsEn": [
+    "\"Lame Duck River.\"",
+    "\"Pis Pis River.\"",
+    "\"Mahony's Phony River.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 7,
+   "day": 4,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "¡{P}, {P}!\n¡Échame un cable!",
+   "qEn": "{P}, {P}!\nYou gotta help me out!",
+   "ctx": "¿Quién dijo lo de \"El hombre no es más\nque un junco, el más endeble de la\nnaturaleza, pero es un junco pensante\"?",
+   "ctxEn": "Who said this:\n\"Man is but a reed, the most feeble thing\nin nature; but he is a thinking reed\"?",
+   "ctxSpeaker": "Profesor Morooka",
+   "ctxSpeakerEn": "Mr. Morooka",
+   "opts": [
+    "\"Pascal\".",
+    "\"Descartes\".",
+    "\"Nietzsche\"."
+   ],
+   "optsEn": [
+    "\"Pascal.\"",
+    "\"Descartes.\"",
+    "\"Nietzsche.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 7,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Hosoi",
+   "speakerEn": "Mr. Hosoi",
+   "q": "¿A qué hace referencia el inicio\nde \"Gakumon no Susume\"?",
+   "qEn": "What is the beginning of \"Gakumon no\nSusume\" a reference to?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"La Biblia\".",
+    "\"La Constitución de Japón\".",
+    "\"Declaración de Independencia de EE. UU.\"."
+   ],
+   "optsEn": [
+    "\"The Bible.\"",
+    "\"The Japanese constitution.\"",
+    "\"The U.S. Declaration of Independence.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¿Cuál es el término médico\npara la congelación cerebral?",
+   "qEn": "What is the medical term for brainfreeze?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Hipodermitis intercraneal\".",
+    "\"Constricción neurocapilar\".",
+    "\"Esfenopalatino ganglioneuralgia\".",
+    "\"Nocicepción trigeminal\"."
+   ],
+   "optsEn": [
+    "\"Intercranial hypothermitis.\"",
+    "\"Neurocapillary constriction.\"",
+    "\"Sphenopalatine ganglioneuralgia.\"",
+    "\"Trigeminal nociception.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 7,
+   "day": 14,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Hosoi",
+   "speakerEn": "Mr. Hosoi",
+   "q": "¿Qué famoso monje de la era Heian\nescribió mal el kanji \"\"?",
+   "qEn": "Which famous Heian-era monk famously used\na wrong version of the \"\" kanji?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Kuukai\".",
+    "\"Saicho\".",
+    "\"Genshin\"."
+   ],
+   "optsEn": [
+    "\"Kuukai.\"",
+    "\"Saicho.\"",
+    "\"Genshin.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 15,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Yamada",
+   "speakerEn": "Mr. Yamada",
+   "q": "¿Qué línea es la que no pueden atravesar\nlos tifones?",
+   "qEn": "Which line can a typhoon never cross?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"El ecuador\".",
+    "\"El trópico de Cáncer\".",
+    "\"El meridiano de Greenwich\"."
+   ],
+   "optsEn": [
+    "\"The equator.\"",
+    "\"The International Date Line.\"",
+    "\"The Prime Meridian.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 16,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Sofue",
+   "speakerEn": "Ms. Sofue",
+   "q": "Dime en qué se diferencia el rey\nde corazones de los demás reyes\nde la baraja francesa.",
+   "qEn": "Tell me what makes the king of hearts\nlook different from the other kings\nin a standard deck of cards.",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"No tiene bigote\".",
+    "\"Tiene un hacha\".",
+    "\"Tiene la boca abierta\".",
+    "\"Está mirando hacia la derecha\"."
+   ],
+   "optsEn": [
+    "\"He has no mustache.\"",
+    "\"He has an axe.\"",
+    "\"His mouth is open.\"",
+    "\"He's looking to the right.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 19,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Filosofía",
+   "speakerEn": "Philosophy",
+   "q": "¿Qué es la moral?",
+   "qEn": "What is morale?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Una recompensa.",
+    "El deseo de crecer.",
+    "El estado de ánimo.",
+    "Tener un espíritu audaz."
+   ],
+   "optsEn": [
+    "A reward.",
+    "The desire to grow.",
+    "Cheerfulness in a group.",
+    "Gambling spirit."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 7,
+   "day": 19,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Lengua",
+   "speakerEn": "English",
+   "q": "¿Qué deporte es el \"heikin-dai\"?",
+   "qEn": "What sport is \"heikin-dai\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Barra fija.",
+    "Salto.",
+    "Barras asimétricas.",
+    "Natación sincronizada."
+   ],
+   "optsEn": [
+    "Balance Beam.",
+    "High Dive.",
+    "Uneven Bars.",
+    "Synchronized Dancing."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 20,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "Se dice que \"hasta Kobo\nse equivocó al escribir\".\n¿Escribiendo qué kanji se equivocó?",
+   "qEn": "It is said, \"Even Kobo made\nmistakes in writing.\" Which kanji\ndid he make a mistake on?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "",
+    "",
+    ""
+   ],
+   "optsEn": [
+    "",
+    "",
+    ""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 20,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Matemáticas",
+   "speakerEn": "Math",
+   "q": "¿En qué época se implementaron\nlas pagas extraordinarias en Japón?",
+   "qEn": "In which period did Japan first implement\nbonus pay?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Edo.",
+    "Meiji.",
+    "Taisho."
+   ],
+   "optsEn": [
+    "Edo.",
+    "Meiji.",
+    "Taisho."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 7,
+   "day": 21,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿Qué rey de una baraja de cartas\nfrancesa no tiene bigote?",
+   "qEn": "Which king in a deck of cards is \nmissing a mustache?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Rey de tréboles.",
+    "Rey de diamantes.",
+    "Rey de corazones.",
+    "Rey de picas."
+   ],
+   "optsEn": [
+    "King of clubs.",
+    "King of diamonds.",
+    "King of hearts.",
+    "King of spades."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 7,
+   "day": 21,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Filosofía",
+   "speakerEn": "Philosophy",
+   "q": "¿Quién dijo lo de \"El hombre no es más\nque un junco, el más endeble de la\nnaturaleza, pero es un junco pensante\"?",
+   "qEn": "Who said this:\n\"Man is but a reed, the most feeble thing\nin nature; but he is a thinking reed\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Pascal.",
+    "Descartes.",
+    "Nietzsche."
+   ],
+   "optsEn": [
+    "Pascal.",
+    "Descartes.",
+    "Nietzsche."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 7,
+   "day": 22,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Geografía",
+   "speakerEn": "Geography",
+   "q": "¿Cuál de los siguientes es un río real?",
+   "qEn": "Which one of these is the name of a\nreal river?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Río Caca Caca.",
+    "Río Culo Culo.",
+    "Río Pis Pis."
+   ],
+   "optsEn": [
+    "Lame Duck River.",
+    "Mahony's Phony River.",
+    "Pis Pis River."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 7,
+   "day": 22,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "¿A qué hace referencia el inicio\nde \"Gakumon no Susume\"?",
+   "qEn": "What is the beginning of \"Gakumon no\nSusume\" a reference to?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "La Biblia.",
+    "La Constitución de Japón.",
+    "La Declaración de Indep. de EE. UU."
+   ],
+   "optsEn": [
+    "The Bible.",
+    "The Japanese constitution.",
+    "The U.S. Declaration of Independence."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 9,
+   "day": 1,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¿La carne de qué animal se conocía\ntradicionalmente como \"venado\"?",
+   "qEn": "\"Venison\" is the meat of what animal?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Jabalí\".",
+    "\"Ciervo\".",
+    "\"Alce\".",
+    "\"Todos los anteriores\"."
+   ],
+   "optsEn": [
+    "\"Wild boar.\"",
+    "\"Deer.\"",
+    "\"Moose.\"",
+    "\"All of the above.\""
+   ],
+   "answer": 3
+  },
+  {
+   "month": 9,
+   "day": 5,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Hosoi",
+   "speakerEn": "Mr. Hosoi",
+   "q": "¿Cuál de los siguientes es un kigo\npara el otoño?",
+   "qEn": "Which of the following is a kigo\nfor fall?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Fresco\".",
+    "\"Lluvia\".",
+    "\"Pacífico\".",
+    "\"Puesta de sol\"."
+   ],
+   "optsEn": [
+    "\"Brisk.\"",
+    "\"Rain.\"",
+    "\"Peaceful.\"",
+    "\"Sunset.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 9,
+   "day": 17,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Sofue",
+   "speakerEn": "Ms. Sofue",
+   "q": "¿Cuánto duró la guerra más corta\nde la historia?",
+   "qEn": "How short was history's shortest war?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"40 minutos\".",
+    "\"40 horas\".",
+    "\"40 días\"."
+   ],
+   "optsEn": [
+    "\"40 minutes.\"",
+    "\"40 hours.\"",
+    "\"40 days.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 9,
+   "day": 20,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¿Cómo se llama a alguien que está\nentre los noventa y los cien años?",
+   "qEn": "What do you call somebody who's between\nninety and one hundred years old?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Deciprecentenario\".",
+    "\"Noventagenario\".",
+    "\"Nonagenario\"."
+   ],
+   "optsEn": [
+    "\"A deciprecentenarian.\"",
+    "\"A ninetygenarian.\"",
+    "\"A nonagenarian.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "Oye, {P}...\n¿Sabes la respuesta?",
+   "qEn": "Hey, {P}...\nDo you know the answer?",
+   "ctx": "¡Venga, Hanamura! ¡Intenta acertar!\n¡A lo mejor te sorprendes!",
+   "ctxEn": "Okay, Hanamura! Give me a wild guess!\nYou might surprise yourself!",
+   "ctxSpeaker": "Profesor Kondo",
+   "ctxSpeakerEn": "Mr. Kondo",
+   "opts": [
+    "\"Tobillos\".",
+    "\"Rodillas\".",
+    "\"Garganta\".",
+    "\"Sien\"."
+   ],
+   "optsEn": [
+    "\"Ankles.\"",
+    "\"Knees.\"",
+    "\"Throat.\"",
+    "\"Temple.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 10,
+   "day": 4,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¿Cuál de estos deportes también usa\nun ancla?",
+   "qEn": "Which of these sports also uses an anchor?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Juego de la cuerda\".",
+    "\"Natación\".",
+    "\"Lucha libre\".",
+    "\"Lanzamiento de peso\"."
+   ],
+   "optsEn": [
+    "\"Tug-of-war.\"",
+    "\"Swimming.\"",
+    "\"Wrestling.\"",
+    "\"Shot put.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 10,
+   "day": 5,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "Ni siquiera sé de qué estaba hablando...\n¿Tú sabes la respuesta,\n{P}?",
+   "qEn": "I don't even know what he's talking\nabout... Do you know the answer,\n{P}?",
+   "ctx": "Vamos a ver... ¡Amagi! No, eso sería\nmuy cruel... Entonces, ¡Hanamura!",
+   "ctxEn": "Oh, let's see...\nAmagi-san! No, I'd feel bad about\nthat... So... Hanamura!",
+   "ctxSpeaker": "Profesor Yamada",
+   "ctxSpeakerEn": "Mr. Yamada",
+   "opts": [
+    "\"A la izquierda del todo\".",
+    "\"A la derecha del todo\".",
+    "\"Ni siquiera está en el mapa\"."
+   ],
+   "optsEn": [
+    "\"The left edge.\"",
+    "\"The right edge.\"",
+    "\"It's not even on the map.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 10,
+   "day": 8,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¡Sé valiente! ¡Dime qué ave se utiliza\ncomo sinónimo de \"cobarde\"!",
+   "qEn": "Be brave! Tell me what bird's name means\n\"coward\" in English!",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Paloma\".",
+    "\"Gorrión\".",
+    "\"Gallina\".",
+    "\"Cuervo\"."
+   ],
+   "optsEn": [
+    "\"Dove.\"",
+    "\"Sparrow.\"",
+    "\"Chicken.\"",
+    "\"Crow.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 10,
+   "day": 11,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Sofue",
+   "speakerEn": "Ms. Sofue",
+   "q": "¿Qué invento propició Napoleón?",
+   "qEn": "What did Napoleon have invented?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Latas\".",
+    "\"Tarros de vidrio\".",
+    "\"Diccionarios\".",
+    "\"Coñac\"."
+   ],
+   "optsEn": [
+    "\"Cans.\"",
+    "\"Glass jars.\"",
+    "\"Dictionaries.\"",
+    "\"Brandy.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 10,
+   "day": 12,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Nakayama",
+   "speakerEn": "Mrs. Nakayama",
+   "q": "¿Sabes qué hortaliza se usaba\noriginalmente para las lámparas\nde Halloween?",
+   "qEn": "Do you know what vegetable was used to\nmake the first jack-o'-lanterns?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Nabos\".",
+    "\"Sandías\".",
+    "\"Berenjenas\".",
+    "\"Siempre han sido calabazas\"."
+   ],
+   "optsEn": [
+    "\"Turnips.\"",
+    "\"Watermelons.\"",
+    "\"Eggplants.\"",
+    "\"I really think it was pumpkins.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 10,
+   "day": 13,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Kashiwagi",
+   "speakerEn": "Ms. Kashiwagi",
+   "q": "¿De qué tipo de pez estaba hablando?",
+   "qEn": "What kind of fish was I just talking\nabout?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Ojisan\".",
+    "\"Obasan\".",
+    "\"Oniisan\"."
+   ],
+   "optsEn": [
+    "\"Ojisan.\"",
+    "\"Obasan.\"",
+    "\"Oniisan.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 10,
+   "day": 14,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Lengua",
+   "speakerEn": "English",
+   "q": "¿En qué parte del cuerpo está\nla nuez de Adán?",
+   "qEn": "What part of the body contains the\n\"Adam's apple\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Tobillos.",
+    "Rodillas.",
+    "Garganta.",
+    "Sien."
+   ],
+   "optsEn": [
+    "Ankles.",
+    "Knees.",
+    "Throat.",
+    "Temple."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 10,
+   "day": 14,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Geografía",
+   "speakerEn": "Geography",
+   "q": "¿Dónde encontraríais Japón\nen un mapa extranjero?",
+   "qEn": "Where would you find Japan on a map\nmade in a foreign country?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "A la izquierda del todo.",
+    "A la derecha del todo.",
+    "Ni siquiera está en el mapa."
+   ],
+   "optsEn": [
+    "The left edge.",
+    "The right edge.",
+    "It's not even on the map."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 10,
+   "day": 15,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿Cuánto duró la guerra más corta\nde la historia?",
+   "qEn": "How short was history's shortest war?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "40 minutos.",
+    "40 horas.",
+    "40 días."
+   ],
+   "optsEn": [
+    "40 minutes.",
+    "40 hours.",
+    "40 days."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 10,
+   "day": 15,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Educación Física",
+   "speakerEn": "P.E.",
+   "q": "¿La carne de qué animal se conocía\ntradicionalmente como \"venado\"?",
+   "qEn": "\"Venison\" is the meat of what animal?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Jabalí.",
+    "Ciervo.",
+    "Alce.",
+    "Todos los anteriores."
+   ],
+   "optsEn": [
+    "Wild boar.",
+    "Deer.",
+    "Moose.",
+    "All of the above."
+   ],
+   "answer": 3
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Biología",
+   "speakerEn": "Biology",
+   "q": "¿Cuál es el nombre japonés para \"panda\"?",
+   "qEn": "What is the Japanese name for \"panda\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Osos blancos y negros.",
+    "Osos monocromáticos.",
+    "Osos a rayas."
+   ],
+   "optsEn": [
+    "Black and white bears.",
+    "Monochrome bears.",
+    "Tabby bears."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Lengua",
+   "speakerEn": "English",
+   "q": "¿Qué ave se considera erróneamente\nuna cobarde con la expresión\n\"enterrar la cabeza en la arena\"?",
+   "qEn": "Which bird is falsely known for being\ncowardly in the English phrase \"to\nstick one's head in the sand\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Gallina",
+    "Gorrión.",
+    "Avestruz.",
+    "Cuervo."
+   ],
+   "optsEn": [
+    "Chicken.",
+    "Sparrow.",
+    "Ostrich.",
+    "Crow."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 10,
+   "day": 18,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Matemáticas",
+   "speakerEn": "Math",
+   "q": "¿Cómo se titulaba el libro de texto\nde wasan que se publicó en la era Edo?",
+   "qEn": "What was the name of the Wasan textbook\nthat came out in the Edo period?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Wasan shojo.",
+    "Chica friki.",
+    "Chica matemática."
+   ],
+   "optsEn": [
+    "Wasan shojo.",
+    "Nerdette.",
+    "Math Girl."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 10,
+   "day": 18,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿Qué invento propició Napoleón?",
+   "qEn": "What did Napoleon have invented?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Latas.",
+    "Tarros de vidrio.",
+    "Diccionarios.",
+    "Coñac."
+   ],
+   "optsEn": [
+    "Cans.",
+    "Glass jars.",
+    "Dictionaries.",
+    "Brandy."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 10,
+   "day": 19,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "¿El adjetivo \"fresco\" es un kigo\nde qué estación?",
+   "qEn": "Which season is the adjective \"brisk\"\na kigo for?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Primavera.",
+    "Verano.",
+    "Otoño.",
+    "Invierno."
+   ],
+   "optsEn": [
+    "Spring.",
+    "Summer.",
+    "Fall.",
+    "Winter."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 10,
+   "day": 19,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Biología",
+   "speakerEn": "Biology",
+   "q": "¿Qué es la sangre de drago?",
+   "qEn": "What is \"Dragon's Blood\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Resina de una planta.",
+    "Saliva de un animal.",
+    "Sangre de un dragón."
+   ],
+   "optsEn": [
+    "Plant resin.",
+    "Animal saliva.",
+    "Blood of a dragon."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 11,
+   "day": 1,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "Los movimientos del patinaje artístico\nse llaman \"figuras\".\n¿A qué hacen referencia?",
+   "qEn": "Tell me what the \"figure\" in \"figure\nskating\" refers to!",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Formas geométricas\".",
+    "\"El cuerpo humano\".",
+    "\"Cálculo aritmético\"."
+   ],
+   "optsEn": [
+    "\"Geometric shapes.\"",
+    "\"The human body.\"",
+    "\"Arithmatic computation.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 11,
+   "day": 4,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "Lo siento, {P}.\nNo tengo ni idea.",
+   "qEn": "Sorry, {P}.\nI have no idea.",
+   "ctx": "Mmm... ¿Quién me sabría decir qué tipo\nde pájaro es un kanko-dori?\n¡Tú, Hanamura, que tienes cara de listo!",
+   "ctxEn": "Hmm... Who can tell me what kind of bird\na kanko-dori is? You, Hana-chan! You look\nlike you have no problem with silence!",
+   "ctxSpeaker": "Alumna",
+   "ctxSpeakerEn": "Female student",
+   "opts": [
+    "\"Un cuco\".",
+    "\"Un águila\".",
+    "\"Un gorrión\".",
+    "\"Un cuervo\"."
+   ],
+   "optsEn": [
+    "\"A cuckoo.\"",
+    "\"An eagle.\"",
+    "\"A sparrow.\"",
+    "\"A crow.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 11,
+   "day": 7,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Yamada",
+   "speakerEn": "Mr. Yamada",
+   "q": "¿A qué país pertenece el Polo Sur?",
+   "qEn": "Which country do you think the South Pole\nbelongs to?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Japón\".",
+    "\"Australia\".",
+    "\"Inglaterra\".",
+    "\"A ninguno\"."
+   ],
+   "optsEn": [
+    "\"Japan.\"",
+    "\"Australia.\"",
+    "\"England.\"",
+    "\"No country.\""
+   ],
+   "answer": 3
+  },
+  {
+   "month": 11,
+   "day": 11,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Kashiwagi",
+   "speakerEn": "Ms. Kashiwagi",
+   "q": "¿En qué desierto se encuentra\nla welwitschia?",
+   "qEn": "What desert is the Welwitschia found in?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Nubia\".",
+    "\"Sáhara\".",
+    "\"Namib\".",
+    "\"Kalahari\"."
+   ],
+   "optsEn": [
+    "\"Nubian.\"",
+    "\"Sahara.\"",
+    "\"Namib.\"",
+    "\"Kalahari.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 11,
+   "day": 17,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "Ay, espera... ¿Cuál era la pregunta?\n¿Está en el libro de texto? ¿De dónde\nviene la palabra \"vino\"? ¿Qué...?",
+   "qEn": "Hey, wait... What was the question?\nIs that even in the textbook?\nThe roots of \"bridal\"? What...?",
+   "ctx": "¿Sabes por qué, Hanamura?",
+   "ctxEn": "Do you know how, Hanamura-kun?",
+   "ctxSpeaker": "Profesora Nakayama",
+   "ctxSpeakerEn": "Mrs. Nakayama",
+   "opts": [
+    "Bueno",
+    "Venado",
+    "Vana"
+   ],
+   "optsEn": [
+    "Bride wine",
+    "Bride sake",
+    "Bride ale"
+   ],
+   "answer": 2
+  },
+  {
+   "month": 11,
+   "day": 22,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Yamada",
+   "speakerEn": "Mr. Yamada",
+   "q": "¿Sabes lo que es un atlas?",
+   "qEn": "Do you know what an \"atlas\" is?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Una brújula\".",
+    "\"Un globo\".",
+    "\"Un libro de mapas\"."
+   ],
+   "optsEn": [
+    "\"A compass.\"",
+    "\"A globe.\"",
+    "\"A book of maps.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 11,
+   "day": 24,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Nakayama",
+   "speakerEn": "Mrs. Nakayama",
+   "q": "0, 1, 1, 2, 3, 5, 8, 13...\n¿Cómo se llama esta sucesión?",
+   "qEn": "0, 1, 1, 2, 3, 5, 8, 13...\nWhat is this sequence called?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"La sucesión de Fibonacci\".",
+    "\"La sucesión de Farey\".",
+    "\"La sucesión de las progresiones\"."
+   ],
+   "optsEn": [
+    "\"The Fibonacci sequence.\"",
+    "\"The Farey sequence.\"",
+    "\"The Sequence of differences.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 11,
+   "day": 25,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Hosoi",
+   "speakerEn": "Mr. Hosoi",
+   "q": "Hay más de 130 pirámides antiguas\nrepartidas por todo Egipto, pero ¿sabes\nquién está enterrado en la más grande?",
+   "qEn": "There are over 130 ancient pyramids in\nEgypt, but do you know who's buried in\nthe biggest one?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Giza\".",
+    "\"Keops\".",
+    "\"Tutankamón\".",
+    "\"Cleopatra\"."
+   ],
+   "optsEn": [
+    "\"Giza.\"",
+    "\"Khufu.\"",
+    "\"Tutenkhamen.\"",
+    "\"Cleopatra.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 11,
+   "day": 26,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¿Cuál de estos se considera\nun \"pastel de arroz\"?",
+   "qEn": "Which of these is considered a\n\"rice cake\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Dango\".",
+    "\"Un fardo de arroz\".",
+    "\"Senbei\".",
+    "\"Mochi\"."
+   ],
+   "optsEn": [
+    "\"Dango.\"",
+    "\"A bale of rice.\"",
+    "\"Senbei.\"",
+    "\"Mochi.\""
+   ],
+   "answer": 3
+  },
+  {
+   "month": 11,
+   "day": 28,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿De dónde procede la comida francesa?",
+   "qEn": "What does French food stem from?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Cocina española.",
+    "Cocina italiana.",
+    "Cocina japonesa."
+   ],
+   "optsEn": [
+    "Spanish food.",
+    "Italian food.",
+    "Japanese food."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 11,
+   "day": 28,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Educación Física",
+   "speakerEn": "P.E.",
+   "q": "¿A qué hacen referencia las figuras\ndel patinaje artístico?",
+   "qEn": "What does the \"figure\" in \"figure skating\"\nrefer to?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Formas geométricas.",
+    "El cuerpo humano.",
+    "Cálculo aritmético."
+   ],
+   "optsEn": [
+    "Geometric shapes.",
+    "The human body.",
+    "Arithmatic computation."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 11,
+   "day": 29,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "¿Quién fue enterrado en la pirámide\nmás grande de Egipto?",
+   "qEn": "Who is buried in the biggest pyramid\nin Egypt?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Giza.",
+    "Keops.",
+    "Tutankamón.",
+    "Cleopatra."
+   ],
+   "optsEn": [
+    "Giza",
+    "Khufu",
+    "Tutenkhamen",
+    "Cleopatra"
+   ],
+   "answer": 1
+  },
+  {
+   "month": 11,
+   "day": 29,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Geografía",
+   "speakerEn": "Geography",
+   "q": "¿Cómo se llama un libro de mapas?",
+   "qEn": "What is a book of maps called?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Índice.",
+    "Atlas.",
+    "Marcapáginas."
+   ],
+   "optsEn": [
+    "Index",
+    "Atlas",
+    "Bookmark"
+   ],
+   "answer": 1
+  },
+  {
+   "month": 11,
+   "day": 30,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Matemáticas",
+   "speakerEn": "Math",
+   "q": "¿De dónde viene la palabra \"vino\"?",
+   "qEn": "What word has the words \"bride ale\" as\nits roots?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Vana.",
+    "Bueno.",
+    "Albino."
+   ],
+   "optsEn": [
+    "Bridal.",
+    "Bridle.",
+    "Bridge."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 11,
+   "day": 30,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "¿Qué tipo de pájaro es un \"kanko-dori\"?",
+   "qEn": "What kind of bird is a \"kanko-dori\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Un cuco.",
+    "Un águila.",
+    "Un gorrión.",
+    "Un cuervo."
+   ],
+   "optsEn": [
+    "A cuckoo.",
+    "An eagle.",
+    "A sparrow.",
+    "A crow."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 12,
+   "day": 1,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Geografía",
+   "speakerEn": "Geography",
+   "q": "¿A qué país pertenece el Polo Sur?",
+   "qEn": "Which country does the South Pole belong to?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Japón.",
+    "Australia.",
+    "Inglaterra.",
+    "A ninguno."
+   ],
+   "optsEn": [
+    "Japan.",
+    "Australia.",
+    "England.",
+    "No country."
+   ],
+   "answer": 3
+  },
+  {
+   "month": 12,
+   "day": 1,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Matemáticas",
+   "speakerEn": "Math",
+   "q": "0, 1, 1, 2, 3, 5, 8, 13...\n¿Cómo se llama esta sucesión?",
+   "qEn": "0, 1, 1, 2, 3, 5, 8, 13...\nWhat is this sequence called?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "La sucesión de Fibonacci.",
+    "La sucesión de Farey.",
+    "La sucesión de las progresiones."
+   ],
+   "optsEn": [
+    "The Fibonacci sequence.",
+    "The Farey sequence.",
+    "The Sequence of differences."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 12,
+   "day": 2,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Biología",
+   "speakerEn": "Biology",
+   "q": "¿En qué desierto se encuentra\nla welwitschia?",
+   "qEn": "What desert is the Welwitschia found in?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Nubia.",
+    "Sáhara.",
+    "Namib.",
+    "Kalahari."
+   ],
+   "optsEn": [
+    "Nubian.",
+    "Sahara.",
+    "Namib.",
+    "Kalahari."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 12,
+   "day": 2,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Lengua",
+   "speakerEn": "English",
+   "q": "¿Cuál de estos se considera\nun \"pastel de arroz\"?",
+   "qEn": "Which of these is considered a\n\"rice cake\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Dango.",
+    "Un fardo de arroz.",
+    "Senbei.",
+    "Mochi."
+   ],
+   "optsEn": [
+    "Dango.",
+    "A bale of rice.",
+    "Senbei.",
+    "Mochi."
+   ],
+   "answer": 3
+  },
+  {
+   "month": 12,
+   "day": 9,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Kashiwagi",
+   "speakerEn": "Ms. Kashiwagi",
+   "q": "¿Sabes de qué color es realmente el pelo\nde un osito polar suave y mullidito?",
+   "qEn": "Do you know what color a fuzzy-wuzzy\npolar bear's fur really is?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Transparente\".",
+    "\"Sigo diciendo que blanco\".",
+    "\"Gris\".",
+    "\"Negro\"."
+   ],
+   "optsEn": [
+    "\"Transparent.\"",
+    "\"I still say white.\"",
+    "\"Grey.\"",
+    "\"Black.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 12,
+   "day": 10,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "¿De qué depende que tu pelo\nsea liso o rizado?",
+   "qEn": "What determines whether a hair grows\ncurly or straight?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"El color\".",
+    "\"El corte transversal\".",
+    "\"La fuerza de voluntad\"."
+   ],
+   "optsEn": [
+    "\"The color.\"",
+    "\"The cross-section.\"",
+    "\"Willpower.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 12,
+   "day": 17,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Chie",
+   "speakerEn": "Chie",
+   "q": "¿Eh? ¿Qué? Estaba en Babia...\n¡Ayúdame, {P}!",
+   "qEn": "Huh? What? I wasn't listening...\n{P}-kun, help!",
+   "ctx": "Satonaka, ¿sabes el significado\nde la frase \"la compasión beneficia\nmás que nada a uno mismo\"?",
+   "ctxEn": "Sato-chan, do you know the intent behind\nthe phrase, \"Compassion is not for the\ngood of others\"?",
+   "ctxSpeaker": "Profesor Hosoi",
+   "ctxSpeakerEn": "Mr. Hosoi",
+   "opts": [
+    "La compasión ayuda a los demás",
+    "La compasión hace daño a los demás",
+    "La compasión te hace quedar mejor"
+   ],
+   "optsEn": [
+    "Compassion is for helping others",
+    "Compassion really hurts others",
+    "Compassion makes you look better"
+   ],
+   "answer": 2
+  },
+  {
+   "month": 12,
+   "day": 21,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yosuke",
+   "speakerEn": "Yosuke",
+   "q": "{P}, ¿lo sabes tú?",
+   "qEn": "{P}, will you tell me if you\nknow the answer?",
+   "ctx": "Responde tú, Hanamura,\nque pareces saber un par de cosas\nsobre mujeres de gran belleza.",
+   "ctxEn": "Let's hear from you, Mr. Hanamura.\nYou seem like you would know a thing\nor two about beautiful women.",
+   "ctxSpeaker": "Profesora Sofue",
+   "ctxSpeakerEn": "Ms. Sofue",
+   "opts": [
+    "III",
+    "V",
+    "VII"
+   ],
+   "optsEn": [
+    "III",
+    "V",
+    "VII"
+   ],
+   "answer": 2
+  },
+  {
+   "month": 1,
+   "day": 10,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Kondo",
+   "speakerEn": "Mr. Kondo",
+   "q": "Dime: ¿qué hay que poner encima\nde un kagami mochi?",
+   "qEn": "Tell me, what are you supposed to put\non top of a kagami mochi?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Una naranja\".",
+    "\"Una moneda\".",
+    "\"Un palo de incienso\"."
+   ],
+   "optsEn": [
+    "\"An orange.\"",
+    "\"A coin.\"",
+    "\"An incense stick.\""
+   ],
+   "answer": 0
+  },
+  {
+   "month": 1,
+   "day": 14,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesor Hosoi",
+   "speakerEn": "Mr. Hosoi",
+   "q": "El toso es la bebida tradicional de Año\nNuevo, pero ¿qué significa su nombre?",
+   "qEn": "\"Toso\" is a traditional drink for the\nnew year, but what does that name mean?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Aplacar a los demonios\".",
+    "\"Enterrar a los demonios\".",
+    "\"Fusionar a los demonios\"."
+   ],
+   "optsEn": [
+    "\"Appease the demons.\"",
+    "\"Bury the demons.\"",
+    "\"Fuse the demons.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 1,
+   "day": 19,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Kashiwagi",
+   "speakerEn": "Ms. Kashiwagi",
+   "q": "En el zodiaco vietnamita,\n¿qué animal se usa en lugar del conejo?",
+   "qEn": "In the Vietnamese zodiac, which\nanimal is used in the place of the rabbit?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Elefante\".",
+    "\"Oso\".",
+    "\"Gato\"."
+   ],
+   "optsEn": [
+    "\"Elephant.\"",
+    "\"Bear.\"",
+    "\"Cat.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 1,
+   "day": 25,
+   "kind": "class",
+   "askedBy": "friend",
+   "speaker": "Yukiko",
+   "speakerEn": "Yukiko",
+   "q": "¿Nieve de primavera en Europa?\n¿Tú lo sabes, {P}?",
+   "qEn": "European snow in spring...?\nDo you know, {P}-kun?",
+   "ctx": "¿De qué color es la nieve que cae\nen primavera en Europa?",
+   "ctxEn": "What color is the snow that falls\nin Europe in spring?",
+   "ctxSpeaker": "Profesor Yamada",
+   "ctxSpeakerEn": "Mr. Yamada",
+   "opts": [
+    "Roja",
+    "Verde",
+    "Negra"
+   ],
+   "optsEn": [
+    "Red",
+    "Green",
+    "Black"
+   ],
+   "answer": 0
+  },
+  {
+   "month": 1,
+   "day": 30,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Nakayama",
+   "speakerEn": "Mrs. Nakayama",
+   "q": "¿Cuál es la unidad de medida que sigue\na un terabyte?",
+   "qEn": "What's the next unit of measurement up\nfrom a terabyte?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Femtobyte\".",
+    "\"Trilobyte\".",
+    "\"Petabyte\"."
+   ],
+   "optsEn": [
+    "\"Femtobyte.\"",
+    "\"Trilobyte.\"",
+    "\"Petabyte.\""
+   ],
+   "answer": 2
+  },
+  {
+   "month": 2,
+   "day": 1,
+   "kind": "class",
+   "askedBy": "teacher",
+   "speaker": "Profesora Sofue",
+   "speakerEn": "Ms. Sofue",
+   "q": "¿De qué color eran originalmente\nlas pirámides?",
+   "qEn": "What color were the pyramids originally?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "\"Doradas\".",
+    "\"Blancas\".",
+    "\"Negras\"."
+   ],
+   "optsEn": [
+    "\"Gold.\"",
+    "\"White.\"",
+    "\"Black.\""
+   ],
+   "answer": 1
+  },
+  {
+   "month": 2,
+   "day": 6,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Lengua",
+   "speakerEn": "English",
+   "q": "La palabra \"alfabeto\" viene de la fusión\nde la palabra \"alfa\"... ¿y cuál más?",
+   "qEn": "The word \"alphabet\" comes from the\nwords \"alpha\" and what other one?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Bestia.",
+    "Beta.",
+    "Betún."
+   ],
+   "optsEn": [
+    "Better.",
+    "Beta.",
+    "Bet."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 2,
+   "day": 6,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿Cómo se desmintió la teoría de que\nlas pirámides habían sido construidas\npor esclavos?",
+   "qEn": "How was the theory that the pyramids\nwere built by slaves disproven?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Registros de asistencia.",
+    "Contratos.",
+    "Tarjetas de identificación.",
+    "Currículums."
+   ],
+   "optsEn": [
+    "Attendance logs.",
+    "Contracts.",
+    "Employee ID cards.",
+    "Resumes."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 2,
+   "day": 7,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Literatura",
+   "speakerEn": "Literature",
+   "q": "¿El nombre de qué bebida significa\n\"enterrar demonios\"?",
+   "qEn": "What drink name means \"bury demons\"?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Toshi.",
+    "Uchi.",
+    "Soto.",
+    "Toso."
+   ],
+   "optsEn": [
+    "Toshi.",
+    "Uchi.",
+    "Soto.",
+    "Toso."
+   ],
+   "answer": 3
+  },
+  {
+   "month": 2,
+   "day": 7,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Educación Física",
+   "speakerEn": "P.E.",
+   "q": "¿Cuál es el término médico\npara la congelación cerebral?",
+   "qEn": "What is the medical term for brainfreeze?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Hipodermitis intercraneal.",
+    "Constricción neurocapilar.",
+    "Esfenopalatino ganglioneuralgia.",
+    "Nocicepción trigeminal."
+   ],
+   "optsEn": [
+    "Intercranial hypothermitis.",
+    "Neurocapillary constriction.",
+    "Sphenopalatine ganglioneuralgia.",
+    "Trigeminal nociception."
+   ],
+   "answer": 2
+  },
+  {
+   "month": 2,
+   "day": 8,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Biología",
+   "speakerEn": "Biology",
+   "q": "¿Cuál es el signo del zodiaco japonés \ndel gato en el zodiaco vietnamita?",
+   "qEn": "What is the Japanese zodiac equivalent to\nthe \"cat\" in the Vietnamese zodiac?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Elefante.",
+    "Conejo.",
+    "Tigre.",
+    "Ratón."
+   ],
+   "optsEn": [
+    "Elephant.",
+    "Rabbit.",
+    "Tiger.",
+    "Mouse."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 2,
+   "day": 8,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Matemáticas",
+   "speakerEn": "Math",
+   "q": "¿Qué hortaliza se usaba originalmente\npara las lámparas de Halloween?",
+   "qEn": "What vegetable was used to make the \nfirst jack-o'-lanterns?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Nabos.",
+    "Sandías.",
+    "Berenjenas."
+   ],
+   "optsEn": [
+    "Turnips.",
+    "Watermelons.",
+    "Eggplants."
+   ],
+   "answer": 0
+  },
+  {
+   "month": 2,
+   "day": 9,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Historia mundial",
+   "speakerEn": "World history",
+   "q": "¿De qué color eran las pirámides\ncuando se construyeron?",
+   "qEn": "What color were the pyramids when they\nwere first built?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Doradas.",
+    "Blancas.",
+    "Negras."
+   ],
+   "optsEn": [
+    "Gold.",
+    "White.",
+    "Black."
+   ],
+   "answer": 1
+  },
+  {
+   "month": 2,
+   "day": 9,
+   "kind": "exam",
+   "askedBy": "teacher",
+   "speaker": "Geografía",
+   "speakerEn": "Geography",
+   "q": "¿Con qué se mezcla la nieve en Europa\npara que a veces se tiña de rojo?",
+   "qEn": "What gets mixed with snow in Europe that\nsometimes causes it to turn red?",
+   "ctx": "",
+   "ctxEn": "",
+   "ctxSpeaker": "",
+   "ctxSpeakerEn": "",
+   "opts": [
+    "Sangre humana.",
+    "Arena del desierto del Sáhara.",
+    "Tinte rojo."
+   ],
+   "optsEn": [
+    "Human blood.",
+    "The Sahara Desert sand.",
+    "Red dye."
+   ],
+   "answer": 1
+  }
+ ]
+}
