@@ -1,0 +1,191 @@
+import { useEffect, useState } from 'react';
+import { Link, Navigate, useParams } from 'react-router-dom';
+import { LinkPortrait } from '../components/LinkPortrait';
+import { BackButton } from '../../../shared/components/BackButton';
+import { PersonaPeek } from '../components/PersonaPeek';
+import { getArcana } from '../data/arcana';
+import { scheduleText, type LinkMeta } from '../data/links';
+import { eventsByRank, getLink, maxPersona, progressId, type LinkChoice, type Route } from '../services/links';
+import { getPersona } from '../services/personas';
+import { skillName } from '../services/text';
+import { useConfidantProgress } from '../../../core/account/progress';
+import { useAuth } from '../../../core/account/AuthContext';
+import styles from '../../p3r/pages/LinkProfile.module.css';
+import { L } from '../../../i18n';
+
+/** El juego guarda el nombre del protagonista aparte ({P}); usamos el del anime. */
+const withName = (s: string) => s.replace(/\{P\}/g, 'Yu');
+
+const routeLabel = (r: Route) => (r === 'L' ? L('Ruta romántica', 'Romance route') : r === 'F' ? L('Ruta de amistad', 'Friendship route') : '');
+
+function Choice({ c }: { c: LinkChoice }) {
+  const best = Math.max(...c.opts.map((o) => o.pts));
+  return (
+    <div className={styles.choice}>
+      {c.q && (
+        <blockquote className={styles.q}>
+          {c.speaker && <cite>{L(c.speaker, c.speakerEn || c.speaker)}</cite>}
+          <span>“{withName(L(c.q, c.qEn || c.q))}”</span>
+        </blockquote>
+      )}
+      <ul className={styles.opts}>
+        {c.opts.map((o, i) => (
+          <li key={i} className={best > 0 && o.pts === best ? styles.best : ''}>
+            <span>{withName(L(o.es, o.en))}</span>
+            <b className={o.pts ? styles.pts : styles.zero}>{o.pts ? `+${o.pts}` : '—'}</b>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+/** Pedido de Margaret para el rango elegido. */
+function RequestBox({ link, rank }: { link: LinkMeta; rank: number }) {
+  const r = link.requests?.find((x) => x.rank === rank);
+  if (!r) return <div className={styles.dontMatter}>{L('El rango 1 llega solo al hablar con Margaret por primera vez.', 'Rank 1 comes on its own the first time you talk to Margaret.')}</div>;
+  const p = getPersona(r.persona);
+  return (
+    <div className={styles.dontMatter}>
+      <p className={styles.note}>
+        {L('Llevale', 'Bring her')} {p ? <PersonaPeek persona={p} /> : r.persona} {L('con la skill', 'with the skill')} <strong>{skillName(r.skill)}</strong>
+        {r.level ? L(` (nivel ${r.level} o más).`, ` (level ${r.level} or higher).`) : '.'}
+      </p>
+      {r.note && <p className={styles.note}>{L(r.note[0], r.note[1])}</p>}
+    </div>
+  );
+}
+
+/** Ficha de un vínculo social: datos, seguimiento y respuestas del rango elegido (como en Reload). */
+export default function LinkProfile() {
+  const { linkId = '' } = useParams();
+  const link = getLink(linkId);
+  const [progress, save] = useConfidantProgress(progressId(link?.id ?? 'fool'));
+  const { tracking, reached } = progress;
+  const { user } = useAuth();
+  const [sel, setSel] = useState(1);
+  useEffect(() => {
+    setSel(tracking ? Math.min(reached + 1, 10) : 1);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [linkId, tracking]);
+  if (!link) return <Navigate to="/p4g/vinculos" replace />;
+  const a = getArcana(link.arcana);
+  const persona = maxPersona(link.arcana);
+  const alt = link.alt ? getLink(link.alt) : undefined;
+  const groups = eventsByRank(link.id).filter((g) => g.events.some((e) => e.choices.length));
+  const shown = groups.filter((g) => g.rank === sel);
+  const name = (i: 0 | 1) => link.who[i].split(' ')[0];
+
+  const toggle = () => save({ tracking: !tracking, reached });
+  const mark = () => {
+    if (sel !== reached + 1) return;
+    save({ tracking: true, reached: sel });
+    if (sel < 10) setSel(sel + 1);
+  };
+  const reset = () => {
+    save({ tracking: true, reached: 0 });
+    setSel(1);
+  };
+
+  const group = (g: (typeof groups)[number]) => (
+    <div key={`${g.rank}${g.route}`} className={`${styles.rank} ${g.route === 'L' ? styles.romance : ''}`}>
+      {g.route && (
+        <span className={styles.routeHead}>
+          <span className={styles.route}>{routeLabel(g.route)}</span>
+          <small>{g.route === 'L' ? L('Si elegiste el romance con este personaje.', 'If you chose romance with this character.') : L('Si elegiste quedar como amigos.', 'If you chose to stay friends.')}</small>
+        </span>
+      )}
+      {g.events.flatMap((e) => e.choices).map((c, i) => <Choice key={i} c={c} />)}
+    </div>
+  );
+
+  const body = () => {
+    if (link.requests) return <RequestBox link={link} rank={sel} />;
+    if (link.arcana === 'hermit') {
+      return <div className={styles.dontMatter}>{sel === 1
+        ? L('El rango 1 llega solo al conocer al Zorro en el santuario.', 'Rank 1 comes on its own when you meet the Fox at the shrine.')
+        : L(`Completá el pedido ${sel + 5} de las tablillas (ema) del santuario. No hay respuestas que elegir.`, `Complete request ${sel + 5} from the shrine's ema. There are no answers to choose.`)}</div>;
+    }
+    if (!shown.length) return <div className={styles.dontMatter}>{L('En este rango no hay respuestas que elegir.', 'There are no answers to choose at this rank.')}</div>;
+    return (
+      <>
+        <p className={styles.note}>
+          {L('La respuesta resaltada es la que más puntos da. Los puntos ya incluyen el extra por llevar una Persona de la misma Arcana: llevá una siempre. Con "—" no suma nada extra.', 'The highlighted answer gives the most points. Points include the bonus for carrying a Persona of the same Arcana: always bring one. "—" adds nothing extra.')}
+        </p>
+        {shown.map(group)}
+      </>
+    );
+  };
+
+  return (
+    <div className={`container ${styles.page}`}>
+      <div><BackButton fallback="/p4g/vinculos" label={L('Volver', 'Back')} /></div>
+      <section className={styles.top}>
+        <LinkPortrait link={link} className={styles.photo} />
+        <div className={styles.info}>
+          <span className="label label-accent">{a.numeral && `${a.numeral} · `}{a.name}</span>
+          <h1 className={styles.name}>{L(link.who[0], link.who[1])}</h1>
+          <dl className={styles.facts}>
+            {link.place && (<><dt>{L('Dónde', 'Where')}</dt><dd>{L(link.place[0], link.place[1])}</dd></>)}
+            <dt>{L('Cuándo', 'When')}</dt><dd>{scheduleText(link)}</dd>
+            <dt>{L('Cómo empieza', 'How to start')}</dt><dd>{L(link.unlock[0], link.unlock[1])}</dd>
+            {alt && (<><dt>{L('La otra opción', 'The other option')}</dt><dd><Link to={`../${alt.id}`} relative="path">{L(alt.who[0], alt.who[1])}</Link></dd></>)}
+            {link.romance && (<><dt>{L('Romance', 'Romance')}</dt><dd>{L('Sí: en un rango avanzado se elige romance o amistad.', 'Yes: at a later rank you choose romance or friendship.')}</dd></>)}
+            {persona && !link.spoiler && (<><dt>{L('Al máximo', 'At max rank')}</dt><dd><PersonaPeek persona={persona} /></dd></>)}
+          </dl>
+          <div className={styles.trackRow}>
+            <button type="button" role="switch" aria-checked={tracking} aria-label={L('Seguimiento de progreso', 'Progress tracking')} onClick={toggle} className={`${styles.switch} ${tracking ? styles.switchOn : ''}`}>
+              <span />
+            </button>
+            <span className={styles.trackLabel}>{L('Seguimiento de progreso', 'Progress tracking')}: {tracking ? L('activado', 'on') : L('desactivado', 'off')}</span>
+            <span className={styles.trackNote}>
+              {user ? L('Se guarda en tu cuenta', 'Saved to your account') : <>{L('Se guarda en este navegador', 'Saved in this browser')} · <Link to="/p4g/cuenta">{L('entrá', 'log in')}</Link> {L('para guardarlo en tu cuenta', 'to save it to your account')}</>}
+            </span>
+          </div>
+        </div>
+      </section>
+
+      {link.auto ? (
+        <p className={styles.note}>{L('Este vínculo no tiene respuestas para elegir: sube solo a medida que avanza la historia.', 'This link has no answers to choose: it ranks up on its own as the story moves on.')}</p>
+      ) : (
+        <section className={styles.list}>
+          <h2 className={styles.h2}>{L('Rangos', 'Ranks')}</h2>
+          {tracking && (
+            <div className={styles.progress}>
+              <span className={styles.progressLabel}>{L('Tu progreso', 'Your progress')}: <strong>{reached} / 10</strong></span>
+              <span className={styles.progressTrack}><span style={{ width: `${reached * 10}%` }} /></span>
+              {reached >= 10 ? (
+                <span className={styles.progressDone}>{L('¡Vínculo al máximo!', 'Link maxed!')}</span>
+              ) : sel === reached + 1 ? (
+                <button type="button" className="btn btn--accent" onClick={mark}>{L(`Marcar rango ${sel} como alcanzado`, `Mark rank ${sel} as reached`)}</button>
+              ) : sel <= reached ? (
+                <button type="button" className="btn btn--accent" disabled>{L(`Rango ${sel} alcanzado ✓`, `Rank ${sel} reached ✓`)}</button>
+              ) : (
+                <button type="button" className="btn btn--light" onClick={() => setSel(reached + 1)}>{L(`Primero el rango ${reached + 1}: ir`, `First rank ${reached + 1}: go`)}</button>
+              )}
+              <button type="button" className={`btn btn--light ${styles.resetBtn}`} onClick={reset}>{L('Reiniciar progreso', 'Reset progress')}</button>
+            </div>
+          )}
+          <div className={styles.rankButtons} role="group" aria-label={L('Elegir rango', 'Choose rank')}>
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
+              <button key={n} type="button" aria-pressed={n === sel} onClick={() => setSel(n)}
+                className={`${styles.rankBtn} ${n === sel ? styles.rankSel : ''} ${tracking && n <= reached ? styles.rankDone : ''}`}>{n}</button>
+            ))}
+          </div>
+          <div className={styles.rankTitle}><span className={styles.rankNum}>{L('Rango', 'Rank')} {sel}</span></div>
+          {sel === 10 && (
+            <div className={styles.rankMax}>
+              <span className={styles.rankMaxText}>
+                <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
+                <span>{L(`El vínculo con ${name(0)} está al máximo.`, `Your bond with ${name(1)} is at its max.`)}</span>
+                {persona && <span>{L('Se desbloquea la fusión de', 'Unlocks the fusion of')} <PersonaPeek persona={persona} />.</span>}
+              </span>
+            </div>
+          )}
+          {body()}
+        </section>
+      )}
+      <p className={styles.credit}>{L('Puntos, lugares y días: guía de RPG Site. Diálogos: textos oficiales del juego.', 'Points, places and days: RPG Site guide. Dialogue: official game text.')}</p>
+    </div>
+  );
+}

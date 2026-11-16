@@ -1,0 +1,595 @@
+@magician
+RANK 1->2
+It must be tough.|3
+RANK 2->3
+Hmm, you're looking hairier.|3
+Teddie's cute.|2
+RANK 3->4
+You're incredible.|3
+Don't strain yourself.|2
+That must be hard.|1
+That's the spirit!|3
+RANK 4->5
+Of course.|3
+Huh?|3
+I will soon.|3
+RANK 5->6
+No problem.|3
+Tell me next time!|3
+It was fun.|3
+You're right.|3
+Man, you're mature.|3
+RANK 8->9
+Cheer up.|2
+You're right.|3
+That's not true.|3
+I don't get it.|3
+@chariot
+RANK 1->2
+Right.|3
+I'm cool with it.|3
+I guess so...|2
+RANK 2->3
+It's cute.|3
+It's very feminine.|3
+It's hilarious.|2
+RANK 3->4
+Quit bragging on her.|3
+None of your business.|2
+Hold Chie's hand.|3
+Crack a joke.|3
+Badmouth Takeshi.|2
+RANK 4->5
+You look so happy.|3
+Looks delicious.|3
+Wolfing it down, huh?|3
+I'll look out for her.|3
+I worry more for you.|3
+Yukiko isn't that weak.|3
+RANK 5->6
+Exactly.|3
+Of course.|3
+RANK 6->7
+It's not trouble.|2
+RANK 7->8
+That's the first step.|3
+There's still time.|3
+It's hard to face yourself.|3
+RANK 8->9
+You protected that kid.|3
+It all turned out okay.|3
+RANK 9->10 L
+It was messier.|3
+It was about the same.|3
+That sounds good.|3
+@priestess
+RANK 1->2
+Going to apply for one?|3
+Sensei?|2
+Sounds good.|3
+What's that?|2
+RANK 2->3
+Making dinner at the inn?|3
+On an errand?|2
+Good luck.|3
+Count me in!|3
+I don't mind.|2
+RANK 3->4
+Let's eat!|3
+Hold on, my stomach...|2
+Have you tried it?|2
+There's always next time.|3
+I'm having fun.|3
+It's okay.|2
+Just don't feed me.|2
+RANK 4->5
+What's all this for?|3
+RANK 5->6
+Gotten any better yet?|2
+Keep practicing.|3
+They care for you.|3
+RANK 6->7
+It's okay.|3
+They're not mistaken.|3
+RANK 7->8
+You were cool.|3
+You should've said more.|3
+RANK 8->9
+For everyone...|3
+For you...|3
+For me.|2
+@emperor
+RANK 1->2
+Apologize to her.|3
+You just need to change.|3
+That's what kids do.|2
+RANK 3->4
+Plenty.|3
+Nothing in particular.|2
+I'll go with you.|3
+Violence isn't the answer.|3
+You're giving him a new one?|3
+RANK 4->5
+It was pretty amazing.|3
+Don't get cocky.|2
+RANK 6->7
+I want to learn too.|3
+Yeah, go ahead.|3
+Don't call me bro.|3
+RANK 7->8
+You got a warrant?|3
+Kanji didn't do anything.|3
+Tell him, Kanji.|3
+Believe it!|3
+The truth is the truth.|2
+RANK 8->9
+How was it?|3
+Why didn't you go before?|3
+Tell him?|2
+Find more of them.|3
+Good for you.|3
+@lovers
+RANK 1->2
+Just order takeout.|3
+So you don't eat out?|3
+Why?|2
+RANK 2->3
+You come here often?|3
+Can't you shop in Inaba...?|3
+What are you looking for?|3
+RANK 3->4
+Grab her hand and run.|3
+Call the police.|3
+Go along with her.|3
+I don't mind.|3
+It... It was a lie?|3
+RANK 4->5
+All the time.|3
+Sometimes.|3
+Not really.|2
+No.|3
+I don't know.|3
+RANK 5->6
+She'll understand.|3
+Having second thoughts?|3
+If you're serious...|3
+Sounds great.|3
+RANK 6->7
+That part doesn't matter.|3
+I'm happy.|2
+Laugh it off.|3
+Move closer to her.|3
+Cheer her up.|3
+RANK 8->9
+Risette is Rise, too.|3
+You regret leaving.|3
+You're selfish.|3
+@fortune
+RANK 1->2
+I'm still worried about you.|3
+Remember that card...?|3
+You should be careful.|3
+RANK 2->3
+A challenge for a duel?|3
+That card business again...?|3
+RANK 3->4
+That 'Card' again?|3
+Let's catch him together.|3
+Good luck.|3
+RANK 4->5
+Burn it.|3
+A mailbox.|3
+Good, you got it back.|3
+Let's do it.|3
+I guess I'll help.|2
+RANK 5->6
+Because I looked reliable.|3
+Because we looked close.|3
+Because I looked useless.|3
+The numbers are important.|3
+Your gender doesn't matter.|3
+RANK 6->7
+Subtract '40' and '4'?|3
+Don't be afraid.|3
+RANK 7->8
+I feel kinda sad.|3
+You seem happy.|3
+Don't put yourself at risk.|2
+RANK 8->9
+Somewhere high.|3
+Throwing things away?|3
+@moon
+RANK 1->2
+We'll have to come back.|3
+Buy it yourself.|3
+Let's split one.|2
+RANK 2->3
+Let's just chill.|3
+Come shopping with me.|2
+RANK 3->4
+Stop them.|3
+Ignore them.|2
+Hey, let's go.|3
+Did you hear them?|3
+RANK 4->5
+What are you talking about?|2
+You're welcome.|2
+Have a little confidence.|3
+......|2
+RANK 6->7 F
+I don't mind.|3
+Because we're friends.|3
+You have a crush on me.|3
+Because I'm special to you.|2
+RANK 6->7 L
+Sexy clothes.|3
+Cute clothes.|3
+Yep.|3
+Of course you are.|3
+RANK 7->8 F
+Happens all the time.|3
+RANK 7->8 L
+Of course.|3
+Naturally...|3
+RANK 8->9 F
+Are you alright?|3
+That was reckless of you.|3
+RANK 8->9 L
+That's not true.|3
+You decide your own worth.|3
+Then let's find your value.|2
+Sure.|3
+I knew the whole time.|3
+@sun-yumi
+RANK 1->2
+I'll give it my all!|3
+RANK 3->4
+No.|3
+It was how you said it.|2
+Is something wrong?|3
+I'll help.|2
+I can't forget?|3
+Okay.|3
+RANK 4->5
+Just passing by.|3
+I was worried about you.|2
+I got hurt.|2
+RANK 5->6
+How is your mom?|2
+RANK 6->7
+He's a kind father.|3
+RANK 7->8
+Comfort her.|3
+Cry with her.|3
+RANK 8->9
+Take your time and think.|3
+You're always cheerful.|3
+Do what you can.|3
+@sun-ayane
+RANK 1->2
+You do have talent.|3
+Effort is what matters.|2
+Help out.|3
+Watch.|2
+RANK 2->3
+Forget about it today.|3
+You want me to help?|2
+That's a great attitude.|2
+RANK 3->4
+Want me to help out?|3
+Alright, follow me.|3
+RANK 4->5
+It's okay to mess up.|3
+RANK 6->7
+Hold her.|3
+RANK 8->9 L
+Wanna come to my house?|3
+Wanna go out and have fun?|3
+Wanna go grab some food?|3
+@aeon
+RANK 2->3
+Play around.|3
+People watch.|3
+There's nothing to do.|3
+Let's hurry.|3
+You're not going?|3
+RANK 3->4
+It's fun.|3
+It's pretty much my duty.|3
+RANK 5->6
+It's made of bamboo.|3
+It is sold somewhere.|3
+RANK 8->9
+I'll help.|3
+It's up to you.|3
+Don't forget 'em.|3
+RANK 9->10 L
+What's wrong?|3
+Bored?|3
+Don't snoop around?|3
+Leave it to me.|3
+Lots of memories won't do it.|3
+RANK 9->10 F
+It was fun.|3
+@strength-daisuke
+RANK 1->2
+Thanks for the help.|2
+RANK 3->4
+Right on.|2
+RANK 4->5
+I'm just getting warmed up.|3
+Thanks guys.|2
+RANK 5->6
+Anything for you guys.|3
+No problem.|2
+RANK 6->7
+Sounds good.|3
+Could be.|3
+We've got a problem.|3
+Count me in.|3
+RANK 7->8
+Stop them.|3
+That's his charm.|3
+RANK 8->9
+Could be.|3
+I don't know.|3
+@strength-kou
+RANK 1->2
+Junes.|3
+Aiya.|3
+Let's go home.|2
+I'm jealous.|2
+Sure.|2
+That's okay.|2
+RANK 2->3
+Just tell me how.|3
+But it's just a sport...|2
+I can see that.|2
+Leave it to me.|3
+What can I do?|2
+RANK 3->4
+It's hard to imagine.|2
+I can see that.|2
+That's good for you.|2
+Cheer up, man.|2
+RANK 4->5
+You've got some nerve...|3
+Something wrong?|2
+Let's go do something fun.|3
+You just need a rest.|2
+RANK 5->6
+You're right.|3
+A real game? Impossible...|2
+We gotta save Kou.|2
+You're quite a strategist.|2
+Isn't that blackmail...?|2
+What about yourself?|2
+RANK 7->8
+Let's catch up to him.|3
+You alright?|3
+Find anything out?|3
+RANK 8->9
+Don't jump to conclusions?|3
+It was written recently?|3
+@hanged
+RANK 1->2
+Tired of the food?|3
+Too busy?|3
+Because of the murder?|2
+I don't know.|3
+Making your parents happy.|3
+Contributing to society.|2
+RANK 2->3
+Ask him to tell another story.|3
+Tell an American joke.|3
+Tell your own joke of failure.|3
+I'll go tell them off.|3
+You're not saying anything?|3
+RANK 3->4
+Talk back to the lady.|3
+Flatter the lady.|3
+It's not your fault.|3
+RANK 4->5
+That's a good idea.|3
+RANK 5->6
+You're not the only one.|3
+I know what they mean.|3
+RANK 6->7
+I don't mind.|3
+Last time?|3
+RANK 7->8
+We can't just ignore you.|3
+Don't lump me in with him.|3
+RANK 8->9
+People are different.|3
+That's not true.|3
+You're just inept.|3
+Just let it all out, Naoki.|3
+She can hear you.|3
+RANK 9->10
+I didn't do anything.|3
+That's right. Be grateful.|2
+@justice
+RANK 1->2
+Go ahead and ask.|3
+What's wrong?|2
+That's right.|3
+I have you.|3
+RANK 2->3
+I'll go buy some.|3
+Let's go buy some together.|3
+It's not Nanako's fault.|3
+RANK 3->4
+Is there anything else?|3
+They go to heaven.|3
+I don't know.|2
+He's protecting you.|2
+RANK 4->5
+A person you love a lot.|3
+Did he say that?|3
+You have me.|2
+Listen to her talk.|3
+Talk with her.|2
+RANK 5->6
+Swear to it.|2
+I'll ask him with you.|3
+He'll come.|3
+RANK 6->7
+Let's go home.|3
+RANK 7->8
+I'll help you look for it.|3
+He's lonely too.|3
+Because you're lonely.|3
+RANK 8->9
+He loves you too.|3
+I know.|3
+He still has you.|3
+She's not lost.|3
+I feel sorry for you too.|3
+Play with her.|3
+Talk to Nanako.|3
+RANK 9->10
+Sure thing.|3
+I think...|2
+Let's do it.|3
+Don't strain yourself.|2
+@hierophant
+RANK 1->2
+Working.|3
+Hanging with friends.|2
+Tell me about yourself.|3
+Not good at talking?|2
+That's stretching it.|3
+Should I call you big bro?|3
+RANK 2->3
+Fit or not, you're family.|3
+I don't get it.|3
+RANK 3->4
+Black.|3
+With cream.|3
+Cream and sugar.|3
+Surprise me.|3
+You don't have to do that.|3
+Thank you.|2
+RANK 4->5
+Can I help?|3
+Working at home.|2
+Are you okay?|3
+But Nanako?|3
+What was that about?|2
+RANK 5->6
+Then let's go outside.|3
+Let's not.|2
+Even if it's about family?|2
+RANK 6->7
+This is more important, huh?|2
+RANK 7->8
+Want some coffee?|3
+Because you're a coward.|3
+Because of Nanako.|2
+Because her killer's loose.|2
+RANK 8->9
+It was fun.|3
+I don't mind.|2
+Ask me next time.|2
+Was it hard?|3
+You've stopped running?|3
+Do you regret it now?|2
+RANK 9->10
+Thank you.|3
+My name? That's okay.|3
+What am I using now?|2
+Go get 'em.|3
+Be careful.|3
+Leave it to me.|3
+@jester
+RANK 1->2
+That does sound annoying.|3
+RANK 2->3
+Why don't you come over for real?|2
+I'm a good cook.|3
+Nanako will be happy.|2
+RANK 3->4
+Nope.|2
+That was a surprise.|3
+You like magic tricks.|2
+RANK 4->5
+You're right.|3
+RANK 5->6
+That's true.|3
+@devil
+RANK 1->2
+What do you mean?|2
+I'm not interested.|2
+RANK 2->3
+For the money.|3
+To be closer to you.|2
+To have something to do.|2
+I do.|2
+Right in front of me.|2
+Stop it!|3
+No...|2
+RANK 3->4
+...Okay.|2
+I'd rather not know.|2
+...I can't stay in here.|2
+RANK 4->5
+It's like a soap opera.|2
+Comfort her.|3
+Cheer her up.|2
+RANK 6->7
+Hang in there.|3
+You should get some rest.|2
+@temperance
+RANK 1->2
+I hate kids.|3
+I am on the fence.|2
+RANK 2->3
+I don't know.|2
+Probably.|2
+RANK 3->4
+You're right...|3
+Just let it go.|2
+RANK 5->6
+Featherman R.|3
+RANK 6->7
+You're both afraid.|3
+He's not afraid of you.|2
+That's not true.|3
+RANK 8->9
+I'm fine.|3
+Yeah, he is.|3
+You're a doting parent now.|3
+It's never too late.|3
+RANK 9->10
+I'll be lonely here.|3
+It's for the best.|3
+@tower
+RANK 1->2
+Sure I do.|2
+I'll stay and help you.|2
+RANK 2->3
+It's boring.|3
+It's strict.|2
+Well, it is the countryside.|3
+RANK 3->4
+That's just how it is.|2
+You're not the only one.|2
+RANK 4->5
+No, there isn't.|2
+Put some effort into it.|3
+It's not like you.|2
+I don't mind.|2
+RANK 5->6
+That's not it.|3
+That's just one reason.|2
+RANK 6->7
+What I like in a girl is...|3
+About these murders...|2
+RANK 7->8
+This guy.|3
+Cheer him up.|3
+Ask him what he's worried about.|2
+RANK 9->10
+No, it's all of you.|3
+I am proud of you.|3

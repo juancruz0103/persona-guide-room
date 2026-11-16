@@ -21,3 +21,17 @@ Todo sale de los archivos del juego, sin tocar la instalación ni las partidas.
    Se guarda una imagen por Persona; la otra vista se espeja con CSS.
 
 Notas de formato en `p4g.py` (archivos BIN, PAK, MSG.TBL, BMD y la codificación de tildes).
+
+## Vínculos sociales
+
+Los diálogos de cada vínculo están en `event/eXX0/*.PM1` (un evento por rango: `E610_020` = Naoto, rango 2).
+Cada PM1 trae un BMD con los mensajes y las opciones (`pm1.py`). Las carpetas `eXX5` son la otra ruta del rango 10
+(amistad; en Ayane, `E715` es el romance). Los puntos no están en estos archivos: salen de la guía de RPG Site
+(`links-guide-points.txt`) y se cruzan por texto.
+
+```
+python3 extract_links.py <P4G-texto-ES> <P4G-texto-EN> [<event extra EN>] /tmp/p4g-links-dialogs.json
+python3 merge_links.py /tmp/p4g-links-dialogs.json <repo>
+```
+
+El vínculo de Teddie (Estrella) sube solo: sus eventos no tienen opciones.

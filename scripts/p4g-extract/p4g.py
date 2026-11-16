@@ -13,7 +13,7 @@ import struct
 
 ESMAP = {
     0xa3: ' ', 0xa4: '¡', 0xba: '¿', 0xbc: 'Á', 0xc8: 'Í', 0xd4: 'Ú', 0xdb: 'á', 0xe3: 'é',
-    0xe7: 'í', 0xeb: 'ñ', 0xed: 'ó', 0xf3: 'ú',
+    0xe7: 'í', 0xeb: 'ñ', 0xed: 'ó', 0xf3: 'ú', 0xf5: 'ü', 0xc4: 'É', 0xa8: 'ª', 0xe4: 'ê',
 }
 unknown = set()
 
@@ -28,6 +28,13 @@ def dec(b: bytes) -> str:
                 unknown.add(b[i + 1])
                 ch = '?'
             out.append(ch)
+            i += 2
+        elif c >= 0x80 and i + 1 < len(b):
+            pair = (c, b[i + 1])
+            if pair == (0x80, 0x80):  # nombre del protagonista
+                out.append('{P}')
+            else:
+                unknown.add(pair)
             i += 2
         else:
             out.append(chr(c))
@@ -82,6 +89,10 @@ def page_text(t: bytes) -> str:
             break
         if c & 0xF0 == 0xF0:  # función de script: (c & 0x0F) * 2 bytes en total
             i += max(2, (c & 0x0F) * 2)
+            continue
+        if c >= 0x80:  # carácter de 2 bytes (tildes 0x9C xx, nombre del protagonista 0x80 0x80, etc.)
+            out += t[i:i + 2]
+            i += 2
             continue
         out.append(c)
         i += 1

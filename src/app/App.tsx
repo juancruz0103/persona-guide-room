@@ -45,6 +45,8 @@ const P4Profile = lazy(() => import('../games/p4g/pages/PersonaProfile'));
 const P4Fusion = lazy(() => import('../games/p4g/pages/Fusion'));
 const P4Specials = lazy(() => import('../games/p4g/pages/Specials'));
 const P4SkillCards = lazy(() => import('../games/p4g/pages/SkillCards'));
+const P4Links = lazy(() => import('../games/p4g/pages/Links'));
+const P4LinkProfile = lazy(() => import('../games/p4g/pages/LinkProfile'));
 
 /** Elige la pantalla según el juego de la URL. Si un juego no la tiene, muestra "no encontrado". */
 function byGame(screens: Partial<Record<string, ComponentType>>) {
@@ -60,8 +62,8 @@ const FusionScreen = byGame({ p5r: Fusion, p3r: P3Fusion, p4g: P4Fusion });
 const ProfileScreen = byGame({ p5r: PersonaProfile, p3r: P3Profile, p4g: P4Profile });
 const SpecialsScreen = byGame({ p3r: P3Specials, p4g: P4Specials });
 const HeartsScreen = byGame({ p3r: P3Hearts });
-const LinksScreen = byGame({ p3r: P3Links });
-const LinkProfileScreen = byGame({ p3r: P3LinkProfile });
+const LinksScreen = byGame({ p3r: P3Links, p4g: P4Links });
+const LinkProfileScreen = byGame({ p3r: P3LinkProfile, p4g: P4LinkProfile });
 const p5rOnly = (C: ComponentType) => byGame({ p5r: C });
 const SkillCardsScreen = byGame({ p5r: SkillCards, p4g: P4SkillCards });
 const TechnicalScreen = p5rOnly(Technical);
