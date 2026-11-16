@@ -60,10 +60,10 @@ export default function Catalog() {
               {L('Solo las que dan objeto de corazón', 'Only those with a heart item')}
             </label>
             <label className={styles.check}>
-              <input type="checkbox" checked={aigis} onChange={(e) => setAigis(e.target.checked)} />
-              {L('Modo Episodio Aigis', 'Episode Aigis mode')}
+              <input type="checkbox" style={{ accentColor: '#d41f35' }} checked={aigis} onChange={(e) => setAigis(e.target.checked)} />
+              <span style={{ color: '#ff4d5e', fontWeight: 700 }}>{L('Modo Episodio Aigis', 'Episode Aigis mode')}</span>
             </label>
-            <p className={styles.note}>{L('Sin vínculos ni calendario. La tabla de fusión es la misma.', 'No Social Links or calendar. The fusion chart is the same.')}</p>
+            <p className={styles.note} style={{ color: '#ff8a96' }}>{L('Sin vínculos ni calendario. La tabla de fusión es la misma.', 'No Social Links or calendar. The fusion chart is the same.')}</p>
           </fieldset>
           <fieldset className={`${styles.group} ${styles.options}`}>
             <legend className="label label-accent">{L('Personas de compañeros', 'Party Personas')}</legend>

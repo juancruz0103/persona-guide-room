@@ -183,7 +183,7 @@ export default function PersonaProfile() {
                 {aigis && p.unlock.type !== 'dlc' ? (
                   <>
                     <p className={styles.note}><s>{unlockText(p.unlock)}</s></p>
-                    <p className={styles.note}>{aigisUnlockText()}</p>
+                    <p className={styles.note} style={{ color: '#ff4d5e', fontWeight: 600 }}>{aigisUnlockText()}</p>
                   </>
                 ) : (
                   <p className={styles.note}>{unlockText(p.unlock)}</p>

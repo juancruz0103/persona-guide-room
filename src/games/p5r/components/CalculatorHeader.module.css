@@ -30,8 +30,8 @@
 
 /* Aviso del modo Episodio Aigis (solo Reload). */
 .aigis {
-  background: var(--c-primary);
-  color: var(--c-ink);
+  background: #d41f35;
+  color: #ffffff;
   font-size: 15px;
   padding: 10px 0;
 }
