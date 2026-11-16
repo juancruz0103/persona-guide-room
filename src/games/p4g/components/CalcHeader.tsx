@@ -7,11 +7,14 @@ const TABS = () => [
   { id: 'fuse', label: L('Fusionar', 'Fuse'), to: '/p4g/calculadora/fusionar' },
   { id: 'reverse', label: L('¿Cómo la consigo?', 'How do I get it?'), to: '/p4g/calculadora/fusionar?modo=inversa' },
   { id: 'special', label: L('Especiales', 'Special'), to: '/p4g/calculadora/especiales' },
+  { id: 'cards', label: 'Skill cards', to: '/p4g/calculadora/skill-cards' },
 ];
 
 export function CalcHeader() {
   const { pathname, search } = useLocation();
-  const active = pathname.endsWith('/especiales')
+  const active = pathname.endsWith('/skill-cards')
+    ? 'cards'
+    : pathname.endsWith('/especiales')
     ? 'special'
     : pathname.endsWith('/fusionar')
       ? new URLSearchParams(search).get('modo') === 'inversa' ? 'reverse' : 'fuse'

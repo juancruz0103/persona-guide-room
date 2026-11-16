@@ -13,7 +13,9 @@
   },
   "power": 40,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ukobach"
  },
  "Agilao": {
   "id": 2,
@@ -29,7 +31,9 @@
   },
   "power": 100,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Lamia"
  },
  "Agidyne": {
   "id": 3,
@@ -45,7 +49,9 @@
   },
   "power": 160,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mara"
  },
  "Maragi": {
   "id": 4,
@@ -61,7 +67,9 @@
   },
   "power": 40,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Berith"
  },
  "Maragion": {
   "id": 5,
@@ -77,7 +85,9 @@
   },
   "power": 100,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Pyro Jack"
  },
  "Maragidyne": {
   "id": 6,
@@ -93,7 +103,9 @@
   },
   "power": 160,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Surt"
  },
  "Prominence": {
   "id": 7,
@@ -109,7 +121,9 @@
   },
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Ragnarok": {
   "id": 8,
@@ -125,7 +139,9 @@
   },
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Immortal Flame": {
   "id": 9,
@@ -141,7 +157,9 @@
   },
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Tiny Soul Tomato": {
   "id": 10,
@@ -154,7 +172,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Tetracorn": {
   "id": 11,
@@ -167,7 +187,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Run Amok": {
   "id": 12,
@@ -180,7 +202,9 @@
   "cost": null,
   "power": 35,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Shake Off": {
   "id": 13,
@@ -193,7 +217,9 @@
   "cost": null,
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Garu": {
   "id": 14,
@@ -209,7 +235,9 @@
   },
   "power": 40,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Cu Sith"
  },
  "Garula": {
   "id": 15,
@@ -225,7 +253,9 @@
   },
   "power": 100,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kusi Mitama"
  },
  "Garudyne": {
   "id": 16,
@@ -241,7 +271,9 @@
   },
   "power": 160,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Garuda"
  },
  "Magaru": {
   "id": 17,
@@ -257,7 +289,9 @@
   },
   "power": 40,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Anzu"
  },
  "Magarula": {
   "id": 18,
@@ -273,7 +307,9 @@
   },
   "power": 100,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Clotho"
  },
  "Magarudyne": {
   "id": 19,
@@ -289,7 +325,9 @@
   },
   "power": 160,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Jatayu"
  },
  "Divine Vacuum": {
   "id": 20,
@@ -305,7 +343,9 @@
   },
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Panta Rhei": {
   "id": 21,
@@ -321,7 +361,9 @@
   },
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Hiranya Cabbage": {
   "id": 22,
@@ -334,7 +376,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Cry of Denial": {
   "id": 23,
@@ -350,7 +394,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Hot Lightning": {
   "id": 24,
@@ -363,7 +409,9 @@
   "cost": null,
   "power": 300,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Draining Fog": {
   "id": 25,
@@ -376,7 +424,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bufu": {
   "id": 26,
@@ -392,7 +442,9 @@
   },
   "power": 40,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Forneus"
  },
  "Bufula": {
   "id": 27,
@@ -408,7 +460,9 @@
   },
   "power": 100,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ganga"
  },
  "Bufudyne": {
   "id": 28,
@@ -424,7 +478,9 @@
   },
   "power": 160,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hariti"
  },
  "Mabufu": {
   "id": 29,
@@ -440,7 +496,9 @@
   },
   "power": 40,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Jack Frost"
  },
  "Mabufula": {
   "id": 30,
@@ -456,7 +514,9 @@
   },
   "power": 100,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Genbu"
  },
  "Mabufudyne": {
   "id": 31,
@@ -472,7 +532,9 @@
   },
   "power": 160,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Byakko"
  },
  "Cocytus Pain": {
   "id": 32,
@@ -488,7 +550,9 @@
   },
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Niflheim": {
   "id": 33,
@@ -504,7 +568,9 @@
   },
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bloody Rain": {
   "id": 34,
@@ -520,7 +586,9 @@
   },
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Red Paprika": {
   "id": 35,
@@ -533,7 +601,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Enclosure Shell": {
   "id": 36,
@@ -546,7 +616,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Shell of Denial": {
   "id": 38,
@@ -559,7 +631,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Zio": {
   "id": 39,
@@ -575,7 +649,9 @@
   },
   "power": 40,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Izanagi"
  },
  "Zionga": {
   "id": 40,
@@ -591,7 +667,9 @@
   },
   "power": 100,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Unicorn"
  },
  "Ziodyne": {
   "id": 41,
@@ -607,7 +685,9 @@
   },
   "power": 160,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Tam Lin"
  },
  "Mazio": {
   "id": 42,
@@ -623,7 +703,9 @@
   },
   "power": 40,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Xiezhai"
  },
  "Mazionga": {
   "id": 43,
@@ -639,7 +721,9 @@
   },
   "power": 100,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Dominion"
  },
  "Maziodyne": {
   "id": 44,
@@ -655,7 +739,9 @@
   },
   "power": 160,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kartikeya"
  },
  "Jihad": {
   "id": 45,
@@ -671,7 +757,9 @@
   },
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Thunder Reign": {
   "id": 46,
@@ -687,7 +775,9 @@
   },
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bead Melon": {
   "id": 47,
@@ -700,7 +790,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Mid Soul Tomato": {
   "id": 48,
@@ -713,7 +805,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Big Soul Tomato": {
   "id": 49,
@@ -726,7 +820,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Makaracorn": {
   "id": 50,
@@ -739,7 +835,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Megido": {
   "id": 51,
@@ -755,7 +853,9 @@
   },
   "power": 120,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Thoth"
  },
  "Megidola": {
   "id": 52,
@@ -771,7 +871,9 @@
   },
   "power": 180,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Decarabia"
  },
  "Megidolaon": {
   "id": 53,
@@ -787,7 +889,9 @@
   },
   "power": 210,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Metatron"
  },
  "Last Resort": {
   "id": 54,
@@ -800,7 +904,9 @@
   "cost": null,
   "power": 120,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Black Viper": {
   "id": 55,
@@ -816,7 +922,9 @@
   },
   "power": 230,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Morning Star": {
   "id": 56,
@@ -832,7 +940,9 @@
   },
   "power": 230,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "White Paprika": {
   "id": 57,
@@ -845,7 +955,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Blue Paprika": {
   "id": 58,
@@ -858,7 +970,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Green Paprika": {
   "id": 59,
@@ -871,7 +985,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Hama": {
   "id": 61,
@@ -887,7 +1003,9 @@
   },
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Principality"
  },
  "Hamaon": {
   "id": 62,
@@ -903,7 +1021,9 @@
   },
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Throne"
  },
  "Mahama": {
   "id": 63,
@@ -919,7 +1039,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Virtue"
  },
  "Mahamaon": {
   "id": 64,
@@ -935,7 +1057,9 @@
   },
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Anubis"
  },
  "Eternal White": {
   "id": 65,
@@ -951,7 +1075,9 @@
   },
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "God's Judgment": {
   "id": 66,
@@ -967,7 +1093,9 @@
   },
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Samsara": {
   "id": 67,
@@ -983,7 +1111,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Mudo": {
   "id": 72,
@@ -999,7 +1129,9 @@
   },
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Lilim"
  },
  "Mudoon": {
   "id": 73,
@@ -1015,7 +1147,9 @@
   },
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Loa"
  },
  "Mamudo": {
   "id": 74,
@@ -1031,7 +1165,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ippon-Datara"
  },
  "Mamudoon": {
   "id": 75,
@@ -1047,7 +1183,9 @@
   },
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Nebiros"
  },
  "Eternal Black": {
   "id": 76,
@@ -1063,7 +1201,9 @@
   },
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Demonic Judgment": {
   "id": 77,
@@ -1079,7 +1219,9 @@
   },
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Die for Me!": {
   "id": 78,
@@ -1095,7 +1237,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Pulinpa": {
   "id": 83,
@@ -1111,7 +1255,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Tentarafoo": {
   "id": 84,
@@ -1127,7 +1273,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Leanan Sidhe"
  },
  "Evil Touch": {
   "id": 85,
@@ -1143,7 +1291,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Evil Smile": {
   "id": 86,
@@ -1159,7 +1309,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Incubus"
  },
  "Ghastly Wail": {
   "id": 87,
@@ -1175,7 +1327,9 @@
   },
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Niddhoggr"
  },
  "Balzac": {
   "id": 88,
@@ -1191,7 +1345,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Valiant Dance": {
   "id": 89,
@@ -1207,7 +1363,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mothman"
  },
  "Poisma": {
   "id": 90,
@@ -1223,7 +1381,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Poison Mist": {
   "id": 91,
@@ -1239,7 +1399,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Omoikane"
  },
  "Soul Break": {
   "id": 92,
@@ -1255,7 +1417,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Anima Freeze": {
   "id": 93,
@@ -1271,7 +1435,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Narcissus"
  },
  "Enervation": {
   "id": 94,
@@ -1287,7 +1453,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Old One": {
   "id": 95,
@@ -1303,7 +1471,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Alraune"
  },
  "Galgalim Eyes": {
   "id": 96,
@@ -1319,7 +1489,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Makajam": {
   "id": 97,
@@ -1335,7 +1507,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Foolish Whisper": {
   "id": 98,
@@ -1351,7 +1525,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mada"
  },
  "Foul Breath": {
   "id": 99,
@@ -1367,7 +1543,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Legion"
  },
  "Stagnant Air": {
   "id": 100,
@@ -1383,7 +1561,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Baal Zebul"
  },
  "Life Drain": {
   "id": 101,
@@ -1399,7 +1579,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kaiwan"
  },
  "Spirit Drain": {
   "id": 102,
@@ -1415,7 +1597,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Succubus"
  },
  "Life Leech": {
   "id": 103,
@@ -1431,7 +1615,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Spirit Leech": {
   "id": 104,
@@ -1447,7 +1633,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Judgement": {
   "id": 105,
@@ -1463,7 +1651,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Kamui Miracle": {
   "id": 109,
@@ -1479,7 +1669,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Elemental Break": {
   "id": 119,
@@ -1492,7 +1684,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bash": {
   "id": 120,
@@ -1508,7 +1702,9 @@
   },
   "power": 60,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Cleave": {
   "id": 121,
@@ -1524,7 +1720,9 @@
   },
   "power": 65,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Assault Dive": {
   "id": 122,
@@ -1540,7 +1738,9 @@
   },
   "power": 100,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Sonic Punch": {
   "id": 123,
@@ -1556,7 +1756,9 @@
   },
   "power": 75,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Double Fangs": {
   "id": 124,
@@ -1572,7 +1774,9 @@
   },
   "power": 40,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Kill Rush": {
   "id": 125,
@@ -1588,7 +1792,9 @@
   },
   "power": 50,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Titan"
  },
  "Swift Strike": {
   "id": 126,
@@ -1604,7 +1810,9 @@
   },
   "power": 65,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yaksini"
  },
  "Twin Shot": {
   "id": 127,
@@ -1620,7 +1828,9 @@
   },
   "power": 55,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Fatal End": {
   "id": 128,
@@ -1636,7 +1846,9 @@
   },
   "power": 125,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Raja Naga"
  },
  "Mighty Swing": {
   "id": 129,
@@ -1652,7 +1864,9 @@
   },
   "power": 135,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hanuman"
  },
  "Torrent Shot": {
   "id": 130,
@@ -1668,7 +1882,9 @@
   },
   "power": 45,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Taotie"
  },
  "Heat Wave": {
   "id": 131,
@@ -1684,7 +1900,9 @@
   },
   "power": 125,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yatsufusa"
  },
  "Gigantic Fist": {
   "id": 132,
@@ -1700,7 +1918,9 @@
   },
   "power": 330,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Cerberus"
  },
  "Blade of Fury": {
   "id": 133,
@@ -1716,7 +1936,9 @@
   },
   "power": 35,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hokuto Seikun"
  },
  "Deathbound": {
   "id": 134,
@@ -1732,7 +1954,9 @@
   },
   "power": 145,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Thor"
  },
  "Arrow Rain": {
   "id": 135,
@@ -1748,7 +1972,9 @@
   },
   "power": 80,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Abaddon"
  },
  "Akasha Arts": {
   "id": 136,
@@ -1764,7 +1990,9 @@
   },
   "power": 130,
   "rank": 7.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Melchizedek"
  },
  "Tempest Slash": {
   "id": 137,
@@ -1780,7 +2008,9 @@
   },
   "power": 90,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Masakado"
  },
  "Heaven's Blade": {
   "id": 138,
@@ -1796,7 +2026,9 @@
   },
   "power": 230,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Myriad Arrows": {
   "id": 139,
@@ -1812,7 +2044,9 @@
   },
   "power": 75,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mahakala"
  },
  "God's Hand": {
   "id": 140,
@@ -1828,7 +2062,9 @@
   },
   "power": 800,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ardha"
  },
  "Pralaya": {
   "id": 141,
@@ -1844,7 +2080,9 @@
   },
   "power": 900,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Primal Force": {
   "id": 142,
@@ -1860,7 +2098,9 @@
   },
   "power": 1100,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Beelzebub"
  },
  "Vorpal Blade": {
   "id": 143,
@@ -1876,7 +2116,9 @@
   },
   "power": 200,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Zaou-Gongen"
  },
  "Power Slash": {
   "id": 144,
@@ -1892,7 +2134,9 @@
   },
   "power": 120,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Power"
  },
  "Gale Slash": {
   "id": 145,
@@ -1908,7 +2152,9 @@
   },
   "power": 80,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ares"
  },
  "Brave Blade": {
   "id": 146,
@@ -1924,7 +2170,9 @@
   },
   "power": 700,
   "rank": 7.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Atavaka"
  },
  "Herculean Strike": {
   "id": 147,
@@ -1940,7 +2188,9 @@
   },
   "power": 90,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Flauros"
  },
  "Vicious Strike": {
   "id": 148,
@@ -1956,7 +2206,9 @@
   },
   "power": 140,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Cybele"
  },
  "Single Shot": {
   "id": 149,
@@ -1972,7 +2224,9 @@
   },
   "power": 85,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Skewer": {
   "id": 150,
@@ -1988,7 +2242,9 @@
   },
   "power": 70,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Poison Skewer": {
   "id": 151,
@@ -2004,7 +2260,9 @@
   },
   "power": 60,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Eligor"
  },
  "Poison Arrow": {
   "id": 152,
@@ -2020,7 +2278,9 @@
   },
   "power": 130,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hitokoto-Nushi"
  },
  "Blight": {
   "id": 153,
@@ -2036,7 +2296,9 @@
   },
   "power": 130,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Pabilsag"
  },
  "Virus Wave": {
   "id": 154,
@@ -2052,7 +2314,9 @@
   },
   "power": 90,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Tzitzimitl"
  },
  "Skull Cracker": {
   "id": 155,
@@ -2068,7 +2332,9 @@
   },
   "power": 60,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sandman"
  },
  "Mind Slice": {
   "id": 156,
@@ -2084,7 +2350,9 @@
   },
   "power": 90,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Pale Rider"
  },
  "Hysterical Slap": {
   "id": 157,
@@ -2100,7 +2368,9 @@
   },
   "power": 50,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Orobas"
  },
  "Crazy Chain": {
   "id": 158,
@@ -2116,7 +2386,9 @@
   },
   "power": 90,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Gorgon"
  },
  "Muzzle Shot": {
   "id": 159,
@@ -2132,7 +2404,9 @@
   },
   "power": 60,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Archangel"
  },
  "Seal Bomb": {
   "id": 160,
@@ -2148,7 +2422,9 @@
   },
   "power": 90,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mithra"
  },
  "Arm Chopper": {
   "id": 161,
@@ -2164,7 +2440,9 @@
   },
   "power": 45,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Valkyrie"
  },
  "Atom Smasher": {
   "id": 162,
@@ -2180,7 +2458,9 @@
   },
   "power": 50,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ose"
  },
  "Cell Breaker": {
   "id": 163,
@@ -2196,7 +2476,9 @@
   },
   "power": 80,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yomotsu-Ikusa"
  },
  "Mustard Bomb": {
   "id": 164,
@@ -2212,7 +2494,9 @@
   },
   "power": 110,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Rangda"
  },
  "Brain Shake": {
   "id": 165,
@@ -2228,7 +2512,9 @@
   },
   "power": 50,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Vetala"
  },
  "Navas Nebula": {
   "id": 166,
@@ -2244,7 +2530,9 @@
   },
   "power": 110,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Pazuzu"
  },
  "Golden Right": {
   "id": 167,
@@ -2260,7 +2548,9 @@
   },
   "power": 130,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Black Spot": {
   "id": 168,
@@ -2276,7 +2566,9 @@
   },
   "power": 130,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Orthrus"
  },
  "Rainy Death": {
   "id": 169,
@@ -2292,7 +2584,9 @@
   },
   "power": 195,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Siegfried"
  },
  "Hassou Tobi": {
   "id": 170,
@@ -2308,7 +2602,9 @@
   },
   "power": 60,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Rampage": {
   "id": 171,
@@ -2324,7 +2620,9 @@
   },
   "power": 40,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Matador"
  },
  "Aeon Rain": {
   "id": 172,
@@ -2340,7 +2638,9 @@
   },
   "power": 90,
   "rank": 6.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Taowu"
  },
  "Agneyastra": {
   "id": 173,
@@ -2356,7 +2656,9 @@
   },
   "power": 120,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sandalphon"
  },
  "Cruel Attack": {
   "id": 174,
@@ -2372,7 +2674,9 @@
   },
   "power": 120,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Oni"
  },
  "Vile Assault": {
   "id": 175,
@@ -2388,7 +2692,9 @@
   },
   "power": 350,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kin-Ki"
  },
  "Attack Up Support": {
   "id": 177,
@@ -2401,7 +2707,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Guard Up Support": {
   "id": 178,
@@ -2414,7 +2722,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Agility Up Support": {
   "id": 179,
@@ -2427,7 +2737,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Charge Support": {
   "id": 180,
@@ -2440,7 +2752,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "HP Recovery Support": {
   "id": 181,
@@ -2453,7 +2767,9 @@
   "cost": null,
   "power": 30,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "SP Recovery Support": {
   "id": 182,
@@ -2466,7 +2782,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Dia": {
   "id": 192,
@@ -2482,7 +2800,9 @@
   },
   "power": 50,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Pixie"
  },
  "Diarama": {
   "id": 193,
@@ -2498,7 +2818,9 @@
   },
   "power": 160,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Nigi Mitama"
  },
  "Diarahan": {
   "id": 194,
@@ -2514,7 +2836,9 @@
   },
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kikuri-Hime"
  },
  "Media": {
   "id": 195,
@@ -2530,7 +2854,9 @@
   },
   "power": 40,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sarasvati"
  },
  "Mediarama": {
   "id": 196,
@@ -2546,7 +2872,9 @@
   },
   "power": 140,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Undine"
  },
  "Mediarahan": {
   "id": 197,
@@ -2562,7 +2890,9 @@
   },
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ishtar"
  },
  "Salvation": {
   "id": 198,
@@ -2578,7 +2908,9 @@
   },
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Helel"
  },
  "Patra": {
   "id": 199,
@@ -2594,7 +2926,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Me Patra": {
   "id": 200,
@@ -2610,7 +2944,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Apsaras"
  },
  "Re Patra": {
   "id": 201,
@@ -2626,7 +2962,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Posumudi": {
   "id": 202,
@@ -2642,7 +2980,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Mutudi": {
   "id": 203,
@@ -2658,7 +2998,9 @@
   },
   "power": null,
   "rank": 1,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Enradi": {
   "id": 204,
@@ -2674,7 +3016,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Tirundi": {
   "id": 205,
@@ -2690,7 +3034,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Nervundi": {
   "id": 206,
@@ -2706,7 +3052,9 @@
   },
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Energy Shower": {
   "id": 207,
@@ -2722,7 +3070,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sati"
  },
  "Amrita": {
   "id": 208,
@@ -2738,7 +3088,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Scathach"
  },
  "Recarm": {
   "id": 209,
@@ -2754,7 +3106,9 @@
   },
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Queen Mab"
  },
  "Samarecarm": {
   "id": 210,
@@ -2770,7 +3124,9 @@
   },
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kohryu"
  },
  "Tarunda": {
   "id": 211,
@@ -2786,7 +3142,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Slime"
  },
  "Matarunda": {
   "id": 212,
@@ -2802,7 +3160,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Seiryu"
  },
  "Sukunda": {
   "id": 213,
@@ -2818,7 +3178,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yomotsu-Shikome"
  },
  "Masukunda": {
   "id": 214,
@@ -2834,7 +3196,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kurama Tengu"
  },
  "Rakunda": {
   "id": 215,
@@ -2850,7 +3214,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Nata Taishi"
  },
  "Marakunda": {
   "id": 216,
@@ -2866,7 +3232,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Belphegor"
  },
  "Dekunda": {
   "id": 217,
@@ -2882,7 +3250,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Senri"
  },
  "Tarukaja": {
   "id": 218,
@@ -2898,7 +3268,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Obariyon"
  },
  "Matarukaja": {
   "id": 219,
@@ -2914,7 +3286,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kushinada-Hime"
  },
  "Sukukaja": {
   "id": 220,
@@ -2930,7 +3304,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ghoul"
  },
  "Masukukaja": {
   "id": 221,
@@ -2946,7 +3322,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Quetzalcoatl"
  },
  "Rakukaja": {
   "id": 222,
@@ -2962,7 +3340,9 @@
   },
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Shiisaa"
  },
  "Marakukaja": {
   "id": 223,
@@ -2978,7 +3358,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Parvati"
  },
  "Dekaja": {
   "id": 224,
@@ -2994,7 +3376,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mokoi"
  },
  "Heat Riser": {
   "id": 225,
@@ -3010,7 +3394,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Magatsu-Izanagi"
  },
  "Debilitate": {
   "id": 226,
@@ -3026,7 +3412,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Trumpeter"
  },
  "Power Charge": {
   "id": 227,
@@ -3042,7 +3430,9 @@
   },
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yoshitsune"
  },
  "Mind Charge": {
   "id": 228,
@@ -3058,7 +3448,9 @@
   },
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Alice"
  },
  "Tetrakarn": {
   "id": 229,
@@ -3074,7 +3466,9 @@
   },
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Arahabaki"
  },
  "Makarakarn": {
   "id": 230,
@@ -3090,7 +3484,9 @@
   },
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Lilith"
  },
  "Tetra Break": {
   "id": 231,
@@ -3106,7 +3502,9 @@
   },
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sui-Ki"
  },
  "Makara Break": {
   "id": 232,
@@ -3122,7 +3520,9 @@
   },
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Lachesis"
  },
  "Tetraja": {
   "id": 233,
@@ -3138,7 +3538,9 @@
   },
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Girimehkala"
  },
  "Rebellion": {
   "id": 234,
@@ -3154,7 +3556,9 @@
   },
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Revolution": {
   "id": 235,
@@ -3170,7 +3574,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kali"
  },
  "Fire Break": {
   "id": 236,
@@ -3186,7 +3592,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Gdon"
  },
  "Ice Break": {
   "id": 237,
@@ -3202,7 +3610,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Lakshmi"
  },
  "Wind Break": {
   "id": 238,
@@ -3218,7 +3628,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Seth"
  },
  "Elec Break": {
   "id": 239,
@@ -3234,7 +3646,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hachiman"
  },
  "Red Wall": {
   "id": 240,
@@ -3250,7 +3664,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yamata-no-Orochi"
  },
  "White Wall": {
   "id": 241,
@@ -3266,7 +3682,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Cu Chulainn"
  },
  "Blue Wall": {
   "id": 242,
@@ -3282,7 +3700,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Triglav"
  },
  "Green Wall": {
   "id": 243,
@@ -3298,7 +3718,9 @@
   },
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ananta"
  },
  "Trafuri": {
   "id": 244,
@@ -3314,7 +3736,9 @@
   },
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Recarmdra": {
   "id": 245,
@@ -3327,7 +3751,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Traesto": {
   "id": 246,
@@ -3343,7 +3769,9 @@
   },
   "power": null,
   "rank": 1,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Youthful Wind": {
   "id": 247,
@@ -3359,7 +3787,9 @@
   },
   "power": 130,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Dragon Hustle": {
   "id": 248,
@@ -3375,7 +3805,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Burning Petals": {
   "id": 249,
@@ -3391,7 +3823,9 @@
   },
   "power": 190,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "The Man's Way": {
   "id": 250,
@@ -3407,7 +3841,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Shield of Justice": {
   "id": 252,
@@ -3423,7 +3859,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Complete Analysis": {
   "id": 253,
@@ -3436,7 +3874,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Waste Money": {
   "id": 259,
@@ -3449,7 +3889,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Yosuke Strike": {
   "id": 260,
@@ -3462,7 +3904,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Galactic Punt": {
   "id": 261,
@@ -3475,7 +3919,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Fan Assault": {
   "id": 262,
@@ -3488,7 +3934,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Atomic Press": {
   "id": 263,
@@ -3501,7 +3949,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Wild Ways": {
   "id": 264,
@@ -3514,7 +3964,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Ultra Trigger": {
   "id": 265,
@@ -3527,7 +3979,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Galaxy Kick": {
   "id": 266,
@@ -3540,7 +3994,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Full Analysis": {
   "id": 267,
@@ -3553,7 +4009,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Third Eye": {
   "id": 268,
@@ -3566,7 +4024,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Weakness Scan": {
   "id": 269,
@@ -3579,7 +4039,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Healing Wave": {
   "id": 270,
@@ -3592,7 +4054,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Relaxing Wave": {
   "id": 271,
@@ -3605,7 +4069,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Analyze": {
   "id": 272,
@@ -3618,7 +4084,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Summon": {
   "id": 273,
@@ -3631,7 +4099,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Enemy Radar": {
   "id": 274,
@@ -3644,7 +4114,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Treasure Radar": {
   "id": 275,
@@ -3657,7 +4129,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Certain Escape": {
   "id": 276,
@@ -3670,7 +4144,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Myriad Truths": {
   "id": 277,
@@ -3686,7 +4162,9 @@
   },
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Cavalry Attack": {
   "id": 278,
@@ -3699,7 +4177,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "All-Out Boost": {
   "id": 284,
@@ -3712,7 +4192,9 @@
   "cost": null,
   "power": 10,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Rise's Revival": {
   "id": 285,
@@ -3725,7 +4207,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Stamina Song": {
   "id": 286,
@@ -3738,7 +4222,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Vigor Song": {
   "id": 287,
@@ -3751,7 +4237,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Sarx Drop": {
   "id": 288,
@@ -3764,7 +4252,9 @@
   "cost": null,
   "power": 20,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Medicine": {
   "id": 289,
@@ -3777,7 +4267,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Medical Powder": {
   "id": 290,
@@ -3790,7 +4282,9 @@
   "cost": null,
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Spirit Water": {
   "id": 291,
@@ -3803,7 +4297,9 @@
   "cost": null,
   "power": 400,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Life Stone": {
   "id": 292,
@@ -3816,7 +4312,9 @@
   "cost": null,
   "power": 30,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bead": {
   "id": 293,
@@ -3829,7 +4327,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Value Medicine": {
   "id": 294,
@@ -3842,7 +4342,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Medical Kit": {
   "id": 295,
@@ -3855,7 +4357,9 @@
   "cost": null,
   "power": 200,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Umugi Water": {
   "id": 296,
@@ -3868,7 +4372,9 @@
   "cost": null,
   "power": 400,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bead Chain": {
   "id": 297,
@@ -3881,7 +4387,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Pneuma Drop": {
   "id": 298,
@@ -3894,7 +4402,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Snuff Soul": {
   "id": 299,
@@ -3907,7 +4417,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Chewing Soul": {
   "id": 300,
@@ -3920,7 +4432,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Precious Egg": {
   "id": 301,
@@ -3933,7 +4447,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Junes Bomber": {
   "id": 349,
@@ -3946,7 +4462,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Twin Dragons": {
   "id": 350,
@@ -3959,7 +4477,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Beauty & The Beast": {
   "id": 351,
@@ -3972,7 +4492,9 @@
   "cost": null,
   "power": 15,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Wind of Oblivion": {
   "id": 352,
@@ -3985,7 +4507,9 @@
   "cost": null,
   "power": 20,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bottomless Envy": {
   "id": 353,
@@ -3998,7 +4522,9 @@
   "cost": null,
   "power": 40,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Burn to Ashes": {
   "id": 354,
@@ -4011,7 +4537,9 @@
   "cost": null,
   "power": 60,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Shivering Rondo": {
   "id": 355,
@@ -4024,7 +4552,9 @@
   "cost": null,
   "power": 120,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Forbidden Murmur": {
   "id": 358,
@@ -4037,7 +4567,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Roar of Wrath": {
   "id": 359,
@@ -4050,7 +4582,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Fanatical Spark": {
   "id": 360,
@@ -4063,7 +4597,9 @@
   "cost": null,
   "power": 95,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Supreme Insight": {
   "id": 361,
@@ -4076,7 +4612,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Nihil Hand": {
   "id": 362,
@@ -4089,7 +4627,9 @@
   "cost": null,
   "power": 250,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Ultra Charge": {
   "id": 363,
@@ -4102,7 +4642,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Nullity Guidance": {
   "id": 364,
@@ -4115,7 +4657,9 @@
   "cost": null,
   "power": 120,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Attack": {
   "id": 365,
@@ -4128,7 +4672,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Whisper": {
   "id": 366,
@@ -4141,7 +4687,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Chant": {
   "id": 367,
@@ -4154,7 +4702,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Prayer": {
   "id": 368,
@@ -4167,7 +4717,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Character Setup": {
   "id": 369,
@@ -4180,7 +4732,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Command": {
   "id": 370,
@@ -4193,7 +4747,9 @@
   "cost": null,
   "power": 160,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Element Zero": {
   "id": 376,
@@ -4206,7 +4762,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Mute Ray": {
   "id": 377,
@@ -4219,7 +4777,9 @@
   "cost": null,
   "power": 240,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Quad Converge": {
   "id": 378,
@@ -4232,7 +4792,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Control": {
   "id": 379,
@@ -4245,7 +4807,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Unerring Justice": {
   "id": 380,
@@ -4258,7 +4822,9 @@
   "cost": null,
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Nebula Oculus": {
   "id": 381,
@@ -4271,7 +4837,9 @@
   "cost": null,
   "power": 240,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Quake": {
   "id": 382,
@@ -4284,7 +4852,9 @@
   "cost": null,
   "power": 210,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bewildering Fog": {
   "id": 383,
@@ -4297,7 +4867,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Thousand Curses": {
   "id": 385,
@@ -4310,7 +4882,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "World's End": {
   "id": 386,
@@ -4323,7 +4897,9 @@
   "cost": null,
   "power": 180,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Terror Voice": {
   "id": 387,
@@ -4336,7 +4912,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Fury of Yasogami": {
   "id": 389,
@@ -4349,7 +4927,9 @@
   "cost": null,
   "power": 150,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Summons to Yomi": {
   "id": 391,
@@ -4362,7 +4942,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Kuro Ikazuchi": {
   "id": 392,
@@ -4375,7 +4957,9 @@
   "cost": null,
   "power": 230,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Oho Ikazuchi": {
   "id": 393,
@@ -4388,7 +4972,9 @@
   "cost": null,
   "power": 999,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Snow Flower Honey": {
   "id": 440,
@@ -4401,7 +4987,9 @@
   "cost": null,
   "power": 30,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Revival Rope": {
   "id": 441,
@@ -4414,7 +5002,9 @@
   "cost": null,
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Sentou Seed": {
   "id": 442,
@@ -4427,7 +5017,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Sentou Petal": {
   "id": 443,
@@ -4440,7 +5032,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Sentou Fruit": {
   "id": 444,
@@ -4453,7 +5047,9 @@
   "cost": null,
   "power": 100,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Fire Bell": {
   "id": 445,
@@ -4466,7 +5062,9 @@
   "cost": null,
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Ice Bell": {
   "id": 446,
@@ -4479,7 +5077,9 @@
   "cost": null,
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Wind Bell": {
   "id": 447,
@@ -4492,7 +5092,9 @@
   "cost": null,
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Lightning Bell": {
   "id": 448,
@@ -4505,7 +5107,9 @@
   "cost": null,
   "power": 50,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Flame Dotaku": {
   "id": 449,
@@ -4518,7 +5122,9 @@
   "cost": null,
   "power": 150,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Frigid Dotaku": {
   "id": 450,
@@ -4531,7 +5137,9 @@
   "cost": null,
   "power": 150,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Gale Dotaku": {
   "id": 451,
@@ -4544,7 +5152,9 @@
   "cost": null,
   "power": 150,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Bolt Dotaku": {
   "id": 452,
@@ -4557,7 +5167,9 @@
   "cost": null,
   "power": 150,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Resist Physical": {
   "id": 472,
@@ -4570,7 +5182,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Jinn"
  },
  "Null Physical": {
   "id": 473,
@@ -4583,7 +5197,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Physical": {
   "id": 474,
@@ -4596,7 +5212,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Absorb Physical": {
   "id": 475,
@@ -4609,7 +5227,9 @@
   "cost": null,
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Fire": {
   "id": 476,
@@ -4622,7 +5242,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mother Harlot"
  },
  "Null Fire": {
   "id": 477,
@@ -4635,7 +5257,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Fire": {
   "id": 478,
@@ -4648,7 +5272,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Absorb Fire": {
   "id": 479,
@@ -4661,7 +5287,9 @@
   "cost": null,
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hell Biker"
  },
  "Resist Ice": {
   "id": 480,
@@ -4674,7 +5302,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Suzaku"
  },
  "Null Ice": {
   "id": 481,
@@ -4687,7 +5317,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Ice": {
   "id": 482,
@@ -4700,7 +5332,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Absorb Ice": {
   "id": 483,
@@ -4713,7 +5347,9 @@
   "cost": null,
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Isis"
  },
  "Resist Elec": {
   "id": 484,
@@ -4726,7 +5362,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kumbhanda"
  },
  "Null Elec": {
   "id": 485,
@@ -4739,7 +5377,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Elec": {
   "id": 486,
@@ -4752,7 +5392,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Absorb Elec": {
   "id": 487,
@@ -4765,7 +5407,9 @@
   "cost": null,
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Lucifer"
  },
  "Resist Wind": {
   "id": 488,
@@ -4778,7 +5422,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Chernobog"
  },
  "Null Wind": {
   "id": 489,
@@ -4791,7 +5437,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Wind": {
   "id": 490,
@@ -4804,7 +5452,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Absorb Wind": {
   "id": 491,
@@ -4817,7 +5467,9 @@
   "cost": null,
   "power": null,
   "rank": 8,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Horus"
  },
  "Resist Light": {
   "id": 492,
@@ -4830,7 +5482,9 @@
   "cost": null,
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Null Light": {
   "id": 493,
@@ -4843,7 +5497,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Light": {
   "id": 494,
@@ -4856,7 +5512,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yurlungur"
  },
  "Resist Dark": {
   "id": 495,
@@ -4869,7 +5527,9 @@
   "cost": null,
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Null Dark": {
   "id": 496,
@@ -4882,7 +5542,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Repel Dark": {
   "id": 497,
@@ -4895,7 +5557,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Michael"
  },
  "Null Confuse": {
   "id": 498,
@@ -4908,7 +5572,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Null Exhaust": {
   "id": 499,
@@ -4921,7 +5587,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Null Mute": {
   "id": 500,
@@ -4934,7 +5602,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Null Fear": {
   "id": 501,
@@ -4947,7 +5617,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Null Rage": {
   "id": 502,
@@ -4960,7 +5632,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Null Poison": {
   "id": 503,
@@ -4973,7 +5647,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Null Dizzy": {
   "id": 504,
@@ -4986,7 +5662,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Raphael"
  },
  "Null Enervate": {
   "id": 505,
@@ -4999,7 +5677,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Unshaken Will": {
   "id": 506,
@@ -5012,7 +5692,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Asura"
  },
  "Masakados": {
   "id": 507,
@@ -5025,7 +5707,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Dodge Physical": {
   "id": 508,
@@ -5038,7 +5722,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Baphomet"
  },
  "Evade Physical": {
   "id": 509,
@@ -5051,7 +5737,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Alilat"
  },
  "Dodge Fire": {
   "id": 510,
@@ -5064,7 +5752,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "High Pixie"
  },
  "Evade Fire": {
   "id": 511,
@@ -5077,7 +5767,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Atropos"
  },
  "Dodge Ice": {
   "id": 512,
@@ -5090,7 +5782,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Dis"
  },
  "Evade Ice": {
   "id": 513,
@@ -5103,7 +5797,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "White Rider"
  },
  "Dodge Wind": {
   "id": 514,
@@ -5116,7 +5812,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Andras"
  },
  "Evade Wind": {
   "id": 515,
@@ -5129,7 +5827,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Vasuki"
  },
  "Dodge Elec": {
   "id": 516,
@@ -5142,7 +5842,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ara Mitama"
  },
  "Evade Elec": {
   "id": 517,
@@ -5155,7 +5857,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Seiten Taisei"
  },
  "Angelic Grace": {
   "id": 518,
@@ -5168,7 +5872,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sraosha"
  },
  "Fire Boost": {
   "id": 519,
@@ -5181,7 +5887,9 @@
   "cost": null,
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Hua Po"
  },
  "Fire Amp": {
   "id": 520,
@@ -5194,7 +5902,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Black Frost"
  },
  "Ice Boost": {
   "id": 521,
@@ -5207,7 +5917,9 @@
   "cost": null,
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "King Frost"
  },
  "Ice Amp": {
   "id": 522,
@@ -5220,7 +5932,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Skadi"
  },
  "Elec Boost": {
   "id": 523,
@@ -5233,7 +5947,9 @@
   "cost": null,
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Oberon"
  },
  "Elec Amp": {
   "id": 524,
@@ -5246,7 +5962,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Suparna"
  },
  "Wind Boost": {
   "id": 525,
@@ -5259,7 +5977,9 @@
   "cost": null,
   "power": null,
   "rank": 1.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Fortuna"
  },
  "Wind Amp": {
   "id": 526,
@@ -5272,7 +5992,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Odin"
  },
  "HP Up 1": {
   "id": 528,
@@ -5285,7 +6007,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "HP Up 2": {
   "id": 529,
@@ -5298,7 +6022,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "HP Up 3": {
   "id": 530,
@@ -5311,7 +6037,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "SP Up 1": {
   "id": 531,
@@ -5324,7 +6052,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "SP Up 2": {
   "id": 532,
@@ -5337,7 +6067,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "SP Up 3": {
   "id": 533,
@@ -5350,7 +6082,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Counter": {
   "id": 534,
@@ -5363,7 +6097,9 @@
   "cost": null,
   "power": null,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Rakshasa"
  },
  "Counterstrike": {
   "id": 535,
@@ -5376,7 +6112,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Fuu-Ki"
  },
  "High Counter": {
   "id": 536,
@@ -5389,7 +6127,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Uriel"
  },
  "Regenerate 1": {
   "id": 537,
@@ -5402,7 +6142,9 @@
   "cost": null,
   "power": null,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Sylph"
  },
  "Regenerate 2": {
   "id": 538,
@@ -5415,7 +6157,9 @@
   "cost": null,
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Titania"
  },
  "Regenerate 3": {
   "id": 539,
@@ -5428,7 +6172,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Vishnu"
  },
  "Invigorate 1": {
   "id": 540,
@@ -5441,7 +6187,9 @@
   "cost": null,
   "power": null,
   "rank": 3.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ame-no-Uzume"
  },
  "Invigorate 2": {
   "id": 541,
@@ -5454,7 +6202,9 @@
   "cost": null,
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Barong"
  },
  "Invigorate 3": {
   "id": 542,
@@ -5467,7 +6217,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Satan"
  },
  "Growth 1": {
   "id": 543,
@@ -5480,7 +6232,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Phoenix"
  },
  "Growth 2": {
   "id": 544,
@@ -5493,7 +6247,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Shiki-Ouji"
  },
  "Growth 3": {
   "id": 545,
@@ -5506,7 +6262,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Saturnus"
  },
  "Auto-Tarukaja": {
   "id": 546,
@@ -5519,7 +6277,9 @@
   "cost": null,
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Gurr"
  },
  "Auto-Rakukaja": {
   "id": 547,
@@ -5532,7 +6292,9 @@
   "cost": null,
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Take-Minakata"
  },
  "Auto-Sukukaja": {
   "id": 548,
@@ -5545,7 +6307,9 @@
   "cost": null,
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Makami"
  },
  "Alertness": {
   "id": 549,
@@ -5558,7 +6322,9 @@
   "cost": null,
   "power": null,
   "rank": 2,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Saki Mitama"
  },
  "Sharp Student": {
   "id": 550,
@@ -5571,7 +6337,9 @@
   "cost": null,
   "power": null,
   "rank": 1,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Loki"
  },
  "Apt Pupil": {
   "id": 551,
@@ -5584,7 +6352,9 @@
   "cost": null,
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Okuninushi"
  },
  "Ali Dance": {
   "id": 552,
@@ -5597,7 +6367,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Firm Stance": {
   "id": 553,
@@ -5610,7 +6382,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ongyo-Ki"
  },
  "Spell Master": {
   "id": 554,
@@ -5623,7 +6397,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Shiva"
  },
  "Arms Master": {
   "id": 555,
@@ -5636,7 +6412,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Futsunushi"
  },
  "HP Favor": {
   "id": 556,
@@ -5649,7 +6427,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "SP Favor": {
   "id": 557,
@@ -5662,7 +6442,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Divine Grace": {
   "id": 558,
@@ -5675,7 +6457,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Neko Shogun"
  },
  "Endure": {
   "id": 559,
@@ -5688,7 +6472,9 @@
   "cost": null,
   "power": null,
   "rank": 5.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Ganesha"
  },
  "Enduring Soul": {
   "id": 560,
@@ -5701,7 +6487,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Attis"
  },
  "Survive Light": {
   "id": 561,
@@ -5714,7 +6502,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Samael"
  },
  "Survive Dark": {
   "id": 562,
@@ -5727,7 +6517,9 @@
   "cost": null,
   "power": null,
   "rank": 4.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Gabriel"
  },
  "Auto-Maraku": {
   "id": 563,
@@ -5740,7 +6532,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Setanta"
  },
  "Auto-Mataru": {
   "id": 564,
@@ -5753,7 +6547,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Narasimha"
  },
  "Auto-Masuku": {
   "id": 565,
@@ -5766,7 +6562,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kingu"
  },
  "Confuse Boost": {
   "id": 566,
@@ -5779,7 +6577,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Poison Boost": {
   "id": 567,
@@ -5792,7 +6592,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Exhaust Boost": {
   "id": 568,
@@ -5805,7 +6607,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Silence Boost": {
   "id": 569,
@@ -5818,7 +6622,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Fear Boost": {
   "id": 570,
@@ -5831,7 +6637,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Rage Boost": {
   "id": 571,
@@ -5844,7 +6652,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Dizzy Boost": {
   "id": 572,
@@ -5857,7 +6667,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Enervate Boost": {
   "id": 573,
@@ -5870,7 +6682,9 @@
   "cost": null,
   "power": null,
   "rank": 4,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Ailment Boost": {
   "id": 574,
@@ -5883,7 +6697,9 @@
   "cost": null,
   "power": null,
   "rank": 6,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Nozuchi"
  },
  "Hama Boost": {
   "id": 575,
@@ -5896,7 +6712,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Angel"
  },
  "Mudo Boost": {
   "id": 576,
@@ -5909,7 +6727,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Mot"
  },
  "Endure Light": {
   "id": 577,
@@ -5922,7 +6742,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Belial"
  },
  "Endure Dark": {
   "id": 578,
@@ -5935,7 +6757,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Daisoujou"
  },
  "Cool Breeze": {
   "id": 579,
@@ -5948,7 +6772,9 @@
   "cost": null,
   "power": null,
   "rank": 5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Yatagarasu"
  },
  "Victory Cry": {
   "id": 580,
@@ -5961,7 +6787,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Izanagi-no-Okami"
  },
  "Resist Poison": {
   "id": 581,
@@ -5974,7 +6802,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Confuse": {
   "id": 582,
@@ -5987,7 +6817,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Fear": {
   "id": 583,
@@ -6000,7 +6832,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Exhaust": {
   "id": 584,
@@ -6013,7 +6847,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Enervate": {
   "id": 585,
@@ -6026,7 +6862,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Rage": {
   "id": 586,
@@ -6039,7 +6877,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Dizzy": {
   "id": 587,
@@ -6052,7 +6892,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "Resist Mute": {
   "id": 588,
@@ -6065,7 +6907,9 @@
   "cost": null,
   "power": null,
   "rank": 2.5,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": null
  },
  "HP Amp": {
   "id": 589,
@@ -6078,7 +6922,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "SP Amp": {
   "id": 590,
@@ -6091,7 +6937,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Fast Heal": {
   "id": 591,
@@ -6104,7 +6952,9 @@
   "cost": null,
   "power": null,
   "rank": 3,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Kaguya"
  },
  "Insta-Heal": {
   "id": 592,
@@ -6117,7 +6967,9 @@
   "cost": null,
   "power": null,
   "rank": 7,
-  "unique": false
+  "unique": false,
+  "card": true,
+  "cafe": "Norn"
  },
  "Infinite Endure": {
   "id": 593,
@@ -6130,7 +6982,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Izanami Endure": {
   "id": 594,
@@ -6143,7 +6997,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "Alienation Wall": {
   "id": 595,
@@ -6156,7 +7012,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "AoA Level 1": {
   "id": 610,
@@ -6169,7 +7027,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "AoA Level 2": {
   "id": 611,
@@ -6182,7 +7042,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "AoA Level 3": {
   "id": 612,
@@ -6195,7 +7057,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "AoA Level 4": {
   "id": 613,
@@ -6208,7 +7072,9 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  },
  "AoA Level 5": {
   "id": 614,
@@ -6221,6 +7087,8 @@
   "cost": null,
   "power": null,
   "rank": null,
-  "unique": false
+  "unique": false,
+  "card": false,
+  "cafe": null
  }
 }

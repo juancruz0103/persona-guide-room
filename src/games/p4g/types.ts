@@ -59,4 +59,8 @@ export interface SkillInfo {
   power: number | null;
   rank: number | null;
   unique: boolean;
+  /** Existe como skill card */
+  card: boolean;
+  /** Persona que la da en la Cafetería Chagall */
+  cafe: string | null;
 }

@@ -46,6 +46,7 @@ const PERSONA_ALIAS = {
 };
 const officialPersona = (name) => gamePersona.get(norm(PERSONA_ALIAS[name] ?? name)) ?? null;
 const gameSkill = new Map(game.skills.map((s) => [s.id, s]));
+const cardNames = new Set(game.skillCards);
 
 /* ---------- Mapeos ---------- */
 const RESIST_ELEMS = ['phy', 'fir', 'ice', 'ele', 'win', 'lig', 'dar', 'alm'];
@@ -87,6 +88,8 @@ for (const [id, row] of Object.entries(rawSkills)) {
     power: power || null,
     rank: rank || null,
     unique: rank > 89,
+    card: cardNames.has(g?.en ?? name),
+    cafe: null,
   };
   if (!g) warnings.push(`Skill sin nombre del juego: ${name} (${id})`);
 }
@@ -97,7 +100,10 @@ for (const [id, row] of Object.entries(rawSkills)) {
 const cafeCard = {};
 for (const row of Object.values(rawSkills)) {
   const persona = row.c?.[2];
-  if (persona && persona !== '-') cafeCard[persona] = row.a[0];
+  if (persona && persona !== '-') {
+    cafeCard[persona] = row.a[0];
+    if (skills[row.a[0]]) skills[row.a[0]].cafe = persona;
+  }
 }
 
 /* ---------- Desbloqueos ---------- */

@@ -7,6 +7,7 @@ Uso: python3 -I extract_text.py <carpeta P4G-texto-ES> <carpeta P4G-texto-EN> <s
 """
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -24,7 +25,9 @@ def read(lang, folder):
     s = p4g.sections(free['battle/MSG.TBL'])
     msgs = p4g.pak2(init['init/datMsg.pak'])
     help_ = p4g.bmd(msgs['datSkillHelp.bmd'])
+    cards = p4g.bmd(msgs['datSkillCardHelp.bmd'])
     return {
+        'cards': [' '.join(v).replace('\n', ' ') for k, v in cards.items()],
         'arcana': p4g.fixed(s[0], 21),
         'skills': p4g.fixed(s[1], WIDTH[lang]['skills']),
         'personas': p4g.fixed(s[3], 21),
@@ -40,6 +43,8 @@ def main():
         'personas': [{'id': i, 'en': a, 'es': b} for i, (a, b) in enumerate(zip(en['personas'], es['personas'])) if a and a != '0' and a != 'blank'],
         'skills': [{'id': i, 'en': a, 'es': b} for i, (a, b) in enumerate(zip(en['skills'], es['skills'])) if a],
         'skillHelp': {i: {'en': en['skillHelp'].get(i, ''), 'es': es['skillHelp'].get(i, '')} for i in sorted(set(en['skillHelp']) | set(es['skillHelp']))},
+        # Habilidades que existen como skill card (texto: "Skill Card that bestows X.")
+        'skillCards': [m.group(1).strip().rstrip('.') for t in en['cards'] if (m := re.search(r'bestows\s+(.+?)\.?$', t))],
     }
     with open(out, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
