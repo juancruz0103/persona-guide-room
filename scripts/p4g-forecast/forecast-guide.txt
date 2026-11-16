@@ -1,0 +1,145 @@
+# Pronóstico de fusiones de Persona 4 Golden. Fuente: Megami Tensei Wiki, "Calendar in Persona 4 Golden".
+# fecha|condición|efecto
+4/18|None|Stats increase
+4/19|Use a Magician Persona as a fusion material|Learn Zio
+4/21|Fuse Archangel|Stats increase; Learn Agi
+4/23|Use Ghoul and Orobas as fusion materials|Learn Rakunda
+4/24|None|Skill change
+4/25|Use Orobas and Cu Sith as fusion materials|Stats increase; Learn Media
+4/27|None|Stats increase
+4/28|Fuse Berith|Learn Mabufu
+4/29|None|Stats increase
+5/1|Fuse Jack Frost|Learn Resist Fire; Stats increase
+5/2|None|Stats increase
+5/3|None|Skill change
+5/4|None|Skill change
+5/6|Fuse a Hierophant Persona|Learn Dodge Fire
+5/7|None|Stats increase
+5/12|Fuse Ara Mitama|Learn Auto-Tarukaja
+5/18|None|Skill change
+5/19|Fuse a Justice Persona|Social Link EXP; Learn Maragi
+5/20|None|Skill change
+5/21|Fuse a Priestess Persona|Social Link EXP; Learn Resist Dizzy
+5/24|Use Andras as a fusion material|Learn a Wind skill
+5/25|Fuse an Aeon Persona|Learn Agilao
+5/28|Fuse King Frost|Learn Growth 1
+5/31|Use Shiisaa as a fusion material|Stats increase; Social Link EXP
+6/2|Fuse a Magician Persona|Learn a Recovery skill; Stats increase
+6/3|Fuse Ares|Learn Null Poison
+6/4|None|Stats increase
+6/7|Use a Hanged Man Persona as a fusion material|Learn an Ice skill; Stats increase
+6/9|Use a Moon Persona and a Devil Persona as fusion materials|Learn Wind Boost
+6/10|None|Stats increase
+6/12|Fuse Incubus|Learn Null Ice
+6/13|Use Rakshasa and Matador as fusion materials|Learn Resist Ice; Stats increase
+6/14|None|Stats increase
+6/21|None|Social Link EXP; Stats increase; Learn a Recovery skill
+6/24|None|Skill change
+6/27|Fuse a Jester Persona|Stats increase; Social Link EXP
+6/28|Use Yomotsu-Ikusa as a fusion material|Learn a Wind skill
+6/30|Use Titania and Makami as fusion materials|Learn Bufula; Stats increase
+7/1|None|Stats increase
+7/4|None|Skill change
+7/5|Fuse an Emperor Persona|Learn a Support skill
+7/8|None|Stats increase
+7/9|None|Stats increase
+7/12|Use Unicorn as a fusion material|Stats increase; Learn a Fire skill
+7/14|None|Skill change
+7/15|None|Skill change
+7/16|None|Stats increase
+7/18|Fuse Flauros|Learn Power Charge
+7/24|Use Pyro Jack as a fusion material|Learn an Ice skill
+7/26|None|Stats increase
+7/29|Use a Sun Persona as a fusion material|Learn Growth 2
+7/30|None|Skill change
+8/1|None|Social Link EXP
+8/2|Use Samael as a fusion material|Skill change
+8/4|None|Skill change
+8/5|None|Skill change
+8/6|Use Orthrus and Yatagarasu as fusion materials|Learn Null Enervate; Social Link EXP
+8/7|None|Social Link EXP
+8/10|None|Learn a Support skill
+8/11|None|Stats increase
+8/12|None|Stats increase
+8/13|Fuse a Death Persona|Learn Mediarama; Social Link EXP
+8/14|None|Stats increase
+8/22|None|Skill change
+8/23|None|Skill change
+8/24|None|Social Link EXP
+8/25|None|Stats increase
+8/26|None|Skill change
+8/27|Fuse Rangda|Learn Null Ice
+8/29|None|Stats increase
+9/1|None|Skill change
+9/2|None|Social Link EXP
+9/3|Use a Moon Persona as a fusion material|Learn a Support skill; Stats increase
+9/4|None|Skill change
+9/5|None|Skill change
+9/6|None|Stats increase
+9/7|Fuse Cu Chulainn|Learn Null Elec; Stats increase
+9/13|None|Stats increase
+9/14|Use Hanuman and Hitokotonusi as fusion materials|Learn Arms Master
+9/16|None|Skill change
+9/17|Use Leanan Sidhe as a fusion material|Learn an Ice skill; Social Link EXP
+9/18|None|Skill change
+9/21|Fuse Tam Lin|Learn Amrita; Stats increase; Social Link EXP
+9/22|None|Social Link EXP
+9/25|Use Throne as a fusion material|Learn an Ice skill; Social Link EXP; Skill change
+9/27|None|Skill change
+9/28|None|Stats increase
+9/30|None|Social Link EXP
+10/1|Use a Hermit Persona as a fusion material|Learn a Recovery skill; Social Link EXP
+10/3|None|Skill change
+10/4|None|Stats increase
+10/5|None|Stats increase
+10/8|Fuse Raphael|Learn Mind Charge
+10/11|None|Skill change
+10/12|None|Stats increase
+10/16|Use a Justice Persona and a Priestess Persona as fusion materials|Learn Repel Fire
+10/21|Use an Empress Persona as a fusion material|Stats increase; Social Link EXP
+10/22|None|Stats increase
+10/23|None|Social Link EXP
+10/25|Fuse Garuda|Stats increase; Social Link EXP; Learn Spell Master
+10/26|None|Skill change
+10/31|None|Skill change
+11/2|Use Cerberus as a fusion material|Stats increase; Learn Samarecarm
+11/3|None|Social Link EXP; Skill change
+11/4|None|Stats increase
+11/7|None|Skill change
+11/8|Fuse Daisoujou|Learn Mind Charge
+11/9|None|Skill change
+11/11|None|Stats increase
+11/12|Use a Magician Persona as a fusion material|Learn an Elec skill; Social Link EXP
+11/13|None|Stats increase; Skill change
+11/15|Fuse Siegfried|Learn Enduring Soul; Stats increase
+11/18|None|Stats increase
+11/19|Fuse Nebiros|Learn Ali Dance; Social Link EXP
+11/20|None|Stats increase
+11/24|Fuse Kartikeya|Learn Angelic Grace
+11/26|Fuse a Magician Persona|Learn Marakukaja
+12/8|Fuse Hell Biker|Learn Evade Ice; Stats increase
+12/11|Use a Judgement Persona as a fusion material|Learn a Fire skill; Learn an Elec skill; Social Link EXP
+12/12|None|Social Link EXP
+12/13|None|Skill change
+12/15|Fuse Alice|Learn Angelic Grace
+12/16|None|Stats increase
+12/17|None|Social Link EXP
+12/19|Fuse Yoshitsune|Learn Arms Master
+12/21|Fuse Ishtar|Learn Insta-Heal; Learn a Fire skill
+12/23|None|Stats increase; Social Link EXP
+12/24|Fuse Yoshitsune|Learn Debilitate
+1/11|Use an Aeon Persona as a fusion material|Learn Enduring Soul
+1/13|None|Skill change
+1/14|Use a Fool Persona and a Judgement Persona as fusion materials|Learn Salvation
+1/16|None|Stats increase
+1/17|None|Skill change
+1/18|Fuse Suparna|Stats increase; Learn Evade Elec
+1/21|None|Social Link EXP
+1/24|None|Skill change; Stats increase
+1/27|Use a Fortune Persona as a fusion material|Stats increase; Learn an Ice skill
+1/28|None|Social Link EXP
+1/31|Use a Death Persona as a fusion material|Learn a Recovery skill
+2/1|None|Stats increase
+2/3|Fuse a Moon Persona|Learn Unshaken Will
+2/13|None|Stats increase
+3/20|None|Stats increase

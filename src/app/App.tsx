@@ -45,6 +45,7 @@ const P4Profile = lazy(() => import('../games/p4g/pages/PersonaProfile'));
 const P4Fusion = lazy(() => import('../games/p4g/pages/Fusion'));
 const P4Specials = lazy(() => import('../games/p4g/pages/Specials'));
 const P4SkillCards = lazy(() => import('../games/p4g/pages/SkillCards'));
+const P4Forecast = lazy(() => import('../games/p4g/pages/Forecast'));
 const P4Classes = lazy(() => import('../games/p4g/pages/Classes'));
 const P4Links = lazy(() => import('../games/p4g/pages/Links'));
 const P4LinkProfile = lazy(() => import('../games/p4g/pages/LinkProfile'));
@@ -66,6 +67,7 @@ const HeartsScreen = byGame({ p3r: P3Hearts });
 const LinksScreen = byGame({ p3r: P3Links, p4g: P4Links });
 const LinkProfileScreen = byGame({ p3r: P3LinkProfile, p4g: P4LinkProfile });
 const p5rOnly = (C: ComponentType) => byGame({ p5r: C });
+const ForecastScreen = byGame({ p4g: P4Forecast });
 const SkillCardsScreen = byGame({ p5r: SkillCards, p4g: P4SkillCards });
 const TechnicalScreen = p5rOnly(Technical);
 const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes });
@@ -97,6 +99,7 @@ export function App() {
             <Route path="calculadora/especiales" element={<SpecialsScreen />} />
             <Route path="calculadora/corazones" element={<HeartsScreen />} />
             <Route path="calculadora/skill-cards" element={<SkillCardsScreen />} />
+            <Route path="calculadora/pronostico" element={<ForecastScreen />} />
             <Route path="calculadora/persona/:personaId" element={<ProfileScreen />} />
             <Route path="tecnicos" element={<TechnicalScreen />} />
             <Route path="clases" element={<SchoolScreen />} />
