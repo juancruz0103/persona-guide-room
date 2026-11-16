@@ -14,7 +14,8 @@ import fusionJson from '../data/generated/fusion.json';
 import { getFusionEngine } from '../fusion';
 import { getPersona, PARTY_OWNER } from '../services/personas';
 import { itemName, personaMyth, personaName } from '../services/text';
-import { unlockText } from '../services/unlock';
+import { aigisUnlockText, unlockText } from '../services/unlock';
+import { useAigisMode } from '../services/aigisMode';
 import type { SkillElement } from '../types';
 import styles from './PersonaProfile.module.css';
 import { heartDescription } from './Hearts';
@@ -27,6 +28,7 @@ const STATS = () => [
 
 export default function PersonaProfile() {
   const { personaId = '' } = useParams();
+  const [aigis] = useAigisMode();
   const p = getPersona(personaId);
   if (!p)
     return (
@@ -178,7 +180,14 @@ export default function PersonaProfile() {
             {p.unlock && (
               <section className={styles.box}>
                 <h2 className={styles.h2}>{L('Cómo desbloquearla', 'How to unlock it')}</h2>
-                <p className={styles.note}>{unlockText(p.unlock)}</p>
+                {aigis && p.unlock.type !== 'dlc' ? (
+                  <>
+                    <p className={styles.note}><s>{unlockText(p.unlock)}</s></p>
+                    <p className={styles.note}>{aigisUnlockText()}</p>
+                  </>
+                ) : (
+                  <p className={styles.note}>{unlockText(p.unlock)}</p>
+                )}
               </section>
             )}
           </div>

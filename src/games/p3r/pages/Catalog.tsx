@@ -7,6 +7,7 @@ import type { ArcanaId } from '../types';
 import { DEFAULT_FILTERS, filterPersonas, getAllPersonas, type CatalogFilters } from '../services/personas';
 import styles from '../../p5r/pages/Catalog.module.css';
 import { L } from '../../../i18n';
+import { useAigisMode } from '../services/aigisMode';
 
 export default function Catalog() {
   const [f, setF] = useSessionState<CatalogFilters>('p3r.catalog.filters2', DEFAULT_FILTERS);
@@ -14,6 +15,7 @@ export default function Catalog() {
   const set = <K extends keyof CatalogFilters>(k: K, v: CatalogFilters[K]) => setF((p) => ({ ...p, [k]: v }));
   const toggleArcana = (id: ArcanaId) =>
     set('arcanas', f.arcanas.includes(id) ? f.arcanas.filter((a) => a !== id) : [...f.arcanas, id]);
+  const [aigis, setAigis] = useAigisMode();
   const clamp = (v: string) => Math.min(99, Math.max(1, Number(v) || 1));
 
   return (
@@ -57,6 +59,11 @@ export default function Catalog() {
               <input type="checkbox" checked={!!f.heartOnly} onChange={(e) => set('heartOnly', e.target.checked)} />
               {L('Solo las que dan objeto de corazón', 'Only those with a heart item')}
             </label>
+            <label className={styles.check}>
+              <input type="checkbox" checked={aigis} onChange={(e) => setAigis(e.target.checked)} />
+              {L('Modo Episodio Aigis', 'Episode Aigis mode')}
+            </label>
+            <p className={styles.note}>{L('Sin vínculos ni calendario. La tabla de fusión es la misma.', 'No Social Links or calendar. The fusion chart is the same.')}</p>
           </fieldset>
           <fieldset className={`${styles.group} ${styles.options}`}>
             <legend className="label label-accent">{L('Personas de compañeros', 'Party Personas')}</legend>

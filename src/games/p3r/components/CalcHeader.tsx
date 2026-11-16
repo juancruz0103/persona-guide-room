@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import styles from '../../p5r/components/CalculatorHeader.module.css';
 import { L } from '../../../i18n';
+import { useAigisMode } from '../services/aigisMode';
 
 const TABS = () => [
   { id: 'catalog', label: L('Catálogo', 'Catalog'), to: '/p3r/calculadora' },
@@ -19,7 +20,9 @@ export function CalcHeader() {
     : pathname.endsWith('/fusionar')
       ? new URLSearchParams(search).get('modo') === 'inversa' ? 'reverse' : 'fuse'
       : 'catalog';
+  const [aigis, setAigis] = useAigisMode();
   return (
+    <>
     <section className={styles.band}>
       <div className={`container ${styles.inner}`}>
         <h1 className={styles.title}>{L('Calculadora de Personas', 'Persona Calculator')}</h1>
@@ -33,5 +36,18 @@ export function CalcHeader() {
         </nav>
       </div>
     </section>
+    {aigis && (
+      <div className={styles.aigis} role="status">
+        <div className="container">
+          <span>
+            <strong>{L('Modo Episodio Aigis activo', 'Episode Aigis mode on')}</strong>
+            {' · '}
+            {L('No hay vínculos: las Personas con requisitos se liberan al avanzar en la historia.', 'No Social Links: Personas with requirements unlock as you progress through the story.')}
+          </span>
+          <button type="button" onClick={() => setAigis(false)}>{L('Desactivar', 'Turn off')}</button>
+        </div>
+      </div>
+    )}
+    </>
   );
 }

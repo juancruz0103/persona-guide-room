@@ -6,6 +6,10 @@ const TEAMMATE: Record<string, string> = {
   junpei: 'Junpei', akihiko: 'Akihiko', koromaru: 'Koromaru', ken: 'Ken', shinjiro: 'Shinjiro', ryoji: 'Ryoji',
 };
 
+/** En el Episodio Aigis, todo menos los packs DLC se libera avanzando en la historia. */
+export const aigisUnlockText = (): string =>
+  L('En el Episodio Aigis: se libera al avanzar en la historia.', 'In Episode Aigis: unlocked as you progress through the story.');
+
 /** Condición para poder fusionar la Persona, en texto. */
 export function unlockText(u: UnlockCondition): string {
   switch (u.type) {
