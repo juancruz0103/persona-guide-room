@@ -41,6 +41,8 @@ export interface Persona {
   stats: { st: number; ma: number; en: number; ag: number; lu: number };
   skills: PersonaSkill[];
   inheritance: string | null;
+  /** Skill card que da en la Cafetería Chagall si la llevás equipada */
+  cafeCard: string | null;
   /** Personas de compañeros: inicial, evolución (vínculo al máximo) y forma final (spoiler) */
   party?: { owner: string; stage: 'initial' | 'evolved' | 'ultimate'; baseId?: string; evolvedId?: string };
 }

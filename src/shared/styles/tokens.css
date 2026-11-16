@@ -75,10 +75,10 @@
   --c-ink: #211d12;
   --c-royal: #a87912;
   --c-romance: #f28cc1;
-  --c-hp: #7ce38b;
-  --c-sp: #d6b65c;
-  --c-hp-dark: #2f8a3d;
-  --c-sp-dark: #86600c;
+  --c-hp: #fef926;      /* PS: amarillo, como la barra del juego */
+  --c-sp: #a9e820;      /* PE: verde lima, como la barra del juego */
+  --c-hp-dark: #a8a300;
+  --c-sp-dark: #5e8a00;
 }
 
 /* Ilustraciones del Golden: fondo transparente, se muestran enteras. */

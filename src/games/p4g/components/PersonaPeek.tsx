@@ -20,7 +20,7 @@ export function PersonaPeek({ persona, below = false, className }: { persona: Pe
       </Link>
       <span className={`${styles.preview} ${below ? styles.below : ''}`} aria-hidden="true">
         {photo ? (
-          <img className={styles.photoImg} src={photo} alt="" loading="lazy" decoding="async" />
+          <img className={styles.photoImg} src={photo} alt="" loading="lazy" decoding="async" style={{ objectFit: 'contain', padding: 6, background: 'radial-gradient(circle at 50% 40%, #3a321c 0%, #211d12 75%)' }} />
         ) : (
           <span className={`img-stripes ${styles.photo}`}>
             <span>{isSpoiler(persona) ? 'Spoiler' : L('Foto', 'Photo')}</span>

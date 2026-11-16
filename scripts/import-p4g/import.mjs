@@ -91,6 +91,15 @@ for (const [id, row] of Object.entries(rawSkills)) {
   if (!g) warnings.push(`Skill sin nombre del juego: ${name} (${id})`);
 }
 
+/* ---------- Cafetería Chagall ----------
+ * Si la Persona equipada tiene una habilidad marcada con carta y vas a la
+ * Cafetería Chagall, te dan esa skill card. Cada Persona da una. */
+const cafeCard = {};
+for (const row of Object.values(rawSkills)) {
+  const persona = row.c?.[2];
+  if (persona && persona !== '-') cafeCard[persona] = row.a[0];
+}
+
 /* ---------- Desbloqueos ---------- */
 const unlockOf = {};
 for (const cat of unlocks) {
@@ -129,6 +138,7 @@ function convert(name, d, resists, extra = {}) {
     stats: { st, ma, en, ag, lu },
     skills: sk,
     inheritance: d.inherits ?? null,
+    cafeCard: cafeCard[name] ?? null,
     ...extra,
   };
 }

@@ -165,6 +165,16 @@ export default function PersonaProfile() {
               </section>
             )}
 
+            {p.cafeCard && (
+              <section className={styles.box}>
+                <h2 className={styles.h2}>{L('Skill card', 'Skill card')}</h2>
+                <ul className={styles.skills}><SkillRow name={p.cafeCard} /></ul>
+                <p className={styles.note}>
+                  {L('Si la llevás equipada y vas a la Cafetería Chagall, te dan esta skill card.', 'Equip it and visit Cafe Chagall to get this skill card.')}
+                </p>
+              </section>
+            )}
+
             {p.unlock && (
               <section className={styles.box}>
                 <h2 className={styles.h2}>{L('Cómo desbloquearla', 'How to unlock it')}</h2>

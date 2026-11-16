@@ -59,7 +59,8 @@
     "level": 62
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Arrow Rain"
  },
  {
   "id": "alice",
@@ -124,7 +125,8 @@
     "level": 79
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Mind Charge"
  },
  {
   "id": "alilat",
@@ -182,7 +184,8 @@
     "level": 75
    }
   ],
-  "inheritance": "support"
+  "inheritance": "support",
+  "cafeCard": "Evade Physical"
  },
  {
   "id": "alraune",
@@ -244,7 +247,8 @@
     "level": 46
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Old One"
  },
  {
   "id": "amaterasu",
@@ -410,6 +414,7 @@
    }
   ],
   "inheritance": "fire",
+  "cafeCard": null,
   "party": {
    "owner": "yukiko",
    "stage": "evolved",
@@ -477,7 +482,8 @@
     "level": 24
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Invigorate 1"
  },
  {
   "id": "ananta",
@@ -539,7 +545,8 @@
     "level": 64
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Green Wall"
  },
  {
   "id": "andras",
@@ -601,7 +608,8 @@
     "level": 25
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Dodge Wind"
  },
  {
   "id": "angel",
@@ -659,7 +667,8 @@
     "level": 9
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Hama Boost"
  },
  {
   "id": "anubis",
@@ -725,7 +734,8 @@
     "level": 65
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Mahamaon"
  },
  {
   "id": "anzu",
@@ -787,7 +797,8 @@
     "level": 20
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Magaru"
  },
  {
   "id": "apsaras",
@@ -841,7 +852,8 @@
     "level": 7
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Me Patra"
  },
  {
   "id": "ara-mitama",
@@ -899,7 +911,8 @@
     "level": 23
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Dodge Elec"
  },
  {
   "id": "arahabaki",
@@ -957,7 +970,8 @@
     "level": 80
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Tetrakarn"
  },
  {
   "id": "archangel",
@@ -1019,7 +1033,8 @@
     "level": 15
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Muzzle Shot"
  },
  {
   "id": "ardha",
@@ -1088,7 +1103,8 @@
     "level": 96
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "God's Hand"
  },
  {
   "id": "ares",
@@ -1146,7 +1162,8 @@
     "level": 30
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Gale Slash"
  },
  {
   "id": "asura",
@@ -1211,7 +1228,8 @@
     "level": 92
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Unshaken Will"
  },
  {
   "id": "atavaka",
@@ -1273,7 +1291,8 @@
     "level": 79
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Brave Blade"
  },
  {
   "id": "atropos",
@@ -1331,7 +1350,8 @@
     "level": 70
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Evade Fire"
  },
  {
   "id": "attis",
@@ -1396,7 +1416,8 @@
     "level": 88
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Enduring Soul"
  },
  {
   "id": "baal-zebul",
@@ -1458,7 +1479,8 @@
     "level": 82
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Stagnant Air"
  },
  {
   "id": "baphomet",
@@ -1520,7 +1542,8 @@
     "level": 53
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Dodge Physical"
  },
  {
   "id": "barong",
@@ -1582,7 +1605,8 @@
     "level": 72
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Invigorate 2"
  },
  {
   "id": "beelzebub",
@@ -1658,7 +1682,8 @@
     "level": 87
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Primal Force"
  },
  {
   "id": "belial",
@@ -1716,7 +1741,8 @@
     "level": 73
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Endure Light"
  },
  {
   "id": "belphegor",
@@ -1778,7 +1804,8 @@
     "level": 67
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Marakunda"
  },
  {
   "id": "berith",
@@ -1840,7 +1867,8 @@
     "level": 20
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Maragi"
  },
  {
   "id": "black-frost",
@@ -1912,7 +1940,8 @@
     "level": 44
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Fire Amp"
  },
  {
   "id": "byakko",
@@ -1974,7 +2003,8 @@
     "level": 68
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Mabufudyne"
  },
  {
   "id": "cerberus",
@@ -2036,7 +2066,8 @@
     "level": 58
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Gigantic Fist"
  },
  {
   "id": "chernobog",
@@ -2098,7 +2129,8 @@
     "level": 69
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Resist Wind"
  },
  {
   "id": "clotho",
@@ -2160,7 +2192,8 @@
     "level": 50
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Magarula"
  },
  {
   "id": "cu-chulainn",
@@ -2226,7 +2259,8 @@
     "level": 53
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "White Wall"
  },
  {
   "id": "cu-sith",
@@ -2288,7 +2322,8 @@
     "level": 15
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Garu"
  },
  {
   "id": "cybele",
@@ -2346,7 +2381,8 @@
     "level": 70
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Vicious Strike"
  },
  {
   "id": "daisoujou",
@@ -2412,7 +2448,8 @@
     "level": 67
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Endure Dark"
  },
  {
   "id": "decarabia",
@@ -2474,7 +2511,8 @@
     "level": 52
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Megidola"
  },
  {
   "id": "dis",
@@ -2536,7 +2574,8 @@
     "level": 44
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Dodge Ice"
  },
  {
   "id": "dominion",
@@ -2598,7 +2637,8 @@
     "level": 44
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Mazionga"
  },
  {
   "id": "eligor",
@@ -2660,7 +2700,8 @@
     "level": 17
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Poison Skewer"
  },
  {
   "id": "flauros",
@@ -2722,7 +2763,8 @@
     "level": 41
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Herculean Strike"
  },
  {
   "id": "forneus",
@@ -2780,7 +2822,8 @@
     "level": 10
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Bufu"
  },
  {
   "id": "fortuna",
@@ -2838,7 +2881,8 @@
     "level": 41
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Wind Boost"
  },
  {
   "id": "futsunushi",
@@ -2913,7 +2957,8 @@
     "level": 86
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Arms Master"
  },
  {
   "id": "fuu-ki",
@@ -2975,7 +3020,8 @@
     "level": 49
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Counterstrike"
  },
  {
   "id": "gabriel",
@@ -3033,7 +3079,8 @@
     "level": 50
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Survive Dark"
  },
  {
   "id": "ganesha",
@@ -3095,7 +3142,8 @@
     "level": 56
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Endure"
  },
  {
   "id": "ganga",
@@ -3157,7 +3205,8 @@
     "level": 35
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Bufula"
  },
  {
   "id": "garuda",
@@ -3219,7 +3268,8 @@
     "level": 63
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Garudyne"
  },
  {
   "id": "gdon",
@@ -3281,7 +3331,8 @@
     "level": 36
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Fire Break"
  },
  {
   "id": "genbu",
@@ -3343,7 +3394,8 @@
     "level": 46
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Mabufula"
  },
  {
   "id": "ghoul",
@@ -3405,7 +3457,8 @@
     "level": 14
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Sukukaja"
  },
  {
   "id": "girimehkala",
@@ -3471,7 +3524,8 @@
     "level": 56
    }
   ],
-  "inheritance": "support"
+  "inheritance": "support",
+  "cafeCard": "Tetraja"
  },
  {
   "id": "gorgon",
@@ -3529,7 +3583,8 @@
     "level": 39
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Crazy Chain"
  },
  {
   "id": "gurr",
@@ -3591,7 +3646,8 @@
     "level": 27
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Auto-Tarukaja"
  },
  {
   "id": "hachiman",
@@ -3649,7 +3705,8 @@
     "level": 75
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Elec Break"
  },
  {
   "id": "hanuman",
@@ -3711,7 +3768,8 @@
     "level": 48
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Mighty Swing"
  },
  {
   "id": "haraedo-no-okami",
@@ -3877,6 +3935,7 @@
    }
   ],
   "inheritance": "phys",
+  "cafeCard": null,
   "party": {
    "owner": "chie",
    "stage": "ultimate",
@@ -3939,7 +3998,8 @@
     "level": 64
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Bufudyne"
  },
  {
   "id": "helel",
@@ -4008,7 +4068,8 @@
     "level": 94
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "Salvation"
  },
  {
   "id": "hell-biker",
@@ -4070,7 +4131,8 @@
     "level": 73
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Absorb Fire"
  },
  {
   "id": "high-pixie",
@@ -4132,7 +4194,8 @@
     "level": 27
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Dodge Fire"
  },
  {
   "id": "himiko",
@@ -4246,6 +4309,7 @@
    }
   ],
   "inheritance": "almighty",
+  "cafeCard": null,
   "party": {
    "owner": "rise",
    "stage": "initial",
@@ -4312,7 +4376,8 @@
     "level": 47
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Poison Arrow"
  },
  {
   "id": "hokuto-seikun",
@@ -4374,7 +4439,8 @@
     "level": 51
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Blade of Fury"
  },
  {
   "id": "horus",
@@ -4432,7 +4498,8 @@
     "level": 73
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Absorb Wind"
  },
  {
   "id": "hua-po",
@@ -4494,7 +4561,8 @@
     "level": 30
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Fire Boost"
  },
  {
   "id": "incubus",
@@ -4552,7 +4620,8 @@
     "level": 33
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Evil Smile"
  },
  {
   "id": "ippon-datara",
@@ -4610,7 +4679,8 @@
     "level": 22
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Mamudo"
  },
  {
   "id": "ishtar",
@@ -4679,7 +4749,8 @@
     "level": 78
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Mediarahan"
  },
  {
   "id": "isis",
@@ -4748,7 +4819,8 @@
     "level": 86
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Absorb Ice"
  },
  {
   "id": "izanagi",
@@ -4802,7 +4874,8 @@
     "level": 5
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Zio"
  },
  {
   "id": "izanagi-no-okami",
@@ -4900,7 +4973,8 @@
     "level": 99
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "Victory Cry"
  },
  {
   "id": "jack-frost",
@@ -4962,7 +5036,8 @@
     "level": 25
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Mabufu"
  },
  {
   "id": "jatayu",
@@ -5020,7 +5095,8 @@
     "level": 66
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Magarudyne"
  },
  {
   "id": "jinn",
@@ -5078,7 +5154,8 @@
     "level": 68
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Resist Physical"
  },
  {
   "id": "jiraiya",
@@ -5240,6 +5317,7 @@
    }
   ],
   "inheritance": "wind",
+  "cafeCard": null,
   "party": {
    "owner": "yosuke",
    "stage": "initial",
@@ -5309,7 +5387,8 @@
     "level": 80
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Fast Heal"
  },
  {
   "id": "kaiwan",
@@ -5371,7 +5450,8 @@
     "level": 29
    }
   ],
-  "inheritance": "support"
+  "inheritance": "support",
+  "cafeCard": "Life Drain"
  },
  {
   "id": "kali",
@@ -5429,7 +5509,8 @@
     "level": 55
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Revolution"
  },
  {
   "id": "kamui",
@@ -5591,6 +5672,7 @@
    }
   ],
   "inheritance": "ice",
+  "cafeCard": null,
   "party": {
    "owner": "teddie",
    "stage": "evolved",
@@ -5758,6 +5840,7 @@
    }
   ],
   "inheritance": "ice",
+  "cafeCard": null,
   "party": {
    "owner": "teddie",
    "stage": "ultimate",
@@ -5876,6 +5959,7 @@
    }
   ],
   "inheritance": "almighty",
+  "cafeCard": null,
   "party": {
    "owner": "rise",
    "stage": "evolved",
@@ -5939,7 +6023,8 @@
     "level": 75
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Maziodyne"
  },
  {
   "id": "kikuri-hime",
@@ -6001,7 +6086,8 @@
     "level": 54
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Diarahan"
  },
  {
   "id": "kin-ki",
@@ -6059,7 +6145,8 @@
     "level": 60
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Vile Assault"
  },
  {
   "id": "king-frost",
@@ -6125,7 +6212,8 @@
     "level": 28
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Ice Boost"
  },
  {
   "id": "kingu",
@@ -6187,7 +6275,8 @@
     "level": 63
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Auto-Masuku"
  },
  {
   "id": "kintoki-douji",
@@ -6349,6 +6438,7 @@
    }
   ],
   "inheritance": "ice",
+  "cafeCard": null,
   "party": {
    "owner": "teddie",
    "stage": "initial",
@@ -6427,7 +6517,8 @@
     "level": 83
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Samarecarm"
  },
  {
   "id": "konohana-sakuya",
@@ -6593,6 +6684,7 @@
    }
   ],
   "inheritance": "fire",
+  "cafeCard": null,
   "party": {
    "owner": "yukiko",
    "stage": "initial",
@@ -6711,6 +6803,7 @@
    }
   ],
   "inheritance": "almighty",
+  "cafeCard": null,
   "party": {
    "owner": "rise",
    "stage": "ultimate",
@@ -6777,7 +6870,8 @@
     "level": 61
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Resist Elec"
  },
  {
   "id": "kurama-tengu",
@@ -6839,7 +6933,8 @@
     "level": 53
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Masukunda"
  },
  {
   "id": "kushinada-hime",
@@ -6897,7 +6992,8 @@
     "level": 50
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Matarukaja"
  },
  {
   "id": "kusi-mitama",
@@ -6959,7 +7055,8 @@
     "level": 34
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Garula"
  },
  {
   "id": "lachesis",
@@ -7021,7 +7118,8 @@
     "level": 57
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Makara Break"
  },
  {
   "id": "lakshmi",
@@ -7079,7 +7177,8 @@
     "level": 71
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Ice Break"
  },
  {
   "id": "lamia",
@@ -7141,7 +7240,8 @@
     "level": 32
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Agilao"
  },
  {
   "id": "leanan-sidhe",
@@ -7203,7 +7303,8 @@
     "level": 47
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Tentarafoo"
  },
  {
   "id": "legion",
@@ -7265,7 +7366,8 @@
     "level": 26
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Foul Breath"
  },
  {
   "id": "lilim",
@@ -7323,7 +7425,8 @@
     "level": 15
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Mudo"
  },
  {
   "id": "lilith",
@@ -7381,7 +7484,8 @@
     "level": 57
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Makarakarn"
  },
  {
   "id": "loa",
@@ -7443,7 +7547,8 @@
     "level": 46
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Mudoon"
  },
  {
   "id": "loki",
@@ -7512,7 +7617,8 @@
     "level": 70
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Sharp Student"
  },
  {
   "id": "lucifer",
@@ -7588,7 +7694,8 @@
     "level": 99
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Absorb Elec"
  },
  {
   "id": "mada",
@@ -7653,7 +7760,8 @@
     "level": 84
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Foolish Whisper"
  },
  {
   "id": "magatsu-izanagi",
@@ -7722,7 +7830,8 @@
     "level": 86
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Heat Riser"
  },
  {
   "id": "mahakala",
@@ -7798,7 +7907,8 @@
     "level": 85
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Myriad Arrows"
  },
  {
   "id": "makami",
@@ -7860,7 +7970,8 @@
     "level": 33
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Auto-Sukukaja"
  },
  {
   "id": "mara",
@@ -7918,7 +8029,8 @@
     "level": 67
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Agidyne"
  },
  {
   "id": "masakado",
@@ -7976,7 +8088,8 @@
     "level": 76
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Tempest Slash"
  },
  {
   "id": "matador",
@@ -8038,7 +8151,8 @@
     "level": 30
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Rampage"
  },
  {
   "id": "melchizedek",
@@ -8096,7 +8210,8 @@
     "level": 72
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Akasha Arts"
  },
  {
   "id": "metatron",
@@ -8154,7 +8269,8 @@
     "level": 89
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Megidolaon"
  },
  {
   "id": "michael",
@@ -8216,7 +8332,8 @@
     "level": 79
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Repel Dark"
  },
  {
   "id": "mithra",
@@ -8278,7 +8395,8 @@
     "level": 37
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Seal Bomb"
  },
  {
   "id": "mokoi",
@@ -8340,7 +8458,8 @@
     "level": 19
    }
   ],
-  "inheritance": "support"
+  "inheritance": "support",
+  "cafeCard": "Dekaja"
  },
  {
   "id": "mot",
@@ -8398,7 +8517,8 @@
     "level": 50
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Mudo Boost"
  },
  {
   "id": "mother-harlot",
@@ -8456,7 +8576,8 @@
     "level": 65
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Resist Fire"
  },
  {
   "id": "mothman",
@@ -8514,7 +8635,8 @@
     "level": 38
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Valiant Dance"
  },
  {
   "id": "narasimha",
@@ -8572,7 +8694,8 @@
     "level": 53
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Auto-Mataru"
  },
  {
   "id": "narcissus",
@@ -8634,7 +8757,8 @@
     "level": 30
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Anima Freeze"
  },
  {
   "id": "nata-taishi",
@@ -8696,7 +8820,8 @@
     "level": 10
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Rakunda"
  },
  {
   "id": "nebiros",
@@ -8758,7 +8883,8 @@
     "level": 70
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Mamudoon"
  },
  {
   "id": "neko-shogun",
@@ -8825,7 +8951,8 @@
     "level": 37
    }
   ],
-  "inheritance": "support"
+  "inheritance": "support",
+  "cafeCard": "Divine Grace"
  },
  {
   "id": "niddhoggr",
@@ -8887,7 +9014,8 @@
     "level": 61
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Ghastly Wail"
  },
  {
   "id": "nigi-mitama",
@@ -8949,7 +9077,8 @@
     "level": 29
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Diarama"
  },
  {
   "id": "norn",
@@ -9022,7 +9151,8 @@
     "level": 79
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Insta-Heal"
  },
  {
   "id": "nozuchi",
@@ -9084,7 +9214,8 @@
     "level": 32
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Ailment Boost"
  },
  {
   "id": "obariyon",
@@ -9146,7 +9277,8 @@
     "level": 18
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Tarukaja"
  },
  {
   "id": "oberon",
@@ -9208,7 +9340,8 @@
     "level": 17
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Elec Boost"
  },
  {
   "id": "odin",
@@ -9273,7 +9406,8 @@
     "level": 81
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Wind Amp"
  },
  {
   "id": "okuninushi",
@@ -9335,7 +9469,8 @@
     "level": 47
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Apt Pupil"
  },
  {
   "id": "omoikane",
@@ -9401,7 +9536,8 @@
     "level": 12
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Poison Mist"
  },
  {
   "id": "ongyo-ki",
@@ -9471,7 +9607,8 @@
     "level": 87
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Firm Stance"
  },
  {
   "id": "oni",
@@ -9533,7 +9670,8 @@
     "level": 35
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Cruel Attack"
  },
  {
   "id": "orobas",
@@ -9591,7 +9729,8 @@
     "level": 12
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Hysterical Slap"
  },
  {
   "id": "orthrus",
@@ -9649,7 +9788,8 @@
     "level": 45
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Black Spot"
  },
  {
   "id": "ose",
@@ -9711,7 +9851,8 @@
     "level": 36
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Atom Smasher"
  },
  {
   "id": "pabilsag",
@@ -9769,7 +9910,8 @@
     "level": 56
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Blight"
  },
  {
   "id": "pale-rider",
@@ -9827,7 +9969,8 @@
     "level": 39
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Mind Slice"
  },
  {
   "id": "parvati",
@@ -9885,7 +10028,8 @@
     "level": 43
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Marakukaja"
  },
  {
   "id": "pazuzu",
@@ -9947,7 +10091,8 @@
     "level": 42
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Navas Nebula"
  },
  {
   "id": "phoenix",
@@ -10009,7 +10154,8 @@
     "level": 27
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Growth 1"
  },
  {
   "id": "pixie",
@@ -10063,7 +10209,8 @@
     "level": 8
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Dia"
  },
  {
   "id": "power",
@@ -10129,7 +10276,8 @@
     "level": 33
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Power Slash"
  },
  {
   "id": "principality",
@@ -10191,7 +10339,8 @@
     "level": 25
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Hama"
  },
  {
   "id": "pyro-jack",
@@ -10249,7 +10398,8 @@
     "level": 38
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Maragion"
  },
  {
   "id": "queen-mab",
@@ -10311,7 +10461,8 @@
     "level": 30
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Recarm"
  },
  {
   "id": "quetzalcoatl",
@@ -10373,7 +10524,8 @@
     "level": 57
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Masukukaja"
  },
  {
   "id": "raja-naga",
@@ -10435,7 +10587,8 @@
     "level": 43
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Fatal End"
  },
  {
   "id": "rakshasa",
@@ -10497,7 +10650,8 @@
     "level": 28
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Counter"
  },
  {
   "id": "rangda",
@@ -10555,7 +10709,8 @@
     "level": 55
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Mustard Bomb"
  },
  {
   "id": "raphael",
@@ -10613,7 +10768,8 @@
     "level": 59
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Null Dizzy"
  },
  {
   "id": "rokuten-maoh",
@@ -10771,6 +10927,7 @@
    }
   ],
   "inheritance": "elec",
+  "cafeCard": null,
   "party": {
    "owner": "kanji",
    "stage": "evolved",
@@ -10834,7 +10991,8 @@
     "level": 16
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Alertness"
  },
  {
   "id": "samael",
@@ -10896,7 +11054,8 @@
     "level": 41
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Survive Light"
  },
  {
   "id": "sandalphon",
@@ -10961,7 +11120,8 @@
     "level": 90
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Agneyastra"
  },
  {
   "id": "sandman",
@@ -11019,7 +11179,8 @@
     "level": 11
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Skull Cracker"
  },
  {
   "id": "sarasvati",
@@ -11081,7 +11242,8 @@
     "level": 23
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Media"
  },
  {
   "id": "satan",
@@ -11143,7 +11305,8 @@
     "level": 82
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "Invigorate 3"
  },
  {
   "id": "sati",
@@ -11201,7 +11364,8 @@
     "level": 36
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Energy Shower"
  },
  {
   "id": "saturnus",
@@ -11259,7 +11423,8 @@
     "level": 81
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Growth 3"
  },
  {
   "id": "scathach",
@@ -11324,7 +11489,8 @@
     "level": 85
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Amrita"
  },
  {
   "id": "seiryu",
@@ -11386,7 +11552,8 @@
     "level": 53
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Matarunda"
  },
  {
   "id": "seiten-taisei",
@@ -11448,7 +11615,8 @@
     "level": 76
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Evade Elec"
  },
  {
   "id": "senri",
@@ -11506,7 +11674,8 @@
     "level": 14
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Dekunda"
  },
  {
   "id": "setanta",
@@ -11568,7 +11737,8 @@
     "level": 40
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Auto-Maraku"
  },
  {
   "id": "seth",
@@ -11626,7 +11796,8 @@
     "level": 74
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Wind Break"
  },
  {
   "id": "shiisaa",
@@ -11688,7 +11859,8 @@
     "level": 26
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Rakukaja"
  },
  {
   "id": "shiki-ouji",
@@ -11746,7 +11918,8 @@
     "level": 62
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Growth 2"
  },
  {
   "id": "shiva",
@@ -11814,7 +11987,8 @@
     "level": 87
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Spell Master"
  },
  {
   "id": "siegfried",
@@ -11876,7 +12050,8 @@
     "level": 70
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Rainy Death"
  },
  {
   "id": "skadi",
@@ -11938,7 +12113,8 @@
     "level": 60
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Ice Amp"
  },
  {
   "id": "slime",
@@ -11996,7 +12172,8 @@
     "level": 7
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Tarunda"
  },
  {
   "id": "sraosha",
@@ -12061,7 +12238,8 @@
     "level": 81
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Angelic Grace"
  },
  {
   "id": "succubus",
@@ -12123,7 +12301,8 @@
     "level": 50
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Spirit Drain"
  },
  {
   "id": "sui-ki",
@@ -12181,7 +12360,8 @@
     "level": 62
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Tetra Break"
  },
  {
   "id": "sukuna-hikona",
@@ -12335,6 +12515,7 @@
    }
   ],
   "inheritance": "almighty",
+  "cafeCard": null,
   "party": {
    "owner": "naoto",
    "stage": "initial",
@@ -12505,6 +12686,7 @@
    }
   ],
   "inheritance": "fire",
+  "cafeCard": null,
   "party": {
    "owner": "yukiko",
    "stage": "ultimate",
@@ -12571,7 +12753,8 @@
     "level": 83
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Elec Amp"
  },
  {
   "id": "surt",
@@ -12633,7 +12816,8 @@
     "level": 76
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Maragidyne"
  },
  {
   "id": "susano-o",
@@ -12795,6 +12979,7 @@
    }
   ],
   "inheritance": "wind",
+  "cafeCard": null,
   "party": {
    "owner": "yosuke",
    "stage": "evolved",
@@ -12862,7 +13047,8 @@
     "level": 60
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Resist Ice"
  },
  {
   "id": "suzuka-gongen",
@@ -13028,6 +13214,7 @@
    }
   ],
   "inheritance": "phys",
+  "cafeCard": null,
   "party": {
    "owner": "chie",
    "stage": "evolved",
@@ -13091,7 +13278,8 @@
     "level": 14
    }
   ],
-  "inheritance": "wind"
+  "inheritance": "wind",
+  "cafeCard": "Regenerate 1"
  },
  {
   "id": "take-mikazuchi",
@@ -13249,6 +13437,7 @@
    }
   ],
   "inheritance": "elec",
+  "cafeCard": null,
   "party": {
    "owner": "kanji",
    "stage": "initial",
@@ -13311,7 +13500,8 @@
     "level": 33
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Auto-Rakukaja"
  },
  {
   "id": "takehaya-susano-o",
@@ -13473,6 +13663,7 @@
    }
   ],
   "inheritance": "wind",
+  "cafeCard": null,
   "party": {
    "owner": "yosuke",
    "stage": "ultimate",
@@ -13635,6 +13826,7 @@
    }
   ],
   "inheritance": "elec",
+  "cafeCard": null,
   "party": {
    "owner": "kanji",
    "stage": "ultimate",
@@ -13710,7 +13902,8 @@
     "level": 59
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Ziodyne"
  },
  {
   "id": "taotie",
@@ -13772,7 +13965,8 @@
     "level": 41
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "Torrent Shot"
  },
  {
   "id": "taowu",
@@ -13834,7 +14028,8 @@
     "level": 62
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Aeon Rain"
  },
  {
   "id": "thor",
@@ -13896,7 +14091,8 @@
     "level": 70
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Deathbound"
  },
  {
   "id": "thoth",
@@ -13958,7 +14154,8 @@
     "level": 51
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Megido"
  },
  {
   "id": "throne",
@@ -14020,7 +14217,8 @@
     "level": 55
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Hamaon"
  },
  {
   "id": "titan",
@@ -14078,7 +14276,8 @@
     "level": 19
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Kill Rush"
  },
  {
   "id": "titania",
@@ -14136,7 +14335,8 @@
     "level": 32
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Regenerate 2"
  },
  {
   "id": "tomoe",
@@ -14302,6 +14502,7 @@
    }
   ],
   "inheritance": "phys",
+  "cafeCard": null,
   "party": {
    "owner": "chie",
    "stage": "initial",
@@ -14368,7 +14569,8 @@
     "level": 49
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Blue Wall"
  },
  {
   "id": "trumpeter",
@@ -14441,7 +14643,8 @@
     "level": 74
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "Debilitate"
  },
  {
   "id": "tzitzimitl",
@@ -14507,7 +14710,8 @@
     "level": 77
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Virus Wave"
  },
  {
   "id": "ukobach",
@@ -14565,7 +14769,8 @@
     "level": 7
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Agi"
  },
  {
   "id": "undine",
@@ -14623,7 +14828,8 @@
     "level": 37
    }
   ],
-  "inheritance": "recovery"
+  "inheritance": "recovery",
+  "cafeCard": "Mediarama"
  },
  {
   "id": "unicorn",
@@ -14685,7 +14891,8 @@
     "level": 34
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Zionga"
  },
  {
   "id": "uriel",
@@ -14747,7 +14954,8 @@
     "level": 64
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "High Counter"
  },
  {
   "id": "valkyrie",
@@ -14805,7 +15013,8 @@
     "level": 12
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Arm Chopper"
  },
  {
   "id": "vasuki",
@@ -14867,7 +15076,8 @@
     "level": 77
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Evade Wind"
  },
  {
   "id": "vetala",
@@ -14929,7 +15139,8 @@
     "level": 24
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Brain Shake"
  },
  {
   "id": "virtue",
@@ -14991,7 +15202,8 @@
     "level": 39
    }
   ],
-  "inheritance": "light"
+  "inheritance": "light",
+  "cafeCard": "Mahama"
  },
  {
   "id": "vishnu",
@@ -15056,7 +15268,8 @@
     "level": 79
    }
   ],
-  "inheritance": "almighty"
+  "inheritance": "almighty",
+  "cafeCard": "Regenerate 3"
  },
  {
   "id": "white-rider",
@@ -15122,7 +15335,8 @@
     "level": 67
    }
   ],
-  "inheritance": "dark"
+  "inheritance": "dark",
+  "cafeCard": "Evade Ice"
  },
  {
   "id": "xiezhai",
@@ -15184,7 +15398,8 @@
     "level": 21
    }
   ],
-  "inheritance": "elec"
+  "inheritance": "elec",
+  "cafeCard": "Mazio"
  },
  {
   "id": "yaksini",
@@ -15246,7 +15461,8 @@
     "level": 23
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Swift Strike"
  },
  {
   "id": "yamata-no-orochi",
@@ -15304,7 +15520,8 @@
     "level": 39
    }
   ],
-  "inheritance": "ice"
+  "inheritance": "ice",
+  "cafeCard": "Red Wall"
  },
  {
   "id": "yamato-sumeragi",
@@ -15458,6 +15675,7 @@
    }
   ],
   "inheritance": "almighty",
+  "cafeCard": null,
   "party": {
    "owner": "naoto",
    "stage": "ultimate",
@@ -15616,6 +15834,7 @@
    }
   ],
   "inheritance": "almighty",
+  "cafeCard": null,
   "party": {
    "owner": "naoto",
    "stage": "evolved",
@@ -15683,7 +15902,8 @@
     "level": 46
    }
   ],
-  "inheritance": "support"
+  "inheritance": "support",
+  "cafeCard": "Cool Breeze"
  },
  {
   "id": "yatsufusa",
@@ -15755,7 +15975,8 @@
     "level": 55
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Heat Wave"
  },
  {
   "id": "yomotsu-ikusa",
@@ -15813,7 +16034,8 @@
     "level": 27
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Cell Breaker"
  },
  {
   "id": "yomotsu-shikome",
@@ -15871,7 +16093,8 @@
     "level": 11
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Sukunda"
  },
  {
   "id": "yoshitsune",
@@ -15939,7 +16162,8 @@
     "level": 83
    }
   ],
-  "inheritance": "phys"
+  "inheritance": "phys",
+  "cafeCard": "Power Charge"
  },
  {
   "id": "yurlungur",
@@ -15997,7 +16221,8 @@
     "level": 75
    }
   ],
-  "inheritance": "ailment"
+  "inheritance": "ailment",
+  "cafeCard": "Repel Light"
  },
  {
   "id": "zaou-gongen",
@@ -16066,6 +16291,7 @@
     "level": 96
    }
   ],
-  "inheritance": "fire"
+  "inheritance": "fire",
+  "cafeCard": "Vorpal Blade"
  }
 ]
