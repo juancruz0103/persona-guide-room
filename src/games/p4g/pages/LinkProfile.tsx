@@ -32,8 +32,9 @@ function Choice({ c }: { c: LinkChoice }) {
       )}
       <ul className={styles.opts}>
         {c.opts.map((o, i) => (
-          <li key={i} className={best > 0 && o.pts === best ? styles.best : ''}>
+          <li key={i} className={`${best > 0 && o.pts === best ? styles.best : ''} ${o.route ? styles.romanceOpt : ''}`}>
             <span>{withName(L(o.es, o.en))}</span>
+            {o.route && <span className={`${styles.route} ${styles.routeR}`}>{L('Lleva al romance', 'Leads to romance')}</span>}
             <b className={o.pts ? styles.pts : styles.zero}>{o.pts ? `+${o.pts}` : '—'}</b>
           </li>
         ))}

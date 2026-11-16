@@ -43,6 +43,15 @@ def find(opts, n):
     return best[1] if best else None
 
 
+# Respuestas que eligen el romance (el resto de opciones de esa pregunta deja la relación como amistad).
+ROMANCE = {
+    ('priestess', '540_090'): ['"I really like you."'], ('lovers', '530_080'): ['Hold her'],
+    ('chariot', '590_090'): ['"Will you be my girlfriend?"'], ('fortune', '610_081'): ['"Because I love you."'],
+    ('moon', '670_062'): ['"I\'ll be your boyfriend."', '"Sounds good."'], ('sun-yumi', '700_100'): ['Hug her'],
+    ('sun-ayane', '710_081'): ['Reveal your feelings for her'], ('aeon', '740_580'): ['"Because I love you."', 'Hug her'],
+}
+
+
 def rank_route(ev):
     """'610_020' → rango 2. Las carpetas que terminan en 5 (E595, E675…) son la ruta de amistad; la base, la
     romántica. Ayane es al revés (E715 es su romance).
@@ -80,6 +89,8 @@ for arc, folders in d.items():
             rank, route = rank_route(e['event'])
             choices = []
             for c in e['choices']:
+                if all(o in ('NOT USED', '') for o in c['optsEn']) and all(o in ('NOT USED', '') for o in c['opts']):
+                    continue  # preguntas sin usar que quedaron en el archivo
                 opts = []
                 for i in range(max(len(c['opts']), len(c['optsEn']))):
                     es = c['opts'][i] if i < len(c['opts']) else ''
@@ -87,8 +98,13 @@ for arc, folders in d.items():
                     hit, k = points(g, rank, en)
                     if hit:
                         used.add(hit[2])
-                    opts.append({'es': es or en, 'en': en or es, 'pts': hit[1] if hit else 0})
+                    opt = {'es': es or en, 'en': en or es, 'pts': hit[1] if hit else 0}
+                    if en in ROMANCE.get((lid, e['event']), []):
+                        opt['route'] = 'L'
+                    opts.append(opt)
                 choices.append({'speaker': c['speaker'], 'speakerEn': c['speakerEn'], 'q': c['q'], 'qEn': c['qEn'], 'opts': opts})
+            if not choices:
+                continue
             if not route and rank in alt_ranks:
                 route = 'F' if alt_ranks[rank] == 'L' else 'L'
             res.append({'event': e['event'], 'rank': rank, 'route': route, 'choices': choices})

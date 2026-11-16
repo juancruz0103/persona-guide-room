@@ -5,7 +5,8 @@ import type { ArcanaId, Persona } from '../types';
 
 /** Ruta: L = romance, F = amistad. */
 export type Route = '' | 'L' | 'F';
-export interface LinkOption { es: string; en: string; pts: number }
+/** route L: esta respuesta elige el romance. */
+export interface LinkOption { es: string; en: string; pts: number; route?: 'L' }
 export interface LinkChoice { speaker: string; speakerEn: string; q: string; qEn: string; opts: LinkOption[] }
 /** Un evento del vínculo. rank = rango al que lleva. */
 export interface LinkEvent { event: string; rank: number; route: Route; choices: LinkChoice[] }

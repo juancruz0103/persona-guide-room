@@ -718,82 +718,6 @@
    ]
   },
   {
-   "event": "540_041",
-   "rank": 4,
-   "route": "",
-   "choices": [
-    {
-     "speaker": "Yukiko",
-     "speakerEn": "Yukiko",
-     "q": "NOT USED",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "",
-       "en": "",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    },
-    {
-     "speaker": "Yukiko",
-     "speakerEn": "Yukiko",
-     "q": "",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    },
-    {
-     "speaker": "Yukiko",
-     "speakerEn": "Yukiko",
-     "q": "NOT USED",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
    "event": "540_050",
    "rank": 5,
    "route": "",
@@ -1017,84 +941,6 @@
    ]
   },
   {
-   "event": "540_081",
-   "rank": 8,
-   "route": "",
-   "choices": [
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "NOT USED",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "event": "540_082",
-   "rank": 8,
-   "route": "",
-   "choices": [
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "\\\"",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    },
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
    "event": "540_090",
    "rank": 9,
    "route": "",
@@ -1146,7 +992,8 @@
       {
        "es": "\"Porque me gustas de verdad\".",
        "en": "\"I really like you.\"",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       }
      ]
     }
@@ -2758,7 +2605,8 @@
       {
        "es": "Abrazarla",
        "en": "Hold her",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "Quedarte quieto",
@@ -3011,77 +2859,6 @@
    ]
   },
   {
-   "event": "590_045",
-   "rank": 4,
-   "route": "",
-   "choices": [
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    },
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "{P}",
-     "qEn": "{P}",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    },
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
    "event": "590_050",
    "rank": 5,
    "route": "",
@@ -3320,59 +3097,12 @@
       {
        "es": "\"¿Quieres ser mi novia?\".",
        "en": "\"Will you be my girlfriend?\"",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "\"Cuento contigo\".",
        "en": "\"I'm counting on you.\"",
-       "pts": 0
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "event": "590_091",
-   "rank": 9,
-   "route": "",
-   "choices": [
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "NOT USED",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      }
-     ]
-    },
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "\\\"",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
-       "pts": 0
-      },
-      {
-       "es": "NOT USED",
-       "en": "NOT USED",
        "pts": 0
       }
      ]
@@ -4773,7 +4503,8 @@
       {
        "es": "\"Porque te quiero\".",
        "en": "\"Because I love you.\"",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "\"Porque somos amigos\".",
@@ -9519,7 +9250,8 @@
       {
        "es": "\"Seré tu novio\".",
        "en": "\"I'll be your boyfriend.\"",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "\"...\".",
@@ -9537,7 +9269,8 @@
       {
        "es": "\"Me parece bien\".",
        "en": "\"Sounds good.\"",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "\"¿Estás segura?\".",
@@ -10504,7 +10237,8 @@
       {
        "es": "Abrazarla",
        "en": "Hug her",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "Irse",
@@ -10547,31 +10281,6 @@
   }
  ],
  "sun-ayane": [
-  {
-   "event": "710_001",
-   "rank": 1,
-   "route": "",
-   "choices": [
-    {
-     "speaker": "",
-     "speakerEn": "",
-     "q": "",
-     "qEn": "",
-     "opts": [
-      {
-       "es": "",
-       "en": "",
-       "pts": 0
-      },
-      {
-       "es": "",
-       "en": "",
-       "pts": 0
-      }
-     ]
-    }
-   ]
-  },
   {
    "event": "710_002",
    "rank": 1,
@@ -11015,7 +10724,8 @@
       {
        "es": "Revelarle tus sentimientos",
        "en": "Reveal your feelings for her",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "Cambiar de tema",
@@ -12361,7 +12071,8 @@
       {
        "es": "\"Porque te quiero\".",
        "en": "\"Because I love you.\"",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "\"Porque eres mi amiga\".",
@@ -12379,7 +12090,8 @@
       {
        "es": "Abrazarla",
        "en": "Hug her",
-       "pts": 0
+       "pts": 0,
+       "route": "L"
       },
       {
        "es": "No abrazarla",
