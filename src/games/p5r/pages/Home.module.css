@@ -52,7 +52,7 @@
 
 .title {
   font-size: clamp(64px, 10vw, 112px);
-  line-height: 0.92;
+  line-height: 1.04;
   text-transform: uppercase;
 }
 .title span {
