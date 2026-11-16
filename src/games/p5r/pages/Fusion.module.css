@@ -271,8 +271,15 @@
 }
 
 @media (max-width: 640px) {
+  /* En celular el + y el = van en su propia línea, centrados entre las fotos */
   .op {
     font-size: 48px;
+    flex-basis: 100%;
+    text-align: center;
+    line-height: 1;
+  }
+  .equation {
+    gap: 8px;
   }
   .slot {
     max-width: none;

@@ -8,7 +8,33 @@ import { getFusionEngine } from '../fusion';
 import { personaName } from '../services/text';
 import type { Persona } from '../types';
 import styles from './Fusion.module.css';
+import royal from '../../p5r/pages/Fusion.module.css';
+import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { personaCardFocus, personaImage } from '../services/images';
 import { L } from '../../../i18n';
+
+const KIND = () => ({
+  normal: L('Fusión normal', 'Normal fusion'),
+  'same-arcana': L('Misma Arcana', 'Same Arcana'),
+  special: L('Fusión especial', 'Special fusion'),
+}) as Record<string, string>;
+const label = (p: Persona) => `${getArcana(p.arcana).name} · ${L('Nv', 'Lv')} ${p.level}`;
+
+function Slot({ id, title, list, p, onChange }: { id: string; title: string; list: Persona[]; p?: Persona; onChange: (v: string) => void }) {
+  return (
+    <div className={royal.slot}>
+      <PersonaPicker id={id} label={title} list={list} value={p?.id ?? ''} onChange={onChange} className={styles.select} />
+      {p ? (
+        <Link to={`/p3r/calculadora/persona/${p.id}`} className={royal.slotLink}>
+          <ImagePlaceholder className={`${royal.slotImage}`} label={personaName(p)} hint={label(p)}
+            src={personaImage(p.id, 'side')} focus={personaCardFocus(p.id)} corner={getArcana(p.arcana).numeral} />
+        </Link>
+      ) : (
+        <div className={`${royal.slotImage} ${royal.empty}`}>{L('Sin elegir', 'Not chosen')}</div>
+      )}
+    </div>
+  );
+}
 
 function Mini({ p }: { p: Persona }) {
   return (
@@ -62,25 +88,41 @@ export default function Fusion() {
 
         {!reverse ? (
           <>
-            <div className={styles.pickers}>
-              <PersonaPicker id="pa" label="Persona A" list={list} value={a?.id ?? ''} onChange={(v) => setParam('a', v)} className={styles.select} />
-              <span className={styles.plus}>+</span>
-              <PersonaPicker id="pb" label="Persona B" list={list} value={b?.id ?? ''} onChange={(v) => setParam('b', v)} className={styles.select} />
-            </div>
-            {a && b && (
-              <div className={styles.result}>
-                <span className="label">{L('Resultado', 'Result')}</span>
-                {result ? (
-                  <>
-                    <Mini p={result.result} />
-                    {result.kind === 'special' && <span className="tag tag--special">{L('Fusión especial', 'Special fusion')}</span>}
-                    {result.kind === 'same-arcana' && <span className={styles.hint}>{L('Misma Arcana: el resultado baja de nivel.', 'Same Arcana: the result goes down in level.')}</span>}
-                  </>
-                ) : (
-                  <p className="pending">{L('Esta combinación no da ninguna Persona.', "This combination doesn't produce a Persona.")}</p>
-                )}
+            <div className={royal.equation}>
+              <Slot id="pa" title="Persona A" list={list} p={a} onChange={(v) => setParam('a', v)} />
+              <span className={royal.op} aria-hidden="true">+</span>
+              <Slot id="pb" title="Persona B" list={list} p={b} onChange={(v) => setParam('b', v)} />
+              <span className={`${royal.op} ${royal.eq}`} aria-hidden="true">=</span>
+              <div className={royal.slot}>
+                <span className="label label-accent">{L('Resultado', 'Result')}</span>
+                <div role="status" aria-live="polite">
+                  {result ? (
+                    <Link to={`/p3r/calculadora/persona/${result.result.id}`} className={royal.resultCard}>
+                      <ImagePlaceholder className={`${royal.resultImage}`} label={personaName(result.result)}
+                        src={personaImage(result.result.id, 'side')} focus={personaCardFocus(result.result.id)} corner={getArcana(result.result.arcana).numeral} />
+                      <span className={royal.resultBody}>
+                        <span className={royal.kind}>{KIND()[result.kind]}</span>
+                        <span className={royal.resultName}>{personaName(result.result)}</span>
+                        <span className={royal.resultMeta}>{label(result.result)}</span>
+                        {result.kind === 'same-arcana' && <span className={royal.resultMeta}>{L('Misma Arcana: el resultado baja de nivel.', 'Same Arcana: the result goes down in level.')}</span>}
+                        <span className={royal.resultCta}>{L('Ver ficha →', 'See profile →')}</span>
+                      </span>
+                    </Link>
+                  ) : (
+                    <div className={royal.result}>
+                      <span className={royal.q}>?</span>
+                      <span>
+                        {a && b
+                          ? a.id === b.id
+                            ? L('No se puede fusionar una Persona consigo misma.', 'A Persona cannot be fused with itself.')
+                            : L('Esta combinación no da ningún resultado.', 'This combination gives no result.')
+                          : L('Elegí dos Personas para ver el resultado.', 'Choose two Personas to see the result.')}
+                      </span>
+                    </div>
+                  )}
+                </div>
               </div>
-            )}
+            </div>
             {a && !b && (
               <section className={styles.listBox}>
                 <h2 className={styles.h2}>{L(`Todo lo que podés hacer con ${personaName(a)}`, `Everything you can make with ${personaName(a)}`)}</h2>
