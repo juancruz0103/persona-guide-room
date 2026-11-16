@@ -2,7 +2,7 @@ import { Fragment, useMemo, useState } from 'react';
 import { CLASS_QUESTIONS, SCHOOL_ORDER, examFor, monthKey, type ClassQuestion } from '../services/classes';
 import { normalize } from '../../p5r/services/gameText';
 import styles from './Classes.module.css';
-import { L, isEn } from '../../../i18n';
+import { L } from '../../../i18n';
 
 type Type = 'all' | 'teacher' | 'friend' | 'exam';
 const MONTHS = (): Record<number, string> => ({
@@ -86,11 +86,11 @@ export default function Classes() {
                       {t === 'exam' ? `${L('Examen', 'Exam')} · ${L(q.speaker, q.speakerEn)}` : t === 'friend' ? L('Junpei te pide ayuda', 'Junpei asks for help') : L(q.speaker, q.speakerEn)}
                     </span>
                   </div>
-                  <p className={styles.q}>“{L(q.q, q.qEn)}”{!isEn() && <small>{q.qEn}</small>}</p>
+                  <p className={styles.q}>“{L(q.q, q.qEn)}”</p>
                   <ul className={styles.opts}>
                     {q.opts.map((o, n) => (
                       <li key={n} className={n === q.answer ? styles.right : ''}>
-                        <span>{L(o, q.optsEn[n])}{!isEn() && <small>{q.optsEn[n]}</small>}</span>
+                        <span>{L(o, q.optsEn[n])}</span>
                         {n === q.answer && <b>{L('Correcta', 'Correct')}</b>}
                       </li>
                     ))}

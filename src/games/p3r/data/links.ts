@@ -86,7 +86,7 @@ export const LINKS: LinkMeta[] = [
     unlock: ['Colgado rango 3. El 9 de agosto, en el santuario, perdió una lapicera roja: la tiene Koromaru en el dormitorio.', 'Hanged Man rank 3. On August 9 at the shrine he lost a red pen: Koromaru has it at the dorm.'] },
   { arcana: 'judgement', who: ['S.E.E.S.', 'S.E.E.S.'], auto: true, spoiler: true,
     unlock: ['Sube solo con la historia.', 'Ranks up on its own with the story.'] },
-  { arcana: 'aeon', who: ['Aigis', 'Aigis'], romance: true, days: [4], slot: 'day',
+  { arcana: 'aeon', who: ['Aigis', 'Aigis'], romance: true, days: [0, 1, 2, 3, 4, 5], slot: 'day',
     place: ['Aula 2-F', 'Classroom 2-F'],
     unlock: ['Sin requisitos: desde el 8 de enero, hablale después de clase.', 'No requirements: from January 8, talk to her after school.'] },
 ];
