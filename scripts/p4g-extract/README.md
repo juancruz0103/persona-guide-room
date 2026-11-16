@@ -35,3 +35,6 @@ python3 merge_links.py /tmp/p4g-links-dialogs.json <repo>
 ```
 
 El vínculo de Teddie (Estrella) sube solo: sus eventos no tienen opciones.
+
+Fotos de los vínculos: `camp/bustup/c_chaNNa.tmx` (01 protagonista, 02 Yosuke, 03 Chie, 04 Yukiko, 05 Rise,
+06 Kanji, 07 Naoto, 08 Teddie; `b` = ropa de verano) → `src/games/p4g/assets/links/<id>.webp`.
