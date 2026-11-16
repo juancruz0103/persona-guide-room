@@ -21,22 +21,22 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Hoy me ha pasado de todo... y me lo he pasado hasta bien.",
-      "en": ""
+      "en": "I've had all kinds of new experiences today... and it's even been a little fun."
      },
      "options": [
       {
        "es": "A ver si vamos otra vez.",
-       "en": "",
+       "en": "Let's go again sometime.",
        "points": 0
       },
       {
        "es": "Eres una persona nueva.",
-       "en": "",
+       "en": "It's a new you.",
        "points": 0
       },
       {
        "es": "¿El barrio rojo a la próxima?",
-       "en": "",
+       "en": "The red-light district next?",
        "points": 3
       }
      ]
@@ -116,21 +116,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Hoy ha sido un día agotador, pero he aprendido un montón. No hay nada como la práctica.",
-      "en": ""
+      "en": "Today was exhausting, but I also learned a lot. I guess nothing beats practical experience."
      },
      "options": [
       {
-       "en": "",
+       "en": "Couldn't agree more.",
        "es": "No podría estar más de acuerdo.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "He just wouldn't give up.",
        "es": "No se rendirá así como así.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Let's actually go in next time.",
        "es": "A la próxima.",
        "points": 0
       }
@@ -204,21 +204,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Fue una pasada ver una foto de toda su colección. ¡Si hasta tiene iconos de Buchimaru!",
-      "en": ""
+      "en": "It was crazy to see a picture of her entire collection. She even has a bunch of Buchimaru-kun emoticons!"
      },
      "options": [
       {
-       "en": "",
+       "en": "Sounds like you two get along.",
        "es": "Parece que os lleváis bien.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "Buchimaru-kun?",
        "es": "¿Buchimaru?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Okay, calm down.",
        "es": "Vale, cálmate.",
        "points": 0
       }
@@ -388,21 +388,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Pero si al final está jugando con Eiko, ¿qué hacemos?",
-      "en": ""
+      "en": "But if it turns out he really is toying with Eiko... what should we do...?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Fist! Of! Justice!",
        "es": "¡Puño de la justicia!",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Report him to the police.",
        "es": "Denúncialo a la policía.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Try to reach out to her.",
        "es": "Intenta hablar con ella.",
        "points": 3
       }
@@ -449,21 +449,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Usa unos símbolos rarísimos que no entiendo. Quiero ignorarlo, pero no puedo por Eiko...",
-      "en": ""
+      "en": "He uses these weird symbols�I have no idea what he's saying. I want to ignore him, but I shouldn't for Eiko's sake..."
      },
      "options": [
       {
-       "en": "",
+       "en": "Tell him you're on a date.",
        "es": "Dile que tienes una cita.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You're allowed to ignore him.",
        "es": "Pasa de él.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Fire the same thing back.",
        "es": "El fuego se combate con fuego.",
        "points": 0
       }
@@ -588,21 +588,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Aún no me fío del novio de Eiko. Sigamos con la farsa hasta que me decida, por favor.",
-      "en": ""
+      "en": "I don't trust Eiko's boyfriend yet, so... can we keep this up until I can make a call one way or the other?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Of course..",
        "es": "Pues claro.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "I guess so.",
        "es": "Imagino.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It's the role I always hoped for.",
        "es": "Es el papel que siempre quise.",
        "points": 3
       }
@@ -842,21 +842,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Nunca lo habría logrado sin ti. Muchas gracias.",
-      "en": ""
+      "en": "I'd probably never have pulled this off alone. Thank you so much."
      },
      "options": [
       {
-       "en": "",
+       "en": "No problem at all.",
        "es": "No hay problema.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "Man, that got tense.",
        "es": "Menuda tensión.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You could always slap me too.",
        "es": "Siempre puedes darme una bofetada.",
        "points": 0
       }
@@ -870,21 +870,21 @@
      "speaker": "Makoto",
      "prompt": {
       "es": "Nunca lo habría logrado sin ti. Muchas gracias.",
-      "en": ""
+      "en": "I'd probably never have pulled this off alone. Thank you so much."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'd do anything for you.",
        "es": "Haría lo que fuera por ti.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Were you scared?",
        "es": "¿Tenías miedo?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "No big deal.",
        "es": "No es nada.",
        "points": 2
       }

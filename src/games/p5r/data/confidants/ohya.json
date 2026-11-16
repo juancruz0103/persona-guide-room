@@ -190,21 +190,21 @@
      "speaker": "Ichiko",
      "prompt": {
       "es": "Y te recompensaré con el poder del periodismo. Escribiré un buen artículo sobre los Ladrones.",
-      "en": ""
+      "en": "And I'll repay you with the power of journalism, of course. I'll write you a solid article on the Phantom Thieves."
      },
      "options": [
       {
-       "en": "",
+       "en": "Leave it to me.",
        "es": "Yo me encargo.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "That was our deal.",
        "es": "Ese era nuestro trato.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Anything for my girlfriend.",
        "es": "Lo que sea por mi novia.",
        "points": 0
       }
@@ -251,21 +251,21 @@
      "speaker": "Ichiko",
      "prompt": {
       "es": "Siento lo de antes, de verdad. Indagar en tus antecedentes sin preguntar ha sido...",
-      "en": ""
+      "en": "I'm sorry about earlier. Really. For me digging up your records and such without asking, I mean..."
      },
      "options": [
       {
-       "en": "",
+       "en": "I don't mind it.",
        "es": "Me da igual.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "As long as I'm compensated.",
        "es": "Mientras yo no me quede sin nada...",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I did the same to you.",
        "es": "Yo te hice lo mismo.",
        "points": 0
       }
@@ -369,21 +369,21 @@
      "speaker": "Ichiko",
      "prompt": {
       "es": "Cubriré el cupo de las narices gracias a la información que me pasas de los Ladrones Fantasma.",
-      "en": ""
+      "en": "I'm only able to meet my insane quota because of the info you give me on the Phantom Thieves."
      },
      "options": [
       {
-       "en": "",
+       "en": "Glad to hear that.",
        "es": "Me alegra oír eso.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Don't work yourself to death.",
        "es": "No te mates a trabajar.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'll dig up some more for you.",
        "es": "Averiguaré más cosas para ti.",
        "points": 2
       }
@@ -456,21 +456,21 @@
      "speaker": "Ichiko",
      "prompt": {
       "es": "Pero ahora tengo una pista sobre Kayo. ¡Haré lo que haga falta para encontrarla!",
-      "en": ""
+      "en": "But I finally got a lead on Kayo. I'll do whatever it takes to find her...!"
      },
      "options": [
       {
-       "en": "",
+       "en": "That's the spirit.",
        "es": "Esa es la actitud.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Sounds tough.",
        "es": "Qué duro.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Don't strain yourself.",
        "es": "Tampoco te pases.",
        "points": 0
       }
@@ -553,21 +553,21 @@
      "speaker": "Ichiko",
      "prompt": {
       "es": "Soy periodista. A partir de ahora, iré siempre en busca de la verdad.",
-      "en": ""
+      "en": "I'm a journalist. From now on, I'm always gonna chase the truth."
      },
      "options": [
       {
-       "en": "",
+       "en": "Good luck.",
        "es": "Buena suerte.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Be careful.",
        "es": "Mucho cuidado.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Grab a souvenir for me.",
        "es": "Tráeme un regalito.",
        "points": 0
       }
@@ -711,21 +711,21 @@
      "speaker": "Ichiko",
      "prompt": {
       "es": "¿Tú no tienes nada que decirme? Porque este es el momento.",
-      "en": ""
+      "en": "Actually, do YOU have anything you wanna say to me instead? Cause now's the time."
      },
      "options": [
       {
-       "en": "",
+       "en": "I wanted to hear your voice.",
        "es": "Quería oír tu voz.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Please don't dump me.",
        "es": "Por favor, no me dejes.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "IloveyouIloveyouIloveyou.",
        "es": "TeamoTeamoTeamo.",
        "points": 0
       }

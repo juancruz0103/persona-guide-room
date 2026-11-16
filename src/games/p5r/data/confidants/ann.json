@@ -670,21 +670,21 @@
      "speaker": "Ann",
      "prompt": {
       "es": "Tendré que ponerme a dieta, comer menos y hacer ejercicio, pero ¡haré lo que sea!",
-      "en": ""
+      "en": "Obviously that means dieting, cutting back on food, and no matter how tough it is, I'll do any workout!"
      },
      "options": [
       {
-       "en": "",
+       "en": "You got this.",
        "es": "Tú puedes.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Don't strain yourself.",
        "es": "Tampoco te pases.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Trying to be like Mika?",
        "es": "¿Intentas ser como Mika?",
        "points": 0
       }
@@ -780,21 +780,21 @@
      "speaker": "Ann",
      "prompt": {
       "es": "¿Así se sintió Shiho durante la rehabilitación? Sacó fuerzas de donde pudo porque no estaba sola.",
-      "en": ""
+      "en": "...I wonder if this is how Shiho felt with her rehab? Being able to push herself because someone was there with her..."
      },
      "options": [
       {
-       "en": "",
+       "en": "That's probably it.",
        "es": "Será eso.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I wonder.",
        "es": "Vete a saber.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You can ask her yourself.",
        "es": "Pregúntale.",
        "points": 2
       }
@@ -864,21 +864,21 @@
      "speaker": "Ann",
      "prompt": {
       "es": "¡A estas alturas, te necesito!",
-      "en": ""
+      "en": "I kinda need you to, at this point!"
      },
      "options": [
       {
-       "en": "",
+       "en": "Of course.",
        "es": "Claro.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'm yours forever.",
        "es": "Soy tuyo para siempre.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "That's up to you.",
        "es": "Eso depende de ti.",
        "points": 0
       }

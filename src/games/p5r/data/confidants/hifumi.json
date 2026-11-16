@@ -23,22 +23,22 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "No hace falta si no quieres, claro.",
-      "en": ""
+      "en": "There's no obligation, of course..."
      },
      "options": [
       {
        "es": "Claro.",
-       "en": "",
+       "en": "Sure.",
        "points": 1
       },
       {
        "es": "Supongo que sí.",
-       "en": "",
+       "en": "I guess we can.",
        "points": 0
       },
       {
        "es": "Qué suerte tengo.",
-       "en": "",
+       "en": "Lucky me.",
        "points": 0
       }
      ]
@@ -183,21 +183,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "Pero no me parece justo. ¿Cómo voy a enseñarte si estoy así de angustiada?",
-      "en": ""
+      "en": "But this hardly seems fair... How can I teach you properly when I'm this distressed...?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Bring it on.",
        "es": "Adelante.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Don't worry about it.",
        "es": "No te preocupes.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "This is part of our deal too.",
        "es": "También es parte de nuestro trato.",
        "points": 0
       }
@@ -275,21 +275,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "Espero que no te desanimes y dejes de quedar conmigo. Me encantaría repetir todo esto.",
-      "en": ""
+      "en": "I hope this won't discourage you from spending time with me. Really, I would be delighted to do this again."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'd love to.",
        "es": "Me encantaría.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "If our schedules match up.",
        "es": "A ver si lo cuadramos.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Where shall we go next?",
        "es": "¿A dónde vamos ahora?",
        "points": 2
       }
@@ -367,21 +367,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "No quería ofenderte, seguro. Espero que aceptes mis disculpas en su lugar.",
-      "en": ""
+      "en": "She didn't mean to offend you at all. I hope you'll accept my apology in her place."
      },
      "options": [
       {
-       "en": "",
+       "en": "No worries.",
        "es": "No hay problema.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You've got a lot to deal with...",
        "es": "Tienes mucho con lo que lidiar...",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Why do you have to apologize?",
        "es": "¿Por qué pides perdón?",
        "points": 0
       }
@@ -459,21 +459,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "No serías mal monje, la verdad. Lo digo por lo bien que se te da escuchar.",
-      "en": ""
+      "en": "...You might make a fine priest yourself. Considering how good a listener you are, I mean."
      },
      "options": [
       {
-       "en": "",
+       "en": "You think so?",
        "es": "¿Eso crees?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You're imagining things.",
        "es": "Te lo estás imaginando.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Confess your sins, my child.",
        "es": "Confiesa tus pecados, hija mía.",
        "points": 0
       }
@@ -621,21 +621,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "Me pica la curiosidad por saber qué piensas sobre mi decisión de desvelar lo de las partidas amañadas.",
-      "en": ""
+      "en": "I was just a little curious about your thoughts. Regarding my decision to reveal my fixed matches, that is."
      },
      "options": [
       {
-       "en": "",
+       "en": "I support it.",
        "es": "Lo apoyo.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You should really rethink this.",
        "es": "Piénsatelo bien.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It's certainly admirable...",
        "es": "Es admirable.",
        "points": 0
       }
@@ -764,21 +764,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "Por eso lo digo convencida. La derrota de hoy no ha sido un paso atrás, sino un salto adelante.",
-      "en": ""
+      "en": "That's why I can say with certainty. Today's loss was not a setback, but a glorious step forward."
      },
      "options": [
       {
-       "en": "",
+       "en": "That's a great way to see it.",
        "es": "Es una buena forma de verlo.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "You're overthinking it.",
        "es": "Le estás dando demasiadas vueltas.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Let's win the next one.",
        "es": "La próxima la ganamos.",
        "points": 0
       }
@@ -792,21 +792,21 @@
      "speaker": "Hifumi",
      "prompt": {
       "es": "Pero apareciste tú... Y con nuestras revelaciones me salvaste. Gracias.",
-      "en": ""
+      "en": "But I had you... and through our mutual revelations, I was saved. So thank you."
      },
      "options": [
       {
-       "en": "",
+       "en": "Anything for you.",
        "es": "Lo que sea por ti.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "It was all a big coincidence.",
        "es": "Fue una gran coincidencia.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It was love at first sight.",
        "es": "Fue amor a primera vista.",
        "points": 0
       }

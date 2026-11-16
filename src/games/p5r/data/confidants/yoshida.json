@@ -24,22 +24,22 @@
      "speaker": "Toranosuke",
      "prompt": {
       "es": "Es sobre mi programa de discursos a partir de ahora, ¿quieres oírlo?",
-      "en": ""
+      "en": "It's about my speech schedules from this point on. Would you be willing to stick around to hear it?"
      },
      "options": [
       {
        "es": "Claro.",
-       "en": "",
+       "en": "Of course.",
        "points": 0
       },
       {
        "es": "Qué remedio.",
-       "en": "",
+       "en": "If I must.",
        "points": 0
       },
       {
        "es": "Permíteme que me lo apunte.",
-       "en": "",
+       "en": "Let me write this down.",
        "points": 3
       }
      ]

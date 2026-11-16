@@ -23,22 +23,22 @@
      "speaker": "Sojiro",
      "prompt": {
       "es": "Tú haz lo que puedas y no te metas en líos, ¿eh?",
-      "en": ""
+      "en": "Just keep doing what you can. And don't cause any trouble, right?"
      },
      "options": [
       {
        "es": "Entendido.",
-       "en": "",
+       "en": "Got it.",
        "points": 3
       },
       {
        "es": "Ese era el trato.",
-       "en": "",
+       "en": "That was our deal.",
        "points": 0
       },
       {
        "es": "Es lo mínimo que puedo hacer.",
-       "en": "",
+       "en": "It's the least I can do.",
        "points": 0
       }
      ]
@@ -413,21 +413,21 @@
      "speaker": "Sojiro",
      "prompt": {
       "es": "Solo me supone un problema cuando lo pide tres veces al día.",
-      "en": ""
+      "en": "...It's only a problem when she asks for it three times a day."
      },
      "options": [
       {
-       "en": "",
+       "en": "Sounds good to me.",
        "es": "Suena bien.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "She needs a balanced diet.",
        "es": "Necesita una dieta equilibrada.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "There's always instant noodles.",
        "es": "Siempre hay fideos instantáneos.",
        "points": 0
       }
@@ -530,21 +530,21 @@
      "speaker": "Sojiro",
      "prompt": {
       "es": "Futaba duerme como un tronco. No pretendía meterte en este embrollo.",
-      "en": ""
+      "en": "Futaba's fast asleep... Didn't mean to get you tangled up in all this mess."
      },
      "options": [
       {
-       "en": "",
+       "en": "Is she okay?",
        "es": "¿Está bien?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Try to relax.",
        "es": "Intenta relajarte.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "If I can help somehow...",
        "es": "Si puedo ayudar de alguna forma...",
        "points": 2
       }
@@ -595,21 +595,21 @@
      "speaker": "Sojiro",
      "prompt": {
       "es": "Y todo porque nos ayudaste a conectar, así que... gracias.",
-      "en": ""
+      "en": "And that's only because you helped us connect, so... thanks for that."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'm truly glad.",
        "es": "Me alegro mucho.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You're welcome.",
        "es": "De nada.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Feel like a real dad now?",
        "es": "¿Ahora te sientes como un padre?",
        "points": 2
       }

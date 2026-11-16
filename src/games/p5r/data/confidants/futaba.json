@@ -81,21 +81,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "¿Crees que Sojiro se pondrá feliz?",
-      "en": ""
+      "en": "Do you think it'd make Sojiro happy?"
      },
      "options": [
       {
-       "en": "",
+       "en": "I bet it will.",
        "es": "Seguro que sí.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "I'm not sure.",
        "es": "No sé.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Why not ask him directly?",
        "es": "¿Y si le preguntas directamente?",
        "points": 0
       }
@@ -176,21 +176,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "¡A este paso, acabaré en un periquete! ¿A que sí?",
-      "en": ""
+      "en": "But at this pace, I'll clear it in no time...! Right?"
      },
      "options": [
       {
-       "en": "",
+       "en": "It'll only get tougher.",
        "es": "Las cosas se complicarán.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You will.",
        "es": "Verás como sí.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "We'll both do our best.",
        "es": "Habrá que esforzarse.",
        "points": 2
       }
@@ -264,21 +264,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "Creo que me quedaría sin maná enseguida. El mundo real da miedo.",
-      "en": ""
+      "en": "I still think I'd run out of MP way too fast. The real world is a scary place..."
      },
      "options": [
       {
-       "en": "",
+       "en": "We'll take it slow.",
        "es": "Nos lo tomaremos con calma.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You need more training.",
        "es": "Necesitas practicar más.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'll help you anytime.",
        "es": "Te ayudaré cuando sea.",
        "points": 3
       }
@@ -356,21 +356,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "¡Ahora soy una persona diferente! ¡Ya no me asusta la policía! ¡Va, dime que lo he hecho bien!",
-      "en": ""
+      "en": "I'm a completely different person now! No more getting scared of the police! C'mon, tell me I'm cool!"
      },
      "options": [
       {
-       "en": "",
+       "en": "You did great.",
        "es": "Lo has hecho genial.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "That's nothing special.",
        "es": "No tiene nada de especial.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Ding! Level up!",
        "es": "¡Tin! ¡Has subido de nivel!",
        "points": 0
       }
@@ -444,21 +444,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "Sé que lo prometí, pero... ¡me acuerdo del cabreo que pilló y me asusto!",
-      "en": ""
+      "en": "I know I promised myself that I'd do this... but when I remember how angry Kana-chan got, I get so scared..."
      },
      "options": [
       {
-       "en": "",
+       "en": "Are you running away again?",
        "es": "¿Piensas huir de nuevo?",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Let's calm down first.",
        "es": "Tranquilízate primero.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'm right here with you.",
        "es": "Estoy aquí contigo.",
        "points": 0
       }
@@ -606,21 +606,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "Y ahora que me llevo bien con Kana... me alegra haber superado ese objetivo.",
-      "en": ""
+      "en": "And now I'm getting along with Kana- chan... I'm so glad I cleared that goal."
      },
      "options": [
       {
-       "en": "",
+       "en": "Congrats.",
        "es": "Felicidades.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You've still got more.",
        "es": "Aún te quedan más.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Want more pats?",
        "es": "¿Quieres más palmaditas?",
        "points": 2
       }
@@ -743,21 +743,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "¿Podrías ser más concreto? ¿Del mismo equipo en qué sentido?",
-      "en": ""
+      "en": "Could you get specific? What kind of teammate am I to you?"
      },
      "options": [
       {
-       "en": "",
+       "en": "A true friend.",
        "es": "Un amigo de verdad.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "A partner.",
        "es": "Un socio.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "A key item.",
        "es": "Un objeto fundamental.",
        "points": 0
       }
@@ -771,21 +771,21 @@
      "speaker": "Futaba",
      "prompt": {
       "es": "Eh... esto... ¿Qué quieres?",
-      "en": ""
+      "en": "Uh... I mean, like... what do you want...?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Instant yakisoba.",
        "es": "Fideos instantáneos.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Morgana.",
        "es": "Morgana.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Do I really have to say it?",
        "es": "¿Tengo que responder?",
        "points": 2
       }

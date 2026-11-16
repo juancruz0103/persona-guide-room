@@ -90,21 +90,21 @@
      "speaker": "Kasumi",
      "prompt": {
       "es": "Me calmé tanto que de golpe me entró hambre y la barriga no paraba de hacerme ruido.",
-      "en": ""
+      "en": "I was so relieved, I suddenly got really hungry... and then my stomach wouldn't stop growling in my meeting."
      },
      "options": [
       {
-       "en": "",
+       "en": "Impressive.",
        "es": "Increíble.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Gotta push through it.",
        "es": "Tienes que superarlo.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You did eat eventually, right?",
        "es": "Al final comiste, ¿no?",
        "points": 0
       }
@@ -399,21 +399,21 @@
      "speaker": "Kasumi",
      "prompt": {
       "es": "¡Le quedan mucho mejor de lo que esperaba! ¡Le han encantado!",
-      "en": ""
+      "en": "And it suits him even better than I imagined! He was so happy with them!"
      },
      "options": [
       {
-       "en": "",
+       "en": "I'm glad to hear that.",
        "es": "Me alegra escuchar eso.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You should be more confident.",
        "es": "Deberías tener más seguridad.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Of course he is.",
        "es": "Claro que sí.",
        "points": 0
       }

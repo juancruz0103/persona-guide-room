@@ -23,22 +23,22 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Según los resultados de hoy, creo que puedo crear un fármaco nuevo. Pásate cuando estés listo.",
-      "en": ""
+      "en": "Based on today's results, I think I can whip up some new medicine for next time. Drop by when you're ready for it."
      },
      "options": [
       {
        "es": "Me parece bien.",
-       "en": "",
+       "en": "Fine by me.",
        "points": 1
       },
       {
        "es": "No te pases conmigo.",
-       "en": "",
+       "en": "Please go easy on me.",
        "points": 0
       },
       {
        "es": "Cuántas lucecitas.",
-       "en": "",
+       "en": "So many pretty lights...",
        "points": 0
       }
      ]
@@ -257,21 +257,21 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Sobre todo después de haber aprobado la consulta de aquella chica sin mi permiso.",
-      "en": ""
+      "en": "Especially after approving that girl's consultation without my permission."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'll reflect on my mistakes.",
        "es": "Reflexionaré sobre mis errores.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "But she ended up okay.",
        "es": "Pero ha terminado bien.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Punish me more.",
        "es": "Castígame más.",
        "points": 0
       }
@@ -322,21 +322,21 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Y también... disculparme por la charla de hoy. No tenía pensado contarte todo eso.",
-      "en": ""
+      "en": "Also... sorry for the long talk today. I wasn't planning on telling you all that."
      },
      "options": [
       {
-       "en": "",
+       "en": "About Miwa-chan?",
        "es": "¿Sobre Miwa?",
        "points": 2
       },
       {
-       "en": "",
+       "en": "About Oyamada?",
        "es": "¿Sobre Oyamada?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "About Crawford-Ende's?",
        "es": "¿Sobre Crawford-Ende?",
        "points": 0
       }
@@ -387,21 +387,21 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Necesito que me ayudes un poco más, así que aguanta.",
-      "en": ""
+      "en": "I'll need you to stick around just a little bit longer. I hope you can handle it."
      },
      "options": [
       {
-       "en": "",
+       "en": "You can count on me.",
        "es": "Cuenta conmigo.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I think I'm at my limit...",
        "es": "Creo que no puedo más...",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Anything for you.",
        "es": "Lo que sea por ti.",
        "points": 2
       }
@@ -599,21 +599,21 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Miwa nunca se rendía. Yo también tengo que luchar por ella.",
-      "en": ""
+      "en": "Miwa-chan was fighting all that time. I have to fight for her, too."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'll be cheering you on.",
        "es": "Te estaré animando.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Don't burn yourself out.",
        "es": "No hace falta que te pases.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Anything else I can do?",
        "es": "¿Hay algo que pueda hacer?",
        "points": 2
       }
@@ -735,21 +735,21 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Eres el mejor conejillo de Indias que podía tener.",
-      "en": ""
+      "en": "You really are the best guinea pig I could've hoped for."
      },
      "options": [
       {
-       "en": "",
+       "en": "You're welcome.",
        "es": "De nada.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It was a breeze.",
        "es": "Ha estado chupado.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'm glad we saw it through.",
        "es": "Me alegro de haberlo conseguido.",
        "points": 2
       }
@@ -763,21 +763,21 @@
      "speaker": "Tae",
      "prompt": {
       "es": "Parece que mi conejillo de Indias ha pillado una enfermedad más severa que Crawford-Ende.",
-      "en": ""
+      "en": "Turns out my little guinea pig caught an illness that's even more annoying and persistent than Crawford-Ende's."
      },
      "options": [
       {
-       "en": "",
+       "en": "It's true love.",
        "es": "Es amor verdadero.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "So did you.",
        "es": "Tú también.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I've always loved you.",
        "es": "Siempre te he amado.",
        "points": 2
       }

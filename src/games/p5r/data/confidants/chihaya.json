@@ -29,22 +29,22 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "No te escabullas porque entonces tendré que recurrir a la magia negra.",
-      "en": ""
+      "en": "I suggest you don't try to get out of it. Or else, who knows what kind of black magic I'll have to resort to...?"
      },
      "options": [
       {
        "es": "Allí estaré.",
-       "en": "",
+       "en": "I'll be there.",
        "points": 3
       },
       {
        "es": "Qué rollo.",
-       "en": "",
+       "en": "Such a hassle.",
        "points": 0
       },
       {
        "es": "Te estás pasando.",
-       "en": "",
+       "en": "You're pretty extreme...",
        "points": 0
       }
      ]
@@ -148,21 +148,21 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "Voy a ir directa al grano. Ahora mismo estás delante de tu casa, ¡¿correcto?!",
-      "en": ""
+      "en": "So I'm going to get right to my question! You're currently standing right in front of your house, correct!?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Of course I am.",
        "es": "Claro que sí.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "And if I am?",
        "es": "¿Y qué pasa?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Are you stalking me?",
        "es": "¿Me estás espiando?",
        "points": 0
       }
@@ -276,21 +276,21 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "Pero hablar contigo de todo me ayuda a sentirme mejor.",
-      "en": ""
+      "en": "But talking to you about everything is helping me feel a little better."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'm glad to hear that.",
        "es": "Me alegra oír eso.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I didn't do much.",
        "es": "No he hecho gran cosa.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Tell me more about your home.",
        "es": "Cuéntame más sobre tu casa.",
        "points": 0
       }
@@ -375,21 +375,21 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "Pero, cuando he de lidiar con el presidente, no me atrevo a decir lo que quiero.",
-      "en": ""
+      "en": "But whenever I face the chairman, I just can't find the courage to say what I need to..."
      },
      "options": [
       {
-       "en": "",
+       "en": "No need to strain yourself.",
        "es": "No te fatigues.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Be honest with yourself.",
        "es": "La honestidad por bandera.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "We'll work on it together.",
        "es": "Lo haremos entre los dos.",
        "points": 0
       }
@@ -436,21 +436,21 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "¡Estoy harta de hacer la vista gorda!",
-      "en": ""
+      "en": "I'm done turning a blind eye!"
      },
      "options": [
       {
-       "en": "",
+       "en": "Are you gonna be okay?",
        "es": "¿Te ves con fuerzas?",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Be careful.",
        "es": "Ten cuidado.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "So the Maiden's taking action.",
        "es": "Oráculo está entrando en acción.",
        "points": 0
       }
@@ -550,21 +550,21 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "Pero me mantuve firme y creo que fue gracias a tu influencia.",
-      "en": ""
+      "en": "But I didn't. I stood firm. And I think that's thanks to your influence."
      },
      "options": [
       {
-       "en": "",
+       "en": "You give me too much credit.",
        "es": "No es para tanto.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It was all your own will.",
        "es": "Fue tu propia voluntad.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "I knew it would happen.",
        "es": "Sabía que pasaría.",
        "points": 0
       }
@@ -638,21 +638,21 @@
      "speaker": "Chihaya",
      "prompt": {
       "es": "Si tienes problemas, ven y te haré una lectura.",
-      "en": ""
+      "en": "If you're in any trouble, please feel free to stop by for a consultation any time!"
      },
      "options": [
       {
-       "en": "",
+       "en": "I'm planning on it.",
        "es": "Cuenta con ello.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "If I'm ever in the mood.",
        "es": "Si me apetece, iré.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I want one of those stones.",
        "es": "Quiero una de esas piedras.",
        "points": 0
       }

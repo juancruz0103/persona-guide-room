@@ -21,22 +21,22 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Tengo mogollón de semillas. Si tienes alguna preferencia, habla.",
-      "en": ""
+      "en": "I certainly have plenty of seeds, so if you have a preference, I'll prioritize growing those first."
      },
      "options": [
       {
        "es": "Perfecto.",
-       "en": "",
+       "en": "Sounds good.",
        "points": 0
       },
       {
        "es": "Ese era nuestro trato.",
-       "en": "",
+       "en": "That was our deal.",
        "points": 3
       },
       {
        "es": "Gracias, cuento contigo.",
-       "en": "",
+       "en": "Thanks. I'm counting on you.",
        "points": 0
       }
      ]
@@ -140,21 +140,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Prefiero plantar comida que le guste a todo el mundo.",
-      "en": ""
+      "en": "I might as well grow things that everyone likes eating."
      },
      "options": [
       {
-       "en": "",
+       "en": "Moonlight Carrot.",
        "es": "Zanahoria lunar.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Sun Tomato.",
        "es": "Tomate solar.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Jewel Melon.",
        "es": "Melón joya.",
        "points": 3
       }
@@ -258,21 +258,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Me excusé diciendo que un amigo me había llamado. Por eso estoy aquí, lejos de él.",
-      "en": ""
+      "en": "My excuse was that my friend was calling me... so here I am, away from him."
      },
      "options": [
       {
-       "en": "",
+       "en": "Smart response.",
        "es": "Buena respuesta.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Sounds like a hassle.",
        "es": "Parece un engorro.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Which friend?",
        "es": "¿Qué amigo?",
        "points": 0
       }
@@ -431,21 +431,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Has sacado tiempo para verme y hemos terminado hablando de mis problemas.",
-      "en": ""
+      "en": "You took the time out of your schedule to hang out with me, but we ended up dealing with my own drama..."
      },
      "options": [
       {
-       "en": "",
+       "en": "I don't mind.",
        "es": "No me importa.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It was rather intriguing.",
        "es": "Era bastante intrigante.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Let's get coffee again sometime.",
        "es": "Tomemos café otro día.",
        "points": 2
       }
@@ -550,21 +550,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Cuando lo pensé, el miedo volvió a apoderarse de mí.",
-      "en": ""
+      "en": "Once I started to imagine that again, this powerful fear came flooding back..."
      },
      "options": [
       {
-       "en": "",
+       "en": "Are you okay?",
        "es": "¿Estás bien?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "We're all here for you.",
        "es": "Estamos aquí para ayudarte.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Pinch yourself.",
        "es": "Pellízcate.",
        "points": 2
       }
@@ -691,21 +691,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Tanta negatividad me hacía daño, no la soportaba... Por eso te llamé.",
-      "en": ""
+      "en": "The negativity felt so painful, too much to handle alone, and... before I knew it, I was already calling you."
      },
      "options": [
       {
-       "en": "",
+       "en": "You can talk to me anytime.",
        "es": "Llámame cuando quieras.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Let him say what he wants.",
        "es": "Que diga lo que quiera.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Wanna run away together?",
        "es": "¿Nos fugamos?",
        "points": 0
       }
@@ -783,21 +783,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Puedo seguir adelante gracias a tu apoyo.",
-      "en": ""
+      "en": "It's thanks to your support that I can keep pushing forward."
      },
      "options": [
       {
-       "en": "",
+       "en": "Don't relax yet.",
        "es": "No bajes la guardia aún.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'll always have your back.",
        "es": "Yo siempre te cubriré las espaldas.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "So what's this \"magic item\"?",
        "es": "¿Qué objeto mágico?",
        "points": 0
       }
@@ -902,21 +902,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Ya estoy analizando la tierra que me llevé a casa. Mis plantas de café están contentísimas.",
-      "en": ""
+      "en": "I'm already testing the soil I brought home today. I can tell my coffee plants are happy."
      },
      "options": [
       {
-       "en": "",
+       "en": "You can understand them?",
        "es": "¿Las entiendes?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "It's in your nature to nurture.",
        "es": "Lo tuyo es la naturaleza.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "I want some too.",
        "es": "Dame algunas.",
        "points": 0
       }
@@ -1018,21 +1018,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Eh, bueno... ¿C-cómo estás?",
-      "en": ""
+      "en": "Er, well... H-How are you?"
      },
      "options": [
       {
-       "en": "",
+       "en": "What're you up to?",
        "es": "¿Qué haces?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I wanted to hear your voice.",
        "es": "Quería oír tu voz.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I miss you.",
        "es": "Te echo de menos.",
        "points": 3
       }
@@ -1046,21 +1046,21 @@
      "speaker": "Haru",
      "prompt": {
       "es": "Ojalá pudieras olerlo.",
-      "en": ""
+      "en": "If only you could smell it too."
      },
      "options": [
       {
-       "en": "",
+       "en": "Thanks.",
        "es": "Gracias.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You sound so happy.",
        "es": "Pareces muy feliz.",
        "points": 3
       },
       {
-       "en": "",
+       "en": "I can't wait to try it.",
        "es": "Qué ganas de probarlo.",
        "points": 0
       }

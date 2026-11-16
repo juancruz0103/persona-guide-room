@@ -24,17 +24,17 @@
      "speaker": "Sadayo",
      "prompt": {
       "es": "Y no olvides solicitar mis servicios si necesitas ayuda con las tareas del hogar.",
-      "en": ""
+      "en": "Oh, please request me if you need any help with your housework, okay?"
      },
      "options": [
       {
        "es": "No necesito ayuda.",
-       "en": "",
+       "en": "I don't need any help.",
        "points": 0
       },
       {
        "es": "¿Por qué?",
-       "en": "",
+       "en": "Why?",
        "points": 0
       }
      ]
@@ -46,22 +46,22 @@
      "speaker": "Sadayo",
      "prompt": {
       "es": "Será un secretito entre Becky y su amo, ¿vale? ¿Lo guardarás?",
-      "en": ""
+      "en": "It'll be our wittle secret, just for Becky and Master, okay? Can you keep a secret?"
      },
      "options": [
       {
        "es": "Sí, lo pillo.",
-       "en": "",
+       "en": "Yeah, I get it.",
        "points": 3
       },
       {
        "es": "Lo haré si tú también lo haces.",
-       "en": "",
+       "en": "I will if you will.",
        "points": 0
       },
       {
        "es": "Deja de hablar así, por favor.",
-       "en": "",
+       "en": "Please stop talking like that.",
        "points": 0
       }
      ]
@@ -457,21 +457,21 @@
      "speaker": "Sadayo",
      "prompt": {
       "es": "Si pasas por alto cosas así, es más fácil que te pongas malo.",
-      "en": ""
+      "en": "If you neglect stuff like that, it makes you more likely to get sick."
      },
      "options": [
       {
-       "en": "",
+       "en": "I'll be fine.",
        "es": "Estaré bien.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Nah, too lazy.",
        "es": "No, no tengo ganas.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "How are you feeling, though?",
        "es": "Pero ¿cómo te sientes?",
        "points": 2
       }
@@ -664,21 +664,21 @@
      "speaker": "Sadayo",
      "prompt": {
       "es": "Pero no podía afrontarlo sola. Gracias a ti ya sé lo que debo hacer.",
-      "en": ""
+      "en": "But I felt so stuck facing it alone. It's thanks to you that I actually figured out what I need to do."
      },
      "options": [
       {
-       "en": "",
+       "en": "You're welcome.",
        "es": "De nada.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "So much for being a maid.",
        "es": "Adiós a lo de ser sirvienta.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'll do anything for you.",
        "es": "Haré lo que sea por ti.",
        "points": 0
       }
@@ -817,21 +817,21 @@
      "speaker": "Sadayo",
      "prompt": {
       "es": "Con el paso del tiempo, todo eso se disipó. Reavivar esa pasión parece fácil, pero cuesta mucho.",
-      "en": ""
+      "en": "But somewhere along the way, I forgot about all that... Reigniting your original resolve is easier said than done."
      },
      "options": [
       {
-       "en": "",
+       "en": "I agree.",
        "es": "Estoy de acuerdo.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You can do it.",
        "es": "¡Tú puedes!",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You were a pretty good maid.",
        "es": "Eras una buena sirvienta.",
        "points": 0
       }

@@ -511,21 +511,21 @@
      "speaker": "Ryuji",
      "prompt": {
       "es": "Además, dudo que esos tíos me escuchen.",
-      "en": ""
+      "en": "Besides... I doubt those guys are gonna listen to anything I say..."
      },
      "options": [
       {
-       "en": "",
+       "en": "Never know until you try.",
        "es": "Las cosas hay que intentarlas.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "It's out of our hands.",
        "es": "No está en nuestras manos.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "We'll use force if we have to.",
        "es": "No descarto usar la fuerza.",
        "points": 0
       }
@@ -615,21 +615,21 @@
      "speaker": "Ryuji",
      "prompt": {
       "es": "Qué bien que hablen con sinceridad. Son un equipazo.",
-      "en": ""
+      "en": "Seein' them havin' a real heart-to-heart talk... They got a good team."
      },
      "options": [
       {
-       "en": "",
+       "en": "You did a great job.",
        "es": "Lo has hecho genial.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "So. Case closed?",
        "es": "Entonces, ¿caso cerrado?",
        "points": 2
       },
       {
-       "en": "",
+       "en": "We make a good team too.",
        "es": "Somos un gran equipo.",
        "points": 0
       }
@@ -751,21 +751,21 @@
      "speaker": "Ryuji",
      "prompt": {
       "es": "Yamauchi sigue siendo su asesor, pero no pasa nada. Parece que lo tienen controlado.",
-      "en": ""
+      "en": "They're apparently keepin' Yamauchi as their advisor for now, but it's cool. Sounds like they got him under control."
      },
      "options": [
       {
-       "en": "",
+       "en": "Congratulations.",
        "es": "Enhorabuena.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Got him under control, how?",
        "es": "¿Cómo lo tienen controlado?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Better watch out for them.",
        "es": "Mucho ojo con ellos.",
        "points": 2
       }

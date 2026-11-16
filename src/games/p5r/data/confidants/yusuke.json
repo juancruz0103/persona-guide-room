@@ -21,22 +21,22 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "He de cumplir con mi parte del trato para dar lo mejor de mí. Solo tienes que pedírmelo.",
-      "en": ""
+      "en": "I have to hold up my end of the deal, so I'll perform to the best of my ability. You need only ask."
      },
      "options": [
       {
        "es": "Gracias.",
-       "en": "",
+       "en": "Thanks.",
        "points": 2
       },
       {
        "es": "Intentaré no hacerlo.",
-       "en": "",
+       "en": "I'll try not to.",
        "points": 0
       },
       {
        "es": "Te haré muchas preguntas.",
-       "en": "",
+       "en": "I'll be asking a lot.",
        "points": 0
       }
      ]
@@ -113,21 +113,21 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "Llevo muy buena racha. ¡Tengo que mantenerme así y hacerlo igual con los Ladrones Fantasma!",
-      "en": ""
+      "en": "I'm on a roll right now. I shall keep up this momentum and apply it to the Phantom Thieves as well!"
      },
      "options": [
       {
-       "en": "",
+       "en": "You're already doing enough.",
        "es": "Ya haces suficiente.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "I'm looking forward to it.",
        "es": "Me muero de ganas.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Will you really?",
        "es": "¿De verdad?",
        "points": 0
       }
@@ -223,21 +223,21 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "Yo seguiré dibujando. ¡Hoy voy a terminar hasta diez obras!",
-      "en": ""
+      "en": "I will simply keep on drawing. I'm going to have ten pieces finished up by end of today!"
      },
      "options": [
       {
-       "en": "",
+       "en": "That's the spirit.",
        "es": "Así me gusta.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You're taking this too far.",
        "es": "Te estás pasando.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "That's all?",
        "es": "¿Eso es todo?",
        "points": 0
       }
@@ -315,21 +315,21 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "¿Cuándo entenderé del todo el corazón? Y aunque lo logre, ¿seré capaz de dibujarlo?",
-      "en": ""
+      "en": "When will I fully understand the heart? Even if I ever do understand it, will I truly be able to draw it...?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Don't get discouraged.",
        "es": "No te desanimes.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Just keep drawing.",
        "es": "Sigue dibujando.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You lack love yourself.",
        "es": "Te falta autoestima.",
        "points": 0
       }
@@ -407,21 +407,21 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "Cuanto más pienso en ello, menos me parece que entiendo el abismo del corazón.",
-      "en": ""
+      "en": "The more I think about it... the further I seem to be from understanding the abyss of the heart."
      },
      "options": [
       {
-       "en": "",
+       "en": "Don't overthink it.",
        "es": "No le des tantas vueltas.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You have to keep drawing.",
        "es": "Tienes que seguir dibujando.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "There's still hope.",
        "es": "Aún hay esperanza.",
        "points": 2
       }
@@ -499,21 +499,21 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "Por cierto, ese caballero... Kawanabe, ¿verdad? ¿Qué te ha parecido?",
-      "en": ""
+      "en": "By the way, that gentleman... Kawanabe, was it? What's your impression of him?"
      },
      "options": [
       {
-       "en": "",
+       "en": "He had a certain dignity.",
        "es": "Tenía cierta dignidad.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "He seems reliable.",
        "es": "Parecía de fiar.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'm not sure.",
        "es": "No lo tengo claro.",
        "points": 0
       }
@@ -589,21 +589,21 @@
      "speaker": "Yusuke",
      "prompt": {
       "es": "¡No tengo voluntad! Me vendo a cualquiera, ¡me rindo ante el poder del dinero!",
-      "en": ""
+      "en": "I'm tainted after all...! I'm a petty sellout, a slave to the power of money!"
      },
      "options": [
       {
-       "en": "",
+       "en": "Calm down.",
        "es": "Para el carro.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "It's not a crime to enjoy sushi.",
        "es": "Disfrutar del sushi no es delito.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "Let's go again sometime.",
        "es": "Volvamos otro día.",
        "points": 0
       }

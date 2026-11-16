@@ -160,21 +160,21 @@
      "speaker": "Goro",
      "prompt": {
       "es": "He visto de primera mano lo que pasa cuando no mido mis palabras cerca de ti.",
-      "en": ""
+      "en": "I saw firsthand what happens when I'm too careless with my words around you."
      },
      "options": [
       {
-       "en": "",
+       "en": "That was careless, huh?",
        "es": "Qué imprudente, ¿no?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Wasn't it fun?",
        "es": "¿No te ha gustado?",
        "points": 2
       },
       {
-       "en": "",
+       "en": "I can always dress you up again.",
        "es": "Siempre puedo volver a disfrazarte.",
        "points": 0
       }
@@ -300,21 +300,21 @@
      "speaker": "Goro",
      "prompt": {
       "es": "Esa sincronía extraña y errática tiene algo... Es como la euforia que siento cuando resuelvo un caso.",
-      "en": ""
+      "en": "There's something about that strange, erratic synchronicity... It's a euphoria like when I manage to solve a case."
      },
      "options": [
       {
-       "en": "",
+       "en": "What are you talking about?",
        "es": "¿De qué hablas?",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I kinda get it.",
        "es": "Creo que lo pillo.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You really are having fun.",
        "es": "Sí que te estás divirtiendo.",
        "points": 0
       }
@@ -387,21 +387,21 @@
      "speaker": "Goro",
      "prompt": {
       "es": "Espero no haber quedado como un novato. Ojalá hubiera jugado mejor.",
-      "en": ""
+      "en": "Hopefully I didn't come off as too much of a novice. I wish I'd played better."
      },
      "options": [
       {
-       "en": "",
+       "en": "You did fine.",
        "es": "Lo has hecho bien.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You've still got a long way to go.",
        "es": "Aún te queda bastante.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You were getting cocky.",
        "es": "Se te estaba subiendo a la cabeza.",
        "points": 2
       }
@@ -573,21 +573,21 @@
      "speaker": "Goro",
      "prompt": {
       "es": "Si me hubieran visto hoy, quizá dirían que no estaba actuando como el Príncipe Detective.",
-      "en": ""
+      "en": "If they saw how I was acting today, perhaps they'd say I wasn't acting like the Detective Prince."
      },
      "options": [
       {
-       "en": "",
+       "en": "True.",
        "es": "Cierto.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "They'd probably love it.",
        "es": "Seguro que les encantaría.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "My bad, I guess.",
        "es": "Culpa mía, supongo.",
        "points": 2
       }

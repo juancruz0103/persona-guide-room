@@ -23,22 +23,22 @@
      "speaker": "Shinya",
      "prompt": {
       "es": "Dame tu ID, anda, que yo no estoy aquí siempre.",
-      "en": ""
+      "en": "Hey, we should exchange IDs. It's not like I'm here every day, so..."
      },
      "options": [
       {
        "es": "Claro.",
-       "en": "",
+       "en": "Sure.",
        "points": 1
       },
       {
        "es": "¿Tenemos que hacerlo?",
-       "en": "",
+       "en": "Do we have to?",
        "points": 0
       },
       {
        "es": "Llámame cuando vayas a jugar.",
-       "en": "",
+       "en": "Call me when it's game time.",
        "points": 0
       }
      ]
@@ -167,21 +167,21 @@
      "speaker": "Shinya",
      "prompt": {
       "es": "Al principio a nadie se le da bien, pero con la práctica se mejora.",
-      "en": ""
+      "en": "Everyone sucks at first, but you can get good if you do it every day!"
      },
      "options": [
       {
-       "en": "",
+       "en": "I'll work hard.",
        "es": "Me esforzaré.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "If I feel like it.",
        "es": "Si me apetece.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "So then I can beat you?",
        "es": "¿Así podré ganarte?",
        "points": 0
       }
@@ -232,21 +232,21 @@
      "speaker": "Shinya",
      "prompt": {
       "es": "Podríamos ir a comer, si te parece.",
-      "en": ""
+      "en": "Maybe we can go eat something again while we're at it?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Sure.",
        "es": "Claro.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "If our schedules line up.",
        "es": "A ver si lo cuadramos.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Any food requests?",
        "es": "¿Alguna petición culinaria?",
        "points": 0
       }
@@ -411,21 +411,21 @@
      "speaker": "Shinya",
      "prompt": {
       "es": "¡Tengo que cambiar de estrategia antes de enfrentarme a él!",
-      "en": ""
+      "en": "I gotta think of a new strategy by the next time I challenge him!"
      },
      "options": [
       {
-       "en": "",
+       "en": "I'll be cheering you on.",
        "es": "Te estaré animando.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "You're a sharp kid.",
        "es": "Eres un chico listo.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "Think you can take him?",
        "es": "¿Podrás contra él?",
        "points": 0
       }
@@ -498,21 +498,21 @@
      "speaker": "Shinya",
      "prompt": {
       "es": "(Tu nombre)... ¿Estás seguro de que no acabarás odiándome?",
-      "en": ""
+      "en": "(Your name)-san... Are you sure you aren't gonna hate me?"
      },
      "options": [
       {
-       "en": "",
+       "en": "Of course not.",
        "es": "Claro que no.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "That's up to you.",
        "es": "Eso depende de ti.",
        "points": 0
       },
       {
-       "en": "",
+       "en": "I'm your big brother, right?",
        "es": "Soy tu hermano mayor, ¿no?",
        "points": 0
       }
@@ -671,21 +671,21 @@
      "speaker": "Shinya",
      "prompt": {
       "es": "¡Me alegro de que haya vuelto a ser como antes! ¡Gracias, Ladrones Fantasma!",
-      "en": ""
+      "en": "I'm so glad she's back to her old self! I'm so thankful for the Phantom Thieves!"
      },
      "options": [
       {
-       "en": "",
+       "en": "Your wish came true.",
        "es": "Tu deseo se ha cumplido.",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You really think it was them?",
        "es": "¿De verdad crees que fueron ellos?",
        "points": 2
       },
       {
-       "en": "",
+       "en": "You did a great job too.",
        "es": "Tú también lo has hecho genial.",
        "points": 2
       }

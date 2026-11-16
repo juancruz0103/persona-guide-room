@@ -23,22 +23,22 @@
      "speaker": "Munehisa",
      "prompt": {
       "es": "Si quieres algo, tendrás que trabajar para conseguirlo.",
-      "en": ""
+      "en": "If you want somethin', you're gonna have to work for it."
      },
      "options": [
       {
        "es": "Yo me encargo.",
-       "en": "",
+       "en": "Leave it to me.",
        "points": 2
       },
       {
        "es": "Si es seguro...",
-       "en": "",
+       "en": "As long as it's safe...",
        "points": 0
       },
       {
        "es": "¿En qué consiste mi primer trabajo?",
-       "en": "",
+       "en": "So what's my first job?",
        "points": 0
       }
      ]
