@@ -1,0 +1,6226 @@
+{
+ "Agi": {
+  "id": 1,
+  "name": "Agi",
+  "nameEn": "Agi",
+  "nameEs": "Agi",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Agilao": {
+  "id": 2,
+  "name": "Agilao",
+  "nameEn": "Agilao",
+  "nameEs": "Agilao",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Agidyne": {
+  "id": 3,
+  "name": "Agidyne",
+  "nameEn": "Agidyne",
+  "nameEs": "Agidyne",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Maragi": {
+  "id": 4,
+  "name": "Maragi",
+  "nameEn": "Maragi",
+  "nameEs": "Maragi",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40,
+  "rank": 2,
+  "unique": false
+ },
+ "Maragion": {
+  "id": 5,
+  "name": "Maragion",
+  "nameEn": "Maragion",
+  "nameEs": "Maragion",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100,
+  "rank": 4,
+  "unique": false
+ },
+ "Maragidyne": {
+  "id": 6,
+  "name": "Maragidyne",
+  "nameEn": "Maragidyne",
+  "nameEs": "Maragidyne",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160,
+  "rank": 6,
+  "unique": false
+ },
+ "Prominence": {
+  "id": 7,
+  "name": "Prominence",
+  "nameEn": "Prominence",
+  "nameEs": "Prominencia",
+  "element": "fir",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Ragnarok": {
+  "id": 8,
+  "name": "Ragnarok",
+  "nameEn": "Ragnarok",
+  "nameEs": "Ragnarok",
+  "element": "fir",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Immortal Flame": {
+  "id": 9,
+  "name": "Immortal Flame",
+  "nameEn": "Immortal Flame",
+  "nameEs": "Llama inmortal",
+  "element": "fir",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 55
+  },
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Tiny Soul Tomato": {
+  "id": 10,
+  "name": "Tiny Soul Tomato",
+  "nameEn": "Tiny Soul Tomato",
+  "nameEs": "Tomate espiritual",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Tetracorn": {
+  "id": 11,
+  "name": "Tetracorn",
+  "nameEn": "Tetracorn",
+  "nameEs": "Tetracorn",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Run Amok": {
+  "id": 12,
+  "name": "Run Amok",
+  "nameEn": "Run Amok",
+  "nameEs": "A lo loco",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 35,
+  "rank": null,
+  "unique": false
+ },
+ "Shake Off": {
+  "id": 13,
+  "name": "Shake Off",
+  "nameEn": "Shake Off",
+  "nameEs": "Sacarse de encima",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Garu": {
+  "id": 14,
+  "name": "Garu",
+  "nameEn": "Garu",
+  "nameEs": "Garu",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Garula": {
+  "id": 15,
+  "name": "Garula",
+  "nameEn": "Garula",
+  "nameEs": "Garula",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Garudyne": {
+  "id": 16,
+  "name": "Garudyne",
+  "nameEn": "Garudyne",
+  "nameEs": "Garudyne",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Magaru": {
+  "id": 17,
+  "name": "Magaru",
+  "nameEn": "Magaru",
+  "nameEs": "Magaru",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40,
+  "rank": 2,
+  "unique": false
+ },
+ "Magarula": {
+  "id": 18,
+  "name": "Magarula",
+  "nameEn": "Magarula",
+  "nameEs": "Magarula",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100,
+  "rank": 4,
+  "unique": false
+ },
+ "Magarudyne": {
+  "id": 19,
+  "name": "Magarudyne",
+  "nameEn": "Magarudyne",
+  "nameEs": "Magarudyne",
+  "element": "win",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160,
+  "rank": 6,
+  "unique": false
+ },
+ "Divine Vacuum": {
+  "id": 20,
+  "name": "Divine Vacuum",
+  "nameEn": "Divine Vacuum",
+  "nameEs": "Onda Divina",
+  "element": "win",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Panta Rhei": {
+  "id": 21,
+  "name": "Panta Rhei",
+  "nameEn": "Panta Rhei",
+  "nameEs": "Panta Rei",
+  "element": "win",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Hiranya Cabbage": {
+  "id": 22,
+  "name": "Hiranya Cabbage",
+  "nameEn": "Hiranya Cabbage",
+  "nameEs": "Col de Hiranya",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Cry of Denial": {
+  "id": 23,
+  "name": "Cry of Denial",
+  "nameEn": "Cry of Denial",
+  "nameEs": "Llanto del rechazo",
+  "element": "ail",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Hot Lightning": {
+  "id": 24,
+  "name": "Hot Lightning",
+  "nameEn": "Hot Lightning",
+  "nameEs": "Rayo candente",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 300,
+  "rank": null,
+  "unique": false
+ },
+ "Draining Fog": {
+  "id": 25,
+  "name": "Draining Fog",
+  "nameEn": "Draining Fog",
+  "nameEs": "Niebla drenante",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Bufu": {
+  "id": 26,
+  "name": "Bufu",
+  "nameEn": "Bufu",
+  "nameEs": "Bufu",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Bufula": {
+  "id": 27,
+  "name": "Bufula",
+  "nameEn": "Bufula",
+  "nameEs": "Bufula",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Bufudyne": {
+  "id": 28,
+  "name": "Bufudyne",
+  "nameEn": "Bufudyne",
+  "nameEs": "Bufudyne",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Mabufu": {
+  "id": 29,
+  "name": "Mabufu",
+  "nameEn": "Mabufu",
+  "nameEs": "Mabufu",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40,
+  "rank": 2,
+  "unique": false
+ },
+ "Mabufula": {
+  "id": 30,
+  "name": "Mabufula",
+  "nameEn": "Mabufula",
+  "nameEs": "Mabufula",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100,
+  "rank": 4,
+  "unique": false
+ },
+ "Mabufudyne": {
+  "id": 31,
+  "name": "Mabufudyne",
+  "nameEn": "Mabufudyne",
+  "nameEs": "Mabufudyne",
+  "element": "ice",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160,
+  "rank": 6,
+  "unique": false
+ },
+ "Cocytus Pain": {
+  "id": 32,
+  "name": "Cocytus Pain",
+  "nameEn": "Cocytus Pain",
+  "nameEs": "Dolor del Cocito",
+  "element": "ice",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Niflheim": {
+  "id": 33,
+  "name": "Niflheim",
+  "nameEn": "Niflheim",
+  "nameEs": "Niflheim",
+  "element": "ice",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Bloody Rain": {
+  "id": 34,
+  "name": "Bloody Rain",
+  "nameEn": "Bloody Rain",
+  "nameEs": "Lluvia sangrienta",
+  "element": "ice",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 55
+  },
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Red Paprika": {
+  "id": 35,
+  "name": "Red Paprika",
+  "nameEn": "Red Paprika",
+  "nameEs": "Pimiento rojo",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Enclosure Shell": {
+  "id": 36,
+  "name": "Enclosure Shell",
+  "nameEn": "Enclosure Shell",
+  "nameEs": "Armazón displicente",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Shell of Denial": {
+  "id": 38,
+  "name": "Shell of Denial",
+  "nameEn": "Shell of Denial",
+  "nameEs": "Armazón del rechazo",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Zio": {
+  "id": 39,
+  "name": "Zio",
+  "nameEn": "Zio",
+  "nameEs": "Zio",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 4
+  },
+  "power": 40,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Zionga": {
+  "id": 40,
+  "name": "Zionga",
+  "nameEn": "Zionga",
+  "nameEs": "Zionga",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": 100,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Ziodyne": {
+  "id": 41,
+  "name": "Ziodyne",
+  "nameEn": "Ziodyne",
+  "nameEs": "Ziodyne",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 160,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Mazio": {
+  "id": 42,
+  "name": "Mazio",
+  "nameEn": "Mazio",
+  "nameEs": "Mazio",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": 40,
+  "rank": 2,
+  "unique": false
+ },
+ "Mazionga": {
+  "id": 43,
+  "name": "Mazionga",
+  "nameEn": "Mazionga",
+  "nameEs": "Mazionga",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 16
+  },
+  "power": 100,
+  "rank": 4,
+  "unique": false
+ },
+ "Maziodyne": {
+  "id": 44,
+  "name": "Maziodyne",
+  "nameEn": "Maziodyne",
+  "nameEs": "Maziodyne",
+  "element": "ele",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 22
+  },
+  "power": 160,
+  "rank": 6,
+  "unique": false
+ },
+ "Jihad": {
+  "id": 45,
+  "name": "Jihad",
+  "nameEn": "Jihad",
+  "nameEs": "Jihad",
+  "element": "ele",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Thunder Reign": {
+  "id": 46,
+  "name": "Thunder Reign",
+  "nameEn": "Thunder Reign",
+  "nameEs": "Reino del trueno",
+  "element": "ele",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Bead Melon": {
+  "id": 47,
+  "name": "Bead Melon",
+  "nameEn": "Bead Melon",
+  "nameEs": "Melón abalorio",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Mid Soul Tomato": {
+  "id": 48,
+  "name": "Mid Soul Tomato",
+  "nameEn": "Mid Soul Tomato",
+  "nameEs": "Tomate espiritual medio",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Big Soul Tomato": {
+  "id": 49,
+  "name": "Big Soul Tomato",
+  "nameEn": "Big Soul Tomato",
+  "nameEs": "Tomate espiritual grande",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Makaracorn": {
+  "id": 50,
+  "name": "Makaracorn",
+  "nameEn": "Makaracorn",
+  "nameEs": "Makaracorn",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Megido": {
+  "id": 51,
+  "name": "Megido",
+  "nameEn": "Megido",
+  "nameEs": "Megido",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": 120,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Megidola": {
+  "id": 52,
+  "name": "Megidola",
+  "nameEn": "Megidola",
+  "nameEs": "Megidola",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": 180,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Megidolaon": {
+  "id": 53,
+  "name": "Megidolaon",
+  "nameEn": "Megidolaon",
+  "nameEs": "Megidolaon",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 38
+  },
+  "power": 210,
+  "rank": 8,
+  "unique": false
+ },
+ "Last Resort": {
+  "id": 54,
+  "name": "Last Resort",
+  "nameEn": "Last Resort",
+  "nameEs": "Último recurso",
+  "element": "alm",
+  "target": "everyone",
+  "ailment": null,
+  "cost": null,
+  "power": 120,
+  "rank": null,
+  "unique": false
+ },
+ "Black Viper": {
+  "id": 55,
+  "name": "Black Viper",
+  "nameEn": "Black Viper",
+  "nameEs": "Víbora negra",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 230,
+  "rank": null,
+  "unique": false
+ },
+ "Morning Star": {
+  "id": 56,
+  "name": "Morning Star",
+  "nameEn": "Morning Star",
+  "nameEs": "Lucero del alba",
+  "element": "alm",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 55
+  },
+  "power": 230,
+  "rank": null,
+  "unique": false
+ },
+ "White Paprika": {
+  "id": 57,
+  "name": "White Paprika",
+  "nameEn": "White Paprika",
+  "nameEs": "Pimiento blanco",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Blue Paprika": {
+  "id": 58,
+  "name": "Blue Paprika",
+  "nameEn": "Blue Paprika",
+  "nameEs": "Pimiento azul",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Green Paprika": {
+  "id": 59,
+  "name": "Green Paprika",
+  "nameEn": "Green Paprika",
+  "nameEs": "Pimiento verde",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Hama": {
+  "id": 61,
+  "name": "Hama",
+  "nameEn": "Hama",
+  "nameEs": "Hama",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Hamaon": {
+  "id": 62,
+  "name": "Hamaon",
+  "nameEn": "Hamaon",
+  "nameEs": "Hamaon",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Mahama": {
+  "id": 63,
+  "name": "Mahama",
+  "nameEn": "Mahama",
+  "nameEs": "Mahama",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Mahamaon": {
+  "id": 64,
+  "name": "Mahamaon",
+  "nameEn": "Mahamaon",
+  "nameEs": "Mahamaon",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 34
+  },
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Eternal White": {
+  "id": 65,
+  "name": "Eternal White",
+  "nameEn": "Eternal White",
+  "nameEs": "Blanco eterno",
+  "element": "lig",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "God's Judgment": {
+  "id": 66,
+  "name": "God's Judgment",
+  "nameEn": "God's Judgment",
+  "nameEs": "Juicio de Dios",
+  "element": "lig",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Samsara": {
+  "id": 67,
+  "name": "Samsara",
+  "nameEn": "Samsara",
+  "nameEs": "Samsara",
+  "element": "lig",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 44
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Mudo": {
+  "id": 72,
+  "name": "Mudo",
+  "nameEn": "Mudo",
+  "nameEs": "Mudo",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Mudoon": {
+  "id": 73,
+  "name": "Mudoon",
+  "nameEn": "Mudoon",
+  "nameEs": "Mudoon",
+  "element": "dar",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Mamudo": {
+  "id": 74,
+  "name": "Mamudo",
+  "nameEn": "Mamudo",
+  "nameEs": "Mamudo",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Mamudoon": {
+  "id": 75,
+  "name": "Mamudoon",
+  "nameEn": "Mamudoon",
+  "nameEs": "Mamudoon",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 34
+  },
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Eternal Black": {
+  "id": 76,
+  "name": "Eternal Black",
+  "nameEn": "Eternal Black",
+  "nameEs": "Negro eterno",
+  "element": "dar",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 48
+  },
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "Demonic Judgment": {
+  "id": 77,
+  "name": "Demonic Judgment",
+  "nameEn": "Demonic Judgment",
+  "nameEs": "Juicio demoníaco",
+  "element": "dar",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 54
+  },
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Die for Me!": {
+  "id": 78,
+  "name": "Die for Me!",
+  "nameEn": "Die for Me!",
+  "nameEs": "¡Morid por mí!",
+  "element": "dar",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 44
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Pulinpa": {
+  "id": 83,
+  "name": "Pulinpa",
+  "nameEn": "Pulinpa",
+  "nameEs": "Pulinpa",
+  "element": "ail",
+  "target": "one",
+  "ailment": "confusion",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Tentarafoo": {
+  "id": 84,
+  "name": "Tentarafoo",
+  "nameEn": "Tentarafoo",
+  "nameEs": "Tentarafoo",
+  "element": "ail",
+  "target": "all",
+  "ailment": "confusion",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Evil Touch": {
+  "id": 85,
+  "name": "Evil Touch",
+  "nameEn": "Evil Touch",
+  "nameEs": "Toque maligno",
+  "element": "ail",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Evil Smile": {
+  "id": 86,
+  "name": "Evil Smile",
+  "nameEn": "Evil Smile",
+  "nameEs": "Sonrisa maligna",
+  "element": "ail",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Ghastly Wail": {
+  "id": 87,
+  "name": "Ghastly Wail",
+  "nameEn": "Ghastly Wail",
+  "nameEs": "Lamento espectral",
+  "element": "dar",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 28
+  },
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Balzac": {
+  "id": 88,
+  "name": "Balzac",
+  "nameEn": "Balzac",
+  "nameEs": "Balzac",
+  "element": "ail",
+  "target": "one",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Valiant Dance": {
+  "id": 89,
+  "name": "Valiant Dance",
+  "nameEn": "Valiant Dance",
+  "nameEs": "Danza valerosa",
+  "element": "ail",
+  "target": "all",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Poisma": {
+  "id": 90,
+  "name": "Poisma",
+  "nameEn": "Poisma",
+  "nameEs": "Poisma",
+  "element": "ail",
+  "target": "one",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Poison Mist": {
+  "id": 91,
+  "name": "Poison Mist",
+  "nameEn": "Poison Mist",
+  "nameEs": "Neblina venenosa",
+  "element": "ail",
+  "target": "all",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Soul Break": {
+  "id": 92,
+  "name": "Soul Break",
+  "nameEn": "Soul Break",
+  "nameEs": "Ruptura de alma",
+  "element": "ail",
+  "target": "one",
+  "ailment": "exhaustion",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Anima Freeze": {
+  "id": 93,
+  "name": "Anima Freeze",
+  "nameEn": "Anima Freeze",
+  "nameEs": "Congelac. de ánima",
+  "element": "ail",
+  "target": "all",
+  "ailment": "exhaustion",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Enervation": {
+  "id": 94,
+  "name": "Enervation",
+  "nameEn": "Enervation",
+  "nameEs": "Enervación",
+  "element": "ail",
+  "target": "one",
+  "ailment": "enervation",
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Old One": {
+  "id": 95,
+  "name": "Old One",
+  "nameEn": "Old One",
+  "nameEs": "Avejentar",
+  "element": "ail",
+  "target": "all",
+  "ailment": "enervation",
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Galgalim Eyes": {
+  "id": 96,
+  "name": "Galgalim Eyes",
+  "nameEn": "Galgalim Eyes",
+  "nameEs": "Ojos de Galgalim",
+  "element": "alm",
+  "target": "one",
+  "ailment": "enervation",
+  "cost": {
+   "type": "sp",
+   "value": 28
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Makajam": {
+  "id": 97,
+  "name": "Makajam",
+  "nameEn": "Makajam",
+  "nameEs": "Makajam",
+  "element": "ail",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Foolish Whisper": {
+  "id": 98,
+  "name": "Foolish Whisper",
+  "nameEn": "Foolish Whisper",
+  "nameEs": "Susurro necio",
+  "element": "ail",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Foul Breath": {
+  "id": 99,
+  "name": "Foul Breath",
+  "nameEn": "Foul Breath",
+  "nameEs": "Aliento fétido",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Stagnant Air": {
+  "id": 100,
+  "name": "Stagnant Air",
+  "nameEn": "Stagnant Air",
+  "nameEs": "Aire estancado",
+  "element": "alm",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Life Drain": {
+  "id": 101,
+  "name": "Life Drain",
+  "nameEn": "Life Drain",
+  "nameEs": "Absorción de salud",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Spirit Drain": {
+  "id": 102,
+  "name": "Spirit Drain",
+  "nameEn": "Spirit Drain",
+  "nameEs": "Absorc. de espíritu",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Life Leech": {
+  "id": 103,
+  "name": "Life Leech",
+  "nameEn": "Life Leech",
+  "nameEs": "Extracción de salud",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Spirit Leech": {
+  "id": 104,
+  "name": "Spirit Leech",
+  "nameEn": "Spirit Leech",
+  "nameEs": "Extracción de espíritu",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Judgement": {
+  "id": 105,
+  "name": "Judgement",
+  "nameEn": "Judgement",
+  "nameEs": "Juicio",
+  "element": "alm",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 66
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Kamui Miracle": {
+  "id": 109,
+  "name": "Kamui Miracle",
+  "nameEn": "Kamui Miracle",
+  "nameEs": "Milagro Kamui",
+  "element": "sup",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 25
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Elemental Break": {
+  "id": 119,
+  "name": "Elemental Break",
+  "nameEn": "Elemental Break",
+  "nameEs": "Ruptura elemental",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Bash": {
+  "id": 120,
+  "name": "Bash",
+  "nameEn": "Bash",
+  "nameEs": "Arremetida",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 6
+  },
+  "power": 60,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Cleave": {
+  "id": 121,
+  "name": "Cleave",
+  "nameEn": "Cleave",
+  "nameEs": "Despedazar",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 5
+  },
+  "power": 65,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Assault Dive": {
+  "id": 122,
+  "name": "Assault Dive",
+  "nameEn": "Assault Dive",
+  "nameEs": "Asalto",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 100,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Sonic Punch": {
+  "id": 123,
+  "name": "Sonic Punch",
+  "nameEn": "Sonic Punch",
+  "nameEs": "Puño sónico",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 75,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Double Fangs": {
+  "id": 124,
+  "name": "Double Fangs",
+  "nameEn": "Double Fangs",
+  "nameEs": "Colmillos dobles",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 40,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Kill Rush": {
+  "id": 125,
+  "name": "Kill Rush",
+  "nameEn": "Kill Rush",
+  "nameEs": "Acometida asesina",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 50,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Swift Strike": {
+  "id": 126,
+  "name": "Swift Strike",
+  "nameEn": "Swift Strike",
+  "nameEs": "Golpe veloz",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 12
+  },
+  "power": 65,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Twin Shot": {
+  "id": 127,
+  "name": "Twin Shot",
+  "nameEn": "Twin Shot",
+  "nameEs": "Disparo doble",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 55,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Fatal End": {
+  "id": 128,
+  "name": "Fatal End",
+  "nameEn": "Fatal End",
+  "nameEs": "Final fatídico",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 125,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Mighty Swing": {
+  "id": 129,
+  "name": "Mighty Swing",
+  "nameEn": "Mighty Swing",
+  "nameEs": "Tajo poderoso",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 135,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Torrent Shot": {
+  "id": 130,
+  "name": "Torrent Shot",
+  "nameEn": "Torrent Shot",
+  "nameEs": "Disparo torrencial",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 45,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Heat Wave": {
+  "id": 131,
+  "name": "Heat Wave",
+  "nameEn": "Heat Wave",
+  "nameEs": "Ola de calor",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 125,
+  "rank": 5,
+  "unique": false
+ },
+ "Gigantic Fist": {
+  "id": 132,
+  "name": "Gigantic Fist",
+  "nameEn": "Gigantic Fist",
+  "nameEs": "Puño gigantesco",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 330,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Blade of Fury": {
+  "id": 133,
+  "name": "Blade of Fury",
+  "nameEn": "Blade of Fury",
+  "nameEs": "Espada de furia",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 35,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Deathbound": {
+  "id": 134,
+  "name": "Deathbound",
+  "nameEn": "Deathbound",
+  "nameEs": "Portamuerte",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 145,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Arrow Rain": {
+  "id": 135,
+  "name": "Arrow Rain",
+  "nameEn": "Arrow Rain",
+  "nameEs": "Lluvia de flechas",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 80,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Akasha Arts": {
+  "id": 136,
+  "name": "Akasha Arts",
+  "nameEn": "Akasha Arts",
+  "nameEs": "Artes etéreas",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 130,
+  "rank": 7.5,
+  "unique": false
+ },
+ "Tempest Slash": {
+  "id": 137,
+  "name": "Tempest Slash",
+  "nameEn": "Tempest Slash",
+  "nameEs": "Corte tempestuoso",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 90,
+  "rank": 6,
+  "unique": false
+ },
+ "Heaven's Blade": {
+  "id": 138,
+  "name": "Heaven's Blade",
+  "nameEn": "Heaven's Blade",
+  "nameEs": "Hoja celestial",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 230,
+  "rank": null,
+  "unique": false
+ },
+ "Myriad Arrows": {
+  "id": 139,
+  "name": "Myriad Arrows",
+  "nameEn": "Myriad Arrows",
+  "nameEs": "Mil flechas",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 75,
+  "rank": 7,
+  "unique": false
+ },
+ "God's Hand": {
+  "id": 140,
+  "name": "God's Hand",
+  "nameEn": "God's Hand",
+  "nameEs": "Mano de Dios",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 800,
+  "rank": 8,
+  "unique": false
+ },
+ "Pralaya": {
+  "id": 141,
+  "name": "Pralaya",
+  "nameEn": "Pralaya",
+  "nameEs": "Pralaya",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 900,
+  "rank": null,
+  "unique": false
+ },
+ "Primal Force": {
+  "id": 142,
+  "name": "Primal Force",
+  "nameEn": "Primal Force",
+  "nameEs": "Fuerza primigenia",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 22
+  },
+  "power": 1100,
+  "rank": 8,
+  "unique": false
+ },
+ "Vorpal Blade": {
+  "id": 143,
+  "name": "Vorpal Blade",
+  "nameEn": "Vorpal Blade",
+  "nameEs": "Espada vorpal",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 200,
+  "rank": 8,
+  "unique": false
+ },
+ "Power Slash": {
+  "id": 144,
+  "name": "Power Slash",
+  "nameEn": "Power Slash",
+  "nameEs": "Corte poderoso",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 120,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Gale Slash": {
+  "id": 145,
+  "name": "Gale Slash",
+  "nameEn": "Gale Slash",
+  "nameEs": "Tajo de vendaval",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 12
+  },
+  "power": 80,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Brave Blade": {
+  "id": 146,
+  "name": "Brave Blade",
+  "nameEn": "Brave Blade",
+  "nameEs": "Filo valeroso",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 700,
+  "rank": 7.5,
+  "unique": false
+ },
+ "Herculean Strike": {
+  "id": 147,
+  "name": "Herculean Strike",
+  "nameEn": "Herculean Strike",
+  "nameEs": "Golpe hercúleo",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 90,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Vicious Strike": {
+  "id": 148,
+  "name": "Vicious Strike",
+  "nameEn": "Vicious Strike",
+  "nameEs": "Golpe violento",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 140,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Single Shot": {
+  "id": 149,
+  "name": "Single Shot",
+  "nameEn": "Single Shot",
+  "nameEs": "Disparo",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 8
+  },
+  "power": 85,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Skewer": {
+  "id": 150,
+  "name": "Skewer",
+  "nameEn": "Skewer",
+  "nameEs": "Brocheta",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 5
+  },
+  "power": 70,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Poison Skewer": {
+  "id": 151,
+  "name": "Poison Skewer",
+  "nameEn": "Poison Skewer",
+  "nameEs": "Brocheta venenosa",
+  "element": "phy",
+  "target": "one",
+  "ailment": "poison",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 60,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Poison Arrow": {
+  "id": 152,
+  "name": "Poison Arrow",
+  "nameEn": "Poison Arrow",
+  "nameEs": "Flecha venenosa",
+  "element": "phy",
+  "target": "one",
+  "ailment": "poison",
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 130,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Blight": {
+  "id": 153,
+  "name": "Blight",
+  "nameEn": "Blight",
+  "nameEs": "Plaga",
+  "element": "phy",
+  "target": "all",
+  "ailment": "poison",
+  "cost": {
+   "type": "hp",
+   "value": 21
+  },
+  "power": 130,
+  "rank": 7,
+  "unique": false
+ },
+ "Virus Wave": {
+  "id": 154,
+  "name": "Virus Wave",
+  "nameEn": "Virus Wave",
+  "nameEs": "Ola vírica",
+  "element": "phy",
+  "target": "all",
+  "ailment": "poison",
+  "cost": {
+   "type": "hp",
+   "value": 21
+  },
+  "power": 90,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Skull Cracker": {
+  "id": 155,
+  "name": "Skull Cracker",
+  "nameEn": "Skull Cracker",
+  "nameEs": "Aplastacráneos",
+  "element": "phy",
+  "target": "one",
+  "ailment": "confusion",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 60,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Mind Slice": {
+  "id": 156,
+  "name": "Mind Slice",
+  "nameEn": "Mind Slice",
+  "nameEs": "Tajo mental",
+  "element": "phy",
+  "target": "all",
+  "ailment": "confusion",
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 90,
+  "rank": 4,
+  "unique": false
+ },
+ "Hysterical Slap": {
+  "id": 157,
+  "name": "Hysterical Slap",
+  "nameEn": "Hysterical Slap",
+  "nameEs": "Bofetada histérica",
+  "element": "phy",
+  "target": "one",
+  "ailment": "rage",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 50,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Crazy Chain": {
+  "id": 158,
+  "name": "Crazy Chain",
+  "nameEn": "Crazy Chain",
+  "nameEs": "Cadena de locura",
+  "element": "phy",
+  "target": "all",
+  "ailment": "rage",
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 90,
+  "rank": 4,
+  "unique": false
+ },
+ "Muzzle Shot": {
+  "id": 159,
+  "name": "Muzzle Shot",
+  "nameEn": "Muzzle Shot",
+  "nameEs": "Disparo silenciador",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 60,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Seal Bomb": {
+  "id": 160,
+  "name": "Seal Bomb",
+  "nameEn": "Seal Bomb",
+  "nameEs": "Sello bomba",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 90,
+  "rank": 4,
+  "unique": false
+ },
+ "Arm Chopper": {
+  "id": 161,
+  "name": "Arm Chopper",
+  "nameEn": "Arm Chopper",
+  "nameEs": "Cortabrazos",
+  "element": "phy",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 9
+  },
+  "power": 45,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Atom Smasher": {
+  "id": 162,
+  "name": "Atom Smasher",
+  "nameEn": "Atom Smasher",
+  "nameEs": "Aplastaátomos",
+  "element": "phy",
+  "target": "all",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 50,
+  "rank": 4,
+  "unique": false
+ },
+ "Cell Breaker": {
+  "id": 163,
+  "name": "Cell Breaker",
+  "nameEn": "Cell Breaker",
+  "nameEs": "Rompecélulas",
+  "element": "phy",
+  "target": "one",
+  "ailment": "enervation",
+  "cost": {
+   "type": "hp",
+   "value": 10
+  },
+  "power": 80,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Mustard Bomb": {
+  "id": 164,
+  "name": "Mustard Bomb",
+  "nameEn": "Mustard Bomb",
+  "nameEs": "Bomba mostaza",
+  "element": "phy",
+  "target": "all",
+  "ailment": "enervation",
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 110,
+  "rank": 5,
+  "unique": false
+ },
+ "Brain Shake": {
+  "id": 165,
+  "name": "Brain Shake",
+  "nameEn": "Brain Shake",
+  "nameEs": "Agitación cerebral",
+  "element": "phy",
+  "target": "one",
+  "ailment": "exhaustion",
+  "cost": {
+   "type": "hp",
+   "value": 12
+  },
+  "power": 50,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Navas Nebula": {
+  "id": 166,
+  "name": "Navas Nebula",
+  "nameEn": "Navas Nebula",
+  "nameEs": "Navas Nebula",
+  "element": "phy",
+  "target": "all",
+  "ailment": "exhaustion",
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 110,
+  "rank": 5,
+  "unique": false
+ },
+ "Golden Right": {
+  "id": 167,
+  "name": "Golden Right",
+  "nameEn": "Golden Right",
+  "nameEs": "Diestra dorada",
+  "element": "phy",
+  "target": "one",
+  "ailment": "fear",
+  "cost": {
+   "type": "hp",
+   "value": 20
+  },
+  "power": 130,
+  "rank": null,
+  "unique": false
+ },
+ "Black Spot": {
+  "id": 168,
+  "name": "Black Spot",
+  "nameEn": "Black Spot",
+  "nameEs": "Punto negro",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 16
+  },
+  "power": 130,
+  "rank": 4,
+  "unique": false
+ },
+ "Rainy Death": {
+  "id": 169,
+  "name": "Rainy Death",
+  "nameEn": "Rainy Death",
+  "nameEs": "Muerte lluviosa",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 21
+  },
+  "power": 195,
+  "rank": 7,
+  "unique": false
+ },
+ "Hassou Tobi": {
+  "id": 170,
+  "name": "Hassou Tobi",
+  "nameEn": "Hassou Tobi",
+  "nameEs": "Hassou Tobi",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 25
+  },
+  "power": 60,
+  "rank": null,
+  "unique": false
+ },
+ "Rampage": {
+  "id": 171,
+  "name": "Rampage",
+  "nameEn": "Rampage",
+  "nameEs": "Desmadre",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 12
+  },
+  "power": 40,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Aeon Rain": {
+  "id": 172,
+  "name": "Aeon Rain",
+  "nameEn": "Aeon Rain",
+  "nameEs": "Lluvia de Eón",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 90,
+  "rank": 6.5,
+  "unique": false
+ },
+ "Agneyastra": {
+  "id": 173,
+  "name": "Agneyastra",
+  "nameEn": "Agneyastra",
+  "nameEs": "Agneyastra",
+  "element": "phy",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 24
+  },
+  "power": 120,
+  "rank": 7,
+  "unique": false
+ },
+ "Cruel Attack": {
+  "id": 174,
+  "name": "Cruel Attack",
+  "nameEn": "Cruel Attack",
+  "nameEs": "Ataque cruel",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 14
+  },
+  "power": 120,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Vile Assault": {
+  "id": 175,
+  "name": "Vile Assault",
+  "nameEn": "Vile Assault",
+  "nameEs": "Asalto vil",
+  "element": "phy",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "hp",
+   "value": 18
+  },
+  "power": 350,
+  "rank": 6,
+  "unique": false
+ },
+ "Attack Up Support": {
+  "id": 177,
+  "name": "Attack Up Support",
+  "nameEn": "Attack Up Support",
+  "nameEs": "Apoyo al ataque",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Guard Up Support": {
+  "id": 178,
+  "name": "Guard Up Support",
+  "nameEn": "Guard Up Support",
+  "nameEs": "Apoyo a la protección",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Agility Up Support": {
+  "id": 179,
+  "name": "Agility Up Support",
+  "nameEn": "Agility Up Support",
+  "nameEs": "Apoyo a la agilidad",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Charge Support": {
+  "id": 180,
+  "name": "Charge Support",
+  "nameEn": "Charge Support",
+  "nameEs": "Apoyo a la carga",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "HP Recovery Support": {
+  "id": 181,
+  "name": "HP Recovery Support",
+  "nameEn": "HP Recovery Support",
+  "nameEs": "Apoyo a la recuperación de PS",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 30,
+  "rank": null,
+  "unique": false
+ },
+ "SP Recovery Support": {
+  "id": 182,
+  "name": "SP Recovery Support",
+  "nameEn": "SP Recovery Support",
+  "nameEs": "Apoyo a la recuperación de PE",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Dia": {
+  "id": 192,
+  "name": "Dia",
+  "nameEn": "Dia",
+  "nameEs": "Dia",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": 50,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Diarama": {
+  "id": 193,
+  "name": "Diarama",
+  "nameEn": "Diarama",
+  "nameEs": "Diarama",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": 160,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Diarahan": {
+  "id": 194,
+  "name": "Diarahan",
+  "nameEn": "Diarahan",
+  "nameEs": "Diarahan",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Media": {
+  "id": 195,
+  "name": "Media",
+  "nameEn": "Media",
+  "nameEs": "Media",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 7
+  },
+  "power": 40,
+  "rank": 3,
+  "unique": false
+ },
+ "Mediarama": {
+  "id": 196,
+  "name": "Mediarama",
+  "nameEn": "Mediarama",
+  "nameEs": "Mediarama",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": 140,
+  "rank": 5,
+  "unique": false
+ },
+ "Mediarahan": {
+  "id": 197,
+  "name": "Mediarahan",
+  "nameEn": "Mediarahan",
+  "nameEs": "Mediarahan",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Salvation": {
+  "id": 198,
+  "name": "Salvation",
+  "nameEn": "Salvation",
+  "nameEs": "Salvación",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 40
+  },
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Patra": {
+  "id": 199,
+  "name": "Patra",
+  "nameEn": "Patra",
+  "nameEs": "Patra",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Me Patra": {
+  "id": 200,
+  "name": "Me Patra",
+  "nameEn": "Me Patra",
+  "nameEs": "Me Patra",
+  "element": "rec",
+  "target": "party",
+  "ailment": "fear",
+  "cost": {
+   "type": "sp",
+   "value": 6
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Re Patra": {
+  "id": 201,
+  "name": "Re Patra",
+  "nameEn": "Re Patra",
+  "nameEs": "Re Patra",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "dizzy",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Posumudi": {
+  "id": 202,
+  "name": "Posumudi",
+  "nameEn": "Posumudi",
+  "nameEs": "Posumudi",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "poison",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Mutudi": {
+  "id": 203,
+  "name": "Mutudi",
+  "nameEn": "Mutudi",
+  "nameEs": "Mutudi",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 1,
+  "unique": false
+ },
+ "Enradi": {
+  "id": 204,
+  "name": "Enradi",
+  "nameEn": "Enradi",
+  "nameEs": "Defur",
+  "element": "rec",
+  "target": "self",
+  "ailment": "rage",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Tirundi": {
+  "id": 205,
+  "name": "Tirundi",
+  "nameEn": "Tirundi",
+  "nameEs": "Tirundi",
+  "element": "rec",
+  "target": "self",
+  "ailment": "enervation",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Nervundi": {
+  "id": 206,
+  "name": "Nervundi",
+  "nameEn": "Nervundi",
+  "nameEs": "Nervundi",
+  "element": "rec",
+  "target": "ally",
+  "ailment": "exhaustion",
+  "cost": {
+   "type": "sp",
+   "value": 3
+  },
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Energy Shower": {
+  "id": 207,
+  "name": "Energy Shower",
+  "nameEn": "Energy Shower",
+  "nameEs": "Lluvia de energía",
+  "element": "rec",
+  "target": "party",
+  "ailment": "exhaustion",
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Amrita": {
+  "id": 208,
+  "name": "Amrita",
+  "nameEn": "Amrita",
+  "nameEs": "Amrita",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Recarm": {
+  "id": 209,
+  "name": "Recarm",
+  "nameEn": "Recarm",
+  "nameEs": "Recarm",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 8
+  },
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Samarecarm": {
+  "id": 210,
+  "name": "Samarecarm",
+  "nameEn": "Samarecarm",
+  "nameEs": "Samarecarm",
+  "element": "rec",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Tarunda": {
+  "id": 211,
+  "name": "Tarunda",
+  "nameEn": "Tarunda",
+  "nameEs": "Tarunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Matarunda": {
+  "id": 212,
+  "name": "Matarunda",
+  "nameEn": "Matarunda",
+  "nameEs": "Matarunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Sukunda": {
+  "id": 213,
+  "name": "Sukunda",
+  "nameEn": "Sukunda",
+  "nameEs": "Sukunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Masukunda": {
+  "id": 214,
+  "name": "Masukunda",
+  "nameEn": "Masukunda",
+  "nameEs": "Masukunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Rakunda": {
+  "id": 215,
+  "name": "Rakunda",
+  "nameEn": "Rakunda",
+  "nameEs": "Rakunda",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Marakunda": {
+  "id": 216,
+  "name": "Marakunda",
+  "nameEn": "Marakunda",
+  "nameEs": "Marakunda",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dekunda": {
+  "id": 217,
+  "name": "Dekunda",
+  "nameEn": "Dekunda",
+  "nameEs": "Dekunda",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Tarukaja": {
+  "id": 218,
+  "name": "Tarukaja",
+  "nameEn": "Tarukaja",
+  "nameEs": "Tarukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Matarukaja": {
+  "id": 219,
+  "name": "Matarukaja",
+  "nameEn": "Matarukaja",
+  "nameEs": "Matarukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Sukukaja": {
+  "id": 220,
+  "name": "Sukukaja",
+  "nameEn": "Sukukaja",
+  "nameEs": "Sukukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Masukukaja": {
+  "id": 221,
+  "name": "Masukukaja",
+  "nameEn": "Masukukaja",
+  "nameEs": "Masukukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Rakukaja": {
+  "id": 222,
+  "name": "Rakukaja",
+  "nameEn": "Rakukaja",
+  "nameEs": "Rakukaja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 12
+  },
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Marakukaja": {
+  "id": 223,
+  "name": "Marakukaja",
+  "nameEn": "Marakukaja",
+  "nameEs": "Marakukaja",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dekaja": {
+  "id": 224,
+  "name": "Dekaja",
+  "nameEn": "Dekaja",
+  "nameEs": "Dekaja",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 10
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Heat Riser": {
+  "id": 225,
+  "name": "Heat Riser",
+  "nameEn": "Heat Riser",
+  "nameEs": "Subidón",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Debilitate": {
+  "id": 226,
+  "name": "Debilitate",
+  "nameEn": "Debilitate",
+  "nameEs": "Debilitar",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Power Charge": {
+  "id": 227,
+  "name": "Power Charge",
+  "nameEn": "Power Charge",
+  "nameEs": "Gran carga",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Mind Charge": {
+  "id": 228,
+  "name": "Mind Charge",
+  "nameEn": "Mind Charge",
+  "nameEs": "Carga mental",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Tetrakarn": {
+  "id": 229,
+  "name": "Tetrakarn",
+  "nameEn": "Tetrakarn",
+  "nameEs": "Tetrakarn",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 36
+  },
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Makarakarn": {
+  "id": 230,
+  "name": "Makarakarn",
+  "nameEn": "Makarakarn",
+  "nameEs": "Makarakarn",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 36
+  },
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Tetra Break": {
+  "id": 231,
+  "name": "Tetra Break",
+  "nameEn": "Tetra Break",
+  "nameEs": "Ruptura Tetra",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Makara Break": {
+  "id": 232,
+  "name": "Makara Break",
+  "nameEn": "Makara Break",
+  "nameEs": "Ruptura Makara",
+  "element": "sup",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Tetraja": {
+  "id": 233,
+  "name": "Tetraja",
+  "nameEn": "Tetraja",
+  "nameEs": "Tetraja",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Rebellion": {
+  "id": 234,
+  "name": "Rebellion",
+  "nameEn": "Rebellion",
+  "nameEs": "Rebelión",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Revolution": {
+  "id": 235,
+  "name": "Revolution",
+  "nameEn": "Revolution",
+  "nameEs": "Revolución",
+  "element": "sup",
+  "target": "everyone",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 5
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Fire Break": {
+  "id": 236,
+  "name": "Fire Break",
+  "nameEn": "Fire Break",
+  "nameEs": "Ruptura de fuego",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Ice Break": {
+  "id": 237,
+  "name": "Ice Break",
+  "nameEn": "Ice Break",
+  "nameEs": "Ruptura de hielo",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Wind Break": {
+  "id": 238,
+  "name": "Wind Break",
+  "nameEn": "Wind Break",
+  "nameEs": "Ruptura de viento",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Elec Break": {
+  "id": 239,
+  "name": "Elec Break",
+  "nameEn": "Elec Break",
+  "nameEs": "Ruptura de electric.",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 15
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Red Wall": {
+  "id": 240,
+  "name": "Red Wall",
+  "nameEn": "Red Wall",
+  "nameEs": "Muro rojo",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "White Wall": {
+  "id": 241,
+  "name": "White Wall",
+  "nameEn": "White Wall",
+  "nameEs": "Muro blanco",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Blue Wall": {
+  "id": 242,
+  "name": "Blue Wall",
+  "nameEn": "Blue Wall",
+  "nameEs": "Muro azul",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Green Wall": {
+  "id": 243,
+  "name": "Green Wall",
+  "nameEn": "Green Wall",
+  "nameEs": "Muro verde",
+  "element": "sup",
+  "target": "ally",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Trafuri": {
+  "id": 244,
+  "name": "Trafuri",
+  "nameEn": "Trafuri",
+  "nameEs": "Trafuri",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 24
+  },
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Recarmdra": {
+  "id": 245,
+  "name": "Recarmdra",
+  "nameEn": "Recarmdra",
+  "nameEs": "Recarmdra",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Traesto": {
+  "id": 246,
+  "name": "Traesto",
+  "nameEn": "Traesto",
+  "nameEs": "Traesto",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 18
+  },
+  "power": null,
+  "rank": 1,
+  "unique": false
+ },
+ "Youthful Wind": {
+  "id": 247,
+  "name": "Youthful Wind",
+  "nameEn": "Youthful Wind",
+  "nameEs": "Viento juvenil",
+  "element": "rec",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 25
+  },
+  "power": 130,
+  "rank": null,
+  "unique": false
+ },
+ "Dragon Hustle": {
+  "id": 248,
+  "name": "Dragon Hustle",
+  "nameEn": "Dragon Hustle",
+  "nameEs": "Bullicio de la dragona",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 150
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Burning Petals": {
+  "id": 249,
+  "name": "Burning Petals",
+  "nameEn": "Burning Petals",
+  "nameEs": "Pétalos ardientes",
+  "element": "fir",
+  "target": "all",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 34
+  },
+  "power": 190,
+  "rank": null,
+  "unique": false
+ },
+ "The Man's Way": {
+  "id": 250,
+  "name": "The Man's Way",
+  "nameEn": "The Man's Way",
+  "nameEs": "Hombría de bien",
+  "element": "alm",
+  "target": "all",
+  "ailment": "dizzy",
+  "cost": {
+   "type": "sp",
+   "value": 30
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Shield of Justice": {
+  "id": 252,
+  "name": "Shield of Justice",
+  "nameEn": "Shield of Justice",
+  "nameEs": "Escudo de la justicia",
+  "element": "sup",
+  "target": "party",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 160
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Complete Analysis": {
+  "id": 253,
+  "name": "Complete Analysis",
+  "nameEn": "Complete Analysis",
+  "nameEs": "Análisis íntegro",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Waste Money": {
+  "id": 259,
+  "name": "Waste Money",
+  "nameEn": "Waste Money",
+  "nameEs": "Tirar el dinero",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Yosuke Strike": {
+  "id": 260,
+  "name": "Yosuke Strike",
+  "nameEn": "Yosuke Strike",
+  "nameEs": "Golpe de Yosuke",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Galactic Punt": {
+  "id": 261,
+  "name": "Galactic Punt",
+  "nameEn": "Galactic Punt",
+  "nameEs": "Puntapié galáctico",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Fan Assault": {
+  "id": 262,
+  "name": "Fan Assault",
+  "nameEn": "Fan Assault",
+  "nameEs": "Asalto de admirador",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Atomic Press": {
+  "id": 263,
+  "name": "Atomic Press",
+  "nameEn": "Atomic Press",
+  "nameEs": "Pulsación atómica",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Wild Ways": {
+  "id": 264,
+  "name": "Wild Ways",
+  "nameEn": "Wild Ways",
+  "nameEs": "Asalvajado",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Ultra Trigger": {
+  "id": 265,
+  "name": "Ultra Trigger",
+  "nameEn": "Ultra Trigger",
+  "nameEs": "Ultragolpe",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Galaxy Kick": {
+  "id": 266,
+  "name": "Galaxy Kick",
+  "nameEn": "Galaxy Kick",
+  "nameEs": "Patada galáctica",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Full Analysis": {
+  "id": 267,
+  "name": "Full Analysis",
+  "nameEn": "Full Analysis",
+  "nameEs": "Análisis completo",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Third Eye": {
+  "id": 268,
+  "name": "Third Eye",
+  "nameEn": "Third Eye",
+  "nameEs": "Tercer ojo",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Weakness Scan": {
+  "id": 269,
+  "name": "Weakness Scan",
+  "nameEn": "Weakness Scan",
+  "nameEs": "Análisis de debil.",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Healing Wave": {
+  "id": 270,
+  "name": "Healing Wave",
+  "nameEn": "Healing Wave",
+  "nameEs": "Ola de sanación",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Relaxing Wave": {
+  "id": 271,
+  "name": "Relaxing Wave",
+  "nameEn": "Relaxing Wave",
+  "nameEs": "Ola de relajación",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Analyze": {
+  "id": 272,
+  "name": "Analyze",
+  "nameEn": "Analyze",
+  "nameEs": "Analizar",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Summon": {
+  "id": 273,
+  "name": "Summon",
+  "nameEn": "Summon",
+  "nameEs": "Invocar",
+  "element": "sup",
+  "target": "one",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Enemy Radar": {
+  "id": 274,
+  "name": "Enemy Radar",
+  "nameEn": "Enemy Radar",
+  "nameEs": "Radar enemigo",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Treasure Radar": {
+  "id": 275,
+  "name": "Treasure Radar",
+  "nameEn": "Treasure Radar",
+  "nameEs": "Radar de tesoros",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Certain Escape": {
+  "id": 276,
+  "name": "Certain Escape",
+  "nameEn": "Certain Escape",
+  "nameEs": "Escapatoria inmediata",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Myriad Truths": {
+  "id": 277,
+  "name": "Myriad Truths",
+  "nameEn": "Myriad Truths",
+  "nameEs": "Mil verdades",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": {
+   "type": "sp",
+   "value": 100
+  },
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Cavalry Attack": {
+  "id": 278,
+  "name": "Cavalry Attack",
+  "nameEn": "Cavalry Attack",
+  "nameEs": "Caballería a la carga",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "All-Out Boost": {
+  "id": 284,
+  "name": "All-Out Boost",
+  "nameEn": "All-Out Boost",
+  "nameEs": "Potenc. de combinado",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 10,
+  "rank": null,
+  "unique": false
+ },
+ "Rise's Revival": {
+  "id": 285,
+  "name": "Rise's Revival",
+  "nameEn": "Rise's Revival",
+  "nameEs": "Resurrección de Rise",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Stamina Song": {
+  "id": 286,
+  "name": "Stamina Song",
+  "nameEn": "Stamina Song",
+  "nameEs": "Canción de aguante",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Vigor Song": {
+  "id": 287,
+  "name": "Vigor Song",
+  "nameEn": "Vigor Song",
+  "nameEs": "Canción de vigor",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Sarx Drop": {
+  "id": 288,
+  "name": "Sarx Drop",
+  "nameEn": "Sarx Drop",
+  "nameEs": "Gota carnal",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 20,
+  "rank": null,
+  "unique": false
+ },
+ "Medicine": {
+  "id": 289,
+  "name": "Medicine",
+  "nameEn": "Medicine",
+  "nameEs": "Medicina",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Medical Powder": {
+  "id": 290,
+  "name": "Medical Powder",
+  "nameEn": "Medical Powder",
+  "nameEs": "Polvo medicinal",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Spirit Water": {
+  "id": 291,
+  "name": "Spirit Water",
+  "nameEn": "Spirit Water",
+  "nameEs": "Agua espiritual",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 400,
+  "rank": null,
+  "unique": false
+ },
+ "Life Stone": {
+  "id": 292,
+  "name": "Life Stone",
+  "nameEn": "Life Stone",
+  "nameEs": "Piedra vital",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 30,
+  "rank": null,
+  "unique": false
+ },
+ "Bead": {
+  "id": 293,
+  "name": "Bead",
+  "nameEn": "Bead",
+  "nameEs": "Abalorio",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Value Medicine": {
+  "id": 294,
+  "name": "Value Medicine",
+  "nameEn": "Value Medicine",
+  "nameEs": "Medicina cara",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Medical Kit": {
+  "id": 295,
+  "name": "Medical Kit",
+  "nameEn": "Medical Kit",
+  "nameEs": "Kit médico",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 200,
+  "rank": null,
+  "unique": false
+ },
+ "Umugi Water": {
+  "id": 296,
+  "name": "Umugi Water",
+  "nameEn": "Umugi Water",
+  "nameEs": "Agua Umugi",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 400,
+  "rank": null,
+  "unique": false
+ },
+ "Bead Chain": {
+  "id": 297,
+  "name": "Bead Chain",
+  "nameEn": "Bead Chain",
+  "nameEs": "Cadena de abalorios",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Pneuma Drop": {
+  "id": 298,
+  "name": "Pneuma Drop",
+  "nameEn": "Pneuma Drop",
+  "nameEs": "Gota de pneuma",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Snuff Soul": {
+  "id": 299,
+  "name": "Snuff Soul",
+  "nameEn": "Snuff Soul",
+  "nameEs": "Rapé espiritual",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Chewing Soul": {
+  "id": 300,
+  "name": "Chewing Soul",
+  "nameEn": "Chewing Soul",
+  "nameEs": "Chicle espiritual",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Precious Egg": {
+  "id": 301,
+  "name": "Precious Egg",
+  "nameEn": "Precious Egg",
+  "nameEs": "Huevo preciado",
+  "element": "rec",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Junes Bomber": {
+  "id": 349,
+  "name": "Junes Bomber",
+  "nameEn": "Junes Bomber",
+  "nameEs": "Bombardeo Junes",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Twin Dragons": {
+  "id": 350,
+  "name": "Twin Dragons",
+  "nameEn": "Twin Dragons",
+  "nameEs": "Dragonas gemelas",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Beauty & The Beast": {
+  "id": 351,
+  "name": "Beauty & The Beast",
+  "nameEn": "Beauty & The Beast",
+  "nameEs": "Bella y Bestia",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 15,
+  "rank": null,
+  "unique": false
+ },
+ "Wind of Oblivion": {
+  "id": 352,
+  "name": "Wind of Oblivion",
+  "nameEn": "Wind of Oblivion",
+  "nameEs": "Viento del Olvido",
+  "element": "win",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 20,
+  "rank": null,
+  "unique": false
+ },
+ "Bottomless Envy": {
+  "id": 353,
+  "name": "Bottomless Envy",
+  "nameEn": "Bottomless Envy",
+  "nameEs": "Envidia sin fondo",
+  "element": "phy",
+  "target": "self",
+  "ailment": "dizzy",
+  "cost": null,
+  "power": 40,
+  "rank": null,
+  "unique": false
+ },
+ "Burn to Ashes": {
+  "id": 354,
+  "name": "Burn to Ashes",
+  "nameEn": "Burn to Ashes",
+  "nameEs": "Reducción a cenizas",
+  "element": "fir",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 60,
+  "rank": null,
+  "unique": false
+ },
+ "Shivering Rondo": {
+  "id": 355,
+  "name": "Shivering Rondo",
+  "nameEn": "Shivering Rondo",
+  "nameEs": "Rondó estremecedor",
+  "element": "alm",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": 120,
+  "rank": null,
+  "unique": false
+ },
+ "Forbidden Murmur": {
+  "id": 358,
+  "name": "Forbidden Murmur",
+  "nameEn": "Forbidden Murmur",
+  "nameEs": "Murmullo prohibido",
+  "element": "ail",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Roar of Wrath": {
+  "id": 359,
+  "name": "Roar of Wrath",
+  "nameEn": "Roar of Wrath",
+  "nameEs": "Rugido de ira",
+  "element": "ail",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Fanatical Spark": {
+  "id": 360,
+  "name": "Fanatical Spark",
+  "nameEn": "Fanatical Spark",
+  "nameEs": "Chispa fanática",
+  "element": "ele",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 95,
+  "rank": null,
+  "unique": false
+ },
+ "Supreme Insight": {
+  "id": 361,
+  "name": "Supreme Insight",
+  "nameEn": "Supreme Insight",
+  "nameEs": "Comprensión suprema",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Nihil Hand": {
+  "id": 362,
+  "name": "Nihil Hand",
+  "nameEn": "Nihil Hand",
+  "nameEs": "Toque nihilista",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 250,
+  "rank": null,
+  "unique": false
+ },
+ "Ultra Charge": {
+  "id": 363,
+  "name": "Ultra Charge",
+  "nameEn": "Ultra Charge",
+  "nameEs": "Ultracarga",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Nullity Guidance": {
+  "id": 364,
+  "name": "Nullity Guidance",
+  "nameEn": "Nullity Guidance",
+  "nameEs": "Guía de nulidad",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 120,
+  "rank": null,
+  "unique": false
+ },
+ "Attack": {
+  "id": 365,
+  "name": "Attack",
+  "nameEn": "Attack",
+  "nameEs": "Ataque",
+  "element": "phy",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Whisper": {
+  "id": 366,
+  "name": "Whisper",
+  "nameEn": "Whisper",
+  "nameEs": "Susurro",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Chant": {
+  "id": 367,
+  "name": "Chant",
+  "nameEn": "Chant",
+  "nameEs": "Cántico",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Prayer": {
+  "id": 368,
+  "name": "Prayer",
+  "nameEn": "Prayer",
+  "nameEs": "Plegaria",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Character Setup": {
+  "id": 369,
+  "name": "Character Setup",
+  "nameEn": "Character Setup",
+  "nameEs": "Configuración del personaje",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Command": {
+  "id": 370,
+  "name": "Command",
+  "nameEn": "Command",
+  "nameEs": "Acción",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 160,
+  "rank": null,
+  "unique": false
+ },
+ "Element Zero": {
+  "id": 376,
+  "name": "Element Zero",
+  "nameEn": "Element Zero",
+  "nameEs": "Elemento cero",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Mute Ray": {
+  "id": 377,
+  "name": "Mute Ray",
+  "nameEn": "Mute Ray",
+  "nameEs": "Rayo enmudecedor",
+  "element": "ail",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 240,
+  "rank": null,
+  "unique": false
+ },
+ "Quad Converge": {
+  "id": 378,
+  "name": "Quad Converge",
+  "nameEn": "Quad Converge",
+  "nameEs": "Convergencia cuádruple",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Control": {
+  "id": 379,
+  "name": "Control",
+  "nameEn": "Control",
+  "nameEs": "Control",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Unerring Justice": {
+  "id": 380,
+  "name": "Unerring Justice",
+  "nameEn": "Unerring Justice",
+  "nameEs": "Justicia infalible",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Nebula Oculus": {
+  "id": 381,
+  "name": "Nebula Oculus",
+  "nameEn": "Nebula Oculus",
+  "nameEs": "Nébula ocular",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 240,
+  "rank": null,
+  "unique": false
+ },
+ "Quake": {
+  "id": 382,
+  "name": "Quake",
+  "nameEn": "Quake",
+  "nameEs": "Sismo",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 210,
+  "rank": null,
+  "unique": false
+ },
+ "Bewildering Fog": {
+  "id": 383,
+  "name": "Bewildering Fog",
+  "nameEn": "Bewildering Fog",
+  "nameEs": "Niebla desconcertante",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Thousand Curses": {
+  "id": 385,
+  "name": "Thousand Curses",
+  "nameEn": "Thousand Curses",
+  "nameEs": "Mil maldiciones",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "World's End": {
+  "id": 386,
+  "name": "World's End",
+  "nameEn": "World's End",
+  "nameEs": "Fin del mundo",
+  "element": "alm",
+  "target": "self",
+  "ailment": "enervation",
+  "cost": null,
+  "power": 180,
+  "rank": null,
+  "unique": false
+ },
+ "Terror Voice": {
+  "id": 387,
+  "name": "Terror Voice",
+  "nameEn": "Terror Voice",
+  "nameEs": "Voz terrorífica",
+  "element": "ail",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Fury of Yasogami": {
+  "id": 389,
+  "name": "Fury of Yasogami",
+  "nameEn": "Fury of Yasogami",
+  "nameEs": "Furia de Yasogami",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "rank": null,
+  "unique": false
+ },
+ "Summons to Yomi": {
+  "id": 391,
+  "name": "Summons to Yomi",
+  "nameEn": "Summons to Yomi",
+  "nameEs": "Invocar a Yomi",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Kuro Ikazuchi": {
+  "id": 392,
+  "name": "Kuro Ikazuchi",
+  "nameEn": "Kuro Ikazuchi",
+  "nameEs": "Kuro Ikazuchi",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 230,
+  "rank": null,
+  "unique": false
+ },
+ "Oho Ikazuchi": {
+  "id": 393,
+  "name": "Oho Ikazuchi",
+  "nameEn": "Oho Ikazuchi",
+  "nameEs": "Oho Ikazuchi",
+  "element": "alm",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 999,
+  "rank": null,
+  "unique": false
+ },
+ "Snow Flower Honey": {
+  "id": 440,
+  "name": "Snow Flower Honey",
+  "nameEn": "Snow Flower Honey",
+  "nameEs": "Miel de flor de nieve",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 30,
+  "rank": null,
+  "unique": false
+ },
+ "Revival Rope": {
+  "id": 441,
+  "name": "Revival Rope",
+  "nameEn": "Revival Rope",
+  "nameEs": "Cuerda de resurrección",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "Sentou Seed": {
+  "id": 442,
+  "name": "Sentou Seed",
+  "nameEn": "Sentou Seed",
+  "nameEs": "Semilla de sentou",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Sentou Petal": {
+  "id": 443,
+  "name": "Sentou Petal",
+  "nameEn": "Sentou Petal",
+  "nameEs": "Pétalo de sentou",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Sentou Fruit": {
+  "id": 444,
+  "name": "Sentou Fruit",
+  "nameEn": "Sentou Fruit",
+  "nameEs": "Fruto de sentou",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 100,
+  "rank": null,
+  "unique": false
+ },
+ "Fire Bell": {
+  "id": 445,
+  "name": "Fire Bell",
+  "nameEn": "Fire Bell",
+  "nameEs": "Campana de fuego",
+  "element": "fir",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "Ice Bell": {
+  "id": 446,
+  "name": "Ice Bell",
+  "nameEn": "Ice Bell",
+  "nameEs": "Campana de hielo",
+  "element": "ice",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "Wind Bell": {
+  "id": 447,
+  "name": "Wind Bell",
+  "nameEn": "Wind Bell",
+  "nameEs": "Campana de viento",
+  "element": "win",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "Lightning Bell": {
+  "id": 448,
+  "name": "Lightning Bell",
+  "nameEn": "Lightning Bell",
+  "nameEs": "Campana de rayo",
+  "element": "ele",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 50,
+  "rank": null,
+  "unique": false
+ },
+ "Flame Dotaku": {
+  "id": 449,
+  "name": "Flame Dotaku",
+  "nameEn": "Flame Dotaku",
+  "nameEs": "Dotaku de llama",
+  "element": "fir",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "rank": null,
+  "unique": false
+ },
+ "Frigid Dotaku": {
+  "id": 450,
+  "name": "Frigid Dotaku",
+  "nameEn": "Frigid Dotaku",
+  "nameEs": "Dotaku de escarcha",
+  "element": "ice",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "rank": null,
+  "unique": false
+ },
+ "Gale Dotaku": {
+  "id": 451,
+  "name": "Gale Dotaku",
+  "nameEn": "Gale Dotaku",
+  "nameEs": "Dotaku de vendaval",
+  "element": "win",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "rank": null,
+  "unique": false
+ },
+ "Bolt Dotaku": {
+  "id": 452,
+  "name": "Bolt Dotaku",
+  "nameEn": "Bolt Dotaku",
+  "nameEs": "Dotaku de centella",
+  "element": "ele",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": 150,
+  "rank": null,
+  "unique": false
+ },
+ "Resist Physical": {
+  "id": 472,
+  "name": "Resist Physical",
+  "nameEn": "Resist Physical",
+  "nameEs": "Resistir físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Null Physical": {
+  "id": 473,
+  "name": "Null Physical",
+  "nameEn": "Null Physical",
+  "nameEs": "Anular físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Physical": {
+  "id": 474,
+  "name": "Repel Physical",
+  "nameEn": "Repel Physical",
+  "nameEs": "Repeler físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Absorb Physical": {
+  "id": 475,
+  "name": "Absorb Physical",
+  "nameEn": "Absorb Physical",
+  "nameEs": "Absorber físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Resist Fire": {
+  "id": 476,
+  "name": "Resist Fire",
+  "nameEn": "Resist Fire",
+  "nameEs": "Resistir fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Null Fire": {
+  "id": 477,
+  "name": "Null Fire",
+  "nameEn": "Null Fire",
+  "nameEs": "Anular fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Fire": {
+  "id": 478,
+  "name": "Repel Fire",
+  "nameEn": "Repel Fire",
+  "nameEs": "Repeler fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Absorb Fire": {
+  "id": 479,
+  "name": "Absorb Fire",
+  "nameEn": "Absorb Fire",
+  "nameEs": "Absorber fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Resist Ice": {
+  "id": 480,
+  "name": "Resist Ice",
+  "nameEn": "Resist Ice",
+  "nameEs": "Resistir hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Null Ice": {
+  "id": 481,
+  "name": "Null Ice",
+  "nameEn": "Null Ice",
+  "nameEs": "Anular hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Ice": {
+  "id": 482,
+  "name": "Repel Ice",
+  "nameEn": "Repel Ice",
+  "nameEs": "Repeler hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Absorb Ice": {
+  "id": 483,
+  "name": "Absorb Ice",
+  "nameEn": "Absorb Ice",
+  "nameEs": "Absorber hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Resist Elec": {
+  "id": 484,
+  "name": "Resist Elec",
+  "nameEn": "Resist Elec",
+  "nameEs": "Resistir electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Null Elec": {
+  "id": 485,
+  "name": "Null Elec",
+  "nameEn": "Null Elec",
+  "nameEs": "Anular electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Elec": {
+  "id": 486,
+  "name": "Repel Elec",
+  "nameEn": "Repel Elec",
+  "nameEs": "Repeler electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Absorb Elec": {
+  "id": 487,
+  "name": "Absorb Elec",
+  "nameEn": "Absorb Elec",
+  "nameEs": "Absorber electric.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Resist Wind": {
+  "id": 488,
+  "name": "Resist Wind",
+  "nameEn": "Resist Wind",
+  "nameEs": "Resistir viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Null Wind": {
+  "id": 489,
+  "name": "Null Wind",
+  "nameEn": "Null Wind",
+  "nameEs": "Anular viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Wind": {
+  "id": 490,
+  "name": "Repel Wind",
+  "nameEn": "Repel Wind",
+  "nameEs": "Repeler viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Absorb Wind": {
+  "id": 491,
+  "name": "Absorb Wind",
+  "nameEn": "Absorb Wind",
+  "nameEs": "Absorber viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 8,
+  "unique": false
+ },
+ "Resist Light": {
+  "id": 492,
+  "name": "Resist Light",
+  "nameEn": "Resist Light",
+  "nameEs": "Resistir luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Null Light": {
+  "id": 493,
+  "name": "Null Light",
+  "nameEn": "Null Light",
+  "nameEs": "Anular luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Light": {
+  "id": 494,
+  "name": "Repel Light",
+  "nameEn": "Repel Light",
+  "nameEs": "Repeler luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Resist Dark": {
+  "id": 495,
+  "name": "Resist Dark",
+  "nameEn": "Resist Dark",
+  "nameEs": "Resistir oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Null Dark": {
+  "id": 496,
+  "name": "Null Dark",
+  "nameEn": "Null Dark",
+  "nameEs": "Anular oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Repel Dark": {
+  "id": 497,
+  "name": "Repel Dark",
+  "nameEn": "Repel Dark",
+  "nameEs": "Repeler oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Null Confuse": {
+  "id": 498,
+  "name": "Null Confuse",
+  "nameEn": "Null Panic",
+  "nameEs": "Anular Pánico",
+  "element": "pas",
+  "target": "self",
+  "ailment": "confusion",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Exhaust": {
+  "id": 499,
+  "name": "Null Exhaust",
+  "nameEn": "Null Exhaust",
+  "nameEs": "Anular Agotamiento",
+  "element": "pas",
+  "target": "self",
+  "ailment": "exhaustion",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Mute": {
+  "id": 500,
+  "name": "Null Mute",
+  "nameEn": "Null Mute",
+  "nameEs": "Anular Silencio",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Fear": {
+  "id": 501,
+  "name": "Null Fear",
+  "nameEn": "Null Fear",
+  "nameEs": "Anular Miedo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Rage": {
+  "id": 502,
+  "name": "Null Rage",
+  "nameEn": "Null Rage",
+  "nameEs": "Anular Furia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Poison": {
+  "id": 503,
+  "name": "Null Poison",
+  "nameEn": "Null Poison",
+  "nameEs": "Anular Veneno",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Dizzy": {
+  "id": 504,
+  "name": "Null Dizzy",
+  "nameEn": "Null Dizzy",
+  "nameEs": "Anular Mareo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "dizzy",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Null Enervate": {
+  "id": 505,
+  "name": "Null Enervate",
+  "nameEn": "Null Enervate",
+  "nameEs": "Anular Enervación",
+  "element": "pas",
+  "target": "self",
+  "ailment": "enervation",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Unshaken Will": {
+  "id": 506,
+  "name": "Unshaken Will",
+  "nameEn": "Unshaken Will",
+  "nameEs": "Voluntad impasible",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Masakados": {
+  "id": 507,
+  "name": "Masakados",
+  "nameEn": "Masakados",
+  "nameEs": "Masakados",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Dodge Physical": {
+  "id": 508,
+  "name": "Dodge Physical",
+  "nameEn": "Dodge Physical",
+  "nameEs": "Esquivar físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Evade Physical": {
+  "id": 509,
+  "name": "Evade Physical",
+  "nameEn": "Evade Physical",
+  "nameEs": "Evadir físico",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dodge Fire": {
+  "id": 510,
+  "name": "Dodge Fire",
+  "nameEn": "Dodge Fire",
+  "nameEs": "Esquivar fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Evade Fire": {
+  "id": 511,
+  "name": "Evade Fire",
+  "nameEn": "Evade Fire",
+  "nameEs": "Evadir fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dodge Ice": {
+  "id": 512,
+  "name": "Dodge Ice",
+  "nameEn": "Dodge Ice",
+  "nameEs": "Esquivar hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Evade Ice": {
+  "id": 513,
+  "name": "Evade Ice",
+  "nameEn": "Evade Ice",
+  "nameEs": "Evadir hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dodge Wind": {
+  "id": 514,
+  "name": "Dodge Wind",
+  "nameEn": "Dodge Wind",
+  "nameEs": "Esquivar viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Evade Wind": {
+  "id": 515,
+  "name": "Evade Wind",
+  "nameEn": "Evade Wind",
+  "nameEs": "Evadir viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dodge Elec": {
+  "id": 516,
+  "name": "Dodge Elec",
+  "nameEn": "Dodge Elec",
+  "nameEs": "Esquivar electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Evade Elec": {
+  "id": 517,
+  "name": "Evade Elec",
+  "nameEn": "Evade Elec",
+  "nameEs": "Evadir electricidad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Angelic Grace": {
+  "id": 518,
+  "name": "Angelic Grace",
+  "nameEn": "Angelic Grace",
+  "nameEs": "Gracia angelical",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Fire Boost": {
+  "id": 519,
+  "name": "Fire Boost",
+  "nameEn": "Fire Boost",
+  "nameEs": "Potenc. de fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Fire Amp": {
+  "id": 520,
+  "name": "Fire Amp",
+  "nameEn": "Fire Amp",
+  "nameEs": "Amplif. de fuego",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Ice Boost": {
+  "id": 521,
+  "name": "Ice Boost",
+  "nameEn": "Ice Boost",
+  "nameEs": "Potenc. de hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Ice Amp": {
+  "id": 522,
+  "name": "Ice Amp",
+  "nameEn": "Ice Amp",
+  "nameEs": "Amplif. de hielo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Elec Boost": {
+  "id": 523,
+  "name": "Elec Boost",
+  "nameEn": "Elec Boost",
+  "nameEs": "Potenc. de electric.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Elec Amp": {
+  "id": 524,
+  "name": "Elec Amp",
+  "nameEn": "Elec Amp",
+  "nameEs": "Amplif. de electric.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Wind Boost": {
+  "id": 525,
+  "name": "Wind Boost",
+  "nameEn": "Wind Boost",
+  "nameEs": "Potenc. de viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 1.5,
+  "unique": false
+ },
+ "Wind Amp": {
+  "id": 526,
+  "name": "Wind Amp",
+  "nameEn": "Wind Amp",
+  "nameEs": "Amplif. de viento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "HP Up 1": {
+  "id": 528,
+  "name": "HP Up 1",
+  "nameEn": "HP Up 1",
+  "nameEs": "Mejora de PS 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "HP Up 2": {
+  "id": 529,
+  "name": "HP Up 2",
+  "nameEn": "HP Up 2",
+  "nameEs": "Mejora de PS 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "HP Up 3": {
+  "id": 530,
+  "name": "HP Up 3",
+  "nameEn": "HP Up 3",
+  "nameEs": "Mejora de PS 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "SP Up 1": {
+  "id": 531,
+  "name": "SP Up 1",
+  "nameEn": "SP Up 1",
+  "nameEs": "Mejora de PE 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "SP Up 2": {
+  "id": 532,
+  "name": "SP Up 2",
+  "nameEn": "SP Up 2",
+  "nameEs": "Mejora de PE 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "SP Up 3": {
+  "id": 533,
+  "name": "SP Up 3",
+  "nameEn": "SP Up 3",
+  "nameEs": "Mejora de PE 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Counter": {
+  "id": 534,
+  "name": "Counter",
+  "nameEn": "Counter",
+  "nameEs": "Réplica",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Counterstrike": {
+  "id": 535,
+  "name": "Counterstrike",
+  "nameEn": "Counterstrike",
+  "nameEs": "Contraataque",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "High Counter": {
+  "id": 536,
+  "name": "High Counter",
+  "nameEn": "High Counter",
+  "nameEs": "Gran contraataque",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Regenerate 1": {
+  "id": 537,
+  "name": "Regenerate 1",
+  "nameEn": "Regenerate 1",
+  "nameEs": "Regenerar 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Regenerate 2": {
+  "id": 538,
+  "name": "Regenerate 2",
+  "nameEn": "Regenerate 2",
+  "nameEs": "Regenerar 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Regenerate 3": {
+  "id": 539,
+  "name": "Regenerate 3",
+  "nameEn": "Regenerate 3",
+  "nameEs": "Regenerar 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Invigorate 1": {
+  "id": 540,
+  "name": "Invigorate 1",
+  "nameEn": "Invigorate 1",
+  "nameEs": "Vigorizar 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3.5,
+  "unique": false
+ },
+ "Invigorate 2": {
+  "id": 541,
+  "name": "Invigorate 2",
+  "nameEn": "Invigorate 2",
+  "nameEs": "Vigorizar 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Invigorate 3": {
+  "id": 542,
+  "name": "Invigorate 3",
+  "nameEn": "Invigorate 3",
+  "nameEs": "Vigorizar 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Growth 1": {
+  "id": 543,
+  "name": "Growth 1",
+  "nameEn": "Growth 1",
+  "nameEs": "Crecimiento 1",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Growth 2": {
+  "id": 544,
+  "name": "Growth 2",
+  "nameEn": "Growth 2",
+  "nameEs": "Crecimiento 2",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Growth 3": {
+  "id": 545,
+  "name": "Growth 3",
+  "nameEn": "Growth 3",
+  "nameEs": "Crecimiento 3",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Auto-Tarukaja": {
+  "id": 546,
+  "name": "Auto-Tarukaja",
+  "nameEn": "Auto-Tarukaja",
+  "nameEs": "Auto-Tarukaja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Auto-Rakukaja": {
+  "id": 547,
+  "name": "Auto-Rakukaja",
+  "nameEn": "Auto-Rakukaja",
+  "nameEs": "Auto-Rakukaja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Auto-Sukukaja": {
+  "id": 548,
+  "name": "Auto-Sukukaja",
+  "nameEn": "Auto-Sukukaja",
+  "nameEs": "Auto-Sukukaja",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Alertness": {
+  "id": 549,
+  "name": "Alertness",
+  "nameEn": "Alertness",
+  "nameEs": "Lucidez",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2,
+  "unique": false
+ },
+ "Sharp Student": {
+  "id": 550,
+  "name": "Sharp Student",
+  "nameEn": "Sharp Student",
+  "nameEs": "Estudiante intelig.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 1,
+  "unique": false
+ },
+ "Apt Pupil": {
+  "id": 551,
+  "name": "Apt Pupil",
+  "nameEn": "Apt Pupil",
+  "nameEs": "Alumno hábil",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Ali Dance": {
+  "id": 552,
+  "name": "Ali Dance",
+  "nameEn": "Ali Dance",
+  "nameEs": "Baile evasivo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Firm Stance": {
+  "id": 553,
+  "name": "Firm Stance",
+  "nameEn": "Firm Stance",
+  "nameEs": "Posición firme",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Spell Master": {
+  "id": 554,
+  "name": "Spell Master",
+  "nameEn": "Spell Master",
+  "nameEs": "As de los hechizos",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Arms Master": {
+  "id": 555,
+  "name": "Arms Master",
+  "nameEn": "Arms Master",
+  "nameEs": "As de las armas",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "HP Favor": {
+  "id": 556,
+  "name": "HP Favor",
+  "nameEn": "HP Favor",
+  "nameEs": "Favor de PS",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "SP Favor": {
+  "id": 557,
+  "name": "SP Favor",
+  "nameEn": "SP Favor",
+  "nameEs": "Favor de PE",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Divine Grace": {
+  "id": 558,
+  "name": "Divine Grace",
+  "nameEn": "Divine Grace",
+  "nameEs": "Gracia divina",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Endure": {
+  "id": 559,
+  "name": "Endure",
+  "nameEn": "Endure",
+  "nameEs": "Último aliento",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5.5,
+  "unique": false
+ },
+ "Enduring Soul": {
+  "id": 560,
+  "name": "Enduring Soul",
+  "nameEn": "Enduring Soul",
+  "nameEs": "Alma inmortal",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Survive Light": {
+  "id": 561,
+  "name": "Survive Light",
+  "nameEn": "Survive Light",
+  "nameEs": "Sobrevivir a luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Survive Dark": {
+  "id": 562,
+  "name": "Survive Dark",
+  "nameEn": "Survive Dark",
+  "nameEs": "Sobrevivir a oscur.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4.5,
+  "unique": false
+ },
+ "Auto-Maraku": {
+  "id": 563,
+  "name": "Auto-Maraku",
+  "nameEn": "Auto-Maraku",
+  "nameEs": "Auto-Maraku",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Auto-Mataru": {
+  "id": 564,
+  "name": "Auto-Mataru",
+  "nameEn": "Auto-Mataru",
+  "nameEs": "Auto-Mataru",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Auto-Masuku": {
+  "id": 565,
+  "name": "Auto-Masuku",
+  "nameEn": "Auto-Masuku",
+  "nameEs": "Auto-Masuku",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Confuse Boost": {
+  "id": 566,
+  "name": "Confuse Boost",
+  "nameEn": "Panic Boost",
+  "nameEs": "Potenc. de Pánico",
+  "element": "pas",
+  "target": "self",
+  "ailment": "confusion",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Poison Boost": {
+  "id": 567,
+  "name": "Poison Boost",
+  "nameEn": "Poison Boost",
+  "nameEs": "Potenc. de Veneno",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Exhaust Boost": {
+  "id": 568,
+  "name": "Exhaust Boost",
+  "nameEn": "Exhaust Boost",
+  "nameEs": "Potenc. de Agotam.",
+  "element": "pas",
+  "target": "self",
+  "ailment": "exhaustion",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Silence Boost": {
+  "id": 569,
+  "name": "Silence Boost",
+  "nameEn": "Silence Boost",
+  "nameEs": "Potenc. de Silencio",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Fear Boost": {
+  "id": 570,
+  "name": "Fear Boost",
+  "nameEn": "Fear Boost",
+  "nameEs": "Potenc. de Miedo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Rage Boost": {
+  "id": 571,
+  "name": "Rage Boost",
+  "nameEn": "Rage Boost",
+  "nameEs": "Potenc. de Furia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Dizzy Boost": {
+  "id": 572,
+  "name": "Dizzy Boost",
+  "nameEn": "Dizzy Boost",
+  "nameEs": "Potenc. de Mareo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "dizzy",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Enervate Boost": {
+  "id": 573,
+  "name": "Enervate Boost",
+  "nameEn": "Enervate Boost",
+  "nameEs": "Potenc. de Enerv.",
+  "element": "pas",
+  "target": "self",
+  "ailment": "enervation",
+  "cost": null,
+  "power": null,
+  "rank": 4,
+  "unique": false
+ },
+ "Ailment Boost": {
+  "id": 574,
+  "name": "Ailment Boost",
+  "nameEn": "Ailment Boost",
+  "nameEs": "Potenc. est. alter.",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 6,
+  "unique": false
+ },
+ "Hama Boost": {
+  "id": 575,
+  "name": "Hama Boost",
+  "nameEn": "Hama Boost",
+  "nameEs": "Potenc. de Hama",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Mudo Boost": {
+  "id": 576,
+  "name": "Mudo Boost",
+  "nameEn": "Mudo Boost",
+  "nameEs": "Potenc. de Mudo",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Endure Light": {
+  "id": 577,
+  "name": "Endure Light",
+  "nameEn": "Endure Light",
+  "nameEs": "Resistir luz",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Endure Dark": {
+  "id": 578,
+  "name": "Endure Dark",
+  "nameEn": "Endure Dark",
+  "nameEs": "Resistir oscuridad",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Cool Breeze": {
+  "id": 579,
+  "name": "Cool Breeze",
+  "nameEn": "Cool Breeze",
+  "nameEs": "Brisa fresca",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 5,
+  "unique": false
+ },
+ "Victory Cry": {
+  "id": 580,
+  "name": "Victory Cry",
+  "nameEn": "Victory Cry",
+  "nameEs": "Grito victorioso",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Resist Poison": {
+  "id": 581,
+  "name": "Resist Poison",
+  "nameEn": "Resist Poison",
+  "nameEs": "Resistir Veneno",
+  "element": "pas",
+  "target": "self",
+  "ailment": "poison",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Confuse": {
+  "id": 582,
+  "name": "Resist Confuse",
+  "nameEn": "Resist Panic",
+  "nameEs": "Resistir Pánico",
+  "element": "pas",
+  "target": "self",
+  "ailment": "confusion",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Fear": {
+  "id": 583,
+  "name": "Resist Fear",
+  "nameEn": "Resist Fear",
+  "nameEs": "Resistir Miedo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "fear",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Exhaust": {
+  "id": 584,
+  "name": "Resist Exhaust",
+  "nameEn": "Resist Exhaust",
+  "nameEs": "Resistir Agotam.",
+  "element": "pas",
+  "target": "self",
+  "ailment": "exhaustion",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Enervate": {
+  "id": 585,
+  "name": "Resist Enervate",
+  "nameEn": "Resist Enervate",
+  "nameEs": "Resistir Enervación",
+  "element": "pas",
+  "target": "self",
+  "ailment": "enervation",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Rage": {
+  "id": 586,
+  "name": "Resist Rage",
+  "nameEn": "Resist Rage",
+  "nameEs": "Resistir Furia",
+  "element": "pas",
+  "target": "self",
+  "ailment": "rage",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Dizzy": {
+  "id": 587,
+  "name": "Resist Dizzy",
+  "nameEn": "Resist Dizzy",
+  "nameEs": "Resistir Mareo",
+  "element": "pas",
+  "target": "self",
+  "ailment": "dizzy",
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "Resist Mute": {
+  "id": 588,
+  "name": "Resist Mute",
+  "nameEn": "Resist Mute",
+  "nameEs": "Resistir Silencio",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 2.5,
+  "unique": false
+ },
+ "HP Amp": {
+  "id": 589,
+  "name": "HP Amp",
+  "nameEn": "HP Amp",
+  "nameEs": "Amplificación de PS",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "SP Amp": {
+  "id": 590,
+  "name": "SP Amp",
+  "nameEn": "SP Amp",
+  "nameEs": "Amplificación de PE",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Fast Heal": {
+  "id": 591,
+  "name": "Fast Heal",
+  "nameEn": "Fast Heal",
+  "nameEs": "Curación rápida",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 3,
+  "unique": false
+ },
+ "Insta-Heal": {
+  "id": 592,
+  "name": "Insta-Heal",
+  "nameEn": "Insta-Heal",
+  "nameEs": "Curación instantánea",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": 7,
+  "unique": false
+ },
+ "Infinite Endure": {
+  "id": 593,
+  "name": "Infinite Endure",
+  "nameEn": "Infinite Endure",
+  "nameEs": "Resistencia infinita",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Izanami Endure": {
+  "id": 594,
+  "name": "Izanami Endure",
+  "nameEn": "Izanami Endure",
+  "nameEs": "Resistencia a Izanami",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "Alienation Wall": {
+  "id": 595,
+  "name": "Alienation Wall",
+  "nameEn": "Alienation Wall",
+  "nameEs": "Muro de alienación",
+  "element": "pas",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "AoA Level 1": {
+  "id": 610,
+  "name": "AoA Level 1",
+  "nameEn": "Blank",
+  "nameEs": "Blank",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "AoA Level 2": {
+  "id": 611,
+  "name": "AoA Level 2",
+  "nameEn": "Blank",
+  "nameEs": "Blank",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "AoA Level 3": {
+  "id": 612,
+  "name": "AoA Level 3",
+  "nameEn": "Blank",
+  "nameEs": "Blank",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "AoA Level 4": {
+  "id": 613,
+  "name": "AoA Level 4",
+  "nameEn": "Blank",
+  "nameEs": "Blank",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ },
+ "AoA Level 5": {
+  "id": 614,
+  "name": "AoA Level 5",
+  "nameEn": "Blank",
+  "nameEs": "Blank",
+  "element": "sup",
+  "target": "self",
+  "ailment": null,
+  "cost": null,
+  "power": null,
+  "rank": null,
+  "unique": false
+ }
+}
