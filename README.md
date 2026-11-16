@@ -106,7 +106,7 @@ Las Personas, habilidades y reglas de fusión vienen de [aqiu384/megaten-fusion-
 - ~~**v1:** compendio completo, motor de fusiones, guía de confidentes~~ ✅
 - ~~**v2:** cuentas, progreso de confidentes, favoritas, builds de la comunidad, moderación, versión en inglés~~ ✅
 - ~~**v3:** Persona 3 Reload con su propia paleta~~ ✅
-- **Futuro:** imágenes de las Personas de Reload, más builds oficiales y Persona 4 Golden.
+- **Persona 4 Golden:** calculadora con ilustraciones, vínculos, respuestas de clase, pronóstico de fusiones y builds.
 
 ## Licencia
 

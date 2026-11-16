@@ -6,7 +6,6 @@ import styles from '../../p5r/pages/Home.module.css';
 import { L } from '../../../i18n';
 
 export default function Home() {
-  const [calc] = p3rGame.tools;
   const all = getAllPersonas();
   return (
     <>
@@ -20,7 +19,7 @@ export default function Home() {
               Memento mori.<br />{L('Fusioná.', 'Fuse.')}<br /><span>{L('Conectá.', 'Connect.')}</span>
             </h1>
             <p className={styles.lead}>
-              {L('Calculadora de fusiones con los nombres y descripciones oficiales del juego en español.', "Fusion calculator with the game's official names and descriptions.")}
+              {L('Calculadora de fusiones, vínculos, respuestas de clase y builds, con las ilustraciones y los textos oficiales del juego.', "Fusion calculator, Social Links, class answers and builds, with the game's official artwork and text.")}
             </p>
             <div className={styles.ctas}>
               <Link to="calculadora" className="btn btn--dark">{L('Abrir calculadora →', 'Open calculator →')}</Link>
@@ -43,22 +42,14 @@ export default function Home() {
       <section className={`container ${styles.tools}`}>
         <SectionTitle>{L('Herramientas', 'Tools')}</SectionTitle>
         <div className={styles.toolGrid}>
-          <Link to={calc.path} className={`${styles.tool} ${styles.toolLight}`}>
-            <span className={styles.toolNum}>01</span>
-            <span className={styles.toolTitle}>{calc.title}</span>
-            <span className={styles.toolDesc}>{calc.description}</span>
-            <span className={styles.toolCta}>{L('Entrar →', 'Enter →')}</span>
-          </Link>
-          <div className={`${styles.tool} ${styles.toolRed}`} aria-disabled="true">
-            <span className={styles.toolNum}>02</span>
-            <span className={styles.toolTitle}>{L('Vínculos sociales', 'Social Links')}</span>
-            <span className={styles.toolDesc}>{L('En preparación.', 'Coming soon.')}</span>
-          </div>
-          <div className={`${styles.tool} ${styles.toolGold}`} aria-disabled="true">
-            <span className={styles.toolNum}>03</span>
-            <span className={styles.toolTitle}>{L('Respuestas de clase', 'Class answers')}</span>
-            <span className={styles.toolDesc}>{L('En preparación.', 'Coming soon.')}</span>
-          </div>
+          {p3rGame.tools.map((t, i) => (
+            <Link key={t.id} to={t.path} className={`${styles.tool} ${[styles.toolLight, styles.toolRed, styles.toolGold][i % 3]}`}>
+              <span className={styles.toolNum}>{String(i + 1).padStart(2, '0')}</span>
+              <span className={styles.toolTitle}>{t.title}</span>
+              <span className={styles.toolDesc}>{t.description}</span>
+              <span className={styles.toolCta}>{L('Entrar →', 'Enter →')}</span>
+            </Link>
+          ))}
         </div>
       </section>
     </>
