@@ -93,7 +93,7 @@ export function BuildCard({ build: b }: { build: Build }) {
   return (
     <Link to={`/p4g/builds/${b.id}`} className={styles.card}>
       {img ? (
-        <img src={img} alt="" className={styles.cardImg} style={{ objectPosition: personaCardFocus(b.persona_id) }} />
+        <img src={img} alt="" className={`${styles.cardImg} p4g-art`} style={{ objectFit: 'contain' }} />
       ) : (
         <span className={styles.cardImg} />
       )}

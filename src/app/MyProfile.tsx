@@ -7,6 +7,14 @@ import { getLink } from '../games/p3r/services/links';
 import { linkImage } from '../games/p3r/data/linkImages';
 import { getArcana as getP3Arcana } from '../games/p3r/data/arcana';
 import { personaName as p3Name } from '../games/p3r/services/text';
+import { personaImage as p3Image, personaCardFocus as p3Focus } from '../games/p3r/services/images';
+import { getPersona as getP4Persona } from '../games/p4g/services/personas';
+import { getLink as getP4Link, maxPersona as p4MaxPersona } from '../games/p4g/services/links';
+import { linkImage as p4LinkImage } from '../games/p4g/data/linkImages';
+import { getArcana as getP4Arcana } from '../games/p4g/data/arcana';
+import { personaName as p4Name } from '../games/p4g/services/text';
+import { personaImage as p4Image } from '../games/p4g/services/images';
+import { BuildCard as P4BuildCard } from '../games/p4g/pages/Builds';
 import { fetchAllProgress } from '../core/account/progress';
 import { listBuilds, translateBuild, pendingReports, type Build } from '../core/account/builds';
 import { BuildCard } from '../games/p5r/pages/Builds';
@@ -79,6 +87,12 @@ export default function MyProfile() {
     .map((r) => ({ ...r, link: getLink(r.confidant_id.slice(4)) }))
     .filter((r) => r.link)
     .sort((a, b) => (sort === 'least' ? a.rank - b.rank : b.rank - a.rank));
+  const p4Links = (progress ?? [])
+    .filter((r) => r.confidant_id.startsWith('p4g-'))
+    .map((r) => ({ ...r, link: getP4Link(r.confidant_id.slice(4)) }))
+    .filter((r) => r.link)
+    .sort((a, b) => (sort === 'least' ? a.rank - b.rank : b.rank - a.rank));
+  const p4gFavs = favorites.filter((id) => id.startsWith('p4g:')).map((id) => getP4Persona(id.slice(4))).filter((p) => p !== undefined);
   const p3rFavs = favorites.filter((id) => id.startsWith('p3r:')).map((id) => getP3Persona(id.slice(4))).filter((p) => p !== undefined);
 
   return (
@@ -109,9 +123,10 @@ export default function MyProfile() {
       {recovering && <NewPassword onDone={doneRecovering} />}
       <UsernameForm current={profile?.username ?? ''} onSaved={refreshProfile} />
 
+      {(confidants.length > 0 || links.length + p4Links.length === 0) && (
       <div className={styles.block}>
         <div className={styles.blockHead}>
-          <h2 className={styles.h2}>{L('Mis confidentes', 'My confidants')}</h2>
+          <h2 className={styles.h2}>{L('Mis confidentes · Persona 5 Royal', 'My confidants · Persona 5 Royal')}</h2>
           {confidants.length > 1 && (
             <div className={styles.sorts} role="group" aria-label={L('Ordenar confidentes', 'Sort confidants')}>
               {(Object.keys(SORTS) as SortKey[]).map((k) => (
@@ -162,6 +177,7 @@ export default function MyProfile() {
           </ul>
         )}
       </div>
+      )}
 
       {links.length > 0 && (
         <div className={styles.block}>
@@ -192,14 +208,47 @@ export default function MyProfile() {
         </div>
       )}
 
+      {p4Links.length > 0 && (
+        <div className={styles.block}>
+          <h2 className={styles.h2}>{L('Vínculos en curso · Persona 4 Golden', 'Social Links in progress · Persona 4 Golden')}</h2>
+          <ul className={styles.confList}>
+            {p4Links.map(({ confidant_id, rank, link }) => {
+              const a = getP4Arcana(link!.arcana);
+              const own = link!.spoiler ? undefined : p4LinkImage(link!.id);
+              const mp = link!.spoiler ? undefined : p4MaxPersona(link!.arcana);
+              const img = own ?? (mp ? p4Image(mp.id) : undefined);
+              return (
+                <li key={confidant_id}>
+                  <Link to={`/p4g/vinculos/${link!.id}`} className={styles.conf}>
+                    {img ? <img src={img} alt="" className={`${styles.confImg} ${own ? '' : 'p4g-art'}`} style={own ? { objectPosition: 'top' } : { objectFit: 'contain' }} /> : <span className={styles.confImg} />}
+                    <span className={styles.confText}>
+                      <strong>{link!.spoiler ? L('Spoiler', 'Spoiler') : L(link!.who[0], link!.who[1])}</strong>
+                      <span>{a.name}</span>
+                    </span>
+                    <span className={styles.rank}>
+                      {rank >= 10 ? L('Rango MAX', 'Rank MAX') : `${L('Rango', 'Rank')} ${rank}`}
+                      <span className={styles.bar}>
+                        <i style={{ width: `${Math.min(rank, 10) * 10}%` }} />
+                      </span>
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
       <div className={styles.block}>
         <h2 className={styles.h2}>{L('Personas favoritas', 'Favorite Personas')}</h2>
-        {personas.length === 0 ? (
+        {personas.length + p3rFavs.length + p4gFavs.length === 0 ? (
           <p className={styles.empty}>
             {L('Todavía no tenés favoritas. Tocá la estrella en el perfil de cualquier Persona del', 'No favorites yet. Tap the star on the profile of any Persona in the')}{' '}
             <Link to="/p5r/calculadora">{L('catálogo', 'catalog')}</Link>.
           </p>
-        ) : (
+        ) : personas.length === 0 ? null : (
+          <>
+          <h3 className={styles.h2} style={{ fontSize: 22, marginTop: 4 }}>Persona 5 Royal</h3>
           <ul className={styles.favGrid}>
             {personas.map((p) => (
               <li key={p.id}>
@@ -215,6 +264,7 @@ export default function MyProfile() {
               </li>
             ))}
           </ul>
+          </>
         )}
         {p3rFavs.length > 0 && (
           <>
@@ -223,8 +273,32 @@ export default function MyProfile() {
               {p3rFavs.map((p) => (
                 <li key={p.id}>
                   <Link to={`/p3r/calculadora/persona/${p.id}`} className={styles.fav}>
-                    <span className={styles.favEmpty} />
+                    {p3Image(p.id, 'side') ? (
+                      <img src={p3Image(p.id, 'side')} alt="" style={{ objectPosition: p3Focus(p.id) }} />
+                    ) : (
+                      <span className={styles.favEmpty} />
+                    )}
                     <span className={styles.favName}>{p3Name(p)}</span>
+                    <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+        {p4gFavs.length > 0 && (
+          <>
+            <h3 className={styles.h2} style={{ fontSize: 22, marginTop: 18 }}>Persona 4 Golden</h3>
+            <ul className={styles.favGrid}>
+              {p4gFavs.map((p) => (
+                <li key={p.id}>
+                  <Link to={`/p4g/calculadora/persona/${p.id}`} className={styles.fav}>
+                    {p4Image(p.id) ? (
+                      <img src={p4Image(p.id)} alt="" className="p4g-art" style={{ objectFit: 'contain', padding: 6 }} />
+                    ) : (
+                      <span className={styles.favEmpty} />
+                    )}
+                    <span className={styles.favName}>{p4Name(p)}</span>
                     <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>
                   </Link>
                 </li>
@@ -243,7 +317,7 @@ export default function MyProfile() {
           <ul className={styles.favGrid} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))' }}>
             {builds.map((b) => (
               <li key={b.id}>
-                {b.game === 'p3r' ? <P3BuildCard build={b} /> : <BuildCard build={b} />}
+                {b.game === 'p3r' ? <P3BuildCard build={b} /> : b.game === 'p4g' ? <P4BuildCard build={b} /> : <BuildCard build={b} />}
               </li>
             ))}
           </ul>
