@@ -263,7 +263,7 @@ Comfort her.|3
 Cry with her.|3
 RANK 8->9
 Take your time and think.|3
-You're always cheerful.|3
+Don't stress over it.|3
 Do what you can.|3
 @sun-ayane
 RANK 1->2
