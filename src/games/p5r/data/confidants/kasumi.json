@@ -247,7 +247,7 @@
       {
        "es": "Cosas que pasan.",
        "en": "It happens.",
-       "points": 2
+       "points": 3
       },
       {
        "es": "No te rindas.",
@@ -820,12 +820,12 @@
       {
        "es": "Te queda genial.",
        "en": "It looks great.",
-       "points": 0
+       "points": 3
       },
       {
        "es": "Estás muy mona.",
        "en": "You look really cute.",
-       "points": 0
+       "points": 3
       },
       {
        "es": "Me he enamorado.",
@@ -947,7 +947,7 @@
       {
        "es": "Claro que sí.",
        "en": "Of course I do.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "Un poco.",
@@ -1052,12 +1052,12 @@
       {
        "es": "Dalo todo.",
        "en": "Show me your best.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Qué ganas de verlo.",
        "en": "I can't wait to see it.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "Siempre puedes confiar en mí.",
@@ -1080,7 +1080,7 @@
       {
        "es": "Tranquila.",
        "en": "Calm down.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "Tómate tu tiempo.",
@@ -1103,12 +1103,12 @@
       {
        "es": "¿Notas alguna diferencia?",
        "en": "So? Any different?",
-       "points": 0
+       "points": 3
       },
       {
        "es": "Estás como un tomate.",
        "en": "You are so red right now.",
-       "points": 0
+       "points": 3
       },
       {
        "es": "Qué mona eres.",

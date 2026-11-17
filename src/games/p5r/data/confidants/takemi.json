@@ -29,17 +29,17 @@
       {
        "es": "Me parece bien.",
        "en": "Fine by me.",
-       "points": 1
+       "points": 2
       },
       {
        "es": "No te pases conmigo.",
        "en": "Please go easy on me.",
-       "points": 0
+       "points": 3
       },
       {
        "es": "Cuántas lucecitas.",
        "en": "So many pretty lights...",
-       "points": 0
+       "points": 2
       }
      ]
     }
@@ -647,7 +647,7 @@
       {
        "es": "Era por mis exámenes",
        "en": "It was for my exams.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Fue duro.",

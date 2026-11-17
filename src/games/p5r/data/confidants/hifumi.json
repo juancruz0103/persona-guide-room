@@ -29,17 +29,17 @@
       {
        "es": "Claro.",
        "en": "Sure.",
-       "points": 1
+       "points": 2
       },
       {
        "es": "Supongo que sí.",
        "en": "I guess we can.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Qué suerte tengo.",
        "en": "Lucky me.",
-       "points": 0
+       "points": 3
       }
      ]
     }
@@ -668,7 +668,7 @@
       {
        "es": "Hazlo lo mejor que puedas.",
        "en": "Give it all you got.",
-       "points": 2
+       "points": 0
       },
       {
        "es": "¿Crees que ganarás?",

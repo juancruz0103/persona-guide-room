@@ -27,7 +27,7 @@
       {
        "es": "Perfecto.",
        "en": "Sounds good.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Ese era nuestro trato.",
@@ -37,7 +37,7 @@
       {
        "es": "Gracias, cuento contigo.",
        "en": "Thanks. I'm counting on you.",
-       "points": 0
+       "points": 2
       }
      ]
     }
@@ -65,7 +65,7 @@
       {
        "es": "¿Te gusta el café?",
        "en": "You like coffee?",
-       "points": 3
+       "points": 2
       },
       {
        "es": "¿Vas a abrir una cafetería?",
@@ -75,7 +75,7 @@
       {
        "es": "¿Vas a montar una granja?",
        "en": "Are you starting a farm?",
-       "points": 2
+       "points": 3
       }
      ]
     },
@@ -102,7 +102,7 @@
       {
        "es": "Algo huele a chamusquina.",
        "en": "He sounds suspicious.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -247,7 +247,7 @@
       {
        "es": "He perdido la cuenta.",
        "en": "Too many times to count.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -393,7 +393,7 @@
       {
        "es": "Preguntémosle.",
        "en": "Let's ask him.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -420,7 +420,7 @@
       {
        "es": "No estoy seguro.",
        "en": "I'm not really sure.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -480,12 +480,12 @@
       {
        "es": "Alguien dice la verdad.",
        "en": "Somebody's telling the truth.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "No confíes en nadie.",
        "en": "Trust no one.",
-       "points": 2
+       "points": 3
       }
      ]
     },
@@ -512,7 +512,7 @@
       {
        "es": "Tiene que haber otro camino.",
        "en": "There has to be another way.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -621,7 +621,7 @@
       {
        "es": "No tenía ni idea.",
        "en": "I had no idea.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "Menuda sorpresa.",
@@ -864,7 +864,7 @@
       {
        "es": "Puede que no le guste.",
        "en": "He might not like it.",
-       "points": 0
+       "points": 3
       }
      ]
     },

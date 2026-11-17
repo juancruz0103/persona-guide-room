@@ -88,7 +88,7 @@
       {
        "es": "No te contengas la próxima vez.",
        "en": "No holding back next time.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Tengo buen ojo.",
@@ -638,7 +638,7 @@
       {
        "es": "Es gracias a ti.",
        "en": "It's thanks to you.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Me niego a perder.",
@@ -701,12 +701,12 @@
       {
        "es": "Lo mismo digo.",
        "en": "Same here.",
-       "points": 1
+       "points": 2
       },
       {
        "es": "Detesto perder, ¿y tú?",
        "en": "Really hate losing, don't you?",
-       "points": 2
+       "points": 3
       }
      ]
     }

@@ -873,3 +873,5 @@
 .rankNote p {
   margin: 0;
 }
+
+.pointsHint { margin: 0 0 12px; color: var(--c-text-muted); font-size: 15px; max-width: 80ch; }

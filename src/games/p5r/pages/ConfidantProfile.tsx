@@ -497,6 +497,12 @@ export default function ConfidantProfile() {
             </div>
           )}
 
+          {rank && !rank.noData && !rank.choicesDontMatter && rank.conversations.some(isConv) && (
+            <p className={styles.pointsHint}>
+              {L('Los puntos son las notas (♪) que da cada respuesta en el juego, contando la nota extra por llevar una Persona del Arcana del confidente (máximo 3). Llevá siempre una.', 'Points are the notes (♪) each answer gives in the game, counting the extra note for carrying a Persona of the confidant\'s Arcana (max 3). Always bring one.')}
+            </p>
+          )}
+
           {rank?.noData || rank?.choicesDontMatter ? (
             <>
               {rank.noData ? (

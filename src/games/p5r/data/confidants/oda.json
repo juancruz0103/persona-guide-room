@@ -29,17 +29,17 @@
       {
        "es": "Claro.",
        "en": "Sure.",
-       "points": 1
+       "points": 2
       },
       {
        "es": "¿Tenemos que hacerlo?",
        "en": "Do we have to?",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Llámame cuando vayas a jugar.",
        "en": "Call me when it's game time.",
-       "points": 0
+       "points": 3
       }
      ]
     }
@@ -395,7 +395,7 @@
       {
        "es": "¿Te das por vencido?",
        "en": "Are you going to give up?",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Necesitas otra estrategia...",

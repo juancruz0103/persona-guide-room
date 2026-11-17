@@ -671,12 +671,12 @@
       {
        "es": "¿Importan acaso?",
        "en": "Are they even relevant?",
-       "points": 0
+       "points": 3
       },
       {
        "es": "¿Eres un admirador suyo?",
        "en": "Are you a fan?",
-       "points": 2
+       "points": 3
       }
      ]
     },
@@ -703,7 +703,7 @@
       {
        "es": "¿Y a ti, Maruki?",
        "en": "How about you, Maruki?",
-       "points": 0
+       "points": 3
       }
      ]
     },
@@ -720,7 +720,7 @@
       {
        "es": "No tengo ni idea.",
        "en": "I have no clue.",
-       "points": 0
+       "points": 3
       },
       {
        "es": "Es probable.",
