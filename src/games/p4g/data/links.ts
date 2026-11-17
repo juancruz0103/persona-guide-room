@@ -1,5 +1,6 @@
 import type { ArcanaId } from '../types';
 import { L } from '../../../i18n';
+import linkItems from './generated/link-items.json';
 
 /** Día de la semana: 0 = lunes … 6 = domingo. */
 export type Day = 0 | 1 | 2 | 3 | 4 | 5 | 6;
@@ -9,7 +10,7 @@ export type Slot = 'day' | 'night';
 export type Reward =
   | { type: 'skill'; skill: string; who?: [string, string] }
   | { type: 'ability'; text: [string, string] }
-  | { type: 'item'; item: [string, string] };
+  | { type: 'item'; item: [string, string]; desc?: [string, string] };
 
 /** Pedido de Margaret para subir un rango (Emperatriz). */
 export interface Request { rank: number; persona: string; skill: string; level?: number; note?: [string, string] }
@@ -170,35 +171,39 @@ export function scheduleText(l: LinkMeta): string {
 }
 
 const skill = (s: string): Reward => ({ type: 'skill', skill: s });
-const item = (es: string, en: string): Reward => ({ type: 'item', item: [es, en] });
+/** Objeto clave del juego (nombre y descripción oficiales, ver generated/link-items.json). */
+const item = (id: string): Reward => {
+  const it = (linkItems as Record<string, { es: string; en: string; descEs: string; descEn: string }>)[id];
+  return { type: 'item', item: [it.es, it.en], desc: [it.descEs, it.descEn] };
+};
 
 /** Recompensas por rango. Skills y objetos: guías de RPG Site; objetos con su nombre oficial del juego. */
 const REWARDS: Record<string, Record<number, Reward[]>> = {
-  magician: { 2: [skill('Trafuri')], 4: [skill('Dekaja')], 6: [skill('Auto-Sukukaja')], 8: [skill('Diarama')], 10: [skill('Evade Elec'), item('Venda de colega', "Buddy's Bandage")] },
-  chariot: { 2: [skill('Rebellion')], 4: [skill('Ice Boost')], 6: [skill('Revolution')], 8: [skill('Bufula')], 10: [item('Pulsera', 'Wristbands')] },
-  priestess: { 4: [skill('Divine Grace')], 6: [skill('Amrita')], 8: [skill('Mudoon')], 10: [item('Amuleto de santuario', 'Shrine Charm')] },
-  emperor: { 2: [skill('Dizzy Boost')], 4: [skill('Masukunda')], 6: [skill('Power Charge')], 8: [skill('Regenerate 3')], 10: [skill('Evade Wind'), item('Correa bonita', 'Cute Strap')] },
+  magician: { 2: [skill('Trafuri')], 4: [skill('Dekaja')], 6: [skill('Auto-Sukukaja')], 8: [skill('Diarama')], 10: [skill('Evade Elec'), item('4A0')] },
+  chariot: { 2: [skill('Rebellion')], 4: [skill('Ice Boost')], 6: [skill('Revolution')], 8: [skill('Bufula')], 10: [skill('Evade Fire'), item('4A6')] },
+  priestess: { 4: [skill('Divine Grace')], 6: [skill('Amrita')], 8: [skill('Mudoon')], 10: [skill('Evade Ice'), item('4A1')] },
+  emperor: { 2: [skill('Dizzy Boost')], 4: [skill('Masukunda')], 6: [skill('Power Charge')], 8: [skill('Regenerate 3')], 10: [skill('Evade Wind'), item('4A3')] },
   lovers: {
     3: [{ type: 'ability', text: ['Rise detecta los tesoros del piso', 'Rise detects the treasure on each floor'] }],
     6: [{ type: 'ability', text: ['Rise detecta a los enemigos del piso', 'Rise detects the enemies on each floor'] }],
-    10: [{ type: 'ability', text: ['Rise puede analizar las debilidades del enemigo', 'Rise can scan enemy weaknesses'] }, item('Foto firmada', 'Signed Photo')],
+    10: [{ type: 'ability', text: ['Rise puede analizar las debilidades del enemigo', 'Rise can scan enemy weaknesses'] }, item('4A5')],
   },
-  fortune: { 2: [skill('Invigorate 1')], 4: [skill('Mind Charge')], 6: [skill('Invigorate 2')], 8: [skill('Heat Riser')], 10: [item('Insignia de detective', 'Detective Badge')] },
+  fortune: { 2: [skill('Invigorate 1')], 4: [skill('Mind Charge')], 6: [skill('Invigorate 2')], 8: [skill('Heat Riser')], 10: [item('4A9')] },
   star: { 2: [skill('Auto-Rakukaja')], 4: [skill('Recarm')], 6: [skill('Marakunda')], 8: [skill('Samarecarm')] },
-  empress: { 10: [item('Broche en espiral', 'Spiral Brooch')] },
-  hierophant: { 10: [item('Taza de café', 'Coffee Mug')] },
-  justice: { 10: [item('Foto familiar', 'Family Picture')] },
-  hermit: { 10: [item('Ema de gratitud', 'Gratitude Ema')] },
-  'strength-kou': { 10: [item('Carta para Kou', 'Letter to Kou')] },
-  'strength-daisuke': { 10: [item('Brocha de pinchos', 'Spike Brush')] },
-  hanged: { 10: [item('Ticket del Junes', 'Junes Receipt')] },
-  death: { 10: [item('Pluma vieja', 'Old Fountain Pen')] },
-  temperance: { 10: [item('Marcapáginas trébol', 'Clover Bookmark')] },
-  devil: { 10: [item('Tarjeta de hospital', 'Hospital ID')] },
-  tower: { 10: [item('Resultados de prueba', 'Test Results')] },
-  moon: { 10: [item('Polvera', 'Compact')] },
-  'sun-yumi': { 10: [item('Notas a mano', 'Annotated Script')] },
-  'sun-ayane': { 10: [item('Entrada hecha a mano', 'Handmade Ticket')] },
+  empress: { 10: [item('4A2')] },
+  hierophant: { 10: [item('4A4')] },
+  justice: { 10: [item('4A7')] },
+  hermit: { 10: [item('4A8')] },
+  'strength-kou': { 10: [item('4AA')] },
+  'strength-daisuke': { 10: [item('4AB')] },
+  hanged: { 10: [item('4AC')] },
+  death: { 10: [item('4AD')] },
+  temperance: { 10: [item('4AE')] },
+  devil: { 10: [item('4AF')] },
+  tower: { 10: [item('4B0')] },
+  moon: { 10: [item('4B1')] },
+  'sun-yumi': { 10: [item('4B2')] },
+  'sun-ayane': { 10: [item('4B3')] },
 };
 const FIGHTERS = new Set(['magician', 'chariot', 'priestess', 'emperor', 'fortune', 'star']);
 for (const l of LINKS) {
@@ -213,7 +218,7 @@ export const FIGHTER_ABILITIES: Record<number, [string, string]> = {
   5: ['Puede curar Furia, Pánico o Miedo', 'May cure Rage, Panic or Fear'],
   7: ['Resiste un golpe mortal una vez por combate', 'Survives a fatal blow once per battle'],
   9: ['Puede recibir un golpe mortal en tu lugar', 'May take a fatal blow in your place'],
-  10: ['Su Persona se transforma y aprende una skill de evasión', 'Their Persona transforms and learns an Evade skill'],
+  10: ['Su Persona se transforma', 'Their Persona transforms'],
 };
 
 /** Todo lo que da un rango, incluidas las habilidades de combate de los compañeros. */

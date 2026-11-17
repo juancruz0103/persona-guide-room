@@ -59,7 +59,7 @@ function Rewards({ items, compact }: { items: Reward[]; compact?: boolean }) {
       {items.map((r, i) => (
         <li key={i}>
           {r.type === 'skill' ? <>{L('Aprende', 'Learns')} <SkillPeek skill={r.skill} /></>
-            : r.type === 'item' ? <>{L('Objeto clave', 'Key item')}: <strong>{L(r.item[0], r.item[1])}</strong></>
+            : r.type === 'item' ? <>{L('Objeto clave', 'Key item')}: <strong>{L(r.item[0], r.item[1])}</strong>{r.desc && (r.desc[0] || r.desc[1]) && <> · <em>{L(r.desc[0], r.desc[1])}</em></>}</>
             : L(r.text[0], r.text[1])}
         </li>
       ))}

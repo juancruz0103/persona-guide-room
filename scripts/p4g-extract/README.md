@@ -52,3 +52,6 @@ python3 extract_classes.py <P4G-texto-ES> <P4G-texto-EN> src/games/p4g/data/gene
 ```
 
 El nombre del protagonista va en el texto como la función `F1 82`; se guarda como `{P}` y la web pone "Yu".
+
+Objetos del rango máximo: `python3 extract_link_items.py <ES> <EN> src/games/p4g/data/generated/link-items.json`
+(eventitem 0x4A0–0x4B3: nombre en `init/itemtbl.bin` y descripción en `datEventItemHelp.bmd`).

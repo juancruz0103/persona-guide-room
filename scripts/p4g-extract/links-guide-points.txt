@@ -76,8 +76,8 @@ Count me in!|3
 I don't mind.|2
 RANK 3->4
 Let's eat!|3
-Hold on, my stomach...|2
-Have you tried it?|2
+My stomach's kinda...|2
+Did you taste it?|2
 There's always next time.|3
 I'm having fun.|3
 It's okay.|2
@@ -87,7 +87,7 @@ What's all this for?|3
 RANK 5->6
 Gotten any better yet?|2
 Keep practicing.|3
-They care for you.|3
+They care about you.|3
 RANK 6->7
 It's okay.|3
 They're not mistaken.|3
@@ -209,7 +209,7 @@ Come shopping with me.|2
 RANK 3->4
 Stop them.|3
 Ignore them.|2
-Hey, let's go.|3
+Let's go.|3
 Did you hear them?|3
 RANK 4->5
 What are you talking about?|2
@@ -416,6 +416,7 @@ What's wrong?|2
 That's right.|3
 I have you.|3
 RANK 2->3
+I know.|3
 I'll go buy some.|3
 Let's go buy some together.|3
 It's not Nanako's fault.|3
@@ -585,7 +586,7 @@ That's not it.|3
 That's just one reason.|2
 RANK 6->7
 What I like in a girl is...|3
-About these murders...|2
+The other day on TV, I saw...|2
 RANK 7->8
 This guy.|3
 Cheer him up.|3

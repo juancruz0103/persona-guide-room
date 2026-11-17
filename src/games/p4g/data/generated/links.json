@@ -660,12 +660,12 @@
       {
        "es": "\"Tengo el estómago un poco...\".",
        "en": "\"My stomach's kinda...\"",
-       "pts": 0
+       "pts": 2
       },
       {
        "es": "\"¿Lo has probado?\".",
        "en": "\"Did you taste it?\"",
-       "pts": 0
+       "pts": 2
       }
      ]
     },
@@ -843,7 +843,7 @@
       {
        "es": "\"Se preocupan por ti\".",
        "en": "\"They care about you.\"",
-       "pts": 0
+       "pts": 3
       }
      ]
     }
@@ -3300,7 +3300,7 @@
       {
        "es": "\"Lo sé\".",
        "en": "\"I know.\"",
-       "pts": 0
+       "pts": 3
       },
       {
        "es": "\"Y él a ti también\".",
@@ -8576,7 +8576,7 @@
       {
        "es": "\"El otro día, vi en la tele...\".",
        "en": "\"The other day on TV, I saw...\"",
-       "pts": 0
+       "pts": 2
       },
       {
        "es": "\"Me gusta que las chicas sean...\".",
@@ -9108,7 +9108,7 @@
       {
        "es": "\"Vámonos\".",
        "en": "\"Let's go.\"",
-       "pts": 0
+       "pts": 3
       }
      ]
     }
