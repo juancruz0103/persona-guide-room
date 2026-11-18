@@ -191,17 +191,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Munehisa",
      "prompt": {
-      "es": "Ahora Tsuda conoce tu cara. Y eso puede ser un problema.",
-      "en": "Now Tsuda knows your face. And that could be a real problem."
+      "es": "Pero Tsuda te ha visto la cara. Igual nos metemos en un lío.",
+      "en": "But now Tsuda knows your face. And that could be a real problem."
      },
      "options": [
       {
        "en": "I agree.",
        "es": "Estoy de acuerdo.",
        "points": 2
+      },
+      {
+       "en": "Is that a threat?",
+       "es": "¿Es una amenaza?",
+       "points": 0
+      },
+      {
+       "en": "What's the issue?",
+       "es": "¿Cuál es el problema?",
+       "points": 0
       }
      ]
     }
@@ -353,8 +362,13 @@
       },
       {
        "en": "All I did was listen to him.",
-       "es": "Solo lo escuché.",
+       "es": "Solo le presté atención.",
        "points": 2
+      },
+      {
+       "en": "It's part of the job.",
+       "es": "Es parte del trabajo.",
+       "points": 0
       }
      ]
     }
@@ -423,17 +437,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Munehisa",
      "prompt": {
-      "es": "No podemos arriesgarnos.",
-      "en": "We can't afford to take any chances."
+      "es": "Aunque si tenemos en cuenta a quién nos enfrentamos... no podemos tentar a la suerte.",
+      "en": "But considering who we're dealin' with... we can't afford to take any chances."
      },
      "options": [
       {
        "en": "Bring it on.",
-       "es": "Que venga.",
+       "es": "Vamos allá.",
        "points": 2
+      },
+      {
+       "en": "I'm worried...",
+       "es": "Estoy preocupado...",
+       "points": 0
+      },
+      {
+       "en": "So what's our first move?",
+       "es": "¿Qué hacemos primero?",
+       "points": 0
       }
      ]
     }
@@ -576,6 +599,16 @@
        "en": "Understood.",
        "es": "Entendido.",
        "points": 2
+      },
+      {
+       "en": "I'm kind of nervous...",
+       "es": "Estoy un poco nervioso.",
+       "points": 0
+      },
+      {
+       "en": "I'll kick him out.",
+       "es": "Lo echaré a patadas.",
+       "points": 0
       }
      ]
     }
@@ -673,10 +706,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Munehisa",
      "prompt": {
-      "es": "...El chaval se ha hecho un hombre sin que me diera cuenta.",
+      "es": "Se ha convertido en un hombre y ni me he enterado.",
       "en": "...The kid must've grown into a man while I wasn't looking."
      },
      "options": [
@@ -687,8 +719,13 @@
       },
       {
        "en": "Gecko bonds go beyond blood.",
-       "es": "Los lazos de geco van más allá de la sangre.",
+       "es": "El geco no entiende de sangre.",
        "points": 2
+      },
+      {
+       "en": "Why not newts?",
+       "es": "¿Y por qué no un tritón?",
+       "points": 0
       }
      ]
     }

@@ -136,26 +136,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": "¿Qué te ha parecido? ¿Has sacado algo útil?",
-      "en": "What do you think? Did you take anything useful from it?"
+      "es": "¿Qué crees? ¿Has aprendido algo?",
+      "en": "...What do you think? Did you take anything useful from it?"
      },
      "options": [
       {
        "en": "It was helpful.",
-       "es": "Me ha servido.",
+       "es": "Ha sido de ayuda.",
        "points": 2
       },
       {
        "en": "Somewhat.",
-       "es": "Algo.",
+       "es": "Más o menos.",
        "points": 2
       },
       {
        "en": "It changed my whole outlook.",
-       "es": "Me ha cambiado la forma de ver las cosas.",
+       "es": "Ahora lo veo de otro modo.",
        "points": 2
       }
      ]
@@ -202,16 +201,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": "Quiero que uses tus experiencias para forjar tus propias convicciones.",
-      "en": "I want you to use your experiences to forge your own conviction."
+      "es": "Por eso... quiero que uses tu experiencia para forjar tus propias convicciones.",
+      "en": "That is why... I want you to use your experiences to forge your own conviction."
      },
      "options": [
       {
+       "en": "I will.",
+       "es": "Eso haré.",
+       "points": 0
+      },
+      {
+       "en": "I'm not sure I get it.",
+       "es": "No sé si te entiendo.",
+       "points": 0
+      },
+      {
        "en": "You think I'll ever find it?",
-       "es": "¿Crees que algún día las encontraré?",
+       "es": "¿Crees que lo conseguiré?",
        "points": 2
       }
      ]
@@ -253,10 +261,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": "Quizá parezca obvio o trillado, pero... espero que también recuerdes valorar eso.",
+      "es": "Parecerá muy obvio o trivial, pero espero que no olvides lo importante que es.",
       "en": "Perhaps it seems too obvious, or too trite, but... I hope you remember to cherish that, too."
      },
      "options": [
@@ -266,8 +273,13 @@
        "points": 2
       },
       {
+       "en": "I'm not sure if I can.",
+       "es": "No sé si podré hacerlo.",
+       "points": 0
+      },
+      {
        "en": "Can't forget your roots.",
-       "es": "No hay que olvidar de dónde vienes.",
+       "es": "No puedes olvidarte de tus raíces.",
        "points": 2
       }
      ]
@@ -375,11 +387,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": "Lo más importante es que no pierdas de vista quién eres.",
-      "en": "The most crucial thing is that you don't lose sight of who you are."
+      "es": "Tarde o temprano tendrás que tomar decisiones importantes, pero nunca pierdas de vista quién eres.",
+      "en": "You'll have your own major decisions to make, in time. The most crucial thing is that you don't lose sight of who you are."
      },
      "options": [
       {
@@ -388,8 +399,13 @@
        "points": 2
       },
       {
+       "en": "Lose sight of who I am?",
+       "es": "¿Perder de vista quién soy?",
+       "points": 0
+      },
+      {
        "en": "You make quite a case.",
-       "es": "Es un buen argumento.",
+       "es": "Tienes razón.",
        "points": 2
       }
      ]
@@ -493,10 +509,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Toranosuke",
      "prompt": {
-      "es": "Por eso nunca debes olvidar lo que de verdad te importa... ¿Lo entiendes?",
+      "es": "Por eso debes tener presente qué es lo que más te importa. ¿Lo entiendes?",
       "en": "That is why you must never forget what's truly important to you... You understand?"
      },
      "options": [
@@ -509,6 +524,11 @@
        "en": "It's tougher than it seems.",
        "es": "Es más difícil de lo que parece.",
        "points": 2
+      },
+      {
+       "en": "......",
+       "es": "...",
+       "points": 0
       }
      ]
     }

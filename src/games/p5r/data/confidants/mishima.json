@@ -87,17 +87,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "¡A estas alturas, mejor me paso la noche en vela contraatacando!",
-      "en": "At this point, I might as well pull an all-nighter fighting back!"
+      "es": "Me he cabreado tanto que ya no tengo ni sueño. ¡Puede que hasta me pase la noche en vela!",
+      "en": "It got me so mad, I'm not even sleepy anymore. At this point, I might as well pull an all-nighter fighting back!"
      },
      "options": [
       {
        "en": "Nice hustle, image manager.",
-       "es": "Buen trabajo, jefe de imagen.",
+       "es": "Así se hace, representante.",
        "points": 2
+      },
+      {
+       "en": "Calm down.",
+       "es": "Tranquilízate.",
+       "points": 0
+      },
+      {
+       "en": "All-nighters can mess you up.",
+       "es": "No dormir pasa factura.",
+       "points": 0
       }
      ]
     }
@@ -286,10 +295,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "Al final ha salido bastante bien para nuestra imagen, ¿no?",
+      "es": "Al final le ha ido bien a nuestro relaciones públicas, ¿no?",
       "en": "I guess it ended up being pretty good for our PR in the end, right?"
      },
      "options": [
@@ -299,8 +307,13 @@
        "points": 2
       },
       {
+       "en": "That's one way to view it.",
+       "es": "Es una forma de verlo.",
+       "points": 0
+      },
+      {
        "en": "You'll get better ideas.",
-       "es": "Ya se te ocurrirán mejores ideas.",
+       "es": "Se te ocurrirán mejores cosas.",
        "points": 2
       }
      ]
@@ -370,17 +383,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "¡Voy a hacer todo lo que pueda, así que tú relájate!",
+      "es": "¡Voy a hacer todo lo que esté en mi mano, así que podéis relajaros!",
       "en": "I'm gonna do everything in my power, so you can just kick back and relax!"
      },
      "options": [
       {
        "en": "All right.",
-       "es": "Vale.",
+       "es": "De acuerdo.",
        "points": 2
+      },
+      {
+       "en": "I expect great things.",
+       "es": "Espero mucho de ti.",
+       "points": 0
+      },
+      {
+       "en": "...Did something happen?",
+       "es": "¿Ha pasado algo?",
+       "points": 0
       }
      ]
     }
@@ -567,21 +589,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "Parece prueba suficiente para convertirlo en objetivo, pero voy a investigar un poco más, por si acaso.",
+      "es": "Es prueba suficiente para que sea un objetivo, pero tendré que indagar un poco más, por si acaso.",
       "en": "It seems like enough evidence to make him a target, but I'm gonna look into this a little further, just to be safe."
      },
      "options": [
       {
-       "en": "Kind of worrying.",
-       "es": "Me preocupa un poco.",
+       "en": "Kind of worrying...",
+       "es": "Es preocupante...",
        "points": 2
       },
       {
+       "en": "Be careful.",
+       "es": "Ten cuidado.",
+       "points": 0
+      },
+      {
        "en": "It's your time to shine.",
-       "es": "Es tu momento de brillar.",
+       "es": "Ha llegado tu momento.",
        "points": 2
       }
      ]
@@ -682,21 +708,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "¡Ah! ¡P-pero tengo la pistola de juguete para defenderme! ¡Y mi sistema de seguridad es lo mejor de lo mejor! Así que estoy a salvo, ¿¡no!?",
+      "es": "La réplica es para defenderme. ¡Y mi sistema de seguridad es de lo mejor! Estoy a salvo, ¿no?",
       "en": "Oh! B-But I have the model gun I got for self-defense! And my security system's top of the line! So I'm safe, right!?"
      },
      "options": [
       {
        "en": "You'll be fine.",
-       "es": "No te pasará nada.",
+       "es": "¡Lo harás bien!",
        "points": 2
       },
       {
+       "en": "Calm down.",
+       "es": "Tranquilo.",
+       "points": 0
+      },
+      {
        "en": "You've got this, man.",
-       "es": "Tú puedes, tío.",
+       "es": "¡Tú puedes!",
        "points": 2
       }
      ]
@@ -739,10 +769,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "Ya oíste lo que dijo de mí... pero ¿de verdad crees que he cambiado en algo?",
+      "es": "Ya sabes lo que dice de mí, pero ¿acaso crees que he cambiado?",
       "en": "You heard what he said about me... but do you really think some part of me's changed?"
      },
      "options": [
@@ -750,6 +779,16 @@
        "en": "The sparkle in your eyes.",
        "es": "El brillo de tus ojos.",
        "points": 2
+      },
+      {
+       "en": "......",
+       "es": "...",
+       "points": 0
+      },
+      {
+       "en": "Your hair?",
+       "es": "¿El pelo?",
+       "points": 0
       }
      ]
     }

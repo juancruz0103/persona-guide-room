@@ -130,10 +130,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "Parece que aprendes rápido, así que espero que le hayas pillado el truco.",
+      "es": "Parece que eres avispado, así que espero que lo hayas entendido.",
       "en": "Seems like you're a quick study, so I hope you've got the hang of it."
      },
      "options": [
@@ -141,6 +140,16 @@
        "en": "Got it.",
        "es": "Entendido.",
        "points": 2
+      },
+      {
+       "en": "Give me a break.",
+       "es": "Dame un respiro.",
+       "points": 0
+      },
+      {
+       "en": "Why'd you call my cell?",
+       "es": "¿Por qué me has llamado?",
+       "points": 0
       }
      ]
     }
@@ -213,10 +222,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "Pero tranquilo, te pondré a trabajar. Tenemos tiempo de sobra.",
+      "es": "Pero descuida, que tarea hay. Tiempo no nos va a faltar.",
       "en": "But don't worry, I'll put you to work. We've got lots of time on our hands."
      },
      "options": [
@@ -226,8 +234,13 @@
        "points": 2
       },
       {
+       "en": "Go easy on me.",
+       "es": "No te pases conmigo.",
+       "points": 0
+      },
+      {
        "en": "Thank you in advance.",
-       "es": "Gracias de antemano.",
+       "es": "Gracias por adelantado.",
        "points": 2
       }
      ]
@@ -300,10 +313,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "Déjalo a lo suyo y sigue con el trabajo. ¿Entendido?",
+      "es": "Tú, a lo tuyo, y él, a lo suyo, ¿vale?",
       "en": "Just let him do his thing, and get on with the job. Got it?"
      },
      "options": [
@@ -311,6 +323,16 @@
        "en": "Understood.",
        "es": "Entendido.",
        "points": 2
+      },
+      {
+       "en": "I'm kind of nervous...",
+       "es": "Estoy un poco nervioso.",
+       "points": 0
+      },
+      {
+       "en": "I'll kick him out.",
+       "es": "Lo echaré a patadas.",
+       "points": 0
       }
      ]
     }

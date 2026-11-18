@@ -169,10 +169,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ryuji",
      "prompt": {
-      "es": "Me cabreo muy fácilmente. Tengo que trabajar en eso.",
+      "es": "Yo me enfado por cualquier cosa y tengo que aprender a controlarlo.",
       "en": "I get pissed off so damn easily. I really gotta work on that."
      },
      "options": [
@@ -180,6 +179,16 @@
        "en": "I can't exactly blame you.",
        "es": "No puedo culparte.",
        "points": 2
+      },
+      {
+       "en": "Violence is not the answer.",
+       "es": "La violencia no es la respuesta.",
+       "points": 0
+      },
+      {
+       "en": "Yeah, that'd be best.",
+       "es": "Sí, sería lo mejor.",
+       "points": 0
       }
      ]
     }
@@ -343,8 +352,18 @@
      "options": [
       {
        "en": "Don't worry. I gotcha.",
-       "es": "Yo me encargo.",
+       "es": "Tú tranqui.",
        "points": 2
+      },
+      {
+       "en": "I haven't agreed to anything.",
+       "es": "Yo no he dicho nada.",
+       "points": 0
+      },
+      {
+       "en": "Fine, but you're buying ramen.",
+       "es": "Vale, pero me invitas a ramen.",
+       "points": 0
       }
      ]
     }
@@ -435,16 +454,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ryuji",
      "prompt": {
-      "es": "Se va a callar aunque le peguen.",
-      "en": "He'll keep his mouth shut whether or not someone's punchin' him."
+      "es": "Nakaoka a veces es muy cabezota. No abrirá la boca ni aunque le den de hostias.",
+      "en": "And Nakaoka can get weirdly stubborn sometimes. He'll keep his mouth shut whether or not someone's punchin' him."
      },
      "options": [
       {
+       "en": "Sounds like you two were close.",
+       "es": "Parecéis muy unidos.",
+       "points": 0
+      },
+      {
+       "en": "Just like you.",
+       "es": "Como tú.",
+       "points": 0
+      },
+      {
        "en": "So he should've punched back?",
-       "es": "¿Entonces debería haber devuelto el golpe?",
+       "es": "¿Tendría que haber devuelto el golpe?",
        "points": 2
       }
      ]

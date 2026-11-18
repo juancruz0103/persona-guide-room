@@ -227,17 +227,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Takuto",
      "prompt": {
-      "es": "Quería darte las gracias otra vez por tu ayuda de antes.",
-      "en": "I thought I'd thank you once again for your help earlier."
+      "es": "Y pensé en darte las gracias otra vez por lo de hoy.",
+      "en": "And I thought I'd thank you once again for your help earlier."
      },
      "options": [
       {
        "en": "Good work over there.",
-       "es": "Buen trabajo.",
+       "es": "Lo has bordado.",
        "points": 2
+      },
+      {
+       "en": "So you're actually working?",
+       "es": "¿En serio estás trabajando?",
+       "points": 0
+      },
+      {
+       "en": "Getting to your research now?",
+       "es": "¿Ahora te pones a investigar?",
+       "points": 0
       }
      ]
     }
@@ -372,13 +381,18 @@
      "options": [
       {
        "en": "I feel completely fine.",
-       "es": "Estoy perfectamente.",
+       "es": "Estoy de lujo.",
        "points": 2
       },
       {
        "en": "It's part of our deal, so...",
-       "es": "Es parte del trato, así que...",
+       "es": "Es parte de nuestro trato, así que...",
        "points": 2
+      },
+      {
+       "en": "I'm struggling, to be honest.",
+       "es": "La verdad es que no estoy bien.",
+       "points": 0
       }
      ]
     }
@@ -505,21 +519,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Takuto",
      "prompt": {
-      "es": "Al final acabó siendo otra charla académica...",
-      "en": "It ended up being another big academic discussion..."
+      "es": "Se suponía que íbamos a relajarnos, no a acabar enzarzados en un intenso debate académico.",
+      "en": "It was supposed to be a chance for us to relax, but it ended up being another big academic discussion..."
      },
      "options": [
       {
        "en": "I really don't mind.",
-       "es": "No me importa, de verdad.",
+       "es": "No me importa.",
        "points": 2
       },
       {
+       "en": "Come on, man.",
+       "es": "Venga, hombre.",
+       "points": 0
+      },
+      {
        "en": "It was thought-provoking.",
-       "es": "Me ha dado que pensar.",
+       "es": "Da que pensar.",
        "points": 2
       }
      ]
@@ -624,22 +642,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Takuto",
      "prompt": {
-      "es": "Perdona por... uf... salir corriendo... así... de repente... antes...",
+      "es": "Lamento... ah... haberme ido... uf... tan rápido... ah... antes...",
       "en": "Sorry for... hah... rushing out... phew... so suddenly... hah... earlier..."
      },
      "options": [
       {
        "en": "Calm down.",
-       "es": "Tranquilo.",
+       "es": "Tranquilízate.",
        "points": 2
       },
       {
        "en": "What's going on?",
-       "es": "¿Qué pasa?",
+       "es": "¿Qué te pasa?",
        "points": 2
+      },
+      {
+       "en": "Heavy breathing? Pervert.",
+       "es": "¿Por qué respiras así, pervertido?",
+       "points": 0
       }
      ]
     }
@@ -910,17 +932,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Takuto",
      "prompt": {
-      "es": "Aunque quizá es porque sabe que soy un poco despistado.",
-      "en": "Maybe it's because he knows I'm a little careless, though."
+      "es": "Bueno, será porque sabe que no tengo mucho cuidado con mis cosas.",
+      "en": "Well... maybe it's because he knows I'm a little careless, though."
      },
      "options": [
       {
        "en": "He's a good friend.",
        "es": "Es un buen amigo.",
        "points": 2
+      },
+      {
+       "en": "Learn some independence.",
+       "es": "Aprende a ser independiente.",
+       "points": 0
+      },
+      {
+       "en": "You'll get the tab next time.",
+       "es": "A la próxima, lo lograrás.",
+       "points": 0
       }
      ]
     }

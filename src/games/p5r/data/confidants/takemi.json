@@ -112,17 +112,21 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Tae",
      "prompt": {
-      "es": "Ya sabes cómo va esto. Hay pacientes que se ponen malos de camino a casa.",
+      "es": "Ya sabes cómo va esto. Algunos pacientes se sienten mal de vuelta a casa.",
       "en": "You know how it is. Some patients get sick on their way back home."
      },
      "options": [
       {
        "en": "I'm totally fine.",
-       "es": "Estoy perfectamente.",
+       "es": "Estoy bien.",
        "points": 2
+      },
+      {
+       "en": "I feel lightheaded.",
+       "es": "Me siento algo mareado.",
+       "points": 0
       },
       {
        "en": "I think I have superpowers.",
@@ -176,10 +180,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Tae",
      "prompt": {
-      "es": "No le habrás contado a nadie lo de mis medicamentos, ¿verdad?",
+      "es": "No has contado nada sobre mi fármaco, ¿a que no?",
       "en": "You... haven't told anyone about my drugs, right?"
      },
      "options": [
@@ -187,6 +190,16 @@
        "en": "Of course not.",
        "es": "Claro que no.",
        "points": 2
+      },
+      {
+       "en": "I don't think I did...",
+       "es": "Creo que no...",
+       "points": 0
+      },
+      {
+       "en": "Have you?",
+       "es": "¿Y tú?",
+       "points": 0
       }
      ]
     }

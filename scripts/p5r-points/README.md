@@ -15,3 +15,7 @@ Los scripts `.BF` de `EVENT_DATA/SCRIPT/E700` solo guardan qué opción se eligi
 
 Llamadas de teléfono: están en `E700/E700_300.BMD` (no en `CAMP/CHAT`, que son los chats de grupo). Las que la guía
 cargó con otra traducción se buscan por parecido y pasan a tener el texto oficial en español y los puntos del juego.
+
+`phone_en.py <E700_300 ES> <E700_300 EN> <data/confidants>`: las llamadas que la guía tenía incompletas se buscan por el
+texto en inglés (el `E700` en inglés sale del CPK de inglés, que Steam baja solo con el juego en inglés). Quedan con
+las tres opciones oficiales, los puntos del juego y, si se encuentra, la frase oficial del confidente.

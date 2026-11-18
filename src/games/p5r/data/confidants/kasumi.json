@@ -537,11 +537,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "¿Había algo más que quisieras probar, senpai?",
-      "en": "Was there anything else you wanted to try, Senpai?"
+      "es": "Está muy bien practicar algún deporte que no sea gimnasia. ¿Te gustaría probar otra cosa?",
+      "en": "It's nice to dip into sports aside from gymnastics. Was there anything else you wanted to try, Senpai?"
      },
      "options": [
       {
@@ -550,14 +549,14 @@
        "points": 3
       },
       {
-       "en": "Gymnastics.",
-       "es": "Gimnasia.",
-       "points": 3
-      },
-      {
        "en": "Running.",
        "es": "Correr.",
        "points": 2
+      },
+      {
+       "en": "Gymnastics.",
+       "es": "Gimnasia.",
+       "points": 3
       }
      ]
     }
@@ -579,13 +578,17 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "Supongo que esta es la verdadera yo.",
-      "en": "This is the real me, I guess."
+      "es": "Pero supongo que este es mi verdadero yo.",
+      "en": "...But this is the real me, I guess."
      },
      "options": [
+      {
+       "en": "Do you want to run away?",
+       "es": "¿Quieres huir?",
+       "points": 0
+      },
       {
        "en": "You have to face it.",
        "es": "Tienes que afrontarlo.",
@@ -593,7 +596,7 @@
       },
       {
        "en": "So what if it is?",
-       "es": "¿Y qué si lo es?",
+       "es": "¿Qué más da si lo es?",
        "points": 2
       }
      ]
@@ -701,16 +704,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "Puede que seas tan fuerte como Kasumi... Increíble.",
-      "en": "You might be just as tough as Kasumi... Amazing."
+      "es": "Pues no parecía que estuvieras sufriendo, ni mucho menos. ¿Serás tan fuerte como ella? Increíble.",
+      "en": "It didn't seem like you were struggling at all, though. You might be just as tough as Kasumi... Amazing."
      },
      "options": [
       {
+       "en": "I was internally screaming.",
+       "es": "Estaba gritando internamente.",
+       "points": 0
+      },
+      {
+       "en": "Yeah, that was a breeze.",
+       "es": "Sí, ha estado chupado.",
+       "points": 0
+      },
+      {
        "en": "I love a good challenge.",
-       "es": "Me encantan los retos.",
+       "es": "Me encanta un buen desafío.",
        "points": 2
       }
      ]
@@ -860,13 +872,17 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "P-por cierto, ¿dónde te gusta comprar la ropa, senpai?",
+      "es": "P-por cierto, ¿dónde te gusta comprarte la ropa?",
       "en": "B-By the way, where do you like to get your clothes from, Senpai?"
      },
      "options": [
+      {
+       "en": "The airsoft shop.",
+       "es": "En la tienda de airsoft.",
+       "points": 0
+      },
       {
        "en": "The resale shop.",
        "es": "En la tienda de segunda mano.",
@@ -874,7 +890,7 @@
       },
       {
        "en": "Online.",
-       "es": "Por internet.",
+       "es": "En internet.",
        "points": 2
       }
      ]
@@ -1132,6 +1148,16 @@
        "en": "I'm glad to hear that.",
        "es": "Me alegra oír eso.",
        "points": 2
+      },
+      {
+       "en": "I didn't do much.",
+       "es": "No he hecho gran cosa.",
+       "points": 0
+      },
+      {
+       "en": "Tell me more about your home.",
+       "es": "Cuéntame más sobre tu casa.",
+       "points": 0
       }
      ]
     },
@@ -1149,7 +1175,17 @@
       {
        "en": "Get used to it.",
        "es": "Acostúmbrate.",
-       "points": 3
+       "points": 2
+      },
+      {
+       "en": "Should I hang up...?",
+       "es": "¿Debería colgar...?",
+       "points": 0
+      },
+      {
+       "en": "That's just how it is.",
+       "es": "Así es la vida.",
+       "points": 0
       }
      ]
     }

@@ -123,26 +123,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ann",
      "prompt": {
-      "es": "¡Espero que la próxima vez vengas conmigo otra vez!",
-      "en": "I hope you'll join me again next time!"
+      "es": "Si se me ocurre algo, te aviso. ¡Espero que vengas conmigo también!",
+      "en": "If I think of anything, I'll let you know. I hope you'll join me again next time!"
      },
      "options": [
       {
        "en": "Of course. You're my teammate.",
-       "es": "Claro. Eres mi compañera.",
+       "es": "Claro, eres mi compañera.",
        "points": 2
       },
       {
        "en": "Leave it to me.",
-       "es": "Déjamelo a mí.",
+       "es": "Yo me encargo.",
        "points": 2
       },
       {
        "en": "The no-refills thing again?",
-       "es": "¿Otra vez lo de no repetir?",
+       "es": "¿Otra vez lo de no rellenar?",
        "points": 2
       }
      ]
@@ -260,17 +259,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ann",
      "prompt": {
-      "es": "¿Crees que le parecí guay...?",
-      "en": "Do you think she thought I was cool...?"
+      "es": "Seguro que me vio, ¿no? ¿Crees que pensaría que era guay?",
+      "en": "She had to have seen me, right? Do you think she thought I was cool...?"
      },
      "options": [
       {
        "en": "Could be.",
        "es": "Puede ser.",
        "points": 2
+      },
+      {
+       "en": "You're so self-conscious.",
+       "es": "Te cohíbes demasiado.",
+       "points": 0
+      },
+      {
+       "en": "Was she a child model?",
+       "es": "¿Fue modelo infantil?",
+       "points": 0
       }
      ]
     }
@@ -419,21 +427,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ann",
      "prompt": {
-      "es": "¿Haces algo para entrenar el cuerpo?",
+      "es": "¿Tú haces algo para entrenar?",
       "en": "Do you do anything to train your body?"
      },
      "options": [
       {
-       "en": "I carry Morgana in my bag.",
-       "es": "Llevo a Morgana en la mochila.",
+       "en": "I train everyday.",
+       "es": "Entreno a diario.",
        "points": 2
       },
       {
-       "en": "I train everyday.",
-       "es": "Entreno todos los días.",
+       "en": "Not really.",
+       "es": "No mucho.",
+       "points": 0
+      },
+      {
+       "en": "I carry Morgana in my bag.",
+       "es": "Llevo a Morgana en la mochila.",
        "points": 2
       }
      ]
@@ -584,22 +596,26 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ann",
      "prompt": {
-      "es": "¡Seguro que encuentro algo que pueda hacer por ella...!",
-      "en": "I know I'll find something I can do for her...!"
+      "es": "Pero ahora que la he visto llorar, ¡sé que encontraré la forma de ayudarla!",
+      "en": "But now that I saw her crying, I know I'll find something I can do for her...!"
      },
      "options": [
       {
        "en": "Someone's motivated.",
-       "es": "Alguien está motivada.",
+       "es": "Cuánta motivación.",
        "points": 2
       },
       {
        "en": "I'll cheer you on.",
-       "es": "Te daré ánimos.",
+       "es": "Yo te animo.",
        "points": 2
+      },
+      {
+       "en": "You gonna be okay?",
+       "es": "¿Estarás bien?",
+       "points": 0
       }
      ]
     }

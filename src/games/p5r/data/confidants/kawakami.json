@@ -147,17 +147,17 @@
      "options": [
       {
        "en": "You have the wrong number.",
-       "es": "Se ha equivocado de número.",
+       "es": "Te has equivocado de número.",
        "points": 2
       },
       {
        "en": "Uh, what the hell?",
-       "es": "Eh, ¿pero qué demonios?",
+       "es": "Pero ¿qué demonios?",
        "points": 2
       },
       {
        "en": "Is this the hard sell?",
-       "es": "¿Esto es venta agresiva?",
+       "es": "¿Qué me quieres vender?",
        "points": 2
       }
      ]
@@ -238,6 +238,16 @@
        "en": "Thanks.",
        "es": "Gracias.",
        "points": 2
+      },
+      {
+       "en": "You sound so happy.",
+       "es": "Pareces muy feliz.",
+       "points": 0
+      },
+      {
+       "en": "I can't wait to try it.",
+       "es": "Qué ganas de probarlo.",
+       "points": 0
       }
      ]
     }
@@ -371,16 +381,25 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sadayo",
      "prompt": {
-      "es": "¿Comes el curry de ese sitio todos los días?",
-      "en": "Do you get to eat that place's curry every day?"
+      "es": "Por allí siempre huele a curry que alimenta. ¿Lo comes todos los días?",
+      "en": "There's always this nice curry smell around the place. Do you get to eat that place's curry every day?"
      },
      "options": [
       {
+       "en": "Curry is all I eat.",
+       "es": "Solo como curry.",
+       "points": 0
+      },
+      {
+       "en": "You get bored of the taste.",
+       "es": "Uno se aburre del sabor.",
+       "points": 0
+      },
+      {
        "en": "You want some?",
-       "es": "¿Quieres un poco?",
+       "es": "¿Quieres?",
        "points": 2
       }
      ]

@@ -101,13 +101,22 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Goro",
      "prompt": {
-      "es": "Si te apetece, podríamos volver a quedar algún día.",
-      "en": "If you're so inclined, we could go out again sometime."
+      "es": "Creo que serás buena influencia para mí. Si te apetece, podemos volver en otro momento.",
+      "en": "I think you'd be an interesting influence on me. If you're so inclined, we could go out again sometime."
      },
      "options": [
+      {
+       "en": "Sure.",
+       "es": "Claro.",
+       "points": 0
+      },
+      {
+       "en": "I'll think about it.",
+       "es": "Me lo pensaré.",
+       "points": 0
+      },
       {
        "en": "As rivals?",
        "es": "¿Como rivales?",
