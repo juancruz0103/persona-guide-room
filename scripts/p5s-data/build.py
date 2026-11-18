@@ -44,8 +44,15 @@ def royal_id(name):
     return p['id'] if p else slug(name)
 
 
+# Textos de origen de las Personas nuevas de Strikers (capturas del juego en español).
+NEW_TEXT = {
+    'Valjean': {'es': 'Valjean', 'en': 'Valjean',
+                'mythEs': 'El protagonista de «Los miserables», de Victor Hugo. Lo encarcelaron por robar pan para sus sobrinos famélicos y acabó consumido por el rencor, pero despertó gracias a la piedad de un obispo. Luchó por defender a los pobres y oprimidos.'},
+}
+
+
 def persona(name, d, is_party):
-    t = royal_text['personas'].get(name, {})
+    t = royal_text['personas'].get(name) or NEW_TEXT.get(name, {})
     loc = d.get('location')
     return {
         'id': royal_id(name),
@@ -65,6 +72,8 @@ def persona(name, d, is_party):
         'special': [{'name': r[:-3], 'level': int(r[-2:])} for r in specials.get(name, [])] or None,
         'recipes': [r.split(' x ') for r in pairs.get(name, [])],
         'down': downs.get(name, []),
+        'mythEs': t.get('mythEs'),
+        'mythEn': t.get('mythEn'),
     }
 
 

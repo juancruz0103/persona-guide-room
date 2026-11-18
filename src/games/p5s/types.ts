@@ -32,6 +32,9 @@ export interface Persona {
   special: { name: string; level: number }[] | null;
   recipes: string[][];
   down: string[];
+  /** Texto de origen oficial (compendio del juego) */
+  mythEs: string | null;
+  mythEn: string | null;
 }
 
 export interface SkillInfo {

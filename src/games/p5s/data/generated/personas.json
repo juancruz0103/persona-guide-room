@@ -68,7 +68,9 @@
     "Mot"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "El «Destructor» y «Ángel del abismo», tal y como se le describe en las escrituras antiguas. Controla las langostas y las utiliza para causar una destrucción total en las aldeas.",
+  "mythEn": "The \"Destroyer\" and \"Angel of the Bottomless Pit,\" as described in ancient scriptures. He controls locusts and uses them to cause massive destruction to villages."
  },
  {
   "id": "alice",
@@ -150,7 +152,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Una chica rubia misteriosa. Es bastante fuerte a pesar de su aspecto. Algunos dicen que es el fantasma de una chica que tuvo una muerte triste. Otros dicen que es un espíritu nacido a partir de la imaginación de alguien.",
+  "mythEn": "A mysterious blonde girl. She is quite powerful, despite her looks. Some say she is the ghost of a girl who died a sad death. Others say she is a spirit born from someone's imagination."
  },
  {
   "id": "ame-no-uzume",
@@ -217,7 +221,9 @@
     "Berith"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Diosa japonesa del entretenimiento que domina muchas danzas sagradas. Es conocida por haber hecho salir a Amaterasu de la cueva en la que se había enclaustrado.",
+  "mythEn": "Japanese goddess of entertainment, she governs many sacred dances. She is most famous for luring out Amaterasu, who had barricaded herself inside a cave."
  },
  {
   "id": "andras",
@@ -280,7 +286,9 @@
   ],
   "down": [
    "Succubus"
-  ]
+  ],
+  "mythEs": "Uno de los 72 demonios de la Goecia. Es el gran Marqués del infierno, y aparece allá donde haya guerra para imbuir el odio entre los soldados. Ayuda a derrotar a los enemigos de aquellos que lo invocan.",
+  "mythEn": "One of the 72 demons of the Goetia. The great Marquis of Hell, he appears where there is battle to stoke the hatred within soldiers. He helps defeat the enemies of those who summon him."
  },
  {
   "id": "arahabaki",
@@ -347,7 +355,9 @@
   ],
   "down": [
    "Neko Shogun"
-  ]
+  ],
+  "mythEs": "Un misterioso dios del antiguo Japón. Arahabaki, adorado por Nagasunehiko, quien fue derrotado en un combate por el emperador Jinmu, se convirtió en símbolo de la rebelión y de la resistencia.",
+  "mythEn": "A mysterious god of ancient Japan. Most famously worshipped by Nagasunehiko, who was defeated in battle against Emperor Jinmu, Arahabaki came to be treated as a symbol of rebellion and defiance."
  },
  {
   "id": "archangel",
@@ -416,7 +426,9 @@
   ],
   "down": [
    "Orthrus"
-  ]
+  ],
+  "mythEs": "Octava de las nueve órdenes angelicales. Su deber es cuidar de los humanos y entregar mensajes. Son los guerreros del cielo y lideran las fuerzas celestiales en la batalla contra los ejércitos del mal.",
+  "mythEn": "Eighth of the nine orders of angels. Their duty is to minister to humans and deliver messages. They are warriors of Heaven and lead Heaven's forces during battle with the armies of evil."
  },
  {
   "id": "arsene",
@@ -495,7 +507,9 @@
   "recipes": [],
   "down": [
    "Jack-o'-Lantern"
-  ]
+  ],
+  "mythEs": "Un ser basado en el personaje que creó el novelista Maurice Leblanc, Arsène Lupin. Es ubicuo y todo un maestro del disfraz. Es conocido por ayudar a aquellos ciudadanos que obedecen las leyes.",
+  "mythEn": "A being based off of the main character of Maurice Leblanc's novels, Arsène Lupin. He appears everywhere and is a master of disguise. He is known to help law-abiding citizens."
  },
  {
   "id": "berith",
@@ -562,7 +576,9 @@
   ],
   "down": [
    "High Pixie"
-  ]
+  ],
+  "mythEs": "Uno de los 72 demonios de la Goecia. Conocido como el Duque del infierno, va sobre un caballo gigante y quema a aquellos sin modales.",
+  "mythEn": "One of the 72 demons of the Goetia. Known as the Duke of Hell, he rides a gigantic horse and burns those without manners."
  },
  {
   "id": "bicorn",
@@ -625,7 +641,9 @@
   ],
   "down": [
    "Silky"
-  ]
+  ],
+  "mythEs": "Una malvada criatura con dos cuernos curvados. Representa la impureza, al contrario que el Unicornio. Se dice que viene del re'em bíblico. Otra leyenda cuenta que se alimenta de los maridos adúlteros.",
+  "mythEn": "An evil creature with two curving horns. It represents impurity, unlike the Unicorn. Said to be derived from Re'em in the Bible. Another legend says that it feeds off of disloyal husbands."
  },
  {
   "id": "black-frost",
@@ -703,7 +721,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Un Jack Frost que ansía el mal. Este poderoso demonio surge cuando un Jack Frost amable recuerda su naturaleza demoníaca.",
+  "mythEn": "A Jack Frost that yearned for evil. This powerful demon is born when a cute Jack Frost remembers its nature as a demon."
  },
  {
   "id": "black-ooze",
@@ -766,7 +786,9 @@
   ],
   "down": [
    "Mitra"
-  ]
+  ],
+  "mythEs": "Una masa de propósitos y emociones malévolas que no consiguió convertirse en un demonio de verdad. Lo único que hace es comerse a sus presas y crecer.",
+  "mythEn": "A mass of malevolent intent and emotion that failed to become a true demon. All it does is eat prey and grow."
  },
  {
   "id": "bugs",
@@ -837,7 +859,9 @@
   "recipes": [],
   "down": [
    "Lilith"
-  ]
+  ],
+  "mythEs": "Una criatura galesa conocida comúnmente como «Coco» u «Hombre del saco». Las madres suelen utilizar su existencia para asustar a sus hijos y hacer que se porten bien.",
+  "mythEn": "A Welsh creature commonly known as \"Bugbear\" or the \"Boogeyman.\" Its existence is often used by mothers to scare children into behaving."
  },
  {
   "id": "cerberus",
@@ -913,7 +937,9 @@
   "recipes": [],
   "down": [
    "Yatagarasu"
-  ]
+  ],
+  "mythEs": "El perro guardián que se encarga de que nadie entre o salga del inframundo en la mitología griega. Es hijo de Tifón y Equidna y hermano mayor de Ortro.",
+  "mythEn": "The guardian hound who prevents anyone from entering or exiting the underworld in Greek lore. It was born from Typhon and Echidna, and is the older brother of Orthrus."
  },
  {
   "id": "cu-chulainn",
@@ -986,7 +1012,9 @@
   ],
   "down": [
    "Forneus"
-  ]
+  ],
+  "mythEs": "Un héroe del folclore celta. Lo llamaban Setanta hasta que se ganó el nombre de «perro de Culann». Son muchos los cuentos que narran sus aventuras. Su lanza, Gae Bolg, se la dio su mentora, Scáthach.",
+  "mythEn": "A hero in Celtic folklore. He was called Setanta until he earned the name, \"Culann's Hound.\" There are many tales of his adventures. He received his spear, Gae Bolg, from his mentor, Scathach."
  },
  {
   "id": "dominion",
@@ -1057,7 +1085,9 @@
   ],
   "down": [
    "King Frost"
-  ]
+  ],
+  "mythEs": "La cuarta de las nueve órdenes angelicales. Su deber es supervisar a los demás ángeles. Sus acciones son la manifestación de la voluntad divina.",
+  "mythEn": "The fourth of the nine orders of angels. Their duty is to oversee the other angels. Their actions are the manifestation of God's will."
  },
  {
   "id": "eligor",
@@ -1126,7 +1156,9 @@
   ],
   "down": [
    "Mitra"
-  ]
+  ],
+  "mythEs": "Uno de los 72 demonios de la Goecia. Tiene aspecto de caballero y el poder de ver el porvenir. También sabe mucho sobre la guerra.",
+  "mythEn": "One of the 72 demons of the Goetia. He looks like a knight and has the power to see things to come. He also knows much about war."
  },
  {
   "id": "forneus",
@@ -1195,7 +1227,9 @@
     "Kurama Tengu"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Uno de los 72 demonios de la Goecia. Aparece como un gran monstruo marino. Conocido como el gran Marqués del infierno, es ducho en lingüística y un maestro de la retórica.",
+  "mythEn": "One of the 72 demons of the Goetia, he appears as a great sea monster. Known as the great Marquis of Hell, he is skilled linguistically, and is a master of rhetoric."
  },
  {
   "id": "fortuna",
@@ -1266,7 +1300,9 @@
   ],
   "down": [
    "Raja Naga"
-  ]
+  ],
+  "mythEs": "La diosa romana de la suerte que gira la Rueda de la Fortuna. Se cree que originalmente fue una diosa de la fertilidad. Su equivalente en la mitología griega es Tique.",
+  "mythEn": "The Roman goddess of luck, she spins the Wheel of Fortune. She is believed to have originally been a fertility goddess. Her Greek counterpart is Tyche."
  },
  {
   "id": "ganesha",
@@ -1337,7 +1373,9 @@
   ],
   "down": [
    "Sarasvati"
-  ]
+  ],
+  "mythEs": "El rey hindú con cabeza de elefante. Parvati lo creó para que nadie pudiese verla mientras se bañaba. Shiva le cortó la cabeza y la sustituyó por una cabeza de elefante.",
+  "mythEn": "The Hindu elephant- headed god. He was originally created by Parvati in order to prevent anyone from watching her bathe. Shiva batted off his original head and replaced it with an elephant's head."
  },
  {
   "id": "hecatoncheires",
@@ -1404,7 +1442,9 @@
     "Legion"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Gigantes hijos de Urano y Gea. Su nombre significa «aquellos con cien brazos». Durante la Guerra de los Titanes, Zeus los liberó del inframundo para que lo ayudaran a salir victorioso.",
+  "mythEn": "Giants born from Uranus and Gaia. The name means \"those with a hundred arms.\" During the war of the Titans, Zeus freed them from the Underworld to help him obtain victory."
  },
  {
   "id": "high-pixie",
@@ -1471,7 +1511,9 @@
   ],
   "down": [
    "Archangel"
-  ]
+  ],
+  "mythEs": "Líder de un enjambre de hadas. A las hadas que tienen rol de líder o que gozan de poderes extraordinarios se las llama por este nombre.",
+  "mythEn": "The leader of a swarm of pixies. Any pixie in a leadership role or with remarkable power is called by this name."
  },
  {
   "id": "hua-po",
@@ -1540,7 +1582,9 @@
   ],
   "down": [
    "Berith"
-  ]
+  ],
+  "mythEs": "Un espíritu del folclore chino que habita en árboles que se usaban para ahorcamientos. Más pequeña que un humano, no puede hablar, aunque se dice que tiene una voz tan clara y preciosa como el canto de los pájaros.",
+  "mythEn": "A spirit of Chinese folklore who dwells in trees once used for hangings. She is smaller than a human and cannot speak, but her voice is said to be as clear and as beautiful as a bird's song."
  },
  {
   "id": "jack-frost",
@@ -1607,7 +1651,9 @@
   ],
   "down": [
    "Lilim"
-  ]
+  ],
+  "mythEs": "Un hada invernal de ascendencia europea. Deja formas de hielo en las ventanas y congela las narices de la gente. Aunque normalmente se trata de una criatura inocente, si se le provoca congela a sus víctimas hasta que mueren.",
+  "mythEn": "A winter fairy of European descent. He leaves ice patterns on windows and nips people's noses. Though normally an innocent creature, he will freeze his victims to death if provoked."
  },
  {
   "id": "jack-o-lantern",
@@ -1665,7 +1711,9 @@
   "recipes": [],
   "down": [
    "Pixie"
-  ]
+  ],
+  "mythEs": "Un borracho que engañó al Diablo para que no lo llevara al infierno. Cuando se le denegó la entrada al cielo, se vio obligado a deambular por la Tierra usando únicamente la luz de una brasa.",
+  "mythEn": "A drunkard who tricked the Devil out of taking him to Hell. When refused entry to Heaven, he was forced to wander the earth with only an ember as a light."
  },
  {
   "id": "kaiwan",
@@ -1728,7 +1776,9 @@
   ],
   "down": [
    "Eligor"
-  ]
+  ],
+  "mythEs": "Un dios según las leyendas asirias. También se llama Sakkut, otra reencarnación del dios estrella, Saturno.",
+  "mythEn": "A god in Assyrian legend, his name is interchangeable with Sakkut, another incarnation of the star-god, Saturn."
  },
  {
   "id": "kali",
@@ -1801,7 +1851,9 @@
     "Forneus"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Diosa de la muerte y la destrucción. Dicen que es la otra cara de Parvati. Es violenta, lleva una ristra de cráneos y armas ensangrentadas, pero también bendice a sus seguidores.",
+  "mythEn": "A goddess of death and destruction. She is said to be another face of Parvati. She is violent, wears a string of skulls, and carries bloody weapons, but she also blesses her followers."
  },
  {
   "id": "kikuri-hime",
@@ -1868,7 +1920,9 @@
   ],
   "down": [
    "Mithras"
-  ]
+  ],
+  "mythEs": "La diosa de la vida según el sintoísmo. Es la que medió una vez entre Izanagi e Izanami durante su enfrentamiento en Yomi, la tierra de los muertos.",
+  "mythEn": "The goddess of life in Shinto myth. She once mediated between Izanagi and Izanami during their confrontation in Yomi, the land of the dead."
  },
  {
   "id": "king-frost",
@@ -1942,7 +1996,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "El rey de la nieve que gobierna sobre una infinidad de Jack Frosts. Tiene el poder de congelar el mundo entero, pero no es consciente de ello debido a su ingenuidad.",
+  "mythEn": "The king of snow who rules over an infinite number of Jack Frosts. He has the power to freeze the entire world, but is unaware of it due to his naïve personality."
  },
  {
   "id": "koppa-tengu",
@@ -2005,7 +2061,9 @@
   ],
   "down": [
    "Kikuri-Hime"
-  ]
+  ],
+  "mythEs": "Un tipo de tengu. Su poder espiritual es menor que el de otros tengu, de ahí su pequeño tamaño. Se dice que son las reencarnaciones de lobos longevos.",
+  "mythEn": "A type of tengu. Their spiritual power is weaker than other tengu, so they are much smaller. They are said to be the reincarnations of long-lived wolves."
  },
  {
   "id": "kurama-tengu",
@@ -2072,7 +2130,9 @@
     "Okuninushi"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Un tipo de tengu que vivió en el monte Kurama de Kioto. Son los tengu más poderosos y conocidos, y tienen el poder de ahuyentar las enfermedades y atraer la fortuna.",
+  "mythEn": "A type of tengu said to have lived on Mt. Kurama in Kyoto. The most powerful and well-known of the tengu, they have the power to fend off disease and bring good fortune."
  },
  {
   "id": "lamia",
@@ -2135,7 +2195,9 @@
   ],
   "down": [
    "Archangel"
-  ]
+  ],
+  "mythEs": "Una mujer serpiente de la mitología griega que en su día fue la reina de Libia. La celosa esposa de Zeus, Hera, asesinó a sus hijos, lo que provocó que se volviera loca y se transformara en un monstruo.",
+  "mythEn": "A serpentine woman of Greek myth, she was once the queen of Libya. Zeus's jealous wife, Hera, killed her children, causing her to go mad and transform into a monster."
  },
  {
   "id": "legion",
@@ -2202,7 +2264,9 @@
   ],
   "down": [
    "Shiisaa"
-  ]
+  ],
+  "mythEs": "El espíritu que dijo: «porque somos muchos» en las antiguas escrituras. Su nombre procede del término militar romano para referirse a una unidad del ejército de 3000 a 6000 hombres.",
+  "mythEn": "The spirit who said, \"For we are many,\" in ancient scriptures. The name comes from the Roman military term for an army unit of 3,000 to 6,000 men."
  },
  {
   "id": "lilim",
@@ -2269,7 +2333,9 @@
   ],
   "down": [
    "Setanta"
-  ]
+  ],
+  "mythEs": "Una diablesa que seduce a hombres dormidos y ataca a los niños. Es la hija de la diablesa Lilit. Al igual que su madre, absorbe la esencia de los hombres.",
+  "mythEn": "A demon who tempts sleeping men and attacks infants. She is the daughter of the demoness, Lilith. Like her mother, she drains men of their essence."
  },
  {
   "id": "lilith",
@@ -2334,7 +2400,9 @@
     "Hecatoncheires"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Se dice que fue la primera esposa de Adán. Quería ser su semejante y se negó a obedecerlo. La expulsaron del Edén y se convirtió en un demonio de la noche. Es la madre de la diablesa Lilim.",
+  "mythEn": "Said to have been Adam's first wife, she desired to be his equal and refused to obey him. She was cast out of Eden and became a demon of the night. She is the mother of the demoness, Lilim."
  },
  {
   "id": "lucifer",
@@ -2420,7 +2488,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "RESERVE231 Mitología",
+  "mythEn": "RESERVE231 Mythology"
  },
  {
   "id": "mara",
@@ -2500,7 +2570,9 @@
   "recipes": [],
   "down": [
    "Alice"
-  ]
+  ],
+  "mythEs": "Un demonio budista que representa el miedo a la muerte. También es conocido como «el Maligno». Envió a sus hijas para que tentaran a Buda durante sus meditaciones.",
+  "mythEn": "A Buddhist demon that represents the fear of death. Also known as \"The Evil One,\" he sent his daughters to tempt Buddha during his meditations."
  },
  {
   "id": "metatron",
@@ -2582,7 +2654,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "El ángel más importante de la leyenda judeocristiana. Se lo conoce como «La voz de Dios» o «El ángel de los contratos». Pese a que su deber es preservar el orden mundial, no muestra piedad alguna por la humanidad.",
+  "mythEn": "The greatest angel in Judeo-Christian legend. He is known as the Voice of God or the Angel of Contracts. Despite his duty to maintain the world's order, he shows no mercy towards humanity."
  },
  {
   "id": "mitra",
@@ -2651,7 +2725,9 @@
   ],
   "down": [
    "Legion"
-  ]
+  ],
+  "mythEs": "El antiguo dios persa de los contratos, que también es adorado como un dios del sol que trajo las cosechas cuando se introdujo en la religión del zoroastrismo.",
+  "mythEn": "An ancient Persian god of contracts, who was also revered as a sun god who brought harvests when he was introduced to the Zoroastrian religion."
  },
  {
   "id": "mithras",
@@ -2720,7 +2796,9 @@
   ],
   "down": [
    "Okuninushi"
-  ]
+  ],
+  "mythEs": "Una deidad solar que era venerada en el Imperio romano desde el siglo I hasta el IV después de Cristo. Se dice que resucitó después de morir, y se celebró un festival durante el solsticio de invierno en su honor.",
+  "mythEn": "A sun deity who was worshipped in the Roman Empire from the 1st to the 4th century AD. He was said to be reborn after death, and a festival was held on the winter solstice for him."
  },
  {
   "id": "mokoi",
@@ -2783,7 +2861,9 @@
   ],
   "down": [
    "Andras"
-  ]
+  ],
+  "mythEs": "Espíritus malignos de la mitología murngin. Se cree que son sombras renacidas. Secuestran y se comen a los niños y derriban a todo hechicero que haga uso de la magia negra.",
+  "mythEn": "Evil spirits of Murngin lore believed to be reborn shadows. They kidnap and eat children, and strike down any sorcerer who uses black magic."
  },
  {
   "id": "mot",
@@ -2854,7 +2934,9 @@
   ],
   "down": [
    "Cerberus"
-  ]
+  ],
+  "mythEs": "El dios cananeo de la muerte. Todos los años intenta asesinar a Baal, el dios de la fertilidad, pero él siempre se levanta de entre los muertos con la ayuda de su hermana, Anat.",
+  "mythEn": "The Canaanite god of death. Every year he attempts to kill Baal, the god of fertility, only to see him raised from the dead with the help of Baal's sister, Anat."
  },
  {
   "id": "mothman",
@@ -2917,7 +2999,9 @@
   ],
   "down": [
    "Kaiwan"
-  ]
+  ],
+  "mythEs": "Críptido avistado entre los años 60 y 80 en Virginia Occidental. Tiene los ojos rojos y brillantes y se llama así por los apéndices en forma de aleta que tiene a los lados. Emplea sus agudos sentidos para rastrear el origen de la sangre y devorarlo.",
+  "mythEn": "A cryptid sighted during the 60s-80s in West Virginia. It has shining red eyes and is named for the fin-like appendages on its sides. It uses its keen sense for blood to track down the source and feed on it."
  },
  {
   "id": "naga",
@@ -2984,7 +3068,9 @@
   ],
   "down": [
    "Valkyrie"
-  ]
+  ],
+  "mythEs": "Estos seres divinos mitad serpiente, mitad humano de la mitología hindú son venerados como portadores de lluvia. Viven en el fondo de los lagos y mares, cantando y bailando cuando no están combatiendo.",
+  "mythEn": "Half-snake, half- human divine beings in Hindu lore, worshipped as bringers of rain. They live in the bottoms of lakes and seas, singing and dancing when they are not fighting."
  },
  {
   "id": "nebiros",
@@ -3049,7 +3135,9 @@
     "Raja Naga"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "El general del infierno. Encargado de vigilar a los demás demonios. Uno de los mejores nigromantes del infierno. Puede controlar almas y cadáveres.",
+  "mythEn": "The general of Hell. He keeps watch over other demons. One of Hell's greatest necromancers, he can control souls and corpses."
  },
  {
   "id": "neko-shogun",
@@ -3116,7 +3204,9 @@
   ],
   "down": [
    "Unicorn"
-  ]
+  ],
+  "mythEs": "Un dios profético del taoísmo, originalmente conocido como Mao Shogun. Debido a un error lingüístico con la palabra china para «gato», su nombre se cambió a Neko Shogun.",
+  "mythEn": "A prophetic Taoist god, originally known as Mao Shogun. Due to a linguistic error involving the Chinese word for \"cat,\" his name was changed to Neko Shogun."
  },
  {
   "id": "norn",
@@ -3182,7 +3272,9 @@
     "Ganesha"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Diosas del destino en la mitología nórdica. Viven bajo las raíces de Yggdrasil y tejen los hilos del destino, a los que están atados hasta los dioses.",
+  "mythEn": "Goddesses of fate in Norse lore. They live below the roots of Yggdrasil and weave the threads of fate, which even the gods are bound by."
  },
  {
   "id": "okuninushi",
@@ -3249,7 +3341,9 @@
   ],
   "down": [
    "Queen Mab"
-  ]
+  ],
+  "mythEs": "Una deidad kunitsu de la mitología japonesa que controla la agricultura y la medicina. Se dice que creó el país de Izumo junto con Suserihime, hija de Susanoo.",
+  "mythEn": "A Kunitsu deity of Japanese mythology that governs agriculture and medicine. He is said to have built the country of Izumo with Susano-o's daughter, Suseri-Hime."
  },
  {
   "id": "orthrus",
@@ -3316,7 +3410,9 @@
   ],
   "down": [
    "Pisaca"
-  ]
+  ],
+  "mythEs": "Perro de dos cabezas que pertenece al gigante Gerión en la mitología griega. Custodiaba un rebaño de bueyes rojos, pero Hércules lo mató durante uno de sus doce trabajos.",
+  "mythEn": "The two-headed pet dog belonging to the giant, Geryon, in Greek myth. He guarded a herd of red oxen, but was killed by Hercules during one of his twelve labors."
  },
  {
   "id": "pisaca",
@@ -3379,7 +3475,9 @@
   ],
   "down": [
    "Ame-no-Uzume"
-  ]
+  ],
+  "mythEs": "Un tipo de preta o «fantasma hambriento» de la mitología hindú que devora cadáveres humanos. Entra en un humano por la boca y le causa daño. Se dice que aquellos que lo ven mueren en nueve meses o menos.",
+  "mythEn": "A type of preta, or \"hungry ghost,\" in Hindu lore that eats human corpses. It enters a human through the mouth and causes harm. Those who see one are said to die within nine months."
  },
  {
   "id": "pixie",
@@ -3437,7 +3535,9 @@
   "recipes": [],
   "down": [
    "Bicorn"
-  ]
+  ],
+  "mythEs": "Hadas amistosas del bosque que suelen esconderse de los seres humanos. Les gusta engañar a los lazes. Se dice que son las almas de niños que murieron sin bautizar.",
+  "mythEn": "Friendly fairies of the forest that tend to hide from humans. They like to play tricks on the Laz people. It is said they are the souls of dead, unbaptized children."
  },
  {
   "id": "principality",
@@ -3504,7 +3604,9 @@
   ],
   "down": [
    "Mothman"
-  ]
+  ],
+  "mythEs": "La séptima de las nueve órdenes de ángeles. Vigilan las ciudades y naciones y protegen varias figuras religiosas.",
+  "mythEn": "The seventh of the nine orders of angels. They guard cities and nations, and protect various religious figures."
  },
  {
   "id": "queen-mab",
@@ -3571,7 +3673,9 @@
     "Okuninushi"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "La reina de las hadas según los mitos celtas. Se la suele identificar con Titania. Suele ofrecer hidromiel mezclado con su sangre a sus innumerables consortes.",
+  "mythEn": "The fairy queen in Celtic myth. Often identified with Titania. She would offer mead mixed with her blood to her many consorts."
  },
  {
   "id": "raja-naga",
@@ -3640,7 +3744,9 @@
     "Hecatoncheires"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "El rey de los nagas, una tribu mitad humana, mitad serpiente de la mitología hindú. Los reyes dragón Nanda y Takshaka del mito budista pertenecen a esta categoría real.",
+  "mythEn": "The king of the Naga, a half-man, half-snake tribe in Hindu lore. The dragon kings Nanda and Takshaka of Buddhist myth fall into this royal category."
  },
  {
   "id": "sarasvati",
@@ -3709,7 +3815,9 @@
     "Naga"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "La diosa hindú de los ríos y patrona del discurso, la escritura, el aprendizaje, las artes y las ciencias. Brahma es su marido.",
+  "mythEn": "The Hindu goddess of rivers, and patron of speech, writing, learning, the arts, and sciences. Brahma is her husband."
  },
  {
   "id": "setanta",
@@ -3776,7 +3884,9 @@
   ],
   "down": [
    "Principality"
-  ]
+  ],
+  "mythEs": "Un joven valiente de la mitología celta. Tras derrotar a un perro guardián feroz, se ofreció a ocupar su lugar, ganándose así el sobrenombre de «perro de Culann».",
+  "mythEn": "A brave young man in Celtic myth. After defeating a fierce guard dog, he volunteered to take its place, earning him the nickname \"Hound of Culann.\""
  },
  {
   "id": "seth",
@@ -3852,7 +3962,9 @@
   "recipes": [],
   "down": [
    "Kurama Tengu"
-  ]
+  ],
+  "mythEs": "El dios egipcio del desierto, el caos y el mal. Asesinó a su hermano Osiris e intentó convertirse en el dios principal, pero Horus, el hijo de Osiris, lo castró.",
+  "mythEn": "The Egyptian god of the desert, chaos, and evil. He murdered his brother, Osiris, and tried to become chief god, but he was castrated by Osiris's son, Horus."
  },
  {
   "id": "shiisaa",
@@ -3919,7 +4031,9 @@
   ],
   "down": [
    "Arahabaki"
-  ]
+  ],
+  "mythEs": "Una bestia sagrada de la que se dice que protege las casas del mal y atrae la fortuna. Se parecen a los perros guardianes del sintoísmo, pero en realidad se inspiraron en un león. Existen muchas historias sobre ello en la cultura Ryukyu.",
+  "mythEn": "A holy beast said to protect houses from evil and bring good fortune. They look similar to Shinto guardian dogs, but are actually modeled after a lion. There are many stories about it in Ryukyu lore."
  },
  {
   "id": "siegfried",
@@ -3993,7 +4107,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "El nombre alemán del protagonista del poema épico «El Cantar de los Nibelungos». La sangre del dragón Fafnir lo hizo invencible, pero una hoja en su espalda dio lugar a un punto débil.",
+  "mythEn": "The German name of the hero in the epic poem, \"The Nibelungenlied.\" The dragon Fafnir's blood made him invincible, but a single leaf on his back resulted in a weak spot."
  },
  {
   "id": "silky",
@@ -4060,7 +4176,9 @@
   ],
   "down": [
    "Mokoi"
-  ]
+  ],
+  "mythEs": "Un hada de Inglaterra y Escocia. Hace las tareas del hogar cuando todos duermen, así que es un espíritu bienvenido. Se dice que se pueden oír los roces de su sedosa falda mientras trabaja.",
+  "mythEn": "A fairy of England and Scotland. She carries out household chores while everyone sleeps and is a welcome spirit. It is said you can hear her silk skirt rustle as she works."
  },
  {
   "id": "slime",
@@ -4123,7 +4241,9 @@
   ],
   "down": [
    "Hua Po"
-  ]
+  ],
+  "mythEs": "Un monstruo primitivo de cuerpo viscoso. Hay varias teorías sobre sus orígenes, pero es un tema del que todavía se habla. Colecciona objetos brillantes de forma compulsiva.",
+  "mythEn": "A primitive monster with a viscous body. There are various theories as to its origin, but it is still under debate. Said to compulsively collect shiny objects."
  },
  {
   "id": "succubus",
@@ -4186,7 +4306,9 @@
   ],
   "down": [
    "Slime"
-  ]
+  ],
+  "mythEs": "Un demonio femenino del folclore europeo de la época medieval. Visitan a los hombres mientras duermen y tienen relaciones sexuales con ellos. Las víctimas no se despiertan pero sueñan con el encuentro.",
+  "mythEn": "A female demon of European lore in medieval times. They visit sleeping men and have sexual intercourse with them. The victims don't wake up but may dream of the encounter."
  },
  {
   "id": "thor",
@@ -4257,7 +4379,9 @@
     "Fortuna"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Thor, dios nórdico del trueno e hijo de Odín, posee el poder del cinturón de fuerza, Megingjard, y empuña el Mjolnir, un martillo que atrae rayos y regresa a su dueño después de ser lanzado.",
+  "mythEn": "The Norse thunder god and son of Odin, Thor owns the power enhancing belt, Megingjard, and wields Mjolnir, a hammer that causes lightning to strike and returns to its owner if thrown."
  },
  {
   "id": "trumpeter",
@@ -4326,7 +4450,9 @@
   ],
   "down": [
    "Mot"
-  ]
+  ],
+  "mythEs": "Ángeles que tocarán las trompetas cuando llegue el Apocalipsis. Con cada trompeta que suene, llegarán más plagas y desastres y la tierra se convertirá en un lugar de muerte y sufrimiento.",
+  "mythEn": "Angels that sound the trumpets at the time of the Apocalypse. As each trumpet sounds, the more plagues and disasters will occur, turning the earth into a land of death and suffering."
  },
  {
   "id": "unicorn",
@@ -4395,7 +4521,9 @@
   ],
   "down": [
    "Koppa Tengu"
-  ]
+  ],
+  "mythEs": "Un caballo blanco legendario con un único cuerno en espiral. Solo lo puede domar una doncella pura, y se supone que su cuerno tiene capacidades curativas milagrosas.",
+  "mythEn": "A legendary white horse with a single spiral horn. It can only be tamed by a pure maiden, and its horn supposedly has miraculous healing capabilities."
  },
  {
   "id": "valkyrie",
@@ -4462,7 +4590,9 @@
   ],
   "down": [
    "Hecatoncheires"
-  ]
+  ],
+  "mythEs": "Las «selectoras de caídos en combate» en la mitología nórdica. Llevan armaduras y espadas relucientes y van en busca de guerreros valientes a los que llevar al Valhalla para que luchen en el Ragnarok.",
+  "mythEn": "\"Choosers of the slain\" in Norse lore. Armed with shining armor and swords, they look for brave warriors to take to Valhalla, so that they may fight in Ragnarok."
  },
  {
   "id": "yatagarasu",
@@ -4527,7 +4657,9 @@
     "Seth"
    ]
   ],
-  "down": []
+  "down": [],
+  "mythEs": "Una criatura divina de la mitología japonesa. Son pájaros de tres patas enviados por Amaterasu para ayudar a los humanos. Se dice que ayudaron al Emperador Jinmu a alcanzar la victoria.",
+  "mythEn": "A divine creature in Japanese lore. They are three-legged birds sent by Amaterasu to help humans. They are said to have helped Emperor Jinmu claim victory."
  },
  {
   "id": "yoshitsune",
@@ -4609,7 +4741,9 @@
    }
   ],
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Un general japonés de las Guerras Genpei, acontecidas a finales de la era Heian y principios de la era Kamakura. Su atrevida ingenuidad y sus habilidades implacables con la espada siguen siendo admiradas en todo Japón.",
+  "mythEn": "A Japanese general of the Genpei War near the end of the Heian era and start of the Kamakura era. His bold ingenuity and ruthless skill with a blade are still praised in Japan today."
  },
  {
   "id": "captain-kidd",
@@ -4730,7 +4864,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Un corsario del siglo XVII que acabó convirtiéndose en un pirata conocido en todo el mundo. El día de su ejecución, declaró que escondía un tesoro, lo que dio lugar a muchas leyendas.",
+  "mythEn": "A 17th century privateer who eventually became a world-renowned pirate. At his execution, he declared he had hidden treasure, leaving behind many legends."
  },
  {
   "id": "carmen",
@@ -4851,7 +4987,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Una ladrona gitana de la novela de Merimee que adquirió fama gracias a la ópera de Bizet. Es una «femme fatale» hermosa pero muy caprichosa.",
+  "mythEn": "A gypsy thief from the novel by Merimee, which became famous through the opera by Bizet. She is a femme fatale who is beautiful but also very capricious."
  },
  {
   "id": "goemon",
@@ -4972,7 +5110,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Ishikawa Goemon fue un ladrón que robaba a los ricos para dárselo a los pobres en Japón durante el periodo Azuchi-Momoyama. Es famosa la obra de kabuki en la que se sienta a las puertas de Nanzen-ji.",
+  "mythEn": "Ishikawa Goemon was a thief who stole from the rich and gave to the poor in Japan during the Azuchi-Momoyama period. The kabuki scene of him sitting on the gate of Nanzen-ji is famous."
  },
  {
   "id": "johanna",
@@ -5093,7 +5233,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "La misteriosa papisa de la Edad Media que fingió ser un hombre y al final logró llegar a ser papa gracias a su intelecto sin parangón. Su mera existencia hizo temblar los cimientos de la iglesia católica.",
+  "mythEn": "The mysterious female pope of the Middle Ages. She posed as a man and eventually made it all the way up to pope due to her unrivaled intellect. Her existence shook the history of the Catholic church."
  },
  {
   "id": "milady",
@@ -5214,7 +5356,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "La hermosa mujer que aparece en «Los tres mosqueteros», de Dumas. Se la reconocía por su símbolo, la flor de lis, y usaba muchos pseudónimos para controlar a la nobleza y así lograr vengarse.",
+  "mythEn": "The beautiful woman that appears in Dumas's \"Three Musketeers.\" Branded with a fleur-de-lis symbol, she used many aliases to control nobility and get her vengeance."
  },
  {
   "id": "necronomicon",
@@ -5283,7 +5427,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "El grimorio que contiene información vital sobre los mitos de Cthulhu, de Lovecraft. Su nombre original es Al Azif. Se dice que el propio libro tiene vida.",
+  "mythEn": "The grimoire which contains vital information of the Cthulhu mythos by Lovecraft. Its original name is Al Azif. It is said the book itself is alive."
  },
  {
   "id": "pithos",
@@ -5408,13 +5554,15 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": null,
+  "mythEn": null
  },
  {
   "id": "valjean",
   "name": "Valjean",
   "nameEn": "Valjean",
-  "nameEs": null,
+  "nameEs": "Valjean",
   "arcana": "apostle",
   "level": 40,
   "treasure": false,
@@ -5517,7 +5665,9 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "El protagonista de «Los miserables», de Victor Hugo. Lo encarcelaron por robar pan para sus sobrinos famélicos y acabó consumido por el rencor, pero despertó gracias a la piedad de un obispo. Luchó por defender a los pobres y oprimidos.",
+  "mythEn": null
  },
  {
   "id": "zorro",
@@ -5638,6 +5788,8 @@
   "prereq": null,
   "special": null,
   "recipes": [],
-  "down": []
+  "down": [],
+  "mythEs": "Un espadachín justiciero enmascarado que luchó contra la corrupción de las autoridades de California durante el mandato español. Siempre dejaba una «Z» marcada con su sable allá donde aparecía.",
+  "mythEn": "A masked swordsman of justice who fought in California against corrupt officials during the era of Spanish rule. He always left his \"Z\" mark with his rapier wherever he appeared."
  }
 ]

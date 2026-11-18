@@ -65,6 +65,8 @@ export default function PersonaProfile() {
           </div>
         </header>
 
+        {(isEn() ? p.mythEn : p.mythEs) && <p className={styles.note}>{isEn() ? p.mythEn : p.mythEs}</p>}
+
         <section aria-label={L('Afinidades', 'Affinities')}><AffinityGrid resistances={p.resistances} /></section>
 
         <div className={styles.cols}>
