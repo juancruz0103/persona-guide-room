@@ -47,10 +47,11 @@ def sels(folder):
                 # Una elección repetida seguida (la misma con otra condición de atributo) comparte las respuestas.
                 if cur is not None and cur.get('key') == key and not cur['codes']:
                     continue
-                cur = {'file': os.path.basename(f), 'codes': [], 'key': key}
+                cur = {'file': os.path.basename(f), 'codes': [], 'key': key, 'n': len(v), 'msgs': []}
                 out.setdefault(key, []).append(cur)
             elif cur is not None:
                 cur['codes'] += v
+                cur['msgs'].append(v)
     return out
 
 

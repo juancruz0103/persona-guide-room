@@ -317,7 +317,7 @@
       {
        "es": "Qué mal me quedan.",
        "en": "I look so aloof in these.",
-       "points": 0
+       "points": 2
       }
      ]
     },
@@ -339,7 +339,7 @@
       {
        "es": "Sigamos.",
        "en": "Let's keep going.",
-       "points": 0
+       "points": 2
       },
       {
        "es": "Como quieras.",
@@ -903,12 +903,12 @@
       {
        "es": "Sin problema.",
        "en": "It's no problem.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "Digamos que es horario de vacaciones.",
        "en": "We'll call it holiday hours.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -925,12 +925,12 @@
       {
        "es": "Claro.",
        "en": "Definitely.",
-       "points": 3
+       "points": 2
       },
       {
        "es": "Por supuesto.",
        "en": "Of course.",
-       "points": 3
+       "points": 2
       }
      ]
     },
