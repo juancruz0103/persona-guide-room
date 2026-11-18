@@ -15,6 +15,9 @@ describe('fusión de Strikers', () => {
     expect(r).toContain('Forneus + Mot');
     expect(r).toContain('King Frost + Metatron');
   });
+  it('Abadón también sale de una fusión triple: Bugs + Lilit + Mot', () => {
+    expect(e.recipesFor(getPersonaByName('Abaddon')!).map(names)).toContain('Bugs + Lilith + Mot');
+  });
   it('Abadón y Thor tienen dos recetas', () => {
     expect(e.recipesFor(getPersonaByName('Abaddon')!)).toHaveLength(2);
     expect(e.recipesFor(getPersonaByName('Thor')!)).toHaveLength(2);
