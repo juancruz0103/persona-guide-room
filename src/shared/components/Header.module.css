@@ -170,8 +170,11 @@
   gap: 14px;
 }
 
-/* Celulares angostos: que entren las cuatro secciones sin desplazar */
+/* Celulares angostos: que entren todas las secciones sin desplazar. Inicio se oculta: el logo ya lleva ahí. */
 @media (max-width: 430px) {
+  .homeLink {
+    display: none;
+  }
   .link {
     font-size: 13px;
     letter-spacing: 0.01em;
@@ -187,5 +190,14 @@
   }
   .bar {
     column-gap: 10px;
+  }
+}
+
+@media (max-width: 380px) {
+  .nav {
+    gap: 2px;
+  }
+  .link {
+    letter-spacing: 0;
   }
 }

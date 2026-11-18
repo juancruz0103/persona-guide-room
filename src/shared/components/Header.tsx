@@ -76,7 +76,7 @@ export function Header({ game }: Props) {
               key={l.to}
               to={l.to}
               end={l.end}
-              className={({ isActive }) => `${styles.link} ${isActive ? styles.active : ''}`}
+              className={({ isActive }) => `${styles.link} ${l.end ? styles.homeLink : ''} ${isActive ? styles.active : ''}`}
             >
               {l.label}
             </NavLink>
