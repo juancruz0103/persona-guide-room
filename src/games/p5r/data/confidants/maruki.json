@@ -372,11 +372,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Takuto",
      "prompt": {
-      "es": "¿Te está afectando a los estudios?",
-      "en": "Is your schoolwork being affected?"
+      "es": "Debería haberlo preguntado antes, pero... ¿te agota esto mentalmente? ¿Te afecta en los estudios?",
+      "en": "I should've asked this sooner, but... is this leaving you with any mental fatigue? Is your schoolwork being affected?"
      },
      "options": [
       {

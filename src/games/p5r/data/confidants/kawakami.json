@@ -138,11 +138,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sadayo",
      "prompt": {
-      "es": "¿Le parece bien, amo?",
-      "en": "Is that okay, Master?"
+      "es": "Quiero limpiar mucho más. ¿Te parece bien, amo?",
+      "en": "I really wanna do a lot more cleaning for you... Is that okay, Master?"
      },
      "options": [
       {
@@ -227,11 +226,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sadayo",
      "prompt": {
-      "es": "Todavía eres joven, así que tienes que comer bien...",
-      "en": "You're still young, so you really need to eat properly..."
+      "es": "Ahora en serio. Eres joven, deberías tener una alimentación adecuada.",
+      "en": "...Seriously, though. You're still young, so you really need to eat properly..."
      },
      "options": [
       {
@@ -240,13 +238,13 @@
        "points": 2
       },
       {
-       "en": "You sound so happy.",
-       "es": "Pareces muy feliz.",
+       "en": "I'll work hard at it.",
+       "es": "Me esforzaré a tope.",
        "points": 0
       },
       {
-       "en": "I can't wait to try it.",
-       "es": "Qué ganas de probarlo.",
+       "en": "You're not in character.",
+       "es": "No te reconozco.",
        "points": 0
       }
      ]

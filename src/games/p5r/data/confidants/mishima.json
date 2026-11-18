@@ -202,10 +202,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Yuuki",
      "prompt": {
-      "es": "Esas cosas siempre es mejor oírlas en persona, ¿no?",
+      "es": "Es mejor decir este tipo de cosas a la cara, ¿verdad?",
       "en": "It's always better to hear that kinda stuff in person, right?"
      },
      "options": [

@@ -770,11 +770,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Sojiro",
      "prompt": {
-      "es": "¿Ponerme sentimental así? ¿A mi edad?",
-      "en": "Getting all sentimental like this? At my age?"
+      "es": "Quién me ha visto y quién me ve... ¿A mi edad y con los sentimientos a flor de piel?",
+      "en": "God, I'm a joke. Getting all sentimental like this? At my age?"
      },
      "options": [
       {

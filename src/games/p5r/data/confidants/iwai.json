@@ -348,11 +348,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Munehisa",
      "prompt": {
-      "es": "Me alegra ver que os lleváis bien.",
-      "en": "Glad to see you two get along."
+      "es": "Parece que tú y Kaoru habéis hecho buenas migas. Me alegro.",
+      "en": "Looked like you and Kaoru really hit it off. Glad to see you two get along."
      },
      "options": [
       {
@@ -588,10 +587,9 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Munehisa",
      "prompt": {
-      "es": "Parecía de fiar, pero... toda precaución es poca.",
+      "es": "Parecía que daba la talla, pero... toda precaución es poca.",
       "en": "Seemed like he was on the level, but... can't be too careful."
      },
      "options": [
@@ -601,13 +599,13 @@
        "points": 2
       },
       {
-       "en": "I'm kind of nervous...",
-       "es": "Estoy un poco nervioso.",
+       "en": "You worry too much.",
+       "es": "Te preocupas demasiado.",
        "points": 0
       },
       {
-       "en": "I'll kick him out.",
-       "es": "Lo echaré a patadas.",
+       "en": "Now let's catch him off-guard.",
+       "es": "Pillémosle con la guardia baja.",
        "points": 0
       }
      ]

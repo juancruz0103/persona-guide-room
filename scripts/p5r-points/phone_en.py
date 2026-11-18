@@ -68,6 +68,69 @@ def match(table, opts):
     return best
 
 
+def by_prompt(es, en, c):
+    """Para las llamadas que siguen con la frase de la guía: busca el mensaje en inglés que la contiene y toma la
+    elección que sigue (sirve cuando la misma respuesta corta aparece en varias llamadas)."""
+    a, pa, pb = list(items(es)), pages(es), pages(en)
+    b = list(items(en))
+    want = norm(c['prompt']['en'])
+    ours = {norm(o['en']) for o in c['options']}
+    for j, p in enumerate(pb):
+        hits = [k for k, x in enumerate(p or []) if want in norm(x)]
+        if not hits:
+            continue
+        nxt = next((k for k in range(j + 1, len(a)) if a[k][0] == 'sel'), None)
+        if nxt is None or not ours & {norm(o) for o in b[nxt][1]}:
+            continue
+        codes, i = [], nxt + 1
+        while i < len(a) and a[i][0] != 'sel':
+            codes += a[i][1]; i += 1
+        k = min(hits, key=lambda k: len(p[k]))  # la página más corta que tiene la frase
+        return {'es': a[nxt][1], 'en': b[nxt][1], 'codes': codes, 'prompt': {'es': pa[j][k], 'en': p[k]}}
+    return None
+
+
+def fix_prompts(es, en, folder):
+    for f in sorted(glob.glob(os.path.join(folder, '*.json'))):
+        d = json.load(open(f))
+        if not isinstance(d, dict):
+            continue
+        dirty = False
+        for r in d.get('ranks', []):
+            for c in r.get('conversations', []):
+                if c.get('kind') != 'phone' or not c.get('provisional') or not c.get('prompt'):
+                    continue
+                hit = by_prompt(es, en, c)
+                if not hit:
+                    print('sin frase oficial:', d['id'], r['rank'], c['prompt']['en'])
+                    continue
+                codes = [x for x in hit['codes'] if x in TIER]
+                n = len(hit['en'])
+                if len(codes) == n:
+                    pts = [shown(x) for x in codes]
+                elif not codes:
+                    pts = [0] * n
+                else:
+                    # Las opciones que la guía marcaba con puntos, en el orden del juego.
+                    marked = {norm(o['en']) for o in c['options'] if o['points']}
+                    cols = [j for j, o in enumerate(hit['en']) if norm(o) in marked]
+                    if len(cols) != len(codes):
+                        print('sin resolver:', d['id'], r['rank'], hit['en'], codes)
+                        continue
+                    pts = [0] * n
+                    for j, x in zip(cols, codes):
+                        pts[j] = shown(x)
+                c['options'] = [{'en': e, 'es': s, 'points': p} for e, s, p in zip(hit['en'], hit['es'], pts)]
+                c['prompt'] = hit['prompt']
+                c.pop('provisional', None)
+                print(d['id'], r['rank'], c['prompt']['es'], [(o['es'], o['points']) for o in c['options']])
+                dirty = True
+        if dirty:
+            with open(f, 'w') as fh:
+                json.dump(d, fh, ensure_ascii=False, indent=1)
+                fh.write('\n')
+
+
 def main():
     table = calls(sys.argv[1], sys.argv[2])
     index = {tuple(norm(o) for o in c['es']) for c in table}
@@ -116,6 +179,7 @@ def main():
                 json.dump(d, fh, ensure_ascii=False, indent=1)
                 fh.write('\n')
     print('completadas:', done, 'sin cruzar:', skipped)
+    fix_prompts(sys.argv[1], sys.argv[2], sys.argv[3])
 
 
 if __name__ == '__main__':

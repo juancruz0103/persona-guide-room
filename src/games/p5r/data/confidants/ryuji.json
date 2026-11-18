@@ -76,11 +76,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ryuji",
      "prompt": {
-      "es": "Debería haber seguido corriendo.",
-      "en": "I should've kept up my running."
+      "es": "Esto no habría pasado antes. Ay... No debería haber dejado de correr.",
+      "en": "This would've never happened back then. Ugh... I should've kept up my running."
      },
      "options": [
       {
@@ -343,11 +342,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Ryuji",
      "prompt": {
-      "es": "¡No estoy muy preocupado!",
-      "en": "I ain't too worried!"
+      "es": "Vamos, que si pasa algo, sé que me vas a apoyar, así que estoy tranquilo.",
+      "en": "But I mean, if anything happens, I know you got my back. So I ain't too worried!"
      },
      "options": [
       {

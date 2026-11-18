@@ -1137,11 +1137,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "Creo que he madurado de verdad. Y te agradezco mucho tu parte en ello, senpai.",
-      "en": "I really think I've matured. And I'm really glad for your part in that, Senpai."
+      "es": "Siento que he madurado bastante, y en parte te lo debo a ti.",
+      "en": "I really feel like I've matured. And I'm really glad for your part in that, Senpai."
      },
      "options": [
       {
@@ -1155,9 +1154,9 @@
        "points": 0
       },
       {
-       "en": "Tell me more about your home.",
-       "es": "Cuéntame más sobre tu casa.",
-       "points": 0
+       "en": "I'll always have your back.",
+       "es": "Siempre te cubriré las espaldas.",
+       "points": 2
       }
      ]
     },
@@ -1165,11 +1164,10 @@
      "kind": "phone",
      "royalOnly": true,
      "romance": false,
-     "provisional": true,
      "speaker": "Kasumi",
      "prompt": {
-      "es": "¡No sé qué hacer!",
-      "en": "I don't know what to do!"
+      "es": "Es como si estuviera todo el rato en una montaña rusa. ¡No sé qué hacer!",
+      "en": "It feels as if I'm constantly riding a rollercoaster... I don't know what to do!"
      },
      "options": [
       {
