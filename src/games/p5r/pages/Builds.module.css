@@ -41,7 +41,7 @@
 }
 .smallBtn:hover, .likeBtn:hover { border-color: var(--c-accent); color: var(--c-accent-light); }
 .likeBtn { border-color: var(--c-primary); }
-.liked { background: var(--c-primary); color: var(--c-text); }
+.liked { background: var(--c-primary); color: var(--c-on-primary); }
 .liked:hover { color: var(--c-text); }
 .timeline { display: flex; flex-direction: column; gap: 10px; padding-block: 28px; }
 .stepLabel { margin: 12px 0 0; font-family: var(--f-label); font-weight: 800; font-style: italic; text-transform: uppercase; letter-spacing: 0.06em; color: var(--c-accent); font-size: 18px; }

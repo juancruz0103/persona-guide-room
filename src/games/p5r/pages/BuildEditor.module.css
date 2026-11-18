@@ -20,7 +20,7 @@
 .stepOn { border-color: var(--c-accent); background: rgba(212, 175, 55, 0.12); }
 .dot { width: 26px; height: 26px; display: grid; place-items: center; background: var(--c-surface-2); font-size: 14px; clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%); }
 .dotOk { background: var(--c-hp-dark); color: var(--c-text); }
-.dotBad { background: var(--c-primary); color: var(--c-text); }
+.dotBad { background: var(--c-primary); color: var(--c-on-primary); }
 
 /* Panel del paso */
 .panel { display: flex; flex-direction: column; gap: 16px; padding: 18px; background: var(--c-surface); border: 1px solid var(--c-line); border-top: 4px solid var(--c-primary); }
@@ -103,7 +103,7 @@
 .chipTrait { background: rgba(217, 163, 245, 0.16); color: var(--c-sp); border-color: var(--c-sp); }
 .traitBox { display: flex; flex-direction: column; gap: 4px; padding: 6px; border: 1px solid rgba(217, 163, 245, 0.45); background: rgba(217, 163, 245, 0.06); }
 .traitLabel { font-size: 12.5px; font-weight: 700; color: var(--c-sp); }
-.alarm { align-self: flex-start; padding: 2px 8px; background: var(--c-primary); color: var(--c-text); font-size: 13px; font-weight: 700; }
+.alarm { align-self: flex-start; padding: 2px 8px; background: var(--c-primary); color: var(--c-on-primary); font-size: 13px; font-weight: 700; }
 .goalEdit { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start; }
 .goalSlots { flex: 1; min-width: 280px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
 @media (max-width: 700px) { .goalSlots { grid-template-columns: minmax(0, 1fr); } }

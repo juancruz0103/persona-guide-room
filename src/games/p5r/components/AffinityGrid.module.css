@@ -33,7 +33,7 @@
 
 .weak {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 .resist {
   background: var(--c-paper);

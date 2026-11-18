@@ -5,7 +5,7 @@
  */
 
 /** Identificador de juego. Se usa en rutas (/p5r/...) y en el tema (data-game). */
-export type GameId = 'p5r' | 'p3r' | 'p4g';
+export type GameId = 'p5r' | 'p3r' | 'p4g' | 'p5' | 'p5s' | 'p5t';
 
 export interface GameTool {
   id: string;

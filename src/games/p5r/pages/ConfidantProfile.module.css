@@ -252,7 +252,7 @@
 .rankSel {
   background: var(--c-primary);
   border-color: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 
 .rankBody {
@@ -574,7 +574,7 @@
   display: inline-flex;
   align-items: center;
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
   padding: 6px 14px;
   text-decoration: none;
 }

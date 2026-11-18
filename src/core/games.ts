@@ -2,6 +2,9 @@ import type { GameId, GameInfo } from './types';
 import { p5rGame } from '../games/p5r/config';
 import { p3rGame } from '../games/p3r/config';
 import { p4gGame } from '../games/p4g/config';
+import { p5Game } from '../games/p5/config';
+import { p5sGame } from '../games/p5s/config';
+import { p5tGame } from '../games/p5t/config';
 
 /**
  * Registro de juegos.
@@ -9,6 +12,9 @@ import { p4gGame } from '../games/p4g/config';
  */
 export const GAMES: GameInfo[] = [
   p5rGame,
+  p5Game,
+  p5sGame,
+  p5tGame,
   p3rGame,
   p4gGame,
 ];

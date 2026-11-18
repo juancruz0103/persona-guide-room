@@ -88,7 +88,7 @@
 }
 .req_story {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 .name {
   display: flex;

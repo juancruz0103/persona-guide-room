@@ -1,5 +1,6 @@
 .band {
   background: var(--c-primary);
+  color: var(--c-on-primary);
   clip-path: polygon(0 0, 100% 0, 100% 78%, 0 100%);
 }
 

@@ -28,7 +28,7 @@
 }
 .viewBtn[aria-selected='true'] {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 
 .intro {
@@ -342,7 +342,7 @@
 }
 .cardAlarm {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 .card:hover {
   filter: brightness(1.1);

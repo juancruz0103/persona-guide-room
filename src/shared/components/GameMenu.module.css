@@ -46,7 +46,7 @@
 
 .current {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 .current:hover {
   color: var(--c-text);

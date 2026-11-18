@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 40;
-  background: var(--c-bg);
+  background: var(--c-header);
   border-bottom: 2px solid var(--c-primary);
 }
 
@@ -61,7 +61,7 @@
 }
 .logoMark {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
   font-family: var(--f-display);
   font-size: 24px;
   padding: 2px 12px;
@@ -94,8 +94,8 @@
 }
 .link:hover,
 .active {
-  color: var(--c-accent);
-  border-color: var(--c-accent);
+  color: var(--c-active, var(--c-accent));
+  border-color: var(--c-active, var(--c-accent));
 }
 
 .gameBadge {

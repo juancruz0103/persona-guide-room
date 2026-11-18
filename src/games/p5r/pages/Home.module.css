@@ -3,6 +3,7 @@
 .hero {
   position: relative;
   background: var(--c-primary);
+  color: var(--c-on-primary);
   overflow: hidden;
 }
 
@@ -63,7 +64,7 @@
   margin: 0;
   max-width: 520px;
   font-size: 20px;
-  color: #fff4f2;
+  color: var(--c-on-primary-soft, #fff4f2);
 }
 
 .ctas {
@@ -88,6 +89,7 @@
   align-items: baseline;
   gap: 16px;
   background: var(--c-surface);
+  color: var(--c-text);
   border: 2px solid var(--b);
   padding: 20px 24px;
   transform: rotate(-2deg);
@@ -180,7 +182,7 @@ a.tool:hover {
 
 .toolRed {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 .toolRed:hover {
   color: var(--c-text);

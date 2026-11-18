@@ -149,7 +149,7 @@ h3 {
 }
 .tag--special {
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
 }
 .tag--party {
   background: var(--c-ink);

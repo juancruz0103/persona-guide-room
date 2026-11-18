@@ -110,10 +110,108 @@
 
   /* Movimiento */
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Comunes a todos los juegos. Cada paleta puede pisarlos. */
+  --c-header: var(--c-bg);          /* fondo del encabezado */
+  --c-on-primary: var(--c-text);    /* texto sobre el color principal */
 }
 
 @media (max-width: 640px) {
   :root {
     --gutter: 16px;
   }
+}
+
+/* ============================================================
+ * Saga Persona 5 (fuera de Royal)
+ * ------------------------------------------------------------
+ * Cada sección tiene 3 colores protagonistas, en --brand-1/2/3:
+ *   --brand-1  principal 1
+ *   --brand-2  principal 2
+ *   --brand-3  secundario
+ * Para ajustar una paleta, cambiá solo esos tres valores: el resto
+ * de las variables se calcula a partir de ellos. Los neutros (fondos
+ * y textos) son variantes oscuras o claras para que se lea bien.
+ * El encabezado queda negro en todas (--c-header).
+ * Royal no se toca: sigue usando el bloque [data-game='p5r'] de arriba.
+ * ============================================================ */
+
+/* Persona 5 (original) · Vintage Noir */
+:root[data-game='p5'] {
+  --brand-1: #873f35; /* rojo ladrillo */
+  --brand-2: #d5bd91; /* papel envejecido */
+  --brand-3: #292824; /* negro carbón */
+
+  --c-header: #0b0b0b;
+  --c-bg: #1d1c19;
+  --c-surface: var(--brand-3);
+  --c-surface-2: #34322d;
+  --c-line: #4d473c;
+  --c-text: #f2ead9;
+  --c-text-muted: #d9ccb0;
+  --c-text-dim: #ab9f86;
+  --c-primary: var(--brand-1);
+  --c-primary-strong: #6b3029;
+  --c-primary-light: #c26e60;
+  --c-on-primary: #f2ead9;
+  --c-on-primary-soft: #f2ead9;
+  --c-accent: var(--brand-2);
+  --c-accent-light: #e8d9bb;
+  --c-paper: var(--brand-2);
+  --c-ink: var(--brand-3);
+  --c-royal: var(--brand-2);
+}
+
+/* Persona 5 Tactica · Revolutionary Pop (rojo, morado y verde, con detalles pastel) */
+:root[data-game='p5t'] {
+  --brand-1: #a83232; /* rojo bandera */
+  --brand-2: #a57bd0; /* morado revolución */
+  --brand-3: #697c58; /* verde militar */
+
+  --c-header: #0b0b0b;
+  --c-bg: #231e1b;
+  --c-surface: #2d2723;
+  --c-surface-2: #38302b;
+  --c-line: var(--brand-3);
+  --c-text: #fbf4e8;
+  --c-text-muted: #e8dccb;
+  --c-text-dim: #b9ad9c;
+  --c-primary: var(--brand-1);
+  --c-primary-strong: #872828;
+  --c-primary-light: #e8a29a;       /* rojo pastel para textos destacados */
+  --c-on-primary: #fff6ea;
+  --c-on-primary-soft: #fbe6dc;
+  --c-accent: var(--brand-2);
+  --c-accent-light: #d2b8ec;        /* morado pastel */
+  --c-active: var(--brand-2);
+  --c-paper: #f8eed8;               /* tarjetas claras en crema pastel */
+  --c-ink: #2b2420;
+  --c-royal: var(--brand-3);
+}
+
+/* Persona 5 Strikers · Neon Roadtrip */
+:root[data-game='p5s'] {
+  --brand-1: #e8304f; /* rojo frambuesa vivo (más rosado que el rojo de Royal) */
+  --brand-2: #1e9be0; /* azul eléctrico */
+  --brand-3: #ff6a2b; /* naranja acción */
+
+  --c-header: #0b0b0b;
+  --c-bg: #08142a;
+  --c-surface: #0f1d38;
+  --c-surface-2: #152747;
+  --c-line: #26406b;
+  --c-text: #f2f7fa;
+  --c-text-muted: #c5d6e0;
+  --c-text-dim: #8fa7b5;
+  --c-primary: var(--brand-1);
+  --c-primary-strong: #c01f3d;
+  --c-primary-light: #ff7088;
+  --c-on-primary: #ffffff;
+  --c-on-primary-soft: #fbe9ec;
+  --c-accent: var(--brand-2);
+  --c-accent-light: #6cc4f5;
+  --c-active: var(--brand-3);       /* sección activa del menú en naranja */
+  --c-paper: #f2f7fa;
+  --c-ink: #08142a;
+  --c-royal: var(--brand-3);
 }

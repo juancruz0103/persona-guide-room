@@ -16,7 +16,7 @@
   display: grid;
   place-items: center;
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
   font-family: var(--f-display);
   font-size: 28px;
   clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%);
@@ -208,7 +208,7 @@
   color: var(--c-text-dim);
   font-size: 14px;
 }
-.alert { display: block; padding: 14px 18px; background: var(--c-primary); color: var(--c-text); font-weight: 700; text-decoration: none; clip-path: polygon(0 0, 100% 0, 98.5% 100%, 0 100%); }
+.alert { display: block; padding: 14px 18px; background: var(--c-primary); color: var(--c-on-primary); font-weight: 700; text-decoration: none; clip-path: polygon(0 0, 100% 0, 98.5% 100%, 0 100%); }
 .alert:hover { background: var(--c-primary-strong); }
 
 .blockHead {

@@ -107,7 +107,7 @@
 .kind {
   align-self: flex-start;
   background: var(--c-primary);
-  color: var(--c-text);
+  color: var(--c-on-primary);
   font-family: var(--f-label);
   font-weight: 800;
   font-size: 13px;
