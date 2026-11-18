@@ -1,0 +1,5955 @@
+[
+ {
+  "id": "abaddon",
+  "name": "Abaddon",
+  "nameEn": "Abaddon",
+  "nameEs": "Abadón",
+  "arcana": "judgement",
+  "level": 66,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "null",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "weak",
+   "ble": "resist",
+   "cur": "drain"
+  },
+  "stats": {
+   "st": 45,
+   "ma": 37,
+   "en": 49,
+   "ag": 36,
+   "lu": 38
+  },
+  "skills": [
+   {
+    "skill": "Deathbound",
+    "level": null
+   },
+   {
+    "skill": "Brain Buster",
+    "level": null
+   },
+   {
+    "skill": "Maeigaon",
+    "level": null
+   },
+   {
+    "skill": "Defense Master",
+    "level": 67
+   },
+   {
+    "skill": "Survival Trick",
+    "level": 69
+   },
+   {
+    "skill": "Agneyastra",
+    "level": 71
+   }
+  ],
+  "inheritance": "curse",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Cu Chulainn",
+    "Yatagarasu"
+   ],
+   [
+    "Bugs",
+    "Lilith",
+    "Mot"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "abyssal-bezoar",
+  "name": "Abyssal Bezoar",
+  "nameEn": "Abyssal Bezoar",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 62,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 35,
+   "ma": 35,
+   "en": 35,
+   "ag": 35,
+   "lu": 35
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Abismo",
+   "en": "Abyss"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "alice",
+  "name": "Alice",
+  "nameEn": "Alice",
+  "nameEs": "Alice",
+  "arcana": "death",
+  "level": 75,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "resist",
+   "nuk": "resist",
+   "ble": "weak",
+   "cur": "drain"
+  },
+  "stats": {
+   "st": 41,
+   "ma": 55,
+   "en": 39,
+   "ag": 54,
+   "lu": 43
+  },
+  "skills": [
+   {
+    "skill": "Mamudoon",
+    "level": null
+   },
+   {
+    "skill": "Megidolaon",
+    "level": null
+   },
+   {
+    "skill": "Concentrate",
+    "level": null
+   },
+   {
+    "skill": "Survival Trick",
+    "level": 78
+   },
+   {
+    "skill": "Mudo Boost",
+    "level": 81
+   },
+   {
+    "skill": "Die For Me!",
+    "level": 83
+   },
+   {
+    "skill": "Spell Master",
+    "level": 90
+   }
+  ],
+  "inheritance": "curse",
+  "location": null,
+  "prereq": null,
+  "special": [
+   {
+    "name": "Nebiros",
+    "level": 65
+   },
+   {
+    "name": "Lilith",
+    "level": 65
+   },
+   {
+    "name": "Bugs",
+    "level": 65
+   },
+   {
+    "name": "Dominion",
+    "level": 65
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "ame-no-uzume",
+  "name": "Ame-no-Uzume",
+  "nameEn": "Ame-no-Uzume",
+  "nameEs": "Ame-no-Uzume",
+  "arcana": "lovers",
+  "level": 23,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "drain",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 13,
+   "ma": 16,
+   "en": 16,
+   "ag": 16,
+   "lu": 15
+  },
+  "skills": [
+   {
+    "skill": "Bufula",
+    "level": null
+   },
+   {
+    "skill": "Masukukaja",
+    "level": null
+   },
+   {
+    "skill": "Diarama",
+    "level": 24
+   },
+   {
+    "skill": "Media",
+    "level": 26
+   },
+   {
+    "skill": "Divine Grace",
+    "level": 29
+   }
+  ],
+  "inheritance": "ice",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Orthrus",
+    "Lamia"
+   ],
+   [
+    "Slime",
+    "High Pixie",
+    "Berith"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "amulet-of-heroes",
+  "name": "Amulet of Heroes",
+  "nameEn": "Amulet of Heroes",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 59,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 30,
+   "ma": 30,
+   "en": 30,
+   "ag": 30,
+   "lu": 30
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "andras",
+  "name": "Andras",
+  "nameEn": "Andras",
+  "nameEs": "Andras",
+  "arcana": "devil",
+  "level": 10,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "resist",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "resist",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 5,
+   "ma": 9,
+   "en": 7,
+   "ag": 10,
+   "lu": 6
+  },
+  "skills": [
+   {
+    "skill": "Mabufu",
+    "level": null
+   },
+   {
+    "skill": "Terror Claw",
+    "level": null
+   },
+   {
+    "skill": "Sukunda",
+    "level": 12
+   },
+   {
+    "skill": "Dodge Phys",
+    "level": 14
+   }
+  ],
+  "inheritance": "ice",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Silky",
+    "Mokoi"
+   ]
+  ],
+  "down": [
+   "Succubus"
+  ]
+ },
+ {
+  "id": "apple-of-rage",
+  "name": "Apple of Rage",
+  "nameEn": "Apple of Rage",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 47,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 25,
+   "ma": 25,
+   "en": 25,
+   "ag": 25,
+   "lu": 25
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Cárcel de Kioto",
+   "en": "Kyoto Jail"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "arahabaki",
+  "name": "Arahabaki",
+  "nameEn": "Arahabaki",
+  "nameEs": "Arahabaki",
+  "arcana": "hermit",
+  "level": 36,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "weak",
+   "ble": "null",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 22,
+   "ma": 24,
+   "en": 22,
+   "ag": 25,
+   "lu": 22
+  },
+  "skills": [
+   {
+    "skill": "Maeiga",
+    "level": null
+   },
+   {
+    "skill": "Masukunda",
+    "level": null
+   },
+   {
+    "skill": "Assault Dive",
+    "level": null
+   },
+   {
+    "skill": "Curse Boost",
+    "level": 38
+   },
+   {
+    "skill": "Defense Master",
+    "level": 41
+   }
+  ],
+  "inheritance": "curse",
+  "location": {
+   "es": "Cárcel de Okinawa",
+   "en": "Okinawa Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Black Ooze",
+    "Eligor"
+   ]
+  ],
+  "down": [
+   "Neko Shogun"
+  ]
+ },
+ {
+  "id": "archangel",
+  "name": "Archangel",
+  "nameEn": "Archangel",
+  "nameEs": "Arcángel",
+  "arcana": "justice",
+  "level": 19,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "drain",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 16,
+   "ma": 11,
+   "en": 16,
+   "ag": 14,
+   "lu": 7
+  },
+  "skills": [
+   {
+    "skill": "Makouha",
+    "level": null
+   },
+   {
+    "skill": "Vajra Blast",
+    "level": null
+   },
+   {
+    "skill": "Dazzler",
+    "level": 20
+   },
+   {
+    "skill": "Giant Slice",
+    "level": 22
+   },
+   {
+    "skill": "Hama",
+    "level": 24
+   }
+  ],
+  "inheritance": "bless",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Hua Po",
+    "High Pixie"
+   ],
+   [
+    "Jack-o'-Lantern",
+    "Silky",
+    "Andras"
+   ]
+  ],
+  "down": [
+   "Orthrus"
+  ]
+ },
+ {
+  "id": "arsene",
+  "name": "Arsene",
+  "nameEn": "Arsène",
+  "nameEs": "Arsène",
+  "arcana": "fool",
+  "level": 1,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 4,
+   "ma": 4,
+   "en": 4,
+   "ag": 5,
+   "lu": 3
+  },
+  "skills": [
+   {
+    "skill": "Eiha",
+    "level": null
+   },
+   {
+    "skill": "Cleave",
+    "level": null
+   },
+   {
+    "skill": "Tarunda",
+    "level": 2
+   },
+   {
+    "skill": "Dream Needle",
+    "level": 4
+   },
+   {
+    "skill": "Rebel Soul",
+    "level": 10
+   },
+   {
+    "skill": "Maeiga",
+    "level": 32
+   },
+   {
+    "skill": "One-shot Kill",
+    "level": 45
+   },
+   {
+    "skill": "Maeigaon",
+    "level": 62
+   },
+   {
+    "skill": "Survival Trick",
+    "level": 84
+   },
+   {
+    "skill": "Riot Gun",
+    "level": 95
+   }
+  ],
+  "inheritance": "curse",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": [
+   "Jack-o'-Lantern"
+  ]
+ },
+ {
+  "id": "berith",
+  "name": "Berith",
+  "nameEn": "Berith",
+  "nameEs": "Berith",
+  "arcana": "hierophant",
+  "level": 15,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "null",
+   "fir": "resist",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 13,
+   "ma": 9,
+   "en": 11,
+   "ag": 13,
+   "lu": 6
+  },
+  "skills": [
+   {
+    "skill": "Rakukaja",
+    "level": null
+   },
+   {
+    "skill": "Double Fangs",
+    "level": null
+   },
+   {
+    "skill": "Rampage",
+    "level": null
+   },
+   {
+    "skill": "Null Fear",
+    "level": 16
+   },
+   {
+    "skill": "Dodge Fire",
+    "level": 17
+   }
+  ],
+  "inheritance": "support",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Andras",
+    "Mokoi"
+   ]
+  ],
+  "down": [
+   "High Pixie"
+  ]
+ },
+ {
+  "id": "bicorn",
+  "name": "Bicorn",
+  "nameEn": "Bicorn",
+  "nameEs": "Bicornio",
+  "arcana": "hermit",
+  "level": 4,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 5,
+   "ma": 3,
+   "en": 3,
+   "ag": 5,
+   "lu": 3
+  },
+  "skills": [
+   {
+    "skill": "Lunge",
+    "level": null
+   },
+   {
+    "skill": "Garu",
+    "level": null
+   },
+   {
+    "skill": "Rampage",
+    "level": 6
+   },
+   {
+    "skill": "Null Dizzy",
+    "level": 7
+   }
+  ],
+  "inheritance": "wind",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Jack-o'-Lantern",
+    "Pixie"
+   ]
+  ],
+  "down": [
+   "Silky"
+  ]
+ },
+ {
+  "id": "black-frost",
+  "name": "Black Frost",
+  "nameEn": "Black Frost",
+  "nameEs": "Frost oscuro",
+  "arcana": "fool",
+  "level": 67,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "null",
+   "ice": "drain",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "resist",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 44,
+   "ma": 46,
+   "en": 41,
+   "ag": 42,
+   "lu": 35
+  },
+  "skills": [
+   {
+    "skill": "Mabufudyne",
+    "level": null
+   },
+   {
+    "skill": "Deathbound",
+    "level": null
+   },
+   {
+    "skill": "Evil Smile",
+    "level": null
+   },
+   {
+    "skill": "Soul Thief",
+    "level": 68
+   },
+   {
+    "skill": "Ailment Boost",
+    "level": 70
+   },
+   {
+    "skill": "Diamond Dust",
+    "level": 72
+   },
+   {
+    "skill": "Null Nuke",
+    "level": 76
+   }
+  ],
+  "inheritance": "ice",
+  "location": null,
+  "prereq": "Defeat in Shibuya Jail",
+  "special": [
+   {
+    "name": "Jack-o'-Lantern",
+    "level": 45
+   },
+   {
+    "name": "King Frost",
+    "level": 65
+   },
+   {
+    "name": "Jack Frost",
+    "level": 45
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "black-ooze",
+  "name": "Black Ooze",
+  "nameEn": "Black Ooze",
+  "nameEs": "Moco negro",
+  "arcana": "moon",
+  "level": 33,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "resist",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 21,
+   "ma": 20,
+   "en": 22,
+   "ag": 18,
+   "lu": 25
+  },
+  "skills": [
+   {
+    "skill": "Matarunda",
+    "level": null
+   },
+   {
+    "skill": "Headbutt",
+    "level": null
+   },
+   {
+    "skill": "Eiga",
+    "level": 35
+   },
+   {
+    "skill": "Ailment Boost",
+    "level": 38
+   }
+  ],
+  "inheritance": "curse",
+  "location": {
+   "es": "Cárcel de Okinawa",
+   "en": "Okinawa Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Jack Frost",
+    "Lilim"
+   ]
+  ],
+  "down": [
+   "Mitra"
+  ]
+ },
+ {
+  "id": "bugs",
+  "name": "Bugs",
+  "nameEn": "Bugs",
+  "nameEs": "Bugs",
+  "arcana": "fool",
+  "level": 53,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "resist",
+   "psy": "resist",
+   "nuk": "weak",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 39,
+   "ma": 36,
+   "en": 32,
+   "ag": 35,
+   "lu": 24
+  },
+  "skills": [
+   {
+    "skill": "Bloodbath",
+    "level": null
+   },
+   {
+    "skill": "Masukunda",
+    "level": null
+   },
+   {
+    "skill": "Psiodyne",
+    "level": null
+   },
+   {
+    "skill": "Fear Boost",
+    "level": 55
+   },
+   {
+    "skill": "Dodge Phys",
+    "level": 58
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Abismo",
+   "en": "Abyss"
+  },
+  "prereq": null,
+  "special": [
+   {
+    "name": "Pisaca",
+    "level": 40
+   },
+   {
+    "name": "Pixie",
+    "level": 40
+   }
+  ],
+  "recipes": [],
+  "down": [
+   "Lilith"
+  ]
+ },
+ {
+  "id": "cerberus",
+  "name": "Cerberus",
+  "nameEn": "Cerberus",
+  "nameEs": "Cerbero",
+  "arcana": "chariot",
+  "level": 57,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "drain",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "resist",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 41,
+   "ma": 35,
+   "en": 33,
+   "ag": 41,
+   "lu": 28
+  },
+  "skills": [
+   {
+    "skill": "Agidyne",
+    "level": null
+   },
+   {
+    "skill": "Megaton Raid",
+    "level": null
+   },
+   {
+    "skill": "Matarukaja",
+    "level": null
+   },
+   {
+    "skill": "Speed Master",
+    "level": 58
+   },
+   {
+    "skill": "Enduring Soul",
+    "level": 59
+   },
+   {
+    "skill": "Fire Amp",
+    "level": 62
+   },
+   {
+    "skill": "Inferno",
+    "level": 70
+   }
+  ],
+  "inheritance": "fire",
+  "location": null,
+  "prereq": "Defeat in Osaka Jail",
+  "special": [
+   {
+    "name": "Orthrus",
+    "level": 50
+   },
+   {
+    "name": "Raja Naga",
+    "level": 50
+   }
+  ],
+  "recipes": [],
+  "down": [
+   "Yatagarasu"
+  ]
+ },
+ {
+  "id": "cu-chulainn",
+  "name": "Cu Chulainn",
+  "nameEn": "Cu Chulainn",
+  "nameEs": "Cú Chulainn",
+  "arcana": "star",
+  "level": 59,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "null",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "drain",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 40,
+   "ma": 32,
+   "en": 40,
+   "ag": 40,
+   "lu": 32
+  },
+  "skills": [
+   {
+    "skill": "Dormin Rush",
+    "level": null
+   },
+   {
+    "skill": "Oni Kagura",
+    "level": null
+   },
+   {
+    "skill": "Speed Master",
+    "level": null
+   },
+   {
+    "skill": "Rage Boost",
+    "level": 60
+   },
+   {
+    "skill": "Matarukaja",
+    "level": 62
+   },
+   {
+    "skill": "Regenerate 3",
+    "level": 65
+   }
+  ],
+  "inheritance": "phys",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Nebiros",
+    "Mot"
+   ],
+   [
+    "Bugs",
+    "Nebiros",
+    "Lilith"
+   ]
+  ],
+  "down": [
+   "Forneus"
+  ]
+ },
+ {
+  "id": "diabolus-jewel",
+  "name": "Diabolus Jewel",
+  "nameEn": "Diabolus Jewel",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 27,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 10,
+   "ma": 10,
+   "en": 10,
+   "ag": 10,
+   "lu": 10
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "dominion",
+  "name": "Dominion",
+  "nameEn": "Dominion",
+  "nameEs": "Dominio",
+  "arcana": "justice",
+  "level": 62,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "drain",
+   "ble": "null",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 38,
+   "ma": 41,
+   "en": 39,
+   "ag": 40,
+   "lu": 35
+  },
+  "skills": [
+   {
+    "skill": "Nocturnal Flash",
+    "level": null
+   },
+   {
+    "skill": "Hamaon",
+    "level": null
+   },
+   {
+    "skill": "Kougaon",
+    "level": null
+   },
+   {
+    "skill": "Hama Boost",
+    "level": 63
+   },
+   {
+    "skill": "Mahamaon",
+    "level": 65
+   },
+   {
+    "skill": "Bless Amp",
+    "level": 67
+   }
+  ],
+  "inheritance": "bless",
+  "location": {
+   "es": "Final",
+   "en": "Final"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Forneus",
+    "Mot"
+   ]
+  ],
+  "down": [
+   "King Frost"
+  ]
+ },
+ {
+  "id": "eligor",
+  "name": "Eligor",
+  "nameEn": "Eligor",
+  "nameEs": "Eligor",
+  "arcana": "emperor",
+  "level": 31,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "resist",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 23,
+   "ma": 17,
+   "en": 28,
+   "ag": 16,
+   "lu": 16
+  },
+  "skills": [
+   {
+    "skill": "Maragion",
+    "level": null
+   },
+   {
+    "skill": "Tarukaja",
+    "level": null
+   },
+   {
+    "skill": "Memory Blow",
+    "level": null
+   },
+   {
+    "skill": "Rakunda",
+    "level": 32
+   },
+   {
+    "skill": "Swift Strike",
+    "level": 34
+   }
+  ],
+  "inheritance": "fire",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Ame-no-Uzume",
+    "Lilim"
+   ],
+   [
+    "Berith",
+    "Slime",
+    "Lamia"
+   ]
+  ],
+  "down": [
+   "Mitra"
+  ]
+ },
+ {
+  "id": "forneus",
+  "name": "Forneus",
+  "nameEn": "Forneus",
+  "nameEs": "Forneus",
+  "arcana": "hierophant",
+  "level": 60,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "null",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "drain",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 39,
+   "ma": 37,
+   "en": 38,
+   "ag": 40,
+   "lu": 33
+  },
+  "skills": [
+   {
+    "skill": "Mapsiodyne",
+    "level": null
+   },
+   {
+    "skill": "Eigaon",
+    "level": null
+   },
+   {
+    "skill": "Makajamaon",
+    "level": null
+   },
+   {
+    "skill": "Psy Amp",
+    "level": 62
+   },
+   {
+    "skill": "Technical Adept",
+    "level": 64
+   },
+   {
+    "skill": "Psycho Blast",
+    "level": 74
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Final",
+   "en": "Final"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Lilith",
+    "Kurama Tengu"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "fortuna",
+  "name": "Fortuna",
+  "nameEn": "Fortuna",
+  "nameEs": "Fortuna",
+  "arcana": "fortune",
+  "level": 49,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "null",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "drain",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 24,
+   "ma": 34,
+   "en": 31,
+   "ag": 37,
+   "lu": 28
+  },
+  "skills": [
+   {
+    "skill": "Garudyne",
+    "level": null
+   },
+   {
+    "skill": "Matarunda",
+    "level": null
+   },
+   {
+    "skill": "Concentrate",
+    "level": null
+   },
+   {
+    "skill": "Amrita Drop",
+    "level": 50
+   },
+   {
+    "skill": "Evade Elec",
+    "level": 52
+   },
+   {
+    "skill": "Vacuum Wave",
+    "level": 72
+   }
+  ],
+  "inheritance": "wind",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Valkyrie",
+    "Mithras"
+   ]
+  ],
+  "down": [
+   "Raja Naga"
+  ]
+ },
+ {
+  "id": "frozen-blood",
+  "name": "Frozen Blood",
+  "nameEn": "Frozen Blood",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 38,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 15,
+   "ma": 15,
+   "en": 15,
+   "ag": 15,
+   "lu": 15
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "ganesha",
+  "name": "Ganesha",
+  "nameEn": "Ganesha",
+  "nameEs": "Ganesha",
+  "arcana": "sun",
+  "level": 47,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "null",
+   "psy": "weak",
+   "nuk": "drain",
+   "ble": "neutral",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 33,
+   "ma": 28,
+   "en": 33,
+   "ag": 30,
+   "lu": 24
+  },
+  "skills": [
+   {
+    "skill": "Freidyne",
+    "level": null
+   },
+   {
+    "skill": "Vajra Blast",
+    "level": null
+   },
+   {
+    "skill": "Charge",
+    "level": null
+   },
+   {
+    "skill": "Regenerate 2",
+    "level": 49
+   },
+   {
+    "skill": "Endure",
+    "level": 51
+   },
+   {
+    "skill": "Atomic Flare",
+    "level": 76
+   }
+  ],
+  "inheritance": "nuke",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Queen Mab",
+    "Okuninushi"
+   ]
+  ],
+  "down": [
+   "Sarasvati"
+  ]
+ },
+ {
+  "id": "hecatoncheires",
+  "name": "Hecatoncheires",
+  "nameEn": "Hecatoncheires",
+  "nameEs": "Hecatónquiro",
+  "arcana": "hanged",
+  "level": 46,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "drain"
+  },
+  "stats": {
+   "st": 32,
+   "ma": 28,
+   "en": 34,
+   "ag": 28,
+   "lu": 23
+  },
+  "skills": [
+   {
+    "skill": "Swift Strike",
+    "level": null
+   },
+   {
+    "skill": "Tarukaja",
+    "level": null
+   },
+   {
+    "skill": "Endure",
+    "level": 48
+   },
+   {
+    "skill": "Triple Down",
+    "level": 49
+   },
+   {
+    "skill": "Attack Master",
+    "level": 51
+   }
+  ],
+  "inheritance": "phys",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Unicorn",
+    "Koppa Tengu"
+   ],
+   [
+    "Black Ooze",
+    "Arahabaki",
+    "Legion"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "high-pixie",
+  "name": "High Pixie",
+  "nameEn": "High Pixie",
+  "nameEs": "Gran Pixie",
+  "arcana": "fool",
+  "level": 16,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "resist",
+   "win": "resist",
+   "psy": "neutral",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 8,
+   "ma": 14,
+   "en": 10,
+   "ag": 13,
+   "lu": 10
+  },
+  "skills": [
+   {
+    "skill": "Magaru",
+    "level": null
+   },
+   {
+    "skill": "Makajam",
+    "level": null
+   },
+   {
+    "skill": "Media",
+    "level": 18
+   },
+   {
+    "skill": "Garula",
+    "level": 20
+   },
+   {
+    "skill": "Recarm",
+    "level": 22
+   }
+  ],
+  "inheritance": "wind",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Succubus",
+    "Slime"
+   ]
+  ],
+  "down": [
+   "Archangel"
+  ]
+ },
+ {
+  "id": "hua-po",
+  "name": "Hua Po",
+  "nameEn": "Hua Po",
+  "nameEs": "Hua Po",
+  "arcana": "hanged",
+  "level": 13,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "null",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 5,
+   "ma": 14,
+   "en": 5,
+   "ag": 11,
+   "lu": 11
+  },
+  "skills": [
+   {
+    "skill": "Maragi",
+    "level": null
+   },
+   {
+    "skill": "Tarunda",
+    "level": null
+   },
+   {
+    "skill": "Amrita Drop",
+    "level": 14
+   },
+   {
+    "skill": "Null Forget",
+    "level": 16
+   },
+   {
+    "skill": "Soul Thief",
+    "level": 18
+   }
+  ],
+  "inheritance": "fire",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Andras",
+    "Succubus"
+   ],
+   [
+    "Jack-o'-Lantern",
+    "Pixie",
+    "Silky"
+   ]
+  ],
+  "down": [
+   "Berith"
+  ]
+ },
+ {
+  "id": "jack-frost",
+  "name": "Jack Frost",
+  "nameEn": "Jack Frost",
+  "nameEs": "Jack Frost",
+  "arcana": "magician",
+  "level": 24,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "drain",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 17,
+   "ma": 20,
+   "en": 11,
+   "ag": 20,
+   "lu": 11
+  },
+  "skills": [
+   {
+    "skill": "Bufula",
+    "level": null
+   },
+   {
+    "skill": "Marakunda",
+    "level": null
+   },
+   {
+    "skill": "Freeze Boost",
+    "level": 25
+   },
+   {
+    "skill": "Ice Boost",
+    "level": 28
+   },
+   {
+    "skill": "Mabufula",
+    "level": 30
+   }
+  ],
+  "inheritance": "ice",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Lamia",
+    "High Pixie"
+   ]
+  ],
+  "down": [
+   "Lilim"
+  ]
+ },
+ {
+  "id": "jack-o-lantern",
+  "name": "Jack-o'-Lantern",
+  "nameEn": "Jack-o'-Lantern",
+  "nameEs": "Jack-o'-Lantern",
+  "arcana": "magician",
+  "level": 2,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "drain",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 2,
+   "ma": 3,
+   "en": 3,
+   "ag": 3,
+   "lu": 2
+  },
+  "skills": [
+   {
+    "skill": "Agi",
+    "level": null
+   },
+   {
+    "skill": "Rakunda",
+    "level": null
+   },
+   {
+    "skill": "Burn Boost",
+    "level": 3
+   },
+   {
+    "skill": "Soul Thief",
+    "level": 5
+   }
+  ],
+  "inheritance": "fire",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": [
+   "Pixie"
+  ]
+ },
+ {
+  "id": "kaiwan",
+  "name": "Kaiwan",
+  "nameEn": "Kaiwan",
+  "nameEs": "Kaiwan",
+  "arcana": "star",
+  "level": 30,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "null",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "drain",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 19,
+   "ma": 21,
+   "en": 20,
+   "ag": 19,
+   "lu": 18
+  },
+  "skills": [
+   {
+    "skill": "Concentrate",
+    "level": null
+   },
+   {
+    "skill": "Mapsio",
+    "level": null
+   },
+   {
+    "skill": "Dodge Nuke",
+    "level": 32
+   },
+   {
+    "skill": "Technical Adept",
+    "level": 34
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Setanta",
+    "Principality"
+   ]
+  ],
+  "down": [
+   "Eligor"
+  ]
+ },
+ {
+  "id": "kali",
+  "name": "Kali",
+  "nameEn": "Kali",
+  "nameEs": "Kali",
+  "arcana": "empress",
+  "level": 64,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "null",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "null",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 42,
+   "ma": 38,
+   "en": 40,
+   "ag": 42,
+   "lu": 37
+  },
+  "skills": [
+   {
+    "skill": "Vorpal Blade",
+    "level": null
+   },
+   {
+    "skill": "Oni Kagura",
+    "level": null
+   },
+   {
+    "skill": "Psiodyne",
+    "level": null
+   },
+   {
+    "skill": "Myriad Slashes",
+    "level": 65
+   },
+   {
+    "skill": "Evade Ice",
+    "level": 67
+   },
+   {
+    "skill": "Mapsiodyne",
+    "level": 69
+   },
+   {
+    "skill": "Psycho Force",
+    "level": 75
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Final",
+   "en": "Final"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Cerberus",
+    "Forneus"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "kikuri-hime",
+  "name": "Kikuri-Hime",
+  "nameEn": "Kikuri-Hime",
+  "nameEs": "Kikuri-Hime",
+  "arcana": "priestess",
+  "level": 40,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "null",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 22,
+   "ma": 31,
+   "en": 24,
+   "ag": 28,
+   "lu": 22
+  },
+  "skills": [
+   {
+    "skill": "Lullaby",
+    "level": null
+   },
+   {
+    "skill": "Marakukaja",
+    "level": null
+   },
+   {
+    "skill": "Diarama",
+    "level": null
+   },
+   {
+    "skill": "Mediarama",
+    "level": 42
+   },
+   {
+    "skill": "Divine Grace",
+    "level": 44
+   }
+  ],
+  "inheritance": "support",
+  "location": {
+   "es": "Cárcel de Kioto",
+   "en": "Kyoto Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Neko Shogun",
+    "Arahabaki"
+   ]
+  ],
+  "down": [
+   "Mithras"
+  ]
+ },
+ {
+  "id": "king-frost",
+  "name": "King Frost",
+  "nameEn": "King Frost",
+  "nameEs": "Rey Frost",
+  "arcana": "emperor",
+  "level": 63,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "drain",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 41,
+   "ma": 46,
+   "en": 44,
+   "ag": 30,
+   "lu": 35
+  },
+  "skills": [
+   {
+    "skill": "Bufudyne",
+    "level": null
+   },
+   {
+    "skill": "Marakunda",
+    "level": null
+   },
+   {
+    "skill": "Freeze Boost",
+    "level": null
+   },
+   {
+    "skill": "Defense Master",
+    "level": 64
+   },
+   {
+    "skill": "Regenerate 2",
+    "level": 66
+   },
+   {
+    "skill": "Ice Amp",
+    "level": 68
+   },
+   {
+    "skill": "Ice Age",
+    "level": 74
+   }
+  ],
+  "inheritance": "ice",
+  "location": null,
+  "prereq": "Defeat in Sapporo Jail",
+  "special": [
+   {
+    "name": "Jack-o'-Lantern",
+    "level": 40
+   },
+   {
+    "name": "Jack Frost",
+    "level": 40
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "koppa-tengu",
+  "name": "Koppa Tengu",
+  "nameEn": "Koppa Tengu",
+  "nameEs": "Koppa Tengu",
+  "arcana": "temperance",
+  "level": 39,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "resist",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 23,
+   "ma": 25,
+   "en": 25,
+   "ag": 32,
+   "lu": 19
+  },
+  "skills": [
+   {
+    "skill": "Magarula",
+    "level": null
+   },
+   {
+    "skill": "One-shot Kill",
+    "level": null
+   },
+   {
+    "skill": "Taunt",
+    "level": 41
+   },
+   {
+    "skill": "Gun Boost",
+    "level": 44
+   }
+  ],
+  "inheritance": "wind",
+  "location": {
+   "es": "Cárcel de Kioto",
+   "en": "Kyoto Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Arahabaki",
+    "Kaiwan"
+   ]
+  ],
+  "down": [
+   "Kikuri-Hime"
+  ]
+ },
+ {
+  "id": "kurama-tengu",
+  "name": "Kurama Tengu",
+  "nameEn": "Kurama Tengu",
+  "nameEs": "Kurama Tengu",
+  "arcana": "hermit",
+  "level": 52,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "null",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 32,
+   "ma": 35,
+   "en": 32,
+   "ag": 39,
+   "lu": 25
+  },
+  "skills": [
+   {
+    "skill": "Heat Wave",
+    "level": null
+   },
+   {
+    "skill": "Nocturnal Flash",
+    "level": null
+   },
+   {
+    "skill": "Garudyne",
+    "level": null
+   },
+   {
+    "skill": "Wind Boost",
+    "level": 54
+   },
+   {
+    "skill": "Marakunda",
+    "level": 56
+   }
+  ],
+  "inheritance": "wind",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Queen Mab",
+    "Ganesha"
+   ],
+   [
+    "Neko Shogun",
+    "Koppa Tengu",
+    "Okuninushi"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "lamia",
+  "name": "Lamia",
+  "nameEn": "Lamia",
+  "nameEs": "Lamia",
+  "arcana": "empress",
+  "level": 18,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "resist",
+   "ice": "weak",
+   "ele": "resist",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 13,
+   "ma": 11,
+   "en": 13,
+   "ag": 14,
+   "lu": 10
+  },
+  "skills": [
+   {
+    "skill": "Agilao",
+    "level": null
+   },
+   {
+    "skill": "Brain Shake",
+    "level": null
+   },
+   {
+    "skill": "Tetraja",
+    "level": 19
+   },
+   {
+    "skill": "Brainwash Boost",
+    "level": 22
+   }
+  ],
+  "inheritance": "fire",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Hua Po",
+    "Slime"
+   ]
+  ],
+  "down": [
+   "Archangel"
+  ]
+ },
+ {
+  "id": "legion",
+  "name": "Legion",
+  "nameEn": "Legion",
+  "nameEs": "Legión",
+  "arcana": "fool",
+  "level": 34,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "resist",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "resist",
+   "nuk": "weak",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 22,
+   "ma": 21,
+   "en": 26,
+   "ag": 20,
+   "lu": 20
+  },
+  "skills": [
+   {
+    "skill": "Psio",
+    "level": null
+   },
+   {
+    "skill": "Brain Shake",
+    "level": null
+   },
+   {
+    "skill": "Life Drain",
+    "level": null
+   },
+   {
+    "skill": "Rampage",
+    "level": 36
+   },
+   {
+    "skill": "Brainwash Boost",
+    "level": 41
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Cárcel de Okinawa",
+   "en": "Okinawa Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Kaiwan",
+    "Setanta"
+   ]
+  ],
+  "down": [
+   "Shiisaa"
+  ]
+ },
+ {
+  "id": "lilim",
+  "name": "Lilim",
+  "nameEn": "Lilim",
+  "nameEs": "Lilim",
+  "arcana": "devil",
+  "level": 25,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "resist",
+   "ele": "neutral",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 15,
+   "ma": 18,
+   "en": 14,
+   "ag": 19,
+   "lu": 16
+  },
+  "skills": [
+   {
+    "skill": "Mabufula",
+    "level": null
+   },
+   {
+    "skill": "Evil Smile",
+    "level": null
+   },
+   {
+    "skill": "Null Forget",
+    "level": 27
+   },
+   {
+    "skill": "Soul Thief",
+    "level": 29
+   },
+   {
+    "skill": "Dekaja",
+    "level": 30
+   }
+  ],
+  "inheritance": "support",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Orthrus",
+    "Pisaca"
+   ]
+  ],
+  "down": [
+   "Setanta"
+  ]
+ },
+ {
+  "id": "lilith",
+  "name": "Lilith",
+  "nameEn": "Lilith",
+  "nameEs": "Lilit",
+  "arcana": "moon",
+  "level": 54,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "null",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "null",
+   "ble": "neutral",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 30,
+   "ma": 38,
+   "en": 34,
+   "ag": 35,
+   "lu": 32
+  },
+  "skills": [
+   {
+    "skill": "Mabufudyne",
+    "level": null
+   },
+   {
+    "skill": "Maragidyne",
+    "level": null
+   },
+   {
+    "skill": "Magarudyne",
+    "level": null
+   },
+   {
+    "skill": "Brain Jack",
+    "level": 56
+   },
+   {
+    "skill": "Soul Thief",
+    "level": 59
+   }
+  ],
+  "inheritance": "ice",
+  "location": {
+   "es": "Abismo",
+   "en": "Abyss"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Fortuna",
+    "Hecatoncheires"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "lucifer",
+  "name": "Lucifer",
+  "nameEn": "Lucifer",
+  "nameEs": "Lucifer",
+  "arcana": "star",
+  "level": 90,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "null",
+   "fir": "resist",
+   "ice": "resist",
+   "ele": "resist",
+   "win": "resist",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "drain"
+  },
+  "stats": {
+   "st": 59,
+   "ma": 57,
+   "en": 57,
+   "ag": 54,
+   "lu": 50
+  },
+  "skills": [
+   {
+    "skill": "Gigantomachia",
+    "level": null
+   },
+   {
+    "skill": "Blazing Hell",
+    "level": null
+   },
+   {
+    "skill": "Rebel Soul",
+    "level": null
+   },
+   {
+    "skill": "Concentrate",
+    "level": 95
+   },
+   {
+    "skill": "Morning Star",
+    "level": 96
+   },
+   {
+    "skill": "Heat Riser",
+    "level": 98
+   },
+   {
+    "skill": "Shadow of Grief",
+    "level": 99
+   }
+  ],
+  "inheritance": "almighty",
+  "location": null,
+  "prereq": "New Game+",
+  "special": [
+   {
+    "name": "Black Frost",
+    "level": 67
+   },
+   {
+    "name": "Mara",
+    "level": 72
+   },
+   {
+    "name": "Metatron",
+    "level": 80
+   },
+   {
+    "name": "Alice",
+    "level": 75
+   },
+   {
+    "name": "Yoshitsune",
+    "level": 78
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "mara",
+  "name": "Mara",
+  "nameEn": "Mara",
+  "nameEs": "Mara",
+  "arcana": "tower",
+  "level": 72,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "null",
+   "fir": "drain",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "resist",
+   "ble": "resist",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 50,
+   "ma": 43,
+   "en": 43,
+   "ag": 44,
+   "lu": 43
+  },
+  "skills": [
+   {
+    "skill": "Maragidyne",
+    "level": null
+   },
+   {
+    "skill": "One-shot Kill",
+    "level": null
+   },
+   {
+    "skill": "Charge",
+    "level": null
+   },
+   {
+    "skill": "Maeigaon",
+    "level": null
+   },
+   {
+    "skill": "Defense Master",
+    "level": 75
+   },
+   {
+    "skill": "God's Hand",
+    "level": 78
+   },
+   {
+    "skill": "Firm Stance",
+    "level": 80
+   }
+  ],
+  "inheritance": "fire",
+  "location": null,
+  "prereq": "Defeat in Okinawa Jail",
+  "special": [
+   {
+    "name": "Cerberus",
+    "level": 70
+   },
+   {
+    "name": "Kali",
+    "level": 70
+   },
+   {
+    "name": "Abaddon",
+    "level": 70
+   }
+  ],
+  "recipes": [],
+  "down": [
+   "Alice"
+  ]
+ },
+ {
+  "id": "metatron",
+  "name": "Metatron",
+  "nameEn": "Metatron",
+  "nameEs": "Metatrón",
+  "arcana": "justice",
+  "level": 80,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "null",
+   "psy": "drain",
+   "nuk": "drain",
+   "ble": "neutral",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 49,
+   "ma": 53,
+   "en": 54,
+   "ag": 52,
+   "lu": 39
+  },
+  "skills": [
+   {
+    "skill": "Megidolaon",
+    "level": null
+   },
+   {
+    "skill": "Sword Dance",
+    "level": null
+   },
+   {
+    "skill": "Makougaon",
+    "level": null
+   },
+   {
+    "skill": "Debilitate",
+    "level": null
+   },
+   {
+    "skill": "Charge",
+    "level": 82
+   },
+   {
+    "skill": "Salvation",
+    "level": 85
+   },
+   {
+    "skill": "Angelic Grace",
+    "level": 90
+   }
+  ],
+  "inheritance": "bless",
+  "location": null,
+  "prereq": "Defeat in Wisdom Jail",
+  "special": [
+   {
+    "name": "Archangel",
+    "level": 60
+   },
+   {
+    "name": "Principality",
+    "level": 60
+   },
+   {
+    "name": "Trumpeter",
+    "level": 65
+   },
+   {
+    "name": "Dominion",
+    "level": 65
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "mitra",
+  "name": "Mitra",
+  "nameEn": "Mitra",
+  "nameEs": "Mitra",
+  "arcana": "temperance",
+  "level": 33,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "null",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 19,
+   "ma": 26,
+   "en": 19,
+   "ag": 24,
+   "lu": 18
+  },
+  "skills": [
+   {
+    "skill": "Kouga",
+    "level": null
+   },
+   {
+    "skill": "Mahama",
+    "level": null
+   },
+   {
+    "skill": "Eiga",
+    "level": null
+   },
+   {
+    "skill": "Makouga",
+    "level": 34
+   },
+   {
+    "skill": "Maeiga",
+    "level": 35
+   }
+  ],
+  "inheritance": "bless",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Eligor",
+    "Principality"
+   ],
+   [
+    "Jack Frost",
+    "Lilim",
+    "Mothman"
+   ]
+  ],
+  "down": [
+   "Legion"
+  ]
+ },
+ {
+  "id": "mithras",
+  "name": "Mithras",
+  "nameEn": "Mithras",
+  "nameEs": "Mithras",
+  "arcana": "sun",
+  "level": 41,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "drain",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "weak",
+   "psy": "weak",
+   "nuk": "drain",
+   "ble": "resist",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 29,
+   "ma": 27,
+   "en": 29,
+   "ag": 26,
+   "lu": 19
+  },
+  "skills": [
+   {
+    "skill": "Marakukaja",
+    "level": null
+   },
+   {
+    "skill": "Mafreila",
+    "level": null
+   },
+   {
+    "skill": "Vicious Strike",
+    "level": null
+   },
+   {
+    "skill": "Nuke Boost",
+    "level": 43
+   },
+   {
+    "skill": "Freidyne",
+    "level": 46
+   }
+  ],
+  "inheritance": "nuke",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Mitra",
+    "Shiisaa"
+   ],
+   [
+    "Jack Frost",
+    "Kaiwan",
+    "Principality"
+   ]
+  ],
+  "down": [
+   "Okuninushi"
+  ]
+ },
+ {
+  "id": "mokoi",
+  "name": "Mokoi",
+  "nameEn": "Mokoi",
+  "nameEs": "Mokoi",
+  "arcana": "death",
+  "level": 8,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "resist",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 8,
+   "ma": 5,
+   "en": 5,
+   "ag": 9,
+   "lu": 4
+  },
+  "skills": [
+   {
+    "skill": "Tarukaja",
+    "level": null
+   },
+   {
+    "skill": "Sledgehammer",
+    "level": null
+   },
+   {
+    "skill": "Dekunda",
+    "level": 10
+   },
+   {
+    "skill": "Null Rage",
+    "level": 12
+   }
+  ],
+  "inheritance": "support",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Bicorn",
+    "Jack-o'-Lantern"
+   ]
+  ],
+  "down": [
+   "Andras"
+  ]
+ },
+ {
+  "id": "mot",
+  "name": "Mot",
+  "nameEn": "Mot",
+  "nameEs": "Mot",
+  "arcana": "death",
+  "level": 57,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "drain",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 35,
+   "ma": 38,
+   "en": 38,
+   "ag": 34,
+   "lu": 33
+  },
+  "skills": [
+   {
+    "skill": "Megidola",
+    "level": null
+   },
+   {
+    "skill": "Marakukaja",
+    "level": null
+   },
+   {
+    "skill": "Mafreidyne",
+    "level": null
+   },
+   {
+    "skill": "Concentrate",
+    "level": 59
+   },
+   {
+    "skill": "Nuke Amp",
+    "level": 62
+   },
+   {
+    "skill": "Cosmic Flare",
+    "level": 75
+   }
+  ],
+  "inheritance": "nuke",
+  "location": {
+   "es": "Abismo",
+   "en": "Abyss"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Bugs",
+    "Norn"
+   ]
+  ],
+  "down": [
+   "Cerberus"
+  ]
+ },
+ {
+  "id": "mothman",
+  "name": "Mothman",
+  "nameEn": "Mothman",
+  "nameEs": "Hombre polilla",
+  "arcana": "moon",
+  "level": 28,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "drain",
+   "win": "neutral",
+   "psy": "resist",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 18,
+   "ma": 20,
+   "en": 15,
+   "ag": 20,
+   "lu": 18
+  },
+  "skills": [
+   {
+    "skill": "Mazionga",
+    "level": null
+   },
+   {
+    "skill": "Flash Bomb",
+    "level": null
+   },
+   {
+    "skill": "Dizzy Boost",
+    "level": 30
+   },
+   {
+    "skill": "Megido",
+    "level": 33
+   }
+  ],
+  "inheritance": "elec",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Lilim",
+    "Orthrus"
+   ]
+  ],
+  "down": [
+   "Kaiwan"
+  ]
+ },
+ {
+  "id": "naga",
+  "name": "Naga",
+  "nameEn": "Naga",
+  "nameEs": "Naga",
+  "arcana": "hermit",
+  "level": 44,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "null",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 24,
+   "ma": 33,
+   "en": 24,
+   "ag": 34,
+   "lu": 24
+  },
+  "skills": [
+   {
+    "skill": "Rakukaja",
+    "level": null
+   },
+   {
+    "skill": "Memory Blow",
+    "level": null
+   },
+   {
+    "skill": "Mazionga",
+    "level": null
+   },
+   {
+    "skill": "Shock Boost",
+    "level": 46
+   },
+   {
+    "skill": "Defense Master",
+    "level": 48
+   }
+  ],
+  "inheritance": "elec",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Koppa Tengu",
+    "Kikuri-Hime"
+   ]
+  ],
+  "down": [
+   "Valkyrie"
+  ]
+ },
+ {
+  "id": "nebiros",
+  "name": "Nebiros",
+  "nameEn": "Nebiros",
+  "nameEs": "Naberius",
+  "arcana": "devil",
+  "level": 55,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "null",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 35,
+   "ma": 35,
+   "en": 36,
+   "ag": 33,
+   "lu": 33
+  },
+  "skills": [
+   {
+    "skill": "Eigaon",
+    "level": null
+   },
+   {
+    "skill": "Mudoon",
+    "level": null
+   },
+   {
+    "skill": "Mudo Boost",
+    "level": null
+   },
+   {
+    "skill": "Curse Amp",
+    "level": 58
+   },
+   {
+    "skill": "Debilitate",
+    "level": 61
+   }
+  ],
+  "inheritance": "curse",
+  "location": {
+   "es": "Abismo",
+   "en": "Abyss"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Sarasvati",
+    "Raja Naga"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "neko-shogun",
+  "name": "Neko Shogun",
+  "nameEn": "Neko Shogun",
+  "nameEs": "Neko Shogun",
+  "arcana": "star",
+  "level": 37,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "resist",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 23,
+   "ma": 24,
+   "en": 23,
+   "ag": 26,
+   "lu": 22
+  },
+  "skills": [
+   {
+    "skill": "Maragion",
+    "level": null
+   },
+   {
+    "skill": "Sukukaja",
+    "level": null
+   },
+   {
+    "skill": "Dodge Wind",
+    "level": 39
+   },
+   {
+    "skill": "Heat Wave",
+    "level": 40
+   },
+   {
+    "skill": "Speed Master",
+    "level": 42
+   }
+  ],
+  "inheritance": "fire",
+  "location": {
+   "es": "Cárcel de Kioto",
+   "en": "Kyoto Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Mitra",
+    "Mothman"
+   ]
+  ],
+  "down": [
+   "Unicorn"
+  ]
+ },
+ {
+  "id": "norn",
+  "name": "Norn",
+  "nameEn": "Norn",
+  "nameEs": "Norna",
+  "arcana": "fortune",
+  "level": 53,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "null",
+   "win": "drain",
+   "psy": "neutral",
+   "nuk": "weak",
+   "ble": "resist",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 30,
+   "ma": 39,
+   "en": 34,
+   "ag": 35,
+   "lu": 28
+  },
+  "skills": [
+   {
+    "skill": "Magarudyne",
+    "level": null
+   },
+   {
+    "skill": "Megidola",
+    "level": null
+   },
+   {
+    "skill": "Diarahan",
+    "level": 54
+   },
+   {
+    "skill": "Samarecarm",
+    "level": 56
+   },
+   {
+    "skill": "Wind Amp",
+    "level": 58
+   },
+   {
+    "skill": "Panta Rhei",
+    "level": 74
+   }
+  ],
+  "inheritance": "wind",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Raja Naga",
+    "Ganesha"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "okuninushi",
+  "name": "Okuninushi",
+  "nameEn": "Okuninushi",
+  "nameEs": "Okuninushi",
+  "arcana": "emperor",
+  "level": 42,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "null",
+   "win": "weak",
+   "psy": "drain",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 28,
+   "ma": 27,
+   "en": 27,
+   "ag": 26,
+   "lu": 25
+  },
+  "skills": [
+   {
+    "skill": "Psio",
+    "level": null
+   },
+   {
+    "skill": "Tempest Slash",
+    "level": null
+   },
+   {
+    "skill": "Matarukaja",
+    "level": null
+   },
+   {
+    "skill": "Psy Boost",
+    "level": 46
+   },
+   {
+    "skill": "Psiodyne",
+    "level": 48
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Cárcel de Kioto",
+   "en": "Kyoto Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Neko Shogun",
+    "Legion"
+   ]
+  ],
+  "down": [
+   "Queen Mab"
+  ]
+ },
+ {
+  "id": "orthrus",
+  "name": "Orthrus",
+  "nameEn": "Orthrus",
+  "nameEs": "Ortro",
+  "arcana": "hanged",
+  "level": 21,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "drain",
+   "ice": "weak",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "resist",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 16,
+   "ma": 14,
+   "en": 14,
+   "ag": 19,
+   "lu": 7
+  },
+  "skills": [
+   {
+    "skill": "Frei",
+    "level": null
+   },
+   {
+    "skill": "Double Fangs",
+    "level": null
+   },
+   {
+    "skill": "Terror Claw",
+    "level": null
+   },
+   {
+    "skill": "Dodge Ice",
+    "level": 23
+   },
+   {
+    "skill": "Freila",
+    "level": 26
+   }
+  ],
+  "inheritance": "nuke",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Berith",
+    "High Pixie"
+   ]
+  ],
+  "down": [
+   "Pisaca"
+  ]
+ },
+ {
+  "id": "pisaca",
+  "name": "Pisaca",
+  "nameEn": "Pisaca",
+  "nameEs": "Pisaca",
+  "arcana": "death",
+  "level": 22,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "neutral",
+   "ele": "resist",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "drain"
+  },
+  "stats": {
+   "st": 15,
+   "ma": 16,
+   "en": 16,
+   "ag": 14,
+   "lu": 12
+  },
+  "skills": [
+   {
+    "skill": "Life Drain",
+    "level": null
+   },
+   {
+    "skill": "Mudo",
+    "level": null
+   },
+   {
+    "skill": "Dream Needle",
+    "level": 24
+   },
+   {
+    "skill": "Mamudo",
+    "level": 25
+   }
+  ],
+  "inheritance": "curse",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Archangel",
+    "Slime"
+   ]
+  ],
+  "down": [
+   "Ame-no-Uzume"
+  ]
+ },
+ {
+  "id": "pixie",
+  "name": "Pixie",
+  "nameEn": "Pixie",
+  "nameEs": "Pixie",
+  "arcana": "lovers",
+  "level": 2,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "weak",
+   "ele": "resist",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 1,
+   "ma": 3,
+   "en": 3,
+   "ag": 4,
+   "lu": 2
+  },
+  "skills": [
+   {
+    "skill": "Zio",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": null
+   },
+   {
+    "skill": "Null Sleep",
+    "level": 3
+   },
+   {
+    "skill": "Mazio",
+    "level": 6
+   }
+  ],
+  "inheritance": "healing",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": [
+   "Bicorn"
+  ]
+ },
+ {
+  "id": "precious-pink",
+  "name": "Precious Pink",
+  "nameEn": "Precious Pink",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 18,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 5,
+   "ma": 5,
+   "en": 5,
+   "ag": 5,
+   "lu": 5
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "principality",
+  "name": "Principality",
+  "nameEn": "Principality",
+  "nameEs": "Principado",
+  "arcana": "justice",
+  "level": 27,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "resist",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 15,
+   "ma": 18,
+   "en": 17,
+   "ag": 20,
+   "lu": 18
+  },
+  "skills": [
+   {
+    "skill": "Makouga",
+    "level": null
+   },
+   {
+    "skill": "Makajam",
+    "level": null
+   },
+   {
+    "skill": "Media",
+    "level": null
+   },
+   {
+    "skill": "Recarm",
+    "level": 28
+   },
+   {
+    "skill": "Forget Boost",
+    "level": 30
+   }
+  ],
+  "inheritance": "healing",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Pisaca",
+    "Ame-no-Uzume"
+   ]
+  ],
+  "down": [
+   "Mothman"
+  ]
+ },
+ {
+  "id": "queen-mab",
+  "name": "Queen Mab",
+  "nameEn": "Queen Mab",
+  "nameEs": "Reina Mab",
+  "arcana": "magician",
+  "level": 43,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "null",
+   "ice": "neutral",
+   "ele": "resist",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 23,
+   "ma": 35,
+   "en": 26,
+   "ag": 30,
+   "lu": 22
+  },
+  "skills": [
+   {
+    "skill": "Maragion",
+    "level": null
+   },
+   {
+    "skill": "Mabufula",
+    "level": null
+   },
+   {
+    "skill": "Makajamaon",
+    "level": null
+   },
+   {
+    "skill": "Agidyne",
+    "level": 46
+   },
+   {
+    "skill": "Bufudyne",
+    "level": 48
+   }
+  ],
+  "inheritance": "fire",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Kikuri-Hime",
+    "Neko Shogun"
+   ],
+   [
+    "Koppa Tengu",
+    "Kikuri-Hime",
+    "Okuninushi"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "raja-naga",
+  "name": "Raja Naga",
+  "nameEn": "Raja Naga",
+  "nameEs": "Raja Naga",
+  "arcana": "temperance",
+  "level": 50,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "drain",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 30,
+   "ma": 32,
+   "en": 34,
+   "ag": 32,
+   "lu": 29
+  },
+  "skills": [
+   {
+    "skill": "Ziodyne",
+    "level": null
+   },
+   {
+    "skill": "Masukukaja",
+    "level": null
+   },
+   {
+    "skill": "Elec Boost",
+    "level": null
+   },
+   {
+    "skill": "Maziodyne",
+    "level": 52
+   },
+   {
+    "skill": "Evade Wind",
+    "level": 53
+   },
+   {
+    "skill": "Thunder Reign",
+    "level": 75
+   }
+  ],
+  "inheritance": "elec",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Naga",
+    "Hecatoncheires"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "sacrificial-offering",
+  "name": "Sacrificial Offering",
+  "nameEn": "Sacrificial Offering",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 64,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 40,
+   "ma": 40,
+   "en": 40,
+   "ag": 40,
+   "lu": 40
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Final",
+   "en": "Final"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "sarasvati",
+  "name": "Sarasvati",
+  "nameEn": "Sarasvati",
+  "nameEs": "Sarasvati",
+  "arcana": "priestess",
+  "level": 48,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "null",
+   "ele": "resist",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 29,
+   "ma": 33,
+   "en": 31,
+   "ag": 32,
+   "lu": 26
+  },
+  "skills": [
+   {
+    "skill": "Mediarama",
+    "level": null
+   },
+   {
+    "skill": "Dekaja",
+    "level": null
+   },
+   {
+    "skill": "Matarunda",
+    "level": null
+   },
+   {
+    "skill": "Amrita Shower",
+    "level": 50
+   },
+   {
+    "skill": "Dekunda",
+    "level": 52
+   },
+   {
+    "skill": "Diarahan",
+    "level": 54
+   }
+  ],
+  "inheritance": "healing",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Valkyrie",
+    "Naga"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "setanta",
+  "name": "Setanta",
+  "nameEn": "Setanta",
+  "nameEs": "Setanta",
+  "arcana": "emperor",
+  "level": 26,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "resist",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "resist",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 18,
+   "ma": 16,
+   "en": 18,
+   "ag": 17,
+   "lu": 16
+  },
+  "skills": [
+   {
+    "skill": "Giant Slice",
+    "level": null
+   },
+   {
+    "skill": "Dormin Rush",
+    "level": null
+   },
+   {
+    "skill": "Mafrei",
+    "level": null
+   },
+   {
+    "skill": "Sleep Boost",
+    "level": 28
+   },
+   {
+    "skill": "Regenerate 1",
+    "level": 31
+   }
+  ],
+  "inheritance": "nuke",
+  "location": {
+   "es": "Cárcel de Sapporo",
+   "en": "Sapporo Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Jack Frost",
+    "Archangel"
+   ]
+  ],
+  "down": [
+   "Principality"
+  ]
+ },
+ {
+  "id": "seth",
+  "name": "Seth",
+  "nameEn": "Seth",
+  "nameEs": "Set",
+  "arcana": "tower",
+  "level": 51,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "null",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "drain",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 32,
+   "ma": 35,
+   "en": 30,
+   "ag": 35,
+   "lu": 28
+  },
+  "skills": [
+   {
+    "skill": "One-shot Kill",
+    "level": null
+   },
+   {
+    "skill": "Eigaon",
+    "level": null
+   },
+   {
+    "skill": "Masukukaja",
+    "level": null
+   },
+   {
+    "skill": "Gun Amp",
+    "level": 53
+   },
+   {
+    "skill": "Knockdown Style",
+    "level": 55
+   },
+   {
+    "skill": "Fortify Spirit",
+    "level": 61
+   },
+   {
+    "skill": "Riot Gun",
+    "level": 68
+   }
+  ],
+  "inheritance": "curse",
+  "location": null,
+  "prereq": "Defeath in Sendai Jail",
+  "special": [
+   {
+    "name": "Mithras",
+    "level": 45
+   },
+   {
+    "name": "Koppa Tengu",
+    "level": 45
+   }
+  ],
+  "recipes": [],
+  "down": [
+   "Kurama Tengu"
+  ]
+ },
+ {
+  "id": "shiisaa",
+  "name": "Shiisaa",
+  "nameEn": "Shiisaa",
+  "nameEs": "Shiisaa",
+  "arcana": "chariot",
+  "level": 35,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 30,
+   "ma": 16,
+   "en": 23,
+   "ag": 30,
+   "lu": 13
+  },
+  "skills": [
+   {
+    "skill": "Assault Dive",
+    "level": null
+   },
+   {
+    "skill": "Sukukaja",
+    "level": null
+   },
+   {
+    "skill": "Zionga",
+    "level": null
+   },
+   {
+    "skill": "Dodge Curse",
+    "level": 37
+   },
+   {
+    "skill": "Technical High",
+    "level": 40
+   }
+  ],
+  "inheritance": "elec",
+  "location": {
+   "es": "Cárcel de Okinawa",
+   "en": "Okinawa Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Mothman",
+    "Jack Frost"
+   ]
+  ],
+  "down": [
+   "Arahabaki"
+  ]
+ },
+ {
+  "id": "siegfried",
+  "name": "Siegfried",
+  "nameEn": "Siegfried",
+  "nameEs": "Sigfrido",
+  "arcana": "strength",
+  "level": 69,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "resist",
+   "ele": "null",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 51,
+   "ma": 37,
+   "en": 47,
+   "ag": 48,
+   "lu": 31
+  },
+  "skills": [
+   {
+    "skill": "Heat Riser",
+    "level": null
+   },
+   {
+    "skill": "Charge",
+    "level": null
+   },
+   {
+    "skill": "Megaton Raid",
+    "level": null
+   },
+   {
+    "skill": "Vorpal Blade",
+    "level": 71
+   },
+   {
+    "skill": "Enduring Soul",
+    "level": 73
+   },
+   {
+    "skill": "Technical High",
+    "level": 75
+   },
+   {
+    "skill": "God's Hand",
+    "level": 78
+   }
+  ],
+  "inheritance": "phys",
+  "location": null,
+  "prereq": "Defeat in Kyoto Jail",
+  "special": [
+   {
+    "name": "Seth",
+    "level": 65
+   },
+   {
+    "name": "Thor",
+    "level": 65
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "silky",
+  "name": "Silky",
+  "nameEn": "Silky",
+  "nameEs": "Silky",
+  "arcana": "priestess",
+  "level": 6,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "resist",
+   "ele": "weak",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 4,
+   "ma": 7,
+   "en": 4,
+   "ag": 5,
+   "lu": 5
+  },
+  "skills": [
+   {
+    "skill": "Dormina",
+    "level": null
+   },
+   {
+    "skill": "Bufu",
+    "level": null
+   },
+   {
+    "skill": "Sleep Boost",
+    "level": 7
+   },
+   {
+    "skill": "Mabufu",
+    "level": 9
+   },
+   {
+    "skill": "Dekaja",
+    "level": 10
+   }
+  ],
+  "inheritance": "ice",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Pixie",
+    "Bicorn"
+   ]
+  ],
+  "down": [
+   "Mokoi"
+  ]
+ },
+ {
+  "id": "slime",
+  "name": "Slime",
+  "nameEn": "Slime",
+  "nameEs": "Limo",
+  "arcana": "chariot",
+  "level": 12,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "resist",
+   "fir": "weak",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 10,
+   "ma": 8,
+   "en": 13,
+   "ag": 7,
+   "lu": 5
+  },
+  "skills": [
+   {
+    "skill": "Hysterical Slap",
+    "level": null
+   },
+   {
+    "skill": "Evil Touch",
+    "level": null
+   },
+   {
+    "skill": "Maeiha",
+    "level": 13
+   },
+   {
+    "skill": "Rage Boost",
+    "level": 15
+   }
+  ],
+  "inheritance": "curse",
+  "location": {
+   "es": "Cárcel de Sendai",
+   "en": "Sendai Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Mokoi",
+    "Bicorn"
+   ]
+  ],
+  "down": [
+   "Hua Po"
+  ]
+ },
+ {
+  "id": "succubus",
+  "name": "Succubus",
+  "nameEn": "Succubus",
+  "nameEs": "Súcubo",
+  "arcana": "moon",
+  "level": 11,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "resist",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "weak",
+   "psy": "resist",
+   "nuk": "neutral",
+   "ble": "weak",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 5,
+   "ma": 10,
+   "en": 7,
+   "ag": 13,
+   "lu": 5
+  },
+  "skills": [
+   {
+    "skill": "Marin Karin",
+    "level": null
+   },
+   {
+    "skill": "Psi",
+    "level": null
+   },
+   {
+    "skill": "Null Brainwash",
+    "level": 12
+   },
+   {
+    "skill": "Snap",
+    "level": 14
+   }
+  ],
+  "inheritance": "psy",
+  "location": {
+   "es": "Cárcel de Shibuya",
+   "en": "Shibuya Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Arsene",
+    "Silky"
+   ]
+  ],
+  "down": [
+   "Slime"
+  ]
+ },
+ {
+  "id": "thor",
+  "name": "Thor",
+  "nameEn": "Thor",
+  "nameEs": "Thor",
+  "arcana": "chariot",
+  "level": 61,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "null",
+   "win": "weak",
+   "psy": "weak",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 42,
+   "ma": 37,
+   "en": 41,
+   "ag": 37,
+   "lu": 33
+  },
+  "skills": [
+   {
+    "skill": "Maziodyne",
+    "level": null
+   },
+   {
+    "skill": "Megaton Raid",
+    "level": null
+   },
+   {
+    "skill": "Wage War",
+    "level": null
+   },
+   {
+    "skill": "Elec Amp",
+    "level": 62
+   },
+   {
+    "skill": "Attack Master",
+    "level": 64
+   },
+   {
+    "skill": "Wild Thunder",
+    "level": 78
+   }
+  ],
+  "inheritance": "elec",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Trumpeter",
+    "Nebiros"
+   ],
+   [
+    "Valkyrie",
+    "Ganesha",
+    "Fortuna"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "trumpeter",
+  "name": "Trumpeter",
+  "nameEn": "Trumpeter",
+  "nameEs": "Trompetista",
+  "arcana": "judgement",
+  "level": 56,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "drain",
+   "ele": "resist",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "null"
+  },
+  "stats": {
+   "st": 32,
+   "ma": 39,
+   "en": 38,
+   "ag": 36,
+   "lu": 30
+  },
+  "skills": [
+   {
+    "skill": "Mafreidyne",
+    "level": null
+   },
+   {
+    "skill": "Nocturnal Flash",
+    "level": null
+   },
+   {
+    "skill": "Fortify Spirit",
+    "level": null
+   },
+   {
+    "skill": "Gun Amp",
+    "level": 58
+   },
+   {
+    "skill": "Triple Down",
+    "level": 60
+   }
+  ],
+  "inheritance": "nuke",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Norn",
+    "Sarasvati"
+   ],
+   [
+    "Naga",
+    "Sarasvati",
+    "Valkyrie"
+   ]
+  ],
+  "down": [
+   "Mot"
+  ]
+ },
+ {
+  "id": "unicorn",
+  "name": "Unicorn",
+  "nameEn": "Unicorn",
+  "nameEs": "Unicornio",
+  "arcana": "hierophant",
+  "level": 38,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "null",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "resist",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 20,
+   "ma": 26,
+   "en": 24,
+   "ag": 27,
+   "lu": 24
+  },
+  "skills": [
+   {
+    "skill": "Assault Dive",
+    "level": null
+   },
+   {
+    "skill": "Mafreila",
+    "level": null
+   },
+   {
+    "skill": "Mediarama",
+    "level": null
+   },
+   {
+    "skill": "Recarm",
+    "level": 40
+   },
+   {
+    "skill": "Regenerate 2",
+    "level": 42
+   }
+  ],
+  "inheritance": "nuke",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Shiisaa",
+    "Black Ooze"
+   ],
+   [
+    "Arahabaki",
+    "Shiisaa",
+    "Legion"
+   ]
+  ],
+  "down": [
+   "Koppa Tengu"
+  ]
+ },
+ {
+  "id": "valkyrie",
+  "name": "Valkyrie",
+  "nameEn": "Valkyrie",
+  "nameEs": "Valquiria",
+  "arcana": "strength",
+  "level": 45,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "resist",
+   "fir": "weak",
+   "ice": "null",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "drain",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 34,
+   "ma": 24,
+   "en": 29,
+   "ag": 30,
+   "lu": 25
+  },
+  "skills": [
+   {
+    "skill": "Brain Buster",
+    "level": null
+   },
+   {
+    "skill": "Bloodbath",
+    "level": null
+   },
+   {
+    "skill": "Attack Master",
+    "level": 46
+   },
+   {
+    "skill": "Oni Kagura",
+    "level": 48
+   },
+   {
+    "skill": "Deathbound",
+    "level": 50
+   }
+  ],
+  "inheritance": "phys",
+  "location": {
+   "es": "Cárcel de Osaka",
+   "en": "Osaka Jail"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Mithras",
+    "Unicorn"
+   ]
+  ],
+  "down": [
+   "Hecatoncheires"
+  ]
+ },
+ {
+  "id": "vanitas",
+  "name": "Vanitas",
+  "nameEn": "Vanitas",
+  "nameEs": null,
+  "arcana": "treasure",
+  "level": 42,
+  "treasure": true,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 20,
+   "ma": 20,
+   "en": 20,
+   "ag": 20,
+   "lu": 20
+  },
+  "skills": [],
+  "inheritance": "none",
+  "location": {
+   "es": "Cárcel de Okinawa",
+   "en": "Okinawa Jail"
+  },
+  "prereq": "Enemy Only",
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "yatagarasu",
+  "name": "Yatagarasu",
+  "nameEn": "Yatagarasu",
+  "nameEs": "Yatagarasu",
+  "arcana": "sun",
+  "level": 58,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "neutral",
+   "gun": "weak",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "resist",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 36,
+   "ma": 42,
+   "en": 30,
+   "ag": 41,
+   "lu": 32
+  },
+  "skills": [
+   {
+    "skill": "Ziodyne",
+    "level": null
+   },
+   {
+    "skill": "Sukukaja",
+    "level": null
+   },
+   {
+    "skill": "Dekunda",
+    "level": null
+   },
+   {
+    "skill": "Maziodyne",
+    "level": 59
+   },
+   {
+    "skill": "Knockdown Style",
+    "level": 61
+   }
+  ],
+  "inheritance": "elec",
+  "location": {
+   "es": "Final",
+   "en": "Final"
+  },
+  "prereq": null,
+  "special": null,
+  "recipes": [
+   [
+    "Kurama Tengu",
+    "Seth"
+   ]
+  ],
+  "down": []
+ },
+ {
+  "id": "yoshitsune",
+  "name": "Yoshitsune",
+  "nameEn": "Yoshitsune",
+  "nameEs": "Yoshitsune",
+  "arcana": "tower",
+  "level": 78,
+  "treasure": false,
+  "party": null,
+  "resistances": {
+   "phy": "resist",
+   "gun": "neutral",
+   "fir": "resist",
+   "ice": "neutral",
+   "ele": "null",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 57,
+   "ma": 46,
+   "en": 45,
+   "ag": 52,
+   "lu": 41
+  },
+  "skills": [
+   {
+    "skill": "Myriad Slashes",
+    "level": null
+   },
+   {
+    "skill": "Brave Blade",
+    "level": null
+   },
+   {
+    "skill": "Charge",
+    "level": null
+   },
+   {
+    "skill": "Rebel Soul",
+    "level": 81
+   },
+   {
+    "skill": "Masukukaja",
+    "level": 82
+   },
+   {
+    "skill": "Knockdown Style",
+    "level": 84
+   },
+   {
+    "skill": "Hassou Tobi",
+    "level": 87
+   }
+  ],
+  "inheritance": "phys",
+  "location": null,
+  "prereq": null,
+  "special": [
+   {
+    "name": "Siegfried",
+    "level": 70
+   },
+   {
+    "name": "Arahabaki",
+    "level": 50
+   },
+   {
+    "name": "Okuninushi",
+    "level": 50
+   },
+   {
+    "name": "Yatagarasu",
+    "level": 60
+   }
+  ],
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "captain-kidd",
+  "name": "Captain Kidd",
+  "nameEn": "Captain Kidd",
+  "nameEs": "Capitán Kidd",
+  "arcana": "chariot",
+  "level": 1,
+  "treasure": false,
+  "party": "skull",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "resist",
+   "win": "weak",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 4,
+   "ma": 3,
+   "en": 6,
+   "ag": 4,
+   "lu": 2
+  },
+  "skills": [
+   {
+    "skill": "Zio",
+    "level": null
+   },
+   {
+    "skill": "Lunge",
+    "level": 4
+   },
+   {
+    "skill": "Tarukaja",
+    "level": 6
+   },
+   {
+    "skill": "Headbutt",
+    "level": 10
+   },
+   {
+    "skill": "Mazio",
+    "level": 16
+   },
+   {
+    "skill": "Rebel Soul",
+    "level": 20
+   },
+   {
+    "skill": "Zionga",
+    "level": 26
+   },
+   {
+    "skill": "Swift Strike",
+    "level": 30
+   },
+   {
+    "skill": "Shock Boost",
+    "level": 35
+   },
+   {
+    "skill": "Attack Master",
+    "level": 40
+   },
+   {
+    "skill": "Mazionga",
+    "level": 43
+   },
+   {
+    "skill": "Megaton Raid",
+    "level": 46
+   },
+   {
+    "skill": "Matarukaja",
+    "level": 48
+   },
+   {
+    "skill": "Elec Boost",
+    "level": 50
+   },
+   {
+    "skill": "Deathbound",
+    "level": 53
+   },
+   {
+    "skill": "Ziodyne",
+    "level": 54
+   },
+   {
+    "skill": "Maziodyne",
+    "level": 60
+   },
+   {
+    "skill": "Technical High",
+    "level": 65
+   },
+   {
+    "skill": "Charge",
+    "level": 68
+   },
+   {
+    "skill": "Agneyastra",
+    "level": 70
+   },
+   {
+    "skill": "God's Hand",
+    "level": 73
+   }
+  ],
+  "inheritance": "elec",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "carmen",
+  "name": "Carmen",
+  "nameEn": "Carmen",
+  "nameEs": "Carmen",
+  "arcana": "lovers",
+  "level": 4,
+  "treasure": false,
+  "party": "panther",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "null",
+   "ice": "weak",
+   "ele": "resist",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 4,
+   "ma": 8,
+   "en": 4,
+   "ag": 7,
+   "lu": 6
+  },
+  "skills": [
+   {
+    "skill": "Agi",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": null
+   },
+   {
+    "skill": "Tarunda",
+    "level": 6
+   },
+   {
+    "skill": "Soul Thief",
+    "level": 10
+   },
+   {
+    "skill": "Maragi",
+    "level": 12
+   },
+   {
+    "skill": "Dekaja",
+    "level": 19
+   },
+   {
+    "skill": "Agilao",
+    "level": 21
+   },
+   {
+    "skill": "Diarama",
+    "level": 25
+   },
+   {
+    "skill": "Marin Karin",
+    "level": 27
+   },
+   {
+    "skill": "Dodge Ice",
+    "level": 30
+   },
+   {
+    "skill": "Maragion",
+    "level": 35
+   },
+   {
+    "skill": "Fire Boost",
+    "level": 38
+   },
+   {
+    "skill": "Matarunda",
+    "level": 42
+   },
+   {
+    "skill": "Agidyne",
+    "level": 46
+   },
+   {
+    "skill": "Burn Boost",
+    "level": 50
+   },
+   {
+    "skill": "Maragidyne",
+    "level": 54
+   },
+   {
+    "skill": "Diarahan",
+    "level": 57
+   },
+   {
+    "skill": "Brain Jack",
+    "level": 60
+   },
+   {
+    "skill": "Concentrate",
+    "level": 64
+   },
+   {
+    "skill": "Fire Amp",
+    "level": 67
+   },
+   {
+    "skill": "Blazing Hell",
+    "level": 73
+   }
+  ],
+  "inheritance": "fire",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "goemon",
+  "name": "Goemon",
+  "nameEn": "Goemon",
+  "nameEs": "Goemon",
+  "arcana": "emperor",
+  "level": 4,
+  "treasure": false,
+  "party": "fox",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "weak",
+   "ice": "resist",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 7,
+   "ma": 6,
+   "en": 6,
+   "ag": 8,
+   "lu": 4
+  },
+  "skills": [
+   {
+    "skill": "Bufu",
+    "level": null
+   },
+   {
+    "skill": "Cleave",
+    "level": null
+   },
+   {
+    "skill": "Sukukaja",
+    "level": 5
+   },
+   {
+    "skill": "Knockdown Style",
+    "level": 10
+   },
+   {
+    "skill": "Giant Slice",
+    "level": 13
+   },
+   {
+    "skill": "Vicious Strike",
+    "level": 16
+   },
+   {
+    "skill": "Mabufu",
+    "level": 18
+   },
+   {
+    "skill": "Dodge Fire",
+    "level": 21
+   },
+   {
+    "skill": "Freeze Boost",
+    "level": 24
+   },
+   {
+    "skill": "Bufula",
+    "level": 27
+   },
+   {
+    "skill": "Speed Master",
+    "level": 31
+   },
+   {
+    "skill": "Tempest Slash",
+    "level": 34
+   },
+   {
+    "skill": "Taunt",
+    "level": 37
+   },
+   {
+    "skill": "Mabufula",
+    "level": 40
+   },
+   {
+    "skill": "Masukukaja",
+    "level": 45
+   },
+   {
+    "skill": "Evade Fire",
+    "level": 51
+   },
+   {
+    "skill": "Bufudyne",
+    "level": 53
+   },
+   {
+    "skill": "Myriad Slashes",
+    "level": 58
+   },
+   {
+    "skill": "Mabufudyne",
+    "level": 64
+   },
+   {
+    "skill": "Brave Blade",
+    "level": 68
+   },
+   {
+    "skill": "Sword Dance",
+    "level": 72
+   }
+  ],
+  "inheritance": "ice",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "johanna",
+  "name": "Johanna",
+  "nameEn": "Johanna",
+  "nameEs": "Johanna",
+  "arcana": "priestess",
+  "level": 4,
+  "treasure": false,
+  "party": "queen",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "weak",
+   "nuk": "null",
+   "ble": "neutral",
+   "cur": "resist"
+  },
+  "stats": {
+   "st": 5,
+   "ma": 6,
+   "en": 5,
+   "ag": 9,
+   "lu": 6
+  },
+  "skills": [
+   {
+    "skill": "Frei",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": null
+   },
+   {
+    "skill": "Rakukaja",
+    "level": 6
+   },
+   {
+    "skill": "Mafrei",
+    "level": 11
+   },
+   {
+    "skill": "Media",
+    "level": 14
+   },
+   {
+    "skill": "Sledgehammer",
+    "level": 18
+   },
+   {
+    "skill": "Diarama",
+    "level": 23
+   },
+   {
+    "skill": "Freila",
+    "level": 25
+   },
+   {
+    "skill": "Flash Bomb",
+    "level": 28
+   },
+   {
+    "skill": "Defense Master",
+    "level": 32
+   },
+   {
+    "skill": "Marakukaja",
+    "level": 34
+   },
+   {
+    "skill": "Mafreila",
+    "level": 38
+   },
+   {
+    "skill": "Mediarama",
+    "level": 41
+   },
+   {
+    "skill": "Nuke Boost",
+    "level": 45
+   },
+   {
+    "skill": "Dekunda",
+    "level": 48
+   },
+   {
+    "skill": "Freidyne",
+    "level": 51
+   },
+   {
+    "skill": "Diarahan",
+    "level": 53
+   },
+   {
+    "skill": "Mafreidyne",
+    "level": 58
+   },
+   {
+    "skill": "Mediarahan",
+    "level": 62
+   },
+   {
+    "skill": "Nuke Amp",
+    "level": 68
+   },
+   {
+    "skill": "Atomic Flare",
+    "level": 72
+   }
+  ],
+  "inheritance": "nuke",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "milady",
+  "name": "Milady",
+  "nameEn": "Milady",
+  "nameEs": "Milady",
+  "arcana": "empress",
+  "level": 4,
+  "treasure": false,
+  "party": "noir",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "resist",
+   "nuk": "weak",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 6,
+   "ma": 6,
+   "en": 5,
+   "ag": 7,
+   "lu": 6
+  },
+  "skills": [
+   {
+    "skill": "Psi",
+    "level": null
+   },
+   {
+    "skill": "Evil Touch",
+    "level": null
+   },
+   {
+    "skill": "Snap",
+    "level": 6
+   },
+   {
+    "skill": "Hysterical Slap",
+    "level": 9
+   },
+   {
+    "skill": "Technical Adept",
+    "level": 11
+   },
+   {
+    "skill": "Amrita Drop",
+    "level": 14
+   },
+   {
+    "skill": "Mapsi",
+    "level": 18
+   },
+   {
+    "skill": "Gun Boost",
+    "level": 24
+   },
+   {
+    "skill": "Psio",
+    "level": 28
+   },
+   {
+    "skill": "Triple Down",
+    "level": 30
+   },
+   {
+    "skill": "Mapsio",
+    "level": 33
+   },
+   {
+    "skill": "Evil Smile",
+    "level": 37
+   },
+   {
+    "skill": "Psy Boost",
+    "level": 40
+   },
+   {
+    "skill": "Amrita Shower",
+    "level": 42
+   },
+   {
+    "skill": "Heat Riser",
+    "level": 48
+   },
+   {
+    "skill": "Psiodyne",
+    "level": 53
+   },
+   {
+    "skill": "One-shot Kill",
+    "level": 56
+   },
+   {
+    "skill": "Ailment Boost",
+    "level": 60
+   },
+   {
+    "skill": "Mapsiodyne",
+    "level": 64
+   },
+   {
+    "skill": "Gun Amp",
+    "level": 67
+   },
+   {
+    "skill": "Riot Gun",
+    "level": 73
+   }
+  ],
+  "inheritance": "psy",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "necronomicon",
+  "name": "Necronomicon",
+  "nameEn": "Necronomicon",
+  "nameEs": "Necronomicón",
+  "arcana": "hermit",
+  "level": 4,
+  "treasure": false,
+  "party": "oracle",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 2,
+   "ma": 6,
+   "en": 5,
+   "ag": 7,
+   "lu": 8
+  },
+  "skills": [
+   {
+    "skill": "Analysis",
+    "level": null
+   },
+   {
+    "skill": "Moral Support",
+    "level": 12
+   },
+   {
+    "skill": "Active Support",
+    "level": 21
+   },
+   {
+    "skill": "Moral Boost",
+    "level": 30
+   },
+   {
+    "skill": "Active Boost",
+    "level": 36
+   },
+   {
+    "skill": "Moral Boost EX",
+    "level": 43
+   },
+   {
+    "skill": "Active Boost EX",
+    "level": 49
+   },
+   {
+    "skill": "Final Guard",
+    "level": 53
+   }
+  ],
+  "inheritance": "support",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "pithos",
+  "name": "Pithos",
+  "nameEn": "Pithos",
+  "nameEs": null,
+  "arcana": "hope",
+  "level": 1,
+  "treasure": false,
+  "party": "sophia",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 2,
+   "ma": 5,
+   "en": 4,
+   "ag": 6,
+   "lu": 4
+  },
+  "skills": [
+   {
+    "skill": "Kouha",
+    "level": null
+   },
+   {
+    "skill": "Rakunda",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": 2
+   },
+   {
+    "skill": "Makouha",
+    "level": 12
+   },
+   {
+    "skill": "Media",
+    "level": 14
+   },
+   {
+    "skill": "Bless Boost",
+    "level": 16
+   },
+   {
+    "skill": "Tetraja",
+    "level": 19
+   },
+   {
+    "skill": "Kouga",
+    "level": 23
+   },
+   {
+    "skill": "Diarama",
+    "level": 26
+   },
+   {
+    "skill": "Recarm",
+    "level": 30
+   },
+   {
+    "skill": "Divine Grace",
+    "level": 32
+   },
+   {
+    "skill": "Mediarama",
+    "level": 35
+   },
+   {
+    "skill": "Makouga",
+    "level": 40
+   },
+   {
+    "skill": "Marakunda",
+    "level": 43
+   },
+   {
+    "skill": "Bless Amp",
+    "level": 46
+   },
+   {
+    "skill": "Kougaon",
+    "level": 48
+   },
+   {
+    "skill": "Diarahan",
+    "level": 51
+   },
+   {
+    "skill": "Rebel Soul",
+    "level": 52
+   },
+   {
+    "skill": "Samarecarm",
+    "level": 55
+   },
+   {
+    "skill": "Mediarahan",
+    "level": 60
+   },
+   {
+    "skill": "Angelic Grace",
+    "level": 70
+   },
+   {
+    "skill": "Makougaon",
+    "level": 5188
+   }
+  ],
+  "inheritance": "bless",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "valjean",
+  "name": "Valjean",
+  "nameEn": "Valjean",
+  "nameEs": null,
+  "arcana": "apostle",
+  "level": 40,
+  "treasure": false,
+  "party": "wolf",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "neutral",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 34,
+   "ma": 26,
+   "en": 32,
+   "ag": 25,
+   "lu": 22
+  },
+  "skills": [
+   {
+    "skill": "Tarukaja",
+    "level": null
+   },
+   {
+    "skill": "Rakukaja",
+    "level": null
+   },
+   {
+    "skill": "Sukukaja",
+    "level": null
+   },
+   {
+    "skill": "Megido",
+    "level": null
+   },
+   {
+    "skill": "Triple Down",
+    "level": null
+   },
+   {
+    "skill": "Gun Boost",
+    "level": null
+   },
+   {
+    "skill": "Technical High",
+    "level": 42
+   },
+   {
+    "skill": "Dekaja",
+    "level": 45
+   },
+   {
+    "skill": "Enduring Soul",
+    "level": 49
+   },
+   {
+    "skill": "Heat Riser",
+    "level": 52
+   },
+   {
+    "skill": "Tetraja",
+    "level": 56
+   },
+   {
+    "skill": "Deathbound",
+    "level": 58
+   },
+   {
+    "skill": "Megidola",
+    "level": 60
+   },
+   {
+    "skill": "One-shot Kill",
+    "level": 65
+   },
+   {
+    "skill": "Debilitate",
+    "level": 68
+   },
+   {
+    "skill": "Firm Stance",
+    "level": 72
+   },
+   {
+    "skill": "Agneyastra",
+    "level": 76
+   },
+   {
+    "skill": "Megidolaon",
+    "level": 80
+   }
+  ],
+  "inheritance": "almighty",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ },
+ {
+  "id": "zorro",
+  "name": "Zorro",
+  "nameEn": "Zorro",
+  "nameEs": "Zorro",
+  "arcana": "magician",
+  "level": 1,
+  "treasure": false,
+  "party": "mona",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "weak",
+   "win": "null",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "resist",
+   "cur": "neutral"
+  },
+  "stats": {
+   "st": 2,
+   "ma": 5,
+   "en": 3,
+   "ag": 7,
+   "lu": 4
+  },
+  "skills": [
+   {
+    "skill": "Garu",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": 2
+   },
+   {
+    "skill": "Media",
+    "level": 6
+   },
+   {
+    "skill": "Magaru",
+    "level": 10
+   },
+   {
+    "skill": "Technical Adept",
+    "level": 13
+   },
+   {
+    "skill": "Recarm",
+    "level": 18
+   },
+   {
+    "skill": "Diarama",
+    "level": 22
+   },
+   {
+    "skill": "Garula",
+    "level": 26
+   },
+   {
+    "skill": "Dodge Elec",
+    "level": 28
+   },
+   {
+    "skill": "Dormin Rush",
+    "level": 32
+   },
+   {
+    "skill": "Mediarama",
+    "level": 34
+   },
+   {
+    "skill": "Magarula",
+    "level": 37
+   },
+   {
+    "skill": "Masukunda",
+    "level": 40
+   },
+   {
+    "skill": "Wind Boost",
+    "level": 43
+   },
+   {
+    "skill": "Samarecarm",
+    "level": 45
+   },
+   {
+    "skill": "Diarahan",
+    "level": 49
+   },
+   {
+    "skill": "Garudyne",
+    "level": 52
+   },
+   {
+    "skill": "Mediarahan",
+    "level": 57
+   },
+   {
+    "skill": "Magarudyne",
+    "level": 60
+   },
+   {
+    "skill": "Wind Amp",
+    "level": 65
+   },
+   {
+    "skill": "Salvation",
+    "level": 71
+   }
+  ],
+  "inheritance": "wind",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": []
+ }
+]

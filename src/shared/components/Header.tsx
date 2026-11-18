@@ -45,8 +45,8 @@ export function Header({ game }: Props) {
     { to: `${base}/builds`, label: 'Builds', end: false },
   ].filter((l) => {
     if (l.end) return true;
-    // P4G muestra solo las secciones que ya tiene.
-    if (game.id === 'p4g') return game.tools.some((t) => l.to.endsWith(`/${t.path}`));
+    // P4G y los juegos nuevos muestran solo las secciones que ya tienen.
+    if (game.id !== 'p5r' && game.id !== 'p3r') return game.tools.some((t) => l.to.endsWith(`/${t.path}`));
     return l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.to.endsWith('/calculadora') || l.to.endsWith('/clases') || l.to.endsWith('/builds');
   });
 
