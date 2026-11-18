@@ -12,3 +12,6 @@ Llevar una Persona del Arcana del confidente suma una nota más (máximo 3); la 
   están revisados a mano mirando los mensajes (`MANUAL` en `apply.py`).
 
 Los scripts `.BF` de `EVENT_DATA/SCRIPT/E700` solo guardan qué opción se eligió (flags 752–767); los puntos no están ahí.
+
+Llamadas de teléfono: están en `E700/E700_300.BMD` (no en `CAMP/CHAT`, que son los chats de grupo). Las que la guía
+cargó con otra traducción se buscan por parecido y pasan a tener el texto oficial en español y los puntos del juego.

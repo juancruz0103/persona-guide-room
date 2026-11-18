@@ -280,7 +280,7 @@
       {
        "en": "I'll help you anytime.",
        "es": "Te ayudaré cuando sea.",
-       "points": 3
+       "points": 2
       }
      ]
     }
@@ -362,7 +362,7 @@
       {
        "en": "You did great.",
        "es": "Lo has hecho genial.",
-       "points": 3
+       "points": 2
       },
       {
        "en": "That's nothing special.",
@@ -754,12 +754,12 @@
       {
        "en": "A partner.",
        "es": "Un socio.",
-       "points": 0
+       "points": 2
       },
       {
        "en": "A key item.",
        "es": "Un objeto fundamental.",
-       "points": 0
+       "points": 2
       }
      ]
     },

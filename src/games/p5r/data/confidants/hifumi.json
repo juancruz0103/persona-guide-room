@@ -770,17 +770,17 @@
       {
        "en": "That's a great way to see it.",
        "es": "Es una buena forma de verlo.",
-       "points": 3
+       "points": 2
       },
       {
        "en": "You're overthinking it.",
        "es": "Le estás dando demasiadas vueltas.",
-       "points": 0
+       "points": 2
       },
       {
        "en": "Let's win the next one.",
        "es": "La próxima la ganamos.",
-       "points": 0
+       "points": 2
       }
      ]
     },
@@ -798,17 +798,17 @@
       {
        "en": "Anything for you.",
        "es": "Lo que sea por ti.",
-       "points": 3
+       "points": 2
       },
       {
        "en": "It was all a big coincidence.",
        "es": "Fue una gran coincidencia.",
-       "points": 0
+       "points": 2
       },
       {
        "en": "It was love at first sight.",
        "es": "Fue amor a primera vista.",
-       "points": 0
+       "points": 2
       }
      ]
     }

@@ -146,12 +146,12 @@
       {
        "en": "Moonlight Carrot.",
        "es": "Zanahoria lunar.",
-       "points": 0
+       "points": 2
       },
       {
        "en": "Sun Tomato.",
        "es": "Tomate solar.",
-       "points": 0
+       "points": 2
       },
       {
        "en": "Jewel Melon.",
@@ -1034,7 +1034,7 @@
       {
        "en": "I miss you.",
        "es": "Te echo de menos.",
-       "points": 3
+       "points": 2
       }
      ]
     },
@@ -1057,7 +1057,7 @@
       {
        "en": "You sound so happy.",
        "es": "Pareces muy feliz.",
-       "points": 3
+       "points": 2
       },
       {
        "en": "I can't wait to try it.",

@@ -757,18 +757,18 @@
      "options": [
       {
        "en": "You did great.",
-       "es": "Lo hiciste genial.",
-       "points": 3
+       "es": "Estuviste genial.",
+       "points": 2
       },
       {
        "en": "Futaba did great.",
-       "es": "Futaba lo hizo genial.",
-       "points": 3
+       "es": "Futaba estuvo genial.",
+       "points": 2
       },
       {
        "en": "You two were already family.",
-       "es": "Vosotros ya erais familia.",
-       "points": 3
+       "es": "Vosotros ya erais una familia.",
+       "points": 2
       }
      ]
     }

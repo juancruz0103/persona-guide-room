@@ -85,7 +85,7 @@
      "options": [
       {
        "en": "You're already fast enough.",
-       "es": "Ya eres bastante rápido.",
+       "es": "Ya eres lo suficientemente rápido.",
        "points": 2
       },
       {
@@ -95,7 +95,7 @@
       },
       {
        "en": "It's never too late, man.",
-       "es": "Nunca es tarde, tío.",
+       "es": "Nunca es demasiado tarde, tío.",
        "points": 2
       }
      ]
@@ -343,7 +343,7 @@
      "options": [
       {
        "en": "Don't worry. I gotcha.",
-       "es": "Tranquilo, yo me encargo.",
+       "es": "Yo me encargo.",
        "points": 2
       }
      ]

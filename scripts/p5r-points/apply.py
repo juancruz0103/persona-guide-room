@@ -31,11 +31,55 @@ MANUAL = {
     ('Claro que sí.', 'Vamos a celebrarlo.', 'No me importa quién pague.'): [3, 3, 0],
     ('Ese parece necesario.', 'Sería mejor no sentirlo.', 'Es la semilla de un nuevo amor.'): [2, 0, 2],
     ('Me pareció un poco raro.', 'Cosas que pasan.', 'Seguro que hizo trampas.'): [3, 0, 3],
+    ('Claro.', 'Soy tuyo para siempre.', 'Eso depende de ti.'): [2, 3, 0],
+    ('Te estaré animando.', 'Eres un chico listo.', '¿Podrás contra él?'): [2, 0, 2],
 }
+
+
+def fuzzy(index, opts):
+    """Busca la elección del juego que contiene todas estas opciones aunque el texto no sea idéntico
+    (las llamadas se cargaron de la guía, a veces con otra traducción y sin todas las opciones)."""
+    import difflib
+    ours = [norm(o['es']) for o in opts]
+    if len(ours) < 2 and len(ours[0]) < 12:
+        return None  # una sola respuesta corta («Vale.») podría ser cualquier llamada
+    best = None
+    for key, hits in index.items():
+        if len(key) < len(ours):
+            continue
+        used, score = set(), []
+        for o in ours:
+            r, j = max((difflib.SequenceMatcher(None, o, k).ratio(), j) for j, k in enumerate(key) if j not in used) if len(used) < len(key) else (0, -1)
+            if r < 0.6:
+                break
+            used.add(j); score.append((r, j))
+        else:
+            avg = sum(r for r, _ in score) / len(score)
+            if avg >= 0.7 and (not best or avg > best[0]):
+                best = (avg, [j for _, j in score], hits[0], key)
+    return best
+
+
+def game_points(hit, n):
+    """Puntos por opción de una elección del juego, cuando se pueden saber sin la guía."""
+    codes = [x for x in hit['codes'] if x in TIER]
+    if len(codes) == n:
+        return [shown(x) for x in codes]
+    if not codes:
+        return [0] * n
+    return None
 
 
 def main():
     index = sels(sys.argv[1])
+    raw = {}
+    for f in sorted(glob.glob(os.path.join(sys.argv[1], '*.BMD'))):
+        from verify import items
+        cur = None
+        for kind, v in items(f):
+            if kind == 'sel':
+                cur = tuple(norm(o) for o in v)
+                raw.setdefault(cur, v)
     stats, changed = Counter(), []
     for f in sorted(glob.glob(os.path.join(sys.argv[2], '*.json'))):
         d = json.load(open(f))
@@ -44,9 +88,24 @@ def main():
         dirty = False
         for r in d.get('ranks', []):
             for c in r.get('conversations', []):
-                if c.get('kind') != 'conversation' or 'options' not in c:
+                if c.get('kind') not in ('conversation', 'phone') or 'options' not in c:
                     continue
                 hits = index.get(tuple(norm(o.get('es', '')) for o in c['options']))
+                if not hits and c.get('kind') == 'phone':
+                    fz = fuzzy(index, c['options'])
+                    gp = fz and game_points(fz[2], len(fz[3]))
+                    if fz and gp is not None:
+                        new = [gp[j] for j in fz[1]]
+                        old = [(o['es'], o['points']) for o in c['options']]
+                        for o, j, p in zip(c['options'], fz[1], new):
+                            o['es'] = raw[fz[3]][j]
+                            o['points'] = p
+                            o.pop('recommended', None)
+                        if [(o['es'], o['points']) for o in c['options']] != old:
+                            changed.append((d['id'], r['rank'], old, [(o['es'], o['points']) for o in c['options']]))
+                            dirty = True
+                        stats['llamada (texto oficial)'] += 1
+                        continue
                 if not hits:
                     stats['sin cruzar'] += 1
                     continue
