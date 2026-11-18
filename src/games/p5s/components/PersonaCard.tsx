@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
-import { personaCardFocus, personaImage } from '../../p5r/services/images';
+import { personaCardFocus } from '../../p5r/services/images';
+import { personaImage } from '../services/images';
 import { getArcana } from '../data/arcana';
 import { PARTY_OWNER, personaName } from '../services/personas';
 import type { Persona } from '../types';
@@ -14,8 +15,6 @@ export function PersonaCard({ persona }: { persona: Persona }) {
     <span className="tag tag--party">{L('Compañero', 'Party')}</span>
   ) : persona.special ? (
     <span className="tag tag--special">{L('Especial', 'Special')}</span>
-  ) : persona.treasure ? (
-    <span className="tag tag--dlc">{L('Tesoro', 'Treasure')}</span>
   ) : null;
   return (
     <Link to={`/p5s/calculadora/persona/${persona.id}`} className={styles.card}>

@@ -6,13 +6,12 @@ export interface ArcanaInfo { id: ArcanaId; numeral: string; readonly name: stri
 
 const ORDER: ArcanaId[] = [
   'fool', 'magician', 'priestess', 'empress', 'emperor', 'hierophant', 'lovers', 'chariot', 'justice', 'hermit', 'fortune',
-  'strength', 'hanged', 'death', 'temperance', 'devil', 'tower', 'star', 'moon', 'sun', 'judgement', 'hope', 'apostle', 'treasure',
+  'strength', 'hanged', 'death', 'temperance', 'devil', 'tower', 'star', 'moon', 'sun', 'judgement', 'hope', 'apostle',
 ];
-/** Arcanas nuevas de Strikers (las de Sophia y Wolf) y los demonios del tesoro. */
+/** Arcanas nuevas de Strikers (las de Sophia y Wolf). */
 const EXTRA: Partial<Record<ArcanaId, { es: string; en: string }>> = {
   hope: { es: 'Esperanza', en: 'Hope' },
   apostle: { es: 'Apóstol', en: 'Apostle' },
-  treasure: { es: 'Tesoro', en: 'Treasure' },
 };
 
 export const ARCANAS: ArcanaInfo[] = ORDER.map((id) => {

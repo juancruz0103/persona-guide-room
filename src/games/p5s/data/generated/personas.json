@@ -71,45 +71,6 @@
   "down": []
  },
  {
-  "id": "abyssal-bezoar",
-  "name": "Abyssal Bezoar",
-  "nameEn": "Abyssal Bezoar",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 62,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "neutral",
-   "ele": "neutral",
-   "win": "neutral",
-   "psy": "neutral",
-   "nuk": "neutral",
-   "ble": "weak",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 35,
-   "ma": 35,
-   "en": 35,
-   "ag": 35,
-   "lu": 35
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Abismo",
-   "en": "Abyss"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
- },
- {
   "id": "alice",
   "name": "Alice",
   "nameEn": "Alice",
@@ -259,45 +220,6 @@
   "down": []
  },
  {
-  "id": "amulet-of-heroes",
-  "name": "Amulet of Heroes",
-  "nameEn": "Amulet of Heroes",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 59,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "neutral",
-   "ele": "neutral",
-   "win": "neutral",
-   "psy": "neutral",
-   "nuk": "weak",
-   "ble": "neutral",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 30,
-   "ma": 30,
-   "en": 30,
-   "ag": 30,
-   "lu": 30
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Cárcel de Osaka",
-   "en": "Osaka Jail"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
- },
- {
   "id": "andras",
   "name": "Andras",
   "nameEn": "Andras",
@@ -359,45 +281,6 @@
   "down": [
    "Succubus"
   ]
- },
- {
-  "id": "apple-of-rage",
-  "name": "Apple of Rage",
-  "nameEn": "Apple of Rage",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 47,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "neutral",
-   "ele": "weak",
-   "win": "neutral",
-   "psy": "neutral",
-   "nuk": "neutral",
-   "ble": "neutral",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 25,
-   "ma": 25,
-   "en": 25,
-   "ag": 25,
-   "lu": 25
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Cárcel de Kioto",
-   "en": "Kyoto Jail"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
  },
  {
   "id": "arahabaki",
@@ -1106,45 +989,6 @@
   ]
  },
  {
-  "id": "diabolus-jewel",
-  "name": "Diabolus Jewel",
-  "nameEn": "Diabolus Jewel",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 27,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "weak",
-   "ele": "neutral",
-   "win": "neutral",
-   "psy": "neutral",
-   "nuk": "neutral",
-   "ble": "neutral",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 10,
-   "ma": 10,
-   "en": 10,
-   "ag": 10,
-   "lu": 10
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Cárcel de Sendai",
-   "en": "Sendai Jail"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
- },
- {
   "id": "dominion",
   "name": "Dominion",
   "nameEn": "Dominion",
@@ -1423,45 +1267,6 @@
   "down": [
    "Raja Naga"
   ]
- },
- {
-  "id": "frozen-blood",
-  "name": "Frozen Blood",
-  "nameEn": "Frozen Blood",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 38,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "neutral",
-   "ele": "neutral",
-   "win": "neutral",
-   "psy": "weak",
-   "nuk": "neutral",
-   "ble": "neutral",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 15,
-   "ma": 15,
-   "en": 15,
-   "ag": 15,
-   "lu": 15
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Cárcel de Sapporo",
-   "en": "Sapporo Jail"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
  },
  {
   "id": "ganesha",
@@ -3635,45 +3440,6 @@
   ]
  },
  {
-  "id": "precious-pink",
-  "name": "Precious Pink",
-  "nameEn": "Precious Pink",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 18,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "weak",
-   "ice": "neutral",
-   "ele": "neutral",
-   "win": "neutral",
-   "psy": "neutral",
-   "nuk": "neutral",
-   "ble": "neutral",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 5,
-   "ma": 5,
-   "en": 5,
-   "ag": 5,
-   "lu": 5
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Cárcel de Shibuya",
-   "en": "Shibuya Jail"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
- },
- {
   "id": "principality",
   "name": "Principality",
   "nameEn": "Principality",
@@ -3874,45 +3640,6 @@
     "Hecatoncheires"
    ]
   ],
-  "down": []
- },
- {
-  "id": "sacrificial-offering",
-  "name": "Sacrificial Offering",
-  "nameEn": "Sacrificial Offering",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 64,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "neutral",
-   "ele": "neutral",
-   "win": "neutral",
-   "psy": "neutral",
-   "nuk": "neutral",
-   "ble": "neutral",
-   "cur": "weak"
-  },
-  "stats": {
-   "st": 40,
-   "ma": 40,
-   "en": 40,
-   "ag": 40,
-   "lu": 40
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Final",
-   "en": "Final"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
   "down": []
  },
  {
@@ -4736,45 +4463,6 @@
   "down": [
    "Hecatoncheires"
   ]
- },
- {
-  "id": "vanitas",
-  "name": "Vanitas",
-  "nameEn": "Vanitas",
-  "nameEs": null,
-  "arcana": "treasure",
-  "level": 42,
-  "treasure": true,
-  "party": null,
-  "resistances": {
-   "phy": "neutral",
-   "gun": "neutral",
-   "fir": "neutral",
-   "ice": "neutral",
-   "ele": "neutral",
-   "win": "weak",
-   "psy": "neutral",
-   "nuk": "neutral",
-   "ble": "neutral",
-   "cur": "neutral"
-  },
-  "stats": {
-   "st": 20,
-   "ma": 20,
-   "en": 20,
-   "ag": 20,
-   "lu": 20
-  },
-  "skills": [],
-  "inheritance": "none",
-  "location": {
-   "es": "Cárcel de Okinawa",
-   "en": "Okinawa Jail"
-  },
-  "prereq": "Enemy Only",
-  "special": null,
-  "recipes": [],
-  "down": []
  },
  {
   "id": "yatagarasu",

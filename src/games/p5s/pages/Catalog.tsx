@@ -18,7 +18,7 @@ export default function Catalog() {
   const clamp = (v: string) => Math.min(99, Math.max(1, Number(v) || 1));
   const KINDS = [
     ['all', L('Todas', 'All')], ['normal', L('Solo Personas', 'Personas only')],
-    ['party', L('Solo compañeros', 'Party only')], ['treasure', L('Solo tesoros', 'Treasure only')],
+    ['party', L('Solo compañeros', 'Party only')],
   ] as const;
 
   return (

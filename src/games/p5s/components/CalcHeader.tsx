@@ -1,15 +1,25 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import styles from '../../p5r/components/CalculatorHeader.module.css';
 import { L } from '../../../i18n';
 
-/** Encabezado de la calculadora de Strikers. Por ahora solo el catálogo; la fusión se suma cuando esté validada. */
+const TABS = () => [
+  { id: 'catalog', label: L('Catálogo', 'Catalog'), to: '/p5s/calculadora' },
+  { id: 'fuse', label: L('Fusionar', 'Fuse'), to: '/p5s/calculadora/fusionar' },
+  { id: 'reverse', label: L('¿Cómo la consigo?', 'How do I get it?'), to: '/p5s/calculadora/fusionar?modo=inversa' },
+];
+
 export function CalcHeader() {
+  const { pathname, search } = useLocation();
+  const active = pathname.endsWith('/fusionar') ? (new URLSearchParams(search).get('modo') === 'inversa' ? 'reverse' : 'fuse') : 'catalog';
   return (
     <section className={styles.band}>
       <div className={`container ${styles.inner}`}>
         <h1 className={styles.title}>{L('Calculadora de Personas', 'Persona Calculator')}</h1>
         <nav className={styles.tabs} aria-label={L('Secciones de la calculadora', 'Calculator sections')}>
-          <Link to="/p5s/calculadora" aria-current="page" className={`btn btn--dark ${styles.tab}`}>{L('Catálogo', 'Catalog')}</Link>
+          {TABS().map((t) => (
+            <Link key={t.id} to={t.to} aria-current={active === t.id ? 'page' : undefined}
+              className={`btn ${active === t.id ? 'btn--dark' : 'btn--light'} ${styles.tab}`}>{t.label}</Link>
+          ))}
         </nav>
       </div>
     </section>

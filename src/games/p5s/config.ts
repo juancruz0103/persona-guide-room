@@ -11,13 +11,13 @@ export const p5sGame: GameInfo = {
     {
       id: 'calculator',
       path: 'calculadora',
-      title: 'Catálogo de Personas',
-      description: 'Las Personas de Strikers con sus estadísticas, afinidades, habilidades y dónde encontrar cada una.',
+      title: 'Calculadora de Personas',
+      description: 'Las Personas de Strikers con sus recetas de fusión, estadísticas, afinidades, habilidades y dónde encontrar cada una.',
     },
   ],
 };
 
 const TOOLS_EN: Record<string, { title: string; description: string }> = {
-  calculator: { title: 'Persona catalog', description: "Strikers' Personas with their stats, affinities, skills and where to find each one." },
+  calculator: { title: 'Persona Calculator', description: "Strikers' Personas with their fusion recipes, stats, affinities, skills and where to find each one." },
 };
 for (const t of p5sGame.tools) bilingual(t, TOOLS_EN[t.id]);

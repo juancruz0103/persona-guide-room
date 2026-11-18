@@ -1,11 +1,14 @@
 import { useParams } from 'react-router-dom';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { BackButton } from '../../../shared/components/BackButton';
-import { personaImage, personaProfileFocus } from '../../p5r/services/images';
+import { personaProfileFocus } from '../../p5r/services/images';
+import { personaImage } from '../services/images';
 import { AffinityGrid } from '../../p5r/components/AffinityGrid';
 import { FavoriteButton } from '../../p5r/components/FavoriteButton';
 import { CalcHeader } from '../components/CalcHeader';
 import { SkillRow } from '../components/SkillRow';
+import { RecipeList } from '../components/RecipeList';
+import { getFusionEngine } from '../fusion';
 import { getArcana } from '../data/arcana';
 import { getPersona, PARTY_OWNER, personaName } from '../services/personas';
 import styles from '../../p4g/pages/PersonaProfile.module.css';
@@ -57,7 +60,6 @@ export default function PersonaProfile() {
             <div className={styles.tags}>
               {p.party && <span className="tag tag--party">{L('Persona de', 'Persona of')} {PARTY_OWNER[p.party]}</span>}
               {p.special && <span className="tag tag--special">{L('Fusión especial', 'Special fusion')}</span>}
-              {p.treasure && <span className="tag tag--dlc">{L('Demonio del tesoro', 'Treasure demon')}</span>}
             </div>
             <div className={styles.actions}><FavoriteButton personaId={`p5s:${p.id}`} /></div>
           </div>
@@ -99,6 +101,19 @@ export default function PersonaProfile() {
             )}
           </div>
         </div>
+        {!p.party && p.prereq !== 'Enemy Only' && (
+          <section className={styles.box}>
+            <h2 className={styles.h2}>{p.special ? L('Fusión especial', 'Special fusion') : L('Cómo conseguirla por fusión', 'How to fuse it')}</h2>
+            {getFusionEngine().recipesFor(p).length ? (
+              <>
+                {p.special && <p className={styles.note}>{L('Cada ingrediente tiene que tener al menos el nivel indicado.', 'Each ingredient must be at least the level shown.')}</p>}
+                <RecipeList items={getFusionEngine().recipesFor(p).map((recipe) => ({ recipe }))} />
+              </>
+            ) : (
+              <p className={styles.note}>{L('No sale de ninguna fusión.', "It doesn't come from any fusion.")}</p>
+            )}
+          </section>
+        )}
       </article>
     </>
   );

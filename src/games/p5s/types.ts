@@ -9,7 +9,7 @@ export type ArcanaId =
   | 'fool' | 'magician' | 'priestess' | 'empress' | 'emperor' | 'hierophant'
   | 'lovers' | 'chariot' | 'justice' | 'hermit' | 'fortune' | 'strength'
   | 'hanged' | 'death' | 'temperance' | 'devil' | 'tower' | 'star' | 'moon'
-  | 'sun' | 'judgement' | 'hope' | 'apostle' | 'treasure';
+  | 'sun' | 'judgement' | 'hope' | 'apostle';
 
 export interface Persona {
   id: string;

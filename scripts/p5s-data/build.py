@@ -68,7 +68,8 @@ def persona(name, d, is_party):
     }
 
 
-out = [persona(n, d, False) for n, d in demons.items()] + [persona(n, d, True) for n, d in party.items()]
+# Los «Treasure» de la fuente son enemigos que no se pueden conseguir como Persona (confirmado en el juego).
+out = [persona(n, d, False) for n, d in demons.items() if d['race'] != 'Treasure'] + [persona(n, d, True) for n, d in party.items()]
 # Royal usa "Johanna" con otro id; los compañeros sin imagen propia quedan con su slug
 RT = royal_text['skills']
 

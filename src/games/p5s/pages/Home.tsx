@@ -19,18 +19,19 @@ export default function Home() {
               {L('Viajá.', 'Travel.')}<br /><span>{L('Fusioná.', 'Fuse.')}</span><br />{L('Robá corazones.', 'Steal hearts.')}
             </h1>
             <p className={styles.lead}>
-              {L('El compendio de Strikers con las estadísticas, afinidades y habilidades de cada Persona, y dónde encontrarla.', "Strikers' compendium with every Persona's stats, affinities and skills, and where to find it.")}
+              {L('El compendio de Strikers con las recetas de fusión del juego, y las estadísticas, afinidades y habilidades de cada Persona.', "Strikers' compendium with the game's fusion recipes, and every Persona's stats, affinities and skills.")}
             </p>
             <div className={styles.ctas}>
-              <Link to="calculadora" className="btn btn--dark">{L('Abrir catálogo →', 'Open catalog →')}</Link>
+              <Link to="calculadora" className="btn btn--dark">{L('Abrir calculadora →', 'Open calculator →')}</Link>
+              <Link to="calculadora/fusionar" className="btn btn--light">{L('Fusionar', 'Fuse')}</Link>
             </div>
           </div>
           <ul className={styles.stats} aria-label={L('El proyecto en números', 'The project in numbers')}>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-accent)', ['--n' as string]: 'var(--c-accent)' }}>
-              <strong>{all.filter((p) => !p.party && !p.treasure).length}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
+              <strong>{all.filter((p) => !p.party).length}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-text)', ['--n' as string]: 'var(--c-text)' }}>
-              <strong>{all.filter((p) => p.treasure).length}</strong><span>{L('Demonios del tesoro', 'Treasure demons')}</span>
+              <strong>{all.filter((p) => p.special).length}</strong><span>{L('Fusiones especiales', 'Special fusions')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-primary)', ['--n' as string]: 'var(--c-primary-light)' }}>
               <strong>{all.filter((p) => p.party).length}</strong><span>{L('Personas de los Ladrones Fantasma', "Phantom Thieves' Personas")}</span>
