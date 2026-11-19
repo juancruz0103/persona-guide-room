@@ -9,6 +9,7 @@ import { getPersona, isDlc, personaName, skillDescription, skillName, statsAt, t
 import type { Persona, PersonaSkill } from '../types';
 import styles from '../../p4g/pages/PersonaProfile.module.css';
 import art from '../components/Art.module.css';
+import { FavoriteButton } from '../../p5r/components/FavoriteButton';
 import { L, isEn } from '../../../i18n';
 
 const STATS = () => [['hp', L('PV', 'HP')], ['sp', L('PE', 'SP')], ['melee', L('Cuerpo a cuerpo', 'Melee')], ['gun', L('Disparo', 'Gun')]] as const;
@@ -68,6 +69,7 @@ export default function PersonaProfile() {
               {p.special && <span className="tag tag--special">{L('Fusión especial', 'Special fusion')}</span>}
               {isDlc(p) && <span className="tag tag--party">DLC</span>}
             </div>
+            <div className={styles.actions}><FavoriteButton personaId={`p5t:${p.id}`} /></div>
           </div>
         </header>
 
