@@ -4,13 +4,12 @@ import { L } from '../../../i18n';
 
 const TABS = () => [
   { id: 'catalog', label: L('Catálogo', 'Catalog'), to: '/p5s/calculadora' },
-  { id: 'fuse', label: L('Fusionar', 'Fuse'), to: '/p5s/calculadora/fusionar' },
-  { id: 'reverse', label: L('¿Cómo la consigo?', 'How do I get it?'), to: '/p5s/calculadora/fusionar?modo=inversa' },
+  { id: 'reverse', label: L('¿Cómo la consigo?', 'How do I get it?'), to: '/p5s/calculadora/fusionar' },
 ];
 
 export function CalcHeader() {
-  const { pathname, search } = useLocation();
-  const active = pathname.endsWith('/fusionar') ? (new URLSearchParams(search).get('modo') === 'inversa' ? 'reverse' : 'fuse') : 'catalog';
+  const { pathname } = useLocation();
+  const active = pathname.endsWith('/fusionar') ? 'reverse' : 'catalog';
   return (
     <section className={styles.band}>
       <div className={`container ${styles.inner}`}>

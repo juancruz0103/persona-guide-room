@@ -23,7 +23,7 @@ export default function Home() {
             </p>
             <div className={styles.ctas}>
               <Link to="calculadora" className="btn btn--dark">{L('Abrir calculadora →', 'Open calculator →')}</Link>
-              <Link to="calculadora/fusionar" className="btn btn--light">{L('Fusionar', 'Fuse')}</Link>
+              <Link to="calculadora/fusionar" className="btn btn--light">{L('¿Cómo la consigo?', 'How do I get it?')}</Link>
             </div>
           </div>
           <ul className={styles.stats} aria-label={L('El proyecto en números', 'The project in numbers')}>

@@ -8,10 +8,10 @@ import styles from '../../p4g/pages/PersonaProfile.module.css';
 import catalog from '../../p5r/pages/Catalog.module.css';
 import { L } from '../../../i18n';
 
-/** «¿Cómo la consigo?» (recetas de una Persona) y «Fusionar» (qué se crea usando una Persona). */
+/** «¿Cómo la consigo?»: las recetas de una Persona. En Strikers el juego ya lista qué podés crear, así que no hace falta el modo inverso. */
 export default function Fusion() {
   const [params, setParams] = useSearchParams();
-  const reverse = params.get('modo') === 'inversa';
+  const reverse = true;
   const pick = getPersona(params.get('p') ?? '');
   const engine = getFusionEngine();
   const options = getAllPersonas().filter((p) => !p.party || !reverse);
