@@ -1,0 +1,3 @@
+/* El arte de Tactica es de cuerpo entero con fondo transparente: se muestra completo, sin recortar. */
+.art img { object-fit: contain; padding: 10px; }
+.type { background: var(--brand-3, #697c58); color: #fff; }

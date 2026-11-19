@@ -1,0 +1,166 @@
+{
+ "types": {
+  "burn": {
+   "es": "Quemadura",
+   "en": "Burn"
+  },
+  "shock": {
+   "es": "Electrificación",
+   "en": "Shock"
+  },
+  "sleep": {
+   "es": "Sueño",
+   "en": "Sleep"
+  },
+  "sweep": {
+   "es": "Barrido",
+   "en": "Sweep"
+  },
+  "brainwash": {
+   "es": "Hipnosis",
+   "en": "Hypnosis"
+  },
+  "forget": {
+   "es": "Amnesia",
+   "en": "Forget"
+  },
+  "vortex": {
+   "es": "Vórtice",
+   "en": "Vortex"
+  },
+  "dizzy": {
+   "es": "Mareo",
+   "en": "Dizzy"
+  },
+  "despair": {
+   "es": "Desesperación",
+   "en": "Despair"
+  },
+  "freeze": {
+   "es": "Congelación",
+   "en": "Freeze"
+  }
+ },
+ "chart": {
+  "burn": {
+   "burn": "burn",
+   "vortex": "despair",
+   "brainwash": "vortex",
+   "dizzy": "forget",
+   "sleep": "brainwash",
+   "despair": "freeze",
+   "forget": "sweep",
+   "freeze": "dizzy",
+   "sweep": "shock",
+   "shock": "sleep"
+  },
+  "vortex": {
+   "burn": "despair",
+   "vortex": "vortex",
+   "brainwash": "forget",
+   "dizzy": "brainwash",
+   "sleep": "freeze",
+   "despair": "dizzy",
+   "forget": "sweep",
+   "freeze": "shock",
+   "sweep": "sleep",
+   "shock": "burn"
+  },
+  "brainwash": {
+   "burn": "vortex",
+   "vortex": "forget",
+   "brainwash": "brainwash",
+   "dizzy": "freeze",
+   "sleep": "dizzy",
+   "despair": "sweep",
+   "forget": "sleep",
+   "freeze": "shock",
+   "sweep": "burn",
+   "shock": "despair"
+  },
+  "dizzy": {
+   "burn": "forget",
+   "vortex": "brainwash",
+   "brainwash": "freeze",
+   "dizzy": "dizzy",
+   "sleep": "sweep",
+   "despair": "sleep",
+   "forget": "shock",
+   "freeze": "despair",
+   "sweep": "burn",
+   "shock": "vortex"
+  },
+  "sleep": {
+   "burn": "brainwash",
+   "vortex": "freeze",
+   "brainwash": "dizzy",
+   "dizzy": "sweep",
+   "sleep": "sleep",
+   "despair": "shock",
+   "forget": "despair",
+   "freeze": "burn",
+   "sweep": "forget",
+   "shock": "vortex"
+  },
+  "despair": {
+   "burn": "freeze",
+   "vortex": "dizzy",
+   "brainwash": "sweep",
+   "dizzy": "sleep",
+   "sleep": "shock",
+   "despair": "despair",
+   "forget": "burn",
+   "freeze": "forget",
+   "sweep": "vortex",
+   "shock": "freeze"
+  },
+  "forget": {
+   "burn": "sweep",
+   "vortex": "sweep",
+   "brainwash": "sleep",
+   "dizzy": "shock",
+   "sleep": "despair",
+   "despair": "burn",
+   "forget": "forget",
+   "freeze": "vortex",
+   "sweep": "freeze",
+   "shock": "brainwash"
+  },
+  "freeze": {
+   "burn": "dizzy",
+   "vortex": "shock",
+   "brainwash": "shock",
+   "dizzy": "despair",
+   "sleep": "burn",
+   "despair": "forget",
+   "forget": "vortex",
+   "freeze": "freeze",
+   "sweep": "brainwash",
+   "shock": "sweep"
+  },
+  "sweep": {
+   "burn": "shock",
+   "vortex": "sleep",
+   "brainwash": "burn",
+   "dizzy": "burn",
+   "sleep": "forget",
+   "despair": "vortex",
+   "forget": "freeze",
+   "freeze": "brainwash",
+   "sweep": "sweep",
+   "shock": "dizzy"
+  },
+  "shock": {
+   "burn": "sleep",
+   "vortex": "burn",
+   "brainwash": "despair",
+   "dizzy": "vortex",
+   "sleep": "vortex",
+   "despair": "freeze",
+   "forget": "brainwash",
+   "freeze": "sweep",
+   "sweep": "dizzy",
+   "shock": "shock"
+  }
+ }
+}

@@ -34,8 +34,8 @@ export default function About() {
           <p>
             {L('Soy', "I'm")} <strong>Juan</strong>
             {L(
-              ', fan de la saga Persona. La guía empezó con Persona 5 Royal y hoy también tiene Persona 4 Golden, Persona 3 Reload y Persona 5 Strikers: los diálogos y las respuestas salen de los textos oficiales de cada juego y los voy comprobando mientras juego.',
-              ", a fan of the Persona series. The guide started with Persona 5 Royal and now also covers Persona 4 Golden, Persona 3 Reload and Persona 5 Strikers: dialogue and answers come from each game's official text and I check them as I play.",
+              ', fan de la saga Persona. La guía empezó con Persona 5 Royal y hoy también tiene Persona 4 Golden, Persona 3 Reload, Persona 5 Strikers y Persona 5 Tactica: los diálogos y las respuestas salen de los textos oficiales de cada juego y los voy comprobando mientras juego.',
+              ", a fan of the Persona series. The guide started with Persona 5 Royal and now also covers Persona 4 Golden, Persona 3 Reload, Persona 5 Strikers and Persona 5 Tactica: dialogue and answers come from each game's official text and I check them as I play.",
             )}
           </p>
           <a className={styles.mail} href="https://github.com/juancruz0103/persona-guide-room" target="_blank" rel="noopener noreferrer">
