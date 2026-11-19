@@ -90,7 +90,7 @@ src/
       ├─ services/      Lógica separada de la interfaz (+ tests)
       ├─ components/    Componentes propios de P5R
       └─ pages/         Pantallas
-public/                 Favicon e imagen de vista previa para redes (og.png)
+public/                 Favicon e imagen de vista previa para redes (og-saga.png)
 scripts/                Importador de datos
 docs/                   Informe y decisiones del proyecto
 ```
