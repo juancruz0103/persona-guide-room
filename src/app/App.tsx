@@ -58,6 +58,9 @@ const P5SCatalog = lazy(() => import('../games/p5s/pages/Catalog'));
 const P5SProfile = lazy(() => import('../games/p5s/pages/PersonaProfile'));
 const P5SFusion = lazy(() => import('../games/p5s/pages/Fusion'));
 const P5SBond = lazy(() => import('../games/p5s/pages/Bond'));
+const P5SBuilds = lazy(() => import('../games/p5s/pages/Builds'));
+const P5SBuildView = lazy(() => import('../games/p5s/pages/BuildView'));
+const P5SBuildEditor = lazy(() => import('../games/p5s/pages/BuildEditor'));
 
 /** Elige la pantalla según el juego de la URL. Si un juego no la tiene, muestra "no encontrado". */
 function byGame(screens: Partial<Record<string, ComponentType>>) {
@@ -82,9 +85,9 @@ const TechnicalScreen = p5rOnly(Technical);
 const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes });
 const ConfidantsScreen = p5rOnly(Confidants);
 const ConfidantProfileScreen = p5rOnly(ConfidantProfile);
-const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds });
-const BuildViewScreen = byGame({ p5r: BuildView, p3r: P3BuildView, p4g: P4BuildView });
-const BuildEditorScreen = byGame({ p5r: BuildEditor, p3r: P3BuildEditor, p4g: P4BuildEditor });
+const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds, p5s: P5SBuilds });
+const BuildViewScreen = byGame({ p5r: BuildView, p3r: P3BuildView, p4g: P4BuildView, p5s: P5SBuildView });
+const BuildEditorScreen = byGame({ p5r: BuildEditor, p3r: P3BuildEditor, p4g: P4BuildEditor, p5s: P5SBuildEditor });
 
 /**
  * Rutas.

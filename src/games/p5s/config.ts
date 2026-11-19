@@ -20,10 +20,17 @@ export const p5sGame: GameInfo = {
       title: 'Vínculo',
       description: 'Las 30 habilidades de VÍNCULO: qué da cada una, cuánto cuesta cada nivel y cómo se desbloquea.',
     },
+    {
+      id: 'builds',
+      path: 'builds',
+      title: 'Builds de Personas',
+      description: 'Rutas de fusión paso a paso armadas por la comunidad: qué heredar en cada paso (hasta 4 habilidades).',
+    },
   ],
 };
 
 const TOOLS_EN: Record<string, { title: string; description: string }> = {
+  builds: { title: 'Persona builds', description: 'Community step-by-step fusion routes: what to inherit at each step (up to 4 skills).' },
   bond: { title: 'Bond', description: 'The 30 BOND skills: what each gives, what each level costs and how to unlock it.' },
   calculator: { title: 'Persona Calculator', description: "Strikers' Personas with their fusion recipes, stats, affinities, skills and where to find each one." },
 };

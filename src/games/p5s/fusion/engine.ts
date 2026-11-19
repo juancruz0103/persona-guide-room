@@ -52,6 +52,16 @@ export class FusionEngine {
     return out.filter((x) => x.ingredients.every((i) => i.persona));
   }
 
+  /** Persona que sale de exactamente estos ingredientes (ids ordenados y unidos con «|»). */
+  resultsOf(key: string): string | undefined {
+    for (const r of this.personas) {
+      for (const rec of this.recipesFor(r)) {
+        if (rec.ingredients.map((i) => i.persona.id).sort().join('|') === key) return r.id;
+      }
+    }
+    return undefined;
+  }
+
   /** Todo lo que se puede crear usando esta Persona como ingrediente. */
   fusionsWith(p: Persona): { result: Persona; recipe: Recipe }[] {
     const out: { result: Persona; recipe: Recipe }[] = [];

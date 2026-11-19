@@ -23,3 +23,16 @@ describe('fusión de Strikers', () => {
     expect(e.recipesFor(getPersonaByName('Thor')!)).toHaveLength(2);
   });
 });
+
+import { canInherit, checkStep } from '../services/builds';
+describe('builds de Strikers', () => {
+  it('Dominio (Bendición) no hereda Eigaon (Maldición), visto en el juego', () => {
+    expect(canInherit('dominion', 'Eigaon')).toBe(false);
+    expect(canInherit('dominion', 'Mapsiodyne')).toBe(true);
+  });
+  it('valida la fusión triple de Abadón', () => {
+    const ing = (persona: string) => ({ persona, skills: [] });
+    expect(checkStep({ ingredients: ['bugs', 'lilith', 'mot'].map(ing), result: 'abaddon', inherit: [], learn: [] })).toBe('ok');
+    expect(checkStep({ ingredients: ['bugs', 'mot'].map(ing), result: 'abaddon', inherit: [], learn: [] })).toBe('bad');
+  });
+});
