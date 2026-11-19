@@ -934,7 +934,12 @@
     "level": 50
    }
   ],
-  "recipes": [],
+  "recipes": [
+   [
+    "Thor",
+    "Yatagarasu"
+   ]
+  ],
   "down": [
    "Yatagarasu"
   ],

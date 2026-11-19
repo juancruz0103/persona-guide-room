@@ -43,3 +43,11 @@ describe('reemplazo por la misma Arcana', () => {
     expect(checkStep({ ingredients: ['fortuna', 'hua-po'].map(ing), result: 'lilith', inherit: [], learn: [] })).toBe('ok');
   });
 });
+
+describe('recetas vistas en el video', () => {
+  it('Cerbero = Thor + Yatagarasu (además de la especial Ortro + Raja Naga)', () => {
+    const ing = (persona: string) => ({ persona, skills: [] });
+    expect(checkStep({ ingredients: ['yatagarasu', 'thor'].map(ing), result: 'cerberus', inherit: [], learn: [] })).toBe('ok');
+    expect(checkStep({ ingredients: ['orthrus', 'raja-naga'].map(ing), result: 'cerberus', inherit: [], learn: [] })).toBe('ok');
+  });
+});

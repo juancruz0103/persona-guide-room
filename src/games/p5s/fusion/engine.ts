@@ -41,13 +41,15 @@ export class FusionEngine {
 
   recipesFor(r: Persona): Recipe[] {
     if (r.party) return [];
-    if (r.special) {
-      return [{ kind: 'special', ingredients: r.special.map((s) => ({ persona: this.get(s.name)!, minLevel: s.level })) }];
-    }
-    const out: Recipe[] = r.recipes.map((names) => ({
+    const special: Recipe[] = r.special
+      ? [{ kind: 'special', ingredients: r.special.map((s) => ({ persona: this.get(s.name)!, minLevel: s.level })) }]
+      : [];
+    const own: Recipe[] = r.recipes.map((names) => ({
       kind: 'recipe',
       ingredients: names.map((n) => ({ persona: this.get(n)!, minLevel: this.get(n)?.level, anyOfArcana: true })),
     }));
+    if (r.special) return [...special, ...own].filter((x) => x.ingredients.every((i) => i.persona));
+    const out: Recipe[] = own;
     const next = this.next(r);
     if (next) {
       for (const d of r.down) out.push({ kind: 'down', ingredients: [{ persona: next }, { persona: this.get(d)! }] });

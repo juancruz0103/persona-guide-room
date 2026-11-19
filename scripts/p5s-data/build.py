@@ -81,6 +81,11 @@ def persona(name, d, is_party):
 
 # Los «Treasure» de la fuente son enemigos que no se pueden conseguir como Persona (confirmado en el juego).
 out = [persona(n, d, False) for n, d in demons.items() if d['race'] != 'Treasure'] + [persona(n, d, True) for n, d in party.items()]
+# Recetas que faltan en la fuente y se vieron en el juego (video de una build): Cerbero = Thor + Yatagarasu.
+EXTRA_RECIPES = {'Cerberus': [['Thor', 'Yatagarasu']]}
+for x in out:
+    x['recipes'] += EXTRA_RECIPES.get(x['name'], [])
+
 # Pandora: la Persona despertada de Sophia (spoiler). Mismas habilidades que Pithos más Makougaon,
 # que llega con el despertar; anula Bendición (Samurai Gamers). Pithos no tiene Makougaon.
 pithos = next(x for x in out if x['name'] == 'Pithos')

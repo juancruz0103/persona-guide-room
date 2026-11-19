@@ -22,7 +22,8 @@ export function checkStep(s: BuildStep): StepCheck {
 /** Ingredientes fijos si el resultado es una fusión especial (para autocompletar). */
 export function specialIngredients(resultId: string): string[] | null {
   const p = getPersona(resultId);
-  return p?.special ? getFusionEngine().recipesFor(p)[0]?.ingredients.map((i) => i.persona.id) ?? null : null;
+  // Si además tiene recetas normales (Cerbero) no se autocompleta: el usuario elige cuál usa.
+  return p?.special && !p.recipes.length ? getFusionEngine().recipesFor(p)[0]?.ingredients.map((i) => i.persona.id) ?? null : null;
 }
 
 /** Qué sale de fusionar estas dos Personas (Strikers no tiene tabla: se busca en las recetas). */
