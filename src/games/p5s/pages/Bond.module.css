@@ -5,13 +5,10 @@
 .notice { border-left: 4px solid var(--c-accent); background: var(--c-surface); padding: 10px 14px; color: var(--c-text-muted); font-size: 14px; }
 .filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .row { display: grid; gap: 10px; }
-.rowTitle { margin: 8px 0 0; text-shadow: 1px 1px 0 #000; font-family: var(--f-label); font-size: 20px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c-accent); }
+.rowTitle { margin: 8px 0 0; paint-order: stroke fill; -webkit-text-stroke: 5px #000; text-shadow: 0 3px 0 #000; font-family: var(--f-label); font-size: 20px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c-accent); }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
 .card { background: var(--c-surface); border-left: 4px solid var(--c-primary); padding: 12px 14px; display: grid; gap: 6px; align-content: start; }
-.name { margin: 0; font-size: 19px; font-weight: 800; color: #fff; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 2px 0 #000; letter-spacing: 0.01em; }
-.head { display: flex; gap: 10px; align-items: center; }
-.icon { width: 52px; height: 52px; flex: none; background: var(--c-paper); clip-path: polygon(8% 0, 100% 0, 92% 100%, 0 100%); display: grid; place-items: center; }
-.icon img { width: 48px; height: 48px; }
+.name { margin: 0; font-size: 20px; font-weight: 800; color: #fff; letter-spacing: 0.02em; paint-order: stroke fill; -webkit-text-stroke: 5px #000; text-shadow: 0 3px 0 #000; }
 .alt { font-size: 12px; color: var(--c-text-dim); }
 .desc { margin: 0; font-size: 14px; color: var(--c-text-muted); }
 .levels { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }

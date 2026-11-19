@@ -1,9 +1,6 @@
 import { useState } from 'react';
 import { BOND_ROWS, BOND_SKILLS, type BondRow, type BondSkill } from '../data/bond';
 import styles from './Bond.module.css';
-
-const ICONS = import.meta.glob('../assets/bond/*.webp', { eager: true, query: '?url', import: 'default' }) as Record<string, string>;
-const icon = (id: string) => ICONS[`../assets/bond/${id}.webp`];
 import { L, isEn } from '../../../i18n';
 
 /** Agrupa niveles seguidos con el mismo costo: Nv 1–3 · 3 pts. */
@@ -21,13 +18,8 @@ function Card({ s }: { s: BondSkill }) {
   const per = L(s.perLevelEs ?? '', s.perLevelEn ?? '');
   return (
     <article className={styles.card}>
-      <div className={styles.head}>
-        {icon(s.id) && <span className={styles.icon}><img src={icon(s.id)} alt="" loading="lazy" /></span>}
-        <div>
-          <h3 className={styles.name}>{L(s.nameEs, s.nameEn)}</h3>
-          {!isEn() && <span className={styles.alt}>{s.nameEn}{s.official && <> · <span className={styles.official}>{L('Texto oficial', 'Official text')}</span></>}</span>}
-        </div>
-      </div>
+      <h3 className={styles.name}>{L(s.nameEs, s.nameEn)}</h3>
+      {!isEn() && <span className={styles.alt}>{s.nameEn}{s.official && <> · <span className={styles.official}>{L('Texto oficial', 'Official text')}</span></>}</span>}
       <p className={styles.desc}>{L(s.descEs, s.descEn)}</p>
       {per && <p className={styles.desc}>{L('Cada nivel', 'Each level')}: <strong>{per}</strong></p>}
       <div className={styles.levels} aria-label={L('Costo por nivel', 'Cost per level')}>
