@@ -1,13 +1,12 @@
 import { Link } from 'react-router-dom';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { p5Game } from '../config';
-import { getAllPersonas, getPartyPersonas } from '../services/personas';
 import { NoSpanishNote } from '../components/NoSpanishNote';
+import { HOME_STATS } from '../../../core/homeStats';
 import styles from '../../p5r/pages/Home.module.css';
 import { L } from '../../../i18n';
 
 export default function Home() {
-  const all = getAllPersonas();
   return (
     <>
       <section className={styles.hero}>
@@ -29,13 +28,13 @@ export default function Home() {
           </div>
           <ul className={styles.stats} aria-label={L('El proyecto en números', 'The project in numbers')}>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-accent)', ['--n' as string]: 'var(--c-accent)' }}>
-              <strong>{all.length}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
+              <strong>{HOME_STATS.p5.personas}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-text)', ['--n' as string]: 'var(--c-text)' }}>
               <strong>21</strong><span>{L('Arcanas', 'Arcana')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-primary)', ['--n' as string]: 'var(--c-primary-light)' }}>
-              <strong>{all.filter((p) => p.flags.special).length}</strong><span>{L('Fusiones especiales', 'Special fusions')}</span>
+              <strong>{HOME_STATS.p5.special}</strong><span>{L('Fusiones especiales', 'Special fusions')}</span>
             </li>
           </ul>
         </div>
@@ -53,7 +52,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
-        <p style={{ color: 'var(--c-text-muted)' }}>{L(`También tiene la ficha de las ${getPartyPersonas().length} Personas de los Ladrones Fantasma.`, `It also has the profile of the Phantom Thieves' ${getPartyPersonas().length} Personas.`)}</p>
+        <p style={{ color: 'var(--c-text-muted)' }}>{L(`También tiene la ficha de las ${HOME_STATS.p5.party} Personas de los Ladrones Fantasma.`, `It also has the profile of the Phantom Thieves' ${HOME_STATS.p5.party} Personas.`)}</p>
       </section>
     </>
   );

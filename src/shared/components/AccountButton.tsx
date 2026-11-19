@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { pendingReports } from '../../core/account/builds';
 import { useAuth } from '../../core/account/AuthContext';
 import styles from './LanguageButton.module.css';
 import { L } from '../../i18n';
@@ -15,7 +14,7 @@ export function AccountButton() {
   const admin = !!profile?.is_admin;
   useEffect(() => {
     if (!admin) return setPending(0);
-    const load = () => void pendingReports().then(setPending);
+    const load = () => void import('../../core/account/builds').then((m) => m.pendingReports()).then(setPending);
     load();
     const t = setInterval(load, 60000);
     return () => clearInterval(t);

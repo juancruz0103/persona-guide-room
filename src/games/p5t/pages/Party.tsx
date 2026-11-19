@@ -169,14 +169,14 @@ export default function Party() {
         ) : (
           <>
             <header className={styles.hero}>
-              {memberImage(m.id) && <img className={styles.portrait} src={memberImage(m.id)} alt={tx(m.codename)} />}
+              {memberImage(m.id) && <img loading="lazy" decoding="async" className={styles.portrait} src={memberImage(m.id)} alt={tx(m.codename)} />}
               <div className={styles.head}>
                 <span className={styles.code}>{tx(m.codename)}</span>
                 <span className={styles.facts}>
                   {tx(m.name)}{m.persona && <> · Persona: {tx(m.persona)}</>} · {L('PS', 'HP')} {m.stats.hp} · {L('PE', 'SP')} {m.stats.sp} · {L('Movimiento', 'Move')} {m.stats.move}
                 </span>
               </div>
-              {memberPersonaImage(m.id) && <img className={styles.personaArt} src={memberPersonaImage(m.id)} alt={tx(m.persona)} />}
+              {memberPersonaImage(m.id) && <img loading="lazy" decoding="async" className={styles.personaArt} src={memberPersonaImage(m.id)} alt={tx(m.persona)} />}
             </header>
             <div className={styles.tabs} role="tablist">
               {TABS.map(([id, label]) => (

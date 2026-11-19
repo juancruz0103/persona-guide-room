@@ -1,0 +1,4 @@
+# Los archivos de /assets llevan un código de versión en el nombre (index-B-cOGb1q.js):
+# si cambian, cambia el nombre. Por eso el navegador los puede guardar un año sin volver a preguntar.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

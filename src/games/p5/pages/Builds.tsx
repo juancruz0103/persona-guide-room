@@ -93,7 +93,7 @@ export function BuildCard({ build: b }: { build: Build }) {
   return (
     <Link to={`/p5/builds/${b.id}`} className={styles.card}>
       {img ? (
-        <img src={img} alt="" className={styles.cardImg} style={{ objectPosition: personaCardFocus(b.persona_id) }} />
+        <img loading="lazy" decoding="async" src={img} alt="" className={styles.cardImg} style={{ objectPosition: personaCardFocus(b.persona_id) }} />
       ) : (
         <span className={styles.cardImg} />
       )}

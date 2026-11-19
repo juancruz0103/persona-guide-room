@@ -172,7 +172,7 @@ export default function MyProfile() {
               <li key={confidant_id}>
                 <Link to={`/p5r/confidentes/${confidant_id}`} className={styles.conf}>
                   {confidantImage(confidant_id) ? (
-                    <img src={confidantImage(confidant_id)} alt="" className={styles.confImg} />
+                    <img loading="lazy" decoding="async" src={confidantImage(confidant_id)} alt="" className={styles.confImg} />
                   ) : (
                     <span className={styles.confImg} />
                   )}
@@ -201,7 +201,7 @@ export default function MyProfile() {
             {p5Confs.map(({ confidant_id, rank, summary }) => (
               <li key={confidant_id}>
                 <Link to={`/p5/confidentes/${summary!.id}`} className={styles.conf}>
-                  {confidantImage(summary!.id) ? <img src={confidantImage(summary!.id)} alt="" className={styles.confImg} /> : <span className={styles.confImg} />}
+                  {confidantImage(summary!.id) ? <img loading="lazy" decoding="async" src={confidantImage(summary!.id)} alt="" className={styles.confImg} /> : <span className={styles.confImg} />}
                   <span className={styles.confText}>
                     <strong>{summary!.name}</strong>
                     <span>{getArcana(summary!.arcana).name}</span>
@@ -229,7 +229,7 @@ export default function MyProfile() {
               return (
                 <li key={confidant_id}>
                   <Link to={`/p3r/vinculos/${link!.arcana}`} className={styles.conf}>
-                    {img ? <img src={img} alt="" className={styles.confImg} style={{ objectPosition: 'top' }} /> : <span className={styles.confImg} />}
+                    {img ? <img loading="lazy" decoding="async" src={img} alt="" className={styles.confImg} style={{ objectPosition: 'top' }} /> : <span className={styles.confImg} />}
                     <span className={styles.confText}>
                       <strong>{link!.spoiler ? L('Spoiler', 'Spoiler') : L(link!.who[0], link!.who[1])}</strong>
                       <span>{a.name}</span>
@@ -260,7 +260,7 @@ export default function MyProfile() {
               return (
                 <li key={confidant_id}>
                   <Link to={`/p4g/vinculos/${link!.id}`} className={styles.conf}>
-                    {img ? <img src={img} alt="" className={`${styles.confImg} ${own ? '' : 'p4g-art'}`} style={own ? { objectPosition: 'top' } : { objectFit: 'contain' }} /> : <span className={styles.confImg} />}
+                    {img ? <img loading="lazy" decoding="async" src={img} alt="" className={`${styles.confImg} ${own ? '' : 'p4g-art'}`} style={own ? { objectPosition: 'top' } : { objectFit: 'contain' }} /> : <span className={styles.confImg} />}
                     <span className={styles.confText}>
                       <strong>{link!.spoiler ? L('Spoiler', 'Spoiler') : L(link!.who[0], link!.who[1])}</strong>
                       <span>{a.name}</span>
@@ -294,7 +294,7 @@ export default function MyProfile() {
               <li key={p.id}>
                 <Link to={`/p5r/calculadora/persona/${p.id}`} className={styles.fav}>
                   {personaImage(p.id, 'side') ? (
-                    <img src={personaImage(p.id, 'side')} alt="" style={{ objectPosition: personaCardFocus(p.id) }} />
+                    <img loading="lazy" decoding="async" src={personaImage(p.id, 'side')} alt="" style={{ objectPosition: personaCardFocus(p.id) }} />
                   ) : (
                     <span className={styles.favEmpty} />
                   )}
@@ -314,7 +314,7 @@ export default function MyProfile() {
                 <li key={p.id}>
                   <Link to={`/p3r/calculadora/persona/${p.id}`} className={styles.fav}>
                     {p3Image(p.id, 'side') ? (
-                      <img src={p3Image(p.id, 'side')} alt="" style={{ objectPosition: p3Focus(p.id) }} />
+                      <img loading="lazy" decoding="async" src={p3Image(p.id, 'side')} alt="" style={{ objectPosition: p3Focus(p.id) }} />
                     ) : (
                       <span className={styles.favEmpty} />
                     )}
@@ -333,7 +333,7 @@ export default function MyProfile() {
               {p5sFavs.map((p) => (
                 <li key={p.id}>
                   <Link to={`/p5s/calculadora/persona/${p.id}`} className={styles.fav}>
-                    {p5sImage(p.id, 'side') && !p.spoiler ? <img src={p5sImage(p.id, 'side')} alt="" /> : <span className={styles.favEmpty} />}
+                    {p5sImage(p.id, 'side') && !p.spoiler ? <img loading="lazy" decoding="async" src={p5sImage(p.id, 'side')} alt="" /> : <span className={styles.favEmpty} />}
                     <span className={styles.favName}>{p5sName(p)}</span>
                     {!p.party && <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>}
                   </Link>
@@ -350,7 +350,7 @@ export default function MyProfile() {
                 <li key={p.id}>
                   <Link to={`/p5/calculadora/persona/${p.id}`} className={styles.fav}>
                     {personaImage(p.id, 'side') && !p.party ? (
-                      <img src={personaImage(p.id, 'side')} alt="" style={{ objectPosition: personaCardFocus(p.id) }} />
+                      <img loading="lazy" decoding="async" src={personaImage(p.id, 'side')} alt="" style={{ objectPosition: personaCardFocus(p.id) }} />
                     ) : (
                       <span className={styles.favEmpty} />
                     )}
@@ -369,7 +369,7 @@ export default function MyProfile() {
               {p5tFavs.map((p) => (
                 <li key={p.id}>
                   <Link to={`/p5t/calculadora/persona/${p.id}`} className={styles.fav}>
-                    {p5tImage(p.id) ? <img src={p5tImage(p.id)} alt="" style={{ objectFit: 'contain' }} /> : <span className={styles.favEmpty} />}
+                    {p5tImage(p.id) ? <img loading="lazy" decoding="async" src={p5tImage(p.id)} alt="" style={{ objectFit: 'contain' }} /> : <span className={styles.favEmpty} />}
                     <span className={styles.favName}>{p5tName(p)}</span>
                     <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>
                   </Link>
@@ -386,7 +386,7 @@ export default function MyProfile() {
                 <li key={p.id}>
                   <Link to={`/p4g/calculadora/persona/${p.id}`} className={styles.fav}>
                     {p4Image(p.id) ? (
-                      <img src={p4Image(p.id)} alt="" className="p4g-art" style={{ objectFit: 'contain', padding: 6 }} />
+                      <img loading="lazy" decoding="async" src={p4Image(p.id)} alt="" className="p4g-art" style={{ objectFit: 'contain', padding: 6 }} />
                     ) : (
                       <span className={styles.favEmpty} />
                     )}

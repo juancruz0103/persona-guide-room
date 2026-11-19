@@ -9,6 +9,9 @@ export const supabase = createClient(URL, KEY, {
   auth: { flowType: 'pkce', detectSessionInUrl: true, persistSession: true, autoRefreshToken: true },
 });
 
+// Avisa a AuthProvider que el cliente ya está, para que escuche los cambios de sesión (ver AuthContext).
+window.dispatchEvent(new Event('pgr:supabase'));
+
 /** Adónde vuelve Google o el mail de confirmación: la raíz del sitio (el destino real se guarda aparte). */
 export const authRedirect = () => `${window.location.origin}${import.meta.env.BASE_URL}`;
 

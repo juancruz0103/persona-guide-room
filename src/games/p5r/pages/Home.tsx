@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { p5rGame } from '../config';
-import { CONFIDANTS } from '../services/confidants';
-import { getAllPersonas } from '../services/personas';
+import { HOME_STATS } from '../../../core/homeStats';
 import styles from './Home.module.css';
 import { L } from '../../../i18n';
 
 export default function Home() {
   const [calc, conf, school] = p5rGame.tools;
-  const thieves = CONFIDANTS.filter((c) => c.phantomThief).length;
+  const thieves = HOME_STATS.p5r.thieves;
 
   return (
     <>
@@ -32,7 +31,7 @@ export default function Home() {
 
           <ul className={styles.stats} aria-label={L('El proyecto en números', 'The project in numbers')}>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-accent)', ['--n' as string]: 'var(--c-accent)' }}>
-              <strong>{getAllPersonas().length}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
+              <strong>{HOME_STATS.p5r.personas}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-text)', ['--n' as string]: 'var(--c-text)' }}>
               <strong>24</strong><span>{L('Arcanas', 'Arcana')}</span>

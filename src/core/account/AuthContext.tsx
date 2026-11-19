@@ -1,6 +1,21 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { User } from '@supabase/supabase-js';
-import { supabase, takeDestination } from './supabase';
+
+/**
+ * Supabase pesa más que el resto de la portada junto, así que no va en la carga inicial.
+ * Se trae solo si hay una sesión guardada, si se vuelve del login, o cuando alguna página lo usa
+ * (supabase.ts avisa con el evento `pgr:supabase`). Sin cuenta, la mayoría de las visitas nunca lo baja.
+ */
+const sb = () => import('./supabase');
+const needsAuthNow = () => {
+  try {
+    if (/[?&#](code|error_description|access_token)=/.test(window.location.href)) return true;
+    for (let i = 0; i < localStorage.length; i++) if (localStorage.key(i)?.startsWith('sb-')) return true;
+  } catch {
+    return true;
+  }
+  return false;
+};
 
 export interface Profile {
   id: string;
@@ -30,17 +45,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const loadProfile = useCallback(async (u: User | null) => {
     if (!u) return setProfile(null);
+    const { supabase } = await sb();
     const { data } = await supabase.from('profiles').select('id, username, is_admin, banned').eq('id', u.id).maybeSingle();
     setProfile((data as Profile | null) ?? null);
   }, []);
 
   useEffect(() => {
-    supabase.auth.getSession().then(({ data }) => {
-      const u = data.session?.user ?? null;
-      setUser(u);
-      loadProfile(u).finally(() => setLoading(false));
-    });
-    const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
+    let alive = true;
+    let unsubscribe = () => {};
+    const start = async () => {
+      window.removeEventListener('pgr:supabase', start);
+      const { supabase, takeDestination } = await sb();
+      if (!alive) return;
+      supabase.auth.getSession().then(({ data }) => {
+        const u = data.session?.user ?? null;
+        setUser(u);
+        loadProfile(u).finally(() => setLoading(false));
+      });
+      const { data: sub } = supabase.auth.onAuthStateChange((event, session) => {
       const u = session?.user ?? null;
       setUser(u);
       if (event === 'PASSWORD_RECOVERY') {
@@ -54,8 +76,19 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       }
       // Fuera del callback: Supabase no permite otra consulta dentro de él.
       setTimeout(() => loadProfile(u), 0);
-    });
-    return () => sub.subscription.unsubscribe();
+      });
+      unsubscribe = () => sub.subscription.unsubscribe();
+    };
+    if (needsAuthNow()) void start();
+    else {
+      setLoading(false);
+      window.addEventListener('pgr:supabase', start);
+    }
+    return () => {
+      alive = false;
+      window.removeEventListener('pgr:supabase', start);
+      unsubscribe();
+    };
   }, [loadProfile]);
 
   const value = useMemo<AuthState>(
@@ -67,6 +100,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       doneRecovering: () => setRecovering(false),
       refreshProfile: () => loadProfile(user),
       signOut: async () => {
+        const { supabase } = await sb();
         await supabase.auth.signOut();
       },
     }),

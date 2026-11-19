@@ -30,7 +30,7 @@ export function BuildPersona({ personaId, skills = [], learn = [], note, fromSte
       <Link to={`/p5r/calculadora/persona/${personaId}`} className={styles.head} title={`${L('Ver perfil de', 'See profile of')} ${p ? personaName(p) : personaId}`}>
         <span className={styles.imgWrap}>
           {img ? (
-            <img src={img} alt="" className={styles.img} style={{ objectPosition: personaCardFocus(personaId) }} />
+            <img loading="lazy" decoding="async" src={img} alt="" className={styles.img} style={{ objectPosition: personaCardFocus(personaId) }} />
           ) : (
             <span className={styles.img} />
           )}

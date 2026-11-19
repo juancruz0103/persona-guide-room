@@ -137,7 +137,7 @@ export function BuildGoalView({ goal }: { goal: BuildGoal }) {
   return (
     <div className={styles.goal}>
       <Link to={`/p4g/calculadora/persona/${goal.persona}`} className={styles.goalImg} title={L('Ver perfil', 'See profile')}>
-        {img && <img src={img} alt="" style={{ objectPosition: personaCardFocus(goal.persona) }} />}
+        {img && <img loading="lazy" decoding="async" src={img} alt="" style={{ objectPosition: personaCardFocus(goal.persona) }} />}
         <span>{p ? personaName(p) : goal.persona}</span>
       </Link>
       <div className={styles.goalBody}>

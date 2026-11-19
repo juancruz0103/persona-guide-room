@@ -1,12 +1,11 @@
 import { Link } from 'react-router-dom';
 import { SectionTitle } from '../../../shared/components/SectionTitle';
 import { p5tGame } from '../config';
-import { getAllPersonas, isDlc } from '../services/personas';
+import { HOME_STATS } from '../../../core/homeStats';
 import styles from '../../p5r/pages/Home.module.css';
 import { L } from '../../../i18n';
 
 export default function Home() {
-  const all = getAllPersonas();
   return (
     <>
       <section className={styles.hero}>
@@ -28,13 +27,13 @@ export default function Home() {
           </div>
           <ul className={styles.stats} aria-label={L('El proyecto en números', 'The project in numbers')}>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-accent)', ['--n' as string]: 'var(--c-accent)' }}>
-              <strong>{all.filter((p) => !isDlc(p)).length}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
+              <strong>{HOME_STATS.p5t.personas}</strong><span>{L('Personas en el compendio', 'Personas in the compendium')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-text)', ['--n' as string]: 'var(--c-text)' }}>
-              <strong>{all.filter((p) => p.special).length}</strong><span>{L('Fusiones especiales', 'Special fusions')}</span>
+              <strong>{HOME_STATS.p5t.special}</strong><span>{L('Fusiones especiales', 'Special fusions')}</span>
             </li>
             <li className={styles.stat} style={{ ['--b' as string]: 'var(--c-primary)', ['--n' as string]: 'var(--c-primary-light)' }}>
-              <strong>{all.filter(isDlc).length}</strong><span>{L('Personas de DLC', 'DLC Personas')}</span>
+              <strong>{HOME_STATS.p5t.dlc}</strong><span>{L('Personas de DLC', 'DLC Personas')}</span>
             </li>
           </ul>
         </div>
