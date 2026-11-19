@@ -51,3 +51,21 @@ describe('recetas vistas en el video', () => {
     expect(checkStep({ ingredients: ['orthrus', 'raja-naga'].map(ing), result: 'cerberus', inherit: [], learn: [] })).toBe('ok');
   });
 });
+
+/** Ruta completa a Lucifer según guías (GameRevolution, TouchTapPlay, Samurai Gamers) y un artículo de builds en Medium. */
+describe('ruta de guía a Lucifer', () => {
+  const id = (n: string) => getPersonaByName(n)!.id;
+  const step = (res: string, ...ings: string[]) => ({ ingredients: ings.map((n) => ({ persona: id(n), skills: [] })), result: id(res), inherit: [], learn: [] });
+  it.each([
+    ['Seth', 'Mithras', 'Koppa Tengu'], ['Thor', 'Trumpeter', 'Nebiros'], ['Siegfried', 'Seth', 'Thor'],
+    ['Yatagarasu', 'Kurama Tengu', 'Seth'], ['Yoshitsune', 'Siegfried', 'Arahabaki', 'Okuninushi', 'Yatagarasu'],
+    ['Nebiros', 'Silky', 'Mitra'], ['Nebiros', 'Kikuri-Hime', 'Koppa Tengu'], ['Nebiros', 'Sarasvati', 'Raja Naga'],
+    ['Alice', 'Nebiros', 'Lilith', 'Bugs', 'Dominion'], ['Metatron', 'Archangel', 'Principality', 'Trumpeter', 'Dominion'],
+    ['Black Frost', "Jack-o'-Lantern", 'King Frost', 'Jack Frost'], ['Mara', 'Cerberus', 'Kali', 'Abaddon'],
+    ['Lucifer', 'Black Frost', 'Mara', 'Metatron', 'Alice', 'Yoshitsune'],
+  ])('%s', (res, ...ings) => expect(checkStep(step(res, ...ings))).toBe('ok'));
+  it('Yoshitsune no hereda magia (Wild Thunder), Metatrón sí hereda Mahamaon', () => {
+    expect(canInherit('yoshitsune', 'Wild Thunder')).toBe(false);
+    expect(canInherit('metatron', 'Mahamaon')).toBe(true);
+  });
+});
