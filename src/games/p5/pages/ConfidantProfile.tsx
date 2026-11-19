@@ -17,7 +17,7 @@ import {
 import { personaName, skillName } from '../../p5r/services/gameText';
 import { getPersona } from '../services/personas';
 import type { Confidant, Conversation, FusionRequest, MementosMission, RankItem, TimelineRank } from '../../p5r/types';
-import rankMaxImg from '../../p5r/assets/ui/rango-max.webp';
+import rankMaxImg from '../assets/ui/rango-max.webp';
 import styles from '../../p5r/pages/ConfidantProfile.module.css';
 import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
@@ -471,7 +471,7 @@ export default function ConfidantProfile() {
 
           {sel === maxRank && (
             <div className={styles.rankMax}>
-              <img src={rankMaxImg} alt="" width={720} height={632} loading="lazy" />
+              <img src={rankMaxImg} alt="" width={720} height={682} loading="lazy" />
               <span className={styles.rankMaxText}>
                 <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
                 <span>{L(`El vínculo con ${data?.name.split(' ')[0]} está al máximo.`, `Your bond with ${data?.name.split(' ')[0]} is at its max.`)}</span>
