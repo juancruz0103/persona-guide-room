@@ -93,6 +93,11 @@ export default function MyProfile() {
     .map((r) => ({ ...r, link: getLink(r.confidant_id.slice(4)) }))
     .filter((r) => r.link)
     .sort((a, b) => (sort === 'least' ? a.rank - b.rank : b.rank - a.rank));
+  const p5Confs = (progress ?? [])
+    .filter((r) => r.confidant_id.startsWith('p5:'))
+    .map((r) => ({ ...r, summary: getConfidantSummary(r.confidant_id.slice(3)) }))
+    .filter((r) => r.summary)
+    .sort(SORTS[sort].cmp);
   const p4Links = (progress ?? [])
     .filter((r) => r.confidant_id.startsWith('p4g-'))
     .map((r) => ({ ...r, link: getP4Link(r.confidant_id.slice(4)) }))
@@ -186,6 +191,31 @@ export default function MyProfile() {
           </ul>
         )}
       </div>
+      )}
+
+      {p5Confs.length > 0 && (
+        <div className={styles.block}>
+          <h2 className={styles.h2}>{L('Confidentes en curso · Persona 5', 'Confidants in progress · Persona 5')}</h2>
+          <ul className={styles.confList}>
+            {p5Confs.map(({ confidant_id, rank, summary }) => (
+              <li key={confidant_id}>
+                <Link to={`/p5/confidentes/${summary!.id}`} className={styles.conf}>
+                  {confidantImage(summary!.id) ? <img src={confidantImage(summary!.id)} alt="" className={styles.confImg} /> : <span className={styles.confImg} />}
+                  <span className={styles.confText}>
+                    <strong>{summary!.name}</strong>
+                    <span>{getArcana(summary!.arcana).name}</span>
+                  </span>
+                  <span className={styles.rank}>
+                    {rank >= 10 ? L('Rango MAX', 'Rank MAX') : `${L('Rango', 'Rank')} ${rank}`}
+                    <span className={styles.bar}>
+                      <i style={{ width: `${Math.min(rank, 10) * 10}%` }} />
+                    </span>
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
       )}
 
       {links.length > 0 && (

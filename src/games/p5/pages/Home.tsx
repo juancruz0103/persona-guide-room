@@ -24,7 +24,7 @@ export default function Home() {
             </p>
             <div className={styles.ctas}>
               <Link to="calculadora" className="btn btn--dark">{L('Abrir calculadora →', 'Open calculator →')}</Link>
-              <Link to="calculadora/fusionar?modo=inversa" className="btn btn--light">{L('¿Cómo la consigo?', 'How do I get it?')}</Link>
+              <Link to="confidentes" className="btn btn--light">{L('Ver confidentes', 'See confidants')}</Link>
             </div>
           </div>
           <ul className={styles.stats} aria-label={L('El proyecto en números', 'The project in numbers')}>
@@ -53,7 +53,7 @@ export default function Home() {
             </Link>
           ))}
         </div>
-        <p style={{ color: 'var(--c-text-muted)' }}>{L(`También tiene la ficha de las ${getPartyPersonas().length} Personas de los Ladrones Fantasma. Los confidentes llegan pronto.`, `It also has the profile of the Phantom Thieves' ${getPartyPersonas().length} Personas. Confidants coming soon.`)}</p>
+        <p style={{ color: 'var(--c-text-muted)' }}>{L(`También tiene la ficha de las ${getPartyPersonas().length} Personas de los Ladrones Fantasma.`, `It also has the profile of the Phantom Thieves' ${getPartyPersonas().length} Personas.`)}</p>
       </section>
     </>
   );

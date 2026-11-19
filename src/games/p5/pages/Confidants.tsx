@@ -1,0 +1,169 @@
+import { useMemo } from 'react';
+import { useSessionState } from '../../../shared/hooks/useSessionState';
+import { Link } from 'react-router-dom';
+import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
+import { confidantImage } from '../../p5r/services/images';
+import { getArcana } from '../../p5r/data/arcana';
+import { CONFIDANTS, KIND_LABEL, TAG_LABEL, progressId, type ConfidantTag } from '../services/confidants';
+import { normalize } from '../../p5r/services/gameText';
+import styles from '../../p5r/pages/Confidants.module.css';
+import { L, tr } from '../../../i18n';
+import { useAllProgress } from '../../../core/account/progress';
+import { NoSpanishNote } from '../components/NoSpanishNote';
+
+type Group = 'all' | 'normal' | 'special';
+const FILTER_TAGS: ConfidantTag[] = ['romance', 'locked', 'mementos', 'stat'];
+const TAG_CLASS: Partial<Record<ConfidantTag, string>> = {
+  thief: 'tag--special',
+  romance: 'tag--romance',
+  royal: 'tag--royal',
+  deadline: 'tag--paper',
+};
+
+const isSpecial = (kind: string) => kind !== 'normal';
+
+export default function Confidants() {
+  const [group, setGroup] = useSessionState<Group>('confidants.group', 'all');
+  const [tag, setTag] = useSessionState<ConfidantTag | null>('confidants.tag', null);
+  const [q, setQ] = useSessionState('confidants.q', '');
+  const [thievesFirst, setThievesFirst] = useSessionState('confidants.thievesFirst', false);
+  const progress = useAllProgress(CONFIDANTS.map((c) => progressId(c.id)));
+
+  const counts = {
+    all: CONFIDANTS.length,
+    normal: CONFIDANTS.filter((c) => !isSpecial(c.kind)).length,
+    special: CONFIDANTS.filter((c) => isSpecial(c.kind)).length,
+  };
+
+  const list = useMemo(() => {
+    const query = normalize(q.trim());
+    const rows = CONFIDANTS.filter((c) => {
+      if (group !== 'all' && (group === 'special') !== isSpecial(c.kind)) return false;
+      if (tag && !c.tags.includes(tag)) return false;
+      if (!query) return true;
+      const a = getArcana(c.arcana);
+      return [c.name, a.name, a.nameEn].some((s) => normalize(s).includes(query));
+    });
+    return thievesFirst ? [...rows].sort((a, b) => Number(b.phantomThief) - Number(a.phantomThief)) : rows;
+  }, [group, tag, q, thievesFirst]);
+
+  return (
+    <>
+      <section className={styles.hero}>
+        <div className="container">
+          <h1 className={styles.title}>{L('Confidentes', 'Confidants')}</h1>
+          <p className={styles.lead}>
+            {L('Los 21 confidentes de Persona 5 original (sin Kasumi, Maruki ni las llamadas de Royal). La mayoría sube de rango hablando con ellos y eligiendo bien las respuestas; los marcados como', 'The 21 confidants of the original Persona 5 (no Kasumi, Maruki or Royal phone calls). Most rank up by talking to them and picking the right answers; the ones marked as')}{' '}
+            <strong>{L('especiales', 'special')}</strong> {L('funcionan distinto.', 'work differently.')}
+          </p>
+        </div>
+      </section>
+      <NoSpanishNote />
+
+      <div className={`container ${styles.page}`}>
+        <div className={styles.filters}>
+          <div className={styles.groups} role="group" aria-label={L('Mostrar', 'Show')}>
+            {(['all', 'normal', 'special'] as Group[]).map((g) => (
+              <button
+                key={g}
+                type="button"
+                aria-pressed={group === g}
+                data-tone={g === 'special' ? 'gold' : 'red'}
+                className={styles.groupBtn}
+                onClick={() => setGroup(g)}
+              >
+                {{ all: L('Todos', 'All'), normal: L('Normales', 'Normal'), special: L('Especiales', 'Special') }[g]} <span>({counts[g]})</span>
+              </button>
+            ))}
+          </div>
+          <label className={styles.search}>
+            <span className="visually-hidden">{L('Buscar por nombre o Arcana', 'Search by name or Arcana')}</span>
+            <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={L('Buscar: Ryuji, Carro…', 'Search: Ryuji, Chariot…')} />
+          </label>
+        </div>
+        <div className={styles.tagFilters} role="group" aria-label={L('Filtrar por etiqueta', 'Filter by tag')}>
+          <span className="label label-accent">{L('Filtrar por', 'Filter by')}</span>
+          <button type="button" aria-pressed={thievesFirst} className={styles.tagBtn} onClick={() => setThievesFirst(!thievesFirst)}>
+            {L('Ladrones Fantasma primero', 'Phantom Thieves first')}
+          </button>
+          {FILTER_TAGS.map((t) => (
+            <button
+              key={t}
+              type="button"
+              aria-pressed={tag === t}
+              className={styles.tagBtn}
+              onClick={() => setTag(tag === t ? null : t)}
+            >
+              {TAG_LABEL[t]}
+            </button>
+          ))}
+        </div>
+
+        {group !== 'normal' && (
+          <section className={styles.legend} aria-label={L('Tipos de confidente especial', 'Special confidant types')}>
+            <div className={styles.legendCard}>
+              <span className={styles.legendTitle}>{L('Automático por la historia', 'Automatic with the story')}</span>
+              <span>{L('Sube solo al avanzar la trama. No hay respuestas que elegir: la ficha muestra cuándo sube cada rango y qué desbloquea.', 'It ranks up by itself as the story advances. There are no answers to choose: the profile shows when each rank goes up and what it unlocks.')}</span>
+              <span className={styles.legendWho}>Igor · Morgana · Goro Akechi · Sae Niijima</span>
+            </div>
+            <div className={styles.legendCard}>
+              <span className={styles.legendTitle}>{L('Pedidos de fusión', 'Fusion requests')}</span>
+              <span>{L('Cada rango pide una Persona con una skill concreta. La ficha muestra el pedido y la recompensa.', 'Each rank asks for a Persona with a specific skill. The profile shows the request and the reward.')}</span>
+              <span className={styles.legendWho}>{L('Caroline y Justine', 'Caroline and Justine')}</span>
+            </div>
+            <div className={`${styles.legendCard} ${styles.legendPlain}`}>
+              <span className={styles.legendTitle}>{L('Normal con reglas extra', 'Normal with extra rules')}</span>
+              <span>{L('Tienen respuestas como cualquiera, pero además un rango bloqueado, días fijos o misiones de Mementos.', 'They have answers like any other, but also a locked rank, fixed days or Mementos requests.')}</span>
+              <span className={styles.legendWho}>Sojiro · Kawakami · Mishima · Yoshida · Chihaya · Oda</span>
+            </div>
+          </section>
+        )}
+
+        <p className={styles.count} aria-live="polite">
+          {L('Mostrando', 'Showing')} <strong>{list.length}</strong> {L('confidentes', 'confidants')}
+        </p>
+
+        <ul className={styles.grid}>
+          {list.map((c) => {
+            const arcana = getArcana(c.arcana);
+            const special = isSpecial(c.kind);
+            return (
+              <li key={c.id}>
+                <Link to={`/p5/confidentes/${c.id}`} className={`${styles.card} ${special ? styles.cardSpecial : ''}`}>
+                  <ImagePlaceholder
+                    className={styles.portrait}
+                    src={confidantImage(c.id)}
+                    focus="50% 30%"
+                    label={confidantImage(c.id) ? tr(c.name) : L('Retrato', 'Portrait')}
+                    icon="person"
+                    corner={arcana.numeral}
+                    badge={special ? <span className="tag tag--dlc">{L('Especial', 'Special')}</span> : undefined}
+                  />
+                  <div className={styles.body}>
+                    <span className={styles.arcana}>{arcana.name}</span>
+                    <span className={styles.name}>{tr(c.name)}</span>
+                    {special && <span className={styles.kind}>{KIND_LABEL[c.kind]}</span>}
+                    <span className={styles.tags}>
+                      {c.tags.map((t) => (
+                        <span key={t} className={`tag ${TAG_CLASS[t] ?? 'tag--muted'}`}>
+                          {TAG_LABEL[t]}
+                        </span>
+                      ))}
+                    </span>
+                    <span className={styles.bar} aria-label={L(`Rango ${progress[progressId(c.id)] ?? 0} de 10`, `Rank ${progress[progressId(c.id)] ?? 0} of 10`)}>
+                      <i style={{ width: `${Math.min(progress[progressId(c.id)] ?? 0, 10) * 10}%` }} />
+                    </span>
+                  </div>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
+
+        <p className={styles.note}>
+          {L('Al llegar al rango 10, cada confidente desbloquea la fusión de una Persona: se ve en su ficha. Las fechas límite y los requisitos de atributo se confirman con varias fuentes antes de cargarlos.', 'At rank 10, each confidant unlocks the fusion of a Persona: you can see it on their profile. Deadlines and social stat requirements are confirmed with several sources before being added.')}
+        </p>
+      </div>
+    </>
+  );
+}

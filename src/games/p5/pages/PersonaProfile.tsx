@@ -173,7 +173,8 @@ export default function PersonaProfile() {
             {p.party && (
               <p className={styles.partyNote}>
                 {L('Persona de', 'Persona of')} <strong>{PARTY_OWNER[p.party.owner]}</strong>
-                {L(': no se puede fusionar ni registrar en el compendio.', ': it cannot be fused or registered in the compendium.')}
+                {L(': no se puede fusionar ni registrar en el compendio.', ': it cannot be fused or registered in the compendium.')}{' '}
+                <Link to={`/p5/confidentes/${p.party.owner}`}>{L('Ver su confidente →', 'See their confidant →')}</Link>
               </p>
             )}
           </div>
