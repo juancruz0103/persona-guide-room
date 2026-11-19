@@ -97,6 +97,21 @@ export default function PersonaProfile() {
           </div>
         </div>
 
+        {p.drops.length > 0 && (
+          <section className={styles.box}>
+            <h2 className={styles.h2}>{L('Dónde aparece', 'Where it appears')}</h2>
+            <p className={styles.note}>{L('Puede salir como recompensa al terminar estas misiones:', 'It can drop as a reward after these missions:')}</p>
+            <ul className={styles.recipes}>
+              {p.drops.map((d) => (
+                <li key={d.stage}>
+                  <strong>{L(d.es ?? d.en ?? '', d.en ?? d.es ?? '')}</strong>
+                  <small> · {d.dlc ? L('DLC «Repaint Your Heart»', '"Repaint Your Heart" DLC') : L(`Reino ${d.kingdom}`, `Kingdom ${d.kingdom}`)}</small>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <section className={styles.box}>
           <h2 className={styles.h2}>{p.special ? L('Fusión especial', 'Special fusion') : L('Cómo conseguirla por fusión', 'How to fuse it')}</h2>
           <FusionNotes p={p} />

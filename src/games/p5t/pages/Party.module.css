@@ -4,7 +4,11 @@
 .memberOn { background: var(--c-accent); border-color: var(--c-accent); color: var(--c-ink); }
 .memberOn:hover { color: var(--c-ink); }
 
-.head { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; margin: 16px 0; }
+.hero { display: flex; align-items: flex-end; gap: 20px; margin: 16px 0; flex-wrap: wrap; }
+.portrait { height: 220px; width: auto; object-fit: contain; }
+.personaArt { height: 220px; max-width: 320px; object-fit: contain; margin-left: auto; }
+@media (max-width: 640px) { .portrait, .personaArt { height: 150px; } .personaArt { margin-left: 0; } }
+.head { flex: 1 1 260px; display: flex; flex-direction: column; align-items: baseline; flex-wrap: wrap; gap: 4px 16px; margin: 16px 0; }
 .code { font-family: var(--f-display); font-style: italic; text-transform: uppercase; font-size: clamp(40px, 6vw, 60px); line-height: 1.05; padding-top: 0.1em; }
 .facts { color: var(--c-text-muted); }
 

@@ -38,6 +38,8 @@ export interface Persona {
   special: string[] | null;
   /** La fusión especial hay que habilitarla antes en el juego */
   specialLocked: boolean;
+  /** Misiones donde aparece como recompensa (kingdom 1-4: reinos de la historia; dlc: «Repaint Your Heart») */
+  drops: { stage: number; kingdom: number; dlc: boolean; es: string | null; en: string | null }[];
   mythEs: string | null;
   mythEn: string | null;
 }

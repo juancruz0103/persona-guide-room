@@ -30,6 +30,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1010,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Los Ladrones Fantasma contraatacan",
+    "en": "Phantom Thieves Strike Again"
+   },
+   {
+    "stage": 1030,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Skull manipulado",
+    "en": "A Brainwashed Skull"
+   },
+   {
+    "stage": 1060,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Ataque desde arriba",
+    "en": "Attack from On High"
+   }
+  ],
   "mythEs": "Un borracho que engañó al Diablo para que no lo llevara al infierno. Cuando se le denegó la entrada al cielo, se vio obligado a deambular por la Tierra usando únicamente la luz de una brasa.",
   "mythEn": "A drunkard who tricked the Devil out of taking him to Hell. When refused entry to Heaven, he was forced to wander the earth with only an ember as a light."
  },
@@ -64,6 +87,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1010,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Los Ladrones Fantasma contraatacan",
+    "en": "Phantom Thieves Strike Again"
+   },
+   {
+    "stage": 1040,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La chica misteriosa",
+    "en": "The Mysterious Girl"
+   },
+   {
+    "stage": 1060,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Ataque desde arriba",
+    "en": "Attack from On High"
+   }
+  ],
   "mythEs": "Hadas amistosas del bosque que suelen esconderse de los seres humanos. Les gusta engañar a los vagos. Se dice que son las almas de niños que murieron sin bautizar.",
   "mythEn": "Friendly fairies of the forest that tend to hide from humans. They like to play tricks on lazy people. It is said they are the souls of dead, unbaptized children."
  },
@@ -98,6 +144,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1040,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La chica misteriosa",
+    "en": "The Mysterious Girl"
+   },
+   {
+    "stage": 1050,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Infiltración en la muralla",
+    "en": "Rampart Infiltration"
+   },
+   {
+    "stage": 1100,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En las profundidades de la armería",
+    "en": "Deep into the Armory"
+   }
+  ],
   "mythEs": "Planta mágica cuyas raíces se asemejan a un humano. Son valiosas por sus propiedades curativas en pociones, pero los gritos que emiten cuando se arrancan del suelo matarán a cualquiera que los escuche.",
   "mythEn": "A magical plant whose roots look like a human. They are valued for their healing properties in potions, but the screams they let out when pulled from the ground will kill anyone who hears them."
  },
@@ -132,6 +201,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1030,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Skull manipulado",
+    "en": "A Brainwashed Skull"
+   },
+   {
+    "stage": 1070,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En la prisión",
+    "en": "In the Prison"
+   },
+   {
+    "stage": 1080,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Señal de contraataque",
+    "en": "Signal the Counterattack"
+   },
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   }
+  ],
   "mythEs": "Término general usado por magos judeocristianos para espíritus afines. Suelen estar encerrados en botellas, anillos o talismanes. Atormentan al objetivo seleccionado por el conjurador.",
   "mythEn": "A general term for familiars used by Judeo-Christian magicians, they are usually sealed away in bottles, rings, or talismans. They torment the target selected by the conjuror."
  },
@@ -166,6 +265,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1020,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Agresores desconocidos",
+    "en": "Unknown Assailants"
+   },
+   {
+    "stage": 1030,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Skull manipulado",
+    "en": "A Brainwashed Skull"
+   },
+   {
+    "stage": 1060,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Ataque desde arriba",
+    "en": "Attack from On High"
+   }
+  ],
   "mythEs": "Una malvada criatura con dos cuernos curvados. Representa la impureza, al contrario que el Unicornio. Se dice que viene del re'em bíblico. Otra leyenda cuenta que se alimenta de los maridos fieles.",
   "mythEn": "An evil creature with two curved horns. It represents impurity, unlike the Unicorn. Said to be derived from Re'em in the Bible. Another legend says that it consumes loyal husbands."
  },
@@ -200,6 +322,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1010,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Los Ladrones Fantasma contraatacan",
+    "en": "Phantom Thieves Strike Again"
+   },
+   {
+    "stage": 1030,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Skull manipulado",
+    "en": "A Brainwashed Skull"
+   },
+   {
+    "stage": 1090,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto a la armería",
+    "en": "Armory Raid"
+   }
+  ],
   "mythEs": "Un demonio masculino de la época medieval de la mitología europea. Visita a las mujeres mientras duermen y tiene relaciones sexuales con ellas. Los frutos de esas relaciones se convierten en brujas o magos.",
   "mythEn": "A male demon of European lore in medieval times. They hunt for sleeping women to make their lovers. The resulting children become witches or wizards."
  },
@@ -234,6 +379,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1020,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Agresores desconocidos",
+    "en": "Unknown Assailants"
+   },
+   {
+    "stage": 1040,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La chica misteriosa",
+    "en": "The Mysterious Girl"
+   },
+   {
+    "stage": 1060,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Ataque desde arriba",
+    "en": "Attack from On High"
+   }
+  ],
   "mythEs": "Una bestia mitológica de las Tierras Altas de Escocia. Habitan en árboles huecos o en casas abandonadas. Tienen el tamaño de un perro y los ojos de color verde intenso. Algunos viven con humanos, ya que entienden nuestro idioma.",
   "mythEn": "A fae beast from the Scottish highlands. Their kingdoms are in tree hollows or abandoned houses. Dog-sized, with vivid green eyes. Some live with humans, as they understand our speech."
  },
@@ -275,6 +443,43 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1040,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La chica misteriosa",
+    "en": "The Mysterious Girl"
+   },
+   {
+    "stage": 1070,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En la prisión",
+    "en": "In the Prison"
+   },
+   {
+    "stage": 1080,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Señal de contraataque",
+    "en": "Signal the Counterattack"
+   },
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   },
+   {
+    "stage": 5020,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Equipo de tres",
+    "en": "Team of Three"
+   }
+  ],
   "mythEs": "Un hada con aspecto de caballo del folclore celta que vive en el agua. Ahoga a quienes se montan encima, pero es una valiosa montura si se logra domarla.",
   "mythEn": "A horse-like fairy of Celtic folklore that lives by the water. It drowns those who ride on it, but is a valuable mount if you can tame it."
  },
@@ -309,6 +514,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1010,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Los Ladrones Fantasma contraatacan",
+    "en": "Phantom Thieves Strike Again"
+   },
+   {
+    "stage": 1050,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Infiltración en la muralla",
+    "en": "Rampart Infiltration"
+   },
+   {
+    "stage": 1090,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto a la armería",
+    "en": "Armory Raid"
+   }
+  ],
   "mythEs": "Un hada de Inglaterra y Escocia. Hace las tareas del hogar cuando todos duermen, así que es un espíritu bienvenido. Se dice que se pueden oír los roces de su sedosa falda mientras trabaja.",
   "mythEn": "A fairy of England and Scotland. She carries out household chores while everyone sleeps and is considered a welcome spirit. It is said you can hear her silk skirt rustle as she works."
  },
@@ -343,6 +571,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro aspectos del pensamiento sintoísta. Concede una gran abundancia en la caza. Se dice que ayuda en el amor, el beneficio y el desarrollo, además de abrir nuevos caminos.",
   "mythEn": "One of the four aspects of Shinto thought, it brings great bounty from the hunt. It is said to aid in love, profit, and growth, and can create new paths."
  },
@@ -377,6 +606,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1020,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Agresores desconocidos",
+    "en": "Unknown Assailants"
+   },
+   {
+    "stage": 1050,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Infiltración en la muralla",
+    "en": "Rampart Infiltration"
+   },
+   {
+    "stage": 1100,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En las profundidades de la armería",
+    "en": "Deep into the Armory"
+   }
+  ],
   "mythEs": "Un demonio femenino del folclore europeo de la época medieval. Visitan a los hombres mientras duermen y tienen relaciones sexuales con ellos. Las víctimas no se despiertan, pero sueñan con el encuentro.",
   "mythEn": "A female demon of European lore in medieval times. They hunt for sleeping men to make their lovers. The victims remain asleep but may dream of the encounters."
  },
@@ -411,6 +663,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los Ssu-Ling, criaturas celestiales de la mitología china. Representa la dirección norte, la estación del invierno y el elemento del agua. Se dice que es un gran guerrero y que sujeta la Tierra desde abajo.",
   "mythEn": "One of the Ssu-Ling, celestial creatures of Chinese myth. It represents the direction north, the season of winter, and the element of water. Known to be a great warrior, it supports the Earth from below."
  },
@@ -445,6 +698,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   },
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   }
+  ],
   "mythEs": "Un \"monstruo a caballito\" de Japón que salta a la espalda de la gente que pasa por caminos de hierba. Pesa y no es fácil quitárselo de encima, pero se convertirá en monedas de oro si consigues llevártelo a casa.",
   "mythEn": "A \"piggyback monster\" of Japan that jumps on the backs of those who pass grassy paths. It is heavy and not easily removed, but will turn into gold coins if you can carry it back home."
  },
@@ -486,6 +755,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1050,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Infiltración en la muralla",
+    "en": "Rampart Infiltration"
+   },
+   {
+    "stage": 1070,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En la prisión",
+    "en": "In the Prison"
+   },
+   {
+    "stage": 1090,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto a la armería",
+    "en": "Armory Raid"
+   },
+   {
+    "stage": 5020,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Equipo de tres",
+    "en": "Team of Three"
+   }
+  ],
   "mythEs": "Un espíritu del folclore chino que habita en árboles que se usaban para ahorcamientos. Más pequeña que un humano, no puede hablar, aunque se dice que tiene una voz tan clara y preciosa como el canto de los pájaros.",
   "mythEn": "A spirit of Chinese folklore who dwells in trees once used for hangings. She is smaller than a human and cannot speak, but her voice is said to be as clear and as beautiful as a bird's song."
  },
@@ -520,6 +819,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   },
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   }
+  ],
   "mythEs": "Espíritus malignos de la mitología yolngu. Se cree que son sombras renacidas. Secuestran y se comen a los niños y derriban a todo hechicero que haga uso de la magia negra.",
   "mythEn": "Evil spirits of Yolngu lore believed to be reborn shadows. They kidnap and eat children, and strike down any sorcerer who uses black magic."
  },
@@ -554,6 +869,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1020,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Agresores desconocidos",
+    "en": "Unknown Assailants"
+   },
+   {
+    "stage": 1050,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Infiltración en la muralla",
+    "en": "Rampart Infiltration"
+   },
+   {
+    "stage": 1110,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Belleza y brío",
+    "en": "Beauty and Brawn"
+   }
+  ],
   "mythEs": "Novena de las nueve órdenes angelicales. Su naturaleza es la que más se parece a la de los humanos. Vigilan a las personas y advierten a quienes se alejan del camino.",
   "mythEn": "Ninth of the nine orders of angels. They are closest in nature to humans. They watch over individuals and warn those who stray from the path."
  },
@@ -588,6 +926,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1070,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En la prisión",
+    "en": "In the Prison"
+   },
+   {
+    "stage": 1110,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Belleza y brío",
+    "en": "Beauty and Brawn"
+   }
+  ],
   "mythEs": "Pequeñas criaturas con forma humana y personalidades amables y calmadas. Llegaron a coexistir con los ainu japoneses, pero hubo una rencilla en algún momento y desaparecieron.",
   "mythEn": "Small human-like creatures, that have kind, calm personalities. Once coexisting with the Ainu people of Japan, there was a falling out at some point, and they disappeared."
  },
@@ -622,6 +976,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1080,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Señal de contraataque",
+    "en": "Signal the Counterattack"
+   },
+   {
+    "stage": 1090,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto a la armería",
+    "en": "Armory Raid"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Conocido como el Duque del infierno, va sobre un caballo gigante y quema a aquellos sin modales.",
   "mythEn": "One of the 72 demons of the Goetia. Known as the Duke of Hell, he rides a gigantic horse and burns those without manners."
  },
@@ -656,6 +1026,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1080,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Señal de contraataque",
+    "en": "Signal the Counterattack"
+   },
+   {
+    "stage": 1110,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Belleza y brío",
+    "en": "Beauty and Brawn"
+   }
+  ],
   "mythEs": "Un monstruo primitivo de cuerpo viscoso. Hay varias teorías sobre sus orígenes, pero es un tema del que todavía se habla. Colecciona objetos brillantes de forma compulsiva.",
   "mythEn": "A primitive monster with a viscous body. There are various theories as to its origin, but it is still under debate. Said to compulsively collect shiny objects."
  },
@@ -690,6 +1076,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   },
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   },
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   }
+  ],
   "mythEs": "Un hada invernal de ascendencia europea. Deja formas de hielo en las ventanas y congela las narices de la gente. Aunque normalmente se trata de una criatura inocente, si se le provoca, congela a sus víctimas hasta que mueren.",
   "mythEn": "A winter fairy of European descent. He leaves ice patterns on windows and nips people's noses. Though normally an innocent creature, he will freeze his victims to death if provoked."
  },
@@ -724,6 +1133,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1070,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En la prisión",
+    "en": "In the Prison"
+   },
+   {
+    "stage": 1100,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En las profundidades de la armería",
+    "en": "Deep into the Armory"
+   }
+  ],
   "mythEs": "Estos espíritus del agua hindúes son hermosas jóvenes que bailan para los dioses. También guían a los héroes caídos en combate hacia el paraíso.",
   "mythEn": "Hindu water spirits, they are beautiful young women who dance for the gods. They also guide heroes fallen in battle to paradise."
  },
@@ -758,6 +1183,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   },
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   },
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   }
+  ],
   "mythEs": "Un tipo de tengu. Su poder espiritual es menor que el de otros tengu, de ahí su pequeño tamaño. Se dice que son las reencarnaciones de lobos longevos.",
   "mythEn": "A type of tengu. Their spiritual power is weaker than other tengu, so they are much smaller. They are said to be the reincarnations of long-lived wolves."
  },
@@ -792,6 +1240,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1070,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En la prisión",
+    "en": "In the Prison"
+   },
+   {
+    "stage": 1080,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Señal de contraataque",
+    "en": "Signal the Counterattack"
+   },
+   {
+    "stage": 1100,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "En las profundidades de la armería",
+    "en": "Deep into the Armory"
+   }
+  ],
   "mythEs": "Espíritus vegetales japoneses nacidos de árboles que han vivido 100 años o más. Dicen que talar uno de estos árboles trae infortunio.",
   "mythEn": "Japanese plant spirits born from trees that have lived for over 100 years. Cutting down one of these trees is said to cause misfortune."
  },
@@ -826,6 +1297,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Un poeta diestro con la lira. Intentó rescatar a su esposa de las garras de Hades, pero ella se desvaneció cuando él miró atrás antes de llegar a la superficie.",
   "mythEn": "A Persona of another story. A poet skilled with the lyre. He tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface."
  },
@@ -860,6 +1332,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1080,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Señal de contraataque",
+    "en": "Signal the Counterattack"
+   },
+   {
+    "stage": 1110,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Belleza y brío",
+    "en": "Beauty and Brawn"
+   }
+  ],
   "mythEs": "Un monstruoso pájaro japonés que escupe fuego y tiene cara humana. En realidad, se trata de un cadáver al que no se le dio el entierro adecuado. Se les aparecen a los monjes que descuidan sus deberes.",
   "mythEn": "A monstrous, fire-spitting, Japanese bird with a man's face. It is actually a corpse that was not given a proper memorial service. They appear before monks who neglect their duties."
  },
@@ -894,6 +1382,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro aspectos del pensamiento sintoísta. Su poder trae buenos presagios. Se dice que ayuda en la sabiduría, la observación y las habilidades. Puede enmendar errores del pasado.",
   "mythEn": "One of the four aspects of Shinto thought, it uses its power to bring good omens. It is said to aid in one's wisdom, observation, and skill, and can mend fractured paths."
  },
@@ -928,6 +1417,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   },
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   },
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   }
+  ],
   "mythEs": "Un monstruo de un ojo y una pierna que vive en las profundidades de las montañas de Kumano (Japón). Se cree que es el que un día fue el dios herrero, Ame no Me-Hitotsu no Kami.",
   "mythEn": "A one-eyed, one-legged monster said to live deep in the mountains of Kumano, Japan. It's believed to be the degraded blacksmith god, Amenomahitotsu-no-Kami."
  },
@@ -962,6 +1474,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   },
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   },
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   },
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   }
+  ],
   "mythEs": "Diosa japonesa del entretenimiento que domina muchas danzas sagradas. Es conocida por haber hecho salir a Amaterasu de la cueva en la que se había enclaustrado.",
   "mythEn": "Japanese goddess of entertainment, she governs many sacred dances. She is most famous for luring out Amaterasu, who had barricaded herself inside a cave."
  },
@@ -996,6 +1538,7 @@
   "unlock": "bonus",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Un poeta griego que intentó rescatar a su esposa de las garras de Hades, pero ella se desvaneció cuando él miró atrás antes de llegar a la superficie.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. A Greek poet who tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface."
  },
@@ -1030,6 +1573,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   },
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   },
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   }
+  ],
   "mythEs": "Octava de las nueve órdenes angelicales. Su deber es cuidar de los humanos y entregar mensajes. Son los guerreros del cielo y lideran las fuerzas celestiales en la batalla contra los ejércitos del mal.",
   "mythEn": "Eighth of the nine orders of angels. Their duty is to minister to humans and deliver messages. They are warriors of Heaven and lead Heaven's forces during battle with the armies of evil."
  },
@@ -1071,6 +1637,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1120,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "¡Directos a la tarta!",
+    "en": "To the Cake!"
+   },
+   {
+    "stage": 1130,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "La tarta, Marie y el prometido",
+    "en": "Cake, Marie, Fiancé"
+   },
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   },
+   {
+    "stage": 5020,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Equipo de tres",
+    "en": "Team of Three"
+   }
+  ],
   "mythEs": "Un espíritu canino que puede poseer a la gente en la mitología japonesa. Aquellos que son poseídos entran en un estado de \"inu-tsuki\" y pierden el conocimiento. Onmyoji usa a Inugami como espíritu animal.",
   "mythEn": "A dog spirit said to possess people in Japanese lore. Those possessed are in a state of \"inu-tsuki\" and lose consciousness. Onmyoji use Inugami as familiars."
  },
@@ -1105,6 +1701,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   },
+   {
+    "stage": 1220,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Un plan perfecto",
+    "en": "A Perfect Plan"
+   }
+  ],
   "mythEs": "Un dios lobo del folclore japonés, también conocido como \"Oguchi no Magami\". A menudo se dibuja en tablones de oración para evitar robos e incendios, pero también es temido porque come humanos.",
   "mythEn": "A divine wolf god in Japanese folklore, also written as \"Oguchi-no-Magami.\" It is often drawn on prayer boards to prevent fires and thefts, but it is also feared as a maneater."
  },
@@ -1139,6 +1758,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   },
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   }
+  ],
   "mythEs": "Una bestia sagrada de la que se dice que protege las casas del mal y atrae la fortuna. Se parecen a los perros guardianes del sintoísmo, pero en realidad se inspiraron en leones. Existen muchas historias sobre ellos en la cultura Ryukyu.",
   "mythEn": "A holy beast said to protect houses from evil and bring good fortune. They look similar to Shinto guardian dogs, but are actually modeled after lions. There are many stories about it in Ryukyu lore."
  },
@@ -1173,6 +1815,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   },
+   {
+    "stage": 1220,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Un plan perfecto",
+    "en": "A Perfect Plan"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Tiene aspecto de caballero y el poder de ver el porvenir. También sabe mucho sobre la guerra.",
   "mythEn": "One of the 72 demons of the Goetia. He looks like a knight and has the power to see things to come. He also knows much about war."
  },
@@ -1207,6 +1872,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   },
+   {
+    "stage": 1220,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Un plan perfecto",
+    "en": "A Perfect Plan"
+   }
+  ],
   "mythEs": "Líder de un enjambre de hadas. A las hadas que tienen rol de líder o que gozan de poderes extraordinarios se las llama por este nombre.",
   "mythEn": "The leader of a swarm of pixies. Any pixie in a leadership role or with remarkable power is called by this name."
  },
@@ -1241,6 +1929,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Un ser divino que nació de un brote de bambú resplandeciente. Aunque muchos le declararon su amor, ninguno lograba completar sus estrictas tareas. Finalmente regresó a su hogar: la luna.",
   "mythEn": "A Persona of another story. A divine being born from a glowing bamboo shoot. Though many proposed to her, none could complete her strict tasks. She eventually returned to her home, the moon."
  },
@@ -1275,6 +1964,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los Ssu-Ling, criaturas celestiales de la mitología china. Es un pájaro gigante que puede piar con cinco voces preciosas. Representa la dirección sur, la estación del verano y el elemento del fuego.",
   "mythEn": "One of the Ssu-Ling, celestial creatures of Chinese myth. It is a giant bird that is said to sing in five beautiful voices. It represents the direction south, the season of summer, and the element of fire."
  },
@@ -1309,6 +1999,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   },
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Conocido como Príncipe del infierno, aparece en forma de caballo y responde preguntas sobre el pasado, el presente y el futuro. Es fiel a su conjurador.",
   "mythEn": "One of the 72 demons of the Goetia. Known as the Prince of Hell, he appears as a horse and answers questions of the past, present, and future. He is faithful to his conjurer."
  },
@@ -1343,6 +2056,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1140,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Una amarga retirada",
+    "en": "A Bitter Retreat"
+   },
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   },
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   }
+  ],
   "mythEs": "Se dice que los gatos más longevos se convierten en estos malévolos demonios. Sus poderes varían en función de cuánto hayan vivido y van desde cambiar de forma hasta controlar a los muertos.",
   "mythEn": "Long-lived cats are said to become these malevolent cat demons. Their powers vary according to how long they have lived, ranging from shape-shifting to controlling the dead."
  },
@@ -1377,6 +2113,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1190,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Rescate del Ejército Rebelde",
+    "en": "Rescuing Rebel Corps"
+   },
+   {
+    "stage": 1200,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Su cruzada",
+    "en": "Her Crusade"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   }
+  ],
   "mythEs": "Espíritus de ríos y montañas de la mitología japonesa. Viven en antiguos árboles e intemporales rocas. No son malvados, y se aparecen a menudo en forma de humanos o maravillas sobrenaturales para advertir a la gente.",
   "mythEn": "A spirit of rivers and mountains in Japanese lore, it dwells in ancient trees and ageless rocks. They are not evil, and will often appear as humans or supernatural wonders to warn people."
  },
@@ -1411,6 +2170,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un deportista veterano que entretiene al público a cambio de su propia vida. Un fallo puede significar la muerte. Algunos creen que los toreros que mueren toreando se quedan en este mundo.",
   "mythEn": "A master sportsman who entertains the audience in exchange for his own life: one mistake can mean death. Some believe that matadors who die while performing remain in this world."
  },
@@ -1452,6 +2212,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 5030,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Detener el ataque",
+    "en": "Stop the Attack"
+   }
+  ],
   "mythEs": "Un shikigami de un poder excepcional. Solo los onmyoji de élite son capaces de invocarlo y vincularlo al papel. Puede repeler los desastres y curar enfermedades, pero su temperamento es bastante agresivo.",
   "mythEn": "An exceptionally powerful shikigami. Only the most elite onmyoji are capable of summoning and binding it to paper. It can ward off disaster or cure illness, but its temperament is quite vicious."
  },
@@ -1486,6 +2276,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1210,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Centro de detención",
+    "en": "Detention Facility"
+   },
+   {
+    "stage": 1220,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Un plan perfecto",
+    "en": "A Perfect Plan"
+   }
+  ],
   "mythEs": "Una masa de propósitos y emociones malévolas que no consiguió convertirse en un demonio de verdad. Lo único que hace es comerse a sus presas y crecer.",
   "mythEn": "A mass of malevolent intent and emotion that failed to become a true demon. All it does is eat, prey, and grow."
  },
@@ -1520,6 +2333,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1220,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Un plan perfecto",
+    "en": "A Perfect Plan"
+   }
+  ],
   "mythEs": "Hermosa hada del folclore irlandés que suspira por el amor de un hombre humano. Drena la vida de sus amantes a cambio de inspiración artística.",
   "mythEn": "A beautiful fairy of Irish lore that yearns for the love of a male human. She drains the life of her lovers in return for granting them artistic inspiration."
  },
@@ -1558,6 +2394,7 @@
    "40"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los 72 demonios de la Goecia. Aparece en forma de leopardo y puede ver el pasado y el futuro, controlar el fuego y calcinar a sus adversarios hasta la muerte.",
   "mythEn": "One of the 72 demons of the Goetia. He appears as a leopard and can see the past and future. He can control fire and burn all his adversaries to death."
  },
@@ -1599,6 +2436,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1220,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Un plan perfecto",
+    "en": "A Perfect Plan"
+   },
+   {
+    "stage": 5030,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Detener el ataque",
+    "en": "Stop the Attack"
+   }
+  ],
   "mythEs": "Demonio femenino de la mitología hindú. Aunque era una diosa de la fertilidad dravídica, la difusión del hinduismo cambió la percepción sobre ella a una figura demoníaca. Suele aparecer representada como una mujer voluptuosa.",
   "mythEn": "A female demon in Hindu lore. Though originally a Dravidian fertility goddess, the spread of Hinduism changed perception of her to a demonic figure. Usually depicted as a voluptuous woman."
  },
@@ -1640,6 +2507,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 5030,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Detener el ataque",
+    "en": "Stop the Attack"
+   }
+  ],
   "mythEs": "Un monstruo maligno de la mitología japonesa conocido por su terrible apariencia y por su fuerza bruta. Saquea pueblos y masacra a sus habitantes con mazas de hierro.",
   "mythEn": "An evil monster from Japanese lore known for its hideous appearance and brute strength. They loot and plunder villages, massacring the townspeople with their iron clubs."
  },
@@ -1674,6 +2571,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   }
+  ],
   "mythEs": "Criatura de la mitología japonesa que tiene cabeza de mono, patas de tigre y cola de serpiente. En el Cantar de Heike se dice que se escondía tras una nube oscura cada noche para atacar al emperador.",
   "mythEn": "A creature of Japanese lore with a monkey's head, tiger's legs, and snake's tail. The Tale of Heike says it hid behind a dark cloud each night to attack the Emperor."
  },
@@ -1708,6 +2628,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Es uno de los dioses ancestrales que existían antes de la formación de Japón. Creó Oyashima a partir del caos, dio a luz a infinidad de criaturas y cimentó la fundación de la tierra y la naturaleza.",
   "mythEn": "A Persona of another story. One of the ancient gods who existed before Japan was formed. He created the Oyashima from chaos, then gave birth to countless children and laid the foundation of soil and nature."
  },
@@ -1742,6 +2663,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   },
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   }
+  ],
   "mythEs": "Perro de dos cabezas que pertenece al gigante Gerión en la mitología griega. Custodiaba un rebaño de bueyes rojos, pero Hércules lo mató durante uno de sus doce trabajos.",
   "mythEn": "The two-headed pet dog belonging to the giant, Geryon, in Greek myth. He guarded a herd of red oxen, but was killed by Hercules during one of his twelve labors."
  },
@@ -1776,6 +2720,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un pájaro legendario que es el señor de todas las aves. Cuando muere, las aves de todo el mundo pían con tristeza.",
   "mythEn": "A legendary bird said to be the ruler of all birds. When it dies, birds across the land chirp with sadness."
  },
@@ -1810,6 +2755,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro aspectos del pensamiento sintoísta. Trabaja con sutileza para ayudar a mantener la mente en calma. Se dice que ayuda en las relaciones y en la sociabilidad, además de guiarte por el camino correcto.",
   "mythEn": "One of the four aspects of Shinto thought, it works gently to help maintain a calm mind. It is said to aid in one's relations and sociability, and can lead one in a positive direction."
  },
@@ -1844,6 +2790,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "También conocido como Dhritarashtra, es el protector del este y uno de los cuatro reyes celestiales de origen budista. Mantiene la seguridad de la nación.",
   "mythEn": "Also known as Dhritarashtra, he is the protector of the East, and is one of the four Heavenly Kings of Buddhist origin. He helps maintain the security of the nation."
  },
@@ -1878,6 +2825,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   },
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   }
+  ],
   "mythEs": "Un hada del folclore alemán que lleva una bolsa de arena mágica que hace que los humanos se duerman cuando se la tira a los ojos. Si la víctima se resiste, Sandman se sentará sobre sus párpados.",
   "mythEn": "A fairy in German folklore who carries a bag of magical sand that puts humans to sleep when thrown into their eyes. If the victim resists, the Sandman will sit on their eyelids."
  },
@@ -1912,6 +2882,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1150,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Asalto al castillo de Marie",
+    "en": "Assault on Marie's Castle"
+   },
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   }
+  ],
   "mythEs": "Uno de los cuatro oni controlados por Fujiwara no Chikata. Envía huracanes para derribar a sus enemigos. Hay quien dice que Fuu-Ki es el primer ninja.",
   "mythEn": "One of the four oni controlled by Fujiwara no Chikata, it sends hurricanes to blow away its enemies. Some say that Fuu-Ki is the original ninja."
  },
@@ -1946,6 +2939,7 @@
   "unlock": "bonus",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Uno de los dioses ancestrales que existían antes de la formación de Japón. Creó Oyashima a partir del caos y dio a luz a infinidad de criaturas.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. One of the ancient gods who existed before Japan was formed. He created the Oyashima from chaos, then gave birth to countless children."
  },
@@ -1980,6 +2974,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   },
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   },
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   }
+  ],
   "mythEs": "Un demonio hindú. Es un enemigo de los dioses y ataca a los humanos para alimentarse de ellos. Su terrible apariencia infunde miedo en quienes lo ven. Ráksasa cambia de forma para engañar a sus enemigos.",
   "mythEn": "A Hindu demon. He is an enemy of the gods and attacks humans to feed on them. His hideous appearance strikes fear into those who see him. Rakshasa shape-shifts to deceive his enemies."
  },
@@ -2014,6 +3031,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1160,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Batalla de la recepción",
+    "en": "Reception Hall Rumble"
+   },
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   }
+  ],
   "mythEs": "Uno de los cuatro oni controlados por Fujiwara no Chikata. Puede causar inundaciones con el mero balanceo de sus brazos. En el Taiheiki, Ki no Tomoo lo expulsó leyendo un poema japonés.",
   "mythEn": "One of the four oni controlled by Fujiwara no Chikata, it can cause floods with the swing of its arms. In the Taiheiki, Ki no Tomoo expelled the oni by reading a Japanese poem."
  },
@@ -2055,6 +3095,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   },
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   },
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 5040,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El poder de los Ladrones Fantasma",
+    "en": "A Phantom Thieves' Forte"
+   }
+  ],
   "mythEs": "Estos seres divinos mitad serpiente, mitad humano de la mitología hindú son venerados como portadores de lluvia. Viven en el fondo de los lagos y mares, cantando y bailando cuando no están combatiendo.",
   "mythEn": "Half-snake, half-human divine beings in Hindu lore, worshipped as bringers of rain. They live in the bottoms of lakes and seas, singing and dancing when they are not fighting."
  },
@@ -2089,6 +3159,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   },
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   },
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   }
+  ],
   "mythEs": "Un joven valiente de la mitología celta. Tras derrotar a un perro guardián feroz, se ofreció a ocupar su lugar, ganándose así el sobrenombre de \"perro de Culann\".",
   "mythEn": "A brave young man in Celtic myth. After defeating a fierce guard dog, he volunteered to take its place, earning him the nickname \"Hound of Culann.\""
  },
@@ -2130,6 +3230,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   },
+   {
+    "stage": 2110,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín II",
+    "en": "Garrison Liberation Mission 2"
+   },
+   {
+    "stage": 5060,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Horda de esbirros",
+    "en": "The Horde of Goons"
+   }
+  ],
   "mythEs": "Una deidad malvada del folclore de Mesopotamia con cuerpo de águila y cabeza de león. Mientras el dios Enlil se purificaba, Anzu le robó las Tablas del destino.",
   "mythEn": "An evil deity of Mesopotamian folklore with an eagle's body and lion's head. While the god Enlil purified himself, Anzu stole the Tablets of Destiny from him."
  },
@@ -2171,6 +3301,43 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   },
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   },
+   {
+    "stage": 5050,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El Golpeador peligroso",
+    "en": "The Dangerous Slammer"
+   }
+  ],
   "mythEs": "Uno de los cuatro oni controlados por Fujiwara no Chikata. Su cuerpo es tan duro que ningún arma lo hiere. Él y sus compañeros cayeron al infierno a través de agujeros que aún se encuentran en la Iga moderna.",
   "mythEn": "One of the four oni controlled by Fujiwara no Chikata, its body is so hard that no weapons can penetrate it. It and its comrades fell into hell through holes that can still be found in modern Iga."
  },
@@ -2205,6 +3372,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Surgió de un brote de bambú resplandeciente. Además, se le propusieron muchas veces, pero no aceptó y regresó a la luna.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. She appeared from a glowing bamboo shoot. She received many proposals, but rejected them all and returned to the moon."
  },
@@ -2246,6 +3414,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   },
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   },
+   {
+    "stage": 5050,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El Golpeador peligroso",
+    "en": "The Dangerous Slammer"
+   }
+  ],
   "mythEs": "Esposa y hermana pequeña de Osiris. Tras la muerte de su marido, consiguió revivirlo gracias a su increíble poder mágico. Isis aparece en muchas sepulturas como diosa guardiana de los muertos.",
   "mythEn": "Osiris's wife as well as his younger sister. Upon the death of her husband, she revived him with her incredible magic power. Isis is seen at many gravesites as the guardian goddess of the dead."
  },
@@ -2280,6 +3478,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   },
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   }
+  ],
   "mythEs": "Una mujer serpiente de la mitología griega que en su día fue la reina de Libia. La celosa esposa de Zeus, Hera, asesinó a sus hijos, lo que provocó que se volviera loca y se transformara en un monstruo.",
   "mythEn": "A serpentine woman of Greek myth, she was once the queen of Libya. Zeus's jealous wife, Hera, killed her children, causing her to go mad and transform into a monster."
  },
@@ -2321,6 +3542,43 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1170,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Atravesando la barricada",
+    "en": "Break Through the Barricade"
+   },
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   },
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   },
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 5050,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El Golpeador peligroso",
+    "en": "The Dangerous Slammer"
+   }
+  ],
   "mythEs": "Dios japonés de la guerra, la caza y la fertilidad. Luchó contra Takemikazuchi por el control de Japón y perdió. Escapó a Suwa, pero se le prohibió abandonar el lugar desde entonces.",
   "mythEn": "A Japanese god of war, hunting, and fertility. He fought Take-Mikazuchi for control of Japan and lost. He escaped to Suwa, but has been prohibited to leave since then."
  },
@@ -2355,6 +3613,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Un poeta diestro con la lira. Intentó rescatar a su esposa de las garras de Hades, pero ella se desvaneció cuando él miró atrás antes de llegar a la superficie.",
   "mythEn": "A Persona of another story. A poet skilled with the lyre. He tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface."
  },
@@ -2389,6 +3648,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   },
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Es el gran Marqués del infierno y aparece allá donde haya guerra para imbuir el odio entre los soldados. Ayuda a derrotar a los enemigos de aquellos que lo invocan.",
   "mythEn": "One of the 72 demons of the Goetia. The great Marquis of Hell, he appears where there is battle to stoke the hatred within soldiers. He helps defeat the enemies of those who summon him."
  },
@@ -2423,6 +3705,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La más joven de las tres hermanas Moiras de la leyenda griega. Hace girar los hilos de la vida con su huso.",
   "mythEn": "The youngest of the three Moirae Sisters of Greek legend. She spins the threads of life with her spindle."
  },
@@ -2457,6 +3740,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 1180,
+    "kingdom": 1,
+    "dlc": false,
+    "es": "Por quien ondea la bandera",
+    "en": "For Whom the Flag Flies"
+   },
+   {
+    "stage": 2010,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Criminal en busca y captura",
+    "en": "A Wanted Criminal"
+   },
+   {
+    "stage": 2020,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "La fuerza no te da la razón",
+    "en": "Might Doesn't Make Right"
+   },
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   }
+  ],
   "mythEs": "Un tipo de preta o \"fantasma hambriento\" de la mitología hindú que devora cadáveres humanos. Entra en las personas por la boca y les causa daño. Se dice que aquellos que lo ven mueren en nueve meses o menos.",
   "mythEn": "A type of preta, or \"hungry ghost,\" in Hindu lore that eats human corpses. It enters a human through the mouth and causes harm. Those who see one are said to die within nine months."
  },
@@ -2491,6 +3804,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2030,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Operac. Ataq. de tenaza doble: Mach II",
+    "en": "Double Pincer Attack: Mach II"
+   },
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   }
+  ],
   "mythEs": "Un demonio invocado por un hechicero llamado Crowley a principios del siglo XX. Impide que aquellos que tratan de alcanzar la iluminación lo consigan.",
   "mythEn": "A demon summoned by a sorcerer named Crowley at the beginning of the 20th century. He obstructs those attempting to reach enlightenment."
  },
@@ -2525,6 +3861,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Un poeta griego que intentó rescatar a su esposa de las garras de Hades, pero ella se desvaneció cuando él miró atrás antes de llegar a la superficie.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. A Greek poet who tried to retrieve his wife from Hades, but she vanished when he looked back before reaching the surface."
  },
@@ -2559,6 +3896,7 @@
   "unlock": "quest",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La séptima de las nueve órdenes de ángeles. Vigilan las ciudades y naciones y protegen varias figuras religiosas.",
   "mythEn": "The seventh of the nine orders of angels. They guard cities and nations, and protect various religious figures."
  },
@@ -2600,6 +3938,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5060,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Horda de esbirros",
+    "en": "The Horde of Goons"
+   }
+  ],
   "mythEs": "Uno de los cuatro aspectos del pensamiento sintoísta. Tiene el poder de otorgar fiereza. Se dice que ayuda a la hora de ser más valiente, crecer y esforzarse, a pesar de que puede llevarte por el camino equivocado.",
   "mythEn": "One of the four aspects of Shinto thought, it has the power to grant ferocity. It is said to aid in one's bravery, growth, and endeavors, though it can lead in a negative direction."
  },
@@ -2634,6 +3981,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Es hija de Minos, el rey de Creta. Ayudó a Teseo a derrotar al Minotauro y le dio un ovillo de hilo para que pudiera escapar del laberinto.",
   "mythEn": "A Persona of another story. She is the daughter of Minos, the king of Crete. She helped Theseus defeat the Minotaur and gave him a ball of yarn so he could escape the labyrinth."
  },
@@ -2672,6 +4020,7 @@
    "64"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un dios profético del taoísmo, originalmente conocido como Mao Shogun. Debido a un error lingüístico con la palabra china para «gato», su nombre se cambió a Neko Shogun.",
   "mythEn": "A prophetic Taoist god, originally known as Mao Shogun. Due to a linguistic error involving the Chinese word for \"cat,\" his name was changed to Neko Shogun."
  },
@@ -2710,6 +4059,7 @@
    "46"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un guerrero hada de la Corte Seelie que protege el bosque de Carterhaugh. Se crio entre hadas porque lo secuestraron cuando tenía 9 años.",
   "mythEn": "A fae knight of the Seelie Court, said to protect the forest of Carterhaugh. After being kidnapped by the faeries at the tender age of 9, he lived much of his life among them."
  },
@@ -2744,6 +4094,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2050,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Batalla del castillo de Yoshiki",
+    "en": "Battle of Yoshiki's Castle"
+   },
+   {
+    "stage": 2060,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "En busca de una ruta segura",
+    "en": "Seeking a Safe Route"
+   },
+   {
+    "stage": 2110,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín II",
+    "en": "Garrison Liberation Mission 2"
+   }
+  ],
   "mythEs": "Un tipo de tengu que vivió en el monte Kurama de Kioto. Son los tengu más poderosos y conocidos, y tienen el poder de ahuyentar las enfermedades y atraer la fortuna.",
   "mythEn": "A type of tengu said to have lived on Mt. Kurama in Kyoto. The most powerful and well-known of the tengu, they have the power to fend off disease and bring good fortune."
  },
@@ -2778,6 +4151,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "También conocido como Virudhaka, es el protector del sur y uno de los cuatro reyes celestiales de origen budista. Es el dios de los cinco cereales y el antiguo jefe de los dioses.",
   "mythEn": "Also known as Virudhaka, he is the protector of the South, and is one of the four Heavenly Kings of Buddhist origin. He is the god of the five grains, and was once the chief of the gods."
  },
@@ -2812,6 +4186,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2040,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Liquidar al Escuadrón Aizen",
+    "en": "Wipe out the Aizen Squad!"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   },
+   {
+    "stage": 2110,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín II",
+    "en": "Garrison Liberation Mission 2"
+   }
+  ],
   "mythEs": "Una diablesa que seduce a hombres dormidos y ataca a los niños. Es la hija de la diablesa Lilith. Al igual que su madre, absorbe la esencia de los hombres.",
   "mythEn": "A demon who tempts sleeping men and attacks infants. She is the daughter of the demoness, Lilith. Like her mother, she drains men of their essence."
  },
@@ -2853,6 +4250,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5070,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Artista de la muerte",
+    "en": "Artist of Death"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Este demonio aparece como un pentáculo. Se dice que Decarabia, conocedor de todas las hierbas y joyas, tiene la capacidad de transformarse a su voluntad.",
   "mythEn": "One of the 72 demons of the Goetia, this demon appears as a pentacle. Keeper of jewels and herbal lore, Decarabia is said to have the ability to shape-shift at will."
  },
@@ -2887,6 +4293,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2050,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Batalla del castillo de Yoshiki",
+    "en": "Battle of Yoshiki's Castle"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   },
+   {
+    "stage": 2110,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín II",
+    "en": "Garrison Liberation Mission 2"
+   }
+  ],
   "mythEs": "Críptido avistado entre los años 60 y 80 en Virginia Occidental. Tiene los ojos rojos y brillantes y se llama así por los apéndices en forma de aleta que tiene a los lados. Emplea sus agudos sentidos para rastrear el origen de la sangre y devorarlo.",
   "mythEn": "A cryptid sighted during the 1960s-80s in West Virginia. It has shining red eyes and is named for the fin-like appendages on its sides. It uses its keen sense for blood to track down the source and feed on it."
  },
@@ -2921,6 +4350,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "El antiguo dios persa de los contratos, que también es adorado como un dios del sol que trajo las cosechas cuando se introdujo en la religión del zoroastrismo.",
   "mythEn": "An ancient Persian god of contracts. He was also revered as a harvest-bringing sun god when he was introduced to the Zoroastrian religion."
  },
@@ -2955,6 +4385,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2050,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Batalla del castillo de Yoshiki",
+    "en": "Battle of Yoshiki's Castle"
+   },
+   {
+    "stage": 2060,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "En busca de una ruta segura",
+    "en": "Seeking a Safe Route"
+   },
+   {
+    "stage": 2070,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Parque de atracciones del trauma",
+    "en": "Amusement Park of Trauma"
+   }
+  ],
   "mythEs": "El dios de los muertos y los embalsamamientos con cabeza de chacal de la mitología egipcia. Pesa los corazones de los muertos para determinar su destino final.",
   "mythEn": "The jackal-headed god of the dead and embalming from Egyptian myth. He weighs the hearts of the dead to determine their final destination."
  },
@@ -2989,6 +4442,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2050,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Batalla del castillo de Yoshiki",
+    "en": "Battle of Yoshiki's Castle"
+   },
+   {
+    "stage": 2100,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín I",
+    "en": "Garrison Liberation Mission 1"
+   },
+   {
+    "stage": 2110,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín II",
+    "en": "Garrison Liberation Mission 2"
+   }
+  ],
   "mythEs": "Un ave venerada en la mitología nativa americana que vivía en lo alto de los picos tapados por las nubes. Se parece a un águila. El batir de sus alas produce truenos y, según las leyendas, es capaz de invocar a los relámpagos con los ojos.",
   "mythEn": "A revered bird of Native American mythology said to live atop cloud-shrouded peaks. Resembles an eagle. Its wingbeats create thunderclaps, and some legends say its eyes can unleash lightning."
  },
@@ -3023,6 +4499,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2050,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Batalla del castillo de Yoshiki",
+    "en": "Battle of Yoshiki's Castle"
+   },
+   {
+    "stage": 2060,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "En busca de una ruta segura",
+    "en": "Seeking a Safe Route"
+   },
+   {
+    "stage": 2110,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Misión de liberación del fortín II",
+    "en": "Garrison Liberation Mission 2"
+   }
+  ],
   "mythEs": "Un misterioso dios del antiguo Japón. Arahabaki, adorado por Nagasunehiko, quien fue derrotado en un combate por el emperador Jinmu, se convirtió en símbolo de la rebelión y de la resistencia.",
   "mythEn": "A mysterious god of ancient Japan. Most famously worshipped by Nagasunehiko, who was defeated in battle against Emperor Jinmu, Arahabaki came to be treated as a symbol of rebellion and defiance."
  },
@@ -3057,6 +4556,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La mediana de las tres hermanas Moiras de la leyenda griega. Es la distribuidora, ya que mide el hilo que determina la longevidad de cada persona.",
   "mythEn": "The middle sister of the three Moirae Sisters of Greek legend. She is the apportioner, measuring the thread which determines each person's lifespan."
  },
@@ -3098,6 +4598,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2070,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Parque de atracciones del trauma",
+    "en": "Amusement Park of Trauma"
+   },
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   },
+   {
+    "stage": 5080,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Aguanta la respiración y corre",
+    "en": "Hold Your Breath and Run"
+   }
+  ],
   "mythEs": "Un dios según las leyendas asirias. También se llama Sakkut, otra reencarnación del dios estrella, Saturno.",
   "mythEn": "A god in Assyrian legend, his name is interchangeable with Sakkut, another incarnation of the star-god, Saturn."
  },
@@ -3132,6 +4655,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2070,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Parque de atracciones del trauma",
+    "en": "Amusement Park of Trauma"
+   },
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   }
+  ],
   "mythEs": "El dios egipcio de la luna que adopta la forma de un babuino. Se encarga de medir el tiempo. Le dio a Isis el poder de resucitar a Osiris tras su muerte a manos del malvado dios Set.",
   "mythEn": "An Egyptian lunar god who takes the form of a baboon, he is the one who measures time. He gave Isis the power to resurrect Osiris after he was killed by the evil god Seth."
  },
@@ -3166,6 +4705,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2050,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Batalla del castillo de Yoshiki",
+    "en": "Battle of Yoshiki's Castle"
+   },
+   {
+    "stage": 2060,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "En busca de una ruta segura",
+    "en": "Seeking a Safe Route"
+   },
+   {
+    "stage": 2070,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Parque de atracciones del trauma",
+    "en": "Amusement Park of Trauma"
+   }
+  ],
   "mythEs": "Gobernador demoníaco del pecado capital de la pereza. Se dice que destaca en la invención y el descubrimiento. Puede que derive de Ba'al Pe'or, dios sirio de las cosechas abundantes.",
   "mythEn": "Demonic governor of the deadly sin of sloth. He also excels at invention and discovery. May be derived from Ba'al Pe'or, Syrian god of abundant crops."
  },
@@ -3204,6 +4766,7 @@
    "86"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un motorista con un carácter violento que lo convirtió en demonio. Su ira hacia sí mismo y hacia el mundo hacen que sea muy agresivo. Quiere que todo el mundo sufra como él.",
   "mythEn": "A motorcyclist whose violent nature turned him into a demon. His anger with himself and the world causes him to lash out, that everyone else would suffer as well."
  },
@@ -3238,6 +4801,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro jinetes del Apocalipsis. Va sobre un caballo blanco con un arco en sus manos. Se le concedió una corona y promete la victoria.",
   "mythEn": "One of the Four Horsemen of the Apocalypse, he rides a white horse with a bow in hand. A crown was granted to him, and he promises victory."
  },
@@ -3272,6 +4836,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2060,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "En busca de una ruta segura",
+    "en": "Seeking a Safe Route"
+   },
+   {
+    "stage": 2070,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Parque de atracciones del trauma",
+    "en": "Amusement Park of Trauma"
+   },
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   }
+  ],
   "mythEs": "Un caballo blanco legendario con un único cuerno en espiral. Solo lo puede domar una doncella pura, y se supone que su cuerno tiene capacidades curativas milagrosas.",
   "mythEn": "A legendary white horse with a single spiral horn. It can only be tamed by a pure maiden, and its horn supposedly has miraculous healing capabilities."
  },
@@ -3313,6 +4900,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2060,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "En busca de una ruta segura",
+    "en": "Seeking a Safe Route"
+   },
+   {
+    "stage": 2070,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Parque de atracciones del trauma",
+    "en": "Amusement Park of Trauma"
+   },
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   },
+   {
+    "stage": 5080,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Aguanta la respiración y corre",
+    "en": "Hold Your Breath and Run"
+   }
+  ],
   "mythEs": "Una deidad solar que era venerada en el Imperio romano desde el siglo I hasta el IV después de Cristo. Se dice que resucitó después de morir, y se celebró un festival durante el solsticio de invierno en su honor.",
   "mythEn": "A sun deity who was worshipped in the Roman Empire from the 1st to the 4th century AD. He was said to be reborn after death, and a festival was held on the winter solstice for him."
  },
@@ -3354,6 +4971,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5070,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Artista de la muerte",
+    "en": "Artist of Death"
+   }
+  ],
   "mythEs": "La mayor de las tres hermanas Moiras de la mitología griega. Es la que corta los hilos de la vida de aquellos a los que les ha llegado su hora.",
   "mythEn": "The eldest of the three Moirae Sisters of Greek mythology. She cuts the threads of life for those whose time has come."
  },
@@ -3388,6 +5014,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   },
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   }
+  ],
   "mythEs": "La diosa de la vida según el sintoísmo. Es la que medió una vez entre Izanagi e Izanami durante su enfrentamiento en Yomi, la tierra de los muertos.",
   "mythEn": "The goddess of life in Shinto myth. She once mediated between Izanagi and Izanami during their confrontation in Yomi, the land of the dead."
  },
@@ -3422,6 +5064,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "También conocida como Kishimojin, llegó a devorar niños, pero dejó de hacerlo cuando Buda la hizo cambiar. Ahora come granadas y es la diosa de la paternidad y la maternidad.",
   "mythEn": "Also known as Kishimojin, she once ate children, but stopped after Buddha changed her ways. She now eats pomegranates and is a goddess of parenting."
  },
@@ -3456,6 +5099,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un monje que murió durante un ayuno. Su poder espiritual permite que su cuerpo siga existiendo sin pudrirse. Se dice que se aparecerá ante la gente en el día de la salvación.",
   "mythEn": "A monk who died while fasting, his spiritual power allows his body to continue to exist without rotting. It is said that he will appear before people on the day of salvation."
  },
@@ -3490,6 +5134,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   },
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   },
+   {
+    "stage": 3020,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: patio",
+    "en": "Key to the Past - Courtyard"
+   }
+  ],
   "mythEs": "La sexta de las nueve órdenes angelicales. Se dice que fue la primera que se creó, y su deber es proteger las almas humanas de los demonios.",
   "mythEn": "The sixth of the nine orders of angels. It is said that they were the first order to be created. Their duty is to protect human souls from demons."
  },
@@ -3524,6 +5191,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro jinetes del Apocalipsis. Va sobre un caballo rojo y lleva una gran espada. Tiene el poder de destruir la paz y hacer que los hombres se maten unos a otros.",
   "mythEn": "One of the Four Horsemen of the Apocalypse, he rides a red horse and carries a great sword. He has the power to destroy peace and make men slay one another."
  },
@@ -3558,6 +5226,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   },
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   },
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Es conocido como el Presidente del infierno. Puede transformarse de leopardo a ser humano y desvelar la verdad que se oculta tras los misterios divinos.",
   "mythEn": "One of the 72 demons of the Goetia, he is known as the President of Hell. He can shape-shift from leopard to human and reveal the truth behind divine mysteries."
  },
@@ -3592,6 +5283,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2080,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "Trabajo sin amor",
+    "en": "No Love in the Labor"
+   },
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   }
+  ],
   "mythEs": "Una diosa nipona. Cuida de los campos y de la fertilidad. Todas sus hermanas fueron sacrificadas a Yamata-no-Orochi, pero a ella la salvó Susanoo y se convirtió en su esposa.",
   "mythEn": "A Japanese goddess. She governs fields and fertility. All of her sisters were sacrificed to Yamata-no-Orochi, but she was saved by Susano-o and became his wife."
  },
@@ -3626,6 +5333,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   },
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   },
+   {
+    "stage": 3020,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: patio",
+    "en": "Key to the Past - Courtyard"
+   }
+  ],
   "mythEs": "Un demonio budista que drena la energía vital. Tiene la piel oscura y mide 3 metros de alto. A veces cambia de forma y se transforma en calabaza. En el pasado sirvió a Rudra, el dios de las tormentas.",
   "mythEn": "A Buddhist demon said to drain human life energy. He has dark skin, stands 3 meters tall, and sometimes changes his shape to a gourd. Known to have once served Rudra, the god of storms."
  },
@@ -3660,6 +5390,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Es hija de Minos. Ayudó a Teseo a derrotar al Minotauro y le dio un ovillo de hilo para que pudiera escapar del laberinto.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. She is the daughter of Minos. She helped Theseus defeat the Minotaur and gave him a ball of yarn so he could escape the labyrinth."
  },
@@ -3694,6 +5425,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   },
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   }
+  ],
   "mythEs": "Un elefante gigante, monstruo de la mitología de Sri Lanka, que suele aparecer representado llevando en su lomo a Mara, el Maligno. Se dice que todo el que mire su ojo maligno caerá en desgracia.",
   "mythEn": "A giant elephant monster of Sri Lankan myth, it is typically portrayed as being ridden by the Evil One, Mara. Whoever looks into its evil eye is said to be met with misfortune."
  },
@@ -3728,6 +5475,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 2090,
+    "kingdom": 2,
+    "dlc": false,
+    "es": "El extraño amor de Yoshiki",
+    "en": "Yoshiki's Strange Love"
+   },
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   },
+   {
+    "stage": 3020,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: patio",
+    "en": "Key to the Past - Courtyard"
+   }
+  ],
   "mythEs": "La reina de las hadas según los mitos celtas. Se la suele identificar con Titania. Suele ofrecer hidromiel mezclado con su sangre a sus innumerables consortes.",
   "mythEn": "The fairy queen in Celtic myth. Often identified with Titania. She would offer mead mixed with her blood to her many consorts."
  },
@@ -3762,6 +5532,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Serpiente con cuerpo arcoíris de la mitología yolngu. Es el dios de la fertilidad, controla la meteorología y reside en un estanque sagrado lleno de agua de color arcoíris.",
   "mythEn": "A snake with a rainbow body from Yolngu lore. He is a fertility deity who controls the weather and resides in a holy pond filled with rainbow-colored water."
  },
@@ -3796,6 +5567,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   },
+   {
+    "stage": 3020,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: patio",
+    "en": "Key to the Past - Courtyard"
+   },
+   {
+    "stage": 3030,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: cafetería",
+    "en": "Key to the Past - Cafeteria"
+   }
+  ],
   "mythEs": "Las \"selectoras de caídos en combate\" en la mitología nórdica. Llevan armaduras y espadas relucientes y van en busca de guerreros valientes a los que llevar al Valhalla para que luchen en el Ragnarok.",
   "mythEn": "\"Choosers of the slain\" in Norse lore. Armed with shining armor and swords, they look for brave warriors to take to Valhalla, so that they may fight in Ragnarok."
  },
@@ -3830,6 +5624,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Es rival de Izanagi y es exactamente igual que él. Magatsu significa \"calamidad\". A diferencia de Izanagi, que fundó la tierra e instauró el orden, él vuelve a sumirlo todo en el caos.",
   "mythEn": "A Persona of another story. He's Izanagi's rival and looks just like him. Magatsu means \"calamity.\" Unlike Izanagi, who founded the land and brought order, he leads all back into chaos."
  },
@@ -3864,6 +5659,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una serpiente con mil cabezas de las leyendas hindúes. Ananta significa \"infinito\" en sánscrito. Tras descansar sobre ella, Vishnu despertó y creó el universo.",
   "mythEn": "The thousand-headed serpent of Hindu legend, Ananta is Sanskrit for \"infinite.\" After resting on him, Vishnu woke up and created the universe."
  },
@@ -3905,6 +5701,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5090,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El Golpeador enfermo",
+    "en": "The Sick Slammer"
+   }
+  ],
   "mythEs": "Uno de los Ssu-Ling, criaturas celestiales de la mitología china. Representa la dirección del oeste, la estación del otoño y el elemento del metal. Se cree que es el rey de todas las bestias.",
   "mythEn": "One of the Ssu-Ling, celestial creatures of Chinese myth. It represents the direction west, the season of autumn, and the element of metal. It is believed to be the king of all beasts."
  },
@@ -3939,6 +5744,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "El señor babilonio del viento y las arenas ardientes. Tiene cuerpo de hombre, cabeza de león y garras y alas de águila, además de un veneno mortal. Las enfermedades que provoca solo se pueden curar con magia.",
   "mythEn": "The Babylonian lord of wind and scorching sands. He has the body of a man, a lion's head, the claws and wings of an eagle, and has a deadly poison. The diseases he spreads can only be cured with magic."
  },
@@ -3973,6 +5779,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Gigantes hijos de Urano y Gea. Su nombre significa «aquellos con cien brazos». Durante la Guerra de los Titanes, Zeus los liberó del inframundo para que lo ayudaran a salir victorioso.",
   "mythEn": "Giants born from Uranus and Gaia. The name means \"those with a hundred arms.\" During the war of the Titans, Zeus freed them from the Underworld to help him obtain victory."
  },
@@ -4007,6 +5814,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La diosa romana de la suerte que gira la Rueda de la Fortuna. Se cree que originalmente fue una diosa de la fertilidad. Su equivalente en la mitología griega es Tique.",
   "mythEn": "The Roman goddess of luck, she spins the Wheel of Fortune. She is believed to have originally been a fertility goddess. Her Greek counterpart is Tyche."
  },
@@ -4041,6 +5849,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Hija de Zeus, es una diosa con una gran habilidad marcial. Lucha para proteger su tierra o a su familia, pero nunca por sed de sangre. Su símbolo es el olivo.",
   "mythEn": "A Persona of another story. Daughter of Zeus, and a goddess of great martial ability. She fights to protect her land or her family, but never for sheer bloodlust. Her symbol is the olive tree."
  },
@@ -4075,6 +5884,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un antiguo dios egipcio cuyos ojos son el sol y la luna. Algunos lo adoran como el líder de los dioses y se representa como un águila o un halcón.",
   "mythEn": "An ancient god of Egypt whose eyes are the sun and moon. Revered by some as the chief god, he is often depicted as a hawk or a falcon."
  },
@@ -4109,6 +5919,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3010,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "El infierno ulterior",
+    "en": "The Hell Beyond"
+   },
+   {
+    "stage": 3020,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: patio",
+    "en": "Key to the Past - Courtyard"
+   },
+   {
+    "stage": 3030,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: cafetería",
+    "en": "Key to the Past - Cafeteria"
+   },
+   {
+    "stage": 3040,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: sala de profesores",
+    "en": "Key to the Past - Faculty Room"
+   }
+  ],
   "mythEs": "Un joven de la mitología griega. Rechazó a la ninfa Eco, quien se convirtió en suspiro por la desesperación. Maldito por Némesis, se enamoró de su propio reflejó y se consumió.",
   "mythEn": "A young man of Greek myth. He rejected the nymph Echo, who faded to a whisper out of despair. Cursed by Nemesis, he fell in love with his own reflection and wasted away."
  },
@@ -4150,6 +5990,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3030,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: cafetería",
+    "en": "Key to the Past - Cafeteria"
+   },
+   {
+    "stage": 3040,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: sala de profesores",
+    "en": "Key to the Past - Faculty Room"
+   },
+   {
+    "stage": 3050,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: azotea",
+    "en": "Key to the Past - Rooftop"
+   },
+   {
+    "stage": 5090,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El Golpeador enfermo",
+    "en": "The Sick Slammer"
+   }
+  ],
   "mythEs": "Bruja perversa de la mitología balinesa que representa el mal, y eterna rival de Barong. Aunque se la derrote, volverá a la vida para continuar su batalla sin fin.",
   "mythEn": "A wicked witch of Balinese lore, she represents evil and is Barong's eternal rival. Even if defeated, she will come back to life, so their battle will have no end."
  },
@@ -4184,6 +6054,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Magatsu significa \"calamidad\". A diferencia de Izanagi, que fundó la tierra e instauró el orden, él vuelve a sumirlo todo en el caos.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. He's Izanagi's rival. Magatsu means \"calamity,\" so, unlike Izanagi, who founded the land and brought order, he leads all back into chaos."
  },
@@ -4222,6 +6093,7 @@
    "105"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una criatura galesa conocida comúnmente como \"Coco\" u \"Hombre del saco\". Las madres suelen utilizar su existencia para asustar a sus hijos y hacer que se porten bien.",
   "mythEn": "A Welsh creature commonly known as \"Bugbear\" or the \"Boogeyman.\" Its existence is often used by mothers to scare children into behaving."
  },
@@ -4256,6 +6128,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "También conocido como Virupaksha, es el protector del oeste y uno de los cuatro reyes celestiales de origen budista. Vigila de cerca el mundo con su aguzada mirada.",
   "mythEn": "Also known as Virupaksha, he is the protector of the West, and is one of the four Heavenly Kings of Buddhist origin. He keeps a close watch on the world with his sharp gaze."
  },
@@ -4290,6 +6163,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3030,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: cafetería",
+    "en": "Key to the Past - Cafeteria"
+   },
+   {
+    "stage": 3040,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: sala de profesores",
+    "en": "Key to the Past - Faculty Room"
+   },
+   {
+    "stage": 3050,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: azotea",
+    "en": "Key to the Past - Rooftop"
+   }
+  ],
   "mythEs": "La diosa hindú de los ríos y patrona del discurso, la escritura, el aprendizaje, las artes y las ciencias. Brahma es su marido.",
   "mythEn": "The Hindu goddess of rivers, and patron of speech, writing, learning, the arts, and sciences. Brahma is her husband."
  },
@@ -4324,6 +6220,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3050,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: azotea",
+    "en": "Key to the Past - Rooftop"
+   },
+   {
+    "stage": 3060,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Nakabachi mecánico",
+    "en": "The Mechanical Nakabachi"
+   },
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   }
+  ],
   "mythEs": "Deidades hindúes de la pasión y las relaciones. Son las sirvientas de Kali. Comen carne humana y se reúnen en cementerios y crematorios de noche. Su nombre significa \"bailarina del cielo\".",
   "mythEn": "Hindu deities of passion and relations. They are Kali's attendants. They eat human flesh and gather at graveyards and crematories each night. Their name means \"sky dancer.\""
  },
@@ -4358,6 +6277,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Es una importante deidad descendiente del dios japonés Izanagi y controla tanto la luna como la noche. Hay muchas teorías sobre este misterioso dios.",
   "mythEn": "A Persona of another story. An important god born from the Japanese god Izanagi, he governs the moon and the night. There are many theories behind this mysterious god."
  },
@@ -4392,6 +6312,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Hija de Zeus y diosa con una gran habilidad marcial. Lucha para proteger su tierra o a su familia, pero nunca por sed de sangre.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. Daughter of Zeus, and a goddess of great martial ability. She fights for her land or her family, but never out of sheer bloodlust."
  },
@@ -4433,6 +6354,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3040,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: sala de profesores",
+    "en": "Key to the Past - Faculty Room"
+   },
+   {
+    "stage": 3050,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: azotea",
+    "en": "Key to the Past - Rooftop"
+   },
+   {
+    "stage": 3060,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Nakabachi mecánico",
+    "en": "The Mechanical Nakabachi"
+   },
+   {
+    "stage": 5090,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "El Golpeador enfermo",
+    "en": "The Sick Slammer"
+   }
+  ],
   "mythEs": "El rey hindú de los pájaros. En el Ramayana, luchó con valentía contra Rávana en un intento por salvar a Sita, la esposa de Rama, séptimo avatar de Vishnu, pero perdió.",
   "mythEn": "The Hindu king of birds. In the Ramayana, he fought bravely against Ravana in an attempt to save Sita, Rama's wife and the 7th avatar of Vishnu, but lost."
  },
@@ -4472,6 +6423,7 @@
    "124"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "El dios egipcio del desierto, el caos y el mal. Asesinó a su hermano Osiris e intentó convertirse en el dios principal, pero Horus, el hijo de Osiris, lo castró.",
   "mythEn": "The Egyptian god of the desert, chaos, and evil. He murdered his brother, Osiris, and tried to become chief god, but he was castrated by Osiris's son, Horus."
  },
@@ -4506,6 +6458,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3020,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: patio",
+    "en": "Key to the Past - Courtyard"
+   },
+   {
+    "stage": 3030,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: cafetería",
+    "en": "Key to the Past - Cafeteria"
+   },
+   {
+    "stage": 3040,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: sala de profesores",
+    "en": "Key to the Past - Faculty Room"
+   },
+   {
+    "stage": 3050,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: azotea",
+    "en": "Key to the Past - Rooftop"
+   }
+  ],
   "mythEs": "Criatura mística de la mitología balinesa que representa el bien, y eterno rival de Rangda. Renacerá aunque sea derrotado. Debido a esto, la lucha no tiene fin.",
   "mythEn": "A mystical creature in Balinese lore, it represents good and is Rangda's eternal rival. Even if defeated, it will be reborn. The result is a never-ending struggle."
  },
@@ -4540,6 +6522,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4010,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: A",
+    "en": "Path to God - A"
+   },
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   },
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   }
+  ],
   "mythEs": "Un hombre pájaro divino de la mitología hindú que luchó contra los dioses y recibió la inmortalidad a cambio de ser el portador de Vishnu.",
   "mythEn": "A divine bird-man in Hindu lore, he once fought the gods and received immortality in exchange for becoming Vishnu's carrier."
  },
@@ -4574,6 +6579,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   },
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   },
+   {
+    "stage": 4010,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: A",
+    "en": "Path to God - A"
+   }
+  ],
   "mythEs": "Diosas del destino en la mitología nórdica. Viven bajo las raíces de Yggdrasil y tejen los hilos del destino, a los que están atados hasta los dioses.",
   "mythEn": "Goddesses of fate in Norse lore. They live below the roots of Yggdrasil and weave the threads of fate, which even the gods are bound by."
  },
@@ -4608,6 +6643,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3050,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Llave al pasado: azotea",
+    "en": "Key to the Past - Rooftop"
+   },
+   {
+    "stage": 3060,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Nakabachi mecánico",
+    "en": "The Mechanical Nakabachi"
+   }
+  ],
   "mythEs": "El rey hindú con cabeza de elefante. Parvati lo creó para que nadie pudiese verla mientras se bañaba. Shiva le cortó la cabeza y la sustituyó por una cabeza de elefante.",
   "mythEn": "The Hindu elephant-headed god. He was originally created by Parvati to prevent anyone from watching her bathe. Shiva batted off his original head and replaced it with an elephant's head."
  },
@@ -4642,6 +6693,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   },
+   {
+    "stage": 4010,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: A",
+    "en": "Path to God - A"
+   }
+  ],
   "mythEs": "Una gigante nórdica llamada \"la diosa de las nieves\". Es la encarnación del invierno y, según la leyenda, todos los dioses volverán a ella al final del Ragnarok.",
   "mythEn": "A Norse giantess called the \"snowshoe goddess\" and the embodiment of winter. According to legend, all the gods will return to her at the end of Ragnarok."
  },
@@ -4683,6 +6757,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5100,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Matar por un sueño",
+    "en": "Killing for a Dream"
+   }
+  ],
   "mythEs": "Una deidad kunitsu de la mitología japonesa que controla la agricultura y la medicina. Se dice que creó la provincia de Izumo junto con Suserihime, hija de Susanoo.",
   "mythEn": "A Kunitsu deity of Japanese mythology that governs agriculture and medicine. He's said to have built the country of Izumo with Susano-o's daughter, Suseri-Hime."
  },
@@ -4717,6 +6800,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro jinetes del Apocalipsis. Va sobre un caballo claro y representa la muerte. Tiene el poder de destruir la vida.",
   "mythEn": "One of the Four Horsemen of the Apocalypse, he rides a pale horse and represents death. He has the power to destroy life."
  },
@@ -4751,6 +6835,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3060,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Nakabachi mecánico",
+    "en": "The Mechanical Nakabachi"
+   },
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   },
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   }
+  ],
   "mythEs": "El perro guardián que se encarga de que nadie entre ni salga del inframundo en la mitología griega. Es hijo de Tifón y Equidna y hermano mayor de Ortro.",
   "mythEn": "The guardian hound who prevents anyone from entering or exiting the underworld in Greek lore. He was born from Typhon and Echidna, and is the older brother of Orthrus."
  },
@@ -4785,6 +6899,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   },
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   }
+  ],
   "mythEs": "El rey de los nagas, una tribu mitad humana, mitad serpiente de la mitología hindú. Los reyes dragón Nanda y Takshaka del mito budista pertenecen a esta categoría real.",
   "mythEn": "The king of the Naga, a half-man, half-snake tribe in Hindu lore. The dragon kings Nanda and Takshaka of Buddhist myth fall into this royal category."
  },
@@ -4819,6 +6956,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Es una importante deidad descendiente del dios japonés Izanagi y controla tanto la luna como la noche. Hay muchas teorías sobre este misterioso dios.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. An important god born from the Japanese god Izanagi, he governs over the moon and the night. There are many theories behind this mysterious god."
  },
@@ -4853,6 +6991,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3060,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Nakabachi mecánico",
+    "en": "The Mechanical Nakabachi"
+   },
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   }
+  ],
   "mythEs": "Reina de las hadas y esposa de Oberón. Proviene de la diosa romana Diana. Más tarde, quedó inmortalizada en la obra de Shakespeare \"El sueño de una noche de verano\".",
   "mythEn": "The queen of the fairies and Oberon's wife. She is derived from the Roman goddess Diana. She was later immortalized in Shakespeare's play \"A Midsummer Night's Dream.\""
  },
@@ -4887,6 +7041,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   },
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   }
+  ],
   "mythEs": "Una hermosa diosa hindú del amor y una de las esposas de Shiva. Siempre estaba a su lado y desempeñó un papel importante a la hora de abrir su tercer ojo. Se puede convertir en Durga o en Kali cuando enfurece.",
   "mythEn": "A beautiful Hindu goddess of love and one of Shiva's wives. Always by his side, she played a role in opening his third eye. She can turn into Durga or Kali when angered."
  },
@@ -4921,6 +7098,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Por la maldición de su madre, Pasífae, él nació siendo un monstruo con cabeza de toro. Recluido en el laberinto y llamado \"Minotauro\", desde entonces empuña un hacha de doble filo.",
   "mythEn": "A Persona of another story. Due to a curse on his mother, Pasiphae, he was born a bull-headed monster. Locked away in the labyrinth as the Minotaur, he wielded a double-sided axe."
  },
@@ -4962,6 +7140,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5100,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Matar por un sueño",
+    "en": "Killing for a Dream"
+   }
+  ],
   "mythEs": "Una criatura divina de la mitología japonesa. Son pájaros de tres patas enviados por Amaterasu para ayudar a los humanos. Se dice que ayudaron al Emperador Jinmu a alcanzar la victoria.",
   "mythEn": "A divine creature in Japanese lore. They are three-legged birds sent by Amaterasu to help humans. They are said to have helped Emperor Jinmu claim victory."
  },
@@ -4996,6 +7183,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   },
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   },
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   }
+  ],
   "mythEs": "Un ángel del gnosticismo que controla la paz y la justicia. A pesar de que se lo conoce como el salvador de los ángeles, era humano y el rey de Salem.",
   "mythEn": "An angel of Gnosticism who governs over peace and righteousness. Though he's said to be the savior of the angels, he used to be a human and the king of Salem."
  },
@@ -5030,6 +7240,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3060,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Nakabachi mecánico",
+    "en": "The Mechanical Nakabachi"
+   },
+   {
+    "stage": 3070,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Club Rebelde transformado",
+    "en": "The Transformed Rebel Club"
+   }
+  ],
   "mythEs": "Demonio con cabeza de cabra que es venerado en las misas negras. Su nombre se puede usar como término general para los demonios. Se acabó convirtiendo en objeto de adoración de las brujas.",
   "mythEn": "A goat-headed demon that is worshipped in Black Sabbaths. His name can be used as a catch-all term for demons in general. He would become an object of worship for witches."
  },
@@ -5069,6 +7295,7 @@
    "144"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un ángel que tocará la trompeta cuando llegue el Apocalipsis. Con cada trompeta que suene, llegarán más plagas y desastres y la tierra se convertirá en un lugar de muerte y sufrimiento.",
   "mythEn": "An angel that sounds the trumpet at the time of the apocalypse. As each trumpet sounds, more plagues and disasters will occur, turning the earth into a land of suffering and death."
  },
@@ -5103,6 +7330,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro jinetes del Apocalipsis. Va sobre un caballo negro y lleva una balanza. Porta el hambre y tiene derecho a matar por medio del sufrimiento.",
   "mythEn": "One of the Four Horsemen of the Apocalypse, he rides a black horse and carries scales. He brings famine and has the right to end lives through suffering."
  },
@@ -5137,6 +7365,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   },
+   {
+    "stage": 4010,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: A",
+    "en": "Path to God - A"
+   },
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   }
+  ],
   "mythEs": "Se dice que fue la primera esposa de Adán. Quería ser su semejante y se negó a obedecerlo. La expulsaron del Edén y se convirtió en un demonio de la noche. Es la madre de la diablesa Lilim.",
   "mythEn": "Said to have been Adam's first wife, she desired to be his equal and refused to obey him. She was cast out of Eden and became a demon of the night. She is the mother of the demoness, Lilim."
  },
@@ -5178,6 +7436,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   },
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   },
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   },
+   {
+    "stage": 5120,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Choque con el Golpeador chiflado",
+    "en": "Mad Slammer Smackdown"
+   }
+  ],
   "mythEs": "Dios cananeo del fuego. Una estatua de bronce de un hombre con cabeza de toro se encuentra en su altar. La estatua se calentaba y dentro se metían niños como sacrificio.",
   "mythEn": "A Canaanite god of fire. A bronze statue of a man with a bull's head stands at his altar. The statue used to be heated so that children could be sacrificed within it."
  },
@@ -5212,6 +7500,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   },
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   },
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   }
+  ],
   "mythEs": "El rey de la nieve que gobierna sobre una infinidad de Jack Frosts. Tiene el poder de congelar el mundo entero, pero no es consciente de ello debido a su ingenuidad.",
   "mythEn": "The king of snow who rules over an infinite number of Jack Frosts. He has the power to freeze the entire world, but is unaware of it due to his naïve personality."
  },
@@ -5253,6 +7564,43 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 3090,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Yo soy tú, tú eres yo…",
+    "en": "I am thou, thou art I"
+   },
+   {
+    "stage": 3091,
+    "kingdom": 3,
+    "dlc": false,
+    "es": "Romper con el pasado",
+    "en": "Severing the Past"
+   },
+   {
+    "stage": 4010,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: A",
+    "en": "Path to God - A"
+   },
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   },
+   {
+    "stage": 5110,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Odio exacerbado",
+    "en": "A Swelling Hatred"
+   }
+  ],
   "mythEs": "Un dios maldito de la muerte, el mal y la noche del folclore eslavo. Su nombre significa \"Dios negro\" y su contrario es el \"Dios blanco\", Belobog. Aunque lo temen, también hay gente que lo adora.",
   "mythEn": "A cursed god of death, evil, and the night in Slavic lore. His name means \"Black God,\" and he is the counterpart of the \"White God,\" Belobog. Despite being feared, he was also worshipped."
  },
@@ -5287,6 +7635,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Hijo de Pasífae, nació siendo un monstruo con cabeza de toro. Recluido en el laberinto y llamado \"Minotauro\", desde entonces empuña un hacha de doble filo.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. Son of Pasiphae, he was born a bull-headed monster. Locked away in the labyrinth as the Minotaur, he wielded a double-sided axe."
  },
@@ -5321,6 +7670,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La criatura Ssu-Ling más noble de la mitología china. Representa la dirección este, la estación de la primavera y el elemento de la madera. Yace en un palacio en el fondo del océano.",
   "mythEn": "The noblest of the Ssu-Ling creatures of Chinese myth. It represents the direction east, the season of spring, and the element of wood. It dwells in a palace at the bottom of the ocean."
  },
@@ -5362,6 +7712,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4010,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: A",
+    "en": "Path to God - A"
+   },
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   },
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   },
+   {
+    "stage": 5110,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Odio exacerbado",
+    "en": "A Swelling Hatred"
+   }
+  ],
   "mythEs": "Uno de los 72 demonios de la Goecia. Aparece como un gran monstruo marino. Conocido como el gran Marqués del infierno, es ducho en lingüística y un maestro de la retórica.",
   "mythEn": "One of the 72 demons of the Goetia, he appears as a great sea monster. Known as the great Marquis of Hell, he is skilled linguistically, and is a master of rhetoric."
  },
@@ -5396,6 +7776,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   },
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   },
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   }
+  ],
   "mythEs": "Diosa de la muerte y la destrucción. Dicen que es la otra cara de Parvati. Es violenta, lleva una ristra de cráneos y armas ensangrentadas, pero también bendice a sus seguidores.",
   "mythEn": "A goddess of death and destruction. She is said to be another face of Parvati. She is violent, wears a string of skulls, and carries bloody weapons, but she also blesses her followers."
  },
@@ -5430,6 +7833,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4020,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: S",
+    "en": "Path to God - S"
+   },
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   },
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   }
+  ],
   "mythEs": "El dios nórdico del trueno e hijo de Odín. Thor posee el poder del cinturón de fuerza, Megingjard, y empuña el Mjolnir, un martillo que atrae rayos y regresa a su dueño después de ser lanzado.",
   "mythEn": "The Norse thunder god and son of Odin, Thor owns the power-enhancing belt, Megingjard, and wields Mjolnir, a hammer that causes lightning to strike and returns to its owner if thrown."
  },
@@ -5464,6 +7890,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   },
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   },
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   }
+  ],
   "mythEs": "Una serpiente gigante de ocho cabezas a la que Susanoo derrotó para salvar a Kushinadahime. La legendaria espada Ame no Murakumo no Tsurugi, también conocida como la espada de Kusanagi, salió de su estómago.",
   "mythEn": "A giant snake with eight heads that Susano-o defeated to save Kushinada-hime. The legendary sword Ame-no-Murakumo-no- Tsurugi, also known as the \"Sword of Kusanagi,\" emerged from its belly."
  },
@@ -5498,6 +7947,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   },
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   },
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "Un dios mono de ascendencia hindú. Su padre es Vayu, el dios del viento. Es increíblemente ágil y ha llevado a cabo muchos actos heroicos en el Ramayana. Es poderoso, puede volar y transformarse en muchas cosas.",
   "mythEn": "A monkey god of Hindu descent. His father is Vayu, the wind god. Extremely nimble, he performed many heroic deeds in the Ramayana. He is powerful, can fly, and can change his shape into many forms."
  },
@@ -5532,6 +8004,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Dios griego de la muerte, hijo de Nix y hermano gemelo de Hipnos. Es conocido por conceder a los mortales una muerte plácida.",
   "mythEn": "A Persona of another story. The Greek god of death, he is the son of Nyx and the twin brother of Hypnos. He is known to provide mortals with peaceful deaths."
  },
@@ -5566,6 +8039,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4030,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la dominación",
+    "en": "Farewell to Domination"
+   },
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   },
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   }
+  ],
   "mythEs": "Uno de los ocho Yashaou. Su dominio es la guerra y la protección. Antaño era un demonio devora niños, pero se convirtió en uno de los reyes de la sabiduría después de que Buda lo hiciese bueno.",
   "mythEn": "One of the eight Yashaou. His domain is war and protection. Once a child-eating demon, he became one of the greatest of the Wisdom Kings after the Buddha converted him to good."
  },
@@ -5607,6 +8103,36 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   },
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   },
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   },
+   {
+    "stage": 5120,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Choque con el Golpeador chiflado",
+    "en": "Mad Slammer Smackdown"
+   }
+  ],
   "mythEs": "El rey de las hadas y marido de Titania. Es bastante viejo, pero, debido a una maldición, parece un chavalín. Suele coquetear con mujeres humanas, por lo que su mujer lo regaña.",
   "mythEn": "The king of the fairies and Titania's husband. He is quite old but, due to a curse, his looks are that of a young boy. He often flirts with human women, ending in a scolding from his wife."
  },
@@ -5641,6 +8167,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   },
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   },
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   }
+  ],
   "mythEs": "Una deidad azteca conocida como la Serpiente emplumada. Creó a los humanos con su propia sangre y les enseñó a subsistir solos.",
   "mythEn": "An Aztec deity known as the Feathered Serpent. He created humans with his own blood and taught them how to sustain themselves."
  },
@@ -5679,6 +8228,7 @@
    "159"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un Jack Frost que ansía el mal. Este poderoso demonio surge cuando un Jack Frost amable recuerda su naturaleza demoníaca.",
   "mythEn": "A Jack Frost that yearned for evil. This powerful demon is born when a cute Jack Frost remembers its demonic nature."
  },
@@ -5713,6 +8263,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "También conocido como Tamonten y Vaishravana en la mitología budista. Es el más fuerte de los reyes celestiales. Protege el norte y es el dios de la guerra.",
   "mythEn": "Also known as Tamonten and Vaishravana in Buddhist lore, he is the strongest of the Heavenly Kings. He protects the North and is the god of war."
  },
@@ -5747,6 +8298,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   },
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   },
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   }
+  ],
   "mythEs": "La cuarta de las nueve órdenes angelicales. Su deber es supervisar a los demás ángeles. Sus acciones son la manifestación de la voluntad divina.",
   "mythEn": "The fourth of the nine orders of angels. Their duty is to oversee the other angels. Their actions are the manifestation of God's will."
  },
@@ -5785,6 +8359,7 @@
    "118"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una serpiente gigante de las leyendas hindúes. Se dice que dioses y demonios lo usaron para agitar el mar de leche. El esfuerzo le hizo exhalar un veneno muy potente, pero Shiva se lo tragó.",
   "mythEn": "A giant serpent of Hindu legend. It is said the gods and demons used him to churn the sea of milk. The strain caused him to exhale incredibly potent venom, but Shiva swallowed it."
  },
@@ -5819,6 +8394,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Dios griego de la muerte, hijo de Nix y hermano gemelo de Hipnos. Es conocido por conceder a los mortales una muerte plácida.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. The Greek god of death, he is the son of Nyx and the twin brother of Hypnos. He is known to provide mortals with a peaceful death."
  },
@@ -5853,6 +8429,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La diosa hindú de la belleza y la buena suerte, esposa de Vishnu y madre de Kama. Es la diosa del amor y se cree que nació de un océano de leche.",
   "mythEn": "The Hindu goddess of beauty and good fortune, Vishnu's wife, and Kama's mother. She is the goddess of love, believed to have been born from an ocean of milk."
  },
@@ -5887,6 +8464,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4040,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: Y",
+    "en": "Path to God - Y"
+   },
+   {
+    "stage": 4050,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: L",
+    "en": "Path to God - L"
+   },
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   }
+  ],
   "mythEs": "Un sirviente alado y malformado del dios cósmico Hastur, de los mitos de Cthulhu. Puede volar incluso en el vacío del espacio y se dice que, si se invoca, te lleva a donde desees.",
   "mythEn": "A malformed, winged servant of the Cthulhu Mythos's cosmic god Hastur. They can fly even in the vacuum of space, and it's said that if you can summon one, it will carry you wherever you wish."
  },
@@ -5921,6 +8521,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   },
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "Un nombre general para los dioses y espíritus del vudú. Los dioses que tienen influencia sobre las vidas humanas se llaman así. Se dice que aquellos con poder negativo pueden matar mediante maldiciones mortales.",
   "mythEn": "A general name for gods and spirits of Vodum. The gods that actually affect human lives are called by this name. Those with negative power are said to be able to kill with a fatal curse."
  },
@@ -5955,6 +8571,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "Dios griego del vino y el teatro. Originalmente fue un dios de vida que protegía las montañas de Tracia. Enseñó a los humanos a hacer vino.",
   "mythEn": "The Greek god of wine and theater. He was originally a god of life protecting the mountains of Thrace. He taught humans how to make wine."
  },
@@ -5989,6 +8614,29 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4060,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós al amor retorcido",
+    "en": "Farewell to Distorted Love"
+   },
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   },
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   }
+  ],
   "mythEs": "El dios cananeo de la muerte. Todos los años intenta asesinar a Baal, el dios de la fertilidad, pero él siempre se levanta de entre los muertos con la ayuda de su hermana, Anat.",
   "mythEn": "The Canaanite god of death. Every year he attempts to kill Baal, the god of fertility, only to see him raised from the dead with the help of Baal's sister, Anat."
  },
@@ -6023,6 +8671,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4070,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: U",
+    "en": "Path to God - U"
+   },
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   }
+  ],
   "mythEs": "La tercera de las nueve órdenes de ángeles. Son los ángeles de la dignidad y la justicia que llevan el trono de Dios y gobiernan sobre el pensamiento. Son los ángeles del conocimiento.",
   "mythEn": "The third of the nine orders of angels. They are the angels of dignity and justice who carry God's throne and govern thought. They are angels of knowledge."
  },
@@ -6057,6 +8721,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "Un espíritu maligno con el mismo nombre que la muerte que aparece en los oratorios medievales. Se representa como un esqueleto con una capa negra y una guadaña para llevarse a los humanos. Baila la temible danza de la muerte.",
   "mythEn": "An evil spirit with the same name as the Death appearing in medieval oratorios. It is depicted as a skeleton with a black cloak and a sickle to reap humans. It dances the feared \"Dance of Death.\""
  },
@@ -6091,6 +8764,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   },
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "El general del infierno. Encargado de vigilar a los demás demonios. Uno de los mejores nigromantes del infierno. Puede controlar almas y cadáveres.",
   "mythEn": "The general of Hell. He keeps watch over other demons. One of Hell's greatest necromancers, he can control souls and corpses."
  },
@@ -6125,6 +8814,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "León, cabra y serpiente a partes iguales, esta criatura representaba las estaciones. En la mitología griega, se la consideraba una bestia violenta. Hija de Tifón y Equidna.",
   "mythEn": "Part lion, part goat and part snake, this creature originally represented the seasons. In Greek mythology, it was viewed as a violent monster. Born of Typhon and Echidna."
  },
@@ -6159,6 +8857,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "El gemelo de Metatrón, según la mitología judeocristiana, y maestro de las canciones celestiales. Se dice que un humano tardaría 500 años en recorrer el largo de su cuerpo.",
   "mythEn": "Metatron's twin brother in Judeo-Christian lore, he is the master of heavenly songs. It is said that a human would take 500 years to walk the length of his body."
  },
@@ -6193,6 +8892,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "El \"destructor\" y \"ángel del abismo\", tal y como se le describe en las escrituras antiguas. Controla las langostas y las utiliza para causar una destrucción total en las aldeas.",
   "mythEn": "The \"Destroyer\" and \"Angel of the Bottomless Pit\" as described in ancient scriptures. He controls locusts, using them to cause massive destruction to villages."
  },
@@ -6227,6 +8927,22 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 4080,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Camino a Dios: M",
+    "en": "Path to God - M"
+   },
+   {
+    "stage": 4090,
+    "kingdom": 4,
+    "dlc": false,
+    "es": "Adiós a la debilidad",
+    "en": "Farewell to Weakness"
+   }
+  ],
   "mythEs": "Un héroe del folclore celta. Lo llamaban Setanta hasta que se ganó el nombre de \"perro de Culann\". Son muchos los cuentos que narran sus aventuras. Su lanza, Gae Bolg, se la dio su mentora, Scáthach.",
   "mythEn": "A hero in Celtic folklore. He was called Setanta until he earned the name \"Culann's Hound.\" There are many tales of his adventures. He received his spear, Gae Bolg, from his mentor, Scathach."
  },
@@ -6266,6 +8982,7 @@
    "173"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "El rey hindú de los asuras se llama Maha Vairochana, o \"aquel que brilla sobre todo\". En el budismo se lo conoce como Dainichi Nyorai.",
   "mythEn": "The Hindu king of Asuras is named Maha Vairocana, or \"One Who Shines On All.\" In Buddhism, he is known as Dainichi Nyorai."
  },
@@ -6305,6 +9022,7 @@
    "119"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "Es conocido como El dragón amarillo y gobierna a los Ssu-Ling, unas criaturas celestiales de la mitología china. Se ubica en el centro de las cuatro bestias.",
   "mythEn": "Known as the Yellow Dragon, it reigns over the Ssu-Ling, celestial creatures of Chinese lore. It is located at the center of the four beasts."
  },
@@ -6339,6 +9057,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Otro nombre del héroe Arsène Lupin, de Maurice Leblanc. Era un notorio ladrón fantasma, conocido por sus líos amorosos, amistades y valiosos aliados.",
   "mythEn": "Another alias of Maurice Leblanc's hero, Arsène Lupin. Infamous as a phantom thief, he was also known to be a man of many loves, friends, and treasured allies."
  },
@@ -6373,6 +9092,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una mujer guerrera de la Tierra de las Sombras de la mitología celta. Enseñó al héroe Cú Chulainn el arte de la guerra y le entregó su lanza, Gae Bolg.",
   "mythEn": "A warrior woman of the Land of Shadows in Celtic lore. She taught the hero, Cu Chulainn, the art of war and gave him the spear, Gae Bolg."
  },
@@ -6414,6 +9134,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5130,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "La artista loca",
+    "en": "The Mad Artist"
+   }
+  ],
   "mythEs": "Uno de los cuatro arcángeles mayores. Es también el único ángel femenino de este nivel. Su nombre viene de la palabra sumeria para \"gobernador\". Es el ángel que le dijo a María que estaba embarazada.",
   "mythEn": "One of the four major archangels. She is also the only female angel at this rank. Her name comes from the Sumerian word for \"governor.\" She is the angel who told Mary of her pregnancy."
  },
@@ -6448,6 +9177,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los cuatro arcángeles mayores. Su nombre significa \"sanador\". Recita la historia de los ángeles caídos y de la creación de Adán y Eva.",
   "mythEn": "One of the four major archangels, his name means \"healer.\" He recites the history of the fallen angels and the creation of Adam and Eve."
  },
@@ -6489,6 +9219,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5120,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "Choque con el Golpeador chiflado",
+    "en": "Mad Slammer Smackdown"
+   }
+  ],
   "mythEs": "Repelente del mal que encontró En no Ozunu en Kinpusen. Se cree que es una fusión de Buda, Guanyin y Maitreya, un dios cuyo origen se encuentra en Japón y no en el Buddhavacana.",
   "mythEn": "Repeller of evil found at Kinpusen by En-no-Ozunu. Believed to be a fusion of Buddha, Guanyin, and Maitreya, he's a god who originated from Japan rather than the Buddhavacana."
  },
@@ -6529,6 +9268,7 @@
    "194"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "En el zoroastrismo, el deber de Sraosha es escuchar a los humanos llorar por Ahura Mazda. También se sabe que desciende después del atardecer para vencer al mal. Su nombre significa literalmente \"observancia\".",
   "mythEn": "In Zoroastrian lore, Sraosha's duty is to listen to the cry of humans for Ahura Mazda. He is also known to descend after sunset to vanquish evil. His name literally means \"observance.\""
  },
@@ -6570,6 +9310,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5130,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "La artista loca",
+    "en": "The Mad Artist"
+   }
+  ],
   "mythEs": "Amesha Spenta, la segunda \"chispa divina\" del zoroastrismo, significa \"buen pensamiento\". Se dice que esta sagrada entidad le otorgó revelaciones de Diosa Zoroastro.",
   "mythEn": "The second of Zoroastrianism's \"divine sparks,\" Amesha Spenta, its name means \"good thought.\" This holy entity is said to have given Zoroaster revelations from God."
  },
@@ -6604,6 +9353,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Un dios japonés de la creación. Engendró el cielo, el océano, la noche y 8 millones de dioses. Se enfrenta a su antigua esposa, la diosa Izanami, tras un encuentro en Yomotsu Hirasaka.",
   "mythEn": "A Persona of another story. A Japanese god of creation, he begat the sky, ocean, and night, and 8 million other gods. Opposes his once-wife, the goddess Izanami, after an encounter in Yomotsu Hirasaka."
  },
@@ -6645,6 +9395,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5130,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "La artista loca",
+    "en": "The Mad Artist"
+   }
+  ],
   "mythEs": "Uno de los cuatro arcángeles mayores. Su nombre significa \"fuego de Dios\". Conoce todos los fenómenos celestes y es el primer ángel que conoció Satán en la Tierra.",
   "mythEn": "One of the four major archangels. His name means \"Flame of God,\" and he knows all the celestial phenomena. He is the first angel Satan met on Earth."
  },
@@ -6679,6 +9438,7 @@
   "unlock": "legacy",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una Persona de otra historia. Aparece antes del día del Juicio Final para salvar a los justos. Es una figura universal que aparece en la mitología de muchas culturas. Hay muchas historias sobre su muerte y su resurrección.",
   "mythEn": "A Persona of another story. He appears before Judgment Day to save the virtuous. He is a universal figure, appearing in myths around the world. Many stories involve his death and rebirth."
  },
@@ -6720,6 +9480,15 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [
+   {
+    "stage": 5130,
+    "kingdom": 5,
+    "dlc": true,
+    "es": "La artista loca",
+    "en": "The Mad Artist"
+   }
+  ],
   "mythEs": "La diosa madre de Arabia, también llamada Al-Lat. Se la invocaba por numerosos motivos, desde para tener buen tiempo y protección, hasta para protegerse de venganzas y otros malos deseos.",
   "mythEn": "An Arabian mother goddess, also known as Al-Lat. Invoked for a variety of purposes, from good weather and protection to vengeance and pestilence."
  },
@@ -6754,6 +9523,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los 72 demonios de la Goecia. Destrozó Sodoma y Gomorra y persiguió a Jesús. Garantiza un alto nivel social a quienes lo invocan.",
   "mythEn": "One of the 72 demons of the Goetia. He led Sodom and Gomorrah to ruin and persecuted Jesus. He grants high social status to those who summon him."
  },
@@ -6788,6 +9558,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un dios semítico que regula la fertilidad. Es el dios de Canaán y hermano y consorte de la diosa Anat, que lo salvó de Mot.",
   "mythEn": "The chief Semitic god who governs over fertility. He is the god of Canaan and brother and consort to the goddess Anat, who saved him from Mot."
  },
@@ -6825,6 +9596,7 @@
    "137"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los dioses hindúes mayores. Es conocido como el Destructor, pero también está relacionado con la regeneración. Su esposa es Parvati.",
   "mythEn": "One of the major Hindu gods, he is known as the Destroyer, but is also related to regeneration. His wife is Parvati."
  },
@@ -6859,6 +9631,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un dios frigio que simboliza la vida, la muerte y la resurrección. Rechazó el amor de Cibeles y esta le volvió loco. Murió después de castrarse. Entonces, Cibeles lo resucitó.",
   "mythEn": "A Phrygian god who symbolizes life, death, and revival. He rejected Cybele's love and was driven mad, dying after he castrated himself. Cybele then resurrected him."
  },
@@ -6896,6 +9669,7 @@
    "203"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Una chica rubia misteriosa. Es bastante fuerte a pesar de su aspecto. Algunos dicen que es el fantasma de una chica que tuvo una muerte triste. Otros dicen que es un espíritu nacido a partir de la imaginación de alguien.",
   "mythEn": "A mysterious blond girl. She is quite powerful, despite her looks. Some say she is the ghost of a girl who died a sad death. Others say she is a spirit born from someone's imagination."
  },
@@ -6930,6 +9704,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La diosa madre de la tierra en la cultura frigia. Suele estar representada con animales salvajes, sobre todo leones. Tomó a su sacerdote, Atis, como amante, pero le volvió loco tras verse obligado a casarse con otra.",
   "mythEn": "The Phrygian mother goddess of the earth, she is often depicted with wild animals, and lions in particular. She had her priest, Attis, as a lover, but drove him insane when he was forced to marry another."
  },
@@ -6964,6 +9739,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Uno de los dioses hindúes principales. Es el que preserva y protege el universo. Las leyendas cuentan que aparecerá diez veces a lo largo del tiempo y el espacio para derrotar el mal y defender la justicia. ",
   "mythEn": "One of the major Hindu gods, he is the preserver and protector of the universe. Legends claim that he will make ten appearances across time and space to strike down evil and uphold justice. "
  },
@@ -6998,6 +9774,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un gigante de fuego de la mitología nórdica. Gobierna Muspelheim, el reino del fuego, y blande una espada ardiente. En el Ragnarok, se encargará de incendiar el mundo.",
   "mythEn": "A fire giant in Norse lore. He rules the fire realm, Muspelheim, and brandishes a burning sword. At Ragnarok, he will set the world ablaze."
  },
@@ -7032,6 +9809,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Padre de todos los dioses de la mitología nórdica. Por voluntad propia, sacrificó un ojo a cambio de sabiduría. Prepara el Ragnarok reuniendo las almas de los guerreros caídos en su salón, el Valhalla.",
   "mythEn": "The father of all gods in Norse legend. He willingly sacrificed one eye to gain wisdom. In preparation for Ragnarok, he gathers the souls of fallen warriors to his hall, Valhalla."
  },
@@ -7069,6 +9847,7 @@
    "205"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un dios de género dual cuya apariencia es mitad la del destructor, Shiva, y mitad la de su mujer, Parvati. Ardha es la figura ideal del shaktismo, el dios perfecto.",
   "mythEn": "A god of dual gender whose appearance is half that of the destroyer, Shiva, and half his wife, Parvati. Ardha is the ideal figure of Shaktism, the perfect god."
  },
@@ -7103,6 +9882,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Dios malvado de los mitos de Cthulhu y una de las deidades éldricas conocidas como \"Primigenios\". Posee un gran poder sobre el viento. También se le llama \"El innombrable\" y \"El Rey de Amarillo\".",
   "mythEn": "An evil god of the Cthulhu Mythos and one of the eldritch deities known as Great Old Ones. It wields great power over wind. Also called \"The Unspeakable\" and \"The King in Yellow.\""
  },
@@ -7137,6 +9917,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "El nombre alemán del protagonista del poema épico «El Cantar de los Nibelungos». La sangre del dragón Fafnir lo hizo invencible, pero una hoja en su espalda dio lugar a un punto débil.",
   "mythEn": "The German name of the hero in the epic poem, \"The Nibelungenlied.\" The dragon Fafnir's blood made him invincible, but a single leaf on his back resulted in a weak spot."
  },
@@ -7171,6 +9952,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La Oscura conocida como la \"Ramera babilónica\", que cabalga una bestia de siete cabezas y diez cuernos y lleva una copa dorada de abominaciones y de la obscenidad de sus actos.",
   "mythEn": "This fiend rides a beast with seven heads and ten horns. She carries a golden cup of abominations and the filth of her acts."
  },
@@ -7205,6 +9987,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La venerada diosa de la guerra y el amor en la antigua Mesopotamia. Sedujo a muchos hombres y los llevó a la perdición. Cuando el héroe Gilgamesh la rechazó, asesinó a su mejor amigo, Enkidu.",
   "mythEn": "The revered goddess of war and love in ancient Mesopotamia. She seduced many men to their doom. When Gilgamesh, the hero, spurned her, she murdered his best friend, Enkidu."
  },
@@ -7245,6 +10028,7 @@
    "189"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "Un dios chino de la guerra. Se dice que ha inventado muchas armas. Él y sus seguidores se rebelaron contra el Emperador Amarillo, Huang Di, pero al final fueron derrotados.",
   "mythEn": "A Chinese god of war, he is said to have invented many weapons. He and his followers rebelled against the Yellow Emperor, Huang Di, but were ultimately defeated."
  },
@@ -7279,6 +10063,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La deidad de las espadas del Nihonshoki que pacificó Ashihara-no-Nakatsukuni. Su nombre viene de \"futsu\", que es la forma en la que las cosas se cortan, y \"nushi\", su naturaleza de dios.",
   "mythEn": "The Nihonshoki sword deity who pacified Ashihara-no-Nakatsukuni. His name comes from \"futsu,\" the fashion in which things are cut, and \"nushi,\" his nature as a god."
  },
@@ -7313,6 +10098,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un dragón malvado de la mitología nórdica al que abatió Sigfrido. Según \"La saga de los volsungos\", era venenoso, tenía serpientes por piernas y el suelo temblaba a cada paso que daba.",
   "mythEn": "An evil dragon of Norse lore, it was vanquished by the hero, Siegfried. According to the Völsunga saga, it was venomous, had legs like snakes, and shook the ground with every step."
  },
@@ -7347,6 +10133,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Señor demoníaco de las moscas. Sus esbirros insectos le brindan almas para que las controle. En la Biblia aparece como un líder de los espíritus malignos y es considerado un demonio poderoso.",
   "mythEn": "Demonic Lord of the Flies whose insect minions carry souls for him to control. He is mentioned in the Bible as a leader of evil spirits and is seen as a powerful demon."
  },
@@ -7387,6 +10174,7 @@
    "218"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "Un general japonés de las Guerras Genpei, acontecidas a finales del periodo Heian y principios del periodo Kamakura. Su atrevida ingenuidad y sus habilidades implacables con la espada siguen siendo admiradas en todo Japón.",
   "mythEn": "A Japanese general of the Genpei War near the end of the Heian era and start of the Kamakura era. His bold ingenuity and ruthless skill with a blade are still praised in Japan today."
  },
@@ -7425,6 +10213,7 @@
    "200"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "Uno de los cuatro arcángeles mayores. Está en lo alto de la jerarquía angelical. Porta una larga lanza que puede cortarlo todo, y su nombre significa \"aquel que es como Dios\".",
   "mythEn": "One of the four major archangels, he is at the top of the angelic hierarchy. He carries a long spear that can cut through anything, and his name means \"one who is like God.\""
  },
@@ -7466,6 +10255,7 @@
    "222"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "El ángel más importante de la leyenda judeocristiana. Se lo conoce como \"La voz de Dios\" o \"El ángel de los contratos\". Pese a que su deber es preservar el orden mundial, no muestra piedad alguna por la humanidad.",
   "mythEn": "The greatest angel in Judeo-Christian legend. He is known as the Voice of God or the Angel of Contracts. Despite his duty to maintain order in the world, he shows no mercy towards humanity."
  },
@@ -7504,6 +10294,7 @@
    "65"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "Uno de los cuatro oni controlados por Fujiwara no Chikata. Cuando elimina su aura y evita que otros perciban su presencia, consigue sorprender a sus enemigos.",
   "mythEn": "One of the four oni controlled by Fujiwara no Chikata. By eliminating its aura and preventing others from sensing its presence, it is able to surprise its enemies."
  },
@@ -7538,6 +10329,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Un dios japonés de la creación que engendró el cielo, el océano, la noche y 8 millones de dioses. Se enfrenta a su antigua esposa, la diosa Izanami.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. A Japanese god of creation, he begat the sky, the ocean, the night, and 8 million other gods. Opposes his once-wife, the goddess Izanami."
  },
@@ -7572,6 +10364,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un monstruo hindú gigante cuya boca es tan grande que puede devorar los cielos y la Tierra de un bocado. Su nombre significa \"el que intoxica\".",
   "mythEn": "A giant monster of Hindu lore. Its mouth is so enormous, it can swallow the heavens and Earth in a single bite. Its name means \"He who intoxicates.\""
  },
@@ -7606,6 +10399,7 @@
   "unlock": "dlc",
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Persona que se volvió Pícaro tras convertirse en la máscara del Trickster. Aparece antes del día del Juicio Final para salvar a los justos. Es una figura universal que aparece en la mitología de muchas culturas.",
   "mythEn": "A Persona turned picaro after becoming the Trickster's mask. He appears before Judgment Day to save the virtuous. He is a universal figure, appearing in myths around the world."
  },
@@ -7640,6 +10434,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Príncipe judeocristiano de la oscuridad. Es conocido por ser la serpiente que tentó a Adán y Eva en el Edén. También se dice que Dios lo envió para poner a prueba la piedad del hombre.",
   "mythEn": "The Judeo-Christian prince of darkness, he is known for his role as the snake that tempted Adam and Eve in Eden. It is also said that he was sent by God to test man's piety."
  },
@@ -7681,6 +10476,7 @@
    "228"
   ],
   "specialLocked": true,
+  "drops": [],
   "mythEs": "Ángel caído de la mitología judeocristiana. Formó un ejército de ángeles con los que se rebeló contra Dios y perdió. Espera en el infierno hasta tener la oportunidad de volver a desafiar a Dios para así poder acabar con Él.",
   "mythEn": "A fallen Judeo-Christian angel, he led a rebellion with an army of angels against God and lost. He waits in Hell for his chance to challenge God once more and finally strike Him down."
  },
@@ -7715,6 +10511,7 @@
   "unlock": null,
   "special": null,
   "specialLocked": false,
+  "drops": [],
   "mythEs": "La figura maternal de la cristiandad. Gabriel le anunció que sería la madre de Jesús. En algunas creencias la veneran como la Virgen María, pero otras denominaciones no se centran en ella.",
   "mythEn": "The maternal figure of Christianity. Gabriel informed her that she was to be the mother of Jesus. Some sects revere her as the Virgin Mary, but other denominations do not focus on her so strongly."
  },
@@ -7755,6 +10552,7 @@
    "222"
   ],
   "specialLocked": false,
+  "drops": [],
   "mythEs": "Un arcángel que, según se dice, representa a Satán antes de caer del cielo. Es el segundo hijo de Dios, contra quien se rebeló en busca de libertad y desató el libre albedrío y el caos sobre la humanidad.",
   "mythEn": "An archangel who is said to be the form of Satan before he fell from Heaven. The second son of God, he rebelled against Him for freedom and bestowed free will and chaos upon humanity."
  }

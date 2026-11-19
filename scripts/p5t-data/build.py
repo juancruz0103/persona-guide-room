@@ -55,6 +55,25 @@ def skill(eid):
             'rank': e['Worth'], 'inheritable': bool(e['Takeover'])}
 
 
+# Dónde aparece cada Persona como recompensa de una misión (stage_reward → persona_lottery_number).
+stages = {x['StageId']: x for x in load('stage_database.json')}
+lottery = {}
+for r in load('persona_lottery_number_database.json'):
+    if not r['IsTutorial']:
+        lottery.setdefault(r['ID'], []).append(r['PersonaID'])
+drops = {}
+for r in load('stage_reward_database.json'):
+    st = stages.get(r['TargetStageID'])
+    if r['IsTutorial'] or not st or st['IsQuest']:
+        continue
+    sid = r['TargetStageID']
+    for pid in lottery.get(r['PersonaLotteryId'], []):
+        lst = drops.setdefault(pid, [])
+        if sid not in [d['stage'] for d in lst]:
+            # 1xxx-4xxx: reinos de la historia · 5xxx: DLC «Repaint Your Heart»
+            lst.append({'stage': sid, 'kingdom': sid // 1000, 'dlc': sid >= 5000,
+                        'es': ES.get(st['TitleWordKey']), 'en': EN.get(st['TitleWordKey'])})
+
 types = {}
 personas = []
 for p in personas_raw:
@@ -76,6 +95,7 @@ for p in personas_raw:
         'unlock': UNLOCK[p['Unlock']],
         'special': [str(sp[f'Material{i}']) for i in range(1, 7) if sp[f'Material{i}']] if sp else None,
         'specialLocked': bool(sp['IsUnlock']) if sp else False,
+        'drops': sorted(drops.get(gid, []), key=lambda d: (d['dlc'], d['stage'])),
         'mythEs': ES.get(p['DescWordKey']),
         'mythEn': EN.get(p['DescWordKey']),
     })

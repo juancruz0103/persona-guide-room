@@ -30,3 +30,11 @@ Fusión: cuenta el nivel base de cada Persona (no el de la partida); reglas en `
 - `skilldatabase`: daño, costo, alcance y estado de las habilidades de su Persona (las mejoras son el id siguiente).
 - `weapondatabase` + `weapon_make_database`: armas de fuego (el prefijo del id es el personaje) y la receta de la fusión
   de armas (tipo y nivel mínimo de cada Persona). Cada arma fabricada tiene hasta 4 versiones con distintos valores.
+
+## Imágenes de los Ladrones
+
+- Retratos: `charadata_000XX051` (Erina `00011000`). Cada uno es una hoja con 2 poses en color y sus siluetas rojas;
+  se recorta la segunda pose en color (la pose normal) y se descartan las siluetas. Oracle no tiene retrato (es navegadora).
+- Persona de cada uno: `party_persona_10XX000` (Ernesto `1021000`), la versión más grande.
+- Dónde aparece cada Persona: `stage_reward_database` (misión → sorteo) + `persona_lottery_number_database` (sorteo → Personas),
+  con el nombre de la misión de `stage_database`. Las misiones 5xxx son del DLC «Repaint Your Heart».

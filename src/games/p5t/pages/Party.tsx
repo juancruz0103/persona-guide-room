@@ -3,6 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useSessionState } from '../../../shared/hooks/useSessionState';
 import header from '../../p5r/components/CalculatorHeader.module.css';
 import { getMember, getParty, tx } from '../services/party';
+import { memberImage, memberPersonaImage } from '../services/images';
 import { typeName } from '../services/personas';
 import type { Member, TreeNode, Weapon } from '../types';
 import styles from './Party.module.css';
@@ -167,11 +168,15 @@ export default function Party() {
           <p className="pending">{L('No encontramos ese personaje.', "We couldn't find that character.")}</p>
         ) : (
           <>
-            <header className={styles.head}>
-              <span className={styles.code}>{tx(m.codename)}</span>
-              <span className={styles.facts}>
-                {tx(m.name)}{m.persona && <> · Persona: {tx(m.persona)}</>} · {L('PS', 'HP')} {m.stats.hp} · {L('PE', 'SP')} {m.stats.sp} · {L('Movimiento', 'Move')} {m.stats.move}
-              </span>
+            <header className={styles.hero}>
+              {memberImage(m.id) && <img className={styles.portrait} src={memberImage(m.id)} alt={tx(m.codename)} />}
+              <div className={styles.head}>
+                <span className={styles.code}>{tx(m.codename)}</span>
+                <span className={styles.facts}>
+                  {tx(m.name)}{m.persona && <> · Persona: {tx(m.persona)}</>} · {L('PS', 'HP')} {m.stats.hp} · {L('PE', 'SP')} {m.stats.sp} · {L('Movimiento', 'Move')} {m.stats.move}
+                </span>
+              </div>
+              {memberPersonaImage(m.id) && <img className={styles.personaArt} src={memberPersonaImage(m.id)} alt={tx(m.persona)} />}
             </header>
             <div className={styles.tabs} role="tablist">
               {TABS.map(([id, label]) => (
