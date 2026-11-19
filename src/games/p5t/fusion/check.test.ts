@@ -26,9 +26,15 @@ describe('fusión de Tactica', () => {
     expect(noDlc.recipesFor(byEn('Athena Picaro'))).toEqual([]);
     expect(e.recipesFor(byEn('Athena Picaro')).length).toBeGreaterThan(0);
   });
-  it('mismo tipo da una Persona más baja', () => {
-    const r = e.fuse(byEn('Jack Frost'), byEn('King Frost'));
-    expect(r?.type).toBe('freeze');
-    expect(r!.level).toBeLessThan(byEn('King Frost').level);
+  // Velvet Room de Juan (Genbu subida a Nv 7: se usa igual su nivel base, 4)
+  it.each([
+    ['Isis', 'Anzu', 'Andras'],
+    ['Jack Frost', 'Genbu', 'High Pixie'],
+    ['Isis', 'Genbu', 'High Pixie'],
+    ['Kurama Tengu', 'Genbu', 'Matador'],
+    ['Arahabaki', 'Genbu', 'Phoenix'],
+    ['Anzu', 'Genbu', 'Shiki-Ouji'],
+  ])('%s + %s = %s (visto en el juego)', (a, b, r) => {
+    expect(e.fuse(byEn(a), byEn(b))?.nameEn).toBe(r);
   });
 });

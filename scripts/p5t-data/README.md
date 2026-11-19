@@ -19,4 +19,4 @@ Qué usa:
 `Unlock` del juego: 1 = misión, 2 = Persona invitada de otros juegos, 101 = Pícaros de bonificación,
 102 = DLC «Picaro Summoning Pack & Raoul» (lista confirmada con las guías).
 
-Fusión: reglas en `src/games/p5t/fusion/engine.ts`, casos en `fusion/check.test.ts`.
+Fusión: cuenta el nivel base de cada Persona (no el de la partida); reglas en `src/games/p5t/fusion/engine.ts`, casos en `fusion/check.test.ts`.

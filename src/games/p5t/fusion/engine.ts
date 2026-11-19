@@ -3,12 +3,13 @@ import type { Persona, PersonaType } from '../types';
 /**
  * Fusión de Persona 5 Tactica (datos del juego: persona_ore_union_database y persona_ore_union_sp_database).
  *  - Normal (de a 2): el tipo del resultado sale de la tabla de tipos. El nivel objetivo es
- *    ⌊(nivel A + nivel B) / 2⌋ + 1, como en P5.
- *    · Tipos distintos: la Persona de ese tipo con el nivel más bajo que llegue al objetivo.
- *    · Mismo tipo: la Persona de ese tipo con el nivel más alto por debajo del objetivo, sin contar los ingredientes.
+ *    ⌊(nivel base A + nivel base B) / 2⌋ + 1, y sale la Persona de ese tipo con el nivel más bajo que
+ *    llegue al objetivo, sin contar los ingredientes (también cuando son del mismo tipo).
+ *    Cuenta el nivel BASE de cada Persona, no el que tenga en tu partida (visto en el juego: con Genbu
+ *    subida a Nv 7, Isis + Genbu da Gran Pixie, que solo cuadra con el Nv 4 base de Genbu).
  *    Solo pueden salir las Personas con `normalFusion` (el juego marca las demás como «solo especial»).
  *  - Especial: ingredientes fijos (de 2 a 6), sin nivel mínimo.
- * La regla del nivel es la de P5; se va confirmando con casos vistos en el juego (fusion/check.test.ts).
+ * Casos vistos en el juego en fusion/check.test.ts.
  */
 export interface Recipe {
   kind: 'normal' | 'special';
@@ -50,8 +51,7 @@ export class FusionEngine {
     if (!type) return undefined;
     const target = Math.floor((a.level + b.level) / 2) + 1;
     const list = this.byType.get(type) ?? [];
-    if (a.type !== b.type) return list.find((p) => p.level >= target);
-    return [...list].reverse().find((p) => p.level < target && p.id !== a.id && p.id !== b.id);
+    return list.find((p) => p.level >= target && p.id !== a.id && p.id !== b.id);
   }
 
   /** Fusión especial de exactamente estas dos Personas (Shiva = Rangda + Barong, Ardha, Alice). */
