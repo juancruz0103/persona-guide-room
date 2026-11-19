@@ -36,3 +36,10 @@ describe('builds de Strikers', () => {
     expect(checkStep({ ingredients: ['bugs', 'mot'].map(ing), result: 'abaddon', inherit: [], learn: [] })).toBe('bad');
   });
 });
+
+describe('reemplazo por la misma Arcana', () => {
+  it('Fortuna + Hua Po (Ahorcado, subida a Nv 46) da Lilit, visto en el juego', () => {
+    const ing = (persona: string) => ({ persona, skills: [] });
+    expect(checkStep({ ingredients: ['fortuna', 'hua-po'].map(ing), result: 'lilith', inherit: [], learn: [] })).toBe('ok');
+  });
+});

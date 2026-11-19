@@ -32,7 +32,7 @@ export default function Fusion() {
       <section className={`container ${styles.page}`}>
         <p className={styles.note}>
           {reverse
-            ? L('Elegí la Persona que querés crear y te mostramos con qué se hace. En Strikers cada Persona tiene recetas fijas.', 'Pick the Persona you want and we show what it takes. In Strikers every Persona has fixed recipes.')
+            ? L('Elegí la Persona que querés crear y te mostramos con qué se hace. Cada ingrediente se puede cambiar por otra Persona de la misma Arcana que tenga ese nivel o más.', 'Pick the Persona you want and we show what it takes. Each ingredient can be swapped for another Persona of the same Arcana at that level or higher.')
             : L('Elegí una Persona que tengas y te mostramos todo lo que podés crear con ella.', 'Pick a Persona you have and we show everything you can create with it.')}
         </p>
         <label className={catalog.sort}>

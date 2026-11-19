@@ -17,7 +17,7 @@ import { BackButton } from '../../../shared/components/BackButton';
 import { getAllPersonas, getPersona } from '../services/personas';
 import { bySkillName, personaMatches, personaName, skillName, SKILLS as SKILL_INFO } from '../services/text';
 import { personaCardFocus, personaImage } from '../services/images';
-import { canInherit, checkStep, fuseResult, isSkillCard, MAX_INHERIT, personaRequirement, specialIngredients } from '../services/builds';
+import { canInherit, checkStep, fuseResult, isSkillCard, levelNeeds, MAX_INHERIT, personaRequirement, specialIngredients } from '../services/builds';
 import { BuildGoalView, BuildRequirements, BuildTimeline } from '../components/BuildTimeline';
 import { SkillSearch, type SkillOption } from '../../../shared/components/SkillSearch';
 import styles from '../../p3r/pages/BuildEditor.module.css';
@@ -328,6 +328,9 @@ function StepPanel({ index, total, step, previous, onChange, onMove, onRemove, o
       </div>
 
       {check === 'ok' && <p className={styles.ok}>✓ {L('Combinación correcta en Strikers', 'Correct combination in Strikers')}</p>}
+      {check === 'ok' && levelNeeds(step).map((n) => (
+        <p key={n.persona} className={styles.mini}>⚠ {L(`Subí ${pname(n.persona)} al Nv ${n.level} o más antes de fusionar.`, `Raise ${pname(n.persona)} to Lv ${n.level} or higher before fusing.`)}</p>
+      ))}
       {check === 'bad' && (
         <p className={styles.bad}>
           ✗ {L('Esta combinación no da', 'This combination does not give')} {pname(step.result)}.
