@@ -91,6 +91,10 @@ export interface Weapon {
   variants: WeaponVariant[];
   /** Fusión de armas en el Velvet Room: tipo y nivel mínimo de cada Persona */
   recipe: { type: PersonaType; level: number }[] | null;
+  /** De dónde sale: fusión de armas, tienda, arma inicial o DLC */
+  source: 'fusion' | 'shop' | 'initial' | 'dlc' | 'other';
+  /** Precio en la tienda */
+  price: number | null;
 }
 
 export interface Member {

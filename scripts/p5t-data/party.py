@@ -34,6 +34,7 @@ tree_skills = {t['ID']: t for t in load('skilltree_treeskill_database.json')}
 tree_names = {(n['CharaId'], n['TreeId']): n['NameWordKey'] for n in load('skilltree_name_database.json')}
 weapons = load('weapondatabase.json')
 recipes = {m['WeaponId']: m for m in load('weapon_make_database.json')}
+shop = {x['WeaponId']: x['Price'] for x in load('shop_database.json')}
 TYPES = {10: 'burn', 20: 'freeze', 30: 'sweep', 40: 'despair', 50: 'shock',
          60: 'vortex', 70: 'brainwash', 80: 'dizzy', 90: 'forget', 100: 'sleep'}
 
@@ -135,7 +136,13 @@ for unit_id, prefix in MEMBERS:
             continue
         base = w['ID'] // 10 * 10
         g = guns.setdefault(base, {'id': str(base), 'name': both(w['NameWordKey']), 'desc': both(w['DescWordKey']),
-                                   'variants': [], 'recipe': None})
+                                   'variants': [], 'recipe': None, 'source': None, 'price': None})
+        if w['ID'] in shop:
+            g['source'], g['price'] = 'shop', shop[w['ID']]
+        elif w['ID'] == u['GunId']:
+            g['source'] = 'initial'
+        elif w['ID'] % 1000 >= 800:  # 800+: armas pícaras del DLC
+            g['source'] = 'dlc'
         s = skills.get(w['ActionSkillId'], {})
         g['variants'].append({
             'damage': [w['DamageMin'], w['DamageMax']],
@@ -145,6 +152,7 @@ for unit_id, prefix in MEMBERS:
         })
         m = recipes.get(base)
         if m:
+            g['source'] = 'fusion'
             g['recipe'] = [{'type': TYPES[m['Terms1AttributeId']], 'level': m['Terms1Lv']},
                            {'type': TYPES[m['Terms2AttributeId']], 'level': m['Terms2Lv']}]
     out.append({
@@ -159,6 +167,9 @@ for unit_id, prefix in MEMBERS:
         'weapons': sorted(guns.values(), key=lambda g: (g['variants'][0]['damage'][0], g['id'])),
     })
 
+for m in out:
+    for g in m['weapons']:
+        g['source'] = g['source'] or 'other'
 json.dump(out, open(OUT / 'party.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 for m in out:
     print(m['id'], len(m['nodes']), 'nodos,', len(m['personaSkills']), 'habilidades,', len(m['weapons']), 'armas',

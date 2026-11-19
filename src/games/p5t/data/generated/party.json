@@ -952,7 +952,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "1010",
@@ -975,7 +977,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2000
    },
    {
     "id": "1230",
@@ -998,7 +1002,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2300
    },
    {
     "id": "1050",
@@ -1021,7 +1027,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 6000
    },
    {
     "id": "1800",
@@ -1044,7 +1052,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "1020",
@@ -1067,7 +1077,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 6900
    },
    {
     "id": "1140",
@@ -1126,7 +1138,9 @@
       "type": "despair",
       "level": 18
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1030",
@@ -1149,7 +1163,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 12000
    },
    {
     "id": "1110",
@@ -1208,7 +1224,9 @@
       "type": "despair",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1120",
@@ -1267,7 +1285,9 @@
       "type": "dizzy",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1160",
@@ -1326,7 +1346,9 @@
       "type": "sweep",
       "level": 35
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1810",
@@ -1349,7 +1371,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "1150",
@@ -1408,7 +1432,9 @@
       "type": "vortex",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1060",
@@ -1431,7 +1457,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 13000
    },
    {
     "id": "1180",
@@ -1490,7 +1518,9 @@
       "type": "dizzy",
       "level": 49
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1040",
@@ -1513,7 +1543,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 18000
    },
    {
     "id": "1190",
@@ -1572,7 +1604,9 @@
       "type": "forget",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1170",
@@ -1631,7 +1665,9 @@
       "type": "despair",
       "level": 37
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1070",
@@ -1654,7 +1690,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 21000
    },
    {
     "id": "1200",
@@ -1713,7 +1751,9 @@
       "type": "despair",
       "level": 46
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1220",
@@ -1772,7 +1812,9 @@
       "type": "despair",
       "level": 53
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1210",
@@ -1831,7 +1873,9 @@
       "type": "despair",
       "level": 50
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "1130",
@@ -1890,7 +1934,9 @@
       "type": "burn",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -2829,7 +2875,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "2010",
@@ -2852,7 +2900,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2400
    },
    {
     "id": "2230",
@@ -2875,7 +2925,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2700
    },
    {
     "id": "2020",
@@ -2898,7 +2950,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 6700
    },
    {
     "id": "2800",
@@ -2921,7 +2975,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "2050",
@@ -2944,7 +3000,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 7700
    },
    {
     "id": "2150",
@@ -3003,7 +3061,9 @@
       "type": "despair",
       "level": 25
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2110",
@@ -3062,7 +3122,9 @@
       "type": "shock",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2120",
@@ -3121,7 +3183,9 @@
       "type": "despair",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2160",
@@ -3180,7 +3244,9 @@
       "type": "sleep",
       "level": 35
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2030",
@@ -3203,7 +3269,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 10000
    },
    {
     "id": "2140",
@@ -3262,7 +3330,9 @@
       "type": "shock",
       "level": 24
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2060",
@@ -3285,7 +3355,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 12000
    },
    {
     "id": "2190",
@@ -3344,7 +3416,9 @@
       "type": "sleep",
       "level": 49
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2070",
@@ -3367,7 +3441,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 17000
    },
    {
     "id": "2180",
@@ -3426,7 +3502,9 @@
       "type": "despair",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2040",
@@ -3449,7 +3527,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 19000
    },
    {
     "id": "2170",
@@ -3508,7 +3588,9 @@
       "type": "shock",
       "level": 37
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2220",
@@ -3567,7 +3649,9 @@
       "type": "sleep",
       "level": 66
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2200",
@@ -3626,7 +3710,9 @@
       "type": "shock",
       "level": 53
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2210",
@@ -3685,7 +3771,9 @@
       "type": "despair",
       "level": 72
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "2130",
@@ -3744,7 +3832,9 @@
       "type": "sleep",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -4767,7 +4857,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "3010",
@@ -4790,7 +4882,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1600
    },
    {
     "id": "3230",
@@ -4813,7 +4907,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1800
    },
    {
     "id": "3050",
@@ -4836,7 +4932,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 4000
    },
    {
     "id": "3800",
@@ -4859,7 +4957,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "3020",
@@ -4882,7 +4982,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 4600
    },
    {
     "id": "3160",
@@ -4941,7 +5043,9 @@
       "type": "vortex",
       "level": 25
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3110",
@@ -5000,7 +5104,9 @@
       "type": "sweep",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3120",
@@ -5059,7 +5165,9 @@
       "type": "burn",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3140",
@@ -5118,7 +5226,9 @@
       "type": "sweep",
       "level": 25
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3030",
@@ -5141,7 +5251,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8000
    },
    {
     "id": "3150",
@@ -5200,7 +5312,9 @@
       "type": "burn",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3060",
@@ -5223,7 +5337,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 9000
    },
    {
     "id": "3040",
@@ -5246,7 +5362,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 12000
    },
    {
     "id": "3180",
@@ -5305,7 +5423,9 @@
       "type": "burn",
       "level": 49
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3170",
@@ -5364,7 +5484,9 @@
       "type": "sweep",
       "level": 39
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3190",
@@ -5423,7 +5545,9 @@
       "type": "vortex",
       "level": 53
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3070",
@@ -5446,7 +5570,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 13800
    },
    {
     "id": "3200",
@@ -5505,7 +5631,9 @@
       "type": "sweep",
       "level": 46
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3210",
@@ -5564,7 +5692,9 @@
       "type": "burn",
       "level": 75
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3220",
@@ -5623,7 +5753,9 @@
       "type": "vortex",
       "level": 72
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "3130",
@@ -5682,7 +5814,9 @@
       "type": "vortex",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -6639,7 +6773,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "4010",
@@ -6662,7 +6798,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1400
    },
    {
     "id": "4230",
@@ -6685,7 +6823,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1600
    },
    {
     "id": "4020",
@@ -6708,7 +6848,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3500
    },
    {
     "id": "4800",
@@ -6731,7 +6873,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "4050",
@@ -6754,7 +6898,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 4100
    },
    {
     "id": "4140",
@@ -6813,7 +6959,9 @@
       "type": "burn",
       "level": 18
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4030",
@@ -6836,7 +6984,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 7600
    },
    {
     "id": "4110",
@@ -6895,7 +7045,9 @@
       "type": "burn",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4120",
@@ -6954,7 +7106,9 @@
       "type": "shock",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4160",
@@ -7013,7 +7167,9 @@
       "type": "dizzy",
       "level": 35
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4060",
@@ -7036,7 +7192,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8500
    },
    {
     "id": "4150",
@@ -7095,7 +7253,9 @@
       "type": "shock",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4170",
@@ -7154,7 +7314,9 @@
       "type": "burn",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4040",
@@ -7177,7 +7339,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 11500
    },
    {
     "id": "4190",
@@ -7236,7 +7400,9 @@
       "type": "dizzy",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4070",
@@ -7259,7 +7425,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 13000
    },
    {
     "id": "4180",
@@ -7318,7 +7486,9 @@
       "type": "shock",
       "level": 53
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4220",
@@ -7377,7 +7547,9 @@
       "type": "dizzy",
       "level": 66
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4210",
@@ -7436,7 +7608,9 @@
       "type": "shock",
       "level": 75
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4200",
@@ -7495,7 +7669,9 @@
       "type": "burn",
       "level": 50
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "4130",
@@ -7554,7 +7730,9 @@
       "type": "dizzy",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -8484,7 +8662,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "5010",
@@ -8507,7 +8687,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1200
    },
    {
     "id": "5230",
@@ -8530,7 +8712,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1400
    },
    {
     "id": "5050",
@@ -8553,7 +8737,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3000
    },
    {
     "id": "5800",
@@ -8576,7 +8762,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "5020",
@@ -8599,7 +8787,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3800
    },
    {
     "id": "5150",
@@ -8658,7 +8848,9 @@
       "type": "dizzy",
       "level": 25
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5110",
@@ -8717,7 +8909,9 @@
       "type": "freeze",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5120",
@@ -8776,7 +8970,9 @@
       "type": "dizzy",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5140",
@@ -8835,7 +9031,9 @@
       "type": "freeze",
       "level": 25
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5030",
@@ -8858,7 +9056,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 7000
    },
    {
     "id": "5160",
@@ -8917,7 +9117,9 @@
       "type": "burn",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5060",
@@ -8940,7 +9142,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8200
    },
    {
     "id": "5180",
@@ -8999,7 +9203,9 @@
       "type": "dizzy",
       "level": 49
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5040",
@@ -9022,7 +9228,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 9500
    },
    {
     "id": "5190",
@@ -9081,7 +9289,9 @@
       "type": "burn",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5070",
@@ -9104,7 +9314,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 11000
    },
    {
     "id": "5170",
@@ -9163,7 +9375,9 @@
       "type": "freeze",
       "level": 37
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5210",
@@ -9222,7 +9436,9 @@
       "type": "dizzy",
       "level": 66
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5220",
@@ -9281,7 +9497,9 @@
       "type": "burn",
       "level": 75
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5200",
@@ -9340,7 +9558,9 @@
       "type": "freeze",
       "level": 50
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "5130",
@@ -9399,7 +9619,9 @@
       "type": "burn",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -10380,7 +10602,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "6010",
@@ -10403,7 +10627,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2700
    },
    {
     "id": "6230",
@@ -10426,7 +10652,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3100
    },
    {
     "id": "6050",
@@ -10449,7 +10677,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 7000
    },
    {
     "id": "6800",
@@ -10472,7 +10702,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "6020",
@@ -10495,7 +10727,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8000
    },
    {
     "id": "6150",
@@ -10554,7 +10788,9 @@
       "type": "freeze",
       "level": 25
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6110",
@@ -10613,7 +10849,9 @@
       "type": "vortex",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6120",
@@ -10672,7 +10910,9 @@
       "type": "freeze",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6160",
@@ -10731,7 +10971,9 @@
       "type": "shock",
       "level": 35
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6060",
@@ -10754,7 +10996,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 10500
    },
    {
     "id": "6140",
@@ -10813,7 +11057,9 @@
       "type": "vortex",
       "level": 24
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6030",
@@ -10836,7 +11082,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 12000
    },
    {
     "id": "6180",
@@ -10895,7 +11143,9 @@
       "type": "freeze",
       "level": 49
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6070",
@@ -10918,7 +11168,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 19000
    },
    {
     "id": "6190",
@@ -10977,7 +11229,9 @@
       "type": "shock",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6170",
@@ -11036,7 +11290,9 @@
       "type": "vortex",
       "level": 37
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6040",
@@ -11059,7 +11315,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 22000
    },
    {
     "id": "6210",
@@ -11118,7 +11376,9 @@
       "type": "freeze",
       "level": 66
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6220",
@@ -11177,7 +11437,9 @@
       "type": "shock",
       "level": 75
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6200",
@@ -11236,7 +11498,9 @@
       "type": "vortex",
       "level": 50
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "6130",
@@ -11295,7 +11559,9 @@
       "type": "shock",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -12276,7 +12542,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "7010",
@@ -12299,7 +12567,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3200
    },
    {
     "id": "7230",
@@ -12322,7 +12592,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3700
    },
    {
     "id": "7050",
@@ -12345,7 +12617,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8000
    },
    {
     "id": "7800",
@@ -12368,7 +12642,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "7030",
@@ -12391,7 +12667,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 9200
    },
    {
     "id": "7140",
@@ -12450,7 +12728,9 @@
       "type": "brainwash",
       "level": 18
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7110",
@@ -12509,7 +12789,9 @@
       "type": "brainwash",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7120",
@@ -12568,7 +12850,9 @@
       "type": "sleep",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7160",
@@ -12627,7 +12911,9 @@
       "type": "sweep",
       "level": 35
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7060",
@@ -12650,7 +12936,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 11500
    },
    {
     "id": "7150",
@@ -12709,7 +12997,9 @@
       "type": "sleep",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7020",
@@ -12732,7 +13022,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 14000
    },
    {
     "id": "7070",
@@ -12755,7 +13047,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 23000
    },
    {
     "id": "7180",
@@ -12814,7 +13108,9 @@
       "type": "sleep",
       "level": 49
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7190",
@@ -12873,7 +13169,9 @@
       "type": "sweep",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7040",
@@ -12896,7 +13194,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 26000
    },
    {
     "id": "7210",
@@ -12955,7 +13255,9 @@
       "type": "sleep",
       "level": 66
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7170",
@@ -13014,7 +13316,9 @@
       "type": "brainwash",
       "level": 37
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7220",
@@ -13073,7 +13377,9 @@
       "type": "sweep",
       "level": 75
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7200",
@@ -13132,7 +13438,9 @@
       "type": "brainwash",
       "level": 50
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "7130",
@@ -13191,7 +13499,9 @@
       "type": "sweep",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  },
@@ -14343,7 +14653,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1700
    },
    {
     "id": "9000",
@@ -14375,7 +14687,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "9040",
@@ -14398,7 +14712,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2600
    },
    {
     "id": "9050",
@@ -14421,7 +14737,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 5300
    },
    {
     "id": "9010",
@@ -14453,7 +14771,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 7300
    },
    {
     "id": "9800",
@@ -14476,7 +14796,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "9020",
@@ -14508,7 +14830,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 24000
    },
    {
     "id": "9060",
@@ -14531,7 +14855,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 11000
    },
    {
     "id": "9070",
@@ -14554,7 +14880,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 15000
    },
    {
     "id": "9080",
@@ -14577,7 +14905,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 17000
    }
   ]
  },
@@ -15513,7 +15843,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 1400
    },
    {
     "id": "10000",
@@ -15545,7 +15877,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "10040",
@@ -15568,7 +15902,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 2000
    },
    {
     "id": "10010",
@@ -15600,7 +15936,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 4900
    },
    {
     "id": "10050",
@@ -15623,7 +15961,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3300
    },
    {
     "id": "10800",
@@ -15646,7 +15986,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "10020",
@@ -15678,7 +16020,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 16000
    },
    {
     "id": "10060",
@@ -15701,7 +16045,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8000
    },
    {
     "id": "10070",
@@ -15724,7 +16070,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 11000
    },
    {
     "id": "10080",
@@ -15747,7 +16095,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 12000
    }
   ]
  },
@@ -16706,7 +17056,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "initial",
+    "price": null
    },
    {
     "id": "11010",
@@ -16729,7 +17081,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3000
    },
    {
     "id": "11230",
@@ -16752,7 +17106,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 3400
    },
    {
     "id": "11050",
@@ -16775,7 +17131,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 8400
    },
    {
     "id": "11800",
@@ -16798,7 +17156,9 @@
       "ailmentRate": 15
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "dlc",
+    "price": null
    },
    {
     "id": "11020",
@@ -16821,7 +17181,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 9600
    },
    {
     "id": "11150",
@@ -16880,7 +17242,9 @@
       "type": "forget",
       "level": 18
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11110",
@@ -16939,7 +17303,9 @@
       "type": "sweep",
       "level": 31
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11120",
@@ -16998,7 +17364,9 @@
       "type": "forget",
       "level": 22
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11160",
@@ -17057,7 +17425,9 @@
       "type": "brainwash",
       "level": 35
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11060",
@@ -17080,7 +17450,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 12600
    },
    {
     "id": "11140",
@@ -17139,7 +17511,9 @@
       "type": "sweep",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11030",
@@ -17162,7 +17536,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 14000
    },
    {
     "id": "11180",
@@ -17221,7 +17597,9 @@
       "type": "forget",
       "level": 34
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11170",
@@ -17280,7 +17658,9 @@
       "type": "sweep",
       "level": 55
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11190",
@@ -17339,7 +17719,9 @@
       "type": "brainwash",
       "level": 50
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11070",
@@ -17362,7 +17744,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 22000
    },
    {
     "id": "11040",
@@ -17385,7 +17769,9 @@
       "ailmentRate": null
      }
     ],
-    "recipe": null
+    "recipe": null,
+    "source": "shop",
+    "price": 25000
    },
    {
     "id": "11210",
@@ -17444,7 +17830,9 @@
       "type": "forget",
       "level": 46
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11200",
@@ -17503,7 +17891,9 @@
       "type": "sweep",
       "level": 75
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11220",
@@ -17562,7 +17952,9 @@
       "type": "brainwash",
       "level": 72
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    },
    {
     "id": "11130",
@@ -17621,7 +18013,9 @@
       "type": "brainwash",
       "level": 84
      }
-    ]
+    ],
+    "source": "fusion",
+    "price": null
    }
   ]
  }

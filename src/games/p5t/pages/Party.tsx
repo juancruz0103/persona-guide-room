@@ -96,6 +96,21 @@ const variantText = (v: Weapon['variants'][number]) =>
   [`${L('Daño', 'Damage')} ${v.damage[0]}–${v.damage[1]}`, v.range ? `${L('Alcance', 'Range')} ${v.range}` : null,
     v.ailment ? `${typeName(v.ailment)} ${v.ailmentRate}%` : null].filter(Boolean).join(' · ');
 
+function weaponSource(w: Weapon) {
+  switch (w.source) {
+    case 'fusion':
+      return <>{L('Fusión de armas', 'Weapon fusion')}: {w.recipe!.map((r) => `${typeName(r.type)} ${L('Nv', 'Lv')} ${r.level}+`).join(' + ')}</>;
+    case 'shop':
+      return <>{L('Se compra en la tienda', 'Sold in the shop')}: ¥{w.price!.toLocaleString('es-AR')}</>;
+    case 'initial':
+      return L('Arma inicial.', 'Starting weapon.');
+    case 'dlc':
+      return L('Viene con un DLC.', 'Comes with DLC.');
+    default:
+      return null;
+  }
+}
+
 function Weapons({ m }: { m: Member }) {
   if (!m.weapons.length) return <p className="pending">{L('No usa armas: guía al grupo desde fuera del combate.', "No weapons: guides the party from outside the battle.")}</p>;
   return (
@@ -114,11 +129,7 @@ function Weapons({ m }: { m: Member }) {
               {rest.length > 0 && (
                 <p>{L('Otras versiones al fabricarla', 'Other versions when crafted')}: {rest.map(variantText).join(' / ')}</p>
               )}
-              <p>
-                {w.recipe
-                  ? <>{L('Fusión de armas', 'Weapon fusion')}: {w.recipe.map((r) => `${typeName(r.type)} ${L('Nv', 'Lv')} ${r.level}+`).join(' + ')}</>
-                  : L('No se fabrica en el Velvet Room.', "Not crafted in the Velvet Room.")}
-              </p>
+              <p>{weaponSource(w)}</p>
             </article>
           );
         })}
