@@ -1,0 +1,80 @@
+import { useId } from 'react';
+import { MATERIAL, getItem, itemDescription, itemTypeLabel } from '../../p5r/services/items';
+import type { Persona } from '../../p5r/types';
+import { ItemIcon } from '../../p5r/components/ItemIcon';
+import styles from '../../p5r/components/ElectricChair.module.css';
+import { itemName, itemNameEn, personaName } from '../../p5r/services/gameText';
+import { L } from '../../../i18n';
+
+function ItemCard({ name, alarm }: { name: string; alarm: boolean }) {
+  const tipId = useId();
+  const item = getItem(name) ?? { name, type: 'unknown' as const, source: null };
+  const typeLabel = itemTypeLabel(item);
+  const material = MATERIAL[item.type];
+  const { lines, note } = itemDescription(item);
+
+  return (
+    <div className={`${styles.card} ${alarm ? styles.alarm : styles.normal}`}>
+      <span className={styles.tipWrap} tabIndex={0} aria-label={`${itemName(name)}: ${L('ver descripción', 'see description')}`} aria-describedby={tipId}>
+        <span className={styles.icon}>
+          <ItemIcon item={item} />
+        </span>
+        <span role="tooltip" id={tipId} className={styles.tip}>
+          <span className={styles.tipTitle}>{itemName(name)}</span>
+          <span className={styles.tipType}>{typeLabel}</span>
+          {lines.map((l, i) => (
+            <span key={i} className={styles.tipText}>
+              {l.text}
+              {l.cost && (
+                <>
+                  {' '}
+                  Costo: <strong className={l.cost.kind === 'hp' ? 'cost-hp-dark' : 'cost-sp-dark'}>{l.cost.text}</strong>.
+                </>
+              )}
+            </span>
+          ))}
+          {note && <span className={styles.tipNote}>{note}</span>}
+        </span>
+      </span>
+      <span className={styles.body}>
+        <span className={styles.kind}>
+          {alarm ? (
+            <>
+              <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill="currentColor" d="M12 2a7 7 0 0 0-7 7v5l-2 3h18l-2-3V9a7 7 0 0 0-7-7zm-2.5 17a2.5 2.5 0 0 0 5 0z" />
+              </svg>
+              {L('Con Alarma de fusión', 'With Fusion Alarm')}
+            </>
+          ) : (
+            L('Normal', 'Normal')
+          )}
+        </span>
+        <span className={styles.name} title={`${L('En inglés', 'In Spanish')}: ${itemNameEn(name)}`}>
+          {itemName(name)}
+        </span>
+        <span className={styles.meta}>
+          {typeLabel}
+          {material && ` · ${L('Material', 'Material')}: ${material}`}
+        </span>
+      </span>
+    </div>
+  );
+}
+
+/** Item que se obtiene al ejecutar a la Persona en el Velvet Room. */
+export function ElectricChair({ persona: p }: { persona: Persona }) {
+  if (!p.itemization) {
+    return <p className={styles.help}>{L('Esta Persona no se puede ejecutar en la silla eléctrica.', 'This Persona cannot be executed in the electric chair.')}</p>;
+  }
+  return (
+    <div className={styles.wrap}>
+      <p className={styles.help}>
+        {L(
+          `Item que obtenés al ejecutar a ${personaName(p)} en el Velvet Room. En P5 original no existe la Alarma de fusión. Pasá el mouse por el ícono para ver qué hace.`,
+          `Item you get by executing ${personaName(p)} in the Velvet Room. The original P5 has no Fusion Alarm. Hover over the icon to see what it does.`,
+        )}
+      </p>
+      <ItemCard name={p.itemization} alarm={false} />
+    </div>
+  );
+}

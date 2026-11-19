@@ -61,6 +61,11 @@ const P5SBond = lazy(() => import('../games/p5s/pages/Bond'));
 const P5SBuilds = lazy(() => import('../games/p5s/pages/Builds'));
 const P5SBuildView = lazy(() => import('../games/p5s/pages/BuildView'));
 const P5SBuildEditor = lazy(() => import('../games/p5s/pages/BuildEditor'));
+// Persona 5 (original)
+const P5Home = lazy(() => import('../games/p5/pages/Home'));
+const P5Catalog = lazy(() => import('../games/p5/pages/Catalog'));
+const P5Profile = lazy(() => import('../games/p5/pages/PersonaProfile'));
+const P5Fusion = lazy(() => import('../games/p5/pages/Fusion'));
 // Persona 5 Tactica
 const P5THome = lazy(() => import('../games/p5t/pages/Home'));
 const P5TCatalog = lazy(() => import('../games/p5t/pages/Catalog'));
@@ -76,10 +81,10 @@ function byGame(screens: Partial<Record<string, ComponentType>>) {
     return <Screen />;
   };
 }
-const HomeScreen = byGame({ p5r: Home, p3r: P3Home, p4g: P4Home, p5s: P5SHome, p5t: P5THome });
-const CatalogScreen = byGame({ p5r: Catalog, p3r: P3Catalog, p4g: P4Catalog, p5s: P5SCatalog, p5t: P5TCatalog });
-const FusionScreen = byGame({ p5r: Fusion, p3r: P3Fusion, p4g: P4Fusion, p5s: P5SFusion, p5t: P5TFusion });
-const ProfileScreen = byGame({ p5r: PersonaProfile, p3r: P3Profile, p4g: P4Profile, p5s: P5SProfile, p5t: P5TProfile });
+const HomeScreen = byGame({ p5r: Home, p3r: P3Home, p4g: P4Home, p5s: P5SHome, p5t: P5THome, p5: P5Home });
+const CatalogScreen = byGame({ p5r: Catalog, p3r: P3Catalog, p4g: P4Catalog, p5s: P5SCatalog, p5t: P5TCatalog, p5: P5Catalog });
+const FusionScreen = byGame({ p5r: Fusion, p3r: P3Fusion, p4g: P4Fusion, p5s: P5SFusion, p5t: P5TFusion, p5: P5Fusion });
+const ProfileScreen = byGame({ p5r: PersonaProfile, p3r: P3Profile, p4g: P4Profile, p5s: P5SProfile, p5t: P5TProfile, p5: P5Profile });
 const SpecialsScreen = byGame({ p3r: P3Specials, p4g: P4Specials });
 const HeartsScreen = byGame({ p3r: P3Hearts });
 const LinksScreen = byGame({ p3r: P3Links, p4g: P4Links, p5s: P5SBond });

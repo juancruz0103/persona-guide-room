@@ -1,0 +1,24 @@
+{
+ "source": "https://github.com/aqiu384/megaten-fusion-tool",
+ "license": "Unlicense (dominio público)",
+ "files": [
+  "demon-data.json",
+  "skill-data.json",
+  "fusion-chart.json",
+  "element-chart.json",
+  "special-recipes.json",
+  "demon-unlocks.json",
+  "fusion-prereqs.json",
+  "party-data.json"
+ ],
+ "sourceCommit": "0b207612f6cdcff092e62af16f5c355271a1d892",
+ "importedAt": "2026-11-19",
+ "counts": {
+  "personas": 210,
+  "treasure": 8,
+  "dlc": 18,
+  "special": 21,
+  "skills": 353
+ },
+ "warnings": []
+}

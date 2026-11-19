@@ -16,6 +16,7 @@ import { personaName as p4Name } from '../games/p4g/services/text';
 import { personaImage as p4Image } from '../games/p4g/services/images';
 import { getPersona as getP5SPersona, personaName as p5sName } from '../games/p5s/services/personas';
 import { personaImage as p5sImage } from '../games/p5s/services/images';
+import { getPersona as getP5Persona } from '../games/p5/services/personas';
 import { getPersona as getP5TPersona, personaName as p5tName } from '../games/p5t/services/personas';
 import { personaImage as p5tImage } from '../games/p5t/services/images';
 import { BuildCard as P4BuildCard } from '../games/p4g/pages/Builds';
@@ -98,6 +99,7 @@ export default function MyProfile() {
     .filter((r) => r.link)
     .sort((a, b) => (sort === 'least' ? a.rank - b.rank : b.rank - a.rank));
   const p5sFavs = favorites.filter((id) => id.startsWith('p5s:')).map((id) => getP5SPersona(id.slice(4))).filter((p) => p !== undefined);
+  const p5Favs = favorites.filter((id) => id.startsWith('p5:')).map((id) => getP5Persona(id.slice(3))).filter((p) => p !== undefined);
   const p5tFavs = favorites.filter((id) => id.startsWith('p5t:')).map((id) => getP5TPersona(id.slice(4))).filter((p) => p !== undefined);
   const p4gFavs = favorites.filter((id) => id.startsWith('p4g:')).map((id) => getP4Persona(id.slice(4))).filter((p) => p !== undefined);
   const p3rFavs = favorites.filter((id) => id.startsWith('p3r:')).map((id) => getP3Persona(id.slice(4))).filter((p) => p !== undefined);
@@ -248,7 +250,7 @@ export default function MyProfile() {
 
       <div className={styles.block}>
         <h2 className={styles.h2}>{L('Personas favoritas', 'Favorite Personas')}</h2>
-        {personas.length + p3rFavs.length + p4gFavs.length + p5sFavs.length + p5tFavs.length === 0 ? (
+        {personas.length + p3rFavs.length + p4gFavs.length + p5sFavs.length + p5tFavs.length + p5Favs.length === 0 ? (
           <p className={styles.empty}>
             {L('Todavía no tenés favoritas. Tocá la estrella en el perfil de cualquier Persona del', 'No favorites yet. Tap the star on the profile of any Persona in the')}{' '}
             <Link to="/p5r/calculadora">{L('catálogo', 'catalog')}</Link>.
@@ -302,6 +304,26 @@ export default function MyProfile() {
                   <Link to={`/p5s/calculadora/persona/${p.id}`} className={styles.fav}>
                     {p5sImage(p.id, 'side') && !p.spoiler ? <img src={p5sImage(p.id, 'side')} alt="" /> : <span className={styles.favEmpty} />}
                     <span className={styles.favName}>{p5sName(p)}</span>
+                    {!p.party && <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
+        {p5Favs.length > 0 && (
+          <>
+            <h3 className={styles.h2} style={{ fontSize: 22, marginTop: 18 }}>Persona 5</h3>
+            <ul className={styles.favGrid}>
+              {p5Favs.map((p) => (
+                <li key={p.id}>
+                  <Link to={`/p5/calculadora/persona/${p.id}`} className={styles.fav}>
+                    {personaImage(p.id, 'side') && !p.party ? (
+                      <img src={personaImage(p.id, 'side')} alt="" style={{ objectPosition: personaCardFocus(p.id) }} />
+                    ) : (
+                      <span className={styles.favEmpty} />
+                    )}
+                    <span className={styles.favName}>{personaName(p)}</span>
                     {!p.party && <span className={styles.favLvl}>{L('Nv', 'Lv')} {p.level}</span>}
                   </Link>
                 </li>

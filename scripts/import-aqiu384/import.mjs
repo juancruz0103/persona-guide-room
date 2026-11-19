@@ -11,25 +11,33 @@
  * Solo se leen los archivos "roy-*" (Royal). De skill-data.json (P5) se toman
  * las skills que Royal no redefine, igual que hace la herramienta original.
  *
+ * Persona 5 original: agregar `--p5` al final. Lee los archivos sin "roy-" y escribe en
+ * src/games/p5/data/generated (sin Fe, Consejero, tercer semestre ni Kasumi).
+ *
  * Este script lee únicamente archivos JSON: no ejecuta código de la fuente.
  */
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const srcDir = process.argv[2];
+const P5 = process.argv.includes('--p5');
+const args = process.argv.slice(2).filter((a) => a !== '--p5');
+const srcDir = args[0];
 if (!srcDir) {
   console.error('Falta la carpeta de datos. Ej: node import.mjs /tmp/aqiu/src/app/p5/data');
   process.exit(1);
 }
 
 const here = dirname(fileURLToPath(import.meta.url));
-const outDir = resolve(here, '../../src/games/p5r/data/generated');
-const read = (f) => JSON.parse(readFileSync(join(srcDir, f), 'utf8'));
+const outDir = resolve(here, P5 ? '../../src/games/p5/data/generated' : '../../src/games/p5r/data/generated');
+const readRaw = (f) => JSON.parse(readFileSync(join(srcDir, f), 'utf8'));
+/** En modo P5 se usan los archivos del juego original (sin el prefijo "roy-"). */
+const src = (f) => (P5 ? f.replace(/^roy-/, '') : f);
+const read = (f) => readRaw(src(f));
 
 const demons = read('roy-demon-data.json');
 const baseSkills = read('skill-data.json');
-const roySkills = read('roy-skill-data.json');
+const roySkills = P5 ? {} : read('roy-skill-data.json');
 const fusionChart = read('roy-fusion-chart.json');
 const elementChart = read('roy-element-chart.json');
 const specialRecipes = read('roy-special-recipes.json');
@@ -67,10 +75,10 @@ const slug = (n) =>
 
 /** Condiciones de desbloqueo escritas en español, conservando los nombres propios del juego. */
 function translateStory(text) {
-  const quoted = text.match(/^Cleared "(.+)"$/);
+  const quoted = text.match(/^Clear(?:ed)? "(.+)"$/);
   if (quoted) return `Completar la petición de Mementos “${quoted[1]}”`;
   if (text === 'Unlocked Third Semester') return 'Llegar al Tercer Semestre';
-  if (text === 'Cleared Good Ending, New Game+') return 'Haber visto el final bueno (Nueva Partida+)';
+  if (text === 'Cleared Good Ending, New Game+' || text === 'Clear Good Ending, New Game+') return 'Haber visto el final bueno (Nueva Partida+)';
   warnings.push(`Condición de historia sin traducir: ${text}`);
   return text;
 }
@@ -204,7 +212,9 @@ const CHAINS = [
   ['haru', 'Milady', 'Astarte', 'Lucy'],
   ['akechi', 'Robin Hood', 'Loki', 'Hereward'],
   ['kasumi', 'Cendrillon', 'Vanadis', 'Ella'],
-];
+].filter(([owner]) => !P5 || owner !== 'kasumi')
+  // P5 original: sin tercer semestre (William, Celestine…); Akechi solo usa a Robin Hood
+  .map((c) => (P5 ? (c[0] === 'akechi' ? c.slice(0, 2) : c.slice(0, 3)) : c));
 const levelCode = (raw) => (raw >= 120 ? String.fromCharCode(Math.floor(raw / 100) + 32) + String.fromCharCode((raw % 100) + 32) : null);
 const resistsOf = (code) => Object.fromEntries(RESIST_ELEMS.map((e, i) => [e, RESIST_CODE[code[i]] ?? 'neutral']));
 
@@ -310,16 +320,18 @@ const write = (file, data) => writeFileSync(join(outDir, file), JSON.stringify(d
 
 write('personas.json', personas);
 write('party.json', party);
-write('accessories.json', read('roy-accessories.json'));
+if (!P5) write('accessories.json', read('roy-accessories.json'));
 write('skills.json', skills);
 write('fusion.json', { arcanaOrder: races, chart, treasureChart, specialRecipes: specials });
 write('meta.json', {
   source: 'https://github.com/aqiu384/megaten-fusion-tool',
   license: 'Unlicense (dominio público)',
-  files: ['roy-demon-data.json', 'roy-skill-data.json', 'skill-data.json', 'roy-fusion-chart.json',
+  files: (P5 ? ['demon-data.json', 'skill-data.json', 'fusion-chart.json', 'element-chart.json', 'special-recipes.json',
+    'demon-unlocks.json', 'fusion-prereqs.json', 'party-data.json']
+    : ['roy-demon-data.json', 'roy-skill-data.json', 'skill-data.json', 'roy-fusion-chart.json',
     'roy-element-chart.json', 'roy-special-recipes.json', 'roy-demon-unlocks.json', 'roy-fusion-prereqs.json',
-    'roy-accessories.json'],
-  sourceCommit: process.argv[3] ?? null,
+    'roy-accessories.json']),
+  sourceCommit: args[1] ?? null,
   importedAt: new Date().toISOString().slice(0, 10),
   counts: {
     personas: personas.length,
