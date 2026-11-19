@@ -33,15 +33,10 @@ export default function About() {
           <h2 className={styles.cardTitle}>{L('Quién está detrás', 'Who is behind it')}</h2>
           <p>
             {L('Soy', "I'm")} <strong>Juan</strong>
-            {p3r
-              ? L(
-                  ', fan de la saga Persona. La guía empezó con Persona 5 Royal y ahora suma Persona 3 Reload: los diálogos y las respuestas salen de los textos oficiales del juego y los voy comprobando mientras juego.',
-                  ', a fan of the Persona series. The guide started with Persona 5 Royal and now adds Persona 3 Reload: dialogue and answers come from the official game text and I check them as I play.',
-                )
-              : L(
-                  ', fan de la saga Persona. Armé esta guía mientras jugaba Persona 5 Royal: cada respuesta, llamada y foto la fui comprobando en el juego.',
-                  ', a fan of the Persona series. I built this guide while playing Persona 5 Royal: every answer, call and picture was checked in the game.',
-                )}
+            {L(
+              ', fan de la saga Persona. La guía empezó con Persona 5 Royal y hoy también tiene Persona 4 Golden, Persona 3 Reload y Persona 5 Strikers: los diálogos y las respuestas salen de los textos oficiales de cada juego y los voy comprobando mientras juego.',
+              ", a fan of the Persona series. The guide started with Persona 5 Royal and now also covers Persona 4 Golden, Persona 3 Reload and Persona 5 Strikers: dialogue and answers come from each game's official text and I check them as I play.",
+            )}
           </p>
           <a className={styles.mail} href="https://github.com/juancruz0103/persona-guide-room" target="_blank" rel="noopener noreferrer">
             {L('Ver el proyecto en GitHub →', 'See the project on GitHub →')}
