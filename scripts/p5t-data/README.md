@@ -20,3 +20,13 @@ Qué usa:
 102 = DLC «Picaro Summoning Pack & Raoul» (lista confirmada con las guías).
 
 Fusión: cuenta el nivel base de cada Persona (no el de la partida); reglas en `src/games/p5t/fusion/engine.ts`, casos en `fusion/check.test.ts`.
+
+## Ladrones Fantasma (`party.py`)
+
+`python3 party.py <carpeta MonoBehaviour> <raíz del repo>` arma `party.json` con:
+- `skilltree_database` + `skilltree_treeskill_database` + `skilltree_name_database`: las 3 ramas de cada personaje,
+  con la posición de cada nodo (PosX/PosY), sus padres, el costo en PC y si es la habilidad más fuerte (misión).
+  Los textos con `{0}` se completan con el valor de la pasiva (`passive_skill_database`) o con lo que crece el alcance.
+- `skilldatabase`: daño, costo, alcance y estado de las habilidades de su Persona (las mejoras son el id siguiente).
+- `weapondatabase` + `weapon_make_database`: armas de fuego (el prefijo del id es el personaje) y la receta de la fusión
+  de armas (tipo y nivel mínimo de cada Persona). Cada arma fabricada tiene hasta 4 versiones con distintos valores.

@@ -42,6 +42,7 @@ export function Header({ game }: Props) {
     { to: `${base}/confidentes`, label: t().nav.confidants, end: false },
     { to: `${base}/vinculos`, label: L('Vínculos', 'Social Links'), end: false },
     { to: `${base}/clases`, label: t().nav.school, end: false },
+    { to: `${base}/ladrones`, label: L('Ladrones Fantasma', 'Phantom Thieves'), end: false },
     { to: `${base}/builds`, label: 'Builds', end: false },
   ].filter((l) => {
     if (l.end) return true;
