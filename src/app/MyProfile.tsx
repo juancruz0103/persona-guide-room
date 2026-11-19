@@ -21,6 +21,7 @@ import { getPersona as getP5TPersona, personaName as p5tName } from '../games/p5
 import { personaImage as p5tImage } from '../games/p5t/services/images';
 import { BuildCard as P4BuildCard } from '../games/p4g/pages/Builds';
 import { BuildCard as P5SBuildCard } from '../games/p5s/pages/Builds';
+import { BuildCard as P5OBuildCard } from '../games/p5/pages/Builds';
 import { fetchAllProgress } from '../core/account/progress';
 import { listBuilds, translateBuild, pendingReports, type Build } from '../core/account/builds';
 import { BuildCard } from '../games/p5r/pages/Builds';
@@ -408,7 +409,7 @@ export default function MyProfile() {
           <ul className={styles.favGrid} style={{ gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))' }}>
             {builds.map((b) => (
               <li key={b.id}>
-                {b.game === 'p3r' ? <P3BuildCard build={b} /> : b.game === 'p4g' ? <P4BuildCard build={b} /> : b.game === 'p5s' ? <P5SBuildCard build={b} /> : <BuildCard build={b} />}
+                {b.game === 'p3r' ? <P3BuildCard build={b} /> : b.game === 'p4g' ? <P4BuildCard build={b} /> : b.game === 'p5s' ? <P5SBuildCard build={b} /> : b.game === 'p5' ? <P5OBuildCard build={b} /> : <BuildCard build={b} />}
               </li>
             ))}
           </ul>

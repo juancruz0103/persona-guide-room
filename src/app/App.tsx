@@ -61,6 +61,9 @@ const P5SBond = lazy(() => import('../games/p5s/pages/Bond'));
 const P5SBuilds = lazy(() => import('../games/p5s/pages/Builds'));
 const P5SBuildView = lazy(() => import('../games/p5s/pages/BuildView'));
 const P5SBuildEditor = lazy(() => import('../games/p5s/pages/BuildEditor'));
+const P5OBuilds = lazy(() => import('../games/p5/pages/Builds'));
+const P5OBuildView = lazy(() => import('../games/p5/pages/BuildView'));
+const P5OBuildEditor = lazy(() => import('../games/p5/pages/BuildEditor'));
 // Persona 5 (original)
 const P5Home = lazy(() => import('../games/p5/pages/Home'));
 const P5Catalog = lazy(() => import('../games/p5/pages/Catalog'));
@@ -100,9 +103,9 @@ const TechnicalScreen = p5rOnly(Technical);
 const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes, p5: P5School });
 const ConfidantsScreen = byGame({ p5r: Confidants, p5: P5Confidants });
 const ConfidantProfileScreen = byGame({ p5r: ConfidantProfile, p5: P5ConfidantProfile });
-const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds, p5s: P5SBuilds });
-const BuildViewScreen = byGame({ p5r: BuildView, p3r: P3BuildView, p4g: P4BuildView, p5s: P5SBuildView });
-const BuildEditorScreen = byGame({ p5r: BuildEditor, p3r: P3BuildEditor, p4g: P4BuildEditor, p5s: P5SBuildEditor });
+const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds, p5s: P5SBuilds, p5: P5OBuilds });
+const BuildViewScreen = byGame({ p5r: BuildView, p3r: P3BuildView, p4g: P4BuildView, p5s: P5SBuildView, p5: P5OBuildView });
+const BuildEditorScreen = byGame({ p5r: BuildEditor, p3r: P3BuildEditor, p4g: P4BuildEditor, p5s: P5SBuildEditor, p5: P5OBuildEditor });
 
 /**
  * Rutas.

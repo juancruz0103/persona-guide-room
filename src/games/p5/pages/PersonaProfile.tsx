@@ -162,6 +162,11 @@ export default function PersonaProfile() {
             <h1 className={styles.name}>{personaName(p)}</h1>
             <div className={styles.flags}>
               <FavoriteButton personaId={`p5:${p.id}`} />
+              {!p.party && (
+                <Link to={`/p5/builds?persona=${p.id}`} className="btn btn--light" style={{ minHeight: 42, fontSize: 17 }}>
+                  {L('Ver builds', 'See builds')}
+                </Link>
+              )}
             </div>
             {personaNameEn(p) !== personaName(p) && <span className={styles.nameEn}>{L('En inglés', 'In Spanish')}: {personaNameEn(p)}</span>}
             <div className={styles.flags}>

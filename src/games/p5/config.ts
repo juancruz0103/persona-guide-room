@@ -26,10 +26,17 @@ export const p5Game: GameInfo = {
       title: 'Respuestas de clase',
       description: 'Las preguntas de clase y de los exámenes del original, que son distintas a las de Royal.',
     },
+    {
+      id: 'builds',
+      path: 'builds',
+      title: 'Builds de Personas',
+      description: 'Rutas de fusión paso a paso de la comunidad: qué heredar en cada paso y qué skill cards enseñar al final.',
+    },
   ],
 };
 
 const TOOLS_EN: Record<string, { title: string; description: string }> = {
+  builds: { title: 'Persona builds', description: 'Community step-by-step fusion routes: what to inherit at each step and which skill cards to teach at the end.' },
   school: { title: 'Class answers', description: "The original's class and exam questions, which differ from Royal's." },
   confidants: { title: 'Confidants', description: "The original's 21 confidants with the best answers and each rank's abilities (no phone calls, Kasumi or Maruki)." },
   calculator: { title: 'Persona Calculator', description: "The original Persona 5's 210 Personas with their fusions, stats, affinities and skills (without Royal's additions)." },
