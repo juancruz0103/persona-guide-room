@@ -33,6 +33,8 @@ export interface CatalogFilters {
   minLevel: number;
   maxLevel: number;
   kind: 'all' | 'normal' | 'party';
+  /** Mostrar la Persona despertada de Sophia (spoiler) */
+  evolved?: boolean;
   sort: 'level-asc' | 'level-desc' | 'name-asc' | 'arcana';
 }
 export const DEFAULT_FILTERS: CatalogFilters = { query: '', arcanas: [], minLevel: 1, maxLevel: 99, kind: 'all', sort: 'arcana' };
@@ -47,6 +49,7 @@ export function filterPersonas(list: Persona[], f: CatalogFilters): Persona[] {
     if (f.arcanas.length && !f.arcanas.includes(p.arcana)) return false;
     if (f.kind === 'party' && !p.party) return false;
     if (f.kind === 'normal' && p.party) return false;
+    if (p.spoiler && !f.evolved) return false;
     if (!p.party && (p.level < f.minLevel || p.level > f.maxLevel)) return false;
     return true;
   });

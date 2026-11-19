@@ -25,7 +25,9 @@ export interface Persona {
   party: string | null;
   resistances: Record<ResistElement, Affinity>;
   stats: { st: number; ma: number; en: number; ag: number; lu: number };
-  skills: { skill: string; level: number | null }[];
+  skills: { skill: string; level: number | null; note?: 'event' }[];
+  /** Persona que revela la historia (Pandora): se muestra tapada */
+  spoiler?: boolean;
   inheritance: string | null;
   location: { es: string; en: string } | null;
   prereq: string | null;

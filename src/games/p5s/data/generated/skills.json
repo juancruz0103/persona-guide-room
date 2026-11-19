@@ -98,26 +98,26 @@
  "Active Boost": {
   "name": "Active Boost",
   "nameEn": "Active Boost",
-  "nameEs": null,
+  "nameEs": "Potenciar apoyo activo",
   "element": "pas",
   "effect": "Improves Active Support rate for increasing Showtime Gauge",
-  "descEs": null,
+  "descEs": "Aumenta la probabilidad de apoyo activo, que llena la barra de Showtime.",
   "descEn": null,
   "cost": null,
   "rank": null,
-  "derivedName": false
+  "derivedName": true
  },
  "Active Boost EX": {
   "name": "Active Boost EX",
   "nameEn": "Active Boost EX",
-  "nameEs": null,
+  "nameEs": "Potenciar apoyo activo EX",
   "element": "pas",
   "effect": "Greatly improves Active Support rate for increasing Showtime Gauge",
-  "descEs": null,
+  "descEs": "Aumenta mucho la probabilidad de apoyo activo, que llena la barra de Showtime.",
   "descEn": null,
   "cost": null,
   "rank": null,
-  "derivedName": false
+  "derivedName": true
  },
  "Active Support": {
   "name": "Active Support",
@@ -1418,14 +1418,14 @@
  "Knockdown Style": {
   "name": "Knockdown Style",
   "nameEn": "Knockdown Style",
-  "nameEs": null,
+  "nameEs": "Estilo derribo",
   "element": "pas",
   "effect": "Greatly decreases Down Gauge when landing a critical hit",
-  "descEs": null,
+  "descEs": "Los golpes críticos bajan mucho la barra de derribo del enemigo.",
   "descEn": null,
   "cost": null,
   "rank": 5,
-  "derivedName": false
+  "derivedName": true
  },
  "Kouga": {
   "name": "Kouga",
@@ -1850,14 +1850,14 @@
  "Maralagidyne": {
   "name": "Maralagidyne",
   "nameEn": "Maralagidyne",
-  "nameEs": null,
+  "nameEs": "Maralagidyne",
   "element": "fir",
   "effect": "Severe dmg",
-  "descEs": null,
+  "descEs": "Daño de fuego grave en un área amplia.",
   "descEn": null,
   "cost": null,
   "rank": null,
-  "derivedName": false
+  "derivedName": true
  },
  "Marin Karin": {
   "name": "Marin Karin",
@@ -2054,26 +2054,26 @@
  "Moral Boost": {
   "name": "Moral Boost",
   "nameEn": "Moral Boost",
-  "nameEs": null,
+  "nameEs": "Potenciar apoyo moral",
   "element": "pas",
   "effect": "Raises chance of Moral Support activating",
-  "descEs": null,
+  "descEs": "Aumenta la probabilidad de que se active el apoyo moral.",
   "descEn": null,
   "cost": null,
   "rank": null,
-  "derivedName": false
+  "derivedName": true
  },
  "Moral Boost EX": {
   "name": "Moral Boost EX",
   "nameEn": "Moral Boost EX",
-  "nameEs": null,
+  "nameEs": "Potenciar apoyo moral EX",
   "element": "pas",
   "effect": "Greatly raises chance of Moral Support activating",
-  "descEs": null,
+  "descEs": "Aumenta mucho la probabilidad de que se active el apoyo moral.",
   "descEn": null,
   "cost": null,
   "rank": null,
-  "derivedName": false
+  "derivedName": true
  },
  "Moral Support": {
   "name": "Moral Support",
@@ -2522,14 +2522,14 @@
  "Rebel Soul": {
   "name": "Rebel Soul",
   "nameEn": "Rebel Soul",
-  "nameEs": null,
+  "nameEs": "Alma rebelde",
   "element": "pas",
   "effect": "Showtime Gauge increases more quickly",
-  "descEs": null,
+  "descEs": "La barra de Showtime se llena más rápido.",
   "descEn": null,
   "cost": null,
   "rank": 16,
-  "derivedName": false
+  "derivedName": true
  },
  "Recarm": {
   "name": "Recarm",
@@ -2726,14 +2726,14 @@
  "Shadow of Grief": {
   "name": "Shadow of Grief",
   "nameEn": "Shadow of Grief",
-  "nameEs": null,
+  "nameEs": "Sombra de pesar",
   "element": "pas",
   "effect": "Recovers SP when draining damage",
-  "descEs": null,
+  "descEs": "Recupera PE al absorber daño.",
   "descEn": null,
   "cost": null,
   "rank": null,
-  "derivedName": false
+  "derivedName": true
  },
  "Shock Boost": {
   "name": "Shock Boost",
@@ -2786,14 +2786,14 @@
  "Soul Thief": {
   "name": "Soul Thief",
   "nameEn": "Soul Thief",
-  "nameEs": null,
+  "nameEs": "Ladrón de almas",
   "element": "pas",
   "effect": "Drains SP when inflicting an ailment on a Foe",
-  "descEs": null,
+  "descEs": "Roba PE al provocarle un estado alterado a un enemigo.",
   "descEn": null,
   "cost": null,
   "rank": 16,
-  "derivedName": false
+  "derivedName": true
  },
  "Speed Master": {
   "name": "Speed Master",
@@ -2918,26 +2918,26 @@
  "Technical Adept": {
   "name": "Technical Adept",
   "nameEn": "Technical Adept",
-  "nameEs": null,
+  "nameEs": "Experto en técnicos",
   "element": "pas",
   "effect": "Increases damage of technical hits",
-  "descEs": null,
+  "descEs": "Aumenta el daño de los técnicos.",
   "descEn": null,
   "cost": null,
   "rank": 5,
-  "derivedName": false
+  "derivedName": true
  },
  "Technical High": {
   "name": "Technical High",
   "nameEn": "Technical High",
-  "nameEs": null,
+  "nameEs": "Euforia técnica",
   "element": "pas",
   "effect": "Extends duration of -kaja effects on self when landing a critical hit",
-  "descEs": null,
+  "descEs": "Al hacer un crítico, alarga la duración de los efectos «-kaja» propios.",
   "descEn": null,
   "cost": null,
   "rank": 5,
-  "derivedName": false
+  "derivedName": true
  },
  "Tempest Slash": {
   "name": "Tempest Slash",

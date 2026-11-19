@@ -5543,10 +5543,6 @@
    {
     "skill": "Angelic Grace",
     "level": 70
-   },
-   {
-    "skill": "Makougaon",
-    "level": 5188
    }
   ],
   "inheritance": "bless",
@@ -5557,6 +5553,135 @@
   "down": [],
   "mythEs": "Unos misteriosos objetos que Sophia usa en combate para imitar el poder de los usuarios de Personas. Son similares a las propias Personas, pero no se sabe cómo funcionan. Su nombre proviene de la palabra griega que significa «vasija».",
   "mythEn": null
+ },
+ {
+  "id": "pandora",
+  "name": "Pandora",
+  "nameEn": "Pandora",
+  "nameEs": "Pandora",
+  "arcana": "hope",
+  "level": 1,
+  "treasure": false,
+  "party": "sophia",
+  "resistances": {
+   "phy": "neutral",
+   "gun": "neutral",
+   "fir": "neutral",
+   "ice": "neutral",
+   "ele": "neutral",
+   "win": "neutral",
+   "psy": "neutral",
+   "nuk": "neutral",
+   "ble": "null",
+   "cur": "weak"
+  },
+  "stats": {
+   "st": 2,
+   "ma": 5,
+   "en": 4,
+   "ag": 6,
+   "lu": 4
+  },
+  "skills": [
+   {
+    "skill": "Kouha",
+    "level": null
+   },
+   {
+    "skill": "Rakunda",
+    "level": null
+   },
+   {
+    "skill": "Dia",
+    "level": 2
+   },
+   {
+    "skill": "Makouha",
+    "level": 12
+   },
+   {
+    "skill": "Media",
+    "level": 14
+   },
+   {
+    "skill": "Bless Boost",
+    "level": 16
+   },
+   {
+    "skill": "Tetraja",
+    "level": 19
+   },
+   {
+    "skill": "Kouga",
+    "level": 23
+   },
+   {
+    "skill": "Diarama",
+    "level": 26
+   },
+   {
+    "skill": "Recarm",
+    "level": 30
+   },
+   {
+    "skill": "Divine Grace",
+    "level": 32
+   },
+   {
+    "skill": "Mediarama",
+    "level": 35
+   },
+   {
+    "skill": "Makouga",
+    "level": 40
+   },
+   {
+    "skill": "Marakunda",
+    "level": 43
+   },
+   {
+    "skill": "Bless Amp",
+    "level": 46
+   },
+   {
+    "skill": "Kougaon",
+    "level": 48
+   },
+   {
+    "skill": "Diarahan",
+    "level": 51
+   },
+   {
+    "skill": "Rebel Soul",
+    "level": 52
+   },
+   {
+    "skill": "Samarecarm",
+    "level": 55
+   },
+   {
+    "skill": "Mediarahan",
+    "level": 60
+   },
+   {
+    "skill": "Angelic Grace",
+    "level": 70
+   },
+   {
+    "skill": "Makougaon",
+    "level": null,
+    "note": "event"
+   }
+  ],
+  "inheritance": "bless",
+  "location": null,
+  "prereq": null,
+  "special": null,
+  "recipes": [],
+  "down": [],
+  "mythEs": "La primera mujer creada por los dioses griegos con el objetivo de castigar la soberbia humana. Abre una caja prohibida y libera el mal en el mundo, pero también muestra esperanza para que los humanos no caigan en la desesperación.",
+  "mythEn": null,
+  "spoiler": true
  },
  {
   "id": "valjean",

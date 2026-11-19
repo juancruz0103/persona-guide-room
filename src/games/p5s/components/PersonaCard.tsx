@@ -6,6 +6,7 @@ import { getArcana } from '../data/arcana';
 import { PARTY_OWNER, personaName } from '../services/personas';
 import type { Persona } from '../types';
 import styles from '../../p5r/components/PersonaCard.module.css';
+import { SpoilerCover } from '../../p5r/components/SpoilerCover';
 import { L } from '../../../i18n';
 
 export function PersonaCard({ persona }: { persona: Persona }) {
@@ -18,8 +19,10 @@ export function PersonaCard({ persona }: { persona: Persona }) {
   ) : null;
   return (
     <Link to={`/p5s/calculadora/persona/${persona.id}`} className={styles.card}>
-      <ImagePlaceholder className={styles.image} src={img} focus={personaCardFocus(persona.id)}
-        label={img ? personaName(persona) : L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
+      <SpoilerCover active={!!persona.spoiler} className={styles.image} label={L('Spoiler · tocá para ver', 'Spoiler · tap to see')}>
+        <ImagePlaceholder className={styles.image} src={img} focus={personaCardFocus(persona.id)}
+          label={img ? personaName(persona) : L('Imagen de Persona', 'Persona image')} corner={arcana.numeral} badge={badge} />
+      </SpoilerCover>
       <div className={styles.body}>
         <span className={styles.name}>{personaName(persona)}</span>
         <div className={styles.meta}>

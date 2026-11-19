@@ -12,6 +12,9 @@ import { getFusionEngine } from '../fusion';
 import { getArcana } from '../data/arcana';
 import { getPersona, PARTY_OWNER, personaName } from '../services/personas';
 import styles from '../../p4g/pages/PersonaProfile.module.css';
+import { SpoilerCover } from '../../p5r/components/SpoilerCover';
+import { PersonaLink } from '../components/RecipeList';
+import { getPersona as byId } from '../services/personas';
 import { L, isEn } from '../../../i18n';
 
 const STATS = () => [['st', L('Fu', 'St')], ['ma', 'Ma'], ['en', L('Re', 'En')], ['ag', 'Ag'], ['lu', L('Su', 'Lu')]] as const;
@@ -48,8 +51,10 @@ export default function PersonaProfile() {
       <article className={`container ${styles.page}`}>
         <div><BackButton fallback="/p5s/calculadora" label={L('Volver', 'Back')} /></div>
         <header className={styles.top}>
-          <ImagePlaceholder className={img ? styles.photoBig : styles.photo} src={img} focus={personaProfileFocus(p.id)}
-            label={img ? personaName(p) : L('Imagen de Persona', 'Persona image')} icon="person" />
+          <SpoilerCover active={!!p.spoiler} className={img ? styles.photoBig : styles.photo} label={L('Spoiler · tocá para ver', 'Spoiler · tap to see')}>
+            <ImagePlaceholder className={img ? styles.photoBig : styles.photo} src={img} focus={personaProfileFocus(p.id)}
+              label={img ? personaName(p) : L('Imagen de Persona', 'Persona image')} icon="person" />
+          </SpoilerCover>
           <div>
             <span className={styles.kicker}>
               {arcana.name}{arcana.numeral && <> · Arcana {arcana.numeral}</>}
@@ -66,19 +71,28 @@ export default function PersonaProfile() {
         </header>
 
         {(isEn() ? p.mythEn : p.mythEs) && <p className={styles.note}>{isEn() ? p.mythEn : p.mythEs}</p>}
+        {p.id === 'pithos' && byId('pandora') && (
+          <section className={styles.box}>
+            <h2 className={styles.h2}>{L('Evolución', 'Evolution')}</h2>
+            <SpoilerCover active label={L('Spoiler · tocá para ver en qué evoluciona', 'Spoiler · tap to see its evolution')}>
+              <p className={styles.note}>{L('Más adelante en la historia despierta como', 'Later in the story it awakens as')} <PersonaLink p={byId('pandora')!} />.</p>
+            </SpoilerCover>
+          </section>
+        )}
+        {p.spoiler && <p className={styles.note}>{L('Despertar de Pithos. Contiene spoilers de la historia.', "Pithos's awakening. Contains story spoilers.")}</p>}
 
         <section aria-label={L('Afinidades', 'Affinities')}><AffinityGrid resistances={p.resistances} /></section>
 
         <div className={styles.cols}>
           <section className={styles.box}>
             <h2 className={styles.h2}>{L('Habilidades', 'Skills')}</h2>
-            {p.party === 'sophia' && (
+            {p.id === 'pithos' && (
               <p className={styles.note}>{L('En el juego, sus habilidades aparecen entre signos de pregunta (por ejemplo, «¿Dia?»). Es solo un detalle visual: funcionan igual.', 'In the game its skills are shown between question marks (e.g. "Dia?"). It is only cosmetic: they work the same.')}</p>
             )}
             {p.skills.length ? (
               <ul className={styles.skills}>
                 {p.skills.map((s) => (
-                  <SkillRow key={s.skill} name={s.skill} right={s.level === null ? L('Inicial', 'Innate') : `${L('Nv', 'Lv')} ${s.level}`} />
+                  <SkillRow key={s.skill} name={s.skill} right={s.note === 'event' ? L('Al despertar', 'On awakening') : s.level === null ? L('Inicial', 'Innate') : `${L('Nv', 'Lv')} ${s.level}`} />
                 ))}
               </ul>
             ) : (

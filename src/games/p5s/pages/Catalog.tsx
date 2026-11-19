@@ -60,6 +60,10 @@ export default function Catalog() {
                 {label}
               </label>
             ))}
+            <label className={styles.check}>
+              <input type="checkbox" checked={!!f.evolved} onChange={(e) => set('evolved', e.target.checked)} />
+              {L('Mostrar evoluciones · contiene spoilers', 'Show evolutions · contains spoilers')}
+            </label>
           </fieldset>
         </aside>
         <section className={styles.results} aria-live="polite">

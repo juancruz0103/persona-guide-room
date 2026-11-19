@@ -81,6 +81,20 @@ def persona(name, d, is_party):
 
 # Los «Treasure» de la fuente son enemigos que no se pueden conseguir como Persona (confirmado en el juego).
 out = [persona(n, d, False) for n, d in demons.items() if d['race'] != 'Treasure'] + [persona(n, d, True) for n, d in party.items()]
+# Pandora: la Persona despertada de Sophia (spoiler). Mismas habilidades que Pithos más Makougaon,
+# que llega con el despertar; anula Bendición (Samurai Gamers). Pithos no tiene Makougaon.
+pithos = next(x for x in out if x['name'] == 'Pithos')
+pandora = json.loads(json.dumps(pithos))
+pithos['skills'] = [x for x in pithos['skills'] if x['skill'] != 'Makougaon']
+pandora.update({'id': 'pandora', 'name': 'Pandora', 'nameEn': 'Pandora', 'nameEs': 'Pandora', 'spoiler': True,
+                'mythEs': 'La primera mujer creada por los dioses griegos con el objetivo de castigar la soberbia humana. Abre una caja prohibida y libera el mal en el mundo, pero también muestra esperanza para que los humanos no caigan en la desesperación.',
+                'mythEn': None})
+pandora['resistances']['ble'] = 'null'
+for x in pandora['skills']:
+    if x['skill'] == 'Makougaon':
+        x['level'] = None
+        x['note'] = 'event'
+out.insert(out.index(pithos) + 1, pandora)
 # Royal usa "Johanna" con otro id; los compañeros sin imagen propia quedan con su slug
 RT = royal_text['skills']
 
@@ -98,9 +112,25 @@ def derived(name):
     return None
 
 
+# Habilidades propias de Strikers (no existen en Royal): traducción nuestra, provisoria hasta tener el texto del juego.
+OWN = {
+    'Active Boost': ('Potenciar apoyo activo', 'Aumenta la probabilidad de apoyo activo, que llena la barra de Showtime.'),
+    'Active Boost EX': ('Potenciar apoyo activo EX', 'Aumenta mucho la probabilidad de apoyo activo, que llena la barra de Showtime.'),
+    'Knockdown Style': ('Estilo derribo', 'Los golpes críticos bajan mucho la barra de derribo del enemigo.'),
+    'Maralagidyne': ('Maralagidyne', 'Daño de fuego grave en un área amplia.'),
+    'Moral Boost': ('Potenciar apoyo moral', 'Aumenta la probabilidad de que se active el apoyo moral.'),
+    'Moral Boost EX': ('Potenciar apoyo moral EX', 'Aumenta mucho la probabilidad de que se active el apoyo moral.'),
+    'Rebel Soul': ('Alma rebelde', 'La barra de Showtime se llena más rápido.'),
+    'Shadow of Grief': ('Sombra de pesar', 'Recupera PE al absorber daño.'),
+    'Soul Thief': ('Ladrón de almas', 'Roba PE al provocarle un estado alterado a un enemigo.'),
+    'Technical Adept': ('Experto en técnicos', 'Aumenta el daño de los técnicos.'),
+    'Technical High': ('Euforia técnica', 'Al hacer un crítico, alarga la duración de los efectos «-kaja» propios.'),
+}
+
+
 sk = {}
 for name, s in skills.items():
-    t = RT.get(name) or derived(name) or {}
+    t = RT.get(name) or derived(name) or ({'es': OWN[name][0], 'en': name, 'descEs': OWN[name][1], 'derived': True} if name in OWN else {})
     sk[name] = {
         'name': name, 'nameEn': t.get('en') or name, 'nameEs': t.get('es') or None,
         'element': ELEM.get(s['element'], s['element']), 'effect': s.get('effect'),
