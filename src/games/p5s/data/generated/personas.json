@@ -5435,7 +5435,7 @@
   "id": "pithos",
   "name": "Pithos",
   "nameEn": "Pithos",
-  "nameEs": null,
+  "nameEs": "Pithos",
   "arcana": "hope",
   "level": 1,
   "treasure": false,
@@ -5555,7 +5555,7 @@
   "special": null,
   "recipes": [],
   "down": [],
-  "mythEs": null,
+  "mythEs": "Unos misteriosos objetos que Sophia usa en combate para imitar el poder de los usuarios de Personas. Son similares a las propias Personas, pero no se sabe cómo funcionan. Su nombre proviene de la palabra griega que significa «vasija».",
   "mythEn": null
  },
  {

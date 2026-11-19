@@ -46,6 +46,8 @@ def royal_id(name):
 
 # Textos de origen de las Personas nuevas de Strikers (capturas del juego en español).
 NEW_TEXT = {
+    'Pithos': {'es': 'Pithos', 'en': 'Pithos',
+               'mythEs': 'Unos misteriosos objetos que Sophia usa en combate para imitar el poder de los usuarios de Personas. Son similares a las propias Personas, pero no se sabe cómo funcionan. Su nombre proviene de la palabra griega que significa «vasija».'},
     'Valjean': {'es': 'Valjean', 'en': 'Valjean',
                 'mythEs': 'El protagonista de «Los miserables», de Victor Hugo. Lo encarcelaron por robar pan para sus sobrinos famélicos y acabó consumido por el rencor, pero despertó gracias a la piedad de un obispo. Luchó por defender a los pobres y oprimidos.'},
 }

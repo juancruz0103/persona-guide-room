@@ -72,6 +72,9 @@ export default function PersonaProfile() {
         <div className={styles.cols}>
           <section className={styles.box}>
             <h2 className={styles.h2}>{L('Habilidades', 'Skills')}</h2>
+            {p.party === 'sophia' && (
+              <p className={styles.note}>{L('En el juego, sus habilidades aparecen entre signos de pregunta (por ejemplo, «¿Dia?»). Es solo un detalle visual: funcionan igual.', 'In the game its skills are shown between question marks (e.g. "Dia?"). It is only cosmetic: they work the same.')}</p>
+            )}
             {p.skills.length ? (
               <ul className={styles.skills}>
                 {p.skills.map((s) => (
