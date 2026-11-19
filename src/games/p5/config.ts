@@ -20,10 +20,17 @@ export const p5Game: GameInfo = {
       title: 'Confidentes',
       description: 'Los 21 confidentes del original con las mejores respuestas y las habilidades de cada rango (sin llamadas, Kasumi ni Maruki).',
     },
+    {
+      id: 'school',
+      path: 'clases',
+      title: 'Respuestas de clase',
+      description: 'Las preguntas de clase y de los exámenes del original, que son distintas a las de Royal.',
+    },
   ],
 };
 
 const TOOLS_EN: Record<string, { title: string; description: string }> = {
+  school: { title: 'Class answers', description: "The original's class and exam questions, which differ from Royal's." },
   confidants: { title: 'Confidants', description: "The original's 21 confidants with the best answers and each rank's abilities (no phone calls, Kasumi or Maruki)." },
   calculator: { title: 'Persona Calculator', description: "The original Persona 5's 210 Personas with their fusions, stats, affinities and skills (without Royal's additions)." },
 };

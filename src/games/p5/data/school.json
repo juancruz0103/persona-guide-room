@@ -1,0 +1,1377 @@
+{
+ "sources": [
+  "https://www.rpgsite.net/feature/5468-persona-5-test-answers-every-answer-for-school-class-quiz-questions-and-exams",
+  "https://twinfinite.net/guides/persona-5-all-school-and-exam-answers/",
+  "https://www.cgmagonline.com/guides/persona-5-guide-test-answers-class-questions-exams-tests",
+  "https://primagames.com/tips/persona-5-school-questions-and-answers-midterms-finals-quiz"
+ ],
+ "exams": [
+  {
+   "id": "may",
+   "title": {
+    "es": "Exámenes parciales",
+    "en": "Midterms"
+   },
+   "range": {
+    "es": "11 – 13 de mayo",
+    "en": "May 11 – 13"
+   }
+  },
+  {
+   "id": "jul",
+   "title": {
+    "es": "Exámenes finales",
+    "en": "Finals"
+   },
+   "range": {
+    "es": "13 – 15 de julio",
+    "en": "July 13 – 15"
+   }
+  },
+  {
+   "id": "oct",
+   "title": {
+    "es": "Exámenes parciales",
+    "en": "Midterms"
+   },
+   "range": {
+    "es": "17 – 19 de octubre",
+    "en": "October 17 – 19"
+   }
+  },
+  {
+   "id": "dec",
+   "title": {
+    "es": "Exámenes finales",
+    "en": "Finals"
+   },
+   "range": {
+    "es": "20 – 22 de diciembre",
+    "en": "December 20 – 22"
+   }
+  }
+ ],
+ "questions": [
+  {
+   "month": 4,
+   "day": 12,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Según la filosofía antigua, el alma se compone de apetito, ánimo y ¿qué más?",
+    "en": "A soul is composed of appetite, spirit, and what else?"
+   },
+   "answer": {
+    "es": "La razón",
+    "en": "Logic"
+   }
+  },
+  {
+   "month": 4,
+   "day": 19,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿La línea que sale de A conecta con B o con C?",
+    "en": "Is the line extending from A connected to B or C?"
+   },
+   "answer": {
+    "es": "La línea C (opción B)",
+    "en": "Line C (option B)"
+   }
+  },
+  {
+   "month": 4,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué prueba agregó Nerón a los Juegos Olímpicos para poder competir?",
+    "en": "What event did Nero add to the Olympics so he could compete?"
+   },
+   "answer": {
+    "es": "Canto",
+    "en": "Singing"
+   }
+  },
+  {
+   "month": 4,
+   "day": 25,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "El uso común de «kakushinhan» para describir lo que hacés",
+    "en": "The common usage of kakushinhan regarding an action you take"
+   },
+   "answer": {
+    "es": "Saber que lo que hacés está mal",
+    "en": "Knowing your actions are wrong"
+   }
+  },
+  {
+   "month": 4,
+   "day": 25,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "El significado original de «kakushinhan»",
+    "en": "The original meaning of kakushinhan"
+   },
+   "answer": {
+    "es": "La convicción de que tenés razón",
+    "en": "Conviction that you're right"
+   }
+  },
+  {
+   "month": 4,
+   "day": 27,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Cuántos colores hacen falta para pintar un mapa sin que dos regiones vecinas compartan color?",
+    "en": "How many colors to paint a map with no adjacent regions sharing a color?"
+   },
+   "answer": {
+    "es": "Cuatro",
+    "en": "Four"
+   }
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "Qué significa la parte «wunder»",
+    "en": "What the «wunder» part means"
+   },
+   "answer": {
+    "es": "Maravilla",
+    "en": "Wonder"
+   }
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Qué significa la parte «kind»",
+    "en": "What the «kind» part means"
+   },
+   "answer": {
+    "es": "Niño",
+    "en": "Child"
+   }
+  },
+  {
+   "month": 4,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": {
+    "es": "Qué significa «wunderkind»",
+    "en": "What «wunderkind» means"
+   },
+   "answer": {
+    "es": "Un prodigio",
+    "en": "A prodigy"
+   }
+  },
+  {
+   "month": 5,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Mujer cuyo encanto lleva a los hombres a la perdición",
+    "en": "A woman whose charm leads men to their doom"
+   },
+   "answer": {
+    "es": "Femme fatale",
+    "en": "Femme fatale"
+   }
+  },
+  {
+   "month": 5,
+   "day": 10,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿De quién viene la expresión «el favor del magistrado»?",
+    "en": "Who is the origin of the «Magistrate's patronage» expression?"
+   },
+   "answer": {
+    "es": "Minamoto no Yoshitsune",
+    "en": "Minamoto no Yoshitsune"
+   }
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "La línea parece conectar con B aunque va de A a C: ¿cómo se llama el fenómeno?",
+    "en": "The line looks connected to B though it goes from A to C: what's the phenomenon?"
+   },
+   "answer": {
+    "es": "Una ilusión óptica",
+    "en": "An optical illusion"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "¿Qué tipo de información dan los ojos para ver?",
+    "en": "What kind of information do the eyes provide for seeing?"
+   },
+   "answer": {
+    "es": "Información visual",
+    "en": "Visual information"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": {
+    "es": "¿Qué órgano procesa la información visual?",
+    "en": "Which organ processes visual information?"
+   },
+   "answer": {
+    "es": "El cerebro",
+    "en": "The brain"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 11,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 4,
+   "topic": {
+    "es": "¿Por qué cada persona ve las cosas distinto?",
+    "en": "Why do people see things differently?"
+   },
+   "answer": {
+    "es": "Porque tienen cogniciones distintas",
+    "en": "They have different cognitions"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 12,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "Expresión que viene del nombre del cargo de Yoshitsune",
+    "en": "Expression that comes from the name of Yoshitsune's position"
+   },
+   "answer": {
+    "es": "El favor del magistrado",
+    "en": "Magistrate's patronage"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 12,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Origen de la palabra inglesa «talent»",
+    "en": "Origin of the English word «talent»"
+   },
+   "answer": {
+    "es": "El nombre de una suma de dinero",
+    "en": "The name of a sum of currency"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "Según Sócrates, ¿de dónde nace el mal?",
+    "en": "According to Socrates, what is evil born from?"
+   },
+   "answer": {
+    "es": "De la ignorancia",
+    "en": "Ignorance"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Mínimo de colores para pintar el mapa de Japón sin vecinos del mismo color",
+    "en": "Fewest colors to paint Japan with no adjacent matches"
+   },
+   "answer": {
+    "es": "Cuatro",
+    "en": "Four"
+   },
+   "exam": "may"
+  },
+  {
+   "month": 5,
+   "day": 16,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Quién pintó la obra del siglo XX vendida al precio más alto?",
+    "en": "Who painted the highest-priced 20th-century artwork sold?"
+   },
+   "answer": {
+    "es": "Van Gogh",
+    "en": "Van Gogh"
+   }
+  },
+  {
+   "month": 5,
+   "day": 21,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La proporción preferida por arquitectos y artistas japoneses",
+    "en": "The ratio favored by Japanese architects and artists"
+   },
+   "answer": {
+    "es": "La proporción de plata",
+    "en": "The silver ratio"
+   }
+  },
+  {
+   "month": 5,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Qué significan «syn» y «aisthesis»",
+    "en": "What «syn» and «aisthesis» mean"
+   },
+   "answer": {
+    "es": "«Juntos» y «sentidos»",
+    "en": "«Together» and «senses»"
+   }
+  },
+  {
+   "month": 5,
+   "day": 26,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La otra novela famosa donde aparece Sherlock Holmes junto a Arsène Lupin",
+    "en": "The other famous novel where Sherlock Holmes meets Arsène Lupin"
+   },
+   "answer": {
+    "es": "Arsène Lupin, caballero ladrón",
+    "en": "Arsène Lupin, Gentleman Burglar"
+   }
+  },
+  {
+   "month": 5,
+   "day": 30,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Pirata que escondió un tesoro antes de ser ejecutado",
+    "en": "Pirate who hid treasure before his execution"
+   },
+   "answer": {
+    "es": "William Kidd",
+    "en": "William Kidd"
+   }
+  },
+  {
+   "month": 6,
+   "day": 4,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Por qué los primeros blazers se llamaron así?",
+    "en": "Why were the original blazers named that?"
+   },
+   "answer": {
+    "es": "Porque eran de colores brillantes",
+    "en": "They were brightly colored"
+   }
+  },
+  {
+   "month": 6,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Con qué animal están más emparentados los cangrejos rey rojo?",
+    "en": "What are red king crabs most closely related to?"
+   },
+   "answer": {
+    "es": "Con los cangrejos ermitaños",
+    "en": "Hermit crabs"
+   }
+  },
+  {
+   "month": 6,
+   "day": 8,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué empezó a verse en color con la llegada de la tele en color?",
+    "en": "What started appearing in color with color TV?"
+   },
+   "answer": {
+    "es": "Los sueños",
+    "en": "Dreams"
+   }
+  },
+  {
+   "month": 6,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Todo el oro extraído por la humanidad, en piletas olímpicas",
+    "en": "All the gold ever mined, measured in Olympic pools"
+   },
+   "answer": {
+    "es": "Tres piletas olímpicas",
+    "en": "Three Olympic-sized pools"
+   }
+  },
+  {
+   "month": 6,
+   "day": 13,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Quién emite las monedas en Japón?",
+    "en": "Who issues coins in Japan?"
+   },
+   "answer": {
+    "es": "El gobierno",
+    "en": "The government"
+   }
+  },
+  {
+   "month": 6,
+   "day": 15,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué pasa si te lavás el pelo con agua contaminada con metales?",
+    "en": "What happens if you wash your hair with metal-contaminated water?"
+   },
+   "answer": {
+    "es": "Cambia de color",
+    "en": "It'll change color"
+   }
+  },
+  {
+   "month": 6,
+   "day": 23,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La mujer que aparece como la Sacerdotisa en la mayoría de los tarots",
+    "en": "The woman depicted as the High Priestess in most tarot decks"
+   },
+   "answer": {
+    "es": "La papisa Juana",
+    "en": "Pope Joan"
+   }
+  },
+  {
+   "month": 6,
+   "day": 27,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿A qué se refiere «llover gatos y perros»?",
+    "en": "What does «cat-and-dog weather» refer to?"
+   },
+   "answer": {
+    "es": "A lluvia muy fuerte",
+    "en": "Heavy rain"
+   }
+  },
+  {
+   "month": 6,
+   "day": 29,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿De qué kanji es la forma cursiva de este carácter?",
+    "en": "Which kanji is this the cursive form of?"
+   },
+   "answer": {
+    "es": "Oro",
+    "en": "Gold"
+   }
+  },
+  {
+   "month": 7,
+   "day": 1,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Plato chino cuya invención se atribuye a Zhuge Liang",
+    "en": "Chinese dish credited to Zhuge Liang"
+   },
+   "answer": {
+    "es": "El baozi",
+    "en": "Baozi"
+   }
+  },
+  {
+   "month": 7,
+   "day": 4,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Por qué julio y agosto tienen 31 días los dos?",
+    "en": "Why do July and August both have 31 days?"
+   },
+   "answer": {
+    "es": "Porque alguien pretencioso lo decidió",
+    "en": "Someone pretentious said so"
+   }
+  },
+  {
+   "month": 7,
+   "day": 7,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La comida tradicional de Tanabata",
+    "en": "The traditional food of Tanabata"
+   },
+   "answer": {
+    "es": "Soumen",
+    "en": "Soumen"
+   }
+  },
+  {
+   "month": 7,
+   "day": 8,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué tienen en común casi todos los jarabes de hielo raspado?",
+    "en": "What do almost all shaved-ice syrups have in common?"
+   },
+   "answer": {
+    "es": "Tienen el mismo sabor",
+    "en": "They have the same flavor"
+   }
+  },
+  {
+   "month": 7,
+   "day": 9,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La suma de los ángulos de la a a la e",
+    "en": "The sum of angles a through e"
+   },
+   "answer": {
+    "es": "180 grados",
+    "en": "180 degrees"
+   }
+  },
+  {
+   "month": 7,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La sustancia que hace brillar a las luciérnagas",
+    "en": "The light-producing substance in fireflies"
+   },
+   "answer": {
+    "es": "Luciferina",
+    "en": "Luciferin"
+   }
+  },
+  {
+   "month": 7,
+   "day": 12,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "El ladrón caballero cuya familia murió hervida",
+    "en": "The gentleman thief whose family was boiled alive"
+   },
+   "answer": {
+    "es": "Ishikawa Goemon",
+    "en": "Ishikawa Goemon"
+   }
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "La expresión que viene de esta pieza de shogi",
+    "en": "The phrase that comes from this shogi piece"
+   },
+   "answer": {
+    "es": "Nuevo rico",
+    "en": "Nouveau riche"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Goemon era popular porque era un…",
+    "en": "Goemon was popular because he was a…"
+   },
+   "answer": {
+    "es": "Ladrón caballero",
+    "en": "Gentleman thief"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": {
+    "es": "El poderoso que persiguió a Goemon",
+    "en": "The powerful figure who targeted Goemon"
+   },
+   "answer": {
+    "es": "Toyotomi Hideyoshi",
+    "en": "Toyotomi Hideyoshi"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 13,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 4,
+   "topic": {
+    "es": "¿Cómo murió Goemon después de que lo atrapara Hideyoshi?",
+    "en": "How did Goemon die after Hideyoshi caught him?"
+   },
+   "answer": {
+    "es": "Lo hirvieron vivo",
+    "en": "He was boiled alive"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 14,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "Lo que es cierto sobre este organismo",
+    "en": "What's true about this organism"
+   },
+   "answer": {
+    "es": "No está emparentado con los cangrejos",
+    "en": "It's not related to crabs"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 14,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Por qué la gente empezó a soñar en color",
+    "en": "Why people began dreaming in color"
+   },
+   "answer": {
+    "es": "Por la televisión",
+    "en": "Television"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 15,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "¿Qué objeto se hizo con la proporción de plata?",
+    "en": "Which item was made using the silver ratio?"
+   },
+   "answer": {
+    "es": "El papel tamaño B4",
+    "en": "B4-size paper"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 7,
+   "day": 15,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Qué significan «syn» y «aisthesis»",
+    "en": "What «syn» and «aisthesis» mean"
+   },
+   "answer": {
+    "es": "«Juntos» y «sentidos»",
+    "en": "«Together» and «senses»"
+   },
+   "exam": "jul"
+  },
+  {
+   "month": 9,
+   "day": 3,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La estatua tiene una lanza en la mano izquierda: ¿qué tiene en la derecha?",
+    "en": "The statue holds a spear in its left hand: what's in the right?"
+   },
+   "answer": {
+    "es": "Nada",
+    "en": "Nothing"
+   }
+  },
+  {
+   "month": 9,
+   "day": 6,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "El fenómeno por el que la aguja del segundero parece detenerse",
+    "en": "The phenomenon where the second hand seems to stop"
+   },
+   "answer": {
+    "es": "La cronostasis",
+    "en": "Chronostasis"
+   }
+  },
+  {
+   "month": 9,
+   "day": 14,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Cuándo aparecieron las primeras tiendas de segunda mano?",
+    "en": "When did the earliest second-hand shops appear?"
+   },
+   "answer": {
+    "es": "En el siglo XIX",
+    "en": "The 19th century"
+   }
+  },
+  {
+   "month": 9,
+   "day": 17,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "En el proverbio inglés, ¿quién esconde las garras?",
+    "en": "In the English proverb, what hides its claws?"
+   },
+   "answer": {
+    "es": "Un gato",
+    "en": "A cat"
+   }
+  },
+  {
+   "month": 9,
+   "day": 21,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "El país donde nació la palabra «robot»",
+    "en": "The country where the word «robot» originated"
+   },
+   "answer": {
+    "es": "Checoslovaquia",
+    "en": "Czechoslovakia"
+   }
+  },
+  {
+   "month": 9,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Por qué se eligió el blanco y negro para la tele?",
+    "en": "Why were black and white chosen for TV?"
+   },
+   "answer": {
+    "es": "Porque se ven bien en pantalla",
+    "en": "It shows up well on TV"
+   }
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "En PVS, ¿qué significa la P?",
+    "en": "In PVS, what does the P stand for?"
+   },
+   "answer": {
+    "es": "Phantom",
+    "en": "Phantom"
+   }
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "En PVS, ¿qué significa la V?",
+    "en": "In PVS, what does the V stand for?"
+   },
+   "answer": {
+    "es": "Vibration",
+    "en": "Vibration"
+   }
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": {
+    "es": "En PVS, ¿qué significa la S?",
+    "en": "In PVS, what does the S stand for?"
+   },
+   "answer": {
+    "es": "Syndrome",
+    "en": "Syndrome"
+   }
+  },
+  {
+   "month": 9,
+   "day": 29,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Cuál de estos oficios es de funcionario público?",
+    "en": "Which of these is a civil service occupation?"
+   },
+   "answer": {
+    "es": "Los pescadores del río Nagara",
+    "en": "Fishermen of the Nagaragawa"
+   }
+  },
+  {
+   "month": 10,
+   "day": 3,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué se parece más a la densidad de estrellas del universo?",
+    "en": "Which is closest to the universe's star density?"
+   },
+   "answer": {
+    "es": "Tres sandías al sol",
+    "en": "Three watermelons in the sun"
+   }
+  },
+  {
+   "month": 10,
+   "day": 6,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "El aparato que hizo posibles las ejecuciones masivas",
+    "en": "The device that made mass executions possible"
+   },
+   "answer": {
+    "es": "La guillotina",
+    "en": "A guillotine"
+   }
+  },
+  {
+   "month": 10,
+   "day": 11,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué opción elige la mayoría para llamarla «kiki»?",
+    "en": "Which option do most people choose to name «kiki»?"
+   },
+   "answer": {
+    "es": "La A",
+    "en": "A"
+   }
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "De dónde viene la palabra «guillotina»",
+    "en": "Origin of the word «guillotine»"
+   },
+   "answer": {
+    "es": "Del nombre de quien la propuso",
+    "en": "The name of the one who proposed it"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "¿Quién propuso la idea de la guillotina?",
+    "en": "Who proposed the idea of the guillotine?"
+   },
+   "answer": {
+    "es": "Un médico",
+    "en": "A doctor"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 17,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": {
+    "es": "La ventaja de la guillotina para él",
+    "en": "The guillotine's advantage from his perspective"
+   },
+   "answer": {
+    "es": "Ejecutaba rápido",
+    "en": "It could execute people quickly"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 18,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "Lo que es cierto sobre esta pelota",
+    "en": "What's true about this ball"
+   },
+   "answer": {
+    "es": "Tiene treinta y dos caras",
+    "en": "It has thirty-two faces"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 18,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Qué significa la palabra checa «robota»",
+    "en": "What the Czech word «robota» means"
+   },
+   "answer": {
+    "es": "Trabajo forzado",
+    "en": "Slave labor"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 19,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "El nombre en inglés de la vibración fantasma del celular",
+    "en": "The English name for phantom phone vibration"
+   },
+   "answer": {
+    "es": "Phantom Vibration Syndrome",
+    "en": "Phantom Vibration Syndrome"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 19,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "El organismo de gobierno al que pertenecen los pescadores con cormoranes",
+    "en": "The government body cormorant fishermen belong to"
+   },
+   "answer": {
+    "es": "La Agencia de la Casa Imperial",
+    "en": "The Imperial Household Agency"
+   },
+   "exam": "oct"
+  },
+  {
+   "month": 10,
+   "day": 22,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "El número del centro de este cuadrado mágico",
+    "en": "The number in the center of this magic square"
+   },
+   "answer": {
+    "es": "Cinco",
+    "en": "Five"
+   }
+  },
+  {
+   "month": 10,
+   "day": 24,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué significa la S de SOS?",
+    "en": "What does the S in SOS mean?"
+   },
+   "answer": {
+    "es": "No significa nada",
+    "en": "It's meaningless"
+   }
+  },
+  {
+   "month": 11,
+   "day": 2,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "La jerga en clave que usaba la palabra «wack»",
+    "en": "The coded language that used the word «wack»"
+   },
+   "answer": {
+    "es": "La jerga de los ladrones",
+    "en": "Thieves' cant"
+   }
+  },
+  {
+   "month": 11,
+   "day": 4,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué representa el palo de corazones?",
+    "en": "What does the suit of hearts represent?"
+   },
+   "answer": {
+    "es": "El Santo Grial",
+    "en": "The Holy Grail"
+   }
+  },
+  {
+   "month": 11,
+   "day": 8,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué edad hace falta para presenciar un juicio?",
+    "en": "What age do you need to be to attend a trial?"
+   },
+   "answer": {
+    "es": "Cualquiera (cero)",
+    "en": "Zero"
+   }
+  },
+  {
+   "month": 11,
+   "day": 10,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "Qué representa la línea que tiene «pájaro» y no «cuervo»",
+    "en": "What the line in «bird» but not «crow» represents"
+   },
+   "answer": {
+    "es": "Un ojo",
+    "en": "An eye"
+   }
+  },
+  {
+   "month": 11,
+   "day": 12,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Por qué la voz por teléfono suena distinta a la real?",
+    "en": "Why do phone voices sound different from real ones?"
+   },
+   "answer": {
+    "es": "Porque está muy procesada",
+    "en": "It's heavily processed"
+   }
+  },
+  {
+   "month": 11,
+   "day": 15,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Qué le hicieron al aspecto del ejecutado?",
+    "en": "What was done to the executed man's appearance?"
+   },
+   "answer": {
+    "es": "Lo maquillaron",
+    "en": "They put makeup on him"
+   }
+  },
+  {
+   "month": 11,
+   "day": 17,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Cuál de las figuras se llama cocleoide?",
+    "en": "Which shape is called a cochleoid?"
+   },
+   "answer": {
+    "es": "La B",
+    "en": "B"
+   }
+  },
+  {
+   "month": 11,
+   "day": 18,
+   "kind": "class",
+   "askedTo": "protagonist",
+   "part": null,
+   "topic": {
+    "es": "¿Dónde se ve el amanecer más temprano?",
+    "en": "Where can you see the sunrise earliest?"
+   },
+   "answer": {
+    "es": "En la cima del monte Fuji",
+    "en": "The summit of Mt. Fuji"
+   }
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "¿Cuál se llama la curva del diablo?",
+    "en": "Which one is called the Devil's curve?"
+   },
+   "answer": {
+    "es": "La D",
+    "en": "D"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "La voz que se escucha por teléfono es…",
+    "en": "The voice heard through the phone is…"
+   },
+   "answer": {
+    "es": "No es su voz real",
+    "en": "Not their real voice"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 3,
+   "topic": {
+    "es": "¿Por qué creemos que la voz sintética es la real?",
+    "en": "Why do listeners think the synthetic voice is real?"
+   },
+   "answer": {
+    "es": "Porque habla igual",
+    "en": "They speak the same"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 20,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 4,
+   "topic": {
+    "es": "¿Qué hace el que escucha, sin darse cuenta?",
+    "en": "What do listeners subconsciously do with the voice?"
+   },
+   "answer": {
+    "es": "Completa la voz",
+    "en": "Supplement the voice"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 21,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "¿Qué palo representa el Santo Grial?",
+    "en": "Which suit represents the Holy Grail?"
+   },
+   "answer": {
+    "es": "Corazones",
+    "en": "Hearts"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 21,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "Lo que es falso sobre el kanji de «cuervo»",
+    "en": "What's false about the kanji for «crow»"
+   },
+   "answer": {
+    "es": "Que tiene un número",
+    "en": "It includes a number"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 22,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 1,
+   "topic": {
+    "es": "El país que tuvo un «primer ministro de negro»",
+    "en": "The country with a «prime minister in black»"
+   },
+   "answer": {
+    "es": "Japón",
+    "en": "Japan"
+   },
+   "exam": "dec"
+  },
+  {
+   "month": 12,
+   "day": 22,
+   "kind": "exam",
+   "askedTo": "protagonist",
+   "part": 2,
+   "topic": {
+    "es": "De qué palabra inglesa viene el «do» de «dokyuu»",
+    "en": "English origin of the «do» in «dokyuu»"
+   },
+   "answer": {
+    "es": "Dreadnought",
+    "en": "Dreadnought"
+   },
+   "exam": "dec"
+  }
+ ]
+}

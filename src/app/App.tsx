@@ -66,6 +66,7 @@ const P5Home = lazy(() => import('../games/p5/pages/Home'));
 const P5Catalog = lazy(() => import('../games/p5/pages/Catalog'));
 const P5Profile = lazy(() => import('../games/p5/pages/PersonaProfile'));
 const P5Fusion = lazy(() => import('../games/p5/pages/Fusion'));
+const P5School = lazy(() => import('../games/p5/pages/School'));
 const P5Confidants = lazy(() => import('../games/p5/pages/Confidants'));
 const P5ConfidantProfile = lazy(() => import('../games/p5/pages/ConfidantProfile'));
 // Persona 5 Tactica
@@ -96,7 +97,7 @@ const ForecastScreen = byGame({ p4g: P4Forecast });
 const PartyScreen = byGame({ p5t: P5TParty });
 const SkillCardsScreen = byGame({ p5r: SkillCards, p4g: P4SkillCards });
 const TechnicalScreen = p5rOnly(Technical);
-const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes });
+const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes, p5: P5School });
 const ConfidantsScreen = byGame({ p5r: Confidants, p5: P5Confidants });
 const ConfidantProfileScreen = byGame({ p5r: ConfidantProfile, p5: P5ConfidantProfile });
 const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds, p5s: P5SBuilds });
