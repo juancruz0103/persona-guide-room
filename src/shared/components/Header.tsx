@@ -48,6 +48,7 @@ export function Header({ game }: Props) {
     if (l.end) return true;
     // P4G y los juegos nuevos muestran solo las secciones que ya tienen.
     if (game.id !== 'p5r' && game.id !== 'p3r') return game.tools.some((t) => l.to.endsWith(`/${t.path}`));
+    if (l.to.endsWith('/ladrones')) return false; // solo existe en Tactica
     return l.to.endsWith('/vinculos') ? game.id === 'p3r' : game.id === 'p5r' || l.to.endsWith('/calculadora') || l.to.endsWith('/clases') || l.to.endsWith('/builds');
   });
 
