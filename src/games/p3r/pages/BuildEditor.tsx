@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useMemo, useState, type FormEvent } from 'react';
 import { Link, Navigate, useNavigate, useParams } from 'react-router-dom';
 import { useAuth } from '../../../core/account/AuthContext';
+import { DRAFT_MINUTES, useBuildDraft } from '../../../core/account/buildDraft';
 import {
   MAX_SKILLS,
   MAX_STEPS,
@@ -51,8 +52,21 @@ export default function BuildEditor() {
   const [busy, setBusy] = useState(false);
   const [owner, setOwner] = useState<string | null>(null);
 
+  const draft = useBuildDraft(`p3r:${buildId ?? 'nueva'}`, { title, description, steps, cards, goal, current, view });
+  const applyDraft = () => {
+    const d = draft.start();
+    if (!d) return;
+    setTitle(d.title);
+    setDescription(d.description);
+    setSteps(d.steps.length ? d.steps : [emptyStep()]);
+    setCards(d.cards);
+    setGoal(d.goal);
+    setCurrent(Math.min(d.current, Math.max(0, d.steps.length - 1)));
+    setView(d.view);
+  };
+
   useEffect(() => {
-    if (!buildId) return;
+    if (!buildId) return applyDraft();
     getBuild(buildId).then((b) => {
       if (!b) return;
       setTitle(b.title);
@@ -61,7 +75,10 @@ export default function BuildEditor() {
       setCards(b.skill_cards);
       if (b.goal) setGoal({ ...b.goal, skills: Array.from({ length: 8 }, (_, i) => (b.goal!.skills[i] === undefined ? '' : b.goal!.skills[i])) });
       setOwner(b.user_id);
+      applyDraft();
     });
+    // applyDraft solo una vez por build: depende de buildId, no de cada render.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [buildId]);
 
   if (loading) return <div className="container" style={{ paddingBlock: 80 }}>{L('Cargando…', 'Loading…')}</div>;
@@ -111,6 +128,7 @@ export default function BuildEditor() {
     const res = await saveBuild(user.id, { id: buildId, title: title.trim(), description: description.trim() || null, steps, skill_cards: cards, goal: goal.persona ? { ...goal, trait: null } : null }, 'p3r');
     setBusy(false);
     if (res.error) return setError(res.error.includes('row-level') ? L('Tu cuenta no puede publicar builds.', 'Your account cannot publish builds.') : authErrorText(res.error));
+    draft.clear();
     navigate(`/p3r/builds/${res.id}`);
   };
 
@@ -120,6 +138,14 @@ export default function BuildEditor() {
         <BackButton fallback={buildId ? `/p3r/builds/${buildId}` : '/p3r/builds'} />
       </div>
       <h1 className={styles.title}>{buildId ? L('Editar build', 'Edit build') : L('Nueva build', 'New build')}</h1>
+      {draft.restored && (
+        <p className={styles.draftNote}>
+          {L(`Recuperamos lo que estabas armando antes de que se recargara la página (se guarda en este navegador por ${DRAFT_MINUTES} minutos).`, `We restored what you were building before the page reloaded (it is kept in this browser for ${DRAFT_MINUTES} minutes).`)}{' '}
+          <button type="button" className={styles.draftDiscard} onClick={() => { draft.clear(); window.location.reload(); }}>
+            {L('Descartar y empezar de nuevo', 'Discard and start over')}
+          </button>
+        </p>
+      )}
 
       <form onSubmit={save} className={styles.form} noValidate>
         <div className={styles.meta}>
