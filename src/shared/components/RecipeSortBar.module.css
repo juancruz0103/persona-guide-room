@@ -1,0 +1,8 @@
+/* Barra para ordenar combinaciones. Toma los colores del juego por las variables del tema. */
+.bar { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; margin: 0 0 8px; padding: 0 4px 8px; border-bottom: 1px solid var(--c-line); }
+.label { font-family: var(--f-label); font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--c-text-dim); }
+.btn { display: inline-flex; align-items: center; gap: 6px; padding: 0; background: none; border: 0; cursor: pointer; font-family: var(--f-label); font-weight: 800; font-size: 15px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--c-text-muted); }
+.btn:hover { color: var(--c-text); }
+.active { color: var(--c-primary-light); }
+.arrow { font-size: 15px; line-height: 1; opacity: 0.7; }
+.active .arrow { opacity: 1; }

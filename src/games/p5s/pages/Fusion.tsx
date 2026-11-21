@@ -1,4 +1,7 @@
+import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { RecipeSortBar } from '../../../shared/components/RecipeSortBar';
+import { sortRecipes, type RecipeSort } from '../../../shared/recipeSort';
 import { CalcHeader } from '../components/CalcHeader';
 import { RecipeList } from '../components/RecipeList';
 import { ARCANAS } from '../data/arcana';
@@ -25,6 +28,15 @@ export default function Fusion() {
     : reverse
       ? engine.recipesFor(pick).map((recipe) => ({ recipe }))
       : engine.fusionsWith(pick).map(({ recipe, result }) => ({ recipe, result }));
+  const [sort, setSort] = useState<RecipeSort | null>(null);
+  const sorted = useMemo(
+    () => sortRecipes(items, sort, ({ recipe }) => recipe.ingredients.length === 2
+      ? [{ name: personaName(recipe.ingredients[0].persona), level: recipe.ingredients[0].persona.level }, { name: personaName(recipe.ingredients[1].persona), level: recipe.ingredients[1].persona.level }]
+      : null),
+    // items cambia de referencia en cada render: se recalcula con la Persona elegida
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [pick?.id, sort],
+  );
 
   return (
     <>
@@ -55,7 +67,10 @@ export default function Fusion() {
               {reverse ? L(`Cómo conseguir ${personaName(pick)}`, `How to get ${personaName(pick)}`) : L(`Qué podés crear con ${personaName(pick)}`, `What you can create with ${personaName(pick)}`)}
             </h2>
             {items.length ? (
-              <RecipeList items={items} />
+              <>
+                {items.length > 1 && <RecipeSortBar sort={sort} onChange={setSort} />}
+                <RecipeList items={sorted} />
+              </>
             ) : (
               <p className={styles.note}>
                 {reverse

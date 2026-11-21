@@ -1,4 +1,6 @@
 import { useMemo, useState } from 'react';
+import { RecipeSortBar } from '../../../shared/components/RecipeSortBar';
+import { sortRecipes, type RecipeSort } from '../../../shared/recipeSort';
 import { Link, useSearchParams } from 'react-router-dom';
 import { CalcHeader } from '../components/CalcHeader';
 import { PersonaPicker } from '../components/PersonaPicker';
@@ -66,6 +68,11 @@ export default function Fusion() {
   const recipes = useMemo(
     () => (target && !special ? engine.recipesFor(target).filter((r) => r.a.level <= maxLv && r.b.level <= maxLv) : []),
     [engine, target, special, maxLv],
+  );
+  const [sort, setSort] = useState<RecipeSort | null>(null);
+  const sorted = useMemo(
+    () => sortRecipes(recipes, sort, (r) => [{ name: personaName(r.a), level: r.a.level }, { name: personaName(r.b), level: r.b.level }]),
+    [recipes, sort],
   );
   /** Con A elegida: todo lo que se puede hacer con ella. */
   const withA = useMemo(() => {
@@ -149,8 +156,9 @@ export default function Fusion() {
             {target && !special && (
               <section className={styles.listBox}>
                 <h2 className={styles.h2}>{L(`${recipes.length} combinaciones para ${personaName(target)}`, `${recipes.length} combinations for ${personaName(target)}`)}</h2>
+                {recipes.length > 1 && <RecipeSortBar sort={sort} onChange={setSort} />}
                 <ul className={styles.rows}>
-                  {recipes.map((r) => (
+                  {sorted.map((r) => (
                     <li key={r.a.id + r.b.id}>
                       <span><PersonaPeek persona={r.a} below /> <small>{getArcana(r.a.arcana).name} · {L('Nv', 'Lv')} {r.a.level}</small></span>
                       <span>+ <PersonaPeek persona={r.b} below /> <small>{getArcana(r.b.arcana).name} · {L('Nv', 'Lv')} {r.b.level}</small></span>

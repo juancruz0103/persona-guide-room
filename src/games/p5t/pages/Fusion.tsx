@@ -1,4 +1,7 @@
+import { useMemo, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { RecipeSortBar } from '../../../shared/components/RecipeSortBar';
+import { sortRecipes, type RecipeSort } from '../../../shared/recipeSort';
 import { useSessionState } from '../../../shared/hooks/useSessionState';
 import { CalcHeader } from '../components/CalcHeader';
 import { RecipeList } from '../components/RecipeList';
@@ -21,6 +24,15 @@ export default function Fusion() {
     setParams(next, { replace: true });
   };
   const items = pick ? engine.recipesFor(pick).map((recipe) => ({ recipe })) : [];
+  const [sort, setSort] = useState<RecipeSort | null>(null);
+  const sorted = useMemo(
+    () => sortRecipes(items, sort, ({ recipe }) => recipe.ingredients.length === 2
+      ? [{ name: personaName(recipe.ingredients[0]), level: recipe.ingredients[0].level }, { name: personaName(recipe.ingredients[1]), level: recipe.ingredients[1].level }]
+      : null),
+    // items cambia de referencia en cada render: se recalcula con la Persona y el DLC elegidos
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [pick?.id, dlc, sort],
+  );
 
   return (
     <>
@@ -50,7 +62,10 @@ export default function Fusion() {
             <h2 className={styles.h2}>{L(`Cómo conseguir ${personaName(pick)}`, `How to get ${personaName(pick)}`)}</h2>
             <FusionNotes p={pick} />
             {items.length ? (
-              <RecipeList items={items} />
+              <>
+                {items.length > 1 && <RecipeSortBar sort={sort} onChange={setSort} />}
+                <RecipeList items={sorted} />
+              </>
             ) : (
               <p className={styles.note}>
                 {!dlc && (pick.unlock === 'dlc' || pick.unlock === 'bonus')
