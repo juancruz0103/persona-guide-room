@@ -25,7 +25,7 @@
   align-items: center;
   gap: 4px;
   padding: 8px;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   border: 2px solid var(--c-accent);
   box-shadow: 5px 5px 0 var(--c-primary);
   pointer-events: none;

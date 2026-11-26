@@ -39,7 +39,7 @@
   gap: 6px;
   min-height: 36px;
   padding: 0 10px;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-paper);
   border: 2px solid var(--c-paper);
   font-family: var(--f-label);
@@ -71,7 +71,7 @@
 }
 .arcanaTag {
   align-self: flex-start;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-accent);
   font-family: var(--f-label);
   font-weight: 800;
@@ -105,7 +105,7 @@
   padding: 4px 14px;
 }
 .solid {
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-text);
 }
 .outline {
@@ -137,7 +137,7 @@
   left: 3px;
   width: 22px;
   height: 22px;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   transition: left 0.2s var(--ease), background 0.2s;
 }
 .switchOn {
@@ -365,7 +365,7 @@
   padding: 4px 10px;
 }
 .best .optNum {
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
 }
 .optText {
   flex: 1;
@@ -386,7 +386,7 @@
   font-size: 24px;
 }
 .bestTag {
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-accent);
   font-family: var(--f-label);
   font-weight: 800;
@@ -681,7 +681,7 @@
 .spoilerHead button {
   min-height: 44px;
   padding: 0 16px;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-text);
   border: 0;
   font-family: var(--f-label);

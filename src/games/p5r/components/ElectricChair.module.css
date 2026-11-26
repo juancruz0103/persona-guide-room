@@ -42,7 +42,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   border: 2px solid #2e2e2e;
 }
 

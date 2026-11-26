@@ -52,7 +52,7 @@
   top: 6px;
   left: -2px;
   padding: 2px 10px;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-accent-light);
   font-family: var(--f-label);
   font-weight: 800;

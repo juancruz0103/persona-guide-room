@@ -72,7 +72,7 @@
 }
 
 .tagCurrent {
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-text);
 }
 

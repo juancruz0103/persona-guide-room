@@ -112,7 +112,7 @@ h3 {
   transform: skewX(-8deg) scale(1.03);
 }
 .btn--dark {
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-text);
 }
 .btn--dark:hover {
@@ -152,7 +152,7 @@ h3 {
   color: var(--c-on-primary);
 }
 .tag--party {
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-text);
 }
 .tag--royal {

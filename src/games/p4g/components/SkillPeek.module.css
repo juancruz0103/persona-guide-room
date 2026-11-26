@@ -3,7 +3,7 @@
 .name { color: var(--c-text); font-weight: 700; text-decoration: underline dotted; text-decoration-color: var(--c-primary); text-underline-offset: 3px; cursor: help; background: none; border: 0; padding: 0; font: inherit; }
 .box {
   display: none; position: absolute; left: 0; bottom: calc(100% + 8px); z-index: 30; width: 260px;
-  flex-direction: column; gap: 4px; padding: 10px 12px; background: var(--c-ink); color: var(--c-text);
+  flex-direction: column; gap: 4px; padding: 10px 12px; background: var(--c-ink-bg, var(--c-ink)); color: var(--c-text);
   border: 2px solid var(--c-primary); box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.45); font-weight: 400; text-align: left;
 }
 .peek:hover .box, .peek:focus-within .box { display: flex; }

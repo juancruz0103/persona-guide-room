@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   padding: 0;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   border: 2px solid #2e2e2e;
   color: var(--c-text-dim);
   cursor: help;

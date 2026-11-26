@@ -3,7 +3,7 @@
 .img { display: block; width: 100%; height: auto; }
 .corner {
   position: absolute; top: 8px; right: 8px; padding: 6px 12px; border: 0; cursor: pointer;
-  background: var(--c-ink); color: var(--c-text); font-family: var(--f-label); font-weight: 800;
+  background: var(--c-ink-bg, var(--c-ink)); color: var(--c-text); font-family: var(--f-label); font-weight: 800;
   font-size: 13px; letter-spacing: 0.06em; text-transform: uppercase; clip-path: var(--slant-btn);
 }
 .corner[aria-pressed='true'] { background: var(--c-primary); color: var(--c-ink); }

@@ -34,7 +34,7 @@
 }
 .kicker {
   align-self: flex-start;
-  background: var(--c-ink);
+  background: var(--c-ink-bg, var(--c-ink));
   color: var(--c-accent);
   font-family: var(--f-label);
   font-weight: 800;

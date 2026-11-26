@@ -6,7 +6,7 @@ import { L } from '../../../i18n';
  */
 export function PreviewBanner() {
   return (
-    <div role="note" style={{ background: '#1b1b1b', color: '#ffe600', padding: '10px 0', fontFamily: 'var(--f-label)', fontWeight: 700, letterSpacing: '0.04em' }}>
+    <div role="note" style={{ background: '#6d6c5d', color: '#ffffff', padding: '10px 0', fontFamily: 'var(--f-label)', fontWeight: 700, letterSpacing: '0.04em' }}>
       <div className="container">
         {L(
           'VISTA PREVIA · No publicada. Datos provisorios de Persona 4 Golden hasta que salga Revival (18 de febrero de 2027).',

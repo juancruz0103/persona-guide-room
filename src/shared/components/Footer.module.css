@@ -1,6 +1,6 @@
 .footer {
   border-top: 2px solid var(--c-primary);
-  background: #070707;
+  background: var(--c-footer, #070707);
 }
 
 .inner {
@@ -11,7 +11,7 @@
   padding-block: 32px;
   font-size: 14px;
   line-height: 1.6;
-  color: var(--c-text-dim);
+  color: var(--c-on-ink, var(--c-text-dim));
 }
 
 .inner {

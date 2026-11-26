@@ -107,12 +107,20 @@
   --c-sp-dark: #3f9a0c;
   --c-on-primary: #1b1b1b;
   --c-on-primary-soft: #2a2a2a;
+  /* Bloques que en los otros juegos son negros: en Revival van en el gris de los recuadros del juego */
+  --c-ink-bg: #6d6c5d;
+  --c-footer: #6d6c5d;
+  --c-on-ink: #ffffff;   /* texto sobre ese gris */
 }
 
 /* Revival tiene fondo claro: los botones oscuros llevan texto claro (en el resto de los juegos --c-text ya es blanco). */
 [data-game='p4r'] .btn--dark,
 [data-game='p4r'] .btn--dark:hover {
-  color: #ff9a00;
+  color: #ffffff;
+}
+/* Fondo de las ilustraciones: el gris del juego en lugar del marrón oscuro de Golden */
+[data-game='p4r'] .p4g-art.p4g-art {
+  background: radial-gradient(circle at 50% 40%, #858473 0%, #6d6c5d 75%);
 }
 
 /* Ilustraciones del Golden: fondo transparente, se muestran enteras. */
