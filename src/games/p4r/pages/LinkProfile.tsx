@@ -13,7 +13,7 @@ import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
 import styles from './P3LinkProfile.module.css';
 import tl from './ConfidantProfile.module.css';
-import rankMaxImg from '../../p4g/assets/rango-max.webp';
+import rankMaxImg from '../assets/rango-max.webp';
 import { L } from '../../../i18n';
 
 /** El juego guarda el nombre del protagonista aparte ({P}); usamos el del anime. */
@@ -148,7 +148,7 @@ export default function LinkProfile() {
 
   const maxBox = (
     <div className={styles.rankMax}>
-      <img src={rankMaxImg} alt="" width={720} height={663} loading="lazy" />
+      <img src={rankMaxImg} alt="" width={900} height={701} loading="lazy" />
       <span className={styles.rankMaxText}>
         <span className={styles.rankMaxKicker}>{L('Rango máximo', 'Max rank')}</span>
         <span>{link.id === 'fool'
