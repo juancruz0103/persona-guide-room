@@ -52,6 +52,20 @@ const P4Forecast = lazy(() => import('../games/p4g/pages/Forecast'));
 const P4Classes = lazy(() => import('../games/p4g/pages/Classes'));
 const P4Links = lazy(() => import('../games/p4g/pages/Links'));
 const P4LinkProfile = lazy(() => import('../games/p4g/pages/LinkProfile'));
+// Persona 4 Revival (oculto hasta el lanzamiento: ver src/core/preview.ts)
+const P4RHome = lazy(() => import('../games/p4r/pages/Home'));
+const P4RCatalog = lazy(() => import('../games/p4r/pages/Catalog'));
+const P4RProfile = lazy(() => import('../games/p4r/pages/PersonaProfile'));
+const P4RFusion = lazy(() => import('../games/p4r/pages/Fusion'));
+const P4RSpecials = lazy(() => import('../games/p4r/pages/Specials'));
+const P4RSkillCards = lazy(() => import('../games/p4r/pages/SkillCards'));
+const P4RBuilds = lazy(() => import('../games/p4r/pages/Builds'));
+const P4RBuildView = lazy(() => import('../games/p4r/pages/BuildView'));
+const P4RBuildEditor = lazy(() => import('../games/p4r/pages/BuildEditor'));
+const P4RForecast = lazy(() => import('../games/p4r/pages/Forecast'));
+const P4RClasses = lazy(() => import('../games/p4r/pages/Classes'));
+const P4RLinks = lazy(() => import('../games/p4r/pages/Links'));
+const P4RLinkProfile = lazy(() => import('../games/p4r/pages/LinkProfile'));
 // Persona 5 Strikers
 const P5SHome = lazy(() => import('../games/p5s/pages/Home'));
 const P5SCatalog = lazy(() => import('../games/p5s/pages/Catalog'));
@@ -87,25 +101,25 @@ function byGame(screens: Partial<Record<string, ComponentType>>) {
     return <Screen />;
   };
 }
-const HomeScreen = byGame({ p5r: Home, p3r: P3Home, p4g: P4Home, p5s: P5SHome, p5t: P5THome, p5: P5Home });
-const CatalogScreen = byGame({ p5r: Catalog, p3r: P3Catalog, p4g: P4Catalog, p5s: P5SCatalog, p5t: P5TCatalog, p5: P5Catalog });
-const FusionScreen = byGame({ p5r: Fusion, p3r: P3Fusion, p4g: P4Fusion, p5s: P5SFusion, p5t: P5TFusion, p5: P5Fusion });
-const ProfileScreen = byGame({ p5r: PersonaProfile, p3r: P3Profile, p4g: P4Profile, p5s: P5SProfile, p5t: P5TProfile, p5: P5Profile });
-const SpecialsScreen = byGame({ p3r: P3Specials, p4g: P4Specials });
+const HomeScreen = byGame({ p5r: Home, p3r: P3Home, p4g: P4Home, p5s: P5SHome, p5t: P5THome, p5: P5Home, p4r: P4RHome });
+const CatalogScreen = byGame({ p5r: Catalog, p3r: P3Catalog, p4g: P4Catalog, p5s: P5SCatalog, p5t: P5TCatalog, p5: P5Catalog, p4r: P4RCatalog });
+const FusionScreen = byGame({ p5r: Fusion, p3r: P3Fusion, p4g: P4Fusion, p5s: P5SFusion, p5t: P5TFusion, p5: P5Fusion, p4r: P4RFusion });
+const ProfileScreen = byGame({ p5r: PersonaProfile, p3r: P3Profile, p4g: P4Profile, p5s: P5SProfile, p5t: P5TProfile, p5: P5Profile, p4r: P4RProfile });
+const SpecialsScreen = byGame({ p3r: P3Specials, p4g: P4Specials, p4r: P4RSpecials });
 const HeartsScreen = byGame({ p3r: P3Hearts });
-const LinksScreen = byGame({ p3r: P3Links, p4g: P4Links, p5s: P5SBond });
-const LinkProfileScreen = byGame({ p3r: P3LinkProfile, p4g: P4LinkProfile });
+const LinksScreen = byGame({ p3r: P3Links, p4g: P4Links, p5s: P5SBond, p4r: P4RLinks });
+const LinkProfileScreen = byGame({ p3r: P3LinkProfile, p4g: P4LinkProfile, p4r: P4RLinkProfile });
 const p5rOnly = (C: ComponentType) => byGame({ p5r: C });
-const ForecastScreen = byGame({ p4g: P4Forecast });
+const ForecastScreen = byGame({ p4g: P4Forecast, p4r: P4RForecast });
 const PartyScreen = byGame({ p5t: P5TParty });
-const SkillCardsScreen = byGame({ p5r: SkillCards, p4g: P4SkillCards });
+const SkillCardsScreen = byGame({ p5r: SkillCards, p4g: P4SkillCards, p4r: P4RSkillCards });
 const TechnicalScreen = p5rOnly(Technical);
-const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes, p5: P5School });
+const SchoolScreen = byGame({ p5r: School, p3r: P3Classes, p4g: P4Classes, p5: P5School, p4r: P4RClasses });
 const ConfidantsScreen = byGame({ p5r: Confidants, p5: P5Confidants });
 const ConfidantProfileScreen = byGame({ p5r: ConfidantProfile, p5: P5ConfidantProfile });
-const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds, p5s: P5SBuilds, p5: P5OBuilds });
-const BuildViewScreen = byGame({ p5r: BuildView, p3r: P3BuildView, p4g: P4BuildView, p5s: P5SBuildView, p5: P5OBuildView });
-const BuildEditorScreen = byGame({ p5r: BuildEditor, p3r: P3BuildEditor, p4g: P4BuildEditor, p5s: P5SBuildEditor, p5: P5OBuildEditor });
+const BuildsScreen = byGame({ p5r: Builds, p3r: P3Builds, p4g: P4Builds, p5s: P5SBuilds, p5: P5OBuilds, p4r: P4RBuilds });
+const BuildViewScreen = byGame({ p5r: BuildView, p3r: P3BuildView, p4g: P4BuildView, p5s: P5SBuildView, p5: P5OBuildView, p4r: P4RBuildView });
+const BuildEditorScreen = byGame({ p5r: BuildEditor, p3r: P3BuildEditor, p4g: P4BuildEditor, p5s: P5SBuildEditor, p5: P5OBuildEditor, p4r: P4RBuildEditor });
 
 /**
  * Rutas.

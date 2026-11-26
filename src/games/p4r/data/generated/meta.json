@@ -1,0 +1,14 @@
+{
+ "source": "https://github.com/aqiu384/megaten-fusion-tool",
+ "license": "Unlicense (dominio público)",
+ "officialNames": "Persona 4 Golden (texto del juego en español e inglés)",
+ "sourceCommit": "0b207612f6cdcff092e62af16f5c355271a1d892",
+ "importedAt": "2026-11-16",
+ "counts": {
+  "personas": 205,
+  "party": 21,
+  "special": 17,
+  "skills": 434
+ },
+ "warnings": []
+}

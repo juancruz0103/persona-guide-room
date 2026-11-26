@@ -39,7 +39,7 @@ export interface BuildGoal {
   trait: string | null;
 }
 
-export type BuildGame = 'p5r' | 'p3r' | 'p4g' | 'p5s' | 'p5';
+export type BuildGame = 'p5r' | 'p3r' | 'p4g' | 'p4r' | 'p5s' | 'p5';
 
 export interface Build {
   id: string;

@@ -1,0 +1,1873 @@
+{
+ "source": "Megami Tensei Wiki (Calendar in Persona 4 Golden)",
+ "days": [
+  {
+   "month": 4,
+   "day": 18,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 19,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "magician"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Zio"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 21,
+   "condition": {
+    "type": "result",
+    "persona": "archangel"
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skill",
+     "skill": "Agi"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 23,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "ghoul",
+     "orobas"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Rakunda"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 24,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 25,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "orobas",
+     "cu-sith"
+    ]
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skill",
+     "skill": "Media"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 27,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 28,
+   "condition": {
+    "type": "result",
+    "persona": "berith"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Mabufu"
+    }
+   ]
+  },
+  {
+   "month": 4,
+   "day": 29,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 1,
+   "condition": {
+    "type": "result",
+    "persona": "jack-frost"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Resist Fire"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 2,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 3,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 6,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "hierophant"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Dodge Fire"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 7,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 12,
+   "condition": {
+    "type": "result",
+    "persona": "ara-mitama"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Auto-Tarukaja"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 18,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 19,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "justice"
+   },
+   "effects": [
+    {
+     "type": "linkExp"
+    },
+    {
+     "type": "skill",
+     "skill": "Maragi"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 20,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 21,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "priestess"
+   },
+   "effects": [
+    {
+     "type": "linkExp"
+    },
+    {
+     "type": "skill",
+     "skill": "Resist Dizzy"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 24,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "andras"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "wind"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 25,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "aeon"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Agilao"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 28,
+   "condition": {
+    "type": "result",
+    "persona": "king-frost"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Growth 1"
+    }
+   ]
+  },
+  {
+   "month": 5,
+   "day": 31,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "shiisaa"
+    ]
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 2,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "magician"
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "recovery"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 3,
+   "condition": {
+    "type": "result",
+    "persona": "ares"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Null Poison"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 7,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "hanged"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "ice"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 9,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "moon",
+     "devil"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Wind Boost"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 10,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 12,
+   "condition": {
+    "type": "result",
+    "persona": "incubus"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Null Ice"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 13,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "rakshasa",
+     "matador"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Resist Ice"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 14,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 21,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    },
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skillKind",
+     "kind": "recovery"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 24,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 27,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "jester"
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 28,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "yomotsu-ikusa"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "wind"
+    }
+   ]
+  },
+  {
+   "month": 6,
+   "day": 30,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "titania",
+     "makami"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Bufula"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 1,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 5,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "emperor"
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "support"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 8,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 9,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 12,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "unicorn"
+    ]
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skillKind",
+     "kind": "fire"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 14,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 15,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 16,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 18,
+   "condition": {
+    "type": "result",
+    "persona": "flauros"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Power Charge"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 24,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "pyro-jack"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "ice"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 26,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 29,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "sun"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Growth 2"
+    }
+   ]
+  },
+  {
+   "month": 7,
+   "day": 30,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 1,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 2,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "samael"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 5,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 6,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "orthrus",
+     "yatagarasu"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Null Enervate"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 7,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 10,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "support"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 11,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 12,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 13,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "death"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Mediarama"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 14,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 22,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 23,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 24,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 25,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 26,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 27,
+   "condition": {
+    "type": "result",
+    "persona": "rangda"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Null Ice"
+    }
+   ]
+  },
+  {
+   "month": 8,
+   "day": 29,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 1,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 2,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 3,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "moon"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "support"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 5,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 6,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 7,
+   "condition": {
+    "type": "result",
+    "persona": "cu-chulainn"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Null Elec"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 13,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 14,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "hanuman",
+     "hitokoto-nushi"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Arms Master"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 16,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 17,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "leanan-sidhe"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "ice"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 18,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 21,
+   "condition": {
+    "type": "result",
+    "persona": "tam-lin"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Amrita"
+    },
+    {
+     "type": "stats"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 22,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 25,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "throne"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "ice"
+    },
+    {
+     "type": "linkExp"
+    },
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 27,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 28,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 9,
+   "day": 30,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 1,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "hermit"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "recovery"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 3,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 5,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 8,
+   "condition": {
+    "type": "result",
+    "persona": "raphael"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Mind Charge"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 11,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 12,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 16,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "justice",
+     "priestess"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Repel Fire"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 21,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "empress"
+    ]
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 22,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 23,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 25,
+   "condition": {
+    "type": "result",
+    "persona": "garuda"
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "linkExp"
+    },
+    {
+     "type": "skill",
+     "skill": "Spell Master"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 26,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 10,
+   "day": 31,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 2,
+   "condition": {
+    "type": "material",
+    "personas": [
+     "cerberus"
+    ]
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skill",
+     "skill": "Samarecarm"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 3,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    },
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 4,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 7,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 8,
+   "condition": {
+    "type": "result",
+    "persona": "daisoujou"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Mind Charge"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 9,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 11,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 12,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "magician"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "elec"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 13,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 15,
+   "condition": {
+    "type": "result",
+    "persona": "siegfried"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Enduring Soul"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 18,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 19,
+   "condition": {
+    "type": "result",
+    "persona": "nebiros"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Ali Dance"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 20,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 24,
+   "condition": {
+    "type": "result",
+    "persona": "kartikeya"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Angelic Grace"
+    }
+   ]
+  },
+  {
+   "month": 11,
+   "day": 26,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "magician"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Marakukaja"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 8,
+   "condition": {
+    "type": "result",
+    "persona": "hell-biker"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Evade Ice"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 11,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "judgement"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "fire"
+    },
+    {
+     "type": "skillKind",
+     "kind": "elec"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 12,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 13,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 15,
+   "condition": {
+    "type": "result",
+    "persona": "alice"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Angelic Grace"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 16,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 17,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 19,
+   "condition": {
+    "type": "result",
+    "persona": "yoshitsune"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Arms Master"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 21,
+   "condition": {
+    "type": "result",
+    "persona": "ishtar"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Insta-Heal"
+    },
+    {
+     "type": "skillKind",
+     "kind": "fire"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 23,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 12,
+   "day": 24,
+   "condition": {
+    "type": "result",
+    "persona": "yoshitsune"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Debilitate"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 11,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "aeon"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Enduring Soul"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 13,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 14,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "fool",
+     "judgement"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Salvation"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 16,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 17,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 18,
+   "condition": {
+    "type": "result",
+    "persona": "suparna"
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skill",
+     "skill": "Evade Elec"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 21,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 24,
+   "condition": null,
+   "effects": [
+    {
+     "type": "skillChange"
+    },
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 27,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "fortune"
+    ]
+   },
+   "effects": [
+    {
+     "type": "stats"
+    },
+    {
+     "type": "skillKind",
+     "kind": "ice"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 28,
+   "condition": null,
+   "effects": [
+    {
+     "type": "linkExp"
+    }
+   ]
+  },
+  {
+   "month": 1,
+   "day": 31,
+   "condition": {
+    "type": "materialArcana",
+    "arcanas": [
+     "death"
+    ]
+   },
+   "effects": [
+    {
+     "type": "skillKind",
+     "kind": "recovery"
+    }
+   ]
+  },
+  {
+   "month": 2,
+   "day": 1,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 2,
+   "day": 3,
+   "condition": {
+    "type": "resultArcana",
+    "arcana": "moon"
+   },
+   "effects": [
+    {
+     "type": "skill",
+     "skill": "Unshaken Will"
+    }
+   ]
+  },
+  {
+   "month": 2,
+   "day": 13,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  },
+  {
+   "month": 3,
+   "day": 20,
+   "condition": null,
+   "effects": [
+    {
+     "type": "stats"
+    }
+   ]
+  }
+ ]
+}

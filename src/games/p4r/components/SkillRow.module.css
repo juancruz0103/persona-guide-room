@@ -1,0 +1,19 @@
+.row { position: relative; list-style: none; border-bottom: 1px solid var(--c-line); }
+.main {
+  width: 100%; display: flex; align-items: center; gap: 10px; padding: 8px 4px;
+  background: none; border: 0; color: inherit; font: inherit; text-align: left; cursor: help;
+}
+.main:hover { background: var(--c-surface-2); }
+.dot { width: 10px; height: 10px; flex: none; transform: skewX(-12deg); }
+.name { flex: 1; font-family: var(--f-label); font-size: 18px; font-weight: 700; letter-spacing: 0.02em; }
+.hp, .sp { font-family: var(--f-label); font-weight: 700; font-size: 14px; }
+.hp { color: var(--c-hp); }
+.sp { color: var(--c-sp); }
+.right { color: var(--c-text-dim); font-size: 14px; min-width: 64px; text-align: right; }
+.tip {
+  position: absolute; z-index: 20; left: 0; right: 0; top: 100%;
+  background: var(--c-paper); color: var(--c-ink); padding: 10px 14px;
+  border-left: 6px solid var(--c-primary); box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+.tip p { margin: 2px 0 0; font-size: 14px; line-height: 1.45; }
+.tipKind { font-family: var(--f-label); font-weight: 800; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; filter: brightness(0.7); }

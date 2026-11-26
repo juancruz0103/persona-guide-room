@@ -1,0 +1,7225 @@
+{
+ "arcana": [
+  {
+   "en": "00",
+   "es": "00"
+  },
+  {
+   "en": "Fool",
+   "es": "Loco"
+  },
+  {
+   "en": "Magician",
+   "es": "Mago"
+  },
+  {
+   "en": "Priestess",
+   "es": "Sacerdotisa"
+  },
+  {
+   "en": "Empress",
+   "es": "Emperatriz"
+  },
+  {
+   "en": "Emperor",
+   "es": "Emperador"
+  },
+  {
+   "en": "Hierophant",
+   "es": "Hierofante"
+  },
+  {
+   "en": "Lovers",
+   "es": "Amantes"
+  },
+  {
+   "en": "Chariot",
+   "es": "Carro"
+  },
+  {
+   "en": "Justice",
+   "es": "Justicia"
+  },
+  {
+   "en": "Hermit",
+   "es": "Ermitaño"
+  },
+  {
+   "en": "Fortune",
+   "es": "Fortuna"
+  },
+  {
+   "en": "Strength",
+   "es": "Fuerza"
+  },
+  {
+   "en": "Hanged Man",
+   "es": "Ahorcado"
+  },
+  {
+   "en": "Death",
+   "es": "Muerte"
+  },
+  {
+   "en": "Temperance",
+   "es": "Templanza"
+  },
+  {
+   "en": "Devil",
+   "es": "Diablo"
+  },
+  {
+   "en": "Tower",
+   "es": "Torre"
+  },
+  {
+   "en": "Star",
+   "es": "Estrella"
+  },
+  {
+   "en": "Moon",
+   "es": "Luna"
+  },
+  {
+   "en": "Sun",
+   "es": "Sol"
+  },
+  {
+   "en": "Judgement",
+   "es": "Juicio"
+  },
+  {
+   "en": "Aeon",
+   "es": "Eón"
+  },
+  {
+   "en": "???",
+   "es": "???"
+  },
+  {
+   "en": "World",
+   "es": "Mundo"
+  },
+  {
+   "en": "Jester",
+   "es": "Bufón"
+  },
+  {
+   "en": "Hunger",
+   "es": "Hambre"
+  },
+  {
+   "en": "Aeon",
+   "es": "Eón"
+  },
+  {
+   "en": "Outsider",
+   "es": "Intruso"
+  },
+  {
+   "en": "1D",
+   "es": "1D"
+  },
+  {
+   "en": "1E",
+   "es": "1E"
+  },
+  {
+   "en": "1F",
+   "es": "1F"
+  }
+ ],
+ "personas": [
+  {
+   "id": 0,
+   "en": "000",
+   "es": "000"
+  },
+  {
+   "id": 1,
+   "en": "Izanagi",
+   "es": "Izanagi"
+  },
+  {
+   "id": 2,
+   "en": "Tzitzimitl",
+   "es": "Tzitzimitl"
+  },
+  {
+   "id": 3,
+   "en": "Flauros",
+   "es": "Flauros"
+  },
+  {
+   "id": 4,
+   "en": "Loki",
+   "es": "Loki"
+  },
+  {
+   "id": 5,
+   "en": "Ishtar",
+   "es": "Ishtar"
+  },
+  {
+   "id": 6,
+   "en": "Pyro Jack",
+   "es": "Piro Jack"
+  },
+  {
+   "id": 7,
+   "en": "Jack Frost",
+   "es": "Jack Frost"
+  },
+  {
+   "id": 8,
+   "en": "Scathach",
+   "es": "Scáthach"
+  },
+  {
+   "id": 9,
+   "en": "Rangda",
+   "es": "Rangda"
+  },
+  {
+   "id": 10,
+   "en": "Hachiman",
+   "es": "Hachiman"
+  },
+  {
+   "id": 11,
+   "en": "Cu Chulainn",
+   "es": "Cú Chulainn"
+  },
+  {
+   "id": 12,
+   "en": "Ose",
+   "es": "Ose"
+  },
+  {
+   "id": 13,
+   "en": "Kusi Mitama",
+   "es": "Kushi Mitama"
+  },
+  {
+   "id": 14,
+   "en": "Apsaras",
+   "es": "Apsará"
+  },
+  {
+   "id": 15,
+   "en": "Ardha",
+   "es": "Ardha"
+  },
+  {
+   "id": 16,
+   "en": "Parvati",
+   "es": "Parvati"
+  },
+  {
+   "id": 17,
+   "en": "Kikuri-Hime",
+   "es": "Kikuri-Hime"
+  },
+  {
+   "id": 18,
+   "en": "Zaou-Gongen",
+   "es": "Zaou-Gongen"
+  },
+  {
+   "id": 19,
+   "en": "Sarasvati",
+   "es": "Sarasvati"
+  },
+  {
+   "id": 20,
+   "en": "Yatsufusa",
+   "es": "Yatsufusa"
+  },
+  {
+   "id": 21,
+   "en": "Cybele",
+   "es": "Cibeles"
+  },
+  {
+   "id": 22,
+   "en": "Sraosha",
+   "es": "Sraosha"
+  },
+  {
+   "id": 23,
+   "en": "Neko Shogun",
+   "es": "Neko Shogun"
+  },
+  {
+   "id": 24,
+   "en": "Kali",
+   "es": "Kali"
+  },
+  {
+   "id": 25,
+   "en": "Obariyon",
+   "es": "Obariyon"
+  },
+  {
+   "id": 26,
+   "en": "Ukobach",
+   "es": "Ukobach"
+  },
+  {
+   "id": 27,
+   "en": "Lamia",
+   "es": "Lamia"
+  },
+  {
+   "id": 28,
+   "en": "Odin",
+   "es": "Odín"
+  },
+  {
+   "id": 29,
+   "en": "King Frost",
+   "es": "Rey Frost"
+  },
+  {
+   "id": 30,
+   "en": "Oukuninushi",
+   "es": "Okuninushi"
+  },
+  {
+   "id": 31,
+   "en": "Undine",
+   "es": "Ondina"
+  },
+  {
+   "id": 32,
+   "en": "Sylph",
+   "es": "Sílfide"
+  },
+  {
+   "id": 33,
+   "en": "Forneus",
+   "es": "Forneus"
+  },
+  {
+   "id": 34,
+   "en": "Alraune",
+   "es": "Alraune"
+  },
+  {
+   "id": 35,
+   "en": "Mithra",
+   "es": "Mitra"
+  },
+  {
+   "id": 36,
+   "en": "Daisoujou",
+   "es": "Daisoujou"
+  },
+  {
+   "id": 37,
+   "en": "Ananta",
+   "es": "Ananta"
+  },
+  {
+   "id": 38,
+   "en": "Futsunushi",
+   "es": "Futsunushi"
+  },
+  {
+   "id": 39,
+   "en": "Triglav",
+   "es": "Triglav"
+  },
+  {
+   "id": 40,
+   "en": "Raphael",
+   "es": "Rafael"
+  },
+  {
+   "id": 41,
+   "en": "Titania",
+   "es": "Titania"
+  },
+  {
+   "id": 42,
+   "en": "Oberon",
+   "es": "Oberón"
+  },
+  {
+   "id": 43,
+   "en": "02B",
+   "es": "02B"
+  },
+  {
+   "id": 44,
+   "en": "Sandman",
+   "es": "Sandman"
+  },
+  {
+   "id": 45,
+   "en": "Leanan Sidhe",
+   "es": "Leanan Sidhe"
+  },
+  {
+   "id": 46,
+   "en": "Pixie",
+   "es": "Pixie"
+  },
+  {
+   "id": 47,
+   "en": "Uriel",
+   "es": "Uriel"
+  },
+  {
+   "id": 48,
+   "en": "Surt",
+   "es": "Surt"
+  },
+  {
+   "id": 49,
+   "en": "Throne",
+   "es": "Trono"
+  },
+  {
+   "id": 50,
+   "en": "Ares",
+   "es": "Ares"
+  },
+  {
+   "id": 51,
+   "en": "Titan",
+   "es": "Titán"
+  },
+  {
+   "id": 52,
+   "en": "034",
+   "es": "034"
+  },
+  {
+   "id": 53,
+   "en": "Ara Mitama",
+   "es": "Ara Mitama"
+  },
+  {
+   "id": 54,
+   "en": "Valkyrie",
+   "es": "Valquiria"
+  },
+  {
+   "id": 55,
+   "en": "Melchizedek",
+   "es": "Melquisedec"
+  },
+  {
+   "id": 56,
+   "en": "Dominion",
+   "es": "Dominio"
+  },
+  {
+   "id": 57,
+   "en": "Siegfried",
+   "es": "Sigfrido"
+  },
+  {
+   "id": 58,
+   "en": "Virtue",
+   "es": "Virtud"
+  },
+  {
+   "id": 59,
+   "en": "Power",
+   "es": "Potestad"
+  },
+  {
+   "id": 60,
+   "en": "Archangel",
+   "es": "Arcángel"
+  },
+  {
+   "id": 61,
+   "en": "Angel",
+   "es": "Ángel"
+  },
+  {
+   "id": 62,
+   "en": "Hitokotonusi",
+   "es": "Hitokotonushi"
+  },
+  {
+   "id": 63,
+   "en": "Ippon-Datara",
+   "es": "Ippon-Datara"
+  },
+  {
+   "id": 64,
+   "en": "Nebiros",
+   "es": "Naberius"
+  },
+  {
+   "id": 65,
+   "en": "Decarabia",
+   "es": "Decarabia"
+  },
+  {
+   "id": 66,
+   "en": "Belphegor",
+   "es": "Belfegor"
+  },
+  {
+   "id": 67,
+   "en": "Yomotsu-Shikome",
+   "es": "Yomotsu-Shikome"
+  },
+  {
+   "id": 68,
+   "en": "Vetala",
+   "es": "Vetal"
+  },
+  {
+   "id": 69,
+   "en": "Norn",
+   "es": "Norna"
+  },
+  {
+   "id": 70,
+   "en": "Atropos",
+   "es": "Átropos"
+  },
+  {
+   "id": 71,
+   "en": "Pazuzu",
+   "es": "Pazuzu"
+  },
+  {
+   "id": 72,
+   "en": "Lachesis",
+   "es": "Láquesis"
+  },
+  {
+   "id": 73,
+   "en": "Saki Mitama",
+   "es": "Saki Mitama"
+  },
+  {
+   "id": 74,
+   "en": "Eligor",
+   "es": "Eligor"
+  },
+  {
+   "id": 75,
+   "en": "Clotho",
+   "es": "Cloto"
+  },
+  {
+   "id": 76,
+   "en": "Fortuna",
+   "es": "Fortuna"
+  },
+  {
+   "id": 77,
+   "en": "Thor",
+   "es": "Thor"
+  },
+  {
+   "id": 78,
+   "en": "Mokoi",
+   "es": "Mokoi"
+  },
+  {
+   "id": 79,
+   "en": "Abaddon",
+   "es": "Abadón"
+  },
+  {
+   "id": 80,
+   "en": "Belial",
+   "es": "Belial"
+  },
+  {
+   "id": 81,
+   "en": "Hanuman",
+   "es": "Hánuman"
+  },
+  {
+   "id": 82,
+   "en": "Yoshitsune",
+   "es": "Yoshitsune"
+  },
+  {
+   "id": 83,
+   "en": "Mahakala",
+   "es": "Mahakala"
+  },
+  {
+   "id": 84,
+   "en": "Attis",
+   "es": "Atis"
+  },
+  {
+   "id": 85,
+   "en": "Vasuki",
+   "es": "Vasuki"
+  },
+  {
+   "id": 86,
+   "en": "Orthrus",
+   "es": "Ortro"
+  },
+  {
+   "id": 87,
+   "en": "Tam Lin",
+   "es": "Tam Lin"
+  },
+  {
+   "id": 88,
+   "en": "Jinn",
+   "es": "Jinn"
+  },
+  {
+   "id": 89,
+   "en": "Mada",
+   "es": "Mada"
+  },
+  {
+   "id": 90,
+   "en": "White Rider",
+   "es": "Jinete blanco"
+  },
+  {
+   "id": 91,
+   "en": "Alice",
+   "es": "Alice"
+  },
+  {
+   "id": 92,
+   "en": "Seth",
+   "es": "Set"
+  },
+  {
+   "id": 93,
+   "en": "Mot",
+   "es": "Mot"
+  },
+  {
+   "id": 94,
+   "en": "Samael",
+   "es": "Samael"
+  },
+  {
+   "id": 95,
+   "en": "Gdon",
+   "es": "Gdon"
+  },
+  {
+   "id": 96,
+   "en": "Gorgon",
+   "es": "Gorgona"
+  },
+  {
+   "id": 97,
+   "en": "Dis",
+   "es": "Dís"
+  },
+  {
+   "id": 98,
+   "en": "Michael",
+   "es": "Miguel"
+  },
+  {
+   "id": 99,
+   "en": "Byakko",
+   "es": "Byakko"
+  },
+  {
+   "id": 100,
+   "en": "Suzaku",
+   "es": "Suzaku"
+  },
+  {
+   "id": 101,
+   "en": "Seiryuu",
+   "es": "Seiryu"
+  },
+  {
+   "id": 102,
+   "en": "Nigi Mitama",
+   "es": "Nigi Mitama"
+  },
+  {
+   "id": 103,
+   "en": "Genbu",
+   "es": "Genbu"
+  },
+  {
+   "id": 104,
+   "en": "Beelzebub",
+   "es": "Belcebú"
+  },
+  {
+   "id": 105,
+   "en": "Mother Harlot",
+   "es": "Ramera babilónica"
+  },
+  {
+   "id": 106,
+   "en": "Shiki-Ouji",
+   "es": "Shiki-Ouji"
+  },
+  {
+   "id": 107,
+   "en": "Lilith",
+   "es": "Lilith"
+  },
+  {
+   "id": 108,
+   "en": "Incubus",
+   "es": "Íncubo"
+  },
+  {
+   "id": 109,
+   "en": "Succubus",
+   "es": "Súcubo"
+  },
+  {
+   "id": 110,
+   "en": "Lilim",
+   "es": "Lilim"
+  },
+  {
+   "id": 111,
+   "en": "Phoenix",
+   "es": "Fénix"
+  },
+  {
+   "id": 112,
+   "en": "Shiva",
+   "es": "Shiva"
+  },
+  {
+   "id": 113,
+   "en": "Masakado",
+   "es": "Masakado"
+  },
+  {
+   "id": 114,
+   "en": "Ikusa",
+   "es": "Ikusa"
+  },
+  {
+   "id": 115,
+   "en": "Yamatano-Orochi",
+   "es": "Yamata-no-Orochi"
+  },
+  {
+   "id": 116,
+   "en": "Anzu",
+   "es": "Anzu"
+  },
+  {
+   "id": 117,
+   "en": "Helel",
+   "es": "Helel"
+  },
+  {
+   "id": 118,
+   "en": "Sandalphon",
+   "es": "Sandalfón"
+  },
+  {
+   "id": 119,
+   "en": "Black Frost",
+   "es": "Frost oscuro"
+  },
+  {
+   "id": 120,
+   "en": "Garuda",
+   "es": "Garuda"
+  },
+  {
+   "id": 121,
+   "en": "Sui-ki",
+   "es": "Sui-Ki"
+  },
+  {
+   "id": 122,
+   "en": "Ganesha",
+   "es": "Ganesha"
+  },
+  {
+   "id": 123,
+   "en": "Isis",
+   "es": "Isis"
+  },
+  {
+   "id": 124,
+   "en": "Cerberus",
+   "es": "Cerbero"
+  },
+  {
+   "id": 125,
+   "en": "Fuu-ki",
+   "es": "Fuu-Ki"
+  },
+  {
+   "id": 126,
+   "en": "Setanta",
+   "es": "Setanta"
+  },
+  {
+   "id": 127,
+   "en": "Girimehkala",
+   "es": "Girimehkala"
+  },
+  {
+   "id": 128,
+   "en": "Nozuchi",
+   "es": "Nozuchi"
+  },
+  {
+   "id": 129,
+   "en": "Legion",
+   "es": "Legión"
+  },
+  {
+   "id": 130,
+   "en": "Berith",
+   "es": "Berith"
+  },
+  {
+   "id": 131,
+   "en": "Saturnus",
+   "es": "Saturno"
+  },
+  {
+   "id": 132,
+   "en": "Vishnu",
+   "es": "Vishnu"
+  },
+  {
+   "id": 133,
+   "en": "Barong",
+   "es": "Barong"
+  },
+  {
+   "id": 134,
+   "en": "Andra",
+   "es": "Andra"
+  },
+  {
+   "id": 135,
+   "en": "Horus",
+   "es": "Horus"
+  },
+  {
+   "id": 136,
+   "en": "Narasimha",
+   "es": "Narasimha"
+  },
+  {
+   "id": 137,
+   "en": "Senri",
+   "es": "Senri"
+  },
+  {
+   "id": 138,
+   "en": "Kin-ki",
+   "es": "Kin-Ki"
+  },
+  {
+   "id": 139,
+   "en": "Asura",
+   "es": "Asura"
+  },
+  {
+   "id": 140,
+   "en": "Metatron",
+   "es": "Metatrón"
+  },
+  {
+   "id": 141,
+   "en": "Satan",
+   "es": "Satán"
+  },
+  {
+   "id": 142,
+   "en": "Gabriel",
+   "es": "Gabriel"
+  },
+  {
+   "id": 143,
+   "en": "Hokuto Seikun",
+   "es": "Hokuto Seikun"
+  },
+  {
+   "id": 144,
+   "en": "Trumpeter",
+   "es": "Trompetista"
+  },
+  {
+   "id": 145,
+   "en": "Anubis",
+   "es": "Anubis"
+  },
+  {
+   "id": 146,
+   "en": "Nata Taishi",
+   "es": "Nata Taishi"
+  },
+  {
+   "id": 147,
+   "en": "Ongyo-ki",
+   "es": "Ongyo-Ki"
+  },
+  {
+   "id": 148,
+   "en": "High Pixie",
+   "es": "Gran Pixie"
+  },
+  {
+   "id": 149,
+   "en": "Yaksini",
+   "es": "Iaksi"
+  },
+  {
+   "id": 150,
+   "en": "Xiezhai",
+   "es": "Xiezhai"
+  },
+  {
+   "id": 151,
+   "en": "Thoth",
+   "es": "Tot"
+  },
+  {
+   "id": 152,
+   "en": "Cu Sith",
+   "es": "Cu Sith"
+  },
+  {
+   "id": 153,
+   "en": "Mothman",
+   "es": "Hombre polilla"
+  },
+  {
+   "id": 154,
+   "en": "Oni",
+   "es": "Oni"
+  },
+  {
+   "id": 155,
+   "en": "Makami",
+   "es": "Makami"
+  },
+  {
+   "id": 156,
+   "en": "Rakshasa",
+   "es": "Ráksasa"
+  },
+  {
+   "id": 157,
+   "en": "Matador",
+   "es": "Matador"
+  },
+  {
+   "id": 158,
+   "en": "Hell Biker",
+   "es": "Ángel del infierno"
+  },
+  {
+   "id": 159,
+   "en": "Taowu",
+   "es": "Taowu"
+  },
+  {
+   "id": 160,
+   "en": "Taotie",
+   "es": "Taotie"
+  },
+  {
+   "id": 161,
+   "en": "Pabilsag",
+   "es": "Pabilsag"
+  },
+  {
+   "id": 162,
+   "en": "Mara",
+   "es": "Mara"
+  },
+  {
+   "id": 163,
+   "en": "Kartikeya",
+   "es": "Kartikeya"
+  },
+  {
+   "id": 164,
+   "en": "Baal Zebul",
+   "es": "Baal Zebul"
+  },
+  {
+   "id": 165,
+   "en": "Suparna",
+   "es": "Suparna"
+  },
+  {
+   "id": 166,
+   "en": "Lucifer",
+   "es": "Lucifer"
+  },
+  {
+   "id": 167,
+   "en": "Orobas",
+   "es": "Orobas"
+  },
+  {
+   "id": 168,
+   "en": "Atavaka",
+   "es": "Atavaka"
+  },
+  {
+   "id": 169,
+   "en": "Hariti",
+   "es": "Hariti"
+  },
+  {
+   "id": 170,
+   "en": "Skadi",
+   "es": "Skadi"
+  },
+  {
+   "id": 171,
+   "en": "Unicorn",
+   "es": "Unicornio"
+  },
+  {
+   "id": 172,
+   "en": "Omoikane",
+   "es": "Omoikane"
+  },
+  {
+   "id": 173,
+   "en": "Shiisaa",
+   "es": "Shiisaa"
+  },
+  {
+   "id": 174,
+   "en": "Principality",
+   "es": "Principado"
+  },
+  {
+   "id": 175,
+   "en": "Kurama Tengu",
+   "es": "Kurama Tengu"
+  },
+  {
+   "id": 176,
+   "en": "Yurlungur",
+   "es": "Yurlungur"
+  },
+  {
+   "id": 177,
+   "en": "Kaiwan",
+   "es": "Kaiwan"
+  },
+  {
+   "id": 178,
+   "en": "Jatayu",
+   "es": "Jatayu"
+  },
+  {
+   "id": 179,
+   "en": "Slime",
+   "es": "Limo"
+  },
+  {
+   "id": 180,
+   "en": "0B4",
+   "es": "0B4"
+  },
+  {
+   "id": 181,
+   "en": "0B5",
+   "es": "0B5"
+  },
+  {
+   "id": 182,
+   "en": "Arahabaki",
+   "es": "Arahabaki"
+  },
+  {
+   "id": 183,
+   "en": "Hua Po",
+   "es": "Hua Po"
+  },
+  {
+   "id": 184,
+   "en": "Alilat",
+   "es": "Alilat"
+  },
+  {
+   "id": 185,
+   "en": "Kohryu",
+   "es": "Kouryuu"
+  },
+  {
+   "id": 186,
+   "en": "Ghoul",
+   "es": "Ghoul"
+  },
+  {
+   "id": 187,
+   "en": "Queen Mab",
+   "es": "Reina Mab"
+  },
+  {
+   "id": 188,
+   "en": "Ganga",
+   "es": "Ganga"
+  },
+  {
+   "id": 189,
+   "en": "Izanagi-no-Okami",
+   "es": "Izanagi-no-Okami"
+  },
+  {
+   "id": 190,
+   "en": "Niddhoggr",
+   "es": "Niddhoggr"
+  },
+  {
+   "id": 191,
+   "en": "Yatagarasu",
+   "es": "Yatagarasu"
+  },
+  {
+   "id": 192,
+   "en": "Jiraiya",
+   "es": "Jiraiya"
+  },
+  {
+   "id": 193,
+   "en": "Susano-O",
+   "es": "Susanoo"
+  },
+  {
+   "id": 194,
+   "en": "Tomoe",
+   "es": "Tomoe"
+  },
+  {
+   "id": 195,
+   "en": "Suzuka Gongen",
+   "es": "Suzuka Gongen"
+  },
+  {
+   "id": 196,
+   "en": "Konohana Sakuya",
+   "es": "Konohana Sakuya"
+  },
+  {
+   "id": 197,
+   "en": "Amaterasu",
+   "es": "Amaterasu"
+  },
+  {
+   "id": 198,
+   "en": "Take-Mikazuchi",
+   "es": "Takemikazuchi"
+  },
+  {
+   "id": 199,
+   "en": "Rokuten Maoh",
+   "es": "Rokuten Maoh"
+  },
+  {
+   "id": 200,
+   "en": "Himiko",
+   "es": "Himiko"
+  },
+  {
+   "id": 201,
+   "en": "Kanzeon",
+   "es": "Kanzeon"
+  },
+  {
+   "id": 202,
+   "en": "Kintoki-Douji",
+   "es": "Kintoki-Douji"
+  },
+  {
+   "id": 203,
+   "en": "Kamui",
+   "es": "Kamui"
+  },
+  {
+   "id": 204,
+   "en": "Sukuna-Hikona",
+   "es": "Sukuna-Hikona"
+  },
+  {
+   "id": 205,
+   "en": "Yamato Takeru",
+   "es": "Yamato Takeru"
+  },
+  {
+   "id": 206,
+   "en": "Magatsu-Izanagi",
+   "es": "Magatsu-Izanagi"
+  },
+  {
+   "id": 207,
+   "en": "Takehaya Susano-o",
+   "es": "Takehaya Susano-o"
+  },
+  {
+   "id": 208,
+   "en": "Haraedo-no-Okami",
+   "es": "Haraedo-no-Okami"
+  },
+  {
+   "id": 209,
+   "en": "Sumeo-Okami",
+   "es": "Sumeo-Okami"
+  },
+  {
+   "id": 210,
+   "en": "Takeji Zaiten",
+   "es": "Takeji Zaiten"
+  },
+  {
+   "id": 211,
+   "en": "Kouzeon",
+   "es": "Kouzeon"
+  },
+  {
+   "id": 212,
+   "en": "Kamui-Moshiri",
+   "es": "Kamui-Moshiri"
+  },
+  {
+   "id": 213,
+   "en": "Yamato Sumeragi",
+   "es": "Yamato Sumeragi"
+  },
+  {
+   "id": 214,
+   "en": "0D6",
+   "es": "0D6"
+  },
+  {
+   "id": 215,
+   "en": "0D7",
+   "es": "0D7"
+  },
+  {
+   "id": 216,
+   "en": "0D8",
+   "es": "0D8"
+  },
+  {
+   "id": 217,
+   "en": "0D9",
+   "es": "0D9"
+  },
+  {
+   "id": 218,
+   "en": "0DA",
+   "es": "0DA"
+  },
+  {
+   "id": 219,
+   "en": "0DB",
+   "es": "0DB"
+  },
+  {
+   "id": 220,
+   "en": "0DC",
+   "es": "0DC"
+  },
+  {
+   "id": 221,
+   "en": "0DD",
+   "es": "0DD"
+  },
+  {
+   "id": 222,
+   "en": "0DE",
+   "es": "0DE"
+  },
+  {
+   "id": 223,
+   "en": "0DF",
+   "es": "0DF"
+  },
+  {
+   "id": 224,
+   "en": "Black Izanami",
+   "es": "Izanami negra"
+  },
+  {
+   "id": 225,
+   "en": "Okami",
+   "es": "Okami"
+  },
+  {
+   "id": 226,
+   "en": "¤¢§",
+   "es": "NOT USED"
+  },
+  {
+   "id": 227,
+   "en": "¤¢§",
+   "es": "NOT USED"
+  },
+  {
+   "id": 228,
+   "en": "¤¢§",
+   "es": "NOT USED"
+  },
+  {
+   "id": 229,
+   "en": "¤¢§",
+   "es": "NOT USED"
+  },
+  {
+   "id": 230,
+   "en": "¤¢§",
+   "es": "NOT USED"
+  },
+  {
+   "id": 231,
+   "en": "¤¢§",
+   "es": "NOT USED"
+  },
+  {
+   "id": 232,
+   "en": "Kaguya",
+   "es": "Kaguya"
+  },
+  {
+   "id": 233,
+   "en": "Pale Rider",
+   "es": "Jinete pálido"
+  },
+  {
+   "id": 234,
+   "en": "Take-Minakata",
+   "es": "Takeminakata"
+  },
+  {
+   "id": 235,
+   "en": "Narcissus",
+   "es": "Narciso"
+  },
+  {
+   "id": 236,
+   "en": "Kumbhanda",
+   "es": "Kumbhanda"
+  },
+  {
+   "id": 237,
+   "en": "Gurr",
+   "es": "Gurulu"
+  },
+  {
+   "id": 238,
+   "en": "Baphomet",
+   "es": "Baphomet"
+  },
+  {
+   "id": 239,
+   "en": "Loa",
+   "es": "Loa"
+  },
+  {
+   "id": 240,
+   "en": "Chernobog",
+   "es": "Chernobog"
+  },
+  {
+   "id": 241,
+   "en": "Quetzalcoatl",
+   "es": "Quetzalcóatl"
+  },
+  {
+   "id": 242,
+   "en": "Ame-no-Uzume",
+   "es": "Ame-no-Uzume"
+  },
+  {
+   "id": 243,
+   "en": "Seiten Taisei",
+   "es": "Seiten Taisei"
+  },
+  {
+   "id": 244,
+   "en": "Kingu",
+   "es": "Kingu"
+  },
+  {
+   "id": 245,
+   "en": "Kushinada",
+   "es": "Kushinada"
+  },
+  {
+   "id": 246,
+   "en": "Sati",
+   "es": "Sati"
+  },
+  {
+   "id": 247,
+   "en": "Raja Naga",
+   "es": "Raja Naga"
+  },
+  {
+   "id": 248,
+   "en": "Laksmi",
+   "es": "Lakshmi"
+  },
+  {
+   "id": 249,
+   "en": "Magatsu-Izanagi",
+   "es": "Magatsu-Izanagi"
+  },
+  {
+   "id": 250,
+   "en": "0FA",
+   "es": "0FA"
+  },
+  {
+   "id": 251,
+   "en": "0FB",
+   "es": "0FB"
+  },
+  {
+   "id": 252,
+   "en": "0FC",
+   "es": "0FC"
+  },
+  {
+   "id": 253,
+   "en": "0FD",
+   "es": "0FD"
+  },
+  {
+   "id": 254,
+   "en": "0FE",
+   "es": "0FE"
+  },
+  {
+   "id": 255,
+   "en": "0FF",
+   "es": "0FF"
+  }
+ ],
+ "skills": [
+  {
+   "id": 0,
+   "en": "Attack",
+   "es": "Ataque"
+  },
+  {
+   "id": 1,
+   "en": "Agi",
+   "es": "Agi"
+  },
+  {
+   "id": 2,
+   "en": "Agilao",
+   "es": "Agilao"
+  },
+  {
+   "id": 3,
+   "en": "Agidyne",
+   "es": "Agidyne"
+  },
+  {
+   "id": 4,
+   "en": "Maragi",
+   "es": "Maragi"
+  },
+  {
+   "id": 5,
+   "en": "Maragion",
+   "es": "Maragion"
+  },
+  {
+   "id": 6,
+   "en": "Maragidyne",
+   "es": "Maragidyne"
+  },
+  {
+   "id": 7,
+   "en": "Prominence",
+   "es": "Prominencia"
+  },
+  {
+   "id": 8,
+   "en": "Ragnarok",
+   "es": "Ragnarok"
+  },
+  {
+   "id": 9,
+   "en": "Immortal Flame",
+   "es": "Llama inmortal"
+  },
+  {
+   "id": 10,
+   "en": "Tiny Soul Tomato",
+   "es": "Tomate espiritual"
+  },
+  {
+   "id": 11,
+   "en": "Tetracorn",
+   "es": "Tetracorn"
+  },
+  {
+   "id": 12,
+   "en": "Run Amok",
+   "es": "A lo loco"
+  },
+  {
+   "id": 13,
+   "en": "Shake Off",
+   "es": "Sacarse de encima"
+  },
+  {
+   "id": 14,
+   "en": "Garu",
+   "es": "Garu"
+  },
+  {
+   "id": 15,
+   "en": "Garula",
+   "es": "Garula"
+  },
+  {
+   "id": 16,
+   "en": "Garudyne",
+   "es": "Garudyne"
+  },
+  {
+   "id": 17,
+   "en": "Magaru",
+   "es": "Magaru"
+  },
+  {
+   "id": 18,
+   "en": "Magarula",
+   "es": "Magarula"
+  },
+  {
+   "id": 19,
+   "en": "Magarudyne",
+   "es": "Magarudyne"
+  },
+  {
+   "id": 20,
+   "en": "Divine Vacuum",
+   "es": "Onda Divina"
+  },
+  {
+   "id": 21,
+   "en": "Panta Rhei",
+   "es": "Panta Rei"
+  },
+  {
+   "id": 22,
+   "en": "Hiranya Cabbage",
+   "es": "Col de Hiranya"
+  },
+  {
+   "id": 23,
+   "en": "Cry of Denial",
+   "es": "Llanto del rechazo"
+  },
+  {
+   "id": 24,
+   "en": "Hot Lightning",
+   "es": "Rayo candente"
+  },
+  {
+   "id": 25,
+   "en": "Draining Fog",
+   "es": "Niebla drenante"
+  },
+  {
+   "id": 26,
+   "en": "Bufu",
+   "es": "Bufu"
+  },
+  {
+   "id": 27,
+   "en": "Bufula",
+   "es": "Bufula"
+  },
+  {
+   "id": 28,
+   "en": "Bufudyne",
+   "es": "Bufudyne"
+  },
+  {
+   "id": 29,
+   "en": "Mabufu",
+   "es": "Mabufu"
+  },
+  {
+   "id": 30,
+   "en": "Mabufula",
+   "es": "Mabufula"
+  },
+  {
+   "id": 31,
+   "en": "Mabufudyne",
+   "es": "Mabufudyne"
+  },
+  {
+   "id": 32,
+   "en": "Cocytus Pain",
+   "es": "Dolor del Cocito"
+  },
+  {
+   "id": 33,
+   "en": "Niflheim",
+   "es": "Niflheim"
+  },
+  {
+   "id": 34,
+   "en": "Bloody Rain",
+   "es": "Lluvia sangrienta"
+  },
+  {
+   "id": 35,
+   "en": "Red Paprika",
+   "es": "Pimiento rojo"
+  },
+  {
+   "id": 36,
+   "en": "Enclosure Shell",
+   "es": "Armazón displicente"
+  },
+  {
+   "id": 37,
+   "en": "Hot Lightning",
+   "es": "Rayo candente"
+  },
+  {
+   "id": 38,
+   "en": "Shell of Denial",
+   "es": "Armazón del rechazo"
+  },
+  {
+   "id": 39,
+   "en": "Zio",
+   "es": "Zio"
+  },
+  {
+   "id": 40,
+   "en": "Zionga",
+   "es": "Zionga"
+  },
+  {
+   "id": 41,
+   "en": "Ziodyne",
+   "es": "Ziodyne"
+  },
+  {
+   "id": 42,
+   "en": "Mazio",
+   "es": "Mazio"
+  },
+  {
+   "id": 43,
+   "en": "Mazionga",
+   "es": "Mazionga"
+  },
+  {
+   "id": 44,
+   "en": "Maziodyne",
+   "es": "Maziodyne"
+  },
+  {
+   "id": 45,
+   "en": "Jihad",
+   "es": "Jihad"
+  },
+  {
+   "id": 46,
+   "en": "Thunder Reign",
+   "es": "Reino del trueno"
+  },
+  {
+   "id": 47,
+   "en": "Bead Melon",
+   "es": "Melón abalorio"
+  },
+  {
+   "id": 48,
+   "en": "Mid Soul Tomato",
+   "es": "Tomate espiritual medio"
+  },
+  {
+   "id": 49,
+   "en": "Big Soul Tomato",
+   "es": "Tomate espiritual grande"
+  },
+  {
+   "id": 50,
+   "en": "Makaracorn",
+   "es": "Makaracorn"
+  },
+  {
+   "id": 51,
+   "en": "Megido",
+   "es": "Megido"
+  },
+  {
+   "id": 52,
+   "en": "Megidola",
+   "es": "Megidola"
+  },
+  {
+   "id": 53,
+   "en": "Megidolaon",
+   "es": "Megidolaon"
+  },
+  {
+   "id": 54,
+   "en": "Last Resort",
+   "es": "Último recurso"
+  },
+  {
+   "id": 55,
+   "en": "Black Viper",
+   "es": "Víbora negra"
+  },
+  {
+   "id": 56,
+   "en": "Morning Star",
+   "es": "Lucero del alba"
+  },
+  {
+   "id": 57,
+   "en": "White Paprika",
+   "es": "Pimiento blanco"
+  },
+  {
+   "id": 58,
+   "en": "Blue Paprika",
+   "es": "Pimiento azul"
+  },
+  {
+   "id": 59,
+   "en": "Green Paprika",
+   "es": "Pimiento verde"
+  },
+  {
+   "id": 60,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 61,
+   "en": "Hama",
+   "es": "Hama"
+  },
+  {
+   "id": 62,
+   "en": "Hamaon",
+   "es": "Hamaon"
+  },
+  {
+   "id": 63,
+   "en": "Mahama",
+   "es": "Mahama"
+  },
+  {
+   "id": 64,
+   "en": "Mahamaon",
+   "es": "Mahamaon"
+  },
+  {
+   "id": 65,
+   "en": "Eternal White",
+   "es": "Blanco eterno"
+  },
+  {
+   "id": 66,
+   "en": "God's Judgment",
+   "es": "Juicio de Dios"
+  },
+  {
+   "id": 67,
+   "en": "Samsara",
+   "es": "Samsara"
+  },
+  {
+   "id": 68,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 69,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 70,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 71,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 72,
+   "en": "Mudo",
+   "es": "Mudo"
+  },
+  {
+   "id": 73,
+   "en": "Mudoon",
+   "es": "Mudoon"
+  },
+  {
+   "id": 74,
+   "en": "Mamudo",
+   "es": "Mamudo"
+  },
+  {
+   "id": 75,
+   "en": "Mamudoon",
+   "es": "Mamudoon"
+  },
+  {
+   "id": 76,
+   "en": "Eternal Black",
+   "es": "Negro eterno"
+  },
+  {
+   "id": 77,
+   "en": "Demonic Judgment",
+   "es": "Juicio demoníaco"
+  },
+  {
+   "id": 78,
+   "en": "Die for Me!",
+   "es": "¡Morid por mí!"
+  },
+  {
+   "id": 79,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 80,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 81,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 82,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 83,
+   "en": "Pulinpa",
+   "es": "Pulinpa"
+  },
+  {
+   "id": 84,
+   "en": "Tentarafoo",
+   "es": "Tentarafoo"
+  },
+  {
+   "id": 85,
+   "en": "Evil Touch",
+   "es": "Toque maligno"
+  },
+  {
+   "id": 86,
+   "en": "Evil Smile",
+   "es": "Sonrisa maligna"
+  },
+  {
+   "id": 87,
+   "en": "Ghastly Wail",
+   "es": "Lamento espectral"
+  },
+  {
+   "id": 88,
+   "en": "Balzac",
+   "es": "Balzac"
+  },
+  {
+   "id": 89,
+   "en": "Valiant Dance",
+   "es": "Danza valerosa"
+  },
+  {
+   "id": 90,
+   "en": "Poisma",
+   "es": "Poisma"
+  },
+  {
+   "id": 91,
+   "en": "Poison Mist",
+   "es": "Neblina venenosa"
+  },
+  {
+   "id": 92,
+   "en": "Soul Break",
+   "es": "Ruptura de alma"
+  },
+  {
+   "id": 93,
+   "en": "Anima Freeze",
+   "es": "Congelac. de ánima"
+  },
+  {
+   "id": 94,
+   "en": "Enervation",
+   "es": "Enervación"
+  },
+  {
+   "id": 95,
+   "en": "Old One",
+   "es": "Avejentar"
+  },
+  {
+   "id": 96,
+   "en": "Galgalim Eyes",
+   "es": "Ojos de Galgalim"
+  },
+  {
+   "id": 97,
+   "en": "Makajam",
+   "es": "Makajam"
+  },
+  {
+   "id": 98,
+   "en": "Foolish Whisper",
+   "es": "Susurro necio"
+  },
+  {
+   "id": 99,
+   "en": "Foul Breath",
+   "es": "Aliento fétido"
+  },
+  {
+   "id": 100,
+   "en": "Stagnant Air",
+   "es": "Aire estancado"
+  },
+  {
+   "id": 101,
+   "en": "Life Drain",
+   "es": "Absorción de salud"
+  },
+  {
+   "id": 102,
+   "en": "Spirit Drain",
+   "es": "Absorc. de espíritu"
+  },
+  {
+   "id": 103,
+   "en": "Life Leech",
+   "es": "Extracción de salud"
+  },
+  {
+   "id": 104,
+   "en": "Spirit Leech",
+   "es": "Extracción de espíritu"
+  },
+  {
+   "id": 105,
+   "en": "Judgement",
+   "es": "Juicio"
+  },
+  {
+   "id": 106,
+   "en": "Balzac",
+   "es": "Balzac"
+  },
+  {
+   "id": 107,
+   "en": "Last Resort",
+   "es": "Último recurso"
+  },
+  {
+   "id": 108,
+   "en": "Last Resort",
+   "es": "Último recurso"
+  },
+  {
+   "id": 109,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 110,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 111,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 112,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 113,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 114,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 115,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 116,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 117,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 118,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 119,
+   "en": "Elemental Break",
+   "es": "Ruptura elemental"
+  },
+  {
+   "id": 120,
+   "en": "Bash",
+   "es": "Arremetida"
+  },
+  {
+   "id": 121,
+   "en": "Cleave",
+   "es": "Despedazar"
+  },
+  {
+   "id": 122,
+   "en": "Assault Dive",
+   "es": "Asalto"
+  },
+  {
+   "id": 123,
+   "en": "Sonic Punch",
+   "es": "Puño sónico"
+  },
+  {
+   "id": 124,
+   "en": "Double Fangs",
+   "es": "Colmillos dobles"
+  },
+  {
+   "id": 125,
+   "en": "Kill Rush",
+   "es": "Acometida asesina"
+  },
+  {
+   "id": 126,
+   "en": "Swift Strike",
+   "es": "Golpe veloz"
+  },
+  {
+   "id": 127,
+   "en": "Twin Shot",
+   "es": "Disparo doble"
+  },
+  {
+   "id": 128,
+   "en": "Fatal End",
+   "es": "Final fatídico"
+  },
+  {
+   "id": 129,
+   "en": "Mighty Swing",
+   "es": "Tajo poderoso"
+  },
+  {
+   "id": 130,
+   "en": "Torrent Shot",
+   "es": "Disparo torrencial"
+  },
+  {
+   "id": 131,
+   "en": "Heat Wave",
+   "es": "Ola de calor"
+  },
+  {
+   "id": 132,
+   "en": "Gigantic Fist",
+   "es": "Puño gigantesco"
+  },
+  {
+   "id": 133,
+   "en": "Blade of Fury",
+   "es": "Espada de furia"
+  },
+  {
+   "id": 134,
+   "en": "Deathbound",
+   "es": "Portamuerte"
+  },
+  {
+   "id": 135,
+   "en": "Arrow Rain",
+   "es": "Lluvia de flechas"
+  },
+  {
+   "id": 136,
+   "en": "Akasha Arts",
+   "es": "Artes etéreas"
+  },
+  {
+   "id": 137,
+   "en": "Tempest Slash",
+   "es": "Corte tempestuoso"
+  },
+  {
+   "id": 138,
+   "en": "Heaven's Blade",
+   "es": "Hoja celestial"
+  },
+  {
+   "id": 139,
+   "en": "Myriad Arrows",
+   "es": "Mil flechas"
+  },
+  {
+   "id": 140,
+   "en": "God's Hand",
+   "es": "Mano de Dios"
+  },
+  {
+   "id": 141,
+   "en": "Pralaya",
+   "es": "Pralaya"
+  },
+  {
+   "id": 142,
+   "en": "Primal Force",
+   "es": "Fuerza primigenia"
+  },
+  {
+   "id": 143,
+   "en": "Vorpal Blade",
+   "es": "Espada vorpal"
+  },
+  {
+   "id": 144,
+   "en": "Power Slash",
+   "es": "Corte poderoso"
+  },
+  {
+   "id": 145,
+   "en": "Gale Slash",
+   "es": "Tajo de vendaval"
+  },
+  {
+   "id": 146,
+   "en": "Brave Blade",
+   "es": "Filo valeroso"
+  },
+  {
+   "id": 147,
+   "en": "Herculean Strike",
+   "es": "Golpe hercúleo"
+  },
+  {
+   "id": 148,
+   "en": "Vicious Strike",
+   "es": "Golpe violento"
+  },
+  {
+   "id": 149,
+   "en": "Single Shot",
+   "es": "Disparo"
+  },
+  {
+   "id": 150,
+   "en": "Skewer",
+   "es": "Brocheta"
+  },
+  {
+   "id": 151,
+   "en": "Poison Skewer",
+   "es": "Brocheta venenosa"
+  },
+  {
+   "id": 152,
+   "en": "Poison Arrow",
+   "es": "Flecha venenosa"
+  },
+  {
+   "id": 153,
+   "en": "Blight",
+   "es": "Plaga"
+  },
+  {
+   "id": 154,
+   "en": "Virus Wave",
+   "es": "Ola vírica"
+  },
+  {
+   "id": 155,
+   "en": "Skull Cracker",
+   "es": "Aplastacráneos"
+  },
+  {
+   "id": 156,
+   "en": "Mind Slice",
+   "es": "Tajo mental"
+  },
+  {
+   "id": 157,
+   "en": "Hysterical Slap",
+   "es": "Bofetada histérica"
+  },
+  {
+   "id": 158,
+   "en": "Crazy Chain",
+   "es": "Cadena de locura"
+  },
+  {
+   "id": 159,
+   "en": "Muzzle Shot",
+   "es": "Disparo silenciador"
+  },
+  {
+   "id": 160,
+   "en": "Seal Bomb",
+   "es": "Sello bomba"
+  },
+  {
+   "id": 161,
+   "en": "Arm Chopper",
+   "es": "Cortabrazos"
+  },
+  {
+   "id": 162,
+   "en": "Atom Smasher",
+   "es": "Aplastaátomos"
+  },
+  {
+   "id": 163,
+   "en": "Cell Breaker",
+   "es": "Rompecélulas"
+  },
+  {
+   "id": 164,
+   "en": "Mustard Bomb",
+   "es": "Bomba mostaza"
+  },
+  {
+   "id": 165,
+   "en": "Brain Shake",
+   "es": "Agitación cerebral"
+  },
+  {
+   "id": 166,
+   "en": "Navas Nebula",
+   "es": "Navas Nebula"
+  },
+  {
+   "id": 167,
+   "en": "Golden Right",
+   "es": "Diestra dorada"
+  },
+  {
+   "id": 168,
+   "en": "Black Spot",
+   "es": "Punto negro"
+  },
+  {
+   "id": 169,
+   "en": "Rainy Death",
+   "es": "Muerte lluviosa"
+  },
+  {
+   "id": 170,
+   "en": "Hassou Tobi",
+   "es": "Hassou Tobi"
+  },
+  {
+   "id": 171,
+   "en": "Rampage",
+   "es": "Desmadre"
+  },
+  {
+   "id": 172,
+   "en": "Aeon Rain",
+   "es": "Lluvia de Eón"
+  },
+  {
+   "id": 173,
+   "en": "Agneyastra",
+   "es": "Agneyastra"
+  },
+  {
+   "id": 174,
+   "en": "Cruel Attack",
+   "es": "Ataque cruel"
+  },
+  {
+   "id": 175,
+   "en": "Vile Assault",
+   "es": "Asalto vil"
+  },
+  {
+   "id": 176,
+   "en": "Rampage",
+   "es": "Desmadre"
+  },
+  {
+   "id": 177,
+   "en": "Attack Up Support",
+   "es": "Apoyo al ataque"
+  },
+  {
+   "id": 178,
+   "en": "Guard Up Support",
+   "es": "Apoyo a la protección"
+  },
+  {
+   "id": 179,
+   "en": "Agility Up Support",
+   "es": "Apoyo a la agilidad"
+  },
+  {
+   "id": 180,
+   "en": "Charge Support",
+   "es": "Apoyo a la carga"
+  },
+  {
+   "id": 181,
+   "en": "HP Recovery Support",
+   "es": "Apoyo a la recuperación de PS"
+  },
+  {
+   "id": 182,
+   "en": "SP Recovery Support",
+   "es": "Apoyo a la recuperación de PE"
+  },
+  {
+   "id": 183,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 184,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 185,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 186,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 187,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 188,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 189,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 190,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 191,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 192,
+   "en": "Dia",
+   "es": "Dia"
+  },
+  {
+   "id": 193,
+   "en": "Diarama",
+   "es": "Diarama"
+  },
+  {
+   "id": 194,
+   "en": "Diarahan",
+   "es": "Diarahan"
+  },
+  {
+   "id": 195,
+   "en": "Media",
+   "es": "Media"
+  },
+  {
+   "id": 196,
+   "en": "Mediarama",
+   "es": "Mediarama"
+  },
+  {
+   "id": 197,
+   "en": "Mediarahan",
+   "es": "Mediarahan"
+  },
+  {
+   "id": 198,
+   "en": "Salvation",
+   "es": "Salvación"
+  },
+  {
+   "id": 199,
+   "en": "Patra",
+   "es": "Patra"
+  },
+  {
+   "id": 200,
+   "en": "Me Patra",
+   "es": "Me Patra"
+  },
+  {
+   "id": 201,
+   "en": "Re Patra",
+   "es": "Re Patra"
+  },
+  {
+   "id": 202,
+   "en": "Posumudi",
+   "es": "Posumudi"
+  },
+  {
+   "id": 203,
+   "en": "Mutudi",
+   "es": "Mutudi"
+  },
+  {
+   "id": 204,
+   "en": "Enradi",
+   "es": "Defur"
+  },
+  {
+   "id": 205,
+   "en": "Tirundi",
+   "es": "Tirundi"
+  },
+  {
+   "id": 206,
+   "en": "Nervundi",
+   "es": "Nervundi"
+  },
+  {
+   "id": 207,
+   "en": "Energy Shower",
+   "es": "Lluvia de energía"
+  },
+  {
+   "id": 208,
+   "en": "Amrita",
+   "es": "Amrita"
+  },
+  {
+   "id": 209,
+   "en": "Recarm",
+   "es": "Recarm"
+  },
+  {
+   "id": 210,
+   "en": "Samarecarm",
+   "es": "Samarecarm"
+  },
+  {
+   "id": 211,
+   "en": "Tarunda",
+   "es": "Tarunda"
+  },
+  {
+   "id": 212,
+   "en": "Matarunda",
+   "es": "Matarunda"
+  },
+  {
+   "id": 213,
+   "en": "Sukunda",
+   "es": "Sukunda"
+  },
+  {
+   "id": 214,
+   "en": "Masukunda",
+   "es": "Masukunda"
+  },
+  {
+   "id": 215,
+   "en": "Rakunda",
+   "es": "Rakunda"
+  },
+  {
+   "id": 216,
+   "en": "Marakunda",
+   "es": "Marakunda"
+  },
+  {
+   "id": 217,
+   "en": "Dekunda",
+   "es": "Dekunda"
+  },
+  {
+   "id": 218,
+   "en": "Tarukaja",
+   "es": "Tarukaja"
+  },
+  {
+   "id": 219,
+   "en": "Matarukaja",
+   "es": "Matarukaja"
+  },
+  {
+   "id": 220,
+   "en": "Sukukaja",
+   "es": "Sukukaja"
+  },
+  {
+   "id": 221,
+   "en": "Masukukaja",
+   "es": "Masukukaja"
+  },
+  {
+   "id": 222,
+   "en": "Rakukaja",
+   "es": "Rakukaja"
+  },
+  {
+   "id": 223,
+   "en": "Marakukaja",
+   "es": "Marakukaja"
+  },
+  {
+   "id": 224,
+   "en": "Dekaja",
+   "es": "Dekaja"
+  },
+  {
+   "id": 225,
+   "en": "Heat Riser",
+   "es": "Subidón"
+  },
+  {
+   "id": 226,
+   "en": "Debilitate",
+   "es": "Debilitar"
+  },
+  {
+   "id": 227,
+   "en": "Power Charge",
+   "es": "Gran carga"
+  },
+  {
+   "id": 228,
+   "en": "Mind Charge",
+   "es": "Carga mental"
+  },
+  {
+   "id": 229,
+   "en": "Tetrakarn",
+   "es": "Tetrakarn"
+  },
+  {
+   "id": 230,
+   "en": "Makarakarn",
+   "es": "Makarakarn"
+  },
+  {
+   "id": 231,
+   "en": "Tetra Break",
+   "es": "Ruptura Tetra"
+  },
+  {
+   "id": 232,
+   "en": "Makara Break",
+   "es": "Ruptura Makara"
+  },
+  {
+   "id": 233,
+   "en": "Tetraja",
+   "es": "Tetraja"
+  },
+  {
+   "id": 234,
+   "en": "Rebellion",
+   "es": "Rebelión"
+  },
+  {
+   "id": 235,
+   "en": "Revolution",
+   "es": "Revolución"
+  },
+  {
+   "id": 236,
+   "en": "Fire Break",
+   "es": "Ruptura de fuego"
+  },
+  {
+   "id": 237,
+   "en": "Ice Break",
+   "es": "Ruptura de hielo"
+  },
+  {
+   "id": 238,
+   "en": "Wind Break",
+   "es": "Ruptura de viento"
+  },
+  {
+   "id": 239,
+   "en": "Elec Break",
+   "es": "Ruptura de electric."
+  },
+  {
+   "id": 240,
+   "en": "Red Wall",
+   "es": "Muro rojo"
+  },
+  {
+   "id": 241,
+   "en": "White Wall",
+   "es": "Muro blanco"
+  },
+  {
+   "id": 242,
+   "en": "Blue Wall",
+   "es": "Muro azul"
+  },
+  {
+   "id": 243,
+   "en": "Green Wall",
+   "es": "Muro verde"
+  },
+  {
+   "id": 244,
+   "en": "Trafuri",
+   "es": "Trafuri"
+  },
+  {
+   "id": 245,
+   "en": "Recarmdra",
+   "es": "Recarmdra"
+  },
+  {
+   "id": 246,
+   "en": "Traesto",
+   "es": "Traesto"
+  },
+  {
+   "id": 247,
+   "en": "Youthful Wind",
+   "es": "Viento juvenil"
+  },
+  {
+   "id": 248,
+   "en": "Dragon Hustle",
+   "es": "Bullicio de la dragona"
+  },
+  {
+   "id": 249,
+   "en": "Burning Petals",
+   "es": "Pétalos ardientes"
+  },
+  {
+   "id": 250,
+   "en": "The Man's Way",
+   "es": "Hombría de bien"
+  },
+  {
+   "id": 251,
+   "en": "Kamui Miracle",
+   "es": "Milagro Kamui"
+  },
+  {
+   "id": 252,
+   "en": "Shield of Justice",
+   "es": "Escudo de la justicia"
+  },
+  {
+   "id": 253,
+   "en": "Complete Analysis",
+   "es": "Análisis íntegro"
+  },
+  {
+   "id": 254,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 255,
+   "en": "",
+   "es": ""
+  },
+  {
+   "id": 256,
+   "en": "100",
+   "es": "100"
+  },
+  {
+   "id": 257,
+   "en": "101",
+   "es": "101"
+  },
+  {
+   "id": 258,
+   "en": "102",
+   "es": "102"
+  },
+  {
+   "id": 259,
+   "en": "Waste Money",
+   "es": "Tirar el dinero"
+  },
+  {
+   "id": 260,
+   "en": "Yosuke Strike",
+   "es": "Golpe de Yosuke"
+  },
+  {
+   "id": 261,
+   "en": "Galactic Punt",
+   "es": "Puntapié galáctico"
+  },
+  {
+   "id": 262,
+   "en": "Fan Assault",
+   "es": "Asalto de admirador"
+  },
+  {
+   "id": 263,
+   "en": "Atomic Press",
+   "es": "Pulsación atómica"
+  },
+  {
+   "id": 264,
+   "en": "Wild Ways",
+   "es": "Asalvajado"
+  },
+  {
+   "id": 265,
+   "en": "Ultra Trigger",
+   "es": "Ultragolpe"
+  },
+  {
+   "id": 266,
+   "en": "Galaxy Kick",
+   "es": "Patada galáctica"
+  },
+  {
+   "id": 267,
+   "en": "Full Analysis",
+   "es": "Análisis completo"
+  },
+  {
+   "id": 268,
+   "en": "Third Eye",
+   "es": "Tercer ojo"
+  },
+  {
+   "id": 269,
+   "en": "Weakness Scan",
+   "es": "Análisis de debil."
+  },
+  {
+   "id": 270,
+   "en": "Healing Wave",
+   "es": "Ola de sanación"
+  },
+  {
+   "id": 271,
+   "en": "Relaxing Wave",
+   "es": "Ola de relajación"
+  },
+  {
+   "id": 272,
+   "en": "Analyze",
+   "es": "Analizar"
+  },
+  {
+   "id": 273,
+   "en": "Summon",
+   "es": "Invocar"
+  },
+  {
+   "id": 274,
+   "en": "Enemy Radar",
+   "es": "Radar enemigo"
+  },
+  {
+   "id": 275,
+   "en": "Treasure Radar",
+   "es": "Radar de tesoros"
+  },
+  {
+   "id": 276,
+   "en": "Certain Escape",
+   "es": "Escapatoria inmediata"
+  },
+  {
+   "id": 277,
+   "en": "Myriad Truths",
+   "es": "Mil verdades"
+  },
+  {
+   "id": 278,
+   "en": "Cavalry Attack",
+   "es": "Caballería a la carga"
+  },
+  {
+   "id": 279,
+   "en": "Cavalry Attack",
+   "es": "Caballería a la carga"
+  },
+  {
+   "id": 280,
+   "en": "Cavalry Attack",
+   "es": "Caballería a la carga"
+  },
+  {
+   "id": 281,
+   "en": "Cavalry Attack",
+   "es": "Caballería a la carga"
+  },
+  {
+   "id": 282,
+   "en": "Cavalry Attack",
+   "es": "Caballería a la carga"
+  },
+  {
+   "id": 283,
+   "en": "Cavalry Attack",
+   "es": "Caballería a la carga"
+  },
+  {
+   "id": 284,
+   "en": "All-Out Boost",
+   "es": "Potenc. de combinado"
+  },
+  {
+   "id": 285,
+   "en": "Rise's Revival",
+   "es": "Resurrección de Rise"
+  },
+  {
+   "id": 286,
+   "en": "Stamina Song",
+   "es": "Canción de aguante"
+  },
+  {
+   "id": 287,
+   "en": "Vigor Song",
+   "es": "Canción de vigor"
+  },
+  {
+   "id": 288,
+   "en": "Sarx Drop",
+   "es": "Gota carnal"
+  },
+  {
+   "id": 289,
+   "en": "Medicine",
+   "es": "Medicina"
+  },
+  {
+   "id": 290,
+   "en": "Medical Powder",
+   "es": "Polvo medicinal"
+  },
+  {
+   "id": 291,
+   "en": "Spirit Water",
+   "es": "Agua espiritual"
+  },
+  {
+   "id": 292,
+   "en": "Life Stone",
+   "es": "Piedra vital"
+  },
+  {
+   "id": 293,
+   "en": "Bead",
+   "es": "Abalorio"
+  },
+  {
+   "id": 294,
+   "en": "Value Medicine",
+   "es": "Medicina cara"
+  },
+  {
+   "id": 295,
+   "en": "Medical Kit",
+   "es": "Kit médico"
+  },
+  {
+   "id": 296,
+   "en": "Umugi Water",
+   "es": "Agua Umugi"
+  },
+  {
+   "id": 297,
+   "en": "Bead Chain",
+   "es": "Cadena de abalorios"
+  },
+  {
+   "id": 298,
+   "en": "Pneuma Drop",
+   "es": "Gota de pneuma"
+  },
+  {
+   "id": 299,
+   "en": "Snuff Soul",
+   "es": "Rapé espiritual"
+  },
+  {
+   "id": 300,
+   "en": "Chewing Soul",
+   "es": "Chicle espiritual"
+  },
+  {
+   "id": 301,
+   "en": "Precious Egg",
+   "es": "Huevo preciado"
+  },
+  {
+   "id": 302,
+   "en": "12E",
+   "es": "12E"
+  },
+  {
+   "id": 303,
+   "en": "12F",
+   "es": "12F"
+  },
+  {
+   "id": 304,
+   "en": "130",
+   "es": "130"
+  },
+  {
+   "id": 305,
+   "en": "131",
+   "es": "131"
+  },
+  {
+   "id": 306,
+   "en": "132",
+   "es": "132"
+  },
+  {
+   "id": 307,
+   "en": "133",
+   "es": "133"
+  },
+  {
+   "id": 308,
+   "en": "134",
+   "es": "134"
+  },
+  {
+   "id": 309,
+   "en": "135",
+   "es": "135"
+  },
+  {
+   "id": 310,
+   "en": "136",
+   "es": "136"
+  },
+  {
+   "id": 311,
+   "en": "137",
+   "es": "137"
+  },
+  {
+   "id": 312,
+   "en": "138",
+   "es": "138"
+  },
+  {
+   "id": 313,
+   "en": "139",
+   "es": "139"
+  },
+  {
+   "id": 314,
+   "en": "13A",
+   "es": "13A"
+  },
+  {
+   "id": 315,
+   "en": "13B",
+   "es": "13B"
+  },
+  {
+   "id": 316,
+   "en": "13C",
+   "es": "13C"
+  },
+  {
+   "id": 317,
+   "en": "13D",
+   "es": "13D"
+  },
+  {
+   "id": 318,
+   "en": "13E",
+   "es": "13E"
+  },
+  {
+   "id": 319,
+   "en": "13F",
+   "es": "13F"
+  },
+  {
+   "id": 320,
+   "en": "140",
+   "es": "140"
+  },
+  {
+   "id": 321,
+   "en": "141",
+   "es": "141"
+  },
+  {
+   "id": 322,
+   "en": "142",
+   "es": "142"
+  },
+  {
+   "id": 323,
+   "en": "143",
+   "es": "143"
+  },
+  {
+   "id": 324,
+   "en": "144",
+   "es": "144"
+  },
+  {
+   "id": 325,
+   "en": "145",
+   "es": "145"
+  },
+  {
+   "id": 326,
+   "en": "146",
+   "es": "146"
+  },
+  {
+   "id": 327,
+   "en": "147",
+   "es": "147"
+  },
+  {
+   "id": 328,
+   "en": "148",
+   "es": "148"
+  },
+  {
+   "id": 329,
+   "en": "149",
+   "es": "149"
+  },
+  {
+   "id": 330,
+   "en": "14A",
+   "es": "14A"
+  },
+  {
+   "id": 331,
+   "en": "14B",
+   "es": "14B"
+  },
+  {
+   "id": 332,
+   "en": "14C",
+   "es": "14C"
+  },
+  {
+   "id": 333,
+   "en": "14D",
+   "es": "14D"
+  },
+  {
+   "id": 334,
+   "en": "14E",
+   "es": "14E"
+  },
+  {
+   "id": 335,
+   "en": "14F",
+   "es": "14F"
+  },
+  {
+   "id": 336,
+   "en": "150",
+   "es": "150"
+  },
+  {
+   "id": 337,
+   "en": "151",
+   "es": "151"
+  },
+  {
+   "id": 338,
+   "en": "152",
+   "es": "152"
+  },
+  {
+   "id": 339,
+   "en": "153",
+   "es": "153"
+  },
+  {
+   "id": 340,
+   "en": "154",
+   "es": "154"
+  },
+  {
+   "id": 341,
+   "en": "155",
+   "es": "155"
+  },
+  {
+   "id": 342,
+   "en": "156",
+   "es": "156"
+  },
+  {
+   "id": 343,
+   "en": "157",
+   "es": "157"
+  },
+  {
+   "id": 344,
+   "en": "158",
+   "es": "158"
+  },
+  {
+   "id": 345,
+   "en": "159",
+   "es": "159"
+  },
+  {
+   "id": 346,
+   "en": "15A",
+   "es": "15A"
+  },
+  {
+   "id": 347,
+   "en": "15B",
+   "es": "15B"
+  },
+  {
+   "id": 348,
+   "en": "15C",
+   "es": "15C"
+  },
+  {
+   "id": 349,
+   "en": "Junes Bomber",
+   "es": "Bombardeo Junes"
+  },
+  {
+   "id": 350,
+   "en": "Twin Dragons",
+   "es": "Dragonas gemelas"
+  },
+  {
+   "id": 351,
+   "en": "Beauty & The Beast",
+   "es": "Bella y Bestia"
+  },
+  {
+   "id": 352,
+   "en": "Wind of Oblivion",
+   "es": "Viento del Olvido"
+  },
+  {
+   "id": 353,
+   "en": "Bottomless Envy",
+   "es": "Envidia sin fondo"
+  },
+  {
+   "id": 354,
+   "en": "Burn to Ashes",
+   "es": "Reducción a cenizas"
+  },
+  {
+   "id": 355,
+   "en": "Shivering Rondo",
+   "es": "Rondó estremecedor"
+  },
+  {
+   "id": 356,
+   "en": "Summon",
+   "es": "Invocar"
+  },
+  {
+   "id": 357,
+   "en": "Summon",
+   "es": "Invocar"
+  },
+  {
+   "id": 358,
+   "en": "Forbidden Murmur",
+   "es": "Murmullo prohibido"
+  },
+  {
+   "id": 359,
+   "en": "Roar of Wrath",
+   "es": "Rugido de ira"
+  },
+  {
+   "id": 360,
+   "en": "Fanatical Spark",
+   "es": "Chispa fanática"
+  },
+  {
+   "id": 361,
+   "en": "Supreme Insight",
+   "es": "Comprensión suprema"
+  },
+  {
+   "id": 362,
+   "en": "Nihil Hand",
+   "es": "Toque nihilista"
+  },
+  {
+   "id": 363,
+   "en": "Ultra Charge",
+   "es": "Ultracarga"
+  },
+  {
+   "id": 364,
+   "en": "Nullity Guidance",
+   "es": "Guía de nulidad"
+  },
+  {
+   "id": 365,
+   "en": "Attack",
+   "es": "Ataque"
+  },
+  {
+   "id": 366,
+   "en": "Whisper",
+   "es": "Susurro"
+  },
+  {
+   "id": 367,
+   "en": "Chant",
+   "es": "Cántico"
+  },
+  {
+   "id": 368,
+   "en": "Prayer",
+   "es": "Plegaria"
+  },
+  {
+   "id": 369,
+   "en": "Character Setup",
+   "es": "Configuración del personaje"
+  },
+  {
+   "id": 370,
+   "en": "Command",
+   "es": "Acción"
+  },
+  {
+   "id": 371,
+   "en": "Command",
+   "es": "Acción"
+  },
+  {
+   "id": 372,
+   "en": "Command",
+   "es": "Acción"
+  },
+  {
+   "id": 373,
+   "en": "Command",
+   "es": "Acción"
+  },
+  {
+   "id": 374,
+   "en": "Command",
+   "es": "Acción"
+  },
+  {
+   "id": 375,
+   "en": "Command",
+   "es": "Acción"
+  },
+  {
+   "id": 376,
+   "en": "Element Zero",
+   "es": "Elemento cero"
+  },
+  {
+   "id": 377,
+   "en": "Mute Ray",
+   "es": "Rayo enmudecedor"
+  },
+  {
+   "id": 378,
+   "en": "Quad Converge",
+   "es": "Convergencia cuádruple"
+  },
+  {
+   "id": 379,
+   "en": "Control",
+   "es": "Control"
+  },
+  {
+   "id": 380,
+   "en": "Unerring Justice",
+   "es": "Justicia infalible"
+  },
+  {
+   "id": 381,
+   "en": "Nebula Oculus",
+   "es": "Nébula ocular"
+  },
+  {
+   "id": 382,
+   "en": "Quake",
+   "es": "Sismo"
+  },
+  {
+   "id": 383,
+   "en": "Bewildering Fog",
+   "es": "Niebla desconcertante"
+  },
+  {
+   "id": 384,
+   "en": "Bewildering Fog",
+   "es": "Niebla desconcertante"
+  },
+  {
+   "id": 385,
+   "en": "Thousand Curses",
+   "es": "Mil maldiciones"
+  },
+  {
+   "id": 386,
+   "en": "World's End",
+   "es": "Fin del mundo"
+  },
+  {
+   "id": 387,
+   "en": "Terror Voice",
+   "es": "Voz terrorífica"
+  },
+  {
+   "id": 388,
+   "en": "Control",
+   "es": "Control"
+  },
+  {
+   "id": 389,
+   "en": "Fury of Yasogami",
+   "es": "Furia de Yasogami"
+  },
+  {
+   "id": 390,
+   "en": "Bewildering Fog",
+   "es": "Niebla desconcertante"
+  },
+  {
+   "id": 391,
+   "en": "Summons to Yomi",
+   "es": "Invocar a Yomi"
+  },
+  {
+   "id": 392,
+   "en": "Kuro Ikazuchi",
+   "es": "Kuro Ikazuchi"
+  },
+  {
+   "id": 393,
+   "en": "Oho Ikazuchi",
+   "es": "Oho Ikazuchi"
+  },
+  {
+   "id": 394,
+   "en": "Megidolaon",
+   "es": "Megidolaon"
+  },
+  {
+   "id": 395,
+   "en": "Thousand Curses",
+   "es": "Mil maldiciones"
+  },
+  {
+   "id": 396,
+   "en": "18C",
+   "es": "18C"
+  },
+  {
+   "id": 397,
+   "en": "18D",
+   "es": "18D"
+  },
+  {
+   "id": 398,
+   "en": "18E",
+   "es": "18E"
+  },
+  {
+   "id": 399,
+   "en": "18F",
+   "es": "18F"
+  },
+  {
+   "id": 400,
+   "en": "190",
+   "es": "190"
+  },
+  {
+   "id": 401,
+   "en": "191",
+   "es": "191"
+  },
+  {
+   "id": 402,
+   "en": "192",
+   "es": "192"
+  },
+  {
+   "id": 403,
+   "en": "193",
+   "es": "193"
+  },
+  {
+   "id": 404,
+   "en": "194",
+   "es": "194"
+  },
+  {
+   "id": 405,
+   "en": "195",
+   "es": "195"
+  },
+  {
+   "id": 406,
+   "en": "196",
+   "es": "196"
+  },
+  {
+   "id": 407,
+   "en": "197",
+   "es": "197"
+  },
+  {
+   "id": 408,
+   "en": "198",
+   "es": "198"
+  },
+  {
+   "id": 409,
+   "en": "199",
+   "es": "199"
+  },
+  {
+   "id": 410,
+   "en": "19A",
+   "es": "19A"
+  },
+  {
+   "id": 411,
+   "en": "19B",
+   "es": "19B"
+  },
+  {
+   "id": 412,
+   "en": "19C",
+   "es": "19C"
+  },
+  {
+   "id": 413,
+   "en": "19D",
+   "es": "19D"
+  },
+  {
+   "id": 414,
+   "en": "19E",
+   "es": "19E"
+  },
+  {
+   "id": 415,
+   "en": "19F",
+   "es": "19F"
+  },
+  {
+   "id": 416,
+   "en": "1A0",
+   "es": "1A0"
+  },
+  {
+   "id": 417,
+   "en": "1A1",
+   "es": "1A1"
+  },
+  {
+   "id": 418,
+   "en": "1A2",
+   "es": "1A2"
+  },
+  {
+   "id": 419,
+   "en": "1A3",
+   "es": "1A3"
+  },
+  {
+   "id": 420,
+   "en": "1A4",
+   "es": "1A4"
+  },
+  {
+   "id": 421,
+   "en": "1A5",
+   "es": "1A5"
+  },
+  {
+   "id": 422,
+   "en": "1A6",
+   "es": "1A6"
+  },
+  {
+   "id": 423,
+   "en": "1A7",
+   "es": "1A7"
+  },
+  {
+   "id": 424,
+   "en": "1A8",
+   "es": "1A8"
+  },
+  {
+   "id": 425,
+   "en": "1A9",
+   "es": "1A9"
+  },
+  {
+   "id": 426,
+   "en": "1AA",
+   "es": "1AA"
+  },
+  {
+   "id": 427,
+   "en": "1AB",
+   "es": "1AB"
+  },
+  {
+   "id": 428,
+   "en": "1AC",
+   "es": "1AC"
+  },
+  {
+   "id": 429,
+   "en": "1AD",
+   "es": "1AD"
+  },
+  {
+   "id": 430,
+   "en": "1AE",
+   "es": "1AE"
+  },
+  {
+   "id": 431,
+   "en": "1AF",
+   "es": "1AF"
+  },
+  {
+   "id": 432,
+   "en": "1B0",
+   "es": "1B0"
+  },
+  {
+   "id": 433,
+   "en": "1B1",
+   "es": "1B1"
+  },
+  {
+   "id": 434,
+   "en": "1B2",
+   "es": "1B2"
+  },
+  {
+   "id": 435,
+   "en": "1B3",
+   "es": "1B3"
+  },
+  {
+   "id": 436,
+   "en": "1B4",
+   "es": "1B4"
+  },
+  {
+   "id": 437,
+   "en": "1B5",
+   "es": "1B5"
+  },
+  {
+   "id": 438,
+   "en": "1B6",
+   "es": "1B6"
+  },
+  {
+   "id": 439,
+   "en": "1B7",
+   "es": "1B7"
+  },
+  {
+   "id": 440,
+   "en": "Snow Flower Honey",
+   "es": "Miel de flor de nieve"
+  },
+  {
+   "id": 441,
+   "en": "Revival Rope",
+   "es": "Cuerda de resurrección"
+  },
+  {
+   "id": 442,
+   "en": "Sentou Seed",
+   "es": "Semilla de sentou"
+  },
+  {
+   "id": 443,
+   "en": "Sentou Petal",
+   "es": "Pétalo de sentou"
+  },
+  {
+   "id": 444,
+   "en": "Sentou Fruit",
+   "es": "Fruto de sentou"
+  },
+  {
+   "id": 445,
+   "en": "Fire Bell",
+   "es": "Campana de fuego"
+  },
+  {
+   "id": 446,
+   "en": "Ice Bell",
+   "es": "Campana de hielo"
+  },
+  {
+   "id": 447,
+   "en": "Wind Bell",
+   "es": "Campana de viento"
+  },
+  {
+   "id": 448,
+   "en": "Lightning Bell",
+   "es": "Campana de rayo"
+  },
+  {
+   "id": 449,
+   "en": "Flame Dotaku",
+   "es": "Dotaku de llama"
+  },
+  {
+   "id": 450,
+   "en": "Frigid Dotaku",
+   "es": "Dotaku de escarcha"
+  },
+  {
+   "id": 451,
+   "en": "Gale Dotaku",
+   "es": "Dotaku de vendaval"
+  },
+  {
+   "id": 452,
+   "en": "Bolt Dotaku",
+   "es": "Dotaku de centella"
+  },
+  {
+   "id": 453,
+   "en": "1C5",
+   "es": "1C5"
+  },
+  {
+   "id": 454,
+   "en": "1C6",
+   "es": "1C6"
+  },
+  {
+   "id": 455,
+   "en": "1C7",
+   "es": "1C7"
+  },
+  {
+   "id": 456,
+   "en": "1C8",
+   "es": "1C8"
+  },
+  {
+   "id": 457,
+   "en": "1C9",
+   "es": "1C9"
+  },
+  {
+   "id": 458,
+   "en": "1CA",
+   "es": "1CA"
+  },
+  {
+   "id": 459,
+   "en": "1CB",
+   "es": "1CB"
+  },
+  {
+   "id": 460,
+   "en": "1CC",
+   "es": "1CC"
+  },
+  {
+   "id": 461,
+   "en": "1CD",
+   "es": "1CD"
+  },
+  {
+   "id": 462,
+   "en": "1CE",
+   "es": "1CE"
+  },
+  {
+   "id": 463,
+   "en": "1CF",
+   "es": "1CF"
+  },
+  {
+   "id": 464,
+   "en": "1D0",
+   "es": "1D0"
+  },
+  {
+   "id": 465,
+   "en": "1D1",
+   "es": "1D1"
+  },
+  {
+   "id": 466,
+   "en": "1D2",
+   "es": "1D2"
+  },
+  {
+   "id": 467,
+   "en": "1D3",
+   "es": "1D3"
+  },
+  {
+   "id": 468,
+   "en": "1D4",
+   "es": "1D4"
+  },
+  {
+   "id": 469,
+   "en": "1D5",
+   "es": "1D5"
+  },
+  {
+   "id": 470,
+   "en": "1D6",
+   "es": "1D6"
+  },
+  {
+   "id": 471,
+   "en": "1D7",
+   "es": "1D7"
+  },
+  {
+   "id": 472,
+   "en": "Resist Physical",
+   "es": "Resistir físico"
+  },
+  {
+   "id": 473,
+   "en": "Null Physical",
+   "es": "Anular físico"
+  },
+  {
+   "id": 474,
+   "en": "Repel Physical",
+   "es": "Repeler físico"
+  },
+  {
+   "id": 475,
+   "en": "Absorb Physical",
+   "es": "Absorber físico"
+  },
+  {
+   "id": 476,
+   "en": "Resist Fire",
+   "es": "Resistir fuego"
+  },
+  {
+   "id": 477,
+   "en": "Null Fire",
+   "es": "Anular fuego"
+  },
+  {
+   "id": 478,
+   "en": "Repel Fire",
+   "es": "Repeler fuego"
+  },
+  {
+   "id": 479,
+   "en": "Absorb Fire",
+   "es": "Absorber fuego"
+  },
+  {
+   "id": 480,
+   "en": "Resist Ice",
+   "es": "Resistir hielo"
+  },
+  {
+   "id": 481,
+   "en": "Null Ice",
+   "es": "Anular hielo"
+  },
+  {
+   "id": 482,
+   "en": "Repel Ice",
+   "es": "Repeler hielo"
+  },
+  {
+   "id": 483,
+   "en": "Absorb Ice",
+   "es": "Absorber hielo"
+  },
+  {
+   "id": 484,
+   "en": "Resist Elec",
+   "es": "Resistir electricidad"
+  },
+  {
+   "id": 485,
+   "en": "Null Elec",
+   "es": "Anular electricidad"
+  },
+  {
+   "id": 486,
+   "en": "Repel Elec",
+   "es": "Repeler electricidad"
+  },
+  {
+   "id": 487,
+   "en": "Absorb Elec",
+   "es": "Absorber electric."
+  },
+  {
+   "id": 488,
+   "en": "Resist Wind",
+   "es": "Resistir viento"
+  },
+  {
+   "id": 489,
+   "en": "Null Wind",
+   "es": "Anular viento"
+  },
+  {
+   "id": 490,
+   "en": "Repel Wind",
+   "es": "Repeler viento"
+  },
+  {
+   "id": 491,
+   "en": "Absorb Wind",
+   "es": "Absorber viento"
+  },
+  {
+   "id": 492,
+   "en": "Resist Light",
+   "es": "Resistir luz"
+  },
+  {
+   "id": 493,
+   "en": "Null Light",
+   "es": "Anular luz"
+  },
+  {
+   "id": 494,
+   "en": "Repel Light",
+   "es": "Repeler luz"
+  },
+  {
+   "id": 495,
+   "en": "Resist Dark",
+   "es": "Resistir oscuridad"
+  },
+  {
+   "id": 496,
+   "en": "Null Dark",
+   "es": "Anular oscuridad"
+  },
+  {
+   "id": 497,
+   "en": "Repel Dark",
+   "es": "Repeler oscuridad"
+  },
+  {
+   "id": 498,
+   "en": "Null Panic",
+   "es": "Anular Pánico"
+  },
+  {
+   "id": 499,
+   "en": "Null Exhaust",
+   "es": "Anular Agotamiento"
+  },
+  {
+   "id": 500,
+   "en": "Null Mute",
+   "es": "Anular Silencio"
+  },
+  {
+   "id": 501,
+   "en": "Null Fear",
+   "es": "Anular Miedo"
+  },
+  {
+   "id": 502,
+   "en": "Null Rage",
+   "es": "Anular Furia"
+  },
+  {
+   "id": 503,
+   "en": "Null Poison",
+   "es": "Anular Veneno"
+  },
+  {
+   "id": 504,
+   "en": "Null Dizzy",
+   "es": "Anular Mareo"
+  },
+  {
+   "id": 505,
+   "en": "Null Enervate",
+   "es": "Anular Enervación"
+  },
+  {
+   "id": 506,
+   "en": "Unshaken Will",
+   "es": "Voluntad impasible"
+  },
+  {
+   "id": 507,
+   "en": "Masakados",
+   "es": "Masakados"
+  },
+  {
+   "id": 508,
+   "en": "Dodge Physical",
+   "es": "Esquivar físico"
+  },
+  {
+   "id": 509,
+   "en": "Evade Physical",
+   "es": "Evadir físico"
+  },
+  {
+   "id": 510,
+   "en": "Dodge Fire",
+   "es": "Esquivar fuego"
+  },
+  {
+   "id": 511,
+   "en": "Evade Fire",
+   "es": "Evadir fuego"
+  },
+  {
+   "id": 512,
+   "en": "Dodge Ice",
+   "es": "Esquivar hielo"
+  },
+  {
+   "id": 513,
+   "en": "Evade Ice",
+   "es": "Evadir hielo"
+  },
+  {
+   "id": 514,
+   "en": "Dodge Wind",
+   "es": "Esquivar viento"
+  },
+  {
+   "id": 515,
+   "en": "Evade Wind",
+   "es": "Evadir viento"
+  },
+  {
+   "id": 516,
+   "en": "Dodge Elec",
+   "es": "Esquivar electricidad"
+  },
+  {
+   "id": 517,
+   "en": "Evade Elec",
+   "es": "Evadir electricidad"
+  },
+  {
+   "id": 518,
+   "en": "Angelic Grace",
+   "es": "Gracia angelical"
+  },
+  {
+   "id": 519,
+   "en": "Fire Boost",
+   "es": "Potenc. de fuego"
+  },
+  {
+   "id": 520,
+   "en": "Fire Amp",
+   "es": "Amplif. de fuego"
+  },
+  {
+   "id": 521,
+   "en": "Ice Boost",
+   "es": "Potenc. de hielo"
+  },
+  {
+   "id": 522,
+   "en": "Ice Amp",
+   "es": "Amplif. de hielo"
+  },
+  {
+   "id": 523,
+   "en": "Elec Boost",
+   "es": "Potenc. de electric."
+  },
+  {
+   "id": 524,
+   "en": "Elec Amp",
+   "es": "Amplif. de electric."
+  },
+  {
+   "id": 525,
+   "en": "Wind Boost",
+   "es": "Potenc. de viento"
+  },
+  {
+   "id": 526,
+   "en": "Wind Amp",
+   "es": "Amplif. de viento"
+  },
+  {
+   "id": 527,
+   "en": "Certain Escape",
+   "es": "Escapatoria inmediata"
+  },
+  {
+   "id": 528,
+   "en": "HP Up 1",
+   "es": "Mejora de PS 1"
+  },
+  {
+   "id": 529,
+   "en": "HP Up 2",
+   "es": "Mejora de PS 2"
+  },
+  {
+   "id": 530,
+   "en": "HP Up 3",
+   "es": "Mejora de PS 3"
+  },
+  {
+   "id": 531,
+   "en": "SP Up 1",
+   "es": "Mejora de PE 1"
+  },
+  {
+   "id": 532,
+   "en": "SP Up 2",
+   "es": "Mejora de PE 2"
+  },
+  {
+   "id": 533,
+   "en": "SP Up 3",
+   "es": "Mejora de PE 3"
+  },
+  {
+   "id": 534,
+   "en": "Counter",
+   "es": "Réplica"
+  },
+  {
+   "id": 535,
+   "en": "Counterstrike",
+   "es": "Contraataque"
+  },
+  {
+   "id": 536,
+   "en": "High Counter",
+   "es": "Gran contraataque"
+  },
+  {
+   "id": 537,
+   "en": "Regenerate 1",
+   "es": "Regenerar 1"
+  },
+  {
+   "id": 538,
+   "en": "Regenerate 2",
+   "es": "Regenerar 2"
+  },
+  {
+   "id": 539,
+   "en": "Regenerate 3",
+   "es": "Regenerar 3"
+  },
+  {
+   "id": 540,
+   "en": "Invigorate 1",
+   "es": "Vigorizar 1"
+  },
+  {
+   "id": 541,
+   "en": "Invigorate 2",
+   "es": "Vigorizar 2"
+  },
+  {
+   "id": 542,
+   "en": "Invigorate 3",
+   "es": "Vigorizar 3"
+  },
+  {
+   "id": 543,
+   "en": "Growth 1",
+   "es": "Crecimiento 1"
+  },
+  {
+   "id": 544,
+   "en": "Growth 2",
+   "es": "Crecimiento 2"
+  },
+  {
+   "id": 545,
+   "en": "Growth 3",
+   "es": "Crecimiento 3"
+  },
+  {
+   "id": 546,
+   "en": "Auto-Tarukaja",
+   "es": "Auto-Tarukaja"
+  },
+  {
+   "id": 547,
+   "en": "Auto-Rakukaja",
+   "es": "Auto-Rakukaja"
+  },
+  {
+   "id": 548,
+   "en": "Auto-Sukukaja",
+   "es": "Auto-Sukukaja"
+  },
+  {
+   "id": 549,
+   "en": "Alertness",
+   "es": "Lucidez"
+  },
+  {
+   "id": 550,
+   "en": "Sharp Student",
+   "es": "Estudiante intelig."
+  },
+  {
+   "id": 551,
+   "en": "Apt Pupil",
+   "es": "Alumno hábil"
+  },
+  {
+   "id": 552,
+   "en": "Ali Dance",
+   "es": "Baile evasivo"
+  },
+  {
+   "id": 553,
+   "en": "Firm Stance",
+   "es": "Posición firme"
+  },
+  {
+   "id": 554,
+   "en": "Spell Master",
+   "es": "As de los hechizos"
+  },
+  {
+   "id": 555,
+   "en": "Arms Master",
+   "es": "As de las armas"
+  },
+  {
+   "id": 556,
+   "en": "HP Favor",
+   "es": "Favor de PS"
+  },
+  {
+   "id": 557,
+   "en": "SP Favor",
+   "es": "Favor de PE"
+  },
+  {
+   "id": 558,
+   "en": "Divine Grace",
+   "es": "Gracia divina"
+  },
+  {
+   "id": 559,
+   "en": "Endure",
+   "es": "Último aliento"
+  },
+  {
+   "id": 560,
+   "en": "Enduring Soul",
+   "es": "Alma inmortal"
+  },
+  {
+   "id": 561,
+   "en": "Survive Light",
+   "es": "Sobrevivir a luz"
+  },
+  {
+   "id": 562,
+   "en": "Survive Dark",
+   "es": "Sobrevivir a oscur."
+  },
+  {
+   "id": 563,
+   "en": "Auto-Maraku",
+   "es": "Auto-Maraku"
+  },
+  {
+   "id": 564,
+   "en": "Auto-Mataru",
+   "es": "Auto-Mataru"
+  },
+  {
+   "id": 565,
+   "en": "Auto-Masuku",
+   "es": "Auto-Masuku"
+  },
+  {
+   "id": 566,
+   "en": "Panic Boost",
+   "es": "Potenc. de Pánico"
+  },
+  {
+   "id": 567,
+   "en": "Poison Boost",
+   "es": "Potenc. de Veneno"
+  },
+  {
+   "id": 568,
+   "en": "Exhaust Boost",
+   "es": "Potenc. de Agotam."
+  },
+  {
+   "id": 569,
+   "en": "Silence Boost",
+   "es": "Potenc. de Silencio"
+  },
+  {
+   "id": 570,
+   "en": "Fear Boost",
+   "es": "Potenc. de Miedo"
+  },
+  {
+   "id": 571,
+   "en": "Rage Boost",
+   "es": "Potenc. de Furia"
+  },
+  {
+   "id": 572,
+   "en": "Dizzy Boost",
+   "es": "Potenc. de Mareo"
+  },
+  {
+   "id": 573,
+   "en": "Enervate Boost",
+   "es": "Potenc. de Enerv."
+  },
+  {
+   "id": 574,
+   "en": "Ailment Boost",
+   "es": "Potenc. est. alter."
+  },
+  {
+   "id": 575,
+   "en": "Hama Boost",
+   "es": "Potenc. de Hama"
+  },
+  {
+   "id": 576,
+   "en": "Mudo Boost",
+   "es": "Potenc. de Mudo"
+  },
+  {
+   "id": 577,
+   "en": "Endure Light",
+   "es": "Resistir luz"
+  },
+  {
+   "id": 578,
+   "en": "Endure Dark",
+   "es": "Resistir oscuridad"
+  },
+  {
+   "id": 579,
+   "en": "Cool Breeze",
+   "es": "Brisa fresca"
+  },
+  {
+   "id": 580,
+   "en": "Victory Cry",
+   "es": "Grito victorioso"
+  },
+  {
+   "id": 581,
+   "en": "Resist Poison",
+   "es": "Resistir Veneno"
+  },
+  {
+   "id": 582,
+   "en": "Resist Panic",
+   "es": "Resistir Pánico"
+  },
+  {
+   "id": 583,
+   "en": "Resist Fear",
+   "es": "Resistir Miedo"
+  },
+  {
+   "id": 584,
+   "en": "Resist Exhaust",
+   "es": "Resistir Agotam."
+  },
+  {
+   "id": 585,
+   "en": "Resist Enervate",
+   "es": "Resistir Enervación"
+  },
+  {
+   "id": 586,
+   "en": "Resist Rage",
+   "es": "Resistir Furia"
+  },
+  {
+   "id": 587,
+   "en": "Resist Dizzy",
+   "es": "Resistir Mareo"
+  },
+  {
+   "id": 588,
+   "en": "Resist Mute",
+   "es": "Resistir Silencio"
+  },
+  {
+   "id": 589,
+   "en": "HP Amp",
+   "es": "Amplificación de PS"
+  },
+  {
+   "id": 590,
+   "en": "SP Amp",
+   "es": "Amplificación de PE"
+  },
+  {
+   "id": 591,
+   "en": "Fast Heal",
+   "es": "Curación rápida"
+  },
+  {
+   "id": 592,
+   "en": "Insta-Heal",
+   "es": "Curación instantánea"
+  },
+  {
+   "id": 593,
+   "en": "Infinite Endure",
+   "es": "Resistencia infinita"
+  },
+  {
+   "id": 594,
+   "en": "Izanami Endure",
+   "es": "Resistencia a Izanami"
+  },
+  {
+   "id": 595,
+   "en": "Alienation Wall",
+   "es": "Muro de alienación"
+  },
+  {
+   "id": 596,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 597,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 598,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 599,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 600,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 601,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 602,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 603,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 604,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 605,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 606,
+   "en": "Mudo",
+   "es": "Mudo"
+  },
+  {
+   "id": 607,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 608,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 609,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 610,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 611,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 612,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 613,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 614,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 615,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 616,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 617,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 618,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 619,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 620,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 621,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 622,
+   "en": "Blank",
+   "es": "Blank"
+  },
+  {
+   "id": 623,
+   "en": "Blank",
+   "es": "Blank"
+  }
+ ],
+ "skillHelp": {
+  "0": {
+   "en": "Blank",
+   "es": "Blank"
+  },
+  "1": {
+   "en": "Deals light Fire damage to 1 foe.",
+   "es": "Inflige daño de fuego leve a un enemigo."
+  },
+  "2": {
+   "en": "Deals medium Fire damage to 1 foe.",
+   "es": "Inflige daño de fuego medio a un enemigo."
+  },
+  "3": {
+   "en": "Deals heavy Fire damage to 1 foe.",
+   "es": "Inflige daño de fuego grave a un enemigo."
+  },
+  "4": {
+   "en": "Deals light Fire damage to all foes.",
+   "es": "Inflige daño de fuego leve a los enem."
+  },
+  "5": {
+   "en": "Deals medium Fire damage to all foes.",
+   "es": "Inflige daño de fuego medio a los enem."
+  },
+  "6": {
+   "en": "Deals heavy Fire damage to all foes.",
+   "es": "Inflige daño de fuego grave a los enem."
+  },
+  "7": {
+   "en": "Deals heavy Fire damage to all foes.",
+   "es": "Inflige daño de fuego grave a los enem."
+  },
+  "8": {
+   "en": "Deals severe Fire damage to 1 foe.",
+   "es": "Inflige daño de fuego enorme a un enemigo."
+  },
+  "9": {
+   "en": "Deals severe Fire damage to all foes.",
+   "es": "Inflige daño de fuego enorme a los enem."
+  },
+  "10": {
+   "en": "Skill00A",
+   "es": "Skill00A"
+  },
+  "11": {
+   "en": "Skill00B",
+   "es": "Skill00B"
+  },
+  "12": {
+   "en": "Skill00C",
+   "es": "Skill00C"
+  },
+  "13": {
+   "en": "Skill00D",
+   "es": "Skill00D"
+  },
+  "14": {
+   "en": "Deals light Wind damage to 1 foe.",
+   "es": "Inflige daño de viento leve a un enemigo."
+  },
+  "15": {
+   "en": "Deals medium Wind damage to 1 foe.",
+   "es": "Inflige daño de viento medio a un enemigo."
+  },
+  "16": {
+   "en": "Deals heavy Wind damage to 1 foe.",
+   "es": "Inflige daño de viento grave a un enemigo."
+  },
+  "17": {
+   "en": "Deals light Wind damage to all foes.",
+   "es": "Inflige daño de viento leve a los enem."
+  },
+  "18": {
+   "en": "Deals medium Wind damage to all foes.",
+   "es": "Inflige daño de viento medio a los enem."
+  },
+  "19": {
+   "en": "Deals heavy Wind damage to all foes.",
+   "es": "Inflige daño de viento grave a los enem."
+  },
+  "20": {
+   "en": "Deals heavy Wind damage to all foes.",
+   "es": "Inflige daño de viento grave a los enem."
+  },
+  "21": {
+   "en": "Deals severe Wind damage to 1 foe.",
+   "es": "Inflige daño de viento enorme a un enemigo."
+  },
+  "22": {
+   "en": "Skill016",
+   "es": "Skill016"
+  },
+  "23": {
+   "en": "Skill017",
+   "es": "Skill017"
+  },
+  "24": {
+   "en": "Skill018",
+   "es": "Skill018"
+  },
+  "25": {
+   "en": "Skill019",
+   "es": "Skill019"
+  },
+  "26": {
+   "en": "Deals light Ice damage to 1 foe.",
+   "es": "Inflige daño de hielo leve a un enemigo."
+  },
+  "27": {
+   "en": "Deals medium Ice damage to 1 foe.",
+   "es": "Inflige daño de hielo medio a un enemigo."
+  },
+  "28": {
+   "en": "Deals heavy Ice damage to 1 foe.",
+   "es": "Inflige daño de hielo grave a un enemigo."
+  },
+  "29": {
+   "en": "Deals light Ice damage to all foes.",
+   "es": "Inflige daño de hielo leve a los enem."
+  },
+  "30": {
+   "en": "Deals medium Ice damage to all foes.",
+   "es": "Inflige daño de hielo medio a los enem."
+  },
+  "31": {
+   "en": "Deals heavy Ice damage to all foes.",
+   "es": "Inflige daño de hielo grave a los enem."
+  },
+  "32": {
+   "en": "Deals heavy Ice damage to all foes.",
+   "es": "Inflige daño de hielo grave a los enem."
+  },
+  "33": {
+   "en": "Deals severe Ice damage to 1 foe.",
+   "es": "Inflige daño de hielo enorme a un enemigo."
+  },
+  "34": {
+   "en": "Deals severe Ice damage to all foes.",
+   "es": "Inflige daño de hielo enorme a los enem."
+  },
+  "35": {
+   "en": "Skill023",
+   "es": "Skill023"
+  },
+  "36": {
+   "en": "Skill024",
+   "es": "Skill024"
+  },
+  "37": {
+   "en": "Skill025",
+   "es": "Skill025"
+  },
+  "38": {
+   "en": "Skill026",
+   "es": "Skill026"
+  },
+  "39": {
+   "en": "Deals light Elec damage to 1 foe.",
+   "es": "Inflige daño eléctrico leve a un enemigo."
+  },
+  "40": {
+   "en": "Deals medium Elec damage to 1 foe.",
+   "es": "Inflige daño eléctrico medio a un enemigo."
+  },
+  "41": {
+   "en": "Deals heavy Elec damage to 1 foe.",
+   "es": "Inflige daño eléctrico grave a un enemigo."
+  },
+  "42": {
+   "en": "Deals light Elec damage to all foes.",
+   "es": "Inflige daño eléctrico leve a los enem."
+  },
+  "43": {
+   "en": "Deals medium Elec damage to all foes.",
+   "es": "Inflige daño eléctrico medio a los enem."
+  },
+  "44": {
+   "en": "Deals heavy Elec damage to all foes.",
+   "es": "Inflige daño eléctrico grave a los enem."
+  },
+  "45": {
+   "en": "Deals heavy Elec damage to all foes.",
+   "es": "Inflige daño eléctrico grave a los enem."
+  },
+  "46": {
+   "en": "Deals severe Elec damage to 1 foe.",
+   "es": "Inflige daño eléctrico enorme a un enemigo."
+  },
+  "47": {
+   "en": "Skill02F",
+   "es": "Skill02F"
+  },
+  "48": {
+   "en": "Skill030",
+   "es": "Skill030"
+  },
+  "49": {
+   "en": "Skill031",
+   "es": "Skill031"
+  },
+  "50": {
+   "en": "Skill032",
+   "es": "Skill032"
+  },
+  "51": {
+   "en": "Deals medium Almighty damage to all foes.",
+   "es": "Inflige daño todopoderoso medio a los enem."
+  },
+  "52": {
+   "en": "Deals heavy Almighty damage to all foes.",
+   "es": "Inflige daño todopoderoso grave a los enem."
+  },
+  "53": {
+   "en": "Deals severe Almighty damage to all foes.",
+   "es": "Inflige daño todopoderoso enorme a los enem."
+  },
+  "54": {
+   "en": "Deals medium Almighty damage to everyone,",
+   "es": "Inflige daño todopoderoso medio a todo el mundo."
+  },
+  "55": {
+   "en": "Deals massive Almighty damage to 1 foe.",
+   "es": "Inflige daño todopoderoso descomunal a un enemigo."
+  },
+  "56": {
+   "en": "Deals massive Almighty damage to all foes.",
+   "es": "Inflige daño todopoderoso descomunal a los enem."
+  },
+  "57": {
+   "en": "Skill039",
+   "es": "Skill039"
+  },
+  "58": {
+   "en": "Skill03A",
+   "es": "Skill03A"
+  },
+  "59": {
+   "en": "Skill03B",
+   "es": "Skill03B"
+  },
+  "60": {
+   "en": "Skill03C",
+   "es": "Skill03C"
+  },
+  "61": {
+   "en": "Light: low chance of instant kill, 1 foe.",
+   "es": "Luz: prob. baja de asestar Golpe letal a un enemigo."
+  },
+  "62": {
+   "en": "Light: medium chance of instant kill, 1 foe.",
+   "es": "Luz: prob. media de asestar Golpe letal a un enemigo."
+  },
+  "63": {
+   "en": "Light: low chance of instant kill, all foes.",
+   "es": "Luz: prob. baja de asestar Golpe letal a los enem."
+  },
+  "64": {
+   "en": "Light: medium chance of instant kill, all foes.",
+   "es": "Luz: prob. media de asestar Golpe letal a los enem."
+  },
+  "65": {
+   "en": "Light: chance of reducing foes to 1/4 HP.",
+   "es": "Luz: prob. de reducir 1/4 de los PS de los enem."
+  },
+  "66": {
+   "en": "Light: chance of reducing foes to 1/2 HP.",
+   "es": "Luz: prob. de reducir 1/2 de los PS de los enem."
+  },
+  "67": {
+   "en": "Light: instant kill to all foes with no Light resistance.",
+   "es": "Luz: Golpe letal a los enem. sin res. a la luz."
+  },
+  "68": {
+   "en": "Skill044",
+   "es": "Skill044"
+  },
+  "69": {
+   "en": "Skill045",
+   "es": "Skill045"
+  },
+  "70": {
+   "en": "Skill046",
+   "es": "Skill046"
+  },
+  "71": {
+   "en": "Skill047",
+   "es": "Skill047"
+  },
+  "72": {
+   "en": "Darkness: low chance of instant kill, 1 foe.",
+   "es": "Oscuridad: prob. baja de asestar Golpe letal a un enemigo."
+  },
+  "73": {
+   "en": "Darkness: medium chance of instant kill, 1 foe.",
+   "es": "Oscuridad: prob. media de asestar Golpe letal a un enemigo."
+  },
+  "74": {
+   "en": "Darkness: low chance of instant kill, all foes.",
+   "es": "Oscuridad: prob. baja de asestar Golpe letal a los enem."
+  },
+  "75": {
+   "en": "Darkness: med chance of instant kill, all foes.",
+   "es": "Oscuridad: prob. media de asestar Golpe letal a los enem."
+  },
+  "76": {
+   "en": "Darkness: chance of reducing foes to 1/4 HP.",
+   "es": "Oscuridad: prob. de reducir 1/4 de los PS de los enem."
+  },
+  "77": {
+   "en": "Darkness: chance of reducing foes to 1/2 HP.",
+   "es": "Oscuridad: prob. de reducir 1/2 de los PS de los enem."
+  },
+  "78": {
+   "en": "Darkness: instant kill to all foes with no Darkness resistance.",
+   "es": "Oscuridad: Golpe letal a los enem. sin res. a la oscuridad."
+  },
+  "79": {
+   "en": "Skill04F",
+   "es": "Skill04F"
+  },
+  "80": {
+   "en": "Skill050",
+   "es": "Skill050"
+  },
+  "81": {
+   "en": "Skill051",
+   "es": "Skill051"
+  },
+  "82": {
+   "en": "Skill052",
+   "es": "Skill052"
+  },
+  "83": {
+   "en": "Makes 1 foe Panic.",
+   "es": "Infunde pánico a un enemigo."
+  },
+  "84": {
+   "en": "Makes all foes Panic.",
+   "es": "Infunde pánico a los enem."
+  },
+  "85": {
+   "en": "Instills Fear in 1 foe.",
+   "es": "Infunde miedo a un enemigo."
+  },
+  "86": {
+   "en": "Instills Fear in all foes.",
+   "es": "Infunde miedo a los enem."
+  },
+  "87": {
+   "en": "Instantly kills foes who are Feared.",
+   "es": "Mata al instante a los enem. que tienen Miedo."
+  },
+  "88": {
+   "en": "Enrages 1 foe.",
+   "es": "Enfurece a un enemigo."
+  },
+  "89": {
+   "en": "Enrages all foes.",
+   "es": "Enfurece a los enem."
+  },
+  "90": {
+   "en": "Poisons 1 foe.",
+   "es": "Envenena a un enemigo."
+  },
+  "91": {
+   "en": "Poisons all foes.",
+   "es": "Envenena a los enem."
+  },
+  "92": {
+   "en": "Exhausts 1 foe.",
+   "es": "Agota a un enemigo."
+  },
+  "93": {
+   "en": "Exhausts all foes.",
+   "es": "Agota a los enem."
+  },
+  "94": {
+   "en": "Enervates 1 foe.",
+   "es": "Enerva a un enemigo."
+  },
+  "95": {
+   "en": "Enervates all foes.",
+   "es": "Enerva a los enem."
+  },
+  "96": {
+   "en": "Reduces 1 foe's HP to 1 and has a chance of Enervation.",
+   "es": "Reduce los PS de un enem. a 1 y prob. de infundir Enervación."
+  },
+  "97": {
+   "en": "Silences 1 foe.",
+   "es": "Silencia a un enemigo."
+  },
+  "98": {
+   "en": "Silences all foes.",
+   "es": "Silencia a los enem."
+  },
+  "99": {
+   "en": "Increases chances of all status ailments for 1 foe (temporary)",
+   "es": "Aumenta la prob. de infligir estados alter. a un enemigo (temporal)."
+  },
+  "100": {
+   "en": "Increases chances of all status ailments for all foes (temporary)",
+   "es": "Aumenta la prob. de infligir estados alter. a los enem. (temporal)."
+  },
+  "101": {
+   "en": "Drains 1 foe's HP.",
+   "es": "Absorbe PS de un enemigo."
+  },
+  "102": {
+   "en": "Drains 1 foe's SP.",
+   "es": "Absorbe PE de un enemigo."
+  },
+  "103": {
+   "en": "Drains a large amount of 1 foe's HP.",
+   "es": "Absorbe una gran cantidad de PS de un enemigo."
+  },
+  "104": {
+   "en": "Drains a large amount of a foe's SP.",
+   "es": "Absorbe una gran cantidad de PE de un enemigo."
+  },
+  "105": {
+   "en": "HP of all foes that are weark to Light/Darkness are reduced to 1.",
+   "es": "Los PS de los enem. débiles a luz/oscuridad se reducen a 1."
+  },
+  "106": {
+   "en": "Enrages 1 target.",
+   "es": "Enfurece a un objetivo."
+  },
+  "107": {
+   "en": "Skill06B",
+   "es": "Skill06B"
+  },
+  "108": {
+   "en": "Skill06C",
+   "es": "Skill06C"
+  },
+  "109": {
+   "en": "Skill06D",
+   "es": "Skill06D"
+  },
+  "110": {
+   "en": "Skill06E",
+   "es": "Skill06E"
+  },
+  "111": {
+   "en": "Skill06F",
+   "es": "Skill06F"
+  },
+  "112": {
+   "en": "Skill070",
+   "es": "Skill070"
+  },
+  "113": {
+   "en": "Skill071",
+   "es": "Skill071"
+  },
+  "114": {
+   "en": "Skill072",
+   "es": "Skill072"
+  },
+  "115": {
+   "en": "Skill073",
+   "es": "Skill073"
+  },
+  "116": {
+   "en": "Skill074",
+   "es": "Skill074"
+  },
+  "117": {
+   "en": "Skill075",
+   "es": "Skill075"
+  },
+  "118": {
+   "en": "Skill076",
+   "es": "Skill076"
+  },
+  "119": {
+   "en": "Skill077",
+   "es": "Skill077"
+  },
+  "120": {
+   "en": "Deals light Phys damage to 1 foe.",
+   "es": "Inflige daño físico leve a un enemigo."
+  },
+  "121": {
+   "en": "Deals light Phys damage to 1 foe.",
+   "es": "Inflige daño físico leve a un enemigo."
+  },
+  "122": {
+   "en": "Deals light Phys damage to 1 foe.",
+   "es": "Inflige daño físico leve a un enemigo."
+  },
+  "123": {
+   "en": "Deals light Phys damage to 1 foe.",
+   "es": "Inflige daño físico leve a un enemigo."
+  },
+  "124": {
+   "en": "Deals light Phys damage to 1 foe 2x.",
+   "es": "Inflige daño físico leve x2 a un enemigo."
+  },
+  "125": {
+   "en": "Deals light Phys damage to 1 foe 1x to 3x.",
+   "es": "Inflige daño físico leve entre x1 y x3 a un enemigo."
+  },
+  "126": {
+   "en": "Deals light Phys damage to all foes 1x to 2x.",
+   "es": "Inflige daño físico leve entre x1 y x2 a los enem."
+  },
+  "127": {
+   "en": "Deals light Phys damage to 1 foe 2x.",
+   "es": "Inflige daño físico leve x2 a un enemigo."
+  },
+  "128": {
+   "en": "Deals medium Phys damage to 1 foe.",
+   "es": "Inflige daño físico medio a un enemigo."
+  },
+  "129": {
+   "en": "Deals medium Phys damage to 1 foe.",
+   "es": "Inflige daño físico medio a un enemigo."
+  },
+  "130": {
+   "en": "Deals medium Phys damage to 1 foe 2x to 3x.",
+   "es": "Inflige daño físico medio entre x2 y x3 a un enemigo."
+  },
+  "131": {
+   "en": "Deals medium Phys damage to all enemies.",
+   "es": "Inflige daño físico medio a los enem."
+  },
+  "132": {
+   "en": "Deals heavy Phys damage to 1 foe.",
+   "es": "Inflige daño físico grave a un enemigo."
+  },
+  "133": {
+   "en": "Deals medium Phys damage to all foes 2x to 4x.",
+   "es": "Inflige daño físico medio entre x2 y x4 a los enem."
+  },
+  "134": {
+   "en": "Deals heavy Phys damage to all foes.",
+   "es": "Inflige daño físico grave a los enem."
+  },
+  "135": {
+   "en": "Deals heavy Phys damage to all foes 2x.",
+   "es": "Inflige daño físico grave x2 a los enem."
+  },
+  "136": {
+   "en": "Deals heavy Phys damage to all foes 1x to 2x.",
+   "es": "Inflige daño físico grave entre x1 y x2 a los enem."
+  },
+  "137": {
+   "en": "Deals heavy Phys damage to 1 foe 1x to 2x.",
+   "es": "Inflige daño físico grave entre x1 y x2 a un enemigo."
+  },
+  "138": {
+   "en": "Deals heavy Phys damage to 1 foe.",
+   "es": "Inflige daño físico grave a un enemigo."
+  },
+  "139": {
+   "en": "Deals heavy Phys damage to all foes 1x to 3x.",
+   "es": "Inflige daño físico grave entre x1 y x3 a los enem."
+  },
+  "140": {
+   "en": "Deals severe Phys damage to 1 foe.",
+   "es": "Inflige daño físico enorme a un enemigo."
+  },
+  "141": {
+   "en": "Deals severe Phys damage to all foes with a high chance of instant kills.",
+   "es": "Inflige daño físico enorme a los enem. y alta prob. de Golpe letal."
+  },
+  "142": {
+   "en": "Deals severe Phys damage to 1 foe.",
+   "es": "Inflige daño físico enorme a un enemigo."
+  },
+  "143": {
+   "en": "Deals heavy Phys damage to all foes.",
+   "es": "Inflige daño físico grave a los enem."
+  },
+  "144": {
+   "en": "Deals medium Phys damage to 1 foe.",
+   "es": "Inflige daño físico medio a un enemigo."
+  },
+  "145": {
+   "en": "Deals light Phys damage to all foes.",
+   "es": "Inflige daño físico leve a los enem."
+  },
+  "146": {
+   "en": "Deals severe Phys damage to 1 foe.",
+   "es": "Inflige daño físico enorme a un enemigo."
+  },
+  "147": {
+   "en": "Deals medium Phys damage to all foes.",
+   "es": "Inflige daño físico medio a los enem."
+  },
+  "148": {
+   "en": "Deals heavy Phys damage to all foes.",
+   "es": "Inflige daño físico grave a los enem."
+  },
+  "149": {
+   "en": "Deals light Phys damage to 1 foe.",
+   "es": "Inflige daño físico leve a un enemigo."
+  },
+  "150": {
+   "en": "Deals light Phys damage to 1 foe.",
+   "es": "Inflige daño físico leve a un enemigo."
+  },
+  "151": {
+   "en": "Deals light Phys damage to 1 foe with a chance of Poison.",
+   "es": "Inflige daño físico leve a un enemigo y prob. de Veneno."
+  },
+  "152": {
+   "en": "Deals medium Phys damage to 1 foe with a chance of Poison.",
+   "es": "Inflige daño físico medio a un enemigo y prob. de Veneno."
+  },
+  "153": {
+   "en": "Deals heavy Phys damage to all foes with a chance of Poison.",
+   "es": "Inflige daño físico grave a los enem. y prob. de Veneno."
+  },
+  "154": {
+   "en": "Deals heavy Phys damage to all foes with a chance of Poison.",
+   "es": "Inflige daño físico grave a los enem. y prob. de Veneno."
+  },
+  "155": {
+   "en": "Deals light Phys damage to 1 foe with a chance of Panic.",
+   "es": "Inflige daño físico leve a un enemigo y prob. de Pánico."
+  },
+  "156": {
+   "en": "Deals medium Phys damage to all foes with a chance of Panic.",
+   "es": "Inflige daño físico medio a los enem. y prob. de Pánico."
+  },
+  "157": {
+   "en": "Deals light Phys damage to 1 foe with a chance of Rage.",
+   "es": "Inflige daño físico leve a un enemigo y prob. de Furia."
+  },
+  "158": {
+   "en": "Deals medium Phys damage to all foes with a chance of Rage.",
+   "es": "Inflige daño físico medio a los enem. y prob. de Furia."
+  },
+  "159": {
+   "en": "Deals light Phys damage to 1 foe with a chance of Silence.",
+   "es": "Inflige daño físico leve a un enemigo y prob. de Silencio."
+  },
+  "160": {
+   "en": "Deals medium Phys damage to all foes with a chance of Silence.",
+   "es": "Inflige daño físico medio a los enem. y prob. de Silencio."
+  },
+  "161": {
+   "en": "Deals light Phys damage to 1 foe with a chance of Fear.",
+   "es": "Inflige daño físico leve a un enemigo y prob. de Miedo."
+  },
+  "162": {
+   "en": "Deals med Phys damage to all foes 1x to 2x with a chance of Fear.",
+   "es": "Inflige daño físico grave entre x1 y x2 a los enem. y prob. de Miedo."
+  },
+  "163": {
+   "en": "Deals light Phys damage to 1 foe with a chance of Enervation.",
+   "es": "Inflige daño físico leve a un enemigo y prob. de Enervación."
+  },
+  "164": {
+   "en": "Deals medium Phys damage to all foes with a chance of Enervation.",
+   "es": "Inflige daño físico medio a los enem. y prob. de Enervación."
+  },
+  "165": {
+   "en": "Deals light Phys damage to 1 foe 1x to 3x with a chance of Exhaustion.",
+   "es": "Inflige daño físico leve entre x1 y x3 a un enem. y prob. de Agotamiento."
+  },
+  "166": {
+   "en": "Deals medium Phys damage to all foes with a chance of Exhaustion.",
+   "es": "Inflige daño físico medio a los enem. y prob. de Agotamiento."
+  },
+  "167": {
+   "en": "Deals medium Phys damage to 1 foe with a chance of Fear.",
+   "es": "Inflige daño físico medio a un enemigo y prob. de Miedo."
+  },
+  "168": {
+   "en": "Deals medium Phys damage to 1 foe.",
+   "es": "Inflige daño físico medio a un enemigo."
+  },
+  "169": {
+   "en": "Deals heavy Phys damage to 1 foe.",
+   "es": "Inflige daño físico grave a un enemigo."
+  },
+  "170": {
+   "en": "Deals light Phys damage to all foes 8x.",
+   "es": "Inflige daño físico leve x8 a los enem."
+  },
+  "171": {
+   "en": "Deals light Phys damage to all foes 1x to 3x.",
+   "es": "Inflige daño físico leve entre x1 y x3 a los enem."
+  },
+  "172": {
+   "en": "Deals medium Phys damage to all foes 1x to 3x.",
+   "es": "Inflige daño físico medio entre x1 y x3 a los enem."
+  },
+  "173": {
+   "en": "Deals heavy Phys damage to all foes 1x to 3x.",
+   "es": "Inflige daño físico grave entre x1 y x3 a los enem."
+  },
+  "174": {
+   "en": "Med Phys dmg, 1 foe. Bonus damage to foes that are Down.",
+   "es": "Daño físico medio a un enemigo. Daño adicional a enem. derribados."
+  },
+  "175": {
+   "en": "Hvy Phys dmg, 1 foe. Bonus damage to foes that are Down.",
+   "es": "Daño físico grave a un enemigo. Daño adicional a enem. derribados."
+  },
+  "176": {
+   "en": "Skill0B0",
+   "es": "Skill0B0"
+  },
+  "177": {
+   "en": "Skill0B1",
+   "es": "Skill0B1"
+  },
+  "178": {
+   "en": "Skill0B2",
+   "es": "Skill0B2"
+  },
+  "179": {
+   "en": "Skill0B3",
+   "es": "Skill0B3"
+  },
+  "180": {
+   "en": "Skill0B4",
+   "es": "Skill0B4"
+  },
+  "181": {
+   "en": "Skill0B5",
+   "es": "Skill0B5"
+  },
+  "182": {
+   "en": "Skill0B6",
+   "es": "Skill0B6"
+  },
+  "183": {
+   "en": "Skill0B7",
+   "es": "Skill0B7"
+  },
+  "184": {
+   "en": "Skill0B8",
+   "es": "Skill0B8"
+  },
+  "185": {
+   "en": "Skill0B9",
+   "es": "Skill0B9"
+  },
+  "186": {
+   "en": "Skill0BA",
+   "es": "Skill0BA"
+  },
+  "187": {
+   "en": "Skill0BB",
+   "es": "Skill0BB"
+  },
+  "188": {
+   "en": "Skill0BC",
+   "es": "Skill0BC"
+  },
+  "189": {
+   "en": "Skill0BD",
+   "es": "Skill0BD"
+  },
+  "190": {
+   "en": "Skill0BD",
+   "es": "Skill0BD"
+  },
+  "191": {
+   "en": "Skill0BF",
+   "es": "Skill0BF"
+  },
+  "192": {
+   "en": "Slightly restores 1 ally's HP.",
+   "es": "Restaura un poco los PS de un aliado."
+  },
+  "193": {
+   "en": "Moderately restores 1 ally's HP.",
+   "es": "Restaura moderadamente los PS de un aliado."
+  },
+  "194": {
+   "en": "Fully restores 1 ally's HP.",
+   "es": "Restaura todos los PS de un aliado."
+  },
+  "195": {
+   "en": "Slightly restores party's HP.",
+   "es": "Restaura un poco los PS del grupo."
+  },
+  "196": {
+   "en": "Moderately restores party's HP.",
+   "es": "Restaura moderadamente los PS del grupo."
+  },
+  "197": {
+   "en": "Fully restores party's HP.",
+   "es": "Restaura todos los PS del grupo."
+  },
+  "198": {
+   "en": "Fully restores party's HP. Cures ailments.",
+   "es": "Restaura los PS del grupo. Cura los estados alter."
+  },
+  "199": {
+   "en": "Dispels Panic, Fear, and Rage (1 ally).",
+   "es": "Neutraliza Pánico, Miedo y Furia (un aliado)."
+  },
+  "200": {
+   "en": "Dispels Panic, Fear, and Rage (party).",
+   "es": "Neutraliza Pánico, Miedo y Furia (grupo)."
+  },
+  "201": {
+   "en": "Recovers 1 ally from Knockdown or Dizzy status.",
+   "es": "Cura Derribo o Mareo a un aliado."
+  },
+  "202": {
+   "en": "Neutralizes Poison (1 ally).",
+   "es": "Neutraliza Veneno (un aliado)."
+  },
+  "203": {
+   "en": "Cures Silence (1 ally).",
+   "es": "Cura Silencio (un aliado)."
+  },
+  "204": {
+   "en": "Recovers Exhaustion (1 ally).",
+   "es": "Cura Agotamiento (un aliado)."
+  },
+  "205": {
+   "en": "Cures Enervation (1 ally).",
+   "es": "Cura Enervación (un aliado)."
+  },
+  "206": {
+   "en": "Cures Enervation/ Exhaustion (1 ally).",
+   "es": "Cura Enervación/ Agotamiento (un aliado)."
+  },
+  "207": {
+   "en": "Cures Enervation/ Exhaustion (party).",
+   "es": "Cura Enervación/ Agotamiento (grupo)."
+  },
+  "208": {
+   "en": "Cures all ailments except Down and KO (party).",
+   "es": "Cura todos los estados alter. salvo Derribo e Inconsciencia (grupo)."
+  },
+  "209": {
+   "en": "Revives an ally with 50% HP.",
+   "es": "Revive a un aliado con el 50 % de sus PS."
+  },
+  "210": {
+   "en": "Revives an ally with full HP.",
+   "es": "Revive a un aliado con todos sus PS."
+  },
+  "211": {
+   "en": "Decreases 1 foe's Attack for 3 turns.",
+   "es": "Reduce el ataque de un enemigo durante 3 turnos."
+  },
+  "212": {
+   "en": "Decreases all foes' Attack for 3 turns.",
+   "es": "Reduce el ataque de los enem. durante 3 turnos."
+  },
+  "213": {
+   "en": "Decreases 1 foe's Hit/Evasion rates for 3 turns.",
+   "es": "Reduce la prob. de golpe/ evasión de un enemigo durante 3 turnos."
+  },
+  "214": {
+   "en": "Decreases all foes' Hit/Evasion rates for 3 turns.",
+   "es": "Reduce la prob. de golpe/ evasión de los enem. durante 3 turnos."
+  },
+  "215": {
+   "en": "Decreases 1 foe's Defense for 3 turns.",
+   "es": "Reduce la defensa de un enemigo durante 3 turnos."
+  },
+  "216": {
+   "en": "Decreases all foes' Defense for 3 turns.",
+   "es": "Reduce la defensa de los enem. durante 3 turnos."
+  },
+  "217": {
+   "en": "Nullifies stat penalties on party.",
+   "es": "Anula las penalizaciones de estadística del grupo."
+  },
+  "218": {
+   "en": "Increases 1 ally's Attack for 3 turns.",
+   "es": "Aumenta el ataque de un aliado durante 3 turnos."
+  },
+  "219": {
+   "en": "Increases party's Attack for 3 turns.",
+   "es": "Aumenta el ataque del grupo durante 3 turnos."
+  },
+  "220": {
+   "en": "Increases 1 ally's Hit/Evasion rate for 3 turns.",
+   "es": "Aumenta la prob. de golpe/ evasión de un aliado durante 3 turnos."
+  },
+  "221": {
+   "en": "Increases party's Hit/Evasion rate for 3 turns.",
+   "es": "Aumenta la prob. de golpe/ evasión del grupo durante 3 turnos."
+  },
+  "222": {
+   "en": "Increases 1 ally's Defense for 3 turns.",
+   "es": "Aumenta la defensa de un aliado durante 3 turnos."
+  },
+  "223": {
+   "en": "Increases party's Defense for 3 turns.",
+   "es": "Aumenta la defensa del grupo durante 3 turnos."
+  },
+  "224": {
+   "en": "Nullifies stat bonuses on all foes.",
+   "es": "Anula las bonif. de estadística de los enem."
+  },
+  "225": {
+   "en": "Increases Attack, Defense, and Hit/Evasion rate (1 ally).",
+   "es": "Aumenta el ataque, defensa y prob. de golpe/ evasión (un aliado)."
+  },
+  "226": {
+   "en": "Decreases Attack, Defense, and Hit/Evasion rate (1 foe).",
+   "es": "Reduce el ataque, defensa y prob. de golpe/ evasión (un enemigo)."
+  },
+  "227": {
+   "en": "Doubles damage of next physical attack.",
+   "es": "Duplica el daño del siguiente ataque físico."
+  },
+  "228": {
+   "en": "Doubles damage of next magic attack.",
+   "es": "Duplica el daño del siguiente ataque mágico."
+  },
+  "229": {
+   "en": "Barrier that reflects phys dmg once.",
+   "es": "Barrera que refleja el daño físico una vez."
+  },
+  "230": {
+   "en": "Barrier that reflects magic dmg once.",
+   "es": "Barrera que refleja el daño mágico una vez."
+  },
+  "231": {
+   "en": "Negate all foes' Tetrakarn.",
+   "es": "Elimina Tetrakarn de los enem."
+  },
+  "232": {
+   "en": "Negate all foes' Makarakarn.",
+   "es": "Elimina Makarakarn de los enem."
+  },
+  "233": {
+   "en": "Nullifies instant kill attack once (1 ally).",
+   "es": "Anula un Golpe letal una vez (un aliado)."
+  },
+  "234": {
+   "en": "Increases Critical Rate (1 ally).",
+   "es": "Aumenta la prob. de críticos (un aliado)."
+  },
+  "235": {
+   "en": "Increases Critical Rate (all).",
+   "es": "Aumenta la prob. de críticos (todos)."
+  },
+  "236": {
+   "en": "Nullifies 1 foe's Fire resistance.",
+   "es": "Anula la res. al fuego de un enemigo."
+  },
+  "237": {
+   "en": "Nullifies 1 foe's Ice resistance.",
+   "es": "Anula la res. al hielo de un enemigo."
+  },
+  "238": {
+   "en": "Nullifies 1 foe's Wind resistance.",
+   "es": "Anula la res. al viento de un enemigo."
+  },
+  "239": {
+   "en": "Nullifies 1 foe's Elec resistance.",
+   "es": "Anula la res. eléctrica de un enemigo."
+  },
+  "240": {
+   "en": "Add Fire resistance to 1 ally.",
+   "es": "Añade res. al fuego a un aliado."
+  },
+  "241": {
+   "en": "Add Ice resistance to 1 ally.",
+   "es": "Añade res. al hielo a un aliado."
+  },
+  "242": {
+   "en": "Add Elec resistance to 1 ally.",
+   "es": "Añade res. eléctrica a un aliado."
+  },
+  "243": {
+   "en": "Add Wind resistance to 1 ally.",
+   "es": "Añade res. al viento a un aliado."
+  },
+  "244": {
+   "en": "Enables escape from most battles.",
+   "es": "Permite escapar de la mayoría de combates."
+  },
+  "245": {
+   "en": "Recovers all allies' HP, but caster's HP falls to 1.",
+   "es": "Recupera los PS de los aliados, pero reduce los del usuario a 1."
+  },
+  "246": {
+   "en": "Instantly escape from a dungeon.",
+   "es": "Escapa al instante de una mazmorra."
+  },
+  "247": {
+   "en": "Moderately restores party's HP and raises Hit/Evasion rate for 3 turns.",
+   "es": "Restaura moder. los PS del grupo y aumenta la prob. de golpe/evasión (3 turnos)."
+  },
+  "248": {
+   "en": "Increases party's Attack, Defense, and Hit/Evade.",
+   "es": "Aumenta el ataque, defensa y prob. de golpe/ evasión del grupo."
+  },
+  "249": {
+   "en": "Deals severe Fire damage to all foes.",
+   "es": "Inflige daño de fuego enorme a los enem."
+  },
+  "250": {
+   "en": "May inflict Down/Dizzy on all foes.",
+   "es": "Posib. de infligir Derribo/Mareo a los enem."
+  },
+  "251": {
+   "en": "Anything could happen...",
+   "es": "Podría pasar cualquier cosa..."
+  },
+  "252": {
+   "en": "Shields the party from all damage once.",
+   "es": "Protege al grupo de todo daño una vez."
+  },
+  "253": {
+   "en": "View foe's skills and affinities, including those you have not tried.",
+   "es": "Ver las hab. y afinidades del enemigo, incluidas las que no has probado."
+  },
+  "254": {
+   "en": "Skill0FE",
+   "es": "Skill0FE"
+  },
+  "255": {
+   "en": "Skill0FF",
+   "es": "Skill0FF"
+  },
+  "256": {
+   "en": "Special gang bashing 1.",
+   "es": "Ataque de grupo especial 1."
+  },
+  "257": {
+   "en": "Special gang bashing 2.",
+   "es": "Ataque de grupo especial 2."
+  },
+  "258": {
+   "en": "Special gang bashing 3.",
+   "es": "Ataque de grupo especial 3."
+  },
+  "259": {
+   "en": "Lose money when Panicked.",
+   "es": "Se pierde dinero al entrar en Pánico."
+  },
+  "260": {
+   "en": "Yosuke's special attack.",
+   "es": "Ataque especial de Yosuke."
+  },
+  "261": {
+   "en": "Chie's special attack.",
+   "es": "Ataque especial de Chie."
+  },
+  "262": {
+   "en": "Yukiko's special attack.",
+   "es": "Ataque especial de Yukiko."
+  },
+  "263": {
+   "en": "Kanji's special attack.",
+   "es": "Ataque especial de Kanji."
+  },
+  "264": {
+   "en": "Teddie's special attack.",
+   "es": "Ataque especial de Teddie."
+  },
+  "265": {
+   "en": "Naoto's special attack.",
+   "es": "Ataque especial de Naoto."
+  },
+  "266": {
+   "en": "Chie's special attack (Boss only).",
+   "es": "Ataque especial de Chie (solo jefes)."
+  },
+  "267": {
+   "en": "Reveals enemy skills and affinities you've tried when using Analyze.",
+   "es": "Revela las hab. y afinidades del enem. que has probado al usar Analizar."
+  },
+  "268": {
+   "en": "Shows whether an attack will be effective when choosing a target.",
+   "es": "Muestra si un ataque será eficaz o no al elegir un objetivo."
+  },
+  "269": {
+   "en": "Displays one foe's weakness at the start of battle.",
+   "es": "Muestra las debilidades de un enemigo al comenzar el combate."
+  },
+  "270": {
+   "en": "Recovers 5% HP at the end of battle.",
+   "es": "Recupera un 5 % de los PS al final del combate."
+  },
+  "271": {
+   "en": "Recovers 5% SP at the end of battle.",
+   "es": "Recupera un 5 % de los PE al final del combate."
+  },
+  "272": {
+   "en": "Allows you to analyze foes to find weaknesses.",
+   "es": "Permite analizar enem. para descubrir sus puntos débiles."
+  },
+  "273": {
+   "en": "Summon one unit.",
+   "es": "Invoca a una unidad."
+  },
+  "274": {
+   "en": "Displays foes in a wide area of the map, even in unexplored areas.",
+   "es": "Muestra enem. en una zona amplia del mapa, incluso sin explorar."
+  },
+  "275": {
+   "en": "Displays all treasures on the dungeon map.",
+   "es": "Muestra los tesoros en el mapa de mazmorra."
+  },
+  "276": {
+   "en": "Allows you to escape from almost all battles.",
+   "es": "Permite escapar de casi todos los combates."
+  },
+  "277": {
+   "en": "The word of power that banishes all the world's curses and falsehoods.",
+   "es": "La palabra poderosa que elimina las maldiciones y falsedades del mundo."
+  },
+  "278": {
+   "en": "Skill116",
+   "es": "Skill116"
+  },
+  "279": {
+   "en": "Skill117",
+   "es": "Skill117"
+  },
+  "280": {
+   "en": "Skill118",
+   "es": "Skill118"
+  },
+  "281": {
+   "en": "Skill119",
+   "es": "Skill119"
+  },
+  "282": {
+   "en": "Skill11A",
+   "es": "Skill11A"
+  },
+  "283": {
+   "en": "Skill11B",
+   "es": "Skill11B"
+  },
+  "284": {
+   "en": "Skill11C",
+   "es": "Skill11C"
+  },
+  "285": {
+   "en": "Skill11D",
+   "es": "Skill11D"
+  },
+  "286": {
+   "en": "Party recovers 10% of its HP after battle.",
+   "es": "El grupo recupera un 10 % de los PS tras el combate."
+  },
+  "287": {
+   "en": "Party recovers 10% of its SP after battle.",
+   "es": "El grupo recupera un 10 % de los PE tras el combate."
+  },
+  "288": {
+   "en": "Item Restores 10HP to an ally.",
+   "es": "Objeto Restaura 10 PS a un aliado."
+  },
+  "289": {
+   "en": "Item Restores 50HP to an ally.",
+   "es": "Objeto Restaura 50 PS a un aliado."
+  },
+  "290": {
+   "en": "Item Restores 100HP to an ally.",
+   "es": "Objeto Restaura 100 PS a un aliado."
+  },
+  "291": {
+   "en": "Item Restores 200HP to an ally.",
+   "es": "Objeto Restaura 200 PS a un aliado."
+  },
+  "292": {
+   "en": "Item Restores 25% of an ally's max HP.",
+   "es": "Objeto Restaura el 25 % de los PS máx. de un aliado."
+  },
+  "293": {
+   "en": "Item Fully restores an ally's HP.",
+   "es": "Objeto Restaura todos los PS de un aliado."
+  },
+  "294": {
+   "en": "Item Restore 50HP of all allies.",
+   "es": "Objeto Restaura 50 PS a todos los aliados."
+  },
+  "295": {
+   "en": "Item Restores 100HP of all allies.",
+   "es": "Objeto Restaura 100 PS a todos los aliados."
+  },
+  "296": {
+   "en": "Item Restores 200HP of all allies.",
+   "es": "Objeto Restaura 200 PS a todos los aliados."
+  },
+  "297": {
+   "en": "Item Fully restores party's HP.",
+   "es": "Objeto Restaura todos los PS del grupo."
+  },
+  "298": {
+   "en": "Item Restores 10SP to an ally.",
+   "es": "Objeto Restaura 10 PE a un aliado."
+  },
+  "299": {
+   "en": "Item Restores 50SP to an ally.",
+   "es": "Objeto Restaura 50 PE a un aliado."
+  },
+  "300": {
+   "en": "Item Restores 100SP to an ally.",
+   "es": "Objeto Restaura 100 PE a un aliado."
+  },
+  "301": {
+   "en": "Item Restores all of an ally's SP.",
+   "es": "Objeto Restaura todos los PE de un aliado."
+  },
+  "302": {
+   "en": "Skill12E",
+   "es": "Skill12E"
+  },
+  "303": {
+   "en": "Skill12F",
+   "es": "Skill12F"
+  },
+  "304": {
+   "en": "Skill130",
+   "es": "Skill130"
+  },
+  "305": {
+   "en": "Skill131",
+   "es": "Skill131"
+  },
+  "306": {
+   "en": "Skill132",
+   "es": "Skill132"
+  },
+  "307": {
+   "en": "Skill133",
+   "es": "Skill133"
+  },
+  "308": {
+   "en": "Skill134",
+   "es": "Skill134"
+  },
+  "309": {
+   "en": "Skill135",
+   "es": "Skill135"
+  },
+  "310": {
+   "en": "Skill136",
+   "es": "Skill136"
+  },
+  "311": {
+   "en": "Skill137",
+   "es": "Skill137"
+  },
+  "312": {
+   "en": "Skill138",
+   "es": "Skill138"
+  },
+  "313": {
+   "en": "Skill139",
+   "es": "Skill139"
+  },
+  "314": {
+   "en": "Skill13A",
+   "es": "Skill13A"
+  },
+  "315": {
+   "en": "Skill13B",
+   "es": "Skill13B"
+  },
+  "316": {
+   "en": "Skill13C",
+   "es": "Skill13C"
+  },
+  "317": {
+   "en": "Skill13D",
+   "es": "Skill13D"
+  },
+  "318": {
+   "en": "Skill13D",
+   "es": "Skill13D"
+  },
+  "319": {
+   "en": "Skill13F",
+   "es": "Skill13F"
+  },
+  "320": {
+   "en": "Skill140",
+   "es": "Skill140"
+  },
+  "321": {
+   "en": "Skill141",
+   "es": "Skill141"
+  },
+  "322": {
+   "en": "Skill142",
+   "es": "Skill142"
+  },
+  "323": {
+   "en": "Skill143",
+   "es": "Skill143"
+  },
+  "324": {
+   "en": "Skill144",
+   "es": "Skill144"
+  },
+  "325": {
+   "en": "Skill145",
+   "es": "Skill145"
+  },
+  "326": {
+   "en": "Skill146",
+   "es": "Skill146"
+  },
+  "327": {
+   "en": "Skill147",
+   "es": "Skill147"
+  },
+  "328": {
+   "en": "Skill148",
+   "es": "Skill148"
+  },
+  "329": {
+   "en": "Skill149",
+   "es": "Skill149"
+  },
+  "330": {
+   "en": "Skill14A",
+   "es": "Skill14A"
+  },
+  "331": {
+   "en": "Skill14B",
+   "es": "Skill14B"
+  },
+  "332": {
+   "en": "Skill14C",
+   "es": "Skill14C"
+  },
+  "333": {
+   "en": "Skill14D",
+   "es": "Skill14D"
+  },
+  "334": {
+   "en": "Skill14E",
+   "es": "Skill14E"
+  },
+  "335": {
+   "en": "Skill14F",
+   "es": "Skill14F"
+  },
+  "336": {
+   "en": "Skill150",
+   "es": "Skill150"
+  },
+  "337": {
+   "en": "Skill151",
+   "es": "Skill151"
+  },
+  "338": {
+   "en": "Skill152",
+   "es": "Skill152"
+  },
+  "339": {
+   "en": "Skill153",
+   "es": "Skill153"
+  },
+  "340": {
+   "en": "Skill154",
+   "es": "Skill154"
+  },
+  "341": {
+   "en": "Skill155",
+   "es": "Skill155"
+  },
+  "342": {
+   "en": "Skill156",
+   "es": "Skill156"
+  },
+  "343": {
+   "en": "Skill157",
+   "es": "Skill157"
+  },
+  "344": {
+   "en": "Skill158",
+   "es": "Skill158"
+  },
+  "345": {
+   "en": "Skill159",
+   "es": "Skill159"
+  },
+  "346": {
+   "en": "Skill15A",
+   "es": "Skill15A"
+  },
+  "347": {
+   "en": "Skill15B",
+   "es": "Skill15B"
+  },
+  "348": {
+   "en": "Skill15C",
+   "es": "Skill15C"
+  },
+  "349": {
+   "en": "Skill15D",
+   "es": "Skill15D"
+  },
+  "350": {
+   "en": "Skill15E",
+   "es": "Skill15E"
+  },
+  "351": {
+   "en": "Skill15F",
+   "es": "Skill15F"
+  },
+  "352": {
+   "en": "Wind damage to 1 foe.",
+   "es": "Daño de viento a un enemigo."
+  },
+  "353": {
+   "en": "Phys damage to 1 foe.",
+   "es": "Daño físico a un enemigo."
+  },
+  "354": {
+   "en": "Fire damage to all foes.",
+   "es": "Daño de fuego a los enem."
+  },
+  "355": {
+   "en": "Severely damages foes who are Feared.",
+   "es": "Hiere gravemente a los enem. que tienen Miedo."
+  },
+  "356": {
+   "en": "Summon the prince.",
+   "es": "Invoca al príncipe."
+  },
+  "357": {
+   "en": "Fails to summon the prince.",
+   "es": "No consigue invocar al príncipe."
+  },
+  "358": {
+   "en": "Inflict Poison on male enemies.",
+   "es": "Inflige Veneno a los enemigos."
+  },
+  "359": {
+   "en": "Inflict Rage on female enemies.",
+   "es": "Inflige Furia a las enemigas."
+  },
+  "360": {
+   "en": "Elec damage to all foes.",
+   "es": "Daño eléctrico a los enem."
+  },
+  "361": {
+   "en": "Analyze all foes.",
+   "es": "Analiza a los enem."
+  },
+  "362": {
+   "en": "Damages and knocks down standing foes. Kills foes that are Dizzy.",
+   "es": "Hiere y derriba a los enem. en pie. Mata a los que sufren Mareo."
+  },
+  "363": {
+   "en": "Charge power before unleashing Evil Hand Nihil.",
+   "es": "Carga poder antes de lanzar Toque nihilista vil."
+  },
+  "364": {
+   "en": "Damage/Dizzy to 1 foe.",
+   "es": "Daño/Mareo a un enemigo."
+  },
+  "365": {
+   "en": "Phys damage to 1 foe (normal).",
+   "es": "Daño físico a un enemigo (normal)."
+  },
+  "366": {
+   "en": "Barrier assembly stage 1.",
+   "es": "Fase 1 de creación de barrera."
+  },
+  "367": {
+   "en": "Barrier assembly stage 2.",
+   "es": "Fase 2 de creación de barrera."
+  },
+  "368": {
+   "en": "Barrier assembly stage 3.",
+   "es": "Fase 3 de creación de barrera."
+  },
+  "369": {
+   "en": "Barrier assembly skill for appearance effect.",
+   "es": "Habilidad de creación de barrera con efecto de aparición."
+  },
+  "370": {
+   "en": "Phys damage to 1 foe.",
+   "es": "Daño físico a un enemigo."
+  },
+  "371": {
+   "en": "Almighty damage to 1 foe.",
+   "es": "Daño todopoderoso a un enemigo."
+  },
+  "372": {
+   "en": "Almighty damage to all foes (1 Morale Icons)",
+   "es": "Daño todopoderoso a los enem. (1 icono de moral)."
+  },
+  "373": {
+   "en": "Almighty damage to all foes (2 Morale Icons)",
+   "es": "Daño todopoderoso a los enem. (2 iconos de moral)."
+  },
+  "374": {
+   "en": "Almighty damage to all foes (3 Morale Icons)",
+   "es": "Daño todopoderoso a los enem. (3 iconos de moral)."
+  },
+  "375": {
+   "en": "Almighty damage to all foes (4 Morale Icons)",
+   "es": "Daño todopoderoso a los enem. (4 iconos de moral)."
+  },
+  "376": {
+   "en": "Sets all resistant or higher affinities to normal.",
+   "es": "Anula todas las resistencias elementales."
+  },
+  "377": {
+   "en": "Guaranteed Phys damage/ Silences 1 foe.",
+   "es": "Garantiza daño físico/ Silencio a un enemigo."
+  },
+  "378": {
+   "en": "Change element resistances in battle.",
+   "es": "Cambia las resistencias a elementos en combate."
+  },
+  "379": {
+   "en": "Control one player unit.",
+   "es": "Controla una unidad de jugador."
+  },
+  "380": {
+   "en": "Heavy Almighty damage to all foes.",
+   "es": "Daño todopoderoso grave a los enem."
+  },
+  "381": {
+   "en": "Heavy Almighty damage to all foes.",
+   "es": "Daño todopoderoso grave a los enem."
+  },
+  "382": {
+   "en": "Deals Almighty damage to all foes with a chance of Dizzying.",
+   "es": "Inflige daño todopoderoso a los enem. y prob. de Mareo."
+  },
+  "383": {
+   "en": "Ame No Sagiri becomes invincible. Inflicts random effects.",
+   "es": "Ameno-sagiri se vuelve invencible. Inflige efectos aleatorios."
+  },
+  "384": {
+   "en": "End Mist of Confusion.",
+   "es": "Acaba con Niebla de confusión."
+  },
+  "385": {
+   "en": "Instantly kills units with ailments, including Down/Dizzy.",
+   "es": "Mata al instante a unidades con estados alter., incluidos Derribo/Mareo."
+  },
+  "386": {
+   "en": "Deals heavy Almighty damage to all foes, inflicts Enervation.",
+   "es": "Inflige daño todopoderoso grave a los enem. y Enervación."
+  },
+  "387": {
+   "en": "Guaranteed Fear to 1 foe.",
+   "es": "Garantiza Mareo a un enemigo."
+  },
+  "388": {
+   "en": "Control 3 player units.",
+   "es": "Controla tres unidades de jugador."
+  },
+  "389": {
+   "en": "Izanami normal attack.",
+   "es": "Ataque normal de Izanami."
+  },
+  "390": {
+   "en": "Skill186",
+   "es": "Skill186"
+  },
+  "391": {
+   "en": "Skill187",
+   "es": "Skill187"
+  },
+  "392": {
+   "en": "Skill188",
+   "es": "Skill188"
+  },
+  "393": {
+   "en": "Skill189",
+   "es": "Skill189"
+  },
+  "394": {
+   "en": "Skill18A",
+   "es": "Skill18A"
+  },
+  "395": {
+   "en": "Skill18B",
+   "es": "Skill18B"
+  },
+  "396": {
+   "en": "Skill18C",
+   "es": "Skill18C"
+  },
+  "397": {
+   "en": "Skill18D",
+   "es": "Skill18D"
+  },
+  "398": {
+   "en": "Skill18E",
+   "es": "Skill18E"
+  },
+  "399": {
+   "en": "Skill18F",
+   "es": "Skill18F"
+  },
+  "400": {
+   "en": "Skill190",
+   "es": "Skill190"
+  },
+  "401": {
+   "en": "Skill191",
+   "es": "Skill191"
+  },
+  "402": {
+   "en": "Skill192",
+   "es": "Skill192"
+  },
+  "403": {
+   "en": "Skill193",
+   "es": "Skill193"
+  },
+  "404": {
+   "en": "Skill194",
+   "es": "Skill194"
+  },
+  "405": {
+   "en": "Skill195",
+   "es": "Skill195"
+  },
+  "406": {
+   "en": "Skill196",
+   "es": "Skill196"
+  },
+  "407": {
+   "en": "Skill197",
+   "es": "Skill197"
+  },
+  "408": {
+   "en": "Skill198",
+   "es": "Skill198"
+  },
+  "409": {
+   "en": "Skill199",
+   "es": "Skill199"
+  },
+  "410": {
+   "en": "Skill19A",
+   "es": "Skill19A"
+  },
+  "411": {
+   "en": "Skill19B",
+   "es": "Skill19B"
+  },
+  "412": {
+   "en": "Skill19C",
+   "es": "Skill19C"
+  },
+  "413": {
+   "en": "Skill19D",
+   "es": "Skill19D"
+  },
+  "414": {
+   "en": "Skill19E",
+   "es": "Skill19E"
+  },
+  "415": {
+   "en": "Skill19F",
+   "es": "Skill19F"
+  },
+  "416": {
+   "en": "Skill1A0",
+   "es": "Skill1A0"
+  },
+  "417": {
+   "en": "Skill1A1",
+   "es": "Skill1A1"
+  },
+  "418": {
+   "en": "Skill1A2",
+   "es": "Skill1A2"
+  },
+  "419": {
+   "en": "Skill1A3",
+   "es": "Skill1A3"
+  },
+  "420": {
+   "en": "Skill1A4",
+   "es": "Skill1A4"
+  },
+  "421": {
+   "en": "Skill1A5",
+   "es": "Skill1A5"
+  },
+  "422": {
+   "en": "Skill1A6",
+   "es": "Skill1A6"
+  },
+  "423": {
+   "en": "Skill1A7",
+   "es": "Skill1A7"
+  },
+  "424": {
+   "en": "Skill1A8",
+   "es": "Skill1A8"
+  },
+  "425": {
+   "en": "Skill1A9",
+   "es": "Skill1A9"
+  },
+  "426": {
+   "en": "Skill1AA",
+   "es": "Skill1AA"
+  },
+  "427": {
+   "en": "Skill1AB",
+   "es": "Skill1AB"
+  },
+  "428": {
+   "en": "Skill1AC",
+   "es": "Skill1AC"
+  },
+  "429": {
+   "en": "Skill1AD",
+   "es": "Skill1AD"
+  },
+  "430": {
+   "en": "Skill1AE",
+   "es": "Skill1AE"
+  },
+  "431": {
+   "en": "Skill1AF",
+   "es": "Skill1AF"
+  },
+  "432": {
+   "en": "Skill1B0",
+   "es": "Skill1B0"
+  },
+  "433": {
+   "en": "Skill1B1",
+   "es": "Skill1B1"
+  },
+  "434": {
+   "en": "Skill1B2",
+   "es": "Skill1B2"
+  },
+  "435": {
+   "en": "Skill1B3",
+   "es": "Skill1B3"
+  },
+  "436": {
+   "en": "Skill1B4",
+   "es": "Skill1B4"
+  },
+  "437": {
+   "en": "Skill1B5",
+   "es": "Skill1B5"
+  },
+  "438": {
+   "en": "Skill1B6",
+   "es": "Skill1B6"
+  },
+  "439": {
+   "en": "Skill1B7",
+   "es": "Skill1B7"
+  },
+  "440": {
+   "en": "Skill1B8",
+   "es": "Skill1B8"
+  },
+  "441": {
+   "en": "Skill1B9",
+   "es": "Skill1B9"
+  },
+  "442": {
+   "en": "Skill1BA",
+   "es": "Skill1BA"
+  },
+  "443": {
+   "en": "Skill1BB",
+   "es": "Skill1BB"
+  },
+  "444": {
+   "en": "Skill1BC",
+   "es": "Skill1BC"
+  },
+  "445": {
+   "en": "Skill1BD",
+   "es": "Skill1BD"
+  },
+  "446": {
+   "en": "Skill1BE",
+   "es": "Skill1BE"
+  },
+  "447": {
+   "en": "Skill1BF",
+   "es": "Skill1BF"
+  },
+  "448": {
+   "en": "Skill1C0",
+   "es": "Skill1C0"
+  },
+  "449": {
+   "en": "Skill1C1",
+   "es": "Skill1C1"
+  },
+  "450": {
+   "en": "Skill1C2",
+   "es": "Skill1C2"
+  },
+  "451": {
+   "en": "Skill1C3",
+   "es": "Skill1C3"
+  },
+  "452": {
+   "en": "Skill1C4",
+   "es": "Skill1C4"
+  },
+  "453": {
+   "en": "Skill1C5",
+   "es": "Skill1C5"
+  },
+  "454": {
+   "en": "Skill1C6",
+   "es": "Skill1C6"
+  },
+  "455": {
+   "en": "Skill1C7",
+   "es": "Skill1C7"
+  },
+  "456": {
+   "en": "Skill1C8",
+   "es": "Skill1C8"
+  },
+  "457": {
+   "en": "Skill1C9",
+   "es": "Skill1C9"
+  },
+  "458": {
+   "en": "Skill1CA",
+   "es": "Skill1CA"
+  },
+  "459": {
+   "en": "Skill1CB",
+   "es": "Skill1CB"
+  },
+  "460": {
+   "en": "Skill1CC",
+   "es": "Skill1CC"
+  },
+  "461": {
+   "en": "Skill1CD",
+   "es": "Skill1CD"
+  },
+  "462": {
+   "en": "Skill1CE",
+   "es": "Skill1CE"
+  },
+  "463": {
+   "en": "Skill1CF",
+   "es": "Skill1CF"
+  },
+  "464": {
+   "en": "Skill1D0",
+   "es": "Skill1D0"
+  },
+  "465": {
+   "en": "Skill1D1",
+   "es": "Skill1D1"
+  },
+  "466": {
+   "en": "Skill1D2",
+   "es": "Skill1D2"
+  },
+  "467": {
+   "en": "Skill1D3",
+   "es": "Skill1D3"
+  },
+  "468": {
+   "en": "Skill1D4",
+   "es": "Skill1D4"
+  },
+  "469": {
+   "en": "Skill1D5",
+   "es": "Skill1D5"
+  },
+  "470": {
+   "en": "Skill1D6",
+   "es": "Skill1D6"
+  },
+  "471": {
+   "en": "Skill1D7",
+   "es": "Skill1D7"
+  },
+  "472": {
+   "en": "Reduces damage from Phys attacks.",
+   "es": "Reduce el daño de los ataques físicos."
+  },
+  "473": {
+   "en": "Nullifies damage from Phys attacks.",
+   "es": "Anula el daño de los ataques físicos."
+  },
+  "474": {
+   "en": "Reflects damage from Phys attacks.",
+   "es": "Refleja el daño de los ataques físicos."
+  },
+  "475": {
+   "en": "Absorbs damage from Phys attacks.",
+   "es": "Absorbe el daño de los ataques físicos."
+  },
+  "476": {
+   "en": "Reduces damage from Fire attacks.",
+   "es": "Reduce el daño de los ataques de fuego."
+  },
+  "477": {
+   "en": "Nullifies damage from Fire attacks.",
+   "es": "Anula el daño de los ataques de fuego."
+  },
+  "478": {
+   "en": "Reflects damage from Fire attacks.",
+   "es": "Refleja el daño de los ataques de fuego."
+  },
+  "479": {
+   "en": "Absorbs damage from Fire attacks.",
+   "es": "Absorbe el daño de los ataques de fuego."
+  },
+  "480": {
+   "en": "Reduces damage from Ice attacks.",
+   "es": "Reduce el daño de los ataques de hielo."
+  },
+  "481": {
+   "en": "Nullifies damage from Ice attacks.",
+   "es": "Anula el daño de los ataques de hielo."
+  },
+  "482": {
+   "en": "Reflects damage from Ice attacks.",
+   "es": "Refleja el daño de los ataques de hielo."
+  },
+  "483": {
+   "en": "Absorbs damage from Ice attacks.",
+   "es": "Absorbe el daño de los ataques de hielo."
+  },
+  "484": {
+   "en": "Reduces damage from Elec attacks.",
+   "es": "Reduce el daño de los ataques eléctricos."
+  },
+  "485": {
+   "en": "Nullifies damage from Elec attacks.",
+   "es": "Anula el daño de los ataques eléctricos."
+  },
+  "486": {
+   "en": "Reflects damage from Elec attacks.",
+   "es": "Refleja el daño de los ataques eléctricos."
+  },
+  "487": {
+   "en": "Absorbs damage from Elec attacks.",
+   "es": "Absorbe el daño de los ataques de electricidad."
+  },
+  "488": {
+   "en": "Reduces damage from Wind attacks.",
+   "es": "Reduce el daño de los ataques de viento."
+  },
+  "489": {
+   "en": "Nullifies damage from Wind attacks.",
+   "es": "Anula el daño de los ataques de viento."
+  },
+  "490": {
+   "en": "Reflects damage from Wind attacks.",
+   "es": "Refleja el daño de los ataques de viento."
+  },
+  "491": {
+   "en": "Absorbs damage from Wind attacks.",
+   "es": "Absorbe el daño de los ataques de viento."
+  },
+  "492": {
+   "en": "Reduces chance of KO from Light attacks.",
+   "es": "Reduce la prob. de Inconsciencia con ataques de luz."
+  },
+  "493": {
+   "en": "Nullifies Light attacks.",
+   "es": "Anula los ataques de luz."
+  },
+  "494": {
+   "en": "Reflects Light attacks.",
+   "es": "Refleja los ataques de luz."
+  },
+  "495": {
+   "en": "Reduces chance of KO from Darkness attacks.",
+   "es": "Reduce la prob. de Inconsciencia con ataques de oscuridad."
+  },
+  "496": {
+   "en": "Nullifies Darkness attacks.",
+   "es": "Anula los ataques de oscuridad."
+  },
+  "497": {
+   "en": "Reflects Darkness attacks.",
+   "es": "Refleja los ataques de oscuridad."
+  },
+  "498": {
+   "en": "Protects user from Panic.",
+   "es": "Protege al usuario de Pánico."
+  },
+  "499": {
+   "en": "Protects user from Exhaustion.",
+   "es": "Protege al usuario de Agotamiento."
+  },
+  "500": {
+   "en": "Protects user from Silence.",
+   "es": "Protege al usuario de Silencio."
+  },
+  "501": {
+   "en": "Protects user from Fear.",
+   "es": "Protege al usuario de Miedo."
+  },
+  "502": {
+   "en": "Protects user from Rage.",
+   "es": "Protege al usuario de Furia."
+  },
+  "503": {
+   "en": "Protects user from Poison.",
+   "es": "Protege al usuario de Veneno."
+  },
+  "504": {
+   "en": "Protects user from Dizzy.",
+   "es": "Protege al usuario de Mareo."
+  },
+  "505": {
+   "en": "Protects user from Enervation.",
+   "es": "Protege al usuario de Enervación."
+  },
+  "506": {
+   "en": "Protects user from Panic/Fear/Silence/ Enervation/Rage.",
+   "es": "Protege al usuario de Pánico/Miedo/Silencio/ Enervación/Furia."
+  },
+  "507": {
+   "en": "Nullifies all attacks but Almighty.",
+   "es": "Anula todos los ataques salvo los todopoderosos."
+  },
+  "508": {
+   "en": "Doubles evasion rate against Phys attacks.",
+   "es": "Duplica la prob. de evadir ataques físicos."
+  },
+  "509": {
+   "en": "Triples evasion rate against Phys attacks.",
+   "es": "Triplica la prob. de evadir ataques físicos."
+  },
+  "510": {
+   "en": "Doubles evasion rate against Fire attacks.",
+   "es": "Duplica la prob. de evadir ataques de fuego."
+  },
+  "511": {
+   "en": "Triples evasion rate against Fire attacks.",
+   "es": "Triplica la prob. de evadir ataques de fuego."
+  },
+  "512": {
+   "en": "Doubles evasion rate against Ice attacks.",
+   "es": "Duplica la prob. de evadir ataques de hielo."
+  },
+  "513": {
+   "en": "Triples evasion rate against Ice attacks.",
+   "es": "Triplica la prob. de evadir ataques de hielo."
+  },
+  "514": {
+   "en": "Doubles evasion rate against Wind attacks.",
+   "es": "Duplica la prob. de evadir ataques de viento."
+  },
+  "515": {
+   "en": "Triples evasion rate against Wind attacks.",
+   "es": "Triplica la prob. de evadir ataques de viento."
+  },
+  "516": {
+   "en": "Doubles evasion rate against Elec attacks.",
+   "es": "Duplica la prob. de evadir ataques eléctricos."
+  },
+  "517": {
+   "en": "Triples evasion rate against Elec attacks.",
+   "es": "Triplica la prob. de evadir ataques eléctricos."
+  },
+  "518": {
+   "en": "Doubles evasion rate against all attacks but Light/Darkness/Almighty.",
+   "es": "Duplica la prob. de evadir ataques, salvo los de luz/ oscuridad/todopoderosos."
+  },
+  "519": {
+   "en": "Strengthens Fire attacks by 25%.",
+   "es": "Fortalece los ataques de fuego un 25 %."
+  },
+  "520": {
+   "en": "Strengthens Fire attacks by 50%.",
+   "es": "Fortalece los ataques de fuego un 50 %."
+  },
+  "521": {
+   "en": "Strengthens Ice attacks by 25%.",
+   "es": "Fortalece los ataques de hielo un 25 %."
+  },
+  "522": {
+   "en": "Strengthens Ice attacks by 50%.",
+   "es": "Fortalece los ataques de hielo un 50 %."
+  },
+  "523": {
+   "en": "Strengthens Elec attacks by 25%.",
+   "es": "Fortalece los ataques eléctricos un 25 %."
+  },
+  "524": {
+   "en": "Strengthens Elec attacks by 50%.",
+   "es": "Fortalece los ataques eléctricos un 50 %."
+  },
+  "525": {
+   "en": "Strengthens Wind attacks by 25%.",
+   "es": "Fortalece los ataques de viento un 25 %."
+  },
+  "526": {
+   "en": "Strengthens Wind attacks by 50%.",
+   "es": "Fortalece los ataques de viento un 50 %."
+  },
+  "527": {
+   "en": "Allows you to escape from almost all battles.",
+   "es": "Permite escapar de casi todos los combates."
+  },
+  "528": {
+   "en": "Increases max HP by 10%.",
+   "es": "Aumenta los PS máx. en un 10 %."
+  },
+  "529": {
+   "en": "Increases max HP by 20%.",
+   "es": "Aumenta los PS máx. en un 20 %."
+  },
+  "530": {
+   "en": "Increases max HP by 30%.",
+   "es": "Aumenta los PS máx. en un 30 %."
+  },
+  "531": {
+   "en": "Increases max SP by 10%.",
+   "es": "Aumenta los PE máx. en un 10 %."
+  },
+  "532": {
+   "en": "Increases max SP by 20%.",
+   "es": "Aumenta los PE máx. en un 20 %."
+  },
+  "533": {
+   "en": "Increases max SP by 30%.",
+   "es": "Aumenta los PE máx. en un 30 %."
+  },
+  "534": {
+   "en": "10% chance of reflecting Phys attacks.",
+   "es": "Posib. del 10 % de reflejar ataques físicos."
+  },
+  "535": {
+   "en": "15% chance of reflecting Phys attacks.",
+   "es": "Posib. del 15 % de reflejar ataques físicos."
+  },
+  "536": {
+   "en": "20% chance of reflecting Phys attacks.",
+   "es": "Posib. del 20 % de reflejar ataques físicos."
+  },
+  "537": {
+   "en": "Restores 2% of max HP each turn in battle.",
+   "es": "Recupera un 2 % de tus PS máx. por turno en combate."
+  },
+  "538": {
+   "en": "Restores 4% of max HP each turn in battle.",
+   "es": "Recupera un 4 % de tus PS máx. por turno en combate."
+  },
+  "539": {
+   "en": "Restores 6% of max HP each turn in battle.",
+   "es": "Recupera un 6 % de tus PS máx. por turno en combate."
+  },
+  "540": {
+   "en": "Restores 3 SP each turn in battle.",
+   "es": "Restaura 3 PE por turno en combate."
+  },
+  "541": {
+   "en": "Restores 5 SP each turn in battle.",
+   "es": "Restaura 5 PE por turno en combate."
+  },
+  "542": {
+   "en": "Restores 7 SP each turn in battle.",
+   "es": "Restaura 7 PE por turno en combate."
+  },
+  "543": {
+   "en": "Persona gains 1/4 EXP while inactive.",
+   "es": "La Persona gana 1/4 de EXP estando inactiva."
+  },
+  "544": {
+   "en": "Persona gains 1/2 EXP while inactive.",
+   "es": "La Persona gana 1/2 de EXP estando inactiva."
+  },
+  "545": {
+   "en": "Persona gains full EXP while inactive.",
+   "es": "La Persona gana toda la EXP estando inactiva."
+  },
+  "546": {
+   "en": "Automatic Tarukaja at the start of battle.",
+   "es": "Lanza Tarukaja al comenzar el combate."
+  },
+  "547": {
+   "en": "Automatic Rakukaja at the start of battle.",
+   "es": "Lanza Rakukaja al comenzar el combate."
+  },
+  "548": {
+   "en": "Automatic Sukukaja at the start of battle.",
+   "es": "Lanza Sukukaja al comenzar el combate."
+  },
+  "549": {
+   "en": "Lowers odds of being taken by surprise.",
+   "es": "Reduce la prob. de que te pillen por sorpresa."
+  },
+  "550": {
+   "en": "Lowers odds of sustaining crit dmg.",
+   "es": "Reduce la prob. de sufrir daño crítico."
+  },
+  "551": {
+   "en": "Increases user's Critical Rate.",
+   "es": "Aumenta la prob. de críticos del usuario."
+  },
+  "552": {
+   "en": "The Hit rate of an attacking unit is reduced by half.",
+   "es": "La prob. de golpe de una unidad atacante se reduce a la mitad."
+  },
+  "553": {
+   "en": "Always take half damage, but you can never evade.",
+   "es": "Recibes la mitad de daño, pero no puedes evadir."
+  },
+  "554": {
+   "en": "Halves SP cost for magic skills.",
+   "es": "Reduce al 50 % el coste de PE de hab. mágicas."
+  },
+  "555": {
+   "en": "Halves HP cost for physical skills.",
+   "es": "Reduce al 50 % el coste de PS de hab. físicas."
+  },
+  "556": {
+   "en": "Max HP doubles, max SP halves.",
+   "es": "Se duplican los PS máximos y se reducen a la mitad los PE máximos."
+  },
+  "557": {
+   "en": "Max SP doubles, max HP halves.",
+   "es": "Se duplican los PE máximos y se reducen a la mitad los PS máximos."
+  },
+  "558": {
+   "en": "Effects of healing magic are increased by 50%.",
+   "es": "El efecto de la magia curativa aumenta un 50 %."
+  },
+  "559": {
+   "en": "Restores 1 HP upon Unconscious 1x per battle.",
+   "es": "Restaura 1 PS tras Inconsciencia una vez por batalla."
+  },
+  "560": {
+   "en": "Restores all HP upon Unconscious 1x per battle.",
+   "es": "Restaura todos los PS tras Inconsciencia una vez por batalla."
+  },
+  "561": {
+   "en": "50% chance of being revived with 1 HP if killed by Light.",
+   "es": "Posib. del 50 % de revivir con 1 PS si te matan con luz."
+  },
+  "562": {
+   "en": "50% chance of being revived with 1 HP if killed by Darkness.",
+   "es": "Posib. del 50 % de revivir con 1 PS si te matan con oscuridad."
+  },
+  "563": {
+   "en": "Automatic Marakukaja at start of battle.",
+   "es": "Lanza Marakukaja al comenzar el combate."
+  },
+  "564": {
+   "en": "Automatic Matarukaja at start of battle.",
+   "es": "Lanza Matarukaja al comenzar el combate."
+  },
+  "565": {
+   "en": "Automatic Masukukaja at start of battle.",
+   "es": "Lanza Masukukaja al comenzar el combate."
+  },
+  "566": {
+   "en": "Increases odds of inflicting Panic.",
+   "es": "Aumenta la prob. de infligir Pánico."
+  },
+  "567": {
+   "en": "Increases odds of inflicting Poison.",
+   "es": "Aumenta la prob. de infligir Veneno."
+  },
+  "568": {
+   "en": "Increases odds of inflicting Exhaustion.",
+   "es": "Aumenta la prob. de infligir Agotamiento."
+  },
+  "569": {
+   "en": "Increases odds of inflicting Silence.",
+   "es": "Aumenta la prob. de infligir Silencio."
+  },
+  "570": {
+   "en": "Increases odds of inflicting Fear.",
+   "es": "Aumenta la prob. de infligir Miedo."
+  },
+  "571": {
+   "en": "Increases odds of inflicting Rage.",
+   "es": "Aumenta la prob. de infligir Furia."
+  },
+  "572": {
+   "en": "Increases odds of inflicting Dizziness during a Knockdown.",
+   "es": "Aumenta la prob. de infligir Mareo en un derribo."
+  },
+  "573": {
+   "en": "Increases odds of inflicting Enervation.",
+   "es": "Aumenta la prob. de infligir Enervación."
+  },
+  "574": {
+   "en": "Increases odds of inflicting any ailment.",
+   "es": "Aumenta la prob. de infligir cualquier estado alterado."
+  },
+  "575": {
+   "en": "Increases success rate of Light magic.",
+   "es": "Aumenta el índice de éxito de la magia de luz."
+  },
+  "576": {
+   "en": "Increases success rate of Darkness magic.",
+   "es": "Aumenta el índice de éxito de la magia de oscuridad."
+  },
+  "577": {
+   "en": "Automatic revival with 1 HP when killed by Light magic.",
+   "es": "Resurrección automática con 1 PS si te matan con magia de luz."
+  },
+  "578": {
+   "en": "Automatic revival with 1 HP when killed by Darkness magic.",
+   "es": "Resurrección automática con 1 PS si te matan con magia de oscuridad."
+  },
+  "579": {
+   "en": "Restores 8% of HP and SP after battle.",
+   "es": "Restaura el 8 % de los PS y PE tras el combate."
+  },
+  "580": {
+   "en": "Fully restores HP and SP after battle.",
+   "es": "Restaura todos los PS y PE tras el combate."
+  },
+  "581": {
+   "en": "Reduces chance of being Poisoned.",
+   "es": "Reduce la prob. de sufrir Veneno."
+  },
+  "582": {
+   "en": "Reduces chance of being Panicked.",
+   "es": "Reduce la prob. de sufrir Pánico."
+  },
+  "583": {
+   "en": "Reduces chance of being Feared.",
+   "es": "Reduce la prob. de sufrir Miedo."
+  },
+  "584": {
+   "en": "Reduces chance of being Exhausted.",
+   "es": "Reduce la prob. de sufrir Agotamiento."
+  },
+  "585": {
+   "en": "Reduces chance of being Enervated.",
+   "es": "Reduce la prob. de sufrir Enervación."
+  },
+  "586": {
+   "en": "Reduces chance of being Enraged.",
+   "es": "Reduce la prob. de sufrir Furia."
+  },
+  "587": {
+   "en": "Reduces chance of being Dizzy.",
+   "es": "Reduce la prob. de sufrir Mareo."
+  },
+  "588": {
+   "en": "Reduces chance of being Silenced.",
+   "es": "Reduce la prob. de sufrir Silencio."
+  },
+  "589": {
+   "en": "Increases max HP by 50%.",
+   "es": "Aumenta los PS máx. en un 50 %."
+  },
+  "590": {
+   "en": "Increases max SP by 50%.",
+   "es": "Aumenta los PE máx. en un 50 %."
+  },
+  "591": {
+   "en": "Time needed to recover from ailments is halved.",
+   "es": "Se reduce a la mitad el tiempo de recuperación de los estados alterados."
+  },
+  "592": {
+   "en": "Time needed to recover from ailments is reduced to 1 turn.",
+   "es": "Se reduce a 1 turno el tiempo de recuperación de los estados alterados."
+  },
+  "593": {
+   "en": "Skill251",
+   "es": "Skill251"
+  },
+  "594": {
+   "en": "Skill252",
+   "es": "Skill252"
+  },
+  "595": {
+   "en": "Skill253",
+   "es": "Skill253"
+  },
+  "596": {
+   "en": "Skill254",
+   "es": "Skill254"
+  },
+  "597": {
+   "en": "Skill255",
+   "es": "Skill255"
+  },
+  "598": {
+   "en": "Skill256",
+   "es": "Skill256"
+  },
+  "599": {
+   "en": "Skill257",
+   "es": "Skill257"
+  },
+  "600": {
+   "en": "Skill258",
+   "es": "Skill258"
+  },
+  "601": {
+   "en": "Skill259",
+   "es": "Skill259"
+  },
+  "602": {
+   "en": "Skill25A",
+   "es": "Skill25A"
+  },
+  "603": {
+   "en": "Skill25B",
+   "es": "Skill25B"
+  },
+  "604": {
+   "en": "Skill25C",
+   "es": "Skill25C"
+  },
+  "605": {
+   "en": "Skill25D",
+   "es": "Skill25D"
+  },
+  "606": {
+   "en": "Skill25E",
+   "es": "Skill25E"
+  },
+  "607": {
+   "en": "Skill25F",
+   "es": "Skill25F"
+  }
+ },
+ "skillCards": [
+  "Agi",
+  "Agilao",
+  "Agidyne",
+  "Maragi",
+  "Maragion",
+  "Maragidyne",
+  "Garu",
+  "Garula",
+  "Garudyne",
+  "Magaru",
+  "Magarula",
+  "Magarudyne",
+  "Bufu",
+  "Bufula",
+  "Bufudyne",
+  "Mabufu",
+  "Mabufula",
+  "Mabufudyne",
+  "Zio",
+  "Zionga",
+  "Ziodyne",
+  "Mazio",
+  "Mazionga",
+  "Maziodyne",
+  "Megido",
+  "Megidola",
+  "Megidolaon",
+  "Hama",
+  "Hamaon",
+  "Mahama",
+  "Mahamaon",
+  "Mudo",
+  "Mudoon",
+  "Mamudo",
+  "Mamudoon",
+  "Pulinpa",
+  "Tentarafoo",
+  "Evil Touch",
+  "Evil Smile",
+  "Ghastly Wail",
+  "Balzac",
+  "Valiant Dance",
+  "Poisma",
+  "Poison Mist",
+  "Soul Break",
+  "Anima Freeze",
+  "Enervation",
+  "Old One",
+  "Galgalim Eyes",
+  "Makajam",
+  "Foolish Whisper",
+  "Foul Breath",
+  "Stagnant Air",
+  "Life Drain",
+  "Spirit Drain",
+  "Assault Dive",
+  "Sonic Punch",
+  "Double Fangs",
+  "Kill Rush",
+  "Swift Strike",
+  "Twin Shot",
+  "Fatal End",
+  "Mighty Swing",
+  "Torrent Shot",
+  "Heat Wave",
+  "Gigantic Fist",
+  "Blade of Fury",
+  "Deathbound",
+  "Arrow Rain",
+  "Akasha Arts",
+  "Tempest Slash",
+  "Heaven's Blade",
+  "Myriad Arrows",
+  "God's Hand",
+  "Pralaya",
+  "Primal Force",
+  "Vorpal Blade",
+  "Power Slash",
+  "Gale Slash",
+  "Brave Blade",
+  "Herculean Strike",
+  "Vicious Strike",
+  "Poison Skewer",
+  "Poison Arrow",
+  "Blight",
+  "Virus Wave",
+  "Skull Cracker",
+  "Mind Slice",
+  "Hysterical Slap",
+  "Crazy Chain",
+  "Muzzle Shot",
+  "Seal Bomb",
+  "Arm Chopper",
+  "Atom Smasher",
+  "Cell Breaker",
+  "Mustard Bomb",
+  "Brain Shake",
+  "Navas Nebula",
+  "Black Spot",
+  "Rainy Death",
+  "Rampage",
+  "Aeon Rain",
+  "Agneyastra",
+  "Cruel Attack",
+  "Vile Assault",
+  "Dia",
+  "Diarama",
+  "Diarahan",
+  "Media",
+  "Mediarama",
+  "Mediarahan",
+  "Salvation",
+  "Amrita",
+  "Recarm",
+  "Samarecarm",
+  "Tarunda",
+  "Matarunda",
+  "Sukunda",
+  "Masukunda",
+  "Rakunda",
+  "Marakunda",
+  "Dekunda",
+  "Tarukaja",
+  "Matarukaja",
+  "Sukukaja",
+  "Masukukaja",
+  "Rakukaja",
+  "Marakukaja",
+  "Dekaja",
+  "Energy Shower",
+  "Debilitate",
+  "Power Charge",
+  "Mind Charge",
+  "Tetrakarn",
+  "Makarakarn",
+  "Tetra Break",
+  "Makara Break",
+  "Tetraja",
+  "Rebellion",
+  "Revolution",
+  "Fire Break",
+  "Ice Break",
+  "Wind Break",
+  "Elec Break",
+  "Red Wall",
+  "White Wall",
+  "Blue Wall",
+  "Green Wall",
+  "Trafuri",
+  "Recarmdra",
+  "Traesto",
+  "Resist Physical",
+  "Absorb Physical",
+  "Resist Fire",
+  "Absorb Fire",
+  "Resist Ice",
+  "Absorb Ice",
+  "Resist Elec",
+  "Absorb Elec",
+  "Resist Wind",
+  "Absorb Wind",
+  "Repel Light",
+  "Repel Dark",
+  "Null Panic",
+  "Null Exhaust",
+  "Null Mute",
+  "Null Fear",
+  "Null Rage",
+  "Null Poison",
+  "Null Dizzy",
+  "Null Enervate",
+  "Unshaken Will",
+  "Dodge Physical",
+  "Evade Physical",
+  "Dodge Fire",
+  "Evade Fire",
+  "Dodge Ice",
+  "Evade Ice",
+  "Dodge Wind",
+  "Evade Wind",
+  "Dodge Elec",
+  "Evade Elec",
+  "Angelic Grace",
+  "Fire Boost",
+  "Fire Amp",
+  "Ice Boost",
+  "Ice Amp",
+  "Elec Boost",
+  "Elec Amp",
+  "Wind Boost",
+  "Wind Amp",
+  "Counter",
+  "Counterstrike",
+  "High Counter",
+  "Regenerate 1",
+  "Regenerate 2",
+  "Regenerate 3",
+  "Invigorate 1",
+  "Invigorate 2",
+  "Invigorate 3",
+  "Growth 1",
+  "Growth 2",
+  "Growth 3",
+  "Auto-Tarukaja",
+  "Auto-Rakukaja",
+  "Auto-Sukukaja",
+  "Alertness",
+  "Sharp Student",
+  "Apt Pupil",
+  "Firm Stance",
+  "Spell Master",
+  "Arms Master",
+  "Divine Grace",
+  "Endure",
+  "Enduring Soul",
+  "Survive Light",
+  "Survive Dark",
+  "Auto-Maraku",
+  "Auto-Mataru",
+  "Auto-Masuku",
+  "Panic Boost",
+  "Poison Boost",
+  "Exhaust Boost",
+  "Silence Boost",
+  "Fear Boost",
+  "Rage Boost",
+  "Dizzy Boost",
+  "Enervate Boost",
+  "Ailment Boost",
+  "Hama Boost",
+  "Mudo Boost",
+  "Endure Light",
+  "Endure Dark",
+  "Cool Breeze",
+  "Victory Cry",
+  "Resist Poison",
+  "Resist Panic",
+  "Resist Fear",
+  "Resist Exhaust",
+  "Resist Enervate",
+  "Resist Rage",
+  "Resist Dizzy",
+  "Resist Mute",
+  "Fast Heal",
+  "Insta-Heal",
+  "Patra",
+  "Me Patra",
+  "Re Patra",
+  "Posumudi",
+  "Mutudi",
+  "Nervundi",
+  "Heat Riser",
+  "Single Shot"
+ ]
+}

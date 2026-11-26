@@ -1,0 +1,4 @@
+/* Marco con el color del juego. */
+.box { outline: 3px solid var(--c-primary); outline-offset: -3px; box-shadow: inset 0 0 0 8px rgba(0, 0, 0, 0.25); position: relative; overflow: hidden; display: grid; place-items: center; aspect-ratio: 4 / 5; }
+.box .img { width: 100%; height: 100%; object-fit: contain; padding: 8%; }
+.box .char { width: 100%; height: 100%; object-fit: contain; object-position: bottom; padding: 6% 4% 0; }

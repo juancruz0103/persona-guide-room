@@ -81,6 +81,40 @@
   --c-sp-dark: #5e8a00;
 }
 
+/* Persona 4 Revival: amarillo vivo, naranja y blanco, como los menús del juego.
+   Fondo claro con texto oscuro; el encabezado amarillo lleva texto oscuro para que se lea.
+   PS y PE solo colorean textos (costos de habilidades): en fondo claro van las versiones oscuras. */
+[data-game='p4r'] {
+  --c-bg: #fff8dc;
+  --c-surface: #ffffff;
+  --c-surface-2: #fff1b8;
+  --c-line: #ead27a;
+  --c-text: #1b1b1b;
+  --c-text-muted: #3d3a30;
+  --c-text-dim: #6b6550;
+  --c-primary: #ffe600;
+  --c-primary-strong: #6b3f00;  /* se usa como texto sobre naranja y crema: marrón oscuro */
+  --c-primary-light: #c26e00;
+  --c-accent: #b35c00;      /* texto de acento: naranja oscuro para leerse en fondo claro */
+  --c-accent-light: #d97e00;
+  --c-paper: #ff9a00;
+  --c-ink: #1b1b1b;
+  --c-royal: #ff9a00;
+  --c-romance: #e0479a;
+  --c-hp: #1d8fd1;      /* PS: azul celeste del juego (#51aae1 → #28d6e6), oscurecido para leerse en fondo claro */
+  --c-sp: #3f9a0c;      /* PE: verde lima del juego (#6bdb1e → #92e71c), oscurecido para leerse en fondo claro */
+  --c-hp-dark: #1d8fd1;
+  --c-sp-dark: #3f9a0c;
+  --c-on-primary: #1b1b1b;
+  --c-on-primary-soft: #2a2a2a;
+}
+
+/* Revival tiene fondo claro: los botones oscuros llevan texto claro (en el resto de los juegos --c-text ya es blanco). */
+[data-game='p4r'] .btn--dark,
+[data-game='p4r'] .btn--dark:hover {
+  color: #ff9a00;
+}
+
 /* Ilustraciones del Golden: fondo transparente, se muestran enteras. */
 .p4g-art.p4g-art {
   background: radial-gradient(circle at 50% 40%, #3a321c 0%, #211d12 75%);
