@@ -8,7 +8,7 @@ import { elementName } from '../data/elements';
 import { filterRows, getSkillCardRows, type CardFilter, type SkillCardRow } from '../services/skillCards';
 import { personaName } from '../services/text';
 import type { SkillElement } from '../types';
-import styles from '../../p5r/pages/SkillCards.module.css';
+import styles from './SkillCards.module.css';
 import { L } from '../../../i18n';
 
 const TYPES = (): { id: CardFilter; label: string; tone: 'red' | 'white' | 'gold' }[] => [

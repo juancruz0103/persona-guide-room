@@ -1,0 +1,447 @@
+/* Copia de p5r/pages/SkillCards.module.css para Persona 4 Revival: los fondos negros van en el gris del juego (#6d6c5d) con texto blanco. */
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-block: 28px 96px;
+}
+
+.views {
+  display: flex;
+  gap: 0;
+  border-bottom: 3px solid var(--c-primary);
+}
+.viewBtn {
+  min-height: 48px;
+  padding: 0 24px;
+  background: var(--c-surface);
+  border: 0;
+  color: var(--c-text-muted);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.viewBtn:hover {
+  color: var(--c-text);
+}
+.viewBtn[aria-selected='true'] {
+  background: var(--c-primary);
+  color: var(--c-on-primary);
+}
+
+.intro {
+  margin: 0;
+  max-width: 820px;
+  font-size: 17px;
+  line-height: 1.55;
+  color: var(--c-text-muted);
+}
+.intro strong {
+  color: var(--c-text);
+}
+
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 26px;
+  font-size: 15px;
+  color: var(--c-text-muted);
+}
+.legend > span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.swatch {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 16px;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1 1 260px;
+  max-width: 380px;
+}
+.search input {
+  min-height: 46px;
+  padding: 0 14px;
+  background: var(--c-surface);
+  border: 2px solid var(--c-line);
+  font-size: 16px;
+}
+.search input:focus {
+  border-color: var(--c-accent);
+}
+
+.types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.typeBtn {
+  --on: var(--c-primary);
+  --on-fg: var(--c-text);
+  min-height: 46px;
+  padding: 0 16px;
+  background: var(--c-surface);
+  border: 2px solid var(--c-line);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  clip-path: var(--slant-btn);
+}
+.typeBtn[data-tone='white'] {
+  --on: var(--c-paper);
+  --on-fg: var(--c-ink);
+}
+.typeBtn[data-tone='gold'] {
+  --on: var(--c-accent);
+  --on-fg: var(--c-ink);
+}
+.typeBtn:hover {
+  border-color: var(--on);
+}
+.typeBtn[aria-pressed='true'] {
+  background: var(--on);
+  border-color: var(--on);
+  color: var(--on-fg);
+}
+
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.elements > :first-child {
+  margin-right: 6px;
+}
+.elBtn {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: var(--c-surface);
+  border: 2px solid #55544a;
+  cursor: pointer;
+  clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
+.elBtn:hover {
+  border-color: var(--c-accent);
+}
+.elBtn[aria-pressed='true'] {
+  background: #6d6c5d;
+  border-color: var(--c-accent);
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.clear {
+  min-height: 40px;
+  padding: 0 12px;
+  background: none;
+  border: 0;
+  color: var(--c-accent);
+  text-decoration: underline;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.count {
+  margin: 4px 0 0;
+  color: var(--c-text-dim);
+}
+.count strong {
+  font-family: var(--f-display);
+  font-size: 24px;
+  color: var(--c-accent);
+}
+
+/* ---------- Tabla ---------- */
+
+.kindIcon {
+  flex: none;
+}
+.typeBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.headBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  background: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.headBtn:hover,
+.headActive {
+  color: var(--c-text);
+}
+.headArrow {
+  font-size: 16px;
+  line-height: 1;
+}
+.headMenuWrap {
+  position: relative;
+}
+.headMenu {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  min-width: 240px;
+  padding: 6px;
+  background: var(--c-surface);
+  border: 2px solid var(--c-accent);
+  box-shadow: 6px 6px 0 #000;
+}
+.headMenuItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 42px;
+  padding: 0 12px;
+  background: none;
+  border: 0;
+  color: var(--c-text);
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  text-align: left;
+  cursor: pointer;
+}
+.headMenuItem:hover {
+  background: #7a7969;
+}
+.headMenuItem[aria-checked='true'] {
+  color: var(--c-accent);
+}
+.menuIconSlot {
+  width: 18px;
+  display: inline-flex;
+  justify-content: center;
+}
+.power {
+  color: var(--c-accent);
+}
+
+.head,
+.row {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1.1fr) minmax(0, 1.6fr) minmax(0, 1.2fr);
+  gap: 16px;
+  align-items: center;
+}
+.head {
+  padding: 12px 18px;
+  background: var(--c-surface);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.row {
+  position: relative;
+  padding: 14px 18px;
+  background: #6d6c5d;
+  border-left: 5px solid #55544a;
+  transition: background 0.15s, transform 0.15s var(--ease);
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.row:hover,
+.row:focus-within {
+  background: #7a7969;
+  transform: translateX(6px);
+  z-index: 10;
+}
+.rowExcl {
+  border-left-color: var(--c-accent);
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.skillName {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 22px;
+}
+.skillMeta {
+  font-size: 13px;
+  color: var(--c-text-dim);
+}
+
+.cards,
+.learn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+.learn {
+  gap: 4px 10px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--c-text-muted);
+}
+
+.card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 17px;
+  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
+}
+.cardNormal {
+  background: var(--c-paper);
+  color: var(--c-ink);
+}
+.cardAlarm {
+  background: var(--c-primary);
+  color: var(--c-on-primary);
+}
+.card:hover {
+  filter: brightness(1.1);
+}
+.alarmBadge {
+  background: var(--c-ink-bg, var(--c-ink));
+  color: var(--c-text);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 1px 6px;
+}
+.exclTag {
+  display: inline-flex;
+  background: var(--c-accent);
+  color: var(--c-ink);
+  padding: 6px 12px;
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
+}
+.none,
+.more {
+  font-size: 15px;
+  color: #8a8a84;
+}
+.more {
+  cursor: pointer;
+  background: none;
+  border: 1px solid #333;
+  padding: 4px 10px;
+  font: inherit;
+  font-size: 15px;
+  color: var(--c-accent);
+  min-height: 32px;
+}
+.more:hover,
+.more:focus-visible {
+  border-color: var(--c-accent);
+}
+
+.mobileLabel {
+  display: none;
+}
+
+.moreBtn {
+  align-self: center;
+  margin-top: 10px;
+}
+
+.note {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: var(--c-text-dim);
+}
+
+@media (max-width: 860px) {
+  .head {
+    display: none;
+  }
+  .row {
+    grid-template-columns: 52px minmax(0, 1fr);
+  }
+  .cards,
+  .learn {
+    grid-column: 1 / -1;
+  }
+  .mobileLabel {
+    display: block;
+    width: 100%;
+    font-family: var(--f-label);
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--c-accent);
+  }
+}

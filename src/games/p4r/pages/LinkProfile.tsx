@@ -11,8 +11,8 @@ import { getPersona } from '../services/personas';
 import { skillName } from '../services/text';
 import { useConfidantProgress } from '../../../core/account/progress';
 import { useAuth } from '../../../core/account/AuthContext';
-import styles from '../../p3r/pages/LinkProfile.module.css';
-import tl from '../../p5r/pages/ConfidantProfile.module.css';
+import styles from './P3LinkProfile.module.css';
+import tl from './ConfidantProfile.module.css';
 import rankMaxImg from '../../p4g/assets/rango-max.webp';
 import { L } from '../../../i18n';
 

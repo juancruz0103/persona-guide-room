@@ -1,7 +1,7 @@
 import { Fragment, useMemo, useState } from 'react';
 import { CLASS_QUESTIONS, SCHOOL_ORDER, examFor, monthKey, withName, type ClassQuestion } from '../services/classes';
 import { normalize } from '../../p5r/services/gameText';
-import styles from '../../p3r/pages/Classes.module.css';
+import styles from './Classes.module.css';
 import { L } from '../../../i18n';
 
 type Type = 'all' | 'teacher' | 'friend' | 'exam';

@@ -1,0 +1,938 @@
+/* Copia de p5r/pages/ConfidantProfile.module.css para Persona 4 Revival: los fondos negros van en el gris del juego (#6d6c5d) con texto blanco. */
+/* ---------- Hero ---------- */
+
+.hero {
+  position: relative;
+  background: var(--c-paper);
+  color: var(--c-ink);
+  overflow: hidden;
+}
+.heroSlab {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 38%;
+  background: var(--c-primary);
+  clip-path: polygon(0 0, 100% 0, 78% 100%, 0 100%);
+}
+.heroInner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  padding-block: 44px;
+}
+.portraitWrap {
+  position: relative;
+  flex: 0 0 240px;
+  display: flex;
+}
+.portraitWrap .portrait {
+  flex: 1 1 auto;
+}
+.altBtn {
+  position: absolute;
+  top: 10px;
+  right: 6px;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 10px;
+  background: var(--c-ink-bg, var(--c-ink));
+  color: var(--c-paper);
+  border: 2px solid var(--c-paper);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.altBtn[aria-pressed='true'] {
+  background: var(--c-primary);
+}
+.altBtn:hover,
+.altBtn:focus-visible {
+  border-color: var(--c-accent);
+}
+.portrait {
+  flex: 0 0 240px;
+  height: 300px;
+  border: 4px solid var(--c-ink);
+  transform: rotate(-2deg);
+}
+.heroText {
+  flex: 999 1 420px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.arcanaTag {
+  align-self: flex-start;
+  background: var(--c-ink-bg, var(--c-ink));
+  color: var(--c-accent);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 16px;
+  transform: skewX(-12deg);
+}
+.name {
+  font-size: clamp(52px, 8vw, 96px);
+  line-height: 1.05;
+  padding-top: 0.12em;
+  text-transform: uppercase;
+}
+.heroTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.solid,
+.solidGold,
+.personaChip,
+.outline {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 14px;
+}
+.solid {
+  background: var(--c-ink-bg, var(--c-ink));
+  color: var(--c-text);
+}
+.outline {
+  border: 2px solid var(--c-ink);
+  padding: 2px 14px;
+}
+
+.trackRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 14px;
+  margin-top: 6px;
+}
+.switch {
+  position: relative;
+  width: 64px;
+  height: 34px;
+  padding: 0;
+  border: 3px solid var(--c-ink);
+  background: #c9c9c2;
+  cursor: pointer;
+  transform: skewX(-12deg);
+  transition: background 0.2s;
+}
+.switch span {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 22px;
+  height: 22px;
+  background: var(--c-ink-bg, var(--c-ink));
+  transition: left 0.2s var(--ease), background 0.2s;
+}
+.switchOn {
+  background: var(--c-primary);
+}
+.switchOn span {
+  left: 33px;
+  background: var(--c-paper);
+}
+.trackLabel {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.trackNote {
+  font-size: 14px;
+  color: #4a4a46;
+}
+
+/* ---------- Info ---------- */
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  padding-top: 40px;
+}
+.info {
+  background: var(--c-surface);
+  border-top: 3px solid var(--c-accent);
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.muted {
+  color: var(--c-text-dim);
+}
+
+/* ---------- Rangos ---------- */
+
+.ranksSection {
+  padding-top: 40px;
+}
+.h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.progress {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+  padding: 14px 20px;
+  background: var(--c-surface);
+  border-left: 6px solid var(--c-accent);
+}
+.progressLabel {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.progressLabel strong {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--c-accent);
+}
+.progressTrack {
+  flex: 1 1 200px;
+  height: 12px;
+  background: #6d6c5d;
+  transform: skewX(-20deg);
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.progressTrack span {
+  display: block;
+  height: 100%;
+  background: var(--c-accent);
+  transition: width 0.3s var(--ease);
+}
+
+.rankButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.rankBtn {
+  width: 60px;
+  height: 60px;
+  border: 2px solid var(--c-line);
+  background: var(--c-surface);
+  font-family: var(--f-display);
+  font-size: 26px;
+  cursor: pointer;
+  clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%);
+  transition: transform 0.15s var(--ease), background 0.15s;
+}
+.rankBtn:hover {
+  transform: translateY(-3px);
+}
+.rankDone {
+  background: #6d6c5d;
+  border-color: var(--c-accent);
+  color: var(--c-accent);
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.rankSel {
+  background: var(--c-primary);
+  border-color: var(--c-primary);
+  color: var(--c-on-primary);
+}
+
+.rankBody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 32px;
+  padding-block: 28px 96px;
+}
+.rankMain {
+  flex: 999 1 560px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.rankTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 14px;
+}
+.rankNum {
+  font-family: var(--f-display);
+  font-size: 56px;
+  line-height: 1;
+  color: var(--c-primary);
+  text-transform: uppercase;
+}
+
+.dontMatter {
+  background: var(--c-surface);
+  border-left: 6px solid var(--c-accent);
+  padding: 20px 24px;
+  font-size: 18px;
+}
+
+/* Conversación */
+.conv {
+  background: var(--c-surface);
+  padding: 22px 24px;
+  border-top: 4px solid var(--c-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.convRoyal {
+  border-top-color: var(--c-royal);
+}
+.convRomance {
+  border-top-color: var(--c-romance);
+}
+.convTitle {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.prompt {
+  margin: 0;
+  font-size: 19px;
+  line-height: 1.45;
+}
+.prompt strong {
+  color: var(--c-primary-light);
+}
+.prompt small {
+  display: block;
+  font-size: 13px;
+  color: #8a8a84;
+}
+.same {
+  align-self: flex-start;
+  background: #6d6c5d;
+  border: 1px solid var(--c-accent);
+  color: var(--c-accent-light);
+  font-size: 15px;
+  padding: 6px 12px;
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+
+.options {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.option {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background: #6d6c5d;
+  clip-path: polygon(0 0, 100% 0, 99% 100%, 0 100%);
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.best {
+  background: var(--c-accent);
+  color: var(--c-ink);
+}
+.optNum {
+  flex: none;
+  background: #6d6c5d;
+  color: var(--c-text);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.best .optNum {
+  background: var(--c-ink-bg, var(--c-ink));
+}
+.optText {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 17px;
+  font-weight: 600;
+}
+.optText small {
+  font-size: 13px;
+  font-weight: 400;
+  opacity: 0.75;
+}
+.points {
+  font-family: var(--f-display);
+  font-size: 24px;
+}
+.bestTag {
+  background: var(--c-ink-bg, var(--c-ink));
+  color: var(--c-accent);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}
+
+.routeNote {
+  margin: 0 0 12px;
+  padding: 8px 12px;
+  border-left: 4px solid var(--c-romance);
+  background: rgba(255, 140, 200, 0.08);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.optRomance {
+  box-shadow: inset 5px 0 0 var(--c-romance);
+}
+.romanceTag {
+  flex: none;
+  background: var(--c-romance);
+  color: var(--c-ink);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+}
+
+
+.tlExtra {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+}
+
+/* Misión de Mementos entre conversaciones */
+.mission {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px 20px;
+  border: 2px dashed var(--c-accent);
+  background: rgba(212, 175, 55, 0.07);
+}
+.missionKicker,
+.requirementsKicker {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.missionTitle {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 20px;
+}
+.missionDesc {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+.missionHint {
+  font-size: 14px;
+  color: var(--c-text-dim);
+}
+
+.requirements {
+  margin-bottom: 18px;
+  padding: 14px 18px;
+  background: var(--c-surface);
+  border-left: 5px solid var(--c-accent);
+}
+.requirements ul {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.noReward {
+  margin: 0;
+  padding: 14px 18px;
+  background: var(--c-surface);
+  font-size: 15px;
+  color: var(--c-text-muted);
+}
+
+/* Lateral */
+.rankSide {
+  flex: 1 1 300px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.h3 {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+.reward {
+  background: var(--c-paper);
+  color: var(--c-ink);
+  padding: 20px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  clip-path: polygon(0 0, 100% 0, 100% 86%, 90% 100%, 0 100%);
+}
+.rewardKicker {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--c-primary-strong);
+}
+.rewardName {
+  font-family: var(--f-display);
+  font-size: 28px;
+}
+.rewardDesc {
+  font-size: 16px;
+  color: #2a2a2a;
+}
+.legend {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 15px;
+  color: var(--c-text-muted);
+}
+.legend li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.legend span {
+  width: 18px;
+  height: 18px;
+}
+.source {
+  margin: 0;
+  font-size: 13px;
+  color: var(--c-text-dim);
+}
+
+@media (max-width: 640px) {
+  .heroSlab {
+    display: none;
+  }
+  .portraitWrap {
+    flex-basis: 100%;
+  }
+  .portrait {
+    flex-basis: 100%;
+    height: 220px;
+    transform: none;
+  }
+  .option {
+    flex-wrap: wrap;
+  }
+  .optText {
+    flex-basis: 100%;
+    order: 3;
+  }
+}
+
+/* ---------- Etapa 4: especiales, avisos y Personas ---------- */
+
+.solidGold {
+  background: var(--c-accent);
+  color: var(--c-ink);
+}
+.personaChip {
+  display: inline-flex;
+  align-items: center;
+  background: var(--c-primary);
+  color: var(--c-on-primary);
+  padding: 6px 14px;
+  text-decoration: none;
+}
+.personaChip:hover {
+  color: var(--c-text);
+  filter: brightness(1.1);
+}
+
+.noticeWrap {
+  padding-top: 28px;
+}
+.notice {
+  margin: 0;
+  padding: 16px 20px;
+  background: var(--c-surface);
+  border-left: 6px solid var(--c-accent);
+  font-size: 17px;
+  line-height: 1.5;
+}
+.notice strong {
+  color: var(--c-accent);
+}
+
+.specialBody {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding-block: 36px 96px;
+}
+.specialLead {
+  margin: 0;
+  max-width: 760px;
+  padding: 14px 18px;
+  background: var(--c-surface);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--c-text-muted);
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 860px;
+}
+.tlRow {
+  display: grid;
+  grid-template-columns: 56px 1fr;
+  gap: 16px;
+  padding: 12px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+.tlRank {
+  font-family: var(--f-display);
+  font-size: 30px;
+  color: var(--c-accent);
+  text-align: center;
+}
+.tlBody {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.tlWhen {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--c-text-dim);
+}
+.tlAbility {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 21px;
+}
+.tlNone {
+  color: #8a8a84;
+}
+.tlDesc {
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--c-text-muted);
+}
+
+.spoiler {
+  max-width: 860px;
+  border: 2px solid var(--c-primary);
+}
+.spoilerHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  background: var(--c-primary);
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.spoilerHead button {
+  min-height: 44px;
+  padding: 0 16px;
+  background: var(--c-ink-bg, var(--c-ink));
+  color: var(--c-text);
+  border: 0;
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.spoilerList {
+  margin: 0;
+  padding: 18px 18px 6px 42px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.spoilerNote,
+.spoilerHidden {
+  margin: 0;
+  padding: 12px 18px 18px;
+  font-size: 14px;
+  color: var(--c-text-dim);
+}
+
+.requests {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.request {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1.1fr) minmax(0, 1.6fr) minmax(0, 1.2fr) auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 18px;
+  background: var(--c-surface);
+}
+.reqMain,
+.reqCol {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  min-width: 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.reqPersona {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 22px;
+  color: var(--c-text);
+  text-decoration: underline;
+  text-decoration-color: var(--c-accent);
+  text-underline-offset: 4px;
+}
+.reqSkill {
+  font-size: 15px;
+  color: var(--c-text-muted);
+}
+.reqLabel {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.reqCombo {
+  font-size: 15px;
+}
+.reqNote {
+  color: var(--c-text-dim);
+}
+.reqBtn {
+  white-space: nowrap;
+}
+
+.ultimate {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 14px;
+  max-width: 860px;
+  margin-block: 8px 40px;
+  padding: 16px 20px;
+  background: var(--c-surface);
+  border-top: 3px solid var(--c-accent);
+}
+.ultimateLink {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--c-text);
+  text-decoration: underline;
+  text-decoration-color: var(--c-accent);
+  text-underline-offset: 4px;
+}
+
+@media (max-width: 860px) {
+  .request {
+    grid-template-columns: 48px minmax(0, 1fr);
+  }
+  .request > .reqCol,
+  .request > .reqBtn {
+    grid-column: 2;
+  }
+  .reqBtn {
+    justify-self: start;
+  }
+}
+
+.provisional {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #8a8a84;
+}
+
+.back {
+  padding-block: 20px 14px;
+}
+.progressDone {
+  font-family: var(--f-label);
+  font-weight: 800;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--c-accent);
+}
+.resetBtn {
+  padding-inline: 14px;
+  font-size: 15px;
+}
+
+/* Rango máximo */
+.rankMax {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #6d6c5d;
+  border: 1px solid var(--c-accent);
+  padding: 12px 24px 12px 12px;
+  margin-bottom: 24px;
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}
+.rankMax img {
+  width: 220px;
+  height: auto;
+  flex: none;
+}
+.rankMaxText {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 18px;
+}
+.rankMaxKicker {
+  font-family: var(--f-display);
+  font-size: 34px;
+  color: var(--c-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+@media (max-width: 600px) {
+  .rankMax {
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+  }
+  .rankMax img {
+    width: 100%;
+    max-width: 320px;
+  }
+}
+
+.rankNote {
+  background: var(--c-surface);
+  border-left: 4px solid #f08ac0;
+  padding: 14px 20px;
+  margin-bottom: 24px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.rankNote p {
+  margin: 0;
+}
+
+.pointsHint { margin: 0 0 12px; color: var(--c-text-muted); font-size: 15px; max-width: 80ch; }

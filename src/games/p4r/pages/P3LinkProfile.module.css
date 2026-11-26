@@ -1,0 +1,71 @@
+/* Copia de p3r/pages/LinkProfile.module.css para Persona 4 Revival: los fondos negros van en el gris del juego (#6d6c5d) con texto blanco. */
+.page { padding-block: 20px 64px; display: grid; gap: 22px; }
+.back { color: var(--c-primary-light); font-family: var(--f-label); font-weight: 800; text-decoration: none; }
+.top { display: grid; grid-template-columns: minmax(0, 320px) minmax(0, 1fr); gap: 28px; align-items: start; }
+@media (max-width: 760px) { .top { grid-template-columns: 1fr; } .photo { max-width: 340px; } }
+.photo { background: var(--c-surface); }
+.info { display: grid; gap: 8px; }
+.name { margin: 0; font-family: var(--f-display); font-size: clamp(32px, 5vw, 50px); line-height: 1.05; }
+.sub { margin: 0; color: var(--c-text-muted); font-family: var(--f-label); font-size: 18px; }
+.facts { display: grid; grid-template-columns: auto 1fr; gap: 8px 16px; margin: 8px 0 0; }
+.facts dt { font-family: var(--f-label); font-weight: 800; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--c-primary-light); padding-top: 3px; }
+.facts dd { margin: 0; }
+.list { display: grid; gap: 10px; }
+.h2 { margin: 0; font-family: var(--f-display); font-size: 28px; }
+.note { margin: 0; color: var(--c-text-muted); max-width: 75ch; }
+.rank { background: var(--c-surface); border-left: 6px solid var(--c-primary); display: grid; }
+.routeHead { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin: 12px 16px 0; }
+.routeHead small { color: var(--c-text-dim); }
+.route { font-family: var(--f-label); font-size: 12px; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; padding: 2px 8px; border: 1px solid var(--c-primary); color: var(--c-primary-light); }
+.done { font-size: 13px; color: var(--c-text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+.choice { padding: 12px 16px; display: grid; gap: 8px; }
+.choice + .choice { border-top: 1px dashed var(--c-line); }
+.q { margin: 0; display: grid; gap: 2px; color: var(--c-text-muted); font-style: italic; }
+.q cite { font-style: normal; font-family: var(--f-label); font-weight: 800; color: var(--c-text); font-size: 14px; }
+.q small, .opts small { display: block; color: var(--c-text-dim); font-size: 13px; font-style: normal; }
+.opts { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.opts li { display: flex; gap: 10px; align-items: center; padding: 8px 12px; background: var(--c-surface-2); border: 2px solid transparent; }
+.opts li > span:first-child { flex: 1; }
+.opts .best { border-color: var(--c-primary); }
+.pts { font-family: var(--f-label); color: var(--c-primary-light); font-size: 18px; }
+.zero { font-family: var(--f-label); color: var(--c-text-dim); }
+.spoiler { width: 100%; min-height: 56px; }
+.credit { color: var(--c-text-dim); font-size: 13px; margin: 0; }
+.trackRow { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 12px; }
+.switch { position: relative; width: 64px; height: 34px; padding: 0; border: 2px solid var(--c-line); background: var(--c-surface-2); cursor: pointer; transform: skewX(-12deg); transition: background 0.2s; }
+.switch span { position: absolute; top: 4px; left: 4px; width: 22px; height: 22px; background: var(--c-text-dim); transition: left 0.2s, background 0.2s; }
+.switchOn { background: var(--c-primary); border-color: var(--c-primary); }
+.switchOn span { left: 34px; background: var(--c-ink-bg, var(--c-ink)); }
+.trackLabel { font-family: var(--f-label); font-weight: 800; font-size: 18px; letter-spacing: 0.04em; text-transform: uppercase; }
+.trackNote { font-size: 14px; color: var(--c-text-dim); }
+.trackNote a { color: var(--c-primary-light); }
+.progress { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; padding: 14px 20px; background: var(--c-surface); border-left: 6px solid var(--c-primary); }
+.progressLabel { font-family: var(--f-label); font-weight: 800; font-size: 18px; text-transform: uppercase; }
+.progressLabel strong { color: var(--c-primary-light); font-size: 22px; }
+.progressTrack { flex: 1 1 200px; height: 12px; background: var(--c-line); transform: skewX(-20deg); }
+.progressTrack span { display: block; height: 100%; background: var(--c-primary); transition: width 0.3s; }
+.progressDone { font-family: var(--f-label); font-weight: 800; text-transform: uppercase; color: var(--c-primary-light); }
+.resetBtn { padding-inline: 14px; font-size: 15px; }
+.rankButtons { display: flex; flex-wrap: wrap; gap: 8px; }
+.rankBtn { width: 56px; height: 56px; border: 2px solid var(--c-line); background: var(--c-surface); color: var(--c-text); font-family: var(--f-display); font-size: 24px; cursor: pointer; clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%); transition: transform 0.15s, background 0.15s; }
+.rankBtn:hover { transform: translateY(-3px); }
+.rankDone { background: #ff9a00; border-color: #ff9a00; color: #1b1b1b; } /* rangos completados: naranja (en P3 Reload eran azules) */
+.rankSel { background: var(--c-primary); border-color: var(--c-primary); color: var(--c-ink); }
+.rankTitle { margin-top: 8px; }
+.rankNum { font-family: var(--f-display); font-size: 48px; line-height: 1; color: var(--c-primary-light); text-transform: uppercase; }
+.dontMatter { background: var(--c-surface); border-left: 6px solid var(--c-primary); padding: 18px 22px; }
+/* Ruta romántica: contorno rosa */
+.romance { border-left-color: var(--c-romance); outline: 2px solid var(--c-romance); outline-offset: -2px; }
+.romance .route, .routeR { border-color: var(--c-romance); color: var(--c-romance); }
+.opts .romanceOpt { border-color: var(--c-romance); }
+.page { --c-romance: #FF6FB5; }
+
+.rankMax { display: flex; align-items: center; gap: 24px; padding: 14px 20px; border: 1px solid var(--c-primary); }
+.rankMax img { width: 220px; height: auto; flex: none; }
+.rankMaxText { display: flex; flex-direction: column; gap: 6px; }
+.rankMaxKicker { font-family: var(--f-display); font-size: 34px; color: var(--c-primary-light); text-transform: uppercase; }
+@media (max-width: 640px) { .rankMax { flex-direction: column; text-align: center; padding: 12px; } .rankMax img { width: 100%; max-width: 320px; } }
+/* Recompensas por rango (Golden) */
+.rewardBox { display: grid; gap: 6px; padding: 12px 18px; background: var(--c-surface); border-left: 6px solid var(--c-primary-light, var(--c-primary)); }
+.rewardHead { font-family: var(--f-label); font-weight: 800; font-size: 13px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--c-primary-light, var(--c-primary)); }
+.rewardList { margin: 0; padding-left: 18px; display: grid; gap: 4px; }

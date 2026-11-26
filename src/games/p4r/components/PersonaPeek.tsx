@@ -3,7 +3,7 @@ import { getArcana } from '../data/arcana';
 import { personaName } from '../services/text';
 import { personaImage } from '../services/images';
 import type { Persona } from '../types';
-import styles from '../../p5r/components/PersonaPeek.module.css';
+import styles from './PersonaPeek.module.css';
 import { L } from '../../../i18n';
 
 /** Las evoluciones de los compañeros son spoiler. */

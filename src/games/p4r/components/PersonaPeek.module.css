@@ -1,0 +1,101 @@
+/* Copia de p5r/components/PersonaPeek.module.css para Persona 4 Revival: los fondos negros van en el gris del juego (#6d6c5d) con texto blanco. */
+/* Nombre de Persona con vista previa */
+.peek {
+  position: relative;
+  display: inline-flex;
+}
+.link {
+  color: var(--c-text);
+  text-decoration: underline;
+  text-decoration-color: var(--c-accent);
+  text-underline-offset: 3px;
+}
+.link:hover,
+.link:focus-visible {
+  color: var(--c-accent-light);
+}
+.preview {
+  color: var(--c-text);
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: calc(100% + 8px);
+  z-index: 30;
+  width: 150px;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  background: var(--c-ink-bg, var(--c-ink));
+  border: 2px solid var(--c-accent);
+  box-shadow: 5px 5px 0 var(--c-primary);
+  pointer-events: none;
+}
+.peek:hover .preview,
+.peek:focus-within .preview {
+  display: flex;
+}
+.photo {
+  width: 130px;
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: #8a8a84;
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+.previewName {
+  font-family: var(--f-label);
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+}
+.previewMeta {
+  font-size: 12px;
+  color: var(--c-text-dim);
+}
+
+
+.below {
+  bottom: auto;
+  top: calc(100% + 8px);
+}
+
+.side {
+  left: calc(100% + 12px);
+  top: 50%;
+  bottom: auto;
+  transform: translateY(-50%);
+}
+@media (max-width: 640px) {
+  .side {
+    left: 0;
+    top: auto;
+    bottom: calc(100% + 8px);
+    transform: none;
+  }
+}
+
+.photoImg {
+  width: 130px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 50% 30%;
+  background: #6d6c5d;
+  color: #ffffff;
+  --c-text: #ffffff;
+  --c-text-muted: #f3f1e8;
+  --c-text-dim: #e8e5d6;
+  --c-accent: #ffe600;
+  --c-primary-light: #ffe600;
+  --c-hp: #28d6e6;  /* en el gris, PS y PE con los colores vivos del juego */
+  --c-sp: #92e71c;
+  --c-hp-dark: #28d6e6;
+  --c-sp-dark: #92e71c;
+}

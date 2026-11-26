@@ -10,7 +10,7 @@ import { getFusionEngine } from '../fusion';
 import { personaName } from '../services/text';
 import type { Persona } from '../types';
 import styles from './Fusion.module.css';
-import royal from '../../p5r/pages/Fusion.module.css';
+import royal from './RoyalFusion.module.css';
 import { ImagePlaceholder } from '../../../shared/components/ImagePlaceholder';
 import { personaImage } from '../services/images';
 import { L } from '../../../i18n';
